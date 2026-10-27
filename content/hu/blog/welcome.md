@@ -1,6 +1,6 @@
 ---
 title: Egy oldal az európai mesh számára
-date: '2026-10-26'
+date: '2026-10-27'
 description: A meshcore-info.eu összegyűjti a helyi mesh hálózatok közös beállításait, útmutatóit és eszközeit, 16 nyelven. Innen másolhatod a sajtóközleményt és a sajtóanyagot.
 # Fixed the wording? Set status to human, or a change to the English there can replace your fix.
 translation:

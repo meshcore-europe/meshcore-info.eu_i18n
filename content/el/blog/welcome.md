@@ -1,6 +1,6 @@
 ---
 title: Ένας ιστότοπος για το mesh στην Ευρώπη
-date: '2026-10-26'
+date: '2026-10-27'
 description: Το meshcore-info.eu συγκεντρώνει τις ρυθμίσεις, τους οδηγούς και τα εργαλεία που μοιράζονται τα τοπικά mesh, σε 16 γλώσσες. Αντέγραψε από εδώ το δελτίο τύπου και το υλικό για τον τύπο.
 # Fixed the wording? Set status to human, or a change to the English there can replace your fix.
 translation:

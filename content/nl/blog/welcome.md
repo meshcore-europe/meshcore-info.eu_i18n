@@ -1,6 +1,6 @@
 ---
 title: Eén site voor de mesh in Europa
-date: '2026-10-26'
+date: '2026-10-27'
 description: meshcore-info.eu verzamelt de instellingen, handleidingen en tools die de lokale meshes delen, in 16 talen. Kopieer hier het persbericht en de perskit.
 # Fixed the wording? Set status to human, or a change to the English there can replace your fix.
 translation:

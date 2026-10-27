@@ -1,6 +1,6 @@
 ---
 title: Un singur site pentru mesh-ul din Europa
-date: '2026-10-26'
+date: '2026-10-27'
 description: meshcore-info.eu adună setările, ghidurile și instrumentele pe care le împart mesh-urile locale, în 16 limbi. Copiază de aici comunicatul de presă și kitul de presă.
 # Fixed the wording? Set status to human, or a change to the English there can replace your fix.
 translation:

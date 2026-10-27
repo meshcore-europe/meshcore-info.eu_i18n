@@ -1,6 +1,6 @@
 ---
 title: Ét site for mesh-nettet i Europa
-date: '2026-10-26'
+date: '2026-10-27'
 description: meshcore-info.eu samler de indstillinger, guides og værktøjer, som de lokale mesh-net deler, på 16 sprog. Kopiér pressemeddelelsen og pressekittet herfra.
 # Fixed the wording? Set status to human, or a change to the English there can replace your fix.
 translation:

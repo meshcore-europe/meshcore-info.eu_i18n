@@ -1,6 +1,6 @@
 ---
 title: Jeden web pro mesh v Evropě
-date: '2026-10-26'
+date: '2026-10-27'
 description: meshcore-info.eu shromažďuje nastavení, návody a nástroje, které místní meshe sdílejí, v 16 jazycích. Tisková zpráva a tiskový balíček jsou ke zkopírování zde.
 # Fixed the wording? Set status to human, or a change to the English there can replace your fix.
 translation:
