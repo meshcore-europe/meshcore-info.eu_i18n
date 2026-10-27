@@ -3,7 +3,7 @@
     "language": "cs",
     "name": "Čeština",
     "managed_by": "community",
-    "updated": "2026-10-26"
+    "updated": "2026-10-27"
   },
   "site_tagline": {
     "value": "Zprávy bez sítě napříč Evropou",
@@ -5260,5 +5260,629 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "207bc805"
+  },
+  "menu_privacy": {
+    "value": "Soukromí",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "54a57c31"
+  },
+  "menu_wallpapers": {
+    "value": "Tapety",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "006547c4"
+  },
+  "menu_start": {
+    "value": "Začátek",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "e4bb9f1e"
+  },
+  "menu_about": {
+    "value": "Co je MeshCore",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "a50b70cf"
+  },
+  "menu_about_sub": {
+    "value": "Rádiové zprávy bez internetu",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "aab7190e"
+  },
+  "menu_devices": {
+    "value": "Zařízení",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "4ba5121d"
+  },
+  "menu_devices_sub": {
+    "value": "Desky, jejich spotřeba a cena",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "20f93671"
+  },
+  "menu_get_started": {
+    "value": "Začni",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "61e8d44a"
+  },
+  "menu_get_started_sub": {
+    "value": "Od nové desky k tvé první zprávě",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "d67ed219"
+  },
+  "menu_repeater_guide": {
+    "value": "Průvodce repeaterem",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "4608abcd"
+  },
+  "menu_repeater_guide_sub": {
+    "value": "Umístění, výkon a zákonné limity",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "666a0c8c"
+  },
+  "menu_start_group_1": {
+    "value": "Poznej",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "ce78afd0"
+  },
+  "menu_start_group_1_all": {
+    "value": "Více o MeshCore",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "2c7c7283"
+  },
+  "menu_start_group_2": {
+    "value": "Udělej",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "30094e0b"
+  },
+  "menu_start_card_eyebrow": {
+    "value": "Jsi tu nově",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "10bc4c55"
+  },
+  "menu_start_card_title": {
+    "value": "Tvoje první zpráva",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "d0e38ee3"
+  },
+  "menu_start_card_body": {
+    "value": "Deska, aplikace a nastavení pro tvou zemi. Do hodiny jsi v meshi.",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "7c10acb3"
+  },
+  "menu_start_card_button": {
+    "value": "Začni",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "61e8d44a"
+  },
+  "menu_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "c2a314c3"
+  },
+  "menu_fw_build": {
+    "value": "Přehled firmwaru",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "1cf2ad9a"
+  },
+  "menu_fw_build_sub": {
+    "value": "Jaký firmware běží na tvé desce",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "54130720"
+  },
+  "menu_fw_flash": {
+    "value": "Nahrát",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "f3577cb5"
+  },
+  "menu_fw_flash_sub": {
+    "value": "Z tvého prohlížeče, přes USB",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "e6dbc0b0"
+  },
+  "menu_fw_console": {
+    "value": "Sériová konzole",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "4e3c41fa"
+  },
+  "menu_fw_console_sub": {
+    "value": "Zadávej příkazy přes USB",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "40df16c8"
+  },
+  "menu_fw_changelog": {
+    "value": "Seznam změn",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "ead07c84"
+  },
+  "menu_fw_changelog_sub": {
+    "value": "Co se změnilo",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "1bcbf1dc"
+  },
+  "menu_firmware_group_1": {
+    "value": "Na tvém rádiu",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "d3234810"
+  },
+  "menu_firmware_group_1_all": {
+    "value": "Všechen firmware",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "27bfcf0e"
+  },
+  "menu_firmware_group_2": {
+    "value": "Zůstaň aktuální",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "57a5a75f"
+  },
+  "menu_firmware_card_eyebrow": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "c2a314c3"
+  },
+  "menu_firmware_card_title": {
+    "value": "Oficiální firmware",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "39cc2886"
+  },
+  "menu_firmware_card_body": {
+    "value": "Nahraj oficiální firmware z prohlížeče. Nic neinstaluješ.",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "e75a91bd"
+  },
+  "menu_firmware_card_button": {
+    "value": "Nahraj firmware na desku",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "b5b6987e"
+  },
+  "menu_guides": {
+    "value": "Návody",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "572cd72f"
+  },
+  "menu_guides_overview": {
+    "value": "Přehled návodů",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "8db6b2ea"
+  },
+  "menu_guides_overview_sub": {
+    "value": "Všechny návody podle toho, co chceš dělat",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "0a19370e"
+  },
+  "menu_guide_settings": {
+    "value": "Doporučené nastavení",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "cfb32983"
+  },
+  "menu_guide_settings_sub": {
+    "value": "Preset a nastavení pro tvou oblast",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "8592dd01"
+  },
+  "menu_guide_antenna": {
+    "value": "Průvodce anténami",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "3a76cb0e"
+  },
+  "menu_guide_antenna_sub": {
+    "value": "Vyber, připoj a namontuj anténu",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "e57b6f1d"
+  },
+  "menu_guide_keygen": {
+    "value": "Vygeneruj klíč",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "e798fa1b"
+  },
+  "menu_guide_keygen_sub": {
+    "value": "S předponou, kterou si zvolíš",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "02f5281d"
+  },
+  "menu_guide_channels": {
+    "value": "Najdi kanály",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "9905513b"
+  },
+  "menu_guide_channels_sub": {
+    "value": "Kanály ve tvém okolí, včetně klíčů",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "695ddeef"
+  },
+  "menu_guide_filter": {
+    "value": "Filtr paketů",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "20a3ef1f"
+  },
+  "menu_guide_filter_sub": {
+    "value": "Vysvětlení včetně příkazů",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "7cd98eed"
+  },
+  "menu_guide_mqtt": {
+    "value": "MQTT na tvém observeru",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "62626d0f"
+  },
+  "menu_guide_mqtt_sub": {
+    "value": "Hlas, co tvůj uzel slyší",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "593d1245"
+  },
+  "menu_guide_mctomqtt": {
+    "value": "Sestav konfiguraci mostu",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "fd2dd667"
+  },
+  "menu_guide_mctomqtt_sub": {
+    "value": "Repeater přes USB k brokeru",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "22227ad5"
+  },
+  "menu_guide_cli": {
+    "value": "Příkazy CLI",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "a13cc6cb"
+  },
+  "menu_guide_cli_sub": {
+    "value": "Každý příkaz vysvětlený",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "aa1f6046"
+  },
+  "menu_guides_group_1": {
+    "value": "Nastav svůj uzel",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "55efd611"
+  },
+  "menu_guides_group_1_all": {
+    "value": "Všechny návody",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "0b5543ef"
+  },
+  "menu_guides_group_2": {
+    "value": "Jdi hlouběji",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "6bce982b"
+  },
+  "menu_guides_card_eyebrow": {
+    "value": "Znalostní báze",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "f56819a3"
+  },
+  "menu_guides_card_title": {
+    "value": "MeshWiki",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "821342d8"
+  },
+  "menu_guides_card_body": {
+    "value": "Komunitní wiki o MeshCore, pro všechno, co tu nenajdeš.",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "b3d4f00f"
+  },
+  "menu_guides_card_button": {
+    "value": "Přejdi na MeshWiki",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "2ddff05f"
+  },
+  "menu_network": {
+    "value": "Síť",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "1744b964"
+  },
+  "menu_map": {
+    "value": "Mapy pokrytí",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "4b9f20a0"
+  },
+  "menu_map_sub": {
+    "value": "Kam mesh dosahuje",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "4ec1e205"
+  },
+  "menu_network_overview": {
+    "value": "Síť",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "1b32d67c"
+  },
+  "menu_network_overview_sub": {
+    "value": "Observery a živá čísla",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "dc64142f"
+  },
+  "menu_network_group_1": {
+    "value": "Mapy",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "119e66d1"
+  },
+  "menu_network_group_1_all": {
+    "value": "Síť",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "1b32d67c"
+  },
+  "menu_network_group_2": {
+    "value": "Data",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "cec3a9b8"
+  },
+  "menu_network_card_eyebrow": {
+    "value": "Pokrytí",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "523487a5"
+  },
+  "menu_network_card_title": {
+    "value": "Kam mesh dosahuje",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "4ec1e205"
+  },
+  "menu_network_card_body": {
+    "value": "Mapy, které provozují komunity po celé Evropě, od MeshCore Analyzeru po místní projekty.",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "fb1630d4"
+  },
+  "menu_network_card_button": {
+    "value": "Otevři mapy",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "e7674cfc"
+  },
+  "menu_community": {
+    "value": "Komunita",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "bb501d78"
+  },
+  "menu_local_groups": {
+    "value": "Místní skupiny",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "dff00c14"
+  },
+  "menu_local_groups_sub": {
+    "value": "Najdi místní skupinu ve svém okolí",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "d619ea7a"
+  },
+  "menu_projects": {
+    "value": "Projekty",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "04e2a972"
+  },
+  "menu_projects_sub": {
+    "value": "Co lidé staví na MeshCore",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "d4563ab2"
+  },
+  "menu_news": {
+    "value": "Novinky",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "69752f23"
+  },
+  "menu_news_sub": {
+    "value": "Z meshe po celé Evropě",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "39d66042"
+  },
+  "menu_contribute": {
+    "value": "Přispěj",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "97b0c61b"
+  },
+  "menu_contribute_sub": {
+    "value": "Pomoz psát a překládat web",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "8f5f2836"
+  },
+  "menu_press_kit": {
+    "value": "Propagace a materiály pro média",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "fc691b26"
+  },
+  "menu_press_kit_sub": {
+    "value": "Logo, obrázky, tapety a text o webu",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "97e4fd91"
+  },
+  "menu_community_group_1": {
+    "value": "Lidé",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "7db20897"
+  },
+  "menu_community_group_1_all": {
+    "value": "Všechny místní skupiny",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "6700740b"
+  },
+  "menu_community_group_2": {
+    "value": "Co vytvořili",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "468d3c4f"
+  },
+  "menu_community_card_eyebrow": {
+    "value": "Ve tvém okolí",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "ab808511"
+  },
+  "menu_community_card_title": {
+    "value": "Přidej se k místní skupině",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "a0b3cc29"
+  },
+  "menu_community_card_body": {
+    "value": "Každá místní skupina má své kanály, nastavení a lidi, kterých se můžeš zeptat.",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "b38a16bf"
+  },
+  "menu_community_card_button": {
+    "value": "Najdi svou skupinu",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "cef2ba32"
+  },
+  "menu_footer_1": {
+    "value": "Začátek",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "e4bb9f1e"
+  },
+  "menu_footer_2": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "c2a314c3"
+  },
+  "menu_footer_3": {
+    "value": "Návody",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "572cd72f"
+  },
+  "menu_footer_4": {
+    "value": "Síť a komunita",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "ade2740d"
+  },
+  "menu_footer_note_1": {
+    "value": "Nekomerční komunitní průvodce MeshCore v Evropě, od dobrovolníků, bez reklam, affiliate odkazů a sledování. Není součástí projektu MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "69e7015d"
+  },
+  "menu_footer_note_2": {
+    "value": "Texty CC BY 4.0, kód MIT.",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "845058ef"
+  },
+  "shell_theme": {
+    "value": "Motiv",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "efb52e71"
+  },
+  "shell_language": {
+    "value": "Jazyk",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "a4fe6526"
+  },
+  "shell_colour_vision": {
+    "value": "Barevné vidění",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "df1c3606"
+  },
+  "shell_account": {
+    "value": "Účet",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "7e1b0d56"
+  },
+  "shell_menu": {
+    "value": "Menu",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "99af6606"
+  },
+  "shell_system": {
+    "value": "Podle systému",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "48b4e3ed"
+  },
+  "shell_dark": {
+    "value": "Tmavý",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "60acc53f"
+  },
+  "shell_light": {
+    "value": "Světlý",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "dbcd5e7b"
   }
 }
