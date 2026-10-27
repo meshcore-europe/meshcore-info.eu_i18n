@@ -1,6 +1,6 @@
 ---
 title: En webbplats för meshen i Europa
-date: '2026-10-26'
+date: '2026-10-27'
 description: meshcore-info.eu samlar de inställningar, guider och verktyg som de lokala meshnäten delar, på 16 språk. Hämta pressmeddelandet och presskitet här.
 # Fixed the wording? Set status to human, or a change to the English there can replace your fix.
 translation:

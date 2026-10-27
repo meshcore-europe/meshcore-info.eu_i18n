@@ -1,6 +1,6 @@
 ---
 title: Yksi sivusto Euroopan meshille
-date: '2026-10-26'
+date: '2026-10-27'
 description: meshcore-info.eu kokoaa yhteen paikallisten meshien jakamat asetukset, oppaat ja työkalut 16 kielellä. Kopioi lehdistötiedote ja lehdistöpaketti täältä.
 # Fixed the wording? Set status to human, or a change to the English there can replace your fix.
 translation:

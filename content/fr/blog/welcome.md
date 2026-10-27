@@ -1,6 +1,6 @@
 ---
 title: Un seul site pour le maillage en Europe
-date: '2026-10-26'
+date: '2026-10-27'
 description: meshcore-info.eu rassemble les réglages, guides et outils que les maillages locaux partagent, en 16 langues. Copie ici le communiqué de presse et le kit presse.
 # Fixed the wording? Set status to human, or a change to the English there can replace your fix.
 translation:

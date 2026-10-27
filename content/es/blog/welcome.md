@@ -1,6 +1,6 @@
 ---
 title: Un solo sitio para la malla en Europa
-date: '2026-10-26'
+date: '2026-10-27'
 description: meshcore-info.eu reúne los ajustes, las guías y las herramientas que comparten las mallas locales, en 16 idiomas. Copia aquí la nota de prensa y el kit de prensa.
 # Fixed the wording? Set status to human, or a change to the English there can replace your fix.
 translation:

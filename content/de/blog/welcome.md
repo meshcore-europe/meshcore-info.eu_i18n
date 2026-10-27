@@ -1,6 +1,6 @@
 ---
 title: Eine Seite für das Mesh in Europa
-date: '2026-10-26'
+date: '2026-10-27'
 description: meshcore-info.eu sammelt die Einstellungen, Anleitungen und Werkzeuge, die die lokalen Meshes teilen, in 16 Sprachen. Hier findest du die Pressemitteilung und das Pressekit zum Kopieren.
 # Fixed the wording? Set status to human, or a change to the English there can replace your fix.
 translation:

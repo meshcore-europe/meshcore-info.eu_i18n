@@ -1,6 +1,6 @@
 ---
 title: Un unico sito per la mesh in Europa
-date: '2026-10-26'
+date: '2026-10-27'
 description: meshcore-info.eu raccoglie le impostazioni, le guide e gli strumenti che le mesh locali condividono, in 16 lingue. Da qui puoi copiare il comunicato stampa e il press kit.
 # Fixed the wording? Set status to human, or a change to the English there can replace your fix.
 translation:

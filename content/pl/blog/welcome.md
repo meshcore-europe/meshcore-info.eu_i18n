@@ -1,6 +1,6 @@
 ---
 title: Jedna strona dla siatki w Europie
-date: '2026-10-26'
+date: '2026-10-27'
 description: meshcore-info.eu zbiera ustawienia, poradniki i narzędzia, którymi dzielą się lokalne siatki, w 16 językach. Skopiuj stąd komunikat prasowy i materiały prasowe.
 # Fixed the wording? Set status to human, or a change to the English there can replace your fix.
 translation:
