@@ -3,7 +3,7 @@
     "language": "fr",
     "name": "Français",
     "managed_by": "community",
-    "updated": "2026-10-26"
+    "updated": "2026-10-27"
   },
   "site_tagline": {
     "value": "Messagerie hors réseau à travers l'Europe",
@@ -5260,5 +5260,629 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "207bc805"
+  },
+  "menu_privacy": {
+    "value": "Confidentialité",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "54a57c31"
+  },
+  "menu_wallpapers": {
+    "value": "Fonds d'écran",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "006547c4"
+  },
+  "menu_start": {
+    "value": "Démarrer",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "e4bb9f1e"
+  },
+  "menu_about": {
+    "value": "Qu'est-ce que MeshCore",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "a50b70cf"
+  },
+  "menu_about_sub": {
+    "value": "Des messages radio sans internet",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "aab7190e"
+  },
+  "menu_devices": {
+    "value": "Appareils",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "4ba5121d"
+  },
+  "menu_devices_sub": {
+    "value": "Cartes, leur consommation et leur prix",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "20f93671"
+  },
+  "menu_get_started": {
+    "value": "Premiers pas",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "61e8d44a"
+  },
+  "menu_get_started_sub": {
+    "value": "D'une carte neuve à ton premier message",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "d67ed219"
+  },
+  "menu_repeater_guide": {
+    "value": "Guide répéteur",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "4608abcd"
+  },
+  "menu_repeater_guide_sub": {
+    "value": "Emplacement, puissance et limites légales",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "666a0c8c"
+  },
+  "menu_start_group_1": {
+    "value": "Apprendre",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "ce78afd0"
+  },
+  "menu_start_group_1_all": {
+    "value": "Plus sur MeshCore",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "2c7c7283"
+  },
+  "menu_start_group_2": {
+    "value": "Agir",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "30094e0b"
+  },
+  "menu_start_card_eyebrow": {
+    "value": "Nouveau ici",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "10bc4c55"
+  },
+  "menu_start_card_title": {
+    "value": "Ton premier message",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "d0e38ee3"
+  },
+  "menu_start_card_body": {
+    "value": "Une carte, l'application et les réglages pour ton pays. Tu es sur le maillage en moins d'une heure.",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "7c10acb3"
+  },
+  "menu_start_card_button": {
+    "value": "Premiers pas",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "61e8d44a"
+  },
+  "menu_firmware": {
+    "value": "Micrologiciel",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "c2a314c3"
+  },
+  "menu_fw_build": {
+    "value": "Aperçu des micrologiciels",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "1cf2ad9a"
+  },
+  "menu_fw_build_sub": {
+    "value": "Quel micrologiciel tourne sur ta carte",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "54130720"
+  },
+  "menu_fw_flash": {
+    "value": "Flasher",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "f3577cb5"
+  },
+  "menu_fw_flash_sub": {
+    "value": "Depuis ton navigateur, par USB",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "e6dbc0b0"
+  },
+  "menu_fw_console": {
+    "value": "Console série",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "4e3c41fa"
+  },
+  "menu_fw_console_sub": {
+    "value": "Tape des commandes par USB",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "40df16c8"
+  },
+  "menu_fw_changelog": {
+    "value": "Journal des modifications",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "ead07c84"
+  },
+  "menu_fw_changelog_sub": {
+    "value": "Ce qui a changé",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "1bcbf1dc"
+  },
+  "menu_firmware_group_1": {
+    "value": "Sur ta radio",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "d3234810"
+  },
+  "menu_firmware_group_1_all": {
+    "value": "Tous les micrologiciels",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "27bfcf0e"
+  },
+  "menu_firmware_group_2": {
+    "value": "Rester à jour",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "57a5a75f"
+  },
+  "menu_firmware_card_eyebrow": {
+    "value": "Micrologiciel",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "c2a314c3"
+  },
+  "menu_firmware_card_title": {
+    "value": "Le micrologiciel officiel",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "39cc2886"
+  },
+  "menu_firmware_card_body": {
+    "value": "Flashe le micrologiciel officiel depuis ton navigateur. Rien à installer.",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "e75a91bd"
+  },
+  "menu_firmware_card_button": {
+    "value": "Flasher ta carte",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "b5b6987e"
+  },
+  "menu_guides": {
+    "value": "Guides",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "572cd72f"
+  },
+  "menu_guides_overview": {
+    "value": "Aperçu des guides",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "8db6b2ea"
+  },
+  "menu_guides_overview_sub": {
+    "value": "Chaque guide, selon ce que tu veux faire",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "0a19370e"
+  },
+  "menu_guide_settings": {
+    "value": "Réglages recommandés",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "cfb32983"
+  },
+  "menu_guide_settings_sub": {
+    "value": "Le préréglage et les réglages pour ta zone",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "8592dd01"
+  },
+  "menu_guide_antenna": {
+    "value": "Guide antenne",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "3a76cb0e"
+  },
+  "menu_guide_antenna_sub": {
+    "value": "En choisir une, la brancher et la fixer",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "e57b6f1d"
+  },
+  "menu_guide_keygen": {
+    "value": "Générer une clé",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "e798fa1b"
+  },
+  "menu_guide_keygen_sub": {
+    "value": "Avec un préfixe que tu choisis",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "02f5281d"
+  },
+  "menu_guide_channels": {
+    "value": "Trouver des canaux",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "9905513b"
+  },
+  "menu_guide_channels_sub": {
+    "value": "Les canaux près de chez toi, avec leurs clés",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "695ddeef"
+  },
+  "menu_guide_filter": {
+    "value": "Filtre de paquets",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "20a3ef1f"
+  },
+  "menu_guide_filter_sub": {
+    "value": "Expliqué, avec les commandes",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "7cd98eed"
+  },
+  "menu_guide_mqtt": {
+    "value": "MQTT sur ton observateur",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "62626d0f"
+  },
+  "menu_guide_mqtt_sub": {
+    "value": "Rapporte ce que ton nœud entend",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "593d1245"
+  },
+  "menu_guide_mctomqtt": {
+    "value": "Créer une config de passerelle",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "fd2dd667"
+  },
+  "menu_guide_mctomqtt_sub": {
+    "value": "Un répéteur par USB vers un broker",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "22227ad5"
+  },
+  "menu_guide_cli": {
+    "value": "Commandes CLI",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "a13cc6cb"
+  },
+  "menu_guide_cli_sub": {
+    "value": "Chaque commande expliquée",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "aa1f6046"
+  },
+  "menu_guides_group_1": {
+    "value": "Configurer ton nœud",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "55efd611"
+  },
+  "menu_guides_group_1_all": {
+    "value": "Tous les guides",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "0b5543ef"
+  },
+  "menu_guides_group_2": {
+    "value": "Aller plus loin",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "6bce982b"
+  },
+  "menu_guides_card_eyebrow": {
+    "value": "Base de connaissances",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "f56819a3"
+  },
+  "menu_guides_card_title": {
+    "value": "MeshWiki",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "821342d8"
+  },
+  "menu_guides_card_body": {
+    "value": "Le wiki communautaire sur MeshCore, pour tout ce qui n'est pas couvert ici.",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "b3d4f00f"
+  },
+  "menu_guides_card_button": {
+    "value": "Aller sur MeshWiki",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "2ddff05f"
+  },
+  "menu_network": {
+    "value": "Réseau",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "1744b964"
+  },
+  "menu_map": {
+    "value": "Cartes de couverture",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "4b9f20a0"
+  },
+  "menu_map_sub": {
+    "value": "Jusqu'où porte le maillage",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "4ec1e205"
+  },
+  "menu_network_overview": {
+    "value": "Le réseau",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "1b32d67c"
+  },
+  "menu_network_overview_sub": {
+    "value": "Observateurs et chiffres en direct",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "dc64142f"
+  },
+  "menu_network_group_1": {
+    "value": "Cartes",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "119e66d1"
+  },
+  "menu_network_group_1_all": {
+    "value": "Le réseau",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "1b32d67c"
+  },
+  "menu_network_group_2": {
+    "value": "Données",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "cec3a9b8"
+  },
+  "menu_network_card_eyebrow": {
+    "value": "Couverture",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "523487a5"
+  },
+  "menu_network_card_title": {
+    "value": "Jusqu'où porte le maillage",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "4ec1e205"
+  },
+  "menu_network_card_body": {
+    "value": "Des cartes tenues par des communautés partout en Europe, du MeshCore Analyzer aux projets locaux.",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "fb1630d4"
+  },
+  "menu_network_card_button": {
+    "value": "Ouvrir les cartes",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "e7674cfc"
+  },
+  "menu_community": {
+    "value": "Communauté",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "bb501d78"
+  },
+  "menu_local_groups": {
+    "value": "Groupes locaux",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "dff00c14"
+  },
+  "menu_local_groups_sub": {
+    "value": "Trouve le groupe local près de chez toi",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "d619ea7a"
+  },
+  "menu_projects": {
+    "value": "Projets",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "04e2a972"
+  },
+  "menu_projects_sub": {
+    "value": "Ce que les gens construisent sur MeshCore",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "d4563ab2"
+  },
+  "menu_news": {
+    "value": "Actualités",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "69752f23"
+  },
+  "menu_news_sub": {
+    "value": "Du maillage partout en Europe",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "39d66042"
+  },
+  "menu_contribute": {
+    "value": "Contribuer",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "97b0c61b"
+  },
+  "menu_contribute_sub": {
+    "value": "Aide à écrire et traduire le site",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "8f5f2836"
+  },
+  "menu_press_kit": {
+    "value": "Kit promo et presse",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "fc691b26"
+  },
+  "menu_press_kit_sub": {
+    "value": "Logo, images, fonds d'écran et un texte sur le site",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "97e4fd91"
+  },
+  "menu_community_group_1": {
+    "value": "Personnes",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "7db20897"
+  },
+  "menu_community_group_1_all": {
+    "value": "Tous les groupes locaux",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "6700740b"
+  },
+  "menu_community_group_2": {
+    "value": "Fait par eux",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "468d3c4f"
+  },
+  "menu_community_card_eyebrow": {
+    "value": "Près de chez toi",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "ab808511"
+  },
+  "menu_community_card_title": {
+    "value": "Rejoins un groupe local",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "a0b3cc29"
+  },
+  "menu_community_card_body": {
+    "value": "Chaque groupe local a ses propres canaux, ses réglages et des gens à qui demander.",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "b38a16bf"
+  },
+  "menu_community_card_button": {
+    "value": "Trouve ton groupe",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "cef2ba32"
+  },
+  "menu_footer_1": {
+    "value": "Démarrer",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "e4bb9f1e"
+  },
+  "menu_footer_2": {
+    "value": "Micrologiciel",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "c2a314c3"
+  },
+  "menu_footer_3": {
+    "value": "Guides",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "572cd72f"
+  },
+  "menu_footer_4": {
+    "value": "Réseau et communauté",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "ade2740d"
+  },
+  "menu_footer_note_1": {
+    "value": "Un guide communautaire non commercial sur MeshCore en Europe, par des bénévoles, sans publicité, liens d'affiliation ni pistage. Ne fait pas partie du projet MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "69e7015d"
+  },
+  "menu_footer_note_2": {
+    "value": "Texte CC BY 4.0, code MIT.",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "845058ef"
+  },
+  "shell_theme": {
+    "value": "Thème",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "efb52e71"
+  },
+  "shell_language": {
+    "value": "Langue",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "a4fe6526"
+  },
+  "shell_colour_vision": {
+    "value": "Vision des couleurs",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "df1c3606"
+  },
+  "shell_account": {
+    "value": "Compte",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "7e1b0d56"
+  },
+  "shell_menu": {
+    "value": "Menu",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "99af6606"
+  },
+  "shell_system": {
+    "value": "Suivre le système",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "48b4e3ed"
+  },
+  "shell_dark": {
+    "value": "Sombre",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "60acc53f"
+  },
+  "shell_light": {
+    "value": "Clair",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "dbcd5e7b"
   }
 }

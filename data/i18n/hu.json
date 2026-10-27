@@ -3,7 +3,7 @@
     "language": "hu",
     "name": "Magyar",
     "managed_by": "community",
-    "updated": "2026-10-26"
+    "updated": "2026-10-27"
   },
   "site_tagline": {
     "value": "Hálózatfüggetlen üzenetküldés Európa-szerte",
@@ -5260,5 +5260,629 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "207bc805"
+  },
+  "menu_privacy": {
+    "value": "Adatvédelem",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "54a57c31"
+  },
+  "menu_wallpapers": {
+    "value": "Háttérképek",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "006547c4"
+  },
+  "menu_start": {
+    "value": "Kezdés",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "e4bb9f1e"
+  },
+  "menu_about": {
+    "value": "Mi az a MeshCore",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "a50b70cf"
+  },
+  "menu_about_sub": {
+    "value": "Rádióüzenetek internet nélkül",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "aab7190e"
+  },
+  "menu_devices": {
+    "value": "Eszközök",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "4ba5121d"
+  },
+  "menu_devices_sub": {
+    "value": "Panelek, fogyasztásuk és áruk",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "20f93671"
+  },
+  "menu_get_started": {
+    "value": "Kezdj neki",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "61e8d44a"
+  },
+  "menu_get_started_sub": {
+    "value": "Az új paneltől az első üzenetedig",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "d67ed219"
+  },
+  "menu_repeater_guide": {
+    "value": "Átjátszó útmutató",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "4608abcd"
+  },
+  "menu_repeater_guide_sub": {
+    "value": "Elhelyezés, teljesítmény és a jogi határok",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "666a0c8c"
+  },
+  "menu_start_group_1": {
+    "value": "Tanulj",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "ce78afd0"
+  },
+  "menu_start_group_1_all": {
+    "value": "Többet a MeshCore-ról",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "2c7c7283"
+  },
+  "menu_start_group_2": {
+    "value": "Csináld",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "30094e0b"
+  },
+  "menu_start_card_eyebrow": {
+    "value": "Új vagy itt",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "10bc4c55"
+  },
+  "menu_start_card_title": {
+    "value": "Az első üzeneted",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "d0e38ee3"
+  },
+  "menu_start_card_body": {
+    "value": "Egy panel, az app és az országodhoz való beállítások. Egy órán belül a meshen vagy.",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "7c10acb3"
+  },
+  "menu_start_card_button": {
+    "value": "Kezdj neki",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "61e8d44a"
+  },
+  "menu_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "c2a314c3"
+  },
+  "menu_fw_build": {
+    "value": "Firmware áttekintés",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "1cf2ad9a"
+  },
+  "menu_fw_build_sub": {
+    "value": "Melyik firmware fut a paneleden",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "54130720"
+  },
+  "menu_fw_flash": {
+    "value": "Flashelés",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "f3577cb5"
+  },
+  "menu_fw_flash_sub": {
+    "value": "A böngésződből, USB-n át",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "e6dbc0b0"
+  },
+  "menu_fw_console": {
+    "value": "Soros konzol",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "4e3c41fa"
+  },
+  "menu_fw_console_sub": {
+    "value": "Parancsok beírása USB-n át",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "40df16c8"
+  },
+  "menu_fw_changelog": {
+    "value": "Változásnapló",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "ead07c84"
+  },
+  "menu_fw_changelog_sub": {
+    "value": "Mi változott",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "1bcbf1dc"
+  },
+  "menu_firmware_group_1": {
+    "value": "A rádiódon",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "d3234810"
+  },
+  "menu_firmware_group_1_all": {
+    "value": "Minden firmware",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "27bfcf0e"
+  },
+  "menu_firmware_group_2": {
+    "value": "Maradj naprakész",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "57a5a75f"
+  },
+  "menu_firmware_card_eyebrow": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "c2a314c3"
+  },
+  "menu_firmware_card_title": {
+    "value": "A hivatalos firmware",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "39cc2886"
+  },
+  "menu_firmware_card_body": {
+    "value": "Flasheld a hivatalos firmware-t a böngésződből. Semmit sem kell telepítened.",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "e75a91bd"
+  },
+  "menu_firmware_card_button": {
+    "value": "Flasheld a paneled",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "b5b6987e"
+  },
+  "menu_guides": {
+    "value": "Útmutatók",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "572cd72f"
+  },
+  "menu_guides_overview": {
+    "value": "Útmutatók áttekintése",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "8db6b2ea"
+  },
+  "menu_guides_overview_sub": {
+    "value": "Minden útmutató, aszerint, mit szeretnél csinálni",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "0a19370e"
+  },
+  "menu_guide_settings": {
+    "value": "Ajánlott beállítások",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "cfb32983"
+  },
+  "menu_guide_settings_sub": {
+    "value": "A térségedhez való preset és beállítások",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "8592dd01"
+  },
+  "menu_guide_antenna": {
+    "value": "Antenna útmutató",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "3a76cb0e"
+  },
+  "menu_guide_antenna_sub": {
+    "value": "Válassz, csatlakoztass és szerelj fel egyet",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "e57b6f1d"
+  },
+  "menu_guide_keygen": {
+    "value": "Kulcs generálása",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "e798fa1b"
+  },
+  "menu_guide_keygen_sub": {
+    "value": "Általad választott előtaggal",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "02f5281d"
+  },
+  "menu_guide_channels": {
+    "value": "Csatornák keresése",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "9905513b"
+  },
+  "menu_guide_channels_sub": {
+    "value": "A közeledben lévő csatornák, kulcsaikkal együtt",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "695ddeef"
+  },
+  "menu_guide_filter": {
+    "value": "Csomagszűrő",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "20a3ef1f"
+  },
+  "menu_guide_filter_sub": {
+    "value": "Elmagyarázva, parancsokkal",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "7cd98eed"
+  },
+  "menu_guide_mqtt": {
+    "value": "MQTT a megfigyelődön",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "62626d0f"
+  },
+  "menu_guide_mqtt_sub": {
+    "value": "Jelentsd, mit hall a csomópontod",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "593d1245"
+  },
+  "menu_guide_mctomqtt": {
+    "value": "Híd konfiguráció készítése",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "fd2dd667"
+  },
+  "menu_guide_mctomqtt_sub": {
+    "value": "Egy átjátszó USB-n át egy brokerhez",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "22227ad5"
+  },
+  "menu_guide_cli": {
+    "value": "CLI parancsok",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "a13cc6cb"
+  },
+  "menu_guide_cli_sub": {
+    "value": "Minden parancs elmagyarázva",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "aa1f6046"
+  },
+  "menu_guides_group_1": {
+    "value": "Állítsd be a csomópontod",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "55efd611"
+  },
+  "menu_guides_group_1_all": {
+    "value": "Minden útmutató",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "0b5543ef"
+  },
+  "menu_guides_group_2": {
+    "value": "Merülj mélyebbre",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "6bce982b"
+  },
+  "menu_guides_card_eyebrow": {
+    "value": "Tudástár",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "f56819a3"
+  },
+  "menu_guides_card_title": {
+    "value": "MeshWiki",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "821342d8"
+  },
+  "menu_guides_card_body": {
+    "value": "A közösségi MeshCore wiki, mindenhez, ami itt nem szerepel.",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "b3d4f00f"
+  },
+  "menu_guides_card_button": {
+    "value": "Ugrás a MeshWikire",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "2ddff05f"
+  },
+  "menu_network": {
+    "value": "Hálózat",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "1744b964"
+  },
+  "menu_map": {
+    "value": "Lefedettségi térképek",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "4b9f20a0"
+  },
+  "menu_map_sub": {
+    "value": "Ameddig a mesh elér",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "4ec1e205"
+  },
+  "menu_network_overview": {
+    "value": "A hálózat",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "1b32d67c"
+  },
+  "menu_network_overview_sub": {
+    "value": "Megfigyelők és élő számok",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "dc64142f"
+  },
+  "menu_network_group_1": {
+    "value": "Térképek",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "119e66d1"
+  },
+  "menu_network_group_1_all": {
+    "value": "A hálózat",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "1b32d67c"
+  },
+  "menu_network_group_2": {
+    "value": "Adatok",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "cec3a9b8"
+  },
+  "menu_network_card_eyebrow": {
+    "value": "Lefedettség",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "523487a5"
+  },
+  "menu_network_card_title": {
+    "value": "Ameddig a mesh elér",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "4ec1e205"
+  },
+  "menu_network_card_body": {
+    "value": "Európa-szerte közösségek által működtetett térképek, a MeshCore Analyzertől a helyi projektekig.",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "fb1630d4"
+  },
+  "menu_network_card_button": {
+    "value": "Térképek megnyitása",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "e7674cfc"
+  },
+  "menu_community": {
+    "value": "Közösség",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "bb501d78"
+  },
+  "menu_local_groups": {
+    "value": "Helyi csoportok",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "dff00c14"
+  },
+  "menu_local_groups_sub": {
+    "value": "Találd meg a hozzád közeli helyi csoportot",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "d619ea7a"
+  },
+  "menu_projects": {
+    "value": "Projektek",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "04e2a972"
+  },
+  "menu_projects_sub": {
+    "value": "Amit mások a MeshCore-ra építenek",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "d4563ab2"
+  },
+  "menu_news": {
+    "value": "Hírek",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "69752f23"
+  },
+  "menu_news_sub": {
+    "value": "A meshről, Európa-szerte",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "39d66042"
+  },
+  "menu_contribute": {
+    "value": "Járulj hozzá",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "97b0c61b"
+  },
+  "menu_contribute_sub": {
+    "value": "Segíts írni és fordítani az oldalt",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "8f5f2836"
+  },
+  "menu_press_kit": {
+    "value": "Promó- és sajtóanyag",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "fc691b26"
+  },
+  "menu_press_kit_sub": {
+    "value": "Logó, képek, háttérképek és egy szöveg az oldalról",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "97e4fd91"
+  },
+  "menu_community_group_1": {
+    "value": "Emberek",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "7db20897"
+  },
+  "menu_community_group_1_all": {
+    "value": "Minden helyi csoport",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "6700740b"
+  },
+  "menu_community_group_2": {
+    "value": "Amit ők készítettek",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "468d3c4f"
+  },
+  "menu_community_card_eyebrow": {
+    "value": "A közeledben",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "ab808511"
+  },
+  "menu_community_card_title": {
+    "value": "Csatlakozz egy helyi csoporthoz",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "a0b3cc29"
+  },
+  "menu_community_card_body": {
+    "value": "Minden helyi csoportnak saját csatornái, beállításai és kérdezhető emberei vannak.",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "b38a16bf"
+  },
+  "menu_community_card_button": {
+    "value": "Keresd meg a csoportod",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "cef2ba32"
+  },
+  "menu_footer_1": {
+    "value": "Kezdés",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "e4bb9f1e"
+  },
+  "menu_footer_2": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "c2a314c3"
+  },
+  "menu_footer_3": {
+    "value": "Útmutatók",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "572cd72f"
+  },
+  "menu_footer_4": {
+    "value": "Hálózat és közösség",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "ade2740d"
+  },
+  "menu_footer_note_1": {
+    "value": "Nem kereskedelmi közösségi útmutató a MeshCore-hoz Európában, önkéntesektől, hirdetések, affiliate linkek és követés nélkül. Nem része a MeshCore projektnek.",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "69e7015d"
+  },
+  "menu_footer_note_2": {
+    "value": "Szöveg CC BY 4.0, kód MIT.",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "845058ef"
+  },
+  "shell_theme": {
+    "value": "Téma",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "efb52e71"
+  },
+  "shell_language": {
+    "value": "Nyelv",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "a4fe6526"
+  },
+  "shell_colour_vision": {
+    "value": "Színlátás",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "df1c3606"
+  },
+  "shell_account": {
+    "value": "Fiók",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "7e1b0d56"
+  },
+  "shell_menu": {
+    "value": "Menü",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "99af6606"
+  },
+  "shell_system": {
+    "value": "Rendszer követése",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "48b4e3ed"
+  },
+  "shell_dark": {
+    "value": "Sötét",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "60acc53f"
+  },
+  "shell_light": {
+    "value": "Világos",
+    "_ai": true,
+    "_seeded": "2026-10-27",
+    "_source": "dbcd5e7b"
   }
 }
