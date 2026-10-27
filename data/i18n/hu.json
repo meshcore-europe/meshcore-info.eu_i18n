@@ -1,0 +1,5264 @@
+{
+  "_meta": {
+    "language": "hu",
+    "name": "Magyar",
+    "managed_by": "community",
+    "updated": "2026-10-26"
+  },
+  "site_tagline": {
+    "value": "Hálózatfüggetlen üzenetküldés Európa-szerte",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fd77fd37"
+  },
+  "site_description": {
+    "value": "A közösségi útmutató a MeshCore-hoz Európában: első lépések, hardver, helyi csoportok, lefedettségi térképek és átjátszók. Nem kereskedelmi és nyílt forráskódú.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "00f6c54b"
+  },
+  "skip_to_content": {
+    "value": "Ugrás a tartalomra",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ac576a66"
+  },
+  "menu": {
+    "value": "Menü",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "99af6606"
+  },
+  "nav_label": {
+    "value": "Fő",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eb814be3"
+  },
+  "nav_about": {
+    "value": "Rólunk",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4efca0d1"
+  },
+  "nav_get_started": {
+    "value": "Első lépések",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "61e8d44a"
+  },
+  "nav_devices": {
+    "value": "Eszközök",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4ba5121d"
+  },
+  "nav_community": {
+    "value": "Közösség",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bb501d78"
+  },
+  "nav_map": {
+    "value": "Térkép",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be176b00"
+  },
+  "nav_repeater_guide": {
+    "value": "Átjátszó útmutató",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4608abcd"
+  },
+  "nav_news": {
+    "value": "Hírek",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "69752f23"
+  },
+  "nav_projects": {
+    "value": "Projektek",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "04e2a972"
+  },
+  "nav_contribute": {
+    "value": "Közreműködés",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "97b0c61b"
+  },
+  "nav_privacy": {
+    "value": "Adatvédelem",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "54a57c31"
+  },
+  "in_english": {
+    "value": "Ez az oldal angol nyelvű",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7e9323d9"
+  },
+  "lang_switch_label": {
+    "value": "Nyelv",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a4fe6526"
+  },
+  "not_translated_yet": {
+    "value": "még nincs lefordítva",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3f59d8d3"
+  },
+  "theme_light": {
+    "value": "Téma: világos",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "72a842db"
+  },
+  "theme_dark": {
+    "value": "Téma: sötét",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "43908c59"
+  },
+  "theme_system": {
+    "value": "Téma: rendszer",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "98a8dd2c"
+  },
+  "copy": {
+    "value": "Másolás",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e21f935f"
+  },
+  "copied": {
+    "value": "Másolva",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8d525e5f"
+  },
+  "hero_eyebrow": {
+    "value": "868 MHz · Európa",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "567ed2b0"
+  },
+  "hero_title": {
+    "value": "Hálózaton kívül, a meshen belül.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "43ed56a7"
+  },
+  "hero_lead": {
+    "value": "A MeshCore rádión küld üzeneteket, internet és előfizetés nélkül. Európa meshei egyetlen hálózattá kapcsolódnak össze. Itt a közösségeik megosztják, amit tanulnak.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "19ad0ab5"
+  },
+  "hero_cta_start": {
+    "value": "Kezdj bele",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "61e8d44a"
+  },
+  "hero_cta_about": {
+    "value": "Tudd meg, mi a MeshCore",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "cdecad6f"
+  },
+  "paths_title": {
+    "value": "Hol szeretnél kezdeni?",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "bf614863"
+  },
+  "path_new_title": {
+    "value": "Új vagy itt",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "10bc4c55"
+  },
+  "path_new_desc": {
+    "value": "Mi az a mesh, és mire képes a MeshCore, mire nem.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "a3e4ab18"
+  },
+  "path_offgrid_title": {
+    "value": "Készen, ha a hálózatok leállnak",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "b005ed6a"
+  },
+  "path_offgrid_desc": {
+    "value": "Válassz panelt túrázáshoz, vitorlázáshoz, rendezvényekhez vagy áramszünetre.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6a84d5b4"
+  },
+  "path_build_title": {
+    "value": "Építés és barkácsolás",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c24822f6"
+  },
+  "path_build_desc": {
+    "value": "Rádió, antennák, eszközök és más közösségek projektjei.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "31166d76"
+  },
+  "path_grow_title": {
+    "value": "Átjátszó hozzáadása",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "bf145b6c"
+  },
+  "path_grow_desc": {
+    "value": "Tervezz és helyezz el egy átjátszót, amely lefedi a környékedet.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "db75c8c5"
+  },
+  "path_local_title": {
+    "value": "Emberek a közeledben",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "808e1f66"
+  },
+  "path_local_desc": {
+    "value": "Találd meg a helyi csoportodat, a csevegéseit és a csatornáit.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "a1e525eb"
+  },
+  "why_title": {
+    "value": "Miért a MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "67d51fbe"
+  },
+  "why_costs_title": {
+    "value": "Nincs fenntartási költség",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "adff5b03"
+  },
+  "why_costs_desc": {
+    "value": "Egyszer veszel egy rádiót. Az üzenetek semmibe sem kerülnek: nincs SIM-kártya, adatcsomag vagy előfizetés.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6e735f31"
+  },
+  "why_infra_title": {
+    "value": "Hálózat nélkül is működik",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "058c8eae"
+  },
+  "why_infra_desc": {
+    "value": "Akkor is működik, ha a mobilhálózat és az internet kiesik vagy elérhetetlen. Az üzenetek rádióról rádióra, a levegőn át jutnak el.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ec9de206"
+  },
+  "why_open_title": {
+    "value": "Nyílt forráskódú",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "67a0d2e0"
+  },
+  "why_open_desc": {
+    "value": "A firmware és a protokollja nyílt forráskódú, így bárki építhet rájuk. Nyílt alkalmazások, eszközök és könyvtárak már meg is teszik.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "97859c5f"
+  },
+  "why_privacy_title": {
+    "value": "Alapból privát",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "485ca594"
+  },
+  "why_privacy_desc": {
+    "value": "A közvetlen üzenetek végponttól végpontig titkosítottak. A csatlakozáshoz nem kell fiók vagy telefonszám.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6901512e"
+  },
+  "why_routing_title": {
+    "value": "Helyi, régiónként",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be9348e5"
+  },
+  "why_routing_desc": {
+    "value": "Az első üzeneted floodként terjed az átjátszókon át, a tetőkön és árbocokon álló csomópontokon, amelyek továbbadják az üzeneteket. A floodként terjedő üzenet hordozhat régiót, és az átjátszók csak az általuk kiszolgált régiókat adják tovább, így az üzenet a saját területén marad.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e9620b88"
+  },
+  "why_community_title": {
+    "value": "Egy mesh, sok csoport",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "a49e1ded"
+  },
+  "why_community_desc": {
+    "value": "Európa-szerte helyi csoportok állítanak fel átjátszókat, osztanak meg beállításokat és segítik az újoncokat. A hozzád közelit a Helyi csoportok alatt találod.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d1e253bc"
+  },
+  "home_live_label": {
+    "value": "Élőben Európa-szerte",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "44ee0071"
+  },
+  "home_live_packets": {
+    "value": "csomag az utolsó teljes órában",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "e3e24e13"
+  },
+  "home_live_countries": {
+    "value": "ország hallható volt az elmúlt órában",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "502cba0e"
+  },
+  "home_live_repeaters": {
+    "value": "átjátszó hallható volt az elmúlt 7 napban",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2890ece6"
+  },
+  "home_live_source": {
+    "value": "Adatok forrása: meshcore-analyzer.eu",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "73b22a30"
+  },
+  "strip_label_release": {
+    "value": "Kiadás",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e020e3c6"
+  },
+  "strip_label_reference": {
+    "value": "Referencia",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "71bf9093"
+  },
+  "strip_label_guides": {
+    "value": "Útmutatók",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "572cd72f"
+  },
+  "strip_label_directory": {
+    "value": "Címtár",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c8f84c3c"
+  },
+  "strip_label_site": {
+    "value": "Ez az oldal",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e487482d"
+  },
+  "strip_released": {
+    "value": "kiadva",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d29eae13"
+  },
+  "strip_boards": {
+    "value": "panel",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "685d9a8f"
+  },
+  "strip_commands": {
+    "value": "CLI-parancs",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a13cc6cb"
+  },
+  "strip_latest_firmware": {
+    "value": "legújabb firmware",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a0daddac"
+  },
+  "strip_releases": {
+    "value": "kiadás ezen az oldalon",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e99084d9"
+  },
+  "strip_areas": {
+    "value": "terület ajánlott beállításokkal",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "789b6daa"
+  },
+  "strip_presets": {
+    "value": "rádióprofil",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cb582a14"
+  },
+  "strip_devices": {
+    "value": "eszköz",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ade15a12"
+  },
+  "strip_groups": {
+    "value": "helyi csoport",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f40e444b"
+  },
+  "strip_countries": {
+    "value": "ország",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e45d4cba"
+  },
+  "strip_maps": {
+    "value": "lefedettségi térkép",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e149f255"
+  },
+  "strip_channel_countries": {
+    "value": "választható ország",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0fbe9da9"
+  },
+  "strip_projects": {
+    "value": "projekt",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2577c0f5"
+  },
+  "strip_languages": {
+    "value": "nyelv",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6cb574fa"
+  },
+  "strip_trackers": {
+    "value": "nyomkövető",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "da068881"
+  },
+  "strip_third_party": {
+    "value": "külső kérés",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "64ebce3d"
+  },
+  "strip_cookie": {
+    "value": "süti, csak ha témát választasz",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be0b8e53"
+  },
+  "strip_checked": {
+    "value": "Ellenőrizve",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0efd92a3"
+  },
+  "strip_release_source": {
+    "value": "A MeshCore kiadásaiból",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d619a021"
+  },
+  "news_latest": {
+    "value": "Legfrissebb hírek",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f74e23c2"
+  },
+  "news_english_only": {
+    "value": "A hírek csak angolul jelennek meg.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "815251ef"
+  },
+  "news_all": {
+    "value": "Minden hír",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "67c7790c"
+  },
+  "badge_ai": {
+    "value": "Gépi fordítás",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e174e770"
+  },
+  "badge_human": {
+    "value": "Ellenőrzött fordítás",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3f4efebd"
+  },
+  "banner_ai_title": {
+    "value": "Ezt az oldalt gép fordította.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1cb96c83"
+  },
+  "banner_ai_body": {
+    "value": "Anyanyelvi beszélő még nem ellenőrizte, ezért egyes megfogalmazások pontatlanok lehetnek.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bbc7e56b"
+  },
+  "banner_stale": {
+    "value": "Az angol oldal megváltozott a fordítás óta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b34a3714"
+  },
+  "read_english": {
+    "value": "Olvasd el az angol változatot",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "971012a5"
+  },
+  "banner_improve": {
+    "value": "Segíts javítani ezt a fordítást",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a9a967b6"
+  },
+  "edit_page": {
+    "value": "Szerkeszd ezt az oldalt a GitHubon",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "073fd103"
+  },
+  "planned_note": {
+    "value": "Ezt az oldalt még építjük.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f0aebcf0"
+  },
+  "planned_more": {
+    "value": "Addig ezek az oldalak segíthetnek:",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ec1b5efa"
+  },
+  "last_verified": {
+    "value": "Utoljára ellenőrizve",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "d8e92048"
+  },
+  "sources": {
+    "value": "Források",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "caf85b08"
+  },
+  "callout_tip": {
+    "value": "Tipp",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a4245a3c"
+  },
+  "callout_warning": {
+    "value": "Figyelem",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e981ddae"
+  },
+  "callout_legal": {
+    "value": "Jogi tudnivaló",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4787eaf7"
+  },
+  "filter_title": {
+    "value": "Szűkítsd le",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "28c6eb01"
+  },
+  "filter_any": {
+    "value": "Bármelyik",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2b505597"
+  },
+  "filter_reset": {
+    "value": "Szűrők törlése",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "10afa984"
+  },
+  "filter_count": {
+    "value": "{shown} / {total} látható",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f3d25c92"
+  },
+  "filter_empty": {
+    "value": "Ezekre a szűrőkre semmi sem illik.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "7094992d"
+  },
+  "filter_role_q": {
+    "value": "Mire fogod használni?",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "25ed547a"
+  },
+  "filter_price_q": {
+    "value": "Költségkeret",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1c6225ec"
+  },
+  "filter_power_q": {
+    "value": "Fogyasztás",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "848e9656"
+  },
+  "filter_category_q": {
+    "value": "Kategória",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "292c06f0"
+  },
+  "role_companion": {
+    "value": "Companion (a rádió, amelyről üzenetet küldesz)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "fc49eb4e"
+  },
+  "role_repeater": {
+    "value": "Átjátszó",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "46e7bee1"
+  },
+  "role_room_server": {
+    "value": "Room server",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "68b91cc5"
+  },
+  "price_1": {
+    "value": "€ (25 alatt)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "84cdcfea"
+  },
+  "price_2": {
+    "value": "€€ (25 és 60 között)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "be9a6bd8"
+  },
+  "price_3": {
+    "value": "€€€ (60 felett)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "0e261f3a"
+  },
+  "power_battery": {
+    "value": "Beépített akkumulátor",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3b3a4b7e"
+  },
+  "power_external": {
+    "value": "Külső táp vagy napelem",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "50778470"
+  },
+  "power_profile_low": {
+    "value": "Alacsony",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f793de20"
+  },
+  "power_profile_medium": {
+    "value": "Közepes",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "8e588cd1"
+  },
+  "power_profile_high": {
+    "value": "Magas",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c4ebc6d4"
+  },
+  "spec_mcu": {
+    "value": "Processzor",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "54aac653"
+  },
+  "spec_radio": {
+    "value": "LoRa chip",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1d340ea4"
+  },
+  "spec_battery": {
+    "value": "Akkumulátor",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "dfcb7c16"
+  },
+  "spec_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "176c7866"
+  },
+  "spec_screen": {
+    "value": "Kijelző",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6e56137e"
+  },
+  "spec_connectivity": {
+    "value": "Kapcsolódás",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "5479401f"
+  },
+  "spec_form": {
+    "value": "Kivitel",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "12827072"
+  },
+  "spec_price": {
+    "value": "Ársáv",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "396491b7"
+  },
+  "spec_power": {
+    "value": "Fogyasztás",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "96fcc312"
+  },
+  "spec_firmware": {
+    "value": "MeshCore-támogatás",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "4f7c9307"
+  },
+  "fw_official": {
+    "value": "Hivatalos build",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e07a4935"
+  },
+  "fw_community": {
+    "value": "Közösségi build",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f8338fb4"
+  },
+  "yes": {
+    "value": "Igen",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "85a39ab3"
+  },
+  "no": {
+    "value": "Nem",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1ea442a1"
+  },
+  "none": {
+    "value": "Nincs",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "dc937b59"
+  },
+  "form_handheld": {
+    "value": "Kézi készülék",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "ecb26701"
+  },
+  "form_board": {
+    "value": "Csupasz panel",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "33e95aea"
+  },
+  "form_enclosed": {
+    "value": "Dobozolt csomópont",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "751c73a5"
+  },
+  "form_wearable": {
+    "value": "Viselhető",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6e31070f"
+  },
+  "form_usb": {
+    "value": "USB-stick",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "031ad13f"
+  },
+  "conn_ble": {
+    "value": "Bluetooth LE",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "e05f95a2"
+  },
+  "conn_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "337253f2"
+  },
+  "conn_usb": {
+    "value": "USB",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "61f0acff"
+  },
+  "devices_empty": {
+    "value": "Még nincs eszköz a listában.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a158b22a"
+  },
+  "devices_list_title": {
+    "value": "Minden eszköz",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0594fe82"
+  },
+  "community_channels": {
+    "value": "Csatornák",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4c8906cf"
+  },
+  "community_ask_at": {
+    "value": "a linket itt kérd",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "969f418d"
+  },
+  "community_languages": {
+    "value": "Nyelvek",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "318655ce"
+  },
+  "community_empty": {
+    "value": "Még nincs felsorolt helyi csoport.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "73a4cdc4"
+  },
+  "community_missing_title": {
+    "value": "Hiányzik a csoportod?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7c5581b0"
+  },
+  "community_jump": {
+    "value": "Ugrás egy országra",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f7361695"
+  },
+  "community_missing_body": {
+    "value": "Bárki hozzáadhat helyi csoportot. Nyiss egy issue-t a nevével, területével és linkjeivel, és egy karbantartó egyszerre felveszi minden nyelven.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a626e730"
+  },
+  "community_missing_cta": {
+    "value": "Add hozzá a helyi csoportodat",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f692beac"
+  },
+  "link_discord": {
+    "value": "Discord",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "053bc658"
+  },
+  "link_telegram": {
+    "value": "Telegram",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "acdd1e73"
+  },
+  "link_signal": {
+    "value": "Signal",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1e9806e4"
+  },
+  "link_matrix": {
+    "value": "Matrix",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "76a2171c"
+  },
+  "link_whatsapp": {
+    "value": "WhatsApp",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6a40edf1"
+  },
+  "link_forum": {
+    "value": "Fórum",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4da7bd42"
+  },
+  "link_website": {
+    "value": "Weboldal",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b5a229ac"
+  },
+  "link_map": {
+    "value": "Térkép",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be176b00"
+  },
+  "link_wiki": {
+    "value": "Wiki",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "63ec69fd"
+  },
+  "map_scope_europe": {
+    "value": "Egész Európa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d7bc2dd9"
+  },
+  "map_scope_country": {
+    "value": "Ország",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "701d021d"
+  },
+  "map_scope_region": {
+    "value": "Regionális",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "299a03b1"
+  },
+  "map_shows_nodes": {
+    "value": "Csomópontok",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7ac36206"
+  },
+  "map_shows_coverage": {
+    "value": "Lefedettség",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "523487a5"
+  },
+  "map_shows_traffic": {
+    "value": "Élő forgalom",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9fd86662"
+  },
+  "map_shows_analyzer": {
+    "value": "Csomagelemző",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14671539"
+  },
+  "map_shows_statistics": {
+    "value": "Statisztika",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a656107e"
+  },
+  "map_open": {
+    "value": "Térkép megnyitása",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ea488d26"
+  },
+  "maps_empty": {
+    "value": "Még nincs felsorolt térkép.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f4332bc7"
+  },
+  "map_tenants_intro": {
+    "value": "Egy elemző egész Európára. Helyi közösségek saját névvel és dizájnnal is futtatják, ugyanazokkal az élő adatokkal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6e5054f0"
+  },
+  "project_cat_app": {
+    "value": "App",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0d04bfeb"
+  },
+  "project_cat_tool": {
+    "value": "Eszköz",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2e53bdcd"
+  },
+  "project_cat_bridge": {
+    "value": "Híd",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3892e103"
+  },
+  "project_cat_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c2a314c3"
+  },
+  "project_cat_hardware": {
+    "value": "Hardver",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7975300f"
+  },
+  "project_cat_library": {
+    "value": "Könyvtár",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dc20b3d5"
+  },
+  "project_archived": {
+    "value": "Archivált",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bdb86505"
+  },
+  "project_licence": {
+    "value": "Licenc",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f3ec8e88"
+  },
+  "project_repo": {
+    "value": "Forráskód",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bf046c73"
+  },
+  "projects_empty": {
+    "value": "Még nincs felsorolt projekt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "26a6bda7"
+  },
+  "projects_list_title": {
+    "value": "Minden projekt",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4b87271b"
+  },
+  "projects_add_cta": {
+    "value": "Projekt beküldése",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8e8a3907"
+  },
+  "footer_about": {
+    "value": "Nem kereskedelmi közösségi útmutató a MeshCore-hoz Európában, hirdetések, partnerlinkek és követés nélkül.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8a0b3c0d"
+  },
+  "footer_disclaimer": {
+    "value": "A meshcore-info.eu oldalt önkéntesek működtetik, és nem áll kapcsolatban a MeshCore firmware fejlesztőivel.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5043ea17"
+  },
+  "footer_nav_label": {
+    "value": "Oldal",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fa795581"
+  },
+  "footer_source": {
+    "value": "Forráskód",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bf046c73"
+  },
+  "footer_license": {
+    "value": "A szöveg CC BY 4.0, a kód MIT licenc alatt áll.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "61085af6"
+  },
+  "not_found_title": {
+    "value": "Az oldal nem található",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a469ab4c"
+  },
+  "not_found_body": {
+    "value": "Ez az oldal nem létezik, vagy elköltözött.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a9044129"
+  },
+  "not_found_home": {
+    "value": "Ugrás a kezdőlapra",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "adcedded"
+  },
+  "picker_title": {
+    "value": "Válaszd ki a nyelved",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8e2d0664"
+  },
+  "coverage_caption": {
+    "value": "Fordítási lefedettség nyelvenként",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fdb7f8dd"
+  },
+  "coverage_language": {
+    "value": "Nyelv",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a4fe6526"
+  },
+  "coverage_strings": {
+    "value": "Felületi szövegek",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "146382ff"
+  },
+  "coverage_pages": {
+    "value": "Oldalak",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9046da16"
+  },
+  "coverage_human": {
+    "value": "Átnézett",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fad6057b"
+  },
+  "coverage_ai": {
+    "value": "Gépi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8f1cc42d"
+  },
+  "coverage_stale": {
+    "value": "Elavult",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c759f42e"
+  },
+  "coverage_missing": {
+    "value": "Hiányzik",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6be36ca4"
+  },
+  "presets_caption": {
+    "value": "Rádió-előbeállítások Európában",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "037c3732"
+  },
+  "presets_name": {
+    "value": "Előbeállítás az appban",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "46bda49e"
+  },
+  "presets_frequency": {
+    "value": "Frekvencia (MHz)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1740a857"
+  },
+  "presets_bandwidth": {
+    "value": "Sávszélesség (kHz)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "5cf2dd7b"
+  },
+  "presets_sf": {
+    "value": "Szórási tényező",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "7cda59eb"
+  },
+  "presets_cr": {
+    "value": "Kódolási arány",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2cd87b32"
+  },
+  "presets_source": {
+    "value": "A MeshCore projekt előbeállítás-listájából, ellenőrizve",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "215b400b"
+  },
+  "gain_label": {
+    "value": "Egy dipól és egy üvegszálas kollineáris antenna sugárnyalábja az árbocon át metszve, oldalról nézve, méretarányosan. A kollineáris elér egy távoli csomópontot a látóhatár mentén. Egy meredeken lent lévő csomópontot csak a dipól ér el.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d90bf3bb"
+  },
+  "gain_dipole": {
+    "value": "Dipól",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ef909a16"
+  },
+  "gain_collinear": {
+    "value": "Üvegszálas kollineáris",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "822f4c75"
+  },
+  "gain_node": {
+    "value": "Csomópont",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e9337253"
+  },
+  "country_ad": {
+    "value": "Andorra",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3e340be4"
+  },
+  "country_al": {
+    "value": "Albánia",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1af00b87"
+  },
+  "country_at": {
+    "value": "Ausztria",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c9cab023"
+  },
+  "country_ba": {
+    "value": "Bosznia-Hercegovina",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b0772b9c"
+  },
+  "country_be": {
+    "value": "Belgium",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "348841ef"
+  },
+  "country_bg": {
+    "value": "Bulgária",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "66b86bf0"
+  },
+  "country_by": {
+    "value": "Fehéroroszország",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4bef16df"
+  },
+  "country_ch": {
+    "value": "Svájc",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "22755831"
+  },
+  "country_cy": {
+    "value": "Ciprus",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5f1162c5"
+  },
+  "country_cz": {
+    "value": "Csehország",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ecfa967e"
+  },
+  "country_de": {
+    "value": "Németország",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "80db4ccd"
+  },
+  "country_dk": {
+    "value": "Dánia",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c5270975"
+  },
+  "country_ee": {
+    "value": "Észtország",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "10aeba69"
+  },
+  "country_es": {
+    "value": "Spanyolország",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8ef41e6f"
+  },
+  "country_fi": {
+    "value": "Finnország",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aed8f531"
+  },
+  "country_fo": {
+    "value": "Feröer szigetek",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "773ca4d6"
+  },
+  "country_fr": {
+    "value": "Franciaország",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7a1ca4ef"
+  },
+  "country_gb": {
+    "value": "Egyesült Királyság",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8d23a6e3"
+  },
+  "country_gg": {
+    "value": "Guernsey",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b9c48cb1"
+  },
+  "country_gi": {
+    "value": "Gibraltár",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "097ced58"
+  },
+  "country_gr": {
+    "value": "Görögország",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9c93ad43"
+  },
+  "country_hr": {
+    "value": "Horvátország",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7328d3f8"
+  },
+  "country_hu": {
+    "value": "Magyarország",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "504be308"
+  },
+  "country_ie": {
+    "value": "Írország",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "02bf1dfa"
+  },
+  "country_im": {
+    "value": "Man-sziget",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "34096f96"
+  },
+  "country_is": {
+    "value": "Izland",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "595d6d91"
+  },
+  "country_it": {
+    "value": "Olaszország",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5a9cf672"
+  },
+  "country_je": {
+    "value": "Jersey",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "764a8c04"
+  },
+  "country_li": {
+    "value": "Liechtenstein",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6ff080c0"
+  },
+  "country_lt": {
+    "value": "Litvánia",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5c83a631"
+  },
+  "country_lu": {
+    "value": "Luxemburg",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ed76f191"
+  },
+  "country_lv": {
+    "value": "Lettország",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "988c8160"
+  },
+  "country_mc": {
+    "value": "Monaco",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "935018cc"
+  },
+  "country_md": {
+    "value": "Moldova",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14ad63a1"
+  },
+  "country_me": {
+    "value": "Montenegró",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7ab597e1"
+  },
+  "country_mk": {
+    "value": "Észak-Macedónia",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cd847226"
+  },
+  "country_mt": {
+    "value": "Málta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "71e9eb10"
+  },
+  "country_nl": {
+    "value": "Hollandia",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3a386c13"
+  },
+  "country_no": {
+    "value": "Norvégia",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bea54a34"
+  },
+  "country_pl": {
+    "value": "Lengyelország",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7f69649a"
+  },
+  "country_pt": {
+    "value": "Portugália",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4c7de2c3"
+  },
+  "country_ro": {
+    "value": "Románia",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ea23726d"
+  },
+  "country_rs": {
+    "value": "Szerbia",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e8739c83"
+  },
+  "country_ru": {
+    "value": "Oroszország",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "33a3d8ed"
+  },
+  "country_se": {
+    "value": "Svédország",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "85363713"
+  },
+  "country_si": {
+    "value": "Szlovénia",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "56059e7f"
+  },
+  "country_sk": {
+    "value": "Szlovákia",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a2ea3384"
+  },
+  "country_sm": {
+    "value": "San Marino",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "230450a2"
+  },
+  "country_tr": {
+    "value": "Törökország",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d15b2145"
+  },
+  "country_ua": {
+    "value": "Ukrajna",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "580eedc6"
+  },
+  "country_va": {
+    "value": "Vatikán",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b0ce1029"
+  },
+  "country_xk": {
+    "value": "Koszovó",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4a867424"
+  },
+  "device.heltec-wifi-lora-32-v3.notes": {
+    "value": "Csupasz panel: tegyél hozzá tokot, antennát és akkumulátort. Az ESP32 túl sokat fogyaszt egy kis napelemes átjátszóhoz.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "bc29e2c9"
+  },
+  "device.heltec-wifi-lora-32-v4.notes": {
+    "value": "A nagy teljesítményű változat akár 28 dBm-mel ad, ami a legtöbb antennával az európai határérték felett van: az átjátszó-útmutató megmutatja, hogyan maradj alatta. Az alapváltozat 25 euró alatt kapható, a nagy teljesítményű drágább. Az R8 változatnak több memóriája van, és saját firmware-build kell hozzá.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5c626e8a"
+  },
+  "device.heltec-mesh-node-t114.notes": {
+    "value": "Alacsony fogyasztású nRF52 panel, a napelemes átjátszók gyakori alapja. Kijelző és GPS rendeléskor választható; velük 25 eurónál többe kerül.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f1999a30"
+  },
+  "device.heltec-wireless-tracker.notes": {
+    "value": "Panel beépített GPS-szel. Akkumulátort és tokot neked kell hozzá szerezned.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "5d4b7295"
+  },
+  "device.heltec-wireless-paper.notes": {
+    "value": "Az e-papír kijelző napfényben is olvasható marad. Akkumulátor nincs mellékelve.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "d60633a2"
+  },
+  "device.lilygo-t-echo.notes": {
+    "value": "Zsebméretű kézi készülék e-papír kijelzővel és GPS-szel. Létezik nagyobb akkumulátoros változata is.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1f285d65"
+  },
+  "device.lilygo-t-deck-plus.notes": {
+    "value": "Fizikai billentyűzet, hanyattegér és érintőkijelző. A Plus GPS-t és 2000 mAh-s akkumulátort ad hozzá.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "0fb0f75c"
+  },
+  "device.lilygo-t-beam-supreme.notes": {
+    "value": "18650-es cellát fogad, a cella nincs mellékelve. Az SX1262-es változatot válaszd: az LR1121-es változathoz nincs hivatalos firmware.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "e3db28aa"
+  },
+  "device.rak-wisblock-rak4631.notes": {
+    "value": "Moduláris: rápattintható modulokkal bővíthető GPS-szel, kijelzővel vagy szenzorokkal. Az alappanelen van napelem-bemenet.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c1317a23"
+  },
+  "device.rak-wismesh-tag.notes": {
+    "value": "Vékony, időjárásálló kitűző beépített antennákkal.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "572181c6"
+  },
+  "device.seeed-sensecap-t1000-e.notes": {
+    "value": "Bankkártya méretű, por- és fröccsenésálló (IP65), kijelző nélkül. LR1110 rádiót használ a gyakoribb SX1262 helyett.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "e18363be"
+  },
+  "device.seeed-xiao-nrf52840-wio-sx1262.notes": {
+    "value": "Apró, két panelből álló egység. Hordozható használathoz forrassz rá akkumulátort.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "3063cd1d"
+  },
+  "device.seeed-wio-tracker-l1-pro.notes": {
+    "value": "Tokban érkezik kijelzővel, GPS-szel és akkumulátorral. Létezik Lite és e-ink változata is.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "d9fd3d73"
+  },
+  "device.seeed-sensecap-solar-node-p1.notes": {
+    "value": "Időjárásálló tok 5 W-os napelemmel, négy 18650-es cellával és GPS-szel, átjátszókhoz készült.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f3c9e1f9"
+  },
+  "device.heltec-wifi-lora-32-v4-expansion-kit.notes": {
+    "value": "Egy V4-es panel fém házban, érintőképernyővel. A GPS és egy 18650-es cella rendeléskor választható. A MeshCore használja a képernyőt, de az érintést még nem.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8704efde"
+  },
+  "device.heltec-wireless-stick-lite-v3.notes": {
+    "value": "A V3 képernyő nélkül. Csupasz panel: tegyél hozzá házat, antennát és akkumulátort.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6a36169b"
+  },
+  "device.heltec-wireless-tracker-v2.notes": {
+    "value": "Panel GPS-szel és napelem-csatlakozóval. Akár 28 dBm-mel ad, ami a legtöbb antennával az európai határérték felett van: az átjátszó-útmutató megmutatja, hogyan maradj alatta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e56ec119"
+  },
+  "device.heltec-vision-master-e213.notes": {
+    "value": "Panel e-papír képernyővel, amely napfényben is olvasható marad. Akkumulátort és házat te adsz hozzá.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7519dcd5"
+  },
+  "device.heltec-vision-master-e290.notes": {
+    "value": "Mint az E213, nagyobb e-papír képernyővel. Akkumulátort és házat te adsz hozzá.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "84da4d43"
+  },
+  "device.heltec-vision-master-t190.notes": {
+    "value": "Panel színes képernyővel. Akkumulátort és házat te adsz hozzá.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "08d0d0d2"
+  },
+  "device.heltec-mesh-node-t1.notes": {
+    "value": "Kártya méretű címke GPS-szel és kis képernyővel, por- és fröccsenő víz ellen védett (IP65).",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c9807632"
+  },
+  "device.heltec-meshpocket.notes": {
+    "value": "Powerbank beépített csomóponttal és mágneses vezeték nélküli töltővel a telefonodhoz. 10000 mAh-s változatban is kapható.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0eab0a7c"
+  },
+  "device.heltec-meshsolar.notes": {
+    "value": "Panel napelemes átjátszóhoz: egy-négy cellát és 18-24 V-os napelemet fogad. A GPS és a képernyő kiegészítő.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "195aa41c"
+  },
+  "device.heltec-meshtower-v2.notes": {
+    "value": "Időjárásálló fém ház három cellával és 10 W-os napelemmel, átjátszókhoz készült. A GPS opcionális. A 30 dBm-es változat az európai határérték felett van: az átjátszó-útmutató megmutatja, hogyan maradj alatta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d935df5c"
+  },
+  "device.lilygo-t-echo-lite.notes": {
+    "value": "Kisebb T-Echo GPS-kiegészítő modullal. Házzal vagy ház nélkül kapható.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b18c1e64"
+  },
+  "device.lilygo-t-echo-card.notes": {
+    "value": "Bankkártya méretű, GPS-szel, hangszóróval és egy kis napelemmel, amely csak utántölti az akkumulátort.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1b860b15"
+  },
+  "device.lilygo-t-impulse-plus.notes": {
+    "value": "Karpánt GPS-szel, apró képernyővel és rezgőmotorral.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3bc53725"
+  },
+  "device.lilygo-t-deck.notes": {
+    "value": "Billentyűzet és trackball, mint a T-Deck Plus-on, GPS és akkumulátor nélkül. LoRa-s változatot válassz: létezik LoRa nélküli is.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e88fe0ef"
+  },
+  "device.lilygo-t-beam.notes": {
+    "value": "A klasszikus T-Beam a régebbi SX1276 rádióval. Egy 18650-es cellát fogad, nincs mellékelve.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7c56a56b"
+  },
+  "device.lilygo-t-beam-1w.notes": {
+    "value": "Akár 32 dBm-mel ad, ami jóval az európai határérték felett van: az átjátszó-útmutató megmutatja, hogyan maradj alatta. 7,4 V-os akkumulátor kell hozzá, amelyet nem tölt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9a8d7b03"
+  },
+  "device.elecrow-thinknode-m1.notes": {
+    "value": "Kézi készülék e-papír képernyővel és GPS-szel.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "590fa3ac"
+  },
+  "device.elecrow-thinknode-m2.notes": {
+    "value": "Kis kézi készülék OLED képernyővel. Akkumulátor nélkül is kapható.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "87f36cea"
+  },
+  "device.elecrow-thinknode-m3.notes": {
+    "value": "Por- és vízálló (IP66) nyomkövető GPS-szel, képernyő nélkül.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0c7b633a"
+  },
+  "device.elecrow-thinknode-m4.notes": {
+    "value": "Powerbank beépített csomóponttal és GPS-szel, képernyő nélkül.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "638c30a0"
+  },
+  "device.elecrow-thinknode-m5.notes": {
+    "value": "Mint az M1, ESP32 processzorral: több funkció, rövidebb akkumulátor-üzemidő.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7943f498"
+  },
+  "device.elecrow-thinknode-m6.notes": {
+    "value": "Időjárásálló ház (IP65) 6 W-os napelemmel, két 18650-es cellával és GPS-szel, átjátszókhoz készült.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c7efcb7f"
+  },
+  "device.elecrow-thinknode-m7.notes": {
+    "value": "Beltéri doboz Ethernet-porttal, USB-ről vagy a hálózati kábelen át (PoE) táplálható.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "20225189"
+  },
+  "device.elecrow-thinknode-m9.notes": {
+    "value": "Önállóan működik, teljes billentyűzettel, színes képernyővel és GPS-szel. Ripple firmware-rel érkezik; a szabványos MeshCore is fut rajta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d9fb8bcf"
+  },
+  "device.seeed-wio-tracker-l1.notes": {
+    "value": "Az L1 Pro ház és akkumulátor nélkül. Van GPS-e és napelem-csatlakozója.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f317b814"
+  },
+  "device.seeed-wio-tracker-l1-eink.notes": {
+    "value": "Az L1 e-papír képernyővel, ház és akkumulátor nélkül. A MeshCore csak companionként fut rajta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1c3665d9"
+  },
+  "device.seeed-sensecap-solar-node-p1-basic.notes": {
+    "value": "A P1-Pro cellák és GPS nélkül: négy 18650-es cellát te teszel bele. A tartó csak dudoros (button-top) cellákat fogad. A gyakori lapos tetejű cellák egy-egy kis mágnessel beleillenek.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a6f898f4"
+  },
+  "device.seeed-sensecap-meshtracker-x1.notes": {
+    "value": "Kártya méretű, por- és vízálló (IP66), képernyő nélkül. USB-C-n tölt, és új üzenetnél rezeg.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9eadd1b5"
+  },
+  "device.seeed-xiao-esp32s3-wio-sx1262.notes": {
+    "value": "A XIAO készlet ESP32-vel az nRF52 helyett: van Wi-Fi, de nagyobb a fogyasztás.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0e783fe9"
+  },
+  "device.rak-wismesh-1w-booster.notes": {
+    "value": "Akár 30 dBm-mel ad, ami az európai határérték felett van: az átjátszó-útmutató megmutatja, hogyan maradj alatta. Minden változat vagy akkumulátorról, vagy 5 V-ról működik, nézd meg a címkét.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e03b4d5b"
+  },
+  "device.bq-station-g3.notes": {
+    "value": "Moduláris bázisállomás akár 35 dBm-es erősítővel, ami jóval az európai határérték felett van: állítsd be a jumpereket és az adóteljesítményt az országodhoz. 9-19 V-os tápegység kell hozzá.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ee7d06f9"
+  },
+  "device.bq-nano-g2-ultra.notes": {
+    "value": "Strapabíró kézi készülék beépített antennával, amelyet testközeli működésre terveztek. Az akkumulátor opcionális.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5e947959"
+  },
+  "device.m5stack-unit-c6l.notes": {
+    "value": "Kis modul műanyag házban, USB-C-ről táplálva. Nincs akkumulátor-bemenete.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "468b2af6"
+  },
+  "device.meshnology-w12.notes": {
+    "value": "Nyílt forráskódú panel akkumulátor- és napelem-bemenettel. Akár 30 dBm-mel ad, ami az európai határérték felett van: az átjátszó-útmutató megmutatja, hogyan maradj alatta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "df27901e"
+  },
+  "community.nl-dutch-meshcore.desc": {
+    "value": "Holland önkéntes csoport a hollandiai MeshCore-felhasználóknak. Közös MQTT-gyűjtőket, megfigyelő-irányítópultot, beállítássegítőt és böngészős firmware-eszköztárat üzemeltet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c4ad2c7f"
+  },
+  "community.nl-meshcore-net.desc": {
+    "value": "Holland nyelvű Telegram-csevegés és fórum, ahol a holland felhasználók beállítási segítséget, csatornalistákat és átjátszóhíreket cserélnek.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c57f1887"
+  },
+  "community.be-radio-actief.desc": {
+    "value": "Belga wiki és Discord, rádióamatőrök indították, akik 2025 végén elhozták a MeshCore-t Belgiumba. Egy szélesebb rádiós hobbiközösség része.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7598f9b8"
+  },
+  "community.lu-meshcore-luxembourg.desc": {
+    "value": "A luxemburgi egyesületek közös nyitóoldala, amelyek MeshCore-átjátszókat üzemeltetnek az egész országban. Hacker-, rádióamatőr- és katasztrófafelkészülési csoportok.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e38285ec"
+  },
+  "community.de-meshcore-de.desc": {
+    "value": "Német nyelvű MeshCore-csevegés Telegramon, egész Németországban és osztrák csoportok is használják. Matrix-szoba is van azoknak, akik azt kedvelik.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c2d34fef"
+  },
+  "community.de-berlin-chaos-mesh.desc": {
+    "value": "Hackerspace-gyökerű berlini csoport fórummal, Matrix-szobával és PotatoMesh-irányítópulttal, a MeshCore mellett más mesh-projektekkel is foglalkozik.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9f0065e0"
+  },
+  "community.de-isarmesh.desc": {
+    "value": "Fórum a München környéki LoRa mesh-felhasználóknak, rendszeres találkozókat szervez, és a MeshCore-ról és más mesh-projektekről beszélget.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "05e62cf9"
+  },
+  "community.de-mesh-dresden.desc": {
+    "value": "Drezdai csoport alapos műszaki cikkekkel átjátszó-üzemeltetőknek. Helyi csevegést is futtat a MeshCore-hoz és más mesh-projektekhez.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fd5d9e40"
+  },
+  "community.at-meshcore-austria.desc": {
+    "value": "Osztrák közösségi oldal beállítási útmutatókkal, eseményekkel és hírekkel. Az osztrák Telegram-csoport az oldaltól függetlenül működik.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3dfcd101"
+  },
+  "community.ch-meshcore-switzerland.desc": {
+    "value": "Négynyelvű svájci oldal eszköz-, régió- és csatornaútmutatóval, valamint közösségi fórummal kérdésekhez és kérésekhez.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e8eb8c2c"
+  },
+  "community.cz-meshcore-cr.desc": {
+    "value": "Cseh wiki hardverről, átjátszókról, csatornákról és régiókról, mögötte Telegram-csoport és országos csomagelemző.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3eb31061"
+  },
+  "community.sk-meshcore-slovensko.desc": {
+    "value": "Szlovák hálózati oldal, egy pozsonyi rádióamatőr klub üzemelteti, Discord-szerverrel és heti személyes találkozókkal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "950a6862"
+  },
+  "community.pl-meshcore-polska.desc": {
+    "value": "Országos lengyel közösség csomóponttérképpel, lengyel nyelvű dokumentációval és Discord-szerverrel.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bd6ed843"
+  },
+  "community.fr-meshcore-france.desc": {
+    "value": "Francia koordinációs oldal, regionális csoportokra és regionális élő térképekre mutat, független közösségi oldalként karbantartva.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e2024cd5"
+  },
+  "community.fr-mesh-idf.desc": {
+    "value": "Párizs környéki wiki MeshCore Telegram-csevegéssel. A wiki más mesh-projektekkel is foglalkozik.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b4be06c9"
+  },
+  "community.it-meshcore-italia.desc": {
+    "value": "Olasz országos közösség útmutatókkal, regionális és időjárás-riasztó csatornák listájával, élő csomóponttérképpel és Telegram-csoporttal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2a6caa8e"
+  },
+  "community.pt-meshcore-portugal.desc": {
+    "value": "Portugál közösségi csevegések, egy Telegram-mappába gyűjtve.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "31bbdf73"
+  },
+  "community.dk-meshcore-dk.desc": {
+    "value": "Dán wiki kezdő oldalakkal, eszközjegyzetekkel, régióbeállítással és valódi átjátszó-telepítések fotóival.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d0895f3b"
+  },
+  "community.se-meshat.desc": {
+    "value": "Svéd találkozóhely a mesh-hálózatokhoz, fórummal, Discorddal és Matrix-szobával. MeshCore MQTT- és térképszolgáltatásokat futtat, és más mesh-projektekkel is foglalkozik.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "33d9ed2b"
+  },
+  "community.fi-mesh-finland.desc": {
+    "value": "Finn MeshCore-oldal országos elemzőre és lefedettségi térképekre mutató linkekkel. Discord-szerverét más mesh-projektek felhasználóival osztja meg.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3d618dfa"
+  },
+  "community.no-meshwiki.desc": {
+    "value": "Norvég wiki MeshCore-résszel más mesh-projektek mellett, és kapcsolt fórummal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ccd83ba2"
+  },
+  "community.ee-estmesh.desc": {
+    "value": "Észt MeshCore-oldal és wiki országos és városi csatornákkal, valamint Discord-szerverrel észt rádiós lelkeseknek.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14530e0d"
+  },
+  "community.lv-apraide.desc": {
+    "value": "Lett LoRa mesh-közösség, amely a MeshCore-t választotta hálózatához, a beszélgetés Matrix-szobában folyik.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "42e8a5c2"
+  },
+  "community.lt-atviras-tinklas.desc": {
+    "value": "Litván közösségi oldal tudásbázissal, eszközoldalakkal és élő hálózatelemzővel a MeshCore-hálózathoz.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8a0f8ba4"
+  },
+  "community.si-meshcore-slovenija.desc": {
+    "value": "Szlovén oldal az ajánlott regionális rádióbeállításokkal, csomóponttérképpel és firmware-linkekkel.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "73253c8c"
+  },
+  "community.bg-meshcore-bulgaria.desc": {
+    "value": "Bolgár közösség Szófia és Plovdiv körül, rádiós kapcsolatokkal Romániába és Szerbiába. Csatornákat, előbeállításokat és tervezőeszközöket tesz közzé.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ef62c925"
+  },
+  "community.rs-meshcore-srbija.desc": {
+    "value": "Nem hivatalos szerb közösségi oldal csomópont-nyilvántartással és élő térképpel a Szerbiát és a szomszédos országokat átívelő hálózathoz.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "874059ce"
+  },
+  "community.gr-meshcore-greece.desc": {
+    "value": "Görög Discord-szerver görögországi MeshCore-hálózatok tervezéséhez és üzemeltetéséhez.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3fa83721"
+  },
+  "community.gb-meshhub-uk.desc": {
+    "value": "Egyesült királysági központ közösségi eszközökkel, térképekkel és eseményekkel MeshCore-felhasználóknak és más mesh-közösségeknek.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "050038cc"
+  },
+  "community.gb-scotmesh.desc": {
+    "value": "Önkéntesek által vezetett skót közösség fórummal, wikivel és Discorddal, a MeshCore-t más mesh-projektek mellett futtatja.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cce9f41c"
+  },
+  "community.ie-lora-project.desc": {
+    "value": "Független kezdő oldal a MeshCore-hoz Írország egész szigetén. Discord-szervere északot és délt is lefedi.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5f335412"
+  },
+  "community.at-carinthiamesh.desc": {
+    "value": "Wiki a karintiai MeshCore-hoz: kezdő lépések, rádióbeállítások, eszközök és átjátszók.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b601e188"
+  },
+  "community.at-meshcore-austria-at.desc": {
+    "value": "Német nyelvű közösségi wiki az ausztriai MeshCore-hoz.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7746c59b"
+  },
+  "community.be-loramesh.desc": {
+    "value": "Belga csoport, amely a MeshCore-t vészhelyzeti üzenetküldésre használja, amikor az internet és a mobilhálózat leáll.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a0d79514"
+  },
+  "community.be-meshpot.desc": {
+    "value": "Francia nyelvű útmutató a brüsszeli és vallóniai MeshCore mesh-hez való csatlakozásról, építéséről és védelméről.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3c6c5a0a"
+  },
+  "community.fr-loramesh.desc": {
+    "value": "Francia csoport, amely MeshCore-ral tartja a helyi kapcsolatot, ha az internet vagy a mobilhálózat kiesik, lépésről lépésre, az aktív területek térképével.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f22be170"
+  },
+  "community.de-bsmesh.desc": {
+    "value": "MeshCore-hálózat Braunschweig tágabb térségére.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "076fd5a0"
+  },
+  "community.de-bremesh.desc": {
+    "value": "Ingyenes MeshCore-hálózat Brémára, Bremerhavenre és környékükre, oktatóanyagokkal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7f614859"
+  },
+  "community.de-pemesh.desc": {
+    "value": "MeshCore-hálózat Peinében és környékén, két helyi mesh összekapcsolódásából jött létre.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6423719c"
+  },
+  "community.de-muensterland.desc": {
+    "value": "Közösség, amely ingyenes MeshCore-hálózatot épít a Münsterland egész területén, Billerbeckből indult.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6f35e420"
+  },
+  "community.de-mesh-rheinland.desc": {
+    "value": "Rajna-vidéki közösség, amely MeshCore- és Meshtastic-hálózatot is üzemeltet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eb9d7af7"
+  },
+  "community.de-meshcore-de-wiki.desc": {
+    "value": "Német nyelvű wiki beállítási útmutatókkal és a regionális csoportok címtárával.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2a7d4602"
+  },
+  "community.de-meshcore-dresden.desc": {
+    "value": "Csoport, amely MeshCore-hálózatot épít Drezdában és környékén, régióit és csatornáit felsorolva.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d0a1d71d"
+  },
+  "community.de-meshmitte.desc": {
+    "value": "Helyi csoport Uslarban és környékén, amely azt akarja, hogy az emberek áram- és hálózatkimaradás alatt is kapcsolatban maradjanak.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "82b196a8"
+  },
+  "community.de-saarmesh.desc": {
+    "value": "Regionális MeshCore-hálózat a Saar-vidéken, régiószerkezetével és élő térképpel.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2eeeb6e6"
+  },
+  "community.ie-mayo-mesh.desc": {
+    "value": "Mesh rádiós felhasználói csoport Mayo megyében.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "baab199e"
+  },
+  "community.it-lora-brescia.desc": {
+    "value": "Bresciai rádiós csoport olasz útmutatókkal MeshCore-átjátszók flashelésére és beállítására. Meshtastic- és LoRa APRS-hálózatot is üzemeltet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "08567551"
+  },
+  "community.it-meshcore-ita.desc": {
+    "value": "Olasz nyelvű útmutatók, a közös olasz rádió-előbeállítás és hardverjegyzetek, Telegram-csoporttal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8b178f55"
+  },
+  "community.nl-meshwiki.desc": {
+    "value": "Holland wiki, amelyet bárki szerkeszthet, a MeshCore-ról és a mesh rádiózásról.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ce29af01"
+  },
+  "community.pl-lora-meshcore-polska.desc": {
+    "value": "Országos lengyel hálózat az EU/UK Narrow előbeállításon, magyarázattal arról, hogyan működik és kik építik.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4c574d21"
+  },
+  "community.pl-meshcore-podlasie.desc": {
+    "value": "Hobbisták, akik MeshCore-hálózatot építenek Podlasie-ban, hírekkel és helyi beállításokkal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a15fb772"
+  },
+  "community.pl-meshgo.desc": {
+    "value": "MeshCore-csoport Gdańsk, Gdynia és Sopot körül, a lengyel országos előbeállítást használja.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8d16fa09"
+  },
+  "community.ro-brasov-mesh.desc": {
+    "value": "MeshCore-hálózat Brașovban az EU/UK Narrow előbeállításon.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bd8dcbfa"
+  },
+  "community.ro-meshcore-iasi.desc": {
+    "value": "MeshCore-hálózat Iașiban élő irányítópulttal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eacc34d4"
+  },
+  "community.es-meshcore-catalunya.desc": {
+    "value": "Katalán közösségi központ élő térképpel, elemzővel és hardverútmutatókkal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5357e7fd"
+  },
+  "community.es-nomadmesh.desc": {
+    "value": "Közösségi MeshCore-hálózat az Alpujarrasban.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ee8acd03"
+  },
+  "community.ua-meshcore-ua.desc": {
+    "value": "Önkéntesek által vezetett nyilvános mesh a kapcsolattartáshoz egész Ukrajnában, átjátszók, botok és csatornák listájával.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "96fe6d7d"
+  },
+  "community.gb-ipnet.desc": {
+    "value": "Ipswichi közösség Kelet-Anglia kiszolgálására, CoreScope-irányítópultokkal és MQTT-szolgáltatásokkal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "114be940"
+  },
+  "community.gb-meshcore-wales.desc": {
+    "value": "Közös rádióbeállítások és csatornák Dél-Walesre és a nyugati térségre.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "726b552a"
+  },
+  "community.gb-northmesh.desc": {
+    "value": "Észak-angliai hálózat az átjátszók, a csomagforgalom és a lefedettség élő térképével.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a1345cca"
+  },
+  "map.meshcore-official-map.desc": {
+    "value": "A projekt saját világtérképe azokról a csomópontokról, amelyeket tulajdonosaik közzétettek, csomóponttípus és rádiófrekvencia szerint szűrhető.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1509cafa"
+  },
+  "map.meshmapper.desc": {
+    "value": "Helyi önkéntesek wardriving-köreiből készült lefedettségi térképek, regionális térképekre bontva, régiókkal Európa-szerte.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f333e608"
+  },
+  "map.eu-meshcore-analyzer.desc": {
+    "value": "Közös európai elemző, amely több közösségi broker megfigyelő-adatfolyamát egyesíti a csomópontok, csomagok és csatornák egyetlen élő nézetébe.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aa93a1ba"
+  },
+  "map.nl-dmc-observers.desc": {
+    "value": "Élő irányítópult azokról a megfigyelőkről, amelyek a Dutch MeshCore (DMC) MQTT-gyűjtőinek jelentenek.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1da8752e"
+  },
+  "map.nl-mc-radar.desc": {
+    "value": "Hálózati statisztika a holland mesh-ről, holland megfigyelő-adatokból ábrázolja az átvitelt, a csatornaforgalmat, a csomópont-aktivitást és a protokoll állapotát.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a54bab7e"
+  },
+  "map.cz-analyzer.desc": {
+    "value": "CoreScope-példány a cseh hálózathoz élő csomagfolyammal, csomóponttérképpel és csomópontonkénti statisztikával.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ade9ad40"
+  },
+  "map.fi-corescope.desc": {
+    "value": "Finn CoreScope-elemző, amely az országos MeshCore-hálózatot térképen mutatja élő csomagokkal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9fa0aa59"
+  },
+  "map.se-meshat-corescope.desc": {
+    "value": "Svéd CoreScope-elemző, amelyet a Meshat.se MeshCore MQTT-brokere táplál.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a1e700c6"
+  },
+  "map.fr-cartolite.desc": {
+    "value": "Saját üzemeltetésű élő térkép a világ MeshCore-forgalmáról, hallott kapcsolatokat, élő csomagokat és hőtérképet rajzol terepi térképre.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "abcdec75"
+  },
+  "map.ee-litescope.desc": {
+    "value": "Könnyű észt elemző élő csomagfolyammal, csomóponttérképpel, jelstatisztikával és megfigyelő-áttekintéssel.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "040c7753"
+  },
+  "map.ie-mayomesh-live.desc": {
+    "value": "Valós idejű ír térkép a csomópontokról, üzenetútvonalakról és advert-útvonalakról, lefedettségi, rálátási és terjedési eszközökkel.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "244a4a53"
+  },
+  "map.de-meshcorenetz-analyzer.desc": {
+    "value": "A MeshCore Analyzer a MeshCoreNetz.de színeiben, Észak-Németországra nyitva.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7c597271"
+  },
+  "map.de-meshdresden-analyzer.desc": {
+    "value": "A MeshCore Analyzer a MeshDresden.eu, a drezdai közösségi mesh színeiben.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b7456441"
+  },
+  "map.nl-cornmeister.desc": {
+    "value": "A MeshCore Analyzer a Cornmeister.nl színeiben, Hollandiára nyitva.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "69efcf8b"
+  },
+  "map.be-bemesh-map.desc": {
+    "value": "Térkép a belga kliensekről, átjátszókról, szobaszerverekről és szenzorokról, ahol a tulajdonosok igényelhetik csomópontjukat.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "37af8d74"
+  },
+  "map.be-on8ar-corescope.desc": {
+    "value": "CoreScope-elemző a Belgiumban hallott forgalomhoz.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "97d8adf0"
+  },
+  "map.is-corescope.desc": {
+    "value": "CoreScope-elemző az izlandi hálózathoz.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9441de4b"
+  },
+  "map.pl-meshcore-polska-map.desc": {
+    "value": "Élő térkép a lengyel kliensekről, átjátszókról, szobaszerverekről és szenzorokról.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "57d86a21"
+  },
+  "map.fr-loramesh-map.desc": {
+    "value": "Térkép a franciaországi területekről, ahol a MeshCore aktív. A lefedettség a nagyvárosokon kívül még hiányos.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "85632f3a"
+  },
+  "map.de-meshcore-de-regions.desc": {
+    "value": "Szerkeszthető térkép a MeshCore-régiókról és helyi csoportokról, főleg Németországban.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cec143bd"
+  },
+  "map.gb-ukmesh.desc": {
+    "value": "Egyesült királysági hálózati elemzés útvonalakkal és élő nézetekkel, megfigyelők táplálják.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "03a38df8"
+  },
+  "map.gb-meshrank.desc": {
+    "value": "Rangsorok és statisztikák átjátszókról és útvonalakról, főleg az Egyesült Királyságban.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "997a9a6e"
+  },
+  "map.gb-m3sh-contacts.desc": {
+    "value": "Az egyesült királysági hálózat, ahogy egy oxfordshire-i csomópont hallja, csomóponthardverrel és duplikált előtagokkal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cb2153f9"
+  },
+  "map.kiekr-map.desc": {
+    "value": "Melyik rádiórégió hová ér el, a KiekR-felhasználók által megfigyelt szomszédokból kiszámolva.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9a3aceee"
+  },
+  "map.hopradar.desc": {
+    "value": "Csatlakoztasd a saját csomópontodat Bluetoothon vagy USB-n, és nézd meg a böngészőben a hallott ugrásokat, útvonalakat és SNR-t.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ae215bf8"
+  },
+  "project.meshcore-firmware.desc": {
+    "value": "A hivatalos MeshCore firmware és útválasztó könyvtár LoRa-lapokhoz, companion-, átjátszó-, szobaszerver- és szenzorszerepekkel.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bba821af"
+  },
+  "project.meshcore-js.desc": {
+    "value": "JavaScript-könyvtár MeshCore companion rádiókkal való kommunikációhoz böngészőből és Node.js-ből.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0b9ed81f"
+  },
+  "project.meshcore-py.desc": {
+    "value": "Python-kötések MeshCore companion rádió vezérléséhez soros porton, Bluetoothon vagy TCP-n.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "305bd163"
+  },
+  "project.meshcore-cli.desc": {
+    "value": "Parancssori kliens MeshCore-csomópontok üzenetküldéséhez és kezeléséhez terminálból.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6f68e501"
+  },
+  "project.meshcore-ha.desc": {
+    "value": "Home Assistant-integráció, amely a MeshCore-csomópontokat, üzeneteket és telemetriát entitásként teszi elérhetővé figyeléshez és automatizáláshoz.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8b5725be"
+  },
+  "project.meshcore-flasher.desc": {
+    "value": "A böngészős eszköz forrása, amely MeshCore firmware-t flashel támogatott lapokra USB-n.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ba3feb1b"
+  },
+  "project.meshcore-map.desc": {
+    "value": "A hivatalos csomóponttérkép forrása, ahol a tulajdonosok közzétehetik csomópontjaikat.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "91b7682b"
+  },
+  "project.openhop-repeater.desc": {
+    "value": "Python átjátszó-démon, amely egy SPI LoRa-rádiós Linux-számítógépet MeshCore-kompatibilis átjátszóvá alakít.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d2bf1646"
+  },
+  "project.openhop-core.desc": {
+    "value": "A MeshCore-protokoll és útválasztó verem Python-újraimplementációja, SPI LoRa-rádiók közvetlen támogatásával.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "54ed7f73"
+  },
+  "project.meshcore-open.desc": {
+    "value": "Nyílt forrású, többplatformos Flutter-app MeshCore-rádiókhoz Bluetoothon, USB soros porton vagy TCP-n, webes verzióval is.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c322a23f"
+  },
+  "project.meshcoretomqtt.desc": {
+    "value": "Szkript, amely egy MeshCore megfigyelő-rádió csomagrögzítéseit MQTT-brokerhez továbbítja elemzőknek.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "19dfb497"
+  },
+  "project.meshcore-mqtt-broker.desc": {
+    "value": "MQTT-broker, amely a megfigyelőket jelszó helyett MeshCore-kulcspárjukkal hitelesíti.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ca27fa19"
+  },
+  "project.corescope.desc": {
+    "value": "Saját üzemeltetésű MeshCore-elemző, amely MQTT-n fogadja a csomagokat. Élő folyamot, térképeket, csatornanézeteket és csomópont-statisztikát szolgáltat.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a74322db"
+  },
+  "project.litescope.desc": {
+    "value": "Könnyű, saját üzemeltetésű irányítópult MeshCore-hálózat figyeléséhez. Az észt közösség futtat egyet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1dc42e5a"
+  },
+  "project.meshcore-hub.desc": {
+    "value": "Python platform egy brit közösségtől. MQTT eseményeket gyűjt adatbázisba, és REST API-t meg webes irányítópultot kínál.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "07442a84"
+  },
+  "project.potato-mesh.desc": {
+    "value": "Föderált közösségi irányítópult MeshCore és más mesh hálózatokhoz, a Berlin Chaos Mesh használja.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7b98d4f7"
+  },
+  "project.meshcore-mqtt-live-map.desc": {
+    "value": "Élő webes térkép MeshCore MQTT adatfolyamból, csomópontokkal, útvonalakkal és lefedettséggel valós időben.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e0380e74"
+  },
+  "project.meshcore-bot.desc": {
+    "value": "Python bot, amely parancsokra válaszol MeshCore csatornákon, és üzeneteket tud átvinni Discordra és Telegramra.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "04a73c83"
+  },
+  "project.meshcore-channels.desc": {
+    "value": "Közösség által szerkeszthető JSON lista nyilvános MeshCore csatornákról országonként, appok számára közzétéve.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f3bb8a9a"
+  },
+  "project.meshcore-regions.desc": {
+    "value": "Közösség által szerkeszthető JSON katalógus a világszerte használt MeshCore régiókódokról.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ea403726"
+  },
+  "project.zephcore.desc": {
+    "value": "A MeshCore portja Arduinóról a Zephyr valós idejű operációs rendszerre.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d68923fa"
+  },
+  "project.meshcore-ng.desc": {
+    "value": "Holland firmware fork, amely átjátszó-fejlesztéseket ad sűrű, forgalmas mesh hálózatokhoz, és kompatibilis marad a gyári kliensekkel.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5f288c67"
+  },
+  "project.meshcore-solo.desc": {
+    "value": "Companion firmware fork, amely offline GPS navigációt ad útpontokkal, iránytűvel és GPX exporttal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1c9d0659"
+  },
+  "project.meshcore-c.desc": {
+    "value": "Függőségmentes C megvalósítása a MeshCore protokollnak, könyvtárként bármely projekthez vagy ESP-IDF komponensként.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "327a07f8"
+  },
+  "project.lora-mesh-nodes.desc": {
+    "value": "Barkácsolt mobil és napelemes csomópont-tervek gyűjteménye házakkal, nyomtatható alkatrészekkel és alkatrészlistákkal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "637e2726"
+  },
+  "project.lora-harvester-box.desc": {
+    "value": "Nyílt hardveres panel, amely STM32WL LoRa chipet párosít energiagyűjtővel, nagyon kis fogyasztású LoRa csomópontokhoz, köztük MeshCore-hoz.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6ecc7144"
+  },
+  "project.mesh-hunter.desc": {
+    "value": "Telefonos webapp, amely companion rádióval párosodik, és a GPS pozícióddal naplóz minden hallott csomagot, hogy gyalog vagy autóval a nem kívánt forgalom forrásához juss. Amit hall, MQTT brokerekkel is megoszthatja.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d0fb854e"
+  },
+  "project.eu-meshcore-analyzer.desc": {
+    "value": "Az európai MeshCore hálózat élő térképe és elemzője, amelyet megfigyelők és telefonos appok táplálnak azzal, amit hallanak.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fed133d8"
+  },
+  "project.dmc-triangulator.desc": {
+    "value": "Leszűkíti egy csomópont helyét az őt halló átjátszók alapján, első keresési területként a helyi keresés előtt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f73b5e0b"
+  },
+  "project.kiekr.desc": {
+    "value": "Telefonos app a mesh hálózaton való üzenetküldéshez, amely a lefedettséget is térképezi, és elemzőkbe tölti fel, amit hall.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "05e5f56a"
+  },
+  "project.meshmapper.desc": {
+    "value": "Wardriving alapján épült lefedettségi térkép regionális példányokkal, saját MQTT brokerrel és nyílt API-val.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1135e1cd"
+  },
+  "project.trail-mate.desc": {
+    "value": "Offline kézi firmware a LilyGO T-LoRa Pager és T-Deck eszközökhöz, GPS navigációval és csapatüzenetekkel MeshCore és Meshtastic felett.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "86cd32a0"
+  },
+  "project.remote-terminal.desc": {
+    "value": "Saját szerveren futó kliens MeshCore rádióhoz, amely a befogott csomagokat szerveren tárolja és fejti vissza, botokkal és MQTT-vel.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "90c11494"
+  },
+  "project.meshpoint.desc": {
+    "value": "Raspberry Pi bázisállomás SX1302 vagy SX1303 koncentrátorral, amely több csatornát figyel egyszerre, helyi irányítópulttal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6c668061"
+  },
+  "project.easyskymesh.desc": {
+    "value": "Firmware fork, amely energiát takarít meg akkumulátorról vagy kis napelemről működő átjátszóknak és szenzor-csomópontoknak.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3b1503dc"
+  },
+  "project.solar-os.desc": {
+    "value": "Kis, szövegközpontú operációs rendszer ESP32 zsebterminálokhoz, MeshCore companionnal saját rádión vagy párosított csomóponton.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "23677e08"
+  },
+  "project.wio-tracker-l1-pro.desc": {
+    "value": "Companion firmware a Seeed Wio Tracker L1 Pro eszközhöz, felhasználói felülettel magán a készüléken.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b694d013"
+  },
+  "project.meshcore-one.desc": {
+    "value": "Natív MeshCore app iPhone-ra, iPadre és Macre.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "87505963"
+  },
+  "project.lunarcore.desc": {
+    "value": "Rust firmware a Heltec WiFi LoRa 32 V3 panelhez, amely MeshCore, Meshtastic és más protokollokat beszél.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f2c6fabd"
+  },
+  "project.meshcore-sar.desc": {
+    "value": "Offline app kutató-mentő csapatoknak: üzenetek, hang, képek, térképek és megosztott helyzetek MeshCore felett.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "413c9353"
+  },
+  "project.cardputer-adv-stachugit.desc": {
+    "value": "Companion firmware az M5Stack Cardputer ADV eszközhöz LoRa kiegészítővel, chat képernyővel és színtémákkal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9ab883fb"
+  },
+  "project.meshcoreterm.desc": {
+    "value": "Retró stílusú érintős firmware a LilyGO T-Deck, a Seeed SenseCAP Indicator és más kijelzős panelekhez.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ac08cb0e"
+  },
+  "project.mesh-client.desc": {
+    "value": "Asztali app macOS-re, Linuxra és Windowsra, amely MeshCore, Meshtastic és Reticulum rádiókkal kommunikál.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "61a3a731"
+  },
+  "project.mishmesh.desc": {
+    "value": "Companion firmware saját felülettel a rádión, így párosított telefon nélkül is üzenhetsz.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9bde8382"
+  },
+  "project.overmesh.desc": {
+    "value": "Saját számítógépeden futtatott irányítópult MeshCore-hoz és Meshtastichoz, csomóponttérképpel, chattel, bottal és offline térképekkel.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fbacbc50"
+  },
+  "project.meshcore-wardrive-android.desc": {
+    "value": "Android app, amely a MeshCore lefedettséget térképezi, miközben gyalogolsz vagy autózol.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6c9c49ec"
+  },
+  "project.akita-bridge.desc": {
+    "value": "Híd, amely üzeneteket továbbít Meshtastic és MeshCore között, soros kapcsolaton vagy MQTT-n.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eff5e3a1"
+  },
+  "project.meshcore-packet-capture.desc": {
+    "value": "Python szkript, amely companion rádióról fog be csomagokat, és MQTT-re teszi közzé őket.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5325460e"
+  },
+  "project.cardputer-adv-sosprz.desc": {
+    "value": "Companion firmware az M5Stack Cardputer ADV eszközhöz Cap LoRa868 kiegészítővel, M5Burnerrel flashelve.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cf8b55c5"
+  },
+  "project.lora-wideband-decoder.desc": {
+    "value": "Szoftverrádiós vevő, amely széles sávban dekódol MeshCore, Meshtastic és LoRaWAN forgalmat, helyi weboldallal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f3e575ff"
+  },
+  "project.mc-webui.desc": {
+    "value": "Webes felület a meshcore-cli fölött, böngészőből való üzenéshez.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3372c462"
+  },
+  "project.meshfirmware.desc": {
+    "value": "Linux és Windows szkriptek, amelyek MeshCore és Meshtastic firmware-t választanak, fordítanak és flashelnek USB-n.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be0d230e"
+  },
+  "project.repeater-mqtt-gateway.desc": {
+    "value": "Átjátszó firmware, amely a mesh hálózatot MQTT brokerhez is kapcsolja, mindkét irányban.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "23f7dfec"
+  },
+  "project.tak-meshcore.desc": {
+    "value": "Bővítmény, amellyel az ATAK helyzetismereti app MeshCore companion rádiót használhat Bluetooth felett.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "acbecd75"
+  },
+  "project.meshcore-decoder.desc": {
+    "value": "TypeScript könyvtár, amely MeshCore csomagokat dekódol, visszafejtéssel együtt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1235f40d"
+  },
+  "project.mesh-loader.desc": {
+    "value": "Kettős indítás a Heltec WiFi LoRa 32 V3 és V4 panelekhez: két firmware egy panelen, és váltás köztük.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be49552e"
+  },
+  "project.meshcore-proxy.desc": {
+    "value": "TCP proxy, amely az USB-n vagy Bluetoothon csatlakozó companion rádiót más számítógépek appjai számára elérhetővé teszi.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eaf24463"
+  },
+  "project.roadstr.desc": {
+    "value": "Közúti események jelentése központi szerver nélkül: aláírt Nostr események, amelyeket MeshCore visz át, ha nincs internet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "60e39810"
+  },
+  "guides_group_start": {
+    "value": "Az első csomópontod",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "276f7ca8"
+  },
+  "guides_group_setup": {
+    "value": "Állítsd be a csomópontodat",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "55efd611"
+  },
+  "guides_group_deeper": {
+    "value": "Mélyebbre",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6bce982b"
+  },
+  "guides_card_get_started_title": {
+    "value": "Első lépések",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "61e8d44a"
+  },
+  "guides_card_get_started_desc": {
+    "value": "Az új paneltől az első üzenetedig a meshen, 6 lépésben.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "133bcbfc"
+  },
+  "guides_card_devices_title": {
+    "value": "Eszközök",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4ba5121d"
+  },
+  "guides_card_devices_desc": {
+    "value": "Hasonlítsd össze a paneleket szerep, ár és táplálás szerint, és válaszd ki a neked valót.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cf3bba38"
+  },
+  "guides_card_settings_title": {
+    "value": "Ajánlott beállítások",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cfb32983"
+  },
+  "guides_card_settings_desc": {
+    "value": "A területeden használt rádióprofil, és a beállítások, amelyeket a szomszédaid módosítottak.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8e18863a"
+  },
+  "guides_card_antenna_title": {
+    "value": "Antenna-útmutató",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3a76cb0e"
+  },
+  "guides_card_antenna_desc": {
+    "value": "Az antenna a csomópontod fele. Ellenőrizd a companionodon lévőt, és válassz, csatlakoztass és szerelj fel egyet átjátszóhoz.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "abcdd786"
+  },
+  "guides_card_repeater_title": {
+    "value": "Átjátszó-útmutató",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4608abcd"
+  },
+  "guides_card_repeater_desc": {
+    "value": "Az átjátszó mindenkinek továbbadja az üzeneteket maga körül. Elhelyezés, a beállító parancsok és a 868 MHz jogi korlátai.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "979d61a1"
+  },
+  "guides_card_filter_title": {
+    "value": "Csomagszűrő",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "20a3ef1f"
+  },
+  "guides_card_filter_desc": {
+    "value": "Akadályozd meg, hogy az átjátszód szemetet adjon tovább, például egy soha le nem álló botot vagy egy zajos csatornát.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2db3748c"
+  },
+  "guides_card_mqtt_title": {
+    "value": "MQTT az observereden",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "62626d0f"
+  },
+  "guides_card_mqtt_desc": {
+    "value": "Az observer olyan csomópont, amely MQTT-n továbbítja, amit hall. Állíts be egyet térképhez vagy analizátorhoz.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "774395b6"
+  },
+  "guides_card_mctomqtt_title": {
+    "value": "Készíts bridge-konfigurációt",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fd2dd667"
+  },
+  "guides_card_mctomqtt_desc": {
+    "value": "Küldd el bármelyik MQTT-brókernek, amit az átjátszód hall: a sajátodnak vagy az Analyzernek.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6c4d4692"
+  },
+  "guides_card_cli_title": {
+    "value": "CLI-parancsok",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a13cc6cb"
+  },
+  "guides_card_cli_desc": {
+    "value": "Az átjátszó parancsai, mindegyiknél azzal, hogy mit csinál.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "977f43d6"
+  },
+  "firmware_card_flasher_title": {
+    "value": "Flashelés",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f3577cb5"
+  },
+  "firmware_card_flasher_desc": {
+    "value": "Tedd fel a MeshCore-t a paneledre a böngésződből, USB-n keresztül.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0a1c2394"
+  },
+  "firmware_card_console_title": {
+    "value": "Soros konzol",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4e3c41fa"
+  },
+  "firmware_card_console_desc": {
+    "value": "Írj parancsokat az átjátszódnak a böngésződből, USB-n keresztül.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f0d52063"
+  },
+  "firmware_card_changelog_title": {
+    "value": "Változásnapló",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ead07c84"
+  },
+  "firmware_card_changelog_desc": {
+    "value": "Nézd meg, mi változott az egyes MeshCore kiadásokban, és kell-e a csomópontodnak.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "314733fe"
+  },
+  "area_device_repeater": {
+    "value": "Az átjátszódon",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b5cb30f9"
+  },
+  "area_device_companion": {
+    "value": "Az appban a companionodon",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8e459238"
+  },
+  "area_change_nl_regions": {
+    "value": "Add hozzá az átjátszód által kiszolgált régiókat, mindegyiket a felette lévőn belül: Európa, Benelux, Hollandia, a tartományod és a városod. A tartományod lesz az alapértelmezett.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "593b1502"
+  },
+  "area_change_strict_regions": {
+    "value": "Dobd el a régió nélküli csomagokat, hogy ne utazzanak át Európán. Előbb add hozzá a régiókat.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "11ca714d"
+  },
+  "area_change_zero_hop": {
+    "value": "A közvetlen szomszédaid által hallott advertet 4 óránként küldd.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0e990713"
+  },
+  "area_change_path_hash": {
+    "value": "Használj 2 bájtos útvonal-hasht: ez 65536 átjátszót különböztet meg 256 helyett.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b63880c0"
+  },
+  "area_change_loop": {
+    "value": "Dobd el a flood-csomagokat, amelyek visszahurkolnak az átjátszódon át. Az 1.18-as vagy újabb verzióval beállított átjátszó ezt már teszi.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "44333e2e"
+  },
+  "area_change_dutycycle": {
+    "value": "Korlátozd az átjátszódat 10% adásidőre.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8877399e"
+  },
+  "area_change_nl_companion_region": {
+    "value": "Az app kísérleti beállításaiban állítsd az alapértelmezett régiót nl-re. Adj minden csatornának régiót, például nl-nh-t Észak-Hollandiához.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3c31c16c"
+  },
+  "area_change_companion_path_hash": {
+    "value": "Az app kísérleti beállításaiban állítsd az alapértelmezett útvonal-hash méretét 2 bájtra.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4e3414d1"
+  },
+  "area_preset": {
+    "value": "Rádióprofil",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6fd605ec"
+  },
+  "area_path_hash": {
+    "value": "Útvonal-hash (a profil állítja be)",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2e93a7f1"
+  },
+  "area_bytes": {
+    "value": "bájt",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "277089d9"
+  },
+  "area_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c2a314c3"
+  },
+  "area_or_newer": {
+    "value": "vagy újabb",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e2cbdfd0"
+  },
+  "area_changes": {
+    "value": "Eltérés a MeshCore alapértelmezéseitől",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0587de6f"
+  },
+  "area_source_group": {
+    "value": "Beállítások forrása",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f06dfa4f"
+  },
+  "area_source_preset": {
+    "value": "Profil a MeshCore projekt listájából",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "89d3440f"
+  },
+  "area_checked": {
+    "value": "ellenőrizve",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e61a3d78"
+  },
+  "area_add_title": {
+    "value": "Add hozzá a területedet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6ec76c28"
+  },
+  "area_add_body": {
+    "value": "A helyi csoportod saját profilt használ, vagy módosít beállításokat? Küldd be őket egy linkkel arra, ahol döntöttetek róluk.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5976a5e5"
+  },
+  "area_add_cta": {
+    "value": "Add hozzá a területedet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6ec76c28"
+  },
+  "area_link": {
+    "value": "Link erre a területre",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "98909794"
+  },
+  "regions_title": {
+    "value": "Régiók: Európától a városodig",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "698de558"
+  },
+  "regions_body": {
+    "value": "A régió egy terület kódja. A régiók egymásba ágyazódnak: Európa, az országod, a tartományod, és néhol a városod. Add meg az átjátszódnak a régiókat, amelyekben áll, mindegyiket a felette lévőn belül. Bármelyikük üzeneteit továbbadja.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3f05bbfc"
+  },
+  "regions_map_body": {
+    "value": "Hogy mely kódok vannak használatban, területenként eltér. A térkép a körülötted lévő átjátszók régióit mutatja: használd azokat, amelyeket a szomszédaid, különben az átjátszód eldobja az üzeneteiket.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4ccf2219"
+  },
+  "regions_europe": {
+    "value": "Európa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e595f45d"
+  },
+  "regions_pick": {
+    "value": "A tartományod vagy régiód",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ed5a1c0e"
+  },
+  "regions_pick_none": {
+    "value": "Válassz egyet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a880a59d"
+  },
+  "regions_region": {
+    "value": "A régiód, ha a területed használ ilyet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7ebba635"
+  },
+  "regions_town": {
+    "value": "A városod, ha a területed használ ilyet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a6221a2f"
+  },
+  "regions_map": {
+    "value": "Térkép",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be176b00"
+  },
+  "regions_map_label": {
+    "value": "a MeshCore Analyzer térképén",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2df2db10"
+  },
+  "regions_cmd_hint": {
+    "value": "Válaszd ki a tartományodat, vagy írd a kódját a kiemelt érték helyére, majd másold.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "54f7feb3"
+  },
+  "area_ph_hint": {
+    "value": "Írd a saját értékeidet a kiemeltek helyére, majd másold.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "04e515aa"
+  },
+  "area_ph_province": {
+    "value": "A tartományod",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "492cd073"
+  },
+  "area_ph_city": {
+    "value": "A városod",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "90064d5a"
+  },
+  "area_map_label": {
+    "value": "A területek és rádióprofiljuk térképe",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b49bdce9"
+  },
+  "area_map_own": {
+    "value": "Saját profil vagy beállítások",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d7dec3ab"
+  },
+  "area_others_title": {
+    "value": "Az EU többi része és az Egyesült Királyság",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5b618852"
+  },
+  "area_country_label": {
+    "value": "Az országod",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "18f2456a"
+  },
+  "area_country_pick": {
+    "value": "Válassz országot",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "632aadfb"
+  },
+  "area_country_missing": {
+    "value": "Az országod nincs a listában? Kérdezd meg a helyi csoportodat, melyik profilt használja, vagy {link}.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "64fd9026"
+  },
+  "area_country_missing_link": {
+    "value": "add hozzá a területedet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "39737a2b"
+  },
+  "area_country_eu": {
+    "value": "{country} országnak nincs saját profilja a MeshCore appban. A(z) {preset} profilt használja, amelyet a MeshCore az EU-hoz és az Egyesült Királysághoz nevez meg.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "221cd765"
+  },
+  "area_others_body": {
+    "value": "Ezeknek az országoknak nincs saját profiljuk a MeshCore appban. Az EU/UK (Narrow) profilt használják, amelyet a MeshCore hozzájuk nevez meg.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0fccb2a7"
+  },
+  "cli_groups": {
+    "value": "Parancscsoportok",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "70883ce1"
+  },
+  "cli_search": {
+    "value": "Keresés",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "49c266ba"
+  },
+  "cli_node_q": {
+    "value": "Melyik csomópont?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5f669f2f"
+  },
+  "cli_node_repeater": {
+    "value": "Átjátszó",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "46e7bee1"
+  },
+  "cli_node_room_server": {
+    "value": "Room server",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "68b91cc5"
+  },
+  "cli_node_sensor": {
+    "value": "Szenzor",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "162cc64c"
+  },
+  "cli_node_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1dadb328"
+  },
+  "cli_link": {
+    "value": "Link erre a parancsra",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8545494"
+  },
+  "cli_default": {
+    "value": "Kiindulási érték",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "faca355f"
+  },
+  "cli_in_source": {
+    "value": "ahol a firmware beállítja",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4de4eaa8"
+  },
+  "cli_range": {
+    "value": "Értékek",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "53b09e10"
+  },
+  "cli_nodes": {
+    "value": "Működik ezen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c85fc5a0"
+  },
+  "cli_since": {
+    "value": "Szükséges firmware",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5bf596e9"
+  },
+  "cli_build": {
+    "value": "Csak ezzel fordított firmware-ben",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bb208568"
+  },
+  "cli_build_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "176c7866"
+  },
+  "cli_build_sensors": {
+    "value": "szenzorok",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e22dfb01"
+  },
+  "cli_build_bridge": {
+    "value": "bridge",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5a0b83ee"
+  },
+  "cli_build_ethernet": {
+    "value": "Ethernet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "681e1209"
+  },
+  "cli_build_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "10df5f54"
+  },
+  "cli_group_operational": {
+    "value": "Újraindítás, visszaállítás és frissítés",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a49f50c1"
+  },
+  "cli_group_adverts": {
+    "value": "Advertek",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8b8ad4a7"
+  },
+  "cli_group_radio": {
+    "value": "Rádió",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2a7dfeb2"
+  },
+  "cli_group_system": {
+    "value": "Név, jelszó és óra",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a96ceeac"
+  },
+  "cli_group_routing": {
+    "value": "Útválasztás",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bcba696f"
+  },
+  "cli_group_regions": {
+    "value": "Régiók",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "610c65d8"
+  },
+  "cli_group_access": {
+    "value": "Hozzáférés",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ec5ba0ab"
+  },
+  "cli_group_neighbours": {
+    "value": "Szomszédok",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "24be7e7c"
+  },
+  "cli_group_statistics": {
+    "value": "Statisztika",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a656107e"
+  },
+  "cli_group_logging": {
+    "value": "Naplózás",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d3ef01b4"
+  },
+  "cli_group_info": {
+    "value": "Verzió és panel",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9a90dcaa"
+  },
+  "cli_group_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "176c7866"
+  },
+  "cli_group_sensors": {
+    "value": "Szenzorok",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "76140e34"
+  },
+  "cli_group_bridge": {
+    "value": "Bridge",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3892e103"
+  },
+  "cli_group_ethernet": {
+    "value": "Ethernet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "681e1209"
+  },
+  "cli_group_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "10df5f54"
+  },
+  "cmd_reboot_desc": {
+    "value": "Azonnal újraindítja a csomópontot, és a csomópont nem küld választ. Használd olyan beállításokhoz, amelyek csak újraindítás után lépnek életbe.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6850ad24"
+  },
+  "cmd_poweroff_desc": {
+    "value": "Kikapcsolja a csomópontot az ezt támogató paneleken, válasz küldése nélkül. Az újraindításhoz a bekapcsológomb vagy a táp ki-bekapcsolása kell.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5088476d"
+  },
+  "cmd_clkreboot_desc": {
+    "value": "Az órát egy korai dátumra állítja vissza, és válasz nélkül újraindítja a csomópontot. Használd, ha az óra siet, és nem hajlandó visszaállni.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d02bbe66"
+  },
+  "cmd_clock_desc": {
+    "value": "Megmutatja a csomópont óráját UTC-ben, vagy Unix-időre állítja másodpercben. Az óra csak előre megy, ezért visszaállításhoz előbb a clkreboot kell.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0193d15f"
+  },
+  "cmd_clock_sync_desc": {
+    "value": "A csomópont óráját a companionod által ezzel a paranccsal küldött időre állítja. Csak a meshen át működik, mert a soros konzol nem küld időt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "39198623"
+  },
+  "cmd_start_ota_desc": {
+    "value": "Elindítja a vezeték nélküli firmware-frissítést az ezt támogató ESP32 és nRF52 paneleken. Az ESP32 WiFi hozzáférési pontot nyit, az nRF52 Bluetooth-frissítést indít.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "69bd5985"
+  },
+  "cmd_erase_desc": {
+    "value": "Törli a csomópont fájlrendszerét, a beállításaival és identitásával együtt, csak soros kapcsolaton. Gyári visszaállításra használd, mert nem vonható vissza.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e781518d"
+  },
+  "cmd_room_post_desc": {
+    "value": "Üzenetet tesz közzé a szobában maga a room server nevében. A szobában mindenki úgy kapja meg, mint bármely más bejegyzést.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "88a6e1f5"
+  },
+  "cmd_advert_desc": {
+    "value": "Azonnal flood advertet küld, hogy a mesh csomópontjai megismerjék ezt a csomópontot. Használd a név vagy a hely módosítása után.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "21526c3a"
+  },
+  "cmd_advert_zerohop_desc": {
+    "value": "Csak a közvetlen szomszédoknak küld advertet, és egyetlen átjátszó sem adja tovább. Használd a csomópont helyi bejelentésére az egész mesh terhelése nélkül.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dfbc07b6"
+  },
+  "cmd_advert_interval_desc": {
+    "value": "Beállítja, hány percenként küld a csomópont zéró-ugrásos advertet a szomszédainak. A 0 leállítja; bármely mentett módosítás a 60 alatti intervallumokat is leállítja.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f99f3d5f"
+  },
+  "cmd_flood_advert_interval_desc": {
+    "value": "Beállítja, hány óránként küld a csomópont flood advertet az egész meshen át. A 0 teljesen leállítja az automatikus flood adverteket erről a csomópontról.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6473270c"
+  },
+  "cmd_neighbours_desc": {
+    "value": "Felsorolja a csomópont által közvetlenül hallott átjátszókat, a legfrissebbel elöl. Minden sor egy kulcs-előtagot, a hallás óta eltelt másodperceket és az SNR 4-szeresét mutatja.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9bd6e27f"
+  },
+  "cmd_neighbour_remove_desc": {
+    "value": "Eltávolít minden szomszédot, amelynek nyilvános kulcsa a megadott hex előtaggal kezdődik. Használd egy régi átjátszó törlésére a szomszédlistából.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c1b8c616"
+  },
+  "cmd_discover_neighbours_desc": {
+    "value": "Válaszra kéri a közvetlen hatótávon belüli átjátszókat, és minden választ a szomszédokhoz ad. Használd a lista feltöltésére az advertjeik megvárása nélkül. A mindkét advert-intervallumon 0-t használó, vagy kikapcsolt ismétlésű átjátszó néma marad.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1ab216ce"
+  },
+  "cmd_clear_stats_desc": {
+    "value": "Nullázza a csomópont csomag-, rádió- és alapszámlálóit. Használd, mielőtt egy adott időszak forgalmát méred.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ead62ceb"
+  },
+  "cmd_stats_core_desc": {
+    "value": "Megmutatja a csomópont akkufeszültségét, üzemidejét, hibaszámát és adási sorának hosszát. Csak a soros konzolon működik, a meshen át nem.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ba9fa3d2"
+  },
+  "cmd_stats_radio_desc": {
+    "value": "Megmutatja a zajszintet, az utolsó RSSI-t és SNR-t, valamint az adásra és vételre fordított adásidőt. Csak a soros konzolon működik, a meshen át nem.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bedd2bf2"
+  },
+  "cmd_stats_packets_desc": {
+    "value": "Megmutatja, hány csomagot fogadott és küldött a csomópont, flood és közvetlen bontásban. Csak a soros konzolon működik, a meshen át nem.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d8a3b4d1"
+  },
+  "cmd_log_capture_desc": {
+    "value": "Elindítja vagy leállítja a csomópont által fogadott és küldött minden csomag naplófájlba írását. Használd forgalom rögzítésére, majd olvasd ki a log paranccsal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "79dcb812"
+  },
+  "cmd_log_erase_desc": {
+    "value": "Törli a csomagnapló fájlját a csomópont tárhelyéről. Használd hely felszabadítására vagy tiszta rögzítés indítására.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9c32fe03"
+  },
+  "cmd_log_desc": {
+    "value": "Soronként kiírja a rögzített csomagnaplót a soros konzolra. Csak a soros konzolon működik, a meshen át nem.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "59c80f62"
+  },
+  "cmd_ver_desc": {
+    "value": "Megmutatja a csomópont firmware-verzióját és build-dátumát. Használd frissítés előtt annak ellenőrzésére, melyik kiadás fut.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c0752f1b"
+  },
+  "cmd_board_desc": {
+    "value": "Megmutatja a hardverpanel nevét, amelyhez a firmware készült. Használd annak ellenőrzésére, hogy a megfelelő firmware-t flasheltad.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3e5ed786"
+  },
+  "cmd_power_desc": {
+    "value": "Megmutatja az akkufeszültséget, és hogy aktív-e az USB, a napelem, a külső táp és a töltő. Az USB-t vagy napelemet érzékelni nem tudó panel n/a-t mutat rájuk.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4e5129e4"
+  },
+  "cmd_public_key_desc": {
+    "value": "Megmutatja a csomópont teljes nyilvános kulcsát hexben. Oszd meg, ha valaki kérdezi, melyik csomópont a tiéd, vagy ha egy átjátszó tulajdonosa setperm-mel szerepet ad a companionodnak.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d754bc23"
+  },
+  "cmd_role_desc": {
+    "value": "Megmutatja, melyik firmware fut a csomóponton: repeater, room_server vagy sensor. Használd a szerep ellenőrzésére, mielőtt távolról módosítasz beállításokat.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "627a92c5"
+  },
+  "cmd_bootloader_ver_desc": {
+    "value": "Megmutatja az nRF52 kártyákon futó bootloader verzióját. Minden más kártyán a csomópont azt válaszolja, hogy a parancs nem támogatott.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a3e90e05"
+  },
+  "cmd_pwrmgt_support_desc": {
+    "value": "Megmutatja, hogy ez a firmware-változat tartalmaz-e energiagazdálkodást nRF52 kártyákhoz. A többi pwrmgt parancs csak ezzel a támogatással tud válaszolni.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "139d6f9d"
+  },
+  "cmd_pwrmgt_source_desc": {
+    "value": "Megmutatja, hogy a csomópont külső tápról vagy akkumulátorról működik-e. Csak az nRF52 energiagazdálkodást támogató firmware-változatok adják meg ezt a választ.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ee83fb61"
+  },
+  "cmd_pwrmgt_bootreason_desc": {
+    "value": "Megmutatja, miért állt újra legutóbb a csomópont, és miért állt le legutóbb. Ezzel derítheted ki, miért indult újra magától egy csomópont.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "de8338c0"
+  },
+  "cmd_pwrmgt_bootmv_desc": {
+    "value": "Megmutatja a csomópont által induláskor mért akkumulátorfeszültséget millivoltban. Csak az nRF52 energiagazdálkodást támogató firmware-változatok adják meg ezt a választ.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ff3b5c66"
+  },
+  "cmd_radio_desc": {
+    "value": "Beállítja a csomópont frekvenciáját, sávszélességét, spreading factorát és coding rate-jét. A mesh minden csomópontján ugyanezek az értékek kellenek; az érvényesítéshez indítsd újra.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bf443364"
+  },
+  "cmd_tx_desc": {
+    "value": "Beállítja a LoRa chip adóteljesítményét dBm-ben, és azonnal érvénybe lép. A külön erősítővel szerelt kártyák ennél az értéknél többet sugároznak.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0b7d55b8"
+  },
+  "cmd_tempradio_desc": {
+    "value": "Megadott számú percre más rádióbeállításokra vált, mentés nélkül. Ezzel távolról tesztelhetsz új beállításokat, automatikus visszaúttal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "37b19209"
+  },
+  "cmd_freq_desc": {
+    "value": "Csak a frekvenciát állítja be MHz-ben, a beállító forma csak soros porton működik. Utána indítsd újra a csomópontot, mert az új frekvencia csak újraindítás után érvényes.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aabd4b62"
+  },
+  "cmd_radio_rxgain_desc": {
+    "value": "Be- vagy kikapcsolja a rádiochip megemelt vételi erősítését. Az ilyen móddal nem rendelkező rádió azt válaszolja, hogy a beállítás nem támogatott rajta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ecacba86"
+  },
+  "cmd_radio_fem_rxgain_desc": {
+    "value": "Be- vagy kikapcsolja a külső rádiós front end vételi erősítőjét. Csak a vezérelhető front enddel szerelt kártyák támogatják.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c71d7980"
+  },
+  "cmd_radio_fem_txgain_desc": {
+    "value": "A külső rádiós front end adási erősítését váltja a 2 szintje között. Csak a vezérelhető front enddel szerelt kártyák támogatják.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d3f049e3"
+  },
+  "cmd_extra_sf_desc": {
+    "value": "Egy LR2021 rádiót legfeljebb 3 további spreading factoron is figyeltet. Vesszővel elválasztva add meg őket; más rádiók nem fogadják el a beállító formát.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d14313eb"
+  },
+  "cmd_repeat_desc": {
+    "value": "Be- vagy kikapcsolja a más csomópontoktól érkező csomagok továbbítását. Kapcsold ki, ha a csomópont maradjon adásban, de ne ismételjen. A room server nem engedi bekapcsolni.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c66ee723"
+  },
+  "cmd_path_hash_mode_desc": {
+    "value": "Beállítja a hash méretét, amit ez a csomópont az általa küldött csomagok útvonalába ír. A 0 mód 1 bájtot használ, az 1 mód 2-t, a 2 mód 3-at.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "486f2338"
+  },
+  "cmd_loop_detect_desc": {
+    "value": "Eldobja azokat a flood csomagokat, amelyek útvonalában túl sokszor szerepel már ennek az átjátszónak a hash-e. Szigorúbb szinten kevesebb ismétlés után dobja el a hurkolódó csomagot. A régebbi verzióról frissített átjátszó megtartja a korábbi szintjét.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7192683e"
+  },
+  "cmd_txdelay_desc": {
+    "value": "Beállítja a véletlen várakozást, mielőtt a csomópont megismétel egy flood csomagot, az adásidőhöz igazítva. Nagyobb érték elkerüli az átjátszók közti ütközéseket, de késleltetést ad.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dc0b9e0e"
+  },
+  "cmd_direct_txdelay_desc": {
+    "value": "Beállítja a véletlen várakozást, mielőtt a csomópont megismétel egy közvetlen csomagot, az adásidőhöz igazítva. A közvetlen csomagoknak kevesebb várakozás kell, mert kevesebb csomópont ismétli őket.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0f14a917"
+  },
+  "cmd_rxdelay_desc": {
+    "value": "Visszatartja a gyenge flood csomagokat a feldolgozás előtt, hogy az erős jelű útvonalak ismételjenek először. A 0 minden csomagot azonnal feldolgoz, bármilyen a jele.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9eca669b"
+  },
+  "cmd_dutycycle_desc": {
+    "value": "Korlátozza az adással töltött idő arányát, százalékban. Állítsd a frekvenciasávodra érvényes határra.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "46f7ce95"
+  },
+  "cmd_af_desc": {
+    "value": "Beállítja az airtime factort, a csomópont kitöltési tényezőjének régebbi korlátozási módját. Használd inkább a dutycycle parancsot; a 9-es af 10 százaléknak felel meg.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "80189809"
+  },
+  "cmd_int_thresh_desc": {
+    "value": "Foglaltnak tekinti a csatornát, ha ennyi dB-lel mér a zajszint fölött. A csomópont ekkor vár az adás előtt; a 0 kikapcsolja az ellenőrzést.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "32eb85ce"
+  },
+  "cmd_cad_desc": {
+    "value": "A rádió minden adás előtt figyeli, van-e forgalom a csatornán. A csomópont vár a küldéssel, amíg a csatorna foglalt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "998c2731"
+  },
+  "cmd_agc_reset_interval_desc": {
+    "value": "Megadott másodpercenként visszaállítja a rádió automatikus erősítésszabályzását. A csomópont lefelé kerekít 4 többszörösére; a 0 kikapcsolja.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aa321448"
+  },
+  "cmd_multi_acks_desc": {
+    "value": "Minden nyugtából extra másolatokat küld, hogy gyenge kapcsolatokon javuljon a kézbesítés. A 0-val minden nyugtát csak egyszer küld, extra másolatok nélkül.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b2c80c40"
+  },
+  "cmd_flood_max_desc": {
+    "value": "Beállítja, hány ugrás után nem ismétel tovább ez a csomópont egy flood csomagot. Csökkentsd, hogy a floodok ne jussanak messzire a mesh-ben.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dee460b4"
+  },
+  "cmd_flood_max_unscoped_desc": {
+    "value": "Beállítja a régió nélküli flood csomagok ugráskorlátját. Csökkentsd, hogy ez a forgalom a közelben maradjon.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1003a06a"
+  },
+  "cmd_flood_max_advert_desc": {
+    "value": "Beállítja az e csomópont által ismételt flood advertek ugráskorlátját. Csökkentsd, hogy az advertek ne járják be az egész mesh-t.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "57c129b9"
+  },
+  "cmd_name_desc": {
+    "value": "Beállítja a nevet, amit más csomópontok látnak ennek a csomópontnak az advertjeiben. A [ ] \\ : , ? * karakterek nem engedélyezettek.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "08e6c872"
+  },
+  "cmd_lat_desc": {
+    "value": "Beállítja a tizedes fokban megadott szélességet, amit ez a csomópont az advertjeiben megoszt. A lon paranccsal együtt használd, hogy a csomópont jó helyre kerüljön a térképen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ea083178"
+  },
+  "cmd_lon_desc": {
+    "value": "Beállítja a tizedes fokban megadott hosszúságot, amit ez a csomópont az advertjeiben megoszt. A lat paranccsal együtt használd, hogy a csomópont jó helyre kerüljön a térképen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fe5f8039"
+  },
+  "cmd_prv_key_desc": {
+    "value": "Megmutatja vagy lecseréli a privát kulcsot, amely a csomópont identitását határozza meg. A lekérdező forma csak soros porton működik; kulcs beállítása után indítsd újra.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3500931c"
+  },
+  "cmd_password_desc": {
+    "value": "Megváltoztatja az admin jelszót, és visszaírja az újat, hogy ellenőrizhesd. Minden új csomóponton változtasd meg, mert az alapértelmezett nyilvános.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a33a87f1"
+  },
+  "cmd_guest_password_desc": {
+    "value": "Beállítja a vendégjelszót; room serveren olvasási és írási jogot ad. Oszd meg azokkal, akiket be akarsz engedni a szobába.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "67348593"
+  },
+  "cmd_owner_info_desc": {
+    "value": "Beállít egy elérhetőségi szöveget, amit mások lekérhetnek a csomóponttól, például a nevedet. Írj | karaktert oda, ahol új sort akarsz kezdeni.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "928a68a4"
+  },
+  "cmd_adc_multiplier_desc": {
+    "value": "Egy, a kártyádhoz illő szorzóval javítja a csomópont akkumulátorfeszültség-mérését. A 0-val visszatérsz a kártya által megadott értékhez.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0383a608"
+  },
+  "cmd_powersaving_desc": {
+    "value": "Hagyja, hogy a csomópont aludjon a rádiós tevékenységek között, hogy kímélje az akkumulátort. nRF52 kártyákon és bridge nélküli ESP32 változatokon működik.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3e791562"
+  },
+  "cmd_setperm_desc": {
+    "value": "Szerepet ad egy companionnek ezen a csomóponton, a nyilvános kulcsa alapján. A 0 törli a bejegyzést; a többi szerephez a teljes kulcs kell.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "93a740af"
+  },
+  "cmd_acl_desc": {
+    "value": "Kiírja a hozzáférési listát minden companion jogosultságaival és nyilvános kulcsával. Csak a soros konzolon működik, a mesh-en keresztül nem.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "784d80d9"
+  },
+  "cmd_allow_read_only_desc": {
+    "value": "Hibás vagy üres jelszóval is beengedi az embereket egy room serverre, csak olvasási joggal. Kapcsold ki, hogy csak a jelszót ismerők jussanak be.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a845f89b"
+  },
+  "cmd_region_desc": {
+    "value": "Megmutatja a csomópont teljes régiófáját, minden régió flood jelzőjével. Az F azt jelenti, hogy a flood engedélyezett, a ^ az otthoni régiót jelöli.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "07dd7f25"
+  },
+  "cmd_region_load_desc": {
+    "value": "Elindítja egy régiófa tömeges bevitelét, soronként egy régióval, szóközökkel behúzva. Add hozzá az F-et a flood engedélyezéséhez, és üres sorral fejezd be.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d2da253a"
+  },
+  "cmd_region_save_desc": {
+    "value": "Elmenti a régióváltoztatásaidat a csomópont tárolójába, hogy újraindítás után is megmaradjanak. Futtasd minden megtartandó régióváltoztatás után.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bd6cb636"
+  },
+  "cmd_region_flood_desc": {
+    "value": "Engedélyezi vagy tiltja a flood csomagok ismétlését egy régióban. A * a régió nélküli csomagokra vonatkozik.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "58acd9db"
+  },
+  "cmd_region_get_desc": {
+    "value": "Megmutat egy régiót a szülőjével, és egy F-et, ha a flood engedélyezett benne. Ezzel egyetlen régiót ellenőrizhetsz a teljes fa kiolvasása nélkül.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "33ef40c6"
+  },
+  "cmd_region_home_desc": {
+    "value": "Megmutatja vagy beállítja az otthoni régiót, amit a régiófa ^ jellel jelöl. Utána futtasd a region save parancsot, hogy a változás újraindítás után is megmaradjon.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "90b9c539"
+  },
+  "cmd_region_default_desc": {
+    "value": "Megmutatja vagy beállítja a régiót, amit a csomópont a saját flood csomagjaira, például advertjeire tesz. A csomópont azonnal menti a változást; a <null> törli.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b478cd71"
+  },
+  "cmd_region_put_desc": {
+    "value": "Régiót ad hozzá a helyettesítő jel alá vagy egy megnevezett szülő alá, engedélyezett flooddal. Utána futtasd a region save parancsot, hogy az új régió újraindítás után is megmaradjon.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "90f4ec6d"
+  },
+  "cmd_region_def_desc": {
+    "value": "Egy sorban épít fel egy régiófát, minden név az előző gyermeke. Írj név|jump formát, hogy a következő név egy korábbi régiótól folytatódjon.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "80bfbfce"
+  },
+  "cmd_region_remove_desc": {
+    "value": "Pontos neve alapján töröl egy régiót, ha már nincs gyermekrégiója. Utána futtasd a region save parancsot, hogy a törlés újraindítás után is megmaradjon.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0677775b"
+  },
+  "cmd_region_list_desc": {
+    "value": "Felsorolja azoknak a régióknak a nevét, ahol a flood engedélyezett, vagy ahol tiltott. Gyors ellenőrzésre használd a teljes fa nélkül.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8156296"
+  },
+  "cmd_gps_desc": {
+    "value": "Megmutatja, hogy a GPS be van-e kapcsolva, van-e pozíciója, és hány műholdat lát. Az on és off forma kapcsolja a GPS-t, és menti a választást.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6b7484f4"
+  },
+  "cmd_gps_diag_desc": {
+    "value": "Megmutatja, hogy a GPS be van-e kapcsolva, hány műholdat lát, és van-e pozíciója. Akkor használd, ha a csomópont nem kap pozíciót.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f5838af7"
+  },
+  "cmd_gps_sync_desc": {
+    "value": "A GPS által vett időből állítja be a csomópont óráját. Akkor használd, ha a csomópontnak nincs más forrása a pontos időre.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9992274d"
+  },
+  "cmd_gps_setloc_desc": {
+    "value": "Az aktuális GPS pozíciót a csomópont mentett szélességébe és hosszúságába másolja. Egyszer használd a helyszínen, aztán kapcsold ki a GPS-t.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2e7052c8"
+  },
+  "cmd_gps_advert_desc": {
+    "value": "Kiválasztja az advertekben szereplő pozíciót: nincs, élő GPS, vagy a mentett lat és lon. A none-nal titokban tartod a csomópont helyét.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e7bb3d85"
+  },
+  "cmd_sensor_list_desc": {
+    "value": "Felsorolja a szenzorkezelő egyéni beállításait az értékeikkel. Egy hosszú lista azzal az indexszel végződik, ahonnan folytathatod.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "af32a1b7"
+  },
+  "cmd_sensor_setting_desc": {
+    "value": "Név alapján olvassa vagy módosítja a szenzorkezelő egy egyéni beállítását. Előbb a sensor list paranccsal nézd meg, milyen neveket kínál a kártya.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c470cf70"
+  },
+  "cmd_io_desc": {
+    "value": "Olvassa vagy írja a kártya GPIO lábait hexadecimális bitmaszkként. Tegyél r, s vagy t betűt a maszk elé a bitek törléséhez, beállításához vagy átbillentéséhez.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ede2acc1"
+  },
+  "cmd_bridge_type_desc": {
+    "value": "Megmutatja, melyik bridge van beépítve ebbe a firmware-be: rs232, espnow vagy none. Ezzel ellenőrizheted, hogy bridge változatot flasheltél-e.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "54cbb77e"
+  },
+  "cmd_bridge_enabled_desc": {
+    "value": "Be- vagy kikapcsolja a bridge-et; az a mesh és egy másik kapcsolat között másolja a csomagokat. Ez a kapcsolat a változattól függően soros kábel vagy ESP-NOW.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7249ccd6"
+  },
+  "cmd_bridge_delay_desc": {
+    "value": "Beállítja, hány ezredmásodpercet vár a bridge, mielőtt továbbad egy csomagot. Növeld, ha a bridge-elt csomagok ütköznek a mesh forgalmával.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c8895baa"
+  },
+  "cmd_bridge_source_desc": {
+    "value": "Kiválasztja, hogy a bridge a csomópont által vett vagy küldött csomagokat másolja-e. Beállításhoz írj rx-et vagy tx-et; a lekérdezés logRx-szel vagy logTx-szel válaszol.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d81577c2"
+  },
+  "cmd_bridge_baud_desc": {
+    "value": "Beállítja egy RS-232 bridge soros sebességét baudban. A soros kábel mindkét végén ugyanaz a sebesség kell.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7322814d"
+  },
+  "cmd_bridge_channel_desc": {
+    "value": "Beállítja a WiFi csatornát, amit egy ESP-NOW bridge a kapcsolatához használ. Minden bridge-nek, amely ezzel beszél, ugyanez a csatorna kell.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "924d978f"
+  },
+  "cmd_bridge_secret_desc": {
+    "value": "Beállítja a megosztott titkot, amely az ESP-NOW bridge csomagjait kódolja. Ugyanezt a titkot használd minden bridge-en, amely ezzel beszél.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b1df9356"
+  },
+  "cmd_eth_status_desc": {
+    "value": "Megmutatja az Ethernet konzol IP-címét és portját, vagy hogy offline. A soros és az Ethernet konzolon működik, a mesh-en keresztül nem.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b27f99e8"
+  },
+  "cmd_pin_desc": {
+    "value": "Beállítja a Bluetooth PIN-t, amit a telefonod párosításkor kér, újraindítás után. A 0-val a kijelzős kártya minden indításkor új PIN-t mutat, a kijelző nélküli 123456-ot használ.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "82dc0ee0"
+  },
+  "cmd_tz_offset_desc": {
+    "value": "Beállítja az időzónádat egész órákban az UTC-hez képest. A companion a kijelzőjén lévő órához használja.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d2a9942a"
+  },
+  "cmd_wifi_ssid_desc": {
+    "value": "Megmutatja vagy beállítja a WiFi hálózat nevét, amelyhez a companion csatlakozik. Állítsd be a wifi.pwd-t is, majd indítsd újra a csatlakozáshoz.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6e53eb6a"
+  },
+  "cmd_wifi_pwd_desc": {
+    "value": "Megmutatja vagy beállítja a WiFi hálózat jelszavát, az érvényesítéshez indítsd újra. A parancsküldésre jogosult kapcsolat is kiolvashatja.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "15b5453a"
+  },
+  "cmd_wifi_enabled_desc": {
+    "value": "1-gyel bekapcsolja, 0-val kikapcsolja a WiFi-t, újraindítás után. Hálózatnév nélkül a companion nem indítja el a WiFi-t.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7dbbf8f1"
+  },
+  "cmd_wifi_clear_desc": {
+    "value": "Törli a WiFi hálózat nevét és jelszavát a companionból. Az érvényesítéshez indítsd újra.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "29938727"
+  },
+  "cmd_wifi_status_desc": {
+    "value": "Megmutatja, hogy a companion csatlakozik-e a WiFi-hez, és az IP-címét a hálózatodban. A companion ezen a címen, az 5000-es porton fogadja az app kapcsolatait.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "38894245"
+  },
+  "keygen_find_title": {
+    "value": "1. Keress egy szabad prefixet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "23440ddd"
+  },
+  "keygen_find_body": {
+    "value": "A Prefix eszköz megmutatja, mely prefixeket használják már csomópontok, és javasol egy szabadot.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8b4149b8"
+  },
+  "keygen_find_link": {
+    "value": "Nyisd meg a Prefix eszközt",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ad418bc8"
+  },
+  "keygen_make_title": {
+    "value": "2. Készíts vele kulcsot",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "55671108"
+  },
+  "keygen_needs_js": {
+    "value": "Ez az eszköz a böngésződben fut, és JavaScriptet igényel.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9128273b"
+  },
+  "keygen_prefix_label": {
+    "value": "Prefix, hexában",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c5fe4703"
+  },
+  "keygen_prefix_hint": {
+    "value": "2 karakter 1 bájthoz, 4 karakter 2 bájthoz. A firmware a 00-t és az FF-et elutasítja.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "60646fe6"
+  },
+  "keygen_make": {
+    "value": "Kulcs készítése",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f2e49767"
+  },
+  "keygen_stop": {
+    "value": "Leállítás",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cae7d57b"
+  },
+  "keygen_working": {
+    "value": "Kulcsok próbálása: eddig {n}.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "10781c37"
+  },
+  "keygen_done": {
+    "value": "Megvan {n} próbálkozás után.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8495a72b"
+  },
+  "keygen_stopped": {
+    "value": "Leállítva. Próbáld újra, vagy válassz rövidebb prefixet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "731c66a8"
+  },
+  "keygen_bad": {
+    "value": "Írj be 2 vagy 4 hexa karaktert (0-9, a-f), ami nem 00-val vagy FF-fel kezdődik.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9569dc0f"
+  },
+  "keygen_unsupported": {
+    "value": "A böngésződ nem tud Ed25519 kulcsot készíteni. Használj Chrome 137, Firefox 129, Safari 17 vagy újabb verziót.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "70cf8b1d"
+  },
+  "keygen_set_title": {
+    "value": "3. Állítsd be az átjátszódon",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "37e17307"
+  },
+  "keygen_set_body": {
+    "value": "Futtasd ezt a parancsot az átjátszódon, majd indítsd újra. Megtartja a beállításait és a hozzáférési listáját, de mindenki számára új csomópont lesz. Az első advertje után add hozzá újra az appban.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c80b8962"
+  },
+  "keygen_public": {
+    "value": "Nyilvános kulcs",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4ee252fb"
+  },
+  "keygen_secret": {
+    "value": "Ez az átjátszód privát kulcsa. Aki birtokolja, az átjátszód nevében léphet fel, ezért tartsd meg magadnak. A böngésződ készítette, és ez az oldal sehova nem küldi.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b4d3d7d1"
+  },
+  "guides_card_keygen_title": {
+    "value": "Kulcs generálása",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e798fa1b"
+  },
+  "guides_card_keygen_desc": {
+    "value": "Adj az átjátszódnak olyan prefixet, amit a közeledben egy átjátszó sem használ.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "267f04fa"
+  },
+  "ch_needs_js": {
+    "value": "A csatornalista a böngésződben fut, és JavaScriptet igényel. Az Analyzer ugyanezeket a csatornákat mutatja:",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "57228d02"
+  },
+  "ch_source": {
+    "value": "MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ed180c11"
+  },
+  "ch_list_title": {
+    "value": "Az országodban hallott csatornák",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6a3ddfed"
+  },
+  "ch_country_label": {
+    "value": "Az országod",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "18f2456a"
+  },
+  "ch_country_pick": {
+    "value": "Válassz országot",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "632aadfb"
+  },
+  "ch_search": {
+    "value": "Keress nevet vagy régiót",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "67d2c527"
+  },
+  "ch_loading": {
+    "value": "A csatornák betöltése...",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e4e9f6e5"
+  },
+  "ch_error": {
+    "value": "A csatornalista nem töltődött be. Próbáld újra később; az alábbi #nevek kulcsa továbbra is működik.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f653e69d"
+  },
+  "ch_count": {
+    "value": "{n} csatornát hallottak itt: {country}, a legtöbb üzenettel az elején.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "923bf6a5"
+  },
+  "ch_messages": {
+    "value": "üzenet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f5cccfb7"
+  },
+  "ch_key": {
+    "value": "Kulcs",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "99a52df3"
+  },
+  "ch_source_note": {
+    "value": "Élőben innen:",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1db8edb5"
+  },
+  "ch_calc_title": {
+    "value": "Bármely #csatorna kulcsa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ad70964d"
+  },
+  "ch_calc_body": {
+    "value": "Írj be egy #-tel kezdődő csatornanevet. A kulcs a névből következik, így ugyanazt a kulcsot kapod, mint az app.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8531d7e8"
+  },
+  "ch_calc_label": {
+    "value": "Csatornanév",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2fe4a2e8"
+  },
+  "guides_card_channels_title": {
+    "value": "Csatornák keresése",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9905513b"
+  },
+  "guides_card_channels_desc": {
+    "value": "A közeledben használt csatornák, és hogyan csatlakozhatsz hozzájuk.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2b7ffced"
+  },
+  "ch_count_one": {
+    "value": "1 csatornát hallottak itt: {country}.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8f1ca51"
+  },
+  "ch_show_all": {
+    "value": "Mind a {n} csatorna mutatása",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2afe05c3"
+  },
+  "area_other_presets_title": {
+    "value": "További előbeállítások a MeshCore appban",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e8ca0063"
+  },
+  "area_other_presets_body": {
+    "value": "Az app ezeket az európai előbeállításokat is felsorolja, területet nem nevezve meg hozzájuk. Egy 433 MHz-es előbeállításhoz 433 MHz-es rádióval szerelt kártya kell.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "86f82c5c"
+  },
+  "net_live_title": {
+    "value": "Amit a megfigyelők hallanak",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f89055eb"
+  },
+  "net_live_packets": {
+    "value": "csomag az utolsó teljes órában",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e3e24e13"
+  },
+  "net_live_countries": {
+    "value": "ország hallva az elmúlt órában",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "502cba0e"
+  },
+  "net_live_repeaters": {
+    "value": "átjátszó hallva az elmúlt 7 napban",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2890ece6"
+  },
+  "net_live_observers": {
+    "value": "megfigyelő az elmúlt órában",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6825b26c"
+  },
+  "net_live_source": {
+    "value": "Élő számok innen:",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f063c292"
+  },
+  "net_join_title": {
+    "value": "Add hozzá a saját megfigyelődet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e772f141"
+  },
+  "net_join_body": {
+    "value": "Minden megfigyelő egy kicsit többet mutat meg a mesh-ből, mindenkinek Európában. Válaszd a neked megfelelő módot; a lépéseket a MeshCore Analyzer mutatja.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "de341930"
+  },
+  "net_way_app_title": {
+    "value": "A KiekR apppal",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "51c6a5e5"
+  },
+  "net_way_app_desc": {
+    "value": "Párosíts egy MeshCore rádiót a telefonoddal Bluetooth-on. Az app jelenti, amit hall, flashelni semmit nem kell.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9ae6b7d2"
+  },
+  "net_way_browser_title": {
+    "value": "A böngésződből",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c6b5042e"
+  },
+  "net_way_browser_desc": {
+    "value": "Csatlakoztass egy rádiót USB-n vagy Bluetooth-on Chrome-ban vagy Edge-ben. A böngésző addig jelent, amíg a lap nyitva van.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "72fc7d03"
+  },
+  "net_way_board_title": {
+    "value": "Egy folyamatosan működő kártyával",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "574c32a6"
+  },
+  "net_way_board_desc": {
+    "value": "Flashelj megfigyelő firmware-t egy LoRa kártyára. Magától jelent Wi-Fi-n, éjjel-nappal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1742bfea"
+  },
+  "project_site": {
+    "value": "Weboldal",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b5a229ac"
+  },
+  "home_town_title": {
+    "value": "Kövess egy üzenetet a háztetők fölött.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "b6669c81"
+  },
+  "home_town_lead": {
+    "value": "A telefonod vagy laptopod Bluetooth-on vagy USB-n elküld egy üzenetet a companionodnak. A companion rádión továbbítja egy tetőn lévő átjátszónak. Onnan tetőről tetőre ugrik tovább.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2af5006f"
+  },
+  "home_town_tag_phone": {
+    "value": "Telefon vagy laptop",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "54c8157f"
+  },
+  "home_town_tag_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1dadb328"
+  },
+  "home_town_tag_repeater": {
+    "value": "Átjátszó",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "46e7bee1"
+  },
+  "home_town_tag_mast2": {
+    "value": "További átjátszók",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "3aa62b45"
+  },
+  "home_town_companion_title": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1dadb328"
+  },
+  "home_town_companion_desc": {
+    "value": "A rádió, amelyről üzenetet küldesz. Párosítsd a telefonoddal vagy laptopoddal, vagy válassz saját kijelzős és billentyűzetes típust, amely önállóan működik.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c70389e6"
+  },
+  "home_town_companion_link": {
+    "value": "Válassz companiont",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "5eba6690"
+  },
+  "home_town_repeater_title": {
+    "value": "Átjátszó",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "46e7bee1"
+  },
+  "home_town_repeater_desc": {
+    "value": "Továbbadja az üzeneteket mindenkinek a környezetében. A legtöbb napelemről működik. Saját átjátszóra csak ott van szükséged, ahová a mesh még nem ér el.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "3db0ed15"
+  },
+  "home_town_repeater_link": {
+    "value": "Mikor érdemes átjátszót telepíteni",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c5154fb9"
+  },
+  "home_town_mesh_title": {
+    "value": "A mesh",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "199c9527"
+  },
+  "home_town_mesh_desc": {
+    "value": "Az átjátszók addig adják tovább az üzenetet, ameddig hallják egymást. A régiók helyben tartják.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2d14f895"
+  },
+  "home_town_mesh_link": {
+    "value": "Nézd meg a hálózatot",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6f3b43a5"
+  },
+  "planned_label": {
+    "value": "Tervezett",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fb6f7c93"
+  },
+  "planned.guides-filter.lead": {
+    "value": "Dobd el a csomagszűrővel azt a forgalmat, amit az átjátszódnak nem kellene továbbítania.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ef203a0d"
+  },
+  "planned.guides-filter.what.title": {
+    "value": "Mit csinál a szűrő",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "88a35f90"
+  },
+  "planned.guides-filter.what.desc": {
+    "value": "Mely csomagokat dobhat el egy átjátszó, és ez hogyan tartja csendben a mesh-t.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4a3c7cb5"
+  },
+  "planned.guides-filter.configs.title": {
+    "value": "Ajánlott beállítások",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "42763607"
+  },
+  "planned.guides-filter.configs.desc": {
+    "value": "Kész beállítások gyakori esetekre, például egy zajos csatorna blokkolására.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2ef6b9e2"
+  },
+  "planned.guides-filter.settings.title": {
+    "value": "Minden beállítás",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "07182ebe"
+  },
+  "planned.guides-filter.settings.desc": {
+    "value": "Minden szűrőbeállítás a parancsával együtt, és hogy mit változtat.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b73f8c55"
+  },
+  "planned.guides-mqtt.lead": {
+    "value": "Hagyd, hogy a folyamatosan bekapcsolt paneled jelentse a MeshCore Analyzernek, amit hall.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5aa10eb5"
+  },
+  "planned.guides-mqtt.need.title": {
+    "value": "Mire van szükséged",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e17c85cc"
+  },
+  "planned.guides-mqtt.need.desc": {
+    "value": "Egy panel observer firmware-rel és Wi-Fi-vel, valamint egy broker címe.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f9b88653"
+  },
+  "planned.guides-mqtt.settings.title": {
+    "value": "Beállítások",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "74a883a0"
+  },
+  "planned.guides-mqtt.settings.desc": {
+    "value": "A Wi-Fi-, broker- és topic-beállítások, amelyek a panelednek kellenek.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3d2f63e9"
+  },
+  "planned.guides-mqtt.commands.title": {
+    "value": "Parancsok a brokeredhez",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d2db5c84"
+  },
+  "planned.guides-mqtt.commands.desc": {
+    "value": "A beillesztendő parancsok, kitöltve az általad választott brokerhez.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1a37dddf"
+  },
+  "planned.guides-mqtt.check.title": {
+    "value": "Ellenőrizd, hogy működik",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2249f06f"
+  },
+  "planned.guides-mqtt.check.desc": {
+    "value": "Hogyan találod meg az observeredet a MeshCore Analyzerben.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2e45d8f2"
+  },
+  "net_data_title": {
+    "value": "Hogyan kerülnek be az adatok",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d199acc6"
+  },
+  "net_data_lead": {
+    "value": "Ezen az oldalon minden szám olyan emberektől származik, akik figyelnek, és megosztják, amit hallanak.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d162c9f3"
+  },
+  "net_data_from_title": {
+    "value": "Honnan jön",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "87362334"
+  },
+  "net_data_from_body": {
+    "value": "A megfigyelők MQTT-n jelentik, amit hallanak, egy brokernek, egy jelentéseket gyűjtő szervernek. A mqtt.meshcore-analyzer.eu címre vagy egy másik, az Analyzer által olvasott brokernek jelentenek. A KiekR app és a böngészős megfigyelő is jelent. Az Analyzer azokat a CoreScope analizátorokat is lekéri, amelyek tulajdonosai beleegyeztek. Minden brokert és analizátort a tulajdonosa engedélyével olvas.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5604e25f"
+  },
+  "net_data_way_title": {
+    "value": "Mi történik útközben",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0e5c3f7c"
+  },
+  "net_data_way_body": {
+    "value": "Egy sok megfigyelő által hallott üzenet egyszer számít. Az Analyzer dekódolja, és ebből építi a térképeket, a számokat és a csatornalistát. Minden üzenetet megőriz, de az, hogy melyik megfigyelő mit hallott, 10 napig marad meg. Az óránkénti számok legfeljebb 30 napig maradnak, a napi összesítések véglegesen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "57413efc"
+  },
+  "net_data_node_title": {
+    "value": "Mit látnak mások a csomópontodból",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a6245d5e"
+  },
+  "net_data_node_body": {
+    "value": "Mások látják a nevét, a nyilvános kulcsát, a típusát és a pozícióját, ha megosztod. A közvetlen üzeneteid titkosítva maradnak. A Public és a hashtag csatornák üzeneteit bárki elolvashatja, az Analyzer is.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0f5e507d"
+  },
+  "net_data_q_title": {
+    "value": "Kérdések",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9a72221a"
+  },
+  "net_data_q1": {
+    "value": "Rajta van a csomópontom a térképen?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ec3057eb"
+  },
+  "net_data_a1": {
+    "value": "Csak ha egy megfigyelő hallotta az advertjét, a csomagot, amivel egy csomópont bejelenti magát. A minden megfigyelőtől távoli csomópont nem kerül a térképre.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "393d0df5"
+  },
+  "net_data_q2": {
+    "value": "El tudja olvasni az Analyzer a közvetlen üzeneteimet?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1cd884fb"
+  },
+  "net_data_a2": {
+    "value": "Nem. A kulcsot csak te és a másik személy birtokoljátok.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c6b0e033"
+  },
+  "net_data_q3": {
+    "value": "Küldhetek adatot a saját eszközömből?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "52255bf4"
+  },
+  "net_data_a3": {
+    "value": "Igen: publikálj MQTT-n a mqtt.meshcore-analyzer.eu címre, a csomópontod kulcsával aláírva, ahogy egy megfigyelő teszi. A {link} mutatja, hogyan csatlakozz.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "171daa27"
+  },
+  "net_data_analyzer_link": {
+    "value": "MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ed180c11"
+  },
+  "net_data_q4": {
+    "value": "Használhatom az Analyzer adatait?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2154596d"
+  },
+  "net_data_a4": {
+    "value": "Előbb kérdezz rá a {link} felületén. Az Analyzer nem engedi az automatizált gyűjtést.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b935a213"
+  },
+  "release_role_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1dadb328"
+  },
+  "release_role_repeater": {
+    "value": "Átjátszó",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "46e7bee1"
+  },
+  "release_role_room_server": {
+    "value": "Room server",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "68b91cc5"
+  },
+  "release_notes_link": {
+    "value": "A hivatalos kiadási jegyzetek",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8bc96136"
+  },
+  "release.v1-18-0.1": {
+    "value": "A companionod parancssort kap: nyisd meg a Command Line-t az appban, 1.50-es vagy újabb verzióban. Egy kapcsolat, akinek Remote CLI jogot adsz, parancsokat küldhet neki a mesh-en át.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14cedc6a"
+  },
+  "release.v1-18-0.2": {
+    "value": "Egy frissen beállított átjátszó magától bekapcsolja a minimális hurokérzékelést.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14ac329c"
+  },
+  "release.v1-18-0.3": {
+    "value": "Egy kikapcsolt advertekkel működő átjátszó már nem jelenik meg, amikor mások csomópontokat keresnek.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "73a74341"
+  },
+  "release.v1-18-0.4": {
+    "value": "ESP32 paneleken az óra túléli az újraindítást, és a legtöbb nRF52 panel már nem tagadja meg az indulást alacsony akkumulátorszintnél.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "236a3861"
+  },
+  "release.v1-18-0.5": {
+    "value": "Új panelek: Thinknode M4 és M8, Wio Tracker L1 1W, Muzi Base és Waveshare ESP32-S3 LR1121.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1355f413"
+  },
+  "release.v1-18-0.6": {
+    "value": "A Bluetooth companion firmware több panelen WiFi-t is tud, köztük Heltec, Wireless Paper, RAK és Xiao S3; állítsd be az appban.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0d070c73"
+  },
+  "release.v1-17-1.1": {
+    "value": "Külső erősítős paneleken a vételi erősítés beállítása mostantól mentésre kerül. Frissítés után ellenőrizd az átjátszódon a radio.fem.rxgain és radio.rxgain értékét.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aa6980e3"
+  },
+  "release.v1-17-1.2": {
+    "value": "A Heltec T096 ismét tud küldeni, és a T-Beam Supreme kijelzője ismét megjelenik.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8973538"
+  },
+  "release.v1-17-0.1": {
+    "value": "Minden firmware új formátumban tárolja a beállításait.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2acf27c2"
+  },
+  "release.v1-17-0.2": {
+    "value": "Az átjátszó a gombja hosszú nyomásával kikapcsol. Új parancsok: set cad az átjátszókhoz és room.post a room serverekhez.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "96f0d3d9"
+  },
+  "release.v1-17-0.3": {
+    "value": "Az nRF52 panelek a beépített titkosítóchipjüket használják, és a panelek kevesebbet fogyasztanak hibernálásban és kikapcsolva.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3daf5825"
+  },
+  "release.v1-17-0.4": {
+    "value": "Új panelek: Heltec V4 R8, RC32 és Tower V2, Thinknode M7 és M9, Sensecap MeshTracker X1, valamint LR2021 chipes rádiók.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b90c5ac8"
+  },
+  "release.v1-17-0.5": {
+    "value": "Az átjátszók jobban figyelnek küldés előtt, így a forgalmas mesh-ekben kevesebb az ütközés.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3061d4fd"
+  },
+  "console_needs_js": {
+    "value": "A konzolhoz JavaScript és USB-t elérő böngésző kell: Chrome, Edge vagy Opera számítógépen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "07c6b52a"
+  },
+  "console_connect": {
+    "value": "Csatlakoztasd a csomópontod",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bb8e5e01"
+  },
+  "console_disconnect": {
+    "value": "Bontás",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "acfc5be7"
+  },
+  "console_copy": {
+    "value": "Napló másolása",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e01862b2"
+  },
+  "console_send": {
+    "value": "Küldés",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f6f4688f"
+  },
+  "console_command_label": {
+    "value": "Parancs",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "71316697"
+  },
+  "console_log_label": {
+    "value": "Amit a csomópontod mond",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "84925ecb"
+  },
+  "console_status_idle": {
+    "value": "Dugd be a csomópontod, majd csatlakozz és válaszd ki a portját.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3ebc3314"
+  },
+  "console_status_asking": {
+    "value": "Csatlakozva. Megkérdezzük a csomópontodat, hogy micsoda.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "02b45460"
+  },
+  "console_status_connected": {
+    "value": "Csatlakozva. Írj be egy parancsot, és nyomj Entert.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d216f35b"
+  },
+  "console_status_lost": {
+    "value": "A kapcsolat megszakadt. Ellenőrizd a kábelt, és csatlakozz újra.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "98fa83ae"
+  },
+  "console_status_busy": {
+    "value": "A portot nem sikerült megnyitni. Zárd be a másik programot vagy lapot, amely használja, majd próbáld újra.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cf4e9cbd"
+  },
+  "console_status_unsupported": {
+    "value": "Ez a böngésző nem éri el az USB-t. Használj Chrome-ot, Edge-et vagy Operát számítógépen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8ef7eebe"
+  },
+  "console_status_copied": {
+    "value": "A napló kimásolva.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "617d378e"
+  },
+  "console_status_copy_failed": {
+    "value": "A naplót nem sikerült kimásolni. Jelöld ki, és másold ki kézzel.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "45bd5465"
+  },
+  "console_commands_before": {
+    "value": "Minden parancsot elmagyaráz a",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "68ef84d1"
+  },
+  "console_commands_link": {
+    "value": "CLI parancsok",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a13cc6cb"
+  },
+  "console_commands_after": {
+    "value": "oldal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cdb4ee2a"
+  },
+  "console_node_known": {
+    "value": "A javaslatok azokat a parancsokat mutatják, amelyeket ez a csomópont ért.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "345c274c"
+  },
+  "console_node_unknown": {
+    "value": "A csomópontod nem nevezte meg a szerepét. A javaslatok az átjátszók, room serverek és szenzorok parancsait mutatják.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "503c0064"
+  },
+  "console_dmc_before": {
+    "value": "Ez a csomópont DutchMeshCore firmware-t futtat. A javaslatok a MeshCore saját parancsait mutatják. A DutchMeshCore parancsok itt vannak:",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b17e7f2e"
+  },
+  "console_more_link": {
+    "value": "{command} a CLI útmutatóban",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9e207731"
+  },
+  "console_dmc_link": {
+    "value": "DutchMeshCore CLI wiki",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ccc16968"
+  },
+  "console_dmc_after": {
+    "value": ".",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cdb4ee2a"
+  },
+  "console_suggestions_label": {
+    "value": "Javasolt parancsok",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "36d1238e"
+  },
+  "console_key_fill": {
+    "value": "kitölti",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cf686f44"
+  },
+  "console_key_choose": {
+    "value": "választás",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "725fed9d"
+  },
+  "console_key_guide": {
+    "value": "megnyitja a CLI útmutatót",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "de7ca5a8"
+  },
+  "console_key_close": {
+    "value": "bezár",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b2850942"
+  },
+  "console_trouble_title": {
+    "value": "Ha nem csatlakozik",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0cce4809"
+  },
+  "console_trouble_1": {
+    "value": "Használj adatkábelt. Egyes kábelek csak töltenek.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "958a8d54"
+  },
+  "console_trouble_2": {
+    "value": "Zárd be a portot használó többi programot, például egy másik konzolt vagy ennek az oldalnak a flashelőjét egy másik lapon.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fc9daa0a"
+  },
+  "console_trouble_3": {
+    "value": "Válaszd a megfelelő portot: húzd ki a csomópontod, nézd meg, melyik port tűnik el, és dugd vissza.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "75120995"
+  },
+  "console_trouble_4": {
+    "value": "A Firefox és a Safari nem éri el az USB-t weboldalról. Használj Chrome-ot, Edge-et vagy Operát számítógépen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "71403007"
+  },
+  "usb_title": {
+    "value": "Küldd el az átjátszódra USB-n.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "815598af"
+  },
+  "usb_body": {
+    "value": "Dugd be az átjátszódat, csatlakozz, és küldés előtt ellenőrizd, mi változik.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5a67e201"
+  },
+  "usb_connect": {
+    "value": "Csatlakoztasd az átjátszódat",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aaf2563c"
+  },
+  "usb_check": {
+    "value": "Ellenőrizd, mi változik",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3ee77f8f"
+  },
+  "usb_send": {
+    "value": "Küldd el a beállításokat",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7e2580db"
+  },
+  "usb_reboot": {
+    "value": "Indítsd újra az átjátszódat",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "19394bd3"
+  },
+  "usb_disconnect": {
+    "value": "Leválasztás",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "acfc5be7"
+  },
+  "usb_col_command": {
+    "value": "Parancs",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "71316697"
+  },
+  "usb_col_now": {
+    "value": "Most",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fe18013d"
+  },
+  "usb_col_reply": {
+    "value": "Válasz",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c253f451"
+  },
+  "usb_col_new": {
+    "value": "Új érték",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7ca9b97d"
+  },
+  "usb_no_answer": {
+    "value": "nincs válasz",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ad03eb5e"
+  },
+  "usb_status_idle": {
+    "value": "Nincs csatlakozva.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3b3d2796"
+  },
+  "usb_status_connected": {
+    "value": "Csatlakozva. Előbb ellenőrizd, mi változik.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4bb28123"
+  },
+  "usb_status_busy": {
+    "value": "A port használatban van. Zárd be a másik programot vagy lapot, amely használja, aztán próbáld újra.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "438a57fa"
+  },
+  "usb_status_fill": {
+    "value": "Előbb töltsd ki a {value} mezőt a fenti parancsokban.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d903306b"
+  },
+  "usb_status_reading": {
+    "value": "Az átjátszód beállításainak olvasása.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "222e3b98"
+  },
+  "usb_status_review": {
+    "value": "Hasonlítsd össze a jelenlegi értékeket az újakkal, aztán küldd el.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "017b629e"
+  },
+  "usb_status_sent": {
+    "value": "Elküldve. Az átjátszód minden parancsot elfogadott.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4cf46e54"
+  },
+  "usb_status_sent_errors": {
+    "value": "Elküldve, de az átjátszód néhány parancsot elutasított vagy nem válaszolt. Nézd meg a válaszokat.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f77c4ebb"
+  },
+  "usb_status_rebooted": {
+    "value": "Az átjátszó az új rádióbeállításokkal indul újra.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "79ddf8f8"
+  },
+  "flash_releases_link": {
+    "value": "A MeshCore kiadásai a GitHubon",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "db7cf404"
+  },
+  "flash_no_match": {
+    "value": "Nincs egyező panel. Próbálj rövidebb szót, vagy válassz a listából.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cdba666f"
+  },
+  "flash_needs_js": {
+    "value": "A flashelőhöz JavaScript kell. Nélküle {link} tartalmazza az összes fájlt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dc36838c"
+  },
+  "flash_board_title": {
+    "value": "Válaszd ki a paneled",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "225d5074"
+  },
+  "flash_filter_label": {
+    "value": "Keresés",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "49c266ba"
+  },
+  "flash_board_label": {
+    "value": "Panel",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4816cbfd"
+  },
+  "flash_role_label": {
+    "value": "Szerep",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14736a2e"
+  },
+  "flash_role_ble": {
+    "value": "Companion, Bluetooth",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2c1378a3"
+  },
+  "flash_role_usb": {
+    "value": "Companion, USB",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4794c45b"
+  },
+  "flash_role_repeater": {
+    "value": "Átjátszó",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "46e7bee1"
+  },
+  "flash_role_room_server": {
+    "value": "Room server",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "68b91cc5"
+  },
+  "flash_version_before": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f4f17278"
+  },
+  "flash_version_after": {
+    "value": ", a legújabb kiadás.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1daecb7e"
+  },
+  "flash_flash_title": {
+    "value": "Flasheld USB-n keresztül",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dfd786e5"
+  },
+  "flash_mode_legend": {
+    "value": "Mit szeretnél?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3e17dbf9"
+  },
+  "flash_mode_update": {
+    "value": "Frissítés: olyan panelhez, amelyen már MeshCore fut. Megtartja a csomópontod kulcsait, kapcsolatait és beállításait.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "59e8848e"
+  },
+  "flash_mode_fresh": {
+    "value": "Tiszta telepítés: új panelhez vagy más firmware-t futtatóhoz. Törli a panelt, a kulcsokkal együtt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bc797149"
+  },
+  "flash_wipe_ok": {
+    "value": "Tudom, hogy a tiszta telepítés törli a csomópontom kulcsait és kapcsolatait.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7aeefcb2"
+  },
+  "flash_flash_button": {
+    "value": "Csatlakozás és flashelés",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8a541c7"
+  },
+  "flash_esp_help": {
+    "value": "Chrome, Edge vagy Opera számítógépen. Ha a panel nem csatlakozik, tartsd nyomva a BOOT gombját (egyes paneleken PRG), amíg bedugod, majd próbáld újra.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4dafe8fb"
+  },
+  "flash_uf2_title": {
+    "value": "Másold a fájlt a paneledre",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "263bc1e5"
+  },
+  "flash_uf2_step1": {
+    "value": "Töltsd le a fájlt:",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dee6800a"
+  },
+  "flash_uf2_step2": {
+    "value": "Dugd be a paneled, és nyomd meg kétszer a reset gombját. USB-meghajtóként jelenik meg. A reset gomb nélküli paneleknek saját módjuk van erre; a gyártó oldala leírja, hogyan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9cd62884"
+  },
+  "flash_uf2_step3": {
+    "value": "Húzd a fájlt arra a meghajtóra. A panel az új firmware-rel indul újra; a frissítés megtartja a kulcsait.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aef87c5b"
+  },
+  "flash_status_unsupported": {
+    "value": "Ez a böngésző nem éri el az USB-t. Használj Chrome-ot, Edge-et vagy Operát számítógépen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8ef7eebe"
+  },
+  "flash_status_no_list": {
+    "value": "A panelek listája nem töltődött be. Töltsd újra az oldalt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7a3841a5"
+  },
+  "flash_status_downloading": {
+    "value": "A firmware letöltése.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c9e6648c"
+  },
+  "flash_status_connecting": {
+    "value": "Csatlakozás a paneledhez.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "70ed0d63"
+  },
+  "flash_status_flashing": {
+    "value": "Flashelés. Hagyd bedugva a panelt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0796d555"
+  },
+  "flash_status_done": {
+    "value": "Kész. A paneled az új firmware-rel indul újra.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "445b69e2"
+  },
+  "flash_status_failed": {
+    "value": "A flashelés leállt. Tartsd nyomva a BOOT gombot, amíg bedugod a panelt, majd próbáld újra.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f716db56"
+  },
+  "flash_status_no_file": {
+    "value": "A firmware fájl nem töltődött le. Próbáld újra kicsit később.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6636a9df"
+  },
+  "flash_other_firmware": {
+    "value": "Más firmware-hez, például a DutchMeshCore observer firmware-hez, saját flashelő tartozik: {link}.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b2c75d72"
+  },
+  "release_flash_link": {
+    "value": "Flasheld a paneledre",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "207bc805"
+  }
+}

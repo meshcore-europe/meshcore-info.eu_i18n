@@ -1,0 +1,83 @@
+# Language list copied from the site's hugo.toml by tools/sync_i18n.py.
+# Edit it in the site repository, not here.
+
+[languages.en]
+  label = "English"
+  weight = 1
+  contentDir = "content/en"
+
+[languages.nl]
+  label = "Nederlands"
+  weight = 2
+  contentDir = "content/nl"
+
+[languages.de]
+  label = "Deutsch"
+  weight = 3
+  contentDir = "content/de"
+
+[languages.fr]
+  label = "Français"
+  weight = 4
+  contentDir = "content/fr"
+
+[languages.es]
+  label = "Español"
+  weight = 5
+  contentDir = "content/es"
+
+[languages.it]
+  label = "Italiano"
+  weight = 6
+  contentDir = "content/it"
+
+[languages.pl]
+  label = "Polski"
+  weight = 7
+  contentDir = "content/pl"
+
+[languages.pt]
+  label = "Português"
+  locale = "pt-PT"
+  weight = 8
+  contentDir = "content/pt"
+
+[languages.cs]
+  label = "Čeština"
+  weight = 9
+  contentDir = "content/cs"
+
+[languages.sv]
+  label = "Svenska"
+  weight = 10
+  contentDir = "content/sv"
+
+[languages.da]
+  label = "Dansk"
+  weight = 11
+  contentDir = "content/da"
+
+[languages.nb]
+  label = "Norsk bokmål"
+  weight = 12
+  contentDir = "content/nb"
+
+[languages.fi]
+  label = "Suomi"
+  weight = 13
+  contentDir = "content/fi"
+
+[languages.hu]
+  label = "Magyar"
+  weight = 14
+  contentDir = "content/hu"
+
+[languages.ro]
+  label = "Română"
+  weight = 15
+  contentDir = "content/ro"
+
+[languages.el]
+  label = "Ελληνικά"
+  weight = 16
+  contentDir = "content/el"

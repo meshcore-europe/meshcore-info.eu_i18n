@@ -1,0 +1,5264 @@
+{
+  "_meta": {
+    "language": "el",
+    "name": "Ελληνικά",
+    "managed_by": "community",
+    "updated": "2026-10-26"
+  },
+  "site_tagline": {
+    "value": "Μηνύματα χωρίς δίκτυο σε όλη την Ευρώπη",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fd77fd37"
+  },
+  "site_description": {
+    "value": "Ο οδηγός της κοινότητας για το MeshCore στην Ευρώπη: πρώτα βήματα, υλικό, τοπικές ομάδες, χάρτες κάλυψης και αναμεταδότες. Μη εμπορικός και ανοιχτού κώδικα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "00f6c54b"
+  },
+  "skip_to_content": {
+    "value": "Μετάβαση στο περιεχόμενο",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ac576a66"
+  },
+  "menu": {
+    "value": "Μενού",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "99af6606"
+  },
+  "nav_label": {
+    "value": "Κύριο",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eb814be3"
+  },
+  "nav_about": {
+    "value": "Σχετικά",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4efca0d1"
+  },
+  "nav_get_started": {
+    "value": "Πρώτα βήματα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "61e8d44a"
+  },
+  "nav_devices": {
+    "value": "Συσκευές",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4ba5121d"
+  },
+  "nav_community": {
+    "value": "Κοινότητα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bb501d78"
+  },
+  "nav_map": {
+    "value": "Χάρτης",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be176b00"
+  },
+  "nav_repeater_guide": {
+    "value": "Οδηγός αναμεταδότη",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4608abcd"
+  },
+  "nav_news": {
+    "value": "Νέα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "69752f23"
+  },
+  "nav_projects": {
+    "value": "Έργα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "04e2a972"
+  },
+  "nav_contribute": {
+    "value": "Συνεισφορά",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "97b0c61b"
+  },
+  "nav_privacy": {
+    "value": "Απόρρητο",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "54a57c31"
+  },
+  "in_english": {
+    "value": "Αυτή η σελίδα είναι στα αγγλικά",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7e9323d9"
+  },
+  "lang_switch_label": {
+    "value": "Γλώσσα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a4fe6526"
+  },
+  "not_translated_yet": {
+    "value": "δεν έχει μεταφραστεί ακόμα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3f59d8d3"
+  },
+  "theme_light": {
+    "value": "Θέμα: φωτεινό",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "72a842db"
+  },
+  "theme_dark": {
+    "value": "Θέμα: σκούρο",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "43908c59"
+  },
+  "theme_system": {
+    "value": "Θέμα: συστήματος",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "98a8dd2c"
+  },
+  "copy": {
+    "value": "Αντιγραφή",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e21f935f"
+  },
+  "copied": {
+    "value": "Αντιγράφηκε",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8d525e5f"
+  },
+  "hero_eyebrow": {
+    "value": "868 MHz · Ευρώπη",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "567ed2b0"
+  },
+  "hero_title": {
+    "value": "Εκτός δικτύου, πάνω στο mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "43ed56a7"
+  },
+  "hero_lead": {
+    "value": "Το MeshCore στέλνει μηνύματα μέσω ραδιοκυμάτων, χωρίς ίντερνετ ή συνδρομή. Τα mesh της Ευρώπης ενώνονται σε ένα. Εδώ, οι κοινότητές τους μοιράζονται όσα μαθαίνουν.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "19ad0ab5"
+  },
+  "hero_cta_start": {
+    "value": "Ξεκίνα",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "61e8d44a"
+  },
+  "hero_cta_about": {
+    "value": "Μάθε τι είναι το MeshCore",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "cdecad6f"
+  },
+  "paths_title": {
+    "value": "Από πού θέλεις να ξεκινήσεις;",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "bf614863"
+  },
+  "path_new_title": {
+    "value": "Νέος εδώ",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "10bc4c55"
+  },
+  "path_new_desc": {
+    "value": "Τι είναι ένα mesh, και τι μπορεί και τι δεν μπορεί να κάνει το MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "a3e4ab18"
+  },
+  "path_offgrid_title": {
+    "value": "Έτοιμος όταν πέφτουν τα δίκτυα",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "b005ed6a"
+  },
+  "path_offgrid_desc": {
+    "value": "Διάλεξε πλακέτα για πεζοπορία, ιστιοπλοΐα, εκδηλώσεις ή διακοπή ρεύματος.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6a84d5b4"
+  },
+  "path_build_title": {
+    "value": "Κατασκευές και πειραματισμοί",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c24822f6"
+  },
+  "path_build_desc": {
+    "value": "Ραδιοεπικοινωνία, κεραίες, εργαλεία και έργα από άλλες κοινότητες.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "31166d76"
+  },
+  "path_grow_title": {
+    "value": "Προσθήκη αναμεταδότη",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "bf145b6c"
+  },
+  "path_grow_desc": {
+    "value": "Σχεδίασε και τοποθέτησε έναν αναμεταδότη που καλύπτει την περιοχή σου.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "db75c8c5"
+  },
+  "path_local_title": {
+    "value": "Άνθρωποι κοντά σου",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "808e1f66"
+  },
+  "path_local_desc": {
+    "value": "Βρες την τοπική σου ομάδα, τις συζητήσεις και τα κανάλια της.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "a1e525eb"
+  },
+  "why_title": {
+    "value": "Γιατί MeshCore;",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "67d51fbe"
+  },
+  "why_costs_title": {
+    "value": "Χωρίς πάγια έξοδα",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "adff5b03"
+  },
+  "why_costs_desc": {
+    "value": "Αγοράζεις μία φορά μια συσκευή. Τα μηνύματα δεν κοστίζουν τίποτα: ούτε κάρτα SIM, ούτε πακέτο δεδομένων, ούτε συνδρομή.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6e735f31"
+  },
+  "why_infra_title": {
+    "value": "Λειτουργεί χωρίς δίκτυο",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "058c8eae"
+  },
+  "why_infra_desc": {
+    "value": "Λειτουργεί ακόμα κι όταν τα δίκτυα κινητής και το ίντερνετ πέφτουν ή δεν φτάνουν. Τα μηνύματα πηγαίνουν από ραδιόφωνο σε ραδιόφωνο, μέσω του αέρα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ec9de206"
+  },
+  "why_open_title": {
+    "value": "Ανοιχτός κώδικας",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "67a0d2e0"
+  },
+  "why_open_desc": {
+    "value": "Το υλικολογισμικό και το πρωτόκολλό του είναι ανοιχτού κώδικα, οπότε ο καθένας μπορεί να χτίσει πάνω τους. Ανοιχτές εφαρμογές, εργαλεία και βιβλιοθήκες το κάνουν ήδη.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "97859c5f"
+  },
+  "why_privacy_title": {
+    "value": "Ιδιωτικό από τον σχεδιασμό του",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "485ca594"
+  },
+  "why_privacy_desc": {
+    "value": "Τα άμεσα μηνύματα είναι κρυπτογραφημένα από άκρο σε άκρο. Δεν χρειάζεσαι λογαριασμό ή αριθμό τηλεφώνου για να συμμετάσχεις.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6901512e"
+  },
+  "why_routing_title": {
+    "value": "Τοπικό ανά περιοχή",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be9348e5"
+  },
+  "why_routing_desc": {
+    "value": "Το πρώτο σου μήνυμα κάνει flood μέσα από τους αναμεταδότες, τους κόμβους σε στέγες και ιστούς που προωθούν μηνύματα. Ένα μήνυμα που κάνει flood μπορεί να φέρει μια περιοχή, και οι αναμεταδότες προωθούν μόνο τις περιοχές που εξυπηρετούν, οπότε μένει στην περιοχή του.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e9620b88"
+  },
+  "why_community_title": {
+    "value": "Ένα mesh, πολλές ομάδες",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "a49e1ded"
+  },
+  "why_community_desc": {
+    "value": "Τοπικές ομάδες σε όλη την Ευρώπη στήνουν αναμεταδότες, μοιράζονται ρυθμίσεις και βοηθούν νέους. Βρες αυτή κοντά σου στις Τοπικές ομάδες.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d1e253bc"
+  },
+  "home_live_label": {
+    "value": "Ζωντανά σε όλη την Ευρώπη",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "44ee0071"
+  },
+  "home_live_packets": {
+    "value": "πακέτα την τελευταία πλήρη ώρα",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "e3e24e13"
+  },
+  "home_live_countries": {
+    "value": "χώρες που ακούστηκαν την τελευταία ώρα",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "502cba0e"
+  },
+  "home_live_repeaters": {
+    "value": "αναμεταδότες που ακούστηκαν τις τελευταίες 7 ημέρες",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2890ece6"
+  },
+  "home_live_source": {
+    "value": "Αριθμοί από το meshcore-analyzer.eu",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "73b22a30"
+  },
+  "strip_label_release": {
+    "value": "Έκδοση",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e020e3c6"
+  },
+  "strip_label_reference": {
+    "value": "Αναφορά",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "71bf9093"
+  },
+  "strip_label_guides": {
+    "value": "Οδηγοί",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "572cd72f"
+  },
+  "strip_label_directory": {
+    "value": "Κατάλογος",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c8f84c3c"
+  },
+  "strip_label_site": {
+    "value": "Αυτός ο ιστότοπος",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e487482d"
+  },
+  "strip_released": {
+    "value": "κυκλοφόρησε",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d29eae13"
+  },
+  "strip_boards": {
+    "value": "πλακέτες",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "685d9a8f"
+  },
+  "strip_commands": {
+    "value": "εντολές CLI",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a13cc6cb"
+  },
+  "strip_latest_firmware": {
+    "value": "νεότερο υλικολογισμικό",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a0daddac"
+  },
+  "strip_releases": {
+    "value": "εκδόσεις σε αυτή τη σελίδα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e99084d9"
+  },
+  "strip_areas": {
+    "value": "περιοχές με προτεινόμενες ρυθμίσεις",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "789b6daa"
+  },
+  "strip_presets": {
+    "value": "προεπιλογές ραδιοφώνου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cb582a14"
+  },
+  "strip_devices": {
+    "value": "συσκευές",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ade15a12"
+  },
+  "strip_groups": {
+    "value": "τοπικές ομάδες",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f40e444b"
+  },
+  "strip_countries": {
+    "value": "χώρες",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e45d4cba"
+  },
+  "strip_maps": {
+    "value": "χάρτες κάλυψης",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e149f255"
+  },
+  "strip_channel_countries": {
+    "value": "χώρες για επιλογή",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0fbe9da9"
+  },
+  "strip_projects": {
+    "value": "έργα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2577c0f5"
+  },
+  "strip_languages": {
+    "value": "γλώσσες",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6cb574fa"
+  },
+  "strip_trackers": {
+    "value": "ιχνηλάτες",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "da068881"
+  },
+  "strip_third_party": {
+    "value": "αιτήματα σε τρίτους",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "64ebce3d"
+  },
+  "strip_cookie": {
+    "value": "cookie, μόνο όταν επιλέγεις θέμα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be0b8e53"
+  },
+  "strip_checked": {
+    "value": "Ελέγχθηκε",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0efd92a3"
+  },
+  "strip_release_source": {
+    "value": "Από τις εκδόσεις του MeshCore",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d619a021"
+  },
+  "news_latest": {
+    "value": "Τελευταία νέα",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f74e23c2"
+  },
+  "news_english_only": {
+    "value": "Τα νέα δημοσιεύονται μόνο στα αγγλικά.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "815251ef"
+  },
+  "news_all": {
+    "value": "Όλα τα νέα",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "67c7790c"
+  },
+  "badge_ai": {
+    "value": "Μηχανική μετάφραση",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e174e770"
+  },
+  "badge_human": {
+    "value": "Ελεγμένη μετάφραση",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3f4efebd"
+  },
+  "banner_ai_title": {
+    "value": "Αυτή η σελίδα μεταφράστηκε από μηχανή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1cb96c83"
+  },
+  "banner_ai_body": {
+    "value": "Κανένας φυσικός ομιλητής δεν την έχει ελέγξει ακόμα, οπότε κάποιες διατυπώσεις μπορεί να είναι άστοχες.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bbc7e56b"
+  },
+  "banner_stale": {
+    "value": "Η αγγλική σελίδα άλλαξε μετά από αυτή τη μετάφραση.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b34a3714"
+  },
+  "read_english": {
+    "value": "Διάβασε την αγγλική έκδοση",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "971012a5"
+  },
+  "banner_improve": {
+    "value": "Βοήθησε να βελτιωθεί αυτή η μετάφραση",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a9a967b6"
+  },
+  "edit_page": {
+    "value": "Επεξεργάσου αυτή τη σελίδα στο GitHub",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "073fd103"
+  },
+  "planned_note": {
+    "value": "Ακόμα φτιάχνουμε αυτή τη σελίδα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f0aebcf0"
+  },
+  "planned_more": {
+    "value": "Μέχρι τότε, αυτές οι σελίδες μπορούν να βοηθήσουν:",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ec1b5efa"
+  },
+  "last_verified": {
+    "value": "Τελευταία επαλήθευση",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "d8e92048"
+  },
+  "sources": {
+    "value": "Πηγές",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "caf85b08"
+  },
+  "callout_tip": {
+    "value": "Συμβουλή",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a4245a3c"
+  },
+  "callout_warning": {
+    "value": "Προειδοποίηση",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e981ddae"
+  },
+  "callout_legal": {
+    "value": "Νομικά",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4787eaf7"
+  },
+  "filter_title": {
+    "value": "Περιόρισε την αναζήτηση",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "28c6eb01"
+  },
+  "filter_any": {
+    "value": "Οποιοδήποτε",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2b505597"
+  },
+  "filter_reset": {
+    "value": "Επαναφορά φίλτρων",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "10afa984"
+  },
+  "filter_count": {
+    "value": "Εμφανίζονται {shown} από {total}",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f3d25c92"
+  },
+  "filter_empty": {
+    "value": "Τίποτα δεν ταιριάζει με αυτά τα φίλτρα.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "7094992d"
+  },
+  "filter_role_q": {
+    "value": "Τι θα κάνει;",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "25ed547a"
+  },
+  "filter_price_q": {
+    "value": "Προϋπολογισμός",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1c6225ec"
+  },
+  "filter_power_q": {
+    "value": "Κατανάλωση",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "848e9656"
+  },
+  "filter_category_q": {
+    "value": "Κατηγορία",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "292c06f0"
+  },
+  "role_companion": {
+    "value": "Companion (η συσκευή από την οποία στέλνεις μηνύματα)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "fc49eb4e"
+  },
+  "role_repeater": {
+    "value": "Αναμεταδότης",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "46e7bee1"
+  },
+  "role_room_server": {
+    "value": "Room server",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "68b91cc5"
+  },
+  "price_1": {
+    "value": "€ (κάτω από 25)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "84cdcfea"
+  },
+  "price_2": {
+    "value": "€€ (25 έως 60)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "be9a6bd8"
+  },
+  "price_3": {
+    "value": "€€€ (πάνω από 60)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "0e261f3a"
+  },
+  "power_battery": {
+    "value": "Ενσωματωμένη μπαταρία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3b3a4b7e"
+  },
+  "power_external": {
+    "value": "Εξωτερική τροφοδοσία ή ηλιακή",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "50778470"
+  },
+  "power_profile_low": {
+    "value": "Χαμηλή",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f793de20"
+  },
+  "power_profile_medium": {
+    "value": "Μέτρια",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "8e588cd1"
+  },
+  "power_profile_high": {
+    "value": "Υψηλή",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c4ebc6d4"
+  },
+  "spec_mcu": {
+    "value": "Επεξεργαστής",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "54aac653"
+  },
+  "spec_radio": {
+    "value": "Τσιπ LoRa",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1d340ea4"
+  },
+  "spec_battery": {
+    "value": "Μπαταρία",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "dfcb7c16"
+  },
+  "spec_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "176c7866"
+  },
+  "spec_screen": {
+    "value": "Οθόνη",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6e56137e"
+  },
+  "spec_connectivity": {
+    "value": "Συνδεσιμότητα",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "5479401f"
+  },
+  "spec_form": {
+    "value": "Μορφή συσκευής",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "12827072"
+  },
+  "spec_price": {
+    "value": "Ζώνη τιμής",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "396491b7"
+  },
+  "spec_power": {
+    "value": "Κατανάλωση ενέργειας",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "96fcc312"
+  },
+  "spec_firmware": {
+    "value": "Υποστήριξη MeshCore",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "4f7c9307"
+  },
+  "fw_official": {
+    "value": "Επίσημη έκδοση",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e07a4935"
+  },
+  "fw_community": {
+    "value": "Έκδοση κοινότητας",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f8338fb4"
+  },
+  "yes": {
+    "value": "Ναι",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "85a39ab3"
+  },
+  "no": {
+    "value": "Όχι",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1ea442a1"
+  },
+  "none": {
+    "value": "Κανένα",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "dc937b59"
+  },
+  "form_handheld": {
+    "value": "Φορητή συσκευή",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "ecb26701"
+  },
+  "form_board": {
+    "value": "Γυμνή πλακέτα",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "33e95aea"
+  },
+  "form_enclosed": {
+    "value": "Κόμβος σε περίβλημα",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "751c73a5"
+  },
+  "form_wearable": {
+    "value": "Φορετή συσκευή",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6e31070f"
+  },
+  "form_usb": {
+    "value": "USB stick",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "031ad13f"
+  },
+  "conn_ble": {
+    "value": "Bluetooth LE",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "e05f95a2"
+  },
+  "conn_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "337253f2"
+  },
+  "conn_usb": {
+    "value": "USB",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "61f0acff"
+  },
+  "devices_empty": {
+    "value": "Δεν υπάρχουν ακόμα καταχωρημένες συσκευές.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a158b22a"
+  },
+  "devices_list_title": {
+    "value": "Όλες οι συσκευές",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0594fe82"
+  },
+  "community_channels": {
+    "value": "Κανάλια",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4c8906cf"
+  },
+  "community_ask_at": {
+    "value": "ζήτησε τον σύνδεσμο στο",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "969f418d"
+  },
+  "community_languages": {
+    "value": "Γλώσσες",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "318655ce"
+  },
+  "community_empty": {
+    "value": "Δεν υπάρχουν ακόμη καταχωρημένες τοπικές ομάδες.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "73a4cdc4"
+  },
+  "community_missing_title": {
+    "value": "Λείπει η ομάδα σου;",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7c5581b0"
+  },
+  "community_jump": {
+    "value": "Μετάβαση σε χώρα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f7361695"
+  },
+  "community_missing_body": {
+    "value": "Οποιοσδήποτε μπορεί να προσθέσει μια τοπική ομάδα. Άνοιξε ένα issue με το όνομα, την περιοχή και τους συνδέσμους της, και ένας συντηρητής την προσθέτει σε όλες τις γλώσσες μαζί.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a626e730"
+  },
+  "community_missing_cta": {
+    "value": "Πρόσθεσε την τοπική σου ομάδα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f692beac"
+  },
+  "link_discord": {
+    "value": "Discord",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "053bc658"
+  },
+  "link_telegram": {
+    "value": "Telegram",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "acdd1e73"
+  },
+  "link_signal": {
+    "value": "Signal",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1e9806e4"
+  },
+  "link_matrix": {
+    "value": "Matrix",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "76a2171c"
+  },
+  "link_whatsapp": {
+    "value": "WhatsApp",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6a40edf1"
+  },
+  "link_forum": {
+    "value": "Φόρουμ",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4da7bd42"
+  },
+  "link_website": {
+    "value": "Ιστότοπος",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b5a229ac"
+  },
+  "link_map": {
+    "value": "Χάρτης",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be176b00"
+  },
+  "link_wiki": {
+    "value": "Wiki",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "63ec69fd"
+  },
+  "map_scope_europe": {
+    "value": "Πανευρωπαϊκός",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d7bc2dd9"
+  },
+  "map_scope_country": {
+    "value": "Χώρα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "701d021d"
+  },
+  "map_scope_region": {
+    "value": "Περιφερειακός",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "299a03b1"
+  },
+  "map_shows_nodes": {
+    "value": "Κόμβοι",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7ac36206"
+  },
+  "map_shows_coverage": {
+    "value": "Κάλυψη",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "523487a5"
+  },
+  "map_shows_traffic": {
+    "value": "Ζωντανή κίνηση",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9fd86662"
+  },
+  "map_shows_analyzer": {
+    "value": "Αναλυτής πακέτων",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14671539"
+  },
+  "map_shows_statistics": {
+    "value": "Στατιστικά",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a656107e"
+  },
+  "map_open": {
+    "value": "Άνοιξε τον χάρτη",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ea488d26"
+  },
+  "maps_empty": {
+    "value": "Δεν υπάρχουν ακόμη καταχωρημένοι χάρτες.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f4332bc7"
+  },
+  "map_tenants_intro": {
+    "value": "Ένας αναλυτής για όλη την Ευρώπη. Τοπικές κοινότητες τον τρέχουν και με το δικό τους όνομα και σχεδιασμό, με τα ίδια ζωντανά δεδομένα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6e5054f0"
+  },
+  "project_cat_app": {
+    "value": "Εφαρμογή",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0d04bfeb"
+  },
+  "project_cat_tool": {
+    "value": "Εργαλείο",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2e53bdcd"
+  },
+  "project_cat_bridge": {
+    "value": "Γέφυρα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3892e103"
+  },
+  "project_cat_firmware": {
+    "value": "Υλικολογισμικό",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c2a314c3"
+  },
+  "project_cat_hardware": {
+    "value": "Υλικό",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7975300f"
+  },
+  "project_cat_library": {
+    "value": "Βιβλιοθήκη",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dc20b3d5"
+  },
+  "project_archived": {
+    "value": "Αρχειοθετημένο",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bdb86505"
+  },
+  "project_licence": {
+    "value": "Άδεια",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f3ec8e88"
+  },
+  "project_repo": {
+    "value": "Πηγαίος κώδικας",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bf046c73"
+  },
+  "projects_empty": {
+    "value": "Δεν υπάρχουν ακόμη καταχωρημένα έργα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "26a6bda7"
+  },
+  "projects_list_title": {
+    "value": "Όλα τα έργα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4b87271b"
+  },
+  "projects_add_cta": {
+    "value": "Υπέβαλε ένα έργο",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8e8a3907"
+  },
+  "footer_about": {
+    "value": "Ένας μη εμπορικός οδηγός της κοινότητας για το MeshCore στην Ευρώπη, χωρίς διαφημίσεις, συνδέσμους συνεργατών ή παρακολούθηση.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8a0b3c0d"
+  },
+  "footer_disclaimer": {
+    "value": "Το meshcore-info.eu το διαχειρίζονται εθελοντές και δεν συνδέεται με τους προγραμματιστές του υλικολογισμικού MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5043ea17"
+  },
+  "footer_nav_label": {
+    "value": "Ιστότοπος",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fa795581"
+  },
+  "footer_source": {
+    "value": "Πηγαίος κώδικας",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bf046c73"
+  },
+  "footer_license": {
+    "value": "Κείμενα με άδεια CC BY 4.0, κώδικας MIT.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "61085af6"
+  },
+  "not_found_title": {
+    "value": "Η σελίδα δεν βρέθηκε",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a469ab4c"
+  },
+  "not_found_body": {
+    "value": "Αυτή η σελίδα δεν υπάρχει, ή μετακινήθηκε.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a9044129"
+  },
+  "not_found_home": {
+    "value": "Πήγαινε στην αρχική σελίδα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "adcedded"
+  },
+  "picker_title": {
+    "value": "Διάλεξε τη γλώσσα σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8e2d0664"
+  },
+  "coverage_caption": {
+    "value": "Κάλυψη μετάφρασης ανά γλώσσα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fdb7f8dd"
+  },
+  "coverage_language": {
+    "value": "Γλώσσα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a4fe6526"
+  },
+  "coverage_strings": {
+    "value": "Κείμενο διεπαφής",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "146382ff"
+  },
+  "coverage_pages": {
+    "value": "Σελίδες",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9046da16"
+  },
+  "coverage_human": {
+    "value": "Ελεγμένο",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fad6057b"
+  },
+  "coverage_ai": {
+    "value": "Μηχανικό",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8f1cc42d"
+  },
+  "coverage_stale": {
+    "value": "Παρωχημένο",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c759f42e"
+  },
+  "coverage_missing": {
+    "value": "Λείπει",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6be36ca4"
+  },
+  "presets_caption": {
+    "value": "Προεπιλογές ραδιοσυχνοτήτων στην Ευρώπη",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "037c3732"
+  },
+  "presets_name": {
+    "value": "Προεπιλογή στην εφαρμογή",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "46bda49e"
+  },
+  "presets_frequency": {
+    "value": "Συχνότητα (MHz)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1740a857"
+  },
+  "presets_bandwidth": {
+    "value": "Εύρος ζώνης (kHz)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "5cf2dd7b"
+  },
+  "presets_sf": {
+    "value": "Spreading factor",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "7cda59eb"
+  },
+  "presets_cr": {
+    "value": "Coding rate",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2cd87b32"
+  },
+  "presets_source": {
+    "value": "Από τη λίστα προεπιλογών του έργου MeshCore, ελεγμένη",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "215b400b"
+  },
+  "gain_label": {
+    "value": "Η δέσμη ενός δίπολου και μιας collinear από fiberglass, σε τομή στον ιστό και από το πλάι, υπό κλίμακα. Η collinear φτάνει έναν κόμβο μακριά στον ορίζοντα. Μόνο το δίπολο φτάνει έναν κόμβο απότομα από κάτω.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d90bf3bb"
+  },
+  "gain_dipole": {
+    "value": "Δίπολο",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ef909a16"
+  },
+  "gain_collinear": {
+    "value": "Collinear από fiberglass",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "822f4c75"
+  },
+  "gain_node": {
+    "value": "Κόμβος",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e9337253"
+  },
+  "country_ad": {
+    "value": "Ανδόρα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3e340be4"
+  },
+  "country_al": {
+    "value": "Αλβανία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1af00b87"
+  },
+  "country_at": {
+    "value": "Αυστρία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c9cab023"
+  },
+  "country_ba": {
+    "value": "Βοσνία και Ερζεγοβίνη",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b0772b9c"
+  },
+  "country_be": {
+    "value": "Βέλγιο",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "348841ef"
+  },
+  "country_bg": {
+    "value": "Βουλγαρία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "66b86bf0"
+  },
+  "country_by": {
+    "value": "Λευκορωσία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4bef16df"
+  },
+  "country_ch": {
+    "value": "Ελβετία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "22755831"
+  },
+  "country_cy": {
+    "value": "Κύπρος",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5f1162c5"
+  },
+  "country_cz": {
+    "value": "Τσεχία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ecfa967e"
+  },
+  "country_de": {
+    "value": "Γερμανία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "80db4ccd"
+  },
+  "country_dk": {
+    "value": "Δανία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c5270975"
+  },
+  "country_ee": {
+    "value": "Εσθονία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "10aeba69"
+  },
+  "country_es": {
+    "value": "Ισπανία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8ef41e6f"
+  },
+  "country_fi": {
+    "value": "Φινλανδία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aed8f531"
+  },
+  "country_fo": {
+    "value": "Νήσοι Φερόες",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "773ca4d6"
+  },
+  "country_fr": {
+    "value": "Γαλλία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7a1ca4ef"
+  },
+  "country_gb": {
+    "value": "Ηνωμένο Βασίλειο",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8d23a6e3"
+  },
+  "country_gg": {
+    "value": "Γκέρνζι",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b9c48cb1"
+  },
+  "country_gi": {
+    "value": "Γιβραλτάρ",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "097ced58"
+  },
+  "country_gr": {
+    "value": "Ελλάδα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9c93ad43"
+  },
+  "country_hr": {
+    "value": "Κροατία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7328d3f8"
+  },
+  "country_hu": {
+    "value": "Ουγγαρία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "504be308"
+  },
+  "country_ie": {
+    "value": "Ιρλανδία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "02bf1dfa"
+  },
+  "country_im": {
+    "value": "Νήσος Μαν",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "34096f96"
+  },
+  "country_is": {
+    "value": "Ισλανδία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "595d6d91"
+  },
+  "country_it": {
+    "value": "Ιταλία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5a9cf672"
+  },
+  "country_je": {
+    "value": "Τζέρζι",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "764a8c04"
+  },
+  "country_li": {
+    "value": "Λιχτενστάιν",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6ff080c0"
+  },
+  "country_lt": {
+    "value": "Λιθουανία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5c83a631"
+  },
+  "country_lu": {
+    "value": "Λουξεμβούργο",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ed76f191"
+  },
+  "country_lv": {
+    "value": "Λετονία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "988c8160"
+  },
+  "country_mc": {
+    "value": "Μονακό",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "935018cc"
+  },
+  "country_md": {
+    "value": "Μολδαβία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14ad63a1"
+  },
+  "country_me": {
+    "value": "Μαυροβούνιο",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7ab597e1"
+  },
+  "country_mk": {
+    "value": "Βόρεια Μακεδονία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cd847226"
+  },
+  "country_mt": {
+    "value": "Μάλτα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "71e9eb10"
+  },
+  "country_nl": {
+    "value": "Ολλανδία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3a386c13"
+  },
+  "country_no": {
+    "value": "Νορβηγία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bea54a34"
+  },
+  "country_pl": {
+    "value": "Πολωνία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7f69649a"
+  },
+  "country_pt": {
+    "value": "Πορτογαλία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4c7de2c3"
+  },
+  "country_ro": {
+    "value": "Ρουμανία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ea23726d"
+  },
+  "country_rs": {
+    "value": "Σερβία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e8739c83"
+  },
+  "country_ru": {
+    "value": "Ρωσία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "33a3d8ed"
+  },
+  "country_se": {
+    "value": "Σουηδία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "85363713"
+  },
+  "country_si": {
+    "value": "Σλοβενία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "56059e7f"
+  },
+  "country_sk": {
+    "value": "Σλοβακία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a2ea3384"
+  },
+  "country_sm": {
+    "value": "Άγιος Μαρίνος",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "230450a2"
+  },
+  "country_tr": {
+    "value": "Τουρκία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d15b2145"
+  },
+  "country_ua": {
+    "value": "Ουκρανία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "580eedc6"
+  },
+  "country_va": {
+    "value": "Βατικανό",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b0ce1029"
+  },
+  "country_xk": {
+    "value": "Κόσοβο",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4a867424"
+  },
+  "device.heltec-wifi-lora-32-v3.notes": {
+    "value": "Γυμνή πλακέτα: πρόσθεσε θήκη, κεραία και μπαταρία. Ο ESP32 καταναλώνει πολύ ρεύμα για μικρό ηλιακό αναμεταδότη.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "bc29e2c9"
+  },
+  "device.heltec-wifi-lora-32-v4.notes": {
+    "value": "Η έκδοση υψηλής ισχύος εκπέμπει έως 28 dBm, πάνω από το ευρωπαϊκό όριο με τις περισσότερες κεραίες: ο οδηγός αναμεταδότη δείχνει πώς μένεις εντός ορίου. Η βασική έκδοση κοστίζει κάτω από 25 ευρώ, η έκδοση υψηλής ισχύος περισσότερο. Η έκδοση R8 έχει περισσότερη μνήμη και χρειάζεται δικό της build υλικολογισμικού.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5c626e8a"
+  },
+  "device.heltec-mesh-node-t114.notes": {
+    "value": "Πλακέτα nRF52 χαμηλής κατανάλωσης και συνηθισμένη βάση για ηλιακούς αναμεταδότες. Οθόνη και GPS είναι προαιρετικά στην παραγγελία. Με αυτά κοστίζει πάνω από 25 ευρώ.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f1999a30"
+  },
+  "device.heltec-wireless-tracker.notes": {
+    "value": "Πλακέτα με ενσωματωμένο GPS. Φέρε δική σου μπαταρία και θήκη.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "5d4b7295"
+  },
+  "device.heltec-wireless-paper.notes": {
+    "value": "Η οθόνη e-paper διαβάζεται και στον ήλιο. Δεν περιλαμβάνει μπαταρία.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "d60633a2"
+  },
+  "device.lilygo-t-echo.notes": {
+    "value": "Φορητή συσκευή τσέπης με οθόνη e-paper και GPS. Υπάρχει και έκδοση με μεγαλύτερη μπαταρία.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1f285d65"
+  },
+  "device.lilygo-t-deck-plus.notes": {
+    "value": "Φυσικό πληκτρολόγιο, trackball και οθόνη αφής. Το Plus προσθέτει GPS και μπαταρία 2000 mAh.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "0fb0f75c"
+  },
+  "device.lilygo-t-beam-supreme.notes": {
+    "value": "Δέχεται στοιχείο 18650, δεν περιλαμβάνεται. Διάλεξε την έκδοση SX1262: η έκδοση LR1121 δεν έχει επίσημο build.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "e3db28aa"
+  },
+  "device.rak-wisblock-rak4631.notes": {
+    "value": "Αρθρωτό: κουμπωτές μονάδες προσθέτουν GPS, οθόνη ή αισθητήρες. Η βασική πλακέτα έχει είσοδο ηλιακού.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c1317a23"
+  },
+  "device.rak-wismesh-tag.notes": {
+    "value": "Λεπτό αδιάβροχο badge με ενσωματωμένες κεραίες.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "572181c6"
+  },
+  "device.seeed-sensecap-t1000-e.notes": {
+    "value": "Μέγεθος πιστωτικής κάρτας, ανθεκτικό σε σκόνη και πιτσιλιές (IP65), χωρίς οθόνη. Χρησιμοποιεί τον πομποδέκτη LR1110 αντί για τον πιο συνηθισμένο SX1262.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "e18363be"
+  },
+  "device.seeed-xiao-nrf52840-wio-sx1262.notes": {
+    "value": "Μικροσκοπική στοίβα δύο πλακετών. Κόλλησε μπαταρία για φορητή χρήση.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "3063cd1d"
+  },
+  "device.seeed-wio-tracker-l1-pro.notes": {
+    "value": "Έρχεται σε θήκη με οθόνη, GPS και μπαταρία. Υπάρχουν και εκδόσεις Lite και e-ink.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "d9fd3d73"
+  },
+  "device.seeed-sensecap-solar-node-p1.notes": {
+    "value": "Αδιάβροχη θήκη με ηλιακό πάνελ 5 W, τέσσερα στοιχεία 18650 και GPS, φτιαγμένη για αναμεταδότες.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f3c9e1f9"
+  },
+  "device.heltec-wifi-lora-32-v4-expansion-kit.notes": {
+    "value": "Μια πλακέτα V4 σε μεταλλική θήκη με οθόνη αφής. GPS και στοιχείο 18650 είναι επιλογές κατά την παραγγελία. Το MeshCore δείχνει την οθόνη αλλά δεν χρησιμοποιεί ακόμα την αφή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8704efde"
+  },
+  "device.heltec-wireless-stick-lite-v3.notes": {
+    "value": "Η V3 χωρίς οθόνη. Γυμνή πλακέτα: πρόσθεσε θήκη, κεραία και μπαταρία.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6a36169b"
+  },
+  "device.heltec-wireless-tracker-v2.notes": {
+    "value": "Πλακέτα με GPS και υποδοχή ηλιακού. Εκπέμπει έως 28 dBm, πάνω από το ευρωπαϊκό όριο με τις περισσότερες κεραίες: ο οδηγός αναμεταδότη δείχνει πώς μένεις εντός ορίου.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e56ec119"
+  },
+  "device.heltec-vision-master-e213.notes": {
+    "value": "Πλακέτα με οθόνη e-paper που διαβάζεται και στον ήλιο. Φέρε δική σου μπαταρία και θήκη.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7519dcd5"
+  },
+  "device.heltec-vision-master-e290.notes": {
+    "value": "Σαν την E213 με μεγαλύτερη οθόνη e-paper. Φέρε δική σου μπαταρία και θήκη.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "84da4d43"
+  },
+  "device.heltec-vision-master-t190.notes": {
+    "value": "Πλακέτα με έγχρωμη οθόνη. Φέρε δική σου μπαταρία και θήκη.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "08d0d0d2"
+  },
+  "device.heltec-mesh-node-t1.notes": {
+    "value": "Ετικέτα σε μέγεθος κάρτας με GPS και μικρή οθόνη, ανθεκτική σε σκόνη και πιτσιλίσματα (IP65).",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c9807632"
+  },
+  "device.heltec-meshpocket.notes": {
+    "value": "Ένα power bank με κόμβο μέσα και μαγνητικό ασύρματο φορτιστή για το τηλέφωνό σου. Πωλείται και με 10000 mAh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0eab0a7c"
+  },
+  "device.heltec-meshsolar.notes": {
+    "value": "Πλακέτα για ηλιακό αναμεταδότη: δέχεται ένα έως τέσσερα στοιχεία και πάνελ 18 έως 24 V. GPS και οθόνη είναι πρόσθετα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "195aa41c"
+  },
+  "device.heltec-meshtower-v2.notes": {
+    "value": "Αδιάβροχη μεταλλική θήκη με τρία στοιχεία και ηλιακό πάνελ 10 W, φτιαγμένη για αναμεταδότες. Το GPS είναι προαιρετικό. Η έκδοση 30 dBm είναι πάνω από το ευρωπαϊκό όριο: ο οδηγός αναμεταδότη δείχνει πώς μένεις εντός ορίου.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d935df5c"
+  },
+  "device.lilygo-t-echo-lite.notes": {
+    "value": "Μικρότερο T-Echo με πρόσθετη μονάδα GPS. Πωλείται με ή χωρίς θήκη.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b18c1e64"
+  },
+  "device.lilygo-t-echo-card.notes": {
+    "value": "Μέγεθος πιστωτικής κάρτας με GPS, ηχείο και μικρό ηλιακό πάνελ που μόνο συμπληρώνει την μπαταρία.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1b860b15"
+  },
+  "device.lilygo-t-impulse-plus.notes": {
+    "value": "Περικάρπιο με GPS, μικροσκοπική οθόνη και μοτέρ δόνησης.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3bc53725"
+  },
+  "device.lilygo-t-deck.notes": {
+    "value": "Πληκτρολόγιο και trackball όπως το T-Deck Plus, χωρίς GPS ή μπαταρία. Διάλεξε έκδοση με LoRa: υπάρχει και μία χωρίς.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e88fe0ef"
+  },
+  "device.lilygo-t-beam.notes": {
+    "value": "Το κλασικό T-Beam με το παλαιότερο ραδιόφωνο SX1276. Χωράει στοιχείο 18650, δεν περιλαμβάνεται.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7c56a56b"
+  },
+  "device.lilygo-t-beam-1w.notes": {
+    "value": "Εκπέμπει έως 32 dBm, πολύ πάνω από το ευρωπαϊκό όριο: ο οδηγός αναμεταδότη δείχνει πώς μένεις εντός ορίου. Χρειάζεται μπαταρία 7.4 V, την οποία δεν φορτίζει.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9a8d7b03"
+  },
+  "device.elecrow-thinknode-m1.notes": {
+    "value": "Φορητή συσκευή με οθόνη e-paper και GPS.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "590fa3ac"
+  },
+  "device.elecrow-thinknode-m2.notes": {
+    "value": "Μικρή φορητή συσκευή με οθόνη OLED. Πωλείται και χωρίς μπαταρία.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "87f36cea"
+  },
+  "device.elecrow-thinknode-m3.notes": {
+    "value": "Tracker ανθεκτικό σε σκόνη και νερό (IP66) με GPS, χωρίς οθόνη.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0c7b633a"
+  },
+  "device.elecrow-thinknode-m4.notes": {
+    "value": "Ένα power bank με κόμβο και GPS μέσα, χωρίς οθόνη.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "638c30a0"
+  },
+  "device.elecrow-thinknode-m5.notes": {
+    "value": "Σαν το M1 με επεξεργαστή ESP32: περισσότερες λειτουργίες, μικρότερη αυτονομία μπαταρίας.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7943f498"
+  },
+  "device.elecrow-thinknode-m6.notes": {
+    "value": "Αδιάβροχη θήκη (IP65) με ηλιακό πάνελ 6 W, δύο στοιχεία 18650 και GPS, φτιαγμένη για αναμεταδότες.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c7efcb7f"
+  },
+  "device.elecrow-thinknode-m7.notes": {
+    "value": "Κουτί εσωτερικού χώρου με θύρα Ethernet, τροφοδοτείται μέσω USB ή μέσω του καλωδίου δικτύου (PoE).",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "20225189"
+  },
+  "device.elecrow-thinknode-m9.notes": {
+    "value": "Λειτουργεί αυτόνομα με πλήρες πληκτρολόγιο, έγχρωμη οθόνη και GPS. Έρχεται με υλικολογισμικό Ripple. Το κανονικό MeshCore τρέχει επίσης σε αυτό.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d9fb8bcf"
+  },
+  "device.seeed-wio-tracker-l1.notes": {
+    "value": "Το L1 Pro χωρίς θήκη και μπαταρία. Έχει GPS και υποδοχή ηλιακού.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f317b814"
+  },
+  "device.seeed-wio-tracker-l1-eink.notes": {
+    "value": "Το L1 με οθόνη e-paper, χωρίς θήκη και μπαταρία. Το MeshCore τρέχει σε αυτό μόνο ως companion.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1c3665d9"
+  },
+  "device.seeed-sensecap-solar-node-p1-basic.notes": {
+    "value": "Το P1-Pro χωρίς στοιχεία και GPS: πρόσθεσε μόνος σου τέσσερα στοιχεία 18650. Η βάση δέχεται μόνο στοιχεία button-top. Τα συνηθισμένα στοιχεία flat-top χωράνε με έναν μικρό μαγνήτη στο καθένα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a6f898f4"
+  },
+  "device.seeed-sensecap-meshtracker-x1.notes": {
+    "value": "Σε μέγεθος κάρτας, ανθεκτικό σε σκόνη και νερό (IP66), χωρίς οθόνη. Φορτίζει μέσω USB-C και δονείται σε νέο μήνυμα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9eadd1b5"
+  },
+  "device.seeed-xiao-esp32s3-wio-sx1262.notes": {
+    "value": "Το κιτ XIAO με ESP32 αντί για nRF52: Wi-Fi, αλλά μεγαλύτερη κατανάλωση.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0e783fe9"
+  },
+  "device.rak-wismesh-1w-booster.notes": {
+    "value": "Εκπέμπει έως 30 dBm, πάνω από το ευρωπαϊκό όριο: ο οδηγός αναμεταδότη δείχνει πώς μένεις εντός ορίου. Κάθε έκδοση τρέχει είτε με μπαταρία είτε με 5 V, έλεγξε την ετικέτα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e03b4d5b"
+  },
+  "device.bq-station-g3.notes": {
+    "value": "Αρθρωτός σταθμός βάσης με ενισχυτή έως 35 dBm, πολύ πάνω από το ευρωπαϊκό όριο: ρύθμισε τα jumpers και την ισχύ εκπομπής για τη χώρα σου. Χρειάζεται τροφοδοσία 9 έως 19 V.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ee7d06f9"
+  },
+  "device.bq-nano-g2-ultra.notes": {
+    "value": "Ανθεκτική φορητή συσκευή με ενσωματωμένη κεραία σχεδιασμένη να λειτουργεί κοντά στο σώμα σου. Η μπαταρία είναι προαιρετική.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5e947959"
+  },
+  "device.m5stack-unit-c6l.notes": {
+    "value": "Μικρή μονάδα σε πλαστικό κέλυφος, τροφοδοτείται μέσω USB-C. Χωρίς είσοδο μπαταρίας.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "468b2af6"
+  },
+  "device.meshnology-w12.notes": {
+    "value": "Πλακέτα ανοιχτού κώδικα με εισόδους μπαταρίας και ηλιακού. Εκπέμπει έως 30 dBm, πάνω από το ευρωπαϊκό όριο: ο οδηγός αναμεταδότη δείχνει πώς μένεις εντός ορίου.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "df27901e"
+  },
+  "community.nl-dutch-meshcore.desc": {
+    "value": "Ολλανδική εθελοντική ομάδα για χρήστες MeshCore στην Ολλανδία. Τρέχει κοινούς συλλέκτες MQTT, έναν πίνακα παρατηρητών, έναν βοηθό ρυθμίσεων και μια εργαλειοθήκη υλικολογισμικού στον browser.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c4ad2c7f"
+  },
+  "community.nl-meshcore-net.desc": {
+    "value": "Ολλανδόφωνη συνομιλία Telegram και φόρουμ, όπου Ολλανδοί χρήστες ανταλλάσσουν βοήθεια για ρυθμίσεις, λίστες καναλιών και νέα για αναμεταδότες.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c57f1887"
+  },
+  "community.be-radio-actief.desc": {
+    "value": "Βελγικό wiki και Discord, που ξεκίνησαν ραδιοερασιτέχνες που έφεραν το MeshCore στο Βέλγιο στα τέλη του 2025. Μέρος μιας ευρύτερης κοινότητας ραδιοερασιτεχνισμού.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7598f9b8"
+  },
+  "community.lu-meshcore-luxembourg.desc": {
+    "value": "Κοινή σελίδα των συλλόγων του Λουξεμβούργου που τρέχουν αναμεταδότες MeshCore σε όλη τη χώρα. Είναι ομάδες hacker, ραδιοερασιτεχνών και πολιτικής προστασίας.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e38285ec"
+  },
+  "community.de-meshcore-de.desc": {
+    "value": "Γερμανόφωνη συνομιλία MeshCore στο Telegram, που χρησιμοποιείται σε όλη τη Γερμανία και από αυστριακές ομάδες. Υπάρχει και δωμάτιο Matrix για όσους το προτιμούν.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c2d34fef"
+  },
+  "community.de-berlin-chaos-mesh.desc": {
+    "value": "Ομάδα του Βερολίνου με ρίζες σε hackerspace, με φόρουμ, δωμάτιο Matrix και πίνακα PotatoMesh, που καλύπτει το MeshCore μαζί με άλλα έργα mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9f0065e0"
+  },
+  "community.de-isarmesh.desc": {
+    "value": "Φόρουμ για χρήστες LoRa mesh γύρω από το Μόναχο, που οργανώνει τακτικές συναντήσεις και συζητά το MeshCore και άλλα έργα mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "05e62cf9"
+  },
+  "community.de-mesh-dresden.desc": {
+    "value": "Ομάδα της Δρέσδης με αναλυτικά τεχνικά άρθρα για διαχειριστές αναμεταδοτών. Τρέχει επίσης τοπική συνομιλία για το MeshCore και άλλα έργα mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fd5d9e40"
+  },
+  "community.at-meshcore-austria.desc": {
+    "value": "Αυστριακός κοινοτικός ιστότοπος με οδηγούς ρύθμισης, εκδηλώσεις και νέα. Η αυστριακή ομάδα Telegram λειτουργεί ανεξάρτητα από τον ιστότοπο.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3dfcd101"
+  },
+  "community.ch-meshcore-switzerland.desc": {
+    "value": "Τετράγλωσσος ελβετικός ιστότοπος με οδηγίες για συσκευές, περιοχές και κανάλια, και κοινοτικό φόρουμ για ερωτήσεις και αιτήματα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e8eb8c2c"
+  },
+  "community.cz-meshcore-cr.desc": {
+    "value": "Τσεχικό wiki που καλύπτει υλικό, αναμεταδότες, κανάλια και περιοχές, με υποστήριξη από ομάδα Telegram και εθνικό αναλυτή πακέτων.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3eb31061"
+  },
+  "community.sk-meshcore-slovensko.desc": {
+    "value": "Σλοβακική σελίδα δικτύου που φιλοξενεί ραδιοερασιτεχνικός σύλλογος της Μπρατισλάβας, με διακομιστή Discord και εβδομαδιαίες συναντήσεις από κοντά.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "950a6862"
+  },
+  "community.pl-meshcore-polska.desc": {
+    "value": "Πανεθνική πολωνική κοινότητα με χάρτη κόμβων, τεκμηρίωση στα πολωνικά και διακομιστή Discord.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bd6ed843"
+  },
+  "community.fr-meshcore-france.desc": {
+    "value": "Γαλλική σελίδα συντονισμού που παραπέμπει σε περιφερειακές ομάδες και περιφερειακούς ζωντανούς χάρτες, που συντηρείται ως ανεξάρτητος κοινοτικός ιστότοπος.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e2024cd5"
+  },
+  "community.fr-mesh-idf.desc": {
+    "value": "Wiki της περιοχής του Παρισιού με συνομιλία MeshCore στο Telegram. Το wiki καλύπτει και άλλα έργα mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b4be06c9"
+  },
+  "community.it-meshcore-italia.desc": {
+    "value": "Ιταλική εθνική κοινότητα με οδηγούς, λίστες περιφερειακών καναλιών και καναλιών μετεωρολογικών προειδοποιήσεων, ζωντανό χάρτη κόμβων και ομάδα Telegram.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2a6caa8e"
+  },
+  "community.pt-meshcore-portugal.desc": {
+    "value": "Πορτογαλικές κοινοτικές συνομιλίες, συγκεντρωμένες σε έναν φάκελο Telegram.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "31bbdf73"
+  },
+  "community.dk-meshcore-dk.desc": {
+    "value": "Δανέζικο wiki με σελίδες για αρχάριους, σημειώσεις για συσκευές, ρύθμιση περιοχής και φωτογραφίες από πραγματικές εγκαταστάσεις αναμεταδοτών.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d0895f3b"
+  },
+  "community.se-meshat.desc": {
+    "value": "Σουηδικός τόπος συνάντησης για δικτύωση mesh, με φόρουμ, Discord και δωμάτιο Matrix. Τρέχει υπηρεσίες MQTT και χάρτη MeshCore και καλύπτει και άλλα έργα mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "33d9ed2b"
+  },
+  "community.fi-mesh-finland.desc": {
+    "value": "Φινλανδικός ιστότοπος MeshCore με συνδέσμους σε εθνικό αναλυτή και χάρτες κάλυψης. Ο διακομιστής Discord του είναι κοινός με χρήστες άλλων έργων mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3d618dfa"
+  },
+  "community.no-meshwiki.desc": {
+    "value": "Νορβηγικό wiki με ενότητα MeshCore δίπλα σε άλλα έργα mesh, και συνδεδεμένο φόρουμ.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ccd83ba2"
+  },
+  "community.ee-estmesh.desc": {
+    "value": "Εσθονική σελίδα MeshCore και wiki, με εθνικά και πόλεων κανάλια και διακομιστή Discord για Εσθονούς λάτρεις του ραδιοφώνου.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14530e0d"
+  },
+  "community.lv-apraide.desc": {
+    "value": "Λετονική κοινότητα LoRa mesh που επέλεξε το MeshCore για το δίκτυό της, με συζήτηση σε δωμάτιο Matrix.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "42e8a5c2"
+  },
+  "community.lt-atviras-tinklas.desc": {
+    "value": "Λιθουανικός κοινοτικός ιστότοπος με βάση γνώσεων, σελίδες συσκευών και ζωντανό αναλυτή δικτύου για το δίκτυο MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8a0f8ba4"
+  },
+  "community.si-meshcore-slovenija.desc": {
+    "value": "Σλοβενικός ιστότοπος με τις προτεινόμενες περιφερειακές ρυθμίσεις ραδιοσυχνοτήτων, χάρτη κόμβων και συνδέσμους υλικολογισμικού.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "73253c8c"
+  },
+  "community.bg-meshcore-bulgaria.desc": {
+    "value": "Βουλγαρική κοινότητα γύρω από τη Σόφια και τη Φιλιππούπολη, με ραδιοζεύξεις προς Ρουμανία και Σερβία. Δημοσιεύει κανάλια, προεπιλογές και εργαλεία σχεδιασμού.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ef62c925"
+  },
+  "community.rs-meshcore-srbija.desc": {
+    "value": "Ανεπίσημος σερβικός κοινοτικός ιστότοπος με μητρώο κόμβων και ζωντανό χάρτη για το δίκτυο που εκτείνεται στη Σερβία και τις γειτονικές χώρες.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "874059ce"
+  },
+  "community.gr-meshcore-greece.desc": {
+    "value": "Ελληνικός διακομιστής Discord για τον σχεδιασμό και τη λειτουργία δικτύων MeshCore στην Ελλάδα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3fa83721"
+  },
+  "community.gb-meshhub-uk.desc": {
+    "value": "Κόμβος για όλο το Ηνωμένο Βασίλειο με κοινοτικά εργαλεία, χάρτες και εκδηλώσεις για χρήστες MeshCore και άλλες κοινότητες mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "050038cc"
+  },
+  "community.gb-scotmesh.desc": {
+    "value": "Εθελοντική σκωτσέζικη κοινότητα με φόρουμ, wiki και Discord, που τρέχει το MeshCore δίπλα σε άλλα έργα mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cce9f41c"
+  },
+  "community.ie-lora-project.desc": {
+    "value": "Ανεξάρτητος ιστότοπος για αρχάριους στο MeshCore σε ολόκληρο το νησί της Ιρλανδίας. Ο διακομιστής Discord του καλύπτει βορρά και νότο.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5f335412"
+  },
+  "community.at-carinthiamesh.desc": {
+    "value": "Wiki για το MeshCore στην Καρινθία: πρώτα βήματα, ρυθμίσεις ραδιοσυχνοτήτων, συσκευές και αναμεταδότες.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b601e188"
+  },
+  "community.at-meshcore-austria-at.desc": {
+    "value": "Γερμανόφωνο κοινοτικό wiki για το MeshCore στην Αυστρία.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7746c59b"
+  },
+  "community.be-loramesh.desc": {
+    "value": "Βελγική ομάδα που χρησιμοποιεί το MeshCore για μηνύματα έκτακτης ανάγκης όταν πέφτουν το internet και το δίκτυο κινητής.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a0d79514"
+  },
+  "community.be-meshpot.desc": {
+    "value": "Γαλλόφωνος οδηγός για να μπεις, να χτίσεις και να προστατέψεις το mesh MeshCore στις Βρυξέλλες και τη Βαλλονία.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3c6c5a0a"
+  },
+  "community.fr-loramesh.desc": {
+    "value": "Γαλλική ομάδα που κρατά την τοπική επαφή ζωντανή με το MeshCore όταν το internet ή η κινητή πέφτουν, βήμα βήμα, με χάρτη ενεργών περιοχών.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f22be170"
+  },
+  "community.de-bsmesh.desc": {
+    "value": "Δίκτυο MeshCore για την ευρύτερη περιοχή του Μπράουνσβαϊγκ.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "076fd5a0"
+  },
+  "community.de-bremesh.desc": {
+    "value": "Ελεύθερο δίκτυο MeshCore για τη Βρέμη, το Μπρέμερχαφεν και τη γύρω περιοχή, με οδηγούς.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7f614859"
+  },
+  "community.de-pemesh.desc": {
+    "value": "Δίκτυο MeshCore μέσα και γύρω από το Πάινε, που σχηματίστηκε όταν ενώθηκαν δύο τοπικά mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6423719c"
+  },
+  "community.de-muensterland.desc": {
+    "value": "Κοινότητα που χτίζει ελεύθερο δίκτυο MeshCore σε όλο το Münsterland, με αφετηρία το Billerbeck.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6f35e420"
+  },
+  "community.de-mesh-rheinland.desc": {
+    "value": "Κοινότητα της Ρηνανίας που τρέχει δίκτυο MeshCore και δίκτυο Meshtastic.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eb9d7af7"
+  },
+  "community.de-meshcore-de-wiki.desc": {
+    "value": "Γερμανόφωνο wiki με οδηγούς ρύθμισης και κατάλογο περιφερειακών ομάδων.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2a7d4602"
+  },
+  "community.de-meshcore-dresden.desc": {
+    "value": "Ομάδα που χτίζει δίκτυο MeshCore μέσα και γύρω από τη Δρέσδη, με καταχωρημένες τις περιοχές και τα κανάλιά της.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d0a1d71d"
+  },
+  "community.de-meshmitte.desc": {
+    "value": "Τοπική ομάδα μέσα και γύρω από το Uslar που θέλει οι άνθρωποι να μένουν σε επαφή σε διακοπές ρεύματος και δικτύου.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "82b196a8"
+  },
+  "community.de-saarmesh.desc": {
+    "value": "Περιφερειακό δίκτυο MeshCore στο Ζάαρλαντ, με τη δομή περιοχών του και ζωντανό χάρτη.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2eeeb6e6"
+  },
+  "community.ie-mayo-mesh.desc": {
+    "value": "Ομάδα χρηστών ραδιοδικτύου mesh για την κομητεία Mayo.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "baab199e"
+  },
+  "community.it-lora-brescia.desc": {
+    "value": "Ραδιοερασιτεχνική ομάδα στην Μπρέσια με ιταλικούς οδηγούς για flash και ρύθμιση αναμεταδοτών MeshCore. Τρέχει επίσης Meshtastic και LoRa APRS.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "08567551"
+  },
+  "community.it-meshcore-ita.desc": {
+    "value": "Ιταλόφωνοι οδηγοί, η κοινή ιταλική προεπιλογή ραδιοσυχνοτήτων και σημειώσεις υλικού, με ομάδα Telegram.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8b178f55"
+  },
+  "community.nl-meshwiki.desc": {
+    "value": "Ολλανδικό wiki που μπορεί να επεξεργαστεί ο καθένας, για το MeshCore και το ραδιοδίκτυο mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ce29af01"
+  },
+  "community.pl-lora-meshcore-polska.desc": {
+    "value": "Πανεθνικό πολωνικό δίκτυο στην προεπιλογή EU/UK Narrow, με εξήγηση του πώς λειτουργεί και ποιος το χτίζει.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4c574d21"
+  },
+  "community.pl-meshcore-podlasie.desc": {
+    "value": "Χομπίστες που χτίζουν δίκτυο MeshCore στο Podlasie, με νέα και τοπικές ρυθμίσεις.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a15fb772"
+  },
+  "community.pl-meshgo.desc": {
+    "value": "Ομάδα MeshCore γύρω από το Γκντανσκ, την Γκντίνια και το Σόποτ, που χρησιμοποιεί την πολωνική πανεθνική προεπιλογή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8d16fa09"
+  },
+  "community.ro-brasov-mesh.desc": {
+    "value": "Δίκτυο MeshCore στο Μπρασόβ στην προεπιλογή EU/UK Narrow.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bd8dcbfa"
+  },
+  "community.ro-meshcore-iasi.desc": {
+    "value": "Δίκτυο MeshCore στο Ιάσιο με ζωντανό πίνακα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eacc34d4"
+  },
+  "community.es-meshcore-catalunya.desc": {
+    "value": "Καταλανικός κοινοτικός κόμβος με ζωντανό χάρτη, αναλυτή και οδηγούς υλικού.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5357e7fd"
+  },
+  "community.es-nomadmesh.desc": {
+    "value": "Κοινοτικό δίκτυο MeshCore στις Αλπουχάρας.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ee8acd03"
+  },
+  "community.ua-meshcore-ua.desc": {
+    "value": "Εθελοντικό δημόσιο mesh για επαφή σε όλη την Ουκρανία, με λίστες αναμεταδοτών, bot και καναλιών.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "96fe6d7d"
+  },
+  "community.gb-ipnet.desc": {
+    "value": "Κοινότητα του Ipswich που εξυπηρετεί την ανατολική Αγγλία, με πίνακες CoreScope και υπηρεσίες MQTT.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "114be940"
+  },
+  "community.gb-meshcore-wales.desc": {
+    "value": "Κοινές ρυθμίσεις ραδιοσυχνοτήτων και κανάλια για τη Νότια Ουαλία και τα δυτικά.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "726b552a"
+  },
+  "community.gb-northmesh.desc": {
+    "value": "Δίκτυο της Βόρειας Αγγλίας με ζωντανό χάρτη αναμεταδοτών, δραστηριότητας πακέτων και κάλυψης.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a1345cca"
+  },
+  "map.meshcore-official-map.desc": {
+    "value": "Ο παγκόσμιος χάρτης του ίδιου του έργου με κόμβους που οι ιδιοκτήτες τους επέλεξαν να δημοσιεύσουν, με φίλτρα ανά τύπο κόμβου και ραδιοσυχνότητα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1509cafa"
+  },
+  "map.meshmapper.desc": {
+    "value": "Χάρτες κάλυψης από διαδρομές wardriving τοπικών εθελοντών, χωρισμένοι σε περιφερειακούς χάρτες, με περιοχές σε όλη την Ευρώπη.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f333e608"
+  },
+  "map.eu-meshcore-analyzer.desc": {
+    "value": "Κοινός ευρωπαϊκός αναλυτής που ενώνει ροές παρατηρητών από πολλούς κοινοτικούς broker σε μία ζωντανή εικόνα κόμβων, πακέτων και καναλιών.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aa93a1ba"
+  },
+  "map.nl-dmc-observers.desc": {
+    "value": "Ζωντανός πίνακας των παρατηρητών που αναφέρουν στους συλλέκτες MQTT της Dutch MeshCore (DMC).",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1da8752e"
+  },
+  "map.nl-mc-radar.desc": {
+    "value": "Στατιστικά δικτύου για το ολλανδικό mesh, με γραφήματα διεκπεραιωτικότητας, κίνησης καναλιών, δραστηριότητας κόμβων και υγείας πρωτοκόλλου από ολλανδικά δεδομένα παρατηρητών.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a54bab7e"
+  },
+  "map.cz-analyzer.desc": {
+    "value": "Εγκατάσταση CoreScope για το τσεχικό δίκτυο με ζωντανή ροή πακέτων, χάρτη κόμβων και στατιστικά ανά κόμβο.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ade9ad40"
+  },
+  "map.fi-corescope.desc": {
+    "value": "Φινλανδικός αναλυτής CoreScope που δείχνει το εθνικό δίκτυο MeshCore σε χάρτη με ζωντανά πακέτα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9fa0aa59"
+  },
+  "map.se-meshat-corescope.desc": {
+    "value": "Σουηδικός αναλυτής CoreScope που τροφοδοτείται από τον broker MQTT MeshCore του Meshat.se.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a1e700c6"
+  },
+  "map.fr-cartolite.desc": {
+    "value": "Αυτοφιλοξενούμενος ζωντανός χάρτης της κίνησης MeshCore παγκοσμίως, που σχεδιάζει ακουσμένες ζεύξεις, ζωντανά πακέτα και heatmap πάνω σε χάρτη εδάφους.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "abcdec75"
+  },
+  "map.ee-litescope.desc": {
+    "value": "Ελαφρύς εσθονικός αναλυτής με ζωντανή ροή πακέτων, χάρτη κόμβων, στατιστικά σήματος και επισκόπηση παρατηρητών.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "040c7753"
+  },
+  "map.ie-mayomesh-live.desc": {
+    "value": "Ιρλανδικός χάρτης σε πραγματικό χρόνο με κόμβους, διαδρομές μηνυμάτων και διαδρομές advert, με εργαλεία κάλυψης, οπτικής επαφής και διάδοσης.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "244a4a53"
+  },
+  "map.de-meshcorenetz-analyzer.desc": {
+    "value": "Ο MeshCore Analyzer στα χρώματα του MeshCoreNetz.de, που ανοίγει στη βόρεια Γερμανία.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7c597271"
+  },
+  "map.de-meshdresden-analyzer.desc": {
+    "value": "Ο MeshCore Analyzer στα χρώματα του MeshDresden.eu, του κοινοτικού mesh της Δρέσδης.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b7456441"
+  },
+  "map.nl-cornmeister.desc": {
+    "value": "Ο MeshCore Analyzer στα χρώματα του Cornmeister.nl, που ανοίγει στην Ολλανδία.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "69efcf8b"
+  },
+  "map.be-bemesh-map.desc": {
+    "value": "Χάρτης βελγικών client, αναμεταδοτών, room server και αισθητήρων, όπου οι ιδιοκτήτες μπορούν να δηλώσουν τον κόμβο τους.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "37af8d74"
+  },
+  "map.be-on8ar-corescope.desc": {
+    "value": "Αναλυτής CoreScope για κίνηση που ακούγεται στο Βέλγιο.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "97d8adf0"
+  },
+  "map.is-corescope.desc": {
+    "value": "Αναλυτής CoreScope για το ισλανδικό δίκτυο.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9441de4b"
+  },
+  "map.pl-meshcore-polska-map.desc": {
+    "value": "Ζωντανός χάρτης πολωνικών client, αναμεταδοτών, room server και αισθητήρων.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "57d86a21"
+  },
+  "map.fr-loramesh-map.desc": {
+    "value": "Χάρτης των περιοχών της Γαλλίας όπου το MeshCore είναι ενεργό. Η κάλυψη είναι ακόμη ελλιπής έξω από τις μεγάλες πόλεις.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "85632f3a"
+  },
+  "map.de-meshcore-de-regions.desc": {
+    "value": "Επεξεργάσιμος χάρτης περιοχών MeshCore και τοπικών ομάδων, κυρίως στη Γερμανία.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cec143bd"
+  },
+  "map.gb-ukmesh.desc": {
+    "value": "Αναλυτικά στοιχεία του δικτύου του Ηνωμένου Βασιλείου με διαδρομές και ζωντανές προβολές, που τροφοδοτούνται από παρατηρητές.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "03a38df8"
+  },
+  "map.gb-meshrank.desc": {
+    "value": "Κατατάξεις και στατιστικά για αναμεταδότες και διαδρομές, κυρίως στο Ηνωμένο Βασίλειο.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "997a9a6e"
+  },
+  "map.gb-m3sh-contacts.desc": {
+    "value": "Το δίκτυο του Ηνωμένου Βασιλείου όπως το ακούει ένας κόμβος στο Oxfordshire, με το υλικό των κόμβων και τα διπλά προθέματα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cb2153f9"
+  },
+  "map.kiekr-map.desc": {
+    "value": "Ποιες ραδιοπεριοχές φτάνουν πού, υπολογισμένο από τους γείτονες που παρατηρούν οι χρήστες του KiekR.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9a3aceee"
+  },
+  "map.hopradar.desc": {
+    "value": "Σύνδεσε τον δικό σου κόμβο μέσω Bluetooth ή USB και δες, στον browser, τα άλματα, τις διαδρομές και το SNR που ακούει.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ae215bf8"
+  },
+  "project.meshcore-firmware.desc": {
+    "value": "Το επίσημο υλικολογισμικό MeshCore και η βιβλιοθήκη δρομολόγησης για πλακέτες LoRa, με ρόλους companion, αναμεταδότη, room server και αισθητήρα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bba821af"
+  },
+  "project.meshcore-js.desc": {
+    "value": "Βιβλιοθήκη JavaScript για επικοινωνία με companion ραδιόφωνα MeshCore από browser και Node.js.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0b9ed81f"
+  },
+  "project.meshcore-py.desc": {
+    "value": "Python bindings για τον έλεγχο ενός companion ραδιοφώνου MeshCore μέσω serial, Bluetooth ή TCP.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "305bd163"
+  },
+  "project.meshcore-cli.desc": {
+    "value": "Πελάτης γραμμής εντολών για αποστολή μηνυμάτων σε κόμβους MeshCore και διαχείρισή τους από τερματικό.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6f68e501"
+  },
+  "project.meshcore-ha.desc": {
+    "value": "Ενσωμάτωση Home Assistant που εκθέτει κόμβους, μηνύματα και τηλεμετρία MeshCore ως οντότητες για παρακολούθηση και αυτοματισμούς.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8b5725be"
+  },
+  "project.meshcore-flasher.desc": {
+    "value": "Πηγαίος κώδικας του εργαλείου browser που κάνει flash υλικολογισμικό MeshCore σε υποστηριζόμενες πλακέτες μέσω USB.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ba3feb1b"
+  },
+  "project.meshcore-map.desc": {
+    "value": "Πηγαίος κώδικας του επίσημου χάρτη κόμβων όπου οι ιδιοκτήτες μπορούν να δημοσιεύουν τους κόμβους τους.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "91b7682b"
+  },
+  "project.openhop-repeater.desc": {
+    "value": "Daemon αναμεταδότη σε Python που μετατρέπει έναν υπολογιστή Linux με ραδιόφωνο SPI LoRa σε αναμεταδότη συμβατό με MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d2bf1646"
+  },
+  "project.openhop-core.desc": {
+    "value": "Επανυλοποίηση σε Python του πρωτοκόλλου MeshCore και της στοίβας δρομολόγησης, με άμεση υποστήριξη ραδιοφώνων SPI LoRa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "54ed7f73"
+  },
+  "project.meshcore-open.desc": {
+    "value": "Ανοιχτού κώδικα εφαρμογή Flutter για πολλές πλατφόρμες, για ραδιόφωνα MeshCore μέσω Bluetooth, USB serial ή TCP, με έκδοση web.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c322a23f"
+  },
+  "project.meshcoretomqtt.desc": {
+    "value": "Script που προωθεί καταγραφές πακέτων από ένα ραδιόφωνο παρατηρητή MeshCore σε broker MQTT για αναλυτές.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "19dfb497"
+  },
+  "project.meshcore-mqtt-broker.desc": {
+    "value": "Broker MQTT που πιστοποιεί τους παρατηρητές με τα ζεύγη κλειδιών MeshCore τους αντί για κωδικούς.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ca27fa19"
+  },
+  "project.corescope.desc": {
+    "value": "Αυτοφιλοξενούμενος αναλυτής MeshCore που δέχεται πακέτα μέσω MQTT. Προσφέρει ζωντανή ροή, χάρτες, προβολές καναλιών και στατιστικά κόμβων.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a74322db"
+  },
+  "project.litescope.desc": {
+    "value": "Ελαφρύς αυτοφιλοξενούμενος πίνακας για την παρακολούθηση ενός δικτύου MeshCore. Η εσθονική κοινότητα τρέχει έναν.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1dc42e5a"
+  },
+  "project.meshcore-hub.desc": {
+    "value": "Πλατφόρμα Python από μια κοινότητα στο Ηνωμένο Βασίλειο. Συλλέγει συμβάντα MQTT σε βάση δεδομένων και προσφέρει REST API και web dashboard.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "07442a84"
+  },
+  "project.potato-mesh.desc": {
+    "value": "Ομοσπονδιακό κοινοτικό dashboard για MeshCore και άλλα δίκτυα mesh, που χρησιμοποιεί το Berlin Chaos Mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7b98d4f7"
+  },
+  "project.meshcore-mqtt-live-map.desc": {
+    "value": "Ζωντανός web χάρτης που τροφοδοτείται από ροή MQTT του MeshCore και δείχνει κόμβους, διαδρομές και κάλυψη σε πραγματικό χρόνο.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e0380e74"
+  },
+  "project.meshcore-bot.desc": {
+    "value": "Bot σε Python που απαντά σε εντολές σε κανάλια MeshCore και μπορεί να γεφυρώνει μηνύματα προς Discord και Telegram.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "04a73c83"
+  },
+  "project.meshcore-channels.desc": {
+    "value": "Λίστα JSON με δημόσια κανάλια MeshCore ανά χώρα, που επεξεργάζεται η κοινότητα και δημοσιεύεται για χρήση από εφαρμογές.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f3bb8a9a"
+  },
+  "project.meshcore-regions.desc": {
+    "value": "Κατάλογος JSON με κωδικούς περιοχών MeshCore από όλο τον κόσμο, που επεξεργάζεται η κοινότητα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ea403726"
+  },
+  "project.zephcore.desc": {
+    "value": "Μεταφορά του MeshCore από το Arduino στο λειτουργικό σύστημα πραγματικού χρόνου Zephyr.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d68923fa"
+  },
+  "project.meshcore-ng.desc": {
+    "value": "Ολλανδικό fork υλικολογισμικού που βελτιώνει τους αναμεταδότες σε πυκνά, φορτωμένα mesh, ενώ μένει συμβατό με τα κανονικά clients.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5f288c67"
+  },
+  "project.meshcore-solo.desc": {
+    "value": "Fork υλικολογισμικού companion που προσθέτει πλοήγηση GPS εκτός σύνδεσης με σημεία διαδρομής, πυξίδα και εξαγωγή GPX.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1c9d0659"
+  },
+  "project.meshcore-c.desc": {
+    "value": "Υλοποίηση του πρωτοκόλλου MeshCore σε C χωρίς εξαρτήσεις, ως βιβλιοθήκη για κάθε έργο ή ως component για ESP-IDF.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "327a07f8"
+  },
+  "project.lora-mesh-nodes.desc": {
+    "value": "Συλλογή σχεδίων για DIY φορητούς και ηλιακούς κόμβους, με περιβλήματα, εκτυπώσιμα μέρη και λίστες εξαρτημάτων.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "637e2726"
+  },
+  "project.lora-harvester-box.desc": {
+    "value": "Πλακέτα ανοιχτού υλικού που συνδυάζει ένα chip LoRa STM32WL με συλλέκτη ενέργειας, για κόμβους LoRa πολύ χαμηλής κατανάλωσης, όπως το MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6ecc7144"
+  },
+  "project.mesh-hunter.desc": {
+    "value": "Web εφαρμογή για κινητό που συνδέεται με ένα ραδιόφωνο companion και καταγράφει κάθε πακέτο που ακούει μαζί με τη θέση GPS σου, ώστε να πλησιάζεις με τα πόδια ή το αυτοκίνητο την πηγή ανεπιθύμητης κίνησης. Μπορεί να μοιράζεται ό,τι ακούει με brokers MQTT.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d0fb854e"
+  },
+  "project.eu-meshcore-analyzer.desc": {
+    "value": "Ζωντανός χάρτης και αναλυτής του ευρωπαϊκού δικτύου MeshCore, που τροφοδοτούν observers και εφαρμογές κινητού με όσα ακούν.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fed133d8"
+  },
+  "project.dmc-triangulator.desc": {
+    "value": "Περιορίζει τη θέση ενός κόμβου από τους αναμεταδότες που τον άκουσαν, ως πρώτη περιοχή αναζήτησης πριν το τοπικό ψάξιμο.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f73b5e0b"
+  },
+  "project.kiekr.desc": {
+    "value": "Εφαρμογή κινητού για μηνύματα στο mesh, που επίσης χαρτογραφεί την κάλυψη και μπορεί να ανεβάζει όσα ακούει σε αναλυτές.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "05e5f56a"
+  },
+  "project.meshmapper.desc": {
+    "value": "Χάρτης κάλυψης από wardriving, με περιφερειακές εγκαταστάσεις, δικό του broker MQTT και ανοιχτό API.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1135e1cd"
+  },
+  "project.trail-mate.desc": {
+    "value": "Υλικολογισμικό εκτός σύνδεσης για το LilyGO T-LoRa Pager και το T-Deck, με πλοήγηση GPS και ομαδικά μηνύματα μέσω MeshCore και Meshtastic.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "86cd32a0"
+  },
+  "project.remote-terminal.desc": {
+    "value": "Αυτοφιλοξενούμενο client για ραδιόφωνο MeshCore, που κρατά και αποκρυπτογραφεί τα καταγραμμένα πακέτα σε διακομιστή, με bots και MQTT.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "90c11494"
+  },
+  "project.meshpoint.desc": {
+    "value": "Σταθμός βάσης Raspberry Pi με concentrator SX1302 ή SX1303 που ακούει πολλά κανάλια ταυτόχρονα, με τοπικό dashboard.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6c668061"
+  },
+  "project.easyskymesh.desc": {
+    "value": "Fork υλικολογισμικού που εξοικονομεί ενέργεια για αναμεταδότες και κόμβους αισθητήρων που δουλεύουν με μπαταρία ή μικρό ηλιακό πάνελ.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3b1503dc"
+  },
+  "project.solar-os.desc": {
+    "value": "Μικρό λειτουργικό σύστημα με έμφαση στο κείμενο για τερματικά τσέπης ESP32, με companion MeshCore σε δικό του πομποδέκτη ή σε συζευγμένο κόμβο.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "23677e08"
+  },
+  "project.wio-tracker-l1-pro.desc": {
+    "value": "Υλικολογισμικό companion για το Seeed Wio Tracker L1 Pro με περιβάλλον χρήστη πάνω στην ίδια τη συσκευή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b694d013"
+  },
+  "project.meshcore-one.desc": {
+    "value": "Εγγενής εφαρμογή MeshCore για iPhone, iPad και Mac.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "87505963"
+  },
+  "project.lunarcore.desc": {
+    "value": "Υλικολογισμικό σε Rust για το Heltec WiFi LoRa 32 V3 που μιλά MeshCore, Meshtastic και άλλα πρωτόκολλα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f2c6fabd"
+  },
+  "project.meshcore-sar.desc": {
+    "value": "Εφαρμογή εκτός σύνδεσης για ομάδες έρευνας και διάσωσης: μηνύματα, φωνή, εικόνες, χάρτες και κοινές θέσεις μέσω MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "413c9353"
+  },
+  "project.cardputer-adv-stachugit.desc": {
+    "value": "Υλικολογισμικό companion για το M5Stack Cardputer ADV με LoRa cap, με οθόνη συνομιλίας και χρωματικά θέματα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9ab883fb"
+  },
+  "project.meshcoreterm.desc": {
+    "value": "Ρετρό υλικολογισμικό αφής για το LilyGO T-Deck, το Seeed SenseCAP Indicator και άλλες πλακέτες με οθόνη.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ac08cb0e"
+  },
+  "project.mesh-client.desc": {
+    "value": "Εφαρμογή για macOS, Linux και Windows που επικοινωνεί με ραδιόφωνα MeshCore, Meshtastic και Reticulum.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "61a3a731"
+  },
+  "project.mishmesh.desc": {
+    "value": "Υλικολογισμικό companion με δικό του περιβάλλον στο ραδιόφωνο, ώστε να στέλνεις μηνύματα χωρίς συζευγμένο κινητό.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9bde8382"
+  },
+  "project.overmesh.desc": {
+    "value": "Dashboard που τρέχεις στον δικό σου υπολογιστή για MeshCore και Meshtastic, με χάρτη κόμβων, συνομιλία, bot και χάρτες εκτός σύνδεσης.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fbacbc50"
+  },
+  "project.meshcore-wardrive-android.desc": {
+    "value": "Εφαρμογή Android που χαρτογραφεί την κάλυψη MeshCore ενώ περπατάς ή οδηγείς.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6c9c49ec"
+  },
+  "project.akita-bridge.desc": {
+    "value": "Γέφυρα που περνά μηνύματα ανάμεσα σε Meshtastic και MeshCore, μέσω σειριακής σύνδεσης ή MQTT.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eff5e3a1"
+  },
+  "project.meshcore-packet-capture.desc": {
+    "value": "Σενάριο Python που καταγράφει πακέτα από ένα ραδιόφωνο companion και τα δημοσιεύει σε MQTT.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5325460e"
+  },
+  "project.cardputer-adv-sosprz.desc": {
+    "value": "Υλικολογισμικό companion για το M5Stack Cardputer ADV με το Cap LoRa868, που εγκαθίσταται με το M5Burner.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cf8b55c5"
+  },
+  "project.lora-wideband-decoder.desc": {
+    "value": "Δέκτης software-defined radio που αποκωδικοποιεί κίνηση MeshCore, Meshtastic και LoRaWAN σε ευρεία ζώνη, με τοπική ιστοσελίδα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f3e575ff"
+  },
+  "project.mc-webui.desc": {
+    "value": "Web περιβάλλον πάνω από το meshcore-cli, για μηνύματα από τον browser.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3372c462"
+  },
+  "project.meshfirmware.desc": {
+    "value": "Σενάρια για Linux και Windows που επιλέγουν, χτίζουν και εγκαθιστούν υλικολογισμικό MeshCore και Meshtastic μέσω USB.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be0d230e"
+  },
+  "project.repeater-mqtt-gateway.desc": {
+    "value": "Υλικολογισμικό αναμεταδότη που συνδέει επίσης το mesh με broker MQTT, και προς τις δύο κατευθύνσεις.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "23f7dfec"
+  },
+  "project.tak-meshcore.desc": {
+    "value": "Πρόσθετο που επιτρέπει στην εφαρμογή επίγνωσης κατάστασης ATAK να χρησιμοποιεί ραδιόφωνο companion MeshCore μέσω Bluetooth.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "acbecd75"
+  },
+  "project.meshcore-decoder.desc": {
+    "value": "Βιβλιοθήκη TypeScript που αποκωδικοποιεί πακέτα MeshCore, μαζί με αποκρυπτογράφηση.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1235f40d"
+  },
+  "project.mesh-loader.desc": {
+    "value": "Dual boot για το Heltec WiFi LoRa 32 V3 και V4: κράτα δύο υλικολογισμικά σε μία πλακέτα και εναλλάσσου ανάμεσά τους.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be49552e"
+  },
+  "project.meshcore-proxy.desc": {
+    "value": "TCP proxy που κάνει ένα ραδιόφωνο companion σε USB ή Bluetooth προσβάσιμο από εφαρμογές σε άλλους υπολογιστές.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eaf24463"
+  },
+  "project.roadstr.desc": {
+    "value": "Αναφορά οδικών συμβάντων χωρίς κεντρικό διακομιστή: υπογεγραμμένα συμβάντα Nostr, που μεταφέρονται μέσω MeshCore όταν δεν υπάρχει internet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "60e39810"
+  },
+  "guides_group_start": {
+    "value": "Ο πρώτος σου κόμβος",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "276f7ca8"
+  },
+  "guides_group_setup": {
+    "value": "Ρύθμισε τον κόμβο σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "55efd611"
+  },
+  "guides_group_deeper": {
+    "value": "Πήγαινε βαθύτερα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6bce982b"
+  },
+  "guides_card_get_started_title": {
+    "value": "Ξεκίνα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "61e8d44a"
+  },
+  "guides_card_get_started_desc": {
+    "value": "Από μια νέα πλακέτα στο πρώτο σου μήνυμα στο mesh, σε 6 βήματα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "133bcbfc"
+  },
+  "guides_card_devices_title": {
+    "value": "Συσκευές",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4ba5121d"
+  },
+  "guides_card_devices_desc": {
+    "value": "Σύγκρινε πλακέτες ανά ρόλο, τιμή και πηγή τροφοδοσίας, και διάλεξε αυτή που σου ταιριάζει.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cf3bba38"
+  },
+  "guides_card_settings_title": {
+    "value": "Προτεινόμενες ρυθμίσεις",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cfb32983"
+  },
+  "guides_card_settings_desc": {
+    "value": "Η προεπιλογή ραδιοφώνου που χρησιμοποιεί η περιοχή σου, και οι ρυθμίσεις που άλλαξαν οι γείτονές σου.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8e18863a"
+  },
+  "guides_card_antenna_title": {
+    "value": "Οδηγός κεραίας",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3a76cb0e"
+  },
+  "guides_card_antenna_desc": {
+    "value": "Η κεραία είναι ο μισός κόμβος σου. Έλεγξε αυτή στο companion σου, και διάλεξε, σύνδεσε και τοποθέτησε μία για αναμεταδότη.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "abcdd786"
+  },
+  "guides_card_repeater_title": {
+    "value": "Οδηγός αναμεταδότη",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4608abcd"
+  },
+  "guides_card_repeater_desc": {
+    "value": "Ένας αναμεταδότης προωθεί μηνύματα για όλους γύρω του. Τοποθέτηση, οι εντολές για τη ρύθμισή του, και τα νομικά όρια στα 868 MHz.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "979d61a1"
+  },
+  "guides_card_filter_title": {
+    "value": "Φίλτρο πακέτων",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "20a3ef1f"
+  },
+  "guides_card_filter_desc": {
+    "value": "Εμπόδισε τον αναμεταδότη σου να προωθεί σκουπίδια, όπως ένα bot που δεν σταματά ποτέ ή ένα θορυβώδες κανάλι.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2db3748c"
+  },
+  "guides_card_mqtt_title": {
+    "value": "MQTT στον observer σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "62626d0f"
+  },
+  "guides_card_mqtt_desc": {
+    "value": "Ένας observer είναι ένας κόμβος που προωθεί ό,τι ακούει μέσω MQTT. Στήσε έναν για χάρτη ή αναλυτή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "774395b6"
+  },
+  "guides_card_mctomqtt_title": {
+    "value": "Φτιάξε ρύθμιση γέφυρας",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fd2dd667"
+  },
+  "guides_card_mctomqtt_desc": {
+    "value": "Στείλε ό,τι ακούει ο αναμεταδότης σου σε οποιονδήποτε MQTT broker: δικό σου, ή τον Analyzer.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6c4d4692"
+  },
+  "guides_card_cli_title": {
+    "value": "Εντολές CLI",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a13cc6cb"
+  },
+  "guides_card_cli_desc": {
+    "value": "Οι εντολές ενός αναμεταδότη, καθεμία με το τι κάνει.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "977f43d6"
+  },
+  "firmware_card_flasher_title": {
+    "value": "Εγγραφή",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f3577cb5"
+  },
+  "firmware_card_flasher_desc": {
+    "value": "Βάλε το MeshCore στην πλακέτα σου από τον περιηγητή σου, μέσω USB.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0a1c2394"
+  },
+  "firmware_card_console_title": {
+    "value": "Σειριακή κονσόλα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4e3c41fa"
+  },
+  "firmware_card_console_desc": {
+    "value": "Στείλε εντολές στον αναμεταδότη σου από τον περιηγητή σου, μέσω USB.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f0d52063"
+  },
+  "firmware_card_changelog_title": {
+    "value": "Ιστορικό αλλαγών",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ead07c84"
+  },
+  "firmware_card_changelog_desc": {
+    "value": "Δες τι άλλαξε σε κάθε έκδοση του MeshCore και αν ο κόμβος σου τη χρειάζεται.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "314733fe"
+  },
+  "area_device_repeater": {
+    "value": "Στον αναμεταδότη σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b5cb30f9"
+  },
+  "area_device_companion": {
+    "value": "Στην εφαρμογή στο companion σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8e459238"
+  },
+  "area_change_nl_regions": {
+    "value": "Πρόσθεσε τις περιοχές που εξυπηρετεί ο αναμεταδότης σου, καθεμία μέσα στην από πάνω της: Ευρώπη, Benelux, Ολλανδία, η επαρχία σου και η πόλη σου. Η επαρχία σου γίνεται η προεπιλογή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "593b1502"
+  },
+  "area_change_strict_regions": {
+    "value": "Απόρριψε πακέτα χωρίς περιοχή, ώστε να μην ταξιδεύουν σε όλη την Ευρώπη. Πρόσθεσε πρώτα τις περιοχές.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "11ca714d"
+  },
+  "area_change_zero_hop": {
+    "value": "Στείλε το advert που ακούν οι άμεσοι γείτονές σου κάθε 4 ώρες.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0e990713"
+  },
+  "area_change_path_hash": {
+    "value": "Χρησιμοποίησε path hash 2 byte: ξεχωρίζει 65536 αναμεταδότες αντί για 256.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b63880c0"
+  },
+  "area_change_loop": {
+    "value": "Απόρριψε πακέτα flood που επιστρέφουν κυκλικά μέσα από τον αναμεταδότη σου. Ένας αναμεταδότης ρυθμισμένος με 1.18 ή νεότερο το κάνει ήδη.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "44333e2e"
+  },
+  "area_change_dutycycle": {
+    "value": "Περιόρισε τον αναμεταδότη σου σε 10% χρόνο εκπομπής.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8877399e"
+  },
+  "area_change_nl_companion_region": {
+    "value": "Στις πειραματικές ρυθμίσεις της εφαρμογής, όρισε την προεπιλεγμένη περιοχή σε nl. Δώσε σε κάθε κανάλι την περιοχή του, όπως nl-nh για τη Βόρεια Ολλανδία.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3c31c16c"
+  },
+  "area_change_companion_path_hash": {
+    "value": "Στις πειραματικές ρυθμίσεις της εφαρμογής, όρισε το προεπιλεγμένο μέγεθος path hash σε 2 byte.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4e3414d1"
+  },
+  "area_preset": {
+    "value": "Προεπιλογή ραδιοφώνου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6fd605ec"
+  },
+  "area_path_hash": {
+    "value": "Path hash (ορίζεται από την προεπιλογή)",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2e93a7f1"
+  },
+  "area_bytes": {
+    "value": "byte",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "277089d9"
+  },
+  "area_firmware": {
+    "value": "Υλικολογισμικό",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c2a314c3"
+  },
+  "area_or_newer": {
+    "value": "ή νεότερο",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e2cbdfd0"
+  },
+  "area_changes": {
+    "value": "Αλλαγμένα από τις προεπιλογές του MeshCore",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0587de6f"
+  },
+  "area_source_group": {
+    "value": "Ρυθμίσεις από",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f06dfa4f"
+  },
+  "area_source_preset": {
+    "value": "Προεπιλογή από τη λίστα του έργου MeshCore",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "89d3440f"
+  },
+  "area_checked": {
+    "value": "ελέγχθηκε",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e61a3d78"
+  },
+  "area_add_title": {
+    "value": "Πρόσθεσε την περιοχή σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6ec76c28"
+  },
+  "area_add_body": {
+    "value": "Η τοπική σου ομάδα χρησιμοποιεί δική της προεπιλογή ή αλλάζει ρυθμίσεις; Στείλε τις, με σύνδεσμο στο σημείο όπου τις αποφασίσατε.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5976a5e5"
+  },
+  "area_add_cta": {
+    "value": "Πρόσθεσε την περιοχή σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6ec76c28"
+  },
+  "area_link": {
+    "value": "Σύνδεσμος σε αυτή την περιοχή",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "98909794"
+  },
+  "regions_title": {
+    "value": "Περιοχές: από την Ευρώπη ως την πόλη σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "698de558"
+  },
+  "regions_body": {
+    "value": "Μια περιοχή είναι ένας κωδικός για μια ζώνη. Οι περιοχές βρίσκονται η μία μέσα στην άλλη: Ευρώπη, η χώρα σου, η επαρχία σου, και σε μερικά μέρη η πόλη σου. Δώσε στον αναμεταδότη σου τις περιοχές όπου βρίσκεται, καθεμία μέσα στην από πάνω της. Προωθεί μηνύματα για οποιαδήποτε από αυτές.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3f05bbfc"
+  },
+  "regions_map_body": {
+    "value": "Ποιοι κωδικοί χρησιμοποιούνται διαφέρει ανά ζώνη. Ο χάρτης δείχνει τις περιοχές που χρησιμοποιούν οι αναμεταδότες γύρω σου: χρησιμοποίησε αυτές των γειτόνων σου, αλλιώς ο αναμεταδότης σου απορρίπτει τα μηνύματά τους.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4ccf2219"
+  },
+  "regions_europe": {
+    "value": "Ευρώπη",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e595f45d"
+  },
+  "regions_pick": {
+    "value": "Η επαρχία ή η περιοχή σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ed5a1c0e"
+  },
+  "regions_pick_none": {
+    "value": "Διάλεξε μία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a880a59d"
+  },
+  "regions_region": {
+    "value": "Η περιοχή σου, αν η ζώνη σου χρησιμοποιεί μία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7ebba635"
+  },
+  "regions_town": {
+    "value": "Η πόλη σου, αν η ζώνη σου χρησιμοποιεί μία",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a6221a2f"
+  },
+  "regions_map": {
+    "value": "Χάρτης",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be176b00"
+  },
+  "regions_map_label": {
+    "value": "στον χάρτη του MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2df2db10"
+  },
+  "regions_cmd_hint": {
+    "value": "Διάλεξε την επαρχία σου, ή γράψε τον κωδικό της πάνω στην επισημασμένη τιμή, και μετά αντίγραψε.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "54f7feb3"
+  },
+  "area_ph_hint": {
+    "value": "Γράψε τις δικές σου τιμές πάνω στις επισημασμένες, και μετά αντίγραψε.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "04e515aa"
+  },
+  "area_ph_province": {
+    "value": "Η επαρχία σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "492cd073"
+  },
+  "area_ph_city": {
+    "value": "Η πόλη σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "90064d5a"
+  },
+  "area_map_label": {
+    "value": "Χάρτης των ζωνών και της προεπιλογής ραδιοφώνου τους",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b49bdce9"
+  },
+  "area_map_own": {
+    "value": "Δική της προεπιλογή ή ρυθμίσεις",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d7dec3ab"
+  },
+  "area_others_title": {
+    "value": "Η υπόλοιπη ΕΕ και το Ηνωμένο Βασίλειο",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5b618852"
+  },
+  "area_country_label": {
+    "value": "Η χώρα σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "18f2456a"
+  },
+  "area_country_pick": {
+    "value": "Διάλεξε χώρα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "632aadfb"
+  },
+  "area_country_missing": {
+    "value": "Η χώρα σου δεν είναι στη λίστα; Ρώτα την τοπική σου ομάδα ποια προεπιλογή χρησιμοποιεί, ή {link}.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "64fd9026"
+  },
+  "area_country_missing_link": {
+    "value": "πρόσθεσε την περιοχή σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "39737a2b"
+  },
+  "area_country_eu": {
+    "value": "Η χώρα {country} δεν έχει δική της προεπιλογή στην εφαρμογή MeshCore. Χρησιμοποιεί {preset}, την προεπιλογή που ορίζει το MeshCore για την ΕΕ και το Ηνωμένο Βασίλειο.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "221cd765"
+  },
+  "area_others_body": {
+    "value": "Αυτές οι χώρες δεν έχουν δική τους προεπιλογή στην εφαρμογή MeshCore. Χρησιμοποιούν EU/UK (Narrow), την προεπιλογή που ορίζει το MeshCore για αυτές.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0fccb2a7"
+  },
+  "cli_groups": {
+    "value": "Ομάδες εντολών",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "70883ce1"
+  },
+  "cli_search": {
+    "value": "Αναζήτηση",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "49c266ba"
+  },
+  "cli_node_q": {
+    "value": "Ποιος κόμβος;",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5f669f2f"
+  },
+  "cli_node_repeater": {
+    "value": "Αναμεταδότης",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "46e7bee1"
+  },
+  "cli_node_room_server": {
+    "value": "Room server",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "68b91cc5"
+  },
+  "cli_node_sensor": {
+    "value": "Αισθητήρας",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "162cc64c"
+  },
+  "cli_node_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1dadb328"
+  },
+  "cli_link": {
+    "value": "Σύνδεσμος σε αυτή την εντολή",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8545494"
+  },
+  "cli_default": {
+    "value": "Ξεκινά από",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "faca355f"
+  },
+  "cli_in_source": {
+    "value": "όπου το ορίζει το υλικολογισμικό",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4de4eaa8"
+  },
+  "cli_range": {
+    "value": "Τιμές",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "53b09e10"
+  },
+  "cli_nodes": {
+    "value": "Λειτουργεί σε",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c85fc5a0"
+  },
+  "cli_since": {
+    "value": "Χρειάζεται υλικολογισμικό",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5bf596e9"
+  },
+  "cli_build": {
+    "value": "Μόνο σε υλικολογισμικό χτισμένο με",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bb208568"
+  },
+  "cli_build_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "176c7866"
+  },
+  "cli_build_sensors": {
+    "value": "αισθητήρες",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e22dfb01"
+  },
+  "cli_build_bridge": {
+    "value": "γέφυρα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5a0b83ee"
+  },
+  "cli_build_ethernet": {
+    "value": "Ethernet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "681e1209"
+  },
+  "cli_build_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "10df5f54"
+  },
+  "cli_group_operational": {
+    "value": "Επανεκκίνηση, επαναφορά και ενημέρωση",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a49f50c1"
+  },
+  "cli_group_adverts": {
+    "value": "Adverts",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8b8ad4a7"
+  },
+  "cli_group_radio": {
+    "value": "Ραδιόφωνο",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2a7dfeb2"
+  },
+  "cli_group_system": {
+    "value": "Όνομα, κωδικός και ρολόι",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a96ceeac"
+  },
+  "cli_group_routing": {
+    "value": "Δρομολόγηση",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bcba696f"
+  },
+  "cli_group_regions": {
+    "value": "Περιοχές",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "610c65d8"
+  },
+  "cli_group_access": {
+    "value": "Πρόσβαση",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ec5ba0ab"
+  },
+  "cli_group_neighbours": {
+    "value": "Γείτονες",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "24be7e7c"
+  },
+  "cli_group_statistics": {
+    "value": "Στατιστικά",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a656107e"
+  },
+  "cli_group_logging": {
+    "value": "Καταγραφή",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d3ef01b4"
+  },
+  "cli_group_info": {
+    "value": "Έκδοση και πλακέτα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9a90dcaa"
+  },
+  "cli_group_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "176c7866"
+  },
+  "cli_group_sensors": {
+    "value": "Αισθητήρες",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "76140e34"
+  },
+  "cli_group_bridge": {
+    "value": "Γέφυρα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3892e103"
+  },
+  "cli_group_ethernet": {
+    "value": "Ethernet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "681e1209"
+  },
+  "cli_group_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "10df5f54"
+  },
+  "cmd_reboot_desc": {
+    "value": "Επανεκκινεί τον κόμβο αμέσως, και ο κόμβος δεν σου στέλνει απάντηση. Χρησιμοποίησέ την για ρυθμίσεις που ισχύουν μόνο μετά από επανεκκίνηση.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6850ad24"
+  },
+  "cmd_poweroff_desc": {
+    "value": "Σβήνει τον κόμβο σε πλακέτες που το υποστηρίζουν, χωρίς να στείλει απάντηση. Χρειάζεσαι το κουμπί τροφοδοσίας ή διακοπή ρεύματος για να τον ξεκινήσεις ξανά.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5088476d"
+  },
+  "cmd_clkreboot_desc": {
+    "value": "Γυρίζει το ρολόι σε μια παλιά ημερομηνία και επανεκκινεί τον κόμβο χωρίς απάντηση. Χρησιμοποίησέ την όταν το ρολόι πάει μπροστά και αρνείται να γυρίσει πίσω.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d02bbe66"
+  },
+  "cmd_clock_desc": {
+    "value": "Δείχνει το ρολόι του κόμβου σε UTC, ή το ορίζει σε χρόνο Unix σε δευτερόλεπτα. Το ρολόι κινείται μόνο μπροστά, οπότε χρησιμοποίησε πρώτα clkreboot για να πας πίσω.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0193d15f"
+  },
+  "cmd_clock_sync_desc": {
+    "value": "Ορίζει το ρολόι του κόμβου στην ώρα που στέλνει το companion σου με αυτή την εντολή. Λειτουργεί μόνο μέσω του mesh, επειδή η σειριακή κονσόλα δεν στέλνει ώρα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "39198623"
+  },
+  "cmd_start_ota_desc": {
+    "value": "Ξεκινά ενημέρωση υλικολογισμικού μέσω αέρα σε πλακέτες ESP32 και nRF52 που το υποστηρίζουν. Το ESP32 ανοίγει σημείο πρόσβασης WiFi, το nRF52 ξεκινά ενημέρωση μέσω Bluetooth.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "69bd5985"
+  },
+  "cmd_erase_desc": {
+    "value": "Σβήνει το σύστημα αρχείων του κόμβου, μαζί με τις ρυθμίσεις και την ταυτότητά του, μόνο από σειριακή. Χρησιμοποίησέ την για εργοστασιακή επαναφορά, επειδή δεν αναιρείται.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e781518d"
+  },
+  "cmd_room_post_desc": {
+    "value": "Δημοσιεύει μήνυμα στο room ως ο ίδιος ο room server. Όλοι στο room το λαμβάνουν όπως κάθε άλλη δημοσίευση.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "88a6e1f5"
+  },
+  "cmd_advert_desc": {
+    "value": "Στέλνει τώρα ένα flood advert, ώστε οι κόμβοι σε όλο το mesh να μάθουν για αυτόν τον κόμβο. Χρησιμοποίησέ την αφού αλλάξεις το όνομα ή την τοποθεσία.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "21526c3a"
+  },
+  "cmd_advert_zerohop_desc": {
+    "value": "Στέλνει advert μόνο στους άμεσους γείτονες, και κανένας αναμεταδότης δεν το προωθεί. Χρησιμοποίησέ την για να ανακοινώσεις τον κόμβο τοπικά χωρίς να φορτώσεις όλο το mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dfbc07b6"
+  },
+  "cmd_advert_interval_desc": {
+    "value": "Ορίζει κάθε πόσα λεπτά ο κόμβος στέλνει zero-hop advert στους γείτονές του. Χρησιμοποίησε 0 για να τα σταματήσεις. Κάθε αποθηκευμένη αλλαγή σταματά επίσης διαστήματα κάτω από 60.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f99f3d5f"
+  },
+  "cmd_flood_advert_interval_desc": {
+    "value": "Ορίζει κάθε πόσες ώρες ο κόμβος στέλνει flood advert σε όλο το mesh. Χρησιμοποίησε 0 για να σταματήσεις εντελώς τα αυτόματα flood adverts από αυτόν τον κόμβο.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6473270c"
+  },
+  "cmd_neighbours_desc": {
+    "value": "Παραθέτει τους αναμεταδότες που άκουσε άμεσα αυτός ο κόμβος, με τον πιο πρόσφατο πρώτο. Κάθε γραμμή δείχνει πρόθεμα κλειδιού, δευτερόλεπτα από την ακρόαση και το SNR επί 4.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9bd6e27f"
+  },
+  "cmd_neighbour_remove_desc": {
+    "value": "Αφαιρεί κάθε γείτονα του οποίου το δημόσιο κλειδί ξεκινά με το hex πρόθεμα που δίνεις. Χρησιμοποίησέ την για να καθαρίσεις έναν παλιό αναμεταδότη από τη λίστα γειτόνων.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c1b8c616"
+  },
+  "cmd_discover_neighbours_desc": {
+    "value": "Ζητά από τους αναμεταδότες σε άμεση εμβέλεια να απαντήσουν, και προσθέτει κάθε απάντηση στους γείτονες. Χρησιμοποίησέ την για να γεμίσεις τη λίστα χωρίς να περιμένεις τα adverts τους. Ένας αναμεταδότης με και τα δύο διαστήματα advert στο 0, ή με το repeat απενεργοποιημένο, μένει σιωπηλός.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1ab216ce"
+  },
+  "cmd_clear_stats_desc": {
+    "value": "Μηδενίζει τους μετρητές πακέτων, ραδιοφώνου και πυρήνα του κόμβου. Χρησιμοποίησέ την πριν μετρήσεις την κίνηση σε μια ορισμένη περίοδο.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ead62ceb"
+  },
+  "cmd_stats_core_desc": {
+    "value": "Δείχνει την τάση μπαταρίας, τον χρόνο λειτουργίας, το πλήθος σφαλμάτων και το μήκος ουράς εκπομπής του κόμβου. Λειτουργεί μόνο στη σειριακή κονσόλα, όχι μέσω του mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ba9fa3d2"
+  },
+  "cmd_stats_radio_desc": {
+    "value": "Δείχνει το επίπεδο θορύβου, το τελευταίο RSSI και SNR, και τον χρόνο εκπομπής και λήψης. Λειτουργεί μόνο στη σειριακή κονσόλα, όχι μέσω του mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bedd2bf2"
+  },
+  "cmd_stats_packets_desc": {
+    "value": "Δείχνει πόσα πακέτα έλαβε και έστειλε ο κόμβος, χωρισμένα σε flood και άμεσα. Λειτουργεί μόνο στη σειριακή κονσόλα, όχι μέσω του mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d8a3b4d1"
+  },
+  "cmd_log_capture_desc": {
+    "value": "Ξεκινά ή σταματά την εγγραφή κάθε πακέτου που λαμβάνει και στέλνει ο κόμβος σε αρχείο καταγραφής. Χρησιμοποίησέ την για να καταγράψεις κίνηση, και μετά διάβασέ την με την εντολή log.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "79dcb812"
+  },
+  "cmd_log_erase_desc": {
+    "value": "Διαγράφει το αρχείο καταγραφής πακέτων από τον αποθηκευτικό χώρο του κόμβου. Χρησιμοποίησέ την για να ελευθερώσεις χώρο ή να ξεκινήσεις καθαρή καταγραφή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9c32fe03"
+  },
+  "cmd_log_desc": {
+    "value": "Τυπώνει την καταγραφή πακέτων, γραμμή προς γραμμή, στη σειριακή κονσόλα. Λειτουργεί μόνο στη σειριακή κονσόλα, όχι μέσω του mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "59c80f62"
+  },
+  "cmd_ver_desc": {
+    "value": "Δείχνει την έκδοση υλικολογισμικού και την ημερομηνία build του κόμβου. Χρησιμοποίησέ την για να ελέγξεις ποια έκδοση τρέχει πριν ενημερώσεις.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c0752f1b"
+  },
+  "cmd_board_desc": {
+    "value": "Δείχνει το όνομα της πλακέτας υλικού για την οποία χτίστηκε το υλικολογισμικό. Χρησιμοποίησέ την για να ελέγξεις ότι φόρτωσες το σωστό υλικολογισμικό.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3e5ed786"
+  },
+  "cmd_power_desc": {
+    "value": "Δείχνει την τάση μπαταρίας, και αν USB, ηλιακό, εξωτερική τροφοδοσία και φορτιστής είναι ενεργά. Μια πλακέτα που δεν ανιχνεύει USB ή ηλιακό δείχνει n/a για αυτό.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4e5129e4"
+  },
+  "cmd_public_key_desc": {
+    "value": "Δείχνει το πλήρες δημόσιο κλειδί του κόμβου σε hex. Μοιράσου το όταν κάποιος ρωτά ποιος κόμβος είναι δικός σου, ή όταν ο ιδιοκτήτης αναμεταδότη δίνει ρόλο στο companion σου με setperm.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d754bc23"
+  },
+  "cmd_role_desc": {
+    "value": "Δείχνει ποιο υλικολογισμικό τρέχει ο κόμβος: repeater, room_server ή sensor. Χρησιμοποίησέ την για να ελέγξεις τον ρόλο πριν αλλάξεις ρυθμίσεις απομακρυσμένα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "627a92c5"
+  },
+  "cmd_bootloader_ver_desc": {
+    "value": "Δείχνει την έκδοση του bootloader που τρέχει σε πλακέτες nRF52. Σε κάθε άλλη πλακέτα ο κόμβος απαντά ότι η εντολή δεν υποστηρίζεται.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a3e90e05"
+  },
+  "cmd_pwrmgt_support_desc": {
+    "value": "Δείχνει αν αυτή η έκδοση υλικολογισμικού περιλαμβάνει διαχείριση ενέργειας για πλακέτες nRF52. Οι άλλες εντολές pwrmgt χρειάζονται αυτή την υποστήριξη για να απαντήσουν.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "139d6f9d"
+  },
+  "cmd_pwrmgt_source_desc": {
+    "value": "Δείχνει αν ο κόμβος λειτουργεί με εξωτερική τροφοδοσία ή με την μπαταρία του. Μόνο εκδόσεις υλικολογισμικού με διαχείριση ενέργειας nRF52 σου δίνουν αυτή την απάντηση.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ee83fb61"
+  },
+  "cmd_pwrmgt_bootreason_desc": {
+    "value": "Δείχνει γιατί ο κόμβος έκανε την τελευταία επανεκκίνηση και γιατί έκλεισε την τελευταία φορά. Χρησιμοποίησέ το για να βρεις γιατί ένας κόμβος επανεκκίνησε μόνος του.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "de8338c0"
+  },
+  "cmd_pwrmgt_bootmv_desc": {
+    "value": "Δείχνει την τάση της μπαταρίας σε millivolt που μέτρησε ο κόμβος κατά την εκκίνηση. Μόνο εκδόσεις υλικολογισμικού με διαχείριση ενέργειας nRF52 σου δίνουν αυτή την απάντηση.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ff3b5c66"
+  },
+  "cmd_radio_desc": {
+    "value": "Ορίζει τη συχνότητα, το εύρος ζώνης, τον παράγοντα διασποράς και τον ρυθμό κωδικοποίησης που χρησιμοποιεί ο κόμβος. Κάθε κόμβος στο mesh σου χρειάζεται τις ίδιες τιμές. Κάνε επανεκκίνηση για να εφαρμοστούν.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bf443364"
+  },
+  "cmd_tx_desc": {
+    "value": "Ορίζει την ισχύ εκπομπής του τσιπ LoRa σε dBm, και εφαρμόζεται αμέσως. Πλακέτες με επιπλέον ενισχυτή εκπέμπουν περισσότερο από αυτή την τιμή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0b7d55b8"
+  },
+  "cmd_tempradio_desc": {
+    "value": "Αλλάζει σε άλλες ρυθμίσεις ραδιοφώνου για ορισμένο αριθμό λεπτών, χωρίς να τις αποθηκεύει. Χρησιμοποίησέ το για να δοκιμάσεις νέες ρυθμίσεις από απόσταση, με αυτόματη επιστροφή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "37b19209"
+  },
+  "cmd_freq_desc": {
+    "value": "Ορίζει μόνο τη συχνότητα σε MHz, και η μορφή ορισμού λειτουργεί μόνο σειριακά. Κάνε επανεκκίνηση του κόμβου μετά, γιατί η νέα συχνότητα ισχύει μόνο μετά από επανεκκίνηση.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aabd4b62"
+  },
+  "cmd_radio_rxgain_desc": {
+    "value": "Ενεργοποιεί ή απενεργοποιεί την ενισχυμένη απολαβή λήψης του τσιπ ραδιοφώνου. Ένα ραδιόφωνο χωρίς αυτή τη λειτουργία απαντά ότι η ρύθμιση δεν υποστηρίζεται σε αυτό.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ecacba86"
+  },
+  "cmd_radio_fem_rxgain_desc": {
+    "value": "Ενεργοποιεί ή απενεργοποιεί τον ενισχυτή λήψης ενός εξωτερικού front end ραδιοφώνου. Το υποστηρίζουν μόνο πλακέτες με front end που μπορείς να ελέγξεις.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c71d7980"
+  },
+  "cmd_radio_fem_txgain_desc": {
+    "value": "Αλλάζει την απολαβή εκπομπής ενός εξωτερικού front end ραδιοφώνου μεταξύ των 2 επιπέδων του. Το υποστηρίζουν μόνο πλακέτες με front end που μπορείς να ελέγξεις.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d3f049e3"
+  },
+  "cmd_extra_sf_desc": {
+    "value": "Κάνει ένα ραδιόφωνο LR2021 να ακούει και έως 3 επιπλέον παράγοντες διασποράς. Δώσε τους ως λίστα με κόμματα. Άλλα ραδιόφωνα δεν δέχονται τη μορφή ορισμού.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d14313eb"
+  },
+  "cmd_repeat_desc": {
+    "value": "Ενεργοποιεί ή απενεργοποιεί την προώθηση πακέτων από άλλους κόμβους. Απενεργοποίησέ το για να κρατήσεις έναν κόμβο στον αέρα χωρίς αναμετάδοση. Ένας room server αρνείται να το ενεργοποιήσει.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c66ee723"
+  },
+  "cmd_path_hash_mode_desc": {
+    "value": "Ορίζει το μέγεθος hash που γράφει αυτός ο κόμβος στις διαδρομές των πακέτων που στέλνει. Η λειτουργία 0 χρησιμοποιεί 1 byte, η 1 χρησιμοποιεί 2 και η 2 χρησιμοποιεί 3.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "486f2338"
+  },
+  "cmd_loop_detect_desc": {
+    "value": "Απορρίπτει πακέτα flood που ήδη φέρουν το hash αυτού του αναμεταδότη στη διαδρομή τους πολύ συχνά. Ένα αυστηρότερο επίπεδο απορρίπτει ένα πακέτο σε βρόχο μετά από λιγότερες επαναλήψεις. Ένας αναμεταδότης που αναβαθμίστηκε από παλαιότερη έκδοση κρατά το επίπεδο που είχε.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7192683e"
+  },
+  "cmd_txdelay_desc": {
+    "value": "Ορίζει την τυχαία αναμονή πριν ο κόμβος αναμεταδώσει ένα πακέτο flood, κλιμακωμένη με τον χρόνο αέρα. Μεγαλύτερη τιμή αποφεύγει συγκρούσεις μεταξύ αναμεταδοτών αλλά προσθέτει καθυστέρηση.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dc0b9e0e"
+  },
+  "cmd_direct_txdelay_desc": {
+    "value": "Ορίζει την τυχαία αναμονή πριν ο κόμβος αναμεταδώσει ένα άμεσο πακέτο, κλιμακωμένη με τον χρόνο αέρα. Τα άμεσα πακέτα χρειάζονται λιγότερη αναμονή, γιατί τα αναμεταδίδουν λιγότεροι κόμβοι.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0f14a917"
+  },
+  "cmd_rxdelay_desc": {
+    "value": "Κρατά τα αδύναμα πακέτα flood πριν την επεξεργασία, ώστε οι διαδρομές με ισχυρό σήμα να αναμεταδίδονται πρώτες. Χρησιμοποίησε 0 για να επεξεργάζεται κάθε πακέτο αμέσως, όποιο κι αν είναι το σήμα του.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9eca669b"
+  },
+  "cmd_dutycycle_desc": {
+    "value": "Περιορίζει το ποσοστό του χρόνου που ο κόμβος περνά εκπέμποντας, ως ποσοστό. Όρισέ το στο όριο που ισχύει για τη ζώνη συχνοτήτων σου.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "46f7ce95"
+  },
+  "cmd_af_desc": {
+    "value": "Ορίζει τον παράγοντα χρόνου αέρα, τον παλαιότερο τρόπο περιορισμού του κύκλου λειτουργίας του κόμβου. Χρησιμοποίησε dutycycle αντί γι' αυτό. Ένα af 9 ισούται με 10 τοις εκατό.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "80189809"
+  },
+  "cmd_int_thresh_desc": {
+    "value": "Θεωρεί το κανάλι απασχολημένο όταν μετρά τόσα dB πάνω από το επίπεδο θορύβου. Ο κόμβος τότε περιμένει πριν εκπέμψει. Το 0 απενεργοποιεί τον έλεγχο.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "32eb85ce"
+  },
+  "cmd_cad_desc": {
+    "value": "Κάνει το ραδιόφωνο να ακούει για δραστηριότητα στο κανάλι πριν από κάθε εκπομπή. Ο κόμβος περιμένει με την αποστολή όσο το κανάλι είναι απασχολημένο.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "998c2731"
+  },
+  "cmd_agc_reset_interval_desc": {
+    "value": "Επαναφέρει τον αυτόματο έλεγχο απολαβής του ραδιοφώνου κάθε ορισμένο αριθμό δευτερολέπτων. Ο κόμβος στρογγυλοποιεί προς τα κάτω σε πολλαπλάσιο του 4. Το 0 το απενεργοποιεί.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aa321448"
+  },
+  "cmd_multi_acks_desc": {
+    "value": "Στέλνει επιπλέον αντίγραφα κάθε επιβεβαίωσης για να βελτιώσει την παράδοση σε αδύναμες ζεύξεις. Χρησιμοποίησε 0 για να στέλνει κάθε επιβεβαίωση μόνο μία φορά, χωρίς επιπλέον αντίγραφα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b2c80c40"
+  },
+  "cmd_flood_max_desc": {
+    "value": "Ορίζει τον αριθμό αλμάτων μετά τον οποίο αυτός ο κόμβος σταματά να αναμεταδίδει ένα πακέτο flood. Μείωσέ το για να μην ταξιδεύουν τα flood μακριά στο mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dee460b4"
+  },
+  "cmd_flood_max_unscoped_desc": {
+    "value": "Ορίζει το όριο αλμάτων για πακέτα flood χωρίς περιοχή. Μείωσέ το για να κρατήσεις αυτή την κίνηση κοντά στο σπίτι.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1003a06a"
+  },
+  "cmd_flood_max_advert_desc": {
+    "value": "Ορίζει το όριο αλμάτων για τα flood advert που αναμεταδίδει αυτός ο κόμβος. Μείωσέ το για να μη διασχίζουν τα advert όλο το mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "57c129b9"
+  },
+  "cmd_name_desc": {
+    "value": "Ορίζει το όνομα που βλέπουν οι άλλοι κόμβοι στα advert αυτού του κόμβου. Οι χαρακτήρες [ ] \\ : , ? * δεν επιτρέπονται.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "08e6c872"
+  },
+  "cmd_lat_desc": {
+    "value": "Ορίζει το γεωγραφικό πλάτος σε δεκαδικές μοίρες που μοιράζεται αυτός ο κόμβος στα advert του. Χρησιμοποίησέ το μαζί με lon για να βάλεις τον κόμβο στη σωστή θέση σε χάρτη.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ea083178"
+  },
+  "cmd_lon_desc": {
+    "value": "Ορίζει το γεωγραφικό μήκος σε δεκαδικές μοίρες που μοιράζεται αυτός ο κόμβος στα advert του. Χρησιμοποίησέ το μαζί με lat για να βάλεις τον κόμβο στη σωστή θέση σε χάρτη.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fe5f8039"
+  },
+  "cmd_prv_key_desc": {
+    "value": "Δείχνει ή αντικαθιστά το ιδιωτικό κλειδί, που ορίζει την ταυτότητα του κόμβου. Η μορφή ανάγνωσης λειτουργεί μόνο σειριακά. Κάνε επανεκκίνηση αφού ορίσεις κλειδί.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3500931c"
+  },
+  "cmd_password_desc": {
+    "value": "Αλλάζει τον κωδικό διαχειριστή και επιστρέφει τον νέο για να τον ελέγξεις. Άλλαξέ τον σε κάθε νέο κόμβο, γιατί ο προεπιλεγμένος είναι δημόσιος.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a33a87f1"
+  },
+  "cmd_guest_password_desc": {
+    "value": "Ορίζει τον κωδικό επισκέπτη. Σε room server δίνει πρόσβαση ανάγνωσης και εγγραφής. Μοιράσου τον με τα άτομα που θέλεις να μπουν στο room.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "67348593"
+  },
+  "cmd_owner_info_desc": {
+    "value": "Ορίζει κείμενο επικοινωνίας που οι άλλοι μπορούν να ζητήσουν από τον κόμβο, όπως το όνομά σου. Πληκτρολόγησε τον χαρακτήρα | όπου θέλεις να ξεκινά νέα γραμμή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "928a68a4"
+  },
+  "cmd_adc_multiplier_desc": {
+    "value": "Διορθώνει τη μέτρηση τάσης μπαταρίας του κόμβου με πολλαπλασιαστή για την πλακέτα σου. Χρησιμοποίησε 0 για να επιστρέψεις στην τιμή που ορίζει η ίδια η πλακέτα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0383a608"
+  },
+  "cmd_powersaving_desc": {
+    "value": "Αφήνει τον κόμβο να κοιμάται μεταξύ ραδιοφωνικής δραστηριότητας για εξοικονόμηση μπαταρίας. Λειτουργεί σε πλακέτες nRF52 και σε εκδόσεις ESP32 χωρίς γέφυρα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3e791562"
+  },
+  "cmd_setperm_desc": {
+    "value": "Δίνει σε έναν companion έναν ρόλο σε αυτόν τον κόμβο, που βρίσκεται από το δημόσιο κλειδί του. Χρησιμοποίησε 0 για να αφαιρέσεις την εγγραφή. Οι άλλοι ρόλοι χρειάζονται το πλήρες κλειδί.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "93a740af"
+  },
+  "cmd_acl_desc": {
+    "value": "Εκτυπώνει τη λίστα πρόσβασης με τα δικαιώματα και το δημόσιο κλειδί κάθε companion. Λειτουργεί μόνο στη σειριακή κονσόλα, όχι μέσω του mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "784d80d9"
+  },
+  "cmd_allow_read_only_desc": {
+    "value": "Αφήνει άτομα με λάθος ή κενό κωδικό να μπουν σε room server με πρόσβαση μόνο ανάγνωσης. Απενεργοποίησέ το για να δέχεσαι μόνο άτομα που ξέρουν τον κωδικό.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a845f89b"
+  },
+  "cmd_region_desc": {
+    "value": "Δείχνει το πλήρες δέντρο περιοχών του κόμβου, με τη σημαία flood κάθε περιοχής. Ένα F σημαίνει ότι επιτρέπεται το flood και το ^ σημειώνει την περιοχή βάσης.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "07dd7f25"
+  },
+  "cmd_region_load_desc": {
+    "value": "Ξεκινά μαζική εισαγωγή δέντρου περιοχών, μία περιοχή ανά γραμμή, με εσοχή από κενά. Πρόσθεσε F για να επιτρέψεις το flood, και στείλε κενή γραμμή για να τελειώσεις.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d2da253a"
+  },
+  "cmd_region_save_desc": {
+    "value": "Αποθηκεύει τις αλλαγές περιοχών σου στον αποθηκευτικό χώρο του κόμβου, ώστε να επιβιώσουν μια επανεκκίνηση. Τρέξε το μετά από κάθε αλλαγή περιοχής που θέλεις να κρατήσεις.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bd6cb636"
+  },
+  "cmd_region_flood_desc": {
+    "value": "Επιτρέπει ή μπλοκάρει την αναμετάδοση πακέτων flood για μια περιοχή. Χρησιμοποίησε * για τα πακέτα που δεν φέρουν καμία περιοχή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "58acd9db"
+  },
+  "cmd_region_get_desc": {
+    "value": "Δείχνει μία περιοχή με τη γονική της, και ένα F όταν επιτρέπεται το flood για αυτήν. Χρησιμοποίησέ το για να ελέγξεις μία περιοχή χωρίς να διαβάσεις όλο το δέντρο.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "33ef40c6"
+  },
+  "cmd_region_home_desc": {
+    "value": "Δείχνει ή ορίζει την περιοχή βάσης, που το δέντρο περιοχών σημειώνει με ^. Τρέξε region save μετά για να κρατήσεις την αλλαγή μετά από επανεκκίνηση.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "90b9c539"
+  },
+  "cmd_region_default_desc": {
+    "value": "Δείχνει ή ορίζει την περιοχή που βάζει ο κόμβος στα δικά του πακέτα flood, όπως τα advert. Ο κόμβος αποθηκεύει την αλλαγή αμέσως. Το <null> την καθαρίζει.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b478cd71"
+  },
+  "cmd_region_put_desc": {
+    "value": "Προσθέτει μια περιοχή κάτω από το wildcard ή κάτω από γονική που ονομάζεις, με το flood επιτρεπόμενο. Τρέξε region save μετά για να κρατήσεις τη νέα περιοχή μετά από επανεκκίνηση.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "90f4ec6d"
+  },
+  "cmd_region_def_desc": {
+    "value": "Χτίζει ένα δέντρο περιοχών σε μία γραμμή, κάθε όνομα παιδί του προηγούμενου. Γράψε όνομα|jump για να συνεχίσεις το επόμενο όνομα από προηγούμενη περιοχή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "80bfbfce"
+  },
+  "cmd_region_remove_desc": {
+    "value": "Αφαιρεί μια περιοχή με το ακριβές όνομά της, όταν δεν της έχουν μείνει θυγατρικές περιοχές. Τρέξε region save μετά για να επιβιώσει η αφαίρεση μια επανεκκίνηση.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0677775b"
+  },
+  "cmd_region_list_desc": {
+    "value": "Παραθέτει τα ονόματα των περιοχών όπου επιτρέπεται το flood, ή όπου μπλοκάρεται. Χρησιμοποίησέ το για γρήγορο έλεγχο χωρίς το πλήρες δέντρο.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8156296"
+  },
+  "cmd_gps_desc": {
+    "value": "Δείχνει αν το GPS είναι ενεργό, αν έχει στίγμα και πόσους δορυφόρους βλέπει. Οι μορφές on και off αλλάζουν το GPS και αποθηκεύουν την επιλογή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6b7484f4"
+  },
+  "cmd_gps_diag_desc": {
+    "value": "Δείχνει αν το GPS είναι ενεργοποιημένο, πόσους δορυφόρους βλέπει και αν έχει στίγμα. Χρησιμοποίησέ το όταν ο κόμβος δεν παίρνει θέση.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f5838af7"
+  },
+  "cmd_gps_sync_desc": {
+    "value": "Ορίζει το ρολόι του κόμβου από την ώρα που λαμβάνει το GPS. Χρησιμοποίησέ το όταν ο κόμβος δεν έχει άλλη πηγή σωστής ώρας.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9992274d"
+  },
+  "cmd_gps_setloc_desc": {
+    "value": "Αντιγράφει την τρέχουσα θέση GPS στο αποθηκευμένο πλάτος και μήκος του κόμβου. Χρησιμοποίησέ το μία φορά στο σημείο, μετά απενεργοποίησε το GPS.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2e7052c8"
+  },
+  "cmd_gps_advert_desc": {
+    "value": "Επιλέγει τη θέση στα advert: καμία, ζωντανό GPS ή τα αποθηκευμένα lat και lon. Χρησιμοποίησε none για να κρατήσεις την τοποθεσία του κόμβου ιδιωτική.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e7bb3d85"
+  },
+  "cmd_sensor_list_desc": {
+    "value": "Παραθέτει τις προσαρμοσμένες ρυθμίσεις του διαχειριστή αισθητήρων με τις τιμές τους. Μια μεγάλη λίστα τελειώνει με τον δείκτη από τον οποίο συνεχίζεις.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "af32a1b7"
+  },
+  "cmd_sensor_setting_desc": {
+    "value": "Διαβάζει ή αλλάζει μία προσαρμοσμένη ρύθμιση του διαχειριστή αισθητήρων με το όνομά της. Χρησιμοποίησε πρώτα sensor list για να δεις ποια ονόματα προσφέρει η πλακέτα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c470cf70"
+  },
+  "cmd_io_desc": {
+    "value": "Διαβάζει ή γράφει τους ακροδέκτες GPIO της πλακέτας ως δεκαεξαδική μάσκα bit. Βάλε r, s ή t πριν τη μάσκα για επαναφορά, ορισμό ή εναλλαγή bit.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ede2acc1"
+  },
+  "cmd_bridge_type_desc": {
+    "value": "Δείχνει ποια γέφυρα έχει ενσωματωμένη αυτό το υλικολογισμικό: rs232, espnow ή none. Χρησιμοποίησέ το για να ελέγξεις ότι φόρτωσες έκδοση με γέφυρα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "54cbb77e"
+  },
+  "cmd_bridge_enabled_desc": {
+    "value": "Ενεργοποιεί ή απενεργοποιεί τη γέφυρα. Αυτή αντιγράφει πακέτα μεταξύ του mesh και μιας άλλης ζεύξης. Η ζεύξη αυτή είναι σειριακό καλώδιο ή ESP-NOW, ανάλογα με την έκδοση.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7249ccd6"
+  },
+  "cmd_bridge_delay_desc": {
+    "value": "Ορίζει πόσα χιλιοστά του δευτερολέπτου περιμένει η γέφυρα πριν προωθήσει ένα πακέτο. Αύξησέ το όταν τα γεφυρωμένα πακέτα συγκρούονται με κίνηση στο mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c8895baa"
+  },
+  "cmd_bridge_source_desc": {
+    "value": "Επιλέγει αν η γέφυρα αντιγράφει τα πακέτα που λαμβάνει αυτός ο κόμβος ή αυτά που στέλνει. Πληκτρολόγησε rx ή tx για να το ορίσεις. Το get απαντά με logRx ή logTx.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d81577c2"
+  },
+  "cmd_bridge_baud_desc": {
+    "value": "Ορίζει τη σειριακή ταχύτητα μιας γέφυρας RS-232 σε baud. Και τα δύο άκρα του σειριακού καλωδίου χρειάζονται την ίδια ταχύτητα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7322814d"
+  },
+  "cmd_bridge_channel_desc": {
+    "value": "Ορίζει το κανάλι WiFi που χρησιμοποιεί μια γέφυρα ESP-NOW για τη ζεύξη της. Κάθε γέφυρα που μιλά με αυτήν χρειάζεται το ίδιο κανάλι.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "924d978f"
+  },
+  "cmd_bridge_secret_desc": {
+    "value": "Ορίζει το κοινό μυστικό που κρυπτογραφεί τα πακέτα σε γέφυρα ESP-NOW. Χρησιμοποίησε το ίδιο μυστικό σε κάθε γέφυρα που μιλά με αυτήν.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b1df9356"
+  },
+  "cmd_eth_status_desc": {
+    "value": "Δείχνει τη διεύθυνση IP και τη θύρα της κονσόλας Ethernet, ή ότι είναι εκτός σύνδεσης. Λειτουργεί στη σειριακή κονσόλα και στην κονσόλα Ethernet, όχι μέσω του mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b27f99e8"
+  },
+  "cmd_pin_desc": {
+    "value": "Ορίζει το PIN Bluetooth που ζητά το τηλέφωνό σου κατά τη σύζευξη, μετά από επανεκκίνηση. Με 0, πλακέτα με οθόνη δείχνει νέο PIN σε κάθε εκκίνηση, και πλακέτα χωρίς οθόνη χρησιμοποιεί 123456.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "82dc0ee0"
+  },
+  "cmd_tz_offset_desc": {
+    "value": "Ορίζει τη ζώνη ώρας σου σε ακέραιες ώρες από UTC. Ο companion τη χρησιμοποιεί για το ρολόι στην οθόνη του.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d2a9942a"
+  },
+  "cmd_wifi_ssid_desc": {
+    "value": "Δείχνει ή ορίζει το όνομα του δικτύου WiFi στο οποίο συνδέεται ο companion. Όρισε και wifi.pwd, μετά κάνε επανεκκίνηση για σύνδεση.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6e53eb6a"
+  },
+  "cmd_wifi_pwd_desc": {
+    "value": "Δείχνει ή ορίζει τον κωδικό του δικτύου WiFi, και κάνε επανεκκίνηση για να εφαρμοστεί. Μια επαφή που επιτρέπεις να στέλνει εντολές μπορεί επίσης να τον διαβάσει.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "15b5453a"
+  },
+  "cmd_wifi_enabled_desc": {
+    "value": "Ενεργοποιεί το WiFi με 1 ή το απενεργοποιεί με 0, μετά από επανεκκίνηση. Χωρίς όνομα δικτύου, ο companion δεν ξεκινά το WiFi.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7dbbf8f1"
+  },
+  "cmd_wifi_clear_desc": {
+    "value": "Αφαιρεί το όνομα και τον κωδικό του δικτύου WiFi από τον companion. Κάνε επανεκκίνηση για να εφαρμοστεί η αλλαγή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "29938727"
+  },
+  "cmd_wifi_status_desc": {
+    "value": "Δείχνει αν ο companion είναι συνδεδεμένος στο WiFi, και τη διεύθυνση IP του στο δίκτυό σου. Ο companion δέχεται συνδέσεις από την εφαρμογή σε αυτή τη διεύθυνση, θύρα 5000.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "38894245"
+  },
+  "keygen_find_title": {
+    "value": "1. Βρες ένα ελεύθερο πρόθεμα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "23440ddd"
+  },
+  "keygen_find_body": {
+    "value": "Το εργαλείο Προθεμάτων δείχνει ποια προθέματα χρησιμοποιούν ήδη κόμβοι, και προτείνει ένα ελεύθερο.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8b4149b8"
+  },
+  "keygen_find_link": {
+    "value": "Άνοιξε το εργαλείο Προθεμάτων",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ad418bc8"
+  },
+  "keygen_make_title": {
+    "value": "2. Φτιάξε ένα κλειδί με αυτό",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "55671108"
+  },
+  "keygen_needs_js": {
+    "value": "Αυτό το εργαλείο τρέχει στον browser σου και χρειάζεται JavaScript.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9128273b"
+  },
+  "keygen_prefix_label": {
+    "value": "Πρόθεμα, σε δεκαεξαδικό",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c5fe4703"
+  },
+  "keygen_prefix_hint": {
+    "value": "2 χαρακτήρες για 1 byte, 4 για 2 byte. Το υλικολογισμικό απορρίπτει το 00 και το FF.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "60646fe6"
+  },
+  "keygen_make": {
+    "value": "Φτιάξε κλειδί",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f2e49767"
+  },
+  "keygen_stop": {
+    "value": "Σταμάτα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cae7d57b"
+  },
+  "keygen_working": {
+    "value": "Δοκιμή κλειδιών: {n} μέχρι τώρα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "10781c37"
+  },
+  "keygen_done": {
+    "value": "Βρέθηκε μετά από {n} δοκιμές.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8495a72b"
+  },
+  "keygen_stopped": {
+    "value": "Σταμάτησε. Δοκίμασε ξανά, ή διάλεξε μικρότερο πρόθεμα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "731c66a8"
+  },
+  "keygen_bad": {
+    "value": "Πληκτρολόγησε 2 ή 4 δεκαεξαδικούς χαρακτήρες (0-9, a-f), που δεν ξεκινούν με 00 ή FF.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9569dc0f"
+  },
+  "keygen_unsupported": {
+    "value": "Ο browser σου δεν μπορεί να φτιάξει κλειδιά Ed25519. Χρησιμοποίησε Chrome 137, Firefox 129, Safari 17 ή νεότερο.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "70cf8b1d"
+  },
+  "keygen_set_title": {
+    "value": "3. Όρισέ το στον αναμεταδότη σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "37e17307"
+  },
+  "keygen_set_body": {
+    "value": "Τρέξε αυτή την εντολή στον αναμεταδότη σου, μετά κάνε του επανεκκίνηση. Κρατά τις ρυθμίσεις και τη λίστα πρόσβασής του, αλλά γίνεται νέος κόμβος για όλους. Πρόσθεσέ τον ξανά στην εφαρμογή μετά το πρώτο του advert.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c80b8962"
+  },
+  "keygen_public": {
+    "value": "Δημόσιο κλειδί",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4ee252fb"
+  },
+  "keygen_secret": {
+    "value": "Αυτό είναι το ιδιωτικό κλειδί του αναμεταδότη σου. Όποιος το έχει μπορεί να ενεργεί ως ο αναμεταδότης σου, οπότε κράτησέ το για σένα. Το έφτιαξε ο browser σου, και αυτή η σελίδα δεν το στέλνει πουθενά.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b4d3d7d1"
+  },
+  "guides_card_keygen_title": {
+    "value": "Δημιούργησε κλειδί",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e798fa1b"
+  },
+  "guides_card_keygen_desc": {
+    "value": "Δώσε στον αναμεταδότη σου ένα πρόθεμα που δεν χρησιμοποιεί κανένας αναμεταδότης κοντά σου.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "267f04fa"
+  },
+  "ch_needs_js": {
+    "value": "Η λίστα καναλιών τρέχει στον browser σου και χρειάζεται JavaScript. Ο Analyzer δείχνει τα ίδια κανάλια:",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "57228d02"
+  },
+  "ch_source": {
+    "value": "MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ed180c11"
+  },
+  "ch_list_title": {
+    "value": "Κανάλια που ακούστηκαν στη χώρα σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6a3ddfed"
+  },
+  "ch_country_label": {
+    "value": "Η χώρα σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "18f2456a"
+  },
+  "ch_country_pick": {
+    "value": "Διάλεξε χώρα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "632aadfb"
+  },
+  "ch_search": {
+    "value": "Αναζήτηση ονόματος ή περιοχής",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "67d2c527"
+  },
+  "ch_loading": {
+    "value": "Φόρτωση των καναλιών...",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e4e9f6e5"
+  },
+  "ch_error": {
+    "value": "Η λίστα καναλιών δεν φορτώθηκε. Δοκίμασε ξανά αργότερα. Το κλειδί κάθε #όνομα παρακάτω λειτουργεί ακόμα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f653e69d"
+  },
+  "ch_count": {
+    "value": "{n} κανάλια ακούστηκαν σε {country}, πρώτα αυτά με τα περισσότερα μηνύματα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "923bf6a5"
+  },
+  "ch_messages": {
+    "value": "μηνύματα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f5cccfb7"
+  },
+  "ch_key": {
+    "value": "Κλειδί",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "99a52df3"
+  },
+  "ch_source_note": {
+    "value": "Ζωντανά από τον",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1db8edb5"
+  },
+  "ch_calc_title": {
+    "value": "Το κλειδί κάθε #καναλιού",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ad70964d"
+  },
+  "ch_calc_body": {
+    "value": "Πληκτρολόγησε ένα όνομα καναλιού που ξεκινά με #. Το κλειδί προκύπτει από το όνομα, οπότε παίρνεις το ίδιο κλειδί με την εφαρμογή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8531d7e8"
+  },
+  "ch_calc_label": {
+    "value": "Όνομα καναλιού",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2fe4a2e8"
+  },
+  "guides_card_channels_title": {
+    "value": "Βρες κανάλια",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9905513b"
+  },
+  "guides_card_channels_desc": {
+    "value": "Τα κανάλια που χρησιμοποιούν άτομα κοντά σου, και πώς να μπεις σε αυτά.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2b7ffced"
+  },
+  "ch_count_one": {
+    "value": "1 κανάλι ακούστηκε σε {country}.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8f1ca51"
+  },
+  "ch_show_all": {
+    "value": "Δείξε και τα {n} κανάλια",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2afe05c3"
+  },
+  "area_other_presets_title": {
+    "value": "Άλλα προφίλ στην εφαρμογή MeshCore",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e8ca0063"
+  },
+  "area_other_presets_body": {
+    "value": "Η εφαρμογή παραθέτει και αυτά τα ευρωπαϊκά προφίλ, χωρίς να ονομάζει περιοχή για αυτά. Ένα προφίλ 433 MHz χρειάζεται πλακέτα με ραδιόφωνο 433 MHz.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "86f82c5c"
+  },
+  "net_live_title": {
+    "value": "Τι ακούν οι παρατηρητές",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f89055eb"
+  },
+  "net_live_packets": {
+    "value": "πακέτα την τελευταία πλήρη ώρα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e3e24e13"
+  },
+  "net_live_countries": {
+    "value": "χώρες που ακούστηκαν την τελευταία ώρα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "502cba0e"
+  },
+  "net_live_repeaters": {
+    "value": "αναμεταδότες που ακούστηκαν τις τελευταίες 7 ημέρες",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2890ece6"
+  },
+  "net_live_observers": {
+    "value": "παρατηρητές την τελευταία ώρα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6825b26c"
+  },
+  "net_live_source": {
+    "value": "Ζωντανοί αριθμοί από τον",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f063c292"
+  },
+  "net_join_title": {
+    "value": "Πρόσθεσε τον δικό σου παρατηρητή",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e772f141"
+  },
+  "net_join_body": {
+    "value": "Κάθε παρατηρητής δείχνει λίγο περισσότερο από το mesh, για όλους στην Ευρώπη. Διάλεξε τον τρόπο που σου ταιριάζει. Ο MeshCore Analyzer δείχνει τα βήματα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "de341930"
+  },
+  "net_way_app_title": {
+    "value": "Με την εφαρμογή KiekR",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "51c6a5e5"
+  },
+  "net_way_app_desc": {
+    "value": "Κάνε σύζευξη ενός ραδιοφώνου MeshCore με το τηλέφωνό σου μέσω Bluetooth. Η εφαρμογή αναφέρει ό,τι ακούει, χωρίς να φορτώσεις τίποτα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9ae6b7d2"
+  },
+  "net_way_browser_title": {
+    "value": "Από τον browser σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c6b5042e"
+  },
+  "net_way_browser_desc": {
+    "value": "Σύνδεσε ένα ραδιόφωνο μέσω USB ή Bluetooth σε Chrome ή Edge. Ο browser αναφέρει όσο η καρτέλα μένει ανοιχτή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "72fc7d03"
+  },
+  "net_way_board_title": {
+    "value": "Με πλακέτα πάντα ενεργή",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "574c32a6"
+  },
+  "net_way_board_desc": {
+    "value": "Φόρτωσε υλικολογισμικό παρατηρητή σε πλακέτα LoRa. Αναφέρει μόνη της μέσω Wi-Fi, μέρα και νύχτα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1742bfea"
+  },
+  "project_site": {
+    "value": "Ιστότοπος",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b5a229ac"
+  },
+  "home_town_title": {
+    "value": "Ακολούθησε ένα μήνυμα πάνω από τις στέγες.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "b6669c81"
+  },
+  "home_town_lead": {
+    "value": "Το κινητό ή το λάπτοπ σου στέλνει μήνυμα στο companion σου, μέσω Bluetooth ή USB. Το companion το στέλνει με ραδιοκύματα σε αναμεταδότη στη στέγη. Από εκεί πηδά από στέγη σε στέγη.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2af5006f"
+  },
+  "home_town_tag_phone": {
+    "value": "Κινητό ή λάπτοπ",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "54c8157f"
+  },
+  "home_town_tag_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1dadb328"
+  },
+  "home_town_tag_repeater": {
+    "value": "Αναμεταδότης",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "46e7bee1"
+  },
+  "home_town_tag_mast2": {
+    "value": "Άλλοι αναμεταδότες",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "3aa62b45"
+  },
+  "home_town_companion_title": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1dadb328"
+  },
+  "home_town_companion_desc": {
+    "value": "Η συσκευή ασυρμάτου από την οποία στέλνεις μηνύματα. Σύζευξέ την με το κινητό ή το λάπτοπ σου, ή διάλεξε μία με δική της οθόνη και πληκτρολόγιο που δουλεύει μόνη της.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c70389e6"
+  },
+  "home_town_companion_link": {
+    "value": "Διάλεξε companion",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "5eba6690"
+  },
+  "home_town_repeater_title": {
+    "value": "Αναμεταδότης",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "46e7bee1"
+  },
+  "home_town_repeater_desc": {
+    "value": "Προωθεί μηνύματα για όλους γύρω του. Οι περισσότεροι λειτουργούν με ηλιακή ενέργεια. Χρειάζεσαι δικό σου μόνο εκεί που το mesh δεν φτάνει ακόμα.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "3db0ed15"
+  },
+  "home_town_repeater_link": {
+    "value": "Πότε να στήσεις αναμεταδότη",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c5154fb9"
+  },
+  "home_town_mesh_title": {
+    "value": "Το mesh",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "199c9527"
+  },
+  "home_town_mesh_desc": {
+    "value": "Οι αναμεταδότες προωθούν ένα μήνυμα όσο μακριά ακούει ο ένας τον άλλο. Οι περιοχές το κρατούν τοπικό.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2d14f895"
+  },
+  "home_town_mesh_link": {
+    "value": "Δες το δίκτυο",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6f3b43a5"
+  },
+  "planned_label": {
+    "value": "Σχεδιάζεται",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fb6f7c93"
+  },
+  "planned.guides-filter.lead": {
+    "value": "Απόρριψε κίνηση που ο αναμεταδότης σου δεν πρέπει να προωθεί, με το φίλτρο πακέτων.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ef203a0d"
+  },
+  "planned.guides-filter.what.title": {
+    "value": "Τι κάνει το φίλτρο",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "88a35f90"
+  },
+  "planned.guides-filter.what.desc": {
+    "value": "Ποια πακέτα μπορεί να απορρίψει ένας αναμεταδότης και πώς αυτό κρατά το mesh ήσυχο.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4a3c7cb5"
+  },
+  "planned.guides-filter.configs.title": {
+    "value": "Προτεινόμενες ρυθμίσεις",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "42763607"
+  },
+  "planned.guides-filter.configs.desc": {
+    "value": "Έτοιμες ρυθμίσεις για συνηθισμένες περιπτώσεις, όπως ο αποκλεισμός ενός θορυβώδους καναλιού.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2ef6b9e2"
+  },
+  "planned.guides-filter.settings.title": {
+    "value": "Κάθε ρύθμιση",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "07182ebe"
+  },
+  "planned.guides-filter.settings.desc": {
+    "value": "Κάθε ρύθμιση του φίλτρου με την εντολή της και τι αλλάζει.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b73f8c55"
+  },
+  "planned.guides-mqtt.lead": {
+    "value": "Άφησε την πάντα ενεργή πλακέτα σου να αναφέρει ό,τι ακούει στο MeshCore Analyzer.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5aa10eb5"
+  },
+  "planned.guides-mqtt.need.title": {
+    "value": "Τι χρειάζεσαι",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e17c85cc"
+  },
+  "planned.guides-mqtt.need.desc": {
+    "value": "Μια πλακέτα με υλικολογισμικό observer και Wi-Fi, και τη διεύθυνση ενός broker.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f9b88653"
+  },
+  "planned.guides-mqtt.settings.title": {
+    "value": "Ρυθμίσεις",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "74a883a0"
+  },
+  "planned.guides-mqtt.settings.desc": {
+    "value": "Οι ρυθμίσεις Wi-Fi, broker και topic που χρειάζεται η πλακέτα σου.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3d2f63e9"
+  },
+  "planned.guides-mqtt.commands.title": {
+    "value": "Εντολές για τον broker σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d2db5c84"
+  },
+  "planned.guides-mqtt.commands.desc": {
+    "value": "Οι εντολές για επικόλληση, συμπληρωμένες για τον broker που επιλέγεις.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1a37dddf"
+  },
+  "planned.guides-mqtt.check.title": {
+    "value": "Έλεγξε ότι λειτουργεί",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2249f06f"
+  },
+  "planned.guides-mqtt.check.desc": {
+    "value": "Πώς βρίσκεις τον observer σου στο MeshCore Analyzer.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2e45d8f2"
+  },
+  "net_data_title": {
+    "value": "Πώς μπαίνουν τα δεδομένα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d199acc6"
+  },
+  "net_data_lead": {
+    "value": "Κάθε αριθμός σε αυτόν τον ιστότοπο προέρχεται από άτομα που ακούν και μοιράζονται ό,τι ακούν.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d162c9f3"
+  },
+  "net_data_from_title": {
+    "value": "Από πού προέρχονται",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "87362334"
+  },
+  "net_data_from_body": {
+    "value": "Οι παρατηρητές αναφέρουν ό,τι ακούν μέσω MQTT σε έναν broker, έναν διακομιστή που συλλέγει τις αναφορές. Αναφέρουν στο mqtt.meshcore-analyzer.eu ή σε άλλον broker που διαβάζει ο Analyzer. Η εφαρμογή KiekR και ο παρατηρητής browser αναφέρουν επίσης. Ο Analyzer αντλεί επίσης από αναλυτές CoreScope των οποίων οι ιδιοκτήτες συμφώνησαν. Κάθε broker και αναλυτής διαβάζεται με την άδεια του ιδιοκτήτη του.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5604e25f"
+  },
+  "net_data_way_title": {
+    "value": "Τι συμβαίνει στη διαδρομή",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0e5c3f7c"
+  },
+  "net_data_way_body": {
+    "value": "Ένα μήνυμα που άκουσαν πολλοί παρατηρητές μετρά μία φορά. Ο Analyzer το αποκωδικοποιεί και χτίζει από αυτό τους χάρτες, τους αριθμούς και τη λίστα καναλιών. Κρατά κάθε μήνυμα, αλλά το τι άκουσε κάθε παρατηρητής μένει 10 ημέρες. Οι ωριαίοι αριθμοί μένουν έως 30 ημέρες, τα ημερήσια σύνολα μένουν για πάντα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "57413efc"
+  },
+  "net_data_node_title": {
+    "value": "Τι βλέπουν οι άλλοι από τον κόμβο σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a6245d5e"
+  },
+  "net_data_node_body": {
+    "value": "Οι άλλοι βλέπουν το όνομά του, το δημόσιο κλειδί του, το είδος του και τη θέση του αν τη μοιράζεσαι. Τα άμεσα μηνύματά σου μένουν κρυπτογραφημένα. Τα μηνύματα στο Public και σε κανάλια hashtag είναι αναγνώσιμα από οποιονδήποτε, και από τον Analyzer.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0f5e507d"
+  },
+  "net_data_q_title": {
+    "value": "Ερωτήσεις",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9a72221a"
+  },
+  "net_data_q1": {
+    "value": "Είναι ο κόμβος μου στον χάρτη;",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ec3057eb"
+  },
+  "net_data_a1": {
+    "value": "Μόνο όταν ένας παρατηρητής άκουσε το advert του, το πακέτο που στέλνει ένας κόμβος για να ανακοινώσει τον εαυτό του. Ένας κόμβος μακριά από κάθε παρατηρητή μένει εκτός χάρτη.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "393d0df5"
+  },
+  "net_data_q2": {
+    "value": "Μπορεί ο Analyzer να διαβάσει τα άμεσα μηνύματά μου;",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1cd884fb"
+  },
+  "net_data_a2": {
+    "value": "Όχι. Μόνο εσύ και το άλλο άτομο έχετε το κλειδί.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c6b0e033"
+  },
+  "net_data_q3": {
+    "value": "Μπορώ να στείλω δεδομένα από το δικό μου εργαλείο;",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "52255bf4"
+  },
+  "net_data_a3": {
+    "value": "Ναι: δημοσίευσε μέσω MQTT στο mqtt.meshcore-analyzer.eu, υπογεγραμμένα με το κλειδί του κόμβου σου όπως κάνει ένας παρατηρητής. Ο {link} δείχνει πώς να συνδεθείς.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "171daa27"
+  },
+  "net_data_analyzer_link": {
+    "value": "MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ed180c11"
+  },
+  "net_data_q4": {
+    "value": "Μπορώ να χρησιμοποιήσω τα δεδομένα του Analyzer;",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2154596d"
+  },
+  "net_data_a4": {
+    "value": "Ρώτα πρώτα στο {link} του. Ο Analyzer δεν επιτρέπει αυτοματοποιημένη συλλογή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b935a213"
+  },
+  "release_role_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1dadb328"
+  },
+  "release_role_repeater": {
+    "value": "Αναμεταδότης",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "46e7bee1"
+  },
+  "release_role_room_server": {
+    "value": "Room server",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "68b91cc5"
+  },
+  "release_notes_link": {
+    "value": "Οι επίσημες σημειώσεις έκδοσης",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8bc96136"
+  },
+  "release.v1-18-0.1": {
+    "value": "Ο companion σου αποκτά γραμμή εντολών: άνοιξε το Command Line στην εφαρμογή, έκδοση 1.50 ή νεότερη. Μια επαφή στην οποία δίνεις το δικαίωμα Remote CLI μπορεί να του στέλνει εντολές μέσω του mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14cedc6a"
+  },
+  "release.v1-18-0.2": {
+    "value": "Ένας νεοεγκατεστημένος αναμεταδότης ενεργοποιεί μόνος του την ελάχιστη ανίχνευση βρόχων.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14ac329c"
+  },
+  "release.v1-18-0.3": {
+    "value": "Ένας αναμεταδότης με απενεργοποιημένα adverts δεν εμφανίζεται πια όταν άλλοι αναζητούν κόμβους.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "73a74341"
+  },
+  "release.v1-18-0.4": {
+    "value": "Στις πλακέτες ESP32 το ρολόι διατηρείται μετά από επανεκκίνηση, και οι περισσότερες πλακέτες nRF52 δεν αρνούνται πια να ξεκινήσουν με χαμηλή μπαταρία.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "236a3861"
+  },
+  "release.v1-18-0.5": {
+    "value": "Νέες πλακέτες: Thinknode M4 και M8, Wio Tracker L1 1W, Muzi Base και Waveshare ESP32-S3 LR1121.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1355f413"
+  },
+  "release.v1-18-0.6": {
+    "value": "Το υλικολογισμικό companion για Bluetooth υποστηρίζει και WiFi σε αρκετές πλακέτες, μεταξύ άλλων Heltec, Wireless Paper, RAK και Xiao S3. Ρύθμισέ το στην εφαρμογή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0d070c73"
+  },
+  "release.v1-17-1.1": {
+    "value": "Σε πλακέτες με εξωτερικό ενισχυτή, η ρύθμιση απολαβής λήψης αποθηκεύεται πια. Έλεγξε τα radio.fem.rxgain και radio.rxgain στον αναμεταδότη σου μετά την ενημέρωση.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aa6980e3"
+  },
+  "release.v1-17-1.2": {
+    "value": "Η αποστολή λειτουργεί ξανά στο Heltec T096, και η οθόνη του T-Beam Supreme εμφανίζεται ξανά.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8973538"
+  },
+  "release.v1-17-0.1": {
+    "value": "Κάθε υλικολογισμικό αποθηκεύει τις ρυθμίσεις του σε νέα μορφή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2acf27c2"
+  },
+  "release.v1-17-0.2": {
+    "value": "Ένας αναμεταδότης σβήνει με παρατεταμένο πάτημα του κουμπιού του. Νέες εντολές: set cad για αναμεταδότες και room.post για room servers.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "96f0d3d9"
+  },
+  "release.v1-17-0.3": {
+    "value": "Οι πλακέτες nRF52 χρησιμοποιούν το ενσωματωμένο τσιπ κρυπτογράφησής τους, και οι πλακέτες καταναλώνουν λιγότερη ενέργεια σε αδρανοποίηση και όταν είναι σβηστές.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3daf5825"
+  },
+  "release.v1-17-0.4": {
+    "value": "Νέες πλακέτες: Heltec V4 R8, RC32 και Tower V2, Thinknode M7 και M9, Sensecap MeshTracker X1, και πομποδέκτες με το τσιπ LR2021.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b90c5ac8"
+  },
+  "release.v1-17-0.5": {
+    "value": "Οι αναμεταδότες ακούν καλύτερα πριν στείλουν, οπότε τα φορτωμένα mesh έχουν λιγότερες συγκρούσεις.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3061d4fd"
+  },
+  "console_needs_js": {
+    "value": "Η κονσόλα χρειάζεται JavaScript και έναν περιηγητή με πρόσβαση σε USB: Chrome, Edge ή Opera σε υπολογιστή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "07c6b52a"
+  },
+  "console_connect": {
+    "value": "Σύνδεσε τον κόμβο σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bb8e5e01"
+  },
+  "console_disconnect": {
+    "value": "Αποσύνδεση",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "acfc5be7"
+  },
+  "console_copy": {
+    "value": "Αντιγραφή του αρχείου καταγραφής",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e01862b2"
+  },
+  "console_send": {
+    "value": "Αποστολή",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f6f4688f"
+  },
+  "console_command_label": {
+    "value": "Εντολή",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "71316697"
+  },
+  "console_log_label": {
+    "value": "Τι λέει ο κόμβος σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "84925ecb"
+  },
+  "console_status_idle": {
+    "value": "Βάλε τον κόμβο σου στην πρίζα, μετά σύνδεσε και διάλεξε τη θύρα του.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3ebc3314"
+  },
+  "console_status_asking": {
+    "value": "Συνδέθηκε. Ρωτάμε τον κόμβο σου τι είναι.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "02b45460"
+  },
+  "console_status_connected": {
+    "value": "Συνδέθηκε. Γράψε μια εντολή και πάτα Enter.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d216f35b"
+  },
+  "console_status_lost": {
+    "value": "Η σύνδεση χάθηκε. Έλεγξε το καλώδιο και σύνδεσε ξανά.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "98fa83ae"
+  },
+  "console_status_busy": {
+    "value": "Η θύρα δεν άνοιξε. Κλείσε το άλλο πρόγραμμα ή την καρτέλα που τη χρησιμοποιεί και δοκίμασε ξανά.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cf4e9cbd"
+  },
+  "console_status_unsupported": {
+    "value": "Αυτός ο περιηγητής δεν έχει πρόσβαση σε USB. Χρησιμοποίησε Chrome, Edge ή Opera σε υπολογιστή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8ef7eebe"
+  },
+  "console_status_copied": {
+    "value": "Το αρχείο καταγραφής αντιγράφηκε.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "617d378e"
+  },
+  "console_status_copy_failed": {
+    "value": "Το αρχείο καταγραφής δεν αντιγράφηκε. Επίλεξέ το και αντίγραψέ το με το χέρι.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "45bd5465"
+  },
+  "console_commands_before": {
+    "value": "Κάθε εντολή εξηγείται στις",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "68ef84d1"
+  },
+  "console_commands_link": {
+    "value": "Εντολές CLI",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a13cc6cb"
+  },
+  "console_commands_after": {
+    "value": ".",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cdb4ee2a"
+  },
+  "console_node_known": {
+    "value": "Οι προτάσεις δείχνουν τις εντολές που καταλαβαίνει αυτός ο κόμβος.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "345c274c"
+  },
+  "console_node_unknown": {
+    "value": "Ο κόμβος σου δεν δήλωσε τον ρόλο του. Οι προτάσεις δείχνουν τις εντολές αναμεταδοτών, room servers και αισθητήρων.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "503c0064"
+  },
+  "console_dmc_before": {
+    "value": "Αυτός ο κόμβος τρέχει υλικολογισμικό DutchMeshCore. Οι προτάσεις δείχνουν τις εντολές του ίδιου του MeshCore. Οι εντολές DutchMeshCore βρίσκονται στο",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b17e7f2e"
+  },
+  "console_more_link": {
+    "value": "{command} στον οδηγό CLI",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9e207731"
+  },
+  "console_dmc_link": {
+    "value": "wiki CLI του DutchMeshCore",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ccc16968"
+  },
+  "console_dmc_after": {
+    "value": ".",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cdb4ee2a"
+  },
+  "console_suggestions_label": {
+    "value": "Προτεινόμενες εντολές",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "36d1238e"
+  },
+  "console_key_fill": {
+    "value": "τη συμπληρώνει",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cf686f44"
+  },
+  "console_key_choose": {
+    "value": "επιλογή",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "725fed9d"
+  },
+  "console_key_guide": {
+    "value": "ανοίγει τον οδηγό CLI",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "de7ca5a8"
+  },
+  "console_key_close": {
+    "value": "κλείνει",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b2850942"
+  },
+  "console_trouble_title": {
+    "value": "Όταν δεν συνδέεται",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0cce4809"
+  },
+  "console_trouble_1": {
+    "value": "Χρησιμοποίησε καλώδιο δεδομένων. Κάποια καλώδια μόνο φορτίζουν.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "958a8d54"
+  },
+  "console_trouble_2": {
+    "value": "Κλείσε άλλα προγράμματα που χρησιμοποιούν τη θύρα, όπως μια άλλη κονσόλα ή το εργαλείο εγγραφής αυτού του ιστότοπου σε άλλη καρτέλα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fc9daa0a"
+  },
+  "console_trouble_3": {
+    "value": "Διάλεξε τη σωστή θύρα: αποσύνδεσε τον κόμβο σου, δες ποια θύρα εξαφανίζεται και σύνδεσέ τον ξανά.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "75120995"
+  },
+  "console_trouble_4": {
+    "value": "Ο Firefox και το Safari δεν έχουν πρόσβαση σε USB από ιστοσελίδα. Χρησιμοποίησε Chrome, Edge ή Opera σε υπολογιστή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "71403007"
+  },
+  "usb_title": {
+    "value": "Στείλε στον αναμεταδότη σου μέσω USB.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "815598af"
+  },
+  "usb_body": {
+    "value": "Σύνδεσε τον αναμεταδότη σου στη θύρα, κάνε σύνδεση, και έλεγξε τι αλλάζει πριν στείλεις.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5a67e201"
+  },
+  "usb_connect": {
+    "value": "Σύνδεσε τον αναμεταδότη σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aaf2563c"
+  },
+  "usb_check": {
+    "value": "Έλεγξε τι αλλάζει",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3ee77f8f"
+  },
+  "usb_send": {
+    "value": "Στείλε τις ρυθμίσεις",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7e2580db"
+  },
+  "usb_reboot": {
+    "value": "Επανεκκίνησε τον αναμεταδότη σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "19394bd3"
+  },
+  "usb_disconnect": {
+    "value": "Αποσύνδεση",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "acfc5be7"
+  },
+  "usb_col_command": {
+    "value": "Εντολή",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "71316697"
+  },
+  "usb_col_now": {
+    "value": "Τώρα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fe18013d"
+  },
+  "usb_col_reply": {
+    "value": "Απάντηση",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c253f451"
+  },
+  "usb_col_new": {
+    "value": "Νέα τιμή",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7ca9b97d"
+  },
+  "usb_no_answer": {
+    "value": "καμία απάντηση",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ad03eb5e"
+  },
+  "usb_status_idle": {
+    "value": "Χωρίς σύνδεση.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3b3d2796"
+  },
+  "usb_status_connected": {
+    "value": "Συνδέθηκε. Έλεγξε πρώτα τι αλλάζει.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4bb28123"
+  },
+  "usb_status_busy": {
+    "value": "Η θύρα χρησιμοποιείται. Κλείσε το άλλο πρόγραμμα ή την καρτέλα που τη χρησιμοποιεί, μετά δοκίμασε ξανά.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "438a57fa"
+  },
+  "usb_status_fill": {
+    "value": "Συμπλήρωσε πρώτα {value} στις εντολές παραπάνω.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d903306b"
+  },
+  "usb_status_reading": {
+    "value": "Ανάγνωση των ρυθμίσεων του αναμεταδότη σου.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "222e3b98"
+  },
+  "usb_status_review": {
+    "value": "Σύγκρινε τις τρέχουσες τιμές με τις νέες, μετά στείλε.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "017b629e"
+  },
+  "usb_status_sent": {
+    "value": "Στάλθηκε. Ο αναμεταδότης σου δέχτηκε κάθε εντολή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4cf46e54"
+  },
+  "usb_status_sent_errors": {
+    "value": "Στάλθηκε, αλλά ο αναμεταδότης σου απέρριψε κάποιες εντολές ή δεν απάντησε. Έλεγξε τις απαντήσεις.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f77c4ebb"
+  },
+  "usb_status_rebooted": {
+    "value": "Ο αναμεταδότης επανεκκινεί με τις νέες ρυθμίσεις ραδιοφώνου του.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "79ddf8f8"
+  },
+  "flash_releases_link": {
+    "value": "οι εκδόσεις του MeshCore στο GitHub",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "db7cf404"
+  },
+  "flash_no_match": {
+    "value": "Καμία πλακέτα δεν ταιριάζει. Δοκίμασε μια πιο σύντομη λέξη ή διάλεξε από τη λίστα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cdba666f"
+  },
+  "flash_needs_js": {
+    "value": "Το εργαλείο εγγραφής χρειάζεται JavaScript. Χωρίς αυτό, {link} έχουν κάθε αρχείο.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dc36838c"
+  },
+  "flash_board_title": {
+    "value": "Διάλεξε την πλακέτα σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "225d5074"
+  },
+  "flash_filter_label": {
+    "value": "Αναζήτηση",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "49c266ba"
+  },
+  "flash_board_label": {
+    "value": "Πλακέτα",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4816cbfd"
+  },
+  "flash_role_label": {
+    "value": "Ρόλος",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14736a2e"
+  },
+  "flash_role_ble": {
+    "value": "Companion, Bluetooth",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2c1378a3"
+  },
+  "flash_role_usb": {
+    "value": "Companion, USB",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4794c45b"
+  },
+  "flash_role_repeater": {
+    "value": "Αναμεταδότης",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "46e7bee1"
+  },
+  "flash_role_room_server": {
+    "value": "Room server",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "68b91cc5"
+  },
+  "flash_version_before": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f4f17278"
+  },
+  "flash_version_after": {
+    "value": ", η νεότερη έκδοση.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1daecb7e"
+  },
+  "flash_flash_title": {
+    "value": "Εγγραφή μέσω USB",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dfd786e5"
+  },
+  "flash_mode_legend": {
+    "value": "Τι θέλεις;",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3e17dbf9"
+  },
+  "flash_mode_update": {
+    "value": "Ενημέρωση: για πλακέτα που ήδη τρέχει MeshCore. Διατηρεί τα κλειδιά, τις επαφές και τις ρυθμίσεις του κόμβου σου.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "59e8848e"
+  },
+  "flash_mode_fresh": {
+    "value": "Καθαρή εγκατάσταση: για νέα πλακέτα ή μία με άλλο υλικολογισμικό. Σβήνει την πλακέτα, μαζί με τα κλειδιά.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bc797149"
+  },
+  "flash_wipe_ok": {
+    "value": "Ξέρω ότι η καθαρή εγκατάσταση σβήνει τα κλειδιά και τις επαφές του κόμβου μου.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7aeefcb2"
+  },
+  "flash_flash_button": {
+    "value": "Σύνδεση και εγγραφή",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8a541c7"
+  },
+  "flash_esp_help": {
+    "value": "Chrome, Edge ή Opera σε υπολογιστή. Αν η πλακέτα δεν συνδέεται, κράτα πατημένο το κουμπί BOOT (PRG σε κάποιες πλακέτες) όσο τη συνδέεις και δοκίμασε ξανά.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4dafe8fb"
+  },
+  "flash_uf2_title": {
+    "value": "Αντίγραψε το αρχείο στην πλακέτα σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "263bc1e5"
+  },
+  "flash_uf2_step1": {
+    "value": "Κατέβασε το αρχείο:",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dee6800a"
+  },
+  "flash_uf2_step2": {
+    "value": "Σύνδεσε την πλακέτα σου και πάτα δύο φορές γρήγορα το κουμπί reset. Εμφανίζεται ως δίσκος USB. Μια πλακέτα χωρίς κουμπί reset έχει δικό της τρόπο εισόδου. Η σελίδα του κατασκευαστή της λέει πώς.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9cd62884"
+  },
+  "flash_uf2_step3": {
+    "value": "Σύρε το αρχείο σε αυτόν τον δίσκο. Η πλακέτα επανεκκινεί με το νέο υλικολογισμικό. Μια ενημέρωση διατηρεί τα κλειδιά της.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aef87c5b"
+  },
+  "flash_status_unsupported": {
+    "value": "Αυτός ο περιηγητής δεν έχει πρόσβαση σε USB. Χρησιμοποίησε Chrome, Edge ή Opera σε υπολογιστή.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8ef7eebe"
+  },
+  "flash_status_no_list": {
+    "value": "Η λίστα πλακετών δεν φορτώθηκε. Φόρτωσε ξανά τη σελίδα.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7a3841a5"
+  },
+  "flash_status_downloading": {
+    "value": "Γίνεται λήψη του υλικολογισμικού.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c9e6648c"
+  },
+  "flash_status_connecting": {
+    "value": "Γίνεται σύνδεση με την πλακέτα σου.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "70ed0d63"
+  },
+  "flash_status_flashing": {
+    "value": "Γίνεται εγγραφή. Κράτα την πλακέτα συνδεδεμένη.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0796d555"
+  },
+  "flash_status_done": {
+    "value": "Έτοιμο. Η πλακέτα σου επανεκκινεί με το νέο υλικολογισμικό.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "445b69e2"
+  },
+  "flash_status_failed": {
+    "value": "Η εγγραφή σταμάτησε. Κράτα πατημένο το κουμπί BOOT όσο συνδέεις την πλακέτα και δοκίμασε ξανά.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f716db56"
+  },
+  "flash_status_no_file": {
+    "value": "Το αρχείο υλικολογισμικού δεν κατέβηκε. Δοκίμασε ξανά σε λίγο.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6636a9df"
+  },
+  "flash_other_firmware": {
+    "value": "Άλλο υλικολογισμικό, όπως το υλικολογισμικό observer του DutchMeshCore, έχει δικό του εργαλείο εγγραφής: {link}.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b2c75d72"
+  },
+  "release_flash_link": {
+    "value": "Γράψε την στην πλακέτα σου",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "207bc805"
+  }
+}

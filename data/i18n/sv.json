@@ -1,0 +1,5264 @@
+{
+  "_meta": {
+    "language": "sv",
+    "name": "Svenska",
+    "managed_by": "community",
+    "updated": "2026-10-26"
+  },
+  "site_tagline": {
+    "value": "Meddelanden utan nät över hela Europa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fd77fd37"
+  },
+  "site_description": {
+    "value": "Communityguiden till MeshCore i Europa: komma igång, hårdvara, lokala grupper, täckningskartor och repeaters. Icke-kommersiell och öppen källkod.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "00f6c54b"
+  },
+  "skip_to_content": {
+    "value": "Hoppa till innehållet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ac576a66"
+  },
+  "menu": {
+    "value": "Meny",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "99af6606"
+  },
+  "nav_label": {
+    "value": "Huvudmeny",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eb814be3"
+  },
+  "nav_about": {
+    "value": "Om",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4efca0d1"
+  },
+  "nav_get_started": {
+    "value": "Kom igång",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "61e8d44a"
+  },
+  "nav_devices": {
+    "value": "Enheter",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4ba5121d"
+  },
+  "nav_community": {
+    "value": "Community",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bb501d78"
+  },
+  "nav_map": {
+    "value": "Karta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be176b00"
+  },
+  "nav_repeater_guide": {
+    "value": "Repeaterguide",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4608abcd"
+  },
+  "nav_news": {
+    "value": "Nyheter",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "69752f23"
+  },
+  "nav_projects": {
+    "value": "Projekt",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "04e2a972"
+  },
+  "nav_contribute": {
+    "value": "Bidra",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "97b0c61b"
+  },
+  "nav_privacy": {
+    "value": "Integritet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "54a57c31"
+  },
+  "in_english": {
+    "value": "Den här sidan är på engelska",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7e9323d9"
+  },
+  "lang_switch_label": {
+    "value": "Språk",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a4fe6526"
+  },
+  "not_translated_yet": {
+    "value": "inte översatt än",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3f59d8d3"
+  },
+  "theme_light": {
+    "value": "Tema: ljust",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "72a842db"
+  },
+  "theme_dark": {
+    "value": "Tema: mörkt",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "43908c59"
+  },
+  "theme_system": {
+    "value": "Tema: system",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "98a8dd2c"
+  },
+  "copy": {
+    "value": "Kopiera",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e21f935f"
+  },
+  "copied": {
+    "value": "Kopierat",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8d525e5f"
+  },
+  "hero_eyebrow": {
+    "value": "868 MHz · Europa",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "567ed2b0"
+  },
+  "hero_title": {
+    "value": "Utanför nätet, på meshen.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "43ed56a7"
+  },
+  "hero_lead": {
+    "value": "MeshCore skickar meddelanden via radio, utan internet eller abonnemang. Europas mesh-nät kopplas ihop till ett. Här delar deras communityn vad de lär sig.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "19ad0ab5"
+  },
+  "hero_cta_start": {
+    "value": "Kom igång",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "61e8d44a"
+  },
+  "hero_cta_about": {
+    "value": "Lär dig vad MeshCore är",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "cdecad6f"
+  },
+  "paths_title": {
+    "value": "Var vill du börja?",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "bf614863"
+  },
+  "path_new_title": {
+    "value": "Ny här",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "10bc4c55"
+  },
+  "path_new_desc": {
+    "value": "Vad en mesh är, och vad MeshCore kan och inte kan göra.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "a3e4ab18"
+  },
+  "path_offgrid_title": {
+    "value": "Redo när näten faller",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "b005ed6a"
+  },
+  "path_offgrid_desc": {
+    "value": "Välj ett kort för vandring, segling, evenemang eller ett strömavbrott.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6a84d5b4"
+  },
+  "path_build_title": {
+    "value": "Bygga och mecka",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c24822f6"
+  },
+  "path_build_desc": {
+    "value": "Radio, antenner, verktyg och projekt från andra communityn.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "31166d76"
+  },
+  "path_grow_title": {
+    "value": "Lägga till en repeater",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "bf145b6c"
+  },
+  "path_grow_desc": {
+    "value": "Planera och placera en repeater som täcker ditt område.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "db75c8c5"
+  },
+  "path_local_title": {
+    "value": "Människor nära dig",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "808e1f66"
+  },
+  "path_local_desc": {
+    "value": "Hitta din lokala grupp, dess chattar och dess kanaler.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "a1e525eb"
+  },
+  "why_title": {
+    "value": "Varför MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "67d51fbe"
+  },
+  "why_costs_title": {
+    "value": "Inga löpande kostnader",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "adff5b03"
+  },
+  "why_costs_desc": {
+    "value": "Köp en radio en gång. Meddelanden kostar ingenting: inget SIM-kort, ingen datapott, inget abonnemang.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6e735f31"
+  },
+  "why_infra_title": {
+    "value": "Fungerar utan nät",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "058c8eae"
+  },
+  "why_infra_desc": {
+    "value": "Fungerar även när mobilnät och internet ligger nere eller saknas. Meddelanden går från radio till radio, genom luften.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ec9de206"
+  },
+  "why_open_title": {
+    "value": "Öppen källkod",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "67a0d2e0"
+  },
+  "why_open_desc": {
+    "value": "Firmwaren och dess protokoll har öppen källkod, så vem som helst kan bygga vidare på dem. Öppna appar, verktyg och bibliotek gör det redan.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "97859c5f"
+  },
+  "why_privacy_title": {
+    "value": "Privat från grunden",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "485ca594"
+  },
+  "why_privacy_desc": {
+    "value": "Direktmeddelanden krypteras från ände till ände. Du behöver varken konto eller telefonnummer för att vara med.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6901512e"
+  },
+  "why_routing_title": {
+    "value": "Lokalt per region",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be9348e5"
+  },
+  "why_routing_desc": {
+    "value": "Ditt första meddelande floodar genom repeatrarna, noderna på tak och master som skickar meddelanden vidare. Ett meddelande som floodar kan bära en region, och repeatrar skickar bara vidare de regioner de betjänar, så det stannar i sitt område.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e9620b88"
+  },
+  "why_community_title": {
+    "value": "En mesh, många grupper",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "a49e1ded"
+  },
+  "why_community_desc": {
+    "value": "Lokala grupper runt om i Europa sätter upp repeatrar, delar inställningar och hjälper nybörjare. Hitta gruppen nära dig under Lokala grupper.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d1e253bc"
+  },
+  "home_live_label": {
+    "value": "Live över hela Europa",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "44ee0071"
+  },
+  "home_live_packets": {
+    "value": "paket under den senaste hela timmen",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "e3e24e13"
+  },
+  "home_live_countries": {
+    "value": "länder hörda under den senaste timmen",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "502cba0e"
+  },
+  "home_live_repeaters": {
+    "value": "repeaters hörda under de senaste 7 dagarna",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2890ece6"
+  },
+  "home_live_source": {
+    "value": "Siffror från meshcore-analyzer.eu",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "73b22a30"
+  },
+  "strip_label_release": {
+    "value": "Version",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e020e3c6"
+  },
+  "strip_label_reference": {
+    "value": "Referens",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "71bf9093"
+  },
+  "strip_label_guides": {
+    "value": "Guider",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "572cd72f"
+  },
+  "strip_label_directory": {
+    "value": "Katalog",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c8f84c3c"
+  },
+  "strip_label_site": {
+    "value": "Den här sidan",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e487482d"
+  },
+  "strip_released": {
+    "value": "släppt",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d29eae13"
+  },
+  "strip_boards": {
+    "value": "kort",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "685d9a8f"
+  },
+  "strip_commands": {
+    "value": "CLI-kommandon",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a13cc6cb"
+  },
+  "strip_latest_firmware": {
+    "value": "senaste firmware",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a0daddac"
+  },
+  "strip_releases": {
+    "value": "versioner på den här sidan",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e99084d9"
+  },
+  "strip_areas": {
+    "value": "områden med rekommenderade inställningar",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "789b6daa"
+  },
+  "strip_presets": {
+    "value": "radioförval",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cb582a14"
+  },
+  "strip_devices": {
+    "value": "enheter",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ade15a12"
+  },
+  "strip_groups": {
+    "value": "lokala grupper",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f40e444b"
+  },
+  "strip_countries": {
+    "value": "länder",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e45d4cba"
+  },
+  "strip_maps": {
+    "value": "täckningskartor",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e149f255"
+  },
+  "strip_channel_countries": {
+    "value": "länder att välja mellan",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0fbe9da9"
+  },
+  "strip_projects": {
+    "value": "projekt",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2577c0f5"
+  },
+  "strip_languages": {
+    "value": "språk",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6cb574fa"
+  },
+  "strip_trackers": {
+    "value": "spårare",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "da068881"
+  },
+  "strip_third_party": {
+    "value": "anrop till tredje part",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "64ebce3d"
+  },
+  "strip_cookie": {
+    "value": "kaka, bara när du väljer ett tema",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be0b8e53"
+  },
+  "strip_checked": {
+    "value": "Kontrollerad",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0efd92a3"
+  },
+  "strip_release_source": {
+    "value": "Från MeshCores releaser",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d619a021"
+  },
+  "news_latest": {
+    "value": "Senaste nytt",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f74e23c2"
+  },
+  "news_english_only": {
+    "value": "Nyheter publiceras bara på engelska.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "815251ef"
+  },
+  "news_all": {
+    "value": "Alla nyheter",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "67c7790c"
+  },
+  "badge_ai": {
+    "value": "Maskinöversatt",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e174e770"
+  },
+  "badge_human": {
+    "value": "Granskad översättning",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3f4efebd"
+  },
+  "banner_ai_title": {
+    "value": "Den här sidan är översatt av en maskin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1cb96c83"
+  },
+  "banner_ai_body": {
+    "value": "Ingen med svenska som modersmål har granskat den än, så vissa formuleringar kan vara fel.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bbc7e56b"
+  },
+  "banner_stale": {
+    "value": "Den engelska sidan har ändrats sedan den här översättningen gjordes.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b34a3714"
+  },
+  "read_english": {
+    "value": "Läs den engelska versionen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "971012a5"
+  },
+  "banner_improve": {
+    "value": "Hjälp till att förbättra översättningen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a9a967b6"
+  },
+  "edit_page": {
+    "value": "Redigera den här sidan på GitHub",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "073fd103"
+  },
+  "planned_note": {
+    "value": "Vi bygger fortfarande den här sidan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f0aebcf0"
+  },
+  "planned_more": {
+    "value": "Tills dess kan de här sidorna hjälpa:",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ec1b5efa"
+  },
+  "last_verified": {
+    "value": "Senast verifierad",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "d8e92048"
+  },
+  "sources": {
+    "value": "Källor",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "caf85b08"
+  },
+  "callout_tip": {
+    "value": "Tips",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a4245a3c"
+  },
+  "callout_warning": {
+    "value": "Varning",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e981ddae"
+  },
+  "callout_legal": {
+    "value": "Juridiskt",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4787eaf7"
+  },
+  "filter_title": {
+    "value": "Avgränsa",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "28c6eb01"
+  },
+  "filter_any": {
+    "value": "Alla",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2b505597"
+  },
+  "filter_reset": {
+    "value": "Återställ filter",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "10afa984"
+  },
+  "filter_count": {
+    "value": "Visar {shown} av {total}",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f3d25c92"
+  },
+  "filter_empty": {
+    "value": "Inget matchar de här filtren.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "7094992d"
+  },
+  "filter_role_q": {
+    "value": "Vad ska den göra?",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "25ed547a"
+  },
+  "filter_price_q": {
+    "value": "Budget",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1c6225ec"
+  },
+  "filter_power_q": {
+    "value": "Ström",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "848e9656"
+  },
+  "filter_category_q": {
+    "value": "Kategori",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "292c06f0"
+  },
+  "role_companion": {
+    "value": "Companion (radion du skickar meddelanden från)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "fc49eb4e"
+  },
+  "role_repeater": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "46e7bee1"
+  },
+  "role_room_server": {
+    "value": "Rumsserver",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "68b91cc5"
+  },
+  "price_1": {
+    "value": "€ (under 25)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "84cdcfea"
+  },
+  "price_2": {
+    "value": "€€ (25 till 60)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "be9a6bd8"
+  },
+  "price_3": {
+    "value": "€€€ (över 60)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "0e261f3a"
+  },
+  "power_battery": {
+    "value": "Inbyggt batteri",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3b3a4b7e"
+  },
+  "power_external": {
+    "value": "Extern ström eller sol",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "50778470"
+  },
+  "power_profile_low": {
+    "value": "Låg",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f793de20"
+  },
+  "power_profile_medium": {
+    "value": "Medel",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "8e588cd1"
+  },
+  "power_profile_high": {
+    "value": "Hög",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c4ebc6d4"
+  },
+  "spec_mcu": {
+    "value": "Processor",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "54aac653"
+  },
+  "spec_radio": {
+    "value": "LoRa-chip",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1d340ea4"
+  },
+  "spec_battery": {
+    "value": "Batteri",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "dfcb7c16"
+  },
+  "spec_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "176c7866"
+  },
+  "spec_screen": {
+    "value": "Skärm",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6e56137e"
+  },
+  "spec_connectivity": {
+    "value": "Anslutning",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "5479401f"
+  },
+  "spec_form": {
+    "value": "Formfaktor",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "12827072"
+  },
+  "spec_price": {
+    "value": "Prisklass",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "396491b7"
+  },
+  "spec_power": {
+    "value": "Strömförbrukning",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "96fcc312"
+  },
+  "spec_firmware": {
+    "value": "MeshCore-stöd",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "4f7c9307"
+  },
+  "fw_official": {
+    "value": "Officiell build",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e07a4935"
+  },
+  "fw_community": {
+    "value": "Community-build",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f8338fb4"
+  },
+  "yes": {
+    "value": "Ja",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "85a39ab3"
+  },
+  "no": {
+    "value": "Nej",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1ea442a1"
+  },
+  "none": {
+    "value": "Ingen",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "dc937b59"
+  },
+  "form_handheld": {
+    "value": "Handhållen",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "ecb26701"
+  },
+  "form_board": {
+    "value": "Kretskort utan hölje",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "33e95aea"
+  },
+  "form_enclosed": {
+    "value": "Nod med hölje",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "751c73a5"
+  },
+  "form_wearable": {
+    "value": "Bärbar på kroppen",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6e31070f"
+  },
+  "form_usb": {
+    "value": "USB-sticka",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "031ad13f"
+  },
+  "conn_ble": {
+    "value": "Bluetooth LE",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "e05f95a2"
+  },
+  "conn_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "337253f2"
+  },
+  "conn_usb": {
+    "value": "USB",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "61f0acff"
+  },
+  "devices_empty": {
+    "value": "Inga enheter är listade ännu.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a158b22a"
+  },
+  "devices_list_title": {
+    "value": "Alla enheter",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0594fe82"
+  },
+  "community_channels": {
+    "value": "Kanaler",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4c8906cf"
+  },
+  "community_ask_at": {
+    "value": "fråga efter länken på",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "969f418d"
+  },
+  "community_languages": {
+    "value": "Språk",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "318655ce"
+  },
+  "community_empty": {
+    "value": "Inga lokala grupper finns listade ännu.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "73a4cdc4"
+  },
+  "community_missing_title": {
+    "value": "Saknas din grupp?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7c5581b0"
+  },
+  "community_jump": {
+    "value": "Hoppa till ett land",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f7361695"
+  },
+  "community_missing_body": {
+    "value": "Vem som helst kan lägga till en lokal grupp. Öppna ett ärende med namn, område och länkar, så lägger en underhållare till den på alla språk samtidigt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a626e730"
+  },
+  "community_missing_cta": {
+    "value": "Lägg till din lokala grupp",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f692beac"
+  },
+  "link_discord": {
+    "value": "Discord",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "053bc658"
+  },
+  "link_telegram": {
+    "value": "Telegram",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "acdd1e73"
+  },
+  "link_signal": {
+    "value": "Signal",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1e9806e4"
+  },
+  "link_matrix": {
+    "value": "Matrix",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "76a2171c"
+  },
+  "link_whatsapp": {
+    "value": "WhatsApp",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6a40edf1"
+  },
+  "link_forum": {
+    "value": "Forum",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4da7bd42"
+  },
+  "link_website": {
+    "value": "Webbplats",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b5a229ac"
+  },
+  "link_map": {
+    "value": "Karta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be176b00"
+  },
+  "link_wiki": {
+    "value": "Wiki",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "63ec69fd"
+  },
+  "map_scope_europe": {
+    "value": "Hela Europa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d7bc2dd9"
+  },
+  "map_scope_country": {
+    "value": "Land",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "701d021d"
+  },
+  "map_scope_region": {
+    "value": "Regional",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "299a03b1"
+  },
+  "map_shows_nodes": {
+    "value": "Noder",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7ac36206"
+  },
+  "map_shows_coverage": {
+    "value": "Täckning",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "523487a5"
+  },
+  "map_shows_traffic": {
+    "value": "Trafik i realtid",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9fd86662"
+  },
+  "map_shows_analyzer": {
+    "value": "Paketanalysator",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14671539"
+  },
+  "map_shows_statistics": {
+    "value": "Statistik",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a656107e"
+  },
+  "map_open": {
+    "value": "Öppna kartan",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ea488d26"
+  },
+  "maps_empty": {
+    "value": "Inga kartor finns listade ännu.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f4332bc7"
+  },
+  "map_tenants_intro": {
+    "value": "En analysator för hela Europa. Lokala communityn kör den också under eget namn och egen design, med samma realtidsdata.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6e5054f0"
+  },
+  "project_cat_app": {
+    "value": "App",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0d04bfeb"
+  },
+  "project_cat_tool": {
+    "value": "Verktyg",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2e53bdcd"
+  },
+  "project_cat_bridge": {
+    "value": "Brygga",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3892e103"
+  },
+  "project_cat_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c2a314c3"
+  },
+  "project_cat_hardware": {
+    "value": "Hårdvara",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7975300f"
+  },
+  "project_cat_library": {
+    "value": "Bibliotek",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dc20b3d5"
+  },
+  "project_archived": {
+    "value": "Arkiverat",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bdb86505"
+  },
+  "project_licence": {
+    "value": "Licens",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f3ec8e88"
+  },
+  "project_repo": {
+    "value": "Källkod",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bf046c73"
+  },
+  "projects_empty": {
+    "value": "Inga projekt finns listade ännu.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "26a6bda7"
+  },
+  "projects_list_title": {
+    "value": "Alla projekt",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4b87271b"
+  },
+  "projects_add_cta": {
+    "value": "Föreslå ett projekt",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8e8a3907"
+  },
+  "footer_about": {
+    "value": "En icke-kommersiell communityguide till MeshCore i Europa, utan annonser, affiliatelänkar eller spårning.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8a0b3c0d"
+  },
+  "footer_disclaimer": {
+    "value": "meshcore-info.eu drivs av frivilliga och är inte knuten till utvecklarna av MeshCores firmware.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5043ea17"
+  },
+  "footer_nav_label": {
+    "value": "Webbplats",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fa795581"
+  },
+  "footer_source": {
+    "value": "Källkod",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bf046c73"
+  },
+  "footer_license": {
+    "value": "Text licensierad under CC BY 4.0, kod under MIT.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "61085af6"
+  },
+  "not_found_title": {
+    "value": "Sidan hittades inte",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a469ab4c"
+  },
+  "not_found_body": {
+    "value": "Den här sidan finns inte, eller så har den flyttat.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a9044129"
+  },
+  "not_found_home": {
+    "value": "Gå till startsidan",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "adcedded"
+  },
+  "picker_title": {
+    "value": "Välj ditt språk",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8e2d0664"
+  },
+  "coverage_caption": {
+    "value": "Översättningstäckning per språk",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fdb7f8dd"
+  },
+  "coverage_language": {
+    "value": "Språk",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a4fe6526"
+  },
+  "coverage_strings": {
+    "value": "Gränssnittstext",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "146382ff"
+  },
+  "coverage_pages": {
+    "value": "Sidor",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9046da16"
+  },
+  "coverage_human": {
+    "value": "Granskad",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fad6057b"
+  },
+  "coverage_ai": {
+    "value": "Maskin",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8f1cc42d"
+  },
+  "coverage_stale": {
+    "value": "Föråldrad",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c759f42e"
+  },
+  "coverage_missing": {
+    "value": "Saknas",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6be36ca4"
+  },
+  "presets_caption": {
+    "value": "Radioförval i Europa",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "037c3732"
+  },
+  "presets_name": {
+    "value": "Förval i appen",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "46bda49e"
+  },
+  "presets_frequency": {
+    "value": "Frekvens (MHz)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1740a857"
+  },
+  "presets_bandwidth": {
+    "value": "Bandbredd (kHz)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "5cf2dd7b"
+  },
+  "presets_sf": {
+    "value": "Spridningsfaktor",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "7cda59eb"
+  },
+  "presets_cr": {
+    "value": "Kodningsgrad",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2cd87b32"
+  },
+  "presets_source": {
+    "value": "Från MeshCore-projektets lista med förinställningar, kontrollerad",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "215b400b"
+  },
+  "gain_label": {
+    "value": "Strålningen från en dipol och en kollineär glasfiberantenn, i snitt genom masten och sedd från sidan, skalenligt. Den kollineära når en nod långt bort vid horisonten. Bara dipolen når en nod brant nedanför.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d90bf3bb"
+  },
+  "gain_dipole": {
+    "value": "Dipol",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ef909a16"
+  },
+  "gain_collinear": {
+    "value": "Kollineär glasfiberantenn",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "822f4c75"
+  },
+  "gain_node": {
+    "value": "Nod",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e9337253"
+  },
+  "country_ad": {
+    "value": "Andorra",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3e340be4"
+  },
+  "country_al": {
+    "value": "Albanien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1af00b87"
+  },
+  "country_at": {
+    "value": "Österrike",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c9cab023"
+  },
+  "country_ba": {
+    "value": "Bosnien och Hercegovina",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b0772b9c"
+  },
+  "country_be": {
+    "value": "Belgien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "348841ef"
+  },
+  "country_bg": {
+    "value": "Bulgarien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "66b86bf0"
+  },
+  "country_by": {
+    "value": "Belarus",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4bef16df"
+  },
+  "country_ch": {
+    "value": "Schweiz",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "22755831"
+  },
+  "country_cy": {
+    "value": "Cypern",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5f1162c5"
+  },
+  "country_cz": {
+    "value": "Tjeckien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ecfa967e"
+  },
+  "country_de": {
+    "value": "Tyskland",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "80db4ccd"
+  },
+  "country_dk": {
+    "value": "Danmark",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c5270975"
+  },
+  "country_ee": {
+    "value": "Estland",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "10aeba69"
+  },
+  "country_es": {
+    "value": "Spanien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8ef41e6f"
+  },
+  "country_fi": {
+    "value": "Finland",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aed8f531"
+  },
+  "country_fo": {
+    "value": "Färöarna",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "773ca4d6"
+  },
+  "country_fr": {
+    "value": "Frankrike",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7a1ca4ef"
+  },
+  "country_gb": {
+    "value": "Storbritannien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8d23a6e3"
+  },
+  "country_gg": {
+    "value": "Guernsey",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b9c48cb1"
+  },
+  "country_gi": {
+    "value": "Gibraltar",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "097ced58"
+  },
+  "country_gr": {
+    "value": "Grekland",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9c93ad43"
+  },
+  "country_hr": {
+    "value": "Kroatien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7328d3f8"
+  },
+  "country_hu": {
+    "value": "Ungern",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "504be308"
+  },
+  "country_ie": {
+    "value": "Irland",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "02bf1dfa"
+  },
+  "country_im": {
+    "value": "Isle of Man",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "34096f96"
+  },
+  "country_is": {
+    "value": "Island",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "595d6d91"
+  },
+  "country_it": {
+    "value": "Italien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5a9cf672"
+  },
+  "country_je": {
+    "value": "Jersey",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "764a8c04"
+  },
+  "country_li": {
+    "value": "Liechtenstein",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6ff080c0"
+  },
+  "country_lt": {
+    "value": "Litauen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5c83a631"
+  },
+  "country_lu": {
+    "value": "Luxemburg",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ed76f191"
+  },
+  "country_lv": {
+    "value": "Lettland",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "988c8160"
+  },
+  "country_mc": {
+    "value": "Monaco",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "935018cc"
+  },
+  "country_md": {
+    "value": "Moldavien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14ad63a1"
+  },
+  "country_me": {
+    "value": "Montenegro",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7ab597e1"
+  },
+  "country_mk": {
+    "value": "Nordmakedonien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cd847226"
+  },
+  "country_mt": {
+    "value": "Malta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "71e9eb10"
+  },
+  "country_nl": {
+    "value": "Nederländerna",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3a386c13"
+  },
+  "country_no": {
+    "value": "Norge",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bea54a34"
+  },
+  "country_pl": {
+    "value": "Polen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7f69649a"
+  },
+  "country_pt": {
+    "value": "Portugal",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4c7de2c3"
+  },
+  "country_ro": {
+    "value": "Rumänien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ea23726d"
+  },
+  "country_rs": {
+    "value": "Serbien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e8739c83"
+  },
+  "country_ru": {
+    "value": "Ryssland",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "33a3d8ed"
+  },
+  "country_se": {
+    "value": "Sverige",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "85363713"
+  },
+  "country_si": {
+    "value": "Slovenien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "56059e7f"
+  },
+  "country_sk": {
+    "value": "Slovakien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a2ea3384"
+  },
+  "country_sm": {
+    "value": "San Marino",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "230450a2"
+  },
+  "country_tr": {
+    "value": "Turkiet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d15b2145"
+  },
+  "country_ua": {
+    "value": "Ukraina",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "580eedc6"
+  },
+  "country_va": {
+    "value": "Vatikanstaten",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b0ce1029"
+  },
+  "country_xk": {
+    "value": "Kosovo",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4a867424"
+  },
+  "device.heltec-wifi-lora-32-v3.notes": {
+    "value": "Ett naket kort: lägg till låda, antenn och batteri. ESP32 drar för mycket ström för en liten solcellsdriven repeater.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "bc29e2c9"
+  },
+  "device.heltec-wifi-lora-32-v4.notes": {
+    "value": "Högeffektsversionen sänder upp till 28 dBm, över den europeiska gränsen med de flesta antenner: repeaterguiden visar hur du håller dig inom den. Basversionen kostar under 25 euro, högeffektsversionen mer. R8-versionen har mer minne och behöver sitt eget firmwarebygge.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5c626e8a"
+  },
+  "device.heltec-mesh-node-t114.notes": {
+    "value": "Strömsnålt nRF52-kort och en vanlig grund för solcellsdrivna repeatrar. Skärm och GPS är tillval när du beställer; med dem kostar det mer än 25 euro.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f1999a30"
+  },
+  "device.heltec-wireless-tracker.notes": {
+    "value": "Kort med inbyggd GPS. Du ordnar själv batteri och låda.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "5d4b7295"
+  },
+  "device.heltec-wireless-paper.notes": {
+    "value": "E-papperskärmen går att läsa i solljus. Inget batteri ingår.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "d60633a2"
+  },
+  "device.lilygo-t-echo.notes": {
+    "value": "Handhållen fickmodell med e-papperskärm och GPS. Det finns också en version med större batteri.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1f285d65"
+  },
+  "device.lilygo-t-deck-plus.notes": {
+    "value": "Fysiskt tangentbord, styrkula och pekskärm. Plus lägger till GPS och ett batteri på 2000 mAh.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "0fb0f75c"
+  },
+  "device.lilygo-t-beam-supreme.notes": {
+    "value": "Rymmer en 18650-cell, som inte ingår. Välj SX1262-versionen: LR1121-versionen har ingen officiell build.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "e3db28aa"
+  },
+  "device.rak-wisblock-rak4631.notes": {
+    "value": "Modulärt: påknäppbara moduler ger GPS, skärm eller sensorer. Baskortet har ingång för solcell.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c1317a23"
+  },
+  "device.rak-wismesh-tag.notes": {
+    "value": "Smal väderskyddad bricka med inbyggda antenner.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "572181c6"
+  },
+  "device.seeed-sensecap-t1000-e.notes": {
+    "value": "Stor som ett kreditkort, damm- och stänkskyddad (IP65), ingen skärm. Använder radion LR1110 i stället för den vanligare SX1262.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "e18363be"
+  },
+  "device.seeed-xiao-nrf52840-wio-sx1262.notes": {
+    "value": "En pytteliten stapel av två kort. Löd fast ett batteri för bärbar användning.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "3063cd1d"
+  },
+  "device.seeed-wio-tracker-l1-pro.notes": {
+    "value": "Levereras i låda med skärm, GPS och batteri. Det finns också Lite- och e-ink-versioner.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "d9fd3d73"
+  },
+  "device.seeed-sensecap-solar-node-p1.notes": {
+    "value": "Väderskyddad låda med solpanel på 5 W, fyra 18650-celler och GPS, gjord för repeatrar.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f3c9e1f9"
+  },
+  "device.heltec-wifi-lora-32-v4-expansion-kit.notes": {
+    "value": "Ett V4-kort i ett metallhölje med pekskärm. GPS och en 18650-cell är tillval när du beställer. MeshCore visar skärmen men använder inte pek ännu.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8704efde"
+  },
+  "device.heltec-wireless-stick-lite-v3.notes": {
+    "value": "V3 utan skärm. Ett naket kort: lägg till hölje, antenn och batteri.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6a36169b"
+  },
+  "device.heltec-wireless-tracker-v2.notes": {
+    "value": "Kort med GPS och solanslutning. Det sänder upp till 28 dBm, över den europeiska gränsen med de flesta antenner: repeaterguiden visar hur du håller dig inom den.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e56ec119"
+  },
+  "device.heltec-vision-master-e213.notes": {
+    "value": "Kort med e-papperskärm som går att läsa i solljus. Batteri och hölje ordnar du själv.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7519dcd5"
+  },
+  "device.heltec-vision-master-e290.notes": {
+    "value": "Som E213 med större e-papperskärm. Batteri och hölje ordnar du själv.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "84da4d43"
+  },
+  "device.heltec-vision-master-t190.notes": {
+    "value": "Kort med färgskärm. Batteri och hölje ordnar du själv.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "08d0d0d2"
+  },
+  "device.heltec-mesh-node-t1.notes": {
+    "value": "Tagg i kortstorlek med GPS och liten skärm, damm- och stänktät (IP65).",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c9807632"
+  },
+  "device.heltec-meshpocket.notes": {
+    "value": "En powerbank med en nod inuti, och en magnetisk trådlös laddare för din telefon. Säljs även med 10000 mAh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0eab0a7c"
+  },
+  "device.heltec-meshsolar.notes": {
+    "value": "Kort för en solrepeater: tar en till fyra celler och en panel på 18 till 24 V. GPS och skärm är tillägg.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "195aa41c"
+  },
+  "device.heltec-meshtower-v2.notes": {
+    "value": "Väderskyddat metallhölje med tre celler och en solpanel på 10 W, gjort för repeatrar. GPS är tillval. Versionen på 30 dBm ligger över den europeiska gränsen: repeaterguiden visar hur du håller dig inom den.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d935df5c"
+  },
+  "device.lilygo-t-echo-lite.notes": {
+    "value": "Mindre T-Echo med en GPS-tilläggsmodul. Säljs med eller utan hölje.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b18c1e64"
+  },
+  "device.lilygo-t-echo-card.notes": {
+    "value": "Kreditkortsstorlek med GPS, högtalare och en liten solpanel som bara fyller på batteriet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1b860b15"
+  },
+  "device.lilygo-t-impulse-plus.notes": {
+    "value": "Armband med GPS, en pytteliten skärm och en vibrationsmotor.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3bc53725"
+  },
+  "device.lilygo-t-deck.notes": {
+    "value": "Tangentbord och styrkula som T-Deck Plus, utan GPS eller batteri. Välj en version med LoRa: det finns en utan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e88fe0ef"
+  },
+  "device.lilygo-t-beam.notes": {
+    "value": "Den klassiska T-Beam med den äldre SX1276-radion. Rymmer en 18650-cell, ingår inte.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7c56a56b"
+  },
+  "device.lilygo-t-beam-1w.notes": {
+    "value": "Sänder upp till 32 dBm, långt över den europeiska gränsen: repeaterguiden visar hur du håller dig inom den. Behöver ett 7.4 V-batteri, som det inte laddar.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9a8d7b03"
+  },
+  "device.elecrow-thinknode-m1.notes": {
+    "value": "Handenhet med e-papperskärm och GPS.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "590fa3ac"
+  },
+  "device.elecrow-thinknode-m2.notes": {
+    "value": "Liten handenhet med OLED-skärm. Säljs även utan batteri.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "87f36cea"
+  },
+  "device.elecrow-thinknode-m3.notes": {
+    "value": "Damm- och vattentät (IP66) tracker med GPS, utan skärm.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0c7b633a"
+  },
+  "device.elecrow-thinknode-m4.notes": {
+    "value": "En powerbank med en nod och GPS inuti, utan skärm.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "638c30a0"
+  },
+  "device.elecrow-thinknode-m5.notes": {
+    "value": "Som M1 med en ESP32-processor: fler funktioner, kortare batteritid.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7943f498"
+  },
+  "device.elecrow-thinknode-m6.notes": {
+    "value": "Väderskyddat hölje (IP65) med en solpanel på 6 W, två 18650-celler och GPS, gjort för repeatrar.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c7efcb7f"
+  },
+  "device.elecrow-thinknode-m7.notes": {
+    "value": "Inomhusbox med Ethernet-port, strömförsörjd via USB eller nätverkskabeln (PoE).",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "20225189"
+  },
+  "device.elecrow-thinknode-m9.notes": {
+    "value": "Fungerar på egen hand med fullt tangentbord, färgskärm och GPS. Den levereras med Ripple-firmware; vanlig MeshCore kör också på den.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d9fb8bcf"
+  },
+  "device.seeed-wio-tracker-l1.notes": {
+    "value": "L1 Pro utan hölje och batteri. Har GPS och solanslutning.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f317b814"
+  },
+  "device.seeed-wio-tracker-l1-eink.notes": {
+    "value": "L1 med e-papperskärm, utan hölje och batteri. MeshCore kör på den bara som companion.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1c3665d9"
+  },
+  "device.seeed-sensecap-solar-node-p1-basic.notes": {
+    "value": "P1-Pro utan celler och GPS: lägg till fyra 18650-celler själv. Hållaren tar bara celler med knopp-topp. Vanliga celler med platt topp passar med en liten magnet på var och en.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a6f898f4"
+  },
+  "device.seeed-sensecap-meshtracker-x1.notes": {
+    "value": "Kortstorlek och damm- och vattentät (IP66), utan skärm. Laddas via USB-C och vibrerar vid nytt meddelande.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9eadd1b5"
+  },
+  "device.seeed-xiao-esp32s3-wio-sx1262.notes": {
+    "value": "XIAO-kitet med en ESP32 i stället för nRF52: Wi-Fi, men högre strömförbrukning.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0e783fe9"
+  },
+  "device.rak-wismesh-1w-booster.notes": {
+    "value": "Sänder upp till 30 dBm, över den europeiska gränsen: repeaterguiden visar hur du håller dig inom den. Varje version går antingen på batteri eller på 5 V, kontrollera etiketten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e03b4d5b"
+  },
+  "device.bq-station-g3.notes": {
+    "value": "Modulär basstation med förstärkare upp till 35 dBm, långt över den europeiska gränsen: ställ in byglarna och sändeffekten för ditt land. Behöver matning på 9 till 19 V.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ee7d06f9"
+  },
+  "device.bq-nano-g2-ultra.notes": {
+    "value": "Robust handenhet med inbyggd antenn gjord för att fungera nära kroppen. Batteriet är tillval.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5e947959"
+  },
+  "device.m5stack-unit-c6l.notes": {
+    "value": "Liten modul i plastskal, strömförsörjd via USB-C. Ingen batteriingång.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "468b2af6"
+  },
+  "device.meshnology-w12.notes": {
+    "value": "Kort med öppen källkod och ingångar för batteri och sol. Det sänder upp till 30 dBm, över den europeiska gränsen: repeaterguiden visar hur du håller dig inom den.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "df27901e"
+  },
+  "community.nl-dutch-meshcore.desc": {
+    "value": "Nederländsk frivilliggrupp för MeshCore-användare i Nederländerna. Den driver gemensamma MQTT-insamlare, en observatörspanel, en inställningshjälp och en firmware-verktygslåda i webbläsaren.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c4ad2c7f"
+  },
+  "community.nl-meshcore-net.desc": {
+    "value": "Nederländskspråkig Telegram-chatt och forum där nederländska användare delar installationshjälp, kanallistor och nyheter om repeatrar.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c57f1887"
+  },
+  "community.be-radio-actief.desc": {
+    "value": "Belgisk wiki och Discord, startade av radioamatörer som tog MeshCore till Belgien i slutet av 2025. Del av en bredare radiohobbycommunity.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7598f9b8"
+  },
+  "community.lu-meshcore-luxembourg.desc": {
+    "value": "Gemensam startsida för de luxemburgska föreningar som driver MeshCore-repeatrar över hela landet. De är hacker-, amatörradio- och krisberedskapsgrupper.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e38285ec"
+  },
+  "community.de-meshcore-de.desc": {
+    "value": "Tyskspråkig MeshCore-chatt på Telegram, använd i hela Tyskland och av österrikiska grupper. Ett Matrix-rum finns för den som föredrar det.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c2d34fef"
+  },
+  "community.de-berlin-chaos-mesh.desc": {
+    "value": "Berlingrupp med rötter i hackerspace-miljön, med forum, Matrix-rum och en PotatoMesh-panel, som täcker MeshCore jämte andra mesh-projekt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9f0065e0"
+  },
+  "community.de-isarmesh.desc": {
+    "value": "Forum för LoRa-mesh-användare kring München som ordnar regelbundna träffar och diskuterar MeshCore och andra mesh-projekt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "05e62cf9"
+  },
+  "community.de-mesh-dresden.desc": {
+    "value": "Dresdengrupp med djupgående tekniska artiklar för repeater-operatörer. Den driver också en lokal chatt för MeshCore och andra mesh-projekt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fd5d9e40"
+  },
+  "community.at-meshcore-austria.desc": {
+    "value": "Österrikisk communitysajt med installationsguider, evenemang och nyheter. Den österrikiska Telegram-gruppen drivs separat från sajten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3dfcd101"
+  },
+  "community.ch-meshcore-switzerland.desc": {
+    "value": "Schweizisk sajt på fyra språk med vägledning om enheter, regioner och kanaler samt ett communityforum för frågor och önskemål.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e8eb8c2c"
+  },
+  "community.cz-meshcore-cr.desc": {
+    "value": "Tjeckisk wiki som täcker hårdvara, repeatrar, kanaler och regioner, med stöd av en Telegram-grupp och en nationell paketanalysator.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3eb31061"
+  },
+  "community.sk-meshcore-slovensko.desc": {
+    "value": "Slovakisk nätverkssida som drivs av en amatörradioklubb i Bratislava, med en Discord-server och veckovisa fysiska träffar.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "950a6862"
+  },
+  "community.pl-meshcore-polska.desc": {
+    "value": "Rikstäckande polsk community med nodkarta, dokumentation på polska och en Discord-server.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bd6ed843"
+  },
+  "community.fr-meshcore-france.desc": {
+    "value": "Fransk samordningssida som pekar till regionala grupper och regionala realtidskartor, underhållen som en oberoende communitysajt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e2024cd5"
+  },
+  "community.fr-mesh-idf.desc": {
+    "value": "Wiki för Parisregionen med en MeshCore-chatt på Telegram. Wikin täcker också andra mesh-projekt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b4be06c9"
+  },
+  "community.it-meshcore-italia.desc": {
+    "value": "Italiensk nationell community med guider, listor över regionala kanaler och vädervarningskanaler, en nodkarta i realtid och en Telegram-grupp.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2a6caa8e"
+  },
+  "community.pt-meshcore-portugal.desc": {
+    "value": "Portugisiska communitychattar, samlade i en Telegram-mapp.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "31bbdf73"
+  },
+  "community.dk-meshcore-dk.desc": {
+    "value": "Dansk wiki med sidor för att komma igång, enhetsanteckningar, regioninställningar och foton av verkliga repeater-installationer.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d0895f3b"
+  },
+  "community.se-meshat.desc": {
+    "value": "Svensk mötesplats för mesh-nätverk, med forum, Discord och ett Matrix-rum. Den driver MeshCore-tjänster för MQTT och kartor och täcker även andra mesh-projekt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "33d9ed2b"
+  },
+  "community.fi-mesh-finland.desc": {
+    "value": "Finsk MeshCore-sajt med länkar till en nationell analysator och täckningskartor. Dess Discord-server delas med användare av andra mesh-projekt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3d618dfa"
+  },
+  "community.no-meshwiki.desc": {
+    "value": "Norsk wiki med en MeshCore-sektion bredvid andra mesh-projekt, och ett länkat forum.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ccd83ba2"
+  },
+  "community.ee-estmesh.desc": {
+    "value": "Estnisk MeshCore-sida och wiki, med nationella kanaler och stadskanaler samt en Discord-server för estniska radioentusiaster.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14530e0d"
+  },
+  "community.lv-apraide.desc": {
+    "value": "Lettisk LoRa-mesh-community som valde MeshCore för sitt nätverk, med diskussion i ett Matrix-rum.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "42e8a5c2"
+  },
+  "community.lt-atviras-tinklas.desc": {
+    "value": "Litauisk communitysajt med kunskapsbas, enhetssidor och en nätverksanalysator i realtid för MeshCore-nätverket.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8a0f8ba4"
+  },
+  "community.si-meshcore-slovenija.desc": {
+    "value": "Slovensk sajt med rekommenderade regionala radioinställningar, en nodkarta och firmware-länkar.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "73253c8c"
+  },
+  "community.bg-meshcore-bulgaria.desc": {
+    "value": "Bulgarisk community kring Sofia och Plovdiv, med radiolänkar in i Rumänien och Serbien. Den publicerar kanaler, förinställningar och planeringsverktyg.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ef62c925"
+  },
+  "community.rs-meshcore-srbija.desc": {
+    "value": "Inofficiell serbisk communitysajt med nodregister och realtidskarta för nätverket som sträcker sig över Serbien och grannländerna.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "874059ce"
+  },
+  "community.gr-meshcore-greece.desc": {
+    "value": "Grekisk Discord-server för att planera och driva MeshCore-nätverk i Grekland.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3fa83721"
+  },
+  "community.gb-meshhub-uk.desc": {
+    "value": "Brittiskt nav med communityverktyg, kartor och evenemang för MeshCore-användare och andra mesh-communityn.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "050038cc"
+  },
+  "community.gb-scotmesh.desc": {
+    "value": "Frivilligdriven skotsk community med forum, wiki och Discord, som kör MeshCore bredvid andra mesh-projekt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cce9f41c"
+  },
+  "community.ie-lora-project.desc": {
+    "value": "Oberoende kom-igång-sajt för MeshCore på hela ön Irland. Dess Discord-server täcker både nord och syd.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5f335412"
+  },
+  "community.at-carinthiamesh.desc": {
+    "value": "Wiki för MeshCore i Kärnten: komma igång, radioinställningar, enheter och repeatrar.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b601e188"
+  },
+  "community.at-meshcore-austria-at.desc": {
+    "value": "Tyskspråkig communitywiki för MeshCore i Österrike.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7746c59b"
+  },
+  "community.be-loramesh.desc": {
+    "value": "Belgisk grupp som använder MeshCore för nödmeddelanden när internet och mobilnätet ligger nere.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a0d79514"
+  },
+  "community.be-meshpot.desc": {
+    "value": "Franskspråkig guide för att gå med i, bygga och skydda MeshCore-meshen i Bryssel och Vallonien.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3c6c5a0a"
+  },
+  "community.fr-loramesh.desc": {
+    "value": "Fransk grupp som håller lokal kontakt vid liv med MeshCore när internet eller mobilnätet fallerar, steg för steg, med en karta över aktiva områden.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f22be170"
+  },
+  "community.de-bsmesh.desc": {
+    "value": "MeshCore-nätverk för Braunschweig med omnejd.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "076fd5a0"
+  },
+  "community.de-bremesh.desc": {
+    "value": "Fritt MeshCore-nätverk för Bremen, Bremerhaven och området runt dem, med handledningar.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7f614859"
+  },
+  "community.de-pemesh.desc": {
+    "value": "MeshCore-nätverk i och runt Peine, bildat när två lokala meshar gick samman.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6423719c"
+  },
+  "community.de-muensterland.desc": {
+    "value": "Community som bygger ett fritt MeshCore-nätverk över hela Münsterland, startat i Billerbeck.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6f35e420"
+  },
+  "community.de-mesh-rheinland.desc": {
+    "value": "Community i Rhenlandet som driver både ett MeshCore- och ett Meshtastic-nätverk.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eb9d7af7"
+  },
+  "community.de-meshcore-de-wiki.desc": {
+    "value": "Tyskspråkig wiki med installationsguider och en katalog över regionala grupper.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2a7d4602"
+  },
+  "community.de-meshcore-dresden.desc": {
+    "value": "Grupp som bygger ett MeshCore-nätverk i och runt Dresden, med sina regioner och kanaler listade.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d0a1d71d"
+  },
+  "community.de-meshmitte.desc": {
+    "value": "Lokal grupp i och runt Uslar som vill att människor ska hålla kontakten under ström- och nätavbrott.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "82b196a8"
+  },
+  "community.de-saarmesh.desc": {
+    "value": "Regionalt MeshCore-nätverk i Saarland, med sin regionstruktur och en realtidskarta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2eeeb6e6"
+  },
+  "community.ie-mayo-mesh.desc": {
+    "value": "Användargrupp för mesh-radio i County Mayo.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "baab199e"
+  },
+  "community.it-lora-brescia.desc": {
+    "value": "Radiogrupp i Brescia med italienska guider för att flasha och ställa in MeshCore-repeatrar. Den driver också Meshtastic och LoRa APRS.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "08567551"
+  },
+  "community.it-meshcore-ita.desc": {
+    "value": "Italienskspråkiga guider, den gemensamma italienska radioförinställningen och hårdvaruanteckningar, med en Telegram-grupp.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8b178f55"
+  },
+  "community.nl-meshwiki.desc": {
+    "value": "Nederländsk wiki som vem som helst kan redigera, om MeshCore och mesh-radio.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ce29af01"
+  },
+  "community.pl-lora-meshcore-polska.desc": {
+    "value": "Rikstäckande polskt nätverk på förinställningen EU/UK Narrow, med en förklaring av hur det fungerar och vem som bygger det.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4c574d21"
+  },
+  "community.pl-meshcore-podlasie.desc": {
+    "value": "Hobbyister som bygger ett MeshCore-nätverk i Podlasie, med nyheter och lokala inställningar.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a15fb772"
+  },
+  "community.pl-meshgo.desc": {
+    "value": "MeshCore-grupp kring Gdańsk, Gdynia och Sopot, som använder den polska rikstäckande förinställningen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8d16fa09"
+  },
+  "community.ro-brasov-mesh.desc": {
+    "value": "MeshCore-nätverk i Brașov på förinställningen EU/UK Narrow.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bd8dcbfa"
+  },
+  "community.ro-meshcore-iasi.desc": {
+    "value": "MeshCore-nätverk i Iași med en realtidspanel.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eacc34d4"
+  },
+  "community.es-meshcore-catalunya.desc": {
+    "value": "Katalanskt communitynav med realtidskarta, analysator och hårdvaruguider.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5357e7fd"
+  },
+  "community.es-nomadmesh.desc": {
+    "value": "Community-drivet MeshCore-nätverk i Alpujarras.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ee8acd03"
+  },
+  "community.ua-meshcore-ua.desc": {
+    "value": "Frivilligdriven öppen mesh för att hålla kontakten över hela Ukraina, med listor över repeatrar, bottar och kanaler.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "96fe6d7d"
+  },
+  "community.gb-ipnet.desc": {
+    "value": "Community i Ipswich som betjänar östra England, med CoreScope-paneler och MQTT-tjänster.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "114be940"
+  },
+  "community.gb-meshcore-wales.desc": {
+    "value": "Gemensamma radioinställningar och kanaler för södra Wales och västra England.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "726b552a"
+  },
+  "community.gb-northmesh.desc": {
+    "value": "Nätverk i norra England med en realtidskarta över repeatrar, paketaktivitet och täckning.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a1345cca"
+  },
+  "map.meshcore-official-map.desc": {
+    "value": "Projektets egen världskarta över noder vars ägare valt att publicera dem, filtrerbar efter nodtyp och radiofrekvens.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1509cafa"
+  },
+  "map.meshmapper.desc": {
+    "value": "Täckningskartor byggda från wardriving-rundor av lokala frivilliga, uppdelade i regionala kartor, med regioner över hela Europa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f333e608"
+  },
+  "map.eu-meshcore-analyzer.desc": {
+    "value": "Gemensam europeisk analysator som slår ihop observatörsflöden från flera community-brokrar till en realtidsvy av noder, paket och kanaler.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aa93a1ba"
+  },
+  "map.nl-dmc-observers.desc": {
+    "value": "Realtidspanel över de observatörer som rapporterar till MQTT-insamlarna hos Dutch MeshCore (DMC).",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1da8752e"
+  },
+  "map.nl-mc-radar.desc": {
+    "value": "Nätverksstatistik för den nederländska meshen, med diagram över genomströmning, kanaltrafik, nodaktivitet och protokollhälsa från nederländska observatörsdata.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a54bab7e"
+  },
+  "map.cz-analyzer.desc": {
+    "value": "CoreScope-instans för det tjeckiska nätverket med paketflöde i realtid, nodkarta och statistik per nod.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ade9ad40"
+  },
+  "map.fi-corescope.desc": {
+    "value": "Finsk CoreScope-analysator som visar det nationella MeshCore-nätverket på en karta med paket i realtid.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9fa0aa59"
+  },
+  "map.se-meshat-corescope.desc": {
+    "value": "Svensk CoreScope-analysator som matas av Meshat.se:s MQTT-broker för MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a1e700c6"
+  },
+  "map.fr-cartolite.desc": {
+    "value": "Självhostad realtidskarta över MeshCore-trafik i hela världen, som ritar hörda länkar, paket i realtid och en värmekarta på en terrängkarta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "abcdec75"
+  },
+  "map.ee-litescope.desc": {
+    "value": "Lättviktig estnisk analysator med paketflöde i realtid, nodkarta, signalstatistik och observatörsöversikt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "040c7753"
+  },
+  "map.ie-mayomesh-live.desc": {
+    "value": "Irländsk realtidskarta över noder, meddelanderutter och advert-vägar, med verktyg för täckning, fri sikt och vågutbredning.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "244a4a53"
+  },
+  "map.de-meshcorenetz-analyzer.desc": {
+    "value": "MeshCore Analyzer i MeshCoreNetz.de:s färger, som öppnas på norra Tyskland.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7c597271"
+  },
+  "map.de-meshdresden-analyzer.desc": {
+    "value": "MeshCore Analyzer i MeshDresden.eu:s färger, Dresdens community-mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b7456441"
+  },
+  "map.nl-cornmeister.desc": {
+    "value": "MeshCore Analyzer i Cornmeister.nl:s färger, som öppnas på Nederländerna.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "69efcf8b"
+  },
+  "map.be-bemesh-map.desc": {
+    "value": "Karta över belgiska klienter, repeatrar, room servers och sensorer, där ägare kan göra anspråk på sin nod.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "37af8d74"
+  },
+  "map.be-on8ar-corescope.desc": {
+    "value": "CoreScope-analysator för trafik som hörs i Belgien.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "97d8adf0"
+  },
+  "map.is-corescope.desc": {
+    "value": "CoreScope-analysator för det isländska nätverket.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9441de4b"
+  },
+  "map.pl-meshcore-polska-map.desc": {
+    "value": "Realtidskarta över polska klienter, repeatrar, room servers och sensorer.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "57d86a21"
+  },
+  "map.fr-loramesh-map.desc": {
+    "value": "Karta över de områden i Frankrike där MeshCore är aktivt. Täckningen är fortfarande gles utanför storstäderna.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "85632f3a"
+  },
+  "map.de-meshcore-de-regions.desc": {
+    "value": "Redigerbar karta över MeshCore-regioner och lokala grupper, mest i Tyskland.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cec143bd"
+  },
+  "map.gb-ukmesh.desc": {
+    "value": "Nätverksanalys för Storbritannien med vägar och realtidsvyer, matad av observatörer.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "03a38df8"
+  },
+  "map.gb-meshrank.desc": {
+    "value": "Rankningar och statistik för repeatrar och rutter, främst i Storbritannien.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "997a9a6e"
+  },
+  "map.gb-m3sh-contacts.desc": {
+    "value": "Det brittiska nätverket som en nod i Oxfordshire hör det, med nodhårdvara och dubblerade prefix.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cb2153f9"
+  },
+  "map.kiekr-map.desc": {
+    "value": "Vilka radioregioner som når vart, beräknat från de grannar som KiekR-användare observerar.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9a3aceee"
+  },
+  "map.hopradar.desc": {
+    "value": "Anslut din egen nod via Bluetooth eller USB och se, i webbläsaren, de hopp, vägar och SNR den hör.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ae215bf8"
+  },
+  "project.meshcore-firmware.desc": {
+    "value": "Den officiella MeshCore-firmwaren och routingbiblioteket för LoRa-kort, med rollerna companion, repeater, room server och sensor.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bba821af"
+  },
+  "project.meshcore-js.desc": {
+    "value": "JavaScript-bibliotek för att prata med MeshCore companion-radior från webbläsare och Node.js.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0b9ed81f"
+  },
+  "project.meshcore-py.desc": {
+    "value": "Python-bindningar för att styra en MeshCore companion-radio via seriell port, Bluetooth eller TCP.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "305bd163"
+  },
+  "project.meshcore-cli.desc": {
+    "value": "Kommandoradsklient för att skicka meddelanden till och hantera MeshCore-noder från en terminal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6f68e501"
+  },
+  "project.meshcore-ha.desc": {
+    "value": "Home Assistant-integration som exponerar MeshCore-noder, meddelanden och telemetri som entiteter för övervakning och automationer.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8b5725be"
+  },
+  "project.meshcore-flasher.desc": {
+    "value": "Källkod till det webbläsarbaserade verktyget som flashar MeshCore-firmware till kort som stöds via USB.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ba3feb1b"
+  },
+  "project.meshcore-map.desc": {
+    "value": "Källkod till den officiella nodkartan där ägare kan publicera sina noder.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "91b7682b"
+  },
+  "project.openhop-repeater.desc": {
+    "value": "Python-repeaterdemon som gör en Linux-dator med en SPI LoRa-radio till en MeshCore-kompatibel repeater.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d2bf1646"
+  },
+  "project.openhop-core.desc": {
+    "value": "Python-omimplementering av MeshCore-protokollet och routingstacken med direkt stöd för SPI LoRa-radior.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "54ed7f73"
+  },
+  "project.meshcore-open.desc": {
+    "value": "Plattformsoberoende Flutter-app med öppen källkod för MeshCore-radior via Bluetooth, USB-seriell eller TCP, inklusive en webbversion.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c322a23f"
+  },
+  "project.meshcoretomqtt.desc": {
+    "value": "Skript som vidarebefordrar paketfångster från en MeshCore-observatörsradio till en MQTT-broker för analysatorer.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "19dfb497"
+  },
+  "project.meshcore-mqtt-broker.desc": {
+    "value": "MQTT-broker som autentiserar observatörer med deras MeshCore-nyckelpar i stället för lösenord.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ca27fa19"
+  },
+  "project.corescope.desc": {
+    "value": "Självhostad MeshCore-analysator som tar emot paket via MQTT. Den erbjuder ett realtidsflöde, kartor, kanalvyer och nodstatistik.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a74322db"
+  },
+  "project.litescope.desc": {
+    "value": "Lättviktig självhostad panel för att följa ett MeshCore-nätverk. Den estniska communityn driver en.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1dc42e5a"
+  },
+  "project.meshcore-hub.desc": {
+    "value": "Python-plattform från en brittisk community. Den samlar MQTT-händelser i en databas och erbjuder ett REST-API och en webbpanel.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "07442a84"
+  },
+  "project.potato-mesh.desc": {
+    "value": "Federerad community-panel för MeshCore och andra mesh-nätverk, används av Berlin Chaos Mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7b98d4f7"
+  },
+  "project.meshcore-mqtt-live-map.desc": {
+    "value": "Live-webbkarta driven av ett MeshCore MQTT-flöde som visar noder, rutter och täckning i realtid.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e0380e74"
+  },
+  "project.meshcore-bot.desc": {
+    "value": "Python-bot som svarar på kommandon i MeshCore-kanaler och kan vidarebefordra meddelanden till Discord och Telegram.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "04a73c83"
+  },
+  "project.meshcore-channels.desc": {
+    "value": "Community-redigerbar JSON-lista över publika MeshCore-kanaler grupperade per land, publicerad för appar att använda.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f3bb8a9a"
+  },
+  "project.meshcore-regions.desc": {
+    "value": "Community-redigerbar JSON-katalog över MeshCore-regionkoder som används runt om i världen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ea403726"
+  },
+  "project.zephcore.desc": {
+    "value": "Portering av MeshCore från Arduino till realtidsoperativsystemet Zephyr.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d68923fa"
+  },
+  "project.meshcore-ng.desc": {
+    "value": "Nederländsk firmware-fork som lägger till repeater-förbättringar för täta, livliga mesh-nät och förblir kompatibel med vanliga klienter.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5f288c67"
+  },
+  "project.meshcore-solo.desc": {
+    "value": "Companion-firmware-fork som lägger till offline GPS-navigering med waypoints, kompass och GPX-export.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1c9d0659"
+  },
+  "project.meshcore-c.desc": {
+    "value": "Beroendefri C-implementation av MeshCore-protokollet, som bibliotek för valfritt projekt eller komponent för ESP-IDF.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "327a07f8"
+  },
+  "project.lora-mesh-nodes.desc": {
+    "value": "Samling av DIY-designer för mobila noder och solnoder med kapslingar, utskrivbara delar och komponentlistor.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "637e2726"
+  },
+  "project.lora-harvester-box.desc": {
+    "value": "Öppet hårdvarukort som kombinerar ett STM32WL LoRa-chip med en energiskördare, för mycket strömsnåla LoRa-noder, däribland MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6ecc7144"
+  },
+  "project.mesh-hunter.desc": {
+    "value": "Webbapp för telefonen som parkopplas med en companion-radio och loggar varje paket den hör tillsammans med din GPS-position, så att du kan gå eller köra mot källan till oönskad trafik. Den kan dela det den hör med MQTT-brokers.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d0fb854e"
+  },
+  "project.eu-meshcore-analyzer.desc": {
+    "value": "Live-karta och analysverktyg för det europeiska MeshCore-nätverket, matat av observers och telefonappar som rapporterar vad de hör.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fed133d8"
+  },
+  "project.dmc-triangulator.desc": {
+    "value": "Ringar in var en nod finns utifrån de repeaters som hörde den, som ett första sökområde före en lokal jakt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f73b5e0b"
+  },
+  "project.kiekr.desc": {
+    "value": "Telefonapp för meddelanden på mesh-nätet som också kartlägger täckning och kan ladda upp det den hör till analysverktyg.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "05e5f56a"
+  },
+  "project.meshmapper.desc": {
+    "value": "Täckningskarta byggd från wardriving, med regionala instanser, egen MQTT-broker och ett öppet API.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1135e1cd"
+  },
+  "project.trail-mate.desc": {
+    "value": "Offline-firmware för handhållna LilyGO T-LoRa Pager och T-Deck, med GPS-navigering och lagmeddelanden över MeshCore och Meshtastic.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "86cd32a0"
+  },
+  "project.remote-terminal.desc": {
+    "value": "Självhostad klient för en MeshCore-radio som sparar och dekrypterar infångade paket på en server, med bottar och MQTT.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "90c11494"
+  },
+  "project.meshpoint.desc": {
+    "value": "Raspberry Pi-basstation med en SX1302- eller SX1303-koncentrator som lyssnar på flera kanaler samtidigt, med en lokal panel.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6c668061"
+  },
+  "project.easyskymesh.desc": {
+    "value": "Firmware-fork som sparar ström för repeaters och sensornoder som drivs av batteri eller en liten solpanel.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3b1503dc"
+  },
+  "project.solar-os.desc": {
+    "value": "Litet textbaserat operativsystem för ESP32-fickterminaler, med en MeshCore companion på egen radio eller en parkopplad nod.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "23677e08"
+  },
+  "project.wio-tracker-l1-pro.desc": {
+    "value": "Companion-firmware för Seeed Wio Tracker L1 Pro med ett användargränssnitt på själva enheten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b694d013"
+  },
+  "project.meshcore-one.desc": {
+    "value": "Inbyggd MeshCore-app för iPhone, iPad och Mac.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "87505963"
+  },
+  "project.lunarcore.desc": {
+    "value": "Rust-firmware för Heltec WiFi LoRa 32 V3 som talar MeshCore, Meshtastic och andra protokoll.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f2c6fabd"
+  },
+  "project.meshcore-sar.desc": {
+    "value": "Offline-app för sök- och räddningsteam: meddelanden, röst, bilder, kartor och delade positioner över MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "413c9353"
+  },
+  "project.cardputer-adv-stachugit.desc": {
+    "value": "Companion-firmware för M5Stack Cardputer ADV med LoRa-cap, med chattskärm och färgteman.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9ab883fb"
+  },
+  "project.meshcoreterm.desc": {
+    "value": "Retroinspirerad touch-firmware för LilyGO T-Deck, Seeed SenseCAP Indicator och andra kort med skärm.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ac08cb0e"
+  },
+  "project.mesh-client.desc": {
+    "value": "Skrivbordsapp för macOS, Linux och Windows som pratar med MeshCore-, Meshtastic- och Reticulum-radior.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "61a3a731"
+  },
+  "project.mishmesh.desc": {
+    "value": "Companion-firmware med eget gränssnitt på radion, så att du kan skicka meddelanden utan parkopplad telefon.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9bde8382"
+  },
+  "project.overmesh.desc": {
+    "value": "Panel du kör på din egen dator för MeshCore och Meshtastic, med nodkarta, chatt, en bot och offline-kartor.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fbacbc50"
+  },
+  "project.meshcore-wardrive-android.desc": {
+    "value": "Android-app som kartlägger MeshCore-täckning medan du går eller kör.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6c9c49ec"
+  },
+  "project.akita-bridge.desc": {
+    "value": "Brygga som skickar meddelanden mellan Meshtastic och MeshCore, över seriell länk eller MQTT.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eff5e3a1"
+  },
+  "project.meshcore-packet-capture.desc": {
+    "value": "Python-skript som fångar paket från en companion-radio och publicerar dem till MQTT.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5325460e"
+  },
+  "project.cardputer-adv-sosprz.desc": {
+    "value": "Companion-firmware för M5Stack Cardputer ADV med Cap LoRa868, flashad med M5Burner.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cf8b55c5"
+  },
+  "project.lora-wideband-decoder.desc": {
+    "value": "Mjukvarudefinierad radiomottagare som avkodar MeshCore-, Meshtastic- och LoRaWAN-trafik över ett brett band, med en lokal webbsida.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f3e575ff"
+  },
+  "project.mc-webui.desc": {
+    "value": "Webbgränssnitt ovanpå meshcore-cli, för att skicka meddelanden från en webbläsare.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3372c462"
+  },
+  "project.meshfirmware.desc": {
+    "value": "Skript för Linux och Windows som väljer, bygger och flashar MeshCore- och Meshtastic-firmware över USB.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be0d230e"
+  },
+  "project.repeater-mqtt-gateway.desc": {
+    "value": "Repeater-firmware som också kopplar mesh-nätet till en MQTT-broker, i båda riktningarna.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "23f7dfec"
+  },
+  "project.tak-meshcore.desc": {
+    "value": "Plugin som låter lägesbildsappen ATAK använda en MeshCore companion-radio över Bluetooth.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "acbecd75"
+  },
+  "project.meshcore-decoder.desc": {
+    "value": "TypeScript-bibliotek som avkodar MeshCore-paket, inklusive dekryptering.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1235f40d"
+  },
+  "project.mesh-loader.desc": {
+    "value": "Dual boot för Heltec WiFi LoRa 32 V3 och V4: ha två firmwares på ett kort och växla mellan dem.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be49552e"
+  },
+  "project.meshcore-proxy.desc": {
+    "value": "TCP-proxy som gör en companion-radio på USB eller Bluetooth nåbar för appar på andra datorer.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eaf24463"
+  },
+  "project.roadstr.desc": {
+    "value": "Rapportering av väghändelser utan central server: signerade Nostr-händelser, skickade över MeshCore när internet saknas.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "60e39810"
+  },
+  "guides_group_start": {
+    "value": "Din första nod",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "276f7ca8"
+  },
+  "guides_group_setup": {
+    "value": "Ställ in din nod",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "55efd611"
+  },
+  "guides_group_deeper": {
+    "value": "Gå djupare",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6bce982b"
+  },
+  "guides_card_get_started_title": {
+    "value": "Kom igång",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "61e8d44a"
+  },
+  "guides_card_get_started_desc": {
+    "value": "Från ett nytt kort till ditt första meddelande på meshen, i 6 steg.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "133bcbfc"
+  },
+  "guides_card_devices_title": {
+    "value": "Enheter",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4ba5121d"
+  },
+  "guides_card_devices_desc": {
+    "value": "Jämför kort efter roll, pris och strömkälla, och välj det som passar.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cf3bba38"
+  },
+  "guides_card_settings_title": {
+    "value": "Rekommenderade inställningar",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cfb32983"
+  },
+  "guides_card_settings_desc": {
+    "value": "Radioförvalet ditt område använder, och inställningarna dina grannar har ändrat.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8e18863a"
+  },
+  "guides_card_antenna_title": {
+    "value": "Antennguide",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3a76cb0e"
+  },
+  "guides_card_antenna_desc": {
+    "value": "Antennen är halva noden. Kontrollera den på din companion, och välj, anslut och montera en för en repeater.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "abcdd786"
+  },
+  "guides_card_repeater_title": {
+    "value": "Repeaterguide",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4608abcd"
+  },
+  "guides_card_repeater_desc": {
+    "value": "En repeater skickar meddelanden vidare åt alla runt omkring. Placering, kommandona för att ställa in den, och de juridiska gränserna på 868 MHz.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "979d61a1"
+  },
+  "guides_card_filter_title": {
+    "value": "Paketfilter",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "20a3ef1f"
+  },
+  "guides_card_filter_desc": {
+    "value": "Hindra din repeater från att skicka skräp vidare, som en bot som aldrig slutar eller en stökig kanal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2db3748c"
+  },
+  "guides_card_mqtt_title": {
+    "value": "MQTT på din observer",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "62626d0f"
+  },
+  "guides_card_mqtt_desc": {
+    "value": "En observer är en nod som skickar vidare det den hör över MQTT. Sätt upp en för en karta eller en analysator.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "774395b6"
+  },
+  "guides_card_mctomqtt_title": {
+    "value": "Bygg en bryggkonfiguration",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fd2dd667"
+  },
+  "guides_card_mctomqtt_desc": {
+    "value": "Skicka det din repeater hör till vilken MQTT-broker som helst: din egen, eller Analyzer.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6c4d4692"
+  },
+  "guides_card_cli_title": {
+    "value": "CLI-kommandon",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a13cc6cb"
+  },
+  "guides_card_cli_desc": {
+    "value": "Kommandona för en repeater, vart och ett med vad det gör.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "977f43d6"
+  },
+  "firmware_card_flasher_title": {
+    "value": "Flasha",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f3577cb5"
+  },
+  "firmware_card_flasher_desc": {
+    "value": "Lägg MeshCore på ditt kort från webbläsaren, via USB.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0a1c2394"
+  },
+  "firmware_card_console_title": {
+    "value": "Seriekonsol",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4e3c41fa"
+  },
+  "firmware_card_console_desc": {
+    "value": "Skriv kommandon till din repeater från webbläsaren, via USB.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f0d52063"
+  },
+  "firmware_card_changelog_title": {
+    "value": "Ändringslogg",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ead07c84"
+  },
+  "firmware_card_changelog_desc": {
+    "value": "Se vad som ändrats i varje MeshCore-version, och om din nod behöver den.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "314733fe"
+  },
+  "area_device_repeater": {
+    "value": "På din repeater",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b5cb30f9"
+  },
+  "area_device_companion": {
+    "value": "I appen på din companion",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8e459238"
+  },
+  "area_change_nl_regions": {
+    "value": "Lägg till regionerna din repeater betjänar, var och en inuti den ovanför: Europa, Benelux, Nederländerna, din provins och din stad. Din provins blir standard.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "593b1502"
+  },
+  "area_change_strict_regions": {
+    "value": "Släng paket utan region, så att de inte färdas genom hela Europa. Lägg till regionerna först.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "11ca714d"
+  },
+  "area_change_zero_hop": {
+    "value": "Skicka adverten som dina direkta grannar hör var 4:e timme.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0e990713"
+  },
+  "area_change_path_hash": {
+    "value": "Använd en väghash på 2 byte: den skiljer 65536 repeatrar åt i stället för 256.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b63880c0"
+  },
+  "area_change_loop": {
+    "value": "Släng flood-paket som loopar tillbaka genom din repeater. En repeater inställd med 1.18 eller senare gör redan detta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "44333e2e"
+  },
+  "area_change_dutycycle": {
+    "value": "Begränsa din repeater till 10% sändtid.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8877399e"
+  },
+  "area_change_nl_companion_region": {
+    "value": "I appens experimentella inställningar, sätt standardregionen till nl. Ge varje kanal sin region, som nl-nh för Noord-Holland.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3c31c16c"
+  },
+  "area_change_companion_path_hash": {
+    "value": "I appens experimentella inställningar, sätt standardstorleken för väghash till 2 byte.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4e3414d1"
+  },
+  "area_preset": {
+    "value": "Radioförval",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6fd605ec"
+  },
+  "area_path_hash": {
+    "value": "Väghash (sätts av förvalet)",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2e93a7f1"
+  },
+  "area_bytes": {
+    "value": "byte",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "277089d9"
+  },
+  "area_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c2a314c3"
+  },
+  "area_or_newer": {
+    "value": "eller nyare",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e2cbdfd0"
+  },
+  "area_changes": {
+    "value": "Ändrat från MeshCores standardvärden",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0587de6f"
+  },
+  "area_source_group": {
+    "value": "Inställningar från",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f06dfa4f"
+  },
+  "area_source_preset": {
+    "value": "Förval från MeshCore-projektets lista",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "89d3440f"
+  },
+  "area_checked": {
+    "value": "kontrollerat",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e61a3d78"
+  },
+  "area_add_title": {
+    "value": "Lägg till ditt område",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6ec76c28"
+  },
+  "area_add_body": {
+    "value": "Använder din lokala grupp ett eget förval, eller ändrar den inställningar? Skicka in dem, med en länk till var gruppen bestämde dem.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5976a5e5"
+  },
+  "area_add_cta": {
+    "value": "Lägg till ditt område",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6ec76c28"
+  },
+  "area_link": {
+    "value": "Länk till det här området",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "98909794"
+  },
+  "regions_title": {
+    "value": "Regioner: från Europa till din ort",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "698de558"
+  },
+  "regions_body": {
+    "value": "En region är en kod för ett område. Regioner ligger inuti varandra: Europa, ditt land, din provins, och på vissa platser din ort. Ge din repeater regionerna den ligger i, var och en inuti den ovanför. Den skickar vidare meddelanden för vilken som helst av dem.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3f05bbfc"
+  },
+  "regions_map_body": {
+    "value": "Vilka koder som används skiljer sig per område. Kartan visar regionerna som repeatrarna runt dig använder: använd dem dina grannar använder, annars slänger din repeater deras meddelanden.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4ccf2219"
+  },
+  "regions_europe": {
+    "value": "Europa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e595f45d"
+  },
+  "regions_pick": {
+    "value": "Din provins eller region",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ed5a1c0e"
+  },
+  "regions_pick_none": {
+    "value": "Välj en",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a880a59d"
+  },
+  "regions_region": {
+    "value": "Din region, om ditt område använder en",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7ebba635"
+  },
+  "regions_town": {
+    "value": "Din ort, om ditt område använder en",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a6221a2f"
+  },
+  "regions_map": {
+    "value": "Karta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be176b00"
+  },
+  "regions_map_label": {
+    "value": "på MeshCore Analyzers karta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2df2db10"
+  },
+  "regions_cmd_hint": {
+    "value": "Välj din provins, eller skriv dess kod över det markerade värdet, och kopiera sedan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "54f7feb3"
+  },
+  "area_ph_hint": {
+    "value": "Skriv dina egna värden över de markerade, och kopiera sedan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "04e515aa"
+  },
+  "area_ph_province": {
+    "value": "Din provins",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "492cd073"
+  },
+  "area_ph_city": {
+    "value": "Din stad",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "90064d5a"
+  },
+  "area_map_label": {
+    "value": "Karta över områdena och deras radioförval",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b49bdce9"
+  },
+  "area_map_own": {
+    "value": "Eget förval eller egna inställningar",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d7dec3ab"
+  },
+  "area_others_title": {
+    "value": "Resten av EU och Storbritannien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5b618852"
+  },
+  "area_country_label": {
+    "value": "Ditt land",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "18f2456a"
+  },
+  "area_country_pick": {
+    "value": "Välj ett land",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "632aadfb"
+  },
+  "area_country_missing": {
+    "value": "Finns ditt land inte i listan? Fråga din lokala grupp vilket förval den använder, eller {link}.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "64fd9026"
+  },
+  "area_country_missing_link": {
+    "value": "lägg till ditt område",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "39737a2b"
+  },
+  "area_country_eu": {
+    "value": "{country} har inget eget förval i MeshCore-appen. Det använder {preset}, förvalet MeshCore anger för EU och Storbritannien.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "221cd765"
+  },
+  "area_others_body": {
+    "value": "De här länderna har inget eget förval i MeshCore-appen. De använder EU/UK (Narrow), förvalet MeshCore anger för dem.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0fccb2a7"
+  },
+  "cli_groups": {
+    "value": "Kommandogrupper",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "70883ce1"
+  },
+  "cli_search": {
+    "value": "Sök",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "49c266ba"
+  },
+  "cli_node_q": {
+    "value": "Vilken nod?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5f669f2f"
+  },
+  "cli_node_repeater": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "46e7bee1"
+  },
+  "cli_node_room_server": {
+    "value": "Rumsserver",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "68b91cc5"
+  },
+  "cli_node_sensor": {
+    "value": "Sensor",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "162cc64c"
+  },
+  "cli_node_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1dadb328"
+  },
+  "cli_link": {
+    "value": "Länk till det här kommandot",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8545494"
+  },
+  "cli_default": {
+    "value": "Börjar på",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "faca355f"
+  },
+  "cli_in_source": {
+    "value": "där firmwaren sätter det",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4de4eaa8"
+  },
+  "cli_range": {
+    "value": "Värden",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "53b09e10"
+  },
+  "cli_nodes": {
+    "value": "Fungerar på",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c85fc5a0"
+  },
+  "cli_since": {
+    "value": "Kräver firmware",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5bf596e9"
+  },
+  "cli_build": {
+    "value": "Bara i firmware byggd med",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bb208568"
+  },
+  "cli_build_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "176c7866"
+  },
+  "cli_build_sensors": {
+    "value": "sensorer",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e22dfb01"
+  },
+  "cli_build_bridge": {
+    "value": "en brygga",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5a0b83ee"
+  },
+  "cli_build_ethernet": {
+    "value": "Ethernet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "681e1209"
+  },
+  "cli_build_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "10df5f54"
+  },
+  "cli_group_operational": {
+    "value": "Starta om, återställ och uppdatera",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a49f50c1"
+  },
+  "cli_group_adverts": {
+    "value": "Adverts",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8b8ad4a7"
+  },
+  "cli_group_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2a7dfeb2"
+  },
+  "cli_group_system": {
+    "value": "Namn, lösenord och klocka",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a96ceeac"
+  },
+  "cli_group_routing": {
+    "value": "Routing",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bcba696f"
+  },
+  "cli_group_regions": {
+    "value": "Regioner",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "610c65d8"
+  },
+  "cli_group_access": {
+    "value": "Åtkomst",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ec5ba0ab"
+  },
+  "cli_group_neighbours": {
+    "value": "Grannar",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "24be7e7c"
+  },
+  "cli_group_statistics": {
+    "value": "Statistik",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a656107e"
+  },
+  "cli_group_logging": {
+    "value": "Loggning",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d3ef01b4"
+  },
+  "cli_group_info": {
+    "value": "Version och kort",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9a90dcaa"
+  },
+  "cli_group_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "176c7866"
+  },
+  "cli_group_sensors": {
+    "value": "Sensorer",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "76140e34"
+  },
+  "cli_group_bridge": {
+    "value": "Brygga",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3892e103"
+  },
+  "cli_group_ethernet": {
+    "value": "Ethernet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "681e1209"
+  },
+  "cli_group_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "10df5f54"
+  },
+  "cmd_reboot_desc": {
+    "value": "Startar om noden direkt, och noden skickar inget svar till dig. Använd det för inställningar som bara börjar gälla efter en omstart.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6850ad24"
+  },
+  "cmd_poweroff_desc": {
+    "value": "Stänger av noden på kort som stöder det, utan att skicka svar. Du behöver strömknappen eller ett strömavbrott för att starta den igen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5088476d"
+  },
+  "cmd_clkreboot_desc": {
+    "value": "Ställer tillbaka klockan till ett tidigt datum och startar om noden utan svar. Använd det när klockan går före och vägrar gå tillbaka.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d02bbe66"
+  },
+  "cmd_clock_desc": {
+    "value": "Visar nodens klocka i UTC, eller ställer den till en Unix-tid i sekunder. Klockan går bara framåt, så använd clkreboot först för att gå tillbaka.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0193d15f"
+  },
+  "cmd_clock_sync_desc": {
+    "value": "Ställer nodens klocka till tiden din companion skickar med det här kommandot. Det fungerar bara över meshen, eftersom seriekonsolen inte skickar någon tid.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "39198623"
+  },
+  "cmd_start_ota_desc": {
+    "value": "Startar en firmwareuppdatering över luften på ESP32- och nRF52-kort som stöder det. ESP32 öppnar en WiFi-accesspunkt, nRF52 startar en Bluetooth-uppdatering.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "69bd5985"
+  },
+  "cmd_erase_desc": {
+    "value": "Raderar nodens filsystem, inklusive inställningar och identitet, bara från seriekonsolen. Använd det för en fabriksåterställning, eftersom du inte kan ångra det.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e781518d"
+  },
+  "cmd_room_post_desc": {
+    "value": "Postar ett meddelande i rummet som rumsservern själv. Alla i rummet får det som vilket annat inlägg som helst.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "88a6e1f5"
+  },
+  "cmd_advert_desc": {
+    "value": "Skickar en flood-advert nu, så att noder över hela meshen lär känna den här noden. Använd det när du har ändrat namnet eller platsen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "21526c3a"
+  },
+  "cmd_advert_zerohop_desc": {
+    "value": "Skickar en advert bara till direkta grannar, och ingen repeater skickar den vidare. Använd det för att annonsera noden i närheten utan att belasta hela meshen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dfbc07b6"
+  },
+  "cmd_advert_interval_desc": {
+    "value": "Ställer in hur ofta, i minuter, noden skickar en zero-hop-advert till sina grannar. Använd 0 för att stoppa dem; en sparad ändring stoppar också intervall under 60.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f99f3d5f"
+  },
+  "cmd_flood_advert_interval_desc": {
+    "value": "Ställer in hur ofta, i timmar, noden skickar en flood-advert över hela meshen. Använd 0 för att helt stoppa de automatiska flood-adverterna från den här noden.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6473270c"
+  },
+  "cmd_neighbours_desc": {
+    "value": "Listar repeatrarna den här noden hört direkt, med den senaste först. Varje rad visar ett nyckelprefix, sekunder sedan den hördes och SNR gånger 4.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9bd6e27f"
+  },
+  "cmd_neighbour_remove_desc": {
+    "value": "Tar bort varje granne vars offentliga nyckel börjar med hex-prefixet du anger. Använd det för att rensa en gammal repeater från grannlistan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c1b8c616"
+  },
+  "cmd_discover_neighbours_desc": {
+    "value": "Ber repeatrarna inom direkt räckvidd att svara, och lägger till varje svar bland grannarna. Använd det för att fylla listan utan att vänta på deras adverts. En repeater med båda advert-intervallen på 0, eller med repeat av, förblir tyst.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1ab216ce"
+  },
+  "cmd_clear_stats_desc": {
+    "value": "Nollställer nodens räknare för paket, radio och kärna. Använd det innan du mäter trafiken under en bestämd period.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ead62ceb"
+  },
+  "cmd_stats_core_desc": {
+    "value": "Visar nodens batterispänning, drifttid, antal fel och längd på sändkön. Det fungerar bara på seriekonsolen, inte över meshen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ba9fa3d2"
+  },
+  "cmd_stats_radio_desc": {
+    "value": "Visar brusgolvet, senaste RSSI och SNR, och sändtiden som gått åt till att sända och ta emot. Det fungerar bara på seriekonsolen, inte över meshen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bedd2bf2"
+  },
+  "cmd_stats_packets_desc": {
+    "value": "Visar hur många paket noden tagit emot och skickat, uppdelat i flood och direkt. Det fungerar bara på seriekonsolen, inte över meshen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d8a3b4d1"
+  },
+  "cmd_log_capture_desc": {
+    "value": "Startar eller stoppar skrivning av varje paket noden tar emot och skickar till en loggfil. Använd det för att fånga trafik, och läs den sedan med kommandot log.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "79dcb812"
+  },
+  "cmd_log_erase_desc": {
+    "value": "Tar bort paketloggfilen från nodens lagring. Använd det för att frigöra utrymme eller börja en ren fångst.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9c32fe03"
+  },
+  "cmd_log_desc": {
+    "value": "Skriver ut den fångade paketloggen, rad för rad, till seriekonsolen. Det fungerar bara på seriekonsolen, inte över meshen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "59c80f62"
+  },
+  "cmd_ver_desc": {
+    "value": "Visar nodens firmwareversion och byggdatum. Använd det för att kontrollera vilken utgåva som kör innan du uppdaterar.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c0752f1b"
+  },
+  "cmd_board_desc": {
+    "value": "Visar namnet på hårdvarukortet som firmwaren byggdes för. Använd det för att kontrollera att du flashade rätt firmware.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3e5ed786"
+  },
+  "cmd_power_desc": {
+    "value": "Visar batterispänningen, och om USB, sol, extern ström och laddaren är aktiva. Ett kort som inte kan känna av USB eller sol visar n/a för det.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4e5129e4"
+  },
+  "cmd_public_key_desc": {
+    "value": "Visar nodens fullständiga offentliga nyckel i hex. Dela den när någon frågar vilken nod som är din, eller när en repeaterägare ger din companion en roll med setperm.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d754bc23"
+  },
+  "cmd_role_desc": {
+    "value": "Visar vilken firmware noden kör: repeater, room_server eller sensor. Använd det för att kontrollera rollen innan du ändrar inställningar på distans.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "627a92c5"
+  },
+  "cmd_bootloader_ver_desc": {
+    "value": "Visar versionen av bootloadern som körs på nRF52-kort. På alla andra kort svarar noden att kommandot inte stöds.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a3e90e05"
+  },
+  "cmd_pwrmgt_support_desc": {
+    "value": "Visar om detta firmware-bygge innehåller strömhantering för nRF52-kort. De andra pwrmgt-kommandona behöver detta stöd för att ge ett svar.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "139d6f9d"
+  },
+  "cmd_pwrmgt_source_desc": {
+    "value": "Visar om noden drivs med extern ström eller med sitt batteri. Bara firmware-byggen med stöd för nRF52-strömhantering ger dig detta svar.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ee83fb61"
+  },
+  "cmd_pwrmgt_bootreason_desc": {
+    "value": "Visar varför noden senast startade om och varför den senast stängdes av. Använd det för att ta reda på varför en nod startade om av sig själv.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "de8338c0"
+  },
+  "cmd_pwrmgt_bootmv_desc": {
+    "value": "Visar batterispänningen i millivolt som noden mätte vid uppstart. Bara firmware-byggen med stöd för nRF52-strömhantering ger dig detta svar.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ff3b5c66"
+  },
+  "cmd_radio_desc": {
+    "value": "Ställer in frekvens, bandbredd, spridningsfaktor och kodningsgrad som noden använder. Varje nod i din mesh behöver samma värden; starta om för att tillämpa dem.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bf443364"
+  },
+  "cmd_tx_desc": {
+    "value": "Ställer in LoRa-chippets sändeffekt i dBm, och den gäller direkt. Kort med en extra förstärkare sänder ut mer än detta värde.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0b7d55b8"
+  },
+  "cmd_tempradio_desc": {
+    "value": "Byter till andra radioinställningar under ett bestämt antal minuter, utan att spara dem. Använd det för att testa nya inställningar på distans, med en automatisk väg tillbaka.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "37b19209"
+  },
+  "cmd_freq_desc": {
+    "value": "Ställer bara in frekvensen i MHz, och set-formen fungerar bara över serieport. Starta om noden efteråt, för den nya frekvensen gäller först efter en omstart.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aabd4b62"
+  },
+  "cmd_radio_rxgain_desc": {
+    "value": "Slår på eller av radiochippets förstärkta mottagningsförstärkning. En radio utan detta läge svarar att inställningen inte stöds på den.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ecacba86"
+  },
+  "cmd_radio_fem_rxgain_desc": {
+    "value": "Slår på eller av mottagningsförstärkaren i en extern radiofrontend. Bara kort med en frontend du kan styra stöder det.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c71d7980"
+  },
+  "cmd_radio_fem_txgain_desc": {
+    "value": "Växlar sändförstärkningen i en extern radiofrontend mellan dess 2 nivåer. Bara kort med en frontend du kan styra stöder det.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d3f049e3"
+  },
+  "cmd_extra_sf_desc": {
+    "value": "Får en LR2021-radio att även lyssna efter upp till 3 extra spridningsfaktorer. Ange dem som en kommalista; andra radior accepterar inte set-formen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d14313eb"
+  },
+  "cmd_repeat_desc": {
+    "value": "Slår på eller av vidarebefordring av paket från andra noder. Stäng av det för att hålla en nod i luften utan att repetera. En room server vägrar slå på det.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c66ee723"
+  },
+  "cmd_path_hash_mode_desc": {
+    "value": "Ställer in hash-storleken som denna nod skriver in i vägen för paket den skickar. Läge 0 använder 1 byte, 1 använder 2 och 2 använder 3.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "486f2338"
+  },
+  "cmd_loop_detect_desc": {
+    "value": "Kastar flood-paket som redan bär denna repeaters hash i sin väg för många gånger. En striktare nivå kastar ett loopande paket efter färre repetitioner. En repeater som uppdaterats från en äldre version behåller nivån den hade.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7192683e"
+  },
+  "cmd_txdelay_desc": {
+    "value": "Ställer in den slumpmässiga väntetiden innan noden repeterar ett flood-paket, skalad efter sändtid. Ett högre värde undviker kollisioner mellan repeaters men lägger till fördröjning.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dc0b9e0e"
+  },
+  "cmd_direct_txdelay_desc": {
+    "value": "Ställer in den slumpmässiga väntetiden innan noden repeterar ett direktpaket, skalad efter sändtid. Direktpaket behöver kortare väntetid, för färre noder repeterar dem.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0f14a917"
+  },
+  "cmd_rxdelay_desc": {
+    "value": "Håller tillbaka svaga flood-paket innan de behandlas, så att vägar med stark signal repeterar först. Använd 0 för att behandla varje paket direkt, oavsett signal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9eca669b"
+  },
+  "cmd_dutycycle_desc": {
+    "value": "Begränsar andelen tid noden sänder, i procent. Ställ in den på gränsen som gäller för ditt frekvensband.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "46f7ce95"
+  },
+  "cmd_af_desc": {
+    "value": "Ställer in sändtidsfaktorn, det äldre sättet att begränsa nodens duty cycle. Använd dutycycle i stället; en af på 9 motsvarar 10 procent.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "80189809"
+  },
+  "cmd_int_thresh_desc": {
+    "value": "Behandlar kanalen som upptagen när den mäter så här många dB över brusgolvet. Noden väntar då innan den sänder; 0 stänger av kontrollen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "32eb85ce"
+  },
+  "cmd_cad_desc": {
+    "value": "Får radion att lyssna efter aktivitet på kanalen innan varje sändning. Noden väntar med att sända medan kanalen är upptagen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "998c2731"
+  },
+  "cmd_agc_reset_interval_desc": {
+    "value": "Återställer radions automatiska förstärkningsreglering varje bestämt antal sekunder. Noden rundar ner till en multipel av 4; 0 stänger av det.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aa321448"
+  },
+  "cmd_multi_acks_desc": {
+    "value": "Skickar extra kopior av varje bekräftelse för att förbättra leveransen på svaga länkar. Använd 0 för att skicka varje bekräftelse bara en gång, utan extra kopior.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b2c80c40"
+  },
+  "cmd_flood_max_desc": {
+    "value": "Ställer in antalet hopp efter vilket denna nod slutar repetera ett flood-paket. Sänk det för att hindra floods från att färdas långt över meshen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dee460b4"
+  },
+  "cmd_flood_max_unscoped_desc": {
+    "value": "Ställer in hoppgränsen för flood-paket utan region. Sänk den för att hålla den trafiken nära hemma.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1003a06a"
+  },
+  "cmd_flood_max_advert_desc": {
+    "value": "Ställer in hoppgränsen för de flood-adverts denna nod repeterar. Sänk den för att hindra adverts från att korsa hela meshen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "57c129b9"
+  },
+  "cmd_name_desc": {
+    "value": "Ställer in namnet som andra noder ser i denna nods adverts. Tecknen [ ] \\ : , ? * är inte tillåtna.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "08e6c872"
+  },
+  "cmd_lat_desc": {
+    "value": "Ställer in latituden i decimalgrader som denna nod delar i sina adverts. Använd det med lon för att placera noden på rätt plats på en karta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ea083178"
+  },
+  "cmd_lon_desc": {
+    "value": "Ställer in longituden i decimalgrader som denna nod delar i sina adverts. Använd det med lat för att placera noden på rätt plats på en karta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fe5f8039"
+  },
+  "cmd_prv_key_desc": {
+    "value": "Visar eller ersätter den privata nyckeln, som definierar nodens identitet. Get-formen fungerar bara över serieport; starta om efter att du satt en nyckel.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3500931c"
+  },
+  "cmd_password_desc": {
+    "value": "Ändrar admin-lösenordet och skickar tillbaka det nya så att du kan kontrollera det. Ändra det på varje ny nod, för standardlösenordet är offentligt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a33a87f1"
+  },
+  "cmd_guest_password_desc": {
+    "value": "Ställer in gästlösenordet; på en room server ger det läs- och skrivbehörighet. Dela det med de personer du vill släppa in i rummet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "67348593"
+  },
+  "cmd_owner_info_desc": {
+    "value": "Ställer in kontakttext som andra kan begära från noden, till exempel ditt namn. Skriv ett |-tecken överallt där du vill att en ny rad ska börja.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "928a68a4"
+  },
+  "cmd_adc_multiplier_desc": {
+    "value": "Korrigerar nodens avläsning av batterispänningen med en multiplikator för ditt kort. Använd 0 för att gå tillbaka till värdet som kortet självt definierar.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0383a608"
+  },
+  "cmd_powersaving_desc": {
+    "value": "Låter noden sova mellan radioaktivitet för att spara batteri. Det fungerar på nRF52-kort och på ESP32-byggen utan bridge.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3e791562"
+  },
+  "cmd_setperm_desc": {
+    "value": "Ger en companion en roll på denna nod, identifierad genom sin offentliga nyckel. Använd 0 för att ta bort posten; de andra rollerna behöver hela nyckeln.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "93a740af"
+  },
+  "cmd_acl_desc": {
+    "value": "Skriver ut åtkomstlistan med behörigheterna och den offentliga nyckeln för varje companion. Det fungerar bara på seriekonsolen, inte över meshen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "784d80d9"
+  },
+  "cmd_allow_read_only_desc": {
+    "value": "Låter personer med fel eller tomt lösenord gå med i en room server med skrivskyddad åtkomst. Stäng av det för att bara släppa in personer som kan lösenordet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a845f89b"
+  },
+  "cmd_region_desc": {
+    "value": "Visar nodens hela regionträd, med flood-flaggan för varje region. Ett F betyder att flooding är tillåten och ^ markerar hemregionen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "07dd7f25"
+  },
+  "cmd_region_load_desc": {
+    "value": "Startar massinmatning av ett regionträd, en region per rad, indragen med mellanslag. Lägg till F för att tillåta flooding, och skicka en tom rad för att avsluta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d2da253a"
+  },
+  "cmd_region_save_desc": {
+    "value": "Sparar dina regionändringar i nodens lagring, så att de överlever en omstart. Kör det efter varje regionändring du vill behålla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bd6cb636"
+  },
+  "cmd_region_flood_desc": {
+    "value": "Tillåter eller blockerar repetering av flood-paket för en region. Använd * för paket som inte bär någon region alls.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "58acd9db"
+  },
+  "cmd_region_get_desc": {
+    "value": "Visar en region med dess förälder, och ett F när flooding är tillåten för den. Använd det för att kontrollera en enskild region utan att läsa hela trädet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "33ef40c6"
+  },
+  "cmd_region_home_desc": {
+    "value": "Visar eller ställer in hemregionen, som regionträdet markerar med ^. Kör region save efteråt för att behålla ändringen efter en omstart.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "90b9c539"
+  },
+  "cmd_region_default_desc": {
+    "value": "Visar eller ställer in regionen noden sätter på sina egna flood-paket, som adverts. Noden sparar ändringen direkt; <null> rensar den.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b478cd71"
+  },
+  "cmd_region_put_desc": {
+    "value": "Lägger till en region under jokertecknet eller under en förälder du namnger, med flooding tillåten. Kör region save efteråt för att behålla den nya regionen efter en omstart.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "90f4ec6d"
+  },
+  "cmd_region_def_desc": {
+    "value": "Bygger ett regionträd på en rad, varje namn ett barn till det föregående. Skriv namn|jump för att fortsätta nästa namn från en tidigare region.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "80bfbfce"
+  },
+  "cmd_region_remove_desc": {
+    "value": "Tar bort en region genom dess exakta namn, när den inte har några barnregioner kvar. Kör region save efteråt så att borttagningen överlever en omstart.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0677775b"
+  },
+  "cmd_region_list_desc": {
+    "value": "Listar namnen på regionerna där flooding är tillåten, eller där den är blockerad. Använd det för en snabb kontroll utan hela trädet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8156296"
+  },
+  "cmd_gps_desc": {
+    "value": "Visar om GPS är på, har en fix och hur många satelliter den ser. Formerna on och off slår på eller av GPS och sparar valet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6b7484f4"
+  },
+  "cmd_gps_diag_desc": {
+    "value": "Visar om GPS är påslagen, hur många satelliter den ser och om den har en fix. Använd det när noden inte får någon position.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f5838af7"
+  },
+  "cmd_gps_sync_desc": {
+    "value": "Ställer nodens klocka efter tiden som GPS tar emot. Använd det när noden inte har någon annan källa till korrekt tid.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9992274d"
+  },
+  "cmd_gps_setloc_desc": {
+    "value": "Kopierar den aktuella GPS-positionen till nodens sparade latitud och longitud. Använd det en gång på platsen, och stäng sedan av GPS.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2e7052c8"
+  },
+  "cmd_gps_advert_desc": {
+    "value": "Väljer positionen i adverts: ingen, live-GPS eller sparad lat och lon. Använd none för att hålla nodens plats privat.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e7bb3d85"
+  },
+  "cmd_sensor_list_desc": {
+    "value": "Listar sensorhanterarens egna inställningar med deras värden. En lång lista slutar med indexet du fortsätter från.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "af32a1b7"
+  },
+  "cmd_sensor_setting_desc": {
+    "value": "Läser eller ändrar en egen inställning i sensorhanteraren genom dess namn. Använd sensor list först för att se vilka namn kortet erbjuder.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c470cf70"
+  },
+  "cmd_io_desc": {
+    "value": "Läser eller skriver kortets GPIO-stift som en hexadecimal bitmask. Sätt r, s eller t före masken för att nollställa, sätta eller växla bitar.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ede2acc1"
+  },
+  "cmd_bridge_type_desc": {
+    "value": "Visar vilken bridge denna firmware har inbyggd: rs232, espnow eller none. Använd det för att kontrollera att du flashade ett bridge-bygge.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "54cbb77e"
+  },
+  "cmd_bridge_enabled_desc": {
+    "value": "Slår på eller av bridgen; den kopierar paket mellan meshen och en annan länk. Den länken är en seriekabel eller ESP-NOW, beroende på bygget.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7249ccd6"
+  },
+  "cmd_bridge_delay_desc": {
+    "value": "Ställer in hur många millisekunder bridgen väntar innan den skickar ett paket vidare. Höj det när bryggade paket kolliderar med trafik på meshen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c8895baa"
+  },
+  "cmd_bridge_source_desc": {
+    "value": "Väljer om bridgen kopierar paketen denna nod tar emot eller dem den skickar. Skriv rx eller tx för att ställa in det; get svarar med logRx eller logTx.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d81577c2"
+  },
+  "cmd_bridge_baud_desc": {
+    "value": "Ställer in seriehastigheten för en RS-232-bridge i baud. Båda ändarna av seriekabeln behöver samma hastighet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7322814d"
+  },
+  "cmd_bridge_channel_desc": {
+    "value": "Ställer in WiFi-kanalen som en ESP-NOW-bridge använder för sin länk. Varje bridge som pratar med denna behöver samma kanal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "924d978f"
+  },
+  "cmd_bridge_secret_desc": {
+    "value": "Ställer in den delade hemligheten som förvränger paket på en ESP-NOW-bridge. Använd samma hemlighet på varje bridge som pratar med denna.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b1df9356"
+  },
+  "cmd_eth_status_desc": {
+    "value": "Visar Ethernet-konsolens IP-adress och port, eller att den är offline. Det fungerar på serie- och Ethernet-konsolerna, inte över meshen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b27f99e8"
+  },
+  "cmd_pin_desc": {
+    "value": "Ställer in Bluetooth-PIN-koden din telefon frågar efter vid parkoppling, efter en omstart. Med 0 visar ett kort med skärm en ny PIN-kod vid varje start, och ett utan använder 123456.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "82dc0ee0"
+  },
+  "cmd_tz_offset_desc": {
+    "value": "Ställer in din tidszon i hela timmar från UTC. Companion använder den för klockan på sin skärm.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d2a9942a"
+  },
+  "cmd_wifi_ssid_desc": {
+    "value": "Visar eller ställer in namnet på WiFi-nätverket som companion ansluter till. Ställ in wifi.pwd också, och starta sedan om för att ansluta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6e53eb6a"
+  },
+  "cmd_wifi_pwd_desc": {
+    "value": "Visar eller ställer in WiFi-nätverkets lösenord, och starta om för att tillämpa det. En kontakt du låter skicka kommandon kan också läsa det.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "15b5453a"
+  },
+  "cmd_wifi_enabled_desc": {
+    "value": "Slår på WiFi med 1 eller av med 0, efter en omstart. Utan nätverksnamn startar companion inte WiFi.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7dbbf8f1"
+  },
+  "cmd_wifi_clear_desc": {
+    "value": "Tar bort WiFi-nätverkets namn och lösenord från companion. Starta om för att tillämpa ändringen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "29938727"
+  },
+  "cmd_wifi_status_desc": {
+    "value": "Visar om companion är ansluten till WiFi, och dess IP-adress i ditt nätverk. Companion tar emot anslutningar från appen på den adressen, port 5000.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "38894245"
+  },
+  "keygen_find_title": {
+    "value": "1. Hitta ett ledigt prefix",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "23440ddd"
+  },
+  "keygen_find_body": {
+    "value": "Prefixverktyget visar vilka prefix noder redan använder, och föreslår ett ledigt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8b4149b8"
+  },
+  "keygen_find_link": {
+    "value": "Öppna Prefixverktyget",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ad418bc8"
+  },
+  "keygen_make_title": {
+    "value": "2. Skapa en nyckel med det",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "55671108"
+  },
+  "keygen_needs_js": {
+    "value": "Det här verktyget körs i din webbläsare och behöver JavaScript.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9128273b"
+  },
+  "keygen_prefix_label": {
+    "value": "Prefix, i hex",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c5fe4703"
+  },
+  "keygen_prefix_hint": {
+    "value": "2 tecken för 1 byte, 4 för 2 byte. Firmwaren vägrar 00 och FF.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "60646fe6"
+  },
+  "keygen_make": {
+    "value": "Skapa en nyckel",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f2e49767"
+  },
+  "keygen_stop": {
+    "value": "Stoppa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cae7d57b"
+  },
+  "keygen_working": {
+    "value": "Provar nycklar: {n} hittills.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "10781c37"
+  },
+  "keygen_done": {
+    "value": "Hittad efter {n} försök.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8495a72b"
+  },
+  "keygen_stopped": {
+    "value": "Stoppad. Försök igen, eller välj ett kortare prefix.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "731c66a8"
+  },
+  "keygen_bad": {
+    "value": "Skriv 2 eller 4 hextecken (0-9, a-f), som inte börjar med 00 eller FF.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9569dc0f"
+  },
+  "keygen_unsupported": {
+    "value": "Din webbläsare kan inte skapa Ed25519-nycklar. Använd Chrome 137, Firefox 129, Safari 17 eller nyare.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "70cf8b1d"
+  },
+  "keygen_set_title": {
+    "value": "3. Ställ in den på din repeater",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "37e17307"
+  },
+  "keygen_set_body": {
+    "value": "Kör det här kommandot på din repeater, och starta sedan om den. Den behåller sina inställningar och sin åtkomstlista, men blir en ny nod för alla. Lägg till den igen i appen efter dess första advert.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c80b8962"
+  },
+  "keygen_public": {
+    "value": "Offentlig nyckel",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4ee252fb"
+  },
+  "keygen_secret": {
+    "value": "Det här är din repeaters privata nyckel. Vem som helst som har den kan agera som din repeater, så håll den för dig själv. Din webbläsare skapade den, och den här sidan skickar den ingenstans.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b4d3d7d1"
+  },
+  "guides_card_keygen_title": {
+    "value": "Generera en nyckel",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e798fa1b"
+  },
+  "guides_card_keygen_desc": {
+    "value": "Ge din repeater ett prefix som ingen repeater nära dig använder.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "267f04fa"
+  },
+  "ch_needs_js": {
+    "value": "Kanallistan körs i din webbläsare och behöver JavaScript. Analyzer visar samma kanaler:",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "57228d02"
+  },
+  "ch_source": {
+    "value": "MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ed180c11"
+  },
+  "ch_list_title": {
+    "value": "Kanaler som hörts i ditt land",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6a3ddfed"
+  },
+  "ch_country_label": {
+    "value": "Ditt land",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "18f2456a"
+  },
+  "ch_country_pick": {
+    "value": "Välj ett land",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "632aadfb"
+  },
+  "ch_search": {
+    "value": "Sök ett namn eller en region",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "67d2c527"
+  },
+  "ch_loading": {
+    "value": "Laddar kanalerna...",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e4e9f6e5"
+  },
+  "ch_error": {
+    "value": "Kanallistan laddades inte. Försök igen senare; nyckeln för alla #namn nedan fungerar fortfarande.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f653e69d"
+  },
+  "ch_count": {
+    "value": "{n} kanaler hörda i {country}, flest meddelanden först.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "923bf6a5"
+  },
+  "ch_messages": {
+    "value": "meddelanden",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f5cccfb7"
+  },
+  "ch_key": {
+    "value": "Nyckel",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "99a52df3"
+  },
+  "ch_source_note": {
+    "value": "Live från",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1db8edb5"
+  },
+  "ch_calc_title": {
+    "value": "Nyckeln till valfri #kanal",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ad70964d"
+  },
+  "ch_calc_body": {
+    "value": "Skriv ett kanalnamn som börjar med #. Nyckeln följer av namnet, så du får samma nyckel som appen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8531d7e8"
+  },
+  "ch_calc_label": {
+    "value": "Kanalnamn",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2fe4a2e8"
+  },
+  "guides_card_channels_title": {
+    "value": "Hitta kanaler",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9905513b"
+  },
+  "guides_card_channels_desc": {
+    "value": "Kanalerna som folk nära dig använder, och hur du går med i dem.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2b7ffced"
+  },
+  "ch_count_one": {
+    "value": "1 kanal hörd i {country}.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8f1ca51"
+  },
+  "ch_show_all": {
+    "value": "Visa alla {n} kanaler",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2afe05c3"
+  },
+  "area_other_presets_title": {
+    "value": "Andra förinställningar i MeshCore-appen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e8ca0063"
+  },
+  "area_other_presets_body": {
+    "value": "Appen listar även dessa europeiska förinställningar, utan att namnge ett område för dem. En förinställning för 433 MHz behöver ett kort med en 433 MHz-radio.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "86f82c5c"
+  },
+  "net_live_title": {
+    "value": "Vad observatörerna hör",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f89055eb"
+  },
+  "net_live_packets": {
+    "value": "paket under den senaste hela timmen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e3e24e13"
+  },
+  "net_live_countries": {
+    "value": "länder hörda under den senaste timmen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "502cba0e"
+  },
+  "net_live_repeaters": {
+    "value": "repeaters hörda under de senaste 7 dagarna",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2890ece6"
+  },
+  "net_live_observers": {
+    "value": "observatörer under den senaste timmen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6825b26c"
+  },
+  "net_live_source": {
+    "value": "Live-siffror från",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f063c292"
+  },
+  "net_join_title": {
+    "value": "Lägg till din egen observatör",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e772f141"
+  },
+  "net_join_body": {
+    "value": "Varje observatör visar lite mer av meshen, för alla i Europa. Välj det sätt som passar; MeshCore Analyzer visar stegen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "de341930"
+  },
+  "net_way_app_title": {
+    "value": "Med KiekR-appen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "51c6a5e5"
+  },
+  "net_way_app_desc": {
+    "value": "Parkoppla en MeshCore-radio med din telefon över Bluetooth. Appen rapporterar vad den hör, utan att du flashar något.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9ae6b7d2"
+  },
+  "net_way_browser_title": {
+    "value": "Från din webbläsare",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c6b5042e"
+  },
+  "net_way_browser_desc": {
+    "value": "Anslut en radio över USB eller Bluetooth i Chrome eller Edge. Webbläsaren rapporterar så länge fliken är öppen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "72fc7d03"
+  },
+  "net_way_board_title": {
+    "value": "Med ett kort som alltid är på",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "574c32a6"
+  },
+  "net_way_board_desc": {
+    "value": "Flasha observatörs-firmware på ett LoRa-kort. Det rapporterar själv över WiFi, dag och natt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1742bfea"
+  },
+  "project_site": {
+    "value": "Webbplats",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b5a229ac"
+  },
+  "home_town_title": {
+    "value": "Följ ett meddelande över hustaken.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "b6669c81"
+  },
+  "home_town_lead": {
+    "value": "Din telefon eller laptop skickar ett meddelande till din companion, via Bluetooth eller USB. Companion-enheten skickar det med radio till en repeater på taket. Därifrån hoppar det från tak till tak.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2af5006f"
+  },
+  "home_town_tag_phone": {
+    "value": "Telefon eller laptop",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "54c8157f"
+  },
+  "home_town_tag_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1dadb328"
+  },
+  "home_town_tag_repeater": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "46e7bee1"
+  },
+  "home_town_tag_mast2": {
+    "value": "Andra repeatrar",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "3aa62b45"
+  },
+  "home_town_companion_title": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1dadb328"
+  },
+  "home_town_companion_desc": {
+    "value": "Radion du skriver meddelanden från. Parkoppla den med din telefon eller laptop, eller välj en med egen skärm och tangentbord som fungerar på egen hand.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c70389e6"
+  },
+  "home_town_companion_link": {
+    "value": "Välj en companion",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "5eba6690"
+  },
+  "home_town_repeater_title": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "46e7bee1"
+  },
+  "home_town_repeater_desc": {
+    "value": "Skickar meddelanden vidare åt alla runt omkring. De flesta drivs med solceller. Du behöver bara en egen där meshen inte når än.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "3db0ed15"
+  },
+  "home_town_repeater_link": {
+    "value": "När du bör sätta upp en repeater",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c5154fb9"
+  },
+  "home_town_mesh_title": {
+    "value": "Meshen",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "199c9527"
+  },
+  "home_town_mesh_desc": {
+    "value": "Repeatrar skickar ett meddelande vidare så långt de hör varandra. Regioner håller det lokalt.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2d14f895"
+  },
+  "home_town_mesh_link": {
+    "value": "Se nätverket",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6f3b43a5"
+  },
+  "planned_label": {
+    "value": "Planerad",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fb6f7c93"
+  },
+  "planned.guides-filter.lead": {
+    "value": "Släng trafik som din repeater inte ska skicka vidare, med paketfiltret.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ef203a0d"
+  },
+  "planned.guides-filter.what.title": {
+    "value": "Vad filtret gör",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "88a35f90"
+  },
+  "planned.guides-filter.what.desc": {
+    "value": "Vilka paket en repeater kan slänga, och hur det håller meshen tyst.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4a3c7cb5"
+  },
+  "planned.guides-filter.configs.title": {
+    "value": "Rekommenderade konfigurationer",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "42763607"
+  },
+  "planned.guides-filter.configs.desc": {
+    "value": "Färdiga inställningar för vanliga fall, som att blockera en stökig kanal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2ef6b9e2"
+  },
+  "planned.guides-filter.settings.title": {
+    "value": "Varje inställning",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "07182ebe"
+  },
+  "planned.guides-filter.settings.desc": {
+    "value": "Varje filterinställning med sitt kommando och vad den ändrar.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b73f8c55"
+  },
+  "planned.guides-mqtt.lead": {
+    "value": "Låt ditt kort som alltid är på rapportera vad det hör till MeshCore Analyzer.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5aa10eb5"
+  },
+  "planned.guides-mqtt.need.title": {
+    "value": "Vad du behöver",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e17c85cc"
+  },
+  "planned.guides-mqtt.need.desc": {
+    "value": "Ett kort med observer-firmware och Wi-Fi, och adressen till en broker.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f9b88653"
+  },
+  "planned.guides-mqtt.settings.title": {
+    "value": "Inställningar",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "74a883a0"
+  },
+  "planned.guides-mqtt.settings.desc": {
+    "value": "De inställningar för Wi-Fi, broker och topic som ditt kort behöver.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3d2f63e9"
+  },
+  "planned.guides-mqtt.commands.title": {
+    "value": "Kommandon för din broker",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d2db5c84"
+  },
+  "planned.guides-mqtt.commands.desc": {
+    "value": "Kommandona att klistra in, ifyllda för den broker du väljer.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1a37dddf"
+  },
+  "planned.guides-mqtt.check.title": {
+    "value": "Kontrollera att det fungerar",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2249f06f"
+  },
+  "planned.guides-mqtt.check.desc": {
+    "value": "Så hittar du din observer på MeshCore Analyzer.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2e45d8f2"
+  },
+  "net_data_title": {
+    "value": "Hur data kommer in",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d199acc6"
+  },
+  "net_data_lead": {
+    "value": "Varje siffra på den här sajten kommer från personer som lyssnar och delar vad de hör.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d162c9f3"
+  },
+  "net_data_from_title": {
+    "value": "Var det kommer ifrån",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "87362334"
+  },
+  "net_data_from_body": {
+    "value": "Observatörer rapporterar vad de hör över MQTT till en broker, en server som samlar in rapporterna. De rapporterar till mqtt.meshcore-analyzer.eu eller till en annan broker som Analyzer läser. KiekR-appen och webbläsarobservatören rapporterar också. Analyzer hämtar även CoreScope-analysatorer vars ägare har godkänt det. Varje broker och analysator läses med ägarens tillstånd.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5604e25f"
+  },
+  "net_data_way_title": {
+    "value": "Vad som händer på vägen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0e5c3f7c"
+  },
+  "net_data_way_body": {
+    "value": "Ett meddelande som hörs av många observatörer räknas en gång. Analyzer avkodar det och bygger kartorna, siffrorna och kanallistan från det. Den behåller varje meddelande, men vad varje observatör hörde sparas 10 dagar. Timsiffror sparas upp till 30 dagar, dagstotaler sparas för alltid.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "57413efc"
+  },
+  "net_data_node_title": {
+    "value": "Vad andra ser av din nod",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a6245d5e"
+  },
+  "net_data_node_body": {
+    "value": "Andra ser dess namn, dess offentliga nyckel, dess typ och dess position om du delar den. Dina direktmeddelanden förblir krypterade. Meddelanden på Public och på hashtag-kanaler kan läsas av vem som helst, inklusive Analyzer.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0f5e507d"
+  },
+  "net_data_q_title": {
+    "value": "Frågor",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9a72221a"
+  },
+  "net_data_q1": {
+    "value": "Är min nod på kartan?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ec3057eb"
+  },
+  "net_data_a1": {
+    "value": "Bara när en observatör hörde dess advert, paketet en nod skickar för att presentera sig. En nod långt från alla observatörer hålls utanför kartan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "393d0df5"
+  },
+  "net_data_q2": {
+    "value": "Kan Analyzer läsa mina direktmeddelanden?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1cd884fb"
+  },
+  "net_data_a2": {
+    "value": "Nej. Bara du och den andra personen har nyckeln.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c6b0e033"
+  },
+  "net_data_q3": {
+    "value": "Kan jag skicka data från mitt eget verktyg?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "52255bf4"
+  },
+  "net_data_a3": {
+    "value": "Ja: publicera över MQTT till mqtt.meshcore-analyzer.eu, signerat med din nods nyckel som en observatör gör. {link} visar hur du ansluter.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "171daa27"
+  },
+  "net_data_analyzer_link": {
+    "value": "MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ed180c11"
+  },
+  "net_data_q4": {
+    "value": "Får jag använda Analyzers data?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2154596d"
+  },
+  "net_data_a4": {
+    "value": "Fråga först på dess {link}. Analyzer tillåter inte automatiserad insamling.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b935a213"
+  },
+  "release_role_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1dadb328"
+  },
+  "release_role_repeater": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "46e7bee1"
+  },
+  "release_role_room_server": {
+    "value": "Room server",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "68b91cc5"
+  },
+  "release_notes_link": {
+    "value": "De officiella versionsanteckningarna",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8bc96136"
+  },
+  "release.v1-18-0.1": {
+    "value": "Din companion får en kommandorad: öppna Command Line i appen, version 1.50 eller senare. En kontakt som du ger behörigheten Remote CLI kan skicka kommandon till den över meshen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14cedc6a"
+  },
+  "release.v1-18-0.2": {
+    "value": "En nyinstallerad repeater slår själv på minimal loopdetektering.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14ac329c"
+  },
+  "release.v1-18-0.3": {
+    "value": "En repeater med adverts avstängda syns inte längre när andra söker efter noder.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "73a74341"
+  },
+  "release.v1-18-0.4": {
+    "value": "På ESP32-kort överlever klockan en omstart, och de flesta nRF52-kort vägrar inte längre starta vid lågt batteri.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "236a3861"
+  },
+  "release.v1-18-0.5": {
+    "value": "Nya kort: Thinknode M4 och M8, Wio Tracker L1 1W, Muzi Base och Waveshare ESP32-S3 LR1121.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1355f413"
+  },
+  "release.v1-18-0.6": {
+    "value": "Companion-firmware för Bluetooth klarar också WiFi på flera kort, bland dem Heltec, Wireless Paper, RAK och Xiao S3; ställ in det i appen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0d070c73"
+  },
+  "release.v1-17-1.1": {
+    "value": "På kort med extern förstärkare sparas nu inställningen för mottagningsförstärkning. Kontrollera radio.fem.rxgain och radio.rxgain på din repeater efter uppdateringen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aa6980e3"
+  },
+  "release.v1-17-1.2": {
+    "value": "Sändning fungerar igen på Heltec T096, och skärmen på T-Beam Supreme visas igen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8973538"
+  },
+  "release.v1-17-0.1": {
+    "value": "All firmware sparar sina inställningar i ett nytt format.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2acf27c2"
+  },
+  "release.v1-17-0.2": {
+    "value": "En repeater stängs av med ett långt tryck på knappen. Nya kommandon: set cad för repeaters och room.post för room servers.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "96f0d3d9"
+  },
+  "release.v1-17-0.3": {
+    "value": "nRF52-kort använder sitt inbyggda krypteringschip, och korten drar mindre ström i viloläge och när de är avstängda.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3daf5825"
+  },
+  "release.v1-17-0.4": {
+    "value": "Nya kort: Heltec V4 R8, RC32 och Tower V2, Thinknode M7 och M9, Sensecap MeshTracker X1, och radior med chipet LR2021.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b90c5ac8"
+  },
+  "release.v1-17-0.5": {
+    "value": "Repeaters lyssnar bättre innan de sänder, så upptagna meshar får färre kollisioner.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3061d4fd"
+  },
+  "console_needs_js": {
+    "value": "Konsolen kräver JavaScript och en webbläsare som når USB: Chrome, Edge eller Opera på en dator.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "07c6b52a"
+  },
+  "console_connect": {
+    "value": "Anslut din nod",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bb8e5e01"
+  },
+  "console_disconnect": {
+    "value": "Koppla från",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "acfc5be7"
+  },
+  "console_copy": {
+    "value": "Kopiera loggen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e01862b2"
+  },
+  "console_send": {
+    "value": "Skicka",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f6f4688f"
+  },
+  "console_command_label": {
+    "value": "Kommando",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "71316697"
+  },
+  "console_log_label": {
+    "value": "Vad din nod säger",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "84925ecb"
+  },
+  "console_status_idle": {
+    "value": "Koppla in din nod, anslut sedan och välj dess port.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3ebc3314"
+  },
+  "console_status_asking": {
+    "value": "Ansluten. Frågar din nod vad den är.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "02b45460"
+  },
+  "console_status_connected": {
+    "value": "Ansluten. Skriv ett kommando och tryck på Enter.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d216f35b"
+  },
+  "console_status_lost": {
+    "value": "Anslutningen bröts. Kontrollera kabeln och anslut igen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "98fa83ae"
+  },
+  "console_status_busy": {
+    "value": "Porten gick inte att öppna. Stäng det andra programmet eller fliken som använder den, och försök igen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cf4e9cbd"
+  },
+  "console_status_unsupported": {
+    "value": "Den här webbläsaren når inte USB. Använd Chrome, Edge eller Opera på en dator.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8ef7eebe"
+  },
+  "console_status_copied": {
+    "value": "Loggen är kopierad.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "617d378e"
+  },
+  "console_status_copy_failed": {
+    "value": "Loggen gick inte att kopiera. Markera den och kopiera för hand.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "45bd5465"
+  },
+  "console_commands_before": {
+    "value": "Varje kommando förklaras i",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "68ef84d1"
+  },
+  "console_commands_link": {
+    "value": "CLI-kommandon",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a13cc6cb"
+  },
+  "console_commands_after": {
+    "value": ".",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cdb4ee2a"
+  },
+  "console_node_known": {
+    "value": "Förslagen visar de kommandon som den här noden förstår.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "345c274c"
+  },
+  "console_node_unknown": {
+    "value": "Din nod angav inte sin roll. Förslagen visar kommandona för repeaters, room servers och sensorer.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "503c0064"
+  },
+  "console_dmc_before": {
+    "value": "Den här noden kör DutchMeshCore-firmware. Förslagen visar MeshCores egna kommandon. DutchMeshCore-kommandona finns i",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b17e7f2e"
+  },
+  "console_more_link": {
+    "value": "{command} i CLI-guiden",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9e207731"
+  },
+  "console_dmc_link": {
+    "value": "DutchMeshCores CLI-wiki",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ccc16968"
+  },
+  "console_dmc_after": {
+    "value": ".",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cdb4ee2a"
+  },
+  "console_suggestions_label": {
+    "value": "Föreslagna kommandon",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "36d1238e"
+  },
+  "console_key_fill": {
+    "value": "fyller i det",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cf686f44"
+  },
+  "console_key_choose": {
+    "value": "välj",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "725fed9d"
+  },
+  "console_key_guide": {
+    "value": "öppnar CLI-guiden",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "de7ca5a8"
+  },
+  "console_key_close": {
+    "value": "stänger",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b2850942"
+  },
+  "console_trouble_title": {
+    "value": "När den inte ansluter",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0cce4809"
+  },
+  "console_trouble_1": {
+    "value": "Använd en datakabel. Vissa kablar laddar bara.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "958a8d54"
+  },
+  "console_trouble_2": {
+    "value": "Stäng andra program som använder porten, som en annan konsol eller flashern på den här sidan i en annan flik.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fc9daa0a"
+  },
+  "console_trouble_3": {
+    "value": "Välj rätt port: koppla ur din nod, se vilken port som försvinner, och koppla in den igen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "75120995"
+  },
+  "console_trouble_4": {
+    "value": "Firefox och Safari når inte USB från en webbsida. Använd Chrome, Edge eller Opera på en dator.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "71403007"
+  },
+  "usb_title": {
+    "value": "Skicka till din repeater över USB.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "815598af"
+  },
+  "usb_body": {
+    "value": "Koppla in din repeater, anslut, och kontrollera vad som ändras innan du skickar.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5a67e201"
+  },
+  "usb_connect": {
+    "value": "Anslut din repeater",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aaf2563c"
+  },
+  "usb_check": {
+    "value": "Kontrollera vad som ändras",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3ee77f8f"
+  },
+  "usb_send": {
+    "value": "Skicka inställningarna",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7e2580db"
+  },
+  "usb_reboot": {
+    "value": "Starta om din repeater",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "19394bd3"
+  },
+  "usb_disconnect": {
+    "value": "Koppla från",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "acfc5be7"
+  },
+  "usb_col_command": {
+    "value": "Kommando",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "71316697"
+  },
+  "usb_col_now": {
+    "value": "Nu",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fe18013d"
+  },
+  "usb_col_reply": {
+    "value": "Svar",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c253f451"
+  },
+  "usb_col_new": {
+    "value": "Nytt värde",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7ca9b97d"
+  },
+  "usb_no_answer": {
+    "value": "inget svar",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ad03eb5e"
+  },
+  "usb_status_idle": {
+    "value": "Inte ansluten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3b3d2796"
+  },
+  "usb_status_connected": {
+    "value": "Ansluten. Kontrollera först vad som ändras.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4bb28123"
+  },
+  "usb_status_busy": {
+    "value": "Porten används. Stäng det andra programmet eller den andra fliken som använder den, och försök sedan igen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "438a57fa"
+  },
+  "usb_status_fill": {
+    "value": "Fyll först i {value} i kommandona ovan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d903306b"
+  },
+  "usb_status_reading": {
+    "value": "Läser din repeaters inställningar.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "222e3b98"
+  },
+  "usb_status_review": {
+    "value": "Jämför de aktuella värdena med de nya, och skicka sedan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "017b629e"
+  },
+  "usb_status_sent": {
+    "value": "Skickat. Din repeater accepterade varje kommando.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4cf46e54"
+  },
+  "usb_status_sent_errors": {
+    "value": "Skickat, men din repeater vägrade några kommandon eller svarade inte. Kontrollera svaren.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f77c4ebb"
+  },
+  "usb_status_rebooted": {
+    "value": "Repeatern startar om med sina nya radioinställningar.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "79ddf8f8"
+  },
+  "flash_releases_link": {
+    "value": "MeshCores releaser på GitHub",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "db7cf404"
+  },
+  "flash_no_match": {
+    "value": "Inget kort matchar. Prova ett kortare ord, eller välj i listan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cdba666f"
+  },
+  "flash_needs_js": {
+    "value": "Flashern kräver JavaScript. Utan det har {link} alla filer.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dc36838c"
+  },
+  "flash_board_title": {
+    "value": "Välj ditt kort",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "225d5074"
+  },
+  "flash_filter_label": {
+    "value": "Sök",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "49c266ba"
+  },
+  "flash_board_label": {
+    "value": "Kort",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4816cbfd"
+  },
+  "flash_role_label": {
+    "value": "Roll",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14736a2e"
+  },
+  "flash_role_ble": {
+    "value": "Companion, Bluetooth",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2c1378a3"
+  },
+  "flash_role_usb": {
+    "value": "Companion, USB",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4794c45b"
+  },
+  "flash_role_repeater": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "46e7bee1"
+  },
+  "flash_role_room_server": {
+    "value": "Room server",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "68b91cc5"
+  },
+  "flash_version_before": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f4f17278"
+  },
+  "flash_version_after": {
+    "value": ", den senaste versionen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1daecb7e"
+  },
+  "flash_flash_title": {
+    "value": "Flasha via USB",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dfd786e5"
+  },
+  "flash_mode_legend": {
+    "value": "Vad vill du göra?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3e17dbf9"
+  },
+  "flash_mode_update": {
+    "value": "Uppdatera: för ett kort som redan kör MeshCore. Behåller nodens nycklar, kontakter och inställningar.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "59e8848e"
+  },
+  "flash_mode_fresh": {
+    "value": "Ny installation: för ett nytt kort eller ett med annan firmware. Raderar kortet, nycklarna inräknade.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bc797149"
+  },
+  "flash_wipe_ok": {
+    "value": "Jag vet att en ny installation raderar nodens nycklar och kontakter.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7aeefcb2"
+  },
+  "flash_flash_button": {
+    "value": "Anslut och flasha",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8a541c7"
+  },
+  "flash_esp_help": {
+    "value": "Chrome, Edge eller Opera på en dator. Om kortet inte ansluter, håll in BOOT-knappen (PRG på vissa kort) medan du kopplar in det, och försök igen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4dafe8fb"
+  },
+  "flash_uf2_title": {
+    "value": "Kopiera filen till ditt kort",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "263bc1e5"
+  },
+  "flash_uf2_step1": {
+    "value": "Ladda ner filen:",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dee6800a"
+  },
+  "flash_uf2_step2": {
+    "value": "Koppla in kortet och dubbeltryck på dess reset-knapp. Det dyker upp som en USB-enhet. Ett kort utan reset-knapp har sin egen väg in; tillverkarens sida berättar hur.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9cd62884"
+  },
+  "flash_uf2_step3": {
+    "value": "Dra filen till den enheten. Kortet startar om med den nya firmwaren; en uppdatering behåller dess nycklar.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aef87c5b"
+  },
+  "flash_status_unsupported": {
+    "value": "Den här webbläsaren når inte USB. Använd Chrome, Edge eller Opera på en dator.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8ef7eebe"
+  },
+  "flash_status_no_list": {
+    "value": "Listan över kort laddades inte. Ladda om sidan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7a3841a5"
+  },
+  "flash_status_downloading": {
+    "value": "Laddar ner firmware.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c9e6648c"
+  },
+  "flash_status_connecting": {
+    "value": "Ansluter till ditt kort.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "70ed0d63"
+  },
+  "flash_status_flashing": {
+    "value": "Flashar. Låt kortet sitta i.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0796d555"
+  },
+  "flash_status_done": {
+    "value": "Klart. Ditt kort startar om med den nya firmwaren.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "445b69e2"
+  },
+  "flash_status_failed": {
+    "value": "Flashningen avbröts. Håll in BOOT-knappen medan du kopplar in kortet, och försök igen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f716db56"
+  },
+  "flash_status_no_file": {
+    "value": "Firmwarefilen laddades inte ner. Försök igen om en stund.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6636a9df"
+  },
+  "flash_other_firmware": {
+    "value": "Annan firmware, som DutchMeshCores observer-firmware, har sin egen flasher: {link}.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b2c75d72"
+  },
+  "release_flash_link": {
+    "value": "Flasha den på ditt kort",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "207bc805"
+  }
+}

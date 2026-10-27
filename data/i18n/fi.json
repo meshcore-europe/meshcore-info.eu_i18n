@@ -1,0 +1,5264 @@
+{
+  "_meta": {
+    "language": "fi",
+    "name": "Suomi",
+    "managed_by": "community",
+    "updated": "2026-10-26"
+  },
+  "site_tagline": {
+    "value": "Viestintää ilman verkkoa kautta Euroopan",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fd77fd37"
+  },
+  "site_description": {
+    "value": "Yhteisön opas MeshCoreen Euroopassa: alkuun pääseminen, laitteet, paikalliset ryhmät, kuuluvuuskartat ja toistimet. Ei-kaupallinen ja avointa lähdekoodia.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "00f6c54b"
+  },
+  "skip_to_content": {
+    "value": "Siirry sisältöön",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ac576a66"
+  },
+  "menu": {
+    "value": "Valikko",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "99af6606"
+  },
+  "nav_label": {
+    "value": "Päävalikko",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eb814be3"
+  },
+  "nav_about": {
+    "value": "Tietoa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4efca0d1"
+  },
+  "nav_get_started": {
+    "value": "Aloita",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "61e8d44a"
+  },
+  "nav_devices": {
+    "value": "Laitteet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4ba5121d"
+  },
+  "nav_community": {
+    "value": "Yhteisö",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bb501d78"
+  },
+  "nav_map": {
+    "value": "Kartta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be176b00"
+  },
+  "nav_repeater_guide": {
+    "value": "Toistinopas",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4608abcd"
+  },
+  "nav_news": {
+    "value": "Uutiset",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "69752f23"
+  },
+  "nav_projects": {
+    "value": "Projektit",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "04e2a972"
+  },
+  "nav_contribute": {
+    "value": "Osallistu",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "97b0c61b"
+  },
+  "nav_privacy": {
+    "value": "Tietosuoja",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "54a57c31"
+  },
+  "in_english": {
+    "value": "Tämä sivu on englanniksi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7e9323d9"
+  },
+  "lang_switch_label": {
+    "value": "Kieli",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a4fe6526"
+  },
+  "not_translated_yet": {
+    "value": "ei vielä käännetty",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3f59d8d3"
+  },
+  "theme_light": {
+    "value": "Teema: vaalea",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "72a842db"
+  },
+  "theme_dark": {
+    "value": "Teema: tumma",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "43908c59"
+  },
+  "theme_system": {
+    "value": "Teema: järjestelmän",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "98a8dd2c"
+  },
+  "copy": {
+    "value": "Kopioi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e21f935f"
+  },
+  "copied": {
+    "value": "Kopioitu",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8d525e5f"
+  },
+  "hero_eyebrow": {
+    "value": "868 MHz · Eurooppa",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "567ed2b0"
+  },
+  "hero_title": {
+    "value": "Irti verkosta, mukana meshissä.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "43ed56a7"
+  },
+  "hero_lead": {
+    "value": "MeshCore lähettää viestit radiolla, ilman internetiä tai tilausta. Euroopan meshit yhdistyvät yhdeksi. Täällä niiden yhteisöt jakavat oppimaansa.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "19ad0ab5"
+  },
+  "hero_cta_start": {
+    "value": "Aloita",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "61e8d44a"
+  },
+  "hero_cta_about": {
+    "value": "Lue, mikä MeshCore on",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "cdecad6f"
+  },
+  "paths_title": {
+    "value": "Mistä haluat aloittaa?",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "bf614863"
+  },
+  "path_new_title": {
+    "value": "Uusi täällä",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "10bc4c55"
+  },
+  "path_new_desc": {
+    "value": "Mikä mesh on, ja mitä MeshCore voi ja ei voi tehdä.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "a3e4ab18"
+  },
+  "path_offgrid_title": {
+    "value": "Valmiina, kun verkot pettävät",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "b005ed6a"
+  },
+  "path_offgrid_desc": {
+    "value": "Valitse laite vaellukselle, purjehdukselle, tapahtumiin tai sähkökatkoon.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6a84d5b4"
+  },
+  "path_build_title": {
+    "value": "Rakentaminen ja näpertely",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c24822f6"
+  },
+  "path_build_desc": {
+    "value": "Radio, antennit, työkalut ja projektit muilta yhteisöiltä.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "31166d76"
+  },
+  "path_grow_title": {
+    "value": "Toistimen lisääminen",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "bf145b6c"
+  },
+  "path_grow_desc": {
+    "value": "Suunnittele ja sijoita toistin, joka kattaa alueesi.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "db75c8c5"
+  },
+  "path_local_title": {
+    "value": "Ihmiset lähelläsi",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "808e1f66"
+  },
+  "path_local_desc": {
+    "value": "Löydä paikallinen ryhmäsi, sen keskustelut ja kanavat.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "a1e525eb"
+  },
+  "why_title": {
+    "value": "Miksi MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "67d51fbe"
+  },
+  "why_costs_title": {
+    "value": "Ei juoksevia kuluja",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "adff5b03"
+  },
+  "why_costs_desc": {
+    "value": "Osta radio kerran. Viestit eivät maksa mitään: ei SIM-korttia, datapakettia tai tilausta.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6e735f31"
+  },
+  "why_infra_title": {
+    "value": "Toimii ilman verkkoa",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "058c8eae"
+  },
+  "why_infra_desc": {
+    "value": "Toimii, kun mobiiliverkot ja internet ovat poikki tai ulottumattomissa. Viestit kulkevat radiosta radioon, suoraan ilmateitse.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ec9de206"
+  },
+  "why_open_title": {
+    "value": "Avoin lähdekoodi",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "67a0d2e0"
+  },
+  "why_open_desc": {
+    "value": "Laiteohjelmisto ja sen protokolla ovat avointa lähdekoodia, joten kuka tahansa voi rakentaa niiden päälle. Avoimet sovellukset, työkalut ja kirjastot tekevät niin jo nyt.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "97859c5f"
+  },
+  "why_privacy_title": {
+    "value": "Yksityinen lähtökohtaisesti",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "485ca594"
+  },
+  "why_privacy_desc": {
+    "value": "Yksityisviestit salataan päästä päähän. Et tarvitse tiliä etkä puhelinnumeroa liittyäksesi.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6901512e"
+  },
+  "why_routing_title": {
+    "value": "Paikallinen alueen mukaan",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be9348e5"
+  },
+  "why_routing_desc": {
+    "value": "Ensimmäinen viestisi floodaa toistimien kautta, eli katoilla ja mastoissa olevien solmujen, jotka välittävät viestejä eteenpäin. Floodaava viesti voi kantaa alueen, ja toistimet välittävät vain palvelemiensa alueiden viestit, joten viesti pysyy omalla alueellaan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e9620b88"
+  },
+  "why_community_title": {
+    "value": "Yksi mesh, monta ryhmää",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "a49e1ded"
+  },
+  "why_community_desc": {
+    "value": "Paikalliset ryhmät eri puolilla Eurooppaa pystyttävät toistimia, jakavat asetuksia ja auttavat aloittelijoita. Löydät lähimmän ryhmäsi kohdasta Paikalliset ryhmät.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d1e253bc"
+  },
+  "home_live_label": {
+    "value": "Livenä ympäri Eurooppaa",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "44ee0071"
+  },
+  "home_live_packets": {
+    "value": "pakettia viimeisen täyden tunnin aikana",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "e3e24e13"
+  },
+  "home_live_countries": {
+    "value": "maata kuultu viimeisen tunnin aikana",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "502cba0e"
+  },
+  "home_live_repeaters": {
+    "value": "toistinta kuultu viimeisten 7 päivän aikana",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2890ece6"
+  },
+  "home_live_source": {
+    "value": "Luvut sivustolta meshcore-analyzer.eu",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "73b22a30"
+  },
+  "strip_label_release": {
+    "value": "Julkaisu",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e020e3c6"
+  },
+  "strip_label_reference": {
+    "value": "Hakuteos",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "71bf9093"
+  },
+  "strip_label_guides": {
+    "value": "Oppaat",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "572cd72f"
+  },
+  "strip_label_directory": {
+    "value": "Hakemisto",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c8f84c3c"
+  },
+  "strip_label_site": {
+    "value": "Tämä sivusto",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e487482d"
+  },
+  "strip_released": {
+    "value": "julkaistu",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d29eae13"
+  },
+  "strip_boards": {
+    "value": "laitetta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "685d9a8f"
+  },
+  "strip_commands": {
+    "value": "CLI-komentoa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a13cc6cb"
+  },
+  "strip_latest_firmware": {
+    "value": "uusin laiteohjelmisto",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a0daddac"
+  },
+  "strip_releases": {
+    "value": "julkaisua tällä sivulla",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e99084d9"
+  },
+  "strip_areas": {
+    "value": "aluetta suositelluilla asetuksilla",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "789b6daa"
+  },
+  "strip_presets": {
+    "value": "radioasetusta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cb582a14"
+  },
+  "strip_devices": {
+    "value": "laitetta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ade15a12"
+  },
+  "strip_groups": {
+    "value": "paikallisryhmää",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f40e444b"
+  },
+  "strip_countries": {
+    "value": "maata",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e45d4cba"
+  },
+  "strip_maps": {
+    "value": "kuuluvuuskarttaa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e149f255"
+  },
+  "strip_channel_countries": {
+    "value": "valittavaa maata",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0fbe9da9"
+  },
+  "strip_projects": {
+    "value": "projektia",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2577c0f5"
+  },
+  "strip_languages": {
+    "value": "kieltä",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6cb574fa"
+  },
+  "strip_trackers": {
+    "value": "seurainta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "da068881"
+  },
+  "strip_third_party": {
+    "value": "kolmannen osapuolen pyyntöä",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "64ebce3d"
+  },
+  "strip_cookie": {
+    "value": "eväste, vain kun valitset teeman",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be0b8e53"
+  },
+  "strip_checked": {
+    "value": "Tarkistettu",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0efd92a3"
+  },
+  "strip_release_source": {
+    "value": "MeshCoren julkaisuista",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d619a021"
+  },
+  "news_latest": {
+    "value": "Tuoreimmat uutiset",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f74e23c2"
+  },
+  "news_english_only": {
+    "value": "Uutiset julkaistaan vain englanniksi.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "815251ef"
+  },
+  "news_all": {
+    "value": "Kaikki uutiset",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "67c7790c"
+  },
+  "badge_ai": {
+    "value": "Konekäännös",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e174e770"
+  },
+  "badge_human": {
+    "value": "Tarkistettu käännös",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3f4efebd"
+  },
+  "banner_ai_title": {
+    "value": "Tämän sivun on kääntänyt kone.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1cb96c83"
+  },
+  "banner_ai_body": {
+    "value": "Kukaan äidinkielinen puhuja ei ole vielä tarkistanut sitä, joten osa sanamuodoista voi olla outoja.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bbc7e56b"
+  },
+  "banner_stale": {
+    "value": "Englanninkielinen sivu on muuttunut tämän käännöksen jälkeen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b34a3714"
+  },
+  "read_english": {
+    "value": "Lue englanninkielinen versio",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "971012a5"
+  },
+  "banner_improve": {
+    "value": "Auta parantamaan tätä käännöstä",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a9a967b6"
+  },
+  "edit_page": {
+    "value": "Muokkaa tätä sivua GitHubissa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "073fd103"
+  },
+  "planned_note": {
+    "value": "Rakennamme tätä sivua vielä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f0aebcf0"
+  },
+  "planned_more": {
+    "value": "Sitä ennen näistä sivuista voi olla apua:",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ec1b5efa"
+  },
+  "last_verified": {
+    "value": "Viimeksi tarkistettu",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "d8e92048"
+  },
+  "sources": {
+    "value": "Lähteet",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "caf85b08"
+  },
+  "callout_tip": {
+    "value": "Vinkki",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a4245a3c"
+  },
+  "callout_warning": {
+    "value": "Varoitus",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e981ddae"
+  },
+  "callout_legal": {
+    "value": "Lainsäädäntö",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4787eaf7"
+  },
+  "filter_title": {
+    "value": "Rajaa hakua",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "28c6eb01"
+  },
+  "filter_any": {
+    "value": "Mikä tahansa",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2b505597"
+  },
+  "filter_reset": {
+    "value": "Tyhjennä suodattimet",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "10afa984"
+  },
+  "filter_count": {
+    "value": "Näytetään {shown} / {total}",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f3d25c92"
+  },
+  "filter_empty": {
+    "value": "Mikään ei vastaa näitä suodattimia.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "7094992d"
+  },
+  "filter_role_q": {
+    "value": "Mihin käytät sitä?",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "25ed547a"
+  },
+  "filter_price_q": {
+    "value": "Budjetti",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1c6225ec"
+  },
+  "filter_power_q": {
+    "value": "Virrankulutus",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "848e9656"
+  },
+  "filter_category_q": {
+    "value": "Luokka",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "292c06f0"
+  },
+  "role_companion": {
+    "value": "Companion (radio, jolla lähetät viestejä)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "fc49eb4e"
+  },
+  "role_repeater": {
+    "value": "Toistin",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "46e7bee1"
+  },
+  "role_room_server": {
+    "value": "Huonepalvelin",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "68b91cc5"
+  },
+  "price_1": {
+    "value": "€ (alle 25)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "84cdcfea"
+  },
+  "price_2": {
+    "value": "€€ (25–60)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "be9a6bd8"
+  },
+  "price_3": {
+    "value": "€€€ (yli 60)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "0e261f3a"
+  },
+  "power_battery": {
+    "value": "Sisäänrakennettu akku",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3b3a4b7e"
+  },
+  "power_external": {
+    "value": "Ulkoinen virta tai aurinko",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "50778470"
+  },
+  "power_profile_low": {
+    "value": "Pieni",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f793de20"
+  },
+  "power_profile_medium": {
+    "value": "Keskitaso",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "8e588cd1"
+  },
+  "power_profile_high": {
+    "value": "Suuri",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c4ebc6d4"
+  },
+  "spec_mcu": {
+    "value": "Prosessori",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "54aac653"
+  },
+  "spec_radio": {
+    "value": "LoRa-piiri",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1d340ea4"
+  },
+  "spec_battery": {
+    "value": "Akku",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "dfcb7c16"
+  },
+  "spec_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "176c7866"
+  },
+  "spec_screen": {
+    "value": "Näyttö",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6e56137e"
+  },
+  "spec_connectivity": {
+    "value": "Yhteydet",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "5479401f"
+  },
+  "spec_form": {
+    "value": "Muoto",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "12827072"
+  },
+  "spec_price": {
+    "value": "Hintaluokka",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "396491b7"
+  },
+  "spec_power": {
+    "value": "Virrankulutus",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "96fcc312"
+  },
+  "spec_firmware": {
+    "value": "MeshCore-tuki",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "4f7c9307"
+  },
+  "fw_official": {
+    "value": "Virallinen versio",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e07a4935"
+  },
+  "fw_community": {
+    "value": "Yhteisön versio",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f8338fb4"
+  },
+  "yes": {
+    "value": "Kyllä",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "85a39ab3"
+  },
+  "no": {
+    "value": "Ei",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1ea442a1"
+  },
+  "none": {
+    "value": "Ei",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "dc937b59"
+  },
+  "form_handheld": {
+    "value": "Käsilaite",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "ecb26701"
+  },
+  "form_board": {
+    "value": "Paljas piirilevy",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "33e95aea"
+  },
+  "form_enclosed": {
+    "value": "Koteloitu solmu",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "751c73a5"
+  },
+  "form_wearable": {
+    "value": "Puettava",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6e31070f"
+  },
+  "form_usb": {
+    "value": "USB-tikku",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "031ad13f"
+  },
+  "conn_ble": {
+    "value": "Bluetooth LE",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "e05f95a2"
+  },
+  "conn_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "337253f2"
+  },
+  "conn_usb": {
+    "value": "USB",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "61f0acff"
+  },
+  "devices_empty": {
+    "value": "Laitteita ei ole vielä listattu.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a158b22a"
+  },
+  "devices_list_title": {
+    "value": "Kaikki laitteet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0594fe82"
+  },
+  "community_channels": {
+    "value": "Kanavat",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4c8906cf"
+  },
+  "community_ask_at": {
+    "value": "kysy linkkiä täältä:",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "969f418d"
+  },
+  "community_languages": {
+    "value": "Kielet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "318655ce"
+  },
+  "community_empty": {
+    "value": "Paikallisryhmiä ei ole vielä listattu.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "73a4cdc4"
+  },
+  "community_missing_title": {
+    "value": "Puuttuuko ryhmäsi?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7c5581b0"
+  },
+  "community_jump": {
+    "value": "Siirry maahan",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f7361695"
+  },
+  "community_missing_body": {
+    "value": "Kuka tahansa voi lisätä paikallisryhmän. Avaa issue, jossa on ryhmän nimi, alue ja linkit, ja ylläpitäjä lisää sen kaikille kielille kerralla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a626e730"
+  },
+  "community_missing_cta": {
+    "value": "Lisää paikallisryhmäsi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f692beac"
+  },
+  "link_discord": {
+    "value": "Discord",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "053bc658"
+  },
+  "link_telegram": {
+    "value": "Telegram",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "acdd1e73"
+  },
+  "link_signal": {
+    "value": "Signal",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1e9806e4"
+  },
+  "link_matrix": {
+    "value": "Matrix",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "76a2171c"
+  },
+  "link_whatsapp": {
+    "value": "WhatsApp",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6a40edf1"
+  },
+  "link_forum": {
+    "value": "Foorumi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4da7bd42"
+  },
+  "link_website": {
+    "value": "Verkkosivu",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b5a229ac"
+  },
+  "link_map": {
+    "value": "Kartta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be176b00"
+  },
+  "link_wiki": {
+    "value": "Wiki",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "63ec69fd"
+  },
+  "map_scope_europe": {
+    "value": "Koko Eurooppa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d7bc2dd9"
+  },
+  "map_scope_country": {
+    "value": "Maa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "701d021d"
+  },
+  "map_scope_region": {
+    "value": "Alueellinen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "299a03b1"
+  },
+  "map_shows_nodes": {
+    "value": "Solmut",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7ac36206"
+  },
+  "map_shows_coverage": {
+    "value": "Kuuluvuus",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "523487a5"
+  },
+  "map_shows_traffic": {
+    "value": "Reaaliaikainen liikenne",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9fd86662"
+  },
+  "map_shows_analyzer": {
+    "value": "Pakettianalysaattori",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14671539"
+  },
+  "map_shows_statistics": {
+    "value": "Tilastot",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a656107e"
+  },
+  "map_open": {
+    "value": "Avaa kartta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ea488d26"
+  },
+  "maps_empty": {
+    "value": "Karttoja ei ole vielä listattu.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f4332bc7"
+  },
+  "map_tenants_intro": {
+    "value": "Yksi analysaattori koko Euroopalle. Paikallisyhteisöt pyörittävät sitä myös omalla nimellään ja ulkoasullaan, samoilla reaaliaikaisilla tiedoilla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6e5054f0"
+  },
+  "project_cat_app": {
+    "value": "Sovellus",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0d04bfeb"
+  },
+  "project_cat_tool": {
+    "value": "Työkalu",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2e53bdcd"
+  },
+  "project_cat_bridge": {
+    "value": "Silta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3892e103"
+  },
+  "project_cat_firmware": {
+    "value": "Laiteohjelmisto",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c2a314c3"
+  },
+  "project_cat_hardware": {
+    "value": "Laitteisto",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7975300f"
+  },
+  "project_cat_library": {
+    "value": "Kirjasto",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dc20b3d5"
+  },
+  "project_archived": {
+    "value": "Arkistoitu",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bdb86505"
+  },
+  "project_licence": {
+    "value": "Lisenssi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f3ec8e88"
+  },
+  "project_repo": {
+    "value": "Lähdekoodi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bf046c73"
+  },
+  "projects_empty": {
+    "value": "Projekteja ei ole vielä listattu.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "26a6bda7"
+  },
+  "projects_list_title": {
+    "value": "Kaikki projektit",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4b87271b"
+  },
+  "projects_add_cta": {
+    "value": "Ehdota projektia",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8e8a3907"
+  },
+  "footer_about": {
+    "value": "Ei-kaupallinen yhteisön opas MeshCoreen Euroopassa, ilman mainoksia, kumppanilinkkejä tai seurantaa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8a0b3c0d"
+  },
+  "footer_disclaimer": {
+    "value": "meshcore-info.eu-sivustoa ylläpitävät vapaaehtoiset, eikä se ole yhteydessä MeshCore-laiteohjelmiston kehittäjiin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5043ea17"
+  },
+  "footer_nav_label": {
+    "value": "Sivusto",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fa795581"
+  },
+  "footer_source": {
+    "value": "Lähdekoodi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bf046c73"
+  },
+  "footer_license": {
+    "value": "Tekstin lisenssi CC BY 4.0, koodin MIT.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "61085af6"
+  },
+  "not_found_title": {
+    "value": "Sivua ei löydy",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a469ab4c"
+  },
+  "not_found_body": {
+    "value": "Tätä sivua ei ole olemassa, tai se on siirretty.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a9044129"
+  },
+  "not_found_home": {
+    "value": "Siirry etusivulle",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "adcedded"
+  },
+  "picker_title": {
+    "value": "Valitse kielesi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8e2d0664"
+  },
+  "coverage_caption": {
+    "value": "Käännösten kattavuus kielittäin",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fdb7f8dd"
+  },
+  "coverage_language": {
+    "value": "Kieli",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a4fe6526"
+  },
+  "coverage_strings": {
+    "value": "Käyttöliittymän tekstit",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "146382ff"
+  },
+  "coverage_pages": {
+    "value": "Sivut",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9046da16"
+  },
+  "coverage_human": {
+    "value": "Tarkistettu",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fad6057b"
+  },
+  "coverage_ai": {
+    "value": "Konekäännös",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8f1cc42d"
+  },
+  "coverage_stale": {
+    "value": "Vanhentunut",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c759f42e"
+  },
+  "coverage_missing": {
+    "value": "Puuttuu",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6be36ca4"
+  },
+  "presets_caption": {
+    "value": "Radion esiasetukset Euroopassa",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "037c3732"
+  },
+  "presets_name": {
+    "value": "Esiasetus sovelluksessa",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "46bda49e"
+  },
+  "presets_frequency": {
+    "value": "Taajuus (MHz)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1740a857"
+  },
+  "presets_bandwidth": {
+    "value": "Kaistanleveys (kHz)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "5cf2dd7b"
+  },
+  "presets_sf": {
+    "value": "Hajautuskerroin",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "7cda59eb"
+  },
+  "presets_cr": {
+    "value": "Koodaussuhde",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2cd87b32"
+  },
+  "presets_source": {
+    "value": "MeshCore-projektin esiasetuslistasta, tarkistettu",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "215b400b"
+  },
+  "gain_label": {
+    "value": "Dipolin ja lasikuitukollineaarin säteilykeila, maston halki leikattuna ja sivulta katsottuna, mittakaavassa. Kollineaari tavoittaa solmun kaukana horisontissa. Vain dipoli tavoittaa solmun jyrkästi alapuolella.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d90bf3bb"
+  },
+  "gain_dipole": {
+    "value": "Dipoli",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ef909a16"
+  },
+  "gain_collinear": {
+    "value": "Lasikuitukollineaari",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "822f4c75"
+  },
+  "gain_node": {
+    "value": "Solmu",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e9337253"
+  },
+  "country_ad": {
+    "value": "Andorra",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3e340be4"
+  },
+  "country_al": {
+    "value": "Albania",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1af00b87"
+  },
+  "country_at": {
+    "value": "Itävalta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c9cab023"
+  },
+  "country_ba": {
+    "value": "Bosnia ja Hertsegovina",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b0772b9c"
+  },
+  "country_be": {
+    "value": "Belgia",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "348841ef"
+  },
+  "country_bg": {
+    "value": "Bulgaria",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "66b86bf0"
+  },
+  "country_by": {
+    "value": "Valko-Venäjä",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4bef16df"
+  },
+  "country_ch": {
+    "value": "Sveitsi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "22755831"
+  },
+  "country_cy": {
+    "value": "Kypros",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5f1162c5"
+  },
+  "country_cz": {
+    "value": "Tšekki",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ecfa967e"
+  },
+  "country_de": {
+    "value": "Saksa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "80db4ccd"
+  },
+  "country_dk": {
+    "value": "Tanska",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c5270975"
+  },
+  "country_ee": {
+    "value": "Viro",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "10aeba69"
+  },
+  "country_es": {
+    "value": "Espanja",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8ef41e6f"
+  },
+  "country_fi": {
+    "value": "Suomi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aed8f531"
+  },
+  "country_fo": {
+    "value": "Färsaaret",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "773ca4d6"
+  },
+  "country_fr": {
+    "value": "Ranska",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7a1ca4ef"
+  },
+  "country_gb": {
+    "value": "Yhdistynyt kuningaskunta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8d23a6e3"
+  },
+  "country_gg": {
+    "value": "Guernsey",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b9c48cb1"
+  },
+  "country_gi": {
+    "value": "Gibraltar",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "097ced58"
+  },
+  "country_gr": {
+    "value": "Kreikka",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9c93ad43"
+  },
+  "country_hr": {
+    "value": "Kroatia",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7328d3f8"
+  },
+  "country_hu": {
+    "value": "Unkari",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "504be308"
+  },
+  "country_ie": {
+    "value": "Irlanti",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "02bf1dfa"
+  },
+  "country_im": {
+    "value": "Mansaari",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "34096f96"
+  },
+  "country_is": {
+    "value": "Islanti",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "595d6d91"
+  },
+  "country_it": {
+    "value": "Italia",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5a9cf672"
+  },
+  "country_je": {
+    "value": "Jersey",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "764a8c04"
+  },
+  "country_li": {
+    "value": "Liechtenstein",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6ff080c0"
+  },
+  "country_lt": {
+    "value": "Liettua",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5c83a631"
+  },
+  "country_lu": {
+    "value": "Luxemburg",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ed76f191"
+  },
+  "country_lv": {
+    "value": "Latvia",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "988c8160"
+  },
+  "country_mc": {
+    "value": "Monaco",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "935018cc"
+  },
+  "country_md": {
+    "value": "Moldova",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14ad63a1"
+  },
+  "country_me": {
+    "value": "Montenegro",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7ab597e1"
+  },
+  "country_mk": {
+    "value": "Pohjois-Makedonia",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cd847226"
+  },
+  "country_mt": {
+    "value": "Malta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "71e9eb10"
+  },
+  "country_nl": {
+    "value": "Alankomaat",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3a386c13"
+  },
+  "country_no": {
+    "value": "Norja",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bea54a34"
+  },
+  "country_pl": {
+    "value": "Puola",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7f69649a"
+  },
+  "country_pt": {
+    "value": "Portugali",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4c7de2c3"
+  },
+  "country_ro": {
+    "value": "Romania",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ea23726d"
+  },
+  "country_rs": {
+    "value": "Serbia",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e8739c83"
+  },
+  "country_ru": {
+    "value": "Venäjä",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "33a3d8ed"
+  },
+  "country_se": {
+    "value": "Ruotsi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "85363713"
+  },
+  "country_si": {
+    "value": "Slovenia",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "56059e7f"
+  },
+  "country_sk": {
+    "value": "Slovakia",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a2ea3384"
+  },
+  "country_sm": {
+    "value": "San Marino",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "230450a2"
+  },
+  "country_tr": {
+    "value": "Turkki",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d15b2145"
+  },
+  "country_ua": {
+    "value": "Ukraina",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "580eedc6"
+  },
+  "country_va": {
+    "value": "Vatikaani",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b0ce1029"
+  },
+  "country_xk": {
+    "value": "Kosovo",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4a867424"
+  },
+  "device.heltec-wifi-lora-32-v3.notes": {
+    "value": "Paljas piirilevy: hanki kotelo, antenni ja akku. ESP32 kuluttaa liikaa virtaa pieneen aurinkotoistimeen.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "bc29e2c9"
+  },
+  "device.heltec-wifi-lora-32-v4.notes": {
+    "value": "Suuritehoinen versio lähettää jopa 28 dBm, mikä ylittää eurooppalaisen rajan useimmilla antenneilla: toistinopas näyttää, miten pysyt rajan sisällä. Perusversio maksaa alle 25 euroa, suuritehoinen versio enemmän. R8-versiossa on enemmän muistia, ja se tarvitsee oman laiteohjelmistoversionsa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5c626e8a"
+  },
+  "device.heltec-mesh-node-t114.notes": {
+    "value": "Vähävirtainen nRF52-piirilevy ja yleinen pohja aurinkotoistimille. Näyttö ja GPS ovat valinnaisia tilatessa; niiden kanssa hinta ylittää 25 euroa.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f1999a30"
+  },
+  "device.heltec-wireless-tracker.notes": {
+    "value": "Piirilevy sisäänrakennetulla GPS:llä. Hanki oma akku ja kotelo.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "5d4b7295"
+  },
+  "device.heltec-wireless-paper.notes": {
+    "value": "E-paperinäyttö pysyy luettavana auringonvalossa. Akku ei sisälly.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "d60633a2"
+  },
+  "device.lilygo-t-echo.notes": {
+    "value": "Taskukokoinen käsilaite e-paperinäytöllä ja GPS:llä. Saatavana myös versio isommalla akulla.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1f285d65"
+  },
+  "device.lilygo-t-deck-plus.notes": {
+    "value": "Fyysinen näppäimistö, ohjauspallo ja kosketusnäyttö. Plus lisää GPS:n ja 2000 mAh:n akun.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "0fb0f75c"
+  },
+  "device.lilygo-t-beam-supreme.notes": {
+    "value": "Paikka 18650-kennolle, joka ei sisälly. Valitse SX1262-versio: LR1121-versiolle ei ole virallista laiteohjelmistoa.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "e3db28aa"
+  },
+  "device.rak-wisblock-rak4631.notes": {
+    "value": "Modulaarinen: kiinnitettävät moduulit lisäävät GPS:n, näytön tai antureita. Peruslevyssä on aurinkopaneelitulo.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c1317a23"
+  },
+  "device.rak-wismesh-tag.notes": {
+    "value": "Ohut säänkestävä tunniste sisäänrakennetuilla antenneilla.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "572181c6"
+  },
+  "device.seeed-sensecap-t1000-e.notes": {
+    "value": "Luottokortin kokoinen, pöly- ja roiskesuojattu (IP65), ei näyttöä. Käyttää LR1110-radiota yleisemmän SX1262:n sijaan.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "e18363be"
+  },
+  "device.seeed-xiao-nrf52840-wio-sx1262.notes": {
+    "value": "Pikkuruinen kahden levyn pino. Juota akku kiinni kannettavaa käyttöä varten.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "3063cd1d"
+  },
+  "device.seeed-wio-tracker-l1-pro.notes": {
+    "value": "Kotelossa, mukana näyttö, GPS ja akku. Saatavana myös Lite- ja e-ink-versiot.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "d9fd3d73"
+  },
+  "device.seeed-sensecap-solar-node-p1.notes": {
+    "value": "Säänkestävä kotelo, 5 W:n aurinkopaneeli, neljä 18650-kennoa ja GPS, tehty toistimille.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f3c9e1f9"
+  },
+  "device.heltec-wifi-lora-32-v4-expansion-kit.notes": {
+    "value": "V4-levy metallikotelossa kosketusnäytöllä. GPS ja 18650-kenno ovat lisävalintoja tilatessa. MeshCore käyttää näyttöä, mutta ei vielä kosketusta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8704efde"
+  },
+  "device.heltec-wireless-stick-lite-v3.notes": {
+    "value": "V3 ilman näyttöä. Paljas levy: lisää kotelo, antenni ja akku.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6a36169b"
+  },
+  "device.heltec-wireless-tracker-v2.notes": {
+    "value": "Levy, jossa on GPS ja aurinkopaneeliliitin. Se lähettää jopa 28 dBm, mikä ylittää eurooppalaisen rajan useimmilla antenneilla: toistinopas näyttää, miten pysyt rajan sisällä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e56ec119"
+  },
+  "device.heltec-vision-master-e213.notes": {
+    "value": "Levy, jossa on auringonvalossakin luettava e-paperinäyttö. Hanki akku ja kotelo itse.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7519dcd5"
+  },
+  "device.heltec-vision-master-e290.notes": {
+    "value": "Kuten E213, mutta suuremmalla e-paperinäytöllä. Hanki akku ja kotelo itse.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "84da4d43"
+  },
+  "device.heltec-vision-master-t190.notes": {
+    "value": "Levy, jossa on värinäyttö. Hanki akku ja kotelo itse.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "08d0d0d2"
+  },
+  "device.heltec-mesh-node-t1.notes": {
+    "value": "Kortin kokoinen tagi, jossa on GPS ja pieni näyttö, pöly- ja roiskesuojattu (IP65).",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c9807632"
+  },
+  "device.heltec-meshpocket.notes": {
+    "value": "Varavirtalähde, jonka sisällä on solmu, sekä magneettinen langaton laturi puhelimellesi. Myydään myös 10000 mAh:n versiona.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0eab0a7c"
+  },
+  "device.heltec-meshsolar.notes": {
+    "value": "Levy aurinkotoistimeen: ottaa yhdestä neljään kennoa ja 18–24 V paneelin. GPS ja näyttö ovat lisäosia.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "195aa41c"
+  },
+  "device.heltec-meshtower-v2.notes": {
+    "value": "Säänkestävä metallikotelo, jossa on kolme kennoa ja 10 W aurinkopaneeli, tehty toistimille. GPS on valinnainen. 30 dBm:n versio ylittää eurooppalaisen rajan: toistinopas näyttää, miten pysyt rajan sisällä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d935df5c"
+  },
+  "device.lilygo-t-echo-lite.notes": {
+    "value": "Pienempi T-Echo, johon saa GPS-lisämoduulin. Myydään kotelon kanssa tai ilman.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b18c1e64"
+  },
+  "device.lilygo-t-echo-card.notes": {
+    "value": "Luottokortin kokoinen, jossa on GPS, kaiutin ja pieni aurinkopaneeli, joka vain täydentää akun latausta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1b860b15"
+  },
+  "device.lilygo-t-impulse-plus.notes": {
+    "value": "Ranneke, jossa on GPS, pikkuruinen näyttö ja värinämoottori.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3bc53725"
+  },
+  "device.lilygo-t-deck.notes": {
+    "value": "Näppäimistö ja ohjauspallo kuten T-Deck Plusissa, mutta ilman GPS:ää ja akkua. Valitse versio, jossa on LoRa: myös versio ilman sitä on olemassa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e88fe0ef"
+  },
+  "device.lilygo-t-beam.notes": {
+    "value": "Klassinen T-Beam vanhemmalla SX1276-radiolla. Siihen mahtuu 18650-kenno, joka ei sisälly pakettiin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7c56a56b"
+  },
+  "device.lilygo-t-beam-1w.notes": {
+    "value": "Lähettää jopa 32 dBm, mikä ylittää eurooppalaisen rajan selvästi: toistinopas näyttää, miten pysyt rajan sisällä. Tarvitsee 7.4 V akun, jota se ei lataa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9a8d7b03"
+  },
+  "device.elecrow-thinknode-m1.notes": {
+    "value": "Käsilaite, jossa on e-paperinäyttö ja GPS.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "590fa3ac"
+  },
+  "device.elecrow-thinknode-m2.notes": {
+    "value": "Pieni käsilaite, jossa on OLED-näyttö. Myydään myös ilman akkua.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "87f36cea"
+  },
+  "device.elecrow-thinknode-m3.notes": {
+    "value": "Pöly- ja vesitiivis (IP66) paikannin, jossa on GPS, ei näyttöä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0c7b633a"
+  },
+  "device.elecrow-thinknode-m4.notes": {
+    "value": "Varavirtalähde, jonka sisällä on solmu ja GPS, ei näyttöä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "638c30a0"
+  },
+  "device.elecrow-thinknode-m5.notes": {
+    "value": "Kuten M1, mutta ESP32-prosessorilla: enemmän ominaisuuksia, lyhyempi akunkesto.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7943f498"
+  },
+  "device.elecrow-thinknode-m6.notes": {
+    "value": "Säänkestävä kotelo (IP65), jossa on 6 W aurinkopaneeli, kaksi 18650-kennoa ja GPS, tehty toistimille.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c7efcb7f"
+  },
+  "device.elecrow-thinknode-m7.notes": {
+    "value": "Sisäkäyttöön tarkoitettu laatikko Ethernet-portilla, saa virran USB:stä tai verkkokaapelista (PoE).",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "20225189"
+  },
+  "device.elecrow-thinknode-m9.notes": {
+    "value": "Toimii itsenäisesti: täysi näppäimistö, värinäyttö ja GPS. Toimitetaan Ripple-laiteohjelmistolla; myös tavallinen MeshCore toimii siinä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d9fb8bcf"
+  },
+  "device.seeed-wio-tracker-l1.notes": {
+    "value": "L1 Pro ilman koteloa ja akkua. Siinä on GPS ja aurinkopaneeliliitin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f317b814"
+  },
+  "device.seeed-wio-tracker-l1-eink.notes": {
+    "value": "L1 e-paperinäytöllä, ilman koteloa ja akkua. MeshCore toimii siinä vain companion-roolissa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1c3665d9"
+  },
+  "device.seeed-sensecap-solar-node-p1-basic.notes": {
+    "value": "P1-Pro ilman kennoja ja GPS:ää: lisää itse neljä 18650-kennoa. Pidikkeeseen sopivat vain nystynapaiset kennot. Yleiset tasanapaiset kennot sopivat, kun lisäät jokaiseen pienen magneetin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a6f898f4"
+  },
+  "device.seeed-sensecap-meshtracker-x1.notes": {
+    "value": "Kortin kokoinen ja pöly- ja vesitiivis (IP66), ei näyttöä. Latautuu USB-C:n kautta ja värisee uuden viestin saapuessa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9eadd1b5"
+  },
+  "device.seeed-xiao-esp32s3-wio-sx1262.notes": {
+    "value": "XIAO-sarja ESP32:lla nRF52:n sijaan: Wi-Fi, mutta suurempi virrankulutus.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0e783fe9"
+  },
+  "device.rak-wismesh-1w-booster.notes": {
+    "value": "Lähettää jopa 30 dBm, mikä ylittää eurooppalaisen rajan: toistinopas näyttää, miten pysyt rajan sisällä. Kukin versio toimii joko akulla tai 5 V:lla, tarkista etiketti.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e03b4d5b"
+  },
+  "device.bq-station-g3.notes": {
+    "value": "Modulaarinen tukiasema, jonka vahvistin yltää 35 dBm:iin, selvästi yli eurooppalaisen rajan: aseta hyppyliittimet ja lähetysteho maasi mukaan. Tarvitsee 9–19 V virtalähteen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ee7d06f9"
+  },
+  "device.bq-nano-g2-ultra.notes": {
+    "value": "Kestävä käsilaite, jonka sisäänrakennettu antenni on suunniteltu toimimaan lähellä kehoasi. Akku on valinnainen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5e947959"
+  },
+  "device.m5stack-unit-c6l.notes": {
+    "value": "Pieni moduuli muovikuoressa, saa virran USB-C:stä. Ei akkuliitäntää.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "468b2af6"
+  },
+  "device.meshnology-w12.notes": {
+    "value": "Avoimen lähdekoodin levy, jossa on akku- ja aurinkopaneeliliitännät. Se lähettää jopa 30 dBm, mikä ylittää eurooppalaisen rajan: toistinopas näyttää, miten pysyt rajan sisällä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "df27901e"
+  },
+  "community.nl-dutch-meshcore.desc": {
+    "value": "Hollantilainen vapaaehtoisryhmä MeshCore-käyttäjille Alankomaissa. Se pyörittää yhteisiä MQTT-kerääjiä, tarkkailijanäkymää, asetusapuria ja selaimessa toimivaa laiteohjelmistotyökalupakkia.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c4ad2c7f"
+  },
+  "community.nl-meshcore-net.desc": {
+    "value": "Hollanninkielinen Telegram-keskustelu ja foorumi, jossa hollantilaiset käyttäjät jakavat asennusapua, kanavalistoja ja toistinuutisia.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c57f1887"
+  },
+  "community.be-radio-actief.desc": {
+    "value": "Belgialainen wiki ja Discord, jonka perustivat MeshCoren Belgiaan vuoden 2025 lopulla tuoneet radioamatöörit. Osa laajempaa radioharrastajayhteisöä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7598f9b8"
+  },
+  "community.lu-meshcore-luxembourg.desc": {
+    "value": "Luxemburgilaisten yhdistysten yhteinen aloitussivu, jotka pyörittävät MeshCore-toistimia eri puolilla maata. Ne ovat hakkeri-, radioamatööri- ja varautumisryhmiä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e38285ec"
+  },
+  "community.de-meshcore-de.desc": {
+    "value": "Saksankielinen MeshCore-keskustelu Telegramissa, käytössä koko Saksassa ja itävaltalaisissa ryhmissä. Matrix-huone on tarjolla niille, jotka pitävät siitä enemmän.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c2d34fef"
+  },
+  "community.de-berlin-chaos-mesh.desc": {
+    "value": "Hackerspace-taustainen Berliinin ryhmä, jolla on foorumi, Matrix-huone ja PotatoMesh-näkymä. Se kattaa MeshCoren muiden mesh-projektien ohella.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9f0065e0"
+  },
+  "community.de-isarmesh.desc": {
+    "value": "Foorumi LoRa mesh -käyttäjille Münchenin seudulla. Se järjestää säännöllisiä tapaamisia ja keskustelee MeshCoresta ja muista mesh-projekteista.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "05e62cf9"
+  },
+  "community.de-mesh-dresden.desc": {
+    "value": "Dresdenin ryhmä, jolla on syventäviä teknisiä artikkeleita toistinten ylläpitäjille. Se pyörittää myös paikallista keskustelua MeshCoresta ja muista mesh-projekteista.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fd5d9e40"
+  },
+  "community.at-meshcore-austria.desc": {
+    "value": "Itävaltalainen yhteisösivusto, jossa on asennusoppaita, tapahtumia ja uutisia. Itävallan Telegram-ryhmää ylläpidetään sivustosta erillään.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3dfcd101"
+  },
+  "community.ch-meshcore-switzerland.desc": {
+    "value": "Nelikielinen sveitsiläinen sivusto, jossa on laite-, alue- ja kanavaohjeita sekä yhteisöfoorumi kysymyksille ja pyynnöille.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e8eb8c2c"
+  },
+  "community.cz-meshcore-cr.desc": {
+    "value": "Tšekkiläinen wiki laitteistosta, toistimista, kanavista ja alueista, tukenaan Telegram-ryhmä ja kansallinen pakettianalysaattori.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3eb31061"
+  },
+  "community.sk-meshcore-slovensko.desc": {
+    "value": "Slovakialainen verkkosivu, jota isännöi bratislavalainen radioamatöörikerho, Discord-palvelimella ja viikoittaisilla tapaamisilla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "950a6862"
+  },
+  "community.pl-meshcore-polska.desc": {
+    "value": "Koko Puolan kattava yhteisö, jolla on solmukartta, puolankielinen dokumentaatio ja Discord-palvelin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bd6ed843"
+  },
+  "community.fr-meshcore-france.desc": {
+    "value": "Ranskalainen koordinointisivu, joka ohjaa alueellisiin ryhmiin ja alueellisiin reaaliaikakarttoihin. Sitä ylläpidetään itsenäisenä yhteisösivustona.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e2024cd5"
+  },
+  "community.fr-mesh-idf.desc": {
+    "value": "Pariisin seudun wiki, jolla on MeshCore-keskustelu Telegramissa. Wiki kattaa myös muita mesh-projekteja.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b4be06c9"
+  },
+  "community.it-meshcore-italia.desc": {
+    "value": "Italian kansallinen yhteisö, jolla on oppaita, listat alue- ja säävaroituskanavista, reaaliaikainen solmukartta ja Telegram-ryhmä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2a6caa8e"
+  },
+  "community.pt-meshcore-portugal.desc": {
+    "value": "Portugalilaiset yhteisökeskustelut, koottuna yhteen Telegram-kansioon.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "31bbdf73"
+  },
+  "community.dk-meshcore-dk.desc": {
+    "value": "Tanskalainen wiki, jossa on aloitussivuja, laitehuomioita, alueasetukset ja kuvia oikeista toistinasennuksista.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d0895f3b"
+  },
+  "community.se-meshat.desc": {
+    "value": "Ruotsalainen kohtaamispaikka mesh-verkoille, jolla on foorumi, Discord ja Matrix-huone. Se pyörittää MeshCoren MQTT- ja karttapalveluja ja kattaa myös muita mesh-projekteja.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "33d9ed2b"
+  },
+  "community.fi-mesh-finland.desc": {
+    "value": "Suomalainen MeshCore-sivusto, jossa on linkit kansalliseen analysaattoriin ja kuuluvuuskarttoihin. Sen Discord-palvelin on jaettu muiden mesh-projektien käyttäjien kanssa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3d618dfa"
+  },
+  "community.no-meshwiki.desc": {
+    "value": "Norjalainen wiki, jossa on MeshCore-osio muiden mesh-projektien rinnalla, sekä linkitetty foorumi.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ccd83ba2"
+  },
+  "community.ee-estmesh.desc": {
+    "value": "Virolainen MeshCore-sivu ja wiki, joissa on kansalliset ja kaupunkikohtaiset kanavat, sekä Discord-palvelin virolaisille radioharrastajille.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14530e0d"
+  },
+  "community.lv-apraide.desc": {
+    "value": "Latvialainen LoRa mesh -yhteisö, joka valitsi verkkoonsa MeshCoren. Keskustelu käydään Matrix-huoneessa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "42e8a5c2"
+  },
+  "community.lt-atviras-tinklas.desc": {
+    "value": "Liettualainen yhteisösivusto, jossa on tietopankki, laitesivut ja MeshCore-verkon reaaliaikainen verkkoanalysaattori.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8a0f8ba4"
+  },
+  "community.si-meshcore-slovenija.desc": {
+    "value": "Slovenialainen sivusto, jossa on suositellut alueelliset radioasetukset, solmukartta ja laiteohjelmistolinkit.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "73253c8c"
+  },
+  "community.bg-meshcore-bulgaria.desc": {
+    "value": "Bulgarialainen yhteisö Sofian ja Plovdivin seudulla, radioyhteyksin Romaniaan ja Serbiaan. Se julkaisee kanavia, esiasetuksia ja suunnittelutyökaluja.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ef62c925"
+  },
+  "community.rs-meshcore-srbija.desc": {
+    "value": "Epävirallinen serbialainen yhteisösivusto, jolla on solmurekisteri ja reaaliaikainen kartta Serbian ja naapurimaiden kattavasta verkosta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "874059ce"
+  },
+  "community.gr-meshcore-greece.desc": {
+    "value": "Kreikkalainen Discord-palvelin MeshCore-verkkojen suunnitteluun ja ylläpitoon Kreikassa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3fa83721"
+  },
+  "community.gb-meshhub-uk.desc": {
+    "value": "Koko Britannian kattava keskus, jossa on yhteisötyökaluja, karttoja ja tapahtumia MeshCore-käyttäjille ja muille mesh-yhteisöille.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "050038cc"
+  },
+  "community.gb-scotmesh.desc": {
+    "value": "Vapaaehtoisten pyörittämä skotlantilainen yhteisö, jolla on foorumi, wiki ja Discord. Se käyttää MeshCorea muiden mesh-projektien rinnalla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cce9f41c"
+  },
+  "community.ie-lora-project.desc": {
+    "value": "Itsenäinen MeshCore-aloitussivusto koko Irlannin saarelle. Sen Discord-palvelin kattaa sekä pohjoisen että etelän.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5f335412"
+  },
+  "community.at-carinthiamesh.desc": {
+    "value": "MeshCore-wiki Kärntenille: aloitus, radioasetukset, laitteet ja toistimet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b601e188"
+  },
+  "community.at-meshcore-austria-at.desc": {
+    "value": "Saksankielinen yhteisöwiki MeshCoresta Itävallassa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7746c59b"
+  },
+  "community.be-loramesh.desc": {
+    "value": "Belgialainen ryhmä, joka käyttää MeshCorea hätäviestintään, kun internet ja matkapuhelinverkko ovat poikki.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a0d79514"
+  },
+  "community.be-meshpot.desc": {
+    "value": "Ranskankielinen opas MeshCore-meshiin liittymiseen, sen rakentamiseen ja suojaamiseen Brysselissä ja Valloniassa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3c6c5a0a"
+  },
+  "community.fr-loramesh.desc": {
+    "value": "Ranskalainen ryhmä, joka pitää paikalliset yhteydet toiminnassa MeshCorella, kun internet tai matkapuhelinverkko pettää, askel askeleelta, aktiivisten alueiden kartan kanssa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f22be170"
+  },
+  "community.de-bsmesh.desc": {
+    "value": "MeshCore-verkko Braunschweigin seudulle.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "076fd5a0"
+  },
+  "community.de-bremesh.desc": {
+    "value": "Vapaa MeshCore-verkko Bremenille, Bremerhavenille ja niiden ympäristölle, ohjeiden kanssa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7f614859"
+  },
+  "community.de-pemesh.desc": {
+    "value": "MeshCore-verkko Peinessä ja sen ympäristössä, syntynyt kahden paikallisen meshin yhdistyessä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6423719c"
+  },
+  "community.de-muensterland.desc": {
+    "value": "Yhteisö, joka rakentaa vapaata MeshCore-verkkoa koko Münsterlandiin, alkunsa saaneena Billerbeckissä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6f35e420"
+  },
+  "community.de-mesh-rheinland.desc": {
+    "value": "Reininmaan yhteisö, joka pyörittää sekä MeshCore- että Meshtastic-verkkoa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eb9d7af7"
+  },
+  "community.de-meshcore-de-wiki.desc": {
+    "value": "Saksankielinen wiki, jossa on asennusoppaita ja alueellisten ryhmien hakemisto.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2a7d4602"
+  },
+  "community.de-meshcore-dresden.desc": {
+    "value": "Ryhmä, joka rakentaa MeshCore-verkkoa Dresdenissä ja sen ympäristössä, alueet ja kanavat listattuina.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d0a1d71d"
+  },
+  "community.de-meshmitte.desc": {
+    "value": "Paikallisryhmä Uslarissa ja sen ympäristössä, joka haluaa ihmisten pysyvän yhteydessä sähkö- ja verkkokatkojen aikana.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "82b196a8"
+  },
+  "community.de-saarmesh.desc": {
+    "value": "Alueellinen MeshCore-verkko Saarlandissa, aluerakenteen ja reaaliaikaisen kartan kanssa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2eeeb6e6"
+  },
+  "community.ie-mayo-mesh.desc": {
+    "value": "Mesh-radion käyttäjäryhmä Mayon kreivikunnalle.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "baab199e"
+  },
+  "community.it-lora-brescia.desc": {
+    "value": "Brescian radioryhmä, jolla on italiankieliset oppaat MeshCore-toistinten flashaamiseen ja asentamiseen. Se pyörittää myös Meshtasticia ja LoRa APRS:ää.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "08567551"
+  },
+  "community.it-meshcore-ita.desc": {
+    "value": "Italiankieliset oppaat, Italian yhteinen radioesiasetus ja laitteistohuomiot, Telegram-ryhmän kanssa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8b178f55"
+  },
+  "community.nl-meshwiki.desc": {
+    "value": "Hollantilainen wiki MeshCoresta ja mesh-radiosta, jota kuka tahansa voi muokata.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ce29af01"
+  },
+  "community.pl-lora-meshcore-polska.desc": {
+    "value": "Koko Puolan kattava verkko EU/UK Narrow -esiasetuksella, selityksin siitä, miten se toimii ja kuka sitä rakentaa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4c574d21"
+  },
+  "community.pl-meshcore-podlasie.desc": {
+    "value": "Harrastajia, jotka rakentavat MeshCore-verkkoa Podlasieen, uutisten ja paikallisten asetusten kanssa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a15fb772"
+  },
+  "community.pl-meshgo.desc": {
+    "value": "MeshCore-ryhmä Gdańskin, Gdynian ja Sopotin seudulla, Puolan valtakunnallisella esiasetuksella.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8d16fa09"
+  },
+  "community.ro-brasov-mesh.desc": {
+    "value": "MeshCore-verkko Brașovissa EU/UK Narrow -esiasetuksella.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bd8dcbfa"
+  },
+  "community.ro-meshcore-iasi.desc": {
+    "value": "MeshCore-verkko Iașissa reaaliaikaisen näkymän kanssa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eacc34d4"
+  },
+  "community.es-meshcore-catalunya.desc": {
+    "value": "Katalonialainen yhteisökeskus, jossa on reaaliaikainen kartta, analysaattori ja laitteisto-oppaita.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5357e7fd"
+  },
+  "community.es-nomadmesh.desc": {
+    "value": "Yhteisön MeshCore-verkko Alpujarrasissa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ee8acd03"
+  },
+  "community.ua-meshcore-ua.desc": {
+    "value": "Vapaaehtoisten pyörittämä julkinen mesh yhteydenpitoon eri puolilla Ukrainaa, listoineen toistimista, boteista ja kanavista.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "96fe6d7d"
+  },
+  "community.gb-ipnet.desc": {
+    "value": "Ipswichin yhteisö, joka palvelee Itä-Englantia CoreScope-näkymillä ja MQTT-palveluilla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "114be940"
+  },
+  "community.gb-meshcore-wales.desc": {
+    "value": "Yhteiset radioasetukset ja kanavat Etelä-Walesille ja Länsi-Englannille.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "726b552a"
+  },
+  "community.gb-northmesh.desc": {
+    "value": "Pohjois-Englannin verkko, jolla on reaaliaikainen kartta toistimista, pakettiliikenteestä ja kuuluvuudesta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a1345cca"
+  },
+  "map.meshcore-official-map.desc": {
+    "value": "Projektin oma maailmankartta solmuista, joiden omistajat valitsivat julkaista ne. Suodatettavissa solmutyypin ja radiotaajuuden mukaan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1509cafa"
+  },
+  "map.meshmapper.desc": {
+    "value": "Kuuluvuuskartat, jotka paikalliset vapaaehtoiset ovat koonneet mittausajoista. Ne on jaettu alueellisiin karttoihin eri puolilla Eurooppaa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f333e608"
+  },
+  "map.eu-meshcore-analyzer.desc": {
+    "value": "Yhteinen eurooppalainen analysaattori, joka yhdistää usean yhteisövälittäjän tarkkailijasyötteet yhdeksi reaaliaikaiseksi näkymäksi solmuista, paketeista ja kanavista.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aa93a1ba"
+  },
+  "map.nl-dmc-observers.desc": {
+    "value": "Reaaliaikainen näkymä tarkkailijoista, jotka raportoivat Dutch MeshCoren (DMC) MQTT-kerääjille.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1da8752e"
+  },
+  "map.nl-mc-radar.desc": {
+    "value": "Hollannin meshin verkkotilastot, jotka piirtävät läpäisyn, kanavaliikenteen, solmuaktiivisuuden ja protokollan kunnon hollantilaisten tarkkailijoiden tiedoista.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a54bab7e"
+  },
+  "map.cz-analyzer.desc": {
+    "value": "CoreScope-instanssi Tšekin verkolle, reaaliaikaisella pakettisyötteellä, solmukartalla ja solmukohtaisilla tilastoilla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ade9ad40"
+  },
+  "map.fi-corescope.desc": {
+    "value": "Suomalainen CoreScope-analysaattori, joka näyttää kansallisen MeshCore-verkon kartalla reaaliaikaisten pakettien kanssa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9fa0aa59"
+  },
+  "map.se-meshat-corescope.desc": {
+    "value": "Ruotsalainen CoreScope-analysaattori, jota syöttää Meshat.se:n MeshCore MQTT -välittäjä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a1e700c6"
+  },
+  "map.fr-cartolite.desc": {
+    "value": "Itse isännöity reaaliaikainen kartta MeshCore-liikenteestä maailmanlaajuisesti. Se piirtää kuullut linkit, reaaliaikaiset paketit ja lämpökartan maastokartalle.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "abcdec75"
+  },
+  "map.ee-litescope.desc": {
+    "value": "Kevyt virolainen analysaattori, jossa on reaaliaikainen pakettisyöte, solmukartta, signaalitilastot ja tarkkailijoiden yleiskuva.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "040c7753"
+  },
+  "map.ie-mayomesh-live.desc": {
+    "value": "Reaaliaikainen irlantilainen kartta solmuista, viestireiteistä ja ilmoitusten reiteistä, kuuluvuus-, näköyhteys- ja etenemistyökaluilla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "244a4a53"
+  },
+  "map.de-meshcorenetz-analyzer.desc": {
+    "value": "MeshCore Analyzer MeshCoreNetz.de:n väreissä, avautuu Pohjois-Saksaan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7c597271"
+  },
+  "map.de-meshdresden-analyzer.desc": {
+    "value": "MeshCore Analyzer MeshDresden.eu:n väreissä, Dresdenin yhteisömeshin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b7456441"
+  },
+  "map.nl-cornmeister.desc": {
+    "value": "MeshCore Analyzer Cornmeister.nl:n väreissä, avautuu Alankomaihin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "69efcf8b"
+  },
+  "map.be-bemesh-map.desc": {
+    "value": "Kartta belgialaisista asiakaslaitteista, toistimista, huonepalvelimista ja antureista, jossa omistajat voivat lunastaa solmunsa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "37af8d74"
+  },
+  "map.be-on8ar-corescope.desc": {
+    "value": "CoreScope-analysaattori Belgiassa kuullulle liikenteelle.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "97d8adf0"
+  },
+  "map.is-corescope.desc": {
+    "value": "CoreScope-analysaattori Islannin verkolle.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9441de4b"
+  },
+  "map.pl-meshcore-polska-map.desc": {
+    "value": "Reaaliaikainen kartta puolalaisista asiakaslaitteista, toistimista, huonepalvelimista ja antureista.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "57d86a21"
+  },
+  "map.fr-loramesh-map.desc": {
+    "value": "Kartta Ranskan alueista, joilla MeshCore on aktiivinen. Kuuluvuus on yhä hajanainen suurten kaupunkien ulkopuolella.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "85632f3a"
+  },
+  "map.de-meshcore-de-regions.desc": {
+    "value": "Muokattava kartta MeshCore-alueista ja paikallisryhmistä, enimmäkseen Saksassa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cec143bd"
+  },
+  "map.gb-ukmesh.desc": {
+    "value": "Britannian verkkoanalytiikka reiteillä ja reaaliaikaisilla näkymillä, tarkkailijoiden syöttämänä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "03a38df8"
+  },
+  "map.gb-meshrank.desc": {
+    "value": "Sijoituksia ja tilastoja toistimista ja reiteistä, pääasiassa Britanniassa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "997a9a6e"
+  },
+  "map.gb-m3sh-contacts.desc": {
+    "value": "Britannian verkko sellaisena kuin yksi Oxfordshiren solmu sen kuulee, solmujen laitteistoineen ja päällekkäisine etuliitteineen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cb2153f9"
+  },
+  "map.kiekr-map.desc": {
+    "value": "Mitkä radioalueet kantavat minne, laskettuna naapureista, joita KiekR-käyttäjät havaitsevat.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9a3aceee"
+  },
+  "map.hopradar.desc": {
+    "value": "Yhdistä oma solmusi Bluetoothilla tai USB:llä ja näe selaimessa sen kuulemat hypyt, reitit ja SNR.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ae215bf8"
+  },
+  "project.meshcore-firmware.desc": {
+    "value": "Virallinen MeshCore-laiteohjelmisto ja reitityskirjasto LoRa-korteille, companion-, toistin-, huonepalvelin- ja anturirooleilla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bba821af"
+  },
+  "project.meshcore-js.desc": {
+    "value": "JavaScript-kirjasto MeshCore companion -radioiden kanssa keskusteluun selaimista ja Node.js:stä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0b9ed81f"
+  },
+  "project.meshcore-py.desc": {
+    "value": "Python-sidokset MeshCore companion -radion ohjaamiseen sarjaportin, Bluetoothin tai TCP:n yli.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "305bd163"
+  },
+  "project.meshcore-cli.desc": {
+    "value": "Komentoriviasiakas viestien lähettämiseen MeshCore-solmuille ja niiden hallintaan terminaalista.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6f68e501"
+  },
+  "project.meshcore-ha.desc": {
+    "value": "Home Assistant -integraatio, joka tuo MeshCore-solmut, viestit ja telemetrian entiteetteinä valvontaan ja automaatioihin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8b5725be"
+  },
+  "project.meshcore-flasher.desc": {
+    "value": "Lähdekoodi selaimessa toimivalle työkalulle, joka flashaa MeshCore-laiteohjelmiston tuetuille korteille USB:n yli.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ba3feb1b"
+  },
+  "project.meshcore-map.desc": {
+    "value": "Lähdekoodi viralliselle solmukartalle, jossa omistajat voivat julkaista solmunsa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "91b7682b"
+  },
+  "project.openhop-repeater.desc": {
+    "value": "Python-toistindaemon, joka muuttaa SPI LoRa -radiolla varustetun Linux-tietokoneen MeshCore-yhteensopivaksi toistimeksi.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d2bf1646"
+  },
+  "project.openhop-core.desc": {
+    "value": "MeshCore-protokollan ja reitityspinon Python-uudelleentoteutus, jossa on suora tuki SPI LoRa -radioille.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "54ed7f73"
+  },
+  "project.meshcore-open.desc": {
+    "value": "Avoimen lähdekoodin monialustainen Flutter-sovellus MeshCore-radioille Bluetoothin, USB-sarjaportin tai TCP:n yli, mukaan lukien verkkoversio.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c322a23f"
+  },
+  "project.meshcoretomqtt.desc": {
+    "value": "Skripti, joka välittää MeshCore-tarkkailijaradion pakettikaappaukset MQTT-välittäjälle analysaattoreita varten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "19dfb497"
+  },
+  "project.meshcore-mqtt-broker.desc": {
+    "value": "MQTT-välittäjä, joka tunnistaa tarkkailijat niiden MeshCore-avainparien perusteella salasanojen sijaan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ca27fa19"
+  },
+  "project.corescope.desc": {
+    "value": "Itse isännöity MeshCore-analysaattori, joka vastaanottaa paketit MQTT:n yli. Se tarjoaa reaaliaikaisen syötteen, karttoja, kanavanäkymiä ja solmutilastoja.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a74322db"
+  },
+  "project.litescope.desc": {
+    "value": "Kevyt itse isännöity näkymä MeshCore-verkon seuraamiseen. Viron yhteisö pyörittää sellaista.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1dc42e5a"
+  },
+  "project.meshcore-hub.desc": {
+    "value": "Python-alusta brittiläiseltä yhteisöltä. Se kerää MQTT-tapahtumat tietokantaan ja tarjoaa REST-rajapinnan sekä web-kojelaudan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "07442a84"
+  },
+  "project.potato-mesh.desc": {
+    "value": "Hajautettu yhteisön kojelauta MeshCorelle ja muille mesh-verkoille, jota Berlin Chaos Mesh käyttää.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7b98d4f7"
+  },
+  "project.meshcore-mqtt-live-map.desc": {
+    "value": "Reaaliaikainen web-kartta, jota MeshCoren MQTT-syöte ohjaa. Se näyttää solmut, reitit ja kuuluvuuden reaaliajassa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e0380e74"
+  },
+  "project.meshcore-bot.desc": {
+    "value": "Python-botti, joka vastaa komentoihin MeshCore-kanavilla ja voi välittää viestejä Discordiin ja Telegramiin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "04a73c83"
+  },
+  "project.meshcore-channels.desc": {
+    "value": "Yhteisön muokattava JSON-lista julkisista MeshCore-kanavista maittain ryhmiteltynä, julkaistu sovellusten käyttöön.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f3bb8a9a"
+  },
+  "project.meshcore-regions.desc": {
+    "value": "Yhteisön muokattava JSON-luettelo MeshCoren aluekoodeista eri puolilta maailmaa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ea403726"
+  },
+  "project.zephcore.desc": {
+    "value": "MeshCoren siirros Arduinosta Zephyr-reaaliaikakäyttöjärjestelmään.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d68923fa"
+  },
+  "project.meshcore-ng.desc": {
+    "value": "Hollantilainen laiteohjelmiston haara, joka parantaa toistimia tiheissä ja vilkkaissa mesh-verkoissa ja pysyy yhteensopivana vakioasiakkaiden kanssa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5f288c67"
+  },
+  "project.meshcore-solo.desc": {
+    "value": "Companion-laiteohjelmiston haara, joka lisää offline-GPS-navigoinnin reittipisteillä, kompassilla ja GPX-viennillä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1c9d0659"
+  },
+  "project.meshcore-c.desc": {
+    "value": "Riippuvuuksista vapaa C-toteutus MeshCore-protokollasta, kirjastona mihin tahansa projektiin tai komponenttina ESP-IDF:lle.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "327a07f8"
+  },
+  "project.lora-mesh-nodes.desc": {
+    "value": "Kokoelma itse rakennettavia liikkuvia ja aurinkokäyttöisiä solmuja koteloineen, tulostettavine osineen ja osaluetteloineen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "637e2726"
+  },
+  "project.lora-harvester-box.desc": {
+    "value": "Avoin laitteistopiirilevy, joka yhdistää STM32WL LoRa -piirin energiankerääjään, erittäin vähävirtaisiin LoRa-solmuihin, myös MeshCoreen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6ecc7144"
+  },
+  "project.mesh-hunter.desc": {
+    "value": "Puhelimen web-sovellus, joka muodostaa pariliitoksen companion-radioon ja kirjaa jokaisen kuulemansa paketin GPS-sijaintisi kanssa, jotta voit kävellä tai ajaa kohti ei-toivotun liikenteen lähdettä. Se voi jakaa kuulemansa MQTT-välittäjille.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d0fb854e"
+  },
+  "project.eu-meshcore-analyzer.desc": {
+    "value": "Euroopan MeshCore-verkon reaaliaikainen kartta ja analysaattori, jota syöttävät tarkkailijat ja puhelinsovellukset raportoimalla kuulemansa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fed133d8"
+  },
+  "project.dmc-triangulator.desc": {
+    "value": "Rajaa solmun sijainnin sen kuulleiden toistimien perusteella ensimmäiseksi hakualueeksi ennen paikallista etsintää.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f73b5e0b"
+  },
+  "project.kiekr.desc": {
+    "value": "Puhelinsovellus viestintään meshissä. Se kartoittaa myös kuuluvuuden ja voi lähettää kuulemansa analysaattoreihin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "05e5f56a"
+  },
+  "project.meshmapper.desc": {
+    "value": "Wardriving-ajoista koottu kuuluvuuskartta alueellisine instansseineen, omine MQTT-välittäjineen ja avoimine rajapintoineen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1135e1cd"
+  },
+  "project.trail-mate.desc": {
+    "value": "Offline-laiteohjelmisto LilyGO T-LoRa Pagerille ja T-Deckille, GPS-navigoinnilla ja tiimiviestinnällä MeshCoren ja Meshtasticin yli.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "86cd32a0"
+  },
+  "project.remote-terminal.desc": {
+    "value": "Itse isännöitävä asiakas MeshCore-radiolle, joka säilyttää ja purkaa kaapatut paketit palvelimella, botteineen ja MQTT:ineen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "90c11494"
+  },
+  "project.meshpoint.desc": {
+    "value": "Raspberry Pi -tukiasema SX1302- tai SX1303-keskittimellä, joka kuuntelee useaa kanavaa kerralla, paikallisella kojelaudalla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6c668061"
+  },
+  "project.easyskymesh.desc": {
+    "value": "Laiteohjelmiston haara, joka säästää virtaa akulla tai pienellä aurinkopaneelilla toimivissa toistimissa ja anturisolmuissa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3b1503dc"
+  },
+  "project.solar-os.desc": {
+    "value": "Pieni tekstipohjainen käyttöjärjestelmä ESP32-taskupäätteille, jossa MeshCore companion omalla radiolla tai pariliitetyllä solmulla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "23677e08"
+  },
+  "project.wio-tracker-l1-pro.desc": {
+    "value": "Companion-laiteohjelmisto Seeed Wio Tracker L1 Prolle, käyttöliittymällä itse laitteessa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b694d013"
+  },
+  "project.meshcore-one.desc": {
+    "value": "Natiivi MeshCore-sovellus iPhonelle, iPadille ja Macille.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "87505963"
+  },
+  "project.lunarcore.desc": {
+    "value": "Rust-laiteohjelmisto Heltec WiFi LoRa 32 V3:lle, joka puhuu MeshCorea, Meshtasticia ja muita protokollia.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f2c6fabd"
+  },
+  "project.meshcore-sar.desc": {
+    "value": "Offline-sovellus etsintä- ja pelastusryhmille: viestit, puhe, kuvat, kartat ja jaetut sijainnit MeshCoren yli.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "413c9353"
+  },
+  "project.cardputer-adv-stachugit.desc": {
+    "value": "Companion-laiteohjelmisto M5Stack Cardputer ADV:lle LoRa-lisäosalla, chat-näytöllä ja väriteemoilla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9ab883fb"
+  },
+  "project.meshcoreterm.desc": {
+    "value": "Retrotyylinen kosketuslaiteohjelmisto LilyGO T-Deckille, Seeed SenseCAP Indicatorille ja muille näytöllisille piirilevyille.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ac08cb0e"
+  },
+  "project.mesh-client.desc": {
+    "value": "Työpöytäsovellus macOS:lle, Linuxille ja Windowsille, joka keskustelee MeshCore-, Meshtastic- ja Reticulum-radioiden kanssa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "61a3a731"
+  },
+  "project.mishmesh.desc": {
+    "value": "Companion-laiteohjelmisto omalla käyttöliittymällä radiossa, jotta voit viestiä ilman pariliitettyä puhelinta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9bde8382"
+  },
+  "project.overmesh.desc": {
+    "value": "Omalla tietokoneellasi ajettava kojelauta MeshCorelle ja Meshtasticille, solmukartalla, chatilla, botilla ja offline-kartoilla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fbacbc50"
+  },
+  "project.meshcore-wardrive-android.desc": {
+    "value": "Android-sovellus, joka kartoittaa MeshCoren kuuluvuutta, kun kävelet tai ajat.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6c9c49ec"
+  },
+  "project.akita-bridge.desc": {
+    "value": "Silta, joka välittää viestejä Meshtasticin ja MeshCoren välillä sarjayhteyden tai MQTT:n yli.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eff5e3a1"
+  },
+  "project.meshcore-packet-capture.desc": {
+    "value": "Python-skripti, joka kaappaa paketit companion-radiosta ja julkaisee ne MQTT:hen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5325460e"
+  },
+  "project.cardputer-adv-sosprz.desc": {
+    "value": "Companion-laiteohjelmisto M5Stack Cardputer ADV:lle Cap LoRa868 -lisäosalla, ladataan M5Burnerilla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cf8b55c5"
+  },
+  "project.lora-wideband-decoder.desc": {
+    "value": "Ohjelmistoradiovastaanotin, joka purkaa MeshCore-, Meshtastic- ja LoRaWAN-liikennettä laajalta kaistalta, paikallisella web-sivulla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f3e575ff"
+  },
+  "project.mc-webui.desc": {
+    "value": "Web-käyttöliittymä meshcore-cli:n päällä, viestintään selaimesta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3372c462"
+  },
+  "project.meshfirmware.desc": {
+    "value": "Skriptit Linuxille ja Windowsille, jotka valitsevat, kääntävät ja lataavat MeshCore- ja Meshtastic-laiteohjelmiston USB:n yli.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be0d230e"
+  },
+  "project.repeater-mqtt-gateway.desc": {
+    "value": "Toistimen laiteohjelmisto, joka yhdistää meshin myös MQTT-välittäjään, molempiin suuntiin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "23f7dfec"
+  },
+  "project.tak-meshcore.desc": {
+    "value": "Lisäosa, jonka avulla ATAK-tilannekuvasovellus voi käyttää MeshCore companion-radiota Bluetoothin yli.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "acbecd75"
+  },
+  "project.meshcore-decoder.desc": {
+    "value": "TypeScript-kirjasto, joka purkaa MeshCore-paketit, salauksen purku mukaan lukien.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1235f40d"
+  },
+  "project.mesh-loader.desc": {
+    "value": "Kaksoiskäynnistys Heltec WiFi LoRa 32 V3:lle ja V4:lle: pidä kaksi laiteohjelmistoa yhdellä piirilevyllä ja vaihda niiden välillä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be49552e"
+  },
+  "project.meshcore-proxy.desc": {
+    "value": "TCP-välityspalvelin, joka tekee USB- tai Bluetooth-yhteydellä olevasta companion-radiosta tavoitettavan muiden tietokoneiden sovelluksille.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eaf24463"
+  },
+  "project.roadstr.desc": {
+    "value": "Tietapahtumien raportointi ilman keskuspalvelinta: allekirjoitetut Nostr-tapahtumat, jotka kulkevat MeshCoren yli, kun internetiä ei ole.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "60e39810"
+  },
+  "guides_group_start": {
+    "value": "Ensimmäinen solmusi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "276f7ca8"
+  },
+  "guides_group_setup": {
+    "value": "Määritä solmusi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "55efd611"
+  },
+  "guides_group_deeper": {
+    "value": "Syvemmälle",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6bce982b"
+  },
+  "guides_card_get_started_title": {
+    "value": "Aloita tästä",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "61e8d44a"
+  },
+  "guides_card_get_started_desc": {
+    "value": "Uudesta levystä ensimmäiseen viestiisi meshissä, 6 askeleessa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "133bcbfc"
+  },
+  "guides_card_devices_title": {
+    "value": "Laitteet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4ba5121d"
+  },
+  "guides_card_devices_desc": {
+    "value": "Vertaile levyjä roolin, hinnan ja virtalähteen mukaan ja valitse sinulle sopiva.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cf3bba38"
+  },
+  "guides_card_settings_title": {
+    "value": "Suositellut asetukset",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cfb32983"
+  },
+  "guides_card_settings_desc": {
+    "value": "Alueesi käyttämä radioasetus ja asetukset, joita naapurisi ovat muuttaneet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8e18863a"
+  },
+  "guides_card_antenna_title": {
+    "value": "Antenniopas",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3a76cb0e"
+  },
+  "guides_card_antenna_desc": {
+    "value": "Antenni on puolet solmustasi. Tarkista companion-laitteesi antenni, ja valitse, liitä ja asenna antenni toistimelle.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "abcdd786"
+  },
+  "guides_card_repeater_title": {
+    "value": "Toistinopas",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4608abcd"
+  },
+  "guides_card_repeater_desc": {
+    "value": "Toistin välittää viestejä kaikille ympärillään. Sijoitus, komennot sen määrittämiseen ja 868 MHz:n lailliset rajat.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "979d61a1"
+  },
+  "guides_card_filter_title": {
+    "value": "Pakettisuodatin",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "20a3ef1f"
+  },
+  "guides_card_filter_desc": {
+    "value": "Estä toistintasi välittämästä roskaa, kuten loputtomasti jauhavaa bottia tai meluisaa kanavaa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2db3748c"
+  },
+  "guides_card_mqtt_title": {
+    "value": "MQTT observer-solmussasi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "62626d0f"
+  },
+  "guides_card_mqtt_desc": {
+    "value": "Observer on solmu, joka välittää kuulemansa MQTT:n kautta. Pystytä sellainen karttaa tai analysaattoria varten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "774395b6"
+  },
+  "guides_card_mctomqtt_title": {
+    "value": "Luo siltakonfiguraatio",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fd2dd667"
+  },
+  "guides_card_mctomqtt_desc": {
+    "value": "Lähetä toistimesi kuulema mihin tahansa MQTT-välittäjään: omaasi tai Analyzeriin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6c4d4692"
+  },
+  "guides_card_cli_title": {
+    "value": "CLI-komennot",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a13cc6cb"
+  },
+  "guides_card_cli_desc": {
+    "value": "Toistimen komennot ja mitä kukin niistä tekee.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "977f43d6"
+  },
+  "firmware_card_flasher_title": {
+    "value": "Asenna",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f3577cb5"
+  },
+  "firmware_card_flasher_desc": {
+    "value": "Asenna MeshCore laitteellesi selaimesta, USB:n kautta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0a1c2394"
+  },
+  "firmware_card_console_title": {
+    "value": "Sarjakonsoli",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4e3c41fa"
+  },
+  "firmware_card_console_desc": {
+    "value": "Anna toistimellesi komentoja selaimesta, USB:n kautta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f0d52063"
+  },
+  "firmware_card_changelog_title": {
+    "value": "Muutosloki",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ead07c84"
+  },
+  "firmware_card_changelog_desc": {
+    "value": "Katso, mikä muuttui kussakin MeshCore-julkaisussa ja tarvitseeko solmusi sitä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "314733fe"
+  },
+  "area_device_repeater": {
+    "value": "Toistimellasi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b5cb30f9"
+  },
+  "area_device_companion": {
+    "value": "Companion-laitteesi sovelluksessa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8e459238"
+  },
+  "area_change_nl_regions": {
+    "value": "Lisää toistimesi palvelemat alueet, kukin ylempänsä sisällä: Eurooppa, Benelux, Alankomaat, maakuntasi ja kaupunkisi. Maakunnastasi tulee oletus.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "593b1502"
+  },
+  "area_change_strict_regions": {
+    "value": "Hylkää paketit ilman aluetta, jotta ne eivät kulje ympäri Eurooppaa. Lisää alueet ensin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "11ca714d"
+  },
+  "area_change_zero_hop": {
+    "value": "Lähetä suorien naapuriesi kuulema ilmoitus 4 tunnin välein.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0e990713"
+  },
+  "area_change_path_hash": {
+    "value": "Käytä 2 tavun reittitiivistettä: se erottaa 65536 toistinta 256:n sijaan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b63880c0"
+  },
+  "area_change_loop": {
+    "value": "Hylkää flood-paketit, jotka kiertävät takaisin toistimesi kautta. Versiolla 1.18 tai uudemmalla määritetty toistin tekee tämän jo valmiiksi.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "44333e2e"
+  },
+  "area_change_dutycycle": {
+    "value": "Rajoita toistimesi lähetysaika 10 %:iin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8877399e"
+  },
+  "area_change_nl_companion_region": {
+    "value": "Aseta sovelluksen kokeellisissa asetuksissa oletusalueeksi nl. Anna jokaiselle kanavalle sen alue, esimerkiksi nl-nh Pohjois-Hollannille.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3c31c16c"
+  },
+  "area_change_companion_path_hash": {
+    "value": "Aseta sovelluksen kokeellisissa asetuksissa reittitiivisteen oletuskooksi 2 tavua.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4e3414d1"
+  },
+  "area_preset": {
+    "value": "Radioasetus",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6fd605ec"
+  },
+  "area_path_hash": {
+    "value": "Reittitiiviste (radioasetuksen määräämä)",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2e93a7f1"
+  },
+  "area_bytes": {
+    "value": "tavua",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "277089d9"
+  },
+  "area_firmware": {
+    "value": "Laiteohjelmisto",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c2a314c3"
+  },
+  "area_or_newer": {
+    "value": "tai uudempi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e2cbdfd0"
+  },
+  "area_changes": {
+    "value": "Muutettu MeshCoren oletuksista",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0587de6f"
+  },
+  "area_source_group": {
+    "value": "Asetusten lähde",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f06dfa4f"
+  },
+  "area_source_preset": {
+    "value": "Radioasetus MeshCore-projektin listasta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "89d3440f"
+  },
+  "area_checked": {
+    "value": "tarkistettu",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e61a3d78"
+  },
+  "area_add_title": {
+    "value": "Lisää oma alueesi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6ec76c28"
+  },
+  "area_add_body": {
+    "value": "Käyttääkö paikallinen ryhmäsi omaa radioasetusta tai muuttaako se asetuksia? Lähetä ne meille linkin kanssa paikkaan, jossa päätitte niistä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5976a5e5"
+  },
+  "area_add_cta": {
+    "value": "Lisää oma alueesi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6ec76c28"
+  },
+  "area_link": {
+    "value": "Linkki tähän alueeseen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "98909794"
+  },
+  "regions_title": {
+    "value": "Alueet: Euroopasta kotikaupunkiisi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "698de558"
+  },
+  "regions_body": {
+    "value": "Alue on aluetta vastaava koodi. Alueet ovat sisäkkäin: Eurooppa, maasi, maakuntasi ja joissakin paikoissa kaupunkisi. Anna toistimellesi alueet, joissa se sijaitsee, kukin ylempänsä sisällä. Se välittää viestit mille tahansa niistä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3f05bbfc"
+  },
+  "regions_map_body": {
+    "value": "Käytössä olevat koodit vaihtelevat alueittain. Kartta näyttää, mitä alueita ympärilläsi olevat toistimet käyttävät: käytä samoja kuin naapurisi, tai toistimesi hylkää heidän viestinsä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4ccf2219"
+  },
+  "regions_europe": {
+    "value": "Eurooppa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e595f45d"
+  },
+  "regions_pick": {
+    "value": "Maakuntasi tai alueesi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ed5a1c0e"
+  },
+  "regions_pick_none": {
+    "value": "Valitse yksi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a880a59d"
+  },
+  "regions_region": {
+    "value": "Alueesi, jos alueellasi on sellainen käytössä",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7ebba635"
+  },
+  "regions_town": {
+    "value": "Kaupunkisi, jos alueellasi on sellainen käytössä",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a6221a2f"
+  },
+  "regions_map": {
+    "value": "Kartta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be176b00"
+  },
+  "regions_map_label": {
+    "value": "MeshCore Analyzerin kartalla",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2df2db10"
+  },
+  "regions_cmd_hint": {
+    "value": "Valitse maakuntasi tai kirjoita sen koodi korostetun arvon päälle, ja kopioi sitten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "54f7feb3"
+  },
+  "area_ph_hint": {
+    "value": "Kirjoita omat arvosi korostettujen päälle, ja kopioi sitten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "04e515aa"
+  },
+  "area_ph_province": {
+    "value": "Maakuntasi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "492cd073"
+  },
+  "area_ph_city": {
+    "value": "Kaupunkisi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "90064d5a"
+  },
+  "area_map_label": {
+    "value": "Kartta alueista ja niiden radioasetuksesta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b49bdce9"
+  },
+  "area_map_own": {
+    "value": "Oma radioasetus tai omat asetukset",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d7dec3ab"
+  },
+  "area_others_title": {
+    "value": "Muu EU ja Yhdistynyt kuningaskunta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5b618852"
+  },
+  "area_country_label": {
+    "value": "Maasi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "18f2456a"
+  },
+  "area_country_pick": {
+    "value": "Valitse maa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "632aadfb"
+  },
+  "area_country_missing": {
+    "value": "Eikö maasi ole listalla? Kysy paikalliselta ryhmältäsi, mitä radioasetusta se käyttää, tai {link}.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "64fd9026"
+  },
+  "area_country_missing_link": {
+    "value": "lisää oma alueesi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "39737a2b"
+  },
+  "area_country_eu": {
+    "value": "{country} ei ole omaa radioasetusta MeshCore-sovelluksessa. Se käyttää radioasetusta {preset}, jonka MeshCore nimeää EU:lle ja Yhdistyneelle kuningaskunnalle.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "221cd765"
+  },
+  "area_others_body": {
+    "value": "Näillä mailla ei ole omaa radioasetusta MeshCore-sovelluksessa. Ne käyttävät radioasetusta EU/UK (Narrow), jonka MeshCore nimeää niille.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0fccb2a7"
+  },
+  "cli_groups": {
+    "value": "Komentoryhmät",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "70883ce1"
+  },
+  "cli_search": {
+    "value": "Hae",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "49c266ba"
+  },
+  "cli_node_q": {
+    "value": "Mikä solmu?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5f669f2f"
+  },
+  "cli_node_repeater": {
+    "value": "Toistin",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "46e7bee1"
+  },
+  "cli_node_room_server": {
+    "value": "Huonepalvelin",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "68b91cc5"
+  },
+  "cli_node_sensor": {
+    "value": "Anturi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "162cc64c"
+  },
+  "cli_node_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1dadb328"
+  },
+  "cli_link": {
+    "value": "Linkki tähän komentoon",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8545494"
+  },
+  "cli_default": {
+    "value": "Oletusarvo",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "faca355f"
+  },
+  "cli_in_source": {
+    "value": "laiteohjelmiston asettama",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4de4eaa8"
+  },
+  "cli_range": {
+    "value": "Arvot",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "53b09e10"
+  },
+  "cli_nodes": {
+    "value": "Toimii solmuissa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c85fc5a0"
+  },
+  "cli_since": {
+    "value": "Vaatii laiteohjelmiston",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5bf596e9"
+  },
+  "cli_build": {
+    "value": "Vain laiteohjelmistossa, johon on käännetty",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bb208568"
+  },
+  "cli_build_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "176c7866"
+  },
+  "cli_build_sensors": {
+    "value": "anturit",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e22dfb01"
+  },
+  "cli_build_bridge": {
+    "value": "silta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5a0b83ee"
+  },
+  "cli_build_ethernet": {
+    "value": "Ethernet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "681e1209"
+  },
+  "cli_build_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "10df5f54"
+  },
+  "cli_group_operational": {
+    "value": "Uudelleenkäynnistys, nollaus ja päivitys",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a49f50c1"
+  },
+  "cli_group_adverts": {
+    "value": "Ilmoitukset",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8b8ad4a7"
+  },
+  "cli_group_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2a7dfeb2"
+  },
+  "cli_group_system": {
+    "value": "Nimi, salasana ja kello",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a96ceeac"
+  },
+  "cli_group_routing": {
+    "value": "Reititys",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bcba696f"
+  },
+  "cli_group_regions": {
+    "value": "Alueet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "610c65d8"
+  },
+  "cli_group_access": {
+    "value": "Käyttöoikeudet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ec5ba0ab"
+  },
+  "cli_group_neighbours": {
+    "value": "Naapurit",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "24be7e7c"
+  },
+  "cli_group_statistics": {
+    "value": "Tilastot",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a656107e"
+  },
+  "cli_group_logging": {
+    "value": "Lokitus",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d3ef01b4"
+  },
+  "cli_group_info": {
+    "value": "Versio ja levy",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9a90dcaa"
+  },
+  "cli_group_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "176c7866"
+  },
+  "cli_group_sensors": {
+    "value": "Anturit",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "76140e34"
+  },
+  "cli_group_bridge": {
+    "value": "Silta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3892e103"
+  },
+  "cli_group_ethernet": {
+    "value": "Ethernet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "681e1209"
+  },
+  "cli_group_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "10df5f54"
+  },
+  "cmd_reboot_desc": {
+    "value": "Käynnistää solmun heti uudelleen, eikä solmu lähetä sinulle vastausta. Käytä sitä ottaaksesi käyttöön asetukset, jotka tulevat voimaan vasta uudelleenkäynnistyksen jälkeen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6850ad24"
+  },
+  "cmd_poweroff_desc": {
+    "value": "Sammuttaa solmun sitä tukevilla levyillä, lähettämättä vastausta. Tarvitset virtapainikkeen tai virran katkaisun käynnistääksesi sen uudelleen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5088476d"
+  },
+  "cmd_clkreboot_desc": {
+    "value": "Asettaa kellon takaisin varhaiseen päivämäärään ja käynnistää solmun uudelleen ilman vastausta. Käytä sitä, kun kello käy edellä eikä suostu palaamaan taaksepäin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d02bbe66"
+  },
+  "cmd_clock_desc": {
+    "value": "Näyttää solmun kellon UTC-ajassa tai asettaa sen Unix-aikaan sekunteina. Kello liikkuu vain eteenpäin, joten käytä ensin clkreboot-komentoa siirtyäksesi taaksepäin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0193d15f"
+  },
+  "cmd_clock_sync_desc": {
+    "value": "Asettaa solmun kellon aikaan, jonka companion-laitteesi lähettää tämän komennon mukana. Se toimii vain meshin kautta, koska sarjakonsoli ei lähetä aikaa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "39198623"
+  },
+  "cmd_start_ota_desc": {
+    "value": "Käynnistää laiteohjelmiston päivityksen ilmateitse sitä tukevilla ESP32- ja nRF52-levyillä. ESP32 avaa WiFi-tukiaseman, nRF52 käynnistää Bluetooth-päivityksen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "69bd5985"
+  },
+  "cmd_erase_desc": {
+    "value": "Tyhjentää solmun tiedostojärjestelmän, mukaan lukien asetukset ja identiteetin, vain sarjaportin kautta. Käytä sitä tehdasasetusten palautukseen, koska sitä ei voi perua.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e781518d"
+  },
+  "cmd_room_post_desc": {
+    "value": "Lähettää huoneeseen viestin huonepalvelimen itsensä nimissä. Kaikki huoneessa olevat vastaanottavat sen kuten minkä tahansa muun viestin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "88a6e1f5"
+  },
+  "cmd_advert_desc": {
+    "value": "Lähettää flood-ilmoituksen heti, jotta solmut ympäri meshiä saavat tietää tästä solmusta. Käytä sitä, kun olet muuttanut nimeä tai sijaintia.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "21526c3a"
+  },
+  "cmd_advert_zerohop_desc": {
+    "value": "Lähettää ilmoituksen vain suorille naapureille, eikä mikään toistin välitä sitä eteenpäin. Käytä sitä ilmoittaaksesi solmusta lähistölle kuormittamatta koko meshiä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dfbc07b6"
+  },
+  "cmd_advert_interval_desc": {
+    "value": "Asettaa, kuinka usein minuutteina solmu lähettää nollahypyn ilmoituksen naapureilleen. Käytä arvoa 0 lopettaaksesi ne; mikä tahansa tallennettu muutos lopettaa myös alle 60:n välit.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f99f3d5f"
+  },
+  "cmd_flood_advert_interval_desc": {
+    "value": "Asettaa, kuinka usein tunteina solmu lähettää flood-ilmoituksen koko meshiin. Käytä arvoa 0 lopettaaksesi tämän solmun automaattiset flood-ilmoitukset kokonaan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6473270c"
+  },
+  "cmd_neighbours_desc": {
+    "value": "Listaa toistimet, jotka tämä solmu kuuli suoraan, viimeisin ensin. Jokainen rivi näyttää avaimen etuliitteen, sekunnit kuulemisesta ja SNR:n kerrottuna 4:llä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9bd6e27f"
+  },
+  "cmd_neighbour_remove_desc": {
+    "value": "Poistaa jokaisen naapurin, jonka julkinen avain alkaa antamallasi heksaetuliitteellä. Käytä sitä vanhan toistimen poistamiseen naapurilistasta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c1b8c616"
+  },
+  "cmd_discover_neighbours_desc": {
+    "value": "Pyytää suoran kantaman toistimia vastaamaan ja lisää jokaisen vastauksen naapureihin. Käytä sitä täyttääksesi listan odottamatta niiden ilmoituksia. Toistin, jonka molemmat ilmoitusvälit ovat 0 tai jolla toisto on pois päältä, pysyy hiljaa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1ab216ce"
+  },
+  "cmd_clear_stats_desc": {
+    "value": "Nollaa solmun paketti-, radio- ja ydinlaskurit. Käytä sitä ennen kuin mittaat liikennettä tietyllä ajanjaksolla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ead62ceb"
+  },
+  "cmd_stats_core_desc": {
+    "value": "Näyttää solmun akkujännitteen, käyntiajan, virhemäärän ja lähetysjonon pituuden. Se toimii vain sarjakonsolissa, ei meshin kautta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ba9fa3d2"
+  },
+  "cmd_stats_radio_desc": {
+    "value": "Näyttää kohinatason, viimeisimmän RSSI:n ja SNR:n sekä lähetykseen ja vastaanottoon käytetyn ilma-ajan. Se toimii vain sarjakonsolissa, ei meshin kautta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bedd2bf2"
+  },
+  "cmd_stats_packets_desc": {
+    "value": "Näyttää, kuinka monta pakettia solmu vastaanotti ja lähetti, jaoteltuna flood- ja suoriin paketteihin. Se toimii vain sarjakonsolissa, ei meshin kautta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d8a3b4d1"
+  },
+  "cmd_log_capture_desc": {
+    "value": "Aloittaa tai lopettaa jokaisen solmun vastaanottaman ja lähettämän paketin kirjoittamisen lokitiedostoon. Käytä sitä liikenteen tallentamiseen ja lue se sitten log-komennolla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "79dcb812"
+  },
+  "cmd_log_erase_desc": {
+    "value": "Poistaa pakettilokitiedoston solmun tallennustilasta. Käytä sitä vapauttaaksesi tilaa tai aloittaaksesi puhtaan tallennuksen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9c32fe03"
+  },
+  "cmd_log_desc": {
+    "value": "Tulostaa tallennetun pakettilokin rivi riviltä sarjakonsoliin. Se toimii vain sarjakonsolissa, ei meshin kautta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "59c80f62"
+  },
+  "cmd_ver_desc": {
+    "value": "Näyttää solmun laiteohjelmiston version ja käännöspäivän. Käytä sitä tarkistaaksesi ennen päivitystä, mikä julkaisu on käytössä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c0752f1b"
+  },
+  "cmd_board_desc": {
+    "value": "Näyttää sen laitteistolevyn nimen, jolle laiteohjelmisto on käännetty. Käytä sitä tarkistaaksesi, että flashasit oikean laiteohjelmiston.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3e5ed786"
+  },
+  "cmd_power_desc": {
+    "value": "Näyttää akkujännitteen sekä sen, ovatko USB, aurinkopaneeli, ulkoinen virta ja laturi aktiivisia. Levy, joka ei pysty tunnistamaan USB:tä tai aurinkopaneelia, näyttää niille n/a.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4e5129e4"
+  },
+  "cmd_public_key_desc": {
+    "value": "Näyttää solmun koko julkisen avaimen heksamuodossa. Jaa se, kun joku kysyy, mikä solmu on sinun, tai kun toistimen omistaja antaa companion-laitteellesi roolin setperm-komennolla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d754bc23"
+  },
+  "cmd_role_desc": {
+    "value": "Näyttää, mitä laiteohjelmistoa solmu ajaa: repeater, room_server vai sensor. Käytä sitä tarkistaaksesi roolin ennen kuin muutat asetuksia etänä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "627a92c5"
+  },
+  "cmd_bootloader_ver_desc": {
+    "value": "Näyttää nRF52-korteilla toimivan käynnistyslataimen version. Kaikilla muilla korteilla solmu vastaa, että komentoa ei tueta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a3e90e05"
+  },
+  "cmd_pwrmgt_support_desc": {
+    "value": "Näyttää, sisältääkö tämä laiteohjelmistoversio nRF52-korttien virranhallinnan. Muut pwrmgt-komennot tarvitsevat tämän tuen vastatakseen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "139d6f9d"
+  },
+  "cmd_pwrmgt_source_desc": {
+    "value": "Näyttää, toimiiko solmu ulkoisella virralla vai akullaan. Vain laiteohjelmistoversiot, joissa on nRF52-virranhallinnan tuki, antavat tämän vastauksen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ee83fb61"
+  },
+  "cmd_pwrmgt_bootreason_desc": {
+    "value": "Näyttää, miksi solmu viimeksi nollautui ja miksi se viimeksi sammui. Käytä sitä selvittääksesi, miksi solmu käynnistyi uudelleen itsestään.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "de8338c0"
+  },
+  "cmd_pwrmgt_bootmv_desc": {
+    "value": "Näyttää akun jännitteen millivoltteina, jonka solmu mittasi käynnistyksessä. Vain laiteohjelmistoversiot, joissa on nRF52-virranhallinnan tuki, antavat tämän vastauksen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ff3b5c66"
+  },
+  "cmd_radio_desc": {
+    "value": "Asettaa solmun käyttämän taajuuden, kaistanleveyden, hajautuskertoimen ja koodaussuhteen. Jokainen meshisi solmu tarvitsee samat arvot; käynnistä uudelleen ottaaksesi ne käyttöön.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bf443364"
+  },
+  "cmd_tx_desc": {
+    "value": "Asettaa LoRa-piirin lähetystehon dBm-yksiköissä, ja se tulee voimaan heti. Kortit, joissa on lisävahvistin, lähettävät tätä arvoa enemmän.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0b7d55b8"
+  },
+  "cmd_tempradio_desc": {
+    "value": "Vaihtaa toisiin radioasetuksiin määrätyksi minuuttimääräksi tallentamatta niitä. Käytä sitä uusien asetusten testaamiseen etänä, automaattisella paluulla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "37b19209"
+  },
+  "cmd_freq_desc": {
+    "value": "Asettaa vain taajuuden MHz-yksiköissä, ja asetusmuoto toimii vain sarjaportissa. Käynnistä solmu sen jälkeen uudelleen, koska uusi taajuus tulee voimaan vasta uudelleenkäynnistyksen jälkeen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aabd4b62"
+  },
+  "cmd_radio_rxgain_desc": {
+    "value": "Kytkee radiopiirin tehostetun vastaanottovahvistuksen päälle tai pois. Radio, jossa tätä tilaa ei ole, vastaa, että asetusta ei tueta siinä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ecacba86"
+  },
+  "cmd_radio_fem_rxgain_desc": {
+    "value": "Kytkee ulkoisen radion etuasteen vastaanottovahvistimen päälle tai pois. Vain kortit, joiden etuastetta voit ohjata, tukevat sitä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c71d7980"
+  },
+  "cmd_radio_fem_txgain_desc": {
+    "value": "Vaihtaa ulkoisen radion etuasteen lähetysvahvistusta sen 2 tason välillä. Vain kortit, joiden etuastetta voit ohjata, tukevat sitä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d3f049e3"
+  },
+  "cmd_extra_sf_desc": {
+    "value": "Saa LR2021-radion kuuntelemaan myös enintään 3 lisähajautuskerrointa. Anna ne pilkuilla erotettuna luettelona; muut radiot eivät hyväksy asetusmuotoa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d14313eb"
+  },
+  "cmd_repeat_desc": {
+    "value": "Kytkee muiden solmujen pakettien välittämisen päälle tai pois. Kytke se pois pitääksesi solmun ilmassa toistamatta. Huonepalvelin kieltäytyy kytkemästä sitä päälle.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c66ee723"
+  },
+  "cmd_path_hash_mode_desc": {
+    "value": "Asettaa tiivisteen koon, jonka tämä solmu kirjoittaa lähettämiensä pakettien reitteihin. Tila 0 käyttää 1 tavua, 1 käyttää 2 ja 2 käyttää 3.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "486f2338"
+  },
+  "cmd_loop_detect_desc": {
+    "value": "Hylkää flood-paketit, joiden reitissä tämän toistimen tiiviste on jo liian monta kertaa. Tiukempi taso hylkää kiertävän paketin harvempien toistojen jälkeen. Vanhemmasta versiosta päivitetty toistin pitää aiemman tasonsa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7192683e"
+  },
+  "cmd_txdelay_desc": {
+    "value": "Asettaa satunnaisen odotuksen ennen kuin solmu toistaa flood-paketin, skaalattuna lähetysaikaan. Suurempi arvo välttää toistimien välisiä törmäyksiä mutta lisää viivettä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dc0b9e0e"
+  },
+  "cmd_direct_txdelay_desc": {
+    "value": "Asettaa satunnaisen odotuksen ennen kuin solmu toistaa suoran paketin, skaalattuna lähetysaikaan. Suorat paketit tarvitsevat vähemmän odotusta, koska harvemmat solmut toistavat niitä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0f14a917"
+  },
+  "cmd_rxdelay_desc": {
+    "value": "Pidättää heikkoja flood-paketteja ennen käsittelyä, jotta vahvan signaalin reitit toistavat ensin. Käytä arvoa 0 käsitelläksesi jokaisen paketin heti signaalista riippumatta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9eca669b"
+  },
+  "cmd_dutycycle_desc": {
+    "value": "Rajoittaa solmun lähettämiseen käyttämän ajan osuutta prosentteina. Aseta se taajuuskaistaasi koskevaan rajaan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "46f7ce95"
+  },
+  "cmd_af_desc": {
+    "value": "Asettaa lähetysaikakertoimen, vanhemman tavan rajoittaa solmun pulssisuhdetta. Käytä mieluummin dutycycle-komentoa; af-arvo 9 vastaa 10 prosenttia.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "80189809"
+  },
+  "cmd_int_thresh_desc": {
+    "value": "Pitää kanavaa varattuna, kun se mittaa näin monta dB kohinatason yläpuolella. Solmu odottaa silloin ennen lähetystä; 0 kytkee tarkistuksen pois.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "32eb85ce"
+  },
+  "cmd_cad_desc": {
+    "value": "Saa radion kuuntelemaan kanavan toimintaa ennen jokaista lähetystä. Solmu odottaa lähettämistä, kun kanava on varattu.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "998c2731"
+  },
+  "cmd_agc_reset_interval_desc": {
+    "value": "Nollaa radion automaattisen vahvistuksensäädön määrätyn sekuntimäärän välein. Solmu pyöristää alaspäin 4:n monikertaan; 0 kytkee sen pois.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aa321448"
+  },
+  "cmd_multi_acks_desc": {
+    "value": "Lähettää jokaisesta kuittauksesta lisäkopioita parantaakseen toimitusta heikoilla linkeillä. Käytä arvoa 0 lähettääksesi jokaisen kuittauksen vain kerran, ilman lisäkopioita.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b2c80c40"
+  },
+  "cmd_flood_max_desc": {
+    "value": "Asettaa hyppyjen määrän, jonka jälkeen tämä solmu lakkaa toistamasta flood-pakettia. Laske sitä estääksesi floodien kulkemisen kauas meshissä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dee460b4"
+  },
+  "cmd_flood_max_unscoped_desc": {
+    "value": "Asettaa hyppyrajan flood-paketeille, joilla ei ole aluetta. Laske sitä pitääksesi tuon liikenteen lähellä kotia.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1003a06a"
+  },
+  "cmd_flood_max_advert_desc": {
+    "value": "Asettaa hyppyrajan tämän solmun toistamille flood-ilmoituksille. Laske sitä estääksesi ilmoitusten kulkemisen koko meshin läpi.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "57c129b9"
+  },
+  "cmd_name_desc": {
+    "value": "Asettaa nimen, jonka muut solmut näkevät tämän solmun ilmoituksissa. Merkit [ ] \\ : , ? * eivät ole sallittuja.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "08e6c872"
+  },
+  "cmd_lat_desc": {
+    "value": "Asettaa leveysasteen desimaaliasteina, jonka tämä solmu jakaa ilmoituksissaan. Käytä sitä yhdessä lon-komennon kanssa asettaaksesi solmun oikeaan paikkaan kartalla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ea083178"
+  },
+  "cmd_lon_desc": {
+    "value": "Asettaa pituusasteen desimaaliasteina, jonka tämä solmu jakaa ilmoituksissaan. Käytä sitä yhdessä lat-komennon kanssa asettaaksesi solmun oikeaan paikkaan kartalla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fe5f8039"
+  },
+  "cmd_prv_key_desc": {
+    "value": "Näyttää tai korvaa yksityisen avaimen, joka määrittää solmun identiteetin. Lukumuoto toimii vain sarjaportissa; käynnistä uudelleen avaimen asettamisen jälkeen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3500931c"
+  },
+  "cmd_password_desc": {
+    "value": "Vaihtaa pääkäyttäjän salasanan ja toistaa uuden takaisin, jotta voit tarkistaa sen. Vaihda se jokaisessa uudessa solmussa, koska oletussalasana on julkinen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a33a87f1"
+  },
+  "cmd_guest_password_desc": {
+    "value": "Asettaa vierassalasanan; huonepalvelimella se antaa luku- ja kirjoitusoikeuden. Jaa se niille, jotka haluat päästää huoneeseen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "67348593"
+  },
+  "cmd_owner_info_desc": {
+    "value": "Asettaa yhteystiedon, jonka muut voivat pyytää solmulta, kuten nimesi. Kirjoita |-merkki kohtaan, josta haluat uuden rivin alkavan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "928a68a4"
+  },
+  "cmd_adc_multiplier_desc": {
+    "value": "Korjaa solmun akkujännitteen lukemaa kortillesi sopivalla kertoimella. Käytä arvoa 0 palataksesi kortin itse määrittämään arvoon.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0383a608"
+  },
+  "cmd_powersaving_desc": {
+    "value": "Antaa solmun nukkua radiotoiminnan välillä säästääkseen akkua. Se toimii nRF52-korteilla ja ESP32-versioilla, joissa ei ole siltaa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3e791562"
+  },
+  "cmd_setperm_desc": {
+    "value": "Antaa kumppanilaitteelle roolin tässä solmussa, tunnistettuna julkisella avaimellaan. Käytä arvoa 0 poistaaksesi merkinnän; muut roolit tarvitsevat koko avaimen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "93a740af"
+  },
+  "cmd_acl_desc": {
+    "value": "Tulostaa pääsylistan, jossa on jokaisen kumppanilaitteen oikeudet ja julkinen avain. Se toimii vain sarjakonsolissa, ei meshin kautta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "784d80d9"
+  },
+  "cmd_allow_read_only_desc": {
+    "value": "Antaa väärällä tai tyhjällä salasanalla tulevien liittyä huonepalvelimeen vain lukuoikeudella. Kytke se pois päästääksesi sisään vain salasanan tuntevat.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a845f89b"
+  },
+  "cmd_region_desc": {
+    "value": "Näyttää solmun koko aluepuun ja jokaisen alueen flood-merkin. F tarkoittaa, että flood on sallittu, ja ^ merkitsee kotialueen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "07dd7f25"
+  },
+  "cmd_region_load_desc": {
+    "value": "Aloittaa aluepuun joukkosyötön, yksi alue per rivi, välilyönneillä sisennettynä. Lisää F salliaksesi floodin, ja lähetä tyhjä rivi lopettaaksesi.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d2da253a"
+  },
+  "cmd_region_save_desc": {
+    "value": "Tallentaa aluemuutoksesi solmun muistiin, jotta ne säilyvät uudelleenkäynnistyksessä. Aja se jokaisen aluemuutoksen jälkeen, jonka haluat pitää.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bd6cb636"
+  },
+  "cmd_region_flood_desc": {
+    "value": "Sallii tai estää flood-pakettien toistamisen alueelle. Käytä merkkiä * paketeille, joilla ei ole aluetta lainkaan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "58acd9db"
+  },
+  "cmd_region_get_desc": {
+    "value": "Näyttää yhden alueen ja sen yläalueen, sekä F:n, kun flood on siinä sallittu. Käytä sitä yhden alueen tarkistamiseen lukematta koko puuta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "33ef40c6"
+  },
+  "cmd_region_home_desc": {
+    "value": "Näyttää tai asettaa kotialueen, jonka aluepuu merkitsee ^-merkillä. Aja sen jälkeen region save pitääksesi muutoksen uudelleenkäynnistyksen jälkeen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "90b9c539"
+  },
+  "cmd_region_default_desc": {
+    "value": "Näyttää tai asettaa alueen, jonka solmu liittää omiin flood-paketteihinsa, kuten ilmoituksiin. Solmu tallentaa muutoksen heti; <null> tyhjentää sen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b478cd71"
+  },
+  "cmd_region_put_desc": {
+    "value": "Lisää alueen jokerimerkin tai nimeämäsi yläalueen alle, flood sallittuna. Aja sen jälkeen region save pitääksesi uuden alueen uudelleenkäynnistyksen jälkeen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "90f4ec6d"
+  },
+  "cmd_region_def_desc": {
+    "value": "Rakentaa aluepuun yhdellä rivillä, jokainen nimi edellisen lapsi. Kirjoita nimi|hyppy jatkaaksesi seuraavaa nimeä aiemmasta alueesta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "80bfbfce"
+  },
+  "cmd_region_remove_desc": {
+    "value": "Poistaa alueen sen tarkalla nimellä, kun sillä ei ole enää ala-alueita. Aja sen jälkeen region save, jotta poisto säilyy uudelleenkäynnistyksessä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0677775b"
+  },
+  "cmd_region_list_desc": {
+    "value": "Luettelee alueiden nimet, joilla flood on sallittu tai joilla se on estetty. Käytä sitä nopeaan tarkistukseen ilman koko puuta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8156296"
+  },
+  "cmd_gps_desc": {
+    "value": "Näyttää, onko GPS päällä, onko sillä paikannus ja montako satelliittia se näkee. Muodot on ja off kytkevät GPS:n ja tallentavat valinnan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6b7484f4"
+  },
+  "cmd_gps_diag_desc": {
+    "value": "Näyttää, onko GPS kytketty päälle, montako satelliittia se näkee ja onko sillä paikannus. Käytä sitä, kun solmu ei saa sijaintia.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f5838af7"
+  },
+  "cmd_gps_sync_desc": {
+    "value": "Asettaa solmun kellon GPS:n vastaanottamasta ajasta. Käytä sitä, kun solmulla ei ole muuta oikean ajan lähdettä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9992274d"
+  },
+  "cmd_gps_setloc_desc": {
+    "value": "Kopioi nykyisen GPS-sijainnin solmun tallennettuun leveys- ja pituusasteeseen. Käytä sitä kerran paikan päällä ja kytke sitten GPS pois.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2e7052c8"
+  },
+  "cmd_gps_advert_desc": {
+    "value": "Valitsee sijainnin ilmoituksiin: ei mitään, suora GPS tai tallennettu lat ja lon. Käytä none-arvoa pitääksesi solmun sijainnin yksityisenä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e7bb3d85"
+  },
+  "cmd_sensor_list_desc": {
+    "value": "Luettelee anturihallinnan mukautetut asetukset ja niiden arvot. Pitkä luettelo päättyy indeksiin, josta jatkat.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "af32a1b7"
+  },
+  "cmd_sensor_setting_desc": {
+    "value": "Lukee tai muuttaa yhden anturihallinnan mukautetun asetuksen nimellä. Käytä ensin sensor list nähdäksesi, mitä nimiä kortti tarjoaa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c470cf70"
+  },
+  "cmd_io_desc": {
+    "value": "Lukee tai kirjoittaa kortin GPIO-nastoja heksamuotoisena bittimaskina. Kirjoita r, s tai t maskin eteen nollataksesi, asettaaksesi tai vaihtaaksesi bittejä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ede2acc1"
+  },
+  "cmd_bridge_type_desc": {
+    "value": "Näyttää, mikä silta tähän laiteohjelmistoon on sisäänrakennettu: rs232, espnow tai none. Käytä sitä tarkistaaksesi, että asensit siltaversion.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "54cbb77e"
+  },
+  "cmd_bridge_enabled_desc": {
+    "value": "Kytkee sillan päälle tai pois; se kopioi paketteja meshin ja toisen linkin välillä. Tuo linkki on sarjakaapeli tai ESP-NOW, versiosta riippuen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7249ccd6"
+  },
+  "cmd_bridge_delay_desc": {
+    "value": "Asettaa, montako millisekuntia silta odottaa ennen kuin se välittää paketin. Nosta sitä, kun sillatut paketit törmäävät meshin liikenteeseen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c8895baa"
+  },
+  "cmd_bridge_source_desc": {
+    "value": "Valitsee, kopioiko silta tämän solmun vastaanottamat vai lähettämät paketit. Kirjoita rx tai tx asettaaksesi sen; get vastaa logRx tai logTx.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d81577c2"
+  },
+  "cmd_bridge_baud_desc": {
+    "value": "Asettaa RS-232-sillan sarjanopeuden baudeina. Sarjakaapelin molemmat päät tarvitsevat saman nopeuden.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7322814d"
+  },
+  "cmd_bridge_channel_desc": {
+    "value": "Asettaa WiFi-kanavan, jota ESP-NOW-silta käyttää linkilleen. Jokainen tämän kanssa keskusteleva silta tarvitsee saman kanavan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "924d978f"
+  },
+  "cmd_bridge_secret_desc": {
+    "value": "Asettaa jaetun salaisuuden, joka salaa paketit ESP-NOW-sillalla. Käytä samaa salaisuutta jokaisessa tämän kanssa keskustelevassa sillassa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b1df9356"
+  },
+  "cmd_eth_status_desc": {
+    "value": "Näyttää Ethernet-konsolin IP-osoitteen ja portin, tai että se on poissa verkosta. Se toimii sarja- ja Ethernet-konsoleissa, ei meshin kautta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b27f99e8"
+  },
+  "cmd_pin_desc": {
+    "value": "Asettaa Bluetooth-PIN-koodin, jota puhelimesi kysyy pariliitoksessa, uudelleenkäynnistyksen jälkeen. Arvolla 0 näytöllinen kortti näyttää uuden PIN-koodin joka käynnistyksessä, ja näytötön käyttää koodia 123456.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "82dc0ee0"
+  },
+  "cmd_tz_offset_desc": {
+    "value": "Asettaa aikavyöhykkeesi kokonaisina tunteina UTC:stä. Kumppanilaite käyttää sitä näyttönsä kelloon.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d2a9942a"
+  },
+  "cmd_wifi_ssid_desc": {
+    "value": "Näyttää tai asettaa WiFi-verkon nimen, johon kumppanilaite liittyy. Aseta myös wifi.pwd ja käynnistä sitten uudelleen yhdistääksesi.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6e53eb6a"
+  },
+  "cmd_wifi_pwd_desc": {
+    "value": "Näyttää tai asettaa WiFi-verkon salasanan; käynnistä uudelleen ottaaksesi sen käyttöön. Yhteystieto, jonka sallit lähettää komentoja, voi lukea sen myös.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "15b5453a"
+  },
+  "cmd_wifi_enabled_desc": {
+    "value": "Kytkee WiFin päälle arvolla 1 tai pois arvolla 0, uudelleenkäynnistyksen jälkeen. Ilman verkon nimeä kumppanilaite ei käynnistä WiFiä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7dbbf8f1"
+  },
+  "cmd_wifi_clear_desc": {
+    "value": "Poistaa WiFi-verkon nimen ja salasanan kumppanilaitteesta. Käynnistä uudelleen ottaaksesi muutoksen käyttöön.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "29938727"
+  },
+  "cmd_wifi_status_desc": {
+    "value": "Näyttää, onko kumppanilaite yhdistetty WiFiin, ja sen IP-osoitteen verkossasi. Kumppanilaite ottaa sovelluksen yhteydet vastaan tuossa osoitteessa, portissa 5000.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "38894245"
+  },
+  "keygen_find_title": {
+    "value": "1. Etsi vapaa etuliite",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "23440ddd"
+  },
+  "keygen_find_body": {
+    "value": "Etuliitetyökalu näyttää, mitä etuliitteitä solmut jo käyttävät, ja ehdottaa vapaata.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8b4149b8"
+  },
+  "keygen_find_link": {
+    "value": "Avaa etuliitetyökalu",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ad418bc8"
+  },
+  "keygen_make_title": {
+    "value": "2. Tee sillä avain",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "55671108"
+  },
+  "keygen_needs_js": {
+    "value": "Tämä työkalu toimii selaimessasi ja tarvitsee JavaScriptin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9128273b"
+  },
+  "keygen_prefix_label": {
+    "value": "Etuliite heksana",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c5fe4703"
+  },
+  "keygen_prefix_hint": {
+    "value": "2 merkkiä 1 tavulle, 4 merkkiä 2 tavulle. Laiteohjelmisto hylkää arvot 00 ja FF.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "60646fe6"
+  },
+  "keygen_make": {
+    "value": "Tee avain",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f2e49767"
+  },
+  "keygen_stop": {
+    "value": "Pysäytä",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cae7d57b"
+  },
+  "keygen_working": {
+    "value": "Kokeillaan avaimia: {n} tähän mennessä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "10781c37"
+  },
+  "keygen_done": {
+    "value": "Löytyi {n} yrityksen jälkeen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8495a72b"
+  },
+  "keygen_stopped": {
+    "value": "Pysäytetty. Yritä uudelleen tai valitse lyhyempi etuliite.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "731c66a8"
+  },
+  "keygen_bad": {
+    "value": "Kirjoita 2 tai 4 heksamerkkiä (0-9, a-f), ei alkaen 00 tai FF.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9569dc0f"
+  },
+  "keygen_unsupported": {
+    "value": "Selaimesi ei voi tehdä Ed25519-avaimia. Käytä Chrome 137-, Firefox 129-, Safari 17 -versiota tai uudempaa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "70cf8b1d"
+  },
+  "keygen_set_title": {
+    "value": "3. Aseta se toistimeesi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "37e17307"
+  },
+  "keygen_set_body": {
+    "value": "Aja tämä komento toistimessasi ja käynnistä se sitten uudelleen. Se pitää asetuksensa ja pääsylistansa, mutta muuttuu kaikille uudeksi solmuksi. Lisää se sovelluksessa uudelleen sen ensimmäisen ilmoituksen jälkeen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c80b8962"
+  },
+  "keygen_public": {
+    "value": "Julkinen avain",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4ee252fb"
+  },
+  "keygen_secret": {
+    "value": "Tämä on toistimesi yksityinen avain. Kuka tahansa, jolla se on, voi toimia toistimenasi, joten pidä se itselläsi. Selaimesi teki sen, eikä tämä sivu lähetä sitä minnekään.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b4d3d7d1"
+  },
+  "guides_card_keygen_title": {
+    "value": "Luo avain",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e798fa1b"
+  },
+  "guides_card_keygen_desc": {
+    "value": "Anna toistimellesi etuliite, jota mikään lähelläsi oleva toistin ei käytä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "267f04fa"
+  },
+  "ch_needs_js": {
+    "value": "Kanavaluettelo toimii selaimessasi ja tarvitsee JavaScriptin. Analyzer näyttää samat kanavat:",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "57228d02"
+  },
+  "ch_source": {
+    "value": "MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ed180c11"
+  },
+  "ch_list_title": {
+    "value": "Maassasi kuullut kanavat",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6a3ddfed"
+  },
+  "ch_country_label": {
+    "value": "Maasi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "18f2456a"
+  },
+  "ch_country_pick": {
+    "value": "Valitse maa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "632aadfb"
+  },
+  "ch_search": {
+    "value": "Hae nimeä tai aluetta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "67d2c527"
+  },
+  "ch_loading": {
+    "value": "Ladataan kanavia...",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e4e9f6e5"
+  },
+  "ch_error": {
+    "value": "Kanavaluettelo ei latautunut. Yritä myöhemmin uudelleen; alla olevan minkä tahansa #nimen avain toimii silti.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f653e69d"
+  },
+  "ch_count": {
+    "value": "{n} kanavaa kuultu maassa {country}, eniten viestejä ensin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "923bf6a5"
+  },
+  "ch_messages": {
+    "value": "viestiä",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f5cccfb7"
+  },
+  "ch_key": {
+    "value": "Avain",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "99a52df3"
+  },
+  "ch_source_note": {
+    "value": "Suorana lähteestä",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1db8edb5"
+  },
+  "ch_calc_title": {
+    "value": "Minkä tahansa #kanavan avain",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ad70964d"
+  },
+  "ch_calc_body": {
+    "value": "Kirjoita kanavan nimi, joka alkaa #-merkillä. Avain johdetaan nimestä, joten saat saman avaimen kuin sovellus.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8531d7e8"
+  },
+  "ch_calc_label": {
+    "value": "Kanavan nimi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2fe4a2e8"
+  },
+  "guides_card_channels_title": {
+    "value": "Etsi kanavia",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9905513b"
+  },
+  "guides_card_channels_desc": {
+    "value": "Kanavat, joita lähelläsi olevat käyttävät, ja miten liityt niihin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2b7ffced"
+  },
+  "ch_count_one": {
+    "value": "1 kanava kuultu maassa {country}.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8f1ca51"
+  },
+  "ch_show_all": {
+    "value": "Näytä kaikki {n} kanavaa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2afe05c3"
+  },
+  "area_other_presets_title": {
+    "value": "Muut esiasetukset MeshCore-sovelluksessa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e8ca0063"
+  },
+  "area_other_presets_body": {
+    "value": "Sovellus luettelee myös nämä eurooppalaiset esiasetukset nimeämättä niille aluetta. 433 MHz -esiasetus tarvitsee kortin, jossa on 433 MHz -radio.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "86f82c5c"
+  },
+  "net_live_title": {
+    "value": "Mitä tarkkailijat kuulevat",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f89055eb"
+  },
+  "net_live_packets": {
+    "value": "pakettia viimeisen täyden tunnin aikana",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e3e24e13"
+  },
+  "net_live_countries": {
+    "value": "maata kuultu viimeisen tunnin aikana",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "502cba0e"
+  },
+  "net_live_repeaters": {
+    "value": "toistinta kuultu viimeisten 7 päivän aikana",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2890ece6"
+  },
+  "net_live_observers": {
+    "value": "tarkkailijaa viimeisen tunnin aikana",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6825b26c"
+  },
+  "net_live_source": {
+    "value": "Suorat luvut lähteestä",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f063c292"
+  },
+  "net_join_title": {
+    "value": "Lisää oma tarkkailijasi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e772f141"
+  },
+  "net_join_body": {
+    "value": "Jokainen tarkkailija näyttää hieman enemmän meshistä, kaikille Euroopassa. Valitse sinulle sopiva tapa; MeshCore Analyzer näyttää vaiheet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "de341930"
+  },
+  "net_way_app_title": {
+    "value": "KiekR-sovelluksella",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "51c6a5e5"
+  },
+  "net_way_app_desc": {
+    "value": "Muodosta pariliitos MeshCore-radion ja puhelimesi välille Bluetoothilla. Sovellus raportoi, mitä se kuulee, eikä mitään tarvitse asentaa laitteelle.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9ae6b7d2"
+  },
+  "net_way_browser_title": {
+    "value": "Selaimestasi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c6b5042e"
+  },
+  "net_way_browser_desc": {
+    "value": "Yhdistä radio USB:llä tai Bluetoothilla Chromessa tai Edgessä. Selain raportoi niin kauan kuin välilehti on auki.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "72fc7d03"
+  },
+  "net_way_board_title": {
+    "value": "Aina päällä olevalla kortilla",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "574c32a6"
+  },
+  "net_way_board_desc": {
+    "value": "Asenna tarkkailijan laiteohjelmisto LoRa-kortille. Se raportoi itsestään Wi-Fin kautta, päivin ja öin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1742bfea"
+  },
+  "project_site": {
+    "value": "Verkkosivusto",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b5a229ac"
+  },
+  "home_town_title": {
+    "value": "Seuraa yhtä viestiä kattojen yli.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "b6669c81"
+  },
+  "home_town_lead": {
+    "value": "Puhelimesi tai kannettavasi lähettää viestin kumppanilaitteellesi Bluetoothin tai USB:n kautta. Kumppanilaite lähettää sen radiolla katolla olevalle toistimelle. Sieltä se hyppää katolta katolle.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2af5006f"
+  },
+  "home_town_tag_phone": {
+    "value": "Puhelin tai kannettava",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "54c8157f"
+  },
+  "home_town_tag_companion": {
+    "value": "Kumppanilaite",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1dadb328"
+  },
+  "home_town_tag_repeater": {
+    "value": "Toistin",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "46e7bee1"
+  },
+  "home_town_tag_mast2": {
+    "value": "Muut toistimet",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "3aa62b45"
+  },
+  "home_town_companion_title": {
+    "value": "Kumppanilaite",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1dadb328"
+  },
+  "home_town_companion_desc": {
+    "value": "Radio, jolla viestit. Yhdistä se puhelimeesi tai kannettavaasi, tai valitse malli omalla näytöllä ja näppäimistöllä, joka toimii itsenäisesti.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c70389e6"
+  },
+  "home_town_companion_link": {
+    "value": "Valitse kumppanilaite",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "5eba6690"
+  },
+  "home_town_repeater_title": {
+    "value": "Toistin",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "46e7bee1"
+  },
+  "home_town_repeater_desc": {
+    "value": "Välittää viestejä kaikille ympärillään. Useimmat toimivat aurinkovoimalla. Tarvitset oman vain sinne, minne mesh ei vielä yllä.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "3db0ed15"
+  },
+  "home_town_repeater_link": {
+    "value": "Milloin pystyttää toistin",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c5154fb9"
+  },
+  "home_town_mesh_title": {
+    "value": "Mesh",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "199c9527"
+  },
+  "home_town_mesh_desc": {
+    "value": "Toistimet välittävät viestiä niin pitkälle kuin ne kuulevat toisensa. Alueet pitävät sen paikallisena.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2d14f895"
+  },
+  "home_town_mesh_link": {
+    "value": "Katso verkko",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6f3b43a5"
+  },
+  "planned_label": {
+    "value": "Suunnitteilla",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fb6f7c93"
+  },
+  "planned.guides-filter.lead": {
+    "value": "Pudota pakettisuodattimella liikenne, jota toistimesi ei pitäisi välittää.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ef203a0d"
+  },
+  "planned.guides-filter.what.title": {
+    "value": "Mitä suodatin tekee",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "88a35f90"
+  },
+  "planned.guides-filter.what.desc": {
+    "value": "Mitkä paketit toistin voi pudottaa ja miten se pitää meshin hiljaisena.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4a3c7cb5"
+  },
+  "planned.guides-filter.configs.title": {
+    "value": "Suositellut asetukset",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "42763607"
+  },
+  "planned.guides-filter.configs.desc": {
+    "value": "Valmiit asetukset yleisiin tapauksiin, kuten meluisan kanavan estämiseen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2ef6b9e2"
+  },
+  "planned.guides-filter.settings.title": {
+    "value": "Jokainen asetus",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "07182ebe"
+  },
+  "planned.guides-filter.settings.desc": {
+    "value": "Jokainen suodatinasetus komentoineen ja mitä se muuttaa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b73f8c55"
+  },
+  "planned.guides-mqtt.lead": {
+    "value": "Anna jatkuvasti päällä olevan laitteesi raportoida kuulemansa MeshCore Analyzerille.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5aa10eb5"
+  },
+  "planned.guides-mqtt.need.title": {
+    "value": "Mitä tarvitset",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e17c85cc"
+  },
+  "planned.guides-mqtt.need.desc": {
+    "value": "Laite, jossa on observer-laiteohjelmisto ja WiFi, sekä välittäjäpalvelimen osoite.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f9b88653"
+  },
+  "planned.guides-mqtt.settings.title": {
+    "value": "Asetukset",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "74a883a0"
+  },
+  "planned.guides-mqtt.settings.desc": {
+    "value": "WiFi-, välittäjäpalvelin- ja aiheasetukset, jotka laitteesi tarvitsee.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3d2f63e9"
+  },
+  "planned.guides-mqtt.commands.title": {
+    "value": "Komennot välittäjäpalvelimellesi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d2db5c84"
+  },
+  "planned.guides-mqtt.commands.desc": {
+    "value": "Liitettävät komennot, täytettyinä valitsemallesi välittäjäpalvelimelle.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1a37dddf"
+  },
+  "planned.guides-mqtt.check.title": {
+    "value": "Tarkista, että se toimii",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2249f06f"
+  },
+  "planned.guides-mqtt.check.desc": {
+    "value": "Miten löydät observer-solmusi MeshCore Analyzerista.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2e45d8f2"
+  },
+  "net_data_title": {
+    "value": "Miten tiedot tulevat sisään",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d199acc6"
+  },
+  "net_data_lead": {
+    "value": "Jokainen luku tällä sivustolla tulee ihmisiltä, jotka kuuntelevat ja jakavat kuulemansa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d162c9f3"
+  },
+  "net_data_from_title": {
+    "value": "Mistä se tulee",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "87362334"
+  },
+  "net_data_from_body": {
+    "value": "Tarkkailijat raportoivat kuulemansa MQTT:llä välittäjälle, palvelimelle, joka kerää raportit. Ne raportoivat osoitteeseen mqtt.meshcore-analyzer.eu tai toiselle välittäjälle, jota Analyzer lukee. Myös KiekR-sovellus ja selaintarkkailija raportoivat. Analyzer hakee myös CoreScope-analysaattoreita, joiden omistajat ovat suostuneet. Jokaista välittäjää ja analysaattoria luetaan sen omistajan luvalla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5604e25f"
+  },
+  "net_data_way_title": {
+    "value": "Mitä matkalla tapahtuu",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0e5c3f7c"
+  },
+  "net_data_way_body": {
+    "value": "Yksi viesti, jonka monet tarkkailijat kuulevat, lasketaan kerran. Analyzer purkaa sen ja rakentaa siitä kartat, luvut ja kanavaluettelon. Se säilyttää jokaisen viestin, mutta tieto siitä, mitä kukin tarkkailija kuuli, säilyy 10 päivää. Tuntiluvut säilyvät enintään 30 päivää, päiväkohtaiset summat pysyvästi.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "57413efc"
+  },
+  "net_data_node_title": {
+    "value": "Mitä muut näkevät solmustasi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a6245d5e"
+  },
+  "net_data_node_body": {
+    "value": "Muut näkevät sen nimen, julkisen avaimen, tyypin ja sijainnin, jos jaat sen. Yksityisviestisi pysyvät salattuina. Viestit Public-kanavalla ja hashtag-kanavilla ovat kenen tahansa luettavia, myös Analyzerin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0f5e507d"
+  },
+  "net_data_q_title": {
+    "value": "Kysymyksiä",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9a72221a"
+  },
+  "net_data_q1": {
+    "value": "Onko solmuni kartalla?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ec3057eb"
+  },
+  "net_data_a1": {
+    "value": "Vain kun tarkkailija on kuullut sen ilmoituksen, paketin, jonka solmu lähettää ilmoittaakseen itsestään. Kaikista tarkkailijoista kaukana oleva solmu jää pois kartalta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "393d0df5"
+  },
+  "net_data_q2": {
+    "value": "Voiko Analyzer lukea yksityisviestini?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1cd884fb"
+  },
+  "net_data_a2": {
+    "value": "Ei. Vain sinulla ja toisella henkilöllä on avain.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c6b0e033"
+  },
+  "net_data_q3": {
+    "value": "Voinko lähettää tietoja omasta työkalustani?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "52255bf4"
+  },
+  "net_data_a3": {
+    "value": "Kyllä: julkaise MQTT:llä osoitteeseen mqtt.meshcore-analyzer.eu, allekirjoitettuna solmusi avaimella kuten tarkkailija tekee. {link} näyttää, miten yhdistät.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "171daa27"
+  },
+  "net_data_analyzer_link": {
+    "value": "MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ed180c11"
+  },
+  "net_data_q4": {
+    "value": "Voinko käyttää Analyzerin tietoja?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2154596d"
+  },
+  "net_data_a4": {
+    "value": "Kysy ensin sen {link}-kanavalla. Analyzer ei salli automaattista keräämistä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b935a213"
+  },
+  "release_role_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1dadb328"
+  },
+  "release_role_repeater": {
+    "value": "Toistin",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "46e7bee1"
+  },
+  "release_role_room_server": {
+    "value": "Huonepalvelin",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "68b91cc5"
+  },
+  "release_notes_link": {
+    "value": "Viralliset julkaisutiedot",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8bc96136"
+  },
+  "release.v1-18-0.1": {
+    "value": "Companion-solmusi saa komentorivin: avaa Command Line sovelluksessa, versio 1.50 tai uudempi. Yhteystieto, jolle annat Remote CLI -oikeuden, voi lähettää sille komentoja meshin kautta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14cedc6a"
+  },
+  "release.v1-18-0.2": {
+    "value": "Juuri asennettu toistin ottaa itse käyttöön kevyen silmukantunnistuksen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14ac329c"
+  },
+  "release.v1-18-0.3": {
+    "value": "Toistin, jonka ilmoitukset ovat pois päältä, ei enää näy, kun muut etsivät solmuja.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "73a74341"
+  },
+  "release.v1-18-0.4": {
+    "value": "ESP32-laitteilla kello säilyy uudelleenkäynnistyksen yli, ja useimmat nRF52-laitteet käynnistyvät taas vähäisellä akulla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "236a3861"
+  },
+  "release.v1-18-0.5": {
+    "value": "Uudet laitteet: Thinknode M4 ja M8, Wio Tracker L1 1W, Muzi Base ja Waveshare ESP32-S3 LR1121.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1355f413"
+  },
+  "release.v1-18-0.6": {
+    "value": "Bluetooth-companion-laiteohjelmisto tukee myös WiFiä useilla laitteilla, muun muassa Heltec, Wireless Paper, RAK ja Xiao S3; määritä se sovelluksessa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0d070c73"
+  },
+  "release.v1-17-1.1": {
+    "value": "Laitteilla, joissa on ulkoinen vahvistin, vastaanottovahvistuksen asetus tallentuu nyt. Tarkista toistimesi radio.fem.rxgain ja radio.rxgain päivityksen jälkeen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aa6980e3"
+  },
+  "release.v1-17-1.2": {
+    "value": "Lähetys toimii taas Heltec T096:lla, ja T-Beam Supremen näyttö näkyy taas.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8973538"
+  },
+  "release.v1-17-0.1": {
+    "value": "Jokainen laiteohjelmisto tallentaa asetuksensa uudessa muodossa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2acf27c2"
+  },
+  "release.v1-17-0.2": {
+    "value": "Toistin sammuu pitkällä painikkeen painalluksella. Uudet komennot: set cad toistimille ja room.post huonepalvelimille.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "96f0d3d9"
+  },
+  "release.v1-17-0.3": {
+    "value": "nRF52-laitteet käyttävät sisäänrakennettua salauspiiriään, ja laitteet kuluttavat vähemmän virtaa lepotilassa ja sammutettuina.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3daf5825"
+  },
+  "release.v1-17-0.4": {
+    "value": "Uudet laitteet: Heltec V4 R8, RC32 ja Tower V2, Thinknode M7 ja M9, Sensecap MeshTracker X1 sekä LR2021-piirin radiot.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b90c5ac8"
+  },
+  "release.v1-17-0.5": {
+    "value": "Toistimet kuuntelevat paremmin ennen lähetystä, joten vilkkaissa mesheissä on vähemmän törmäyksiä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3061d4fd"
+  },
+  "console_needs_js": {
+    "value": "Konsoli tarvitsee JavaScriptin ja selaimen, joka pääsee USB:hen: Chrome, Edge tai Opera tietokoneella.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "07c6b52a"
+  },
+  "console_connect": {
+    "value": "Yhdistä solmusi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bb8e5e01"
+  },
+  "console_disconnect": {
+    "value": "Katkaise yhteys",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "acfc5be7"
+  },
+  "console_copy": {
+    "value": "Kopioi loki",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e01862b2"
+  },
+  "console_send": {
+    "value": "Lähetä",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f6f4688f"
+  },
+  "console_command_label": {
+    "value": "Komento",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "71316697"
+  },
+  "console_log_label": {
+    "value": "Mitä solmusi sanoo",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "84925ecb"
+  },
+  "console_status_idle": {
+    "value": "Kytke solmusi, yhdistä sitten ja valitse sen portti.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3ebc3314"
+  },
+  "console_status_asking": {
+    "value": "Yhdistetty. Kysytään solmultasi, mikä se on.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "02b45460"
+  },
+  "console_status_connected": {
+    "value": "Yhdistetty. Kirjoita komento ja paina Enter.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d216f35b"
+  },
+  "console_status_lost": {
+    "value": "Yhteys katkesi. Tarkista kaapeli ja yhdistä uudelleen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "98fa83ae"
+  },
+  "console_status_busy": {
+    "value": "Porttia ei voitu avata. Sulje toinen ohjelma tai välilehti, joka käyttää sitä, ja yritä uudelleen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cf4e9cbd"
+  },
+  "console_status_unsupported": {
+    "value": "Tämä selain ei pääse USB:hen. Käytä Chromea, Edgeä tai Operaa tietokoneella.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8ef7eebe"
+  },
+  "console_status_copied": {
+    "value": "Loki on kopioitu.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "617d378e"
+  },
+  "console_status_copy_failed": {
+    "value": "Lokia ei voitu kopioida. Valitse se ja kopioi se käsin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "45bd5465"
+  },
+  "console_commands_before": {
+    "value": "Jokainen komento on selitetty oppaassa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "68ef84d1"
+  },
+  "console_commands_link": {
+    "value": "CLI-komennot",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a13cc6cb"
+  },
+  "console_commands_after": {
+    "value": ".",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cdb4ee2a"
+  },
+  "console_node_known": {
+    "value": "Ehdotukset näyttävät komennot, jotka tämä solmu ymmärtää.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "345c274c"
+  },
+  "console_node_unknown": {
+    "value": "Solmusi ei kertonut rooliaan. Ehdotukset näyttävät toistimien, huonepalvelimien ja sensorien komennot.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "503c0064"
+  },
+  "console_dmc_before": {
+    "value": "Tässä solmussa on DutchMeshCore-laiteohjelmisto. Ehdotukset näyttävät MeshCoren omat komennot. DutchMeshCore-komennot ovat wikissä",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b17e7f2e"
+  },
+  "console_more_link": {
+    "value": "{command} CLI-oppaassa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9e207731"
+  },
+  "console_dmc_link": {
+    "value": "DutchMeshCore CLI -wiki",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ccc16968"
+  },
+  "console_dmc_after": {
+    "value": ".",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cdb4ee2a"
+  },
+  "console_suggestions_label": {
+    "value": "Ehdotetut komennot",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "36d1238e"
+  },
+  "console_key_fill": {
+    "value": "täyttää sen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cf686f44"
+  },
+  "console_key_choose": {
+    "value": "valitse",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "725fed9d"
+  },
+  "console_key_guide": {
+    "value": "avaa CLI-oppaan",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "de7ca5a8"
+  },
+  "console_key_close": {
+    "value": "sulkee",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b2850942"
+  },
+  "console_trouble_title": {
+    "value": "Kun yhteys ei muodostu",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0cce4809"
+  },
+  "console_trouble_1": {
+    "value": "Käytä datakaapelia. Jotkin kaapelit vain lataavat.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "958a8d54"
+  },
+  "console_trouble_2": {
+    "value": "Sulje muut porttia käyttävät ohjelmat, kuten toinen konsoli tai tämän sivuston asennustyökalu toisessa välilehdessä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fc9daa0a"
+  },
+  "console_trouble_3": {
+    "value": "Valitse oikea portti: irrota solmusi, katso mikä portti katoaa, ja kytke se uudelleen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "75120995"
+  },
+  "console_trouble_4": {
+    "value": "Firefox ja Safari eivät pääse USB:hen verkkosivulta. Käytä Chromea, Edgeä tai Operaa tietokoneella.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "71403007"
+  },
+  "usb_title": {
+    "value": "Lähetä toistimeesi USB:n kautta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "815598af"
+  },
+  "usb_body": {
+    "value": "Kytke toistimesi, yhdistä ja tarkista ennen lähettämistä, mikä muuttuu.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5a67e201"
+  },
+  "usb_connect": {
+    "value": "Yhdistä toistimesi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aaf2563c"
+  },
+  "usb_check": {
+    "value": "Tarkista, mikä muuttuu",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3ee77f8f"
+  },
+  "usb_send": {
+    "value": "Lähetä asetukset",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7e2580db"
+  },
+  "usb_reboot": {
+    "value": "Käynnistä toistimesi uudelleen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "19394bd3"
+  },
+  "usb_disconnect": {
+    "value": "Katkaise yhteys",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "acfc5be7"
+  },
+  "usb_col_command": {
+    "value": "Komento",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "71316697"
+  },
+  "usb_col_now": {
+    "value": "Nyt",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fe18013d"
+  },
+  "usb_col_reply": {
+    "value": "Vastaus",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c253f451"
+  },
+  "usb_col_new": {
+    "value": "Uusi arvo",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7ca9b97d"
+  },
+  "usb_no_answer": {
+    "value": "ei vastausta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ad03eb5e"
+  },
+  "usb_status_idle": {
+    "value": "Ei yhdistetty.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3b3d2796"
+  },
+  "usb_status_connected": {
+    "value": "Yhdistetty. Tarkista ensin, mikä muuttuu.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4bb28123"
+  },
+  "usb_status_busy": {
+    "value": "Portti on käytössä. Sulje toinen ohjelma tai välilehti, joka käyttää sitä, ja yritä sitten uudelleen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "438a57fa"
+  },
+  "usb_status_fill": {
+    "value": "Täytä ensin {value} yllä oleviin komentoihin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d903306b"
+  },
+  "usb_status_reading": {
+    "value": "Luetaan toistimesi asetuksia.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "222e3b98"
+  },
+  "usb_status_review": {
+    "value": "Vertaa nykyisiä arvoja uusiin ja lähetä sitten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "017b629e"
+  },
+  "usb_status_sent": {
+    "value": "Lähetetty. Toistimesi hyväksyi jokaisen komennon.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4cf46e54"
+  },
+  "usb_status_sent_errors": {
+    "value": "Lähetetty, mutta toistimesi hylkäsi joitakin komentoja tai ei vastannut. Tarkista vastaukset.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f77c4ebb"
+  },
+  "usb_status_rebooted": {
+    "value": "Toistin käynnistyy uudelleen uusilla radioasetuksillaan.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "79ddf8f8"
+  },
+  "flash_releases_link": {
+    "value": "MeshCoren julkaisut GitHubissa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "db7cf404"
+  },
+  "flash_no_match": {
+    "value": "Yksikään laite ei täsmää. Kokeile lyhyempää sanaa tai valitse listasta.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cdba666f"
+  },
+  "flash_needs_js": {
+    "value": "Asennustyökalu tarvitsee JavaScriptin. Ilman sitä kaikki tiedostot löytyvät täältä: {link}.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dc36838c"
+  },
+  "flash_board_title": {
+    "value": "Valitse laitteesi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "225d5074"
+  },
+  "flash_filter_label": {
+    "value": "Haku",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "49c266ba"
+  },
+  "flash_board_label": {
+    "value": "Laite",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4816cbfd"
+  },
+  "flash_role_label": {
+    "value": "Rooli",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14736a2e"
+  },
+  "flash_role_ble": {
+    "value": "Companion, Bluetooth",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2c1378a3"
+  },
+  "flash_role_usb": {
+    "value": "Companion, USB",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4794c45b"
+  },
+  "flash_role_repeater": {
+    "value": "Toistin",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "46e7bee1"
+  },
+  "flash_role_room_server": {
+    "value": "Huonepalvelin",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "68b91cc5"
+  },
+  "flash_version_before": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f4f17278"
+  },
+  "flash_version_after": {
+    "value": ", uusin julkaisu.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1daecb7e"
+  },
+  "flash_flash_title": {
+    "value": "Asenna USB:n kautta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dfd786e5"
+  },
+  "flash_mode_legend": {
+    "value": "Mitä haluat tehdä?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3e17dbf9"
+  },
+  "flash_mode_update": {
+    "value": "Päivitys: laitteelle, jossa on jo MeshCore. Säilyttää solmusi avaimet, yhteystiedot ja asetukset.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "59e8848e"
+  },
+  "flash_mode_fresh": {
+    "value": "Puhdas asennus: uudelle laitteelle tai laitteelle, jossa on muu laiteohjelmisto. Tyhjentää laitteen, avaimet mukaan lukien.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bc797149"
+  },
+  "flash_wipe_ok": {
+    "value": "Tiedän, että puhdas asennus tyhjentää solmuni avaimet ja yhteystiedot.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7aeefcb2"
+  },
+  "flash_flash_button": {
+    "value": "Yhdistä ja asenna",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8a541c7"
+  },
+  "flash_esp_help": {
+    "value": "Chrome, Edge tai Opera tietokoneella. Jos laite ei yhdistä, pidä sen BOOT-painiketta (joissakin laitteissa PRG) pohjassa, kun kytket sen, ja yritä uudelleen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4dafe8fb"
+  },
+  "flash_uf2_title": {
+    "value": "Kopioi tiedosto laitteellesi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "263bc1e5"
+  },
+  "flash_uf2_step1": {
+    "value": "Lataa tiedosto:",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dee6800a"
+  },
+  "flash_uf2_step2": {
+    "value": "Kytke laitteesi ja paina sen reset-painiketta kahdesti nopeasti. Se näkyy USB-asemana. Laitteella ilman reset-painiketta on oma tapansa; valmistajan sivu kertoo miten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9cd62884"
+  },
+  "flash_uf2_step3": {
+    "value": "Vedä tiedosto sille asemalle. Laite käynnistyy uudelleen uudella laiteohjelmistolla; päivitys säilyttää sen avaimet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aef87c5b"
+  },
+  "flash_status_unsupported": {
+    "value": "Tämä selain ei pääse USB:hen. Käytä Chromea, Edgeä tai Operaa tietokoneella.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8ef7eebe"
+  },
+  "flash_status_no_list": {
+    "value": "Laitelista ei latautunut. Lataa sivu uudelleen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7a3841a5"
+  },
+  "flash_status_downloading": {
+    "value": "Ladataan laiteohjelmistoa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c9e6648c"
+  },
+  "flash_status_connecting": {
+    "value": "Yhdistetään laitteeseesi.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "70ed0d63"
+  },
+  "flash_status_flashing": {
+    "value": "Asennetaan. Pidä laite kytkettynä.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0796d555"
+  },
+  "flash_status_done": {
+    "value": "Valmis. Laitteesi käynnistyy uudelleen uudella laiteohjelmistolla.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "445b69e2"
+  },
+  "flash_status_failed": {
+    "value": "Asennus keskeytyi. Pidä BOOT-painiketta pohjassa, kun kytket laitteen, ja yritä uudelleen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f716db56"
+  },
+  "flash_status_no_file": {
+    "value": "Laiteohjelmistotiedosto ei latautunut. Yritä hetken päästä uudelleen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6636a9df"
+  },
+  "flash_other_firmware": {
+    "value": "Muilla laiteohjelmistoilla, kuten DutchMeshCoren observer-laiteohjelmistolla, on oma asennustyökalunsa: {link}.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b2c75d72"
+  },
+  "release_flash_link": {
+    "value": "Asenna se laitteellesi",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "207bc805"
+  }
+}

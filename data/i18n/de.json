@@ -1,0 +1,5264 @@
+{
+  "_meta": {
+    "language": "de",
+    "name": "Deutsch",
+    "managed_by": "community",
+    "updated": "2026-10-26"
+  },
+  "site_tagline": {
+    "value": "Nachrichten ohne Netz, in ganz Europa",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fd77fd37"
+  },
+  "site_description": {
+    "value": "Der Community-Leitfaden zu MeshCore in Europa: Einstieg, Hardware, lokale Gruppen, Abdeckungskarten und Repeater. Nicht kommerziell und Open Source.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "00f6c54b"
+  },
+  "skip_to_content": {
+    "value": "Zum Inhalt springen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ac576a66"
+  },
+  "menu": {
+    "value": "Menü",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "99af6606"
+  },
+  "nav_label": {
+    "value": "Haupt",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eb814be3"
+  },
+  "nav_about": {
+    "value": "Über",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4efca0d1"
+  },
+  "nav_get_started": {
+    "value": "Einstieg",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "61e8d44a"
+  },
+  "nav_devices": {
+    "value": "Geräte",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4ba5121d"
+  },
+  "nav_community": {
+    "value": "Community",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bb501d78"
+  },
+  "nav_map": {
+    "value": "Karte",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be176b00"
+  },
+  "nav_repeater_guide": {
+    "value": "Repeater-Leitfaden",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4608abcd"
+  },
+  "nav_news": {
+    "value": "Neuigkeiten",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "69752f23"
+  },
+  "nav_projects": {
+    "value": "Projekte",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "04e2a972"
+  },
+  "nav_contribute": {
+    "value": "Mitmachen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "97b0c61b"
+  },
+  "nav_privacy": {
+    "value": "Datenschutz",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "54a57c31"
+  },
+  "in_english": {
+    "value": "Diese Seite ist auf Englisch",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7e9323d9"
+  },
+  "lang_switch_label": {
+    "value": "Sprache",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a4fe6526"
+  },
+  "not_translated_yet": {
+    "value": "noch nicht übersetzt",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3f59d8d3"
+  },
+  "theme_light": {
+    "value": "Design: hell",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "72a842db"
+  },
+  "theme_dark": {
+    "value": "Design: dunkel",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "43908c59"
+  },
+  "theme_system": {
+    "value": "Design: System",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "98a8dd2c"
+  },
+  "copy": {
+    "value": "Kopieren",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e21f935f"
+  },
+  "copied": {
+    "value": "Kopiert",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8d525e5f"
+  },
+  "hero_eyebrow": {
+    "value": "868 MHz · Europa",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "567ed2b0"
+  },
+  "hero_title": {
+    "value": "Ohne Netz, im Mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "43ed56a7"
+  },
+  "hero_lead": {
+    "value": "MeshCore sendet Nachrichten per Funk, ohne Internet und ohne Abo. Die Meshes in Europa verbinden sich zu einem. Hier teilen ihre Communities, was sie lernen.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "19ad0ab5"
+  },
+  "hero_cta_start": {
+    "value": "Loslegen",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "61e8d44a"
+  },
+  "hero_cta_about": {
+    "value": "Was MeshCore ist",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "cdecad6f"
+  },
+  "paths_title": {
+    "value": "Wo willst du anfangen?",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "bf614863"
+  },
+  "path_new_title": {
+    "value": "Neu hier",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "10bc4c55"
+  },
+  "path_new_desc": {
+    "value": "Was ein Mesh ist und was MeshCore kann und nicht kann.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "a3e4ab18"
+  },
+  "path_offgrid_title": {
+    "value": "Bereit, wenn Netze ausfallen",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "b005ed6a"
+  },
+  "path_offgrid_desc": {
+    "value": "Wähle ein Board für Wandern, Segeln, Events oder einen Stromausfall.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6a84d5b4"
+  },
+  "path_build_title": {
+    "value": "Bauen und Basteln",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c24822f6"
+  },
+  "path_build_desc": {
+    "value": "Funk, Antennen, Werkzeuge und Projekte aus anderen Communities.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "31166d76"
+  },
+  "path_grow_title": {
+    "value": "Einen Repeater aufstellen",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "bf145b6c"
+  },
+  "path_grow_desc": {
+    "value": "Plane und platziere einen Repeater, der deine Gegend abdeckt.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "db75c8c5"
+  },
+  "path_local_title": {
+    "value": "Leute in deiner Nähe",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "808e1f66"
+  },
+  "path_local_desc": {
+    "value": "Finde deine lokale Gruppe, ihre Chats und ihre Kanäle.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "a1e525eb"
+  },
+  "why_title": {
+    "value": "Warum MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "67d51fbe"
+  },
+  "why_costs_title": {
+    "value": "Keine laufenden Kosten",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "adff5b03"
+  },
+  "why_costs_desc": {
+    "value": "Kauf einmal ein Funkgerät. Nachrichten kosten nichts: keine SIM-Karte, kein Datentarif, kein Abo.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6e735f31"
+  },
+  "why_infra_title": {
+    "value": "Funktioniert ohne Netz",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "058c8eae"
+  },
+  "why_infra_desc": {
+    "value": "Funktioniert weiter, wenn Mobilfunk und Internet ausfallen oder nicht erreichbar sind. Nachrichten gehen von Funkgerät zu Funkgerät, über die Luft.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ec9de206"
+  },
+  "why_open_title": {
+    "value": "Open Source",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "67a0d2e0"
+  },
+  "why_open_desc": {
+    "value": "Die Firmware und ihr Protokoll sind Open Source, also kann jeder darauf aufbauen. Offene Apps, Werkzeuge und Bibliotheken tun das schon.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "97859c5f"
+  },
+  "why_privacy_title": {
+    "value": "Privat von Grund auf",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "485ca594"
+  },
+  "why_privacy_desc": {
+    "value": "Direktnachrichten sind Ende-zu-Ende-verschlüsselt. Du brauchst kein Konto und keine Telefonnummer, um mitzumachen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6901512e"
+  },
+  "why_routing_title": {
+    "value": "Lokal nach Region",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be9348e5"
+  },
+  "why_routing_desc": {
+    "value": "Deine erste Nachricht floodet durch die Repeater, die Knoten auf Dächern und Masten, die Nachrichten weitergeben. Eine Nachricht, die floodet, kann eine Region tragen, und Repeater geben nur die Regionen weiter, die sie bedienen, so bleibt sie in ihrem Gebiet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e9620b88"
+  },
+  "why_community_title": {
+    "value": "Ein Mesh, viele Gruppen",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "a49e1ded"
+  },
+  "why_community_desc": {
+    "value": "Lokale Gruppen in ganz Europa stellen Repeater auf, teilen Einstellungen und helfen Neulingen. Finde die Gruppe in deiner Nähe unter Lokale Gruppen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d1e253bc"
+  },
+  "home_live_label": {
+    "value": "Live in ganz Europa",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "44ee0071"
+  },
+  "home_live_packets": {
+    "value": "Pakete in der letzten vollen Stunde",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "e3e24e13"
+  },
+  "home_live_countries": {
+    "value": "Länder in der letzten Stunde gehört",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "502cba0e"
+  },
+  "home_live_repeaters": {
+    "value": "Repeater in den letzten 7 Tagen gehört",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2890ece6"
+  },
+  "home_live_source": {
+    "value": "Zahlen von meshcore-analyzer.eu",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "73b22a30"
+  },
+  "strip_label_release": {
+    "value": "Release",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e020e3c6"
+  },
+  "strip_label_reference": {
+    "value": "Nachschlagen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "71bf9093"
+  },
+  "strip_label_guides": {
+    "value": "Anleitungen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "572cd72f"
+  },
+  "strip_label_directory": {
+    "value": "Verzeichnis",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c8f84c3c"
+  },
+  "strip_label_site": {
+    "value": "Diese Seite",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e487482d"
+  },
+  "strip_released": {
+    "value": "veröffentlicht",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d29eae13"
+  },
+  "strip_boards": {
+    "value": "Boards",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "685d9a8f"
+  },
+  "strip_commands": {
+    "value": "CLI-Befehle",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a13cc6cb"
+  },
+  "strip_latest_firmware": {
+    "value": "neueste Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a0daddac"
+  },
+  "strip_releases": {
+    "value": "Releases auf dieser Seite",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e99084d9"
+  },
+  "strip_areas": {
+    "value": "Gebiete mit empfohlenen Einstellungen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "789b6daa"
+  },
+  "strip_presets": {
+    "value": "Funk-Presets",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cb582a14"
+  },
+  "strip_devices": {
+    "value": "Geräte",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ade15a12"
+  },
+  "strip_groups": {
+    "value": "lokale Gruppen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f40e444b"
+  },
+  "strip_countries": {
+    "value": "Länder",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e45d4cba"
+  },
+  "strip_maps": {
+    "value": "Abdeckungskarten",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e149f255"
+  },
+  "strip_channel_countries": {
+    "value": "Länder zur Auswahl",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0fbe9da9"
+  },
+  "strip_projects": {
+    "value": "Projekte",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2577c0f5"
+  },
+  "strip_languages": {
+    "value": "Sprachen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6cb574fa"
+  },
+  "strip_trackers": {
+    "value": "Tracker",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "da068881"
+  },
+  "strip_third_party": {
+    "value": "Anfragen an Dritte",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "64ebce3d"
+  },
+  "strip_cookie": {
+    "value": "Cookie, nur wenn du ein Design wählst",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be0b8e53"
+  },
+  "strip_checked": {
+    "value": "Geprüft",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0efd92a3"
+  },
+  "strip_release_source": {
+    "value": "Aus den MeshCore-Releases",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d619a021"
+  },
+  "news_latest": {
+    "value": "Neueste Nachrichten",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f74e23c2"
+  },
+  "news_english_only": {
+    "value": "Neuigkeiten erscheinen nur auf Englisch.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "815251ef"
+  },
+  "news_all": {
+    "value": "Alle Neuigkeiten",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "67c7790c"
+  },
+  "badge_ai": {
+    "value": "Maschinell übersetzt",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e174e770"
+  },
+  "badge_human": {
+    "value": "Geprüfte Übersetzung",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3f4efebd"
+  },
+  "banner_ai_title": {
+    "value": "Diese Seite wurde maschinell übersetzt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1cb96c83"
+  },
+  "banner_ai_body": {
+    "value": "Noch kein Muttersprachler hat sie geprüft, manche Formulierungen können daher ungenau sein.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bbc7e56b"
+  },
+  "banner_stale": {
+    "value": "Die englische Seite hat sich seit dieser Übersetzung geändert.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b34a3714"
+  },
+  "read_english": {
+    "value": "Englische Version lesen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "971012a5"
+  },
+  "banner_improve": {
+    "value": "Hilf mit, diese Übersetzung zu verbessern",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a9a967b6"
+  },
+  "edit_page": {
+    "value": "Diese Seite auf GitHub bearbeiten",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "073fd103"
+  },
+  "planned_note": {
+    "value": "Wir bauen diese Seite noch.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "f0aebcf0"
+  },
+  "planned_more": {
+    "value": "Bis dahin können diese Seiten helfen:",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "ec1b5efa"
+  },
+  "last_verified": {
+    "value": "Zuletzt geprüft",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "d8e92048"
+  },
+  "sources": {
+    "value": "Quellen",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "caf85b08"
+  },
+  "callout_tip": {
+    "value": "Tipp",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a4245a3c"
+  },
+  "callout_warning": {
+    "value": "Achtung",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e981ddae"
+  },
+  "callout_legal": {
+    "value": "Rechtliches",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4787eaf7"
+  },
+  "filter_title": {
+    "value": "Eingrenzen",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "28c6eb01"
+  },
+  "filter_any": {
+    "value": "Alle",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2b505597"
+  },
+  "filter_reset": {
+    "value": "Filter zurücksetzen",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "10afa984"
+  },
+  "filter_count": {
+    "value": "{shown} von {total} angezeigt",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f3d25c92"
+  },
+  "filter_empty": {
+    "value": "Zu diesen Filtern passt nichts.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "7094992d"
+  },
+  "filter_role_q": {
+    "value": "Wofür soll es sein?",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "25ed547a"
+  },
+  "filter_price_q": {
+    "value": "Budget",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1c6225ec"
+  },
+  "filter_power_q": {
+    "value": "Stromverbrauch",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "848e9656"
+  },
+  "filter_category_q": {
+    "value": "Kategorie",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "292c06f0"
+  },
+  "role_companion": {
+    "value": "Companion (das Funkgerät, von dem du Nachrichten schickst)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "fc49eb4e"
+  },
+  "role_repeater": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "46e7bee1"
+  },
+  "role_room_server": {
+    "value": "Room-Server",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "68b91cc5"
+  },
+  "price_1": {
+    "value": "€ (unter 25)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "84cdcfea"
+  },
+  "price_2": {
+    "value": "€€ (25 bis 60)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "be9a6bd8"
+  },
+  "price_3": {
+    "value": "€€€ (über 60)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "0e261f3a"
+  },
+  "power_battery": {
+    "value": "Eingebauter Akku",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3b3a4b7e"
+  },
+  "power_external": {
+    "value": "Externe Stromversorgung oder Solar",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "50778470"
+  },
+  "power_profile_low": {
+    "value": "Niedrig",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f793de20"
+  },
+  "power_profile_medium": {
+    "value": "Mittel",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "8e588cd1"
+  },
+  "power_profile_high": {
+    "value": "Hoch",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c4ebc6d4"
+  },
+  "spec_mcu": {
+    "value": "Prozessor",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "54aac653"
+  },
+  "spec_radio": {
+    "value": "LoRa-Chip",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1d340ea4"
+  },
+  "spec_battery": {
+    "value": "Akku",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "dfcb7c16"
+  },
+  "spec_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "176c7866"
+  },
+  "spec_screen": {
+    "value": "Display",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6e56137e"
+  },
+  "spec_connectivity": {
+    "value": "Verbindungen",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "5479401f"
+  },
+  "spec_form": {
+    "value": "Bauform",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "12827072"
+  },
+  "spec_price": {
+    "value": "Preisklasse",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "396491b7"
+  },
+  "spec_power": {
+    "value": "Stromverbrauch",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "96fcc312"
+  },
+  "spec_firmware": {
+    "value": "MeshCore-Unterstützung",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "4f7c9307"
+  },
+  "fw_official": {
+    "value": "Offizieller Build",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e07a4935"
+  },
+  "fw_community": {
+    "value": "Community-Build",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f8338fb4"
+  },
+  "yes": {
+    "value": "Ja",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "85a39ab3"
+  },
+  "no": {
+    "value": "Nein",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1ea442a1"
+  },
+  "none": {
+    "value": "Keine",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "dc937b59"
+  },
+  "form_handheld": {
+    "value": "Handgerät",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "ecb26701"
+  },
+  "form_board": {
+    "value": "Nackte Platine",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "33e95aea"
+  },
+  "form_enclosed": {
+    "value": "Knoten mit Gehäuse",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "751c73a5"
+  },
+  "form_wearable": {
+    "value": "Wearable",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6e31070f"
+  },
+  "form_usb": {
+    "value": "USB-Stick",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "031ad13f"
+  },
+  "conn_ble": {
+    "value": "Bluetooth LE",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "e05f95a2"
+  },
+  "conn_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "337253f2"
+  },
+  "conn_usb": {
+    "value": "USB",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "61f0acff"
+  },
+  "devices_empty": {
+    "value": "Es sind noch keine Geräte eingetragen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a158b22a"
+  },
+  "devices_list_title": {
+    "value": "Alle Geräte",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0594fe82"
+  },
+  "community_channels": {
+    "value": "Kanäle",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4c8906cf"
+  },
+  "community_ask_at": {
+    "value": "frag nach dem Link bei",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "969f418d"
+  },
+  "community_languages": {
+    "value": "Sprachen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "318655ce"
+  },
+  "community_empty": {
+    "value": "Es sind noch keine lokalen Gruppen eingetragen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "73a4cdc4"
+  },
+  "community_missing_title": {
+    "value": "Fehlt deine Gruppe?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7c5581b0"
+  },
+  "community_jump": {
+    "value": "Zu einem Land springen",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "f7361695"
+  },
+  "community_missing_body": {
+    "value": "Jeder kann eine lokale Gruppe hinzufügen. Eröffne ein Issue mit Name, Gebiet und Links, und ein Maintainer trägt sie in alle Sprachen auf einmal ein.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a626e730"
+  },
+  "community_missing_cta": {
+    "value": "Deine lokale Gruppe hinzufügen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f692beac"
+  },
+  "link_discord": {
+    "value": "Discord",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "053bc658"
+  },
+  "link_telegram": {
+    "value": "Telegram",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "acdd1e73"
+  },
+  "link_signal": {
+    "value": "Signal",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1e9806e4"
+  },
+  "link_matrix": {
+    "value": "Matrix",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "76a2171c"
+  },
+  "link_whatsapp": {
+    "value": "WhatsApp",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6a40edf1"
+  },
+  "link_forum": {
+    "value": "Forum",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4da7bd42"
+  },
+  "link_website": {
+    "value": "Website",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b5a229ac"
+  },
+  "link_map": {
+    "value": "Karte",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be176b00"
+  },
+  "link_wiki": {
+    "value": "Wiki",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "63ec69fd"
+  },
+  "map_scope_europe": {
+    "value": "Europaweit",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d7bc2dd9"
+  },
+  "map_scope_country": {
+    "value": "Land",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "701d021d"
+  },
+  "map_scope_region": {
+    "value": "Regional",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "299a03b1"
+  },
+  "map_shows_nodes": {
+    "value": "Knoten",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7ac36206"
+  },
+  "map_shows_coverage": {
+    "value": "Abdeckung",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "523487a5"
+  },
+  "map_shows_traffic": {
+    "value": "Live-Verkehr",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9fd86662"
+  },
+  "map_shows_analyzer": {
+    "value": "Paket-Analyser",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14671539"
+  },
+  "map_shows_statistics": {
+    "value": "Statistiken",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "a656107e"
+  },
+  "map_open": {
+    "value": "Karte öffnen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ea488d26"
+  },
+  "maps_empty": {
+    "value": "Es sind noch keine Karten eingetragen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f4332bc7"
+  },
+  "map_tenants_intro": {
+    "value": "Ein Analyser für ganz Europa. Lokale Communities betreiben ihn auch unter eigenem Namen und Design, mit denselben Live-Daten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6e5054f0"
+  },
+  "project_cat_app": {
+    "value": "App",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0d04bfeb"
+  },
+  "project_cat_tool": {
+    "value": "Werkzeug",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2e53bdcd"
+  },
+  "project_cat_bridge": {
+    "value": "Bridge",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3892e103"
+  },
+  "project_cat_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c2a314c3"
+  },
+  "project_cat_hardware": {
+    "value": "Hardware",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7975300f"
+  },
+  "project_cat_library": {
+    "value": "Bibliothek",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dc20b3d5"
+  },
+  "project_archived": {
+    "value": "Archiviert",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bdb86505"
+  },
+  "project_licence": {
+    "value": "Lizenz",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f3ec8e88"
+  },
+  "project_repo": {
+    "value": "Quellcode",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bf046c73"
+  },
+  "projects_empty": {
+    "value": "Es sind noch keine Projekte eingetragen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "26a6bda7"
+  },
+  "projects_list_title": {
+    "value": "Alle Projekte",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4b87271b"
+  },
+  "projects_add_cta": {
+    "value": "Projekt einreichen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8e8a3907"
+  },
+  "footer_about": {
+    "value": "Ein nicht kommerzieller Community-Leitfaden zu MeshCore in Europa, ohne Werbung, Affiliate-Links oder Tracking.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8a0b3c0d"
+  },
+  "footer_disclaimer": {
+    "value": "meshcore-info.eu wird von Freiwilligen betrieben und ist nicht mit den Entwicklern der MeshCore-Firmware verbunden.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5043ea17"
+  },
+  "footer_nav_label": {
+    "value": "Website",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fa795581"
+  },
+  "footer_source": {
+    "value": "Quellcode",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bf046c73"
+  },
+  "footer_license": {
+    "value": "Texte unter CC BY 4.0, Code unter MIT.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "61085af6"
+  },
+  "not_found_title": {
+    "value": "Seite nicht gefunden",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a469ab4c"
+  },
+  "not_found_body": {
+    "value": "Diese Seite gibt es nicht, oder sie ist umgezogen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a9044129"
+  },
+  "not_found_home": {
+    "value": "Zur Startseite",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "adcedded"
+  },
+  "picker_title": {
+    "value": "Wähle deine Sprache",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8e2d0664"
+  },
+  "coverage_caption": {
+    "value": "Übersetzungsstand pro Sprache",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fdb7f8dd"
+  },
+  "coverage_language": {
+    "value": "Sprache",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a4fe6526"
+  },
+  "coverage_strings": {
+    "value": "Oberflächentexte",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "146382ff"
+  },
+  "coverage_pages": {
+    "value": "Seiten",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9046da16"
+  },
+  "coverage_human": {
+    "value": "Geprüft",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fad6057b"
+  },
+  "coverage_ai": {
+    "value": "Maschinell",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8f1cc42d"
+  },
+  "coverage_stale": {
+    "value": "Veraltet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c759f42e"
+  },
+  "coverage_missing": {
+    "value": "Fehlt",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6be36ca4"
+  },
+  "presets_caption": {
+    "value": "Funk-Presets in Europa",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "037c3732"
+  },
+  "presets_name": {
+    "value": "Preset in der App",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "46bda49e"
+  },
+  "presets_frequency": {
+    "value": "Frequenz (MHz)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1740a857"
+  },
+  "presets_bandwidth": {
+    "value": "Bandbreite (kHz)",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "5cf2dd7b"
+  },
+  "presets_sf": {
+    "value": "Spreading Factor",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "7cda59eb"
+  },
+  "presets_cr": {
+    "value": "Coding Rate",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2cd87b32"
+  },
+  "presets_source": {
+    "value": "Aus der Preset-Liste des MeshCore-Projekts, geprüft",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "215b400b"
+  },
+  "gain_label": {
+    "value": "Die Keule eines Dipols und einer Glasfaser-Kollinearantenne, durch den Mast geschnitten und von der Seite gesehen, maßstabsgetreu. Die Kollinearantenne erreicht einen Knoten weit am Horizont. Nur der Dipol erreicht einen Knoten steil darunter.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d90bf3bb"
+  },
+  "gain_dipole": {
+    "value": "Dipol",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ef909a16"
+  },
+  "gain_collinear": {
+    "value": "Glasfaser-Kollinearantenne",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "822f4c75"
+  },
+  "gain_node": {
+    "value": "Knoten",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e9337253"
+  },
+  "country_ad": {
+    "value": "Andorra",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3e340be4"
+  },
+  "country_al": {
+    "value": "Albanien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1af00b87"
+  },
+  "country_at": {
+    "value": "Österreich",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c9cab023"
+  },
+  "country_ba": {
+    "value": "Bosnien und Herzegowina",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b0772b9c"
+  },
+  "country_be": {
+    "value": "Belgien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "348841ef"
+  },
+  "country_bg": {
+    "value": "Bulgarien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "66b86bf0"
+  },
+  "country_by": {
+    "value": "Belarus",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4bef16df"
+  },
+  "country_ch": {
+    "value": "Schweiz",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "22755831"
+  },
+  "country_cy": {
+    "value": "Zypern",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5f1162c5"
+  },
+  "country_cz": {
+    "value": "Tschechien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ecfa967e"
+  },
+  "country_de": {
+    "value": "Deutschland",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "80db4ccd"
+  },
+  "country_dk": {
+    "value": "Dänemark",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c5270975"
+  },
+  "country_ee": {
+    "value": "Estland",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "10aeba69"
+  },
+  "country_es": {
+    "value": "Spanien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8ef41e6f"
+  },
+  "country_fi": {
+    "value": "Finnland",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aed8f531"
+  },
+  "country_fo": {
+    "value": "Färöer",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "773ca4d6"
+  },
+  "country_fr": {
+    "value": "Frankreich",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7a1ca4ef"
+  },
+  "country_gb": {
+    "value": "Vereinigtes Königreich",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8d23a6e3"
+  },
+  "country_gg": {
+    "value": "Guernsey",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b9c48cb1"
+  },
+  "country_gi": {
+    "value": "Gibraltar",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "097ced58"
+  },
+  "country_gr": {
+    "value": "Griechenland",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9c93ad43"
+  },
+  "country_hr": {
+    "value": "Kroatien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7328d3f8"
+  },
+  "country_hu": {
+    "value": "Ungarn",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "504be308"
+  },
+  "country_ie": {
+    "value": "Irland",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "02bf1dfa"
+  },
+  "country_im": {
+    "value": "Isle of Man",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "34096f96"
+  },
+  "country_is": {
+    "value": "Island",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "595d6d91"
+  },
+  "country_it": {
+    "value": "Italien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5a9cf672"
+  },
+  "country_je": {
+    "value": "Jersey",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "764a8c04"
+  },
+  "country_li": {
+    "value": "Liechtenstein",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6ff080c0"
+  },
+  "country_lt": {
+    "value": "Litauen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5c83a631"
+  },
+  "country_lu": {
+    "value": "Luxemburg",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ed76f191"
+  },
+  "country_lv": {
+    "value": "Lettland",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "988c8160"
+  },
+  "country_mc": {
+    "value": "Monaco",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "935018cc"
+  },
+  "country_md": {
+    "value": "Moldau",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14ad63a1"
+  },
+  "country_me": {
+    "value": "Montenegro",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7ab597e1"
+  },
+  "country_mk": {
+    "value": "Nordmazedonien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cd847226"
+  },
+  "country_mt": {
+    "value": "Malta",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "71e9eb10"
+  },
+  "country_nl": {
+    "value": "Niederlande",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3a386c13"
+  },
+  "country_no": {
+    "value": "Norwegen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bea54a34"
+  },
+  "country_pl": {
+    "value": "Polen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7f69649a"
+  },
+  "country_pt": {
+    "value": "Portugal",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4c7de2c3"
+  },
+  "country_ro": {
+    "value": "Rumänien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ea23726d"
+  },
+  "country_rs": {
+    "value": "Serbien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e8739c83"
+  },
+  "country_ru": {
+    "value": "Russland",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "33a3d8ed"
+  },
+  "country_se": {
+    "value": "Schweden",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "85363713"
+  },
+  "country_si": {
+    "value": "Slowenien",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "56059e7f"
+  },
+  "country_sk": {
+    "value": "Slowakei",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a2ea3384"
+  },
+  "country_sm": {
+    "value": "San Marino",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "230450a2"
+  },
+  "country_tr": {
+    "value": "Türkei",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d15b2145"
+  },
+  "country_ua": {
+    "value": "Ukraine",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "580eedc6"
+  },
+  "country_va": {
+    "value": "Vatikanstadt",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b0ce1029"
+  },
+  "country_xk": {
+    "value": "Kosovo",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4a867424"
+  },
+  "device.heltec-wifi-lora-32-v3.notes": {
+    "value": "Eine nackte Platine: Gehäuse, Antenne und Akku kommen dazu. Der ESP32 braucht zu viel Strom für einen kleinen Solar-Repeater.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "bc29e2c9"
+  },
+  "device.heltec-wifi-lora-32-v4.notes": {
+    "value": "Die High-Power-Version sendet mit bis zu 28 dBm, mit den meisten Antennen über dem europäischen Grenzwert: der Repeater-Leitfaden zeigt, wie du darunter bleibst. Die Basisversion kostet unter 25 Euro, die High-Power-Version mehr. Die R8-Version hat mehr Speicher und braucht einen eigenen Firmware-Build.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5c626e8a"
+  },
+  "device.heltec-mesh-node-t114.notes": {
+    "value": "Stromsparende nRF52-Platine und eine verbreitete Basis für Solar-Repeater. Display und GPS wählst du beim Bestellen; damit kostet sie mehr als 25 Euro.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f1999a30"
+  },
+  "device.heltec-wireless-tracker.notes": {
+    "value": "Platine mit eingebautem GPS. Akku und Gehäuse bringst du selbst mit.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "5d4b7295"
+  },
+  "device.heltec-wireless-paper.notes": {
+    "value": "Das E-Paper-Display bleibt im Sonnenlicht lesbar. Kein Akku enthalten.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "d60633a2"
+  },
+  "device.lilygo-t-echo.notes": {
+    "value": "Handgerät für die Tasche mit E-Paper-Display und GPS. Es gibt auch eine Version mit größerem Akku.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1f285d65"
+  },
+  "device.lilygo-t-deck-plus.notes": {
+    "value": "Echte Tastatur, Trackball und Touchscreen. Das Plus bringt GPS und einen Akku mit 2000 mAh dazu.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "0fb0f75c"
+  },
+  "device.lilygo-t-beam-supreme.notes": {
+    "value": "Nimmt eine 18650-Zelle auf, nicht enthalten. Nimm die SX1262-Version: Für die LR1121-Version gibt es keinen offiziellen Build.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "e3db28aa"
+  },
+  "device.rak-wisblock-rak4631.notes": {
+    "value": "Modular: Steckmodule ergänzen GPS, ein Display oder Sensoren. Die Basisplatine hat einen Solareingang.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c1317a23"
+  },
+  "device.rak-wismesh-tag.notes": {
+    "value": "Schlanker wetterfester Badge mit eingebauten Antennen.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "572181c6"
+  },
+  "device.seeed-sensecap-t1000-e.notes": {
+    "value": "Kreditkartengröße, staub- und spritzwassergeschützt (IP65), kein Display. Nutzt den LR1110-Funkchip statt des verbreiteteren SX1262.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "e18363be"
+  },
+  "device.seeed-xiao-nrf52840-wio-sx1262.notes": {
+    "value": "Ein winziger Stapel aus zwei Platinen. Für unterwegs lötest du einen Akku an.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "3063cd1d"
+  },
+  "device.seeed-wio-tracker-l1-pro.notes": {
+    "value": "Kommt im Gehäuse mit Display, GPS und Akku. Es gibt auch Lite- und E-Ink-Versionen.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "d9fd3d73"
+  },
+  "device.seeed-sensecap-solar-node-p1.notes": {
+    "value": "Wetterfestes Gehäuse mit 5-W-Solarpanel, vier 18650-Zellen und GPS, gemacht für Repeater.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "f3c9e1f9"
+  },
+  "device.heltec-wifi-lora-32-v4-expansion-kit.notes": {
+    "value": "Ein V4-Board in einem Metallgehäuse mit Touchscreen. GPS und eine 18650-Zelle wählst du bei der Bestellung dazu. MeshCore zeigt den Bildschirm an, nutzt Touch aber noch nicht.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8704efde"
+  },
+  "device.heltec-wireless-stick-lite-v3.notes": {
+    "value": "Das V3 ohne Bildschirm. Ein nacktes Board: ergänze Gehäuse, Antenne und Akku.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6a36169b"
+  },
+  "device.heltec-wireless-tracker-v2.notes": {
+    "value": "Board mit GPS und Solaranschluss. Es sendet mit bis zu 28 dBm, mit den meisten Antennen über dem europäischen Grenzwert: der Repeater-Leitfaden zeigt, wie du darunter bleibst.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e56ec119"
+  },
+  "device.heltec-vision-master-e213.notes": {
+    "value": "Board mit E-Paper-Bildschirm, der im Sonnenlicht lesbar bleibt. Akku und Gehäuse bringst du selbst mit.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7519dcd5"
+  },
+  "device.heltec-vision-master-e290.notes": {
+    "value": "Wie das E213, mit größerem E-Paper-Bildschirm. Akku und Gehäuse bringst du selbst mit.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "84da4d43"
+  },
+  "device.heltec-vision-master-t190.notes": {
+    "value": "Board mit Farbbildschirm. Akku und Gehäuse bringst du selbst mit.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "08d0d0d2"
+  },
+  "device.heltec-mesh-node-t1.notes": {
+    "value": "Tag im Kartenformat mit GPS und kleinem Bildschirm, staub- und spritzwassergeschützt (IP65).",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c9807632"
+  },
+  "device.heltec-meshpocket.notes": {
+    "value": "Eine Powerbank mit eingebautem Knoten und einem magnetischen Wireless-Ladegerät für dein Handy. Auch mit 10000 mAh erhältlich.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0eab0a7c"
+  },
+  "device.heltec-meshsolar.notes": {
+    "value": "Board für einen Solar-Repeater: nimmt eine bis vier Zellen und ein Panel mit 18 bis 24 V auf. GPS und Bildschirm sind Zusatzmodule.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "195aa41c"
+  },
+  "device.heltec-meshtower-v2.notes": {
+    "value": "Wetterfestes Metallgehäuse mit drei Zellen und einem 10-W-Solarpanel, gemacht für Repeater. GPS ist optional. Die 30-dBm-Version liegt über dem europäischen Grenzwert: der Repeater-Leitfaden zeigt, wie du darunter bleibst.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d935df5c"
+  },
+  "device.lilygo-t-echo-lite.notes": {
+    "value": "Kleinerer T-Echo mit GPS-Zusatzmodul. Mit oder ohne Gehäuse erhältlich.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b18c1e64"
+  },
+  "device.lilygo-t-echo-card.notes": {
+    "value": "Kreditkartengröße mit GPS, Lautsprecher und einem kleinen Solarpanel, das den Akku nur nachlädt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1b860b15"
+  },
+  "device.lilygo-t-impulse-plus.notes": {
+    "value": "Armband mit GPS, winzigem Bildschirm und Vibrationsmotor.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3bc53725"
+  },
+  "device.lilygo-t-deck.notes": {
+    "value": "Tastatur und Trackball wie beim T-Deck Plus, ohne GPS und Akku. Wähle eine Version mit LoRa: es gibt auch eine ohne.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e88fe0ef"
+  },
+  "device.lilygo-t-beam.notes": {
+    "value": "Das klassische T-Beam mit dem älteren SX1276-Funkchip. Nimmt eine 18650-Zelle auf, nicht enthalten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7c56a56b"
+  },
+  "device.lilygo-t-beam-1w.notes": {
+    "value": "Sendet mit bis zu 32 dBm, weit über dem europäischen Grenzwert: der Repeater-Leitfaden zeigt, wie du darunter bleibst. Braucht einen 7,4-V-Akku, den es nicht lädt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9a8d7b03"
+  },
+  "device.elecrow-thinknode-m1.notes": {
+    "value": "Handgerät mit E-Paper-Bildschirm und GPS.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "590fa3ac"
+  },
+  "device.elecrow-thinknode-m2.notes": {
+    "value": "Kleines Handgerät mit OLED-Bildschirm. Auch ohne Akku erhältlich.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "87f36cea"
+  },
+  "device.elecrow-thinknode-m3.notes": {
+    "value": "Staub- und wasserdichter (IP66) Tracker mit GPS, ohne Bildschirm.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0c7b633a"
+  },
+  "device.elecrow-thinknode-m4.notes": {
+    "value": "Eine Powerbank mit eingebautem Knoten und GPS, ohne Bildschirm.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "638c30a0"
+  },
+  "device.elecrow-thinknode-m5.notes": {
+    "value": "Wie das M1, mit ESP32-Prozessor: mehr Funktionen, kürzere Akkulaufzeit.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7943f498"
+  },
+  "device.elecrow-thinknode-m6.notes": {
+    "value": "Wetterfestes Gehäuse (IP65) mit 6-W-Solarpanel, zwei 18650-Zellen und GPS, gemacht für Repeater.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c7efcb7f"
+  },
+  "device.elecrow-thinknode-m7.notes": {
+    "value": "Box für innen mit Ethernet-Anschluss, versorgt über USB oder das Netzwerkkabel (PoE).",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "20225189"
+  },
+  "device.elecrow-thinknode-m9.notes": {
+    "value": "Funktioniert eigenständig, mit voller Tastatur, Farbbildschirm und GPS. Es wird mit Ripple-Firmware geliefert; normales MeshCore läuft auch darauf.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d9fb8bcf"
+  },
+  "device.seeed-wio-tracker-l1.notes": {
+    "value": "Das L1 Pro ohne Gehäuse und Akku. Hat GPS und einen Solaranschluss.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f317b814"
+  },
+  "device.seeed-wio-tracker-l1-eink.notes": {
+    "value": "Das L1 mit E-Paper-Bildschirm, ohne Gehäuse und Akku. MeshCore läuft darauf nur als Companion.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1c3665d9"
+  },
+  "device.seeed-sensecap-solar-node-p1-basic.notes": {
+    "value": "Das P1-Pro ohne Zellen und GPS: setze selbst vier 18650-Zellen ein. Der Halter nimmt nur Zellen mit Button-Top auf. Übliche Flat-Top-Zellen passen mit einem kleinen Magneten auf jeder Zelle.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a6f898f4"
+  },
+  "device.seeed-sensecap-meshtracker-x1.notes": {
+    "value": "Kartenformat, staub- und wasserdicht (IP66), ohne Bildschirm. Lädt über USB-C und vibriert bei einer neuen Nachricht.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9eadd1b5"
+  },
+  "device.seeed-xiao-esp32s3-wio-sx1262.notes": {
+    "value": "Das XIAO-Kit mit einem ESP32 statt des nRF52: WiFi, aber höherer Stromverbrauch.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0e783fe9"
+  },
+  "device.rak-wismesh-1w-booster.notes": {
+    "value": "Sendet mit bis zu 30 dBm, über dem europäischen Grenzwert: der Repeater-Leitfaden zeigt, wie du darunter bleibst. Jede Version läuft entweder mit Akku oder mit 5 V, prüfe das Etikett.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e03b4d5b"
+  },
+  "device.bq-station-g3.notes": {
+    "value": "Modulare Basisstation mit Verstärker bis 35 dBm, weit über dem europäischen Grenzwert: setze die Jumper und die Sendeleistung für dein Land. Braucht eine Versorgung mit 9 bis 19 V.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ee7d06f9"
+  },
+  "device.bq-nano-g2-ultra.notes": {
+    "value": "Robustes Handgerät mit eingebauter Antenne, ausgelegt für den Betrieb nah am Körper. Der Akku ist optional.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5e947959"
+  },
+  "device.m5stack-unit-c6l.notes": {
+    "value": "Kleines Modul in einer Kunststoffhülle, versorgt über USB-C. Kein Akkuanschluss.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "468b2af6"
+  },
+  "device.meshnology-w12.notes": {
+    "value": "Open-Source-Board mit Akku- und Solaranschluss. Es sendet mit bis zu 30 dBm, über dem europäischen Grenzwert: der Repeater-Leitfaden zeigt, wie du darunter bleibst.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "df27901e"
+  },
+  "community.nl-dutch-meshcore.desc": {
+    "value": "Niederländische Freiwilligengruppe für MeshCore-Nutzer in den Niederlanden. Sie betreibt gemeinsame MQTT-Collector, ein Observer-Dashboard, einen Einstellungshelfer und eine Firmware-Toolbox im Browser.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c4ad2c7f"
+  },
+  "community.nl-meshcore-net.desc": {
+    "value": "Niederländischsprachiger Telegram-Chat und Forum, wo niederländische Nutzer Einrichtungshilfe, Kanallisten und Repeater-Neuigkeiten austauschen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c57f1887"
+  },
+  "community.be-radio-actief.desc": {
+    "value": "Belgisches Wiki und Discord, gestartet von Funkamateuren, die MeshCore Ende 2025 nach Belgien brachten. Teil einer größeren Funkhobby-Community.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7598f9b8"
+  },
+  "community.lu-meshcore-luxembourg.desc": {
+    "value": "Gemeinsame Startseite der luxemburgischen Vereine, die MeshCore-Repeater im ganzen Land betreiben. Es sind Hacker-, Amateurfunk- und Notfallvorsorge-Gruppen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e38285ec"
+  },
+  "community.de-meshcore-de.desc": {
+    "value": "Deutschsprachiger MeshCore-Chat auf Telegram, genutzt in ganz Deutschland und von österreichischen Gruppen. Ein Matrix-Raum ist da für alle, die das lieber mögen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c2d34fef"
+  },
+  "community.de-berlin-chaos-mesh.desc": {
+    "value": "Berliner Gruppe mit Hackerspace-Wurzeln, mit Forum, Matrix-Raum und PotatoMesh-Dashboard, die MeshCore neben anderen Mesh-Projekten abdeckt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9f0065e0"
+  },
+  "community.de-isarmesh.desc": {
+    "value": "Forum für LoRa-Mesh-Nutzer rund um München, das regelmäßige Treffen organisiert und MeshCore und andere Mesh-Projekte diskutiert.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "05e62cf9"
+  },
+  "community.de-mesh-dresden.desc": {
+    "value": "Dresdner Gruppe mit tiefgehenden technischen Artikeln für Repeater-Betreiber. Sie betreibt auch einen lokalen Chat für MeshCore und andere Mesh-Projekte.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fd5d9e40"
+  },
+  "community.at-meshcore-austria.desc": {
+    "value": "Österreichische Community-Seite mit Einrichtungsanleitungen, Veranstaltungen und Neuigkeiten. Die österreichische Telegram-Gruppe wird getrennt von der Seite betrieben.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3dfcd101"
+  },
+  "community.ch-meshcore-switzerland.desc": {
+    "value": "Viersprachige Schweizer Seite mit Hinweisen zu Geräten, Regionen und Kanälen und einem Community-Forum für Fragen und Wünsche.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e8eb8c2c"
+  },
+  "community.cz-meshcore-cr.desc": {
+    "value": "Tschechisches Wiki zu Hardware, Repeatern, Kanälen und Regionen, unterstützt von einer Telegram-Gruppe und einem nationalen Paket-Analyser.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3eb31061"
+  },
+  "community.sk-meshcore-slovensko.desc": {
+    "value": "Slowakische Netzwerkseite, gehostet von einem Bratislavaer Amateurfunkclub, mit Discord-Server und wöchentlichen Treffen vor Ort.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "950a6862"
+  },
+  "community.pl-meshcore-polska.desc": {
+    "value": "Landesweite polnische Community mit Knotenkarte, Dokumentation auf Polnisch und einem Discord-Server.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bd6ed843"
+  },
+  "community.fr-meshcore-france.desc": {
+    "value": "Französische Koordinationsseite mit Verweisen auf regionale Gruppen und regionale Live-Karten, gepflegt als unabhängige Community-Seite.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e2024cd5"
+  },
+  "community.fr-mesh-idf.desc": {
+    "value": "Wiki für die Region Paris mit einem MeshCore-Telegram-Chat. Das Wiki deckt auch andere Mesh-Projekte ab.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b4be06c9"
+  },
+  "community.it-meshcore-italia.desc": {
+    "value": "Italienische nationale Community mit Anleitungen, Listen regionaler Kanäle und Unwetterwarn-Kanäle, einer Live-Knotenkarte und einer Telegram-Gruppe.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2a6caa8e"
+  },
+  "community.pt-meshcore-portugal.desc": {
+    "value": "Portugiesische Community-Chats, gesammelt in einem Telegram-Ordner.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "31bbdf73"
+  },
+  "community.dk-meshcore-dk.desc": {
+    "value": "Dänisches Wiki mit Einstiegsseiten, Gerätehinweisen, Regionseinrichtung und Fotos echter Repeater-Installationen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d0895f3b"
+  },
+  "community.se-meshat.desc": {
+    "value": "Schwedischer Treffpunkt für Mesh-Networking, mit Forum, Discord und einem Matrix-Raum. Er betreibt MeshCore-MQTT- und Kartendienste und deckt auch andere Mesh-Projekte ab.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "33d9ed2b"
+  },
+  "community.fi-mesh-finland.desc": {
+    "value": "Finnische MeshCore-Seite mit Links zu einem nationalen Analyser und Abdeckungskarten. Ihr Discord-Server wird mit Nutzern anderer Mesh-Projekte geteilt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3d618dfa"
+  },
+  "community.no-meshwiki.desc": {
+    "value": "Norwegisches Wiki mit einem MeshCore-Bereich neben anderen Mesh-Projekten und einem verlinkten Forum.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ccd83ba2"
+  },
+  "community.ee-estmesh.desc": {
+    "value": "Estnische MeshCore-Seite und ein Wiki, mit nationalen und städtischen Kanälen und einem Discord-Server für estnische Funkbegeisterte.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "14530e0d"
+  },
+  "community.lv-apraide.desc": {
+    "value": "Lettische LoRa-Mesh-Community, die MeshCore für ihr Netzwerk gewählt hat, mit Diskussion in einem Matrix-Raum.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "42e8a5c2"
+  },
+  "community.lt-atviras-tinklas.desc": {
+    "value": "Litauische Community-Seite mit Wissensdatenbank, Geräteseiten und einem Live-Netzwerk-Analyser für das MeshCore-Netzwerk.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8a0f8ba4"
+  },
+  "community.si-meshcore-slovenija.desc": {
+    "value": "Slowenische Seite mit den empfohlenen regionalen Funkeinstellungen, einer Knotenkarte und Firmware-Links.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "73253c8c"
+  },
+  "community.bg-meshcore-bulgaria.desc": {
+    "value": "Bulgarische Community rund um Sofia und Plowdiw, mit Funkverbindungen nach Rumänien und Serbien. Sie veröffentlicht Kanäle, Presets und Planungswerkzeuge.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ef62c925"
+  },
+  "community.rs-meshcore-srbija.desc": {
+    "value": "Inoffizielle serbische Community-Seite mit Knotenregister und Live-Karte für das Netzwerk, das Serbien und die Nachbarländer umspannt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "874059ce"
+  },
+  "community.gr-meshcore-greece.desc": {
+    "value": "Griechischer Discord-Server zum Planen und Betreiben von MeshCore-Netzwerken in Griechenland.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3fa83721"
+  },
+  "community.gb-meshhub-uk.desc": {
+    "value": "Hub für das ganze Vereinigte Königreich mit Community-Werkzeugen, Karten und Veranstaltungen für MeshCore-Nutzer und andere Mesh-Communities.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "050038cc"
+  },
+  "community.gb-scotmesh.desc": {
+    "value": "Von Freiwilligen betriebene schottische Community mit Forum, Wiki und Discord, die MeshCore neben anderen Mesh-Projekten betreibt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cce9f41c"
+  },
+  "community.ie-lora-project.desc": {
+    "value": "Unabhängige Einstiegsseite für MeshCore auf der ganzen Insel Irland. Ihr Discord-Server deckt Nord und Süd ab.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5f335412"
+  },
+  "community.at-carinthiamesh.desc": {
+    "value": "Wiki für MeshCore in Kärnten: Einstieg, Funkeinstellungen, Geräte und Repeater.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b601e188"
+  },
+  "community.at-meshcore-austria-at.desc": {
+    "value": "Deutschsprachiges Community-Wiki für MeshCore in Österreich.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7746c59b"
+  },
+  "community.be-loramesh.desc": {
+    "value": "Belgische Gruppe, die MeshCore für Notfallnachrichten nutzt, wenn Internet und Mobilfunk ausfallen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a0d79514"
+  },
+  "community.be-meshpot.desc": {
+    "value": "Französischsprachige Anleitung zum Mitmachen, Aufbauen und Schützen des MeshCore-Mesh in Brüssel und Wallonien.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3c6c5a0a"
+  },
+  "community.fr-loramesh.desc": {
+    "value": "Französische Gruppe, die mit MeshCore den lokalen Kontakt aufrechterhält, wenn Internet oder Mobilfunk ausfallen, Schritt für Schritt, mit einer Karte der aktiven Gebiete.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f22be170"
+  },
+  "community.de-bsmesh.desc": {
+    "value": "MeshCore-Netzwerk für den Großraum Braunschweig.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "076fd5a0"
+  },
+  "community.de-bremesh.desc": {
+    "value": "Freies MeshCore-Netzwerk für Bremen, Bremerhaven und das Umland, mit Tutorials.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7f614859"
+  },
+  "community.de-pemesh.desc": {
+    "value": "MeshCore-Netzwerk in und um Peine, entstanden aus dem Zusammenschluss zweier lokaler Meshes.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6423719c"
+  },
+  "community.de-muensterland.desc": {
+    "value": "Community, die ein freies MeshCore-Netzwerk im Münsterland aufbaut, gestartet in Billerbeck.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6f35e420"
+  },
+  "community.de-mesh-rheinland.desc": {
+    "value": "Rheinländische Community, die sowohl ein MeshCore- als auch ein Meshtastic-Netzwerk betreibt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eb9d7af7"
+  },
+  "community.de-meshcore-de-wiki.desc": {
+    "value": "Deutschsprachiges Wiki mit Einrichtungsanleitungen und einem Verzeichnis regionaler Gruppen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2a7d4602"
+  },
+  "community.de-meshcore-dresden.desc": {
+    "value": "Gruppe, die ein MeshCore-Netzwerk in und um Dresden aufbaut, mit Auflistung ihrer Regionen und Kanäle.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d0a1d71d"
+  },
+  "community.de-meshmitte.desc": {
+    "value": "Lokale Gruppe in und um Uslar, die will, dass Menschen auch bei Strom- und Netzausfällen in Kontakt bleiben.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "82b196a8"
+  },
+  "community.de-saarmesh.desc": {
+    "value": "Regionales MeshCore-Netzwerk im Saarland, mit seiner Regionsstruktur und einer Live-Karte.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2eeeb6e6"
+  },
+  "community.ie-mayo-mesh.desc": {
+    "value": "Nutzergruppe für Mesh-Funk im County Mayo.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "baab199e"
+  },
+  "community.it-lora-brescia.desc": {
+    "value": "Funkgruppe in Brescia mit italienischen Anleitungen zum Flashen und Einrichten von MeshCore-Repeatern. Sie betreibt auch Meshtastic und LoRa APRS.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "08567551"
+  },
+  "community.it-meshcore-ita.desc": {
+    "value": "Italienischsprachige Anleitungen, das gemeinsame italienische Funk-Preset und Hardware-Hinweise, mit einer Telegram-Gruppe.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8b178f55"
+  },
+  "community.nl-meshwiki.desc": {
+    "value": "Niederländisches Wiki, das jeder bearbeiten kann, über MeshCore und Mesh-Funk.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ce29af01"
+  },
+  "community.pl-lora-meshcore-polska.desc": {
+    "value": "Landesweites polnisches Netzwerk auf dem Preset EU/UK Narrow, mit einer Erklärung, wie es funktioniert und wer es aufbaut.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4c574d21"
+  },
+  "community.pl-meshcore-podlasie.desc": {
+    "value": "Hobbyisten, die ein MeshCore-Netzwerk in Podlachien aufbauen, mit Neuigkeiten und lokalen Einstellungen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a15fb772"
+  },
+  "community.pl-meshgo.desc": {
+    "value": "MeshCore-Gruppe rund um Gdańsk, Gdynia und Sopot, die das landesweite polnische Preset nutzt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8d16fa09"
+  },
+  "community.ro-brasov-mesh.desc": {
+    "value": "MeshCore-Netzwerk in Brașov auf dem Preset EU/UK Narrow.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bd8dcbfa"
+  },
+  "community.ro-meshcore-iasi.desc": {
+    "value": "MeshCore-Netzwerk in Iași mit einem Live-Dashboard.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eacc34d4"
+  },
+  "community.es-meshcore-catalunya.desc": {
+    "value": "Katalanischer Community-Hub mit Live-Karte, Analyser und Hardware-Anleitungen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5357e7fd"
+  },
+  "community.es-nomadmesh.desc": {
+    "value": "Community-MeshCore-Netzwerk in den Alpujarras.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ee8acd03"
+  },
+  "community.ua-meshcore-ua.desc": {
+    "value": "Von Freiwilligen betriebenes öffentliches Mesh, um in der ganzen Ukraine in Kontakt zu bleiben, mit Listen von Repeatern, Bots und Kanälen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "96fe6d7d"
+  },
+  "community.gb-ipnet.desc": {
+    "value": "Community in Ipswich für den Osten Englands, mit CoreScope-Dashboards und MQTT-Diensten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "114be940"
+  },
+  "community.gb-meshcore-wales.desc": {
+    "value": "Gemeinsame Funkeinstellungen und Kanäle für Südwales und den Westen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "726b552a"
+  },
+  "community.gb-northmesh.desc": {
+    "value": "Netzwerk in Nordengland mit einer Live-Karte von Repeatern, Paketaktivität und Abdeckung.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a1345cca"
+  },
+  "map.meshcore-official-map.desc": {
+    "value": "Die projekteigene Weltkarte der Knoten, deren Besitzer sie veröffentlichen wollten, filterbar nach Knotentyp und Funkfrequenz.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1509cafa"
+  },
+  "map.meshmapper.desc": {
+    "value": "Abdeckungskarten aus Wardriving-Fahrten lokaler Freiwilliger, aufgeteilt in regionale Karten, mit Regionen in ganz Europa.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f333e608"
+  },
+  "map.eu-meshcore-analyzer.desc": {
+    "value": "Gemeinsamer europäischer Analyser, der Observer-Feeds mehrerer Community-Broker zu einer Live-Ansicht von Knoten, Paketen und Kanälen zusammenführt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aa93a1ba"
+  },
+  "map.nl-dmc-observers.desc": {
+    "value": "Live-Dashboard der Observer, die an die MQTT-Collector von Dutch MeshCore (DMC) melden.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1da8752e"
+  },
+  "map.nl-mc-radar.desc": {
+    "value": "Netzwerkstatistiken für das niederländische Mesh, mit Diagrammen zu Durchsatz, Kanalverkehr, Knotenaktivität und Protokollzustand aus niederländischen Observer-Daten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a54bab7e"
+  },
+  "map.cz-analyzer.desc": {
+    "value": "CoreScope-Instanz für das tschechische Netzwerk mit Live-Paket-Feed, Knotenkarte und Statistiken pro Knoten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ade9ad40"
+  },
+  "map.fi-corescope.desc": {
+    "value": "Finnischer CoreScope-Analyser, der das nationale MeshCore-Netzwerk mit Live-Paketen auf einer Karte zeigt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9fa0aa59"
+  },
+  "map.se-meshat-corescope.desc": {
+    "value": "Schwedischer CoreScope-Analyser, gespeist vom MeshCore-MQTT-Broker von Meshat.se.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a1e700c6"
+  },
+  "map.fr-cartolite.desc": {
+    "value": "Selbst gehostete Live-Karte des weltweiten MeshCore-Verkehrs, die gehörte Verbindungen, Live-Pakete und eine Heatmap auf einer Geländekarte zeichnet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "abcdec75"
+  },
+  "map.ee-litescope.desc": {
+    "value": "Leichtgewichtiger estnischer Analyser mit Live-Paket-Feed, Knotenkarte, Signalstatistiken und Observer-Übersicht.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "040c7753"
+  },
+  "map.ie-mayomesh-live.desc": {
+    "value": "Irische Echtzeitkarte von Knoten, Nachrichtenrouten und Advert-Pfaden, mit Werkzeugen für Abdeckung, Sichtverbindung und Ausbreitung.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "244a4a53"
+  },
+  "map.de-meshcorenetz-analyzer.desc": {
+    "value": "Der MeshCore Analyzer in den Farben von MeshCoreNetz.de, startet auf Norddeutschland.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7c597271"
+  },
+  "map.de-meshdresden-analyzer.desc": {
+    "value": "Der MeshCore Analyzer in den Farben von MeshDresden.eu, dem Community-Mesh von Dresden.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b7456441"
+  },
+  "map.nl-cornmeister.desc": {
+    "value": "Der MeshCore Analyzer in den Farben von Cornmeister.nl, startet auf den Niederlanden.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "69efcf8b"
+  },
+  "map.be-bemesh-map.desc": {
+    "value": "Karte belgischer Clients, Repeater, Room-Server und Sensoren, auf der Besitzer ihren Knoten beanspruchen können.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "37af8d74"
+  },
+  "map.be-on8ar-corescope.desc": {
+    "value": "CoreScope-Analyser für in Belgien gehörten Verkehr.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "97d8adf0"
+  },
+  "map.is-corescope.desc": {
+    "value": "CoreScope-Analyser für das isländische Netzwerk.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9441de4b"
+  },
+  "map.pl-meshcore-polska-map.desc": {
+    "value": "Live-Karte polnischer Clients, Repeater, Room-Server und Sensoren.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "57d86a21"
+  },
+  "map.fr-loramesh-map.desc": {
+    "value": "Karte der Gebiete in Frankreich, in denen MeshCore aktiv ist. Außerhalb der großen Städte ist die Abdeckung noch lückenhaft.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "85632f3a"
+  },
+  "map.de-meshcore-de-regions.desc": {
+    "value": "Bearbeitbare Karte von MeshCore-Regionen und lokalen Gruppen, vor allem in Deutschland.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cec143bd"
+  },
+  "map.gb-ukmesh.desc": {
+    "value": "Netzwerkanalysen für das Vereinigte Königreich mit Pfaden und Live-Ansichten, gespeist von Observern.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "03a38df8"
+  },
+  "map.gb-meshrank.desc": {
+    "value": "Ranglisten und Statistiken für Repeater und Routen, hauptsächlich im Vereinigten Königreich.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "997a9a6e"
+  },
+  "map.gb-m3sh-contacts.desc": {
+    "value": "Das britische Netzwerk, wie ein Knoten in Oxfordshire es hört, mit Knoten-Hardware und doppelten Präfixen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cb2153f9"
+  },
+  "map.kiekr-map.desc": {
+    "value": "Welche Funkregionen wohin reichen, ermittelt aus den Nachbarn, die KiekR-Nutzer beobachten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9a3aceee"
+  },
+  "map.hopradar.desc": {
+    "value": "Verbinde deinen eigenen Knoten über Bluetooth oder USB und sieh im Browser die Hops, Pfade und SNR, die er hört.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ae215bf8"
+  },
+  "project.meshcore-firmware.desc": {
+    "value": "Die offizielle MeshCore-Firmware und Routing-Bibliothek für LoRa-Boards, mit den Rollen Companion, Repeater, Room-Server und Sensor.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bba821af"
+  },
+  "project.meshcore-js.desc": {
+    "value": "JavaScript-Bibliothek, um aus Browsern und Node.js mit MeshCore-Companion-Funkgeräten zu sprechen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0b9ed81f"
+  },
+  "project.meshcore-py.desc": {
+    "value": "Python-Bindings zum Steuern eines MeshCore-Companion-Funkgeräts über seriell, Bluetooth oder TCP.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "305bd163"
+  },
+  "project.meshcore-cli.desc": {
+    "value": "Kommandozeilen-Client zum Senden von Nachrichten an MeshCore-Knoten und zu deren Verwaltung aus einem Terminal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6f68e501"
+  },
+  "project.meshcore-ha.desc": {
+    "value": "Home-Assistant-Integration, die MeshCore-Knoten, Nachrichten und Telemetrie als Entitäten für Überwachung und Automationen bereitstellt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8b5725be"
+  },
+  "project.meshcore-flasher.desc": {
+    "value": "Quellcode des browserbasierten Werkzeugs, das MeshCore-Firmware über USB auf unterstützte Boards flasht.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ba3feb1b"
+  },
+  "project.meshcore-map.desc": {
+    "value": "Quellcode der offiziellen Knotenkarte, auf der Besitzer ihre Knoten veröffentlichen können.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "91b7682b"
+  },
+  "project.openhop-repeater.desc": {
+    "value": "Python-Repeater-Daemon, der einen Linux-Rechner mit SPI-LoRa-Funkmodul in einen MeshCore-kompatiblen Repeater verwandelt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d2bf1646"
+  },
+  "project.openhop-core.desc": {
+    "value": "Python-Neuimplementierung des MeshCore-Protokolls und Routing-Stacks mit direkter Unterstützung für SPI-LoRa-Funkmodule.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "54ed7f73"
+  },
+  "project.meshcore-open.desc": {
+    "value": "Quelloffene plattformübergreifende Flutter-App für MeshCore-Funkgeräte über Bluetooth, USB-seriell oder TCP, inklusive Web-Version.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c322a23f"
+  },
+  "project.meshcoretomqtt.desc": {
+    "value": "Skript, das Paketmitschnitte eines MeshCore-Observer-Funkgeräts an einen MQTT-Broker für Analyser weiterleitet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "19dfb497"
+  },
+  "project.meshcore-mqtt-broker.desc": {
+    "value": "MQTT-Broker, der Observer mit ihren MeshCore-Schlüsselpaaren statt mit Passwörtern authentifiziert.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ca27fa19"
+  },
+  "project.corescope.desc": {
+    "value": "Selbst gehosteter MeshCore-Analyser, der Pakete über MQTT empfängt. Er zeigt einen Live-Feed, Karten, Kanalansichten und Knotenstatistiken.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a74322db"
+  },
+  "project.litescope.desc": {
+    "value": "Leichtes, selbst gehostetes Dashboard zum Beobachten eines MeshCore-Netzes. Die estnische Community betreibt eines.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1dc42e5a"
+  },
+  "project.meshcore-hub.desc": {
+    "value": "Python-Plattform aus einer britischen Community. Sie sammelt MQTT-Ereignisse in einer Datenbank und bietet eine REST-API und ein Web-Dashboard.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "07442a84"
+  },
+  "project.potato-mesh.desc": {
+    "value": "Föderiertes Community-Dashboard für MeshCore und andere Mesh-Netze, genutzt von Berlin Chaos Mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7b98d4f7"
+  },
+  "project.meshcore-mqtt-live-map.desc": {
+    "value": "Live-Webkarte auf Basis eines MeshCore-MQTT-Feeds, die Knoten, Routen und Abdeckung in Echtzeit zeigt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e0380e74"
+  },
+  "project.meshcore-bot.desc": {
+    "value": "Python-Bot, der auf MeshCore-Kanälen Befehle beantwortet und Nachrichten nach Discord und Telegram weiterleiten kann.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "04a73c83"
+  },
+  "project.meshcore-channels.desc": {
+    "value": "Von der Community gepflegte JSON-Liste öffentlicher MeshCore-Kanäle nach Land, veröffentlicht zur Nutzung durch Apps.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f3bb8a9a"
+  },
+  "project.meshcore-regions.desc": {
+    "value": "Von der Community gepflegter JSON-Katalog der weltweit genutzten MeshCore-Regionscodes.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ea403726"
+  },
+  "project.zephcore.desc": {
+    "value": "Portierung von MeshCore von Arduino auf das Echtzeitbetriebssystem Zephyr.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d68923fa"
+  },
+  "project.meshcore-ng.desc": {
+    "value": "Niederländischer Firmware-Fork mit Repeater-Verbesserungen für dichte, stark genutzte Meshes, kompatibel mit den Standard-Clients.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5f288c67"
+  },
+  "project.meshcore-solo.desc": {
+    "value": "Companion-Firmware-Fork mit Offline-GPS-Navigation, Wegpunkten, Kompass und GPX-Export.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1c9d0659"
+  },
+  "project.meshcore-c.desc": {
+    "value": "C-Implementierung des MeshCore-Protokolls ohne Abhängigkeiten, als Bibliothek für jedes Projekt oder als Komponente für ESP-IDF.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "327a07f8"
+  },
+  "project.lora-mesh-nodes.desc": {
+    "value": "Sammlung von DIY-Designs für mobile und solarbetriebene Knoten, mit Gehäusen, druckbaren Teilen und Stücklisten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "637e2726"
+  },
+  "project.lora-harvester-box.desc": {
+    "value": "Offene Hardware-Platine, die einen STM32WL-LoRa-Chip mit einem Energy-Harvester kombiniert, für sehr sparsame LoRa-Knoten, darunter MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6ecc7144"
+  },
+  "project.mesh-hunter.desc": {
+    "value": "Web-App fürs Handy, die sich mit einem Companion-Funkgerät koppelt und jedes gehörte Paket mit deiner GPS-Position protokolliert, um zu Fuß oder per Auto die Quelle unerwünschten Verkehrs zu finden. Sie kann das Gehörte mit MQTT-Brokern teilen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d0fb854e"
+  },
+  "project.eu-meshcore-analyzer.desc": {
+    "value": "Live-Karte und Analyser des europäischen MeshCore-Netzes, gespeist von Observern und Handy-Apps, die melden, was sie hören.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fed133d8"
+  },
+  "project.dmc-triangulator.desc": {
+    "value": "Grenzt anhand der Repeater, die einen Knoten gehört haben, dessen Standort ein, als erstes Suchgebiet vor der Suche vor Ort.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f73b5e0b"
+  },
+  "project.kiekr.desc": {
+    "value": "Handy-App zum Schreiben im Mesh, die auch die Abdeckung kartiert und das Gehörte an Analyser hochladen kann.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "05e5f56a"
+  },
+  "project.meshmapper.desc": {
+    "value": "Abdeckungskarte aus Wardriving-Daten, mit regionalen Instanzen, eigenem MQTT-Broker und offener API.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1135e1cd"
+  },
+  "project.trail-mate.desc": {
+    "value": "Offline-Firmware für den LilyGO T-LoRa Pager und T-Deck, mit GPS-Navigation und Team-Nachrichten über MeshCore und Meshtastic.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "86cd32a0"
+  },
+  "project.remote-terminal.desc": {
+    "value": "Selbst gehosteter Client für ein MeshCore-Funkgerät, der erfasste Pakete auf einem Server speichert und entschlüsselt, mit Bots und MQTT.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "90c11494"
+  },
+  "project.meshpoint.desc": {
+    "value": "Raspberry-Pi-Basisstation mit einem SX1302- oder SX1303-Konzentrator, die mehrere Kanäle gleichzeitig abhört, mit lokalem Dashboard.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6c668061"
+  },
+  "project.easyskymesh.desc": {
+    "value": "Firmware-Fork, der Strom spart für Repeater und Sensorknoten an Akku oder kleinem Solarpanel.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3b1503dc"
+  },
+  "project.solar-os.desc": {
+    "value": "Kleines textbasiertes Betriebssystem für ESP32-Taschenterminals, mit MeshCore-Companion auf eigenem Funkmodul oder gekoppeltem Knoten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "23677e08"
+  },
+  "project.wio-tracker-l1-pro.desc": {
+    "value": "Companion-Firmware für den Seeed Wio Tracker L1 Pro mit Bedienoberfläche direkt auf dem Gerät.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b694d013"
+  },
+  "project.meshcore-one.desc": {
+    "value": "Native MeshCore-App für iPhone, iPad und Mac.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "87505963"
+  },
+  "project.lunarcore.desc": {
+    "value": "Rust-Firmware für das Heltec WiFi LoRa 32 V3, die MeshCore, Meshtastic und andere Protokolle spricht.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f2c6fabd"
+  },
+  "project.meshcore-sar.desc": {
+    "value": "Offline-App für Such- und Rettungsteams: Nachrichten, Sprache, Bilder, Karten und geteilte Standorte über MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "413c9353"
+  },
+  "project.cardputer-adv-stachugit.desc": {
+    "value": "Companion-Firmware für den M5Stack Cardputer ADV mit LoRa-Cap, mit Chat-Ansicht und Farbthemen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9ab883fb"
+  },
+  "project.meshcoreterm.desc": {
+    "value": "Touch-Firmware im Retro-Stil für das LilyGO T-Deck, den Seeed SenseCAP Indicator und andere Boards mit Display.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ac08cb0e"
+  },
+  "project.mesh-client.desc": {
+    "value": "Desktop-App für macOS, Linux und Windows, die mit MeshCore-, Meshtastic- und Reticulum-Funkgeräten spricht.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "61a3a731"
+  },
+  "project.mishmesh.desc": {
+    "value": "Companion-Firmware mit eigener Oberfläche auf dem Funkgerät, damit du ohne gekoppeltes Handy schreiben kannst.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9bde8382"
+  },
+  "project.overmesh.desc": {
+    "value": "Dashboard für deinen eigenen Rechner für MeshCore und Meshtastic, mit Knotenkarte, Chat, Bot und Offline-Karten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fbacbc50"
+  },
+  "project.meshcore-wardrive-android.desc": {
+    "value": "Android-App, die die MeshCore-Abdeckung kartiert, während du gehst oder fährst.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6c9c49ec"
+  },
+  "project.akita-bridge.desc": {
+    "value": "Brücke, die Nachrichten zwischen Meshtastic und MeshCore weitergibt, über eine serielle Verbindung oder MQTT.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eff5e3a1"
+  },
+  "project.meshcore-packet-capture.desc": {
+    "value": "Python-Skript, das Pakete von einem Companion-Funkgerät erfasst und an MQTT veröffentlicht.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5325460e"
+  },
+  "project.cardputer-adv-sosprz.desc": {
+    "value": "Companion-Firmware für den M5Stack Cardputer ADV mit dem Cap LoRa868, geflasht mit M5Burner.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cf8b55c5"
+  },
+  "project.lora-wideband-decoder.desc": {
+    "value": "Software-Defined-Radio-Empfänger, der MeshCore-, Meshtastic- und LoRaWAN-Verkehr über ein breites Band dekodiert, mit lokaler Webseite.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f3e575ff"
+  },
+  "project.mc-webui.desc": {
+    "value": "Weboberfläche auf Basis von meshcore-cli, zum Schreiben aus dem Browser.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3372c462"
+  },
+  "project.meshfirmware.desc": {
+    "value": "Skripte für Linux und Windows, die MeshCore- und Meshtastic-Firmware auswählen, bauen und über USB flashen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be0d230e"
+  },
+  "project.repeater-mqtt-gateway.desc": {
+    "value": "Repeater-Firmware, die das Mesh zusätzlich in beide Richtungen mit einem MQTT-Broker verbindet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "23f7dfec"
+  },
+  "project.tak-meshcore.desc": {
+    "value": "Plugin, mit dem die Lagebild-App ATAK ein MeshCore-Companion-Funkgerät über Bluetooth nutzen kann.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "acbecd75"
+  },
+  "project.meshcore-decoder.desc": {
+    "value": "TypeScript-Bibliothek, die MeshCore-Pakete dekodiert, inklusive Entschlüsselung.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1235f40d"
+  },
+  "project.mesh-loader.desc": {
+    "value": "Dual-Boot für das Heltec WiFi LoRa 32 V3 und V4: zwei Firmwares auf einem Board behalten und zwischen ihnen wechseln.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "be49552e"
+  },
+  "project.meshcore-proxy.desc": {
+    "value": "TCP-Proxy, der ein Companion-Funkgerät an USB oder Bluetooth für Apps auf anderen Rechnern erreichbar macht.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "eaf24463"
+  },
+  "project.roadstr.desc": {
+    "value": "Meldung von Verkehrsereignissen ohne zentralen Server: signierte Nostr-Events, ohne Internet über MeshCore übertragen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "60e39810"
+  },
+  "guides_group_start": {
+    "value": "Dein erster Knoten",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "276f7ca8"
+  },
+  "guides_group_setup": {
+    "value": "Knoten einrichten",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "55efd611"
+  },
+  "guides_group_deeper": {
+    "value": "Tiefer einsteigen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6bce982b"
+  },
+  "guides_card_get_started_title": {
+    "value": "Erste Schritte",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "61e8d44a"
+  },
+  "guides_card_get_started_desc": {
+    "value": "Vom neuen Board bis zu deiner ersten Nachricht im Mesh, in 6 Schritten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "133bcbfc"
+  },
+  "guides_card_devices_title": {
+    "value": "Geräte",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4ba5121d"
+  },
+  "guides_card_devices_desc": {
+    "value": "Vergleiche Boards nach Rolle, Preis und Stromversorgung und wähle das passende.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cf3bba38"
+  },
+  "guides_card_settings_title": {
+    "value": "Empfohlene Einstellungen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cfb32983"
+  },
+  "guides_card_settings_desc": {
+    "value": "Das Funk-Preset deiner Gegend und die Einstellungen, die deine Nachbarn geändert haben.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8e18863a"
+  },
+  "guides_card_antenna_title": {
+    "value": "Antennen-Leitfaden",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3a76cb0e"
+  },
+  "guides_card_antenna_desc": {
+    "value": "Die Antenne ist die Hälfte deines Knotens. Prüfe die an deinem Companion, und wähle, verbinde und montiere eine für einen Repeater.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "abcdd786"
+  },
+  "guides_card_repeater_title": {
+    "value": "Repeater-Leitfaden",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4608abcd"
+  },
+  "guides_card_repeater_desc": {
+    "value": "Ein Repeater gibt Nachrichten für alle in seiner Umgebung weiter. Standort, die Befehle zum Einrichten und die rechtlichen Grenzen auf 868 MHz.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "979d61a1"
+  },
+  "guides_card_filter_title": {
+    "value": "Paketfilter",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "20a3ef1f"
+  },
+  "guides_card_filter_desc": {
+    "value": "Verhindere, dass dein Repeater Müll weitergibt, etwa einen Bot, der nie aufhört, oder einen lauten Kanal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2db3748c"
+  },
+  "guides_card_mqtt_title": {
+    "value": "MQTT auf deinem Observer",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "62626d0f"
+  },
+  "guides_card_mqtt_desc": {
+    "value": "Ein Observer ist ein Knoten, der alles Gehörte über MQTT weiterleitet. Richte einen ein für eine Karte oder einen Analyser.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "774395b6"
+  },
+  "guides_card_mctomqtt_title": {
+    "value": "Bridge-Konfiguration bauen",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "fd2dd667"
+  },
+  "guides_card_mctomqtt_desc": {
+    "value": "Sende, was dein Repeater hört, an jeden MQTT-Broker: deinen eigenen oder den Analyzer.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "6c4d4692"
+  },
+  "guides_card_cli_title": {
+    "value": "CLI-Befehle",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a13cc6cb"
+  },
+  "guides_card_cli_desc": {
+    "value": "Die Befehle eines Repeaters, jeder mit seiner Funktion.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "977f43d6"
+  },
+  "firmware_card_flasher_title": {
+    "value": "Flashen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f3577cb5"
+  },
+  "firmware_card_flasher_desc": {
+    "value": "Bringe MeshCore aus deinem Browser per USB auf dein Board.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0a1c2394"
+  },
+  "firmware_card_console_title": {
+    "value": "Serielle Konsole",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4e3c41fa"
+  },
+  "firmware_card_console_desc": {
+    "value": "Gib aus deinem Browser per USB Befehle an deinen Repeater ein.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f0d52063"
+  },
+  "firmware_card_changelog_title": {
+    "value": "Changelog",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ead07c84"
+  },
+  "firmware_card_changelog_desc": {
+    "value": "Sieh, was sich in jedem MeshCore-Release geändert hat und ob dein Knoten es braucht.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "314733fe"
+  },
+  "area_device_repeater": {
+    "value": "Auf deinem Repeater",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b5cb30f9"
+  },
+  "area_device_companion": {
+    "value": "In der App auf deinem Companion",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8e459238"
+  },
+  "area_change_nl_regions": {
+    "value": "Trage die Regionen ein, die dein Repeater versorgt, jede innerhalb der darüber: Europa, Benelux, die Niederlande, deine Provinz und deine Stadt. Deine Provinz wird zum Standard.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "593b1502"
+  },
+  "area_change_strict_regions": {
+    "value": "Verwirf Pakete ohne Region, damit sie nicht durch ganz Europa laufen. Trage zuerst die Regionen ein.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "11ca714d"
+  },
+  "area_change_zero_hop": {
+    "value": "Sende das Advert, das deine direkten Nachbarn hören, alle 4 Stunden.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0e990713"
+  },
+  "area_change_path_hash": {
+    "value": "Nutze einen 2-Byte-Pfad-Hash: er unterscheidet 65536 Repeater statt 256.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b63880c0"
+  },
+  "area_change_loop": {
+    "value": "Verwirf Flood-Pakete, die über deinen Repeater zurückkommen. Ein Repeater, der mit 1.18 oder neuer eingerichtet wurde, tut das bereits.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "44333e2e"
+  },
+  "area_change_dutycycle": {
+    "value": "Begrenze deinen Repeater auf 10% Sendezeit.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8877399e"
+  },
+  "area_change_nl_companion_region": {
+    "value": "Setze in den experimentellen Einstellungen der App die Standardregion auf nl. Gib jedem Kanal seine Region, etwa nl-nh für Nordholland.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3c31c16c"
+  },
+  "area_change_companion_path_hash": {
+    "value": "Setze in den experimentellen Einstellungen der App die Standardgröße des Pfad-Hash auf 2 Byte.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4e3414d1"
+  },
+  "area_preset": {
+    "value": "Funk-Preset",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6fd605ec"
+  },
+  "area_path_hash": {
+    "value": "Pfad-Hash (vom Preset gesetzt)",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2e93a7f1"
+  },
+  "area_bytes": {
+    "value": "Byte",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "277089d9"
+  },
+  "area_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c2a314c3"
+  },
+  "area_or_newer": {
+    "value": "oder neuer",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e2cbdfd0"
+  },
+  "area_changes": {
+    "value": "Geändert gegenüber den Standardwerten von MeshCore",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0587de6f"
+  },
+  "area_source_group": {
+    "value": "Einstellungen von",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f06dfa4f"
+  },
+  "area_source_preset": {
+    "value": "Preset aus der Liste des MeshCore-Projekts",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "89d3440f"
+  },
+  "area_checked": {
+    "value": "geprüft",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e61a3d78"
+  },
+  "area_add_title": {
+    "value": "Dein Gebiet hinzufügen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6ec76c28"
+  },
+  "area_add_body": {
+    "value": "Nutzt deine lokale Gruppe ein eigenes Preset oder ändert sie Einstellungen? Schick sie ein, mit einem Link dorthin, wo ihr sie beschlossen habt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5976a5e5"
+  },
+  "area_add_cta": {
+    "value": "Gebiet hinzufügen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6ec76c28"
+  },
+  "area_link": {
+    "value": "Link zu diesem Gebiet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "98909794"
+  },
+  "regions_title": {
+    "value": "Regionen: von Europa bis zu deiner Stadt",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "698de558"
+  },
+  "regions_body": {
+    "value": "Eine Region ist ein Code für ein Gebiet. Regionen liegen ineinander: Europa, dein Land, deine Provinz und an manchen Orten deine Stadt. Gib deinem Repeater die Regionen, in denen er liegt, jede innerhalb der darüberliegenden. Er leitet Nachrichten für jede davon weiter.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "3f05bbfc"
+  },
+  "regions_map_body": {
+    "value": "Welche Codes genutzt werden, unterscheidet sich je Gebiet. Die Karte zeigt die Regionen, die die Repeater um dich herum nutzen: Nutze die deiner Nachbarn, sonst verwirft dein Repeater ihre Nachrichten.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "4ccf2219"
+  },
+  "regions_europe": {
+    "value": "Europa",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "e595f45d"
+  },
+  "regions_pick": {
+    "value": "Deine Provinz oder Region",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "ed5a1c0e"
+  },
+  "regions_pick_none": {
+    "value": "Wähle eine",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "a880a59d"
+  },
+  "regions_region": {
+    "value": "Deine Region, falls dein Gebiet eine nutzt",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "7ebba635"
+  },
+  "regions_town": {
+    "value": "Deine Stadt, falls dein Gebiet eine nutzt",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "a6221a2f"
+  },
+  "regions_map": {
+    "value": "Karte",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "be176b00"
+  },
+  "regions_map_label": {
+    "value": "auf der Karte des MeshCore Analyzers",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "2df2db10"
+  },
+  "regions_cmd_hint": {
+    "value": "Wähle deine Provinz oder tippe ihren Code über den hervorgehobenen Wert, dann kopiere.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "54f7feb3"
+  },
+  "area_ph_hint": {
+    "value": "Überschreibe die markierten Werte mit deinen eigenen und kopiere dann.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "04e515aa"
+  },
+  "area_ph_province": {
+    "value": "Deine Provinz",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "492cd073"
+  },
+  "area_ph_city": {
+    "value": "Deine Stadt",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "90064d5a"
+  },
+  "area_map_label": {
+    "value": "Karte der Gebiete und ihrer Funk-Presets",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b49bdce9"
+  },
+  "area_map_own": {
+    "value": "Eigenes Preset oder eigene Einstellungen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d7dec3ab"
+  },
+  "area_others_title": {
+    "value": "Der Rest der EU und das Vereinigte Königreich",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5b618852"
+  },
+  "area_country_label": {
+    "value": "Dein Land",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "18f2456a"
+  },
+  "area_country_pick": {
+    "value": "Land wählen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "632aadfb"
+  },
+  "area_country_missing": {
+    "value": "Dein Land ist nicht in der Liste? Frag deine lokale Gruppe, welches Preset sie nutzt, oder {link}.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "64fd9026"
+  },
+  "area_country_missing_link": {
+    "value": "füge dein Gebiet hinzu",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "39737a2b"
+  },
+  "area_country_eu": {
+    "value": "{country} hat in der MeshCore-App kein eigenes Preset. Es nutzt {preset}, das Preset, das MeshCore für die EU und das Vereinigte Königreich nennt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "221cd765"
+  },
+  "area_others_body": {
+    "value": "Diese Länder haben in der MeshCore-App kein eigenes Preset. Sie nutzen EU/UK (Narrow), das Preset, das MeshCore für sie nennt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0fccb2a7"
+  },
+  "cli_groups": {
+    "value": "Befehlsgruppen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "70883ce1"
+  },
+  "cli_search": {
+    "value": "Suchen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "49c266ba"
+  },
+  "cli_node_q": {
+    "value": "Welcher Knoten?",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5f669f2f"
+  },
+  "cli_node_repeater": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "46e7bee1"
+  },
+  "cli_node_room_server": {
+    "value": "Room Server",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "68b91cc5"
+  },
+  "cli_node_sensor": {
+    "value": "Sensor",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "162cc64c"
+  },
+  "cli_node_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "1dadb328"
+  },
+  "cli_link": {
+    "value": "Link zu diesem Befehl",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8545494"
+  },
+  "cli_default": {
+    "value": "Startwert",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "faca355f"
+  },
+  "cli_in_source": {
+    "value": "wo die Firmware ihn setzt",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4de4eaa8"
+  },
+  "cli_range": {
+    "value": "Werte",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "53b09e10"
+  },
+  "cli_nodes": {
+    "value": "Läuft auf",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c85fc5a0"
+  },
+  "cli_since": {
+    "value": "Braucht Firmware",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5bf596e9"
+  },
+  "cli_build": {
+    "value": "Nur in Firmware, gebaut mit",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bb208568"
+  },
+  "cli_build_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "176c7866"
+  },
+  "cli_build_sensors": {
+    "value": "Sensoren",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e22dfb01"
+  },
+  "cli_build_bridge": {
+    "value": "einer Bridge",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5a0b83ee"
+  },
+  "cli_build_ethernet": {
+    "value": "Ethernet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "681e1209"
+  },
+  "cli_build_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "10df5f54"
+  },
+  "cli_group_operational": {
+    "value": "Neustart, Zurücksetzen und Update",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a49f50c1"
+  },
+  "cli_group_adverts": {
+    "value": "Adverts",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8b8ad4a7"
+  },
+  "cli_group_radio": {
+    "value": "Funk",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2a7dfeb2"
+  },
+  "cli_group_system": {
+    "value": "Name, Passwort und Uhr",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a96ceeac"
+  },
+  "cli_group_routing": {
+    "value": "Routing",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bcba696f"
+  },
+  "cli_group_regions": {
+    "value": "Regionen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "610c65d8"
+  },
+  "cli_group_access": {
+    "value": "Zugriff",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ec5ba0ab"
+  },
+  "cli_group_neighbours": {
+    "value": "Nachbarn",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "24be7e7c"
+  },
+  "cli_group_statistics": {
+    "value": "Statistik",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a656107e"
+  },
+  "cli_group_logging": {
+    "value": "Protokollierung",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d3ef01b4"
+  },
+  "cli_group_info": {
+    "value": "Version und Board",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9a90dcaa"
+  },
+  "cli_group_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "176c7866"
+  },
+  "cli_group_sensors": {
+    "value": "Sensoren",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "76140e34"
+  },
+  "cli_group_bridge": {
+    "value": "Bridge",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3892e103"
+  },
+  "cli_group_ethernet": {
+    "value": "Ethernet",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "681e1209"
+  },
+  "cli_group_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "10df5f54"
+  },
+  "cmd_reboot_desc": {
+    "value": "Startet den Knoten sofort neu, und der Knoten sendet dir keine Antwort. Nutze ihn für Einstellungen, die erst nach einem Neustart wirken.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6850ad24"
+  },
+  "cmd_poweroff_desc": {
+    "value": "Schaltet den Knoten auf Boards aus, die das unterstützen, ohne Antwort. Zum Starten brauchst du den Einschaltknopf oder trennst kurz den Strom.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "5088476d"
+  },
+  "cmd_clkreboot_desc": {
+    "value": "Setzt die Uhr auf ein frühes Datum zurück und startet den Knoten ohne Antwort neu. Nutze ihn, wenn die Uhr vorgeht und sich nicht zurückstellen lässt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d02bbe66"
+  },
+  "cmd_clock_desc": {
+    "value": "Zeigt die Uhr des Knotens in UTC oder setzt sie auf eine Unix-Zeit in Sekunden. Die Uhr läuft nur vorwärts, nutze also zuerst clkreboot, um zurückzugehen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0193d15f"
+  },
+  "cmd_clock_sync_desc": {
+    "value": "Setzt die Uhr des Knotens auf die Zeit, die dein Companion mit diesem Befehl sendet. Er funktioniert nur über das Mesh, weil die serielle Konsole keine Zeit sendet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "39198623"
+  },
+  "cmd_start_ota_desc": {
+    "value": "Startet ein Firmware-Update über Funk auf ESP32- und nRF52-Boards, die das unterstützen. ESP32 öffnet einen WiFi-Zugangspunkt, nRF52 startet ein Bluetooth-Update.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "69bd5985"
+  },
+  "cmd_erase_desc": {
+    "value": "Löscht das Dateisystem des Knotens, samt Einstellungen und Identität, nur über seriell. Nutze ihn für einen Werksreset, denn du kannst ihn nicht rückgängig machen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e781518d"
+  },
+  "cmd_room_post_desc": {
+    "value": "Postet eine Nachricht im Raum als der Room Server selbst. Alle im Raum empfangen sie wie jeden anderen Beitrag.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "88a6e1f5"
+  },
+  "cmd_advert_desc": {
+    "value": "Sendet jetzt ein Flood-Advert, damit Knoten im ganzen Mesh diesen Knoten kennenlernen. Nutze ihn, nachdem du Name oder Standort geändert hast.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "21526c3a"
+  },
+  "cmd_advert_zerohop_desc": {
+    "value": "Sendet ein Advert nur an direkte Nachbarn, und kein Repeater gibt es weiter. Nutze ihn, um den Knoten in der Nähe bekannt zu machen, ohne das ganze Mesh zu belasten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dfbc07b6"
+  },
+  "cmd_advert_interval_desc": {
+    "value": "Legt fest, wie oft der Knoten in Minuten ein Zero-Hop-Advert an seine Nachbarn sendet. Mit 0 stoppst du sie; jede gespeicherte Änderung stoppt auch Intervalle unter 60.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f99f3d5f"
+  },
+  "cmd_flood_advert_interval_desc": {
+    "value": "Legt fest, wie oft der Knoten in Stunden ein Flood-Advert durch das ganze Mesh sendet. Mit 0 stoppst du die automatischen Flood-Adverts dieses Knotens vollständig.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6473270c"
+  },
+  "cmd_neighbours_desc": {
+    "value": "Listet die Repeater, die dieser Knoten direkt gehört hat, der jüngste zuerst. Jede Zeile zeigt ein Schlüssel-Präfix, Sekunden seit dem Hören und den SNR mal 4.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9bd6e27f"
+  },
+  "cmd_neighbour_remove_desc": {
+    "value": "Entfernt jeden Nachbarn, dessen öffentlicher Schlüssel mit dem angegebenen Hex-Präfix beginnt. Nutze ihn, um einen alten Repeater aus der Nachbarliste zu löschen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c1b8c616"
+  },
+  "cmd_discover_neighbours_desc": {
+    "value": "Bittet die Repeater in direkter Reichweite um Antwort und trägt jede Antwort bei den Nachbarn ein. Nutze ihn, um die Liste zu füllen, ohne auf ihre Adverts zu warten. Ein Repeater mit beiden Advert-Intervallen auf 0 oder mit ausgeschaltetem Repeat bleibt stumm.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1ab216ce"
+  },
+  "cmd_clear_stats_desc": {
+    "value": "Setzt die Paket-, Funk- und Kernzähler des Knotens auf null zurück. Nutze ihn, bevor du den Verkehr über einen festen Zeitraum misst.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ead62ceb"
+  },
+  "cmd_stats_core_desc": {
+    "value": "Zeigt Akkuspannung, Laufzeit, Fehlerzahl und Länge der Sendewarteschlange des Knotens. Er funktioniert nur auf der seriellen Konsole, nicht über das Mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ba9fa3d2"
+  },
+  "cmd_stats_radio_desc": {
+    "value": "Zeigt den Rauschpegel, den letzten RSSI und SNR sowie die Sendezeit beim Senden und Empfangen. Er funktioniert nur auf der seriellen Konsole, nicht über das Mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bedd2bf2"
+  },
+  "cmd_stats_packets_desc": {
+    "value": "Zeigt, wie viele Pakete der Knoten empfangen und gesendet hat, getrennt nach Flood und direkt. Er funktioniert nur auf der seriellen Konsole, nicht über das Mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d8a3b4d1"
+  },
+  "cmd_log_capture_desc": {
+    "value": "Startet oder stoppt das Schreiben jedes empfangenen und gesendeten Pakets in eine Logdatei. Nutze ihn, um Verkehr aufzuzeichnen, und lies ihn dann mit dem Befehl log.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "79dcb812"
+  },
+  "cmd_log_erase_desc": {
+    "value": "Löscht die Paket-Logdatei vom Speicher des Knotens. Nutze ihn, um Platz freizugeben oder eine saubere Aufzeichnung zu beginnen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9c32fe03"
+  },
+  "cmd_log_desc": {
+    "value": "Gibt das aufgezeichnete Paket-Log Zeile für Zeile auf der seriellen Konsole aus. Er funktioniert nur auf der seriellen Konsole, nicht über das Mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "59c80f62"
+  },
+  "cmd_ver_desc": {
+    "value": "Zeigt die Firmware-Version und das Build-Datum des Knotens. Nutze ihn, um vor einem Update zu prüfen, welche Version läuft.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c0752f1b"
+  },
+  "cmd_board_desc": {
+    "value": "Zeigt den Namen des Hardware-Boards, für das die Firmware gebaut wurde. Nutze ihn, um zu prüfen, ob du die richtige Firmware geflasht hast.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3e5ed786"
+  },
+  "cmd_power_desc": {
+    "value": "Zeigt die Akkuspannung und ob USB, Solar, externe Stromversorgung und das Ladegerät aktiv sind. Ein Board, das USB oder Solar nicht erkennen kann, zeigt dafür n/a.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "4e5129e4"
+  },
+  "cmd_public_key_desc": {
+    "value": "Zeigt den vollständigen öffentlichen Schlüssel des Knotens in Hex. Teile ihn, wenn jemand fragt, welcher Knoten deiner ist, oder wenn ein Repeater-Betreiber deinem Companion mit setperm eine Rolle gibt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d754bc23"
+  },
+  "cmd_role_desc": {
+    "value": "Zeigt, welche Firmware der Knoten ausführt: repeater, room_server oder sensor. Nutze ihn, um die Rolle zu prüfen, bevor du Einstellungen aus der Ferne änderst.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "627a92c5"
+  },
+  "cmd_bootloader_ver_desc": {
+    "value": "Zeigt die Version des Bootloaders, der auf nRF52-Boards läuft. Auf jedem anderen Board antwortet der Knoten, dass der Befehl nicht unterstützt wird.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a3e90e05"
+  },
+  "cmd_pwrmgt_support_desc": {
+    "value": "Zeigt, ob dieser Firmware-Build Energieverwaltung für nRF52-Boards enthält. Die anderen pwrmgt-Befehle brauchen diese Unterstützung, um zu antworten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "139d6f9d"
+  },
+  "cmd_pwrmgt_source_desc": {
+    "value": "Zeigt, ob der Knoten mit externem Strom oder mit seinem Akku läuft. Nur Firmware-Builds mit nRF52-Energieverwaltung geben dir diese Antwort.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ee83fb61"
+  },
+  "cmd_pwrmgt_bootreason_desc": {
+    "value": "Zeigt, warum der Knoten zuletzt zurückgesetzt und warum er zuletzt heruntergefahren wurde. Nutze ihn, um herauszufinden, warum ein Knoten von selbst neu gestartet ist.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "de8338c0"
+  },
+  "cmd_pwrmgt_bootmv_desc": {
+    "value": "Zeigt die Akkuspannung in Millivolt, die der Knoten beim Start gemessen hat. Nur Firmware-Builds mit nRF52-Energieverwaltung geben dir diese Antwort.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ff3b5c66"
+  },
+  "cmd_radio_desc": {
+    "value": "Setzt Frequenz, Bandbreite, Spreading Factor und Coding Rate, die der Knoten nutzt. Jeder Knoten in deinem Mesh braucht dieselben Werte; starte neu, um sie anzuwenden.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bf443364"
+  },
+  "cmd_tx_desc": {
+    "value": "Setzt die Sendeleistung des LoRa-Chips in dBm, und sie gilt sofort. Boards mit zusätzlichem Verstärker senden mehr als diesen Wert.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0b7d55b8"
+  },
+  "cmd_tempradio_desc": {
+    "value": "Wechselt für eine festgelegte Zahl von Minuten zu anderen Funkeinstellungen, ohne sie zu speichern. Nutze ihn, um neue Einstellungen aus der Ferne zu testen, mit automatischem Rückweg.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "37b19209"
+  },
+  "cmd_freq_desc": {
+    "value": "Setzt nur die Frequenz in MHz, und die Setz-Form funktioniert nur über seriell. Starte den Knoten danach neu, weil die neue Frequenz erst nach einem Neustart gilt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aabd4b62"
+  },
+  "cmd_radio_rxgain_desc": {
+    "value": "Schaltet die verstärkte Empfangsverstärkung des Funkchips ein oder aus. Ein Funkchip ohne diesen Modus antwortet, dass die Einstellung auf ihm nicht unterstützt wird.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ecacba86"
+  },
+  "cmd_radio_fem_rxgain_desc": {
+    "value": "Schaltet den Empfangsverstärker eines externen Funk-Frontends ein oder aus. Nur Boards mit einem steuerbaren Frontend unterstützen ihn.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c71d7980"
+  },
+  "cmd_radio_fem_txgain_desc": {
+    "value": "Schaltet die Sendeverstärkung eines externen Funk-Frontends zwischen seinen 2 Stufen um. Nur Boards mit einem steuerbaren Frontend unterstützen ihn.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d3f049e3"
+  },
+  "cmd_extra_sf_desc": {
+    "value": "Lässt einen LR2021-Funkchip zusätzlich auf bis zu 3 weitere Spreading Factors hören. Gib sie als Komma-Liste an; andere Funkchips akzeptieren die Setz-Form nicht.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d14313eb"
+  },
+  "cmd_repeat_desc": {
+    "value": "Schaltet das Weiterleiten von Paketen anderer Knoten ein oder aus. Schalte es aus, um einen Knoten auf Sendung zu halten, ohne zu wiederholen. Ein Room Server weigert sich, es einzuschalten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c66ee723"
+  },
+  "cmd_path_hash_mode_desc": {
+    "value": "Setzt die Hash-Größe, die dieser Knoten in die Pfade seiner gesendeten Pakete schreibt. Modus 0 nutzt 1 Byte, 1 nutzt 2 und 2 nutzt 3.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "486f2338"
+  },
+  "cmd_loop_detect_desc": {
+    "value": "Verwirft Flood-Pakete, die den Hash dieses Repeaters schon zu oft in ihrem Pfad tragen. Eine strengere Stufe verwirft ein kreisendes Paket nach weniger Wiederholungen. Ein von einer älteren Version aktualisierter Repeater behält seine bisherige Stufe.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7192683e"
+  },
+  "cmd_txdelay_desc": {
+    "value": "Setzt die zufällige Wartezeit, bevor der Knoten ein Flood-Paket wiederholt, skaliert nach Sendezeit. Ein höherer Wert vermeidet Kollisionen zwischen Repeatern, bringt aber Verzögerung.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dc0b9e0e"
+  },
+  "cmd_direct_txdelay_desc": {
+    "value": "Setzt die zufällige Wartezeit, bevor der Knoten ein direktes Paket wiederholt, skaliert nach Sendezeit. Direkte Pakete brauchen weniger Wartezeit, weil weniger Knoten sie wiederholen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0f14a917"
+  },
+  "cmd_rxdelay_desc": {
+    "value": "Hält schwache Flood-Pakete vor der Verarbeitung zurück, damit Pfade mit starkem Signal zuerst wiederholen. Mit 0 verarbeitest du jedes Paket sofort, egal wie stark das Signal ist.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9eca669b"
+  },
+  "cmd_dutycycle_desc": {
+    "value": "Begrenzt den Zeitanteil, den der Knoten mit Senden verbringt, in Prozent. Setze ihn auf die Grenze, die für dein Frequenzband gilt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "46f7ce95"
+  },
+  "cmd_af_desc": {
+    "value": "Setzt den Airtime-Faktor, den älteren Weg, den Duty Cycle des Knotens zu begrenzen. Nutze stattdessen dutycycle; ein af von 9 entspricht 10 Prozent.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "80189809"
+  },
+  "cmd_int_thresh_desc": {
+    "value": "Behandelt den Kanal als belegt, wenn er so viele dB über dem Rauschpegel misst. Der Knoten wartet dann, bevor er sendet; 0 schaltet die Prüfung aus.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "32eb85ce"
+  },
+  "cmd_cad_desc": {
+    "value": "Lässt das Funkmodul vor jeder Sendung prüfen, ob auf dem Kanal Aktivität ist. Der Knoten wartet mit dem Senden, solange der Kanal belegt ist.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "998c2731"
+  },
+  "cmd_agc_reset_interval_desc": {
+    "value": "Setzt die automatische Verstärkungsregelung des Funkmoduls alle eingestellten Sekunden zurück. Der Knoten rundet auf ein Vielfaches von 4 ab; 0 schaltet es aus.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "aa321448"
+  },
+  "cmd_multi_acks_desc": {
+    "value": "Sendet zusätzliche Kopien jeder Empfangsbestätigung, damit sie über schwache Verbindungen besser ankommt. Mit 0 sendet der Knoten jede Bestätigung nur einmal, ohne zusätzliche Kopien.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b2c80c40"
+  },
+  "cmd_flood_max_desc": {
+    "value": "Legt fest, nach wie vielen Hops dieser Knoten ein Flood-Paket nicht mehr weiterleitet. Setze den Wert niedriger, damit Floods nicht weit durch das Mesh laufen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "dee460b4"
+  },
+  "cmd_flood_max_unscoped_desc": {
+    "value": "Legt das Hop-Limit für Flood-Pakete ohne Region fest. Setze den Wert niedriger, damit dieser Verkehr in der Nähe bleibt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1003a06a"
+  },
+  "cmd_flood_max_advert_desc": {
+    "value": "Legt das Hop-Limit für die Flood-Adverts fest, die dieser Knoten weiterleitet. Setze den Wert niedriger, damit Adverts nicht das ganze Mesh durchqueren.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "57c129b9"
+  },
+  "cmd_name_desc": {
+    "value": "Legt den Namen fest, den andere Knoten in den Adverts dieses Knotens sehen. Die Zeichen [ ] \\ : , ? * sind nicht erlaubt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "08e6c872"
+  },
+  "cmd_lat_desc": {
+    "value": "Legt den Breitengrad in Dezimalgrad fest, den dieser Knoten in seinen Adverts teilt. Nutze ihn zusammen mit lon, damit der Knoten auf der Karte an der richtigen Stelle liegt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ea083178"
+  },
+  "cmd_lon_desc": {
+    "value": "Legt den Längengrad in Dezimalgrad fest, den dieser Knoten in seinen Adverts teilt. Nutze ihn zusammen mit lat, damit der Knoten auf der Karte an der richtigen Stelle liegt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "fe5f8039"
+  },
+  "cmd_prv_key_desc": {
+    "value": "Zeigt oder ersetzt den privaten Schlüssel, der die Identität des Knotens bestimmt. Die get-Form geht nur über die serielle Konsole; starte den Knoten neu, nachdem du einen Schlüssel gesetzt hast.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3500931c"
+  },
+  "cmd_password_desc": {
+    "value": "Ändert das Admin-Passwort und gibt das neue zur Kontrolle zurück. Ändere es auf jedem neuen Knoten, denn das Standardpasswort ist öffentlich bekannt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a33a87f1"
+  },
+  "cmd_guest_password_desc": {
+    "value": "Legt das Gast-Passwort fest; auf einem Room Server gibt es Lese- und Schreibzugriff. Teile es mit den Leuten, die du in den Raum lassen willst.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "67348593"
+  },
+  "cmd_owner_info_desc": {
+    "value": "Legt einen Kontakttext fest, den andere vom Knoten abrufen können, zum Beispiel deinen Namen. Tippe ein |-Zeichen überall dort, wo eine neue Zeile beginnen soll.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "928a68a4"
+  },
+  "cmd_adc_multiplier_desc": {
+    "value": "Korrigiert die gemessene Akkuspannung des Knotens mit einem Faktor für dein Board. Mit 0 kehrst du zum Wert zurück, den das Board selbst vorgibt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0383a608"
+  },
+  "cmd_powersaving_desc": {
+    "value": "Lässt den Knoten zwischen Funkaktivitäten schlafen, um Akku zu sparen. Das funktioniert auf nRF52-Boards und auf ESP32-Builds ohne Bridge.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "3e791562"
+  },
+  "cmd_setperm_desc": {
+    "value": "Gibt einem Companion eine Rolle auf diesem Knoten, erkannt an seinem öffentlichen Schlüssel. Mit 0 entfernst du den Eintrag; die anderen Rollen brauchen den vollständigen Schlüssel.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "93a740af"
+  },
+  "cmd_acl_desc": {
+    "value": "Gibt die Zugriffsliste mit den Rechten und dem öffentlichen Schlüssel jedes Companions aus. Das funktioniert nur über die serielle Konsole, nicht über das Mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "784d80d9"
+  },
+  "cmd_allow_read_only_desc": {
+    "value": "Lässt Leute mit falschem oder leerem Passwort einem Room Server mit Nur-Lese-Zugriff beitreten. Schalte es aus, damit nur Leute hineinkommen, die das Passwort kennen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "a845f89b"
+  },
+  "cmd_region_desc": {
+    "value": "Zeigt den vollständigen Regionsbaum des Knotens mit dem Flood-Kennzeichen jeder Region. Ein F bedeutet, dass Flooding erlaubt ist, und ^ markiert die Heimatregion.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "07dd7f25"
+  },
+  "cmd_region_load_desc": {
+    "value": "Startet die Sammeleingabe eines Regionsbaums, eine Region pro Zeile, mit Leerzeichen eingerückt. Füge F hinzu, um Flooding zu erlauben, und sende eine leere Zeile zum Abschluss.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d2da253a"
+  },
+  "cmd_region_save_desc": {
+    "value": "Speichert deine Regionsänderungen im Speicher des Knotens, damit sie einen Neustart überstehen. Führe es nach jeder Regionsänderung aus, die du behalten willst.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "bd6cb636"
+  },
+  "cmd_region_flood_desc": {
+    "value": "Erlaubt oder blockiert das Weiterleiten von Flood-Paketen für eine Region. Nutze * für Pakete, die gar keine Region tragen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "58acd9db"
+  },
+  "cmd_region_get_desc": {
+    "value": "Zeigt eine Region mit ihrer übergeordneten Region und ein F, wenn Flooding für sie erlaubt ist. Nutze es, um eine einzelne Region zu prüfen, ohne den ganzen Baum zu lesen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "33ef40c6"
+  },
+  "cmd_region_home_desc": {
+    "value": "Zeigt oder setzt die Heimatregion, die der Regionsbaum mit einem ^ markiert. Führe danach region save aus, damit die Änderung einen Neustart übersteht.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "90b9c539"
+  },
+  "cmd_region_default_desc": {
+    "value": "Zeigt oder setzt die Region, die der Knoten auf seine eigenen Flood-Pakete wie Adverts schreibt. Der Knoten speichert die Änderung sofort; <null> löscht sie.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b478cd71"
+  },
+  "cmd_region_put_desc": {
+    "value": "Fügt eine Region unter dem Platzhalter oder unter einer von dir genannten übergeordneten Region hinzu, mit erlaubtem Flooding. Führe danach region save aus, damit die neue Region einen Neustart übersteht.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "90f4ec6d"
+  },
+  "cmd_region_def_desc": {
+    "value": "Baut einen Regionsbaum in einer Zeile, jeder Name ein Kind des vorherigen. Schreibe name|jump, um den nächsten Namen an eine frühere Region anzuhängen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "80bfbfce"
+  },
+  "cmd_region_remove_desc": {
+    "value": "Entfernt eine Region anhand ihres genauen Namens, sobald sie keine untergeordneten Regionen mehr hat. Führe danach region save aus, damit das Entfernen einen Neustart übersteht.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "0677775b"
+  },
+  "cmd_region_list_desc": {
+    "value": "Listet die Namen der Regionen auf, in denen Flooding erlaubt ist, oder in denen es blockiert ist. Nutze es für eine schnelle Prüfung ohne den ganzen Baum.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8156296"
+  },
+  "cmd_gps_desc": {
+    "value": "Zeigt, ob das GPS an ist, eine Position hat und wie viele Satelliten es sieht. Die Formen on und off schalten das GPS um und speichern die Wahl.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6b7484f4"
+  },
+  "cmd_gps_diag_desc": {
+    "value": "Zeigt, ob das GPS eingeschaltet ist, wie viele Satelliten es sieht und ob es eine Positionsbestimmung hat. Nutze es, wenn der Knoten keine Position bekommt.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "f5838af7"
+  },
+  "cmd_gps_sync_desc": {
+    "value": "Stellt die Uhr des Knotens nach der Zeit, die das GPS empfängt. Nutze es, wenn der Knoten keine andere Quelle für die richtige Zeit hat.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9992274d"
+  },
+  "cmd_gps_setloc_desc": {
+    "value": "Kopiert die aktuelle GPS-Position in den gespeicherten Breiten- und Längengrad des Knotens. Nutze es einmal vor Ort und schalte das GPS danach aus.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2e7052c8"
+  },
+  "cmd_gps_advert_desc": {
+    "value": "Wählt die Position in Adverts: keine, Live-GPS oder die gespeicherten lat und lon. Nutze none, um den Standort des Knotens privat zu halten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e7bb3d85"
+  },
+  "cmd_sensor_list_desc": {
+    "value": "Listet die eigenen Einstellungen des Sensor-Managers mit ihren Werten auf. Eine lange Liste endet mit dem Index, ab dem du weitermachst.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "af32a1b7"
+  },
+  "cmd_sensor_setting_desc": {
+    "value": "Liest oder ändert eine eigene Einstellung des Sensor-Managers anhand ihres Namens. Nutze zuerst sensor list, um zu sehen, welche Namen das Board bietet.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c470cf70"
+  },
+  "cmd_io_desc": {
+    "value": "Liest oder schreibt die GPIO-Pins des Boards als hexadezimale Bitmaske. Setze r, s oder t vor die Maske, um Bits zurückzusetzen, zu setzen oder umzuschalten.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ede2acc1"
+  },
+  "cmd_bridge_type_desc": {
+    "value": "Zeigt, welche Bridge diese Firmware eingebaut hat: rs232, espnow oder none. Nutze es, um zu prüfen, dass du einen Bridge-Build geflasht hast.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "54cbb77e"
+  },
+  "cmd_bridge_enabled_desc": {
+    "value": "Schaltet die Bridge ein oder aus; sie kopiert Pakete zwischen dem Mesh und einer anderen Verbindung. Diese Verbindung ist je nach Build ein serielles Kabel oder ESP-NOW.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7249ccd6"
+  },
+  "cmd_bridge_delay_desc": {
+    "value": "Legt fest, wie viele Millisekunden die Bridge wartet, bevor sie ein Paket weitergibt. Erhöhe den Wert, wenn Pakete der Bridge mit dem Verkehr im Mesh kollidieren.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c8895baa"
+  },
+  "cmd_bridge_source_desc": {
+    "value": "Wählt, ob die Bridge die Pakete kopiert, die dieser Knoten empfängt, oder die, die er sendet. Tippe rx oder tx zum Setzen; get antwortet mit logRx oder logTx.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d81577c2"
+  },
+  "cmd_bridge_baud_desc": {
+    "value": "Legt die serielle Geschwindigkeit einer RS-232-Bridge in Baud fest. Beide Enden des seriellen Kabels brauchen dieselbe Geschwindigkeit.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "7322814d"
+  },
+  "cmd_bridge_channel_desc": {
+    "value": "Legt den WiFi-Kanal fest, den eine ESP-NOW-Bridge für ihre Verbindung nutzt. Jede Bridge, die mit dieser spricht, braucht denselben Kanal.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "924d978f"
+  },
+  "cmd_bridge_secret_desc": {
+    "value": "Legt das gemeinsame Geheimnis fest, das Pakete auf einer ESP-NOW-Bridge verschleiert. Nutze dasselbe Geheimnis auf jeder Bridge, die mit dieser spricht.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b1df9356"
+  },
+  "cmd_eth_status_desc": {
+    "value": "Zeigt die IP-Adresse und den Port der Ethernet-Konsole, oder dass sie offline ist. Das funktioniert über die serielle und die Ethernet-Konsole, nicht über das Mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b27f99e8"
+  },
+  "cmd_pin_desc": {
+    "value": "Legt die Bluetooth-PIN fest, nach der dein Handy beim Koppeln fragt, nach einem Neustart. Mit 0 zeigt ein Board mit Bildschirm bei jedem Start eine neue PIN, eines ohne nutzt 123456.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "82dc0ee0"
+  },
+  "cmd_tz_offset_desc": {
+    "value": "Legt deine Zeitzone in ganzen Stunden ab UTC fest. Der Companion nutzt sie für die Uhr auf seinem Bildschirm.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "d2a9942a"
+  },
+  "cmd_wifi_ssid_desc": {
+    "value": "Zeigt oder setzt den Namen des WiFi-Netzwerks, dem der Companion beitritt. Setze auch wifi.pwd, dann starte neu, um dich zu verbinden.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "6e53eb6a"
+  },
+  "cmd_wifi_pwd_desc": {
+    "value": "Zeigt oder setzt das Passwort des WiFi-Netzwerks; starte neu, um es zu übernehmen. Ein Kontakt, dem du das Senden von Befehlen erlaubst, kann es ebenfalls lesen.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "15b5453a"
+  },
+  "cmd_wifi_enabled_desc": {
+    "value": "Schaltet WiFi mit 1 ein oder mit 0 aus, nach einem Neustart. Ohne Netzwerknamen startet der Companion kein WiFi.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "7dbbf8f1"
+  },
+  "cmd_wifi_clear_desc": {
+    "value": "Entfernt den WiFi-Netzwerknamen und das Passwort vom Companion. Starte neu, um die Änderung zu übernehmen.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "29938727"
+  },
+  "cmd_wifi_status_desc": {
+    "value": "Zeigt, ob der Companion mit WiFi verbunden ist, und seine IP-Adresse in deinem Netzwerk. Der Companion nimmt Verbindungen von der App unter dieser Adresse an, Port 5000.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "38894245"
+  },
+  "keygen_find_title": {
+    "value": "1. Finde ein freies Präfix",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "23440ddd"
+  },
+  "keygen_find_body": {
+    "value": "Das Präfix-Tool zeigt, welche Präfixe Knoten schon nutzen, und schlägt ein freies vor.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8b4149b8"
+  },
+  "keygen_find_link": {
+    "value": "Präfix-Tool öffnen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ad418bc8"
+  },
+  "keygen_make_title": {
+    "value": "2. Erzeuge damit einen Schlüssel",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "55671108"
+  },
+  "keygen_needs_js": {
+    "value": "Dieses Tool läuft in deinem Browser und braucht JavaScript.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9128273b"
+  },
+  "keygen_prefix_label": {
+    "value": "Präfix, in Hex",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c5fe4703"
+  },
+  "keygen_prefix_hint": {
+    "value": "2 Zeichen für 1 Byte, 4 für 2 Bytes. Die Firmware lehnt 00 und FF ab.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "60646fe6"
+  },
+  "keygen_make": {
+    "value": "Schlüssel erzeugen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f2e49767"
+  },
+  "keygen_stop": {
+    "value": "Stopp",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cae7d57b"
+  },
+  "keygen_working": {
+    "value": "Probiere Schlüssel: bisher {n}.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "10781c37"
+  },
+  "keygen_done": {
+    "value": "Gefunden nach {n} Versuchen.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8495a72b"
+  },
+  "keygen_stopped": {
+    "value": "Gestoppt. Versuche es erneut oder wähle ein kürzeres Präfix.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "731c66a8"
+  },
+  "keygen_bad": {
+    "value": "Tippe 2 oder 4 Hex-Zeichen (0-9, a-f), nicht beginnend mit 00 oder FF.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9569dc0f"
+  },
+  "keygen_unsupported": {
+    "value": "Dein Browser kann keine Ed25519-Schlüssel erzeugen. Nutze Chrome 137, Firefox 129, Safari 17 oder neuer.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "70cf8b1d"
+  },
+  "keygen_set_title": {
+    "value": "3. Setze ihn auf deinem Repeater",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "37e17307"
+  },
+  "keygen_set_body": {
+    "value": "Führe diesen Befehl auf deinem Repeater aus und starte ihn dann neu. Er behält seine Einstellungen und seine Zugriffsliste, wird aber für alle ein neuer Knoten. Füge ihn nach seinem ersten Advert in der App erneut hinzu.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c80b8962"
+  },
+  "keygen_public": {
+    "value": "Öffentlicher Schlüssel",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "4ee252fb"
+  },
+  "keygen_secret": {
+    "value": "Das ist der private Schlüssel deines Repeaters. Wer ihn hat, kann sich als dein Repeater ausgeben, also behalte ihn für dich. Dein Browser hat ihn erzeugt, und diese Seite sendet ihn nirgendwohin.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b4d3d7d1"
+  },
+  "guides_card_keygen_title": {
+    "value": "Schlüssel erzeugen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e798fa1b"
+  },
+  "guides_card_keygen_desc": {
+    "value": "Gib deinem Repeater ein Präfix, das kein Repeater in deiner Nähe nutzt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "267f04fa"
+  },
+  "ch_needs_js": {
+    "value": "Die Kanalliste läuft in deinem Browser und braucht JavaScript. Der Analyzer zeigt dieselben Kanäle:",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "57228d02"
+  },
+  "ch_source": {
+    "value": "MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ed180c11"
+  },
+  "ch_list_title": {
+    "value": "In deinem Land gehörte Kanäle",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6a3ddfed"
+  },
+  "ch_country_label": {
+    "value": "Dein Land",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "18f2456a"
+  },
+  "ch_country_pick": {
+    "value": "Land wählen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "632aadfb"
+  },
+  "ch_search": {
+    "value": "Nach Name oder Region suchen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "67d2c527"
+  },
+  "ch_loading": {
+    "value": "Lade die Kanäle...",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e4e9f6e5"
+  },
+  "ch_error": {
+    "value": "Die Kanalliste wurde nicht geladen. Versuche es später erneut; der Schlüssel jedes #Namens unten funktioniert trotzdem.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f653e69d"
+  },
+  "ch_count": {
+    "value": "{n} Kanäle in {country} gehört, die mit den meisten Nachrichten zuerst.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "923bf6a5"
+  },
+  "ch_messages": {
+    "value": "Nachrichten",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f5cccfb7"
+  },
+  "ch_key": {
+    "value": "Schlüssel",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "99a52df3"
+  },
+  "ch_source_note": {
+    "value": "Live aus dem",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1db8edb5"
+  },
+  "ch_calc_title": {
+    "value": "Der Schlüssel jedes #Kanals",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ad70964d"
+  },
+  "ch_calc_body": {
+    "value": "Tippe einen Kanalnamen, der mit # beginnt. Der Schlüssel ergibt sich aus dem Namen, du bekommst also denselben Schlüssel wie die App.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "8531d7e8"
+  },
+  "ch_calc_label": {
+    "value": "Kanalname",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2fe4a2e8"
+  },
+  "guides_card_channels_title": {
+    "value": "Kanäle finden",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9905513b"
+  },
+  "guides_card_channels_desc": {
+    "value": "Die Kanäle, die Leute in deiner Nähe nutzen, und wie du ihnen beitrittst.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2b7ffced"
+  },
+  "ch_count_one": {
+    "value": "1 Kanal in {country} gehört.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b8f1ca51"
+  },
+  "ch_show_all": {
+    "value": "Alle {n} Kanäle zeigen",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "2afe05c3"
+  },
+  "area_other_presets_title": {
+    "value": "Weitere Presets in der MeshCore-App",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e8ca0063"
+  },
+  "area_other_presets_body": {
+    "value": "Die App listet auch diese europäischen Presets, ohne ein Gebiet für sie zu nennen. Ein 433-MHz-Preset braucht ein Board mit einem 433-MHz-Funkmodul.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "86f82c5c"
+  },
+  "net_live_title": {
+    "value": "Was die Observer hören",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f89055eb"
+  },
+  "net_live_packets": {
+    "value": "Pakete in der letzten vollen Stunde",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e3e24e13"
+  },
+  "net_live_countries": {
+    "value": "Länder in der letzten Stunde gehört",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "502cba0e"
+  },
+  "net_live_repeaters": {
+    "value": "Repeater in den letzten 7 Tagen gehört",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "2890ece6"
+  },
+  "net_live_observers": {
+    "value": "Observer in der letzten Stunde",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "6825b26c"
+  },
+  "net_live_source": {
+    "value": "Live-Zahlen aus dem",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "f063c292"
+  },
+  "net_join_title": {
+    "value": "Füge deinen eigenen Observer hinzu",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "e772f141"
+  },
+  "net_join_body": {
+    "value": "Jeder Observer zeigt ein Stück mehr vom Mesh, für alle in Europa. Wähle den Weg, der passt; der MeshCore Analyzer zeigt die Schritte.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "de341930"
+  },
+  "net_way_app_title": {
+    "value": "Mit der KiekR-App",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "51c6a5e5"
+  },
+  "net_way_app_desc": {
+    "value": "Kopple ein MeshCore-Funkgerät über Bluetooth mit deinem Handy. Die App meldet, was sie hört, ohne dass du etwas flashen musst.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9ae6b7d2"
+  },
+  "net_way_browser_title": {
+    "value": "Aus deinem Browser",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "c6b5042e"
+  },
+  "net_way_browser_desc": {
+    "value": "Verbinde ein Funkgerät über USB oder Bluetooth in Chrome oder Edge. Der Browser meldet, solange der Tab offen bleibt.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "72fc7d03"
+  },
+  "net_way_board_title": {
+    "value": "Mit einem dauerhaft laufenden Board",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "574c32a6"
+  },
+  "net_way_board_desc": {
+    "value": "Flashe Observer-Firmware auf ein LoRa-Board. Es meldet von selbst über WiFi, Tag und Nacht.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "1742bfea"
+  },
+  "project_site": {
+    "value": "Website",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "b5a229ac"
+  },
+  "home_town_title": {
+    "value": "Verfolge eine Nachricht über die Dächer.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "b6669c81"
+  },
+  "home_town_lead": {
+    "value": "Dein Handy oder Laptop schickt eine Nachricht an deinen Companion, per Bluetooth oder USB. Der Companion funkt sie an einen Repeater auf dem Dach. Von dort springt sie von Dach zu Dach.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2af5006f"
+  },
+  "home_town_tag_phone": {
+    "value": "Handy oder Laptop",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "54c8157f"
+  },
+  "home_town_tag_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1dadb328"
+  },
+  "home_town_tag_repeater": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "46e7bee1"
+  },
+  "home_town_tag_mast2": {
+    "value": "Weitere Repeater",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "3aa62b45"
+  },
+  "home_town_companion_title": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "1dadb328"
+  },
+  "home_town_companion_desc": {
+    "value": "Das Funkgerät, von dem du schreibst. Kopple es mit deinem Handy oder Laptop, oder nimm eines mit eigenem Display und Tastatur, das allein funktioniert.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c70389e6"
+  },
+  "home_town_companion_link": {
+    "value": "Companion auswählen",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "5eba6690"
+  },
+  "home_town_repeater_title": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "46e7bee1"
+  },
+  "home_town_repeater_desc": {
+    "value": "Leitet Nachrichten für alle in seiner Umgebung weiter. Die meisten laufen mit Solarstrom. Einen eigenen brauchst du nur dort, wo das Mesh noch nicht hinreicht.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "3db0ed15"
+  },
+  "home_town_repeater_link": {
+    "value": "Wann du einen Repeater aufstellst",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "c5154fb9"
+  },
+  "home_town_mesh_title": {
+    "value": "Das Mesh",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "199c9527"
+  },
+  "home_town_mesh_desc": {
+    "value": "Repeater leiten eine Nachricht so weit weiter, wie sie einander hören. Regionen halten sie lokal.",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "2d14f895"
+  },
+  "home_town_mesh_link": {
+    "value": "Netzwerk ansehen",
+    "_ai": true,
+    "_seeded": "2026-10-21",
+    "_source": "6f3b43a5"
+  },
+  "planned_label": {
+    "value": "Geplant",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "fb6f7c93"
+  },
+  "planned.guides-filter.lead": {
+    "value": "Lass Verkehr, den dein Repeater nicht weiterleiten soll, mit dem Paketfilter fallen.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "ef203a0d"
+  },
+  "planned.guides-filter.what.title": {
+    "value": "Was der Filter tut",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "88a35f90"
+  },
+  "planned.guides-filter.what.desc": {
+    "value": "Welche Pakete ein Repeater fallen lassen kann und wie das das Mesh ruhig hält.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "4a3c7cb5"
+  },
+  "planned.guides-filter.configs.title": {
+    "value": "Empfohlene Konfigurationen",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "42763607"
+  },
+  "planned.guides-filter.configs.desc": {
+    "value": "Fertige Einstellungen für häufige Fälle, etwa um einen störenden Kanal zu blockieren.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "2ef6b9e2"
+  },
+  "planned.guides-filter.settings.title": {
+    "value": "Jede Einstellung",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "07182ebe"
+  },
+  "planned.guides-filter.settings.desc": {
+    "value": "Jede Filtereinstellung mit ihrem Befehl und was sie ändert.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "b73f8c55"
+  },
+  "planned.guides-mqtt.lead": {
+    "value": "Lass dein ständig eingeschaltetes Board melden, was es hört, an den MeshCore Analyzer.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "5aa10eb5"
+  },
+  "planned.guides-mqtt.need.title": {
+    "value": "Was du brauchst",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "e17c85cc"
+  },
+  "planned.guides-mqtt.need.desc": {
+    "value": "Ein Board mit Observer-Firmware und WLAN sowie die Adresse eines Brokers.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "f9b88653"
+  },
+  "planned.guides-mqtt.settings.title": {
+    "value": "Einstellungen",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "74a883a0"
+  },
+  "planned.guides-mqtt.settings.desc": {
+    "value": "Die WLAN-, Broker- und Topic-Einstellungen, die dein Board braucht.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "3d2f63e9"
+  },
+  "planned.guides-mqtt.commands.title": {
+    "value": "Befehle für deinen Broker",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "d2db5c84"
+  },
+  "planned.guides-mqtt.commands.desc": {
+    "value": "Die Befehle zum Einfügen, ausgefüllt für den Broker, den du wählst.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "1a37dddf"
+  },
+  "planned.guides-mqtt.check.title": {
+    "value": "Prüfe, ob es funktioniert",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "2249f06f"
+  },
+  "planned.guides-mqtt.check.desc": {
+    "value": "Wie du deinen Observer auf dem MeshCore Analyzer findest.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "2e45d8f2"
+  },
+  "net_data_title": {
+    "value": "Wie Daten hereinkommen",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "d199acc6"
+  },
+  "net_data_lead": {
+    "value": "Jede Zahl auf dieser Website kommt von Menschen, die zuhören und teilen, was sie hören.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "d162c9f3"
+  },
+  "net_data_from_title": {
+    "value": "Woher es kommt",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "87362334"
+  },
+  "net_data_from_body": {
+    "value": "Observer melden, was sie hören, über MQTT an einen Broker, einen Server, der die Meldungen sammelt. Sie melden an mqtt.meshcore-analyzer.eu oder an einen anderen Broker, den der Analyzer liest. Die KiekR-App und der Browser-Observer melden ebenfalls. Der Analyzer holt außerdem CoreScope-Analysatoren, deren Besitzer zugestimmt haben. Jeder Broker und Analysator wird mit Erlaubnis seines Besitzers gelesen.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "5604e25f"
+  },
+  "net_data_way_title": {
+    "value": "Was unterwegs passiert",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "0e5c3f7c"
+  },
+  "net_data_way_body": {
+    "value": "Eine Nachricht, die viele Observer hören, zählt einmal. Der Analyzer dekodiert sie und baut daraus die Karten, die Zahlen und die Kanalliste. Er behält jede Nachricht, aber was jeder Observer gehört hat, bleibt 10 Tage. Stündliche Zahlen bleiben bis zu 30 Tage, Tagessummen bleiben dauerhaft.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "57413efc"
+  },
+  "net_data_node_title": {
+    "value": "Was andere von deinem Knoten sehen",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "a6245d5e"
+  },
+  "net_data_node_body": {
+    "value": "Andere sehen seinen Namen, seinen öffentlichen Schlüssel, seine Art und seine Position, wenn du sie teilst. Deine Direktnachrichten bleiben verschlüsselt. Nachrichten auf Public und auf Hashtag-Kanälen sind für jeden lesbar, den Analyzer eingeschlossen.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "0f5e507d"
+  },
+  "net_data_q_title": {
+    "value": "Fragen",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "9a72221a"
+  },
+  "net_data_q1": {
+    "value": "Ist mein Knoten auf der Karte?",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "ec3057eb"
+  },
+  "net_data_a1": {
+    "value": "Nur wenn ein Observer sein Advert gehört hat, das Paket, mit dem sich ein Knoten ankündigt. Ein Knoten fern von jedem Observer bleibt von der Karte weg.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "393d0df5"
+  },
+  "net_data_q2": {
+    "value": "Kann der Analyzer meine Direktnachrichten lesen?",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "1cd884fb"
+  },
+  "net_data_a2": {
+    "value": "Nein. Nur du und die andere Person haben den Schlüssel.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "c6b0e033"
+  },
+  "net_data_q3": {
+    "value": "Kann ich Daten aus meinem eigenen Tool senden?",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "52255bf4"
+  },
+  "net_data_a3": {
+    "value": "Ja: veröffentliche über MQTT an mqtt.meshcore-analyzer.eu, signiert mit dem Schlüssel deines Knotens, wie ein Observer es tut. Der {link} zeigt, wie du dich verbindest.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "171daa27"
+  },
+  "net_data_analyzer_link": {
+    "value": "MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ed180c11"
+  },
+  "net_data_q4": {
+    "value": "Kann ich die Daten des Analyzers nutzen?",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "2154596d"
+  },
+  "net_data_a4": {
+    "value": "Frag zuerst auf dessen {link}. Der Analyzer erlaubt kein automatisiertes Sammeln.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "b935a213"
+  },
+  "release_role_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "1dadb328"
+  },
+  "release_role_repeater": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "46e7bee1"
+  },
+  "release_role_room_server": {
+    "value": "Room Server",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "68b91cc5"
+  },
+  "release_notes_link": {
+    "value": "Die offiziellen Release-Notes",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "8bc96136"
+  },
+  "release.v1-18-0.1": {
+    "value": "Dein Companion bekommt eine Kommandozeile: Öffne „Command Line“ in der App, ab Version 1.50. Ein Kontakt, dem du die Berechtigung „Remote CLI“ gibst, kann ihm Befehle über das Mesh senden.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "14cedc6a"
+  },
+  "release.v1-18-0.2": {
+    "value": "Ein neu eingerichteter Repeater schaltet von selbst minimale Schleifenerkennung ein.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "14ac329c"
+  },
+  "release.v1-18-0.3": {
+    "value": "Ein Repeater mit ausgeschalteten Adverts erscheint nicht mehr, wenn andere nach Knoten suchen.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "73a74341"
+  },
+  "release.v1-18-0.4": {
+    "value": "Auf ESP32-Boards übersteht die Uhr einen Neustart, und die meisten nRF52-Boards verweigern bei leerem Akku nicht mehr den Start.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "236a3861"
+  },
+  "release.v1-18-0.5": {
+    "value": "Neue Boards: Thinknode M4 und M8, Wio Tracker L1 1W, Muzi Base und Waveshare ESP32-S3 LR1121.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "1355f413"
+  },
+  "release.v1-18-0.6": {
+    "value": "Die Bluetooth-Companion-Firmware macht auf mehreren Boards auch WiFi, darunter Heltec, Wireless Paper, RAK und Xiao S3; richte es in der App ein.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "0d070c73"
+  },
+  "release.v1-17-1.1": {
+    "value": "Auf Boards mit externem Verstärker wird die Empfangsverstärkung jetzt gespeichert. Prüfe nach dem Update radio.fem.rxgain und radio.rxgain auf deinem Repeater.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "aa6980e3"
+  },
+  "release.v1-17-1.2": {
+    "value": "Das Senden funktioniert wieder auf dem Heltec T096, und der Bildschirm des T-Beam Supreme zeigt wieder.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "b8973538"
+  },
+  "release.v1-17-0.1": {
+    "value": "Jede Firmware speichert ihre Einstellungen in einem neuen Format.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "2acf27c2"
+  },
+  "release.v1-17-0.2": {
+    "value": "Ein Repeater schaltet sich mit langem Druck auf seinen Knopf aus. Neue Befehle: set cad für Repeater und room.post für Room Server.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "96f0d3d9"
+  },
+  "release.v1-17-0.3": {
+    "value": "nRF52-Boards nutzen ihren eingebauten Verschlüsselungschip, und Boards ziehen im Ruhezustand und im ausgeschalteten Zustand weniger Strom.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "3daf5825"
+  },
+  "release.v1-17-0.4": {
+    "value": "Neue Boards: Heltec V4 R8, RC32 und Tower V2, Thinknode M7 und M9, Sensecap MeshTracker X1 sowie Funkgeräte mit dem LR2021-Chip.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "b90c5ac8"
+  },
+  "release.v1-17-0.5": {
+    "value": "Repeater hören besser zu, bevor sie senden, sodass belebte Meshes weniger Kollisionen haben.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "3061d4fd"
+  },
+  "console_needs_js": {
+    "value": "Die Konsole braucht JavaScript und einen Browser, der USB erreichen kann: Chrome, Edge oder Opera auf einem Computer.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "07c6b52a"
+  },
+  "console_connect": {
+    "value": "Deinen Knoten verbinden",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "bb8e5e01"
+  },
+  "console_disconnect": {
+    "value": "Trennen",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "acfc5be7"
+  },
+  "console_copy": {
+    "value": "Protokoll kopieren",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "e01862b2"
+  },
+  "console_send": {
+    "value": "Senden",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "f6f4688f"
+  },
+  "console_command_label": {
+    "value": "Befehl",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "71316697"
+  },
+  "console_log_label": {
+    "value": "Was dein Knoten sagt",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "84925ecb"
+  },
+  "console_status_idle": {
+    "value": "Stecke deinen Knoten ein, verbinde dich und wähle seinen Port.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "3ebc3314"
+  },
+  "console_status_asking": {
+    "value": "Verbunden. Dein Knoten wird gefragt, was er ist.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "02b45460"
+  },
+  "console_status_connected": {
+    "value": "Verbunden. Tippe einen Befehl und drücke Enter.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "d216f35b"
+  },
+  "console_status_lost": {
+    "value": "Die Verbindung ist weg. Prüfe das Kabel und verbinde dich erneut.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "98fa83ae"
+  },
+  "console_status_busy": {
+    "value": "Der Port konnte nicht geöffnet werden. Schließe das andere Programm oder den anderen Tab, das bzw. der ihn nutzt, und versuche es erneut.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "cf4e9cbd"
+  },
+  "console_status_unsupported": {
+    "value": "Dieser Browser kann USB nicht erreichen. Nutze Chrome, Edge oder Opera auf einem Computer.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "8ef7eebe"
+  },
+  "console_status_copied": {
+    "value": "Das Protokoll ist kopiert.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "617d378e"
+  },
+  "console_status_copy_failed": {
+    "value": "Das Protokoll konnte nicht kopiert werden. Markiere es und kopiere es von Hand.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "45bd5465"
+  },
+  "console_commands_before": {
+    "value": "Jeder Befehl ist erklärt in",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "68ef84d1"
+  },
+  "console_commands_link": {
+    "value": "CLI-Befehle",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "a13cc6cb"
+  },
+  "console_commands_after": {
+    "value": ".",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "cdb4ee2a"
+  },
+  "console_node_known": {
+    "value": "Die Vorschläge zeigen die Befehle, die dieser Knoten versteht.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "345c274c"
+  },
+  "console_node_unknown": {
+    "value": "Dein Knoten hat seine Rolle nicht genannt. Die Vorschläge zeigen die Befehle von Repeatern, Room-Servern und Sensoren.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "503c0064"
+  },
+  "console_dmc_before": {
+    "value": "Dieser Knoten läuft mit DutchMeshCore-Firmware. Die Vorschläge zeigen die eigenen Befehle von MeshCore. Die DutchMeshCore-Befehle stehen im",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b17e7f2e"
+  },
+  "console_more_link": {
+    "value": "{command} im CLI-Leitfaden",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "9e207731"
+  },
+  "console_dmc_link": {
+    "value": "DutchMeshCore-CLI-Wiki",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "ccc16968"
+  },
+  "console_dmc_after": {
+    "value": ".",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cdb4ee2a"
+  },
+  "console_suggestions_label": {
+    "value": "Vorgeschlagene Befehle",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "36d1238e"
+  },
+  "console_key_fill": {
+    "value": "fügt ihn ein",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "cf686f44"
+  },
+  "console_key_choose": {
+    "value": "auswählen",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "725fed9d"
+  },
+  "console_key_guide": {
+    "value": "öffnet den CLI-Leitfaden",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "de7ca5a8"
+  },
+  "console_key_close": {
+    "value": "schließt",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b2850942"
+  },
+  "console_trouble_title": {
+    "value": "Wenn es sich nicht verbindet",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "0cce4809"
+  },
+  "console_trouble_1": {
+    "value": "Nutze ein Datenkabel. Manche Kabel laden nur.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "958a8d54"
+  },
+  "console_trouble_2": {
+    "value": "Schließe andere Programme, die den Port nutzen, etwa eine andere Konsole oder den Flasher dieser Website in einem anderen Tab.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "fc9daa0a"
+  },
+  "console_trouble_3": {
+    "value": "Wähle den richtigen Port: Zieh deinen Knoten ab, sieh, welcher Port verschwindet, und stecke ihn wieder ein.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "75120995"
+  },
+  "console_trouble_4": {
+    "value": "Firefox und Safari können USB nicht von einer Webseite aus erreichen. Nutze Chrome, Edge oder Opera auf einem Computer.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "71403007"
+  },
+  "usb_title": {
+    "value": "Sende an deinen Repeater über USB.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "815598af"
+  },
+  "usb_body": {
+    "value": "Stecke deinen Repeater ein, verbinde dich und prüfe, was sich ändert, bevor du sendest.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "5a67e201"
+  },
+  "usb_connect": {
+    "value": "Deinen Repeater verbinden",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "aaf2563c"
+  },
+  "usb_check": {
+    "value": "Prüfe, was sich ändert",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "3ee77f8f"
+  },
+  "usb_send": {
+    "value": "Die Einstellungen senden",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "7e2580db"
+  },
+  "usb_reboot": {
+    "value": "Deinen Repeater neu starten",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "19394bd3"
+  },
+  "usb_disconnect": {
+    "value": "Trennen",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "acfc5be7"
+  },
+  "usb_col_command": {
+    "value": "Befehl",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "71316697"
+  },
+  "usb_col_now": {
+    "value": "Jetzt",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "fe18013d"
+  },
+  "usb_col_reply": {
+    "value": "Antwort",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "c253f451"
+  },
+  "usb_col_new": {
+    "value": "Neuer Wert",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "7ca9b97d"
+  },
+  "usb_no_answer": {
+    "value": "keine Antwort",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "ad03eb5e"
+  },
+  "usb_status_idle": {
+    "value": "Nicht verbunden.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "3b3d2796"
+  },
+  "usb_status_connected": {
+    "value": "Verbunden. Prüfe zuerst, was sich ändert.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "4bb28123"
+  },
+  "usb_status_busy": {
+    "value": "Der Port ist belegt. Schließe das andere Programm oder den anderen Tab, das bzw. der ihn nutzt, und versuche es erneut.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "438a57fa"
+  },
+  "usb_status_fill": {
+    "value": "Trage zuerst {value} in den Befehlen oben ein.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "d903306b"
+  },
+  "usb_status_reading": {
+    "value": "Lese die Einstellungen deines Repeaters.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "222e3b98"
+  },
+  "usb_status_review": {
+    "value": "Vergleiche die aktuellen Werte mit den neuen, dann sende.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "017b629e"
+  },
+  "usb_status_sent": {
+    "value": "Gesendet. Dein Repeater hat jeden Befehl angenommen.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "4cf46e54"
+  },
+  "usb_status_sent_errors": {
+    "value": "Gesendet, aber dein Repeater hat manche Befehle abgelehnt oder nicht geantwortet. Prüfe die Antworten.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "f77c4ebb"
+  },
+  "usb_status_rebooted": {
+    "value": "Der Repeater startet mit seinen neuen Funkeinstellungen neu.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "79ddf8f8"
+  },
+  "flash_releases_link": {
+    "value": "MeshCores Releases auf GitHub",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "db7cf404"
+  },
+  "flash_no_match": {
+    "value": "Kein Board passt. Versuch ein kürzeres Wort oder wähle aus der Liste.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "cdba666f"
+  },
+  "flash_needs_js": {
+    "value": "Der Flasher braucht JavaScript. Ohne es hat {link} jede Datei.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "dc36838c"
+  },
+  "flash_board_title": {
+    "value": "Wähle dein Board",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "225d5074"
+  },
+  "flash_filter_label": {
+    "value": "Suchen",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "49c266ba"
+  },
+  "flash_board_label": {
+    "value": "Board",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "4816cbfd"
+  },
+  "flash_role_label": {
+    "value": "Rolle",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "14736a2e"
+  },
+  "flash_role_ble": {
+    "value": "Companion, Bluetooth",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "2c1378a3"
+  },
+  "flash_role_usb": {
+    "value": "Companion, USB",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "4794c45b"
+  },
+  "flash_role_repeater": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "46e7bee1"
+  },
+  "flash_role_room_server": {
+    "value": "Room Server",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "68b91cc5"
+  },
+  "flash_version_before": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "f4f17278"
+  },
+  "flash_version_after": {
+    "value": ", die neueste Version.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "1daecb7e"
+  },
+  "flash_flash_title": {
+    "value": "Flashe es über USB",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "dfd786e5"
+  },
+  "flash_mode_legend": {
+    "value": "Was willst du?",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "3e17dbf9"
+  },
+  "flash_mode_update": {
+    "value": "Update: für ein Board, das bereits MeshCore ausführt. Behält Schlüssel, Kontakte und Einstellungen deines Knotens.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "59e8848e"
+  },
+  "flash_mode_fresh": {
+    "value": "Neuinstallation: für ein neues Board oder eines mit anderer Firmware. Löscht das Board, Schlüssel inbegriffen.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "bc797149"
+  },
+  "flash_wipe_ok": {
+    "value": "Ich weiß, dass eine Neuinstallation Schlüssel und Kontakte meines Knotens löscht.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "7aeefcb2"
+  },
+  "flash_flash_button": {
+    "value": "Verbinden und flashen",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "b8a541c7"
+  },
+  "flash_esp_help": {
+    "value": "Chrome, Edge oder Opera auf einem Computer. Wenn das Board sich nicht verbindet, halte seinen BOOT-Knopf (PRG auf manchen Boards) gedrückt, während du es einsteckst, und versuche es erneut.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "4dafe8fb"
+  },
+  "flash_uf2_title": {
+    "value": "Kopiere die Datei auf dein Board",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "263bc1e5"
+  },
+  "flash_uf2_step1": {
+    "value": "Lade die Datei herunter:",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "dee6800a"
+  },
+  "flash_uf2_step2": {
+    "value": "Stecke dein Board ein und tippe doppelt auf seinen Reset-Knopf. Es erscheint als USB-Laufwerk. Ein Board ohne Reset-Knopf hat seinen eigenen Weg; die Seite des Herstellers sagt, wie.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "9cd62884"
+  },
+  "flash_uf2_step3": {
+    "value": "Zieh die Datei auf dieses Laufwerk. Das Board startet mit der neuen Firmware neu; ein Update behält seine Schlüssel.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "aef87c5b"
+  },
+  "flash_status_unsupported": {
+    "value": "Dieser Browser kann USB nicht erreichen. Nutze Chrome, Edge oder Opera auf einem Computer.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "8ef7eebe"
+  },
+  "flash_status_no_list": {
+    "value": "Die Liste der Boards wurde nicht geladen. Lade die Seite neu.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "7a3841a5"
+  },
+  "flash_status_downloading": {
+    "value": "Lade die Firmware herunter.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "c9e6648c"
+  },
+  "flash_status_connecting": {
+    "value": "Verbinde mit deinem Board.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "70ed0d63"
+  },
+  "flash_status_flashing": {
+    "value": "Flashe. Halte das Board eingesteckt.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "0796d555"
+  },
+  "flash_status_done": {
+    "value": "Fertig. Dein Board startet mit der neuen Firmware neu.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "445b69e2"
+  },
+  "flash_status_failed": {
+    "value": "Das Flashen wurde gestoppt. Halte den BOOT-Knopf gedrückt, während du das Board einsteckst, und versuche es erneut.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "f716db56"
+  },
+  "flash_status_no_file": {
+    "value": "Die Firmware-Datei wurde nicht heruntergeladen. Versuch es gleich noch einmal.",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "6636a9df"
+  },
+  "flash_other_firmware": {
+    "value": "Andere Firmware, etwa die DutchMeshCore-Observer-Firmware, bringt ihren eigenen Flasher mit: {link}.",
+    "_ai": true,
+    "_seeded": "2026-10-26",
+    "_source": "b2c75d72"
+  },
+  "release_flash_link": {
+    "value": "Flashe es auf dein Board",
+    "_ai": true,
+    "_seeded": "2026-10-23",
+    "_source": "207bc805"
+  }
+}

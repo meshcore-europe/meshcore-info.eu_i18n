@@ -1,0 +1,31 @@
+# Terms that are never translated (spec section 6.5): they must appear
+# unchanged in a translation wherever they appear in the English source.
+# One term per line, matched case-sensitively; lines starting with # are
+# comments. Numbers with radio units (869.525 MHz, 250 kHz, 25 mW, 14 dBm,
+# SF11) are protected by tools/protected.py itself and need no entry here.
+# Leave out ordinary words that are also names (Signal, Matrix): English
+# sentences use them in their plain meaning too.
+MeshCore
+meshcore-info.eu
+KiekR
+LoRa
+LoRaWAN
+Bluetooth
+GitHub
+Discord
+Telegram
+WhatsApp
+ESP32
+nRF52840
+SX1262
+SX1276
+Heltec
+LilyGO
+RAKwireless
+WisBlock
+Seeed
+ERC
+ETSI
+CEPT
+70-03
+EN 300 220

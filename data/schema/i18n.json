@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "UI and data strings in kiekr format",
+  "description": "A plain string is human-approved; an object with _ai: true is machine-seeded, with _source the hash of the English it was seeded from; null means not translated yet. tools/validate_i18n.py adds the cross-file rules.",
+  "type": "object",
+  "required": ["_meta"],
+  "properties": {
+    "_meta": {
+      "type": "object",
+      "required": ["language", "name", "managed_by", "updated"],
+      "properties": {
+        "language": { "type": "string" },
+        "name": { "type": "string" },
+        "managed_by": { "enum": ["meshcore-info-team", "community"] },
+        "updated": { "type": "string", "format": "date" }
+      },
+      "additionalProperties": false
+    }
+  },
+  "patternProperties": {
+    "^[a-z][a-z0-9_]*(\\.[a-z0-9][a-z0-9_-]*)*$": {
+      "oneOf": [
+        { "type": "string", "minLength": 1 },
+        { "type": "null" },
+        {
+          "type": "object",
+          "required": ["value", "_ai", "_seeded"],
+          "properties": {
+            "value": { "type": "string", "minLength": 1 },
+            "_ai": { "const": true },
+            "_seeded": { "type": "string", "format": "date" },
+            "_source": { "type": "string", "pattern": "^[0-9a-f]{8}$" }
+          },
+          "additionalProperties": false
+        }
+      ]
+    }
+  },
+  "additionalProperties": false
+}
