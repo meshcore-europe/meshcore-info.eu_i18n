@@ -139,8 +139,11 @@ to the [MeshCore Analyzer](https://meshcore-analyzer.eu/), where everyone
 can see it. Turn your repeater into one with
 [MQTT on your observer](/guides/mqtt/).
 
-On the Analyzer, look at every copy of one packet. The copy with the shortest path was
-heard closest to the sender.
+On the Analyzer, look at every copy of one packet. Its path usually shows
+where it came from. A flooder can start the path with
+[made-up IDs](#forged), so its first IDs tell you nothing. But every copy
+carries the same made-up start. The copy with the shortest path passed the
+fewest real repeaters, so it was heard closest to the sender.
 
 {{< copies >}}
 
