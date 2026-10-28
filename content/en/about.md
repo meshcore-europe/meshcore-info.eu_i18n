@@ -134,3 +134,12 @@ other. Some countries and regions use a variant: your
   fail.
 - Local chat on radios that people own themselves.
 - Experimenting with radio, antennas, solar power and open-source software.
+
+## Where the data comes from {#data}
+
+The search on the [local groups](/community/) page finds a place with a copy of
+the free place and postcode lists of [GeoNames](https://www.geonames.org/),
+licensed under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). The copy lives on
+this site. Your search never leaves your device, and no request goes to
+GeoNames.
