@@ -9,7 +9,9 @@ On a busy mesh that includes junk. A bot posts every minute. One node sends
 its advert, the hello that lets others find it, again every few minutes.
 Messages arrive that travelled across half the country. Each repeat takes
 airtime from everyone around you. The packet filter lets your repeater drop
-that traffic instead of passing it on.
+that traffic instead of passing it on. To find out what floods your mesh
+first, and what helps besides the filter, see
+[Make the mesh resilient](/guides/resilient/).
 
 {{< callout type="warning" >}}
 The packet filter is part of the **DMC repeater firmware**, the repeater
