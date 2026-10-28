@@ -3,7 +3,7 @@
     "language": "ro",
     "name": "Română",
     "managed_by": "community",
-    "updated": "2026-10-27"
+    "updated": "2026-10-28"
   },
   "site_tagline": {
     "value": "Mesagerie off-grid în toată Europa",
@@ -905,6 +905,12 @@
     "_seeded": "2026-10-26",
     "_source": "f7361695"
   },
+  "community_all": {
+    "value": "Toate",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "a52ace42"
+  },
   "community_missing_body": {
     "value": "Oricine poate adăuga un grup local. Deschide un issue cu numele, zona și linkurile lui, iar un maintainer îl adaugă deodată în toate limbile.",
     "_ai": true,
@@ -1073,6 +1079,12 @@
     "_seeded": "2026-10-26",
     "_source": "dc20b3d5"
   },
+  "project_cat_docs": {
+    "value": "Documentație",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "c205924d"
+  },
   "project_archived": {
     "value": "Arhivat",
     "_ai": true,
@@ -1162,6 +1174,24 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "8e2d0664"
+  },
+  "lang_nudge": {
+    "value": "Am ales {language} din setările browserului tău. Poți schimba limba aici.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "e428ce71"
+  },
+  "lang_nudge_change": {
+    "value": "Altă limbă",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "8cc15d99"
+  },
+  "lang_nudge_close": {
+    "value": "Închide",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "7d9eb7ac"
   },
   "coverage_caption": {
     "value": "Acoperirea traducerii pe limbă",
@@ -2129,6 +2159,12 @@
     "_seeded": "2026-10-26",
     "_source": "2a7d4602"
   },
+  "community.de-ffnw.desc": {
+    "value": "Asociație Freifunk care administrează din 2013 un mesh WiFi comunitar în regiunea Weser-Ems și acum operează și repetoare MeshCore. Se întâlnește lunar în Oldenburg.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "abb2138f"
+  },
   "community.de-meshcore-dresden.desc": {
     "value": "Grup care construiește o rețea MeshCore în Dresda și împrejurimi, cu regiunile și canalele ei listate.",
     "_ai": true,
@@ -2146,6 +2182,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "2eeeb6e6"
+  },
+  "community.de-hansemesh.desc": {
+    "value": "Rețea MeshCore pentru Hamburg și nordul Germaniei, cu ghiduri și sfaturi despre hardware. Chatul ei este grupul MeshCore DE de pe Telegram.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "c27d5586"
   },
   "community.ie-mayo-mesh.desc": {
     "value": "Grup de utilizatori de radio mesh pentru comitatul Mayo.",
@@ -2386,6 +2428,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "ae215bf8"
+  },
+  "map.mapme-sh.desc": {
+    "value": "Hartă de acoperire construită din deplasări de cartografiere cu telefoane prin Europa, afișată ca hexagoane colorate după puterea semnalului. Un joc indică golurile din mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "23bca522"
   },
   "project.meshcore-firmware.desc": {
     "value": "Firmware-ul oficial MeshCore și biblioteca de rutare pentru plăci LoRa, cu rolurile companion, repetor, room server și senzor.",
@@ -2734,6 +2782,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "60e39810"
+  },
+  "project.domca-docs.desc": {
+    "value": "Documentație în neerlandeză și engleză, de la primul tău nod până la cum funcționează protocolul, firmware-ul și radioul. Este scrisă cu ajutorul unor instrumente AI, așa că verifică detaliile despre firmware în sursa MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "9c976aea"
   },
   "guides_group_start": {
     "value": "Primul tău nod",

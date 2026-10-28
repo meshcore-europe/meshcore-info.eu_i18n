@@ -3,7 +3,7 @@
     "language": "nb",
     "name": "Norsk bokmål",
     "managed_by": "community",
-    "updated": "2026-10-27"
+    "updated": "2026-10-28"
   },
   "site_tagline": {
     "value": "Meldinger uten nett i hele Europa",
@@ -905,6 +905,12 @@
     "_seeded": "2026-10-26",
     "_source": "f7361695"
   },
+  "community_all": {
+    "value": "Alle",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "a52ace42"
+  },
   "community_missing_body": {
     "value": "Hvem som helst kan legge til en lokal gruppe. Åpne et issue med navn, område og lenker, så legger en vedlikeholder den til på alle språk samtidig.",
     "_ai": true,
@@ -1073,6 +1079,12 @@
     "_seeded": "2026-10-26",
     "_source": "dc20b3d5"
   },
+  "project_cat_docs": {
+    "value": "Dokumentasjon",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "c205924d"
+  },
   "project_archived": {
     "value": "Arkivert",
     "_ai": true,
@@ -1162,6 +1174,24 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "8e2d0664"
+  },
+  "lang_nudge": {
+    "value": "Vi valgte {language} ut fra innstillingene i nettleseren din. Du kan bytte språk her.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "e428ce71"
+  },
+  "lang_nudge_change": {
+    "value": "Annet språk",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "8cc15d99"
+  },
+  "lang_nudge_close": {
+    "value": "Lukk",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "7d9eb7ac"
   },
   "coverage_caption": {
     "value": "Oversettelsesdekning per språk",
@@ -2129,6 +2159,12 @@
     "_seeded": "2026-10-26",
     "_source": "2a7d4602"
   },
+  "community.de-ffnw.desc": {
+    "value": "Freifunk-forening som har drevet et felles WiFi-mesh i regionen Weser-Ems siden 2013, og nå også driver MeshCore-repeatere. Den møtes hver måned i Oldenburg.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "abb2138f"
+  },
   "community.de-meshcore-dresden.desc": {
     "value": "Gruppe som bygger et MeshCore-nettverk i og rundt Dresden, med regioner og kanaler oppført.",
     "_ai": true,
@@ -2146,6 +2182,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "2eeeb6e6"
+  },
+  "community.de-hansemesh.desc": {
+    "value": "MeshCore-nettverk for Hamburg og Nord-Tyskland, med veiledninger og maskinvaretips. Chatten er gruppen MeshCore DE på Telegram.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "c27d5586"
   },
   "community.ie-mayo-mesh.desc": {
     "value": "Brukergruppe for mesh-radio i County Mayo.",
@@ -2386,6 +2428,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "ae215bf8"
+  },
+  "map.mapme-sh.desc": {
+    "value": "Dekningskart laget av kartleggingsturer med mobiler over hele Europa, vist som sekskanter farget etter signalstyrke. Et spill peker på hull i meshet.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "23bca522"
   },
   "project.meshcore-firmware.desc": {
     "value": "Den offisielle MeshCore-firmwaren og rutingbiblioteket for LoRa-kort, med rollene companion, repeater, romserver og sensor.",
@@ -2734,6 +2782,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "60e39810"
+  },
+  "project.domca-docs.desc": {
+    "value": "Dokumentasjon på nederlandsk og engelsk, fra din første node til hvordan protokollen, firmwaren og radioen virker. Den er skrevet med hjelp fra AI-verktøy, så sjekk firmware-detaljer mot MeshCore-kildekoden.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "9c976aea"
   },
   "guides_group_start": {
     "value": "Din første node",

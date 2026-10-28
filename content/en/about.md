@@ -10,15 +10,40 @@ that sends little data far, on very little power. A radio with MeshCore is
 called a *node*. Paired with the app on your phone or laptop, or with its own
 screen and keyboard, it sends text to people kilometres away. No tower, router or provider sits in between.
 
-MeshCore sends short text messages only: no voice, photos or internet
-traffic.
-A message can take a few seconds, and whether it arrives depends on the
-repeaters around you. It does not replace the emergency services: in an
-emergency, call 112.
-
 The software is open source, developed at
 [meshcore-dev/MeshCore](https://github.com/meshcore-dev/MeshCore) under the MIT
 licence.
+
+## What MeshCore is not {#not}
+
+New to radio? These are the things people most often expect from MeshCore,
+and that it does not do.
+
+- **It is not the internet or a phone.** MeshCore sends short text messages,
+  about the length of a text message on your phone. No voice, photos, video
+  or websites, and you cannot reach a normal phone number.
+- **It is not an emergency service.** No emergency service listens on the
+  mesh, and nobody promises that someone reads your message. In an
+  emergency, call 112.
+- **It is not instant, and not everywhere.** A message hops from radio to
+  radio and can take a few seconds, or not arrive at all. Whether it gets
+  through depends on the repeaters around you, on height, buildings and your
+  antenna. A small radio indoors often reaches nobody; a repeater on a roof
+  reaches kilometres.
+- **It is not a service someone runs for you.** There is no provider, no
+  helpdesk and no coverage promise. The mesh exists where people in the
+  community have put up repeaters, and nowhere else.
+- **Not everything on it is private.** Direct messages are encrypted, but
+  Public and the hashtag channels can be read by anyone, and your node's
+  name and shared position are visible to everyone in range.
+  [Observers](/network/) report what they hear to public maps. The
+  [encryption section](#encryption) explains what stays private.
+- **It is not unlimited.** Everyone in an area shares one radio channel, and
+  the rules for the [868 MHz band](#band) limit how long each radio may send.
+  Every message takes airtime from everyone else, so bots, frequent adverts
+  and test messages slow the mesh down for all.
+- **It is not Meshtastic.** Meshtastic is a different system that runs on
+  much the same boards. The two cannot talk to each other.
 
 ## The mesh in a minute {#mesh}
 
@@ -46,8 +71,9 @@ log in with a password and manage it over the radio. The
 [repeater guide](/repeater-guide/) shows how.
 
 **Room server.** A small message board on the mesh. When you log in, you get
-the posts you missed while out of range, up to the last 32. A local group
-uses one for announcements.
+the posts you missed while out of range, up to the last 32. It keeps them
+in memory only, so a restart or a power cut clears them. A local group uses
+one for announcements.
 
 ## How a message finds its way {#routing}
 

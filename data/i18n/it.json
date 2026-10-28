@@ -3,7 +3,7 @@
     "language": "it",
     "name": "Italiano",
     "managed_by": "community",
-    "updated": "2026-10-27"
+    "updated": "2026-10-28"
   },
   "site_tagline": {
     "value": "Messaggi senza rete in tutta Europa",
@@ -905,6 +905,12 @@
     "_seeded": "2026-10-26",
     "_source": "f7361695"
   },
+  "community_all": {
+    "value": "Tutte",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "a52ace42"
+  },
   "community_missing_body": {
     "value": "Chiunque può aggiungere un gruppo locale. Apri una issue con nome, area e link, e un manutentore lo aggiunge in tutte le lingue in una volta.",
     "_ai": true,
@@ -1073,6 +1079,12 @@
     "_seeded": "2026-10-26",
     "_source": "dc20b3d5"
   },
+  "project_cat_docs": {
+    "value": "Documentazione",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "c205924d"
+  },
   "project_archived": {
     "value": "Archiviato",
     "_ai": true,
@@ -1162,6 +1174,24 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "8e2d0664"
+  },
+  "lang_nudge": {
+    "value": "Abbiamo scelto {language} dalle impostazioni del tuo browser. Qui puoi cambiare lingua.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "e428ce71"
+  },
+  "lang_nudge_change": {
+    "value": "Altra lingua",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "8cc15d99"
+  },
+  "lang_nudge_close": {
+    "value": "Chiudi",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "7d9eb7ac"
   },
   "coverage_caption": {
     "value": "Copertura della traduzione per lingua",
@@ -2129,6 +2159,12 @@
     "_seeded": "2026-10-26",
     "_source": "2a7d4602"
   },
+  "community.de-ffnw.desc": {
+    "value": "Associazione Freifunk che gestisce dal 2013 una mesh WiFi comunitaria nella regione Weser-Ems e ora gestisce anche ripetitori MeshCore. Si incontra ogni mese a Oldenburg.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "abb2138f"
+  },
   "community.de-meshcore-dresden.desc": {
     "value": "Gruppo che costruisce una rete MeshCore a Dresda e dintorni, con l'elenco delle sue regioni e dei suoi canali.",
     "_ai": true,
@@ -2146,6 +2182,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "2eeeb6e6"
+  },
+  "community.de-hansemesh.desc": {
+    "value": "Rete MeshCore per Amburgo e la Germania settentrionale, con guide e consigli sull'hardware. La sua chat è il gruppo MeshCore DE su Telegram.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "c27d5586"
   },
   "community.ie-mayo-mesh.desc": {
     "value": "Gruppo di utenti di radio mesh per la contea di Mayo.",
@@ -2386,6 +2428,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "ae215bf8"
+  },
+  "map.mapme-sh.desc": {
+    "value": "Mappa di copertura costruita con rilevamenti in auto con telefoni in tutta Europa, mostrata come esagoni colorati in base alla potenza del segnale. Un gioco indica i buchi nella mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "23bca522"
   },
   "project.meshcore-firmware.desc": {
     "value": "Il firmware MeshCore ufficiale e la libreria di routing per schede LoRa, con i ruoli companion, ripetitore, room server e sensore.",
@@ -2734,6 +2782,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "60e39810"
+  },
+  "project.domca-docs.desc": {
+    "value": "Documentazione in olandese e inglese, dal tuo primo nodo a come funzionano il protocollo, il firmware e la radio. È scritta con l'aiuto di strumenti di IA, quindi verifica i dettagli sul firmware nel codice sorgente di MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "9c976aea"
   },
   "guides_group_start": {
     "value": "Il tuo primo nodo",

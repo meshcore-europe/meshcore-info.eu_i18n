@@ -28,8 +28,10 @@ message that travels further than it needs to uses some of it up.
 **Send to the smallest region that reaches the people you write to.**
 Regions nest: a country, a province, a local group, each with its own code,
 such as `nl`, `nl-ov` and `nl-ov-zwo`. A message for `nl-ov-zwo` stays with
-the repeaters in that group. Put each repeater only in the regions it
-serves; your [local group](/community/) knows which ones those are.
+the repeaters in that group. A repeater only passes on the regions it holds
+itself: holding `nl` does not make it pass on `nl-ov`. Put each repeater in
+every region it serves, and only those; your [local group](/community/) knows
+which ones those are.
 
 **Limit what your repeater passes on.** Two settings keep traffic that has
 no need to travel far close to home:

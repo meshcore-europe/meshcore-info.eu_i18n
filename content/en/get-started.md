@@ -34,7 +34,9 @@ transmits without an antenna can damage its own chip.
    how.
 
 Only use *erase* for a fresh start: erasing deletes the device's identity
-and your contacts. For later updates, flash without erasing.
+and your contacts. For later updates, flash without erasing. To keep your
+identity through an erase, export your companion's private key from the app
+first and import it afterwards.
 
 ## 3. Install the app {#app}
 
@@ -64,6 +66,10 @@ Czechia, Hungary, Slovakia, Portugal and Switzerland use their own, and
 Limburg in the Netherlands has a variant:
 
 {{< presets >}}
+
+Does your device not offer your area's preset? Enter the 4 values from the
+table by hand in the app's radio settings: frequency, bandwidth, spreading
+factor and coding rate. A node with other values does not hear the mesh.
 
 Not sure? Your [local group](/community/) knows which preset your area uses.
 The app downloads this list from the MeshCore project, so a new preset needs
@@ -106,6 +112,25 @@ repeater within reach, you will only hear radios close by; the
 One of the two nodes has the wrong time. A companion takes the time from
 your phone; repeaters and room servers (nodes that store messages for a
 group) need theirs set by their owner.
+
+**A direct message never arrives.**
+You both need the other as a contact. A node drops a message from someone
+it does not know, without telling the sender. Send a flood advert and ask
+the other person to send one too. Check in the app that it adds new
+contacts automatically; it only adds nodes within its hop limit.
+
+**Old contacts work, new ones never connect.**
+A first message floods, and a repeater only passes it on when it holds the
+message's region. Later messages follow a learned route, which no region
+check stops. Ask your [local group](/community/) which regions the repeaters
+around you hold, and check [the settings for your area](/guides/settings/#traffic).
+
+**The app no longer connects to your companion.**
+Some boards have a user button, such as some RAK boards and the Heltec T114.
+Hold it in the first 8 seconds after the board starts. The companion opens
+a rescue console over USB. In the console on
+[flasher.meshcore.io](https://flasher.meshcore.io), `set pin <pin>` sets a
+new Bluetooth PIN and `erase` wipes the device.
 
 **The flasher cannot open the serial port on Linux.**
 Your user needs access to the port, for example

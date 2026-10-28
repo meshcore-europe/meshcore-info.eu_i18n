@@ -7,14 +7,27 @@ eyebrow: "868 MHz · up to 500 mW · licence-free"
 
 Repeaters carry the mesh. Companions, the radios you message from, do not
 pass messages on, so without
-repeaters you only reach the people in direct range. Every repeater you put
-up extends the mesh for everyone around it. This guide follows MeshCore
+repeaters you only reach the people in direct range. A repeater in the right
+place extends the mesh for everyone around it. This guide follows MeshCore
 firmware v1.18.0.
 
 Before you start, talk to your [local group](/community/). They know where
 coverage is missing, which [preset your area uses](/guides/settings/) and how to name repeaters. Check the
 [coverage maps](/map/) for repeaters near you, and say hello on the public
 or local [channels](/guides/channels/).
+
+## Do you need one? {#need}
+
+A repeater sends on every flood message it hears, and all repeaters in
+range share the same airtime. Where the mesh already reaches you, one more
+repeater adds traffic, not coverage. A companion placed high, at an attic
+window or on a balcony, can be all you need.
+
+Put up a repeater where coverage is missing:
+
+- the [coverage maps](/map/) show no repeater near you, or only ones your
+  companion does not hear;
+- your local group says the area needs one.
 
 ## Choose a site {#site}
 
@@ -119,8 +132,43 @@ with the admin password. You read its status there and use the same commands
 over the radio. Some commands work over USB only, such as `set freq` and the
 factory reset `erase`.
 
+**Keep its identity.** Before an erase, type `get prv.key` over USB and store
+the private key it shows somewhere safe. After the erase, `set prv.key <key>`
+and a `reboot` give the repeater its old identity back, so nodes that know
+it find it under the same prefix.
+
 The full command list is in the
 [MeshCore CLI reference](https://github.com/meshcore-dev/MeshCore/blob/main/docs/cli_commands.md).
+
+## Update it over the air {#update}
+
+Once the repeater is up high, you update it from the ground. Log in from the
+MeshCore app with the admin password, open its command line and type
+`start ota`. What follows depends on the board; other boards reply `Error`,
+and you update those over USB.
+
+**nRF52 boards**, such as RAK, Heltec T114, Seeed XIAO and SenseCAP Solar:
+
+1. Download the **ZIP** of the new firmware for your board from the
+   [web flasher](https://flasher.meshcore.io).
+2. Type `start ota`. The repeater replies `OK` and shows up over Bluetooth
+   as `<board>_OTA`, for example `RAK4631_OTA`.
+3. Open the nRF Device Firmware Update app on your phone, pick the ZIP and
+   the repeater, and upload. It takes a few minutes.
+
+Install the [OTAFIX bootloader](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX)
+on an nRF52 board before it goes up. With the stock bootloader, a failed
+update can only be repaired over USB. With OTAFIX the board falls back to
+update mode, and you try again over Bluetooth.
+
+**ESP32 boards**, such as the Heltec V3 and V4:
+
+1. Download the **non-merged** `.bin` for your board from the web flasher:
+   the file without "merged" in its name.
+2. Type `start ota`. The repeater opens a WiFi network named `MeshCore-OTA`
+   and replies with the address of its upload page.
+3. Within WiFi range, connect your phone or laptop to that network, open the
+   address and upload the file.
 
 ## Legal limits {#legal}
 

@@ -56,7 +56,7 @@ TranslatePage = Callable[[str, Language], str]
 ATTEMPTS = 2
 # Above the translation block of a machine page: a reader who fixes one word
 # on GitHub should know the next seeding run replaces it unless status is human.
-NUDGE = "# Fixed the wording? Set status to human, or a change to the English there can replace your fix.\n"
+NUDGE = "# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.\n"
 
 
 def sections(body: str) -> list[str]:

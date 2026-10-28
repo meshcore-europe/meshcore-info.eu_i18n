@@ -3,7 +3,7 @@
     "language": "de",
     "name": "Deutsch",
     "managed_by": "community",
-    "updated": "2026-10-26"
+    "updated": "2026-10-28"
   },
   "site_tagline": {
     "value": "Nachrichten ohne Netz, in ganz Europa",
@@ -905,6 +905,12 @@
     "_seeded": "2026-10-23",
     "_source": "f7361695"
   },
+  "community_all": {
+    "value": "Alle",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "a52ace42"
+  },
   "community_missing_body": {
     "value": "Jeder kann eine lokale Gruppe hinzufügen. Eröffne ein Issue mit Name, Gebiet und Links, und ein Maintainer trägt sie in alle Sprachen auf einmal ein.",
     "_ai": true,
@@ -1073,6 +1079,12 @@
     "_seeded": "2026-10-26",
     "_source": "dc20b3d5"
   },
+  "project_cat_docs": {
+    "value": "Dokumentation",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "c205924d"
+  },
   "project_archived": {
     "value": "Archiviert",
     "_ai": true,
@@ -1162,6 +1174,24 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "8e2d0664"
+  },
+  "lang_nudge": {
+    "value": "Wir haben {language} aus deinen Browser-Einstellungen gewählt. Hier kannst du die Sprache ändern.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "e428ce71"
+  },
+  "lang_nudge_change": {
+    "value": "Andere Sprache",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "8cc15d99"
+  },
+  "lang_nudge_close": {
+    "value": "Schließen",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "7d9eb7ac"
   },
   "coverage_caption": {
     "value": "Übersetzungsstand pro Sprache",
@@ -2129,6 +2159,12 @@
     "_seeded": "2026-10-26",
     "_source": "2a7d4602"
   },
+  "community.de-ffnw.desc": {
+    "value": "Freifunk-Verein, der seit 2013 ein Community-WiFi-Mesh in der Region Weser-Ems betreibt und jetzt auch MeshCore-Repeater. Er trifft sich monatlich in Oldenburg.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "abb2138f"
+  },
   "community.de-meshcore-dresden.desc": {
     "value": "Gruppe, die ein MeshCore-Netzwerk in und um Dresden aufbaut, mit Auflistung ihrer Regionen und Kanäle.",
     "_ai": true,
@@ -2146,6 +2182,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "2eeeb6e6"
+  },
+  "community.de-hansemesh.desc": {
+    "value": "MeshCore-Netz für Hamburg und Norddeutschland, mit Anleitungen und Hardware-Tipps. Sein Chat ist die Gruppe MeshCore DE auf Telegram.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "c27d5586"
   },
   "community.ie-mayo-mesh.desc": {
     "value": "Nutzergruppe für Mesh-Funk im County Mayo.",
@@ -2386,6 +2428,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "ae215bf8"
+  },
+  "map.mapme-sh.desc": {
+    "value": "Abdeckungskarte aus Messfahrten mit Handys in ganz Europa, dargestellt als Sechsecke, gefärbt nach Signalstärke. Ein Spiel zeigt dir Lücken im Mesh.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "23bca522"
   },
   "project.meshcore-firmware.desc": {
     "value": "Die offizielle MeshCore-Firmware und Routing-Bibliothek für LoRa-Boards, mit den Rollen Companion, Repeater, Room-Server und Sensor.",
@@ -2734,6 +2782,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "60e39810"
+  },
+  "project.domca-docs.desc": {
+    "value": "Dokumentation auf Niederländisch und Englisch, von deinem ersten Knoten bis zur Funktionsweise von Protokoll, Firmware und Funk. Sie entsteht mit Hilfe von KI-Werkzeugen, prüfe Firmware-Details daher am MeshCore-Quellcode.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "9c976aea"
   },
   "guides_group_start": {
     "value": "Dein erster Knoten",

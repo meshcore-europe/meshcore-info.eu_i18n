@@ -3,7 +3,7 @@
     "language": "fi",
     "name": "Suomi",
     "managed_by": "community",
-    "updated": "2026-10-27"
+    "updated": "2026-10-28"
   },
   "site_tagline": {
     "value": "Viestintää ilman verkkoa kautta Euroopan",
@@ -905,6 +905,12 @@
     "_seeded": "2026-10-26",
     "_source": "f7361695"
   },
+  "community_all": {
+    "value": "Kaikki",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "a52ace42"
+  },
   "community_missing_body": {
     "value": "Kuka tahansa voi lisätä paikallisryhmän. Avaa issue, jossa on ryhmän nimi, alue ja linkit, ja ylläpitäjä lisää sen kaikille kielille kerralla.",
     "_ai": true,
@@ -1073,6 +1079,12 @@
     "_seeded": "2026-10-26",
     "_source": "dc20b3d5"
   },
+  "project_cat_docs": {
+    "value": "Dokumentaatio",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "c205924d"
+  },
   "project_archived": {
     "value": "Arkistoitu",
     "_ai": true,
@@ -1162,6 +1174,24 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "8e2d0664"
+  },
+  "lang_nudge": {
+    "value": "Valitsimme kielen {language} selaimesi asetusten perusteella. Voit vaihtaa kielen tästä.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "e428ce71"
+  },
+  "lang_nudge_change": {
+    "value": "Toinen kieli",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "8cc15d99"
+  },
+  "lang_nudge_close": {
+    "value": "Sulje",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "7d9eb7ac"
   },
   "coverage_caption": {
     "value": "Käännösten kattavuus kielittäin",
@@ -2129,6 +2159,12 @@
     "_seeded": "2026-10-26",
     "_source": "2a7d4602"
   },
+  "community.de-ffnw.desc": {
+    "value": "Freifunk-yhdistys, joka on ylläpitänyt yhteisön WiFi-meshiä Weser-Emsin alueella vuodesta 2013 ja ylläpitää nyt myös MeshCore-toistimia. Se kokoontuu kuukausittain Oldenburgissa.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "abb2138f"
+  },
   "community.de-meshcore-dresden.desc": {
     "value": "Ryhmä, joka rakentaa MeshCore-verkkoa Dresdenissä ja sen ympäristössä, alueet ja kanavat listattuina.",
     "_ai": true,
@@ -2146,6 +2182,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "2eeeb6e6"
+  },
+  "community.de-hansemesh.desc": {
+    "value": "MeshCore-verkko Hampurille ja Pohjois-Saksalle, mukana oppaita ja laitteistovinkkejä. Sen keskustelu käydään MeshCore DE -ryhmässä Telegramissa.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "c27d5586"
   },
   "community.ie-mayo-mesh.desc": {
     "value": "Mesh-radion käyttäjäryhmä Mayon kreivikunnalle.",
@@ -2386,6 +2428,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "ae215bf8"
+  },
+  "map.mapme-sh.desc": {
+    "value": "Kuuluvuuskartta, joka on koottu puhelimilla tehdyistä kartoitusajoista eri puolilla Eurooppaa ja näytetään signaalin voimakkuuden mukaan väritettyinä kuusikulmioina. Peli osoittaa meshin aukot.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "23bca522"
   },
   "project.meshcore-firmware.desc": {
     "value": "Virallinen MeshCore-laiteohjelmisto ja reitityskirjasto LoRa-korteille, companion-, toistin-, huonepalvelin- ja anturirooleilla.",
@@ -2734,6 +2782,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "60e39810"
+  },
+  "project.domca-docs.desc": {
+    "value": "Dokumentaatio hollanniksi ja englanniksi, ensimmäisestä solmustasi siihen, miten protokolla, laiteohjelmisto ja radio toimivat. Se on kirjoitettu tekoälytyökalujen avulla, joten tarkista laiteohjelmiston yksityiskohdat MeshCoren lähdekoodista.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "9c976aea"
   },
   "guides_group_start": {
     "value": "Ensimmäinen solmusi",

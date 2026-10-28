@@ -3,7 +3,7 @@
     "language": "nl",
     "name": "Nederlands",
     "managed_by": "community",
-    "updated": "2026-10-26"
+    "updated": "2026-10-28"
   },
   "site_tagline": {
     "value": "Berichten zonder netwerk, door heel Europa",
@@ -905,6 +905,12 @@
     "_seeded": "2026-10-26",
     "_source": "f7361695"
   },
+  "community_all": {
+    "value": "Alles",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "a52ace42"
+  },
   "community_missing_body": {
     "value": "Iedereen kan een lokale groep toevoegen. Open een issue met naam, gebied en links, en een beheerder voegt de groep in één keer toe aan alle talen.",
     "_ai": true,
@@ -1073,6 +1079,12 @@
     "_seeded": "2026-10-26",
     "_source": "dc20b3d5"
   },
+  "project_cat_docs": {
+    "value": "Documentatie",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "c205924d"
+  },
   "project_archived": {
     "value": "Gearchiveerd",
     "_ai": true,
@@ -1162,6 +1174,24 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "8e2d0664"
+  },
+  "lang_nudge": {
+    "value": "We hebben {language} gekozen op basis van je browserinstellingen. Je kunt de taal hier wijzigen.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "e428ce71"
+  },
+  "lang_nudge_change": {
+    "value": "Andere taal",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "8cc15d99"
+  },
+  "lang_nudge_close": {
+    "value": "Sluiten",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "7d9eb7ac"
   },
   "coverage_caption": {
     "value": "Vertaaldekking per taal",
@@ -2129,6 +2159,12 @@
     "_seeded": "2026-10-26",
     "_source": "2a7d4602"
   },
+  "community.de-ffnw.desc": {
+    "value": "Freifunk-vereniging die sinds 2013 een community-WiFi-mesh in de regio Weser-Ems beheert en nu ook MeshCore-repeaters beheert. Ze komt maandelijks bijeen in Oldenburg.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "abb2138f"
+  },
   "community.de-meshcore-dresden.desc": {
     "value": "Groep die een MeshCore-netwerk in en rond Dresden bouwt, met een lijst van regio's en kanalen.",
     "_ai": true,
@@ -2146,6 +2182,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "2eeeb6e6"
+  },
+  "community.de-hansemesh.desc": {
+    "value": "MeshCore-netwerk voor Hamburg en Noord-Duitsland, met handleidingen en hardware-advies. De chat is de groep MeshCore DE op Telegram.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "c27d5586"
   },
   "community.ie-mayo-mesh.desc": {
     "value": "Gebruikersgroep voor meshradio in County Mayo.",
@@ -2386,6 +2428,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "ae215bf8"
+  },
+  "map.mapme-sh.desc": {
+    "value": "Dekkingskaart op basis van meetritten met telefoons door heel Europa, getoond als zeshoeken gekleurd naar signaalsterkte. Een spel wijst gaten in de mesh aan.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "23bca522"
   },
   "project.meshcore-firmware.desc": {
     "value": "De officiële MeshCore-firmware en routeringsbibliotheek voor LoRa-boards, met de rollen companion, repeater, room server en sensor.",
@@ -2734,6 +2782,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "60e39810"
+  },
+  "project.domca-docs.desc": {
+    "value": "Documentatie in het Nederlands en Engels, van je eerste node tot hoe het protocol, de firmware en de radio werken. Ze is geschreven met hulp van AI-tools, controleer firmware-details dus tegen de MeshCore-broncode.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "9c976aea"
   },
   "guides_group_start": {
     "value": "Je eerste node",
