@@ -1,7 +1,7 @@
 ---
 title: "Projects"
 layout: projects
-lead: "What one community builds, the others can use: apps, tools, bridges, libraries, firmware and hardware."
+lead: "What one community builds, the others can use: apps, tools, bridges, libraries, firmware, hardware and documentation."
 description: "MeshCore community projects: apps, analyzers, MQTT and Home Assistant bridges, libraries, firmware forks and hardware designs."
 ---
 

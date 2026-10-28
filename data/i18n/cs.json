@@ -3,7 +3,7 @@
     "language": "cs",
     "name": "Čeština",
     "managed_by": "community",
-    "updated": "2026-10-27"
+    "updated": "2026-10-28"
   },
   "site_tagline": {
     "value": "Zprávy bez sítě napříč Evropou",
@@ -905,6 +905,12 @@
     "_seeded": "2026-10-26",
     "_source": "f7361695"
   },
+  "community_all": {
+    "value": "Vše",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "a52ace42"
+  },
   "community_missing_body": {
     "value": "Místní skupinu může přidat kdokoli. Otevři issue s jejím názvem, oblastí a odkazy a správce ji přidá do všech jazyků najednou.",
     "_ai": true,
@@ -1073,6 +1079,12 @@
     "_seeded": "2026-10-26",
     "_source": "dc20b3d5"
   },
+  "project_cat_docs": {
+    "value": "Dokumentace",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "c205924d"
+  },
   "project_archived": {
     "value": "Archivováno",
     "_ai": true,
@@ -1162,6 +1174,24 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "8e2d0664"
+  },
+  "lang_nudge": {
+    "value": "Jazyk {language} jsme vybrali podle nastavení tvého prohlížeče. Tady ho můžeš změnit.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "e428ce71"
+  },
+  "lang_nudge_change": {
+    "value": "Jiný jazyk",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "8cc15d99"
+  },
+  "lang_nudge_close": {
+    "value": "Zavřít",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "7d9eb7ac"
   },
   "coverage_caption": {
     "value": "Pokrytí překladu podle jazyka",
@@ -2129,6 +2159,12 @@
     "_seeded": "2026-10-26",
     "_source": "2a7d4602"
   },
+  "community.de-ffnw.desc": {
+    "value": "Spolek Freifunk, který od roku 2013 provozuje komunitní WiFi mesh v regionu Weser-Ems a nyní provozuje i MeshCore repeatery. Schází se každý měsíc v Oldenburgu.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "abb2138f"
+  },
   "community.de-meshcore-dresden.desc": {
     "value": "Skupina budující síť MeshCore v Drážďanech a okolí, se seznamem svých regionů a kanálů.",
     "_ai": true,
@@ -2146,6 +2182,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "2eeeb6e6"
+  },
+  "community.de-hansemesh.desc": {
+    "value": "Síť MeshCore pro Hamburk a severní Německo s návody a radami k hardwaru. Jejím chatem je skupina MeshCore DE na Telegramu.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "c27d5586"
   },
   "community.ie-mayo-mesh.desc": {
     "value": "Skupina uživatelů mesh rádia pro hrabství Mayo.",
@@ -2386,6 +2428,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "ae215bf8"
+  },
+  "map.mapme-sh.desc": {
+    "value": "Mapa pokrytí sestavená z měřicích jízd s telefony po celé Evropě, zobrazená jako šestiúhelníky obarvené podle síly signálu. Hra ukazuje na mezery v meshi.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "23bca522"
   },
   "project.meshcore-firmware.desc": {
     "value": "Oficiální firmware MeshCore a směrovací knihovna pro desky LoRa, s rolemi companion, repeater, room server a senzor.",
@@ -2734,6 +2782,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "60e39810"
+  },
+  "project.domca-docs.desc": {
+    "value": "Dokumentace v nizozemštině a angličtině, od tvého prvního uzlu až po fungování protokolu, firmwaru a rádia. Vzniká s pomocí nástrojů AI, takže si detaily o firmwaru ověř ve zdrojovém kódu MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-10-28",
+    "_source": "9c976aea"
   },
   "guides_group_start": {
     "value": "Tvůj první uzel",

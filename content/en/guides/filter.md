@@ -132,12 +132,17 @@ renames gets past it.
 ### Block one repeater upstream {#path}
 
 When the junk comes in through one repeater, block its prefix: the first
-part of its ID, in hexadecimal (hex).
+part of its ID, in hexadecimal (hex). This needs the 1.18 dev build; 1.17.1
+has no path filter.
 
 ```text
 filter path add a1b2
+filter path list
+filter stats path
 ```
 
+`filter path list` shows the prefixes you block, `filter stats path` how
+much each one dropped. `filter path remove a1b2` lets it through again.
 A short prefix such as `a1` also blocks every other repeater whose ID starts
 with `a1`. Use the longest prefix you can. Up to 8 prefixes.
 
