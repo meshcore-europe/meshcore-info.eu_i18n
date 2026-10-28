@@ -78,9 +78,9 @@ in its language.
 
 ## How text flows
 
-1. English changes on the site; a maintainer runs
-   `python tools/sync_i18n.py export <this repo>` in the site repository and
-   commits here.
+1. English changes on the site. On every push to its main, the site's
+   workflow `export-i18n` copies the English source and the tools here
+   (`tools/sync_i18n.py export`) and commits them.
 2. Translators and seeders update `data/i18n/` and `content/<lang>/` here.
 3. Within the hour after a merge here, the site opens a pull request with the
    import (`i18n/import`). Its CI checks the result, and a maintainer merges it
