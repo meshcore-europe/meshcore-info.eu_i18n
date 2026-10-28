@@ -30,8 +30,11 @@ items you ticked, so they are still ticked when you come back. They stay on
 your device until you untick them.
 
 The front page reads your browser's preferred languages and opens the
-matching language version of the site. That check runs in your browser;
-nothing is stored or sent.
+matching language version of the site. That check runs in your browser and
+sends nothing. Once it has picked a language, or you pick one in the
+language menu, your browser keeps that language on your device. The front
+page then opens in it next time, without the note about the language.
+Clear your browser's site data to remove it.
 
 ## What the site asks other servers {#requests}
 
