@@ -2,84 +2,81 @@
 title: Meedoen
 lead: Vrijwilligers schrijven, controleren en vertalen deze gids. Zo help je mee, met of zonder GitHub-account.
 description: Voeg je community, een apparaat of een project toe, controleer een vertaling of verbeter een gids op meshcore-info.eu.
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
   source_hash: 'f3ed6e9b'
-  seeded: '2026-10-26'
+  seeded: '2026-10-31'
+  fields: {title: '97b0c61b', lead: 'e9b40d4d', description: '3bd97cd2'}
+  sections: ['6e9d4b61', 'aca796d7', 'd4848d5b', '247b2601', '8a60e0d4', '645c82d3', 'c755b654']
+  blocks: ['2f9dd6e8', '44167907', 'b020e1a4', 'f2c726cd', '2e9d1fdd', 'b2a902ba', 'b15ce10b', '2be86888', '3db6cb63', '2e3c2fc0', '693a5d9d', '73e33897', '96d8689d', 'c67fd14a', 'f92f7e49', '12ddca6c', 'e947e2a9', '526df4bb', 'e0d3559e']
 ---
 
 Alles op deze site staat in een openbare
 [GitHub-repository](https://github.com/meshcore-europe/meshcore-info.eu). Kleine wijzigingen
-dien je in via een formulier op GitHub (een issue). Grotere wijzigingen gaan als pull
-request: een voorgestelde wijziging in de bestanden die een beheerder beoordeelt. Een
-beheerder controleert elke wijziging voordat die online gaat.
+gaan via een formulier op GitHub (een issue). Grotere wijzigingen dien je in als pull
+request: een voorstel voor een wijziging in de bestanden, dat een beheerder beoordeelt. Een
+beheerder controleert elke wijziging voordat die online komt.
 
 Geen GitHub-account? Laat het ons weten op [Discord](https://discord.meshcore-info.eu/): een
-ontbrekende groep, een fout feit of een vertaling die vreemd leest. Een vrijwilliger
+ontbrekende groep, een onjuist feit of een vertaling die raar klinkt. Een vrijwilliger
 pakt het daarna op.
 
 ## Voeg je community toe {#community}
 
-Beheer je een lokale MeshCore-groep waar iedereen bij kan? Vul het
+Heb je een lokale MeshCore-groep waar iedereen lid van kan worden? Vul dan het
 [communityformulier](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=add-community.yml)
-in met de naam, het gebied en de openbare links. Na toevoeging verschijnt je groep
-op de pagina [Lokale groepen](/community/) in elke taal.
+in met de naam, het gebied en de openbare links. Zodra je groep is toegevoegd, staat die
+in elke taal op de pagina [Lokale groepen](/community/).
 
 ## Stel een apparaat of een project voor {#device-project}
 
-De [apparatenpagina](/devices/) toont specificaties uit de documentatie van fabrikanten
-en linkt nooit naar winkels. Stel hardware voor met het
+Op de [apparatenpagina](/devices/) staan specificaties uit de documentatie van fabrikanten. Die pagina linkt nooit naar winkels. Stel hardware voor met het
 [apparaatformulier](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=add-device.yml).
-Heb je een app, tool, bridge of hardwareontwerp voor MeshCore gemaakt met openbare broncode?
-Voeg het toe met het
+Heb je voor MeshCore een app, tool, bridge of hardwareontwerp met openbare broncode gemaakt? Voeg het toe met het
 [projectformulier](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=add-project.yml).
 
 ## Controleer een vertaling {#translate}
 
-Pagina's in andere talen beginnen als machinevertaling en vermelden dat bovenaan.
-Vertalingen staan in een eigen repository,
-[meshcore-info.eu_i18n](https://github.com/meshcore-europe/meshcore-info.eu_i18n), dus
-je hoeft nooit aan de code van de site te komen. Spreek je een van die talen
-goed, dan kun je de vertaling verbeteren:
+Pagina's in andere talen beginnen als machinevertaling en dat staat er bovenaan bij. De vertalingen staan in een eigen repository,
+[meshcore-info.eu_i18n](https://github.com/meshcore-europe/meshcore-info.eu_i18n). Je hoeft de code van de site dus nooit aan te raken. Spreek je een van de talen goed? Dan kun je de vertaling verbeteren:
 
-1. Open de pagina en volg "Help deze vertaling te verbeteren". Daarmee open je het
-   bestand op GitHub, waar je het in je browser kunt bewerken.
-2. Verbeter de formulering. Laat links, code, getallen en namen zoals MeshCore
-   precies zoals ze zijn.
-3. Wijzig in het blok `translation` bovenaan `status: ai` in
+1. Open de pagina en klik op "Help improve this translation". Je komt dan bij
+   het bestand op GitHub, waar je het in je browser kunt bewerken.
+2. Verbeter de tekst. Laat links, code, getallen en namen als MeshCore
+   precies staan zoals ze zijn.
+3. Verander in het `translation`-blok bovenaan `status: ai` in
    `status: human` en stel de wijziging voor.
 
-Een fout woord gevonden, maar geen tijd om het te verbeteren? Meld het met het
+Zie je een verkeerd woord maar heb je geen tijd om het te verbeteren? Meld het met het
 [vertaalformulier](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=translation-bug.yml).
 
 ## Verbeter een gids {#guides}
 
-Gidsen schrijven we eerst in het Engels en vertalen we daarna. Correcties
+De gidsen schrijven we eerst in het Engels en vertalen we daarna. Correcties
 en nieuwe onderwerpen zijn welkom via het
-[inhoudformulier](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=new-content.yml)
-of een pull request. Feiten hebben een bron nodig: de MeshCore-firmware en de
-documentatie ervan, een radiotoezichthouder of een fabrikant. Schrijf in je eigen woorden. Een
-kort citaat met bronvermelding mag.
+[inhoudsformulier](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=new-content.yml)
+of een pull request. Bij feiten hoort een bron: de MeshCore-firmware en de documentatie daarvan, een radiotoezichthouder of een fabrikant. Schrijf in je eigen woorden. Een
+kort citaat met bron mag.
 
-De [bijdragegids](https://github.com/meshcore-europe/meshcore-info.eu/blob/main/CONTRIBUTING.md)
-legt uit hoe je op je eigen computer aan de site werkt.
+In de [handleiding voor bijdragers](https://github.com/meshcore-europe/meshcore-info.eu/blob/main/CONTRIBUTING.md)
+lees je hoe je op je eigen computer aan de site werkt.
 
-## Vertaalstatus {#coverage}
+## Status van de vertalingen {#coverage}
 
-"Gecontroleerd" betekent nagekeken
-door een persoon; "Machine" betekent machinaal vertaald en nog niet nagekeken;
-"Verouderd" betekent dat de Engelse tekst is gewijzigd nadat de vertaling is gemaakt;
-"Ontbreekt" betekent dat de pagina nog geen vertaling heeft.
+"Reviewed" betekent dat een persoon de pagina heeft gecontroleerd. "Machine" betekent machinaal vertaald en nog niet gecontroleerd.
+"Outdated" betekent dat de Engelse tekst is veranderd nadat de vertaling is gemaakt.
+"Missing" betekent dat de pagina nog geen vertaling heeft.
 
 {{< coverage >}}
 
-## Credits {#credits}
+## Met dank aan {#credits}
 
 De site is gebouwd met [Astro](https://astro.build/). Hij gebruikt de lettertypen
-IBM Plex Sans en IBM Plex Mono, onder de SIL Open Font License. Vertalingen
+IBM Plex Sans en IBM Plex Mono, onder de SIL Open Font License. De vertalingen
 volgen de
-conventies van [kiekr-i18n](https://github.com/marcelverdult/kiekr-i18n) en
-delen de MeshCore-woordenlijsten daarvan. MeshCore zelf wordt ontwikkeld op
+afspraken van [kiekr-i18n](https://github.com/marcelverdult/kiekr-i18n) en
+gebruiken dezelfde MeshCore-woordenlijsten. MeshCore zelf wordt ontwikkeld op
 [meshcore-dev/MeshCore](https://github.com/meshcore-dev/MeshCore).
 
 Tekst en vertalingen vallen onder de licentie CC BY 4.0, code onder de MIT-licentie.

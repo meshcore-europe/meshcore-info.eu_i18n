@@ -1,33 +1,33 @@
 ---
 title: Het netwerk
 layout: network
-lead: Bekijk de mesh in heel Europa en help hem meer te zien. Observers horen de mesh en melden wat ze horen, en elke nieuwe observer laat een stukje meer zien.
-description: 'Hoe de MeshCore-mesh in Europa zichtbaar wordt: observers melden wat ze horen aan de MeshCore Analyzer. Live cijfers, en hoe je je eigen observer toevoegt.'
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+lead: Bekijk de mesh in heel Europa, en help hem meer te zien. Observers luisteren naar de mesh en melden wat ze horen. Elke nieuwe observer laat weer iets meer zien.
+description: 'Zo wordt de MeshCore-mesh in Europa zichtbaar: observers melden wat ze horen aan de MeshCore Analyzer. Live cijfers, en hoe je zelf een observer toevoegt.'
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '05fa5ea3'
-  seeded: '2026-10-26'
+  source_hash: '90bef266'
+  seeded: '2026-10-31'
   fields: {title: '1b32d67c', lead: '382c041f', description: '0dcdc2ac'}
-  sections: ['05fa5ea3']
+  sections: ['90bef266']
+  blocks: ['535ce3c7', 'dee00f8d', '23271f25']
 ---
 
-De mesh zelf houdt niets bij: een bericht gaat van node naar node en is daarna
-weg. Wat je op [dekkingskaarten](/map/) en in statistieken ziet, komt van
-observers. Een observer is een node die daarnaast via MQTT meldt wat hij hoort,
-over Wi-Fi of internet. Die melding gaat maar één kant op: er komt niets terug
-de mesh in. Een repeater (een node die berichten doorgeeft) met observer-firmware
-blijft gewoon doorgeven zoals eerst.
+De mesh houdt zelf niets bij: een bericht gaat van node naar node en is
+daarna weg. Wat je op [dekkingskaarten](/map/) en in statistieken ziet, komt van
+observers. Een observer is een node die ook meldt wat hij hoort. Dat doet hij via MQTT,
+over Wi-Fi of het internet. De melding gaat maar één kant op: er komt niets terug
+op de mesh. Een repeater (een node die berichten doorgeeft) met observer-firmware
+blijft berichten doorgeven zoals voorheen.
 
-Observers in heel Europa melden aan de [MeshCore Analyzer](https://meshcore-analyzer.eu/)
-op mqtt.meshcore-analyzer.eu. De Analyzer leest ook andere brokers, dus een
-observer daar telt ook mee. Uit die meldingen bouwt hij de kaarten, de
+Observers in heel Europa sturen hun meldingen naar de [MeshCore Analyzer](https://meshcore-analyzer.eu/)
+op mqtt.meshcore-analyzer.eu. De Analyzer leest ook andere brokers uit. Een
+observer die daar meldt, telt dus ook mee. Uit die meldingen maakt de Analyzer de kaarten, de
 statistieken en de [kanaallijst](/guides/channels/) op deze site.
 
 {{< callout type="tip" >}}
-De mesh heeft dit allemaal niet nodig. De meldingen van observers, de Analyzer, deze kaarten
-en tools lopen over internet. Bij een stroomstoring of als internet uitvalt, stoppen ze. De
-mesh blijft berichten doorgeven via de radio, over elke repeater die nog stroom
-heeft, zoals die op zonne-energie. De tools zijn er om de mesh te bekijken en te
-plannen, niet om hem te laten draaien.
+De mesh heeft dit allemaal niet nodig. De tools helpen je alleen om de mesh te zien en te plannen. De meldingen van de observers, de Analyzer, deze kaarten
+en tools lopen via het internet. Bij een stroomstoring of als het internet uitvalt, stoppen ze. De
+mesh blijft berichten over de radio doorgeven, via elke repeater die nog
+stroom heeft, zoals de repeaters op zonne-energie.
 {{< /callout >}}
