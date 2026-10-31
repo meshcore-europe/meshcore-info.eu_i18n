@@ -1,13 +1,14 @@
 ---
 title: Laiteohjelmisto
 layout: firmware
-lead: Asenna MeshCore laudallesi, anna sille komentoja ja katso, mitä kussakin julkaisussa muuttui.
-description: 'MeshCore-laiteohjelmiston työkalut: flashaa lautasi selaimesta, käytä sarjakonsolia USB:n yli ja lue jokaisen julkaisun muutosloki.'
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+lead: Asenna MeshCore laitteellesi, anna sille komentoja ja katso, mitä kussakin versiossa muuttui.
+description: 'MeshCore-laiteohjelmiston työkalut: asenna laiteohjelmisto suoraan selaimesta, käytä sarjakonsolia USB:n kautta ja lue jokaisen version muutosloki.'
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
   source_hash: 'e3b0c442'
-  seeded: '2026-10-26'
+  seeded: '2026-10-31'
   fields: {title: 'c2a314c3', lead: 'de54af75', description: '63d00a41'}
   sections: []
+  blocks: []
 ---

@@ -1,19 +1,30 @@
 ---
 title: Dækningskort
 layout: map
-lead: Se hvor meshet når ud, hvor noderne står, og hvordan beskeder rejser. Fællesskaber i hele Europa driver disse kort.
-description: Live MeshCore-kort, dækningskort og pakkeanalysatorer for Europa og de enkelte lande.
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+lead: Se, hvor mesh'et når ud, hvor nodes står, og hvordan beskeder bevæger sig. Fællesskaber i hele Europa driver disse kort.
+description: Live-kort over MeshCore, dækningskort og pakkeanalysatorer for Europa og de enkelte lande.
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '550066cc'
-  seeded: '2026-10-26'
+  source_hash: '351071aa'
+  seeded: '2026-10-31'
   fields: {title: '4b9f20a0', lead: 'fedb89bb', description: 'b5719f82'}
-  sections: ['550066cc']
+  sections: ['351071aa']
+  blocks: ['dd5f039e', '9d4a2ad8', '70c417f2', '9fef7e16']
 ---
 
-En node vises på disse kort, når ejeren offentliggør den, eller når en *observer* hører den: en node, der videresender det, den hører, over MQTT. Derfor er intet kort komplet. Analysatorer viser den trafik, deres observere modtager: pakker, ruter og aktivitet på kanaler. Direkte beskeder forbliver krypterede, så ingen analysator viser, hvad de indeholder.
+En node kommer på disse kort, når ejeren offentliggør den, eller når en
+*observer* hører den: en node, der sender det, den hører, videre over MQTT. Derfor
+er intet kort komplet. Analysatorer viser den trafik, som deres observers modtager:
+pakker, ruter og aktivitet på kanaler. Direkte beskeder forbliver krypterede, så
+ingen analysator viser, hvad der står i dem.
 
-Disse kort kræver internet. Det gør meshet ikke. [Hvorfor](/network/)
+En node står på kortet der, hvor ejeren har placeret den. Placeringen kan være
+forkert eller forældet. En flood-besked bevæger sig ad flere stier på én gang. En
+rute på et kort er stien for den kopi, der kom først frem. De andre bliver ikke
+registreret.
 
-Driver du en repeater, en node der sender beskeder videre? Angiv dens position med `set lat` og `set lon`, så kan kortene placere den. [Repeater-guiden](/repeater-guide/#config) viser hvordan.
+Kortene kræver internet. Det gør mesh'et ikke. [Hvorfor](/network/)
+
+Driver du en repeater, altså en node, der sender beskeder videre? Angiv dens position med `set lat` og `set lon`, så kan kortene
+placere den. [Guiden til repeatere](/repeater-guide/#config) viser hvordan.

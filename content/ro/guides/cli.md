@@ -1,21 +1,22 @@
 ---
 title: Comenzi CLI
 layout: cli
-lead: Fiecare comandă a repetorului, room server-ului, senzorului sau companion-ului tău, grupată după ce vrei să faci. Citește ce face și valoarea cu care pornește, completează valoarea ta și copiaz-o.
-description: 'Fiecare comandă din firmware-ul MeshCore 1.18.0 pentru repetoare, room servere, senzori și companioni, grupată pe sarcini: ce face, valoarea cu care pornește firmware-ul și ce noduri o au.'
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+lead: Toate comenzile pentru repetorul, room serverul, senzorul sau companionul tău, grupate după ce vrei să faci. Citește ce face fiecare și valoarea de la care pornește, completează-ți propria valoare și copiaz-o.
+description: 'Toate comenzile din firmware-ul MeshCore 1.18.0 pentru repetoare, room servere, senzori și companioane, grupate după sarcină: ce face fiecare, valoarea de la care pornește firmware-ul și ce noduri o au.'
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
   source_hash: '15bdb6eb'
-  seeded: '2026-10-26'
+  seeded: '2026-10-31'
   fields: {title: 'a13cc6cb', lead: 'd051d3b4', description: '9a2dae75'}
   sections: ['15bdb6eb']
+  blocks: ['8253bb3c', '66c83d82', '4f1b7c73', 'f28cf8b4']
 ---
 
-Aceste comenzi urmează firmware-ul MeshCore 1.18.0, citite din codul sursă al firmware-ului. O comandă adăugată într-o versiune recentă spune ce versiune are nevoie. Un repetor transmite mesajele mai departe, un room server stochează postările unui grup, un senzor raportează măsurători. Room serverele, senzorii și companionii au multe comenzi în comun. Fiecare comandă spune ce noduri o au. „Ce nod?" arată doar comenzile nodului tău.
+Comenzile de aici urmează firmware-ul MeshCore 1.18.0 și sunt luate din codul sursă al firmware-ului. La o comandă adăugată într-o versiune recentă scrie de ce versiune ai nevoie. Un repetor transmite mesajele mai departe. Un room server păstrează postările pentru un grup. Un senzor raportează valorile măsurate. Room serverele, senzorii și companionii au multe comenzi în comun. La fiecare comandă scrie ce noduri o au. Cu „Ce nod?” vezi doar comenzile nodului tău.
 
-Pe un repetor, room server sau senzor, le tastezi prin USB de pe calculatorul tău, de exemplu în [consola serială](/firmware/console/) de pe acest site. Aplicația MeshCore le trimite prin mesh. [Ghidul pentru repetoare](/repeater-guide/#config) le arată pe amândouă.
+Pe un repetor, room server sau senzor, tastezi comenzile prin USB de pe computer, de exemplu în [consola serială](/firmware/console/) de pe acest site. Aplicația MeshCore le trimite prin mesh. În [ghidul pentru repetoare](/repeater-guide/#config) găsești ambele variante.
 
-De la 1.18, și un companion (nodul de pe care trimiți mesaje, asociat cu telefonul sau laptopul tău, sau cu propriul ecran) are o linie de comandă. Deschide Command Line în setările aplicației MeshCore, versiunea 1.50 sau mai nouă. Un contact cu permisiunea Remote CLI poate trimite companion-ului tău aceleași comenzi prin mesh. Asta include comenzile pentru WiFi și PIN.
+Din versiunea 1.18, și un companion (nodul de pe care trimiți mesaje, asociat cu telefonul sau laptopul tău ori cu propriul ecran) are linie de comandă. Deschide Command Line în setările aplicației MeshCore, versiunea 1.50 sau mai nouă. Un contact cu permisiunea Remote CLI îi poate trimite companionului tău aceleași comenzi prin mesh. Aici intră și comenzile pentru WiFi și PIN.
 
-Valoarea cu care pornește o comandă este cea a repetorului. Un room server, senzor sau companion poate porni de la altă valoare. O comandă pe care o are doar un companion arată valoarea proprie.
+Valoarea de pornire a unei comenzi este cea a repetorului. Un room server, un senzor sau un companion poate porni de la altă valoare. O comandă pe care o are doar companionul își arată propria valoare.

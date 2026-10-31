@@ -1,47 +1,70 @@
 ---
 title: Jedna strona dla siatki w Europie
 date: '2026-10-27'
-description: meshcore-info.eu zbiera ustawienia, poradniki i narzędzia, którymi dzielą się lokalne siatki, w 16 językach. Skopiuj stąd komunikat prasowy i materiały prasowe.
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+description: meshcore-info.eu zbiera ustawienia, poradniki i narzędzia, z których korzystają lokalne siatki, w 16 językach. Stąd skopiujesz informację prasową i pakiet prasowy.
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '035fdb30'
-  seeded: '2026-10-26'
+  source_hash: '67a849bd'
+  seeded: '2026-10-31'
   fields: {title: 'c8779ff6', description: '9aa475b2'}
-  sections: ['ed53d595', '2b35fd01', '7a4d32fc', '827595d5']
+  sections: ['ed53d595', 'b09a80c5', '7a4d32fc', '5706973d']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', 'c478e66e', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '13b0211b', '7f458074']
 ---
 
-meshcore-info.eu objaśnia MeshCore dla Europy: ustawienia, poradniki i narzędzia, którymi dzielą się lokalne siatki. Poniższy komunikat prasowy możesz swobodnie kopiować.
+meshcore-info.eu wyjaśnia MeshCore dla Europy: ustawienia, poradniki i
+narzędzia, z których korzystają lokalne siatki. Poniższą informację prasową możesz swobodnie kopiować.
 
-## Komunikat prasowy {#press-release}
+## Informacja prasowa {#press-release}
 
-Skopiuj ten tekst do swojego serwisu informacyjnego, newslettera lub czatu grupowego. Użyj go w całości albo skróć. Jako źródło podaj meshcore-info.eu, małymi literami, z końcówką .eu.
+Skopiuj ten tekst do swojego serwisu informacyjnego, newslettera lub czatu grupowego. Użyj go
+bez zmian albo go skróć. Jako źródło podaj meshcore-info.eu, małymi literami, z .eu.
 
 **meshcore-info.eu zbiera w jednym miejscu ustawienia, poradniki i narzędzia MeshCore dla Europy.**
 
-**Kto i co.** MeshCore to rozwijający się sposób wysyłania wiadomości poza siecią. Przesyła krótkie teksty drogą radiową, od węzła do węzła, bez internetu i bez abonamentu. Przekaźniki, czyli małe radia LoRa, przekazują każdą wiadomość dalej. Siatka działa nawet podczas przerwy w dostawie prądu lub awarii internetu. Społeczność może dalej wymieniać wiadomości, gdy zwykłe sieci zawiodą, o ile przekaźniki mają zasilanie. System nie przenosi głosu ani zdjęć i nie zastępuje służb ratunkowych. 22 października 2026 serwis meshcore-analyzer.eu usłyszał w ciągu 7 dni 30240 przekaźników w Europie.
+**Kto i co.** MeshCore to sposób na wysyłanie wiadomości poza siecią. Przesyła
+krótkie wiadomości tekstowe drogą radiową, od węzła do węzła, bez internetu i abonamentu.
+Przekaźniki, czyli małe radia LoRa, przekazują każdą wiadomość dalej. Siatka
+działa podczas przerwy w dostawie prądu lub awarii internetu, dopóki
+przekaźniki mają zasilanie. Nie przenosi głosu ani zdjęć i nie zastępuje
+służb ratunkowych. 22 października 2026 r. meshcore-analyzer.eu w ciągu 7 dni
+usłyszał w Europie 30 240 przekaźników.
 
-Te przekaźniki prowadzą lokalne grupy. Do tej pory ich ustawienia, poradniki i narzędzia były rozproszone po krajach lub społecznościach. meshcore-info.eu zbiera je razem dla Europy, w 16 językach. Piszą go wolontariusze, bez reklam, linków do sklepów i śledzenia.
+Lokalne grupy prowadzą te przekaźniki. Do tej pory ich ustawienia,
+poradniki i narzędzia były rozproszone po krajach i społecznościach. meshcore-info.eu
+zbiera je w jednym miejscu dla Europy, w 16 językach. Stronę piszą wolontariusze, bez reklam,
+linków do sklepów i śledzenia.
 
 **Jak to działa.**
 
-- Otwórz meshcore-info.eu w swoim języku: strona jest dostępna w 16 językach.
-- Znajdź poradniki o [sprzęcie](/devices/), rolach i [ustawieniach](/guides/) oraz o tym, [jak działa MeshCore](/about/).
-- Znajdź [lokalną grupę](/community/) w swojej okolicy albo dodaj własną.
-- Dodaj ustawienia używane w twoim regionie do [Zalecanych ustawień](/guides/settings/).
-- Poprawiaj wszystko na stronie, jak w wiki. Wolontariusz sprawdza każdą zmianę, zanim pojawi się na stronie. Strona [Współtwórz](/contribute/) pokazuje, jak to zrobić, z kontem GitHub lub bez niego.
+- Otwórz meshcore-info.eu w swoim języku: strona ma 16 wersji językowych.
+- Znajdziesz tu poradniki o [sprzęcie](/devices/), rolach i [ustawieniach](/guides/) oraz o
+  [tym, jak działa MeshCore](/about/).
+- Znajdź [lokalną grupę](/community/) w pobliżu albo dodaj swoją.
+- Dodaj ustawienia używane w twojej okolicy do [Zalecanych ustawień](/guides/settings/).
+- Poprawiaj wszystko na stronie, jak w wiki. Wolontariusz sprawdza każdą zmianę,
+  zanim pojawi się na stronie. Na stronie [Współpraca](/contribute/) dowiesz się, jak to zrobić, z kontem GitHub lub bez niego.
 
-**Dlaczego to ważne.** Społeczności w całej Europie równolegle rozwijają sieci MeshCore. Przy właściwych ustawieniach ich siatki tworzą jedną siatkę. Dlatego powstała jedna strona, od której można zacząć.
+**Dlaczego to ważne.** Społeczności w całej Europie prowadzą sieci MeshCore obok siebie. Przy
+właściwych ustawieniach ich siatki tworzą jedną siatkę.
 
 ## Logo, obrazy i filmy {#press-kit}
 
-W [materiałach promocyjnych i prasowych](/press-kit/) znajdziesz logo, obrazy i filmy z premiery. Używaj ich w wiadomościach i wpisach, podając meshcore-info.eu jako źródło.
+W [pakiecie promocyjnym i prasowym](/press-kit/) znajdziesz logo, obrazy i filmy
+premierowe. Używaj ich w artykułach i postach, a jako źródło podaj meshcore-info.eu.
 
 ## Obietnice {#promises}
 
-- **Bez reklam, bez linków do sklepów, bez linków afiliacyjnych.** Strona [Urządzenia](/devices/) podaje specyfikacje producentów i przedział cenowy. Nigdy nie linkuje do sklepu.
-- **Bez śledzenia.** Żadnej analityki, żadnych trackerów. Jedyne ciasteczko zapamiętuje wybrany przez ciebie motyw. Jedyny inny serwer, z którym strona się łączy, to meshcore-analyzer.eu, prowadzony przez tych samych wolontariuszy. Szczegóły znajdziesz na [stronie o prywatności](/privacy/).
-- **Źródła faktów.** To, co piszemy o MeshCore, pochodzi z jego firmware i dokumentacji. Przepisy radiowe pochodzą od regulatorów.
-- **Twój język.** Strona jest dostępna w 16 językach. Strony powstają najpierw jako tłumaczenia maszynowe i są tak oznaczone, dopóki nie sprawdzi ich rodzimy użytkownik języka.
+- **Bez reklam, linków do sklepów i linków partnerskich.** Strona [Urządzenia](/devices/)
+  podaje specyfikacje producentów i przedział cenowy. Nigdy nie linkuje do
+  sklepu.
+- **Bez śledzenia.** Strona nie używa analityki ani narzędzi śledzących. Jedyne ciasteczko zapamiętuje
+  wybrany przez ciebie motyw. Jedyny inny serwer, z którym łączy się strona, to meshcore-analyzer.eu,
+  prowadzony przez tych samych wolontariuszy. Szczegóły znajdziesz na [stronie o prywatności](/privacy/).
+- **Źródła faktów.** To, co piszemy o MeshCore, pochodzi z jego firmware
+  i dokumentacji. Przepisy radiowe pochodzą od regulatorów.
+- **Twój język.** Strona jest dostępna w 16 językach. Strony powstają jako
+  tłumaczenia maszynowe i mają takie oznaczenie, dopóki nie sprawdzi ich rodzimy użytkownik języka.
 
-Wszystko jest open source. Brakuje twojej lokalnej grupy albo jakiś fakt się nie zgadza? [Tak możesz pomóc](/contribute/).
+Wszystko jest open source. Brakuje twojej lokalnej grupy albo jakiś fakt jest błędny?
+[Tak możesz pomóc](/contribute/).

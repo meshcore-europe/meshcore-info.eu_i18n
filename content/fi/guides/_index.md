@@ -1,13 +1,14 @@
 ---
 title: Oppaat
 layout: guides
-lead: Kaikki oppaat yhdessä paikassa, oman maasi asetuksilla. Määritä solmusi samoin kuin naapurisi, niin kuulet heidät heti alusta alkaen.
-description: 'MeshCore-oppaat Eurooppaan: aloitus, piirilevyn valinta, suositellut asetukset maittain, toistinopas, MQTT ja CLI-komennot.'
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+lead: Kaikki oppaat samassa paikassa, ja mukana oman maasi asetukset. Kun asetat solmusi samoin kuin naapurisi, kuulet heidät heti alusta.
+description: 'MeshCore-oppaat Eurooppaan: aloittaminen, laitteen valinta, suositellut asetukset maittain, toistinopas, MQTT ja CLI-komennot.'
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
   source_hash: 'e3b0c442'
-  seeded: '2026-10-26'
+  seeded: '2026-10-31'
   fields: {title: '572cd72f', lead: '618bc7d4', description: '4b78ae18'}
   sections: []
+  blocks: []
 ---

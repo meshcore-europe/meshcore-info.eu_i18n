@@ -1,24 +1,29 @@
 ---
 title: Mapy zasięgu
 layout: map
-lead: Zobacz, dokąd sięga siatka, gdzie stoją węzły i jak wędrują wiadomości. Te mapy prowadzą społeczności z całej Europy.
+lead: Zobacz, dokąd sięga siatka, gdzie są węzły i jak wędrują wiadomości. Te mapy prowadzą społeczności z całej Europy.
 description: Mapy MeshCore na żywo, mapy zasięgu i analizatory pakietów dla Europy i poszczególnych krajów.
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '550066cc'
-  seeded: '2026-10-26'
+  source_hash: '351071aa'
+  seeded: '2026-10-31'
   fields: {title: '4b9f20a0', lead: 'fedb89bb', description: 'b5719f82'}
-  sections: ['550066cc']
+  sections: ['351071aa']
+  blocks: ['dd5f039e', '9d4a2ad8', '70c417f2', '9fef7e16']
 ---
 
-Węzeł pojawia się na tych mapach, gdy jego właściciel go opublikuje albo gdy
-usłyszy go *obserwator*: węzeł, który przekazuje przez MQTT to, co odbiera.
-Dlatego żadna mapa nie jest kompletna. Analizatory pokazują ruch, który odbierają
-ich obserwatorzy: pakiety, trasy i aktywność na kanałach. Wiadomości prywatne
-pozostają zaszyfrowane, więc żaden analizator nie pokazuje ich treści.
+Węzeł pojawia się na tych mapach, gdy opublikuje go właściciel albo gdy usłyszy go
+*obserwator*: węzeł, który przekazuje to, co słyszy, przez MQTT. Dlatego żadna mapa
+nie jest kompletna. Analizatory pokazują ruch, który odbierają ich obserwatorzy: pakiety,
+trasy i aktywność na kanałach. Wiadomości prywatne pozostają zaszyfrowane, więc żaden analizator
+nie pokazuje ich treści.
 
-Te mapy potrzebują internetu, siatka nie. [Dlaczego](/network/)
+Węzeł widnieje na mapie tam, gdzie umieścił go właściciel. To miejsce może być błędne
+albo nieaktualne. Wiadomość flood wędruje naraz kilkoma ścieżkami. Trasa na mapie to ścieżka
+kopii, która dotarła pierwsza. Pozostałych nikt nie zapisuje.
 
-Prowadzisz przekaźnik, czyli węzeł, który przekazuje wiadomości dalej? Ustaw jego pozycję poleceniami `set lat` i `set lon`, a mapy
+Te mapy wymagają internetu, siatka go nie potrzebuje. [Dlaczego](/network/)
+
+Masz przekaźnik, czyli węzeł, który przekazuje wiadomości dalej? Ustaw jego pozycję poleceniami `set lat` i `set lon`, a mapy
 będą mogły go umieścić. Jak to zrobić, pokazuje [poradnik o przekaźnikach](/repeater-guide/#config).

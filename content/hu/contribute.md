@@ -1,68 +1,68 @@
 ---
 title: Közreműködés
-lead: Ezt az útmutatót önkéntesek írják, ellenőrzik és fordítják. Így segíthetsz, GitHub-fiókkal vagy anélkül.
-description: Add hozzá a közösségedet, egy eszközt vagy egy projektet, nézz át egy fordítást, vagy javíts egy útmutatón a meshcore-info.eu oldalon.
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+lead: Ezt az útmutatót önkéntesek írják, ellenőrzik és fordítják. Itt megtudod, hogyan segíthetsz, GitHub-fiókkal vagy anélkül.
+description: Vedd fel a közösségedet, egy eszközt vagy egy projektet, nézz át egy fordítást, vagy javíts egy útmutatót a meshcore-info.eu oldalon.
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
   source_hash: 'f3ed6e9b'
-  seeded: '2026-10-26'
+  seeded: '2026-10-31'
   fields: {title: '97b0c61b', lead: 'e9b40d4d', description: '3bd97cd2'}
   sections: ['6e9d4b61', 'aca796d7', 'd4848d5b', '247b2601', '8a60e0d4', '645c82d3', 'c755b654']
+  blocks: ['2f9dd6e8', '44167907', 'b020e1a4', 'f2c726cd', '2e9d1fdd', 'b2a902ba', 'b15ce10b', '2be86888', '3db6cb63', '2e3c2fc0', '693a5d9d', '73e33897', '96d8689d', 'c67fd14a', 'f92f7e49', '12ddca6c', 'e947e2a9', '526df4bb', 'e0d3559e']
 ---
 
 Az oldal teljes tartalma egy nyilvános
 [GitHub-tárolóban](https://github.com/meshcore-europe/meshcore-info.eu) található. A kisebb
-módosításokat egy GitHub-űrlapon (issue) keresztül adod be. Minden nagyobb változtatás
-pull requestként érkezik: ez a fájlok módosítására tett javaslat, amelyet egy karbantartó
-átnéz. Egy karbantartó minden változtatást ellenőriz, mielőtt az élesbe kerül.
+változtatásokat egy GitHub-űrlapon (issue) küldheted be. A nagyobbakat pull
+requestként adod be: ez egy javasolt módosítás a fájlokon, amelyet egy karbantartó átnéz.
+Minden változtatást egy karbantartó ellenőriz, mielőtt élesbe kerül.
 
-Nincs GitHub-fiókod? Írd meg nekünk [Discordon](https://discord.meshcore-info.eu/): egy
-hiányzó csoportot, egy téves adatot vagy egy furcsán hangzó fordítást. Onnan egy önkéntes
-viszi tovább.
+Nincs GitHub-fiókod? Írd meg nekünk a [Discordon](https://discord.meshcore-info.eu/), ha
+hiányzik egy csoport, hibás egy adat, vagy furcsán hangzik egy fordítás. Onnan
+egy önkéntes viszi tovább.
 
-## Add hozzá a közösségedet {#community}
+## Vedd fel a közösségedet {#community}
 
-Vezetsz egy helyi MeshCore-csoportot, amelyhez bárki csatlakozhat? Töltsd ki a
+Helyi MeshCore-csoportot vezetsz, amelyhez bárki csatlakozhat? Töltsd ki a
 [közösségi űrlapot](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=add-community.yml)
-a névvel, a területtel és a nyilvános linkekkel. Felvétel után a csoportod minden nyelven
-megjelenik a [Helyi csoportok](/community/) oldalon.
+a csoport nevével, a területtel és a nyilvános linkekkel. A felvétel után a csoportod
+minden nyelven megjelenik a [Helyi csoportok](/community/) oldalon.
 
 ## Javasolj egy eszközt vagy egy projektet {#device-project}
 
-Az [eszközök oldala](/devices/) a gyártói dokumentációból vett specifikációkat sorolja fel,
-és soha nem hivatkozik boltokra. Hardvert az
-[eszközűrlapon](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=add-device.yml)
-javasolhatsz.
-Készítettél alkalmazást, eszközt, hidat vagy hardvertervet a MeshCore-hoz nyilvános
-forráskóddal? Add hozzá a
+Az [eszközök oldalán](/devices/) a gyártói dokumentációból vett műszaki adatok szerepelnek,
+és az oldal sosem hivatkozik webáruházakra. Hardvert az
+[eszközűrlapon](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=add-device.yml) javasolhatsz.
+Készítettél MeshCore-hoz alkalmazást, eszközt, hidat vagy hardvertervet nyilvános forráskóddal?
+Vedd fel a
 [projektűrlapon](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=add-project.yml).
 
 ## Nézz át egy fordítást {#translate}
 
-A más nyelvű oldalak gépi fordításként indulnak, és ezt a tetejükön jelzik is. A
-fordítások külön tárolóban élnek, a
-[meshcore-info.eu_i18n](https://github.com/meshcore-europe/meshcore-info.eu_i18n) alatt, így
-az oldal kódjához soha nem kell hozzányúlnod. Ha jól beszéled valamelyik nyelvet,
-javíthatsz rajta:
+A más nyelvű oldalak gépi fordításként indulnak, és ezt az oldal tetején jelzik is.
+A fordítások külön tárolóban vannak,
+[meshcore-info.eu_i18n](https://github.com/meshcore-europe/meshcore-info.eu_i18n) néven, így
+sosem kell az oldal kódjához nyúlnod. Ha jól beszélsz valamelyik nyelvet,
+jobbá teheted a fordítást:
 
-1. Nyisd meg az oldalt, és kattints a „Segíts javítani ezt a fordítást" linkre. Ez
+1. Nyisd meg az oldalt, és kattints a „Segíts javítani ezt a fordítást” linkre. Ez
    megnyitja a fájlt a GitHubon, ahol a böngésződben szerkesztheted.
-2. Javítsd a megfogalmazást. A linkeket, a kódot, a számokat és az olyan neveket, mint a
-   MeshCore, hagyd pontosan úgy, ahogy vannak.
-3. A fájl tetején lévő `translation` blokkban írd át a `status: ai` értéket
-   `status: human` értékre, majd küldd be a módosítást.
+2. Javítsd a megfogalmazást. A linkeket, a kódot, a számokat és az olyan neveket, mint a MeshCore,
+   hagyd pontosan úgy, ahogy vannak.
+3. A fájl tetején lévő `translation` blokkban írd át a `status: ai` sort
+   `status: human` értékre, majd javasold a változtatást.
 
-Találtál egy rossz szót, de nincs időd javítani? Jelezd a
+Hibás szót találtál, de nincs időd kijavítani? Jelezd a
 [fordítási űrlapon](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=translation-bug.yml).
 
-## Javíts egy útmutatón {#guides}
+## Javíts egy útmutatót {#guides}
 
-Az útmutatók először angolul készülnek, és onnan fordítjuk őket. Javításokat és új
-témákat a
+Az útmutatók először angolul készülnek, és onnan fordítjuk őket. Javításokat
+és új témákat a
 [tartalmi űrlapon](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=new-content.yml)
-vagy pull requestben várunk. Minden tényhez forrás kell: a MeshCore firmware és a
-dokumentációja, egy rádiós hatóság vagy egy gyártó. Fogalmazz a saját szavaiddal. Egy
+vagy pull requestként küldhetsz. A tényekhez forrás kell: a MeshCore firmware és a dokumentációja,
+egy rádiós hatóság vagy egy gyártó. A saját szavaiddal írj. Egy
 rövid idézet a forrásával együtt rendben van.
 
 A [közreműködői útmutató](https://github.com/meshcore-europe/meshcore-info.eu/blob/main/CONTRIBUTING.md)
@@ -70,19 +70,20 @@ elmagyarázza, hogyan dolgozhatsz az oldalon a saját gépeden.
 
 ## A fordítások állapota {#coverage}
 
-Az „Átnézett" azt jelenti, hogy egy ember ellenőrizte; a „Gépi" azt, hogy gépi fordítás,
-amelyet még senki nem nézett át; az „Elavult" azt, hogy az angol szöveg a fordítás
-elkészülte után változott; a „Hiányzik" azt, hogy az oldalnak még nincs fordítása.
+A „Reviewed” azt jelenti, hogy egy ember ellenőrizte;
+a „Machine” azt, hogy gépi fordítás, amelyet még senki sem nézett át;
+az „Outdated” azt, hogy az angol szöveg a fordítás elkészülte után megváltozott;
+a „Missing” azt, hogy az oldalnak még nincs fordítása.
 
 {{< coverage >}}
 
 ## Köszönetnyilvánítás {#credits}
 
-Az oldal az [Astro](https://astro.build/) keretrendszerrel készült. Az IBM Plex Sans és az
-IBM Plex Mono betűtípusokat használja, a SIL Open Font License alatt. A fordítások a
-[kiekr-i18n](https://github.com/marcelverdult/kiekr-i18n) szabályait követik, és annak
-MeshCore-szójegyzékeit használják. Magát a MeshCore-t a
-[meshcore-dev/MeshCore](https://github.com/meshcore-dev/MeshCore) alatt fejlesztik.
+Az oldal az [Astro](https://astro.build/) keretrendszerrel készült. Az IBM Plex Sans és
+az IBM Plex Mono betűtípust használja, a SIL Open Font License alatt. A fordítások
+a [kiekr-i18n](https://github.com/marcelverdult/kiekr-i18n)
+konvencióit követik, és annak MeshCore-szójegyzékeit használják. Magát a MeshCore-t a
+[meshcore-dev/MeshCore](https://github.com/meshcore-dev/MeshCore) tárolóban fejlesztik.
 
-A szövegek és a fordítások CC BY 4.0 licenc alatt érhetők el, a kód pedig MIT
-licenc alatt.
+A szövegek és a fordítások CC BY 4.0, a kód MIT
+licenc alatt érhető el.

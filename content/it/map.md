@@ -1,19 +1,31 @@
 ---
 title: Mappe di copertura
 layout: map
-lead: Scopri fin dove arriva la mesh, dove si trovano i nodi e come viaggiano i messaggi. Queste mappe sono gestite da community di tutta Europa.
+lead: Guarda fin dove arriva la mesh, dove si trovano i nodi e come viaggiano i messaggi. Queste mappe le gestiscono comunità di tutta Europa.
 description: Mappe MeshCore in tempo reale, mappe di copertura e analizzatori di pacchetti per l'Europa e per i singoli paesi.
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '550066cc'
-  seeded: '2026-10-26'
+  source_hash: '351071aa'
+  seeded: '2026-10-31'
   fields: {title: '4b9f20a0', lead: 'fedb89bb', description: 'b5719f82'}
-  sections: ['550066cc']
+  sections: ['351071aa']
+  blocks: ['dd5f039e', '9d4a2ad8', '70c417f2', '9fef7e16']
 ---
 
-Un nodo compare su queste mappe quando il suo proprietario lo pubblica, oppure quando lo sente un *osservatore*: un nodo che inoltra via MQTT quello che riceve. Per questo nessuna mappa è completa. Gli analizzatori mostrano il traffico ricevuto dai loro osservatori: pacchetti, percorsi e attività dei canali. I messaggi diretti restano cifrati, quindi nessun analizzatore ne mostra il contenuto.
+Un nodo compare su queste mappe quando il suo proprietario lo pubblica, oppure
+quando lo sente un *observer*: un nodo che inoltra via MQTT ciò che riceve. Per
+questo nessuna mappa è completa. Gli analizzatori mostrano il traffico che
+ricevono i loro observer: pacchetti, rotte e attività dei canali. I messaggi
+diretti restano cifrati, quindi nessun analizzatore ne mostra il contenuto.
 
-Queste mappe hanno bisogno di internet; la mesh no. [Perché](/network/)
+Un nodo si trova sulla mappa dove l'ha messo il suo proprietario. Questa
+posizione può essere sbagliata o non aggiornata. Un messaggio flood segue più
+percorsi contemporaneamente. La rotta su una mappa è il percorso della copia
+arrivata per prima: le altre non vengono registrate.
 
-Gestisci un ripetitore, cioè un nodo che inoltra i messaggi? Imposta la sua posizione con `set lat` e `set lon`, così le mappe possono collocarlo. La [guida ai ripetitori](/repeater-guide/#config) spiega come fare.
+Queste mappe hanno bisogno di internet, la mesh no. [Perché](/network/)
+
+Gestisci un ripetitore, cioè un nodo che inoltra i messaggi? Imposta la sua
+posizione con `set lat` e `set lon`, così le mappe possono collocarlo. La
+[guida al ripetitore](/repeater-guide/#config) ti spiega come fare.

@@ -1,34 +1,58 @@
 ---
 title: Ajánlott beállítások
 layout: settings
-lead: A rádióbeállítás, amelyet a környéked használ, és a szomszédaid által módosított beállítások. Válaszd ki az országod, állítsd be a presetet és másold ki a parancsokat.
-description: A MeshCore rádióbeállítás Európa területei szerint, valamint a helyi csoportok által az alapértelmezettől eltérően beállított átjátszó- és companion-beállítások, a parancsokkal együtt.
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+lead: A területeden használt rádiós preset, és a beállítások, amelyeket a szomszédaid módosítottak. Válaszd ki az országodat, állítsd be a presetet, és másold ki a parancsokat.
+description: A MeshCore rádiós presetje Európa egyes területein, valamint az átjátszó- és companion-beállítások, amelyeket a helyi csoportok az alapértéktől eltérően állítottak be, a parancsokkal együtt.
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '9547ba62'
-  seeded: '2026-10-26'
+  source_hash: '0876215b'
+  seeded: '2026-10-31'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', '43cde8b4']
+  sections: ['39848942', 'd1606fcd']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
-Az alábbi területek mindegyike saját rádióbeállítást használ, vagy módosít néhányat a MeshCore alapértelmezésein. Minden, ami nincs felsorolva, az alapértelmezésen marad, így csak azt módosítod, amit a te területed módosított. Az átjátszó mindenki számára továbbadja az üzeneteket; a companion az a csomópont, amelyről te üzensz, Bluetooth-on vagy USB-n párosítva a telefonoddal vagy laptopoddal, vagy saját képernyővel.
+Az alábbi területek mindegyike saját rádiós presetet használ, vagy a MeshCore
+néhány alapértékét módosítja. Ami nem szerepel a listában, az marad
+alapértéken, így csak azt kell átállítanod, amit a területed is átállított.
+Az átjátszó mindenki üzeneteit továbbítja. A companion az a csomópont,
+amelyről te üzensz: Bluetooth-on vagy USB-n párosítod a telefonoddal vagy a
+laptopoddal, vagy saját kijelzője van.
 
-Az [átjátszó útmutató](/repeater-guide/#config) megmutatja, hogyan éred el az átjátszód parancssorát, a [soros konzol](/firmware/console/) ezen az oldalon pedig az a hely, ahol te magad gépeled be a parancsokat. Minden terület alatt USB-n is elküldheted annak beállításait. Felsorolja a [jogi korlátokat](/repeater-guide/#legal) is a 868 MHz-en.
+Az [átjátszó-útmutatóból](/repeater-guide/#config) megtudod, hogyan éred el
+az átjátszód parancssorát. Az oldal [soros konzolján](/firmware/console/)
+magad írhatod be a parancsokat. Minden terület alatt USB-n is elküldheted az
+adott terület beállításait. Az útmutató a 868 MHz-es sáv
+[jogi korlátait](/repeater-guide/#legal) is felsorolja.
 
 ## Tartsd alacsonyan a forgalmat {#traffic}
 
-Ezek a beállítások minden területre érvényesek. Minden átjátszó továbbadja az összes flood üzenetet, amit hall. Egy üzeneted egy adásba kerül, plusz egybe minden átjátszónál, amely hallja. A 10% kitöltési tényező mellett egy átjátszó körülbelül 680 csomagot küldhet óránként, és ezen a számon mindenki osztozik körülötte. Az az üzenet, amely messzebbre utazik a kelleténél, ebből használ fel.
+Ezek a beállítások minden területre érvényesek. Az átjátszó minden flood
+üzenetet továbbít, amelyet hall. Egy üzeneted egy adásba kerül, plusz egy
+adásba minden átjátszónál, amely hallja. A 10%-os kitöltési tényező mellett
+egy átjátszó óránként körülbelül 680 csomagot küldhet, és ezen a számon a
+környéken mindenki osztozik. Ha egy üzenet messzebbre jut a szükségesnél,
+ebből a keretből fogyaszt.
 
-**A legkisebb régióba küldj, amely eléri azokat, akiknek írsz.**
-A régiók egymásba ágyazódnak: ország, megye, helyi csoport, mindegyik saját kóddal, például `nl`, `nl-ov` és `nl-ov-zwo`. Az `nl-ov-zwo` régiónak szóló üzenet annak a csoportnak az átjátszóinál marad. Minden átjátszót csak azokba a régiókba tedd, amelyeket kiszolgál; a [helyi csoportod](/community/) tudja, melyek ezek.
+**Arra a legkisebb régióra küldj, amely még eléri a címzettjeidet.**
+A régiók egymásba ágyazódnak: ország, megye, helyi csoport, mindegyik saját
+kóddal, például `nl`, `nl-ov` és `nl-ov-zwo`. Az `nl-ov-zwo` régiónak szóló
+üzenet az adott csoport átjátszóinál marad. Az átjátszó csak azokat a
+régiókat továbbítja, amelyekhez maga is tartozik: ha az `nl` régióban van,
+attól még nem továbbítja az `nl-ov` régiót. Minden átjátszót vegyél fel az
+összes régióba, amelyet kiszolgál, de csak azokba. A
+[helyi csoportod](/community/) tudja, melyek ezek.
 
-**Korlátozd, mit ad tovább az átjátszód.** Két beállítás tartja otthon közelében azt a forgalmat, amelynek nem kell messzire utaznia:
+**Korlátozd, mit továbbít az átjátszód.** Két beállítással a közelben
+tarthatod azt a forgalmat, amelynek nem kell messzire jutnia:
 
 ```text
 set flood.max.advert 3
 set flood.max.unscoped 1
 ```
 
-- `flood.max.advert 3`: az advertek, amelyek egy csomópontot jelentenek be a meshnek, legfeljebb 3 ugrást tesznek meg.
-- `flood.max.unscoped 1`: egy régió nélküli üzenet legfeljebb egy átjátszón halad át.
+- `flood.max.advert 3`: az advertek, amelyekkel egy csomópont bejelenti
+  magát a mesh hálózatnak, legfeljebb 3 ugrást tesznek meg.
+- `flood.max.unscoped 1`: a régió nélküli üzenet legfeljebb egy átjátszón
+  halad át.
