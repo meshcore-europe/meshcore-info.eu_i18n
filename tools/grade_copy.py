@@ -79,7 +79,8 @@ LONG_PARAGRAPH_WORDS = 100
 LONG_PARAGRAPH_SENTENCES = 10
 
 WORD = re.compile(r"\w(?:[\w'’.,\-]*\w)?")
-NUMBER = re.compile(r"\d+(?:[.,]\d+)*")
+# A space (plain, no-break or narrow) between groups of 3 digits is a thousands separator: 30 240.
+NUMBER = re.compile(r"\d+(?:(?:[.,]|[ \u00a0\u202f](?=\d{3}(?!\d)))\d+)*")
 SENTENCE_END = re.compile(r"(?<=[.!?…])[\"”»’)]*\s+")
 # Abbreviations that end in a full stop without ending the sentence.
 ABBREVIATION = re.compile(r"(?:\b\w\.){2,}$|\b(?:ca|cca|kb|ok|bzw|vs|etc|nr|no|approx|incl|max|min|z|n|vgl|zB)\.$",
