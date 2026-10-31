@@ -1,7 +1,7 @@
 ---
 title: "Wallpapers"
 lead: "Put the mesh on your screen. Each scene from the pages of meshcore-info.eu is a wallpaper for your laptop or desktop, in light and in dark."
-description: "27 scenes from meshcore-info.eu as desktop wallpapers, each in light and dark: the town, the desk and the ginger cat, 5120 by 2880 pixels, light and dark."
+description: "27 scenes from meshcore-info.eu as desktop wallpapers, each in light and dark: the town, the desk and the ginger cat, 5120 by 2880 pixels."
 # Astro only: the downloads live in web/media, which the Hugo build does not serve.
 build:
   render: never

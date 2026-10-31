@@ -205,7 +205,7 @@ Every setting is kept after a reboot.
 `filter stats <topic>` shows the detail for one setting. The topics are
 `hops`, `rate`, `channel`, `hash`, `malformed`, `advert`, `path`, `sender`,
 `text` and `age`. `filter stats top` shows the first byte of the node IDs
-behind the most drops, a lead rather than proof.
+behind the most drops. Many nodes share that byte.
 `filter stats air` shows the airtime your repeater saved by not passing these
 packets on.
 

@@ -14,11 +14,11 @@ is, or shorten it. Name meshcore-info.eu as the source, in lowercase, with .eu.
 
 **meshcore-info.eu brings MeshCore settings, guides and tools together for Europe.**
 
-**Who and what.** MeshCore is an emerging way to message off the grid. It
+**Who and what.** MeshCore is a way to message off the grid. It
 sends short texts by radio, node to node, without the internet or a
 subscription. Repeaters, small LoRa radios, pass each message on. The mesh
-keeps working in a power cut or when the internet is down. A community keeps
-messaging when the usual networks fail, as long as repeaters have power. It
+keeps working in a power cut or when the internet is down, as long as the
+repeaters have power. It
 carries no voice or photos, and does not replace the emergency services. On
 22 October 2026, meshcore-analyzer.eu had heard 30,240 repeaters in
 Europe in 7 days.
@@ -40,8 +40,7 @@ shop links or tracking.
   without a GitHub account.
 
 **Why it matters.** Communities across Europe run MeshCore side by side. With
-the right settings, their meshes form one mesh. That is why there is one site
-to start from.
+the right settings, their meshes form one mesh.
 
 ## Logo, images and videos {#press-kit}
 
@@ -50,10 +49,10 @@ videos. Use them in news and posts, and name meshcore-info.eu as the source.
 
 ## The promises {#promises}
 
-- **No ads, no shop links, no affiliate links.** The [Devices](/devices/) page
+- **No ads, shop links or affiliate links.** The [Devices](/devices/) page
   lists the makers' specifications and a price band. It never links to a
   shop.
-- **No tracking.** No analytics, no trackers. The only cookie remembers your
+- **No tracking.** The site runs no analytics or trackers. The only cookie remembers your
   theme choice. The only other server the site asks is meshcore-analyzer.eu,
   run by the same volunteers. The [privacy page](/privacy/) has the details.
 - **Sources for facts.** What we write about MeshCore comes from its firmware

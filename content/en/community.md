@@ -12,4 +12,4 @@ your own language. Questions that cross borders? Ask on our
 [Discord](https://discord.meshcore-info.eu/).
 
 Every group here is public, and we check each link before we add it. Each
-group runs its own chats and sites: this page points the way.
+group runs its own chats and sites; this page links to them.

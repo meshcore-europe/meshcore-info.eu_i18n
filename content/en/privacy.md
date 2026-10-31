@@ -1,6 +1,6 @@
 ---
 title: "Privacy"
-lead: "No analytics, no trackers and no accounts. One cookie, and only when you pick a theme."
+lead: "The site runs no analytics or trackers and has no accounts. It sets one cookie, and only when you pick a theme."
 description: "What meshcore-info.eu stores about you, what it asks other servers, and what our host can see when you visit."
 ---
 

@@ -149,7 +149,8 @@ fewest real repeaters, so it was heard closest to the sender.
 
 On your own repeater, `filter stats` shows what the packet filter dropped.
 `filter stats top` shows the first byte of the node IDs behind most drops.
-That is a lead, not proof.
+Many nodes share that byte, so it narrows the search but does not name the
+sender.
 
 ## Find the source {#source}
 
@@ -173,7 +174,7 @@ When a flood keeps coming back:
 
 ## Add what you saw {#add}
 
-This page grows with what local groups see. Did a flood hit you that is not
+Did a flood hit you that is not
 in these tables? Did a setting stop one? Tell us on
 [Discord](https://discord.meshcore-info.eu/): what you saw and what you
 switched on. We add it to the page.

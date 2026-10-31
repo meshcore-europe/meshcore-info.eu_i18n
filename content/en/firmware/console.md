@@ -2,7 +2,7 @@
 title: "Serial console"
 layout: console
 lead: "Type commands to your repeater from your browser, over USB."
-description: "Configure a MeshCore repeater, room server or sensor over USB from Chrome, Edge or Opera, with a serial console in the browser. No program to install."
+description: "Configure a MeshCore repeater, room server or sensor over USB from Chrome, Edge or Opera, with a serial console in the browser and nothing to install."
 ---
 
 A repeater (it passes messages on), a room server (it stores posts for a

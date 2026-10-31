@@ -1,6 +1,6 @@
 ---
 title: "Antenna guide"
-lead: "The antenna is half your node. The right one, mounted well, reaches further than more power. Check the antenna on your companion, then choose, connect and mount one for a repeater."
+lead: "The right antenna, mounted well, reaches further than more power. Check the antenna on your companion, then choose, connect and mount one for a repeater."
 description: "Choose and mount a MeshCore antenna for 868 MHz: check a companion whip, antenna types and gain, connectors, cable loss per metre, filters, mounting and how gain counts toward the legal limit."
 eyebrow: "Companion and repeater · 868 MHz"
 ---
@@ -46,7 +46,7 @@ are that you want to reach:
 - **Fibreglass collinear.** A white tube on a mast, with gain all around
   the horizon. The standard choice for a repeater that serves a town.
 - **Dipole.** Shorter, with less gain and a tall beam. It reaches nodes
-  below and above you better than a collinear. That matters on a hill
+  below and above you better than a collinear, such as from a hill
   above a valley.
 - **Yagi.** A boom with cross elements, aimed at one place. It reaches a
   single far repeater and little else. Mount it with the elements upright,

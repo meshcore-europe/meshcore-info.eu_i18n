@@ -124,8 +124,7 @@ per country.
 **Set the clock.** Without a clock module (RTC), a repeater loses the time at
 every power cut and restarts in May 2024, and while it runs its clock drifts.
 Log in remotely from the app and use `clock sync`, or set the time over USB.
-An RTC module is a worthwhile add-on for a repeater: it keeps the time
-through power cuts and drifts far less.
+An RTC module keeps the time through power cuts and drifts far less.
 
 **Manage it remotely.** Once it is on the mesh, log in from the MeshCore app
 with the admin password. You read its status there and use the same commands

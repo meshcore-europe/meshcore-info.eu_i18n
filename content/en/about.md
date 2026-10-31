@@ -53,7 +53,7 @@ is a *mesh*. In MeshCore, radios called *repeaters* do the passing on. A
 repeater that hears a message sends it again, so it can cross a whole region.
 
 Nobody owns the mesh. Every node and every repeater belongs to someone in the
-community. The mesh is as good as the repeaters people put up.
+community. The mesh reaches as far as their repeaters do.
 
 ## The 3 kinds of node {#roles}
 

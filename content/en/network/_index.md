@@ -18,9 +18,8 @@ observer there counts too. From those reports it builds the maps, the
 statistics and the [channel list](/guides/channels/) on this site.
 
 {{< callout type="tip" >}}
-The mesh needs none of this. The observers' reports, the Analyzer, these maps
+The mesh needs none of this; the tools only help you see and plan it. The observers' reports, the Analyzer, these maps
 and tools go over the internet. In a power cut or when the internet is down, they stop. The
 mesh keeps passing messages by radio, through every repeater that still has
-power, such as the ones on solar. The tools are there to see and plan the
-mesh, not to run it.
+power, such as the ones on solar.
 {{< /callout >}}
