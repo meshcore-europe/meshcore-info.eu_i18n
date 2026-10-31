@@ -6,15 +6,23 @@ through the environment, and a prompt steered by the language's glossary,
 the protected terms and the rules of docs/design/ui-copy.md. No API keys;
 CI never calls this.
 
-A model id starting with "claude-" (claude-fable-5-1 for the translation
-round of issue #55) runs through the Claude Code CLI (`claude -p`) on the
-maintainer's own login, with no tools, settings, skills or MCP servers
-loaded, so a call carries only this prompt.
+A model id starting with "claude-" runs through the Claude Code CLI
+(`claude -p`) on the maintainer's own login, with no tools, settings,
+skills or MCP servers loaded, so a call carries only this prompt. The
+translation model is claude-opus-5-5 at effort low, followed by a rewrite
+pass at effort medium (REWRITE_SYSTEM). Measured on 31 October 2026 on 6
+changed paragraphs in Dutch, judged blind by two models and a native
+reader: claude-fable-5-1 cost 2 to 2.5 times as much as Opus and never
+read better; a rewrite pass changed nothing for claude-sonnet-5-5 and won
+most often for Opus; effort high read no better than medium. On the
+whole about.md page, Opus with its rewrite cost the same as Fable alone
+($0.26) and both judges ranked it first; Sonnet ($0.05) changed facts.
 
   LLM_ENDPOINT  base URL (default http://localhost:1234/v1)
   LLM_MODEL     model id as the server lists it, or a claude-* model (required)
   LLM_TEMP      sampling temperature (default 0.2; not used by claude-*)
   LLM_EFFORT    effort for claude-* models: low, medium, high (default low)
+  LLM_REWRITE_EFFORT  effort of the rewrite pass of a claude-* model (default medium)
   LLM_TIMEOUT   seconds per request (default 300)
 """
 
@@ -58,6 +66,12 @@ COPY_RULES = (
     "- No filler, sales or politeness words (simply, just, powerful, please, sorry, "
     "unfortunately) and no count sentence before a list.\n"
     "- Known abbreviations stay as written: LoRa, MQTT, USB, GPS, BLE, SIM, MHz, WiFi.\n"
+    "- Add no generated-text pattern the English does not have: no closing line that repeats the "
+    "point, no tail that tacks a claim onto a sentence (', making it easy to ...'), no 'not X but Y' "
+    "contrast, no row of 3 where the English names 2, no inflating adjective (powerful, seamless, "
+    "crucial, emerging), and 'is' where the English says is, not 'serves as' or 'acts as'.\n"
+    "- Where the English makes a device the subject but the reader does it, make the reader the "
+    "subject. Never turn a statement into a question.\n"
 )
 
 STRING_SYSTEM = (
@@ -154,11 +168,40 @@ class Config:
                    os.environ.get("LLM_EFFORT", "low"))
 
 
+# The second pass for a claude-* model: the translation, rewritten so a native
+# writer could have written it, without the patterns of generated text.
+REWRITE_SYSTEM = (
+    "You edit a translation for meshcore-info.eu, a non-commercial community website about MeshCore, a "
+    "LoRa radio mesh messaging system. You get the English Markdown and its translation. Rewrite the "
+    "translation so a native writer of the target language could have written it, and remove every "
+    "pattern of generated text.\n"
+    + COPY_RULES +
+    "Rules for the edit:\n"
+    "- Fix every phrase that follows English word order or renders an English verb literally.\n"
+    "- Keep every fact, number, limit and condition of the English. Add nothing, drop nothing.\n"
+    "- Keep the Markdown exactly: headings, heading ids, the paragraphs and lists as they are, link "
+    "targets, code, shortcodes, protected terms and radio values. Keep the glossary terms.\n"
+    "- If the translation already reads as native, return it unchanged.\n"
+    "- Output only the edited translation: no notes, no comments, no explanation."
+)
+
+
+def rewriter(config: Config, root: Path = ROOT):
+    """A function (English, translation, language) -> rewritten translation (REWRITE_SYSTEM)."""
+    from dataclasses import replace
+    cfg = replace(config, effort=os.environ.get("LLM_REWRITE_EFFORT", "medium"))
+
+    def rewrite(en: str, translated: str, lang: Language) -> str:
+        user = (prompt(lang, en, root).removesuffix("Translation:")
+                + f"Translation to edit:\n{translated}\n\nEdited translation:")
+        return chat(cfg, REWRITE_SYSTEM, user)
+    return rewrite
+
+
 def glossary_block(lang: str, root: Path = ROOT) -> str:
-    path = root / "glossary" / f"{lang}.tsv"
-    if not path.is_file():
+    rows = sync_glossary.rows(lang, root)
+    if not rows:
         return ""
-    rows = sync_glossary.parse(path.read_text(encoding="utf-8"))
     return "Glossary (English = translation): " + "; ".join(f"{en} = {tr}" for en, tr in rows) + "\n"
 
 

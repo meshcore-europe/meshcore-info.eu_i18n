@@ -260,9 +260,7 @@ def number_set(text: str) -> Counter:
 
 def glossary_rows(lang: str, root: Path) -> dict[str, str]:
     rows = dict(R.GUIDE_GLOSSARY.get(lang, {}))
-    path = root / "glossary" / f"{lang}.tsv"
-    if path.is_file():
-        rows.update({en.lower(): tr for en, tr in sync_glossary.parse(path.read_text(encoding="utf-8"))})
+    rows.update({en.lower(): tr for en, tr in sync_glossary.rows(lang, root)})
     return rows
 
 

@@ -8,11 +8,12 @@ can decide; this judge covers the rest: a fact dropped or changed, a term
 no longer explained on first use, a limit that became vague, a companion
 that pairs over Bluetooth only.
 
-The judge runs through tools/llm.py. By default it is Claude Opus
-(claude-opus-5-5), not the Claude Fable that translates, so the
-translator does not grade its own work.
+The judge runs through tools/llm.py. By default it is Claude Fable
+(claude-fable-5-1), not the Claude Opus that translates, so the
+translator does not grade its own work. On 31 October 2026 both models
+ranked the same Dutch paragraphs alike.
 
-  JUDGE_MODEL   model id (default claude-opus-5-5)
+  JUDGE_MODEL   model id (default claude-fable-5-1)
   JUDGE_EFFORT  effort (default medium)
 
 Usage:
@@ -83,7 +84,7 @@ class Verdict:
 
 
 def config() -> llm.Config:
-    return llm.Config("", os.environ.get("JUDGE_MODEL", "claude-opus-5-5"), 0.0,
+    return llm.Config("", os.environ.get("JUDGE_MODEL", "claude-fable-5-1"), 0.0,
                       float(os.environ.get("LLM_TIMEOUT", "600")), os.environ.get("JUDGE_EFFORT", "medium"))
 
 

@@ -50,7 +50,7 @@ def translation_block_problems(meta: dict) -> list[str]:
         return ["translation block missing (status, source_hash, seeded)"]
     if not isinstance(block, dict):
         return ["translation must be a mapping (status, source_hash, seeded)"]
-    found = [f"translation.{k}: unknown key" for k in sorted(set(block) - {"status", "source_hash", "seeded", "fields", "sections"})]
+    found = [f"translation.{k}: unknown key" for k in sorted(set(block) - {"status", "source_hash", "seeded", "fields", "sections", "blocks"})]
     if block.get("status") not in ("ai", "human"):
         found.append(f"translation.status {block.get('status')!r} must be 'ai' or 'human'")
     h = block.get("source_hash")
@@ -66,6 +66,8 @@ def translation_block_problems(meta: dict) -> list[str]:
         found.append(f"translation.fields must map {', '.join(TRANSLATED)} to 8 lowercase hex characters")
     if not (isinstance(parts, list) and all(map(is_hash, parts))):
         found.append("translation.sections must be a list of 8 lowercase hex characters")
+    if not (isinstance(block.get("blocks", []), list) and all(map(is_hash, block.get("blocks", [])))):
+        found.append("translation.blocks must be a list of 8 lowercase hex characters")
     return found
 
 

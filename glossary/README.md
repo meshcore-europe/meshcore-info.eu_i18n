@@ -18,6 +18,13 @@ repeater	repeater
 
 ## Where each file comes from
 
+- **Site terms**: `site/<lang>.tsv`, the words only this site needs, such as
+  antenna and clock terms. Same format as the files above, so kiekr-i18n can
+  take a file over as it is. A site term never repeats a term of
+  `<lang>.tsv` (`tools/sync_glossary.py --validate` fails on it), so the two
+  can be joined into one file without a conflict. The seeders and graders
+  read both, the shared terms first.
+
 - **Synced from kiekr-i18n**: nl, de, fr, es, it, pl. `tools/sync_glossary.py`
   copies them verbatim; do not edit them here. Propose changes to
   kiekr-i18n, then run the sync.

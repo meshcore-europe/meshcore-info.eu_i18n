@@ -62,8 +62,9 @@ unchanged.
 `tools/seed_strings.py` and `tools/seed_pages.py` fill missing or outdated
 text with a language model on your own computer (OpenAI-compatible API, set
 `LLM_ENDPOINT` and `LLM_MODEL`), or with Claude through the Claude Code CLI
-(`LLM_MODEL=claude-fable-5-1`, `LLM_EFFORT`; a page then goes in one
-request that translates it as a native writer would). They only fill missing text
+(`LLM_MODEL=claude-opus-5-5`, `LLM_EFFORT=low`; a page then goes in one
+request that translates it as a native writer would, and a second one at
+effort medium rewrites it without the patterns of generated text). They only fill missing text
 and outdated machine translations (a page by its `source_hash`, a string by
 its `_source`), never reviewed text; `--reseed-ai` also
 redoes current machine translations.

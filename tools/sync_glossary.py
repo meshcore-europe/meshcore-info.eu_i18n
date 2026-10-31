@@ -9,6 +9,11 @@ an upstream file named after the language's locale, then its key
 Languages kiekr lacks keep their local file; new terms for them are
 offered upstream by pull request, so a later sync replaces the local copy.
 
+glossary/site/<lang>.tsv holds the terms only this site uses (antenna and
+clock words, for example), in the same format, so kiekr-i18n can take a
+file over as it is. A site term must not repeat a term of glossary/<lang>.tsv:
+then the two files join into one without a conflict. rows() gives both.
+
 Usage:
   sync_glossary.py           write upstream glossaries into glossary/
   sync_glossary.py --check   exit 1 if a synced file differs from upstream
@@ -58,6 +63,15 @@ def parse(text: str) -> list[tuple[str, str]]:
     return rows
 
 
+def rows(lang: str, root: Path = ROOT) -> list[tuple[str, str]]:
+    """The glossary of a language: the shared terms, then the site's own."""
+    found = []
+    for path in (root / "glossary" / f"{lang}.tsv", root / "glossary" / "site" / f"{lang}.tsv"):
+        if path.is_file():
+            found += parse(path.read_text(encoding="utf-8"))
+    return found
+
+
 def upstream_names(lang: Language) -> list[str]:
     return list(dict.fromkeys([lang.locale, lang.key]))
 
@@ -65,15 +79,23 @@ def upstream_names(lang: Language) -> list[str]:
 def validate(root: Path = ROOT) -> list[Problem]:
     keys = {l.key for l in languages(root) if l.key != "en"}
     found = []
-    for path in sorted((root / "glossary").glob("*.tsv")):
+    for path in sorted((root / "glossary").glob("*.tsv")) + sorted((root / "glossary" / "site").glob("*.tsv")):
         name = rel(path, root)
         if path.stem not in keys:
             found.append(Problem(name, f"{path.stem!r} is not a translated language in hugo.toml"))
             continue
         try:
-            parse(path.read_text(encoding="utf-8"))
+            terms = parse(path.read_text(encoding="utf-8"))
         except ValueError as e:
             found.append(Problem(name, str(e)))
+            continue
+        shared = root / "glossary" / f"{path.stem}.tsv"
+        if path.parent.name == "site" and shared.is_file():
+            try:
+                both = {en.lower() for en, _ in parse(shared.read_text(encoding="utf-8"))} & {en.lower() for en, _ in terms}
+            except ValueError:
+                both = set()
+            found += [Problem(name, f"term {t!r} is in {rel(shared, root)} too; keep it in one file") for t in sorted(both)]
     return found
 
 

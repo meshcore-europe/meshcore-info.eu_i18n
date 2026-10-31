@@ -6,17 +6,25 @@ translated (status ai) and its English source changed since (stale
 source_hash); --reseed-ai also redoes current machine pages. A page with
 status human is never touched, even when stale: a reviewer updates it.
 
-The translation block records a hash of each English section and of each
-translated front matter field. A stale machine page keeps every section and
-field whose English hash is unchanged, so a fix made there by hand stays,
-and only the changed ones are translated again, each on its own with the
-page so far as context. A page without that record, or --reseed-ai,
-is translated whole.
+The translation block records a hash of each English block (paragraph,
+list, table, code block), of each section and of each translated front
+matter field. A stale machine page keeps every block and field whose
+English hash is unchanged, so a fix made there by hand stays, and only the
+changed ones are translated again, each on its own with the page so far as
+context. Where the page's blocks no longer line up with the record (or the
+record predates block hashes), the same happens per section. A page
+without that record, or --reseed-ai, is translated whole.
 
 A claude-* model translates the whole page, front matter fields and body,
 in one call, written as a native writer would (tools/llm.py WHOLE_SYSTEM).
 A front matter field or section of that answer that fails its check is
-translated again on its own. A local model translates the body section by
+translated again on its own. A second pass then rewrites the body (or,
+on a stale page, each block translated again) without the patterns of
+generated text (tools/llm.py REWRITE_SYSTEM); the rewrite replaces the
+first translation only when it keeps the structure and the blocks, the
+protected terms and radio values, breaks no hard rule of
+tools/grade_copy.py the first translation kept, and stays within
+REWRITE_LENGTH of its length. A local model translates the body section by
 section (a section starts at a heading); each section gets the sections
 translated before it as context, so a term keeps one translation on the
 whole page.
@@ -36,6 +44,7 @@ Usage:
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 from collections.abc import Callable
 from datetime import date
@@ -53,9 +62,14 @@ from validate_pages import TRANSLATED
 Translate = Callable[..., str]
 # (English page, language) -> translated page, in one call.
 TranslatePage = Callable[[str, Language], str]
+# (English, translation, language) -> rewritten translation.
+Rewrite = Callable[[str, str, Language], str]
 ATTEMPTS = 2
+REWRITE_LENGTH = (0.8, 1.6)
 # Above the translation block of a machine page: a reader who fixes one word
 # on GitHub should know the next seeding run replaces it unless status is human.
+# The name of a shortcode tag; group 1 is "/" for a closing tag.
+SHORTCODE_NAME = re.compile(r"\{\{[<%]\s*(/?)\s*([\w-]+)")
 NUDGE = "# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.\n"
 
 
@@ -74,6 +88,37 @@ def sections(body: str) -> list[str]:
         current.append(line)
     if current:
         parts.append("".join(current))
+    return parts
+
+
+def blocks(body: str) -> list[str]:
+    """Split each section into its blocks (paragraph, list, table, code block), after a blank line.
+
+    Never inside a code block or between a shortcode's opening and closing tag, so
+    each block can be translated on its own; joined, the blocks give the body back."""
+    parts = []
+    for section in sections(body):
+        closing = {m.group(2) for m in map(SHORTCODE_NAME.match, parity.SHORTCODE.findall(section))
+                   if m and m.group(1)}
+        current, fence, depth = [], None, 0
+        for line in section.splitlines(keepends=True):
+            after_blank = current and not current[-1].strip() and any(l.strip() for l in current)
+            if line.strip() and after_blank and fence is None and depth == 0:
+                parts.append("".join(current))
+                current = []
+            current.append(line)
+            m = parity.FENCE.match(line)
+            if fence is None and m:
+                fence = m.group(1)
+            elif fence is not None and m and m.group(1)[0] == fence[0] and len(m.group(1)) >= len(fence):
+                fence = None
+            elif fence is None:
+                for tag in parity.SHORTCODE.finditer(line):
+                    name = SHORTCODE_NAME.match(tag.group(0))
+                    if name and name.group(2) in closing:
+                        depth += -1 if name.group(1) else 1
+        if current:
+            parts.append("".join(current))
     return parts
 
 
@@ -99,6 +144,35 @@ def translate_section(section: str, lang: Language, translate: Translate, terms:
     return section, False
 
 
+def hard_hits(body: str, lang: str) -> int:
+    import grade_copy
+    hits = grade_copy.measure(f"---\n---\n{body}", "page", lang).hits
+    return sum(len(hits[r]) for r in grade_copy.HARD if r in hits)
+
+
+def rewritten(en: str, text: str, lang: Language, rewrite: Rewrite | None, terms: list[str]) -> tuple[str, str]:
+    """(text, problem): the rewrite of a translation when it passes every check, else the translation and why."""
+    import grade_copy
+    core = text.strip("\n")
+    if rewrite is None or not core.strip():
+        return text, ""
+    lead, trail = text[: len(text) - len(text.lstrip("\n"))], text[len(text.rstrip("\n")):]
+    try:
+        new = rewrite(en.strip("\n"), core, lang).strip("\n")
+    except Exception as e:  # endpoint trouble: keep the first translation
+        return text, f"rewrite failed: {e}"
+    if not faithful(en.strip("\n"), new, terms):
+        return text, "rewrite changed the structure, a protected term or a radio value"
+    if len(blocks(new)) != len(blocks(core)):
+        return text, "rewrite changed the paragraphs"
+    if hard_hits(new, lang.key) > hard_hits(core, lang.key):
+        return text, "rewrite broke a hard rule of grade_copy.py"
+    ratio = len(grade_copy.words(new)) / max(len(grade_copy.words(core)), 1)
+    if not REWRITE_LENGTH[0] <= ratio <= REWRITE_LENGTH[1]:
+        return text, f"rewrite changed the length by a factor {ratio:.2f}"
+    return lead + new + trail, ""
+
+
 def needs_seeding(path: Path, en_hash: str, reseed_ai: bool) -> bool:
     if not path.is_file():
         return True
@@ -117,7 +191,8 @@ def fingerprint(en_meta: dict, en_body: str) -> tuple[dict, list[str]]:
 
 def translation_block(en_path: Path, en_meta: dict, en_body: str, today: str) -> dict:
     fields, parts = fingerprint(en_meta, en_body)
-    return {"status": "ai", "source_hash": source_hash(en_path), "seeded": today, "fields": fields, "sections": parts}
+    return {"status": "ai", "source_hash": source_hash(en_path), "seeded": today, "fields": fields, "sections": parts,
+            "blocks": [string_hash(part) for part in blocks(en_body)]}
 
 
 def render(meta: dict, body: str) -> str:
@@ -133,6 +208,8 @@ def render(meta: dict, body: str) -> str:
             lines.append("fields: {" + ", ".join(f"{k}: '{v}'" for k, v in block["fields"].items()) + "}")
         if "sections" in block:
             lines.append("sections: [" + ", ".join(f"'{v}'" for v in block["sections"]) + "]")
+        if "blocks" in block:
+            lines.append("blocks: [" + ", ".join(f"'{v}'" for v in block["blocks"]) + "]")
         front += NUDGE + "translation:\n" + "".join(f"  {line}\n" for line in lines)
     return f"---\n{front}---\n{body}"
 
@@ -171,7 +248,8 @@ def seed_page(root: Path, lang: Language, page: str, translate_text: Translate,
 
 
 def seed_page_whole(root: Path, lang: Language, page: str, translate_page: TranslatePage,
-                    translate_text: Translate, translate_string: Translate, today: str | None = None) -> list[str]:
+                    translate_text: Translate, translate_string: Translate, today: str | None = None,
+                    rewrite: Rewrite | None = None) -> list[str]:
     """Write content/<lang>/<page> from one call for the whole page.
 
     A front matter field or section that fails its check is translated again on
@@ -212,15 +290,19 @@ def seed_page_whole(root: Path, lang: Language, page: str, translate_page: Trans
         text, ok = translate_section(en, lang, translate_text, terms, "".join(parts).strip())
         parts.append(text)
         kept.append(f"section {number} " + ("translated again on its own" if ok else "kept in English"))
+    body, problem = rewritten(en_body, "".join(parts), lang, rewrite, terms)
+    if problem:
+        kept.append(f"{problem}; first translation kept")
     meta["translation"] = translation_block(en_path, en_meta, en_body, today)
     target = root / "content" / lang.key / page
     target.parent.mkdir(parents=True, exist_ok=True)
-    target.write_bytes(render(meta, "".join(parts)).encode("utf-8"))
+    target.write_bytes(render(meta, body).encode("utf-8"))
     return kept
 
 
 def seed_page_changed(root: Path, lang: Language, page: str, translate_text: Translate,
-                      translate_string: Translate, today: str | None = None) -> list[str] | None:
+                      translate_string: Translate, today: str | None = None,
+                      rewrite: Rewrite | None = None) -> list[str] | None:
     """Update a stale machine page in place: translate only what changed in English.
 
     Returns messages about the sections and fields translated again, or None when
@@ -233,14 +315,22 @@ def seed_page_changed(root: Path, lang: Language, page: str, translate_text: Tra
     old_fields, old_parts = block.get("fields"), block.get("sections")
     if block.get("status") != "ai" or not isinstance(old_fields, dict) or not isinstance(old_parts, list):
         return None
-    done_parts = sections(body)
+    # Reuse by block (paragraph, list, table) where the record has one per block of
+    # the page, else by section, so a changed sentence redoes its block only.
+    old_blocks = block.get("blocks")
+    if isinstance(old_blocks, list) and len(blocks(body)) == len(old_blocks):
+        split, unit, old_parts, done_parts = blocks, "block", old_blocks, blocks(body)
+    else:
+        split, unit, done_parts = sections, "section", sections(body)
     if len(done_parts) != len(old_parts):
         return None
     today = today or date.today().isoformat()
     terms = protected.load_terms(root)
     en_path = root / "content" / "en" / page
     en_meta, en_body = split_front_matter(en_path.read_text(encoding="utf-8"))
-    new_fields, new_parts = fingerprint(en_meta, en_body)
+    new_fields, _ = fingerprint(en_meta, en_body)
+    en_parts = split(en_body)
+    new_parts = [string_hash(part) for part in en_parts]
     done: dict[str, list[str]] = {}
     for h, text in zip(old_parts, done_parts):
         done.setdefault(h, []).append(text)
@@ -255,13 +345,17 @@ def seed_page_changed(root: Path, lang: Language, page: str, translate_text: Tra
             out[key] = text.strip() if ok else value
             notes.append(f"front matter {key!r} " + ("translated again" if ok else "kept in English"))
     parts = []
-    for number, (en, h) in enumerate(zip(sections(en_body), new_parts), 1):
+    for number, (en, h) in enumerate(zip(en_parts, new_parts), 1):
         if done.get(h):
             parts.append(done[h].pop(0))
             continue
         text, ok = translate_section(en, lang, translate_text, terms, "".join(parts).strip())
+        problem = ""
+        if ok:
+            text, problem = rewritten(en, text, lang, rewrite, terms)
         parts.append(text)
-        notes.append(f"section {number} " + ("translated again" if ok else "kept in English"))
+        notes.append(f"{unit} {number} " + ("translated again" if ok else "kept in English")
+                     + (f" ({problem}; first translation kept)" if problem else ""))
     out["translation"] = translation_block(en_path, en_meta, en_body, today)
     target.write_bytes(render(out, "".join(parts)).encode("utf-8"))
     return notes
@@ -296,11 +390,13 @@ def main(argv: list[str] | None = None) -> int:
     config = llm.Config.from_env()
     translate_text, translate_string = llm.translator(config, "page"), llm.translator(config, "string")
     whole = llm.page_translator(config) if config.model.startswith("claude-") else None
+    rewrite = llm.rewriter(config) if whole else None
     for lang in targets:
         for page in plan(ROOT, lang, args.reseed_ai, only):
-            kept = None if args.reseed_ai else seed_page_changed(ROOT, lang, page, translate_text, translate_string)
+            kept = None if args.reseed_ai else seed_page_changed(ROOT, lang, page, translate_text, translate_string,
+                                                                     rewrite=rewrite)
             if kept is None and whole:
-                kept = seed_page_whole(ROOT, lang, page, whole, translate_text, translate_string)
+                kept = seed_page_whole(ROOT, lang, page, whole, translate_text, translate_string, rewrite=rewrite)
             elif kept is None:
                 kept = seed_page(ROOT, lang, page, translate_text, translate_string)
             print(f"{lang.key}/{page}: written" + (f", {len(kept)} note(s)" if kept else ""), flush=True)
