@@ -1,33 +1,33 @@
 ---
 title: Rețeaua
 layout: network
-lead: Vezi mesh-ul din toată Europa și ajută-l să vadă mai mult. Observatorii ascultă mesh-ul și raportează ce aud, iar fiecare observator nou arată puțin mai mult.
-description: 'Cum devine vizibil mesh-ul MeshCore din Europa: observatorii raportează ce aud către MeshCore Analyzer. Cifre în timp real și cum adaugi propriul observator.'
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+lead: Vezi mesh-ul din Europa și ajută-l să vadă mai mult. Observatorii ascultă mesh-ul și raportează ce aud, iar fiecare observator nou arată ceva mai mult.
+description: 'Cum devine vizibil mesh-ul MeshCore din Europa: observatorii trimit ce aud către MeshCore Analyzer. Cifre live și cum îți adaugi propriul observator.'
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '05fa5ea3'
-  seeded: '2026-10-26'
+  source_hash: '90bef266'
+  seeded: '2026-10-31'
   fields: {title: '1b32d67c', lead: '382c041f', description: '0dcdc2ac'}
-  sections: ['05fa5ea3']
+  sections: ['90bef266']
+  blocks: ['535ce3c7', 'dee00f8d', '23271f25']
 ---
 
-Mesh-ul în sine nu păstrează nimic: un mesaj trece de la nod la nod și apoi
+Mesh-ul nu păstrează nicio evidență: un mesaj trece din nod în nod și
 dispare. Ce vezi pe [hărțile de acoperire](/map/) și în statistici vine de la
-observatori. Un observator este un nod care raportează în plus ce aude, prin MQTT,
-pe WiFi sau prin internet. Raportul merge într-o singură direcție: nimic nu se
+observatori. Un observator este un nod care raportează în plus ce aude prin MQTT,
+prin Wi-Fi sau internet. Raportul merge într-o singură direcție: nimic nu se
 întoarce în mesh. Un repetor (un nod care transmite mesajele mai departe) cu
-firmware de observator repetă în continuare, ca înainte.
+firmware de observator repetă mesajele în continuare, ca înainte.
 
 Observatorii din toată Europa raportează către [MeshCore Analyzer](https://meshcore-analyzer.eu/)
-la mqtt.meshcore-analyzer.eu. Analyzer citește și alte brokere, așa că un
-observator de acolo contează la fel. Din aceste rapoarte construiește hărțile,
-statisticile și [lista de canale](/guides/channels/) de pe acest site.
+la mqtt.meshcore-analyzer.eu. Analyzer citește și alți brokeri, deci un
+observator conectat acolo contează și el. Din aceste rapoarte, Analyzer construiește
+hărțile, statisticile și [lista de canale](/guides/channels/) de pe acest site.
 
 {{< callout type="tip" >}}
-Mesh-ul nu are nevoie de nimic din toate acestea. Rapoartele observatorilor, Analyzer,
-aceste hărți și instrumente trec prin internet. La o pană de curent sau când pică
-internetul, ele se opresc. Mesh-ul transmite mesajele mai departe prin radio, prin
-fiecare repetor care mai are curent, cum sunt cele pe energie solară. Instrumentele
-există ca să vezi și să planifici mesh-ul, nu ca să îl facă să funcționeze.
+Mesh-ul nu are nevoie de nimic din toate acestea; instrumentele te ajută doar să-l vezi și să-l planifici. Rapoartele observatorilor, Analyzer, aceste hărți
+și instrumente funcționează prin internet. La o pană de curent sau când cade internetul, ele se opresc. Mesh-ul
+transmite în continuare mesajele prin radio, prin fiecare repetor care mai are
+curent, de exemplu cele alimentate solar.
 {{< /callout >}}

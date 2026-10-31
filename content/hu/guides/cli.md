@@ -1,33 +1,22 @@
 ---
 title: CLI-parancsok
 layout: cli
-lead: Az átjátszód, szobaszervered, szenzorod vagy companionod minden parancsa, aszerint csoportosítva, mit akarsz elérni. Olvasd el, mit csinál és milyen értékkel indul, írd be a sajátodat és másold ki.
-description: 'A MeshCore 1.18.0 firmware minden parancsa átjátszókhoz, szobaszerverekhez, szenzorokhoz és companionokhoz, feladat szerint csoportosítva: mit csinál, milyen értékkel indul a firmware, és melyik csomópontokon van meg.'
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+lead: Az átjátszód, a room servered, a szenzorod vagy a companionöd összes parancsa, aszerint csoportosítva, hogy mit szeretnél csinálni. Elolvasod, mit csinál, és milyen értékkel indul, beírod a sajátodat, és kimásolod.
+description: 'A MeshCore 1.18.0-s firmware összes parancsa átjátszókhoz, room serverekhez, szenzorokhoz és companionökhöz, feladat szerint csoportosítva: mit csinál, milyen értékkel indul a firmware-ben, és melyik csomópontokon érhető el.'
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
   source_hash: '15bdb6eb'
-  seeded: '2026-10-26'
+  seeded: '2026-10-31'
   fields: {title: 'a13cc6cb', lead: 'd051d3b4', description: '9a2dae75'}
   sections: ['15bdb6eb']
+  blocks: ['8253bb3c', '66c83d82', '4f1b7c73', 'f28cf8b4']
 ---
 
-Ezek a parancsok a MeshCore 1.18.0 firmware-t követik, a firmware forráskódjából
-kiolvasva. Az újabb verzióban hozzáadott parancsnál ott áll, melyik verzió kell hozzá.
-Az átjátszó továbbadja az üzeneteket, a szobaszerver egy csoport bejegyzéseit tárolja,
-a szenzor méréseket jelent. A szobaszerverek, szenzorok és companionok sok parancson
-osztoznak. Minden parancsnál ott áll, melyik csomópontokon van meg. A „Melyik csomópont?”
-csak a te csomópontod parancsait mutatja.
+Ezek a parancsok a MeshCore 1.18.0-s firmware-t követik, a firmware forráskódja alapján. Az újabb verzióban megjelent parancsoknál ott áll, melyik verzió kell hozzájuk. Az átjátszó továbbítja az üzeneteket, a room server egy csoport bejegyzéseit tárolja, a szenzor méréseket küld. A room serverek, a szenzorok és a companionök sok parancsot közösen használnak. Minden parancsnál ott áll, melyik csomópontokon érhető el. A „Melyik csomópont?” résznél csak a te csomópontod parancsait látod.
 
-Átjátszón, szobaszerveren vagy szenzoron USB-n keresztül gépeled be őket a számítógépedről,
-például ezen az oldalon a [soros konzolban](/firmware/console/). A MeshCore app a mesh-en
-küldi el őket. Az [átjátszó-útmutató](/repeater-guide/#config) mindkettőt bemutatja.
+Átjátszón, room serveren vagy szenzoron USB-n keresztül írod be őket a számítógépedről, például az oldal [soros konzoljában](/firmware/console/). A MeshCore app a mesh hálózaton keresztül küldi el őket. Az [átjátszó-útmutató](/repeater-guide/#config) mindkét módot bemutatja.
 
-Az 1.18 óta a companionnak (a csomópont, amelyről üzenetet küldesz, a telefonoddal vagy
-laptopoddal párosítva, vagy saját kijelzővel) is van parancssora. Nyisd meg a Command Line
-menüpontot a MeshCore app beállításaiban, 1.50-es vagy újabb verzióban. Egy Remote CLI
-jogosultsággal rendelkező kapcsolat ugyanezeket a parancsokat a mesh-en keresztül is
-elküldheti a companionodnak. Ebbe a WiFi- és PIN-parancsok is beletartoznak.
+Az 1.18 óta a companionnek is van parancssora. A companion az a csomópont, amelyről üzenetet küldesz: a telefonodhoz vagy a laptopodhoz párosítod, vagy saját kijelzője van. A MeshCore app 1.50-es vagy újabb verziójában a beállításoknál nyisd meg a Command Line menüpontot. Ha egy kapcsolatnak Remote CLI jogosultsága van, ugyanezeket a parancsokat küldheti a companionödnek a mesh hálózaton keresztül. Ebbe a WiFi- és a PIN-parancsok is beletartoznak.
 
-Az érték, amellyel egy parancs indul, az átjátszóé. A szobaszerver, szenzor vagy companion
-más értékkel indulhat. Az a parancs, amely csak companionon van meg, a saját értékét mutatja.
+A parancsoknál megadott kezdőérték az átjátszó értéke. A room server, a szenzor vagy a companion más értékről is indulhat. A csak companionön elérhető parancsok a saját kezdőértéküket mutatják.

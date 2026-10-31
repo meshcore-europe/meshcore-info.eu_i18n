@@ -1,19 +1,26 @@
 ---
 title: Progetti
 layout: projects
-lead: 'Quello che una comunità costruisce, le altre possono usarlo: app, strumenti, bridge, librerie, firmware e hardware.'
-description: 'Progetti della comunità MeshCore: app, analizzatori, bridge MQTT e Home Assistant, librerie, fork del firmware e progetti hardware.'
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+lead: 'Quello che costruisce una community lo possono usare anche le altre: app, strumenti, bridge, librerie, firmware, hardware e documentazione.'
+description: 'Progetti della community MeshCore: app, analizzatori, bridge MQTT e Home Assistant, librerie, fork del firmware e progetti hardware.'
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
   source_hash: 'e2e9fb00'
-  seeded: '2026-10-26'
-  fields: {title: '04e2a972', lead: 'a2ce271c', description: '37772e7c'}
+  seeded: '2026-10-31'
+  fields: {title: '04e2a972', lead: '2996ca13', description: '37772e7c'}
   sections: ['e2e9fb00']
+  blocks: ['23d23121', 'dc5d49c3', '94204792']
 ---
 
-Ogni progetto rimanda al suo codice o, se il codice non è pubblico, al suo sito. La licenza compare quando il codice ne ha una. Ogni progetto nasce dai suoi autori, quindi documentazione e supporto si trovano sulla sua pagina. Un fork del firmware è una copia modificata di MeshCore, non il firmware ufficiale, e può comportarsi in modo diverso. I nodi MeshCore hanno ruoli: un companion è la radio da cui invii i messaggi, un ripetitore inoltra i messaggi, un room server tiene una bacheca condivisa di messaggi e un observer carica quello che ascolta.
+Ogni progetto rimanda al suo codice o, se il codice non è pubblico, al suo sito. Se il
+codice ha una licenza, la trovi indicata. Ogni progetto è opera dei suoi autori: documentazione e supporto
+li trovi sulla sua pagina. Un fork del firmware è una copia modificata di MeshCore, non il firmware
+ufficiale, e può comportarsi in modo diverso. I nodi MeshCore hanno ruoli diversi. Un companion
+è la radio da cui mandi i messaggi. Un ripetitore inoltra i messaggi. Un room server
+gestisce una bacheca di messaggi condivisa. Un observer carica online quello che riceve.
 
-Questa pagina è una selezione. Per un elenco più lungo, vedi [awesome-meshcore](https://meshcore.live/).
+Questa pagina è una selezione. Per un elenco più lungo, consulta
+[awesome-meshcore](https://meshcore.live/).
 
-Hai costruito qualcosa anche tu? Proponilo con il pulsante qui sotto.
+Hai costruito qualcosa anche tu? Invialo con il pulsante qui sotto.

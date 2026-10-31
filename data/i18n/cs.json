@@ -3,7 +3,7 @@
     "language": "cs",
     "name": "Čeština",
     "managed_by": "community",
-    "updated": "2026-10-28"
+    "updated": "2026-10-31"
   },
   "site_tagline": {
     "value": "Zprávy bez sítě napříč Evropou",
@@ -923,6 +923,150 @@
     "_seeded": "2026-10-26",
     "_source": "f692beac"
   },
+  "community_search_title": {
+    "value": "Najdi skupinu ve svém okolí",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "0b6beef7"
+  },
+  "community_search_country": {
+    "value": "Země",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "701d021d"
+  },
+  "community_search_country_pick": {
+    "value": "Vyber zemi",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "19323e2d"
+  },
+  "community_search_place": {
+    "value": "PSČ",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "0a4387d2"
+  },
+  "community_search_radius": {
+    "value": "Vzdálenost",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "b7bdf7a2"
+  },
+  "community_search_km": {
+    "value": "{n} km",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "e4b21b4b"
+  },
+  "community_search_go": {
+    "value": "Hledat",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "49c266ba"
+  },
+  "community_search_locate": {
+    "value": "Použít moji polohu",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "30cbc33b"
+  },
+  "community_search_privacy": {
+    "value": "Vyhledávání běží v tvém prohlížeči. Tvoje poloha a PSČ zůstávají v tvém zařízení.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "b96fd6a8"
+  },
+  "community_search_loading": {
+    "value": "Načítám PSČ této země...",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "08d96769"
+  },
+  "community_search_error": {
+    "value": "Seznam PSČ se nenačetl. Zkus to znovu.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "d7420063"
+  },
+  "community_search_unknown": {
+    "value": "Toto PSČ v zemi {country} neznáme. Zkontroluj ho nebo zkus PSČ poblíž.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "2ad685e6"
+  },
+  "community_search_need_country": {
+    "value": "Nejdřív vyber zemi.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "cebe32b0"
+  },
+  "community_search_no_postcodes": {
+    "value": "Vyhledávání podle PSČ nepokrývá zemi {country}. Všechny její skupiny:",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "26ad24dd"
+  },
+  "community_search_denied": {
+    "value": "Tvůj prohlížeč nesdílel tvoji polohu. Zadej místo toho PSČ.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "7b0fe439"
+  },
+  "community_search_here": {
+    "value": "tvoje poloha",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "61d03e13"
+  },
+  "community_search_results": {
+    "value": "Skupiny poblíž: {place}",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "114324e9"
+  },
+  "community_search_covers": {
+    "value": "Pokrývá tvoji oblast",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "20cb30ee"
+  },
+  "community_search_national": {
+    "value": "V celé zemi {country}",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "c2aea83b"
+  },
+  "community_search_none": {
+    "value": "Do {n} km zatím není žádná místní skupina.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "09aad8fb"
+  },
+  "community_search_none_country": {
+    "value": "V zemi {country} zatím není žádná místní skupina.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "d777ab9b"
+  },
+  "community_search_all": {
+    "value": "Celá země",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "4ebe4345"
+  },
+  "community_search_nearest": {
+    "value": "Nejbližší skupina je {n} km daleko:",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "c78007e4"
+  },
+  "community_search_credit": {
+    "value": "PSČ: GeoNames, CC BY 4.0.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "41bd97b1"
+  },
   "link_discord": {
     "value": "Discord",
     "_ai": true,
@@ -1181,6 +1325,18 @@
     "_seeded": "2026-10-28",
     "_source": "e428ce71"
   },
+  "lang_nudge_others": {
+    "value": "Nebo {count} dalších jazyků",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "9c57573b"
+  },
+  "lang_nudge_region": {
+    "value": "Tato stránka je také v jazyce {language}.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "5d73b6d7"
+  },
   "lang_nudge_close": {
     "value": "Zavřít",
     "_ai": true,
@@ -1300,6 +1456,120 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "e9337253"
+  },
+  "rz_forged_label": {
+    "value": "Paket jde od odesílatele přes 3 repeatery k tobě. Odesílatel začne svou cestu 3 vymyšlenými ID. Každý repeater přidá na konec své vlastní ID. Konec cesty je tedy skutečný, začátek ne.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "90a625a8"
+  },
+  "rz_forged_sender": {
+    "value": "Odesílatel",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "c299f9b8"
+  },
+  "rz_forged_you": {
+    "value": "Ty",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "08b04193"
+  },
+  "rz_forged_path": {
+    "value": "Cesta",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "62fa5a5b"
+  },
+  "rz_forged_made_up": {
+    "value": "Vymyslel odesílatel",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "c0b6677b"
+  },
+  "rz_forged_added": {
+    "value": "Přidal každý repeater",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "347c03d9"
+  },
+  "rz_gate_label": {
+    "value": "Regiony kolem repeateru jako kruhy: vně zprávy bez regionu, pak země, kraj a uprostřed vlastní region repeateru. Když repeater vysílá víc než 35 % poslední minuty, vnější kruhy se jeden po druhém zastaví. Jeho vlastní region prochází dál.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "492a5c36"
+  },
+  "rz_gate_none": {
+    "value": "Bez regionu",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "f7d42834"
+  },
+  "rz_gate_country": {
+    "value": "Země",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "701d021d"
+  },
+  "rz_gate_province": {
+    "value": "Kraj",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "abfcecfa"
+  },
+  "rz_gate_yours": {
+    "value": "Tvůj",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "54b26f7d"
+  },
+  "rz_gate_meter": {
+    "value": "Vysílání",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "1d3af30f"
+  },
+  "rz_gate_step_calm": {
+    "value": "Pod 35 %: tvůj repeater předává každý region, který má.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "a144fa31"
+  },
+  "rz_gate_step_none": {
+    "value": "Nad 35 %: zprávy bez regionu se zastaví.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "a4cf453e"
+  },
+  "rz_gate_step_wide": {
+    "value": "Pořád vytížený: zastaví se i nejširší region. Tvůj vlastní region projde vždy.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "b08d4c0a"
+  },
+  "rz_copies_label": {
+    "value": "Jeden paket od odesílatele, kterého nikdo nevidí, projde 4 repeatery. 3 observery (pozorovatelé) nahlásí každý kopii, kterou slyšel, i s její cestou. Kopii s nejkratší cestou, 1 repeater, slyšel observer nejblíž odesílateli.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "a627dcf1"
+  },
+  "rz_copies_repeater": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "46e7bee1"
+  },
+  "rz_copies_observer": {
+    "value": "Observer, s cestou své kopie",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "9c48198e"
+  },
+  "rz_copies_shortest": {
+    "value": "Nejkratší cesta: nejblíž odesílateli",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "0beca4a3"
   },
   "country_ad": {
     "value": "Andorra",
@@ -1998,10 +2268,10 @@
     "_source": "2a6caa8e"
   },
   "community.pt-meshcore-portugal.desc": {
-    "value": "Portugalské komunitní chaty, shromážděné v jedné složce na Telegramu.",
+    "value": "Portugalská komunita s vlastními návody a s aplikací a firmwarem v portugalštině. Její chaty jsou shromážděné v jedné složce na Telegram.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "31bbdf73"
+    "_seeded": "2026-10-31",
+    "_source": "b67ce7bd"
   },
   "community.dk-meshcore-dk.desc": {
     "value": "Dánská wiki se stránkami pro začátečníky, poznámkami k zařízením, nastavením regionu a fotkami skutečných instalací repeaterů.",
@@ -2182,6 +2452,12 @@
     "_ai": true,
     "_seeded": "2026-10-28",
     "_source": "c27d5586"
+  },
+  "community.de-mesh-weiterstadt.desc": {
+    "value": "Místní skupina, která ve Weiterstadtu staví bezplatnou síť MeshCore, zatím ve výstavbě. Žádá lidi, aby nabídli střechu pro repeater.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "5a268245"
   },
   "community.ie-mayo-mesh.desc": {
     "value": "Skupina uživatelů mesh rádia pro hrabství Mayo.",
@@ -2844,10 +3120,10 @@
     "_source": "3a76cb0e"
   },
   "guides_card_antenna_desc": {
-    "value": "Anténa je polovina tvého uzlu. Zkontroluj tu na svém companionu a vyber, připoj a namontuj jednu pro repeater.",
+    "value": "Vyladěná anténa a krátký kabel ti dají větší dosah než vyšší výkon. Zkontroluj anténu na svém companionu a vyber, připoj a namontuj anténu pro repeater.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "abcdd786"
+    "_seeded": "2026-10-31",
+    "_source": "3869e4e4"
   },
   "guides_card_repeater_title": {
     "value": "Návod k repeateru",
@@ -2860,6 +3136,18 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "979d61a1"
+  },
+  "guides_card_resilient_title": {
+    "value": "Udělej mesh odolný",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "33ec7ac8"
+  },
+  "guides_card_resilient_desc": {
+    "value": "Narušuje něco mesh ve tvém okolí? Zjisti, co to je, a zapni na svém repeateru nastavení, které to zastaví.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "a0476ea5"
   },
   "guides_card_filter_title": {
     "value": "Filtr paketů",
@@ -3082,6 +3370,18 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "98909794"
+  },
+  "heading_link": {
+    "value": "Odkaz na tuto sekci",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "9dc5baf3"
+  },
+  "toc_title": {
+    "value": "Na této stránce",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "b5658fc8"
   },
   "regions_title": {
     "value": "Regiony: od Evropy po tvé město",
@@ -5578,6 +5878,18 @@
     "_ai": true,
     "_seeded": "2026-10-27",
     "_source": "695ddeef"
+  },
+  "menu_guide_resilient": {
+    "value": "Udělej mesh odolný",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "33ec7ac8"
+  },
+  "menu_guide_resilient_sub": {
+    "value": "Co pomáhá proti floodům a spamu",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "6b6b932a"
   },
   "menu_guide_filter": {
     "value": "Filtr paketů",

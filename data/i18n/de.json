@@ -3,7 +3,7 @@
     "language": "de",
     "name": "Deutsch",
     "managed_by": "community",
-    "updated": "2026-10-28"
+    "updated": "2026-10-31"
   },
   "site_tagline": {
     "value": "Nachrichten ohne Netz, in ganz Europa",
@@ -923,6 +923,150 @@
     "_seeded": "2026-10-26",
     "_source": "f692beac"
   },
+  "community_search_title": {
+    "value": "Finde eine Gruppe in deiner Nähe",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "0b6beef7"
+  },
+  "community_search_country": {
+    "value": "Land",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "701d021d"
+  },
+  "community_search_country_pick": {
+    "value": "Wähle ein Land",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "19323e2d"
+  },
+  "community_search_place": {
+    "value": "Postleitzahl",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "0a4387d2"
+  },
+  "community_search_radius": {
+    "value": "Entfernung",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "b7bdf7a2"
+  },
+  "community_search_km": {
+    "value": "{n} km",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "e4b21b4b"
+  },
+  "community_search_go": {
+    "value": "Suchen",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "49c266ba"
+  },
+  "community_search_locate": {
+    "value": "Meinen Standort verwenden",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "30cbc33b"
+  },
+  "community_search_privacy": {
+    "value": "Die Suche läuft in deinem Browser. Dein Standort und deine Postleitzahl bleiben auf deinem Gerät.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "b96fd6a8"
+  },
+  "community_search_loading": {
+    "value": "Die Postleitzahlen dieses Landes werden geladen ...",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "08d96769"
+  },
+  "community_search_error": {
+    "value": "Die Liste der Postleitzahlen wurde nicht geladen. Versuch es noch einmal.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "d7420063"
+  },
+  "community_search_unknown": {
+    "value": "Diese Postleitzahl kennen wir in {country} nicht. Prüf sie oder versuch eine Postleitzahl in der Nähe.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "2ad685e6"
+  },
+  "community_search_need_country": {
+    "value": "Wähle zuerst ein Land.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "cebe32b0"
+  },
+  "community_search_no_postcodes": {
+    "value": "Die Suche nach Postleitzahl deckt {country} nicht ab. Alle Gruppen dort:",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "26ad24dd"
+  },
+  "community_search_denied": {
+    "value": "Dein Browser hat deinen Standort nicht geteilt. Gib stattdessen eine Postleitzahl ein.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "7b0fe439"
+  },
+  "community_search_here": {
+    "value": "deinem Standort",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "61d03e13"
+  },
+  "community_search_results": {
+    "value": "Gruppen in der Nähe von {place}",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "114324e9"
+  },
+  "community_search_covers": {
+    "value": "Deckt dein Gebiet ab",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "20cb30ee"
+  },
+  "community_search_national": {
+    "value": "In ganz {country}",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "c2aea83b"
+  },
+  "community_search_none": {
+    "value": "Noch keine lokale Gruppe im Umkreis von {n} km.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "09aad8fb"
+  },
+  "community_search_none_country": {
+    "value": "Noch keine lokale Gruppe in {country}.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "d777ab9b"
+  },
+  "community_search_all": {
+    "value": "Das ganze Land",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "4ebe4345"
+  },
+  "community_search_nearest": {
+    "value": "Die nächste Gruppe ist {n} km entfernt:",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "c78007e4"
+  },
+  "community_search_credit": {
+    "value": "Postleitzahlen: GeoNames, CC BY 4.0.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "41bd97b1"
+  },
   "link_discord": {
     "value": "Discord",
     "_ai": true,
@@ -1181,6 +1325,18 @@
     "_seeded": "2026-10-28",
     "_source": "e428ce71"
   },
+  "lang_nudge_others": {
+    "value": "Oder {count} weitere Sprachen",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "9c57573b"
+  },
+  "lang_nudge_region": {
+    "value": "Diese Seite gibt es auch auf {language}.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "5d73b6d7"
+  },
   "lang_nudge_close": {
     "value": "Schließen",
     "_ai": true,
@@ -1300,6 +1456,120 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "e9337253"
+  },
+  "rz_forged_label": {
+    "value": "Ein Paket geht vom Absender über 3 Repeater zu dir. Der Absender beginnt seinen Pfad mit 3 erfundenen IDs. Jeder Repeater hängt seine eigene ID ans Ende an. Darum ist das Ende des Pfads echt und der Anfang nicht.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "90a625a8"
+  },
+  "rz_forged_sender": {
+    "value": "Absender",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "c299f9b8"
+  },
+  "rz_forged_you": {
+    "value": "Du",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "08b04193"
+  },
+  "rz_forged_path": {
+    "value": "Pfad",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "62fa5a5b"
+  },
+  "rz_forged_made_up": {
+    "value": "Vom Absender erfunden",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "c0b6677b"
+  },
+  "rz_forged_added": {
+    "value": "Von jedem Repeater angehängt",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "347c03d9"
+  },
+  "rz_gate_label": {
+    "value": "Regionen liegen als Ringe um einen Repeater: außen Nachrichten ohne Region, dann ein Land, eine Provinz und in der Mitte die eigene Region des Repeaters. Sendet der Repeater mehr als 35% der letzten Minute, stoppen die äußeren Ringe nacheinander. Seine eigene Region kommt weiter durch.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "492a5c36"
+  },
+  "rz_gate_none": {
+    "value": "Keine Region",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "f7d42834"
+  },
+  "rz_gate_country": {
+    "value": "Land",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "701d021d"
+  },
+  "rz_gate_province": {
+    "value": "Provinz",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "abfcecfa"
+  },
+  "rz_gate_yours": {
+    "value": "Deine",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "54b26f7d"
+  },
+  "rz_gate_meter": {
+    "value": "Sendet",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "1d3af30f"
+  },
+  "rz_gate_step_calm": {
+    "value": "Unter 35%: Dein Repeater leitet jede Region weiter, die er kennt.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "a144fa31"
+  },
+  "rz_gate_step_none": {
+    "value": "Über 35%: Nachrichten ohne Region stoppen.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "a4cf453e"
+  },
+  "rz_gate_step_wide": {
+    "value": "Immer noch ausgelastet: Auch die größte Region stoppt. Deine eigene Region kommt immer durch.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "b08d4c0a"
+  },
+  "rz_copies_label": {
+    "value": "Ein Paket von einem Absender, den niemand sieht, läuft über 4 Repeater. 3 Observer melden jeweils die Kopie, die sie gehört haben, mit ihrem Pfad. Die Kopie mit dem kürzesten Pfad, 1 Repeater, wurde am nächsten beim Absender gehört.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "a627dcf1"
+  },
+  "rz_copies_repeater": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "46e7bee1"
+  },
+  "rz_copies_observer": {
+    "value": "Observer, mit dem Pfad seiner Kopie",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "9c48198e"
+  },
+  "rz_copies_shortest": {
+    "value": "Kürzester Pfad: am nächsten beim Absender",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "0beca4a3"
   },
   "country_ad": {
     "value": "Andorra",
@@ -1998,10 +2268,10 @@
     "_source": "2a6caa8e"
   },
   "community.pt-meshcore-portugal.desc": {
-    "value": "Portugiesische Community-Chats, gesammelt in einem Telegram-Ordner.",
+    "value": "Portugiesische Community mit eigenen Anleitungen sowie einer App und Firmware auf Portugiesisch. Ihre Chats sind in einem Telegram-Ordner gesammelt.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "31bbdf73"
+    "_seeded": "2026-10-31",
+    "_source": "b67ce7bd"
   },
   "community.dk-meshcore-dk.desc": {
     "value": "Dänisches Wiki mit Einstiegsseiten, Gerätehinweisen, Regionseinrichtung und Fotos echter Repeater-Installationen.",
@@ -2182,6 +2452,12 @@
     "_ai": true,
     "_seeded": "2026-10-28",
     "_source": "c27d5586"
+  },
+  "community.de-mesh-weiterstadt.desc": {
+    "value": "Lokale Gruppe, die in Weiterstadt ein freies MeshCore-Netz aufbaut, noch im Aufbau. Sie sucht Leute, die ein Dach für einen Repeater anbieten.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "5a268245"
   },
   "community.ie-mayo-mesh.desc": {
     "value": "Nutzergruppe für Mesh-Funk im County Mayo.",
@@ -2844,10 +3120,10 @@
     "_source": "3a76cb0e"
   },
   "guides_card_antenna_desc": {
-    "value": "Die Antenne ist die Hälfte deines Knotens. Prüfe die an deinem Companion, und wähle, verbinde und montiere eine für einen Repeater.",
+    "value": "Eine abgestimmte Antenne und ein kurzes Kabel bringen mehr Reichweite als zusätzliche Leistung. Prüf die Antenne an deinem Companion. Wähle, verbinde und montiere eine für einen Repeater.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "abcdd786"
+    "_seeded": "2026-10-31",
+    "_source": "3869e4e4"
   },
   "guides_card_repeater_title": {
     "value": "Repeater-Leitfaden",
@@ -2860,6 +3136,18 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "979d61a1"
+  },
+  "guides_card_resilient_title": {
+    "value": "Mach das Mesh widerstandsfähig",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "33ec7ac8"
+  },
+  "guides_card_resilient_desc": {
+    "value": "Stört etwas das Mesh in deiner Nähe? Finde heraus, was es ist, und schalte an deinem Repeater die Einstellung ein, die es stoppt.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "a0476ea5"
   },
   "guides_card_filter_title": {
     "value": "Paketfilter",
@@ -3082,6 +3370,18 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "98909794"
+  },
+  "heading_link": {
+    "value": "Link zu diesem Abschnitt",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "9dc5baf3"
+  },
+  "toc_title": {
+    "value": "Auf dieser Seite",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "b5658fc8"
   },
   "regions_title": {
     "value": "Regionen: von Europa bis zu deiner Stadt",
@@ -5578,6 +5878,18 @@
     "_ai": true,
     "_seeded": "2026-10-27",
     "_source": "695ddeef"
+  },
+  "menu_guide_resilient": {
+    "value": "Mach das Mesh widerstandsfähig",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "33ec7ac8"
+  },
+  "menu_guide_resilient_sub": {
+    "value": "Was gegen Floods und Spam hilft",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "6b6b932a"
   },
   "menu_guide_filter": {
     "value": "Paketfilter",

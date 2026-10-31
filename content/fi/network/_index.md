@@ -1,33 +1,33 @@
 ---
 title: Verkko
 layout: network
-lead: Katso, miltä mesh näyttää Euroopassa, ja auta sitä näkymään paremmin. Tarkkailijat kuuntelevat meshiä ja raportoivat siitä, ja jokainen uusi tarkkailija näyttää vähän enemmän.
-description: 'Näin MeshCore-mesh Euroopassa tulee näkyväksi: tarkkailijat raportoivat kuulemansa MeshCore Analyzerille. Reaaliaikaiset luvut ja ohjeet oman tarkkailijan lisäämiseen.'
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+lead: Näe mesh koko Euroopassa ja auta sitä näkymään paremmin. Observerit kuulevat meshin ja raportoivat siitä, ja jokainen uusi tuo esiin vähän lisää.
+description: 'Näin MeshCore-mesh näkyy Euroopassa: observerit raportoivat kuulemansa MeshCore Analyzeriin. Ajantasaiset luvut ja ohjeet oman observerin lisäämiseen.'
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '05fa5ea3'
-  seeded: '2026-10-26'
+  source_hash: '90bef266'
+  seeded: '2026-10-31'
   fields: {title: '1b32d67c', lead: '382c041f', description: '0dcdc2ac'}
-  sections: ['05fa5ea3']
+  sections: ['90bef266']
+  blocks: ['535ce3c7', 'dee00f8d', '23271f25']
 ---
 
-Mesh itse ei tallenna mitään: viesti kulkee solmulta solmulle ja katoaa.
-Se, mitä näet [peittokartoilla](/map/) ja tilastoissa, tulee tarkkailijoilta.
-Tarkkailija on solmu, joka raportoi kuulemansa myös MQTT:n kautta, WiFi-yhteydellä
-tai internetin yli. Raportti kulkee vain yhteen suuntaan: meshiin ei palaa mitään.
-Toistin (solmu, joka välittää viestejä eteenpäin) jatkaa välittämistä
-tarkkailijalaiteohjelmistollakin aivan kuten ennen.
+Mesh ei itse tallenna mitään: viesti kulkee solmulta solmulle ja katoaa.
+Sen, mitä näet [kattavuuskartoilla](/map/) ja tilastoissa, tuottavat
+observerit. Observer on solmu, joka myös raportoi kuulemansa MQTT:llä
+Wi-Fin tai internetin kautta. Raportti kulkee vain yhteen suuntaan: meshiin ei
+palaa mitään. Toistin (solmu, joka välittää viestejä eteenpäin), jossa on
+observer-laiteohjelmisto, välittää viestejä edelleen kuten ennenkin.
 
-Tarkkailijat eri puolilla Eurooppaa raportoivat [MeshCore Analyzerille](https://meshcore-analyzer.eu/)
-osoitteeseen mqtt.meshcore-analyzer.eu. Analyzer lukee myös muita välittäjiä, joten
-niihin raportoiva tarkkailija lasketaan sekin mukaan. Näistä raporteista Analyzer kokoaa
-tämän sivuston kartat, tilastot ja [kanavaluettelon](/guides/channels/).
+Observerit eri puolilla Eurooppaa raportoivat [MeshCore Analyzeriin](https://meshcore-analyzer.eu/)
+osoitteessa mqtt.meshcore-analyzer.eu. Analyzer lukee myös muita välittäjiä,
+joten myös niihin raportoiva observer on mukana. Raporttien pohjalta
+Analyzer kokoaa tämän sivuston kartat, tilastot ja [kanavaluettelon](/guides/channels/).
 
 {{< callout type="tip" >}}
-Mesh ei tarvitse mitään tästä. Tarkkailijoiden raportit, Analyzer sekä nämä kartat
-ja työkalut kulkevat internetin yli. Sähkökatkon aikana tai internetin ollessa poikki ne pysähtyvät.
-Mesh välittää viestejä radiolla edelleen jokaisen toistimen kautta, jolla on
-yhä virtaa, kuten aurinkosähköllä toimivien. Työkalut ovat olemassa meshin näkemistä ja
-suunnittelua varten, eivät sen pyörittämistä varten.
+Mesh ei tarvitse mitään tästä. Työkalut vain auttavat sinua näkemään ja suunnittelemaan sitä. Observerien raportit, Analyzer, nämä kartat
+ja työkalut kulkevat internetin kautta. Sähkökatkon aikana tai kun internet ei toimi, ne lakkaavat toimimasta.
+Mesh välittää viestejä edelleen radiolla jokaisen toistimen kautta, jolla on
+vielä virtaa, esimerkiksi aurinkosähköllä toimivien.
 {{< /callout >}}

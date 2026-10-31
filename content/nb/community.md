@@ -1,17 +1,18 @@
 ---
 title: Lokale grupper
 layout: community
-lead: Din lokale gruppe er en del av ett mesh over hele Europa. Finn dem som driver meshet nær deg, eller legg til gruppen din.
+lead: Den lokale gruppen din er en del av ett mesh over hele Europa. Finn dem som driver meshet der du bor, eller legg til gruppen din.
 description: 'Lokale MeshCore-grupper i Europa, sortert etter land: chattene, forumene, wikiene og kanalene de bruker.'
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '84aad4bd'
-  seeded: '2026-10-26'
+  source_hash: '0dcc4ad1'
+  seeded: '2026-10-31'
   fields: {title: 'dff00c14', lead: '10125917', description: '9b833011'}
-  sections: ['84aad4bd']
+  sections: ['0dcc4ad1']
+  blocks: ['562d036e', '719a8e57']
 ---
 
-Den lokale gruppen din vet hvilke radioinnstillinger området ditt bruker, hvor repeaterne (nodene som sender meldinger videre) står, og hvilke kanaler som er aktive. Still spørsmålene dine til dem, på ditt eget språk. Har du spørsmål som går på tvers av landegrenser? Still dem på vår [Discord](https://discord.meshcore-info.eu/).
+Den lokale gruppen din vet hvilke radioinnstillinger som brukes i området ditt. De vet hvor repeaterne (nodene som sender meldinger videre) står, og hvilke kanaler som er aktive. Still dem spørsmålene dine, på ditt eget språk. Har du spørsmål på tvers av landegrenser? Spør på [Discord](https://discord.meshcore-info.eu/)-serveren vår.
 
-Alle gruppene her er offentlige, og vi sjekker hver lenke før vi legger den til. Hver gruppe driver sine egne chatter og nettsider: denne siden viser deg veien dit.
+Alle gruppene her er offentlige, og vi sjekker hver lenke før vi legger den til. Hver gruppe driver sine egne chatter og nettsteder. Denne siden lenker til dem.

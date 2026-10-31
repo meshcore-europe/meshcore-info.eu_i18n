@@ -1,21 +1,34 @@
 ---
 title: A hálózat
 layout: network
-lead: Nézd meg a mesh-t Európa-szerte, és segíts, hogy többet lásson. A megfigyelők hallják a mesh-t és jelentik, és minden új megfigyelő egy kicsit többet mutat.
-description: 'Így válik láthatóvá a MeshCore mesh Európában: a megfigyelők jelentik, amit hallanak, a MeshCore Analyzernek. Élő számok, és hogyan adhatod hozzá a saját megfigyelődet.'
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+lead: Nézd meg a mesh-t Európa-szerte, és segíts, hogy többet lásson. A megfigyelők hallják a mesh-t, és jelentik, amit hallanak. Minden új megfigyelő egy kicsit többet mutat meg.
+description: 'Így válik láthatóvá a MeshCore mesh Európában: a megfigyelők jelentik a MeshCore Analyzernek, amit hallanak. Élő számok, és hogyan adhatod hozzá a saját megfigyelődet.'
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '05fa5ea3'
-  seeded: '2026-10-26'
+  source_hash: '90bef266'
+  seeded: '2026-10-31'
   fields: {title: '1b32d67c', lead: '382c041f', description: '0dcdc2ac'}
-  sections: ['05fa5ea3']
+  sections: ['90bef266']
+  blocks: ['535ce3c7', 'dee00f8d', '23271f25']
 ---
 
-A mesh maga nem tárol semmit: egy üzenet csomópontról csomópontra halad, majd eltűnik. Amit a [lefedettségi térképeken](/map/) és a statisztikákban látsz, az megfigyelőktől származik. A megfigyelő olyan csomópont, amely MQTT-n keresztül, WiFi-n vagy az interneten át jelenti is, amit hall. A jelentés egyirányú: semmi nem kerül vissza a meshbe. Egy megfigyelő firmware-t futtató átjátszó (üzeneteket továbbadó csomópont) ugyanúgy átjátszik, mint eddig.
+A mesh maga semmit nem rögzít: az üzenet csomópontról csomópontra halad, aztán
+eltűnik. Amit a [lefedettségi térképeken](/map/) és a statisztikákban látsz, az
+a megfigyelőktől származik. A megfigyelő (observer) olyan csomópont, amely azt is
+jelenti MQTT-n, amit hall. Ezt Wi-Fin vagy az interneten keresztül küldi. A
+jelentés egy irányba megy: semmi nem jut vissza a mesh-re. Az átjátszó (olyan
+csomópont, amely továbbadja az üzeneteket) megfigyelő firmware-rel is ugyanúgy
+továbbít, mint korábban.
 
-Európa-szerte a megfigyelők a [MeshCore Analyzer](https://meshcore-analyzer.eu/) felé jelentenek, az mqtt.meshcore-analyzer.eu címen. Az Analyzer más brokereket is olvas, így az ottani megfigyelők is számítanak. Ezekből a jelentésekből építi fel a térképeket, a statisztikákat és ennek az oldalnak a [csatornalistáját](/guides/channels/).
+Az Európa-szerte működő megfigyelők a [MeshCore Analyzernek](https://meshcore-analyzer.eu/) jelentenek,
+az mqtt.meshcore-analyzer.eu címen. Az Analyzer más brokereket is olvas, így az
+ott jelentő megfigyelők is számítanak. Ezekből a jelentésekből készíti el a
+térképeket, a statisztikákat és az oldal [csatornalistáját](/guides/channels/).
 
 {{< callout type="tip" >}}
-A meshnek ezekből semmire nincs szüksége. A megfigyelők jelentései, az Analyzer, ezek a térképek és eszközök az interneten mennek. Áramszünetkor vagy ha az internet kiesik, leállnak. A mesh továbbra is rádión adja tovább az üzeneteket, minden olyan átjátszón át, amelynek még van árama, például a napelemeseken. Az eszközök arra valók, hogy lásd és tervezd a mesht, nem arra, hogy működtesd.
+A mesh-nek ezekre nincs szüksége. Az eszközök csak abban segítenek, hogy lásd és megtervezd a mesh-t. A megfigyelők jelentései, az Analyzer, ezek a térképek
+és eszközök az interneten át működnek. Áramszünetben vagy internetkimaradáskor leállnak. A
+mesh rádión továbbra is továbbítja az üzeneteket minden olyan átjátszón keresztül, amelynek
+még van áramellátása, például a napelemeseken.
 {{< /callout >}}

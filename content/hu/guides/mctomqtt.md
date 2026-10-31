@@ -1,35 +1,36 @@
 ---
-title: Híd beállítása
-lead: 'Küldd el, amit az átjátszód hall, bármelyik MQTT brokerre: a sajátodra vagy az Analyzerére. A küldést az átjátszó mellett álló számítógép végzi.'
-description: Futtasd a meshcoretomqtt programot egy Raspberry Pi-n vagy más számítógépen, hogy a MeshCore átjátszó által hallott forgalmat USB-n át a saját MQTT brokeredre, a MeshCore Analyzerre vagy mindkettőre továbbítsd.
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+title: Bridge-konfiguráció összeállítása
+lead: 'Küldd el, amit az átjátszód hall, bármelyik MQTT brokerre: a sajátodra vagy az Analyzerre. A küldést egy számítógép végzi az átjátszó mellett.'
+description: Futtasd a meshcoretomqtt eszközt egy Raspberry Pi-on vagy más számítógépen, és küldd el, amit egy MeshCore átjátszó USB-n keresztül hall, a saját MQTT brokeredre, a MeshCore Analyzerre vagy mindkettőre.
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
   source_hash: 'e0f7daa0'
-  seeded: '2026-10-26'
+  seeded: '2026-10-31'
   fields: {title: 'fd2dd667', lead: 'fa0c29ce', description: 'ed719ece'}
   sections: ['af5761f3', 'dca6b13e', '06316a22', '61b943e5', '55d5754a']
+  blocks: ['af5761f3', '231a92ad', 'b80540ea', '46961e94', '51a4e1da', 'b066c819', 'b3d5ca4d', 'fb38b5f9', '7c1f4a97', '789a975f', 'a303d7b9', '04e0dbe0', '04087e05', 'cdaee24b', '2eaf18e9', '726148ad']
 ---
 
-Az átjátszó olyan csomópont, amely továbbadja az üzeneteket. A forgalmát egy MQTT
-brokeren szeretnéd látni: a sajátodon egy műszerfalhoz vagy adatbázishoz, vagy a
-[MeshCore Analyzer](https://meshcore-analyzer.eu/) brokerén. Vagy az átjátszódnak nincs
-saját Wi-Fi-je, de mellette áll egy Raspberry Pi vagy egy szerver.
+Az átjátszó olyan csomópont, amely továbbadja az üzeneteket. Szeretnéd a forgalmát
+egy MQTT brokerre küldeni: a sajátodra egy dashboardhoz vagy adatbázishoz, vagy a
+[MeshCore Analyzer](https://meshcore-analyzer.eu/) brokerére. Vagy az átjátszódnak
+nincs saját Wi-Fi-je, de áll mellette egy Raspberry Pi vagy egy szerver.
 A [meshcoretomqtt](https://github.com/Cisien/meshcoretomqtt), egy közösségi eszköz,
-a híd: erről a számítógépről küldi tovább a forgalmat. Az átjátszód közben továbbra is
-átjátszik, mert a híd csak azt olvassa, amit az USB-n naplóz.
+lesz a bridge: ez küldi a forgalmat arról a számítógépről. Az átjátszód közben tovább
+ismétel, mert a bridge csak azt olvassa, amit az átjátszó USB-n naplóz.
 
-## Mire van szükséged {#need}
+## Amire szükséged van {#need}
 
-- Egy csomagnaplózással fordított átjátszó (lásd lent).
-- Egy Raspberry Pi Zero, 2, 3 vagy 4, vagy bármilyen Linux vagy macOS számítógép Python
-  3.11 vagy újabb verzióval.
-- Egy USB adatkábel a kettő között.
+- Egy átjátszó, amelyet csomagnaplózással fordítottál (lásd lent).
+- Egy Raspberry Pi Zero, 2, 3 vagy 4, vagy bármilyen Linux vagy macOS
+  számítógép, Python 3.11 vagy újabb verzióval.
+- Egy USB-adatkábel a kettő között.
 
-A flasherből származó szabványos átjátszó firmware nem naplózza a csomagokat. Fordítsd le
-az átjátszó firmware-t magad a
-[MeshCore forráskódból](https://github.com/meshcore-dev/MeshCore), és add hozzá ezt a
-kapcsolót a lapod buildjéhez:
+A flasherben elérhető szabványos átjátszó firmware nem naplózza a csomagokat.
+Az átjátszó firmware-t magadnak kell lefordítanod a
+[MeshCore forráskódból](https://github.com/meshcore-dev/MeshCore). Ehhez add hozzá
+ezt a kapcsolót a kártyád buildjéhez:
 
 ```text
 -D MESH_PACKET_LOGGING=1
@@ -37,34 +38,35 @@ kapcsolót a lapod buildjéhez:
 
 ## Telepítés {#install}
 
-Csatlakoztasd az átjátszót a számítógéphez, majd futtasd rajta a meshcoretomqtt
-telepítő szkriptjét:
+Csatlakoztasd az átjátszót a számítógéphez, majd futtasd azon a számítógépen a
+meshcoretomqtt telepítőszkriptjét:
 
 ```text
 curl -fsSL https://raw.githubusercontent.com/Cisien/meshcoretomqtt/main/install.sh | sudo bash
 ```
 
-A szkript szolgáltatásként telepíti a hidat, amely a számítógéppel együtt indul, és
-megkérdezi, mely brokerekre küldjön. Az Analyzer nincs ebben a listában; azt a lenti
-konfigurációs fájlban adod hozzá. A saját beállításaid itt vannak:
-`/etc/mctomqtt/config.d/99-user.toml`; frissítéskor ez a fájl sosem íródik felül.
+A szkript szolgáltatásként telepíti a bridge-et, amely a számítógéppel együtt
+indul. Közben megkérdezi, melyik brokerekre küldjön. Az Analyzer nincs ebben a
+listában, azt lent, a konfigurációs fájlban adod hozzá. A saját beállításaid a
+`/etc/mctomqtt/config.d/99-user.toml` fájlban vannak. Egy frissítés ezt a fájlt
+soha nem írja felül.
 
 ## Brokerek {#brokers}
 
-Minden broker saját `[[broker]]` blokkot kap, így egy átjátszó egyszerre többet is
-elláthat. A saját brokered felhasználónevet és jelszót kér, vagy semmilyen bejelentkezést
-(`method = "none"`).
-A MeshCore Analyzer ehelyett tokent kér, amelyet az átjátszód kulcsa ír alá:
+Minden broker saját `[[broker]]` blokkot kap, így egy átjátszó egyszerre több
+brokert is elláthat. A saját brokeredhez felhasználónév és jelszó kell, vagy
+egyáltalán nem kell bejelentkezés (`method = "none"`).
+A MeshCore Analyzerhez ehelyett token kell, amelyet az átjátszód kulcsa ír alá:
 
-- cím: `mqtt.meshcore-analyzer.eu`, port: `443`, biztonságos websocketen át;
-- a token célközönsége (audience) ugyanez a cím.
+- a cím `mqtt.meshcore-analyzer.eu`, a port `443`, biztonságos websocketen át;
+- a token audience értéke ugyanez a cím.
 
 ## A konfigurációs fájlod {#config}
 
 Cseréld le a `/etc/mctomqtt/config.d/99-user.toml` tartalmát erre. Írd be az
-átjátszódhoz legközelebbi repülőtér kódját (például `AMS`) és az USB portot, amelyen az
-átjátszód van. Ezután add hozzá a saját brokeredet. Hagyd ki azt a blokkot, amelyre nincs
-szükséged.
+átjátszódhoz legközelebbi repülőtér kódját (például `AMS`), és azt az USB-portot,
+amelyen az átjátszód van. Utána add hozzá a saját brokeredet. Hagyd ki azt a
+blokkot, amelyre nincs szükséged.
 
 ```toml
 [general]
@@ -102,7 +104,7 @@ method = "token"
 audience = "mqtt.meshcore-analyzer.eu"
 ```
 
-Módosítás után indítsd újra a szolgáltatást (Linuxon: `sudo systemctl restart mctomqtt`).
-Az átjátszód ezután megfigyelőként jelenik meg az Analyzeren, vagyis olyan csomópontként,
-amely feltölti, amit hall, az átjátszód saját neve alatt. Minden további beállítást a
-[meshcoretomqtt README](https://github.com/Cisien/meshcoretomqtt) tartalmaz.
+Módosítás után indítsd újra a szolgáltatást (Linuxon `sudo systemctl restart mctomqtt`).
+Ezután az átjátszód observerként, vagyis a hallott forgalmat feltöltő csomópontként
+jelenik meg az Analyzeren, a saját nevén. Minden további beállítást a
+[meshcoretomqtt README](https://github.com/Cisien/meshcoretomqtt) fájlban találsz.

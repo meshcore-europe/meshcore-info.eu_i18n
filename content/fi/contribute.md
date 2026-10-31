@@ -1,88 +1,88 @@
 ---
 title: Osallistu
-lead: Vapaaehtoiset kirjoittavat, tarkistavat ja kääntävät tämän oppaan. Näin voit auttaa, GitHub-tilillä tai ilman.
-description: Lisää yhteisösi, laite tai projekti, tarkista käännös tai paranna opasta sivustolla meshcore-info.eu.
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+lead: Vapaaehtoiset kirjoittavat, tarkistavat ja kääntävät tämän oppaan. Näin voit auttaa, GitHub-tilin kanssa tai ilman.
+description: Lisää yhteisösi, laite tai projekti, tarkista käännös tai paranna opasta meshcore-info.eu-sivustolla.
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
   source_hash: 'f3ed6e9b'
-  seeded: '2026-10-26'
+  seeded: '2026-10-31'
   fields: {title: '97b0c61b', lead: 'e9b40d4d', description: '3bd97cd2'}
   sections: ['6e9d4b61', 'aca796d7', 'd4848d5b', '247b2601', '8a60e0d4', '645c82d3', 'c755b654']
+  blocks: ['2f9dd6e8', '44167907', 'b020e1a4', 'f2c726cd', '2e9d1fdd', 'b2a902ba', 'b15ce10b', '2be86888', '3db6cb63', '2e3c2fc0', '693a5d9d', '73e33897', '96d8689d', 'c67fd14a', 'f92f7e49', '12ddca6c', 'e947e2a9', '526df4bb', 'e0d3559e']
 ---
 
-Kaikki tämän sivuston sisältö on julkisessa
-[GitHub-tietovarastossa](https://github.com/meshcore-europe/meshcore-info.eu). Pienet muutokset
-kulkevat GitHubin lomakkeen (issue) kautta. Isommat muutokset tehdään pull
-requestina: se on ehdotus tiedostojen muuttamiseksi, jonka ylläpitäjä tarkistaa.
-Ylläpitäjä tarkistaa jokaisen muutoksen ennen julkaisua.
+Koko sivuston sisältö on julkisessa
+[GitHub-repositoriossa](https://github.com/meshcore-europe/meshcore-info.eu). Pienet muutokset
+ehdotat GitHubin lomakkeella (issue). Isommat muutokset tehdään pull
+requestina: se on muutosehdotus tiedostoihin, ja ylläpitäjä tarkistaa sen.
+Ylläpitäjä tarkistaa jokaisen muutoksen ennen kuin se julkaistaan.
 
-Eikö sinulla ole GitHub-tiliä? Kerro asiasta [Discordissa](https://discord.meshcore-info.eu/):
-puuttuva ryhmä, virheellinen tieto tai oudolta kuulostava käännös. Vapaaehtoinen
-hoitaa loput.
+Eikö sinulla ole GitHub-tiliä? Kerro meille [Discordissa](https://discord.meshcore-info.eu/):
+puuttuva ryhmä, väärä tieto tai oudolta kuulostava käännös. Vapaaehtoinen
+hoitaa asian siitä eteenpäin.
 
 ## Lisää yhteisösi {#community}
 
-Vedätkö paikallista MeshCore-ryhmää, johon kuka tahansa voi liittyä? Täytä
+Ylläpidätkö paikallista MeshCore-ryhmää, johon kuka tahansa voi liittyä? Täytä
 [yhteisölomake](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=add-community.yml)
-ja anna nimi, alue ja julkiset linkit. Lisäämisen jälkeen ryhmäsi näkyy
+ja kerro ryhmän nimi, alue ja julkiset linkit. Kun ryhmä on lisätty, se näkyy
 [Paikalliset ryhmät](/community/) -sivulla kaikilla kielillä.
 
 ## Ehdota laitetta tai projektia {#device-project}
 
-[Laitesivu](/devices/) listaa valmistajien dokumentaatioon perustuvat tekniset
-tiedot eikä koskaan linkitä kauppoihin. Ehdota laitteistoa
+[Laitesivun](/devices/) tekniset tiedot ovat valmistajien dokumentaatiosta, eikä sivu koskaan linkitä kauppoihin. Ehdota laitetta
 [laitelomakkeella](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=add-device.yml).
-Oletko tehnyt MeshCorelle sovelluksen, työkalun, sillan tai laitesuunnitelman, jonka
-lähdekoodi on julkinen? Lisää se
+Oletko tehnyt MeshCorelle sovelluksen, työkalun, sillan tai laitteistosuunnitelman, jonka lähdekoodi
+on julkinen? Lisää se
 [projektilomakkeella](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=add-project.yml).
 
 ## Tarkista käännös {#translate}
 
-Muunkieliset sivut syntyvät ensin konekäännöksinä, ja tämä kerrotaan sivun
-yläreunassa. Käännökset ovat omassa tietovarastossaan,
+Muunkieliset sivut ovat aluksi konekäännöksiä, ja sivun yläosassa kerrotaan
+siitä. Käännökset ovat omassa repositoriossaan,
 [meshcore-info.eu_i18n](https://github.com/meshcore-europe/meshcore-info.eu_i18n), joten
-sinun ei tarvitse koskea sivuston koodiin. Jos osaat jotakin kielistä hyvin,
-voit parantaa käännöstä:
+sinun ei koskaan tarvitse koskea sivuston koodiin. Jos osaat jotakin kielistä
+hyvin, voit parantaa käännöstä:
 
-1. Avaa sivu ja seuraa linkkiä "Auta parantamaan tätä käännöstä". Se avaa
+1. Avaa sivu ja valitse "Help improve this translation". Linkki avaa
    tiedoston GitHubissa, jossa voit muokata sitä selaimessa.
-2. Korjaa sanamuodot. Säilytä linkit, koodi, numerot ja nimet kuten MeshCore
-   täsmälleen ennallaan.
-3. Muuta yläreunan `translation`-lohkossa `status: ai` muotoon
+2. Korjaa sanamuodot. Jätä linkit, koodi, numerot ja nimet, kuten MeshCore,
+   täsmälleen ennalleen.
+3. Vaihda yläosan `translation`-lohkossa `status: ai` muotoon
    `status: human` ja ehdota muutosta.
 
-Löysitkö väärän sanan, mutta sinulla ei ole aikaa korjata sitä? Ilmoita siitä
+Löysitkö väärän sanan, mutta et ehdi korjata sitä? Ilmoita siitä
 [käännöslomakkeella](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=translation-bug.yml).
 
 ## Paranna opasta {#guides}
 
-Oppaat kirjoitetaan ensin englanniksi ja käännetään siitä muille kielille. Korjauksia
-ja uusia aiheita voi ehdottaa
+Oppaat kirjoitetaan ensin englanniksi ja käännetään siitä muille kielille. Otamme mielellämme vastaan
+korjauksia ja uusia aiheita
 [sisältölomakkeella](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=new-content.yml)
-tai pull requestilla. Tiedoilla pitää olla lähde: MeshCoren laiteohjelmisto ja sen
-dokumentaatio, radioviranomainen tai valmistaja. Kirjoita omin sanoin. Lyhyt
-lainaus lähteineen käy hyvin.
+tai pull requestina. Tiedoilla pitää olla lähde: MeshCoren laiteohjelmisto ja sen
+dokumentaatio, radiotaajuusviranomainen tai valmistaja. Kirjoita omin sanoin.
+Lyhyt lainaus lähteineen on sallittu.
 
 [Osallistujan opas](https://github.com/meshcore-europe/meshcore-info.eu/blob/main/CONTRIBUTING.md)
-kertoo, miten voit työstää sivustoa omalla tietokoneellasi.
+kertoo, miten työstät sivustoa omalla tietokoneellasi.
 
 ## Käännösten tila {#coverage}
 
-"Tarkistettu" tarkoittaa, että ihminen on tarkistanut käännöksen. "Kone"
-tarkoittaa konekäännöstä, jota ei ole vielä tarkistettu. "Vanhentunut"
-tarkoittaa, että englanninkielinen teksti on muuttunut käännöksen jälkeen.
-"Puuttuu" tarkoittaa, ettei sivulla ole vielä käännöstä.
+"Reviewed" tarkoittaa, että ihminen on tarkistanut käännöksen. "Machine" tarkoittaa
+konekäännöstä, jota ei ole vielä tarkistettu. "Outdated" tarkoittaa, että
+englanninkielinen teksti on muuttunut käännöksen jälkeen. "Missing" tarkoittaa,
+ettei sivulla ole vielä käännöstä.
 
 {{< coverage >}}
 
 ## Tekijät {#credits}
 
-Sivusto on rakennettu [Astrolla](https://astro.build/). Se käyttää kirjasimia
-IBM Plex Sans ja IBM Plex Mono SIL Open Font License -lisenssillä. Käännökset
+Sivusto on tehty [Astrolla](https://astro.build/). Sivustolla käytetään
+IBM Plex Sans- ja IBM Plex Mono -kirjasimia SIL Open Font License -lisenssillä. Käännökset
 noudattavat
 [kiekr-i18n](https://github.com/marcelverdult/kiekr-i18n)-projektin käytäntöjä ja
-käyttävät sen MeshCore-sanastoja. MeshCorea itseään kehitetään osoitteessa
+käyttävät sen MeshCore-sanastoja. Itse MeshCorea kehitetään osoitteessa
 [meshcore-dev/MeshCore](https://github.com/meshcore-dev/MeshCore).
 
 Tekstit ja käännökset on lisensoitu CC BY 4.0 -lisenssillä, koodi MIT-lisenssillä.

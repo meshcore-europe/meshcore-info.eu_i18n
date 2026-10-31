@@ -3,7 +3,7 @@
     "language": "pt",
     "name": "Português",
     "managed_by": "community",
-    "updated": "2026-10-28"
+    "updated": "2026-10-31"
   },
   "site_tagline": {
     "value": "Mensagens sem rede por toda a Europa",
@@ -923,6 +923,150 @@
     "_seeded": "2026-10-26",
     "_source": "f692beac"
   },
+  "community_search_title": {
+    "value": "Encontra um grupo perto de ti",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "0b6beef7"
+  },
+  "community_search_country": {
+    "value": "País",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "701d021d"
+  },
+  "community_search_country_pick": {
+    "value": "Escolhe um país",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "19323e2d"
+  },
+  "community_search_place": {
+    "value": "Código postal",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "0a4387d2"
+  },
+  "community_search_radius": {
+    "value": "Distância",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "b7bdf7a2"
+  },
+  "community_search_km": {
+    "value": "{n} km",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "e4b21b4b"
+  },
+  "community_search_go": {
+    "value": "Pesquisar",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "49c266ba"
+  },
+  "community_search_locate": {
+    "value": "Usar a minha localização",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "30cbc33b"
+  },
+  "community_search_privacy": {
+    "value": "A pesquisa corre no teu browser. A tua posição e o teu código postal ficam no teu dispositivo.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "b96fd6a8"
+  },
+  "community_search_loading": {
+    "value": "A carregar os códigos postais deste país...",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "08d96769"
+  },
+  "community_search_error": {
+    "value": "A lista de códigos postais não carregou. Tenta de novo.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "d7420063"
+  },
+  "community_search_unknown": {
+    "value": "Não conhecemos esse código postal em {country}. Verifica-o ou experimenta um código postal próximo.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "2ad685e6"
+  },
+  "community_search_need_country": {
+    "value": "Escolhe primeiro um país.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "cebe32b0"
+  },
+  "community_search_no_postcodes": {
+    "value": "A pesquisa por código postal não abrange {country}. Todos os grupos deste país:",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "26ad24dd"
+  },
+  "community_search_denied": {
+    "value": "O teu browser não partilhou a tua posição. Escreve antes um código postal.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "7b0fe439"
+  },
+  "community_search_here": {
+    "value": "a tua localização",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "61d03e13"
+  },
+  "community_search_results": {
+    "value": "Grupos perto de {place}",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "114324e9"
+  },
+  "community_search_covers": {
+    "value": "Abrange a tua zona",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "20cb30ee"
+  },
+  "community_search_national": {
+    "value": "Em todo o país: {country}",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "c2aea83b"
+  },
+  "community_search_none": {
+    "value": "Ainda não há nenhum grupo local num raio de {n} km.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "09aad8fb"
+  },
+  "community_search_none_country": {
+    "value": "Ainda não há nenhum grupo local em {country}.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "d777ab9b"
+  },
+  "community_search_all": {
+    "value": "O país inteiro",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "4ebe4345"
+  },
+  "community_search_nearest": {
+    "value": "O grupo mais próximo fica a {n} km:",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "c78007e4"
+  },
+  "community_search_credit": {
+    "value": "Códigos postais: GeoNames, CC BY 4.0.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "41bd97b1"
+  },
   "link_discord": {
     "value": "Discord",
     "_ai": true,
@@ -1181,6 +1325,18 @@
     "_seeded": "2026-10-28",
     "_source": "e428ce71"
   },
+  "lang_nudge_others": {
+    "value": "Ou {count} outras línguas",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "9c57573b"
+  },
+  "lang_nudge_region": {
+    "value": "Esta página também está disponível em {language}.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "5d73b6d7"
+  },
   "lang_nudge_close": {
     "value": "Fechar",
     "_ai": true,
@@ -1300,6 +1456,120 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "e9337253"
+  },
+  "rz_forged_label": {
+    "value": "Um pacote vai do remetente até ti, passando por 3 repetidores. O remetente começa o caminho com 3 IDs inventados. Cada repetidor acrescenta o seu próprio ID no fim. Assim, o fim do caminho é real e o início não.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "90a625a8"
+  },
+  "rz_forged_sender": {
+    "value": "Remetente",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "c299f9b8"
+  },
+  "rz_forged_you": {
+    "value": "Tu",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "08b04193"
+  },
+  "rz_forged_path": {
+    "value": "Caminho",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "62fa5a5b"
+  },
+  "rz_forged_made_up": {
+    "value": "Inventado pelo remetente",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "c0b6677b"
+  },
+  "rz_forged_added": {
+    "value": "Acrescentado por cada repetidor",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "347c03d9"
+  },
+  "rz_gate_label": {
+    "value": "As regiões rodeiam um repetidor como anéis: por fora, as mensagens sem região, depois um país, uma província e, no centro, a região do próprio repetidor. Quando o repetidor transmite mais de 35% do último minuto, os anéis exteriores param um a um. A região dele continua a passar.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "492a5c36"
+  },
+  "rz_gate_none": {
+    "value": "Sem região",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "f7d42834"
+  },
+  "rz_gate_country": {
+    "value": "País",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "701d021d"
+  },
+  "rz_gate_province": {
+    "value": "Província",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "abfcecfa"
+  },
+  "rz_gate_yours": {
+    "value": "A tua",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "54b26f7d"
+  },
+  "rz_gate_meter": {
+    "value": "A transmitir",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "1d3af30f"
+  },
+  "rz_gate_step_calm": {
+    "value": "Abaixo de 35%: o teu repetidor reencaminha todas as regiões que tem.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "a144fa31"
+  },
+  "rz_gate_step_none": {
+    "value": "Acima de 35%: as mensagens sem região param.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "a4cf453e"
+  },
+  "rz_gate_step_wide": {
+    "value": "Ainda ocupado: a região mais ampla também para. A tua própria região passa sempre.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "b08d4c0a"
+  },
+  "rz_copies_label": {
+    "value": "Um pacote de um remetente que ninguém vê passa por 4 repetidores. 3 observadores reportam cada um a cópia que ouviram, com o seu caminho. A cópia com o caminho mais curto, 1 repetidor, foi ouvida mais perto do remetente.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "a627dcf1"
+  },
+  "rz_copies_repeater": {
+    "value": "Repetidor",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "46e7bee1"
+  },
+  "rz_copies_observer": {
+    "value": "Observador, com o caminho da sua cópia",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "9c48198e"
+  },
+  "rz_copies_shortest": {
+    "value": "Caminho mais curto: mais perto do remetente",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "0beca4a3"
   },
   "country_ad": {
     "value": "Andorra",
@@ -1998,10 +2268,10 @@
     "_source": "2a6caa8e"
   },
   "community.pt-meshcore-portugal.desc": {
-    "value": "Chats da comunidade portuguesa, reunidos numa única pasta do Telegram.",
+    "value": "Comunidade portuguesa com guias próprios, uma app e firmware em português. As conversas estão reunidas numa pasta do Telegram.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "31bbdf73"
+    "_seeded": "2026-10-31",
+    "_source": "b67ce7bd"
   },
   "community.dk-meshcore-dk.desc": {
     "value": "Wiki dinamarquesa com páginas de primeiros passos, notas sobre dispositivos, configuração de regiões e fotos de instalações reais de repetidores.",
@@ -2182,6 +2452,12 @@
     "_ai": true,
     "_seeded": "2026-10-28",
     "_source": "c27d5586"
+  },
+  "community.de-mesh-weiterstadt.desc": {
+    "value": "Grupo local que está a montar uma rede MeshCore gratuita em Weiterstadt, ainda em construção. Pede às pessoas que ofereçam um telhado para um repetidor.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "5a268245"
   },
   "community.ie-mayo-mesh.desc": {
     "value": "Grupo de utilizadores de rádio mesh para o Condado de Mayo.",
@@ -2844,10 +3120,10 @@
     "_source": "3a76cb0e"
   },
   "guides_card_antenna_desc": {
-    "value": "A antena é metade do teu nó. Verifica a do teu companion, e escolhe, liga e monta uma para um repetidor.",
+    "value": "Uma antena afinada e um cabo curto dão mais alcance do que potência extra. Verifica a antena do teu companion (o dispositivo ligado ao teu telemóvel). Escolhe, liga e monta uma antena para um repetidor.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "abcdd786"
+    "_seeded": "2026-10-31",
+    "_source": "3869e4e4"
   },
   "guides_card_repeater_title": {
     "value": "Guia de repetidores",
@@ -2860,6 +3136,18 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "979d61a1"
+  },
+  "guides_card_resilient_title": {
+    "value": "Torna a mesh resiliente",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "33ec7ac8"
+  },
+  "guides_card_resilient_desc": {
+    "value": "Algo perturba a mesh perto de ti? Descobre o que é e ativa no teu repetidor a definição que o trava.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "a0476ea5"
   },
   "guides_card_filter_title": {
     "value": "Filtro de pacotes",
@@ -3082,6 +3370,18 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "98909794"
+  },
+  "heading_link": {
+    "value": "Ligação para esta secção",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "9dc5baf3"
+  },
+  "toc_title": {
+    "value": "Nesta página",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "b5658fc8"
   },
   "regions_title": {
     "value": "Regiões: da Europa à tua localidade",
@@ -5578,6 +5878,18 @@
     "_ai": true,
     "_seeded": "2026-10-27",
     "_source": "695ddeef"
+  },
+  "menu_guide_resilient": {
+    "value": "Torna a mesh resiliente",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "33ec7ac8"
+  },
+  "menu_guide_resilient_sub": {
+    "value": "O que ajuda contra floods e spam",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "6b6b932a"
   },
   "menu_guide_filter": {
     "value": "Filtro de pacotes",

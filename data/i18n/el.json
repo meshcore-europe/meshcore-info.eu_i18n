@@ -3,7 +3,7 @@
     "language": "el",
     "name": "Ελληνικά",
     "managed_by": "community",
-    "updated": "2026-10-28"
+    "updated": "2026-10-31"
   },
   "site_tagline": {
     "value": "Μηνύματα χωρίς δίκτυο σε όλη την Ευρώπη",
@@ -923,6 +923,150 @@
     "_seeded": "2026-10-26",
     "_source": "f692beac"
   },
+  "community_search_title": {
+    "value": "Βρες μια ομάδα κοντά σου",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "0b6beef7"
+  },
+  "community_search_country": {
+    "value": "Χώρα",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "701d021d"
+  },
+  "community_search_country_pick": {
+    "value": "Διάλεξε χώρα",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "19323e2d"
+  },
+  "community_search_place": {
+    "value": "Ταχυδρομικός κώδικας",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "0a4387d2"
+  },
+  "community_search_radius": {
+    "value": "Απόσταση",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "b7bdf7a2"
+  },
+  "community_search_km": {
+    "value": "{n} km",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "e4b21b4b"
+  },
+  "community_search_go": {
+    "value": "Αναζήτηση",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "49c266ba"
+  },
+  "community_search_locate": {
+    "value": "Χρησιμοποίησε την τοποθεσία μου",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "30cbc33b"
+  },
+  "community_search_privacy": {
+    "value": "Η αναζήτηση γίνεται στον browser σου. Η θέση και ο ταχυδρομικός σου κώδικας μένουν στη συσκευή σου.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "b96fd6a8"
+  },
+  "community_search_loading": {
+    "value": "Φορτώνουν οι ταχυδρομικοί κώδικες αυτής της χώρας...",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "08d96769"
+  },
+  "community_search_error": {
+    "value": "Η λίστα ταχυδρομικών κωδίκων δεν φόρτωσε. Δοκίμασε ξανά.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "d7420063"
+  },
+  "community_search_unknown": {
+    "value": "Δεν γνωρίζουμε αυτόν τον ταχυδρομικό κώδικα στη χώρα {country}. Έλεγξέ τον ή δοκίμασε έναν κοντινό κώδικα.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "2ad685e6"
+  },
+  "community_search_need_country": {
+    "value": "Διάλεξε πρώτα χώρα.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "cebe32b0"
+  },
+  "community_search_no_postcodes": {
+    "value": "Η αναζήτηση με ταχυδρομικό κώδικα δεν καλύπτει τη χώρα {country}. Όλες οι ομάδες της:",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "26ad24dd"
+  },
+  "community_search_denied": {
+    "value": "Ο browser σου δεν μοιράστηκε τη θέση σου. Γράψε έναν ταχυδρομικό κώδικα.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "7b0fe439"
+  },
+  "community_search_here": {
+    "value": "η τοποθεσία σου",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "61d03e13"
+  },
+  "community_search_results": {
+    "value": "Ομάδες κοντά σε: {place}",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "114324e9"
+  },
+  "community_search_covers": {
+    "value": "Καλύπτει την περιοχή σου",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "20cb30ee"
+  },
+  "community_search_national": {
+    "value": "Σε όλη τη χώρα {country}",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "c2aea83b"
+  },
+  "community_search_none": {
+    "value": "Δεν υπάρχει ακόμα τοπική ομάδα σε ακτίνα {n} km.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "09aad8fb"
+  },
+  "community_search_none_country": {
+    "value": "Δεν υπάρχει ακόμα τοπική ομάδα στη χώρα {country}.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "d777ab9b"
+  },
+  "community_search_all": {
+    "value": "Όλη η χώρα",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "4ebe4345"
+  },
+  "community_search_nearest": {
+    "value": "Η πιο κοντινή ομάδα είναι σε απόσταση {n} km:",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "c78007e4"
+  },
+  "community_search_credit": {
+    "value": "Ταχυδρομικοί κώδικες: GeoNames, CC BY 4.0.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "41bd97b1"
+  },
   "link_discord": {
     "value": "Discord",
     "_ai": true,
@@ -1181,6 +1325,18 @@
     "_seeded": "2026-10-28",
     "_source": "e428ce71"
   },
+  "lang_nudge_others": {
+    "value": "Ή σε {count} άλλες γλώσσες",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "9c57573b"
+  },
+  "lang_nudge_region": {
+    "value": "Αυτή η σελίδα υπάρχει και στα {language}.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "5d73b6d7"
+  },
   "lang_nudge_close": {
     "value": "Κλείσιμο",
     "_ai": true,
@@ -1300,6 +1456,120 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "e9337253"
+  },
+  "rz_forged_label": {
+    "value": "Ένα πακέτο πηγαίνει από τον αποστολέα, μέσα από 3 αναμεταδότες, σε σένα. Ο αποστολέας ξεκινά τη διαδρομή του με 3 επινοημένα ID. Κάθε αναμεταδότης προσθέτει το δικό του ID στο τέλος. Έτσι το τέλος της διαδρομής είναι αληθινό, ενώ η αρχή όχι.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "90a625a8"
+  },
+  "rz_forged_sender": {
+    "value": "Αποστολέας",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "c299f9b8"
+  },
+  "rz_forged_you": {
+    "value": "Εσύ",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "08b04193"
+  },
+  "rz_forged_path": {
+    "value": "Διαδρομή",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "62fa5a5b"
+  },
+  "rz_forged_made_up": {
+    "value": "Επινοημένα από τον αποστολέα",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "c0b6677b"
+  },
+  "rz_forged_added": {
+    "value": "Προστέθηκαν από κάθε αναμεταδότη",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "347c03d9"
+  },
+  "rz_gate_label": {
+    "value": "Οι περιοχές γύρω από έναν αναμεταδότη φαίνονται ως δακτύλιοι: έξω τα μηνύματα χωρίς περιοχή, μετά μια χώρα, μια επαρχία και στη μέση η περιοχή του ίδιου του αναμεταδότη. Όταν ο αναμεταδότης εκπέμπει πάνω από το 35% του τελευταίου λεπτού, οι εξωτερικοί δακτύλιοι σταματούν ένας ένας. Η δική του περιοχή συνεχίζει να περνά.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "492a5c36"
+  },
+  "rz_gate_none": {
+    "value": "Χωρίς περιοχή",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "f7d42834"
+  },
+  "rz_gate_country": {
+    "value": "Χώρα",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "701d021d"
+  },
+  "rz_gate_province": {
+    "value": "Επαρχία",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "abfcecfa"
+  },
+  "rz_gate_yours": {
+    "value": "Δική σου",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "54b26f7d"
+  },
+  "rz_gate_meter": {
+    "value": "Εκπομπή",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "1d3af30f"
+  },
+  "rz_gate_step_calm": {
+    "value": "Κάτω από 35%: ο αναμεταδότης σου προωθεί κάθε περιοχή που έχει.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "a144fa31"
+  },
+  "rz_gate_step_none": {
+    "value": "Πάνω από 35%: τα μηνύματα χωρίς περιοχή σταματούν.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "a4cf453e"
+  },
+  "rz_gate_step_wide": {
+    "value": "Ακόμα φορτωμένος: σταματά και η ευρύτερη περιοχή. Η δική σου περιοχή περνά πάντα.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "b08d4c0a"
+  },
+  "rz_copies_label": {
+    "value": "Ένα πακέτο από έναν αποστολέα που δεν βλέπει κανείς περνά από 4 αναμεταδότες. 3 observers (σταθμοί που καταγράφουν ό,τι ακούν) αναφέρουν ο καθένας το αντίγραφο που άκουσε, με τη διαδρομή του. Το αντίγραφο με τη συντομότερη διαδρομή, 1 αναμεταδότη, ακούστηκε πιο κοντά στον αποστολέα.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "a627dcf1"
+  },
+  "rz_copies_repeater": {
+    "value": "Αναμεταδότης",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "46e7bee1"
+  },
+  "rz_copies_observer": {
+    "value": "Observer, με τη διαδρομή του αντιγράφου του",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "9c48198e"
+  },
+  "rz_copies_shortest": {
+    "value": "Συντομότερη διαδρομή: πιο κοντά στον αποστολέα",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "0beca4a3"
   },
   "country_ad": {
     "value": "Ανδόρα",
@@ -1998,10 +2268,10 @@
     "_source": "2a6caa8e"
   },
   "community.pt-meshcore-portugal.desc": {
-    "value": "Πορτογαλικές κοινοτικές συνομιλίες, συγκεντρωμένες σε έναν φάκελο Telegram.",
+    "value": "Πορτογαλική κοινότητα με δικούς της οδηγούς, καθώς και εφαρμογή και υλικολογισμικό στα πορτογαλικά. Οι συνομιλίες της βρίσκονται σε έναν φάκελο στο Telegram.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "31bbdf73"
+    "_seeded": "2026-10-31",
+    "_source": "b67ce7bd"
   },
   "community.dk-meshcore-dk.desc": {
     "value": "Δανέζικο wiki με σελίδες για αρχάριους, σημειώσεις για συσκευές, ρύθμιση περιοχής και φωτογραφίες από πραγματικές εγκαταστάσεις αναμεταδοτών.",
@@ -2182,6 +2452,12 @@
     "_ai": true,
     "_seeded": "2026-10-28",
     "_source": "c27d5586"
+  },
+  "community.de-mesh-weiterstadt.desc": {
+    "value": "Τοπική ομάδα που στήνει ένα δωρεάν δίκτυο MeshCore στο Weiterstadt, ακόμα υπό κατασκευή. Ζητά από τον κόσμο να προσφέρει μια ταράτσα για αναμεταδότη.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "5a268245"
   },
   "community.ie-mayo-mesh.desc": {
     "value": "Ομάδα χρηστών ραδιοδικτύου mesh για την κομητεία Mayo.",
@@ -2844,10 +3120,10 @@
     "_source": "3a76cb0e"
   },
   "guides_card_antenna_desc": {
-    "value": "Η κεραία είναι ο μισός κόμβος σου. Έλεγξε αυτή στο companion σου, και διάλεξε, σύνδεσε και τοποθέτησε μία για αναμεταδότη.",
+    "value": "Μια συντονισμένη κεραία και ένα κοντό καλώδιο δίνουν περισσότερη εμβέλεια από την επιπλέον ισχύ. Έλεγξε την κεραία στο companion σου. Διάλεξε, σύνδεσε και τοποθέτησε μία για αναμεταδότη.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "abcdd786"
+    "_seeded": "2026-10-31",
+    "_source": "3869e4e4"
   },
   "guides_card_repeater_title": {
     "value": "Οδηγός αναμεταδότη",
@@ -2860,6 +3136,18 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "979d61a1"
+  },
+  "guides_card_resilient_title": {
+    "value": "Κάνε το mesh ανθεκτικό",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "33ec7ac8"
+  },
+  "guides_card_resilient_desc": {
+    "value": "Κάτι διαταράσσει το mesh κοντά σου; Μάθε τι είναι και ενεργοποίησε τη ρύθμιση στον αναμεταδότη σου που το σταματά.",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "a0476ea5"
   },
   "guides_card_filter_title": {
     "value": "Φίλτρο πακέτων",
@@ -3082,6 +3370,18 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "98909794"
+  },
+  "heading_link": {
+    "value": "Σύνδεσμος σε αυτή την ενότητα",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "9dc5baf3"
+  },
+  "toc_title": {
+    "value": "Σε αυτή τη σελίδα",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "b5658fc8"
   },
   "regions_title": {
     "value": "Περιοχές: από την Ευρώπη ως την πόλη σου",
@@ -5578,6 +5878,18 @@
     "_ai": true,
     "_seeded": "2026-10-27",
     "_source": "695ddeef"
+  },
+  "menu_guide_resilient": {
+    "value": "Κάνε το mesh ανθεκτικό",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "33ec7ac8"
+  },
+  "menu_guide_resilient_sub": {
+    "value": "Τι βοηθά απέναντι σε flood και spam",
+    "_ai": true,
+    "_seeded": "2026-10-31",
+    "_source": "6b6b932a"
   },
   "menu_guide_filter": {
     "value": "Φίλτρο πακέτων",

@@ -1,17 +1,24 @@
 ---
 title: Místní skupiny
 layout: community
-lead: Tvoje místní skupina je součástí jednoho meshe napříč Evropou. Najdi lidi, kteří provozují mesh ve tvém okolí, nebo přidej svou skupinu.
+lead: Tvoje místní skupina je součástí jedné mesh sítě napříč Evropou. Najdi lidi, kteří provozují mesh ve tvém okolí, nebo přidej svou skupinu.
 description: 'Místní skupiny MeshCore v Evropě podle zemí: jejich chaty, fóra, wiki a kanály, které používají.'
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '84aad4bd'
-  seeded: '2026-10-26'
+  source_hash: '0dcc4ad1'
+  seeded: '2026-10-31'
   fields: {title: 'dff00c14', lead: '10125917', description: '9b833011'}
-  sections: ['84aad4bd']
+  sections: ['0dcc4ad1']
+  blocks: ['562d036e', '719a8e57']
 ---
 
-Tvoje místní skupina ví, jaká rádiová nastavení se ve tvé oblasti používají, kde stojí repeatery (uzly, které předávají zprávy dál) a které kanály jsou aktivní. Zeptej se jich ve svém jazyce. Máš otázku, která přesahuje hranice? Polož ji na našem [Discordu](https://discord.meshcore-info.eu/).
+Tvoje místní skupina ví, jaké nastavení rádia se ve tvé oblasti používá.
+Ví také, kde stojí repeatery (uzly, které předávají zprávy dál) a které
+kanály jsou aktivní. Ptej se jich ve svém vlastním jazyce. Máš
+otázku, která přesahuje hranice? Polož ji na našem
+[Discordu](https://discord.meshcore-info.eu/).
 
-Každá skupina zde je veřejná a každý odkaz před přidáním ověřujeme. Každá skupina provozuje vlastní chaty a weby: tato stránka ti ukáže cestu.
+Všechny skupiny na této stránce jsou veřejné a každý odkaz před přidáním
+ověřujeme. Každá skupina provozuje vlastní chaty a weby. Tato stránka
+na ně odkazuje.

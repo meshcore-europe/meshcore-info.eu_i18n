@@ -1,35 +1,36 @@
 ---
-title: Crea una configuración de puente
-lead: 'Envía lo que escucha tu repetidor a cualquier broker MQTT: el tuyo propio o el del Analyzer. Un ordenador junto al repetidor se encarga del envío.'
-description: Ejecuta meshcoretomqtt en una Raspberry Pi u otro ordenador para enviar lo que un repetidor MeshCore escucha por USB a tu propio broker MQTT, al MeshCore Analyzer o a ambos.
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+title: Configura un puente
+lead: 'Envía lo que oye tu repetidor a cualquier broker MQTT: el tuyo o el del Analyzer. Un ordenador junto al repetidor se encarga del envío.'
+description: Ejecuta meshcoretomqtt en una Raspberry Pi u otro ordenador para enviar lo que un repetidor MeshCore oye por USB a tu propio broker MQTT, al MeshCore Analyzer o a ambos.
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
   source_hash: 'e0f7daa0'
-  seeded: '2026-10-26'
+  seeded: '2026-10-31'
   fields: {title: 'fd2dd667', lead: 'fa0c29ce', description: 'ed719ece'}
   sections: ['af5761f3', 'dca6b13e', '06316a22', '61b943e5', '55d5754a']
+  blocks: ['af5761f3', '231a92ad', 'b80540ea', '46961e94', '51a4e1da', 'b066c819', 'b3d5ca4d', 'fb38b5f9', '7c1f4a97', '789a975f', 'a303d7b9', '04e0dbe0', '04087e05', 'cdaee24b', '2eaf18e9', '726148ad']
 ---
 
-Un repetidor es un nodo que reenvía mensajes. Quieres tener su tráfico en un
-broker MQTT: el tuyo propio para un panel o una base de datos, o el del
+Un repetidor es un nodo que retransmite mensajes. Quieres llevar su tráfico a un broker
+MQTT: el tuyo, para un panel o una base de datos, o el del
 [MeshCore Analyzer](https://meshcore-analyzer.eu/). O tu repetidor no tiene
-Wi-Fi propio, pero hay una Raspberry Pi o un servidor a su lado.
+WiFi propio, pero tiene al lado una Raspberry Pi o un servidor.
 [meshcoretomqtt](https://github.com/Cisien/meshcoretomqtt), una herramienta de
 la comunidad, es el puente: envía el tráfico desde ese ordenador. Tu repetidor
-sigue repitiendo, porque el puente solo lee lo que registra por USB.
+sigue repitiendo, porque el puente solo lee lo que este registra por USB.
 
 ## Qué necesitas {#need}
 
-- Un repetidor compilado con registro de paquetes (más abajo).
+- Un repetidor compilado con registro de paquetes (ver abajo).
 - Una Raspberry Pi Zero, 2, 3 o 4, o cualquier ordenador con Linux o macOS, con
-  Python 3.11 o más reciente.
+  Python 3.11 o posterior.
 - Un cable USB de datos entre los dos.
 
 El firmware estándar de repetidor del flasher no registra paquetes. Compila tú
-mismo el firmware de repetidor desde el
-[código fuente de MeshCore](https://github.com/meshcore-dev/MeshCore) con este
-indicador añadido a la compilación de tu placa:
+mismo el firmware del repetidor a partir del
+[código fuente de MeshCore](https://github.com/meshcore-dev/MeshCore) y añade
+esta opción a la compilación de tu placa:
 
 ```text
 -D MESH_PACKET_LOGGING=1
@@ -37,36 +38,35 @@ indicador añadido a la compilación de tu placa:
 
 ## Instalación {#install}
 
-Conecta el repetidor al ordenador y luego ejecuta en ese ordenador el script de
+Conecta el repetidor al ordenador y ejecuta en ese ordenador el script de
 instalación de meshcoretomqtt:
 
 ```text
 curl -fsSL https://raw.githubusercontent.com/Cisien/meshcoretomqtt/main/install.sh | sudo bash
 ```
 
-El script instala el puente como un servicio que arranca con el ordenador y te
-pregunta a qué brokers enviar. El Analyzer no está en esa lista; lo añades en
-el archivo de configuración de más abajo. Tus propios ajustes están en
-`/etc/mctomqtt/config.d/99-user.toml`; una actualización nunca sobrescribe ese
+El script instala el puente como un servicio que arranca con el ordenador. Luego
+te pregunta a qué brokers enviar. El Analyzer no está en esa lista: lo añades en
+el archivo de configuración de abajo. Tus propios ajustes están en
+`/etc/mctomqtt/config.d/99-user.toml`. Una actualización nunca sobrescribe ese
 archivo.
 
 ## Brokers {#brokers}
 
-Cada broker tiene su propio bloque `[[broker]]`, así que un repetidor puede
-alimentar varios a la vez. Tu propio broker acepta un nombre de usuario y una
-contraseña, o ningún inicio de sesión (`method = "none"`).
-El MeshCore Analyzer acepta en su lugar un token, que firma la clave de tu
-repetidor:
+Cada broker tiene su propio bloque `[[broker]]`. Así un repetidor puede
+alimentar a varios a la vez. Tu propio broker usa un usuario y una contraseña, o
+ningún inicio de sesión (`method = "none"`).
+El MeshCore Analyzer usa en cambio un token, firmado con la clave de tu repetidor:
 
-- dirección `mqtt.meshcore-analyzer.eu`, puerto `443`, por websocket seguro;
+- dirección `mqtt.meshcore-analyzer.eu`, puerto `443`, por un websocket seguro;
 - la audiencia del token es esa misma dirección.
 
 ## Tu archivo de configuración {#config}
 
-Sustituye el contenido de `/etc/mctomqtt/config.d/99-user.toml` por esto.
-Indica el código de aeropuerto más cercano a tu repetidor (por ejemplo, `AMS`)
-y el puerto USB en el que está conectado tu repetidor. Después añade tu propio
-broker. Omite cualquier bloque que no necesites.
+Sustituye el contenido de `/etc/mctomqtt/config.d/99-user.toml` por esto. Pon
+el código del aeropuerto más cercano a tu repetidor (por ejemplo, `AMS`) y el
+puerto USB donde está conectado. Después añade tu propio broker. Quita los
+bloques que no necesites.
 
 ```toml
 [general]
@@ -105,7 +105,7 @@ audience = "mqtt.meshcore-analyzer.eu"
 ```
 
 Reinicia el servicio después de cada cambio (`sudo systemctl restart mctomqtt`
-en Linux). Tu repetidor aparece entonces en el Analyzer como observador, un
-nodo que sube lo que escucha, con el nombre de tu propio repetidor. En el
-[README de meshcoretomqtt](https://github.com/Cisien/meshcoretomqtt) encuentras
+en Linux). Tu repetidor aparece entonces en el Analyzer como observador, un nodo
+que sube lo que oye, con el nombre propio de tu repetidor. En el
+[README de meshcoretomqtt](https://github.com/Cisien/meshcoretomqtt) encontrarás
 todos los demás ajustes.

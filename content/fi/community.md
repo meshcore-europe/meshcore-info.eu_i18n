@@ -1,17 +1,18 @@
 ---
 title: Paikalliset ryhmät
 layout: community
-lead: Paikallinen ryhmäsi on osa yhtä Euroopan laajuista meshiä. Etsi ihmiset, jotka pyörittävät meshiä lähelläsi, tai lisää oma ryhmäsi.
-description: 'MeshCore-paikallisryhmät eri puolilla Eurooppaa maittain: niiden chatit, foorumit, wikit ja käyttämänsä kanavat.'
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+lead: Paikallinen ryhmäsi on osa yhtä Euroopan laajuista meshiä. Löydä ihmiset, jotka ylläpitävät meshiä lähelläsi, tai lisää oma ryhmäsi.
+description: 'MeshCore-paikallisryhmät Euroopassa maittain: niiden chatit, foorumit, wikit ja niiden käyttämät kanavat.'
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '84aad4bd'
-  seeded: '2026-10-26'
+  source_hash: '0dcc4ad1'
+  seeded: '2026-10-31'
   fields: {title: 'dff00c14', lead: '10125917', description: '9b833011'}
-  sections: ['84aad4bd']
+  sections: ['0dcc4ad1']
+  blocks: ['562d036e', '719a8e57']
 ---
 
-Paikallinen ryhmäsi tietää, mitä radioasetuksia alueellasi käytetään. Se tietää myös, missä toistimet (viestejä eteenpäin välittävät solmut) sijaitsevat ja mitkä kanavat ovat aktiivisia. Kysy heiltä kysymyksesi omalla kielelläsi. Onko kysymyksesi rajat ylittävä? Kysy sitä meidän [Discordissamme](https://discord.meshcore-info.eu/).
+Paikallinen ryhmäsi tietää, mitä radioasetuksia alueellasi käytetään. Ryhmä tietää myös, missä toistimet (solmut, jotka välittävät viestejä eteenpäin) ovat ja mitkä kanavat ovat aktiivisia. Kysy kysymyksesi ryhmältä omalla kielelläsi. Ylittääkö kysymyksesi rajat? Kysy [Discordissamme](https://discord.meshcore-info.eu/).
 
-Jokainen tämän sivun ryhmä on julkinen, ja tarkistamme jokaisen linkin ennen lisäämistä. Jokainen ryhmä ylläpitää omia chattejaan ja sivustojaan: tämä sivu näyttää tien niiden luo.
+Kaikki täällä listatut ryhmät ovat julkisia, ja tarkistamme jokaisen linkin ennen kuin lisäämme sen. Kukin ryhmä ylläpitää omia keskustelujaan ja sivustojaan. Tältä sivulta löydät linkit niihin.

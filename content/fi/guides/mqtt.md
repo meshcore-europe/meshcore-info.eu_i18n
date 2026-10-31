@@ -1,66 +1,67 @@
 ---
-title: MQTT havainnoijassasi
-lead: Anna toistimesi raportoida kuulemansa MeshCore Analyzerille Wi-Fin kautta. Se välittää viestejä edelleen kuten ennenkin.
-description: Muuta ESP32-toistin MeshCore-havainnoijaksi DMC:n havainnoijalaiteohjelmistolla. Flashaa se, aseta Wi-Fi ja lentokenttäkoodisi, valitse välittäjät ja tarkista, että se raportoi MeshCore Analyzerille.
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+title: MQTT observer-solmussasi
+lead: Toistimesi raportoi kuulemansa MeshCore Analyzeriin Wi-Fin kautta. Se välittää viestejä edelleen kuten ennenkin.
+description: Tee ESP32-toistimesta MeshCore-observer DMC observer -laiteohjelmistolla. Flashaa se, aseta Wi-Fi ja lentokenttäkoodisi, valitse brokerit ja tarkista, että se raportoi MeshCore Analyzeriin.
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
   source_hash: '7b9a9320'
-  seeded: '2026-10-26'
+  seeded: '2026-10-31'
   fields: {title: '62626d0f', lead: 'fe9653d4', description: '739edb74'}
   sections: ['962bdbc4', '0ccd4a85', 'fc57f65c', 'ef841ae5', '77d109c5', 'b3e4f8d2', '602a1021']
+  blocks: ['75461763', '0e0db0ff', '231a92ad', '49ad02ce', '19b33688', '01e79e69', '6f184c96', '75da543a', '966b1e87', '11f22f4c', '5f85ac9b', 'f74cb809', '1a70c3f5', '9cadc611', '5261e7e9', 'c998ea2d', '393339d9', '803a2dc4', 'cedf8d28', '7c222cec', '6bc50a6a', '59f2a96c', 'a8bd6037', '0d3b84ff', 'e43d5a74', '3bd6439c', '2ddd9432', 'd9df877b', '3283886d', 'f6131e02', '99dc83fb']
 ---
 
-Havainnoija on solmu, joka myös raportoi kuulemansa MQTT:llä Wi-Fin
-kautta. Jokainen havainnoija näyttää hieman enemmän meshistä
+Observer on solmu, joka myös raportoi kuulemansa MQTT:n kautta Wi-Fin yli.
+Jokainen observer näyttää vähän lisää meshistä
 [MeshCore Analyzerissa](https://meshcore-analyzer.eu/) ja
-[kuuluvuuskartoilla](/map/). Tämä opas muuttaa toistimen (solmun, joka
-välittää viestejä eteenpäin) havainnoijaksi. Se jatkaa toistamista, ja
-raportti kulkee vain yhteen suuntaan: meshiin ei palaa mitään.
+[kuuluvuuskartoilla](/map/). Tällä ohjeella teet toistimesta (solmusta, joka
+välittää viestejä eteenpäin) observerin. Se toistaa viestejä edelleen.
+Raportti kulkee vain yhteen suuntaan: meshiin ei palaa mitään.
 
 {{< callout type="warning" >}}
-Tämä opas koskee **DMC:n havainnoijalaiteohjelmistoa**, eli
-[Dutch-MeshCoren](https://github.com/Dutch-MeshCore/MeshCore) havainnoijaversiota,
-joka perustuu MeshCore 1.18.0:aan. Vakio-MeshCoressa ei ole MQTT:tä. Jokainen
-alla oleva komento on luettu laiteohjelmiston lähdekoodista, koontiversiosta
+Tämä ohje koskee **DMC observer -laiteohjelmistoa**. Se on
+[Dutch-MeshCoren](https://github.com/Dutch-MeshCore/MeshCore) observer-versio,
+joka perustuu MeshCore 1.18.0:aan. Tavallisessa MeshCoressa ei ole MQTT:tä.
+Kaikki alla olevat komennot on luettu laiteohjelmiston lähdekoodista, versiosta
 `32dd8ad` 19. lokakuuta 2026.
 {{< /callout >}}
 
 ## Mitä tarvitset {#need}
 
-- ESP32-levyn, jossa on Wi-Fi, kuten Heltec V3 tai V4, LilyGo T3S3 tai
-  Xiao S3. [Julkaisu](https://github.com/Dutch-MeshCore/MeshCore/releases/tag/observer-mqtt-dev)
-  luettelee kaikki levyt. nRF52-levyissä, kuten RAK4631:ssä, ei ole Wi-Fiä.
-- 2.4 GHz:n Wi-Fi-verkon siellä, missä levy sijaitsee.
-- USB-datakaapelin sekä Chromen, Edgen tai Operan tietokoneellasi.
-- Solmuasi lähimmän lentokentän koodin, 3 kirjainta, kuten `AMS` tai `BRU`.
-  Se kertoo välittäjille (palvelimille, jotka vastaanottavat raporttisi),
-  millä alueella havainnoijasi on.
+- ESP32-kortti, jossa on Wi-Fi, esimerkiksi Heltec V3 tai V4, LilyGo T3S3 tai
+  Xiao S3. Kaikki kortit löydät [julkaisusta](https://github.com/Dutch-MeshCore/MeshCore/releases/tag/observer-mqtt-dev).
+  nRF52-korteissa, kuten RAK4631:ssä, ei ole Wi-Fiä.
+- 2.4 GHz:n Wi-Fi-verkko kortin sijaintipaikassa.
+- USB-datakaapeli sekä Chrome, Edge tai Opera tietokoneellasi.
+- Solmuasi lähimmän lentokentän koodi, 3 kirjainta, kuten `AMS` tai `BRU`.
+  Koodista brokerit (palvelimet, jotka vastaanottavat raporttisi) näkevät,
+  millä alueella observerisi on.
 
-Eikö toistimesi sijainnissa ole Wi-Fiä, mutta sen vieressä on tietokone?
-[Rakenna sen sijaan siltakokoonpano](/guides/mctomqtt/).
+Eikö toistimesi luona ole Wi-Fiä, mutta sen vieressä on tietokone?
+[Rakenna silloin siltamääritys](/guides/mctomqtt/).
 
-## Flashaa laiteohjelmisto {#flash}
+## Laiteohjelmiston flashaus {#flash}
 
-Tämän sivuston [flashaustyökalu](/firmware/flasher/) sisältää vain vakio-MeshCoren.
-Havainnoijalaiteohjelmiston saat
-[DutchMeshCore Toolboxin](https://toolbox.dutchmeshcore.nl/) flashaustyökalusta:
+Tämän sivuston [flasherissa](/firmware/flasher/) on vain tavallinen MeshCore.
+Observer-laiteohjelmiston saat [DutchMeshCore Toolboxin](https://toolbox.dutchmeshcore.nl/)
+flasherista:
 
-1. Valitse levysi ja sitten **DutchMeshCore MQTT** (Repeater + Observer + MQTT).
-2. Valitse ensimmäisellä kerralla **Full flash**: se korvaa kaiken levyllä,
-   myös osiotaulun. Sovelluspäivitys säilyttää levyn sisällön ja on
-   tarkoitettu myöhempiin päivityksiin.
-3. Määritä toistimesi tavalliseen tapaan: nimi, radioesiasetus ja
-   ylläpitäjän salasana, kuten [toistinoppaassa](/repeater-guide/#config).
+1. Valitse korttisi ja sitten **DutchMeshCore MQTT** (Repeater + Observer + MQTT).
+2. Valitse ensimmäisellä kerralla **Full flash**: se korvaa kaiken kortilla,
+   myös osiotaulun. App update säilyttää nykyisen sisällön, ja se on
+   myöhempiä päivityksiä varten.
+3. Määritä toistin tavalliseen tapaan: nimi, radioasetus ja ylläpitäjän
+   salasana, kuten [toistinohjeessa](/repeater-guide/#config).
 
-Tämä laiteohjelmisto on **dev**-koontiversio ja päivittää itsensä
-dev-kanavalta, kun kirjoitat `ota update`. Vakaa kanava tarjoaa yhä
-versiota 1.17.1, joten pysy tätä opasta varten dev-kanavalla.
+Tämä laiteohjelmisto on **dev**-versio. Kun kirjoitat `ota update`, se
+päivittyy dev-kanavalta. Vakaalla kanavalla on yhä 1.17.1, joten pysy tässä
+ohjeessa dev-kanavalla.
 
 ## Asetukset {#settings}
 
-Avaa tämän sivuston [sarjakonsoli](/firmware/console/) ja yhdistä levysi.
-Täytä oma Wi-Fi-verkkosi, salasanasi ja lentokenttäkoodisi ja liitä sitten
+Avaa tämän sivuston [sarjakonsoli](/firmware/console/) ja yhdistä korttisi.
+Täytä oman Wi-Fi-verkkosi nimi, salasana ja lentokenttäkoodi. Liitä sitten
 nämä rivit yksi kerrallaan:
 
 ```text
@@ -70,27 +71,27 @@ set mqtt.iata AMS
 reboot
 ```
 
-Uudelleenkäynnistyksen jälkeen levy liittyy Wi-Fiisi ja asettaa kellonsa
-internetistä. Välittäjät tarvitsevat tuon kellon tarkistaakseen, kuka
-havainnoijasi on. Ilman lentokenttäkoodia mitään ei raportoida.
+Uudelleenkäynnistyksen jälkeen kortti liittyy Wi-Fi-verkkoosi ja hakee
+kellonajan internetistä. Brokerit tarvitsevat kellonajan tunnistaakseen
+observerisi. Ilman lentokenttäkoodia mitään ei raportoida.
 
-Klikkaatko mieluummin kuin kirjoitat? `start webconfig` avaa asetussivun
-levyllä, osoitteessa, jonka konsoli näyttää. Kirjaudu sisään ylläpitäjän
-salasanallasi.
+Napsautatko mieluummin kuin kirjoitat? `start webconfig` avaa kortille
+asetussivun osoitteessa, jonka konsoli näyttää. Kirjaudu sisään ylläpitäjän
+salasanalla.
 
-## Välittäjäpaikat {#brokers}
+## Broker-paikat {#brokers}
 
-Yksi paikka sisältää yhden välittäjän. Laiteohjelmistossa nämä paikat ovat
+Yhteen paikkaan mahtuu yksi broker. Laiteohjelmistossa nämä paikat ovat
 valmiiksi täytettyinä:
 
-| Paikka | Välittäjä | Ylläpitäjä |
+| Paikka | Broker | Ylläpitäjä |
 | --- | --- | --- |
 | 1 | `dutchmeshcore-1` | Dutch-MeshCore |
 | 2 | `dutchmeshcore-2` | Dutch-MeshCore |
 | 3 | `meshcore-analyzer-eu` | MeshCore Analyzer |
 
-Levyllä ilman lisämuistia (PSRAM), kuten Heltec V3:lla, on 3 paikkaa. Se
-yhdistää niistä 2:een kerralla, joten paikassa 3 oleva Analyzer ei koskaan
+Kortissa ilman lisämuistia (PSRAM), kuten Heltec V3:ssa, on 3 paikkaa. Se
+yhdistää 2:een niistä kerrallaan, joten paikan 3 Analyzer ei koskaan
 yhdisty. Siirrä se paikkaan 1:
 
 ```text
@@ -98,17 +99,17 @@ set mqtt3.preset none
 set mqtt1.preset meshcore-analyzer-eu
 ```
 
-Levyllä, jossa on PSRAM, kuten Heltec V4:llä, on 6 paikkaa, ja se yhdistää
-5:een kerralla. Siihen ei tarvita muutosta.
+PSRAM-kortissa, kuten Heltec V4:ssä, on 6 paikkaa, ja se yhdistää 5:een
+kerrallaan. Siihen ei tarvitse tehdä muutoksia.
 
-Solmusi kirjautuu jokaiseen välittäjään omalla avaimellaan, joten et tarvitse
-tiliä. `get mqtt.presets` luettelee muut laiteohjelmiston tuntemat yhteisön
-välittäjät.
+Solmusi kirjautuu jokaiseen brokeriin omalla avaimellaan, joten et tarvitse
+tiliä. `get mqtt.presets` listaa muut yhteisön brokerit, jotka
+laiteohjelmisto tuntee.
 
-### Oma välittäjäsi {#own}
+### Oma broker {#own}
 
-Laita oma välittäjäsi vapaaseen paikkaan. Täytä sen osoite, portti,
-käyttäjätunnus ja salasana. Levyllä, jossa on PSRAM, paikka 4 on vapaa:
+Laita oma brokerisi vapaaseen paikkaan. Täytä sen osoite, portti,
+käyttäjätunnus ja salasana. PSRAM-kortissa paikka 4 on vapaa:
 
 ```text
 set mqtt4.preset custom
@@ -118,17 +119,17 @@ set mqtt4.username my_username
 set mqtt4.password my_password
 ```
 
-Levyllä ilman PSRAM-muistia käytä sen sijaan paikkaa 2: korvaa `mqtt4`
-arvolla `mqtt2`. Välittäjäsi tulee silloin `dutchmeshcore-2`:n tilalle.
+Kortissa ilman PSRAMia käytä sen sijaan paikkaa 2: vaihda `mqtt4` tilalle
+`mqtt2`. Brokerisi tulee silloin `dutchmeshcore-2`:n paikalle.
 
-Portti `8883` yhdistää salattuna (TLS), portti `443` salattuna
-web-yhteyden kautta (websocket) ja mikä tahansa muu portti salaamattomana.
-Voit antaa myös koko osoitteen, esimerkiksi `wss://mqtt.example.org:9002/mqtt`;
-silloin porttisääntö ei päde.
+Portti `8883` muodostaa salatun yhteyden (TLS). Portti `443` muodostaa salatun
+yhteyden verkkoyhteyden (websocket) yli. Muut portit yhdistävät salaamatta.
+Voit myös antaa koko osoitteen, kuten `wss://mqtt.example.org:9002/mqtt`.
+Silloin porttisääntö ei ole voimassa.
 
 ## Tarkista, että se toimii {#check}
 
-Kirjoita `get mqtt.status`. Jokainen paikka näyttää tilansa:
+Kirjoita `get mqtt.status`. Jokaisen paikan tila näkyy:
 
 ```text
 > msgs: on, 1: meshcore-analyzer-eu (ok), 2: dutchmeshcore-2 (ok), q:0
@@ -136,13 +137,12 @@ Kirjoita `get mqtt.status`. Jokainen paikka näyttää tilansa:
 
 - `ok`: yhdistetty.
 - `wait`: paikasta puuttuu asetus, esimerkiksi lentokenttäkoodi.
-- `disc`: ei vielä yhdistetty. Tarkista Wi-Fisi komennolla `get wifi.status`.
-- `fail`: paikka epäonnistui 7 kertaa peräkkäin noin 20 minuutin aikana ja
-  yrittää nyt kerran 30 minuutissa. Tarkista välittäjän osoite ja
-  kirjautumistiedot.
-- `inactive`: levyllä ei ole tilaa tälle paikalle. Katso
-  [Välittäjäpaikat](#brokers).
+- `disc`: ei vielä yhdistetty. Tarkista Wi-Fi komennolla `get wifi.status`.
+- `fail`: paikka epäonnistui 7 kertaa peräkkäin noin 20 minuutin aikana. Nyt
+  se yrittää kerran 30 minuutissa. Tarkista brokerin osoite ja kirjautumistiedot.
+- `inactive`: kortilla ei ole tilaa tälle paikalle. Katso
+  [Broker-paikat](#brokers).
 
-Etsi sitten toistimesi nimi
-[Analyzerin havainnoijasivulta](https://meshcore-analyzer.eu/#observers).
-Se ilmestyy sinne 5 minuutin kuluessa yhdessä kuulemansa kanssa.
+Etsi sitten toistimesi nimeä
+[Analyzerin observer-sivulta](https://meshcore-analyzer.eu/#observers).
+Se ilmestyy sinne 5 minuutin kuluessa kuulemiensa viestien kanssa.

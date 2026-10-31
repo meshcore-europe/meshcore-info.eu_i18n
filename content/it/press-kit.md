@@ -1,17 +1,18 @@
 ---
-title: Promo e kit per la stampa
+title: Kit promo e stampa
 lead: Fai conoscere meshcore-info.eu con il logo, le immagini e un testo pronto. Usali in notizie e post, e cita meshcore-info.eu come fonte.
-description: Il logo, le immagini, i video e un breve testo su meshcore-info.eu, che la stampa e i gruppi locali possono usare liberamente.
+description: Il logo, le immagini, i video e un breve testo su meshcore-info.eu, liberi da usare per la stampa e i gruppi locali.
 build:
   render: never
   list: never
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
   source_hash: '5f2826cb'
-  seeded: '2026-10-26'
+  seeded: '2026-10-31'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
   sections: ['e3b0c442', '86fe9fc6', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '70fa58b3', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Informazioni sul sito {#about}
@@ -20,15 +21,15 @@ translation:
 impostazioni, le guide e gli strumenti che le mesh locali condividono.
 
 **In 1 paragrafo.** MeshCore invia messaggi via radio, senza internet
-e senza abbonamento. Piccole radio LoRa chiamate ripetitori inoltrano ogni messaggio,
-e in tutta Europa le loro mesh si collegano in una sola. Le regioni, le aree in cui un messaggio
-rimane, tengono il traffico locale, quindi le tue impostazioni dipendono da dove vivi. meshcore-info.eu raccoglie quelle impostazioni, le
+né abbonamento. Piccole radio LoRa chiamate ripetitori inoltrano ogni messaggio,
+e in tutta Europa le loro mesh si uniscono in una sola. Le regioni, le aree in cui un messaggio
+resta, mantengono il traffico in zona, quindi le tue impostazioni dipendono da dove vivi. meshcore-info.eu raccoglie queste impostazioni, le
 guide e gli strumenti in un unico posto, in 16 lingue. Ti indica anche
-il gruppo locale vicino a te. Lo scrivono volontari, senza pubblicità, link a negozi o
+il gruppo locale più vicino a te. Lo scrivono dei volontari, senza pubblicità, link a negozi o
 tracciamento.
 
-Copia uno dei due testi così com'è, oppure accorcialo. Scrivi il nome del sito così: meshcore-info.eu,
-in minuscolo, con .eu. Per un testo più lungo, copia il comunicato stampa nel
+Copia uno dei due testi così com'è, oppure accorcialo. Scrivi il nome del sito come meshcore-info.eu,
+in minuscolo, con .eu. Per un testo più lungo, copia il comunicato stampa che trovi nel
 [post di lancio](/blog/welcome/).
 
 ## Logo {#logo}
@@ -58,21 +59,21 @@ in minuscolo, con .eu. Per un testo più lungo, copia il comunicato stampa nel
 ## Come usarli {#use}
 
 Usa il logo, l'icona, le immagini e i video in notizie, post e interventi su
-meshcore-info.eu o MeshCore. Usali anche per linkare il sito. Indica
+meshcore-info.eu o MeshCore. Usali anche per rimandare al sito. Indica
 meshcore-info.eu come fonte, con un link dove puoi. Puoi ridimensionarli e
-ritagliarli, e accorciare i video. Usa gli sfondi sui
-tuoi schermi.
+ritagliarli, e accorciare i video. Metti gli sfondi sugli
+schermi che usi.
 
-Non usarli in pubblicità, su prodotti o merchandising, o in un modo che
-suggerisca che ti sosteniamo. La musica nel video di lancio appartiene ai suoi
+Non usarli in pubblicità, su prodotti o merchandising, o in modo da
+lasciar intendere che ti sosteniamo. La musica del video di lancio appartiene ai suoi
 autori: usala solo con questo video.
 
-I testi di questa pagina e del resto del sito si possono usare liberamente con licenza
+Puoi usare liberamente i testi di questa pagina e del resto del sito con licenza
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
 
 meshcore-info.eu è un sito indipendente sulla mesh in Europa. Gli sviluppatori di MeshCore
 creano il firmware e l'app, su [meshcore.io](https://meshcore.io). Per
-il logo e i testi di MeshCore, vai lì.
+il logo e i testi di MeshCore, consulta quel sito.
 
 ## Domande {#contact}
 
@@ -81,7 +82,7 @@ Il team risponde alle domande della stampa e dei gruppi locali su
 
 ## Sfondi {#wallpapers}
 
-[![La città come un piccolo diorama su un piedistallo, uno sfondo metà chiaro, metà scuro](/media/wallpapers/20-press-kit-thumb.webp)](/wallpapers/)
+[![La città come un piccolo diorama su un piedistallo, uno sfondo metà chiaro e metà scuro](/media/wallpapers/20-press-kit-thumb.webp)](/wallpapers/)
 
-Ogni scena delle pagine di questo sito è anche uno sfondo per il desktop, in chiaro
-e in scuro. [Scarica le 27 scene come sfondi](/wallpapers/).
+Ogni scena delle pagine di questo sito è anche uno sfondo per il desktop, in versione chiara
+e scura. [Scarica le 27 scene come sfondi](/wallpapers/).

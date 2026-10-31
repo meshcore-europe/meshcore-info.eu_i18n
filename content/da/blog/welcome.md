@@ -1,73 +1,73 @@
 ---
-title: Ét site for mesh-nettet i Europa
+title: Ét sted for mesh-netværket i Europa
 date: '2026-10-27'
-description: meshcore-info.eu samler de indstillinger, guides og værktøjer, som de lokale mesh-net deler, på 16 sprog. Kopiér pressemeddelelsen og pressekittet herfra.
-# Fixed the wording? Set status to human, or a change to the English there can replace your fix.
+description: meshcore-info.eu samler de indstillinger, guides og værktøjer, som de lokale mesh-netværk deler, på 16 sprog. Her kan du kopiere pressemeddelelsen og pressekittet.
+# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '035fdb30'
-  seeded: '2026-10-26'
+  source_hash: '67a849bd'
+  seeded: '2026-10-31'
   fields: {title: 'c8779ff6', description: '9aa475b2'}
-  sections: ['ed53d595', '2b35fd01', '7a4d32fc', '827595d5']
+  sections: ['ed53d595', 'b09a80c5', '7a4d32fc', '5706973d']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', 'c478e66e', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '13b0211b', '7f458074']
 ---
 
 meshcore-info.eu forklarer MeshCore for Europa: de indstillinger, guides og
-værktøjer, som de lokale mesh-net deler. Pressemeddelelsen nedenfor må frit kopieres.
+værktøjer, som de lokale mesh-netværk deler. Du må frit kopiere pressemeddelelsen nedenfor.
 
 ## Pressemeddelelse {#press-release}
 
-Kopiér denne tekst til dit nyhedssite, nyhedsbrev eller din gruppechat. Brug den,
-som den er, eller forkort den. Angiv meshcore-info.eu som kilde, med små bogstaver og med .eu.
+Kopiér teksten til din nyhedsside, dit nyhedsbrev eller din gruppechat. Brug den,
+som den er, eller forkort den. Angiv meshcore-info.eu som kilde, med små bogstaver og .eu.
 
-**meshcore-info.eu samler MeshCore-indstillinger, guides og værktøjer for Europa.**
+**meshcore-info.eu samler indstillinger, guides og værktøjer til MeshCore for Europa.**
 
-**Hvem og hvad.** MeshCore er en ny måde at sende beskeder på uden for nettet. Det
-sender korte tekster via radio, fra node til node, uden internet og uden
-abonnement. Repeatere, små LoRa-radioer, sender hver besked videre. Mesh-nettet
-fungerer stadig under strømafbrydelser, og når internettet er nede. Et lokalsamfund kan
-blive ved med at sende beskeder, når de sædvanlige net svigter, så længe repeaterne har strøm. Det
-overfører hverken tale eller billeder og erstatter ikke beredskabet. Den
+**Hvem og hvad.** Med MeshCore kan du sende beskeder uden for de almindelige net.
+Korte tekster går via radio fra node til node, uden internet eller abonnement.
+Repeatere, små LoRa-radioer, sender hver besked videre. Mesh-netværket
+virker også under strømsvigt, eller når internettet er nede, så længe
+repeaterne har strøm. Det
+overfører ikke tale eller billeder, og det erstatter ikke alarmcentralen. Den
 22. oktober 2026 havde meshcore-analyzer.eu hørt 30.240 repeatere i
-Europa inden for 7 dage.
+Europa på 7 dage.
 
 Lokale grupper driver disse repeatere. Indtil nu lå deres indstillinger,
-guides og værktøjer spredt per land eller per fællesskab. meshcore-info.eu samler
-dem for hele Europa, på 16 sprog. Frivillige skriver det, uden reklamer,
-butikslinks eller tracking.
+guides og værktøjer spredt efter land eller fællesskab. meshcore-info.eu samler
+dem for Europa, på 16 sprog. Frivillige skriver siden, uden reklamer,
+butikslinks eller sporing.
 
 **Sådan fungerer det.**
 
-- Åbn meshcore-info.eu på dit sprog: sitet findes på 16.
-- Find guides om [hardware](/devices/), roller og [indstillinger](/guides/) og om,
+- Åbn meshcore-info.eu på dit sprog: siden findes på 16.
+- Find guides om [hardware](/devices/), roller og [indstillinger](/guides/), og om
   [hvordan MeshCore fungerer](/about/).
 - Find den [lokale gruppe](/community/) nær dig, eller tilføj din egen.
 - Tilføj de indstillinger, dit område bruger, under [Anbefalede indstillinger](/guides/settings/).
-- Ret alt på sitet, som på en wiki. En frivillig tjekker hver ændring,
-  før den vises på sitet. [Bidrag](/contribute/) viser hvordan, med eller
+- Ret hvad som helst på siden, som i en wiki. En frivillig tjekker hver ændring,
+  før den vises på siden. Under [Bidrag](/contribute/) kan du se hvordan, med eller
   uden en GitHub-konto.
 
-**Hvorfor det er vigtigt.** Fællesskaber over hele Europa driver MeshCore side om side. Med
-de rigtige indstillinger bliver deres mesh-net til ét mesh. Derfor findes der ét site
-at starte fra.
+**Derfor er det vigtigt.** Fællesskaber over hele Europa driver MeshCore side om side. Med
+de rigtige indstillinger bliver deres mesh-netværk til ét mesh.
 
 ## Logo, billeder og videoer {#press-kit}
 
-[Promo- og pressekittet](/press-kit/) indeholder logoet, billederne og
+I [Promo- og pressekit](/press-kit/) finder du logoet, billederne og
 lanceringsvideoerne. Brug dem i nyheder og opslag, og angiv meshcore-info.eu som kilde.
 
 ## Løfterne {#promises}
 
-- **Ingen reklamer, ingen butikslinks, ingen affiliate-links.** Siden [Enheder](/devices/)
-  viser producenternes specifikationer og et prisniveau. Den linker aldrig til en
+- **Ingen reklamer, butikslinks eller affiliate-links.** Siden [Enheder](/devices/)
+  viser producenternes specifikationer og et prisinterval. Den linker aldrig til en
   butik.
-- **Ingen tracking.** Ingen analyseværktøjer, ingen trackere. Den eneste cookie husker dit
-  temavalg. Den eneste anden server, sitet kontakter, er meshcore-analyzer.eu,
-  som de samme frivillige driver. [Privatlivssiden](/privacy/) har detaljerne.
+- **Ingen sporing.** Siden bruger ingen analyseværktøjer eller trackere. Den eneste cookie husker dit
+  valg af tema. Den eneste anden server, siden kontakter, er meshcore-analyzer.eu,
+  som de samme frivillige driver. Detaljerne står på [privatlivssiden](/privacy/).
 - **Kilder til fakta.** Det, vi skriver om MeshCore, kommer fra dets firmware
-  og dokumentation. Radioreglerne kommer fra myndighederne.
-- **Dit sprog.** Sitet findes på 16 sprog. Siderne begynder som
-  maskinoversættelser og er markeret som sådan, indtil en person med sproget som modersmål har tjekket
+  og dokumentation. Reglerne for radio kommer fra myndighederne.
+- **Dit sprog.** Siden findes på 16 sprog. Siderne starter som
+  maskinoversættelser og er markeret som det, indtil en modersmålstaler har tjekket
   dem.
 
 Alt er open source. Mangler din lokale gruppe, eller er en oplysning forkert?
-[Sådan hjælper du](/contribute/).
+[Sådan kan du hjælpe](/contribute/).
