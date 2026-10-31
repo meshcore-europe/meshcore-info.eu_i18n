@@ -3,7 +3,7 @@ title: Meedoen
 lead: Vrijwilligers schrijven, controleren en vertalen deze gids. Zo help je mee, met of zonder GitHub-account.
 description: Voeg je community, een apparaat of een project toe, controleer een vertaling of verbeter een gids op meshcore-info.eu.
 translation:
-  status: human
+  status: ai
   source_hash: 'f3ed6e9b'
   seeded: '2026-10-26'
 ---
