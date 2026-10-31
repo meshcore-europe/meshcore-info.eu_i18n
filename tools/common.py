@@ -47,6 +47,12 @@ def languages(root: Path = ROOT) -> list[Language]:
     return [Language(key, conf["label"], conf.get("locale", key)) for key, conf in entries]
 
 
+def site_languages(root: Path = ROOT) -> list[Language]:
+    """The languages a visitor sees: English, and each language whose home page is
+    translated. A new language starts with no pages (src/lib/site.mjs)."""
+    return [l for l in languages(root) if l.key == "en" or (root / "content" / l.key / "_index.md").is_file()]
+
+
 class _StringDateLoader(yaml.SafeLoader):
     """SafeLoader that keeps dates as the strings written in the file.
 

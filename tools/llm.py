@@ -46,6 +46,23 @@ LANG_NAMES = {
     "pl": "Polish", "pt": "European Portuguese (Portugal, not Brazil)", "cs": "Czech",
     "sv": "Swedish", "da": "Danish", "nb": "Norwegian Bokmål", "fi": "Finnish",
     "hu": "Hungarian", "ro": "Romanian", "el": "Greek",
+    "fy": "West Frisian (Frysk, as written in Fryslân)",
+    "bg": "Bulgarian",
+    "hr": "Croatian",
+    "et": "Estonian",
+    "ga": "Irish (Gaeilge)",
+    "lv": "Latvian",
+    "lt": "Lithuanian",
+    "mt": "Maltese",
+    "sk": "Slovak",
+    "sl": "Slovenian",
+    "sr": "Serbian in Latin script (never Cyrillic)",
+    "uk": "Ukrainian",
+    "ca": "Catalan",
+    "eu": "Basque",
+    "gl": "Galician",
+    "cy": "Welsh",
+    "lb": "Luxembourgish",
 }
 
 # The rules every translation follows, from docs/design/ui-copy.md
