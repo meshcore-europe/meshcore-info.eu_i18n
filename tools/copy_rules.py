@@ -104,12 +104,16 @@ NUMBER_WORDS = {
 FILLER = {
     "en": [r"\bsimply\b", r"\bjust\b", r"\bactually\b", r"\breally\b", r"\bseamless(ly)?\b", r"\bpowerful\b",
            r"\bsmart\b", r"\brobust\b", r"\bsnappy\b", r"\bblazing\b", r"\bcutting-edge\b", r"\bsuper\b",
-           r"\bdive into\b", r"\bin today's\b", r"\bit's not just\b"],
+           r"\bdive into\b", r"\bin today's\b", r"\bit's not just\b",
+           r"\bserves as\b", r"\bacts as\b", r"\bstands as\b",
+           r"\bexperts (say|agree)\b", r"\bstudies show\b", r"\bmany (people|users) (say|find)\b"],
     "nl": [r"\bgewoon\b", r"\beigenlijk\b", r"\beven\b", r"\becht\b", r"\bnaadloos\b", r"\bkrachtig\w*\b",
            r"\bslim(me)?\b", r"\beenvoudig\w*\b", r"\bsupersnel\w*\b", r"\bgeavanceerd\w*\b", r"\bsuper\b",
-           r"\been soort van\b", r"\bin principe\b", r"\bduik erin\b", r"\bin het huidige landschap\b"],
+           r"\been soort van\b", r"\bin principe\b", r"\bduik erin\b", r"\bin het huidige landschap\b",
+           r"\bfungeert als\b", r"\bdient als\b", r"\bexperts zeggen\b", r"\bonderzoek toont aan\b"],
     "de": [r"\beinfach\b", r"\beigentlich\b", r"\bwirklich\b", r"\bnahtlos\w*\b", r"\bleistungsstark\w*\b",
-           r"\bsmart\w*\b", r"\bblitzschnell\w*\b", r"\bsuper\b"],
+           r"\bsmart\w*\b", r"\bblitzschnell\w*\b", r"\bsuper\b",
+           r"\bdient als\b", r"\bfungiert als\b", r"\bExperten sagen\b", r"\bStudien zeigen\b"],
 }
 
 # ui-copy.md section 3: no politeness filler and no apologies.
