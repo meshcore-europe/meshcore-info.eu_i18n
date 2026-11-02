@@ -1,7 +1,7 @@
 ---
 title: "One site for the mesh in Europe"
 date: 2026-10-27
-description: "meshcore-info.eu collects the settings, guides and tools the local meshes share, in 16 languages. Copy the press release and the press kit from here."
+description: "meshcore-info.eu collects the settings, guides and tools the local meshes share, in 33 languages. Copy the press release and the press kit from here."
 ---
 
 meshcore-info.eu explains MeshCore for Europe: the settings, guides and
@@ -25,7 +25,7 @@ Europe in 7 days.
 
 Local groups run those repeaters. Until now, their settings,
 guides and tools sat per country or per community. meshcore-info.eu brings
-them together for Europe, in 16 languages. Volunteers write it, without ads,
+them together for Europe, in 33 languages. Volunteers write it, without ads,
 shop links or tracking.
 
 **How it works.**
@@ -57,7 +57,7 @@ videos. Use them in news and posts, and name meshcore-info.eu as the source.
   run by the same volunteers. The [privacy page](/privacy/) has the details.
 - **Sources for facts.** What we write about MeshCore comes from its firmware
   and documentation. Radio rules come from the regulators.
-- **Your language.** The site is available in 16 languages. Pages start as
+- **Your language.** The site is available in 33 languages. Pages start as
   machine translations, marked as such until a native speaker has checked
   them.
 

@@ -17,7 +17,7 @@ settings, guides and tools the local meshes share.
 or a subscription. Small LoRa radios called repeaters pass each message on,
 and across Europe their meshes connect into one. Regions, the areas a message
 stays in, keep traffic local, so your settings depend on where you live. meshcore-info.eu collects those settings, the
-guides and the tools in one place, in 16 languages. It also points you to
+guides and the tools in one place, in 33 languages. It also points you to
 the local group near you. Volunteers write it, without ads, shop links or
 tracking.
 
