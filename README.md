@@ -1,7 +1,7 @@
 # meshcore-info.eu translations
 
 Translations of [meshcore-info.eu](https://meshcore-info.eu), the
-non-commercial community guide to MeshCore in Europe, into 15 languages. The
+non-commercial community guide to MeshCore in Europe, into 32 languages. The
 site itself lives in [meshcore-europe/meshcore-info.eu](https://github.com/meshcore-europe/meshcore-info.eu);
 this repository holds only the translated text, so translators can work
 without touching the site's code.
@@ -20,7 +20,10 @@ and share its MeshCore glossaries.
 | `tools/`, `hugo.toml`, `data/schema/` | Checks and seeders | No: copied from the site |
 
 Languages: nl, de, fr, es, it, pl, pt (European Portuguese), cs, sv, da, nb,
-fi, hu, ro, el.
+fi, hu, ro, el, fy, bg, hr, et, ga, lv, lt, mt, sk, sl, sr (Latin script), uk,
+ca, eu, gl, cy, lb. A language shows on the site once its home page,
+`content/<lang>/_index.md`, is translated. Not every language has a glossary
+yet.
 
 ## How to improve a translation
 

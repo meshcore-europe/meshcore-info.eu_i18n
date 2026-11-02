@@ -35,6 +35,9 @@ repeater	repeater
   private key. They were drafted without a native speaker: technical terms
   that communities usually keep in English (flood, mesh, often repeater and
   advert) stay English. A native speaker's review is welcome.
+- **None yet**: the languages added on 31 October 2026 (fy, bg, hr, et, ga, lv,
+  lt, mt, sk, sl, sr, uk, ca, eu, gl, cy, lb). The seeders work without a
+  glossary; a correction goes in `site/<lang>.tsv`.
 
 ```sh
 python tools/sync_glossary.py          # update synced files
