@@ -5,11 +5,11 @@ description: meshcore-info.eu kogub kohalike võrkude jagatud seadistused, juhen
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu tutvustab MeshCore'i Euroopa kasutajatele: siit leiad kohalike mesh-võrkude ühised seaded,
@@ -36,14 +36,14 @@ poelinkide ja jälgimiseta.
 
 **Kuidas see töötab.**
 
-- Ava meshcore-info.eu oma keeles: sait on saadaval 16 keeles.
-- Leia juhendeid [riistvara](/devices/), rollide ja [seadete](/guides/) kohta ning
-  selle kohta, [kuidas MeshCore töötab](/about/).
-- Leia oma lähedal tegutsev [kohalik grupp](/community/) või lisa enda oma.
+- Ava meshcore-info.eu oma keeles: sait on saadaval 33 keeles.
+- Leia juhendid [riistvara](/devices/), rollide ja [seadete](/guides/) kohta ning selle kohta,
+  [kuidas MeshCore töötab](/about/).
+- Leia enda lähedalt [kohalik grupp](/community/) või lisa oma grupp.
 - Lisa oma piirkonnas kasutatavad seaded lehele [Soovitatud seaded](/guides/settings/).
-- Paranda saidil ükskõik mida, nagu vikis. Vabatahtlik kontrollib iga muudatust,
-  enne kui see saidile ilmub. Lehelt [Panusta](/contribute/) näed, kuidas seda teha,
-  GitHub-kontoga või ilma.
+- Paranda saidil mida tahes, nagu vikis. Vabatahtlik kontrollib iga muudatust,
+  enne kui see saidile ilmub. Lehelt [Panusta](/contribute/) näed, kuidas seda teha, GitHubi kontoga või
+  ilma selleta.
 
 **Miks see on oluline.** Kogu Euroopas kasutavad kogukonnad MeshCore'i kõrvuti. Õigete
 seadetega moodustavad nende mesh-võrgud ühe mesh-võrgu.

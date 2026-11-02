@@ -5,11 +5,11 @@ description: meshcore-info.eu adună setările, ghidurile și instrumentele pe c
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu explică MeshCore pentru Europa: setările, ghidurile și
@@ -38,13 +38,13 @@ linkuri către magazine sau urmărire.
 
 **Cum funcționează.**
 
-- Deschide meshcore-info.eu în limba ta: site-ul este disponibil în 16 limbi.
-- Găsești ghiduri despre [hardware](/devices/), roluri și [setări](/guides/), și despre
+- Deschide meshcore-info.eu în limba ta: site-ul este disponibil în 33 de limbi.
+- Găsește ghiduri despre [hardware](/devices/), roluri și [setări](/guides/), și despre
   [cum funcționează MeshCore](/about/).
-- Găsește [grupul local](/community/) din apropierea ta sau adaugă-l pe al tău.
-- Adaugă setările folosite în zona ta în [Setări recomandate](/guides/settings/).
+- Găsește [grupul local](/community/) de lângă tine sau adaugă-l pe al tău.
+- Adaugă la [Setări recomandate](/guides/settings/) setările folosite în zona ta.
 - Corectează orice de pe site, ca pe un wiki. Un voluntar verifică fiecare modificare
-  înainte să apară pe site. Pe pagina [Contribuie](/contribute/) afli cum, cu sau
+  înainte să apară pe site. Pagina [Contribuie](/contribute/) îți arată cum, cu sau
   fără cont GitHub.
 
 **De ce contează.** Comunități din toată Europa folosesc MeshCore una lângă alta. Cu

@@ -5,11 +5,11 @@ description: meshcore-info.eu събира настройките, ръково�
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu обяснява MeshCore за Европа: настройките, ръководствата и
@@ -38,13 +38,13 @@ meshcore-info.eu обяснява MeshCore за Европа: настройки
 
 **Как работи.**
 
-- Отвори meshcore-info.eu на своя език: сайтът е на 16 езика.
+- Отвори meshcore-info.eu на своя език: сайтът е на 33 езика.
 - Намери ръководства за [хардуера](/devices/), ролите и [настройките](/guides/), както и за
-  това [как работи MeshCore](/about/).
+  [това как работи MeshCore](/about/).
 - Намери [местната група](/community/) близо до теб или добави своята.
-- Добави настройките от своя район в [Препоръчани настройки](/guides/settings/).
-- Поправи каквото и да е на сайта, както в уики. Доброволец проверява всяка промяна,
-  преди тя да се появи на сайта. В [Допринеси](/contribute/) ще видиш как става, с или
+- Добави настройките, които се ползват в твоя район, в [Препоръчителни настройки](/guides/settings/).
+- Поправи каквото и да е на сайта, като в уики. Доброволец проверява всяка промяна,
+  преди тя да се появи на сайта. [Допринеси](/contribute/) показва как, с или
   без GitHub акаунт.
 
 **Защо е важно.** Общности в цяла Европа използват MeshCore една до друга. С

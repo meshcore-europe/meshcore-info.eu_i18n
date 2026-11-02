@@ -5,11 +5,11 @@ description: meshcore-info.eu sy'n casglu'r gosodiadau, y canllawiau a'r offer y
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 Mae meshcore-info.eu yn esbonio MeshCore ar gyfer Ewrop: y gosodiadau, y canllawiau
@@ -36,14 +36,14 @@ dolenni i siopau nac olrhain.
 
 **Sut mae'n gweithio.**
 
-- Agora meshcore-info.eu yn dy iaith di: mae'r wefan ar gael mewn 16 iaith.
-- Chwilia am ganllawiau ar [galedwedd](/devices/), rolau a [gosodiadau](/guides/), ac ar
+- Agora meshcore-info.eu yn dy iaith di: mae'r wefan ar gael mewn 33 iaith.
+- Ffeindia ganllawiau ar [galedwedd](/devices/), rolau a [gosodiadau](/guides/), ac ar
   [sut mae MeshCore yn gweithio](/about/).
-- Chwilia am y [grŵp lleol](/community/) agosaf atat ti, neu ychwanega dy grŵp di.
-- Ychwanega'r gosodiadau y mae dy ardal yn eu defnyddio at [Gosodiadau a argymhellir](/guides/settings/).
+- Ffeindia'r [grŵp lleol](/community/) sy'n agos atat ti, neu ychwanega dy grŵp di.
+- Ychwanega'r gosodiadau y mae dy ardal di'n eu defnyddio at [Gosodiadau a argymhellir](/guides/settings/).
 - Cywira unrhyw beth ar y wefan, fel ar wici. Mae gwirfoddolwr yn gwirio pob newid
-  cyn iddo ymddangos ar y wefan. Mae [Cyfrannu](/contribute/) yn dangos sut, gyda chyfrif GitHub
-  neu hebddo.
+  cyn iddo ymddangos ar y wefan. Mae [Cyfrannu](/contribute/) yn dangos sut, gyda chyfrif GitHub neu
+  hebddo.
 
 **Pam mae'n bwysig.** Mae cymunedau ledled Ewrop yn rhedeg MeshCore ochr yn ochr. Gyda'r
 gosodiadau cywir, mae eu rhwyllau'n ffurfio un rhwyll.

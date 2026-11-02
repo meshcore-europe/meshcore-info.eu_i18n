@@ -5,11 +5,11 @@ description: meshcore-info.eu sammelt die Einstellungen, Anleitungen und Tools, 
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu erklärt MeshCore für Europa: die Einstellungen, Anleitungen und
@@ -38,14 +38,14 @@ Shop-Links oder Tracking.
 
 **So funktioniert es.**
 
-- Öffne meshcore-info.eu in deiner Sprache: Die Website gibt es in 16 Sprachen.
-- Du findest Anleitungen zu [Hardware](/devices/), Rollen und [Einstellungen](/guides/) und dazu,
-  [wie MeshCore funktioniert](/about/).
+- Öffne meshcore-info.eu in deiner Sprache: Die Seite gibt es in 33 Sprachen.
+- Finde Anleitungen zu [Hardware](/devices/), Rollen und [Einstellungen](/guides/) sowie
+  dazu, [wie MeshCore funktioniert](/about/).
 - Finde die [lokale Gruppe](/community/) in deiner Nähe oder trage deine eigene ein.
-- Trage die Einstellungen deiner Gegend unter [Empfohlene Einstellungen](/guides/settings/) ein.
-- Du kannst alles auf der Website korrigieren, wie in einem Wiki. Ein Ehrenamtlicher prüft jede Änderung,
-  bevor sie auf der Website erscheint. Unter [Mitmachen](/contribute/) steht, wie das geht, mit oder
-  ohne GitHub-Konto.
+- Trage unter [Empfohlene Einstellungen](/guides/settings/) die Einstellungen ein, die deine Gegend nutzt.
+- Korrigiere alles auf der Seite, wie in einem Wiki. Ein Freiwilliger prüft jede Änderung,
+  bevor sie auf der Seite erscheint. [Mitmachen](/contribute/) zeigt dir, wie das mit oder
+  ohne GitHub-Konto geht.
 
 **Warum das wichtig ist.** Communities in ganz Europa betreiben MeshCore nebeneinander. Mit
 den richtigen Einstellungen werden ihre Meshes zu einem Mesh.

@@ -5,11 +5,11 @@ description: meshcore-info.eu apkopo vietējo tīklu kopīgotos iestatījumus, c
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu skaidro MeshCore Eiropas lietotājiem: šeit ir iestatījumi, ceļveži un
@@ -37,14 +37,13 @@ veikalu saitēm vai izsekošanas.
 
 **Kā tas darbojas.**
 
-- Atver meshcore-info.eu savā valodā: vietne ir pieejama 16 valodās.
-- Atrodi ceļvežus par [aparatūru](/devices/), lomām un [iestatījumiem](/guides/), kā arī
-  par to, [kā darbojas MeshCore](/about/).
-- Atrodi tuvāko [vietējo grupu](/community/) vai pievieno savu.
-- Pievieno sava apvidus iestatījumus lapā [Ieteicamie iestatījumi](/guides/settings/).
-- Labo vietnē jebko, tāpat kā wiki. Brīvprātīgais pārbauda katru labojumu,
-  pirms tas parādās vietnē. Lapā [Piedalies](/contribute/) uzzināsi, kā to izdarīt, ar
-  GitHub kontu vai bez tā.
+- Atver meshcore-info.eu savā valodā: vietne ir pieejama 33 valodās.
+- Atrodi pamācības par [aparatūru](/devices/), lomām un [iestatījumiem](/guides/), kā arī par to,
+  [kā darbojas MeshCore](/about/).
+- Atrodi [vietējo grupu](/community/) sev tuvumā vai pievieno savu.
+- Pievieno lapā [Ieteicamie iestatījumi](/guides/settings/) iestatījumus, ko lieto tavā apkārtnē.
+- Izlabo jebko vietnē, tāpat kā wiki. Brīvprātīgais pārbauda katru labojumu, pirms tas parādās
+  vietnē. Lapā [Piedalies](/contribute/) uzzināsi, kā to izdarīt ar GitHub kontu vai bez tā.
 
 **Kāpēc tas ir svarīgi.** Kopienas visā Eiropā izmanto MeshCore cita līdzās citai. Ar
 pareizajiem iestatījumiem to mesh tīkli veido vienu mesh tīklu.

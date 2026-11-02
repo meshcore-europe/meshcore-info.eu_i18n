@@ -5,11 +5,11 @@ description: Bailíonn meshcore-info.eu na socruithe, na treoracha agus na huirl
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 Míníonn meshcore-info.eu MeshCore don Eoraip: na socruithe, na treoracha agus
@@ -37,14 +37,14 @@ gan naisc chuig siopaí agus gan rianú.
 
 **Conas a oibríonn sé.**
 
-- Oscail meshcore-info.eu i do theanga féin: tá 16 theanga ar an suíomh.
-- Aimsigh treoracha ar [chrua-earraí](/devices/), ar róil agus ar [shocruithe](/guides/), agus ar
-  [conas a oibríonn MeshCore](/about/).
-- Aimsigh an [grúpa áitiúil](/community/) is gaire duit, nó cuir do ghrúpa féin leis.
+- Oscail meshcore-info.eu i do theanga féin: tá an suíomh ar fáil i 33 teanga.
+- Faigh treoracha faoi [chrua-earraí](/devices/), faoi róil agus faoi [shocruithe](/guides/), agus faoin
+  [gcaoi a n-oibríonn MeshCore](/about/).
+- Aimsigh an [grúpa áitiúil](/community/) in aice leat, nó cuir do ghrúpa féin leis.
 - Cuir na socruithe a úsáidtear i do cheantar le [Socruithe molta](/guides/settings/).
 - Ceartaigh aon rud ar an suíomh, mar a dhéanfá ar vicí. Seiceálann oibrí deonach gach athrú
-  sula bhfeictear ar an suíomh é. Míníonn [Cuir leis an suíomh](/contribute/) conas é a dhéanamh,
-  le cuntas GitHub nó gan cheann.
+  sula bhfeictear ar an suíomh é. Taispeánann [Cuir leis](/contribute/) conas é sin a dhéanamh, le cuntas GitHub
+  nó gan cheann.
 
 **Cén fáth a bhfuil sé tábhachtach.** Oibríonn pobail ar fud na hEorpa MeshCore taobh le taobh. Leis
 na socruithe cearta, déanann a gcuid mogalraí mogalra amháin.

@@ -5,11 +5,11 @@ description: meshcore-info.eu recolle os axustes, as guías e as ferramentas que
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu explica MeshCore para Europa: os axustes, as guías e as
@@ -30,13 +30,13 @@ ligazóns a tendas nin rastrexo.
 
 **Como funciona.**
 
-- Abre meshcore-info.eu na túa lingua: o sitio está dispoñible en 16.
+- Abre meshcore-info.eu na túa lingua: o sitio está en 33.
 - Atopa guías sobre [hardware](/devices/), roles e [axustes](/guides/), e sobre
   [como funciona MeshCore](/about/).
-- Busca o [grupo local](/community/) máis próximo a ti ou engade o teu.
+- Atopa o [grupo local](/community/) preto de ti, ou engade o teu.
 - Engade a [Axustes recomendados](/guides/settings/) os axustes que se usan na túa zona.
 - Corrixe calquera cousa do sitio, como nunha wiki. Unha persoa voluntaria revisa cada cambio
-  antes de que apareza no sitio. En [Colaborar](/contribute/) explicámosche como facelo, con ou
+  antes de que apareza no sitio. [Colabora](/contribute/) explica como facelo, con ou
   sen conta de GitHub.
 
 **Por que importa.** Por toda Europa hai comunidades que usan MeshCore unhas á beira das outras. Cos axustes correctos, as súas mallas forman unha soa malla.

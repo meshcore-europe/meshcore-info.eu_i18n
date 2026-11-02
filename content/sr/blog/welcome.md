@@ -5,11 +5,11 @@ description: meshcore-info.eu prikuplja podešavanja, vodiče i alate koje lokal
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu objašnjava MeshCore za Evropu: podešavanja, vodiče i alate
@@ -36,13 +36,13 @@ linkova ka prodavnicama i praćenja.
 
 **Kako to funkcioniše.**
 
-- Otvori meshcore-info.eu na svom jeziku: sajt je dostupan na 16 jezika.
+- Otvori meshcore-info.eu na svom jeziku: sajt je dostupan na 33 jezika.
 - Pronađi vodiče o [hardveru](/devices/), ulogama i [podešavanjima](/guides/), kao i o
-  tome [kako MeshCore radi](/about/).
+  [tome kako MeshCore radi](/about/).
 - Pronađi [lokalnu grupu](/community/) u svojoj blizini ili dodaj svoju.
-- Dodaj podešavanja koja se koriste u tvom kraju na stranicu [Preporučena podešavanja](/guides/settings/).
-- Ispravi bilo šta na sajtu, kao na vikiju. Volonter proverava svaku izmenu
-  pre nego što se pojavi na sajtu. Na stranici [Doprinesi](/contribute/) piše kako se to radi, sa
+- Dodaj u [Preporučena podešavanja](/guides/settings/) ona koja se koriste u tvom kraju.
+- Ispravi bilo šta na sajtu, kao na wikiju. Volonter proverava svaku izmenu
+  pre nego što se pojavi na sajtu. Stranica [Doprinesi](/contribute/) pokazuje kako, sa
   GitHub nalogom ili bez njega.
 
 **Zašto je to važno.** Zajednice širom Evrope koriste MeshCore jedna pored druge. Uz

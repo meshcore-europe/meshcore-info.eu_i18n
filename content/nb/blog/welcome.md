@@ -5,11 +5,11 @@ description: meshcore-info.eu samler innstillingene, veiledningene og verktøyen
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu forklarer MeshCore for Europa: innstillingene, veiledningene og
@@ -38,13 +38,13 @@ sporing.
 
 **Slik fungerer det.**
 
-- Åpne meshcore-info.eu på ditt språk: nettstedet finnes på 16 språk.
+- Åpne meshcore-info.eu på språket ditt: nettstedet finnes på 33 språk.
 - Finn veiledninger om [maskinvare](/devices/), roller og [innstillinger](/guides/), og om
   [hvordan MeshCore fungerer](/about/).
-- Finn den [lokale gruppen](/community/) nær deg, eller legg til din egen.
-- Legg til innstillingene som området ditt bruker, under [Anbefalte innstillinger](/guides/settings/).
-- Rett opp hva som helst på nettstedet, som i en wiki. En frivillig sjekker hver endring
-  før den vises på nettstedet. På [Bidra](/contribute/) ser du hvordan, med eller
+- Finn den [lokale gruppen](/community/) i nærheten av deg, eller legg til din egen.
+- Legg til innstillingene som brukes i området ditt, i [Anbefalte innstillinger](/guides/settings/).
+- Rett hva som helst på nettstedet, som i en wiki. En frivillig sjekker hver endring
+  før den vises på nettstedet. [Bidra](/contribute/) viser hvordan du gjør det, med eller
   uten GitHub-konto.
 
 **Hvorfor det betyr noe.** Miljøer over hele Europa driver MeshCore side om side. Med
