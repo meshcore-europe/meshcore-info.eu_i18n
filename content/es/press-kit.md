@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '5f2826cb'
-  seeded: '2026-10-31'
+  source_hash: '9266fa2b'
+  seeded: '2026-11-02'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', '86fe9fc6', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '70fa58b3', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Sobre el sitio {#about}
@@ -20,14 +20,7 @@ translation:
 **En 1 frase.** meshcore-info.eu explica MeshCore para Europa: los ajustes,
 las guías y las herramientas que comparten las mallas locales.
 
-**En 1 párrafo.** MeshCore envía mensajes por radio, sin internet ni
-suscripción. Pequeñas radios LoRa llamadas repetidores reenvían cada mensaje,
-y en toda Europa sus mallas se unen en una sola. Las regiones, las zonas en
-las que se queda un mensaje, mantienen el tráfico local. Por eso tus ajustes
-dependen de dónde vives. meshcore-info.eu reúne esos ajustes, las guías y las
-herramientas en un solo lugar, en 16 idiomas. También te indica el grupo
-local más cercano. Lo escriben voluntarios, sin anuncios, enlaces a tiendas
-ni rastreo.
+**En 1 párrafo.** MeshCore envía mensajes por radio, sin internet ni suscripción. Unas pequeñas radios LoRa llamadas repetidores reenvían cada mensaje, y en toda Europa sus mallas se unen en una sola. Las regiones, las zonas donde se queda un mensaje, mantienen local el tráfico, así que tus ajustes dependen de dónde vivas. meshcore-info.eu reúne esos ajustes, las guías y las herramientas en un solo lugar, en 33 idiomas. También te indica el grupo local más cercano. Lo escriben voluntarios, sin publicidad, enlaces a tiendas ni rastreo.
 
 Copia cualquiera de los dos textos tal cual, o acórtalo. Escribe el nombre del
 sitio como meshcore-info.eu, en minúsculas y con .eu. Para un texto más

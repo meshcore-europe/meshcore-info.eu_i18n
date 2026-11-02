@@ -1,15 +1,15 @@
 ---
 title: Webgune bakarra Europako mesh sarearentzat
 date: '2026-10-27'
-description: meshcore-info.eu webguneak tokiko mesh sareek partekatzen dituzten ezarpenak, gidak eta tresnak biltzen ditu, 16 hizkuntzatan. Kopiatu hemendik prentsa-oharra eta prentsa-kita.
+description: meshcore-info.eu webguneak sare lokalek partekatzen dituzten ezarpenak, gidak eta tresnak biltzen ditu, 33 hizkuntzatan. Kopiatu hemendik prentsa-oharra eta prentsa-kita.
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '67a849bd'
+  source_hash: '948771c0'
   seeded: '2026-11-02'
-  fields: {title: 'c8779ff6', description: '9aa475b2'}
-  sections: ['ed53d595', 'b09a80c5', '7a4d32fc', '5706973d']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', 'c478e66e', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '13b0211b', '7f458074']
+  fields: {title: 'c8779ff6', description: '72955f63'}
+  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu webguneak MeshCore azaltzen du Europarako: tokiko mesh sareek
@@ -30,10 +30,10 @@ elikadura duten bitartean. Ez du ahotsik ez argazkirik eramaten, eta ez ditu
 larrialdi-zerbitzuak ordezkatzen. 2026ko urriaren 22an, meshcore-analyzer.eu webguneak
 30.240 errepikagailu entzunak zituen Europan, 7 egunetan.
 
-Tokiko taldeek kudeatzen dituzte errepikagailu horiek. Orain arte, haien ezarpenak, gidak
-eta tresnak herrialdeka edo komunitateka banatuta zeuden. meshcore-info.eu webguneak
-Europa osorako biltzen ditu, 16 hizkuntzatan. Boluntarioek idazten dute, iragarkirik,
-denda-estekarik eta jarraipenik gabe.
+Tokiko taldeek kudeatzen dituzte errepikagailu horiek. Orain arte, haien ezarpenak,
+gidak eta tresnak herrialdeka edo komunitateka banatuta zeuden. meshcore-info.eu webguneak
+Europarako biltzen ditu, 33 hizkuntzatan. Boluntarioek idazten dute, iragarkirik, denda-loturarik
+eta jarraipenik gabe.
 
 **Nola funtzionatzen du.**
 
@@ -56,17 +56,15 @@ Erabili albisteetan eta argitalpenetan, eta aipatu meshcore-info.eu iturri gisa.
 
 ## Promesak {#promises}
 
-- **Iragarkirik, denda-estekarik eta afiliazio-estekarik ez.** [Gailuak](/devices/) orrian
-  fabrikatzaileen zehaztapenak eta prezio-tarte bat ageri dira. Orri horrek ez du inoiz
-  dendarako estekarik ematen.
-- **Jarraipenik ez.** Webguneak ez du analitikarik ez jarraipen-tresnarik erabiltzen. Cookie
-  bakarrak zuk aukeratutako gaia gogoratzen du. Webguneak beste zerbitzari bakar bati egiten
-  dio eskaera: meshcore-analyzer.eu, boluntario berberek kudeatzen dutena. Xehetasunak
-  [pribatutasun-orrian](/privacy/) dituzu.
-- **Datuen iturriak.** MeshCoreri buruz idazten duguna haren firmwaretik eta dokumentaziotik
-  dator. Irrati-arauak erregulatzaileengandik datoz.
-- **Zure hizkuntza.** Webgunea 16 hizkuntzatan dago. Orriak itzulpen automatikoak dira
-  hasieran, eta hala markatuta daude jatorrizko hiztun batek berrikusi arte.
+- **Iragarkirik, denda-estekarik eta afiliazio-estekarik ez.** [Gailuak](/devices/) orriak fabrikatzaileen
+  zehaztapenak eta prezio-tarte bat erakusten ditu. Ez du inoiz dendetarako estekarik jartzen.
+- **Jarraipenik ez.** Webguneak ez du analitikarik ez jarraipen-tresnarik erabiltzen. Cookie bakarrak zuk
+  aukeratutako gaia gogoratzen du. Webguneak beste zerbitzari bakar bati egiten dizkio eskaerak: meshcore-analyzer.eu,
+  boluntario berek kudeatzen dutena. [Pribatutasun-orriak](/privacy/) xehetasunak ematen ditu.
+- **Datuen iturriak.** MeshCoreri buruz idazten duguna haren firmwaretik eta
+  dokumentaziotik dator. Irrati-arauak erregulatzaileengandik datoz.
+- **Zure hizkuntza.** Webgunea 33 hizkuntzatan dago. Hasieran, orriak itzulpen automatikoak dira,
+  eta hala markatuta daude jatorrizko hiztun batek egiaztatu arte.
 
 Dena kode irekikoa da. Zure tokiko taldea falta da, edo datu bat okerra da?
 [Hemen duzu nola lagundu](/contribute/).

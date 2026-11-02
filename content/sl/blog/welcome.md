@@ -1,15 +1,15 @@
 ---
 title: Eno spletno mesto za mesh v Evropi
 date: '2026-10-27'
-description: meshcore-info.eu zbira nastavitve, vodiče in orodja, ki si jih delijo lokalna omrežja mesh, v 16 jezikih. Tukaj lahko kopiraš sporočilo za javnost in medijski komplet.
+description: meshcore-info.eu zbira nastavitve, vodnike in orodja, ki si jih delijo lokalna omrežja, v 33 jezikih. Tukaj kopiraj sporočilo za javnost in novinarski paket.
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '67a849bd'
+  source_hash: '948771c0'
   seeded: '2026-11-02'
-  fields: {title: 'c8779ff6', description: '9aa475b2'}
-  sections: ['ed53d595', 'b09a80c5', '7a4d32fc', '5706973d']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', 'c478e66e', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '13b0211b', '7f458074']
+  fields: {title: 'c8779ff6', description: '72955f63'}
+  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu razlaga MeshCore za Evropo: nastavitve, vodiče in orodja, ki si jih
@@ -29,9 +29,9 @@ mesh deluje naprej tudi ob izpadu elektrike ali interneta, dokler imajo repetito
 napajanje. Glasu in fotografij ne prenaša in ne nadomešča služb za nujno pomoč.
 22. oktobra 2026 je meshcore-analyzer.eu v 7 dneh v Evropi zaznal 30.240 repetitorjev.
 
-Te repetitorje upravljajo lokalne skupine. Doslej so bile njihove nastavitve, vodiči
-in orodja razdeljeni po državah ali skupnostih. meshcore-info.eu jih združuje za
-vso Evropo, v 16 jezikih. Vsebino pišejo prostovoljci, brez oglasov, povezav do trgovin in sledenja.
+Te repetitorje upravljajo lokalne skupine. Doslej je imela vsaka država ali skupnost svoje nastavitve,
+vodiče in orodja. meshcore-info.eu jih združuje
+za Evropo v 33 jezikih. Pišejo ga prostovoljci, brez oglasov, povezav do trgovin ali sledenja.
 
 **Kako deluje.**
 
@@ -55,13 +55,13 @@ ob predstavitvi. Uporabi jih v novicah in objavah, kot vir pa navedi meshcore-in
 ## Naše obljube {#promises}
 
 - **Brez oglasov, povezav do trgovin ali partnerskih povezav.** Stran [Naprave](/devices/)
-  navaja specifikacije proizvajalcev in cenovni razred. Nikoli ne vsebuje povezave do trgovine.
-- **Brez sledenja.** Spletno mesto ne uporablja analitike ali sledilnikov. Edini piškotek si zapomni
-  tvojo izbiro teme. Edini drugi strežnik, s katerim se spletno mesto povezuje, je meshcore-analyzer.eu,
-  ki ga upravljajo isti prostovoljci. Podrobnosti najdeš na [strani o zasebnosti](/privacy/).
-- **Dejstva z viri.** Kar pišemo o MeshCore, izhaja iz njegove strojne programske opreme
-  in dokumentacije. Pravila za radijske naprave prihajajo od regulatorjev.
-- **Tvoj jezik.** Spletno mesto je na voljo v 16 jezikih. Strani najprej nastanejo kot strojni
+  navaja specifikacije proizvajalcev in cenovni razred. Nikoli ne vodi do trgovine.
+- **Brez sledenja.** Spletno mesto ne uporablja analitike ali sledilnikov. Edini piškotek si
+  zapomni tvojo izbiro teme. Edini drugi strežnik, ki mu spletno mesto pošilja zahteve, je meshcore-analyzer.eu,
+  upravljajo pa ga isti prostovoljci. Podrobnosti najdeš na [strani o zasebnosti](/privacy/).
+- **Dejstva iz virov.** Kar pišemo o MeshCore, izhaja iz njegove vdelane programske opreme
+  in dokumentacije. Radijska pravila povzemamo po regulativnih organih.
+- **Tvoj jezik.** Spletno mesto je na voljo v 33 jezikih. Strani so sprva strojni
   prevodi in so tako označene, dokler jih ne preveri materni govorec.
 
 Vse je odprtokodno. Manjka tvoja lokalna skupina ali je kakšno dejstvo napačno?

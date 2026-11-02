@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '5f2826cb'
-  seeded: '2026-10-31'
+  source_hash: '9266fa2b'
+  seeded: '2026-11-02'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', '86fe9fc6', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '70fa58b3', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Informazioni sul sito {#about}
@@ -20,13 +20,7 @@ translation:
 **In 1 frase.** meshcore-info.eu spiega MeshCore per l'Europa: le
 impostazioni, le guide e gli strumenti che le mesh locali condividono.
 
-**In 1 paragrafo.** MeshCore invia messaggi via radio, senza internet
-né abbonamento. Piccole radio LoRa chiamate ripetitori inoltrano ogni messaggio,
-e in tutta Europa le loro mesh si uniscono in una sola. Le regioni, le aree in cui un messaggio
-resta, mantengono il traffico in zona, quindi le tue impostazioni dipendono da dove vivi. meshcore-info.eu raccoglie queste impostazioni, le
-guide e gli strumenti in un unico posto, in 16 lingue. Ti indica anche
-il gruppo locale più vicino a te. Lo scrivono dei volontari, senza pubblicità, link a negozi o
-tracciamento.
+**In 1 paragrafo.** MeshCore invia messaggi via radio, senza internet né abbonamento. Piccole radio LoRa, chiamate ripetitori, ritrasmettono ogni messaggio, e in tutta Europa le loro mesh si uniscono in una sola. Le regioni, cioè le aree entro cui resta un messaggio, tengono il traffico in ambito locale, quindi le tue impostazioni dipendono da dove vivi. meshcore-info.eu raccoglie queste impostazioni, le guide e gli strumenti in un solo posto, in 33 lingue. Ti indica anche il gruppo locale della tua zona. Lo scrivono volontari, senza pubblicità, link a negozi o tracciamento.
 
 Copia uno dei due testi così com'è, oppure accorcialo. Scrivi il nome del sito come meshcore-info.eu,
 in minuscolo, con .eu. Per un testo più lungo, copia il comunicato stampa che trovi nel

@@ -8,18 +8,18 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '5f2826cb'
+  source_hash: '9266fa2b'
   seeded: '2026-11-02'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', '86fe9fc6', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '70fa58b3', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Iwwer de Site {#about}
 
 **An 1 Saz.** meshcore-info.eu erkläert MeshCore fir Europa: d'Astellungen, d'Guiden an d'Tools, déi déi lokal Meshes deelen.
 
-**An 1 Paragraph.** MeshCore schéckt Messagen iwwer Funk, ouni Internet an ouni Abonnement. Kleng LoRa-Radioen, déi Repeater heeschen, ginn all Message weider, an uechter Europa verbannen hir Meshes sech zu engem. Regiounen, d'Gebidder, an deenen e Message bleift, halen de Verkéier lokal, dofir hänken deng Astellungen dovun of, wou s du wunns. meshcore-info.eu sammelt dës Astellungen, d'Guiden an d'Tools op enger Plaz, an 16 Sproochen. De Site weist dir och de lokale Grupp an denger Géigend. Fräiwëlleger schreiwen en, ouni Reklamm, Shop-Linken oder Tracking.
+**An 1 Paragraf.** MeshCore schéckt Noriichten iwwer Funk, ouni Internet an ouni Abonnement. Kleng LoRa-Funkgeräter, déi Repeater heeschen, ginn all Noriicht weider, an a ganz Europa verbanne sech hir Meshes zu engem eenzegen. Regiounen, d'Gebidder, an deenen eng Noriicht bleift, halen de Verkéier lokal, dofir hänken deng Astellungen dovun of, wou s du wunns. meshcore-info.eu sammelt dës Astellungen, d'Guiden an d'Tools op enger Plaz, an 33 Sproochen. De Site weist dir och de Wee bei déi lokal Grupp an denger Géigend. Fräiwëlleger schreiwen en, ouni Reklamm, Shop-Linken oder Tracking.
 
 Kopéier ee vun den zwee Texter, wéi e steet, oder kierz en. Nenn de Site meshcore-info.eu, a klenge Buschtawen, mat .eu. Fir e méi laangen Text kopéier d'Pressematdeelung aus dem [Launch-Post](/blog/welcome/).
 

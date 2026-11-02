@@ -1,15 +1,15 @@
 ---
 title: Ett nettsted for meshen i Europa
 date: '2026-10-27'
-description: meshcore-info.eu samler innstillingene, veiledningene og verktøyene som de lokale meshene deler, på 16 språk. Her kan du kopiere pressemeldingen og pressepakken.
+description: meshcore-info.eu samler innstillingene, veiledningene og verktøyene som de lokale meshene deler, på 33 språk. Kopier pressemeldingen og pressepakken herfra.
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '67a849bd'
-  seeded: '2026-10-31'
-  fields: {title: 'c8779ff6', description: '9aa475b2'}
-  sections: ['ed53d595', 'b09a80c5', '7a4d32fc', '5706973d']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', 'c478e66e', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '13b0211b', '7f458074']
+  source_hash: '948771c0'
+  seeded: '2026-11-02'
+  fields: {title: 'c8779ff6', description: '72955f63'}
+  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu forklarer MeshCore for Europa: innstillingene, veiledningene og
@@ -31,10 +31,10 @@ overfører ikke tale eller bilder, og den erstatter ikke nødetatene. Den
 22. oktober 2026 hadde meshcore-analyzer.eu hørt 30 240 repeatere i
 Europa i løpet av 7 dager.
 
-Lokale grupper drifter disse repeaterne. Til nå lå innstillingene,
-veiledningene og verktøyene deres spredt per land eller per miljø. meshcore-info.eu samler
-dem for hele Europa, på 16 språk. Frivillige skriver innholdet, uten reklame,
-butikklenker eller sporing.
+Lokale grupper driver disse repeaterne. Til nå har innstillingene, veiledningene og
+verktøyene deres ligget land for land eller miljø for miljø. meshcore-info.eu samler dem for
+Europa, på 33 språk. Frivillige skriver innholdet, uten annonser, butikklenker eller
+sporing.
 
 **Slik fungerer det.**
 
@@ -57,16 +57,17 @@ lanseringsvideoene. Bruk dem i nyheter og innlegg, og oppgi meshcore-info.eu som
 
 ## Løftene {#promises}
 
-- **Ingen reklame, butikklenker eller affiliate-lenker.** Siden [Enheter](/devices/)
+- **Ingen annonser, butikklenker eller affiliatelenker.** Siden [Enheter](/devices/)
   viser produsentenes spesifikasjoner og et prisnivå. Den lenker aldri til en
   butikk.
-- **Ingen sporing.** Nettstedet bruker ingen analyseverktøy eller sporere. Den eneste informasjonskapselen husker
-  temavalget ditt. Den eneste andre serveren nettstedet kontakter, er meshcore-analyzer.eu,
-  som de samme frivillige drifter. Detaljene står på [personvernsiden](/privacy/).
-- **Kilder til fakta.** Det vi skriver om MeshCore, bygger på firmwaren
-  og dokumentasjonen. Radioreglene kommer fra myndighetene.
-- **Ditt språk.** Nettstedet finnes på 16 språk. Sidene starter som
-  maskinoversettelser, merket som maskinoversatt, til en med språket som morsmål har sjekket dem.
+- **Ingen sporing.** Nettstedet bruker ingen analyseverktøy eller sporere. Den eneste
+  cookien husker temavalget ditt. Den eneste andre serveren nettstedet kontakter, er
+  meshcore-analyzer.eu, som de samme frivillige driver. På [personvernsiden](/privacy/)
+  finner du detaljene.
+- **Kilder til fakta.** Det vi skriver om MeshCore, kommer fra firmwaren og
+  dokumentasjonen. Radioreglene kommer fra myndighetene.
+- **Språket ditt.** Nettstedet finnes på 33 språk. Sidene begynner som maskinoversettelser.
+  De er merket slik til en morsmålsbruker har sjekket dem.
 
 Alt er åpen kildekode. Mangler den lokale gruppen din, eller er et faktum feil?
 [Slik kan du hjelpe](/contribute/).

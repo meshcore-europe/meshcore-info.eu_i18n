@@ -1,15 +1,15 @@
 ---
 title: Un unico sito per la mesh in Europa
 date: '2026-10-27'
-description: meshcore-info.eu raccoglie le impostazioni, le guide e gli strumenti condivisi dalle mesh locali, in 16 lingue. Qui trovi il comunicato stampa e il press kit da copiare.
+description: meshcore-info.eu raccoglie in 33 lingue le impostazioni, le guide e gli strumenti che le mesh locali condividono. Copia da qui il comunicato stampa e il press kit.
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '67a849bd'
-  seeded: '2026-10-31'
-  fields: {title: 'c8779ff6', description: '9aa475b2'}
-  sections: ['ed53d595', 'b09a80c5', '7a4d32fc', '5706973d']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', 'c478e66e', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '13b0211b', '7f458074']
+  source_hash: '948771c0'
+  seeded: '2026-11-02'
+  fields: {title: 'c8779ff6', description: '72955f63'}
+  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu spiega MeshCore per l'Europa: le impostazioni, le guide e gli
@@ -31,9 +31,9 @@ trasmette voce né foto e non sostituisce i servizi di emergenza. Il
 22 ottobre 2026, meshcore-analyzer.eu aveva rilevato 30.240 ripetitori in
 Europa in 7 giorni.
 
-Sono i gruppi locali a gestire questi ripetitori. Finora le loro impostazioni,
-guide e strumenti restavano divisi per paese o per comunità. meshcore-info.eu li
-riunisce per l'Europa, in 16 lingue. Lo scrivono dei volontari, senza pubblicità,
+I gruppi locali gestiscono questi ripetitori. Finora impostazioni, guide e strumenti di questi gruppi
+erano divisi per paese o per comunità. meshcore-info.eu li riunisce
+per l'Europa, in 33 lingue. Lo scrivono dei volontari, senza pubblicità,
 link a negozi o tracciamento.
 
 **Come funziona.**
@@ -57,16 +57,16 @@ di lancio. Usali in articoli e post, e cita meshcore-info.eu come fonte.
 
 ## Le promesse {#promises}
 
-- **Niente pubblicità, link a negozi o link di affiliazione.** La pagina [Dispositivi](/devices/)
-  riporta le specifiche dei produttori e una fascia di prezzo. Non rimanda mai a un
+- **Niente pubblicità, né link a negozi o di affiliazione.** La pagina [Dispositivi](/devices/)
+  elenca le specifiche dei produttori e una fascia di prezzo. Non rimanda mai a un
   negozio.
 - **Nessun tracciamento.** Il sito non usa strumenti di analisi né tracker. L'unico cookie ricorda il
   tema che hai scelto. L'unico altro server che il sito contatta è meshcore-analyzer.eu,
-  gestito dagli stessi volontari. Trovi i dettagli nella [pagina sulla privacy](/privacy/).
-- **Fonti per i fatti.** Ciò che scriviamo su MeshCore viene dal suo firmware
-  e dalla sua documentazione. Le regole radio vengono dalle autorità di regolamentazione.
-- **La tua lingua.** Il sito è disponibile in 16 lingue. Le pagine nascono come
-  traduzioni automatiche, segnalate come tali finché un madrelingua non le ha controllate.
+  gestito dagli stessi volontari. Nella [pagina sulla privacy](/privacy/) trovi i dettagli.
+- **Le fonti dei fatti.** Quello che scriviamo su MeshCore viene dal suo firmware
+  e dalla sua documentazione. Le norme radio vengono dalle autorità di regolamentazione.
+- **La tua lingua.** Il sito è disponibile in 33 lingue. Le pagine nascono come
+  traduzioni automatiche, segnalate come tali finché un madrelingua non le controlla.
 
 Tutto è open source. Manca il tuo gruppo locale o hai trovato un errore?
 [Ecco come aiutare](/contribute/).

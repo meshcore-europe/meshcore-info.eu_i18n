@@ -8,18 +8,18 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '5f2826cb'
+  source_hash: '9266fa2b'
   seeded: '2026-11-02'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', '86fe9fc6', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '70fa58b3', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Sobre o sitio {#about}
 
 **En 1 frase.** meshcore-info.eu explica MeshCore para Europa: os axustes, as guías e as ferramentas que comparten as redes locais.
 
-**En 1 parágrafo.** MeshCore envía mensaxes por radio, sen internet nin subscrición. Unhas pequenas radios LoRa chamadas repetidores reenvían cada mensaxe, e en toda Europa as súas redes únense nunha soa. As rexións, as zonas onde permanece unha mensaxe, manteñen o tráfico no ámbito local, así que os teus axustes dependen de onde vivas. meshcore-info.eu reúne eses axustes, as guías e as ferramentas nun só lugar, en 16 linguas. Tamén te leva ao grupo local da túa zona. Escríbeno persoas voluntarias, sen anuncios, ligazóns a tendas nin rastrexo.
+**En 1 parágrafo.** MeshCore envía mensaxes por radio, sen internet nin subscrición. Unhas pequenas radios LoRa chamadas repetidores reenvían cada mensaxe, e en toda Europa as súas redes únense nunha soa. As rexións, as zonas das que non sae unha mensaxe, manteñen o tráfico no ámbito local, así que os teus axustes dependen de onde vivas. meshcore-info.eu reúne eses axustes, as guías e as ferramentas nun só lugar, en 33 linguas. Tamén te orienta cara ao grupo local máis próximo. Escríbeno persoas voluntarias, sen anuncios, ligazóns a tendas nin seguimento.
 
 Copia calquera dos dous textos tal como está, ou acúrtao. Cita o sitio como meshcore-info.eu, en minúsculas, con .eu. Para un texto máis longo, copia a nota de prensa da [publicación de lanzamento](/blog/welcome/).
 

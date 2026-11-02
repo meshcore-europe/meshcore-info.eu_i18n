@@ -1,15 +1,15 @@
 ---
 title: Un solo sitio para la malla en Europa
 date: '2026-10-27'
-description: meshcore-info.eu reúne los ajustes, las guías y las herramientas que comparten las mallas locales, en 16 idiomas. Copia aquí la nota de prensa y el kit de prensa.
+description: meshcore-info.eu reúne los ajustes, las guías y las herramientas que comparten las mallas locales, en 33 idiomas. Copia de aquí el comunicado de prensa y el kit de prensa.
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '67a849bd'
-  seeded: '2026-10-31'
-  fields: {title: 'c8779ff6', description: '9aa475b2'}
-  sections: ['ed53d595', 'b09a80c5', '7a4d32fc', '5706973d']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', 'c478e66e', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '13b0211b', '7f458074']
+  source_hash: '948771c0'
+  seeded: '2026-11-02'
+  fields: {title: 'c8779ff6', description: '72955f63'}
+  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu explica MeshCore para Europa: los ajustes, las guías y
@@ -32,8 +32,8 @@ transmite voz ni fotos, y no sustituye a los servicios de emergencia. El
 Europa en 7 días.
 
 Los grupos locales gestionan esos repetidores. Hasta ahora, sus ajustes,
-guías y herramientas estaban repartidos por países o por comunidades. meshcore-info.eu los
-reúne para Europa, en 16 idiomas. Lo escriben voluntarios, sin publicidad,
+guías y herramientas estaban repartidos por país o por comunidad. meshcore-info.eu los
+reúne para Europa, en 33 idiomas. Lo escriben voluntarios, sin anuncios,
 enlaces a tiendas ni rastreo.
 
 **Cómo funciona.**
@@ -57,16 +57,16 @@ del lanzamiento. Úsalos en noticias y publicaciones, y cita meshcore-info.eu co
 
 ## Nuestros compromisos {#promises}
 
-- **Sin publicidad, enlaces a tiendas ni enlaces de afiliado.** La página de [Dispositivos](/devices/)
-  recoge las especificaciones de los fabricantes y una franja de precios. Nunca enlaza a una
+- **Sin publicidad, enlaces a tiendas ni enlaces de afiliados.** La página [Dispositivos](/devices/)
+  recoge las especificaciones de los fabricantes y un rango de precios. Nunca enlaza a una
   tienda.
-- **Sin rastreo.** El sitio no usa analítica ni rastreadores. La única cookie recuerda el
-  tema que elijas. El único otro servidor al que consulta el sitio es meshcore-analyzer.eu,
-  gestionado por los mismos voluntarios. Tienes los detalles en la [página de privacidad](/privacy/).
-- **Datos con fuentes.** Lo que escribimos sobre MeshCore sale de su firmware
-  y su documentación. Las normas de radio vienen de los reguladores.
-- **Tu idioma.** El sitio está disponible en 16 idiomas. Las páginas empiezan como
-  traducciones automáticas y lo indican hasta que un hablante nativo las revisa.
+- **Sin rastreo.** El sitio no usa analíticas ni rastreadores. La única cookie recuerda el
+  tema que eliges. El sitio solo consulta otro servidor: meshcore-analyzer.eu,
+  gestionado por los mismos voluntarios. En la [página de privacidad](/privacy/) encontrarás los detalles.
+- **Fuentes de los datos.** Lo que escribimos sobre MeshCore procede de su firmware
+  y su documentación. Las normas de radio proceden de los reguladores.
+- **Tu idioma.** El sitio está disponible en 33 idiomas. Las páginas empiezan siendo
+  traducciones automáticas, y así figuran hasta que un hablante nativo las revisa.
 
 Todo es de código abierto. ¿Falta tu grupo local o hay un dato erróneo?
 [Así puedes ayudar](/contribute/).

@@ -8,18 +8,18 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '5f2826cb'
+  source_hash: '9266fa2b'
   seeded: '2026-11-02'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', '86fe9fc6', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '70fa58b3', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Par vietni {#about}
 
 **1 teikumā.** meshcore-info.eu skaidro MeshCore Eiropas lietotājiem: iestatījumus, ceļvežus un rīkus, kas vietējiem tīkliem ir kopīgi.
 
-**1 rindkopā.** MeshCore sūta ziņas pa radio, bez interneta un abonementa. Mazi LoRa radio, ko sauc par repeateriem, nodod katru ziņu tālāk, un visā Eiropā to tīkli savienojas vienā. Reģioni (apgabali, kuros ziņa paliek) notur datplūsmu vietējā mērogā, tāpēc tavi iestatījumi ir atkarīgi no tā, kur tu dzīvo. meshcore-info.eu apkopo šos iestatījumus, ceļvežus un rīkus vienuviet, 16 valodās. Vietne arī norāda uz vietējo grupu tavā tuvumā. To raksta brīvprātīgie, bez reklāmām, veikalu saitēm un izsekošanas.
+**1 rindkopā.** MeshCore sūta ziņas pa radio, bez interneta vai abonementa. Nelieli LoRa radio, ko sauc par retranslatoriem, nodod katru ziņu tālāk, un visā Eiropā to tīkli savienojas vienā. Reģioni (apgabali, kuros ziņa paliek) notur datplūsmu vietējā mērogā, tāpēc tavi iestatījumi ir atkarīgi no tā, kur tu dzīvo. meshcore-info.eu vienuviet apkopo šos iestatījumus, ceļvežus un rīkus 33 valodās. Vietne arī norāda vietējo grupu tavā tuvumā. Vietni raksta brīvprātīgie, bez reklāmām, veikalu saitēm un izsekošanas.
 
 Kopē jebkuru no šiem tekstiem nemainītu vai saīsini to. Vietnes nosaukumu raksti šādi: meshcore-info.eu, ar mazajiem burtiem un ar .eu. Ja vajag garāku tekstu, kopē preses relīzi no [atklāšanas ieraksta](/blog/welcome/).
 

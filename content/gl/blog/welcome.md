@@ -1,15 +1,15 @@
 ---
 title: Un só sitio para a malla en Europa
 date: '2026-10-27'
-description: meshcore-info.eu reúne os axustes, as guías e as ferramentas que comparten as mallas locais, en 16 linguas. Aquí podes copiar a nota de prensa e o kit de prensa.
+description: meshcore-info.eu recolle os axustes, as guías e as ferramentas que comparten as redes mesh locais, en 33 idiomas. Copia aquí a nota de prensa e o kit de prensa.
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '67a849bd'
+  source_hash: '948771c0'
   seeded: '2026-11-02'
-  fields: {title: 'c8779ff6', description: '9aa475b2'}
-  sections: ['ed53d595', 'b09a80c5', '7a4d32fc', '5706973d']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', 'c478e66e', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '13b0211b', '7f458074']
+  fields: {title: 'c8779ff6', description: '72955f63'}
+  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu explica MeshCore para Europa: os axustes, as guías e as
@@ -23,7 +23,10 @@ Copia este texto no teu sitio de noticias, boletín ou chat de grupo. Úsao tal 
 
 **Quen e que.** MeshCore é unha forma de enviar mensaxes sen depender de ningunha rede. Envía textos curtos por radio, de nodo en nodo, sen internet nin subscrición. Os repetidores, pequenas radios LoRa, reenvían cada mensaxe. A malla segue funcionando nun corte de luz ou cando cae internet, sempre que os repetidores teñan corrente. Non transmite voz nin fotos, e non substitúe os servizos de emerxencia. O 22 de outubro de 2026, meshcore-analyzer.eu escoitara 30.240 repetidores en Europa en 7 días.
 
-Os grupos locais xestionan eses repetidores. Ata agora, os seus axustes, guías e ferramentas estaban repartidos por países ou comunidades. meshcore-info.eu reúneos para Europa, en 16 linguas. Escríbeno persoas voluntarias, sen anuncios, sen ligazóns a tendas e sen rastrexo.
+Os grupos locais xestionan eses repetidores. Ata agora, os seus axustes,
+guías e ferramentas estaban repartidos por países ou por comunidades. meshcore-info.eu
+reúneos para Europa, en 33 linguas. Escríbeno persoas voluntarias, sen anuncios,
+ligazóns a tendas nin rastrexo.
 
 **Como funciona.**
 
@@ -44,14 +47,17 @@ No [Kit de promoción e prensa](/press-kit/) tes o logo, as imaxes e os vídeos 
 
 ## Os compromisos {#promises}
 
-- **Sen anuncios, ligazóns a tendas nin ligazóns de afiliados.** Na páxina [Dispositivos](/devices/)
-  figuran as especificacións dos fabricantes e unha franxa de prezos. Nunca enlaza con ningunha
+- **Sen anuncios, ligazóns a tendas nin ligazóns de afiliación.** A páxina [Dispositivos](/devices/)
+  recolle as especificacións dos fabricantes e unha franxa de prezos. Nunca enlaza con ningunha
   tenda.
-- **Sen rastrexo.** O sitio non usa analítica nin rastrexadores. A única cookie lembra o tema que elixiches. O sitio só fai peticións a outro servidor: meshcore-analyzer.eu, que xestionan as mesmas persoas voluntarias. Tes os detalles na [páxina de privacidade](/privacy/).
-- **Fontes para os datos.** O que escribimos sobre MeshCore vén do seu firmware
-  e da súa documentación. As normas de radio veñen dos reguladores.
-- **A túa lingua.** O sitio está dispoñible en 16 linguas. As páxinas comezan sendo
-  traducións automáticas, e levan esa marca ata que as revisa unha persoa falante nativa.
+- **Sen rastrexo.** O sitio non usa analíticas nin rastrexadores. A única cookie lembra o
+  tema que escolliches. O sitio só consulta outro servidor: meshcore-analyzer.eu,
+  que xestionan as mesmas persoas voluntarias. Tes os detalles na [páxina de privacidade](/privacy/).
+- **Fontes dos datos.** O que escribimos sobre MeshCore procede do seu firmware
+  e da súa documentación. As normas de radio veñen dos organismos reguladores.
+- **A túa lingua.** O sitio está dispoñible en 33 linguas. As páxinas comezan sendo
+  traducións automáticas, e así figuran marcadas ata que as revisa unha persoa falante
+  nativa.
 
 Todo é código aberto. Falta o teu grupo local ou hai un dato incorrecto?
 [Así podes axudar](/contribute/).

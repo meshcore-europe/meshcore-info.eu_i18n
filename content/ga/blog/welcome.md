@@ -1,15 +1,15 @@
 ---
 title: Suíomh amháin don mhogalra san Eoraip
 date: '2026-10-27'
-description: Bailíonn meshcore-info.eu na socruithe, na treoracha agus na huirlisí a roinneann na mogalraí áitiúla, in 16 theanga. Cóipeáil an phreaseisiúint agus an pacáiste preasa anseo.
+description: Bailíonn meshcore-info.eu na socruithe, na treoracha agus na huirlisí a roinneann na meshes áitiúla, i 33 teanga. Cóipeáil an preaseisiúint agus an pacáiste preasa as seo.
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '67a849bd'
+  source_hash: '948771c0'
   seeded: '2026-11-02'
-  fields: {title: 'c8779ff6', description: '9aa475b2'}
-  sections: ['ed53d595', 'b09a80c5', '7a4d32fc', '5706973d']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', 'c478e66e', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '13b0211b', '7f458074']
+  fields: {title: 'c8779ff6', description: '72955f63'}
+  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 Míníonn meshcore-info.eu MeshCore don Eoraip: na socruithe, na treoracha agus
@@ -30,10 +30,10 @@ fad is a bhíonn cumhacht ag na hathsheoltóirí. Ní sheolann sé guth ná gria
 agus ní thagann sé in áit na seirbhísí éigeandála. Ar an 22 Deireadh Fómhair 2026,
 bhí 30,240 athsheoltóir san Eoraip cloiste ag meshcore-analyzer.eu i gcaitheamh 7 lá.
 
-Oibríonn grúpaí áitiúla na hathsheoltóirí sin. Go dtí seo, bhí a gcuid socruithe,
-treoracha agus uirlisí scartha de réir tíre nó de réir pobail. Tugann meshcore-info.eu
-le chéile iad don Eoraip, in 16 theanga. Scríobhann oibrithe deonacha an suíomh, gan fógraí,
-naisc siopa ná rianú.
+Is grúpaí áitiúla a oibríonn na hathsheoltóirí sin. Go dtí seo, bhí a socruithe,
+a dtreoracha agus a n-uirlisí scaipthe de réir tíre nó de réir pobail. Tugann meshcore-info.eu
+le chéile iad don Eoraip, i 33 teanga. Is oibrithe deonacha a scríobhann é, gan fógraí,
+gan naisc chuig siopaí agus gan rianú.
 
 **Conas a oibríonn sé.**
 
@@ -56,16 +56,16 @@ Tá an lógó, na híomhánna agus físeáin an tseolta sa [Phacáiste poiblíoc
 
 ## Na geallúintí {#promises}
 
-- **Gan fógraí, naisc siopa ná naisc chleamhnachta.** Tá sonraíochtaí na ndéantúsóirí agus raon
-  praghsanna ar an leathanach [Gléasanna](/devices/). Ní nascann sé le siopa riamh.
-- **Gan rianú.** Ní úsáideann an suíomh anailísíocht ná rianairí. Cuimhníonn an t-aon fhianán atá ann
-  ar do rogha téama. Níl ach freastalaí amháin eile a dhéanann an suíomh teagmháil leis:
-  meshcore-analyzer.eu, a oibríonn na hoibrithe deonacha céanna. Tá na sonraí ar
-  an [leathanach príobháideachais](/privacy/).
-- **Foinsí d'fhíricí.** Tagann an méid a scríobhaimid faoi MeshCore óna dhochtearraí agus óna
-  dhoiciméadacht. Tagann rialacha raidió ó na rialtóirí.
-- **Do theanga féin.** Tá an suíomh ar fáil in 16 theanga. Tosaíonn leathanaigh mar mheaisínaistriúcháin.
-  Bíonn siad marcáilte mar sin go dtí go seiceálann cainteoir dúchais iad.
+- **Gan fógraí, gan naisc chuig siopaí ná naisc chleamhnachta.** Tá sonraíochtaí na ndéantóirí agus raon praghais ar an leathanach [Gléasanna](/devices/).
+  Ní thugann sé nasc chuig siopa riamh.
+- **Gan rianú.** Níl anailísíocht ná rianairí ar bith ar an suíomh. Níl ach fianán amháin ann, agus cuimhníonn sé ar do
+  rogha téama. Is é meshcore-analyzer.eu an t-aon fhreastalaí eile a ndéanann an suíomh teagmháil leis,
+  agus is iad na hoibrithe deonacha céanna a ritheann é. Tá na sonraí ar an [leathanach príobháideachais](/privacy/).
+- **Foinsí leis na fíricí.** Tagann an méid a scríobhaimid faoi MeshCore óna dhochtearraí
+  agus óna dhoiciméadú. Is ó na rialtóirí a thagann rialacha raidió.
+- **Do theanga féin.** Tá an suíomh ar fáil i 33 theanga. Is aistriúcháin mheaisín iad na leathanaigh ar dtús,
+  agus bíonn lipéad orthu á rá sin go dtí go seiceálann cainteoir dúchais
+  iad.
 
 Is foinse oscailte gach rud. An bhfuil do ghrúpa áitiúil ar iarraidh, nó an bhfuil fíric mhícheart?
 [Seo mar is féidir leat cabhrú](/contribute/).

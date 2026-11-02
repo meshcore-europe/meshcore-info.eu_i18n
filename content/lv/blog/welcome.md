@@ -1,15 +1,15 @@
 ---
 title: Viena vietne mesh tīkliem Eiropā
 date: '2026-10-27'
-description: meshcore-info.eu 16 valodās apkopo iestatījumus, ceļvežus un rīkus, ko izmanto vietējie mesh tīkli. Šeit vari nokopēt preses relīzi un paņemt preses komplektu.
+description: meshcore-info.eu apkopo vietējo tīklu kopīgotos iestatījumus, ceļvežus un rīkus 33 valodās. Šeit vari nokopēt preses relīzi un preses komplektu.
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '67a849bd'
+  source_hash: '948771c0'
   seeded: '2026-11-02'
-  fields: {title: 'c8779ff6', description: '9aa475b2'}
-  sections: ['ed53d595', 'b09a80c5', '7a4d32fc', '5706973d']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', 'c478e66e', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '13b0211b', '7f458074']
+  fields: {title: 'c8779ff6', description: '72955f63'}
+  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu skaidro MeshCore Eiropas lietotājiem: šeit ir iestatījumi, ceļveži un
@@ -31,9 +31,9 @@ Tas nepārraida balsi un fotoattēlus un neaizstāj operatīvos dienestus.
 30 240 retranslatorus.
 
 Šos retranslatorus uztur vietējās grupas. Līdz šim to iestatījumi,
-ceļveži un rīki bija izkaisīti pa valstīm un kopienām. meshcore-info.eu tos apkopo
-visai Eiropai, 16 valodās. Vietni raksta brīvprātīgie, un tajā nav ne reklāmu,
-ne veikalu saišu, ne izsekošanas.
+ceļveži un rīki bija atrodami atsevišķi katrā valstī vai kopienā. meshcore-info.eu tos apkopo
+visai Eiropai 33 valodās. Vietni raksta brīvprātīgie, bez reklāmām,
+veikalu saitēm vai izsekošanas.
 
 **Kā tas darbojas.**
 
@@ -56,15 +56,15 @@ video. Izmanto tos ziņās un ierakstos un kā avotu norādi meshcore-info.eu.
 
 ## Mūsu solījumi {#promises}
 
-- **Nav ne reklāmu, ne veikalu saišu, ne partneru saišu.** Lapā [Ierīces](/devices/)
-  ir ražotāju specifikācijas un cenu diapazons. Saišu uz veikaliem tur nekad nav.
-- **Nav izsekošanas.** Vietne neizmanto ne analītikas rīkus, ne izsekotājus. Vienīgā sīkdatne atceras tevis izvēlēto
-  motīvu. Vienīgais otrs serveris, kuram vietne sūta pieprasījumus, ir meshcore-analyzer.eu,
+- **Bez reklāmām, veikalu un partneru saitēm.** Lapā [Ierīces](/devices/)
+  ir ražotāju specifikācijas un cenu diapazons. Saišu uz veikaliem tajā nekad nav.
+- **Bez izsekošanas.** Vietne neizmanto ne analītikas rīkus, ne izsekotājus. Vienīgā sīkdatne atceras tevis
+  izvēlēto motīvu. Vienīgais cits serveris, kam vietne sūta pieprasījumus, ir meshcore-analyzer.eu,
   un to uztur tie paši brīvprātīgie. Sīkāka informācija ir [privātuma lapā](/privacy/).
-- **Faktiem ir avoti.** To, ko rakstām par MeshCore, ņemam no tā programmaparatūras
+- **Fakti ar avotiem.** Ziņas par MeshCore mēs ņemam no tā programmaparatūras
   un dokumentācijas. Radio noteikumus ņemam no regulatoriem.
-- **Tava valoda.** Vietne ir pieejama 16 valodās. Sākumā lapas ir mašīntulkojumi,
-  un tie ir tā atzīmēti, līdz tos pārbauda dzimtās valodas runātājs.
+- **Tava valoda.** Vietne ir pieejama 33 valodās. Sākumā lapas ir mašīntulkojumi ar atbilstošu atzīmi,
+  līdz tās pārbauda dzimtās valodas runātājs.
 
 Viss ir atvērtais pirmkods. Trūkst tavas vietējās grupas vai kāds fakts ir aplams?
 [Lūk, kā vari palīdzēt](/contribute/).

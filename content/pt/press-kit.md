@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '5f2826cb'
-  seeded: '2026-10-31'
+  source_hash: '9266fa2b'
+  seeded: '2026-11-02'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', '86fe9fc6', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '70fa58b3', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Sobre o site {#about}
@@ -20,14 +20,7 @@ translation:
 **Em 1 frase.** O meshcore-info.eu explica o MeshCore para a Europa: as
 definições, os guias e as ferramentas que as meshes locais partilham.
 
-**Em 1 parágrafo.** O MeshCore envia mensagens por rádio, sem internet nem
-assinatura. Pequenos rádios LoRa chamados repetidores passam cada mensagem
-adiante. Por toda a Europa, as suas meshes ligam-se numa só. As regiões, as
-áreas onde uma mensagem se mantém, mantêm o tráfego local. Por isso, as tuas
-definições dependem do sítio onde vives. O meshcore-info.eu reúne essas
-definições, os guias e as ferramentas num só lugar, em 16 línguas. Também te
-indica o grupo local perto de ti. São voluntários que o escrevem, sem anúncios,
-links para lojas ou rastreio.
+**Em 1 parágrafo.** O MeshCore envia mensagens por rádio, sem internet nem assinatura. Pequenos rádios LoRa, chamados repetidores, reencaminham cada mensagem, e em toda a Europa as suas meshes ligam-se numa só. As regiões, as áreas de onde uma mensagem não sai, mantêm o tráfego local, por isso as tuas definições dependem do sítio onde vives. O meshcore-info.eu reúne essas definições, os guias e as ferramentas num só sítio, em 33 línguas. Também te indica o grupo local perto de ti. Quem o escreve são voluntários, sem publicidade, ligações a lojas nem rastreio.
 
 Copia qualquer um dos textos tal como está, ou encurta-o. Escreve o nome do
 site como meshcore-info.eu, em minúsculas, com .eu. Para um texto mais longo,

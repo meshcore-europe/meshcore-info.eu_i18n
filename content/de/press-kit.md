@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '5f2826cb'
-  seeded: '2026-10-31'
+  source_hash: '9266fa2b'
+  seeded: '2026-11-02'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', '86fe9fc6', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '70fa58b3', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Über die Website {#about}
@@ -20,14 +20,13 @@ translation:
 **In 1 Satz.** meshcore-info.eu erklärt MeshCore für Europa: die
 Einstellungen, Anleitungen und Tools, die die lokalen Meshes teilen.
 
-**In 1 Absatz.** MeshCore sendet Nachrichten per Funk, ohne Internet
-und ohne Abo. Kleine LoRa-Funkgeräte, die Repeater, geben jede Nachricht weiter.
-In ganz Europa verbinden sich ihre Meshes zu einem. Regionen sind die Gebiete,
-in denen eine Nachricht bleibt. Sie halten den Verkehr lokal, deshalb hängen
-deine Einstellungen von deinem Wohnort ab. meshcore-info.eu sammelt diese
-Einstellungen, die Anleitungen und die Tools an einem Ort, in 16 Sprachen.
-Die Website zeigt dir auch die lokale Gruppe in deiner Nähe. Freiwillige
-schreiben sie, ohne Werbung, Shop-Links oder Tracking.
+**In 1 Absatz.** MeshCore überträgt Nachrichten per Funk, ohne Internet und ohne Abo.
+Kleine LoRa-Funkgeräte, sogenannte Repeater, leiten jede Nachricht weiter, und
+in ganz Europa wachsen ihre Meshes zu einem zusammen. Regionen, also die Gebiete, in denen eine Nachricht
+bleibt, halten den Verkehr lokal, deshalb hängen deine Einstellungen davon ab, wo du wohnst. meshcore-info.eu sammelt diese Einstellungen,
+die Anleitungen und die Tools an einem Ort, in 33 Sprachen. Außerdem zeigt dir die Website
+die lokale Gruppe in deiner Nähe. Freiwillige schreiben sie, ohne Werbung, Shop-Links oder
+Tracking.
 
 Kopiere einen der beiden Texte unverändert oder kürze ihn. Nenne die Website
 meshcore-info.eu, kleingeschrieben und mit .eu. Für einen längeren Text kopierst

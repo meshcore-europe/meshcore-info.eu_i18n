@@ -1,15 +1,15 @@
 ---
 title: Ien side foar it mesh yn Europa
 date: '2026-10-27'
-description: meshcore-info.eu sammelet de ynstellings, hantliedingen en ark dy't de pleatslike meshes diele, yn 16 talen. Kopiearje hjir it parseberjocht en de parsekit.
+description: meshcore-info.eu sammelet de ynstellingen, hantliedingen en ark dy't de lokale meshes diele, yn 33 talen. Kopiearje it parseberjocht en de parskit fan hjir.
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '67a849bd'
-  seeded: '2026-10-31'
-  fields: {title: 'c8779ff6', description: '9aa475b2'}
-  sections: ['ed53d595', 'b09a80c5', '7a4d32fc', '5706973d']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', 'c478e66e', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '13b0211b', '7f458074']
+  source_hash: '948771c0'
+  seeded: '2026-11-02'
+  fields: {title: 'c8779ff6', description: '72955f63'}
+  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu leit MeshCore út foar Europa: de ynstellings, hantliedingen en
@@ -31,9 +31,9 @@ bringt gjin spraak of foto's oer en komt net yn it plak fan de helptsjinsten. Op
 22 oktober 2026 hie meshcore-analyzer.eu yn 7 dagen 30.240 repeaters yn
 Europa heard.
 
-Pleatslike groepen hâlde dy repeaters yn 'e loft. Oant no ta stiene harren ynstellings,
-hantliedingen en ark per lân of per mienskip. meshcore-info.eu bringt
-se byinoar foar Europa, yn 16 talen. Frijwilligers skriuwe de side, sûnder advertinsjes,
+Pleatslike groepen behearre dy repeaters. Oant no ta stiene harren ynstellings,
+hantliedingen en ark per lân of per mienskip. meshcore-info.eu bringt se
+foar Europa byinoar, yn 33 talen. Frijwilligers skriuwe it, sûnder advertinsjes,
 winkelkeppelings of tracking.
 
 **Hoe't it wurket.**
@@ -57,16 +57,16 @@ lansearringsfideo's. Brûk se yn nijs en berjochten, en neam meshcore-info.eu as
 
 ## De beloften {#promises}
 
-- **Gjin advertinsjes, winkelkeppelings of affiliate-keppelings.** Op de side [Apparaten](/devices/)
-  steane de spesifikaasjes fan de makkers en in priisklasse. Dy side keppelet nea nei in
-  winkel.
-- **Gjin tracking.** De side brûkt gjin analytics of trackers. It ienige cookie ûnthâldt dyn
-  temakar. De ienige oare server dêr't de side wat by opfreget, is meshcore-analyzer.eu,
-  dy't deselde frijwilligers beheare. Op de [privacyside](/privacy/) steane de details.
-- **Boarnen foar feiten.** Wat wy oer MeshCore skriuwe, komt út de firmware
-  en de dokumintaasje. De radioregels komme fan de tasjochhâlders.
-- **Dyn taal.** De side is der yn 16 talen. Siden begjinne as
-  masinale oersettingen. Dat stiet der by, oant in memmetaalsprekker se kontrolearre hat.
+- **Gjin advertinsjes, winkelkeppelingen of affiliatekeppelingen.** De side [Apparaten](/devices/)
+  neamt de spesifikaasjes fan de makkers en in priisklasse. Dy side ferwiist nea
+  nei in winkel.
+- **Gjin tracking.** De webside brûkt gjin analytics of trackers. De iennichste cookie ûnthâldt dyn
+  kar foar it tema. De iennichste oare server dêr't de webside wat by opfreget, is meshcore-analyzer.eu.
+  Deselde frijwilligers beheare dy server. De details steane op de [privacyside](/privacy/).
+- **Boarnen foar feiten.** Wat wy oer MeshCore skriuwe, komt út de firmware en
+  dokumintaasje fan MeshCore. Radioregels komme fan de tafersjochhâlders.
+- **Dyn taal.** De webside is der yn 33 talen. Siden begjinne as masineoersettingen.
+  Dat stiet derby oant in memmetaalsprekker se kontrolearre hat.
 
 Alles is iepen boarne. Mist dyn pleatslike groep, of klopt in feit net?
 [Sa kinst helpe](/contribute/).

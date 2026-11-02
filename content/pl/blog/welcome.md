@@ -1,15 +1,15 @@
 ---
 title: Jedna strona dla siatki w Europie
 date: '2026-10-27'
-description: meshcore-info.eu zbiera ustawienia, poradniki i narzędzia, z których korzystają lokalne siatki, w 16 językach. Stąd skopiujesz informację prasową i pakiet prasowy.
+description: meshcore-info.eu zbiera ustawienia, poradniki i narzędzia, którymi dzielą się lokalne siatki, w 33 językach. Skopiuj stąd informację prasową i press kit.
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '67a849bd'
-  seeded: '2026-10-31'
-  fields: {title: 'c8779ff6', description: '9aa475b2'}
-  sections: ['ed53d595', 'b09a80c5', '7a4d32fc', '5706973d']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', 'c478e66e', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '13b0211b', '7f458074']
+  source_hash: '948771c0'
+  seeded: '2026-11-02'
+  fields: {title: 'c8779ff6', description: '72955f63'}
+  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu wyjaśnia MeshCore dla Europy: ustawienia, poradniki i
@@ -30,9 +30,9 @@ przekaźniki mają zasilanie. Nie przenosi głosu ani zdjęć i nie zastępuje
 służb ratunkowych. 22 października 2026 r. meshcore-analyzer.eu w ciągu 7 dni
 usłyszał w Europie 30 240 przekaźników.
 
-Lokalne grupy prowadzą te przekaźniki. Do tej pory ich ustawienia,
-poradniki i narzędzia były rozproszone po krajach i społecznościach. meshcore-info.eu
-zbiera je w jednym miejscu dla Europy, w 16 językach. Stronę piszą wolontariusze, bez reklam,
+Tymi przekaźnikami zarządzają lokalne grupy. Do tej pory ich ustawienia,
+poradniki i narzędzia były rozproszone po krajach i społecznościach. meshcore-info.eu zbiera
+je w jednym miejscu dla Europy, w 33 językach. Serwis piszą wolontariusze, bez reklam,
 linków do sklepów i śledzenia.
 
 **Jak to działa.**
@@ -55,16 +55,17 @@ premierowe. Używaj ich w artykułach i postach, a jako źródło podaj meshcore
 
 ## Obietnice {#promises}
 
-- **Bez reklam, linków do sklepów i linków partnerskich.** Strona [Urządzenia](/devices/)
-  podaje specyfikacje producentów i przedział cenowy. Nigdy nie linkuje do
+- **Bez reklam, linków do sklepów i linków afiliacyjnych.** Strona [Urządzenia](/devices/)
+  podaje specyfikacje producentów i przedział cenowy. Nigdy nie prowadzi do
   sklepu.
-- **Bez śledzenia.** Strona nie używa analityki ani narzędzi śledzących. Jedyne ciasteczko zapamiętuje
-  wybrany przez ciebie motyw. Jedyny inny serwer, z którym łączy się strona, to meshcore-analyzer.eu,
+- **Bez śledzenia.** Serwis nie używa analityki ani narzędzi śledzących. Jedyne ciasteczko zapamiętuje
+  wybrany przez ciebie motyw. Jedyny inny serwer, z którym łączy się serwis, to meshcore-analyzer.eu,
   prowadzony przez tych samych wolontariuszy. Szczegóły znajdziesz na [stronie o prywatności](/privacy/).
-- **Źródła faktów.** To, co piszemy o MeshCore, pochodzi z jego firmware
-  i dokumentacji. Przepisy radiowe pochodzą od regulatorów.
-- **Twój język.** Strona jest dostępna w 16 językach. Strony powstają jako
-  tłumaczenia maszynowe i mają takie oznaczenie, dopóki nie sprawdzi ich rodzimy użytkownik języka.
+- **Źródła faktów.** To, co piszemy o MeshCore, pochodzi z jego firmware'u i
+  dokumentacji. Przepisy radiowe podajemy za regulatorami.
+- **Twój język.** Serwis jest dostępny w 33 językach. Strony powstają najpierw jako
+  tłumaczenia maszynowe i mają takie oznaczenie, dopóki nie sprawdzi ich
+  rodzimy użytkownik języka.
 
 Wszystko jest open source. Brakuje twojej lokalnej grupy albo jakiś fakt jest błędny?
 [Tak możesz pomóc](/contribute/).

@@ -1,15 +1,15 @@
 ---
 title: Eng Säit fir d'Mesh an Europa
 date: '2026-10-27'
-description: meshcore-info.eu sammelt d'Astellungen, d'Guiden an d'Tools, déi déi lokal Meshes deelen, an 16 Sproochen. D'Pressematdeelung an de Presskit kanns du hei kopéieren.
+description: meshcore-info.eu sammelt d'Astellungen, d'Guiden an d'Tools, déi déi lokal Meshes deelen, an 33 Sproochen. Kopéier d'Pressematdeelung an de Pressekit vun hei.
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '67a849bd'
+  source_hash: '948771c0'
   seeded: '2026-11-02'
-  fields: {title: 'c8779ff6', description: '9aa475b2'}
-  sections: ['ed53d595', 'b09a80c5', '7a4d32fc', '5706973d']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', 'c478e66e', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '13b0211b', '7f458074']
+  fields: {title: 'c8779ff6', description: '72955f63'}
+  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu erkläert MeshCore fir Europa: d'Astellungen, d'Guiden an
@@ -31,10 +31,10 @@ iwwerdréit keng Stëmm a keng Fotoen, an et ersetzt d'Noutdéngschter net. Den
 22. Oktober 2026 hat meshcore-analyzer.eu an 7 Deeg 30.240 Repeateren an
 Europa héieren.
 
-Lokal Gruppe bedreiwen dës Repeateren. Bis elo louchen hir Astellungen,
-Guiden an Tools getrennt no Land oder Communautéit. meshcore-info.eu bréngt
-se fir Europa zesummen, an 16 Sproochen. Fräiwëlleger schreiwen d'Säit, ouni Reklamm,
-Buttek-Linken an Tracking.
+Lokal Gruppe bedreiwen déi Repeateren. Bis elo louchen hir Astellungen,
+Guiden an Tools pro Land oder pro Communautéit verdeelt. meshcore-info.eu bréngt
+se fir Europa zesummen, a 33 Sproochen. Fräiwëlleger schreiwen d'Säit, ouni Reklamm,
+Shop-Linken oder Tracking.
 
 **Wéi et funktionéiert.**
 
@@ -57,16 +57,16 @@ Benotz se an Noriichten a Posts, a nenn meshcore-info.eu als Quell.
 
 ## D'Verspriechen {#promises}
 
-- **Keng Reklamm, keng Buttek-Linken a keng Affiliate-Linken.** D'Säit [Apparater](/devices/)
+- **Keng Reklamm, Shop-Linken oder Affiliate-Linken.** D'Säit [Geräter](/devices/)
   weist d'Spezifikatioune vun den Hiersteller an eng Präisklass. Si verlinkt ni op e
-  Buttek.
-- **Keen Tracking.** D'Säit leeft ouni Analytics an ouni Trackeren. Deen eenzege Cookie
-  späichert, wat fir en Thema s du gewielt hues. Deen eenzegen anere Server, deen d'Säit ufreet, ass
-  meshcore-analyzer.eu, an deen bedreiwen déiselwecht Fräiwëlleger. Op der [Dateschutzsäit](/privacy/) stinn d'Detailer.
-- **Quelle fir d'Fakten.** Wat mir iwwer MeshCore schreiwen, kënnt aus senger Firmware an
-  Dokumentatioun. D'Funkreegele komme vun de Regulateuren.
-- **Deng Sprooch.** D'Säit gëtt et an 16 Sproochen. Säite fänken als Maschinn-Iwwersetzungen
-  un. Si bleiwe sou markéiert, bis e Mammesproochler se kontrolléiert huet.
+  Shop.
+- **Keen Tracking.** D'Websäit leeft ouni Analytics an ouni Tracker. Deen eenzege Cookie behält,
+  wéi en Theme s du gewielt hues. Deen eenzegen anere Server, deen d'Websäit ufreet, ass meshcore-analyzer.eu.
+  Déi selwecht Fräiwëlleger bedreiwen en. D'Detailer stinn op der [Dateschutz-Säit](/privacy/).
+- **Quelle fir Fakten.** Wat mir iwwer MeshCore schreiwen, kënnt aus senger Firmware
+  a senger Dokumentatioun. D'Reegele fir de Funk komme vun de Regulateuren.
+- **Deng Sprooch.** D'Websäit gëtt et a 33 Sproochen. Säite fänken als Maschinn-Iwwersetzungen un.
+  Si bleiwen als Maschinn-Iwwersetzung markéiert, bis e Mammesproochler se nogekuckt huet.
 
 Alles ass Open Source. Feelt deng lokal Grupp, oder stëmmt e Fakt net?
 [Hei gesäis du, wéi s du hëllefe kanns](/contribute/).

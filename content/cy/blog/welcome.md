@@ -1,15 +1,15 @@
 ---
 title: Un wefan i'r rhwyll yn Ewrop
 date: '2026-10-27'
-description: Mae meshcore-info.eu yn casglu'r gosodiadau, y canllawiau a'r offer y mae'r rhwyllau lleol yn eu rhannu, mewn 16 iaith. Copïa'r datganiad i'r wasg a phecyn y wasg oddi yma.
+description: meshcore-info.eu sy'n casglu'r gosodiadau, y canllawiau a'r offer y mae'r rhwydweithiau lleol yn eu rhannu, mewn 33 iaith. Copïa'r datganiad i'r wasg a'r pecyn i'r wasg o'r fan hon.
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '67a849bd'
+  source_hash: '948771c0'
   seeded: '2026-11-02'
-  fields: {title: 'c8779ff6', description: '9aa475b2'}
-  sections: ['ed53d595', 'b09a80c5', '7a4d32fc', '5706973d']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', 'c478e66e', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '13b0211b', '7f458074']
+  fields: {title: 'c8779ff6', description: '72955f63'}
+  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 Mae meshcore-info.eu yn esbonio MeshCore ar gyfer Ewrop: y gosodiadau, y canllawiau
@@ -29,10 +29,10 @@ ddim yn cario llais na lluniau, a dydy e ddim yn cymryd lle'r gwasanaethau brys.
 22 Hydref 2026, roedd meshcore-analyzer.eu wedi clywed 30,240 o ailadroddwyr yn
 Ewrop mewn 7 diwrnod.
 
-Grwpiau lleol sy'n rhedeg yr ailadroddwyr hynny. Tan nawr, roedd eu gosodiadau,
+Grwpiau lleol sy'n rhedeg yr ailadroddwyr hynny. Hyd yma, roedd eu gosodiadau,
 eu canllawiau a'u hoffer ar wahân fesul gwlad neu fesul cymuned. Mae meshcore-info.eu yn dod â nhw
-ynghyd ar gyfer Ewrop, mewn 16 iaith. Gwirfoddolwyr sy'n ei hysgrifennu, heb hysbysebion,
-dolenni siopau na thracio.
+ynghyd ar gyfer Ewrop, mewn 33 iaith. Gwirfoddolwyr sy'n ei ysgrifennu, heb hysbysebion,
+dolenni i siopau nac olrhain.
 
 **Sut mae'n gweithio.**
 
@@ -55,15 +55,15 @@ lansio. Defnyddia nhw mewn newyddion a phostiadau, a noda meshcore-info.eu fel y
 
 ## Yr addewidion {#promises}
 
-- **Dim hysbysebion, dolenni siopau na dolenni marchnata cysylltiedig.** Mae'r dudalen [Dyfeisiau](/devices/)
-  yn rhestru manylebau'r gwneuthurwyr ac ystod prisiau. Dydy hi byth yn rhoi dolen i
+- **Dim hysbysebion, dolenni i siopau na dolenni marchnata cyswllt.** Mae'r dudalen [Dyfeisiau](/devices/)
+  yn rhestru manylebau'r gwneuthurwyr a band pris. Dydy hi byth yn rhoi dolen i
   siop.
-- **Dim tracio.** Dydy'r wefan ddim yn defnyddio dadansoddeg na thracwyr. Mae'r unig gwci yn cofio
-  dy ddewis o thema. Yr unig weinydd arall y mae'r wefan yn ei holi yw meshcore-analyzer.eu,
+- **Dim olrhain.** Dydy'r wefan ddim yn defnyddio dadansoddeg nac olrheinwyr. Mae'r unig gwci yn cofio
+  pa thema rwyt ti wedi'i dewis. Yr unig weinydd arall mae'r wefan yn ei holi yw meshcore-analyzer.eu,
   ac mae'r un gwirfoddolwyr yn ei redeg. Mae'r manylion ar y [dudalen breifatrwydd](/privacy/).
-- **Ffynonellau ar gyfer ffeithiau.** Mae'r hyn rydyn ni'n ei ysgrifennu am MeshCore yn dod o'i
-  gadarnwedd a'i ddogfennaeth. Mae'r rheolau radio yn dod gan y rheoleiddwyr.
-- **Dy iaith di.** Mae'r wefan ar gael mewn 16 iaith. Mae tudalennau'n dechrau fel
+- **Ffynonellau i'r ffeithiau.** Mae'r hyn rydyn ni'n ei ysgrifennu am MeshCore yn dod o'i gadarnwedd
+  a'i ddogfennaeth. Mae rheolau radio yn dod gan y rheoleiddwyr.
+- **Dy iaith di.** Mae'r wefan ar gael mewn 33 iaith. Mae tudalennau'n dechrau fel
   cyfieithiadau peirianyddol, wedi'u nodi felly nes i siaradwr brodorol eu
   gwirio.
 
