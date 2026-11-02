@@ -31,7 +31,10 @@ whole page.
 Each translated section must pass the parity check against its English
 section (tools/parity.py) and keep protected terms and radio values
 (tools/protected.py); after a failed retry the English section is kept, so
-bad output never reaches the page. Front matter: title, lead,
+bad output never reaches the page. Such a page is not finished: its
+source_hash is UNFINISHED, so it counts as stale everywhere (tools/gaps.py,
+tools/coverage.py, the banner on the page), and what stayed English has an
+empty hash in the record, so the next run translates only that. Front matter: title, lead,
 description and eyebrow are translated; every other key is copied; the
 translation
 block records status ai, the English source_hash and today's date.
@@ -70,6 +73,8 @@ REWRITE_LENGTH = (0.8, 1.6)
 # on GitHub should know the next seeding run replaces it unless status is human.
 # The name of a shortcode tag; group 1 is "/" for a closing tag.
 SHORTCODE_NAME = re.compile(r"\{\{[<%]\s*(/?)\s*([\w-]+)")
+# The source_hash of a page with parts left in English; it matches no English page, so the page stays stale.
+UNFINISHED = "00000000"
 NUDGE = "# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.\n"
 
 
@@ -189,10 +194,18 @@ def fingerprint(en_meta: dict, en_body: str) -> tuple[dict, list[str]]:
     return fields, [string_hash(part) for part in sections(en_body)]
 
 
-def translation_block(en_path: Path, en_meta: dict, en_body: str, today: str) -> dict:
-    fields, parts = fingerprint(en_meta, en_body)
-    return {"status": "ai", "source_hash": source_hash(en_path), "seeded": today, "fields": fields, "sections": parts,
-            "blocks": [string_hash(part) for part in blocks(en_body)]}
+def translation_block(en_path: Path, en_meta: dict, en_body: str, today: str, english: list[str] | None = None) -> dict:
+    """The record of a page; english lists the front matter values, sections and blocks left untranslated."""
+    english = english or []
+    fields, _ = fingerprint(en_meta, en_body)
+    fields = {k: "" if en_meta[k] in english else v for k, v in fields.items()}
+    parts, flat = [], []
+    for section in sections(en_body):
+        inside = blocks(section)
+        parts.append("" if section in english or any(b in english for b in inside) else string_hash(section))
+        flat += ["" if section in english or b in english else string_hash(b) for b in inside]
+    return {"status": "ai", "source_hash": UNFINISHED if english else source_hash(en_path), "seeded": today,
+            "fields": fields, "sections": parts, "blocks": flat}
 
 
 def render(meta: dict, body: str) -> str:
@@ -221,7 +234,7 @@ def seed_page(root: Path, lang: Language, page: str, translate_text: Translate,
     terms = protected.load_terms(root)
     en_path = root / "content" / "en" / page
     en_meta, en_body = split_front_matter(en_path.read_text(encoding="utf-8"))
-    kept = []
+    kept, english = [], []
     meta = {}
     for key, value in en_meta.items():
         if key in TRANSLATED and isinstance(value, str) and value.strip():
@@ -229,6 +242,7 @@ def seed_page(root: Path, lang: Language, page: str, translate_text: Translate,
             meta[key] = text.strip() if ok else value
             if not ok:
                 kept.append(f"front matter {key!r} kept in English")
+                english.append(value)
         else:
             meta[key] = value
     parts, translated = [], [str(meta.get("title", ""))]
@@ -239,8 +253,9 @@ def seed_page(root: Path, lang: Language, page: str, translate_text: Translate,
             translated.append(text)
         if not ok:
             kept.append(f"section {number} kept in English")
+            english.append(section)
     body = "".join(parts)
-    meta["translation"] = translation_block(en_path, en_meta, en_body, today)
+    meta["translation"] = translation_block(en_path, en_meta, en_body, today, english)
     target = root / "content" / lang.key / page
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_bytes(render(meta, body).encode("utf-8"))
@@ -264,7 +279,7 @@ def seed_page_whole(root: Path, lang: Language, page: str, translate_page: Trans
         meta_out, body_out = split_front_matter(translate_page(render(fields, en_body), lang).strip() + "\n")
     except Exception:
         pass
-    kept, meta = [], {}
+    kept, english, meta = [], [], {}
     for key, value in en_meta.items():
         if key not in fields:
             meta[key] = value
@@ -277,6 +292,7 @@ def seed_page_whole(root: Path, lang: Language, page: str, translate_page: Trans
         meta[key] = text.strip() if ok else value
         if not ok:
             kept.append(f"front matter {key!r} kept in English")
+            english.append(value)
     en_parts, out_parts = sections(en_body), sections(body_out.lstrip("\n"))
     if len(out_parts) != len(en_parts):
         out_parts = [""] * len(en_parts)
@@ -290,10 +306,12 @@ def seed_page_whole(root: Path, lang: Language, page: str, translate_page: Trans
         text, ok = translate_section(en, lang, translate_text, terms, "".join(parts).strip())
         parts.append(text)
         kept.append(f"section {number} " + ("translated again on its own" if ok else "kept in English"))
+        if not ok:
+            english.append(en)
     body, problem = rewritten(en_body, "".join(parts), lang, rewrite, terms)
     if problem:
         kept.append(f"{problem}; first translation kept")
-    meta["translation"] = translation_block(en_path, en_meta, en_body, today)
+    meta["translation"] = translation_block(en_path, en_meta, en_body, today, english)
     target = root / "content" / lang.key / page
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_bytes(render(meta, body).encode("utf-8"))
@@ -334,7 +352,7 @@ def seed_page_changed(root: Path, lang: Language, page: str, translate_text: Tra
     done: dict[str, list[str]] = {}
     for h, text in zip(old_parts, done_parts):
         done.setdefault(h, []).append(text)
-    notes, out = [], {}
+    notes, english, out = [], [], {}
     for key, value in en_meta.items():
         if key not in new_fields:
             out[key] = value
@@ -344,6 +362,8 @@ def seed_page_changed(root: Path, lang: Language, page: str, translate_text: Tra
             text, ok = translate_section(value, lang, translate_string, terms)
             out[key] = text.strip() if ok else value
             notes.append(f"front matter {key!r} " + ("translated again" if ok else "kept in English"))
+            if not ok:
+                english.append(value)
     parts = []
     for number, (en, h) in enumerate(zip(en_parts, new_parts), 1):
         if done.get(h):
@@ -356,7 +376,9 @@ def seed_page_changed(root: Path, lang: Language, page: str, translate_text: Tra
         parts.append(text)
         notes.append(f"{unit} {number} " + ("translated again" if ok else "kept in English")
                      + (f" ({problem}; first translation kept)" if problem else ""))
-    out["translation"] = translation_block(en_path, en_meta, en_body, today)
+        if not ok:
+            english.append(en)
+    out["translation"] = translation_block(en_path, en_meta, en_body, today, english)
     target.write_bytes(render(out, "".join(parts)).encode("utf-8"))
     return notes
 

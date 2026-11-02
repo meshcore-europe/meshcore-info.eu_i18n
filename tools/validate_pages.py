@@ -72,7 +72,8 @@ def translation_block_problems(meta: dict) -> list[str]:
 
 
 def is_hash(value) -> bool:
-    return isinstance(value, str) and len(value) == 8 and set(value) <= HASH_CHARS
+    """8 hex characters, or empty for a part the seeder left in English."""
+    return isinstance(value, str) and (value == "" or (len(value) == 8 and set(value) <= HASH_CHARS))
 
 
 def link_style_problem(target: str, lang_keys: set[str]) -> str | None:
