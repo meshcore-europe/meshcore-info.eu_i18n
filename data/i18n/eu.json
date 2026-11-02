@@ -3,6 +3,6264 @@
     "language": "eu",
     "name": "Euskara",
     "managed_by": "community",
-    "updated": "2026-10-31"
+    "updated": "2026-11-02"
+  },
+  "site_tagline": {
+    "value": "Mezularitza saretik kanpo Europa osoan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fd77fd37"
+  },
+  "site_description": {
+    "value": "MeshCore Europan erabiltzeko komunitatearen gida: hasiera, hardwarea, talde lokalak, estaldura-mapak eta errepikagailuak. Ez-komertziala eta kode irekikoa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "00f6c54b"
+  },
+  "skip_to_content": {
+    "value": "Joan edukira",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ac576a66"
+  },
+  "menu": {
+    "value": "Menua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "99af6606"
+  },
+  "nav_label": {
+    "value": "Nagusia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eb814be3"
+  },
+  "nav_about": {
+    "value": "Honi buruz",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4efca0d1"
+  },
+  "nav_get_started": {
+    "value": "Hasi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "nav_devices": {
+    "value": "Gailuak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ba5121d"
+  },
+  "nav_community": {
+    "value": "Komunitatea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bb501d78"
+  },
+  "nav_map": {
+    "value": "Mapa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be176b00"
+  },
+  "nav_repeater_guide": {
+    "value": "Errepikagailuen gida",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4608abcd"
+  },
+  "nav_news": {
+    "value": "Albisteak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69752f23"
+  },
+  "nav_projects": {
+    "value": "Proiektuak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "04e2a972"
+  },
+  "nav_contribute": {
+    "value": "Lagundu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97b0c61b"
+  },
+  "nav_privacy": {
+    "value": "Pribatutasuna",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54a57c31"
+  },
+  "in_english": {
+    "value": "Orri hau ingelesez dago",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7e9323d9"
+  },
+  "lang_switch_label": {
+    "value": "Hizkuntza",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4fe6526"
+  },
+  "not_translated_yet": {
+    "value": "oraindik itzuli gabe",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3f59d8d3"
+  },
+  "theme_light": {
+    "value": "Gaia: argia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "72a842db"
+  },
+  "theme_dark": {
+    "value": "Gaia: iluna",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "43908c59"
+  },
+  "theme_system": {
+    "value": "Gaia: sistemarena",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "98a8dd2c"
+  },
+  "copy": {
+    "value": "Kopiatu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e21f935f"
+  },
+  "copied": {
+    "value": "Kopiatuta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8d525e5f"
+  },
+  "hero_eyebrow": {
+    "value": "868 MHz · Europa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "567ed2b0"
+  },
+  "hero_title": {
+    "value": "Saretik kanpo, mesh sarean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "43ed56a7"
+  },
+  "hero_lead": {
+    "value": "MeshCore-k mezuak irratiz bidaltzen ditu, internetik eta harpidetzarik gabe. Europako mesh sareak bakar batean lotzen dira. Hemen, haien komunitateek ikasitakoa partekatzen dute.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "19ad0ab5"
+  },
+  "hero_cta_start": {
+    "value": "Hasi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "hero_cta_about": {
+    "value": "Ikasi zer den MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cdecad6f"
+  },
+  "paths_title": {
+    "value": "Nondik hasi nahi duzu?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf614863"
+  },
+  "path_new_title": {
+    "value": "Hemen berria",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10bc4c55"
+  },
+  "path_new_desc": {
+    "value": "Zer den mesh sare bat, eta zer egin dezakeen eta ezin duen egin MeshCore-k.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a3e4ab18"
+  },
+  "path_offgrid_title": {
+    "value": "Prest sareek huts egiten dutenerako",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b005ed6a"
+  },
+  "path_offgrid_desc": {
+    "value": "Aukeratu plaka bat mendi-ibilaldietarako, nabigatzeko, ekitaldietarako edo argindar-etenetarako.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6a84d5b4"
+  },
+  "path_build_title": {
+    "value": "Eraikitzen eta trasteatzen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c24822f6"
+  },
+  "path_build_desc": {
+    "value": "Irratia, antenak, tresnak eta beste komunitateen proiektuak.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "31166d76"
+  },
+  "path_grow_title": {
+    "value": "Errepikagailu bat gehitzen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf145b6c"
+  },
+  "path_grow_desc": {
+    "value": "Planifikatu eta jarri zure eremua estaltzen duen errepikagailu bat.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "db75c8c5"
+  },
+  "path_local_title": {
+    "value": "Zure inguruko jendea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "808e1f66"
+  },
+  "path_local_desc": {
+    "value": "Aurkitu zure talde lokala, bere txatak eta bere kanalak.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a1e525eb"
+  },
+  "why_title": {
+    "value": "Zergatik MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67d51fbe"
+  },
+  "why_costs_title": {
+    "value": "Ohiko kosturik gabe",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "adff5b03"
+  },
+  "why_costs_desc": {
+    "value": "Irrati bat behin erosten duzu. Mezuek ez dute ezer kostatzen: ez SIM txartelik, ez datu-planik, ez harpidetzarik.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e735f31"
+  },
+  "why_infra_title": {
+    "value": "Sarerik gabe dabil",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "058c8eae"
+  },
+  "why_infra_desc": {
+    "value": "Mugikor-sareak eta internet eroriak edo eskuraezin daudenean ere badabil. Mezuak irratitik irratira doaz, airetik.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ec9de206"
+  },
+  "why_open_title": {
+    "value": "Kode irekia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67a0d2e0"
+  },
+  "why_open_desc": {
+    "value": "Firmwarea eta bere protokoloa kode irekikoak dira, beraz edonork eraiki dezake haien gainean. Aplikazio, tresna eta liburutegi irekiek dagoeneko egiten dute.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97859c5f"
+  },
+  "why_privacy_title": {
+    "value": "Pribatua diseinuz",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "485ca594"
+  },
+  "why_privacy_desc": {
+    "value": "Mezu zuzenak muturretik muturrera zifratuta daude. Ez duzu konturik edo telefono-zenbakirik behar sartzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6901512e"
+  },
+  "why_routing_title": {
+    "value": "Lokala eskualdeka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be9348e5"
+  },
+  "why_routing_desc": {
+    "value": "Zure lehen mezua errepikagailuetan barrena hedatzen da, hau da, mezuak helarazten dituzten teilatu eta mastetako nodoetan barrena. Horrela hedatzen den mezu batek eskualde bat eraman dezake, eta errepikagailuek beren eskualdeak soilik helarazten dituzte, beraz mezua bere eremuan geratzen da.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e9620b88"
+  },
+  "why_community_title": {
+    "value": "Sare bat, talde asko",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a49e1ded"
+  },
+  "why_community_desc": {
+    "value": "Europa osoko talde lokalek errepikagailuak jartzen dituzte, ezarpenak partekatzen dituzte eta berriei laguntzen diete. Aurkitu zure ondokoa Talde lokalak atalean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d1e253bc"
+  },
+  "home_live_label": {
+    "value": "Zuzenean Europa osoan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "44ee0071"
+  },
+  "home_live_packets": {
+    "value": "pakete azken ordu osoan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e3e24e13"
+  },
+  "home_live_countries": {
+    "value": "azken orduan entzundako herrialde",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "502cba0e"
+  },
+  "home_live_repeaters": {
+    "value": "azken 7 egunetan entzundako errepikagailu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2890ece6"
+  },
+  "home_live_source": {
+    "value": "Zenbakien iturria: meshcore-analyzer.eu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "73b22a30"
+  },
+  "strip_label_release": {
+    "value": "Bertsioa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e020e3c6"
+  },
+  "strip_label_reference": {
+    "value": "Erreferentzia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71bf9093"
+  },
+  "strip_label_guides": {
+    "value": "Gidak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "572cd72f"
+  },
+  "strip_label_directory": {
+    "value": "Direktorioa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c8f84c3c"
+  },
+  "strip_label_site": {
+    "value": "Gune hau",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e487482d"
+  },
+  "strip_released": {
+    "value": "argitaratua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d29eae13"
+  },
+  "strip_boards": {
+    "value": "plaka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "685d9a8f"
+  },
+  "strip_commands": {
+    "value": "CLI komando",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a13cc6cb"
+  },
+  "strip_latest_firmware": {
+    "value": "azken firmwarea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a0daddac"
+  },
+  "strip_releases": {
+    "value": "bertsio orri honetan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e99084d9"
+  },
+  "strip_areas": {
+    "value": "gomendatutako ezarpenak dituzten eremu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "789b6daa"
+  },
+  "strip_presets": {
+    "value": "irrati-aurrezarpen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cb582a14"
+  },
+  "strip_devices": {
+    "value": "gailu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ade15a12"
+  },
+  "strip_groups": {
+    "value": "talde lokal",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f40e444b"
+  },
+  "strip_countries": {
+    "value": "herrialde",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e45d4cba"
+  },
+  "strip_maps": {
+    "value": "estaldura-mapa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e149f255"
+  },
+  "strip_channel_countries": {
+    "value": "aukeratzeko herrialde",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0fbe9da9"
+  },
+  "strip_projects": {
+    "value": "proiektu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2577c0f5"
+  },
+  "strip_languages": {
+    "value": "hizkuntza",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6cb574fa"
+  },
+  "strip_trackers": {
+    "value": "jarraitzaile",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "da068881"
+  },
+  "strip_third_party": {
+    "value": "hirugarrenen eskaera",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "64ebce3d"
+  },
+  "strip_cookie": {
+    "value": "cookie, gai bat aukeratzen duzunean soilik",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be0b8e53"
+  },
+  "strip_checked": {
+    "value": "Egiaztatua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0efd92a3"
+  },
+  "strip_release_source": {
+    "value": "MeshCore-ren bertsioetatik",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d619a021"
+  },
+  "news_latest": {
+    "value": "Azken albisteak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f74e23c2"
+  },
+  "news_english_only": {
+    "value": "Albisteak ingelesez soilik argitaratzen dira.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "815251ef"
+  },
+  "news_all": {
+    "value": "Albiste guztiak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67c7790c"
+  },
+  "badge_ai": {
+    "value": "Makinaz itzulia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e174e770"
+  },
+  "badge_human": {
+    "value": "Itzulpen berrikusia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3f4efebd"
+  },
+  "banner_ai_title": {
+    "value": "Makina batek itzuli du orri hau.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1cb96c83"
+  },
+  "banner_ai_body": {
+    "value": "Oraindik ez du jatorrizko hiztun batek egiaztatu, beraz esamolderen bat okerra izan daiteke.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bbc7e56b"
+  },
+  "banner_stale": {
+    "value": "Ingelesezko orria aldatu egin da itzulpen honen ondoren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b34a3714"
+  },
+  "read_english": {
+    "value": "Irakurri ingelesezko bertsioa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "971012a5"
+  },
+  "banner_improve": {
+    "value": "Lagundu itzulpen hau hobetzen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a9a967b6"
+  },
+  "edit_page": {
+    "value": "Editatu orri hau GitHub-en",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "073fd103"
+  },
+  "planned_note": {
+    "value": "Orri hau eraikitzen ari gara oraindik.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f0aebcf0"
+  },
+  "planned_more": {
+    "value": "Bitartean, orri hauek lagun zaitzakete:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ec1b5efa"
+  },
+  "last_verified": {
+    "value": "Azken egiaztapena",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d8e92048"
+  },
+  "sources": {
+    "value": "Iturriak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "caf85b08"
+  },
+  "callout_tip": {
+    "value": "Aholkua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4245a3c"
+  },
+  "callout_warning": {
+    "value": "Abisua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e981ddae"
+  },
+  "callout_legal": {
+    "value": "Legezkoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4787eaf7"
+  },
+  "filter_title": {
+    "value": "Mugatu bilaketa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "28c6eb01"
+  },
+  "filter_any": {
+    "value": "Edozein",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2b505597"
+  },
+  "filter_reset": {
+    "value": "Berrezarri iragazkiak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10afa984"
+  },
+  "filter_count": {
+    "value": "{total} artetik {shown} erakusten",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3d25c92"
+  },
+  "filter_empty": {
+    "value": "Ezer ez dator bat iragazki hauekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7094992d"
+  },
+  "filter_role_q": {
+    "value": "Zertarako izango da?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "25ed547a"
+  },
+  "filter_price_q": {
+    "value": "Aurrekontua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1c6225ec"
+  },
+  "filter_power_q": {
+    "value": "Elikadura",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "848e9656"
+  },
+  "filter_category_q": {
+    "value": "Kategoria",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "292c06f0"
+  },
+  "role_companion": {
+    "value": "Laguntzailea (mezuak bidaltzeko erabiltzen duzun irratia)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fc49eb4e"
+  },
+  "role_repeater": {
+    "value": "Errepikagailua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "role_room_server": {
+    "value": "Gela-zerbitzaria",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68b91cc5"
+  },
+  "price_1": {
+    "value": "€ (25 baino gutxiago)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "84cdcfea"
+  },
+  "price_2": {
+    "value": "€€ (25etik 60ra)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be9a6bd8"
+  },
+  "price_3": {
+    "value": "€€€ (60 baino gehiago)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0e261f3a"
+  },
+  "power_battery": {
+    "value": "Bateria integratua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3b3a4b7e"
+  },
+  "power_external": {
+    "value": "Kanpoko elikadura edo eguzki-energia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "50778470"
+  },
+  "power_profile_low": {
+    "value": "Txikia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f793de20"
+  },
+  "power_profile_medium": {
+    "value": "Ertaina",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e588cd1"
+  },
+  "power_profile_high": {
+    "value": "Handia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c4ebc6d4"
+  },
+  "spec_mcu": {
+    "value": "Prozesadorea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54aac653"
+  },
+  "spec_radio": {
+    "value": "LoRa txipa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1d340ea4"
+  },
+  "spec_battery": {
+    "value": "Bateria",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dfcb7c16"
+  },
+  "spec_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "176c7866"
+  },
+  "spec_screen": {
+    "value": "Pantaila",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e56137e"
+  },
+  "spec_connectivity": {
+    "value": "Konektagarritasuna",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5479401f"
+  },
+  "spec_form": {
+    "value": "Formatua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "12827072"
+  },
+  "spec_price": {
+    "value": "Prezio-tartea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "396491b7"
+  },
+  "spec_power": {
+    "value": "Energia-kontsumoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "96fcc312"
+  },
+  "spec_firmware": {
+    "value": "MeshCore euskarria",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4f7c9307"
+  },
+  "fw_official": {
+    "value": "Konpilazio ofiziala",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e07a4935"
+  },
+  "fw_community": {
+    "value": "Komunitatearen konpilazioa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f8338fb4"
+  },
+  "yes": {
+    "value": "Bai",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "85a39ab3"
+  },
+  "no": {
+    "value": "Ez",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1ea442a1"
+  },
+  "none": {
+    "value": "Bat ere ez",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc937b59"
+  },
+  "form_handheld": {
+    "value": "Eskukoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ecb26701"
+  },
+  "form_board": {
+    "value": "Plaka hutsa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33e95aea"
+  },
+  "form_enclosed": {
+    "value": "Kaxadun nodoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "751c73a5"
+  },
+  "form_wearable": {
+    "value": "Soinekoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e31070f"
+  },
+  "form_usb": {
+    "value": "USB memoria-itxurakoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "031ad13f"
+  },
+  "conn_ble": {
+    "value": "Bluetooth LE",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e05f95a2"
+  },
+  "conn_wifi": {
+    "value": "Wi-Fi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "337253f2"
+  },
+  "conn_usb": {
+    "value": "USB",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61f0acff"
+  },
+  "devices_empty": {
+    "value": "Oraindik ez dago gailurik zerrendan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a158b22a"
+  },
+  "devices_list_title": {
+    "value": "Gailu guztiak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0594fe82"
+  },
+  "community_channels": {
+    "value": "Kanalak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4c8906cf"
+  },
+  "community_ask_at": {
+    "value": "eskatu esteka hemen:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "969f418d"
+  },
+  "community_languages": {
+    "value": "Hizkuntzak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "318655ce"
+  },
+  "community_empty": {
+    "value": "Oraindik ez dago talde lokalik zerrendan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "73a4cdc4"
+  },
+  "community_missing_title": {
+    "value": "Zure taldea falta da?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7c5581b0"
+  },
+  "community_jump": {
+    "value": "Joan herrialde batera",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f7361695"
+  },
+  "community_all": {
+    "value": "Guztiak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a52ace42"
+  },
+  "community_missing_body": {
+    "value": "Edonork gehi dezake talde lokal bat. Ireki issue bat izenarekin, eremuarekin eta estekekin, eta mantentzaile batek hizkuntza guztietan gehituko du aldi berean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a626e730"
+  },
+  "community_missing_cta": {
+    "value": "Gehitu zure talde lokala",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f692beac"
+  },
+  "community_search_title": {
+    "value": "Aurkitu talde bat zure inguruan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0b6beef7"
+  },
+  "community_search_country": {
+    "value": "Herrialdea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "701d021d"
+  },
+  "community_search_country_pick": {
+    "value": "Aukeratu herrialde bat",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "19323e2d"
+  },
+  "community_search_place": {
+    "value": "Posta-kodea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0a4387d2"
+  },
+  "community_search_radius": {
+    "value": "Distantzia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b7bdf7a2"
+  },
+  "community_search_km": {
+    "value": "{n} km",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e4b21b4b"
+  },
+  "community_search_go": {
+    "value": "Bilatu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "49c266ba"
+  },
+  "community_search_locate": {
+    "value": "Erabili nire kokapena",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "30cbc33b"
+  },
+  "community_search_privacy": {
+    "value": "Bilaketa zure nabigatzailean egiten da. Zure kokapena eta posta-kodea zure gailuan geratzen dira.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b96fd6a8"
+  },
+  "community_search_loading": {
+    "value": "Herrialde honetako posta-kodeak kargatzen...",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08d96769"
+  },
+  "community_search_error": {
+    "value": "Posta-kodeen zerrenda ez da kargatu. Saiatu berriro.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d7420063"
+  },
+  "community_search_unknown": {
+    "value": "Ez dugu posta-kode hori ezagutzen hemen: {country}. Egiaztatu edo saiatu inguruko posta-kode batekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2ad685e6"
+  },
+  "community_search_need_country": {
+    "value": "Aukeratu herrialde bat lehenik.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cebe32b0"
+  },
+  "community_search_no_postcodes": {
+    "value": "Posta-kodeen bilaketak ez du herrialde hau hartzen: {country}. Bertako talde guztiak:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "26ad24dd"
+  },
+  "community_search_denied": {
+    "value": "Zure nabigatzaileak ez du zure kokapena partekatu. Idatzi posta-kode bat horren ordez.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7b0fe439"
+  },
+  "community_search_here": {
+    "value": "zure kokapena",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61d03e13"
+  },
+  "community_search_results": {
+    "value": "Taldeak {place} inguruan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "114324e9"
+  },
+  "community_search_covers": {
+    "value": "Zure eremua hartzen du",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20cb30ee"
+  },
+  "community_search_national": {
+    "value": "{country} osoan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2aea83b"
+  },
+  "community_search_none": {
+    "value": "Oraindik ez dago talde lokalik {n} km-ko tartean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "09aad8fb"
+  },
+  "community_search_none_country": {
+    "value": "Oraindik ez dago talde lokalik hemen: {country}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d777ab9b"
+  },
+  "community_search_all": {
+    "value": "Herrialde osoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ebe4345"
+  },
+  "community_search_nearest": {
+    "value": "Talde hurbilena {n} km-ra dago:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c78007e4"
+  },
+  "community_search_credit": {
+    "value": "Posta-kodeak: GeoNames, CC BY 4.0.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "41bd97b1"
+  },
+  "link_discord": {
+    "value": "Discord",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "053bc658"
+  },
+  "link_telegram": {
+    "value": "Telegram",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "acdd1e73"
+  },
+  "link_signal": {
+    "value": "Signal",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1e9806e4"
+  },
+  "link_matrix": {
+    "value": "Matrix",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "76a2171c"
+  },
+  "link_whatsapp": {
+    "value": "WhatsApp",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6a40edf1"
+  },
+  "link_forum": {
+    "value": "Foroa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4da7bd42"
+  },
+  "link_website": {
+    "value": "Webgunea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5a229ac"
+  },
+  "link_map": {
+    "value": "Mapa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be176b00"
+  },
+  "link_wiki": {
+    "value": "Wikia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "63ec69fd"
+  },
+  "map_scope_europe": {
+    "value": "Europa osoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d7bc2dd9"
+  },
+  "map_scope_country": {
+    "value": "Herrialdea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "701d021d"
+  },
+  "map_scope_region": {
+    "value": "Eskualdekoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "299a03b1"
+  },
+  "map_shows_nodes": {
+    "value": "Nodoak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7ac36206"
+  },
+  "map_shows_coverage": {
+    "value": "Estaldura",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "523487a5"
+  },
+  "map_shows_traffic": {
+    "value": "Zuzeneko trafikoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9fd86662"
+  },
+  "map_shows_analyzer": {
+    "value": "Pakete-analizatzailea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14671539"
+  },
+  "map_shows_statistics": {
+    "value": "Estatistikak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a656107e"
+  },
+  "map_open": {
+    "value": "Ireki mapa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ea488d26"
+  },
+  "maps_empty": {
+    "value": "Oraindik ez dago maparik zerrendan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f4332bc7"
+  },
+  "map_tenants_intro": {
+    "value": "Analizatzaile bakarra Europa osorako. Tokiko komunitateek ere beren izen eta diseinuarekin darabilte, zuzeneko datu berberekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e5054f0"
+  },
+  "project_cat_app": {
+    "value": "Aplikazioa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0d04bfeb"
+  },
+  "project_cat_tool": {
+    "value": "Tresna",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2e53bdcd"
+  },
+  "project_cat_bridge": {
+    "value": "Zubia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3892e103"
+  },
+  "project_cat_firmware": {
+    "value": "Firmwarea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "project_cat_hardware": {
+    "value": "Hardwarea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7975300f"
+  },
+  "project_cat_library": {
+    "value": "Liburutegia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc20b3d5"
+  },
+  "project_cat_docs": {
+    "value": "Dokumentazioa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c205924d"
+  },
+  "project_archived": {
+    "value": "Artxibatuta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bdb86505"
+  },
+  "project_licence": {
+    "value": "Lizentzia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3ec8e88"
+  },
+  "project_repo": {
+    "value": "Iturburu-kodea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf046c73"
+  },
+  "projects_empty": {
+    "value": "Oraindik ez dago proiekturik zerrendan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "26a6bda7"
+  },
+  "projects_list_title": {
+    "value": "Proiektu guztiak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4b87271b"
+  },
+  "projects_add_cta": {
+    "value": "Bidali proiektu bat",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e8a3907"
+  },
+  "footer_about": {
+    "value": "Europako MeshCoreri buruzko komunitate-gida ez-komertziala, iragarkirik, afiliatu-estekarik eta jarraipenik gabea.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8a0b3c0d"
+  },
+  "footer_disclaimer": {
+    "value": "Boluntarioek kudeatzen dute meshcore-info.eu, eta ez dago lotuta MeshCore firmwarearen garatzaileekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5043ea17"
+  },
+  "footer_nav_label": {
+    "value": "Webgunea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fa795581"
+  },
+  "footer_source": {
+    "value": "Iturburu-kodea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf046c73"
+  },
+  "footer_license": {
+    "value": "Testuaren lizentzia: CC BY 4.0. Kodearena: MIT.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61085af6"
+  },
+  "not_found_title": {
+    "value": "Ez da orria aurkitu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a469ab4c"
+  },
+  "not_found_body": {
+    "value": "Orri hau ez dago, edo beste leku batera aldatu da.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a9044129"
+  },
+  "not_found_home": {
+    "value": "Joan hasierako orrira",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "adcedded"
+  },
+  "picker_title": {
+    "value": "Aukeratu zure hizkuntza",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e2d0664"
+  },
+  "lang_nudge": {
+    "value": "Zure arakatzailearen ezarpenetatik hautatu dugu hizkuntza hau: {language}. Hemen alda dezakezu hizkuntza.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e428ce71"
+  },
+  "lang_nudge_others": {
+    "value": "Edo beste {count} hizkuntza",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c57573b"
+  },
+  "lang_nudge_region": {
+    "value": "Orri hau hizkuntza honetan ere badago: {language}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5d73b6d7"
+  },
+  "lang_nudge_close": {
+    "value": "Itxi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7d9eb7ac"
+  },
+  "coverage_caption": {
+    "value": "Itzulpenen estaldura hizkuntzaka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fdb7f8dd"
+  },
+  "coverage_language": {
+    "value": "Hizkuntza",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4fe6526"
+  },
+  "coverage_strings": {
+    "value": "Interfazeko testua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "146382ff"
+  },
+  "coverage_pages": {
+    "value": "Orriak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9046da16"
+  },
+  "coverage_human": {
+    "value": "Berrikusita",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fad6057b"
+  },
+  "coverage_ai": {
+    "value": "Makinaz",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8f1cc42d"
+  },
+  "coverage_stale": {
+    "value": "Zaharkituta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c759f42e"
+  },
+  "coverage_missing": {
+    "value": "Falta da",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6be36ca4"
+  },
+  "presets_caption": {
+    "value": "Irrati-aurrezarpenak Europan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "037c3732"
+  },
+  "presets_name": {
+    "value": "Aurrezarpena aplikazioan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46bda49e"
+  },
+  "presets_frequency": {
+    "value": "Maiztasuna (MHz)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1740a857"
+  },
+  "presets_bandwidth": {
+    "value": "Banda-zabalera (kHz)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5cf2dd7b"
+  },
+  "presets_sf": {
+    "value": "Hedapen-faktorea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7cda59eb"
+  },
+  "presets_cr": {
+    "value": "Kodetze-tasa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2cd87b32"
+  },
+  "presets_source": {
+    "value": "MeshCore proiektuaren aurrezarpen-zerrendatik hartua, egiaztatua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "215b400b"
+  },
+  "gain_label": {
+    "value": "Dipolo baten eta beira-zuntzezko kolineal baten sorta, mastan zehar ebakita eta albotik ikusita, eskalan. Kolinealak horizontean urrun dagoen nodo batera iristen da. Dipoloa bakarrik iristen da oso behean dagoen nodo batera.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d90bf3bb"
+  },
+  "gain_dipole": {
+    "value": "Dipoloa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ef909a16"
+  },
+  "gain_collinear": {
+    "value": "Beira-zuntzezko kolineala",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "822f4c75"
+  },
+  "gain_node": {
+    "value": "Nodoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e9337253"
+  },
+  "rz_forged_label": {
+    "value": "Pakete bat igorletik zuregana doa, 3 errepikagailutatik pasatuta. Igorleak asmatutako 3 IDrekin hasten du bidea. Errepikagailu bakoitzak bere IDa gehitzen du amaieran, beraz bidearen amaiera benetakoa da eta hasiera ez.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90a625a8"
+  },
+  "rz_forged_sender": {
+    "value": "Igorlea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c299f9b8"
+  },
+  "rz_forged_you": {
+    "value": "Zu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08b04193"
+  },
+  "rz_forged_path": {
+    "value": "Bidea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "62fa5a5b"
+  },
+  "rz_forged_made_up": {
+    "value": "Igorleak asmatua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c0b6677b"
+  },
+  "rz_forged_added": {
+    "value": "Errepikagailu bakoitzak gehitua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "347c03d9"
+  },
+  "rz_gate_label": {
+    "value": "Errepikagailu baten inguruko eskualdeak eraztun gisa: kanpoan eskualderik gabeko mezuak, gero herrialde bat, probintzia bat eta erdian errepikagailuaren eskualdea. Errepikagailuak azken minutuaren %35 baino gehiago igortzen duenean, kanpoko eraztunak banan-banan gelditzen dira. Bere eskualdeak pasatzen jarraitzen du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "492a5c36"
+  },
+  "rz_gate_none": {
+    "value": "Eskualderik gabe",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f7d42834"
+  },
+  "rz_gate_country": {
+    "value": "Herrialdea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "701d021d"
+  },
+  "rz_gate_province": {
+    "value": "Probintzia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "abfcecfa"
+  },
+  "rz_gate_yours": {
+    "value": "Zurea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54b26f7d"
+  },
+  "rz_gate_meter": {
+    "value": "Igortzen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1d3af30f"
+  },
+  "rz_gate_step_calm": {
+    "value": "%35etik behera: zure errepikagailuak gordetzen dituen eskualde guztiak birbidaltzen ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a144fa31"
+  },
+  "rz_gate_step_none": {
+    "value": "%35etik gora: eskualderik gabeko mezuak gelditzen dira.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4cf453e"
+  },
+  "rz_gate_step_wide": {
+    "value": "Oraindik lanpetuta: eskualde zabalena ere gelditzen da. Zure eskualdea beti pasatzen da.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b08d4c0a"
+  },
+  "rz_copies_label": {
+    "value": "Inork ikusten ez duen igorle baten pakete batek 4 errepikagailu zeharkatzen ditu. 3 behatzailek entzun duten kopiaren berri ematen dute, bakoitza bere bidearekin. Biderik laburrena duen kopia, 1 errepikagailukoa, igorletik gertuen entzun zen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a627dcf1"
+  },
+  "rz_copies_repeater": {
+    "value": "Errepikagailua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "rz_copies_observer": {
+    "value": "Behatzailea, bere kopiaren bidearekin",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c48198e"
+  },
+  "rz_copies_shortest": {
+    "value": "Biderik laburrena: igorletik gertuen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0beca4a3"
+  },
+  "country_ad": {
+    "value": "Andorra",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3e340be4"
+  },
+  "country_al": {
+    "value": "Albania",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1af00b87"
+  },
+  "country_at": {
+    "value": "Austria",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c9cab023"
+  },
+  "country_ba": {
+    "value": "Bosnia-Herzegovina",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b0772b9c"
+  },
+  "country_be": {
+    "value": "Belgika",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "348841ef"
+  },
+  "country_bg": {
+    "value": "Bulgaria",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "66b86bf0"
+  },
+  "country_by": {
+    "value": "Bielorrusia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4bef16df"
+  },
+  "country_ch": {
+    "value": "Suitza",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "22755831"
+  },
+  "country_cy": {
+    "value": "Zipre",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5f1162c5"
+  },
+  "country_cz": {
+    "value": "Txekia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ecfa967e"
+  },
+  "country_de": {
+    "value": "Alemania",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "80db4ccd"
+  },
+  "country_dk": {
+    "value": "Danimarka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c5270975"
+  },
+  "country_ee": {
+    "value": "Estonia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10aeba69"
+  },
+  "country_es": {
+    "value": "Espainia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8ef41e6f"
+  },
+  "country_fi": {
+    "value": "Finlandia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aed8f531"
+  },
+  "country_fo": {
+    "value": "Faroe uharteak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "773ca4d6"
+  },
+  "country_fr": {
+    "value": "Frantzia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7a1ca4ef"
+  },
+  "country_gb": {
+    "value": "Erresuma Batua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8d23a6e3"
+  },
+  "country_gg": {
+    "value": "Guernsey",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b9c48cb1"
+  },
+  "country_gi": {
+    "value": "Gibraltar",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "097ced58"
+  },
+  "country_gr": {
+    "value": "Grezia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c93ad43"
+  },
+  "country_hr": {
+    "value": "Kroazia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7328d3f8"
+  },
+  "country_hu": {
+    "value": "Hungaria",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "504be308"
+  },
+  "country_ie": {
+    "value": "Irlanda",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "02bf1dfa"
+  },
+  "country_im": {
+    "value": "Man uhartea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "34096f96"
+  },
+  "country_is": {
+    "value": "Islandia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "595d6d91"
+  },
+  "country_it": {
+    "value": "Italia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5a9cf672"
+  },
+  "country_je": {
+    "value": "Jersey",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "764a8c04"
+  },
+  "country_li": {
+    "value": "Liechtenstein",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6ff080c0"
+  },
+  "country_lt": {
+    "value": "Lituania",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5c83a631"
+  },
+  "country_lu": {
+    "value": "Luxenburgo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ed76f191"
+  },
+  "country_lv": {
+    "value": "Letonia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "988c8160"
+  },
+  "country_mc": {
+    "value": "Monako",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "935018cc"
+  },
+  "country_md": {
+    "value": "Moldavia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14ad63a1"
+  },
+  "country_me": {
+    "value": "Montenegro",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7ab597e1"
+  },
+  "country_mk": {
+    "value": "Ipar Mazedonia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cd847226"
+  },
+  "country_mt": {
+    "value": "Malta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71e9eb10"
+  },
+  "country_nl": {
+    "value": "Herbehereak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3a386c13"
+  },
+  "country_no": {
+    "value": "Norvegia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bea54a34"
+  },
+  "country_pl": {
+    "value": "Polonia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7f69649a"
+  },
+  "country_pt": {
+    "value": "Portugal",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4c7de2c3"
+  },
+  "country_ro": {
+    "value": "Errumania",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ea23726d"
+  },
+  "country_rs": {
+    "value": "Serbia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e8739c83"
+  },
+  "country_ru": {
+    "value": "Errusia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33a3d8ed"
+  },
+  "country_se": {
+    "value": "Suedia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "85363713"
+  },
+  "country_si": {
+    "value": "Eslovenia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "56059e7f"
+  },
+  "country_sk": {
+    "value": "Eslovakia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a2ea3384"
+  },
+  "country_sm": {
+    "value": "San Marino",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "230450a2"
+  },
+  "country_tr": {
+    "value": "Turkia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d15b2145"
+  },
+  "country_ua": {
+    "value": "Ukraina",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "580eedc6"
+  },
+  "country_va": {
+    "value": "Vatikano Hiria",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b0ce1029"
+  },
+  "country_xk": {
+    "value": "Kosovo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4a867424"
+  },
+  "device.heltec-wifi-lora-32-v3.notes": {
+    "value": "Plaka hutsa: gehitu kaxa, antena eta bateria. ESP32ak energia gehiegi kontsumitzen du eguzki-errepikagailu txiki baterako.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bc29e2c9"
+  },
+  "device.heltec-wifi-lora-32-v4.notes": {
+    "value": "Potentzia handiko bertsioak 28 dBm arte igortzen du, Europako mugatik gora antena gehienekin: errepikagailuen gidak erakusten du muga barruan nola geratu. Oinarrizko bertsioak 25 euro baino gutxiago balio du, potentzia handikoak gehiago. R8 bertsioak memoria gehiago du eta bere firmware-konpilazioa behar du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5c626e8a"
+  },
+  "device.heltec-mesh-node-t114.notes": {
+    "value": "Kontsumo txikiko nRF52 plaka, eguzki-errepikagailuetarako oinarri ohikoa. Pantaila eta GPS aukerakoak dira eskatzean; haiekin 25 euro baino gehiago balio du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f1999a30"
+  },
+  "device.heltec-wireless-tracker.notes": {
+    "value": "GPS integratua duen plaka. Bateria eta kaxa zuk jarri behar dituzu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5d4b7295"
+  },
+  "device.heltec-wireless-paper.notes": {
+    "value": "E-paper pantaila eguzki-argitan ere irakur daiteke. Ez dakar bateriarik.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d60633a2"
+  },
+  "device.lilygo-t-echo.notes": {
+    "value": "Poltsikoko gailua, e-paper pantailarekin eta GPSarekin. Bateria handiagoko bertsio bat ere badago.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1f285d65"
+  },
+  "device.lilygo-t-deck-plus.notes": {
+    "value": "Teklatu fisikoa, trackballa eta ukipen-pantaila. Plus bertsioak GPS eta 2000 mAh-ko bateria gehitzen ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0fb0f75c"
+  },
+  "device.lilygo-t-beam-supreme.notes": {
+    "value": "18650 zelda bat hartzen du, ez dator barne. Aukeratu SX1262 bertsioa: LR1121 bertsioak ez du konpilazio ofizialik.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e3db28aa"
+  },
+  "device.rak-wisblock-rak4631.notes": {
+    "value": "Modularra: klipdun moduluek GPS, pantaila edo sentsoreak gehitzen dituzte. Oinarrizko plakak eguzki-sarrera du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c1317a23"
+  },
+  "device.rak-wismesh-tag.notes": {
+    "value": "Txapa mehea eta eguraldiaren aurkakoa, antena integratuekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "572181c6"
+  },
+  "device.seeed-sensecap-t1000-e.notes": {
+    "value": "Kreditu-txartelaren tamainakoa, hautsaren eta zipriztinen aurkakoa (IP65), pantailarik gabe. LR1110 irratia darabil, SX1262 ohikoagoaren ordez.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e18363be"
+  },
+  "device.seeed-xiao-nrf52840-wio-sx1262.notes": {
+    "value": "Bi plakako pila txiki-txikia. Soldatu bateria bat eramangarri erabiltzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3063cd1d"
+  },
+  "device.seeed-wio-tracker-l1-pro.notes": {
+    "value": "Kaxan dator, pantailarekin, GPSarekin eta bateriarekin. Lite eta e-ink bertsioak ere badaude.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d9fd3d73"
+  },
+  "device.seeed-sensecap-solar-node-p1.notes": {
+    "value": "Eguraldiaren aurkako kaxa, 5 W-ko eguzki-panelarekin, 18650 motako lau zelda eta GPSarekin, errepikagailuetarako egina.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3c9e1f9"
+  },
+  "device.heltec-wifi-lora-32-v4-expansion-kit.notes": {
+    "value": "V4 plaka bat metalezko kaxan, ukipen-pantailarekin. GPS eta 18650 zelda bat aukerakoak dira eskatzean. MeshCorek pantaila erakusten du, baina oraindik ez du ukipena erabiltzen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8704efde"
+  },
+  "device.heltec-wireless-stick-lite-v3.notes": {
+    "value": "V3a pantailarik gabe. Plaka hutsa: gehitu kaxa, antena eta bateria.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6a36169b"
+  },
+  "device.heltec-wireless-tracker-v2.notes": {
+    "value": "GPS eta eguzki-konektorea dituen plaka. 28 dBm arte igortzen du, Europako mugatik gora antena gehienekin: errepikagailuen gidak erakusten du muga barruan nola geratu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e56ec119"
+  },
+  "device.heltec-vision-master-e213.notes": {
+    "value": "Eguzki-argitan irakur daitekeen e-paper pantaila duen plaka. Bateria eta kaxa zuk jarri behar dituzu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7519dcd5"
+  },
+  "device.heltec-vision-master-e290.notes": {
+    "value": "E213aren antzekoa, e-paper pantaila handiagoarekin. Bateria eta kaxa zuk jarri behar dituzu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "84da4d43"
+  },
+  "device.heltec-vision-master-t190.notes": {
+    "value": "Koloretako pantaila duen plaka. Bateria eta kaxa zuk jarri behar dituzu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08d0d0d2"
+  },
+  "device.heltec-mesh-node-t1.notes": {
+    "value": "Txartel-tamainako etiketa, GPSarekin eta pantaila txikiarekin, hautsaren eta zipriztinen aurkakoa (IP65).",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c9807632"
+  },
+  "device.heltec-meshpocket.notes": {
+    "value": "Barruan nodoa duen kanpoko bateria, zure telefonorako haririk gabeko kargagailu magnetikoarekin. 10000 mAh-koa ere saltzen da.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0eab0a7c"
+  },
+  "device.heltec-meshsolar.notes": {
+    "value": "Eguzki-errepikagailurako plaka: zelda batetik lauera eta 18 eta 24 V arteko panela hartzen ditu. GPS eta pantaila gehigarriak dira.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "195aa41c"
+  },
+  "device.heltec-meshtower-v2.notes": {
+    "value": "Eguraldiaren aurkako metalezko kaxa, hiru zelda eta 10 W-ko eguzki-panelarekin, errepikagailuetarako egina. GPS aukerakoa da. 30 dBm-ko bertsioa Europako mugatik gora dago: errepikagailuen gidak erakusten du muga barruan nola geratu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d935df5c"
+  },
+  "device.lilygo-t-echo-lite.notes": {
+    "value": "T-Echo txikiagoa, GPS modulu gehigarriarekin. Kaxarekin edo kaxarik gabe saltzen da.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b18c1e64"
+  },
+  "device.lilygo-t-echo-card.notes": {
+    "value": "Kreditu-txartelaren tamainakoa, GPSarekin, bozgorailuarekin eta bateria osatu besterik egiten ez duen eguzki-panel txikiarekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1b860b15"
+  },
+  "device.lilygo-t-impulse-plus.notes": {
+    "value": "Eskumuturrekoa, GPSarekin, pantaila txiki-txikiarekin eta dardara-motorrarekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3bc53725"
+  },
+  "device.lilygo-t-deck.notes": {
+    "value": "T-Deck Plusen teklatua eta trackballa ditu, GPSik eta bateriarik gabe. Aukeratu LoRa duen bertsioa: badago LoRa gabekoa ere.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e88fe0ef"
+  },
+  "device.lilygo-t-beam.notes": {
+    "value": "T-Beam klasikoa, SX1276 irrati zaharragoarekin. 18650 zelda bat hartzen du, ez dator barne.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7c56a56b"
+  },
+  "device.lilygo-t-beam-1w.notes": {
+    "value": "32 dBm arte igortzen du, Europako mugatik oso gora: errepikagailuen gidak erakusten du muga barruan nola geratu. 7,4 V-ko bateria behar du, eta ez du kargatzen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9a8d7b03"
+  },
+  "device.elecrow-thinknode-m1.notes": {
+    "value": "Eskuko gailua, e-paper pantailarekin eta GPSarekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "590fa3ac"
+  },
+  "device.elecrow-thinknode-m2.notes": {
+    "value": "Eskuko gailu txikia, OLED pantailarekin. Bateriarik gabe ere saltzen da.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "87f36cea"
+  },
+  "device.elecrow-thinknode-m3.notes": {
+    "value": "Hautsaren eta uraren aurkako tracker-a (IP66), GPSarekin, pantailarik gabe.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0c7b633a"
+  },
+  "device.elecrow-thinknode-m4.notes": {
+    "value": "Barruan nodoa eta GPS dituen kanpoko bateria, pantailarik gabe.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "638c30a0"
+  },
+  "device.elecrow-thinknode-m5.notes": {
+    "value": "M1aren antzekoa, ESP32 prozesadorearekin: funtzio gehiago, bateriaren iraupen laburragoa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7943f498"
+  },
+  "device.elecrow-thinknode-m6.notes": {
+    "value": "Eguraldiaren aurkako kaxa (IP65), 6 W-ko eguzki-panelarekin, 18650 motako bi zelda eta GPSarekin, errepikagailuetarako egina.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c7efcb7f"
+  },
+  "device.elecrow-thinknode-m7.notes": {
+    "value": "Barruko kutxa, Ethernet atakarekin, USB bidez edo sare-kablearen bidez (PoE) elikatua.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20225189"
+  },
+  "device.elecrow-thinknode-m9.notes": {
+    "value": "Bere kabuz dabil, teklatu osoarekin, koloretako pantailarekin eta GPSarekin. Ripple firmwarearekin dator; MeshCore estandarra ere badabil bertan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d9fb8bcf"
+  },
+  "device.seeed-wio-tracker-l1.notes": {
+    "value": "L1 Pro, kaxarik eta bateriarik gabe. GPS eta eguzki-konektorea ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f317b814"
+  },
+  "device.seeed-wio-tracker-l1-eink.notes": {
+    "value": "L1a e-paper pantailarekin, kaxarik eta bateriarik gabe. MeshCore companion gisa bakarrik dabil bertan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1c3665d9"
+  },
+  "device.seeed-sensecap-solar-node-p1-basic.notes": {
+    "value": "P1-Pro, zeldarik eta GPSik gabe: gehitu zuk 18650 motako lau zelda. Euskarriak punta irtena duten zeldak bakarrik hartzen ditu. Punta laueko zelda ohikoak iman txiki batekin sartzen dira, bakoitza berearekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a6f898f4"
+  },
+  "device.seeed-sensecap-meshtracker-x1.notes": {
+    "value": "Txartel-tamainakoa, hautsaren eta uraren aurkakoa (IP66), pantailarik gabe. USB-C bidez kargatzen da eta dar-dar egiten du mezu berri bat iristean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9eadd1b5"
+  },
+  "device.seeed-xiao-esp32s3-wio-sx1262.notes": {
+    "value": "XIAO kita ESP32arekin, nRF52aren ordez: Wi-Fi du, baina energia gehiago kontsumitzen du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0e783fe9"
+  },
+  "device.rak-wismesh-1w-booster.notes": {
+    "value": "30 dBm arte igortzen du, Europako mugatik gora: errepikagailuen gidak erakusten du muga barruan nola geratu. Bertsio bakoitza bateriarekin edo 5 V-rekin dabil, begiratu etiketa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e03b4d5b"
+  },
+  "device.bq-station-g3.notes": {
+    "value": "Oinarri-estazio modularra, 35 dBm arteko anplifikadorearekin, Europako mugatik oso gora: ezarri jumperrak eta igorpen-potentzia zure herrialderako. 9 eta 19 V arteko elikadura behar du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ee7d06f9"
+  },
+  "device.bq-nano-g2-ultra.notes": {
+    "value": "Eskuko gailu sendoa, gorputzetik gertu lan egiteko diseinatutako antena integratuarekin. Bateria aukerakoa da.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5e947959"
+  },
+  "device.m5stack-unit-c6l.notes": {
+    "value": "Plastikozko oskola duen modulu txikia, USB-C bidez elikatua. Ez du bateria-sarrerarik.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "468b2af6"
+  },
+  "device.meshnology-w12.notes": {
+    "value": "Kode irekiko plaka, bateria- eta eguzki-sarrerekin. 30 dBm arte igortzen du, Europako mugatik gora: errepikagailuen gidak erakusten du muga barruan nola geratu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "df27901e"
+  },
+  "community.nl-dutch-meshcore.desc": {
+    "value": "Herbehereetako MeshCore erabiltzaileentzako boluntario-talde nederlandarra. MQTT biltzaile partekatuak, behatzaileen aginte-panel bat, ezarpen-laguntzaile bat eta firmware-tresnak ditu arakatzailean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c4ad2c7f"
+  },
+  "community.nl-meshcore-net.desc": {
+    "value": "Nederlanderazko Telegram txata eta foroa, non erabiltzaile nederlandarrek konfigurazio-laguntza, kanal-zerrendak eta errepikagailuen berriak trukatzen dituzten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c57f1887"
+  },
+  "community.be-radio-actief.desc": {
+    "value": "Belgikako wikia eta Discorda, MeshCore 2025aren amaieran Belgikara ekarri zuten irrati-afizionatuek sortuak. Irrati-zaletuen komunitate zabalago baten parte dira.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7598f9b8"
+  },
+  "community.lu-meshcore-luxembourg.desc": {
+    "value": "Herrialde osoan MeshCore errepikagailuak kudeatzen dituzten Luxenburgoko elkarteen harrera-orri partekatua. Hacker, irrati-afizionatu eta larrialdietarako prestakuntzako taldeak dira.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e38285ec"
+  },
+  "community.de-meshcore-de.desc": {
+    "value": "Alemanez egiten den MeshCore txata Telegramen, Alemania osoan eta talde austriarrek erabilia. Matrix gela bat ere badago nahiago dutenentzat.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2d34fef"
+  },
+  "community.de-berlin-chaos-mesh.desc": {
+    "value": "Hackerspace batetik sortutako Berlingo taldea, foroarekin, Matrix gelarekin eta PotatoMesh aginte-panelarekin. MeshCore eta beste mesh proiektu batzuk lantzen ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9f0065e0"
+  },
+  "community.de-isarmesh.desc": {
+    "value": "Municheko inguruko LoRa mesh erabiltzaileen foroa. Topaketak antolatzen ditu aldizka, eta MeshCore eta beste mesh proiektu batzuei buruz eztabaidatzen du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "05e62cf9"
+  },
+  "community.de-mesh-dresden.desc": {
+    "value": "Dresdengo taldea, errepikagailuen arduradunentzako artikulu tekniko sakonekin. MeshCore eta beste mesh proiektu batzuetarako tokiko txat bat ere kudeatzen du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fd5d9e40"
+  },
+  "community.at-meshcore-austria.desc": {
+    "value": "Austriako komunitate-webgunea, konfigurazio-gidekin, ekitaldiekin eta berriekin. Austriako Telegram taldea webgunetik aparte kudeatzen da.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3dfcd101"
+  },
+  "community.ch-meshcore-switzerland.desc": {
+    "value": "Suitzako webgunea lau hizkuntzatan, gailu, eskualde eta kanalei buruzko aholkuekin eta galdera eta eskaeretarako komunitate-foroarekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e8eb8c2c"
+  },
+  "community.cz-meshcore-cr.desc": {
+    "value": "Txekiar wikia hardwareari, errepikagailuei, kanalei eta eskualdeei buruz, Telegram talde batek eta pakete-analizatzaile nazional batek babestua.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3eb31061"
+  },
+  "community.sk-meshcore-slovensko.desc": {
+    "value": "Eslovakiako sarearen orria, Bratislavako irrati-afizionatuen klub batek ostatatua, Discord zerbitzariarekin eta asteroko aurrez aurreko topaketekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "950a6862"
+  },
+  "community.pl-meshcore-polska.desc": {
+    "value": "Polonia osoko komunitatea, nodoen maparekin, polonierazko dokumentazioarekin eta Discord zerbitzariarekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bd6ed843"
+  },
+  "community.fr-meshcore-france.desc": {
+    "value": "Frantziako koordinazio-orria, eskualdeetako taldeetara eta zuzeneko mapetara bideratzen duena, komunitate-webgune independente gisa mantendua.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e2024cd5"
+  },
+  "community.fr-mesh-idf.desc": {
+    "value": "Pariseko eskualdeko wikia, MeshCore Telegram txatarekin. Wikiak beste mesh proiektu batzuk ere lantzen ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b4be06c9"
+  },
+  "community.it-meshcore-italia.desc": {
+    "value": "Italiako komunitate nazionala, gidekin, eskualdeetako eta eguraldi-abisuetako kanalen zerrendekin, zuzeneko nodo-maparekin eta Telegram taldearekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2a6caa8e"
+  },
+  "community.pt-meshcore-portugal.desc": {
+    "value": "Portugalgo komunitatea, bere gidekin, eta aplikazioa eta firmwarea portugesez dituena. Bere txatak Telegram karpeta batean bilduta daude.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b67ce7bd"
+  },
+  "community.dk-meshcore-dk.desc": {
+    "value": "Danimarkako wikia, hasierako orriekin, gailuei buruzko oharrekin, eskualdeen konfigurazioarekin eta benetako errepikagailu-instalazioen argazkiekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d0895f3b"
+  },
+  "community.se-meshat.desc": {
+    "value": "Mesh sareetarako Suediako topagunea, foroarekin, Discordekin eta Matrix gelarekin. MeshCore MQTT eta mapa-zerbitzuak kudeatzen ditu, eta beste mesh proiektu batzuk ere lantzen ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33d9ed2b"
+  },
+  "community.fi-mesh-finland.desc": {
+    "value": "Finlandiako MeshCore webgunea, analizatzaile nazional baterako eta estaldura-mapetarako estekekin. Bere Discord zerbitzaria beste mesh proiektu batzuetako erabiltzaileekin partekatzen du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3d618dfa"
+  },
+  "community.no-meshwiki.desc": {
+    "value": "Norvegiako wikia, MeshCore atal batekin beste mesh proiektu batzuen ondoan, eta lotutako foro batekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ccd83ba2"
+  },
+  "community.ee-estmesh.desc": {
+    "value": "Estoniako MeshCore orria eta wikia, kanal nazional eta hirikoekin eta irrati-zale estoniarrentzako Discord zerbitzariarekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14530e0d"
+  },
+  "community.lv-apraide.desc": {
+    "value": "Letoniako LoRa mesh komunitatea, bere sarerako MeshCore aukeratu zuena, eztabaidak Matrix gela batean dituena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "42e8a5c2"
+  },
+  "community.lt-atviras-tinklas.desc": {
+    "value": "Lituaniako komunitate-webgunea, ezagutza-basearekin, gailu-orriekin eta MeshCore sarearen zuzeneko analizatzailearekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8a0f8ba4"
+  },
+  "community.si-meshcore-slovenija.desc": {
+    "value": "Esloveniako webgunea, gomendatutako eskualdeko irrati-ezarpenekin, nodo-maparekin eta firmware-estekekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "73253c8c"
+  },
+  "community.bg-meshcore-bulgaria.desc": {
+    "value": "Sofia eta Plovdiv inguruko Bulgariako komunitatea, Errumaniarako eta Serbiarako irrati-loturekin. Kanalak, aurrezarpenak eta plangintza-tresnak argitaratzen ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ef62c925"
+  },
+  "community.rs-meshcore-srbija.desc": {
+    "value": "Serbiako komunitate-webgune ez-ofiziala, nodo-erregistroarekin eta zuzeneko maparekin, Serbian eta inguruko herrialdeetan hedatzen den sarerako.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "874059ce"
+  },
+  "community.gr-meshcore-greece.desc": {
+    "value": "Greziako Discord zerbitzaria, Grezian MeshCore sareak planifikatzeko eta kudeatzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3fa83721"
+  },
+  "community.gb-meshhub-uk.desc": {
+    "value": "Erresuma Batu osoko gunea, komunitate-tresnekin, mapekin eta ekitaldiekin, MeshCore erabiltzaileentzat eta beste mesh komunitate batzuentzat.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "050038cc"
+  },
+  "community.gb-scotmesh.desc": {
+    "value": "Boluntarioek kudeatutako Eskoziako komunitatea, foroarekin, wikiarekin eta Discordekin, MeshCore beste mesh proiektu batzuen ondoan erabiltzen duena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cce9f41c"
+  },
+  "community.ie-lora-project.desc": {
+    "value": "Irlandako uharte osoan MeshCorekin hasteko webgune independentea. Bere Discord zerbitzariak iparraldea eta hegoaldea hartzen ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5f335412"
+  },
+  "community.at-carinthiamesh.desc": {
+    "value": "Karintiako MeshCore wikia: hasiera, irrati-ezarpenak, gailuak eta errepikagailuak.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b601e188"
+  },
+  "community.at-meshcore-austria-at.desc": {
+    "value": "Austriako MeshCoreri buruzko komunitate-wikia, alemanez.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7746c59b"
+  },
+  "community.be-loramesh.desc": {
+    "value": "Belgikako taldea, internet eta sare mugikorra erortzen direnean MeshCore larrialdi-mezuetarako erabiltzen duena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a0d79514"
+  },
+  "community.be-meshpot.desc": {
+    "value": "Frantsesezko gida, Bruselako eta Valoniako MeshCore mesh sarean sartzeko, hura eraikitzeko eta babesteko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3c6c5a0a"
+  },
+  "community.fr-loramesh.desc": {
+    "value": "Frantziako taldea, internet edo sare mugikorra huts egiten dutenean MeshCorekin tokiko harremana mantentzen duena, urratsez urrats, eremu aktiboen maparekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f22be170"
+  },
+  "community.de-bsmesh.desc": {
+    "value": "Braunschweig eskualde handiko MeshCore sarea.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "076fd5a0"
+  },
+  "community.de-bremesh.desc": {
+    "value": "Bremen, Bremerhaven eta inguruetarako MeshCore sare librea, tutorialekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7f614859"
+  },
+  "community.de-pemesh.desc": {
+    "value": "Peine hirian eta inguruan dagoen MeshCore sarea, bi tokiko mesh elkartu zirenean sortua.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6423719c"
+  },
+  "community.de-muensterland.desc": {
+    "value": "Münsterland osoan MeshCore sare librea eraikitzen ari den komunitatea, Billerbecken sortua.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6f35e420"
+  },
+  "community.de-mesh-rheinland.desc": {
+    "value": "Renaniako komunitatea, MeshCore sare bat eta Meshtastic sare bat kudeatzen dituena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eb9d7af7"
+  },
+  "community.de-meshcore-de-wiki.desc": {
+    "value": "Alemanierazko wikia, konfigurazio-gidekin eta eskualdeko taldeen direktorio batekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2a7d4602"
+  },
+  "community.de-ffnw.desc": {
+    "value": "Freifunk elkartea, 2013tik Weser-Ems eskualdean WiFi mesh komunitario bat kudeatzen duena, eta orain MeshCore errepikagailuak ere bai. Hilero biltzen da Oldenburgen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "abb2138f"
+  },
+  "community.de-meshcore-dresden.desc": {
+    "value": "Dresden eta inguruetan MeshCore sare bat eraikitzen ari den taldea, bere eskualde eta kanalen zerrendarekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d0a1d71d"
+  },
+  "community.de-meshmitte.desc": {
+    "value": "Uslar eta inguruetako tokiko taldea, jendeak argindarra eta sarea eten arren harremanetan jarraitzea nahi duena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "82b196a8"
+  },
+  "community.de-saarmesh.desc": {
+    "value": "Saarlandeko MeshCore eskualde-sarea, bere eskualde-egiturarekin eta zuzeneko mapa batekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2eeeb6e6"
+  },
+  "community.de-hansemesh.desc": {
+    "value": "Hanburgorako eta Alemania iparralderako MeshCore sarea, gidekin eta hardware-aholkuekin. Bere txata Telegram-eko MeshCore DE taldea da.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c27d5586"
+  },
+  "community.de-mesh-weiterstadt.desc": {
+    "value": "Weiterstadten MeshCore sare librea jartzen ari den tokiko taldea, oraindik eraikitzen ari dena. Errepikagailu baterako teilatu bat eskaintzeko eskatzen dio jendeari.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5a268245"
+  },
+  "community.de-msemesh.desc": {
+    "value": "MeshCore eta Meshtastic taldea Neubrandenburg, Neustrelitz, Waren, Demmin eta Feldberg inguruan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc1d7f13"
+  },
+  "community.de-ka-mesh.desc": {
+    "value": "Karlsruhe eta Pforzheim inguruan MeshCore sare bat eraikitzen ari den taldea, kanal-zerrenda eta topaketekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20d493a1"
+  },
+  "community.ie-mayo-mesh.desc": {
+    "value": "Mayo konderriko mesh irrati-erabiltzaileen taldea.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "baab199e"
+  },
+  "community.it-lora-brescia.desc": {
+    "value": "Bresciako irrati-taldea, MeshCore errepikagailuak flasheatzeko eta konfiguratzeko italierazko gidekin. Meshtastic eta LoRa APRS ere kudeatzen ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08567551"
+  },
+  "community.it-meshcore-ita.desc": {
+    "value": "Italierazko gidak, italiar irrati-preset partekatua eta hardware-oharrak, Telegram talde batekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8b178f55"
+  },
+  "community.it-meshcore-torino.desc": {
+    "value": "Turin eta bere probintziarako taldea, zure nodoa konfiguratzen laguntzen dizuna.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d1527a42"
+  },
+  "community.nl-meshwiki.desc": {
+    "value": "Edonork edita dezakeen nederlanderazko wikia, MeshCore eta mesh irratiari buruzkoa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ce29af01"
+  },
+  "community.pl-lora-meshcore-polska.desc": {
+    "value": "Poloniako sare nazionala EU/UK Narrow presetean, nola dabilen eta nork eraikitzen duen azaltzen duena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4c574d21"
+  },
+  "community.pl-meshcore-podlasie.desc": {
+    "value": "Podlasien MeshCore sare bat eraikitzen ari diren zaleak, albisteekin eta tokiko ezarpenekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a15fb772"
+  },
+  "community.pl-meshgo.desc": {
+    "value": "MeshCore taldea Gdańsk, Gdynia eta Sopot inguruan, Poloniako preset nazionala erabiltzen duena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8d16fa09"
+  },
+  "community.ro-brasov-mesh.desc": {
+    "value": "Brașoveko MeshCore sarea EU/UK Narrow presetean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bd8dcbfa"
+  },
+  "community.ro-meshcore-iasi.desc": {
+    "value": "Iașiko MeshCore sarea, zuzeneko panel batekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eacc34d4"
+  },
+  "community.es-meshcore-catalunya.desc": {
+    "value": "Kataluniako komunitate-gunea, zuzeneko mapa, analizatzaile bat eta hardware-gidak dituena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5357e7fd"
+  },
+  "community.es-nomadmesh.desc": {
+    "value": "Alpujarretako MeshCore sare komunitarioa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ee8acd03"
+  },
+  "community.ua-meshcore-ua.desc": {
+    "value": "Boluntarioek kudeatzen duten mesh publikoa, Ukraina osoan harremanetan egoteko, errepikagailu, bot eta kanalen zerrendekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "96fe6d7d"
+  },
+  "community.gb-ipnet.desc": {
+    "value": "Ipswicheko komunitatea, Ingalaterra ekialdeari zerbitzua ematen diona, CoreScope panelekin eta MQTT zerbitzuekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "114be940"
+  },
+  "community.gb-meshcore-wales.desc": {
+    "value": "Hego Galesen eta Mendebaldean partekatutako irrati-ezarpenak eta kanalak.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "726b552a"
+  },
+  "community.gb-northmesh.desc": {
+    "value": "Ingalaterra iparraldeko sarea, errepikagailuen, pakete-jardueraren eta estalduraren zuzeneko mapa batekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a1345cca"
+  },
+  "map.meshcore-official-map.desc": {
+    "value": "Proiektuaren munduko mapa propioa, jabeek argitaratzea erabaki duten nodoekin. Nodo motaren eta irrati-maiztasunaren arabera iragazten da.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1509cafa"
+  },
+  "map.meshmapper.desc": {
+    "value": "Tokiko boluntarioen wardriving ibilaldietatik sortutako estaldura-mapak, eskualde-mapatan banatuta, Europa osoko eskualdeekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f333e608"
+  },
+  "map.eu-meshcore-analyzer.desc": {
+    "value": "Europako analizatzaile partekatua, zenbait komunitate-brokerren behatzaile-jarioak nodo, pakete eta kanalen zuzeneko ikuspegi bakarrean biltzen dituena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aa93a1ba"
+  },
+  "map.nl-dmc-observers.desc": {
+    "value": "Dutch MeshCore (DMC) taldearen MQTT biltzaileei datuak bidaltzen dizkieten behatzaileen zuzeneko panela.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1da8752e"
+  },
+  "map.nl-mc-radar.desc": {
+    "value": "Herbehereetako mesh-aren sare-estatistikak: behatzaile nederlandarren datuekin, transmisio-ahalmena, kanal-trafikoa, nodoen jarduera eta protokoloaren egoera erakusten ditu grafikoetan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a54bab7e"
+  },
+  "map.cz-analyzer.desc": {
+    "value": "Txekiar sarerako CoreScope instantzia, zuzeneko pakete-jarioarekin, nodo-maparekin eta nodokako estatistikekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ade9ad40"
+  },
+  "map.fi-corescope.desc": {
+    "value": "Finlandiako CoreScope analizatzailea, MeshCore sare nazionala mapan erakusten duena zuzeneko paketeekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9fa0aa59"
+  },
+  "map.se-meshat-corescope.desc": {
+    "value": "Suediako CoreScope analizatzailea, Meshat.se MeshCore MQTT brokerrak elikatzen duena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a1e700c6"
+  },
+  "map.fr-cartolite.desc": {
+    "value": "Norberak ostatatutako MeshCore trafikoaren munduko zuzeneko mapa: entzundako loturak, zuzeneko paketeak eta bero-mapa marrazten ditu lurrazaleko mapa batean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "abcdec75"
+  },
+  "map.ee-litescope.desc": {
+    "value": "Estoniako analizatzaile arina, zuzeneko pakete-jarioarekin, nodo-maparekin, seinale-estatistikekin eta behatzaileen ikuspegi orokorrarekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "040c7753"
+  },
+  "map.ie-mayomesh-live.desc": {
+    "value": "Denbora errealeko Irlandako mapa, nodoekin, mezu-ibilbideekin eta advert bideekin, eta estaldura, ikusmen-lerro eta hedapen tresnekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "244a4a53"
+  },
+  "map.de-meshcorenetz-analyzer.desc": {
+    "value": "MeshCore Analyzer MeshCoreNetz.de-ren koloreetan, Alemania iparraldean irekitzen dena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7c597271"
+  },
+  "map.de-meshdresden-analyzer.desc": {
+    "value": "MeshCore Analyzer MeshDresden.eu-ren koloreetan, Dresdengo mesh komunitarioarenetan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b7456441"
+  },
+  "map.nl-cornmeister.desc": {
+    "value": "MeshCore Analyzer Cornmeister.nl-ren koloreetan, Herbehereetan irekitzen dena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69efcf8b"
+  },
+  "map.be-bemesh-map.desc": {
+    "value": "Belgikako bezero, errepikagailu, room server eta sentsoreen mapa, non jabeek beren nodoa erreklama dezaketen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "37af8d74"
+  },
+  "map.be-on8ar-corescope.desc": {
+    "value": "Belgikan entzundako trafikorako CoreScope analizatzailea.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97d8adf0"
+  },
+  "map.is-corescope.desc": {
+    "value": "Islandiako sarerako CoreScope analizatzailea.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9441de4b"
+  },
+  "map.pl-meshcore-polska-map.desc": {
+    "value": "Poloniako bezero, errepikagailu, room server eta sentsoreen zuzeneko mapa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57d86a21"
+  },
+  "map.fr-loramesh-map.desc": {
+    "value": "Frantzian MeshCore aktibo dagoen eremuen mapa. Hiri handietatik kanpo, estaldura oraindik gorabeheratsua da.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "85632f3a"
+  },
+  "map.de-meshcore-de-regions.desc": {
+    "value": "MeshCore eskualdeen eta tokiko taldeen mapa editagarria, gehienak Alemanian.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cec143bd"
+  },
+  "map.gb-ukmesh.desc": {
+    "value": "Erresuma Batuko sarearen analitika, bide eta zuzeneko ikuspegiekin, behatzaileek elikatua.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "03a38df8"
+  },
+  "map.gb-meshrank.desc": {
+    "value": "Errepikagailu eta ibilbideen sailkapenak eta estatistikak, batez ere Erresuma Batuan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "997a9a6e"
+  },
+  "map.gb-m3sh-contacts.desc": {
+    "value": "Erresuma Batuko sarea, Oxfordshireko nodo batek entzuten duen moduan, nodoen hardwarearekin eta aurrizki bikoiztuekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cb2153f9"
+  },
+  "map.kiekr-map.desc": {
+    "value": "Zein irrati-eskualde non heltzen den, KiekR erabiltzaileek behatzen dituzten bizilagunetatik kalkulatuta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9a3aceee"
+  },
+  "map.hopradar.desc": {
+    "value": "Konektatu zure nodoa Bluetooth edo USB bidez, eta ikusi nabigatzailean entzuten dituen jauziak, bideak eta SNR.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ae215bf8"
+  },
+  "map.mapme-sh.desc": {
+    "value": "Europa osoan telefonoekin egindako mapatze-ibilbideetatik sortutako estaldura-mapa, seinalearen indarraren araberako koloreko hexagonoekin. Joko batek mesh-eko hutsuneak seinalatzen ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "23bca522"
+  },
+  "project.meshcore-firmware.desc": {
+    "value": "MeshCore firmware ofiziala eta bideratze-liburutegia LoRa plaketarako, companion, errepikagailu, room server eta sentsore rolekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bba821af"
+  },
+  "project.meshcore-js.desc": {
+    "value": "JavaScript liburutegia, nabigatzaileetatik eta Node.js-etik MeshCore companion irratiekin komunikatzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0b9ed81f"
+  },
+  "project.meshcore-py.desc": {
+    "value": "Python loturak, MeshCore companion irrati bat serie-konexio, Bluetooth edo TCP bidez kontrolatzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "305bd163"
+  },
+  "project.meshcore-cli.desc": {
+    "value": "Komando-lerroko bezeroa, terminal batetik mezuak bidaltzeko eta MeshCore nodoak kudeatzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6f68e501"
+  },
+  "project.meshcore-ha.desc": {
+    "value": "Home Assistant integrazioa, MeshCore nodoak, mezuak eta telemetria entitate gisa ematen dituena monitorizaziorako eta automatizazioetarako.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8b5725be"
+  },
+  "project.meshcore-flasher.desc": {
+    "value": "Onartutako plaketan MeshCore firmwarea USB bidez flasheatzen duen nabigatzaileko tresnaren iturburua.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ba3feb1b"
+  },
+  "project.meshcore-map.desc": {
+    "value": "Nodo-mapa ofizialaren iturburua, non jabeek beren nodoak argitara ditzaketen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "91b7682b"
+  },
+  "project.openhop-repeater.desc": {
+    "value": "Python errepikagailu-daemona, SPI LoRa irratia duen Linux ordenagailu bat MeshCorerekin bateragarria den errepikagailu bihurtzen duena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d2bf1646"
+  },
+  "project.openhop-core.desc": {
+    "value": "MeshCore protokoloaren eta bideratze-pilaren Python berrinplementazioa, SPI LoRa irratientzako euskarri zuzenarekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54ed7f73"
+  },
+  "project.meshcore-open.desc": {
+    "value": "Plataforma anitzeko kode irekiko Flutter aplikazioa, Bluetooth, USB serie edo TCP bidezko MeshCore irratietarako, web bertsioa barne.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c322a23f"
+  },
+  "project.meshcoretomqtt.desc": {
+    "value": "MeshCore behatzaile-irrati baten pakete-kapturak analizatzaileentzako MQTT broker batera birbidaltzen dituen scripta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "19dfb497"
+  },
+  "project.meshcore-mqtt-broker.desc": {
+    "value": "Behatzaileak pasahitzen ordez beren MeshCore gako-bikoteekin autentifikatzen dituen MQTT brokerra.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ca27fa19"
+  },
+  "project.corescope.desc": {
+    "value": "Norberak ostatatzeko MeshCore analizatzailea, paketeak MQTT bidez jasotzen dituena. Zuzeneko jarioa, mapak, kanal-ikuspegiak eta nodo-estatistikak eskaintzen ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a74322db"
+  },
+  "project.litescope.desc": {
+    "value": "Norberak ostatatzeko panel arina, MeshCore sare bat behatzeko. Estoniako komunitateak bat kudeatzen du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dc42e5a"
+  },
+  "project.meshcore-hub.desc": {
+    "value": "Erresuma Batuko komunitate baten Python plataforma. MQTT gertaerak datu-base batean biltzen ditu, eta REST API bat eta web-panel bat eskaintzen ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "07442a84"
+  },
+  "project.potato-mesh.desc": {
+    "value": "Komunitate-panel federatua MeshCore eta beste mesh sare batzuetarako, Berlin Chaos Mesh-ek erabiltzen duena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7b98d4f7"
+  },
+  "project.meshcore-mqtt-live-map.desc": {
+    "value": "MeshCore MQTT jario batek elikatzen duen zuzeneko web-mapa, nodoak, ibilbideak eta estaldura denbora errealean erakusten dituena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e0380e74"
+  },
+  "project.meshcore-bot.desc": {
+    "value": "Python bota, MeshCore kanaletan komandoei erantzuten diena eta mezuak Discord eta Telegram-era zubi ditzakeena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "04a73c83"
+  },
+  "project.meshcore-channels.desc": {
+    "value": "Komunitateak edita dezakeen MeshCore kanal publikoen JSON zerrenda, herrialdeka antolatua eta aplikazioek erabiltzeko argitaratua.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3bb8a9a"
+  },
+  "project.meshcore-regions.desc": {
+    "value": "Munduan erabiltzen diren MeshCore eskualde-kodeen JSON katalogoa, komunitateak edita dezakeena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ea403726"
+  },
+  "project.zephcore.desc": {
+    "value": "MeshCoreren portua Arduinotik Zephyr denbora errealeko sistema eragilera.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d68923fa"
+  },
+  "project.meshcore-ng.desc": {
+    "value": "Firmware fork nederlandarra, mesh trinko eta lanpetuetarako errepikagailu-hobekuntzak gehitzen dituena, bezero estandarrekin bateragarri jarraituz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5f288c67"
+  },
+  "project.meshcore-solo.desc": {
+    "value": "Companion firmware fork-a, lineaz kanpoko GPS nabigazioa gehitzen duena, bide-puntuekin, iparrorratzarekin eta GPX esportazioarekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1c9d0659"
+  },
+  "project.meshcore-c.desc": {
+    "value": "MeshCore protokoloaren C inplementazioa, mendekotasunik gabea: liburutegia edozein proiektutarako edo ESP-IDF osagaia.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "327a07f8"
+  },
+  "project.lora-mesh-nodes.desc": {
+    "value": "Norberak egiteko nodo mugikor eta eguzki-nodoen diseinuen bilduma, kaxekin, inprimatzeko piezekin eta pieza-zerrendekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "637e2726"
+  },
+  "project.lora-harvester-box.desc": {
+    "value": "Hardware irekiko plaka, STM32WL LoRa txip bat energia-biltzaile batekin uztartzen duena, kontsumo oso txikiko LoRa nodoetarako, MeshCore barne.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6ecc7144"
+  },
+  "project.mesh-hunter.desc": {
+    "value": "Telefonorako web-aplikazioa, companion irrati batekin parekatzen dena eta entzuten duen pakete bakoitza zure GPS kokapenarekin erregistratzen duena, nahi ez den trafikoaren iturrira oinez edo autoz joateko. Entzuten duena MQTT brokerrekin parteka dezake.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d0fb854e"
+  },
+  "project.eu-meshcore-analyzer.desc": {
+    "value": "Europako MeshCore sarearen zuzeneko mapa eta analizatzailea, entzuten dutena jakinarazten duten behatzaileek eta telefono-aplikazioek elikatua.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fed133d8"
+  },
+  "project.dmc-triangulator.desc": {
+    "value": "Nodo bat non dagoen zehazten du, entzun duten errepikagailuetatik abiatuta, tokiko bilaketa baino lehen lehen bilaketa-eremu gisa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f73b5e0b"
+  },
+  "project.kiekr.desc": {
+    "value": "Mesh-ean mezuak bidaltzeko telefono-aplikazioa, estaldura ere mapatzen duena eta entzuten duena analizatzaileetara igo dezakeena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "05e5f56a"
+  },
+  "project.meshmapper.desc": {
+    "value": "Wardriving bidez sortutako estaldura-mapa, eskualdeko instantziekin, MQTT broker propioarekin eta API ireki batekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1135e1cd"
+  },
+  "project.trail-mate.desc": {
+    "value": "Lineaz kanpoko esku-firmwarea LilyGO T-LoRa Pager eta T-Deck gailuetarako, GPS nabigazioarekin eta talde-mezularitzarekin MeshCore eta Meshtastic bidez.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "86cd32a0"
+  },
+  "project.remote-terminal.desc": {
+    "value": "MeshCore irrati baterako norberak ostatatzeko bezeroa, harrapatutako paketeak zerbitzari batean gorde eta deszifratzen dituena, botekin eta MQTTrekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90c11494"
+  },
+  "project.meshpoint.desc": {
+    "value": "Raspberry Pi oinarri-estazioa, SX1302 edo SX1303 kontzentragailu batekin, hainbat kanal aldi berean entzuten dituena, tokiko panel batekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6c668061"
+  },
+  "project.easyskymesh.desc": {
+    "value": "Bateriaz edo eguzki-panel txiki batez dabiltzan errepikagailu eta sentsore-nodoetan energia aurrezten duen firmware fork-a.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3b1503dc"
+  },
+  "project.solar-os.desc": {
+    "value": "Testuan oinarritutako sistema eragile txikia ESP32 poltsikoko terminaletarako, MeshCore companion batekin bere irratian edo parekatutako nodo batean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "23677e08"
+  },
+  "project.wio-tracker-l1-pro.desc": {
+    "value": "Seeed Wio Tracker L1 Pro gailurako companion firmwarea, gailuan bertan erabiltzaile-interfazea duena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b694d013"
+  },
+  "project.meshcore-one.desc": {
+    "value": "iPhone, iPad eta Mac-erako MeshCore aplikazio natiboa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "87505963"
+  },
+  "project.lunarcore.desc": {
+    "value": "Heltec WiFi LoRa 32 V3 plakarako Rust firmwarea, MeshCore, Meshtastic eta beste protokolo batzuk erabiltzen dituena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f2c6fabd"
+  },
+  "project.meshcore-sar.desc": {
+    "value": "Bilaketa eta erreskate taldeentzako lineaz kanpoko aplikazioa: mezuak, ahotsa, irudiak, mapak eta partekatutako kokapenak MeshCore bidez.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "413c9353"
+  },
+  "project.cardputer-adv-stachugit.desc": {
+    "value": "M5Stack Cardputer ADV gailurako companion firmwarea, LoRa txano batekin, txat-pantailarekin eta kolore-gaiekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9ab883fb"
+  },
+  "project.meshcoreterm.desc": {
+    "value": "Estilo retroko ukipen-firmwarea LilyGO T-Deck, Seeed SenseCAP Indicator eta pantaila duten beste plaka batzuetarako.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ac08cb0e"
+  },
+  "project.mesh-client.desc": {
+    "value": "macOS, Linux eta Windowserako mahaigaineko aplikazioa, MeshCore, Meshtastic eta Reticulum irratiekin komunikatzen dena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61a3a731"
+  },
+  "project.mishmesh.desc": {
+    "value": "Irratian bertan interfaze propioa duen companion firmwarea: mezuak bidal ditzakezu telefonorik parekatu gabe.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9bde8382"
+  },
+  "project.overmesh.desc": {
+    "value": "Zure ordenagailuan exekutatzen duzun panela MeshCore eta Meshtastic-erako, nodo-maparekin, txatarekin, bot batekin eta lineaz kanpoko mapekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fbacbc50"
+  },
+  "project.meshcore-wardrive-android.desc": {
+    "value": "Oinez edo autoz zoazen bitartean MeshCore estaldura mapatzen duen Android aplikazioa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6c9c49ec"
+  },
+  "project.akita-bridge.desc": {
+    "value": "Meshtastic eta MeshCore artean mezuak pasatzen dituen zubia, serie-lotura edo MQTT bidez.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eff5e3a1"
+  },
+  "project.meshcore-packet-capture.desc": {
+    "value": "Companion irrati baten paketeak harrapatu eta MQTTn argitaratzen dituen Python scripta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5325460e"
+  },
+  "project.cardputer-adv-sosprz.desc": {
+    "value": "M5Stack Cardputer ADV eta Cap LoRa868 gailuetarako companion firmwarea, M5Burner-ekin flasheatua.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cf8b55c5"
+  },
+  "project.lora-wideband-decoder.desc": {
+    "value": "Softwarez definitutako irrati-hartzailea, MeshCore, Meshtastic eta LoRaWAN trafikoa banda zabalean deskodetzen duena, tokiko web-orri batekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3e575ff"
+  },
+  "project.mc-webui.desc": {
+    "value": "meshcore-cli gaineko web-interfazea, nabigatzaile batetik mezuak bidaltzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3372c462"
+  },
+  "project.meshfirmware.desc": {
+    "value": "Linux eta Windowserako scriptak, MeshCore eta Meshtastic firmwarea USB bidez aukeratu, konpilatu eta flasheatzen dutenak.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be0d230e"
+  },
+  "project.repeater-mqtt-gateway.desc": {
+    "value": "Mesh-a MQTT broker batekin ere konektatzen duen errepikagailu-firmwarea, bi norabideetan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "23f7dfec"
+  },
+  "project.tak-meshcore.desc": {
+    "value": "ATAK egoera-kontzientziako aplikazioari MeshCore companion irrati bat Bluetooth bidez erabiltzen uzten dion plugina.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "acbecd75"
+  },
+  "project.meshcore-decoder.desc": {
+    "value": "MeshCore paketeak deskodetzen dituen TypeScript liburutegia, deszifratzea barne.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1235f40d"
+  },
+  "project.mesh-loader.desc": {
+    "value": "Abio bikoitza Heltec WiFi LoRa 32 V3 eta V4 plaketarako: gorde bi firmware plaka batean eta aldatu batetik bestera.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be49552e"
+  },
+  "project.meshcore-proxy.desc": {
+    "value": "USB edo Bluetooth bidezko companion irrati bat beste ordenagailuetako aplikazioentzat eskuragarri jartzen duen TCP proxya.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eaf24463"
+  },
+  "project.roadstr.desc": {
+    "value": "Errepideko gertaeren jakinarazpena zerbitzari zentralik gabe: sinatutako Nostr gertaerak, internetik ez dagoenean MeshCore bidez garraiatuak.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "60e39810"
+  },
+  "project.domca-docs.desc": {
+    "value": "Dokumentazioa nederlanderaz eta ingelesez, zure lehen nodotik protokoloa, firmwarea eta irratia nola dabiltzan arte. AA tresnen laguntzaz idatzita dago, beraz egiaztatu firmwarearen xehetasunak MeshCoreren iturburuarekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c976aea"
+  },
+  "guides_group_start": {
+    "value": "Zure lehen nodoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "276f7ca8"
+  },
+  "guides_group_setup": {
+    "value": "Konfiguratu zure nodoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "55efd611"
+  },
+  "guides_group_deeper": {
+    "value": "Sakondu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6bce982b"
+  },
+  "guides_card_get_started_title": {
+    "value": "Hasi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "guides_card_get_started_desc": {
+    "value": "Plaka berri batetik mesh-eko zure lehen mezura, 6 urratsetan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "133bcbfc"
+  },
+  "guides_card_devices_title": {
+    "value": "Gailuak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ba5121d"
+  },
+  "guides_card_devices_desc": {
+    "value": "Alderatu plakak rolaren, prezioaren eta energia-iturriaren arabera, eta aukeratu egokiena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cf3bba38"
+  },
+  "guides_card_settings_title": {
+    "value": "Gomendatutako ezarpenak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cfb32983"
+  },
+  "guides_card_settings_desc": {
+    "value": "Zure eremuak erabiltzen duen irrati-preseta, eta zure bizilagunek aldatutako ezarpenak.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e18863a"
+  },
+  "guides_card_antenna_title": {
+    "value": "Antena-gida",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3a76cb0e"
+  },
+  "guides_card_antenna_desc": {
+    "value": "Antena doitu batek eta kable labur batek potentzia gehigarriak baino irismen handiagoa ematen dute. Egiaztatu zure companion-aren antena, eta aukeratu, konektatu eta muntatu bat errepikagailu baterako.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3869e4e4"
+  },
+  "guides_card_repeater_title": {
+    "value": "Errepikagailu-gida",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4608abcd"
+  },
+  "guides_card_repeater_desc": {
+    "value": "Errepikagailu batek inguruko guztien mezuak birbidaltzen ditu. Kokapena, konfiguratzeko komandoak eta 868 MHz-eko lege-mugak.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "979d61a1"
+  },
+  "guides_card_resilient_title": {
+    "value": "Egin mesh-a erresilientea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33ec7ac8"
+  },
+  "guides_card_resilient_desc": {
+    "value": "Zerbaitek mesh-a oztopatzen du zure inguruan? Jakin zer den, eta aktibatu hori geldiarazten duen ezarpena zure errepikagailuan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a0476ea5"
+  },
+  "guides_card_filter_title": {
+    "value": "Pakete-iragazkia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20a3ef1f"
+  },
+  "guides_card_filter_desc": {
+    "value": "Eragotzi zure errepikagailuak zaborra birbidaltzea, hala nola inoiz gelditzen ez den bota edo kanal zaratatsua.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2db3748c"
+  },
+  "guides_card_mqtt_title": {
+    "value": "MQTT zure behatzailean",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "62626d0f"
+  },
+  "guides_card_mqtt_desc": {
+    "value": "Behatzailea entzuten duena MQTT bidez birbidaltzen duen nodoa da. Konfiguratu bat mapa edo analizatzaile baterako.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "774395b6"
+  },
+  "guides_card_mctomqtt_title": {
+    "value": "Sortu zubi-konfigurazioa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fd2dd667"
+  },
+  "guides_card_mctomqtt_desc": {
+    "value": "Bidali zure errepikagailuak entzuten duena edozein MQTT brokerrera: zurera edo Analyzer-era.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6c4d4692"
+  },
+  "guides_card_cli_title": {
+    "value": "CLI komandoak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a13cc6cb"
+  },
+  "guides_card_cli_desc": {
+    "value": "Errepikagailu baten komandoak, bakoitza zer egiten duenarekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "977f43d6"
+  },
+  "firmware_card_flasher_title": {
+    "value": "Flasheatu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3577cb5"
+  },
+  "firmware_card_flasher_desc": {
+    "value": "Jarri MeshCore zure plakan nabigatzailetik, USB bidez.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0a1c2394"
+  },
+  "firmware_card_console_title": {
+    "value": "Serie-kontsola",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4e3c41fa"
+  },
+  "firmware_card_console_desc": {
+    "value": "Idatzi komandoak zure errepikagailuari nabigatzailetik, USB bidez.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f0d52063"
+  },
+  "firmware_card_changelog_title": {
+    "value": "Aldaketen erregistroa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ead07c84"
+  },
+  "firmware_card_changelog_desc": {
+    "value": "Ikusi zer aldatu den MeshCore bertsio bakoitzean, eta zure nodoak behar duen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "314733fe"
+  },
+  "area_device_repeater": {
+    "value": "Zure errepikagailuan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5cb30f9"
+  },
+  "area_device_companion": {
+    "value": "Zure companion-aren aplikazioan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e459238"
+  },
+  "area_change_nl_regions": {
+    "value": "Gehitu zure errepikagailuak zerbitzatzen dituen eskualdeak, bakoitza gaineko eskualdearen barruan: Europa, Benelux, Herbehereak, zure probintzia eta zure hiria. Zure probintzia lehenetsia bihurtzen da.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "593b1502"
+  },
+  "area_change_strict_regions": {
+    "value": "Baztertu eskualderik gabeko paketeak, Europan zehar bidaia ez dezaten. Gehitu eskualdeak lehenik.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "11ca714d"
+  },
+  "area_change_zero_hop": {
+    "value": "Bidali zure bizilagun zuzenek entzuten duten advert-a 4 orduz behin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0e990713"
+  },
+  "area_change_path_hash": {
+    "value": "Erabili 2 byteko path hash-a: 65.536 errepikagailu bereizten ditu, 256 beharrean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b63880c0"
+  },
+  "area_change_loop": {
+    "value": "Baztertu zure errepikagailutik begizta eginez itzultzen diren flood paketeak. 1.18 edo berriagoarekin konfiguratutako errepikagailu batek hori egiten du jada.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "44333e2e"
+  },
+  "area_change_dutycycle": {
+    "value": "Mugatu zure errepikagailua airetiko denboraren % 10era.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8877399e"
+  },
+  "area_change_nl_companion_region": {
+    "value": "Aplikazioaren ezarpen esperimentaletan, ezarri eskualde lehenetsia nl gisa. Eman kanal bakoitzari bere eskualdea, adibidez nl-nh Ipar Holandarako.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3c31c16c"
+  },
+  "area_change_companion_path_hash": {
+    "value": "Aplikazioaren ezarpen esperimentaletan, ezarri path hash-aren tamaina lehenetsia 2 bytetan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4e3414d1"
+  },
+  "area_preset": {
+    "value": "Irrati-preseta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6fd605ec"
+  },
+  "area_path_hash": {
+    "value": "Path hash-a (presetak ezarria)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2e93a7f1"
+  },
+  "area_bytes": {
+    "value": "byte",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "277089d9"
+  },
+  "area_firmware": {
+    "value": "Firmwarea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "area_or_newer": {
+    "value": "edo berriagoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e2cbdfd0"
+  },
+  "area_changes": {
+    "value": "MeshCoreren balio lehenetsietatik aldatua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0587de6f"
+  },
+  "area_source_group": {
+    "value": "Ezarpenen iturria",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f06dfa4f"
+  },
+  "area_source_preset": {
+    "value": "MeshCore proiektuaren zerrendako preseta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "89d3440f"
+  },
+  "area_checked": {
+    "value": "egiaztatua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e61a3d78"
+  },
+  "area_add_title": {
+    "value": "Gehitu zure eremua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6ec76c28"
+  },
+  "area_add_body": {
+    "value": "Zure tokiko taldeak preset propioa du, edo ezarpenak aldatzen ditu? Bidali itzazu, erabaki zenituzten lekuaren estekarekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5976a5e5"
+  },
+  "area_add_cta": {
+    "value": "Gehitu zure eremua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6ec76c28"
+  },
+  "area_link": {
+    "value": "Eremu honetarako esteka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "98909794"
+  },
+  "heading_link": {
+    "value": "Atal honetarako esteka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9dc5baf3"
+  },
+  "toc_title": {
+    "value": "Orri honetan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5658fc8"
+  },
+  "regions_title": {
+    "value": "Eskualdeak: Europatik zure herrira",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "698de558"
+  },
+  "regions_body": {
+    "value": "Eskualdea eremu baten kodea da. Eskualdeak elkarren barruan daude: Europa, zure herrialdea, zure probintzia eta, leku batzuetan, zure herria. Eman zure errepikagailuari dagoen eskualdeak, bakoitza gaineko eskualdearen barruan. Horietako edozeinen mezuak birbidaltzen ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3f05bbfc"
+  },
+  "regions_map_body": {
+    "value": "Erabiltzen diren kodeak eremuaren arabera aldatzen dira. Mapak zure inguruko errepikagailuek erabiltzen dituzten eskualdeak erakusten ditu: erabili zure bizilagunenak, bestela zure errepikagailuak haien mezuak baztertzen ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ccf2219"
+  },
+  "regions_europe": {
+    "value": "Europa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e595f45d"
+  },
+  "regions_pick": {
+    "value": "Zure probintzia edo eskualdea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ed5a1c0e"
+  },
+  "regions_pick_none": {
+    "value": "Aukeratu bat",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a880a59d"
+  },
+  "regions_region": {
+    "value": "Zure eskualdea, zure eremuak erabiltzen badu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7ebba635"
+  },
+  "regions_town": {
+    "value": "Zure herria, zure eremuak erabiltzen badu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a6221a2f"
+  },
+  "regions_map": {
+    "value": "Mapa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be176b00"
+  },
+  "regions_map_label": {
+    "value": "MeshCore Analyzer-en mapan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2df2db10"
+  },
+  "regions_cmd_hint": {
+    "value": "Aukeratu zure probintzia, edo idatzi bere kodea nabarmendutako balioaren gainean, eta kopiatu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54f7feb3"
+  },
+  "area_ph_hint": {
+    "value": "Idatzi zure balioak nabarmendutakoen gainean, eta kopiatu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "04e515aa"
+  },
+  "area_ph_province": {
+    "value": "Zure probintzia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "492cd073"
+  },
+  "area_ph_city": {
+    "value": "Zure hiria",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90064d5a"
+  },
+  "area_map_label": {
+    "value": "Eremuen eta beren irrati-presetaren mapa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b49bdce9"
+  },
+  "area_map_own": {
+    "value": "Preset edo ezarpen propioak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d7dec3ab"
+  },
+  "area_others_title": {
+    "value": "EBko gainerakoa eta Erresuma Batua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5b618852"
+  },
+  "area_country_label": {
+    "value": "Zure herrialdea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "18f2456a"
+  },
+  "area_country_pick": {
+    "value": "Aukeratu herrialde bat",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "632aadfb"
+  },
+  "area_country_missing": {
+    "value": "Zure herrialdea ez dago zerrendan? Galdetu zure tokiko taldeari zein preset erabiltzen duen, edo {link}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "64fd9026"
+  },
+  "area_country_missing_link": {
+    "value": "gehitu zure eremua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "39737a2b"
+  },
+  "area_country_eu": {
+    "value": "{country} herrialdeak ez du preset propiorik MeshCore aplikazioan. {preset} erabiltzen du, MeshCorek EBrako eta Erresuma Baturako izendatzen duen preseta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "221cd765"
+  },
+  "area_others_body": {
+    "value": "Herrialde hauek ez dute preset propiorik MeshCore aplikazioan. EU/UK (Narrow) erabiltzen dute, MeshCorek haientzat izendatzen duen preseta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0fccb2a7"
+  },
+  "cli_groups": {
+    "value": "Komando-taldeak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "70883ce1"
+  },
+  "cli_search": {
+    "value": "Bilatu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "49c266ba"
+  },
+  "cli_node_q": {
+    "value": "Zein nodo?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5f669f2f"
+  },
+  "cli_node_repeater": {
+    "value": "Errepikagailua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "cli_node_room_server": {
+    "value": "Room server",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68b91cc5"
+  },
+  "cli_node_sensor": {
+    "value": "Sentsorea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "162cc64c"
+  },
+  "cli_node_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dadb328"
+  },
+  "cli_link": {
+    "value": "Komando honetarako esteka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8545494"
+  },
+  "cli_default": {
+    "value": "Hasierako balioa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "faca355f"
+  },
+  "cli_in_source": {
+    "value": "firmwareak non ezartzen duen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4de4eaa8"
+  },
+  "cli_range": {
+    "value": "Balioak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "53b09e10"
+  },
+  "cli_nodes": {
+    "value": "Non dabil",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c85fc5a0"
+  },
+  "cli_since": {
+    "value": "Behar duen firmwarea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5bf596e9"
+  },
+  "cli_build": {
+    "value": "Honekin konpilatutako firmwarean bakarrik:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bb208568"
+  },
+  "cli_build_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "176c7866"
+  },
+  "cli_build_sensors": {
+    "value": "sentsoreak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e22dfb01"
+  },
+  "cli_build_bridge": {
+    "value": "zubia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5a0b83ee"
+  },
+  "cli_build_ethernet": {
+    "value": "Ethernet",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "681e1209"
+  },
+  "cli_build_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10df5f54"
+  },
+  "cli_group_operational": {
+    "value": "Berrabiarazi, berrezarri eta eguneratu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a49f50c1"
+  },
+  "cli_group_adverts": {
+    "value": "Iragarkiak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8b8ad4a7"
+  },
+  "cli_group_radio": {
+    "value": "Irratia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2a7dfeb2"
+  },
+  "cli_group_system": {
+    "value": "Izena, pasahitza eta erlojua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a96ceeac"
+  },
+  "cli_group_routing": {
+    "value": "Bideratzea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bcba696f"
+  },
+  "cli_group_regions": {
+    "value": "Eskualdeak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "610c65d8"
+  },
+  "cli_group_access": {
+    "value": "Sarbidea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ec5ba0ab"
+  },
+  "cli_group_neighbours": {
+    "value": "Auzokideak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "24be7e7c"
+  },
+  "cli_group_statistics": {
+    "value": "Estatistikak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a656107e"
+  },
+  "cli_group_logging": {
+    "value": "Erregistroa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d3ef01b4"
+  },
+  "cli_group_info": {
+    "value": "Bertsioa eta plaka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9a90dcaa"
+  },
+  "cli_group_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "176c7866"
+  },
+  "cli_group_sensors": {
+    "value": "Sentsoreak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "76140e34"
+  },
+  "cli_group_bridge": {
+    "value": "Zubia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3892e103"
+  },
+  "cli_group_ethernet": {
+    "value": "Ethernet",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "681e1209"
+  },
+  "cli_group_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10df5f54"
+  },
+  "cmd_reboot_desc": {
+    "value": "Nodoa berehala berrabiarazten du, eta nodoak ez dizu erantzunik bidaltzen. Erabili berrabiarazi ondoren bakarrik indarrean jartzen diren ezarpenak aplikatzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6850ad24"
+  },
+  "cmd_poweroff_desc": {
+    "value": "Nodoa itzaltzen du onartzen duten plaketan, erantzunik bidali gabe. Berriro pizteko, pizteko botoia edo elikadura kendu eta jartzea behar duzu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5088476d"
+  },
+  "cmd_clkreboot_desc": {
+    "value": "Erlojua data zahar batera eramaten du eta nodoa berrabiarazten du, erantzunik gabe. Erabili erlojua aurreratuta dagoenean eta atzera egin nahi ez duenean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d02bbe66"
+  },
+  "cmd_clock_desc": {
+    "value": "Nodoaren erlojua UTC orduan erakusten du, edo segundotan emandako Unix ordura jartzen du. Erlojua aurrera bakarrik doa, beraz erabili lehenik clkreboot atzera egiteko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0193d15f"
+  },
+  "cmd_clock_sync_desc": {
+    "value": "Nodoaren erlojua zure companion-ak komando honekin bidaltzen duen ordura jartzen du. Mesh sarearen bidez bakarrik dabil, serieko kontsolak ez baitu ordurik bidaltzen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "39198623"
+  },
+  "cmd_start_ota_desc": {
+    "value": "Firmwarearen eguneratzea airez abiarazten du, onartzen duten ESP32 eta nRF52 plaketan. ESP32 plakak WiFi sarbide-puntu bat irekitzen du, nRF52 plakak Bluetooth eguneratze bat abiarazten du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69bd5985"
+  },
+  "cmd_erase_desc": {
+    "value": "Nodoaren fitxategi-sistema ezabatzen du, ezarpenak eta identitatea barne, seriekotik bakarrik. Erabili fabrikako berrezartzerako, ezin baituzu desegin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e781518d"
+  },
+  "cmd_room_post_desc": {
+    "value": "Mezu bat argitaratzen du gelan, gela-zerbitzaria bera egile dela. Gelako guztiek beste edozein argitalpen bezala jasotzen dute.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "88a6e1f5"
+  },
+  "cmd_advert_desc": {
+    "value": "Flood iragarki bat bidaltzen du orain, mesh sare osoko nodoek nodo hau ezagut dezaten. Erabili izena edo kokapena aldatu ondoren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "21526c3a"
+  },
+  "cmd_advert_zerohop_desc": {
+    "value": "Iragarki bat zuzeneko auzokideei bakarrik bidaltzen die, eta errepikagailu batek ere ez du aurrera pasatzen. Erabili nodoa inguruan iragartzeko, mesh sare osoa kargatu gabe.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dfbc07b6"
+  },
+  "cmd_advert_interval_desc": {
+    "value": "Nodoak auzokideei zero-hop iragarkia zenbatero bidaltzen dien ezartzen du, minututan. Erabili 0 geldiarazteko; gordetako edozein aldaketak 60tik beherako tarteak ere geldiarazten ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f99f3d5f"
+  },
+  "cmd_flood_advert_interval_desc": {
+    "value": "Nodoak mesh sare osoan flood iragarkia zenbatero bidaltzen duen ezartzen du, ordutan. Erabili 0 nodo honen flood iragarki automatikoak erabat geldiarazteko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6473270c"
+  },
+  "cmd_neighbours_desc": {
+    "value": "Nodo honek zuzenean entzun dituen errepikagailuak zerrendatzen ditu, azkena lehenengo. Lerro bakoitzak gako-aurrizkia, entzun zenetik igarotako segundoak eta SNR bider 4 erakusten ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9bd6e27f"
+  },
+  "cmd_neighbour_remove_desc": {
+    "value": "Gako publikoa zuk emandako hex aurrizkiarekin hasten den auzokide oro kentzen du. Erabili errepikagailu zahar bat auzokideen zerrendatik kentzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c1b8c616"
+  },
+  "cmd_discover_neighbours_desc": {
+    "value": "Zuzeneko irismenean dauden errepikagailuei erantzuteko eskatzen die, eta erantzun bakoitza auzokideetan gehitzen du. Erabili zerrenda betetzeko, haien iragarkien zain egon gabe. Bi iragarki-tarteak 0n edo errepikapena itzalita dituen errepikagailuak ez du erantzuten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1ab216ce"
+  },
+  "cmd_clear_stats_desc": {
+    "value": "Nodoaren pakete-, irrati- eta core-kontagailuak zerora itzultzen ditu. Erabili trafikoa aldi jakin batean neurtu aurretik.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ead62ceb"
+  },
+  "cmd_stats_core_desc": {
+    "value": "Nodoaren bateriaren tentsioa, piztuta daraman denbora, errore kopurua eta igorpen-ilararen luzera erakusten ditu. Serieko kontsolan bakarrik dabil, ez mesh sarearen bidez.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ba9fa3d2"
+  },
+  "cmd_stats_radio_desc": {
+    "value": "Zarata-maila, azken RSSI eta SNR balioak, eta igortzen eta jasotzen emandako airtime-a erakusten ditu. Serieko kontsolan bakarrik dabil, ez mesh sarearen bidez.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bedd2bf2"
+  },
+  "cmd_stats_packets_desc": {
+    "value": "Nodoak zenbat pakete jaso eta bidali dituen erakusten du, flood eta direct bereizita. Serieko kontsolan bakarrik dabil, ez mesh sarearen bidez.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d8a3b4d1"
+  },
+  "cmd_log_capture_desc": {
+    "value": "Nodoak jasotzen eta bidaltzen duen pakete oro erregistro-fitxategi batean idazten hasten edo uzten du. Erabili trafikoa jasotzeko, eta irakurri gero log komandoarekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "79dcb812"
+  },
+  "cmd_log_erase_desc": {
+    "value": "Paketeen erregistro-fitxategia nodoaren biltegitik ezabatzen du. Erabili lekua askatzeko edo kaptura garbi bat hasteko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c32fe03"
+  },
+  "cmd_log_desc": {
+    "value": "Jasotako paketeen erregistroa serieko kontsolan inprimatzen du, lerroz lerro. Serieko kontsolan bakarrik dabil, ez mesh sarearen bidez.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "59c80f62"
+  },
+  "cmd_ver_desc": {
+    "value": "Nodoaren firmware-bertsioa eta konpilazio-data erakusten ditu. Erabili zein bertsio dabilen egiaztatzeko, eguneratu aurretik.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c0752f1b"
+  },
+  "cmd_board_desc": {
+    "value": "Firmwarea zein plakatarako konpilatu zen erakusten du, plakaren izenarekin. Erabili firmware egokia instalatu duzula egiaztatzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3e5ed786"
+  },
+  "cmd_power_desc": {
+    "value": "Bateriaren tentsioa erakusten du, eta USB, eguzki-energia, kanpoko elikadura eta kargagailua aktibo dauden. USB edo eguzki-energia detektatu ezin duen plakak n/a erakusten du horientzat.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4e5129e4"
+  },
+  "cmd_public_key_desc": {
+    "value": "Nodoaren gako publiko osoa erakusten du, hex formatuan. Partekatu norbaitek zein nodo den zurea galdetzen duenean, edo errepikagailu baten jabeak zure companion-ari setperm bidez rol bat ematen dionean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d754bc23"
+  },
+  "cmd_role_desc": {
+    "value": "Nodoak zein firmware darabilen erakusten du: repeater, room_server edo sensor. Erabili rola egiaztatzeko, ezarpenak urrunetik aldatu aurretik.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "627a92c5"
+  },
+  "cmd_bootloader_ver_desc": {
+    "value": "nRF52 plaketan dabilen abiarazlearen bertsioa erakusten du. Beste plaka guztietan, nodoak komandoa onartzen ez dela erantzuten du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a3e90e05"
+  },
+  "cmd_pwrmgt_support_desc": {
+    "value": "Firmware-konpilazio honek nRF52 plaketarako energia-kudeaketa duen erakusten du. Beste pwrmgt komandoek euskarri hau behar dute erantzuna emateko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "139d6f9d"
+  },
+  "cmd_pwrmgt_source_desc": {
+    "value": "Nodoa kanpoko elikadurarekin edo bateriarekin dabilen erakusten du. nRF52 energia-kudeaketa duten firmware-konpilazioek bakarrik ematen dizute erantzun hau.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ee83fb61"
+  },
+  "cmd_pwrmgt_bootreason_desc": {
+    "value": "Nodoa azken aldiz zergatik berrezarri zen eta zergatik itzali zen erakusten du. Erabili nodo bat bere kabuz zergatik berrabiarazi den jakiteko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "de8338c0"
+  },
+  "cmd_pwrmgt_bootmv_desc": {
+    "value": "Nodoak abiaraztean neurtu zuen bateriaren tentsioa erakusten du, milivoltetan. nRF52 energia-kudeaketa duten firmware-konpilazioek bakarrik ematen dizute erantzun hau.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ff3b5c66"
+  },
+  "cmd_radio_desc": {
+    "value": "Nodoak erabiltzen dituen maiztasuna, banda-zabalera, spreading factor-a eta coding rate-a ezartzen ditu. Zure mesh sareko nodo guztiek balio berak behar dituzte; berrabiarazi aplikatzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf443364"
+  },
+  "cmd_tx_desc": {
+    "value": "LoRa txiparen igorpen-potentzia ezartzen du dBm-tan, eta berehala aplikatzen da. Anplifikadore gehigarria duten plakek balio hau baino gehiago igortzen dute.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0b7d55b8"
+  },
+  "cmd_tempradio_desc": {
+    "value": "Beste irrati-ezarpen batzuetara aldatzen da minutu kopuru jakin batez, gorde gabe. Erabili ezarpen berriak urrunetik probatzeko, itzulera automatikoarekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "37b19209"
+  },
+  "cmd_freq_desc": {
+    "value": "Maiztasuna bakarrik ezartzen du MHz-tan, eta set forma seriekotik bakarrik dabil. Berrabiarazi nodoa gero, maiztasun berria berrabiarazi ondoren bakarrik aplikatzen baita.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aabd4b62"
+  },
+  "cmd_radio_rxgain_desc": {
+    "value": "Irrati-txiparen jasotze-irabazi indartua pizten edo itzaltzen du. Modu hau ez duen irratiak ezarpena onartzen ez duela erantzuten du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ecacba86"
+  },
+  "cmd_radio_fem_rxgain_desc": {
+    "value": "Kanpoko irrati-front end baten jasotze-anplifikadorea pizten edo itzaltzen du. Kontrola dezakezun front end-a duten plakek bakarrik onartzen dute.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c71d7980"
+  },
+  "cmd_radio_fem_txgain_desc": {
+    "value": "Kanpoko irrati-front end baten igorpen-irabazia bere 2 mailen artean aldatzen du. Kontrola dezakezun front end-a duten plakek bakarrik onartzen dute.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d3f049e3"
+  },
+  "cmd_extra_sf_desc": {
+    "value": "LR2021 irrati batek gehienez 3 spreading factor gehigarri ere entzutea eragiten du. Eman komaz bereizitako zerrenda gisa; beste irratiek ez dute set forma onartzen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d14313eb"
+  },
+  "cmd_repeat_desc": {
+    "value": "Beste nodoen paketeak birbidaltzea pizten edo itzaltzen du. Itzali nodoa airean mantentzeko, errepikatu gabe. Gela-zerbitzari batek uko egiten dio pizteari.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c66ee723"
+  },
+  "cmd_path_hash_mode_desc": {
+    "value": "Nodo honek bidaltzen dituen paketeen bideetan idazten duen hash-aren tamaina ezartzen du. 0 moduak byte 1 erabiltzen du, 1ak 2 eta 2ak 3.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "486f2338"
+  },
+  "cmd_loop_detect_desc": {
+    "value": "Bidean errepikagailu honen hash-a maizegi daramaten flood paketeak baztertzen ditu. Maila zorrotzago batek begizta egiten duen paketea errepikapen gutxiagoren ondoren baztertzen du. Bertsio zaharrago batetik eguneratutako errepikagailuak lehengo maila gordetzen du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7192683e"
+  },
+  "cmd_txdelay_desc": {
+    "value": "Nodoak flood pakete bat errepikatu aurretik egiten duen ausazko itxaronaldia ezartzen du, airtime-aren arabera eskalatuta. Balio altuago batek errepikagailuen arteko talkak saihesten ditu, baina atzerapena gehitzen du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc0b9e0e"
+  },
+  "cmd_direct_txdelay_desc": {
+    "value": "Nodoak direct pakete bat errepikatu aurretik egiten duen ausazko itxaronaldia ezartzen du, airtime-aren arabera eskalatuta. Direct paketeek itxaronaldi laburragoa behar dute, nodo gutxiagok errepikatzen baitituzte.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0f14a917"
+  },
+  "cmd_rxdelay_desc": {
+    "value": "Flood pakete ahulak atxikitzen ditu prozesatu aurretik, seinale indartsuko bideek lehenago errepika dezaten. Erabili 0 pakete oro berehala prozesatzeko, seinalea edozein dela ere.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9eca669b"
+  },
+  "cmd_dutycycle_desc": {
+    "value": "Nodoak igortzen ematen duen denbora-zatia mugatzen du, ehunekotan. Ezarri zure maiztasun-bandari dagokion mugan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46f7ce95"
+  },
+  "cmd_af_desc": {
+    "value": "Airtime factor-a ezartzen du, nodoaren duty cycle-a mugatzeko modu zaharragoa. Erabili dutycycle horren ordez; af 9 ehuneko 10en berdina da.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "80189809"
+  },
+  "cmd_int_thresh_desc": {
+    "value": "Kanala okupatutzat hartzen du zarata-mailaren gainetik hainbeste dB irakurtzen dituenean. Orduan nodoak itxaron egiten du igorri aurretik; 0 balioak egiaztapena itzaltzen du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "32eb85ce"
+  },
+  "cmd_cad_desc": {
+    "value": "Igorpen bakoitzaren aurretik kanaleko jarduera entzutea eragiten dio irratiari. Kanala okupatuta dagoen bitartean, nodoak itxaron egiten du bidali aurretik.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "998c2731"
+  },
+  "cmd_agc_reset_interval_desc": {
+    "value": "Irratiaren irabazi-kontrol automatikoa berrezartzen du, ezarritako segundo kopuruaren arabera. Nodoak 4ren multiplo batera biribiltzen du beherantz; 0 balioak itzaltzen du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aa321448"
+  },
+  "cmd_multi_acks_desc": {
+    "value": "Berrespen bakoitzaren kopia gehigarriak bidaltzen ditu, lotura ahuletan entrega hobetzeko. Erabili 0 berrespen bakoitza behin bakarrik bidaltzeko, kopia gehigarririk gabe.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b2c80c40"
+  },
+  "cmd_flood_max_desc": {
+    "value": "Nodo honek flood pakete bat zenbat jauziren ondoren errepikatzeari uzten dion ezartzen du. Jaitsi flood paketeak mesh sarean urrunegi joan ez daitezen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dee460b4"
+  },
+  "cmd_flood_max_unscoped_desc": {
+    "value": "Eskualderik gabeko flood paketeen jauzi-muga ezartzen du. Jaitsi trafiko hori etxetik gertu mantentzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1003a06a"
+  },
+  "cmd_flood_max_advert_desc": {
+    "value": "Nodo honek errepikatzen dituen flood iragarkien jauzi-muga ezartzen du. Jaitsi iragarkiek mesh sare osoa zeharka ez dezaten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57c129b9"
+  },
+  "cmd_name_desc": {
+    "value": "Beste nodoek nodo honen iragarkietan ikusten duten izena ezartzen du. [ ] \\ : , ? * karaktereak ez dira onartzen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08e6c872"
+  },
+  "cmd_lat_desc": {
+    "value": "Nodo honek bere iragarkietan partekatzen duen latitudea ezartzen du, gradu hamartarretan. Erabili lon-ekin nodoa mapan leku egokian jartzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ea083178"
+  },
+  "cmd_lon_desc": {
+    "value": "Nodo honek bere iragarkietan partekatzen duen longitudea ezartzen du, gradu hamartarretan. Erabili lat-ekin nodoa mapan leku egokian jartzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fe5f8039"
+  },
+  "cmd_prv_key_desc": {
+    "value": "Gako pribatua erakusten edo ordezkatzen du, nodoaren identitatea zehazten duena. Get forma seriekotik bakarrik dabil; berrabiarazi gako bat ezarri ondoren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3500931c"
+  },
+  "cmd_password_desc": {
+    "value": "Administratzaile-pasahitza aldatzen du eta berria itzultzen du, egiaztatu ahal izan dezazun. Aldatu nodo berri guztietan, lehenetsitakoa publikoa baita.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a33a87f1"
+  },
+  "cmd_guest_password_desc": {
+    "value": "Gonbidatu-pasahitza ezartzen du; gela-zerbitzari batean irakurtzeko eta idazteko sarbidea ematen du. Partekatu gelan sartzen utzi nahi dituzun pertsonekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67348593"
+  },
+  "cmd_owner_info_desc": {
+    "value": "Besteek nodoari eska diezaioketen kontaktu-testua ezartzen du, adibidez zure izena. Idatzi | karakterea lerro berri bat hastea nahi duzun lekuan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "928a68a4"
+  },
+  "cmd_adc_multiplier_desc": {
+    "value": "Nodoaren bateria-tentsioaren irakurketa zuzentzen du, zure plakarako biderkatzaile batekin. Erabili 0 plakak berak zehazten duen balioira itzultzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0383a608"
+  },
+  "cmd_powersaving_desc": {
+    "value": "Nodoari irrati-jardueren artean lo egiten uzten dio, bateria aurrezteko. nRF52 plaketan eta zubirik gabeko ESP32 konpilazioetan dabil.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3e791562"
+  },
+  "cmd_setperm_desc": {
+    "value": "Companion bati rol bat ematen dio nodo honetan, bere gako publikoaren bidez aurkituta. Erabili 0 sarrera kentzeko; beste rolek gako osoa behar dute.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "93a740af"
+  },
+  "cmd_acl_desc": {
+    "value": "Sarbide-zerrenda inprimatzen du, companion bakoitzaren baimenekin eta gako publikoarekin. Serieko kontsolan bakarrik dabil, ez mesh sarearen bidez.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "784d80d9"
+  },
+  "cmd_allow_read_only_desc": {
+    "value": "Pasahitz okerra edo hutsa duten pertsonei gela-zerbitzari batean sartzen uzten die, irakurtzeko bakarrik. Itzali pasahitza dakiten pertsonak bakarrik onartzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a845f89b"
+  },
+  "cmd_region_desc": {
+    "value": "Nodoaren eskualde-zuhaitz osoa erakusten du, eskualde bakoitzaren flood markarekin. F batek flood baimenduta dagoela esan nahi du, eta ^ ikurrak etxeko eskualdea markatzen du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "07dd7f25"
+  },
+  "cmd_region_load_desc": {
+    "value": "Eskualde-zuhaitz baten sarrera masiboa hasten du, eskualde bat lerro bakoitzean, zuriuneekin koskatuta. Gehitu F flood baimentzeko, eta bidali lerro huts bat amaitzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d2da253a"
+  },
+  "cmd_region_save_desc": {
+    "value": "Zure eskualde-aldaketak nodoaren biltegian gordetzen ditu, berrabiarazi ondoren iraun dezaten. Exekutatu gorde nahi duzun eskualde-aldaketa bakoitzaren ondoren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bd6cb636"
+  },
+  "cmd_region_flood_desc": {
+    "value": "Eskualde baterako flood paketeen errepikapena baimentzen edo blokeatzen du. Erabili * eskualderik batere ez daramaten paketeentzat.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "58acd9db"
+  },
+  "cmd_region_get_desc": {
+    "value": "Eskualde bat erakusten du bere gurasoarekin, eta F bat flood baimenduta badago. Erabili eskualde bakar bat egiaztatzeko, zuhaitz osoa irakurri gabe.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33ef40c6"
+  },
+  "cmd_region_home_desc": {
+    "value": "Etxeko eskualdea erakusten edo ezartzen du, eskualde-zuhaitzak ^ ikurrarekin markatzen duena. Exekutatu gero region save aldaketak berrabiarazi ondoren iraun dezan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90b9c539"
+  },
+  "cmd_region_default_desc": {
+    "value": "Nodoak bere flood paketeetan, adibidez iragarkietan, jartzen duen eskualdea erakusten edo ezartzen du. Nodoak aldaketa berehala gordetzen du; <null> balioak garbitzen du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b478cd71"
+  },
+  "cmd_region_put_desc": {
+    "value": "Eskualde bat gehitzen du komodinaren azpian edo zuk izendatutako guraso baten azpian, flood baimenduta. Exekutatu gero region save eskualde berriak berrabiarazi ondoren iraun dezan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90f4ec6d"
+  },
+  "cmd_region_def_desc": {
+    "value": "Eskualde-zuhaitz bat eraikitzen du lerro batean, izen bakoitza aurrekoaren seme-alaba dela. Idatzi name|jump hurrengo izena lehenagoko eskualde batetik jarraitzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "80bfbfce"
+  },
+  "cmd_region_remove_desc": {
+    "value": "Eskualde bat bere izen zehatzaren bidez kentzen du, seme-alaba eskualderik geratzen ez zaionean. Exekutatu gero region save kentzeak berrabiarazi ondoren iraun dezan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0677775b"
+  },
+  "cmd_region_list_desc": {
+    "value": "Flood baimenduta edo blokeatuta duten eskualdeen izenak zerrendatzen ditu. Erabili egiaztapen azkar baterako, zuhaitz osorik gabe.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8156296"
+  },
+  "cmd_gps_desc": {
+    "value": "GPSa piztuta dagoen, fix-a duen eta zenbat satelite ikusten dituen erakusten du. On eta off formek GPSa aldatzen dute eta aukera gordetzen dute.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6b7484f4"
+  },
+  "cmd_gps_diag_desc": {
+    "value": "GPSa piztuta dagoen, zenbat satelite ikusten dituen eta fix-a duen erakusten du. Erabili nodoak kokapenik lortzen ez duenean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f5838af7"
+  },
+  "cmd_gps_sync_desc": {
+    "value": "Nodoaren erlojua GPSak jasotzen duen orduarekin ezartzen du. Erabili nodoak ordu zuzenaren beste iturririk ez duenean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9992274d"
+  },
+  "cmd_gps_setloc_desc": {
+    "value": "Uneko GPS kokapena nodoaren gordetako latitudean eta longitudean kopiatzen du. Erabili behin kokalekuan, eta itzali gero GPSa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2e7052c8"
+  },
+  "cmd_gps_advert_desc": {
+    "value": "Iragarkietako kokapena aukeratzen du: none, zuzeneko GPSa edo gordetako lat eta lon. Erabili none nodoaren kokapena pribatu mantentzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e7bb3d85"
+  },
+  "cmd_sensor_list_desc": {
+    "value": "Sentsore-kudeatzailearen ezarpen pertsonalizatuak zerrendatzen ditu, haien balioekin. Zerrenda luze bat jarraitzeko indizearekin amaitzen da.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "af32a1b7"
+  },
+  "cmd_sensor_setting_desc": {
+    "value": "Sentsore-kudeatzailearen ezarpen pertsonalizatu bat irakurtzen edo aldatzen du, bere izenaren bidez. Erabili lehenik sensor list plakak zein izen eskaintzen dituen ikusteko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c470cf70"
+  },
+  "cmd_io_desc": {
+    "value": "Plakaren GPIO pinak irakurtzen edo idazten ditu, hex bit-maskara gisa. Jarri r, s edo t maskararen aurretik bitak berrezartzeko, ezartzeko edo txandakatzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ede2acc1"
+  },
+  "cmd_bridge_type_desc": {
+    "value": "Firmware honek zein zubi duen barnean erakusten du: rs232, espnow edo none. Erabili zubi-konpilazio bat instalatu duzula egiaztatzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54cbb77e"
+  },
+  "cmd_bridge_enabled_desc": {
+    "value": "Zubia pizten edo itzaltzen du; zubiak paketeak kopiatzen ditu mesh sarearen eta beste lotura baten artean. Lotura hori serieko kablea edo ESP-NOW da, konpilazioaren arabera.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7249ccd6"
+  },
+  "cmd_bridge_delay_desc": {
+    "value": "Zubiak pakete bat aurrera pasatu aurretik zenbat milisegundo itxaroten duen ezartzen du. Igo zubitutako paketeek mesh sareko trafikoarekin talka egiten dutenean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c8895baa"
+  },
+  "cmd_bridge_source_desc": {
+    "value": "Zubiak nodo honek jasotzen dituen paketeak edo bidaltzen dituenak kopiatzen dituen aukeratzen du. Idatzi rx edo tx ezartzeko; get komandoak logRx edo logTx erantzuten du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d81577c2"
+  },
+  "cmd_bridge_baud_desc": {
+    "value": "RS-232 zubi baten serieko abiadura ezartzen du, baud-etan. Serieko kablearen bi muturrek abiadura bera behar dute.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7322814d"
+  },
+  "cmd_bridge_channel_desc": {
+    "value": "ESP-NOW zubi batek bere loturarako erabiltzen duen WiFi kanala ezartzen du. Honekin hitz egiten duen zubi orok kanal bera behar du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "924d978f"
+  },
+  "cmd_bridge_secret_desc": {
+    "value": "ESP-NOW zubi bateko paketeak nahasten dituen sekretu partekatua ezartzen du. Erabili sekretu bera honekin hitz egiten duen zubi guztietan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b1df9356"
+  },
+  "cmd_eth_status_desc": {
+    "value": "Ethernet kontsolaren IP helbidea eta ataka erakusten ditu, edo lineaz kanpo dagoela. Serieko eta Ethernet kontsoletan dabil, ez mesh sarearen bidez.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b27f99e8"
+  },
+  "cmd_pin_desc": {
+    "value": "Zure telefonoak parekatzean eskatzen duen Bluetooth PINa ezartzen du, berrabiarazi ondoren. 0 balioarekin, pantaila duen plakak PIN berria erakusten du abiarazte bakoitzean, eta pantailarik gabekoak 123456 erabiltzen du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "82dc0ee0"
+  },
+  "cmd_tz_offset_desc": {
+    "value": "Zure ordu-eremua ezartzen du, UTC ordutik ordu osotan. Companion-ak bere pantailako erlojurako erabiltzen du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d2a9942a"
+  },
+  "cmd_wifi_ssid_desc": {
+    "value": "Companion-a konektatzen den WiFi sarearen izena erakusten edo ezartzen du. Ezarri wifi.pwd ere, eta berrabiarazi konektatzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e53eb6a"
+  },
+  "cmd_wifi_pwd_desc": {
+    "value": "WiFi sarearen pasahitza erakusten edo ezartzen du, eta berrabiarazi aplikatzeko. Komandoak bidaltzen uzten diozun kontaktu batek ere irakur dezake.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "15b5453a"
+  },
+  "cmd_wifi_enabled_desc": {
+    "value": "WiFi pizten du 1ekin edo itzaltzen du 0rekin, berrabiarazi ondoren. Sare-izenik gabe, companion-ak ez du WiFi abiarazten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7dbbf8f1"
+  },
+  "cmd_wifi_clear_desc": {
+    "value": "WiFi sarearen izena eta pasahitza companion-etik kentzen ditu. Berrabiarazi aldaketa aplikatzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "29938727"
+  },
+  "cmd_wifi_status_desc": {
+    "value": "Companion-a WiFi sarera konektatuta dagoen erakusten du, eta zure sareko IP helbidea. Companion-ak aplikazioaren konexioak helbide horretan hartzen ditu, 5000 atakan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "38894245"
+  },
+  "keygen_find_title": {
+    "value": "1. Aurkitu aurrizki libre bat",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "23440ddd"
+  },
+  "keygen_find_body": {
+    "value": "Aurrizki tresnak nodoek jada zein aurrizki erabiltzen dituzten erakusten du, eta libre bat proposatzen du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8b4149b8"
+  },
+  "keygen_find_link": {
+    "value": "Ireki Aurrizki tresna",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ad418bc8"
+  },
+  "keygen_make_title": {
+    "value": "2. Sortu gako bat harekin",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "55671108"
+  },
+  "keygen_needs_js": {
+    "value": "Tresna hau zure nabigatzailean dabil eta JavaScript behar du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9128273b"
+  },
+  "keygen_prefix_label": {
+    "value": "Aurrizkia, hex formatuan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c5fe4703"
+  },
+  "keygen_prefix_hint": {
+    "value": "2 karaktere byte 1erako, 4 karaktere 2 byteetarako. Firmwareak 00 eta FF baztertzen ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "60646fe6"
+  },
+  "keygen_make": {
+    "value": "Sortu gakoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f2e49767"
+  },
+  "keygen_stop": {
+    "value": "Gelditu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cae7d57b"
+  },
+  "keygen_working": {
+    "value": "Gakoak probatzen: {n} orain arte.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10781c37"
+  },
+  "keygen_done": {
+    "value": "{n} saiakeraren ondoren aurkitua.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8495a72b"
+  },
+  "keygen_stopped": {
+    "value": "Geldituta. Saiatu berriro, edo aukeratu aurrizki laburrago bat.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "731c66a8"
+  },
+  "keygen_bad": {
+    "value": "Idatzi 2 edo 4 hex karaktere (0-9, a-f), 00 edo FF-rekin hasi gabe.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9569dc0f"
+  },
+  "keygen_unsupported": {
+    "value": "Zure nabigatzaileak ezin ditu Ed25519 gakoak sortu. Erabili Chrome 137, Firefox 129, Safari 17 edo berriagoa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "70cf8b1d"
+  },
+  "keygen_set_title": {
+    "value": "3. Ezarri zure errepikagailuan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "37e17307"
+  },
+  "keygen_set_body": {
+    "value": "Exekutatu komando hau zure errepikagailuan, eta berrabiarazi gero. Bere ezarpenak eta sarbide-zerrenda gordetzen ditu, baina nodo berria bihurtzen da guztientzat. Gehitu berriro aplikazioan, bere lehen iragarkiaren ondoren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c80b8962"
+  },
+  "keygen_public": {
+    "value": "Gako publikoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ee252fb"
+  },
+  "keygen_secret": {
+    "value": "Hau zure errepikagailuaren gako pribatua da. Gako hau duen edonork zure errepikagailuaren izenean joka dezake, beraz gorde zeuretzat. Zure nabigatzaileak sortu du, eta orri honek ez du inora bidaltzen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b4d3d7d1"
+  },
+  "guides_card_keygen_title": {
+    "value": "Sortu gako bat",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e798fa1b"
+  },
+  "guides_card_keygen_desc": {
+    "value": "Eman zure errepikagailuari inguruko beste errepikagailu batek erabiltzen ez duen aurrizki bat.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "267f04fa"
+  },
+  "ch_needs_js": {
+    "value": "Kanalen zerrenda zure nabigatzailean dabil eta JavaScript behar du. Analyzer-ek kanal berak erakusten ditu:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57228d02"
+  },
+  "ch_source": {
+    "value": "MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ed180c11"
+  },
+  "ch_list_title": {
+    "value": "Zure herrialdean entzundako kanalak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6a3ddfed"
+  },
+  "ch_country_label": {
+    "value": "Zure herrialdea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "18f2456a"
+  },
+  "ch_country_pick": {
+    "value": "Aukeratu herrialde bat",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "632aadfb"
+  },
+  "ch_search": {
+    "value": "Bilatu izena edo eskualdea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67d2c527"
+  },
+  "ch_loading": {
+    "value": "Kanalak kargatzen...",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e4e9f6e5"
+  },
+  "ch_error": {
+    "value": "Kanalen zerrenda ez da kargatu. Saiatu berriro geroago; behean edozein #izenen gakoak dabil oraindik.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f653e69d"
+  },
+  "ch_count": {
+    "value": "{country}: {n} kanal entzunda, mezu gehien dituztenak lehenengo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "923bf6a5"
+  },
+  "ch_messages": {
+    "value": "mezu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f5cccfb7"
+  },
+  "ch_key": {
+    "value": "Gakoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "99a52df3"
+  },
+  "ch_source_note": {
+    "value": "Zuzenean, iturria:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1db8edb5"
+  },
+  "ch_calc_title": {
+    "value": "Edozein #kanalen gakoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ad70964d"
+  },
+  "ch_calc_body": {
+    "value": "Idatzi # ikurrarekin hasten den kanal-izen bat. Gakoa izenetik ateratzen da, beraz aplikazioaren gako bera lortzen duzu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8531d7e8"
+  },
+  "ch_calc_label": {
+    "value": "Kanalaren izena",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2fe4a2e8"
+  },
+  "guides_card_channels_title": {
+    "value": "Aurkitu kanalak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9905513b"
+  },
+  "guides_card_channels_desc": {
+    "value": "Zure inguruko jendeak erabiltzen dituen kanalak, eta nola batu haietara.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2b7ffced"
+  },
+  "ch_count_one": {
+    "value": "{country}: kanal 1 entzunda.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8f1ca51"
+  },
+  "ch_show_all": {
+    "value": "Erakutsi {n} kanal guztiak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2afe05c3"
+  },
+  "area_other_presets_title": {
+    "value": "MeshCore aplikazioko beste aurrezarpenak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e8ca0063"
+  },
+  "area_other_presets_body": {
+    "value": "Aplikazioak Europako aurrezarpen hauek ere zerrendatzen ditu, haientzat eremurik izendatu gabe. 433 MHz aurrezarpen batek 433 MHz irratia duen plaka behar du.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "86f82c5c"
+  },
+  "net_live_title": {
+    "value": "Behatzaileek entzuten dutena",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f89055eb"
+  },
+  "net_live_packets": {
+    "value": "pakete azken ordu osoan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e3e24e13"
+  },
+  "net_live_countries": {
+    "value": "herrialde entzunda azken orduan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "502cba0e"
+  },
+  "net_live_repeaters": {
+    "value": "errepikagailu entzunda azken 7 egunetan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2890ece6"
+  },
+  "net_live_observers": {
+    "value": "behatzaile azken orduan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6825b26c"
+  },
+  "net_live_source": {
+    "value": "Zuzeneko zenbakiak, iturria:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f063c292"
+  },
+  "net_join_title": {
+    "value": "Gehitu zure behatzailea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e772f141"
+  },
+  "net_join_body": {
+    "value": "Behatzaile bakoitzak mesh sarearen zati bat gehiago erakusten du, Europako guztientzat. Aukeratu zuri egokitzen zaizun bidea; MeshCore Analyzer-ek urratsak erakusten ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "de341930"
+  },
+  "net_way_app_title": {
+    "value": "KiekR aplikazioarekin",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "51c6a5e5"
+  },
+  "net_way_app_desc": {
+    "value": "Parekatu MeshCore irrati bat zure telefonoarekin Bluetooth bidez. Aplikazioak entzuten duena jakinarazten du, ezer instalatu gabe plakan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9ae6b7d2"
+  },
+  "net_way_browser_title": {
+    "value": "Zure nabigatzailetik",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c6b5042e"
+  },
+  "net_way_browser_desc": {
+    "value": "Konektatu irrati bat USB edo Bluetooth bidez Chrome edo Edge nabigatzailean. Nabigatzaileak jakinarazten du fitxa irekita dagoen bitartean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "72fc7d03"
+  },
+  "net_way_board_title": {
+    "value": "Beti piztuta dagoen plaka batekin",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "574c32a6"
+  },
+  "net_way_board_desc": {
+    "value": "Instalatu behatzaile-firmwarea LoRa plaka batean. Bere kabuz jakinarazten du Wi-Fi bidez, gau eta egun.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1742bfea"
+  },
+  "project_site": {
+    "value": "Webgunea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5a229ac"
+  },
+  "home_town_title": {
+    "value": "Jarraitu mezu bati teilatuz teilatu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b6669c81"
+  },
+  "home_town_lead": {
+    "value": "Zure telefonoak edo ordenagailu eramangarriak mezu bat bidaltzen dio zure companion-ari, Bluetooth edo USB bidez. Companion-ak irratiz bidaltzen dio teilatuko errepikagailu bati. Hortik teilatuz teilatu doa jauzika.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2af5006f"
+  },
+  "home_town_tag_phone": {
+    "value": "Telefonoa edo eramangarria",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54c8157f"
+  },
+  "home_town_tag_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dadb328"
+  },
+  "home_town_tag_repeater": {
+    "value": "Errepikagailua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "home_town_tag_mast2": {
+    "value": "Beste errepikagailuak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3aa62b45"
+  },
+  "home_town_companion_title": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dadb328"
+  },
+  "home_town_companion_desc": {
+    "value": "Mezuak bidaltzeko erabiltzen duzun irratia. Parekatu zure telefonoarekin edo eramangarriarekin, edo aukeratu bere pantaila eta teklatua dituen bat, bere kabuz dabilena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c70389e6"
+  },
+  "home_town_companion_link": {
+    "value": "Aukeratu companion bat",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5eba6690"
+  },
+  "home_town_repeater_title": {
+    "value": "Errepikagailua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "home_town_repeater_desc": {
+    "value": "Inguruko guztien mezuak aurrera pasatzen ditu. Gehienak eguzki-energiaz dabiltza. Zurea mesh sarea oraindik iristen ez den lekuan bakarrik behar duzu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3db0ed15"
+  },
+  "home_town_repeater_link": {
+    "value": "Noiz jarri errepikagailu bat",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c5154fb9"
+  },
+  "home_town_mesh_title": {
+    "value": "Mesh sarea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "199c9527"
+  },
+  "home_town_mesh_desc": {
+    "value": "Errepikagailuek mezua aurrera pasatzen dute elkar entzuten duten bitartean. Eskualdeek tokian mantentzen dute.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2d14f895"
+  },
+  "home_town_mesh_link": {
+    "value": "Ikusi sarea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6f3b43a5"
+  },
+  "planned_label": {
+    "value": "Aurreikusia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fb6f7c93"
+  },
+  "planned.guides-filter.lead": {
+    "value": "Baztertu zure errepikagailuak aurrera pasatu behar ez duen trafikoa, pakete-iragazkiarekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ef203a0d"
+  },
+  "planned.guides-filter.what.title": {
+    "value": "Iragazkiak zer egiten duen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "88a35f90"
+  },
+  "planned.guides-filter.what.desc": {
+    "value": "Errepikagailu batek zein pakete bazter ditzakeen, eta horrek mesh sarea nola mantentzen duen lasai.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4a3c7cb5"
+  },
+  "planned.guides-filter.configs.title": {
+    "value": "Gomendatutako konfigurazioak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "42763607"
+  },
+  "planned.guides-filter.configs.desc": {
+    "value": "Ohiko kasuetarako ezarpen prestatuak, adibidez kanal zaratatsu bat blokeatzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2ef6b9e2"
+  },
+  "planned.guides-filter.settings.title": {
+    "value": "Ezarpen guztiak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "07182ebe"
+  },
+  "planned.guides-filter.settings.desc": {
+    "value": "Iragazkiaren ezarpen bakoitza, bere komandoarekin eta aldatzen duenarekin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b73f8c55"
+  },
+  "planned.guides-mqtt.lead": {
+    "value": "Utzi beti piztuta dagoen zure plakari entzuten duena MeshCore Analyzer-era bidaltzen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5aa10eb5"
+  },
+  "planned.guides-mqtt.need.title": {
+    "value": "Zer behar duzun",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e17c85cc"
+  },
+  "planned.guides-mqtt.need.desc": {
+    "value": "Behatzaile-firmwarea eta Wi-Fia dituen plaka bat, eta broker baten helbidea.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f9b88653"
+  },
+  "planned.guides-mqtt.settings.title": {
+    "value": "Ezarpenak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "74a883a0"
+  },
+  "planned.guides-mqtt.settings.desc": {
+    "value": "Zure plakak behar dituen Wi-Fi, broker eta topic ezarpenak.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3d2f63e9"
+  },
+  "planned.guides-mqtt.commands.title": {
+    "value": "Zure brokerraren komandoak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d2db5c84"
+  },
+  "planned.guides-mqtt.commands.desc": {
+    "value": "Itsatsi beharreko komandoak, aukeratzen duzun brokerraren datuekin beteta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1a37dddf"
+  },
+  "planned.guides-mqtt.check.title": {
+    "value": "Egiaztatu funtzionatzen duela",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2249f06f"
+  },
+  "planned.guides-mqtt.check.desc": {
+    "value": "Nola aurkitu zure behatzailea MeshCore Analyzer-en.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2e45d8f2"
+  },
+  "net_data_title": {
+    "value": "Datuak nola iristen diren",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d199acc6"
+  },
+  "net_data_lead": {
+    "value": "Gune honetako zenbaki guztiak entzun eta entzuten dutena partekatzen duten pertsonengandik datoz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d162c9f3"
+  },
+  "net_data_from_title": {
+    "value": "Nondik datozen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "87362334"
+  },
+  "net_data_from_body": {
+    "value": "Behatzaileek entzuten dutenaren berri ematen diote MQTT bidez broker bati, txostenak biltzen dituen zerbitzari bati. mqtt.meshcore-analyzer.eu helbidera edo Analyzer-ek irakurtzen duen beste broker batera bidaltzen dituzte txostenak. KiekR aplikazioak eta nabigatzaileko behatzaileak ere txostenak bidaltzen dituzte. Analyzer-ek jabeek onartutako CoreScope analizatzaileen datuak ere eskuratzen ditu. Analyzer-ek broker eta analizatzaile guztiak jabearen baimenarekin irakurtzen ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5604e25f"
+  },
+  "net_data_way_title": {
+    "value": "Zer gertatzen den bidean",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0e5c3f7c"
+  },
+  "net_data_way_body": {
+    "value": "Behatzaile askok entzundako mezu bat behin bakarrik zenbatzen da. Analyzer-ek deskodetu egiten du, eta horrekin mapak, zenbakiak eta kanalen zerrenda sortzen ditu. Mezu bakoitza gordetzen du, baina behatzaile bakoitzak entzun zuena 10 egunez gordetzen du. Orduko zenbakiak 30 egunez gehienez gordetzen ditu, eta eguneko guztizkoak betiko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57413efc"
+  },
+  "net_data_node_title": {
+    "value": "Besteek zure nodotik zer ikusten duten",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a6245d5e"
+  },
+  "net_data_node_body": {
+    "value": "Besteek haren izena, gako publikoa, mota eta, partekatzen baduzu, kokapena ikusten dituzte. Zure mezu zuzenak zifratuta geratzen dira. Public kanaleko eta hashtag kanaletako mezuak edonork irakur ditzake, Analyzer-ek barne.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0f5e507d"
+  },
+  "net_data_q_title": {
+    "value": "Galderak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9a72221a"
+  },
+  "net_data_q1": {
+    "value": "Nire nodoa mapan ageri da?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ec3057eb"
+  },
+  "net_data_a1": {
+    "value": "Behatzaile batek haren iragarkia entzun duenean bakarrik; iragarkia nodoak bere burua iragartzeko bidaltzen duen paketea da. Behatzaileetatik urrun dagoen nodoa ez da mapan agertzen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "393d0df5"
+  },
+  "net_data_q2": {
+    "value": "Analyzer-ek nire mezu zuzenak irakur ditzake?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1cd884fb"
+  },
+  "net_data_a2": {
+    "value": "Ez. Zuk eta beste pertsonak bakarrik duzue gakoa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c6b0e033"
+  },
+  "net_data_q3": {
+    "value": "Nire tresnatik datuak bidal ditzaket?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "52255bf4"
+  },
+  "net_data_a3": {
+    "value": "Bai: argitaratu MQTT bidez mqtt.meshcore-analyzer.eu helbidera, zure nodoaren gakoarekin sinatuta, behatzaile batek egiten duen bezala. {link} orriak erakusten du nola konektatu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "171daa27"
+  },
+  "net_data_analyzer_link": {
+    "value": "MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ed180c11"
+  },
+  "net_data_q4": {
+    "value": "Analyzer-en datuak erabil ditzaket?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2154596d"
+  },
+  "net_data_a4": {
+    "value": "Galdetu lehenik haren {link} orrian. Analyzer-ek ez du bilketa automatizaturik onartzen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b935a213"
+  },
+  "release_role_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dadb328"
+  },
+  "release_role_repeater": {
+    "value": "Errepikagailua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "release_role_room_server": {
+    "value": "Gela-zerbitzaria",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68b91cc5"
+  },
+  "release_notes_link": {
+    "value": "Bertsio-ohar ofizialak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8bc96136"
+  },
+  "release.v1-18-0.1": {
+    "value": "Zure companion-ak komando-lerroa du orain: ireki Command Line aplikazioan, 1.50 bertsioan edo berriago batean. Remote CLI baimena ematen diozun kontaktu batek komandoak bidal diezazkioke mesh sarearen bidez.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14cedc6a"
+  },
+  "release.v1-18-0.2": {
+    "value": "Konfiguratu berri den errepikagailu batek begizta-detekzio minimoa aktibatzen du berez.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14ac329c"
+  },
+  "release.v1-18-0.3": {
+    "value": "Iragarkiak itzalita dituen errepikagailua ez da gehiago agertzen besteek nodoak bilatzean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "73a74341"
+  },
+  "release.v1-18-0.4": {
+    "value": "ESP32 plaketan erlojuak berrabiarazteari eusten dio, eta nRF52 plaka gehienek ez dute gehiago uko egiten bateria baxuarekin abiarazteari.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "236a3861"
+  },
+  "release.v1-18-0.5": {
+    "value": "Plaka berriak: Thinknode M4 eta M8, Wio Tracker L1 1W, Muzi Base eta Waveshare ESP32-S3 LR1121.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1355f413"
+  },
+  "release.v1-18-0.6": {
+    "value": "Bluetooth companion firmwareak WiFia ere badu hainbat plakatan, besteak beste Heltec, Wireless Paper, RAK eta Xiao S3; konfiguratu aplikazioan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0d070c73"
+  },
+  "release.v1-17-1.1": {
+    "value": "Kanpoko anplifikadorea duten plaketan, harreraren irabazi-ezarpena gorde egiten da orain. Eguneratu ondoren, egiaztatu radio.fem.rxgain eta radio.rxgain zure errepikagailuan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aa6980e3"
+  },
+  "release.v1-17-1.2": {
+    "value": "Heltec T096 plakak berriro bidaltzen du, eta T-Beam Supreme plakaren pantaila berriro ikusten da.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8973538"
+  },
+  "release.v1-17-0.1": {
+    "value": "Firmware guztiek formatu berri batean gordetzen dituzte ezarpenak.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2acf27c2"
+  },
+  "release.v1-17-0.2": {
+    "value": "Errepikagailua itzaltzeko, sakatu luze haren botoia. Komando berriak: set cad errepikagailuentzat eta room.post gela-zerbitzarientzat.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "96f0d3d9"
+  },
+  "release.v1-17-0.3": {
+    "value": "nRF52 plakek beren zifratze-txip integratua erabiltzen dute, eta plakek energia gutxiago kontsumitzen dute hibernazioan eta itzalita daudenean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3daf5825"
+  },
+  "release.v1-17-0.4": {
+    "value": "Plaka berriak: Heltec V4 R8, RC32 eta Tower V2, Thinknode M7 eta M9, Sensecap MeshTracker X1, eta LR2021 txipa duten irratiak.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b90c5ac8"
+  },
+  "release.v1-17-0.5": {
+    "value": "Errepikagailuek hobeto entzuten dute bidali aurretik, beraz mesh sare okupatuetan talka gutxiago daude.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3061d4fd"
+  },
+  "console_needs_js": {
+    "value": "Kontsolak JavaScript eta USBra irits daitekeen nabigatzailea behar ditu: Chrome, Edge edo Opera ordenagailu batean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "07c6b52a"
+  },
+  "console_connect": {
+    "value": "Konektatu zure nodoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bb8e5e01"
+  },
+  "console_disconnect": {
+    "value": "Deskonektatu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "acfc5be7"
+  },
+  "console_copy": {
+    "value": "Kopiatu erregistroa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e01862b2"
+  },
+  "console_send": {
+    "value": "Bidali",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f6f4688f"
+  },
+  "console_command_label": {
+    "value": "Komandoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71316697"
+  },
+  "console_log_label": {
+    "value": "Zure nodoak esaten duena",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "84925ecb"
+  },
+  "console_status_idle": {
+    "value": "Entxufatu zure nodoa, gero konektatu eta aukeratu haren ataka.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3ebc3314"
+  },
+  "console_status_asking": {
+    "value": "Konektatuta. Zure nodoari zer den galdetzen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "02b45460"
+  },
+  "console_status_connected": {
+    "value": "Konektatuta. Idatzi komando bat eta sakatu Enter.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d216f35b"
+  },
+  "console_status_lost": {
+    "value": "Konexioa galdu da. Egiaztatu kablea eta konektatu berriro.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "98fa83ae"
+  },
+  "console_status_busy": {
+    "value": "Ezin izan da ataka ireki. Itxi hura erabiltzen duen beste programa edo fitxa, eta saiatu berriro.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cf4e9cbd"
+  },
+  "console_status_unsupported": {
+    "value": "Nabigatzaile hau ezin da USBra iritsi. Erabili Chrome, Edge edo Opera ordenagailu batean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8ef7eebe"
+  },
+  "console_status_copied": {
+    "value": "Erregistroa kopiatu da.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "617d378e"
+  },
+  "console_status_copy_failed": {
+    "value": "Ezin izan da erregistroa kopiatu. Hautatu eta kopiatu eskuz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "45bd5465"
+  },
+  "console_commands_before": {
+    "value": "Komando guztiak hemen azaltzen dira:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68ef84d1"
+  },
+  "console_commands_link": {
+    "value": "CLI komandoak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a13cc6cb"
+  },
+  "console_commands_after": {
+    "value": ".",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cdb4ee2a"
+  },
+  "console_node_known": {
+    "value": "Iradokizunek nodo honek ulertzen dituen komandoak erakusten dituzte.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "345c274c"
+  },
+  "console_node_unknown": {
+    "value": "Zure nodoak ez du bere rola esan. Iradokizunek errepikagailuen, gela-zerbitzarien eta sentsoreen komandoak erakusten dituzte.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "503c0064"
+  },
+  "console_dmc_before": {
+    "value": "Nodo honek DutchMeshCore firmwarea darabil. Iradokizunek MeshCore-ren komandoak erakusten dituzte. DutchMeshCore komandoak hemen daude:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b17e7f2e"
+  },
+  "console_more_link": {
+    "value": "{command} CLI gidan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9e207731"
+  },
+  "console_dmc_link": {
+    "value": "DutchMeshCore CLI wikia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ccc16968"
+  },
+  "console_dmc_after": {
+    "value": ".",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cdb4ee2a"
+  },
+  "console_suggestions_label": {
+    "value": "Iradokitako komandoak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "36d1238e"
+  },
+  "console_key_fill": {
+    "value": "betetzen du",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cf686f44"
+  },
+  "console_key_choose": {
+    "value": "aukeratu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "725fed9d"
+  },
+  "console_key_guide": {
+    "value": "CLI gida irekitzen du",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "de7ca5a8"
+  },
+  "console_key_close": {
+    "value": "ixten du",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b2850942"
+  },
+  "console_trouble_title": {
+    "value": "Konektatzen ez denean",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0cce4809"
+  },
+  "console_trouble_1": {
+    "value": "Erabili datu-kable bat. Kable batzuek kargatu bakarrik egiten dute.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "958a8d54"
+  },
+  "console_trouble_2": {
+    "value": "Itxi ataka erabiltzen duten beste programak, adibidez beste kontsola bat edo gune honetako flasherra beste fitxa batean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fc9daa0a"
+  },
+  "console_trouble_3": {
+    "value": "Aukeratu ataka zuzena: deskonektatu zure nodoa, begiratu zein ataka desagertzen den eta entxufatu berriro.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "75120995"
+  },
+  "console_trouble_4": {
+    "value": "Firefox eta Safari ezin dira USBra iritsi web orri batetik. Erabili Chrome, Edge edo Opera ordenagailu batean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71403007"
+  },
+  "usb_title": {
+    "value": "Bidali zure errepikagailura USB bidez.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "815598af"
+  },
+  "usb_body": {
+    "value": "Entxufatu zure errepikagailua, konektatu eta egiaztatu zer aldatzen den bidali aurretik.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5a67e201"
+  },
+  "usb_connect": {
+    "value": "Konektatu zure errepikagailua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aaf2563c"
+  },
+  "usb_check": {
+    "value": "Egiaztatu zer aldatzen den",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3ee77f8f"
+  },
+  "usb_send": {
+    "value": "Bidali ezarpenak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7e2580db"
+  },
+  "usb_reboot": {
+    "value": "Berrabiarazi zure errepikagailua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "19394bd3"
+  },
+  "usb_disconnect": {
+    "value": "Deskonektatu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "acfc5be7"
+  },
+  "usb_col_command": {
+    "value": "Komandoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71316697"
+  },
+  "usb_col_now": {
+    "value": "Orain",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fe18013d"
+  },
+  "usb_col_reply": {
+    "value": "Erantzuna",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c253f451"
+  },
+  "usb_col_new": {
+    "value": "Balio berria",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7ca9b97d"
+  },
+  "usb_no_answer": {
+    "value": "erantzunik ez",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ad03eb5e"
+  },
+  "usb_status_idle": {
+    "value": "Konektatu gabe.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3b3d2796"
+  },
+  "usb_status_connected": {
+    "value": "Konektatuta. Egiaztatu lehenik zer aldatzen den.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4bb28123"
+  },
+  "usb_status_busy": {
+    "value": "Ataka erabiltzen ari dira. Itxi hura erabiltzen duen beste programa edo fitxa, eta saiatu berriro.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "438a57fa"
+  },
+  "usb_status_fill": {
+    "value": "Bete lehenik {value} goiko komandoetan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d903306b"
+  },
+  "usb_status_reading": {
+    "value": "Zure errepikagailuaren ezarpenak irakurtzen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "222e3b98"
+  },
+  "usb_status_review": {
+    "value": "Konparatu uneko balioak berriekin, eta gero bidali.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "017b629e"
+  },
+  "usb_status_sent": {
+    "value": "Bidalita. Zure errepikagailuak komando guztiak onartu ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4cf46e54"
+  },
+  "usb_status_sent_errors": {
+    "value": "Bidalita, baina zure errepikagailuak komando batzuk ukatu ditu edo ez du erantzun. Egiaztatu erantzunak.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f77c4ebb"
+  },
+  "usb_status_rebooted": {
+    "value": "Errepikagailua irrati-ezarpen berriekin berrabiarazten da.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "79ddf8f8"
+  },
+  "flash_releases_link": {
+    "value": "MeshCore-ren bertsioak GitHub-en",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "db7cf404"
+  },
+  "flash_no_match": {
+    "value": "Ez dago bat datorren plakarik. Saiatu hitz laburrago batekin, edo aukeratu zerrendatik.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cdba666f"
+  },
+  "flash_needs_js": {
+    "value": "Flasherrak JavaScript behar du. Hura gabe, fitxategi guztiak hemen dituzu: {link}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc36838c"
+  },
+  "flash_board_title": {
+    "value": "Aukeratu zure plaka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "225d5074"
+  },
+  "flash_filter_label": {
+    "value": "Bilatu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "49c266ba"
+  },
+  "flash_board_label": {
+    "value": "Plaka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4816cbfd"
+  },
+  "flash_role_label": {
+    "value": "Rola",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14736a2e"
+  },
+  "flash_role_ble": {
+    "value": "Companion, Bluetooth",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2c1378a3"
+  },
+  "flash_role_usb": {
+    "value": "Companion, USB",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4794c45b"
+  },
+  "flash_role_repeater": {
+    "value": "Errepikagailua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "flash_role_room_server": {
+    "value": "Gela-zerbitzaria",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68b91cc5"
+  },
+  "flash_version_before": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f4f17278"
+  },
+  "flash_version_after": {
+    "value": ", bertsio berriena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1daecb7e"
+  },
+  "flash_flash_title": {
+    "value": "Flasheatu USB bidez",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dfd786e5"
+  },
+  "flash_mode_legend": {
+    "value": "Zer nahi duzu?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3e17dbf9"
+  },
+  "flash_mode_update": {
+    "value": "Eguneratzea: MeshCore dagoeneko duen plaka batentzat. Zure nodoaren gakoak, kontaktuak eta ezarpenak gordetzen ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "59e8848e"
+  },
+  "flash_mode_fresh": {
+    "value": "Instalazio berria: plaka berri batentzat edo beste firmware bat duenarentzat. Plaka ezabatzen du, gakoak barne.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bc797149"
+  },
+  "flash_wipe_ok": {
+    "value": "Badakit instalazio berri batek nire nodoaren gakoak eta kontaktuak ezabatzen dituela.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7aeefcb2"
+  },
+  "flash_flash_button": {
+    "value": "Konektatu eta flasheatu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8a541c7"
+  },
+  "flash_esp_help": {
+    "value": "Chrome, Edge edo Opera ordenagailu batean. Plaka konektatzen ez bada, eutsi sakatuta haren BOOT botoia (PRG plaka batzuetan) entxufatzen duzun bitartean, eta saiatu berriro.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4dafe8fb"
+  },
+  "flash_uf2_title": {
+    "value": "Kopiatu fitxategia zure plakan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "263bc1e5"
+  },
+  "flash_uf2_step1": {
+    "value": "Deskargatu fitxategia:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dee6800a"
+  },
+  "flash_uf2_step2": {
+    "value": "Entxufatu zure plaka eta sakatu birritan haren reset botoia. USB unitate gisa agertzen da. Reset botoirik gabeko plakak bere sartzeko modua du; fabrikatzailearen orrian azaltzen da.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9cd62884"
+  },
+  "flash_uf2_step3": {
+    "value": "Arrastatu fitxategia unitate horretara. Plaka firmware berriarekin berrabiarazten da; eguneratze batek gakoak gordetzen ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aef87c5b"
+  },
+  "flash_status_unsupported": {
+    "value": "Nabigatzaile hau ezin da USBra iritsi. Erabili Chrome, Edge edo Opera ordenagailu batean.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8ef7eebe"
+  },
+  "flash_status_no_list": {
+    "value": "Plaken zerrenda ez da kargatu. Kargatu orria berriro.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7a3841a5"
+  },
+  "flash_status_downloading": {
+    "value": "Firmwarea deskargatzen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c9e6648c"
+  },
+  "flash_status_connecting": {
+    "value": "Zure plakara konektatzen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "70ed0d63"
+  },
+  "flash_status_flashing": {
+    "value": "Flasheatzen. Utzi plaka entxufatuta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0796d555"
+  },
+  "flash_status_done": {
+    "value": "Eginda. Zure plaka firmware berriarekin berrabiarazten da.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "445b69e2"
+  },
+  "flash_status_failed": {
+    "value": "Flasheatzea gelditu da. Eutsi sakatuta BOOT botoia plaka entxufatzen duzun bitartean, eta saiatu berriro.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f716db56"
+  },
+  "flash_status_no_file": {
+    "value": "Firmware-fitxategia ez da deskargatu. Saiatu berriro pixka bat barru.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6636a9df"
+  },
+  "flash_other_firmware": {
+    "value": "Beste firmware batzuek, adibidez DutchMeshCore behatzaile-firmwareak, beren flasherra dute: {link}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b2c75d72"
+  },
+  "release_flash_link": {
+    "value": "Flasheatu zure plakan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "207bc805"
+  },
+  "menu_privacy": {
+    "value": "Pribatutasuna",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54a57c31"
+  },
+  "menu_wallpapers": {
+    "value": "Horma-paperak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "006547c4"
+  },
+  "menu_start": {
+    "value": "Hasiera",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e4bb9f1e"
+  },
+  "menu_about": {
+    "value": "Zer da MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a50b70cf"
+  },
+  "menu_about_sub": {
+    "value": "Irrati-mezuak internetik gabe",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aab7190e"
+  },
+  "menu_devices": {
+    "value": "Gailuak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ba5121d"
+  },
+  "menu_devices_sub": {
+    "value": "Plakak, haien kontsumoa eta prezioa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20f93671"
+  },
+  "menu_get_started": {
+    "value": "Hasi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "menu_get_started_sub": {
+    "value": "Plaka berritik zure lehen mezura",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d67ed219"
+  },
+  "menu_repeater_guide": {
+    "value": "Errepikagailuen gida",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4608abcd"
+  },
+  "menu_repeater_guide_sub": {
+    "value": "Kokapena, potentzia eta lege-mugak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "666a0c8c"
+  },
+  "menu_start_group_1": {
+    "value": "Ikasi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ce78afd0"
+  },
+  "menu_start_group_1_all": {
+    "value": "Gehiago MeshCore-ri buruz",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2c7c7283"
+  },
+  "menu_start_group_2": {
+    "value": "Egin",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "30094e0b"
+  },
+  "menu_start_card_eyebrow": {
+    "value": "Berria hemen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10bc4c55"
+  },
+  "menu_start_card_title": {
+    "value": "Zure lehen mezua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d0e38ee3"
+  },
+  "menu_start_card_body": {
+    "value": "Plaka bat, aplikazioa eta zure herrialderako ezarpenak. Ordubete barru mesh sarean zaude.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7c10acb3"
+  },
+  "menu_start_card_button": {
+    "value": "Hasi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "menu_firmware": {
+    "value": "Firmwarea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "menu_fw_build": {
+    "value": "Firmwareen ikuspegi orokorra",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1cf2ad9a"
+  },
+  "menu_fw_build_sub": {
+    "value": "Zure plakak zein firmware darabilen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54130720"
+  },
+  "menu_fw_flash": {
+    "value": "Flasheatu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3577cb5"
+  },
+  "menu_fw_flash_sub": {
+    "value": "Zure nabigatzailetik, USB bidez",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e6dbc0b0"
+  },
+  "menu_fw_console": {
+    "value": "Serie-kontsola",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4e3c41fa"
+  },
+  "menu_fw_console_sub": {
+    "value": "Idatzi komandoak USB bidez",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "40df16c8"
+  },
+  "menu_fw_changelog": {
+    "value": "Aldaketen erregistroa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ead07c84"
+  },
+  "menu_fw_changelog_sub": {
+    "value": "Zer aldatu den",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1bcbf1dc"
+  },
+  "menu_firmware_group_1": {
+    "value": "Zure irratian",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d3234810"
+  },
+  "menu_firmware_group_1_all": {
+    "value": "Firmware guztiak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "27bfcf0e"
+  },
+  "menu_firmware_group_2": {
+    "value": "Egon egunean",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57a5a75f"
+  },
+  "menu_firmware_card_eyebrow": {
+    "value": "Firmwarea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "menu_firmware_card_title": {
+    "value": "Firmware ofiziala",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "39cc2886"
+  },
+  "menu_firmware_card_body": {
+    "value": "Flasheatu firmware ofiziala zure nabigatzailetik. Ez duzu ezer instalatu behar.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e75a91bd"
+  },
+  "menu_firmware_card_button": {
+    "value": "Flasheatu zure plaka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5b6987e"
+  },
+  "menu_guides": {
+    "value": "Gidak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "572cd72f"
+  },
+  "menu_guides_overview": {
+    "value": "Giden ikuspegi orokorra",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8db6b2ea"
+  },
+  "menu_guides_overview_sub": {
+    "value": "Gida guztiak, egin nahi duzunaren arabera",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0a19370e"
+  },
+  "menu_guide_settings": {
+    "value": "Gomendatutako ezarpenak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cfb32983"
+  },
+  "menu_guide_settings_sub": {
+    "value": "Zure eremurako aurrezarpena eta ezarpenak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8592dd01"
+  },
+  "menu_guide_antenna": {
+    "value": "Antenen gida",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3a76cb0e"
+  },
+  "menu_guide_antenna_sub": {
+    "value": "Aukeratu, konektatu eta muntatu antena bat",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e57b6f1d"
+  },
+  "menu_guide_keygen": {
+    "value": "Sortu gako bat",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e798fa1b"
+  },
+  "menu_guide_keygen_sub": {
+    "value": "Zuk aukeratutako aurrizki batekin",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "02f5281d"
+  },
+  "menu_guide_channels": {
+    "value": "Aurkitu kanalak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9905513b"
+  },
+  "menu_guide_channels_sub": {
+    "value": "Zure inguruko kanalak, haien gakoekin",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "695ddeef"
+  },
+  "menu_guide_resilient": {
+    "value": "Egin mesh sarea erresilientea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33ec7ac8"
+  },
+  "menu_guide_resilient_sub": {
+    "value": "Zerk laguntzen duen uholdeen eta spamaren aurka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6b6b932a"
+  },
+  "menu_guide_filter": {
+    "value": "Pakete-iragazkia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20a3ef1f"
+  },
+  "menu_guide_filter_sub": {
+    "value": "Azalduta, komandoekin",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7cd98eed"
+  },
+  "menu_guide_mqtt": {
+    "value": "MQTT zure behatzailean",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "62626d0f"
+  },
+  "menu_guide_mqtt_sub": {
+    "value": "Bidali zure nodoak entzuten duenaren berri",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "593d1245"
+  },
+  "menu_guide_mctomqtt": {
+    "value": "Sortu zubi-konfigurazio bat",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fd2dd667"
+  },
+  "menu_guide_mctomqtt_sub": {
+    "value": "Errepikagailu bat USB bidez broker batera",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "22227ad5"
+  },
+  "menu_guide_cli": {
+    "value": "CLI komandoak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a13cc6cb"
+  },
+  "menu_guide_cli_sub": {
+    "value": "Komando guztiak azalduta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aa1f6046"
+  },
+  "menu_guides_group_1": {
+    "value": "Konfiguratu zure nodoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "55efd611"
+  },
+  "menu_guides_group_1_all": {
+    "value": "Gida guztiak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0b5543ef"
+  },
+  "menu_guides_group_2": {
+    "value": "Sakondu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6bce982b"
+  },
+  "menu_guides_card_eyebrow": {
+    "value": "Ezagutza-basea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f56819a3"
+  },
+  "menu_guides_card_title": {
+    "value": "MeshWiki",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "821342d8"
+  },
+  "menu_guides_card_body": {
+    "value": "MeshCore-ri buruzko komunitatearen wikia, hemen jasotzen ez den guztirako.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b3d4f00f"
+  },
+  "menu_guides_card_button": {
+    "value": "Joan MeshWiki-ra",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2ddff05f"
+  },
+  "menu_network": {
+    "value": "Sarea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1744b964"
+  },
+  "menu_map": {
+    "value": "Estaldura-mapak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4b9f20a0"
+  },
+  "menu_map_sub": {
+    "value": "Sareak non duen irismena",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ec1e205"
+  },
+  "menu_network_overview": {
+    "value": "Sarea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1b32d67c"
+  },
+  "menu_network_overview_sub": {
+    "value": "Behatokiak eta zuzeneko zenbakiak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc64142f"
+  },
+  "menu_network_group_1": {
+    "value": "Mapak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "119e66d1"
+  },
+  "menu_network_group_1_all": {
+    "value": "Sarea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1b32d67c"
+  },
+  "menu_network_group_2": {
+    "value": "Datuak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cec3a9b8"
+  },
+  "menu_network_card_eyebrow": {
+    "value": "Estaldura",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "523487a5"
+  },
+  "menu_network_card_title": {
+    "value": "Sareak non duen irismena",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ec1e205"
+  },
+  "menu_network_card_body": {
+    "value": "Europa osoko komunitateek kudeatutako mapak, MeshCore Analyzer-etik tokiko proiektuetaraino.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fb1630d4"
+  },
+  "menu_network_card_button": {
+    "value": "Ireki mapak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e7674cfc"
+  },
+  "menu_community": {
+    "value": "Komunitatea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bb501d78"
+  },
+  "menu_local_groups": {
+    "value": "Tokiko taldeak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dff00c14"
+  },
+  "menu_local_groups_sub": {
+    "value": "Aurkitu zure inguruko tokiko taldea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d619ea7a"
+  },
+  "menu_projects": {
+    "value": "Proiektuak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "04e2a972"
+  },
+  "menu_projects_sub": {
+    "value": "Jendeak MeshCore-ren gainean eraikitzen duena",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d4563ab2"
+  },
+  "menu_news": {
+    "value": "Berriak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69752f23"
+  },
+  "menu_news_sub": {
+    "value": "Europa osoko saretik",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "39d66042"
+  },
+  "menu_contribute": {
+    "value": "Lagundu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97b0c61b"
+  },
+  "menu_contribute_sub": {
+    "value": "Lagundu webgunea idazten eta itzultzen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8f5f2836"
+  },
+  "menu_press_kit": {
+    "value": "Promozio- eta prentsa-kita",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fc691b26"
+  },
+  "menu_press_kit_sub": {
+    "value": "Logoa, irudiak, horma-paperak eta webguneari buruzko testu bat",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97e4fd91"
+  },
+  "menu_community_group_1": {
+    "value": "Jendea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7db20897"
+  },
+  "menu_community_group_1_all": {
+    "value": "Tokiko talde guztiak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6700740b"
+  },
+  "menu_community_group_2": {
+    "value": "Haiek egindakoa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "468d3c4f"
+  },
+  "menu_community_card_eyebrow": {
+    "value": "Zure inguruan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ab808511"
+  },
+  "menu_community_card_title": {
+    "value": "Egin bat tokiko talde batekin",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a0b3cc29"
+  },
+  "menu_community_card_body": {
+    "value": "Tokiko talde bakoitzak bere kanalak, ezarpenak eta galdetzeko jendea ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b38a16bf"
+  },
+  "menu_community_card_button": {
+    "value": "Aurkitu zure taldea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cef2ba32"
+  },
+  "menu_footer_1": {
+    "value": "Hasi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e4bb9f1e"
+  },
+  "menu_footer_2": {
+    "value": "Firmwarea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "menu_footer_3": {
+    "value": "Gidak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "572cd72f"
+  },
+  "menu_footer_4": {
+    "value": "Sarea eta komunitatea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ade2740d"
+  },
+  "menu_footer_note_1": {
+    "value": "MeshCore-ri buruzko Europako komunitate-gida ez-komertziala, boluntarioek egina, iragarkirik, afiliatu-loturarik eta jarraipenik gabe. Ez da MeshCore proiektuaren parte.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69e7015d"
+  },
+  "menu_footer_note_2": {
+    "value": "Testua CC BY 4.0, kodea MIT.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "845058ef"
+  },
+  "shell_theme": {
+    "value": "Gaia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "efb52e71"
+  },
+  "shell_language": {
+    "value": "Hizkuntza",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4fe6526"
+  },
+  "shell_colour_vision": {
+    "value": "Koloreen ikusmena",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "df1c3606"
+  },
+  "shell_account": {
+    "value": "Kontua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7e1b0d56"
+  },
+  "shell_menu": {
+    "value": "Menua",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "99af6606"
+  },
+  "shell_system": {
+    "value": "Jarraitu sistemari",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "48b4e3ed"
+  },
+  "shell_dark": {
+    "value": "Iluna",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "60acc53f"
+  },
+  "shell_light": {
+    "value": "Argia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dbcd5e7b"
   }
 }
