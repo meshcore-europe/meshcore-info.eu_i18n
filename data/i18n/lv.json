@@ -3,6 +3,6264 @@
     "language": "lv",
     "name": "Latviešu",
     "managed_by": "community",
-    "updated": "2026-10-31"
+    "updated": "2026-11-02"
+  },
+  "site_tagline": {
+    "value": "Saziņa bez tīkla visā Eiropā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fd77fd37"
+  },
+  "site_description": {
+    "value": "Kopienas ceļvedis par MeshCore Eiropā: pirmie soļi, aparatūra, vietējās grupas, pārklājuma kartes un retranslatori. Nekomerciāls un atvērtā koda.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "00f6c54b"
+  },
+  "skip_to_content": {
+    "value": "Pāriet uz saturu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ac576a66"
+  },
+  "menu": {
+    "value": "Izvēlne",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "99af6606"
+  },
+  "nav_label": {
+    "value": "Galvenā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eb814be3"
+  },
+  "nav_about": {
+    "value": "Par MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4efca0d1"
+  },
+  "nav_get_started": {
+    "value": "Sākt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "nav_devices": {
+    "value": "Ierīces",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ba5121d"
+  },
+  "nav_community": {
+    "value": "Kopiena",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bb501d78"
+  },
+  "nav_map": {
+    "value": "Karte",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be176b00"
+  },
+  "nav_repeater_guide": {
+    "value": "Retranslatoru ceļvedis",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4608abcd"
+  },
+  "nav_news": {
+    "value": "Jaunumi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69752f23"
+  },
+  "nav_projects": {
+    "value": "Projekti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "04e2a972"
+  },
+  "nav_contribute": {
+    "value": "Piedalies",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97b0c61b"
+  },
+  "nav_privacy": {
+    "value": "Privātums",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54a57c31"
+  },
+  "in_english": {
+    "value": "Šī lapa ir angļu valodā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7e9323d9"
+  },
+  "lang_switch_label": {
+    "value": "Valoda",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4fe6526"
+  },
+  "not_translated_yet": {
+    "value": "vēl nav iztulkots",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3f59d8d3"
+  },
+  "theme_light": {
+    "value": "Motīvs: gaišs",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "72a842db"
+  },
+  "theme_dark": {
+    "value": "Motīvs: tumšs",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "43908c59"
+  },
+  "theme_system": {
+    "value": "Motīvs: sistēmas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "98a8dd2c"
+  },
+  "copy": {
+    "value": "Kopēt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e21f935f"
+  },
+  "copied": {
+    "value": "Nokopēts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8d525e5f"
+  },
+  "hero_eyebrow": {
+    "value": "868 MHz · Eiropa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "567ed2b0"
+  },
+  "hero_title": {
+    "value": "Ārpus tīkliem, mesh tīklā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "43ed56a7"
+  },
+  "hero_lead": {
+    "value": "MeshCore sūta ziņas pa radio, bez interneta vai abonementa. Eiropas mesh tīkli savienojas vienā. Šeit to kopienas dalās savā pieredzē.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "19ad0ab5"
+  },
+  "hero_cta_start": {
+    "value": "Sākt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "hero_cta_about": {
+    "value": "Uzzini, kas ir MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cdecad6f"
+  },
+  "paths_title": {
+    "value": "Ar ko vēlies sākt?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf614863"
+  },
+  "path_new_title": {
+    "value": "Esmu šeit pirmo reizi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10bc4c55"
+  },
+  "path_new_desc": {
+    "value": "Kas ir mesh tīkls un ko MeshCore var un nevar.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a3e4ab18"
+  },
+  "path_offgrid_title": {
+    "value": "Gatavs brīdim, kad tīkli atslēdzas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b005ed6a"
+  },
+  "path_offgrid_desc": {
+    "value": "Izvēlies plati pārgājieniem, burāšanai, pasākumiem vai elektrības atslēgumam.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6a84d5b4"
+  },
+  "path_build_title": {
+    "value": "Būvēšana un eksperimenti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c24822f6"
+  },
+  "path_build_desc": {
+    "value": "Radio, antenas, rīki un citu kopienu projekti.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "31166d76"
+  },
+  "path_grow_title": {
+    "value": "Retranslatora pievienošana",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf145b6c"
+  },
+  "path_grow_desc": {
+    "value": "Saplāno un uzstādi retranslatoru, kas pārklāj tavu apkaimi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "db75c8c5"
+  },
+  "path_local_title": {
+    "value": "Cilvēki tavā tuvumā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "808e1f66"
+  },
+  "path_local_desc": {
+    "value": "Atrodi savu vietējo grupu, tās tērzētavas un kanālus.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a1e525eb"
+  },
+  "why_title": {
+    "value": "Kāpēc MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67d51fbe"
+  },
+  "why_costs_title": {
+    "value": "Bez pastāvīgām izmaksām",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "adff5b03"
+  },
+  "why_costs_desc": {
+    "value": "Radio pērc vienreiz. Ziņas neko nemaksā: nav SIM kartes, datu plāna vai abonementa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e735f31"
+  },
+  "why_infra_title": {
+    "value": "Darbojas bez tīkla",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "058c8eae"
+  },
+  "why_infra_desc": {
+    "value": "Darbojas arī tad, kad mobilie tīkli un internets nestrādā vai nav sasniedzami. Ziņas pa gaisu ceļo no radio uz radio.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ec9de206"
+  },
+  "why_open_title": {
+    "value": "Atvērtais kods",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67a0d2e0"
+  },
+  "why_open_desc": {
+    "value": "Programmaparatūra un tās protokols ir atvērtā koda, tāpēc ikviens var uz tiem būvēt. Atvērtas lietotnes, rīki un bibliotēkas to jau dara.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97859c5f"
+  },
+  "why_privacy_title": {
+    "value": "Privāts pēc uzbūves",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "485ca594"
+  },
+  "why_privacy_desc": {
+    "value": "Tiešās ziņas ir šifrētas no gala līdz galam. Lai pievienotos, tev nav vajadzīgs konts vai tālruņa numurs.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6901512e"
+  },
+  "why_routing_title": {
+    "value": "Lokāls pa reģioniem",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be9348e5"
+  },
+  "why_routing_desc": {
+    "value": "Tava pirmā ziņa izplatās caur visiem retranslatoriem: mezgliem uz jumtiem un mastiem, kas nodod ziņas tālāk. Šādi izplatīta ziņa var nest reģionu, un retranslatori nodod tālāk tikai savus reģionus, tāpēc tā paliek savā apgabalā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e9620b88"
+  },
+  "why_community_title": {
+    "value": "Viens mesh tīkls, daudz grupu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a49e1ded"
+  },
+  "why_community_desc": {
+    "value": "Vietējās grupas visā Eiropā uzstāda retranslatorus, dalās iestatījumos un palīdz iesācējiem. Atrodi sev tuvāko sadaļā Vietējās grupas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d1e253bc"
+  },
+  "home_live_label": {
+    "value": "Tiešraidē visā Eiropā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "44ee0071"
+  },
+  "home_live_packets": {
+    "value": "paketes pēdējā pilnajā stundā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e3e24e13"
+  },
+  "home_live_countries": {
+    "value": "valstis dzirdētas pēdējā stundā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "502cba0e"
+  },
+  "home_live_repeaters": {
+    "value": "retranslatori dzirdēti pēdējās 7 dienās",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2890ece6"
+  },
+  "home_live_source": {
+    "value": "Skaitļi no meshcore-analyzer.eu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "73b22a30"
+  },
+  "strip_label_release": {
+    "value": "Laidiens",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e020e3c6"
+  },
+  "strip_label_reference": {
+    "value": "Uzziņas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71bf9093"
+  },
+  "strip_label_guides": {
+    "value": "Ceļveži",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "572cd72f"
+  },
+  "strip_label_directory": {
+    "value": "Katalogs",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c8f84c3c"
+  },
+  "strip_label_site": {
+    "value": "Šī vietne",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e487482d"
+  },
+  "strip_released": {
+    "value": "izlaists",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d29eae13"
+  },
+  "strip_boards": {
+    "value": "plates",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "685d9a8f"
+  },
+  "strip_commands": {
+    "value": "CLI komandas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a13cc6cb"
+  },
+  "strip_latest_firmware": {
+    "value": "jaunākā programmaparatūra",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a0daddac"
+  },
+  "strip_releases": {
+    "value": "laidieni šajā lapā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e99084d9"
+  },
+  "strip_areas": {
+    "value": "apgabali ar ieteiktajiem iestatījumiem",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "789b6daa"
+  },
+  "strip_presets": {
+    "value": "radio priekšiestatījumi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cb582a14"
+  },
+  "strip_devices": {
+    "value": "ierīces",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ade15a12"
+  },
+  "strip_groups": {
+    "value": "vietējās grupas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f40e444b"
+  },
+  "strip_countries": {
+    "value": "valstis",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e45d4cba"
+  },
+  "strip_maps": {
+    "value": "pārklājuma kartes",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e149f255"
+  },
+  "strip_channel_countries": {
+    "value": "valstis, no kurām izvēlēties",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0fbe9da9"
+  },
+  "strip_projects": {
+    "value": "projekti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2577c0f5"
+  },
+  "strip_languages": {
+    "value": "valodas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6cb574fa"
+  },
+  "strip_trackers": {
+    "value": "izsekotāji",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "da068881"
+  },
+  "strip_third_party": {
+    "value": "trešo pušu pieprasījumi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "64ebce3d"
+  },
+  "strip_cookie": {
+    "value": "sīkdatne, tikai tad, kad izvēlies motīvu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be0b8e53"
+  },
+  "strip_checked": {
+    "value": "Pārbaudīts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0efd92a3"
+  },
+  "strip_release_source": {
+    "value": "No MeshCore laidieniem",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d619a021"
+  },
+  "news_latest": {
+    "value": "Jaunākās ziņas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f74e23c2"
+  },
+  "news_english_only": {
+    "value": "Jaunumi tiek publicēti tikai angļu valodā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "815251ef"
+  },
+  "news_all": {
+    "value": "Visi jaunumi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67c7790c"
+  },
+  "badge_ai": {
+    "value": "Mašīntulkojums",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e174e770"
+  },
+  "badge_human": {
+    "value": "Pārbaudīts tulkojums",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3f4efebd"
+  },
+  "banner_ai_title": {
+    "value": "Šo lapu iztulkoja mašīna.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1cb96c83"
+  },
+  "banner_ai_body": {
+    "value": "Neviens dzimtās valodas runātājs to vēl nav pārbaudījis, tāpēc daži formulējumi var būt neprecīzi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bbc7e56b"
+  },
+  "banner_stale": {
+    "value": "Angļu lapa ir mainījusies kopš šī tulkojuma.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b34a3714"
+  },
+  "read_english": {
+    "value": "Lasi versiju angļu valodā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "971012a5"
+  },
+  "banner_improve": {
+    "value": "Palīdzi uzlabot šo tulkojumu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a9a967b6"
+  },
+  "edit_page": {
+    "value": "Rediģē šo lapu GitHub",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "073fd103"
+  },
+  "planned_note": {
+    "value": "Mēs šo lapu vēl veidojam.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f0aebcf0"
+  },
+  "planned_more": {
+    "value": "Līdz tam tev var palīdzēt šīs lapas:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ec1b5efa"
+  },
+  "last_verified": {
+    "value": "Pēdējoreiz pārbaudīts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d8e92048"
+  },
+  "sources": {
+    "value": "Avoti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "caf85b08"
+  },
+  "callout_tip": {
+    "value": "Padoms",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4245a3c"
+  },
+  "callout_warning": {
+    "value": "Brīdinājums",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e981ddae"
+  },
+  "callout_legal": {
+    "value": "Juridiski",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4787eaf7"
+  },
+  "filter_title": {
+    "value": "Sašaurini izvēli",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "28c6eb01"
+  },
+  "filter_any": {
+    "value": "Jebkurš",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2b505597"
+  },
+  "filter_reset": {
+    "value": "Atiestatīt filtrus",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10afa984"
+  },
+  "filter_count": {
+    "value": "Rāda {shown} no {total}",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3d25c92"
+  },
+  "filter_empty": {
+    "value": "Šiem filtriem nekas neatbilst.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7094992d"
+  },
+  "filter_role_q": {
+    "value": "Ko tā darīs?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "25ed547a"
+  },
+  "filter_price_q": {
+    "value": "Budžets",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1c6225ec"
+  },
+  "filter_power_q": {
+    "value": "Barošana",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "848e9656"
+  },
+  "filter_category_q": {
+    "value": "Kategorija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "292c06f0"
+  },
+  "role_companion": {
+    "value": "Pavadonis (radio, no kura sūti ziņas)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fc49eb4e"
+  },
+  "role_repeater": {
+    "value": "Retranslators",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "role_room_server": {
+    "value": "Istabas serveris",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68b91cc5"
+  },
+  "price_1": {
+    "value": "€ (zem 25)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "84cdcfea"
+  },
+  "price_2": {
+    "value": "€€ (no 25 līdz 60)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be9a6bd8"
+  },
+  "price_3": {
+    "value": "€€€ (virs 60)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0e261f3a"
+  },
+  "power_battery": {
+    "value": "Iebūvēts akumulators",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3b3a4b7e"
+  },
+  "power_external": {
+    "value": "Ārējā barošana vai saules enerģija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "50778470"
+  },
+  "power_profile_low": {
+    "value": "Zems",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f793de20"
+  },
+  "power_profile_medium": {
+    "value": "Vidējs",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e588cd1"
+  },
+  "power_profile_high": {
+    "value": "Augsts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c4ebc6d4"
+  },
+  "spec_mcu": {
+    "value": "Procesors",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54aac653"
+  },
+  "spec_radio": {
+    "value": "LoRa mikroshēma",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1d340ea4"
+  },
+  "spec_battery": {
+    "value": "Akumulators",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dfcb7c16"
+  },
+  "spec_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "176c7866"
+  },
+  "spec_screen": {
+    "value": "Ekrāns",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e56137e"
+  },
+  "spec_connectivity": {
+    "value": "Savienojamība",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5479401f"
+  },
+  "spec_form": {
+    "value": "Forma",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "12827072"
+  },
+  "spec_price": {
+    "value": "Cenu grupa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "396491b7"
+  },
+  "spec_power": {
+    "value": "Enerģijas patēriņš",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "96fcc312"
+  },
+  "spec_firmware": {
+    "value": "MeshCore atbalsts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4f7c9307"
+  },
+  "fw_official": {
+    "value": "Oficiāla versija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e07a4935"
+  },
+  "fw_community": {
+    "value": "Kopienas versija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f8338fb4"
+  },
+  "yes": {
+    "value": "Jā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "85a39ab3"
+  },
+  "no": {
+    "value": "Nē",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1ea442a1"
+  },
+  "none": {
+    "value": "Nav",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc937b59"
+  },
+  "form_handheld": {
+    "value": "Rokas ierīce",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ecb26701"
+  },
+  "form_board": {
+    "value": "Plate bez korpusa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33e95aea"
+  },
+  "form_enclosed": {
+    "value": "Mezgls korpusā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "751c73a5"
+  },
+  "form_wearable": {
+    "value": "Valkājama ierīce",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e31070f"
+  },
+  "form_usb": {
+    "value": "USB spraudnis",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "031ad13f"
+  },
+  "conn_ble": {
+    "value": "Bluetooth LE",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e05f95a2"
+  },
+  "conn_wifi": {
+    "value": "Wi-Fi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "337253f2"
+  },
+  "conn_usb": {
+    "value": "USB",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61f0acff"
+  },
+  "devices_empty": {
+    "value": "Vēl nav norādīta neviena ierīce.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a158b22a"
+  },
+  "devices_list_title": {
+    "value": "Visas ierīces",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0594fe82"
+  },
+  "community_channels": {
+    "value": "Kanāli",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4c8906cf"
+  },
+  "community_ask_at": {
+    "value": "saiti prasi šeit:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "969f418d"
+  },
+  "community_languages": {
+    "value": "Valodas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "318655ce"
+  },
+  "community_empty": {
+    "value": "Vēl nav norādīta neviena vietējā grupa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "73a4cdc4"
+  },
+  "community_missing_title": {
+    "value": "Tavas grupas nav sarakstā?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7c5581b0"
+  },
+  "community_jump": {
+    "value": "Pāriet uz valsti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f7361695"
+  },
+  "community_all": {
+    "value": "Visas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a52ace42"
+  },
+  "community_missing_body": {
+    "value": "Vietējo grupu var pievienot ikviens. Atver pieteikumu ar tās nosaukumu, apgabalu un saitēm, un uzturētājs to uzreiz pievieno visās valodās.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a626e730"
+  },
+  "community_missing_cta": {
+    "value": "Pievieno savu vietējo grupu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f692beac"
+  },
+  "community_search_title": {
+    "value": "Atrodi grupu savā tuvumā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0b6beef7"
+  },
+  "community_search_country": {
+    "value": "Valsts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "701d021d"
+  },
+  "community_search_country_pick": {
+    "value": "Izvēlies valsti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "19323e2d"
+  },
+  "community_search_place": {
+    "value": "Pasta indekss",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0a4387d2"
+  },
+  "community_search_radius": {
+    "value": "Attālums",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b7bdf7a2"
+  },
+  "community_search_km": {
+    "value": "{n} km",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e4b21b4b"
+  },
+  "community_search_go": {
+    "value": "Meklēt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "49c266ba"
+  },
+  "community_search_locate": {
+    "value": "Izmantot manu atrašanās vietu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "30cbc33b"
+  },
+  "community_search_privacy": {
+    "value": "Meklēšana notiek tavā pārlūkā. Tava atrašanās vieta un pasta indekss paliek tavā ierīcē.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b96fd6a8"
+  },
+  "community_search_loading": {
+    "value": "Ielādē šīs valsts pasta indeksus...",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08d96769"
+  },
+  "community_search_error": {
+    "value": "Pasta indeksu saraksts neielādējās. Mēģini vēlreiz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d7420063"
+  },
+  "community_search_unknown": {
+    "value": "Mēs nezinām šo pasta indeksu valstī {country}. Pārbaudi to vai izmēģini kādu indeksu tuvumā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2ad685e6"
+  },
+  "community_search_need_country": {
+    "value": "Vispirms izvēlies valsti.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cebe32b0"
+  },
+  "community_search_no_postcodes": {
+    "value": "Meklēšana pēc pasta indeksa neaptver valsti {country}. Visas tās grupas:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "26ad24dd"
+  },
+  "community_search_denied": {
+    "value": "Tavs pārlūks nekopīgoja tavu atrašanās vietu. Tā vietā ieraksti pasta indeksu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7b0fe439"
+  },
+  "community_search_here": {
+    "value": "tava atrašanās vieta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61d03e13"
+  },
+  "community_search_results": {
+    "value": "Grupas tuvumā: {place}",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "114324e9"
+  },
+  "community_search_covers": {
+    "value": "Aptver tavu apkaimi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20cb30ee"
+  },
+  "community_search_national": {
+    "value": "Visā valstī {country}",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2aea83b"
+  },
+  "community_search_none": {
+    "value": "{n} km attālumā vēl nav vietējās grupas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "09aad8fb"
+  },
+  "community_search_none_country": {
+    "value": "Valstī {country} vēl nav vietējās grupas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d777ab9b"
+  },
+  "community_search_all": {
+    "value": "Visa valsts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ebe4345"
+  },
+  "community_search_nearest": {
+    "value": "Tuvākā grupa ir {n} km attālumā:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c78007e4"
+  },
+  "community_search_credit": {
+    "value": "Pasta indeksi: GeoNames, CC BY 4.0.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "41bd97b1"
+  },
+  "link_discord": {
+    "value": "Discord",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "053bc658"
+  },
+  "link_telegram": {
+    "value": "Telegram",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "acdd1e73"
+  },
+  "link_signal": {
+    "value": "Signal",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1e9806e4"
+  },
+  "link_matrix": {
+    "value": "Matrix",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "76a2171c"
+  },
+  "link_whatsapp": {
+    "value": "WhatsApp",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6a40edf1"
+  },
+  "link_forum": {
+    "value": "Forums",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4da7bd42"
+  },
+  "link_website": {
+    "value": "Tīmekļvietne",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5a229ac"
+  },
+  "link_map": {
+    "value": "Karte",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be176b00"
+  },
+  "link_wiki": {
+    "value": "Wiki",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "63ec69fd"
+  },
+  "map_scope_europe": {
+    "value": "Visa Eiropa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d7bc2dd9"
+  },
+  "map_scope_country": {
+    "value": "Valsts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "701d021d"
+  },
+  "map_scope_region": {
+    "value": "Reģionāla",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "299a03b1"
+  },
+  "map_shows_nodes": {
+    "value": "Mezgli",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7ac36206"
+  },
+  "map_shows_coverage": {
+    "value": "Pārklājums",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "523487a5"
+  },
+  "map_shows_traffic": {
+    "value": "Tiešraides datplūsma",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9fd86662"
+  },
+  "map_shows_analyzer": {
+    "value": "Pakešu analizators",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14671539"
+  },
+  "map_shows_statistics": {
+    "value": "Statistika",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a656107e"
+  },
+  "map_open": {
+    "value": "Atvērt karti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ea488d26"
+  },
+  "maps_empty": {
+    "value": "Vēl nav norādīta neviena karte.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f4332bc7"
+  },
+  "map_tenants_intro": {
+    "value": "Viens analizators visai Eiropai. Vietējās kopienas to darbina arī ar savu nosaukumu un dizainu, ar tiem pašiem tiešraides datiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e5054f0"
+  },
+  "project_cat_app": {
+    "value": "Lietotne",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0d04bfeb"
+  },
+  "project_cat_tool": {
+    "value": "Rīks",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2e53bdcd"
+  },
+  "project_cat_bridge": {
+    "value": "Tilts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3892e103"
+  },
+  "project_cat_firmware": {
+    "value": "Programmaparatūra",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "project_cat_hardware": {
+    "value": "Aparatūra",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7975300f"
+  },
+  "project_cat_library": {
+    "value": "Bibliotēka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc20b3d5"
+  },
+  "project_cat_docs": {
+    "value": "Dokumentācija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c205924d"
+  },
+  "project_archived": {
+    "value": "Arhivēts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bdb86505"
+  },
+  "project_licence": {
+    "value": "Licence",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3ec8e88"
+  },
+  "project_repo": {
+    "value": "Pirmkods",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf046c73"
+  },
+  "projects_empty": {
+    "value": "Sarakstā vēl nav neviena projekta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "26a6bda7"
+  },
+  "projects_list_title": {
+    "value": "Visi projekti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4b87271b"
+  },
+  "projects_add_cta": {
+    "value": "Iesniedz projektu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e8a3907"
+  },
+  "footer_about": {
+    "value": "Nekomerciāls kopienas ceļvedis par MeshCore Eiropā, bez reklāmām, partneru saitēm un izsekošanas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8a0b3c0d"
+  },
+  "footer_disclaimer": {
+    "value": "meshcore-info.eu uztur brīvprātīgie, un tā nav saistīta ar MeshCore programmaparatūras izstrādātājiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5043ea17"
+  },
+  "footer_nav_label": {
+    "value": "Vietne",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fa795581"
+  },
+  "footer_source": {
+    "value": "Pirmkods",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf046c73"
+  },
+  "footer_license": {
+    "value": "Teksta licence CC BY 4.0, koda licence MIT.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61085af6"
+  },
+  "not_found_title": {
+    "value": "Lapa nav atrasta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a469ab4c"
+  },
+  "not_found_body": {
+    "value": "Šī lapa neeksistē vai ir pārvietota.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a9044129"
+  },
+  "not_found_home": {
+    "value": "Ej uz sākumlapu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "adcedded"
+  },
+  "picker_title": {
+    "value": "Izvēlies valodu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e2d0664"
+  },
+  "lang_nudge": {
+    "value": "Valodu {language} izvēlējāmies pēc tava pārlūka iestatījumiem. Šeit vari valodu mainīt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e428ce71"
+  },
+  "lang_nudge_others": {
+    "value": "Vai {count} citas valodas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c57573b"
+  },
+  "lang_nudge_region": {
+    "value": "Šī lapa ir arī šajā valodā: {language}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5d73b6d7"
+  },
+  "lang_nudge_close": {
+    "value": "Aizvērt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7d9eb7ac"
+  },
+  "coverage_caption": {
+    "value": "Tulkojumu pārklājums pa valodām",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fdb7f8dd"
+  },
+  "coverage_language": {
+    "value": "Valoda",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4fe6526"
+  },
+  "coverage_strings": {
+    "value": "Saskarnes teksts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "146382ff"
+  },
+  "coverage_pages": {
+    "value": "Lapas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9046da16"
+  },
+  "coverage_human": {
+    "value": "Pārbaudīts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fad6057b"
+  },
+  "coverage_ai": {
+    "value": "Mašīntulkots",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8f1cc42d"
+  },
+  "coverage_stale": {
+    "value": "Novecojis",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c759f42e"
+  },
+  "coverage_missing": {
+    "value": "Trūkst",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6be36ca4"
+  },
+  "presets_caption": {
+    "value": "Radio priekšiestatījumi Eiropā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "037c3732"
+  },
+  "presets_name": {
+    "value": "Priekšiestatījums lietotnē",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46bda49e"
+  },
+  "presets_frequency": {
+    "value": "Frekvence (MHz)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1740a857"
+  },
+  "presets_bandwidth": {
+    "value": "Joslas platums (kHz)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5cf2dd7b"
+  },
+  "presets_sf": {
+    "value": "Izkliedes koeficients",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7cda59eb"
+  },
+  "presets_cr": {
+    "value": "Kodēšanas ātrums",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2cd87b32"
+  },
+  "presets_source": {
+    "value": "No MeshCore projekta priekšiestatījumu saraksta, pārbaudīts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "215b400b"
+  },
+  "gain_label": {
+    "value": "Dipola un stikla šķiedras kolineārās antenas stars griezumā caur mastu, skatā no sāniem, mērogā. Kolineārā antena sasniedz mezglu tālu pie horizonta. Tikai dipols sasniedz mezglu stāvi lejā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d90bf3bb"
+  },
+  "gain_dipole": {
+    "value": "Dipols",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ef909a16"
+  },
+  "gain_collinear": {
+    "value": "Stikla šķiedras kolineārā antena",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "822f4c75"
+  },
+  "gain_node": {
+    "value": "Mezgls",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e9337253"
+  },
+  "rz_forged_label": {
+    "value": "Pakete no sūtītāja caur 3 retranslatoriem nonāk pie tevis. Sūtītājs sāk ceļu ar 3 izdomātiem ID. Katrs retranslators ceļa beigās pievieno savu ID, tāpēc ceļa beigas ir īstas, bet sākums nav.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90a625a8"
+  },
+  "rz_forged_sender": {
+    "value": "Sūtītājs",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c299f9b8"
+  },
+  "rz_forged_you": {
+    "value": "Tu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08b04193"
+  },
+  "rz_forged_path": {
+    "value": "Ceļš",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "62fa5a5b"
+  },
+  "rz_forged_made_up": {
+    "value": "Izdomājis sūtītājs",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c0b6677b"
+  },
+  "rz_forged_added": {
+    "value": "Pievienojis katrs retranslators",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "347c03d9"
+  },
+  "rz_gate_label": {
+    "value": "Reģioni ap retranslatoru kā gredzeni: ārpusē ziņas bez reģiona, tad valsts, province un vidū paša retranslatora reģions. Kad retranslators raida vairāk nekā 35% no pēdējās minūtes, ārējie gredzeni apstājas pa vienam. Tā paša reģions turpina iet cauri.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "492a5c36"
+  },
+  "rz_gate_none": {
+    "value": "Bez reģiona",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f7d42834"
+  },
+  "rz_gate_country": {
+    "value": "Valsts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "701d021d"
+  },
+  "rz_gate_province": {
+    "value": "Province",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "abfcecfa"
+  },
+  "rz_gate_yours": {
+    "value": "Tavs",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54b26f7d"
+  },
+  "rz_gate_meter": {
+    "value": "Raida",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1d3af30f"
+  },
+  "rz_gate_step_calm": {
+    "value": "Zem 35%: tavs retranslators pārsūta katru reģionu, kas tam ir.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a144fa31"
+  },
+  "rz_gate_step_none": {
+    "value": "Virs 35%: ziņas bez reģiona apstājas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4cf453e"
+  },
+  "rz_gate_step_wide": {
+    "value": "Joprojām noslogots: apstājas arī plašākais reģions. Tavs reģions vienmēr iet cauri.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b08d4c0a"
+  },
+  "rz_copies_label": {
+    "value": "Viena pakete no sūtītāja, ko neviens neredz, iet caur 4 retranslatoriem. 3 novērotāji katrs ziņo par dzirdēto kopiju un tās ceļu. Kopija ar īsāko ceļu, 1 retranslatoru, sadzirdēta vistuvāk sūtītājam.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a627dcf1"
+  },
+  "rz_copies_repeater": {
+    "value": "Retranslators",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "rz_copies_observer": {
+    "value": "Novērotājs ar savas kopijas ceļu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c48198e"
+  },
+  "rz_copies_shortest": {
+    "value": "Īsākais ceļš: vistuvāk sūtītājam",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0beca4a3"
+  },
+  "country_ad": {
+    "value": "Andora",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3e340be4"
+  },
+  "country_al": {
+    "value": "Albānija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1af00b87"
+  },
+  "country_at": {
+    "value": "Austrija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c9cab023"
+  },
+  "country_ba": {
+    "value": "Bosnija un Hercegovina",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b0772b9c"
+  },
+  "country_be": {
+    "value": "Beļģija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "348841ef"
+  },
+  "country_bg": {
+    "value": "Bulgārija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "66b86bf0"
+  },
+  "country_by": {
+    "value": "Baltkrievija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4bef16df"
+  },
+  "country_ch": {
+    "value": "Šveice",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "22755831"
+  },
+  "country_cy": {
+    "value": "Kipra",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5f1162c5"
+  },
+  "country_cz": {
+    "value": "Čehija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ecfa967e"
+  },
+  "country_de": {
+    "value": "Vācija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "80db4ccd"
+  },
+  "country_dk": {
+    "value": "Dānija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c5270975"
+  },
+  "country_ee": {
+    "value": "Igaunija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10aeba69"
+  },
+  "country_es": {
+    "value": "Spānija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8ef41e6f"
+  },
+  "country_fi": {
+    "value": "Somija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aed8f531"
+  },
+  "country_fo": {
+    "value": "Fēru salas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "773ca4d6"
+  },
+  "country_fr": {
+    "value": "Francija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7a1ca4ef"
+  },
+  "country_gb": {
+    "value": "Apvienotā Karaliste",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8d23a6e3"
+  },
+  "country_gg": {
+    "value": "Gērnsija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b9c48cb1"
+  },
+  "country_gi": {
+    "value": "Gibraltārs",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "097ced58"
+  },
+  "country_gr": {
+    "value": "Grieķija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c93ad43"
+  },
+  "country_hr": {
+    "value": "Horvātija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7328d3f8"
+  },
+  "country_hu": {
+    "value": "Ungārija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "504be308"
+  },
+  "country_ie": {
+    "value": "Īrija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "02bf1dfa"
+  },
+  "country_im": {
+    "value": "Menas Sala",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "34096f96"
+  },
+  "country_is": {
+    "value": "Islande",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "595d6d91"
+  },
+  "country_it": {
+    "value": "Itālija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5a9cf672"
+  },
+  "country_je": {
+    "value": "Džērsija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "764a8c04"
+  },
+  "country_li": {
+    "value": "Lihtenšteina",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6ff080c0"
+  },
+  "country_lt": {
+    "value": "Lietuva",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5c83a631"
+  },
+  "country_lu": {
+    "value": "Luksemburga",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ed76f191"
+  },
+  "country_lv": {
+    "value": "Latvija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "988c8160"
+  },
+  "country_mc": {
+    "value": "Monako",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "935018cc"
+  },
+  "country_md": {
+    "value": "Moldova",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14ad63a1"
+  },
+  "country_me": {
+    "value": "Melnkalne",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7ab597e1"
+  },
+  "country_mk": {
+    "value": "Ziemeļmaķedonija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cd847226"
+  },
+  "country_mt": {
+    "value": "Malta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71e9eb10"
+  },
+  "country_nl": {
+    "value": "Nīderlande",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3a386c13"
+  },
+  "country_no": {
+    "value": "Norvēģija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bea54a34"
+  },
+  "country_pl": {
+    "value": "Polija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7f69649a"
+  },
+  "country_pt": {
+    "value": "Portugāle",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4c7de2c3"
+  },
+  "country_ro": {
+    "value": "Rumānija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ea23726d"
+  },
+  "country_rs": {
+    "value": "Serbija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e8739c83"
+  },
+  "country_ru": {
+    "value": "Krievija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33a3d8ed"
+  },
+  "country_se": {
+    "value": "Zviedrija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "85363713"
+  },
+  "country_si": {
+    "value": "Slovēnija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "56059e7f"
+  },
+  "country_sk": {
+    "value": "Slovākija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a2ea3384"
+  },
+  "country_sm": {
+    "value": "Sanmarīno",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "230450a2"
+  },
+  "country_tr": {
+    "value": "Turcija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d15b2145"
+  },
+  "country_ua": {
+    "value": "Ukraina",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "580eedc6"
+  },
+  "country_va": {
+    "value": "Vatikāns",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b0ce1029"
+  },
+  "country_xk": {
+    "value": "Kosova",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4a867424"
+  },
+  "device.heltec-wifi-lora-32-v3.notes": {
+    "value": "Plate bez piederumiem: pievieno korpusu, antenu un akumulatoru. ESP32 patērē pārāk daudz enerģijas nelielam saules retranslatoram.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bc29e2c9"
+  },
+  "device.heltec-wifi-lora-32-v4.notes": {
+    "value": "Lieljaudas versija raida līdz 28 dBm, ar vairumu antenu pāri Eiropas limitam: retranslatoru ceļvedis rāda, kā to ievērot. Pamatversija maksā mazāk par 25 eiro, lieljaudas versija vairāk. Versijai R8 ir vairāk atmiņas, un tai vajag savu programmaparatūras būvējumu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5c626e8a"
+  },
+  "device.heltec-mesh-node-t114.notes": {
+    "value": "Mazjaudas nRF52 plate un bieži izvēlēta bāze saules retranslatoriem. Ekrānu un GPS vari izvēlēties, pasūtot; ar tiem cena pārsniedz 25 eiro.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f1999a30"
+  },
+  "device.heltec-wireless-tracker.notes": {
+    "value": "Plate ar iebūvētu GPS. Akumulatoru un korpusu sagādā pats.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5d4b7295"
+  },
+  "device.heltec-wireless-paper.notes": {
+    "value": "E-papīra ekrāns saules gaismā paliek salasāms. Akumulators nav iekļauts.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d60633a2"
+  },
+  "device.lilygo-t-echo.notes": {
+    "value": "Kabatas ierīce ar e-papīra ekrānu un GPS. Ir arī versija ar lielāku akumulatoru.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1f285d65"
+  },
+  "device.lilygo-t-deck-plus.notes": {
+    "value": "Fiziska tastatūra, skārienbumba un skārienekrāns. Plus versijā ir arī GPS un 2000 mAh akumulators.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0fb0f75c"
+  },
+  "device.lilygo-t-beam-supreme.notes": {
+    "value": "Tajā ievieto 18650 elementu, kas nav iekļauts. Izvēlies SX1262 versiju: LR1121 versijai nav oficiāla būvējuma.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e3db28aa"
+  },
+  "device.rak-wisblock-rak4631.notes": {
+    "value": "Modulāra: pievienojamie moduļi nodrošina GPS, ekrānu vai sensorus. Pamatplatei ir saules paneļa ieeja.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c1317a23"
+  },
+  "device.rak-wismesh-tag.notes": {
+    "value": "Plāna, laikapstākļu izturīga žetona ierīce ar iebūvētām antenām.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "572181c6"
+  },
+  "device.seeed-sensecap-t1000-e.notes": {
+    "value": "Kredītkartes izmērā, aizsargāta pret putekļiem un šļakatām (IP65), bez ekrāna. Izmanto LR1110 radio, nevis biežāk sastopamo SX1262.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e18363be"
+  },
+  "device.seeed-xiao-nrf52840-wio-sx1262.notes": {
+    "value": "Niecīgs divu plašu komplekts. Pārnēsājamai lietošanai pielodē akumulatoru.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3063cd1d"
+  },
+  "device.seeed-wio-tracker-l1-pro.notes": {
+    "value": "Korpusā ar ekrānu, GPS un akumulatoru. Ir arī Lite un e-ink versijas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d9fd3d73"
+  },
+  "device.seeed-sensecap-solar-node-p1.notes": {
+    "value": "Laikapstākļu izturīgs korpuss ar 5 W saules paneli, četriem 18650 elementiem un GPS, paredzēts retranslatoriem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3c9e1f9"
+  },
+  "device.heltec-wifi-lora-32-v4-expansion-kit.notes": {
+    "value": "V4 plate metāla korpusā ar skārienekrānu. GPS un 18650 elementu vari izvēlēties, pasūtot. MeshCore rāda attēlu ekrānā, bet skārienu vēl neizmanto.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8704efde"
+  },
+  "device.heltec-wireless-stick-lite-v3.notes": {
+    "value": "V3 bez ekrāna. Plate bez piederumiem: pievieno korpusu, antenu un akumulatoru.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6a36169b"
+  },
+  "device.heltec-wireless-tracker-v2.notes": {
+    "value": "Plate ar GPS un saules paneļa savienotāju. Tā raida līdz 28 dBm, ar vairumu antenu pāri Eiropas limitam: retranslatoru ceļvedis rāda, kā to ievērot.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e56ec119"
+  },
+  "device.heltec-vision-master-e213.notes": {
+    "value": "Plate ar e-papīra ekrānu, kas saules gaismā paliek salasāms. Akumulatoru un korpusu sagādā pats.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7519dcd5"
+  },
+  "device.heltec-vision-master-e290.notes": {
+    "value": "Kā E213, tikai ar lielāku e-papīra ekrānu. Akumulatoru un korpusu sagādā pats.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "84da4d43"
+  },
+  "device.heltec-vision-master-t190.notes": {
+    "value": "Plate ar krāsu ekrānu. Akumulatoru un korpusu sagādā pats.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08d0d0d2"
+  },
+  "device.heltec-mesh-node-t1.notes": {
+    "value": "Kartes izmēra ierīce ar GPS un mazu ekrānu, aizsargāta pret putekļiem un šļakatām (IP65).",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c9807632"
+  },
+  "device.heltec-meshpocket.notes": {
+    "value": "Ārējais akumulators ar iebūvētu mezglu un magnētisku bezvadu lādētāju tavam telefonam. Pārdod arī ar 10000 mAh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0eab0a7c"
+  },
+  "device.heltec-meshsolar.notes": {
+    "value": "Plate saules retranslatoram: der viens līdz četri elementi un 18 līdz 24 V panelis. GPS un ekrāns ir papildinājumi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "195aa41c"
+  },
+  "device.heltec-meshtower-v2.notes": {
+    "value": "Laikapstākļu izturīgs metāla korpuss ar trim elementiem un 10 W saules paneli, paredzēts retranslatoriem. GPS nav obligāts. 30 dBm versija pārsniedz Eiropas limitu: retranslatoru ceļvedis rāda, kā to ievērot.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d935df5c"
+  },
+  "device.lilygo-t-echo-lite.notes": {
+    "value": "Mazāks T-Echo ar pievienojamu GPS moduli. Pārdod ar korpusu vai bez tā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b18c1e64"
+  },
+  "device.lilygo-t-echo-card.notes": {
+    "value": "Kredītkartes izmērā, ar GPS, skaļruni un mazu saules paneli, kas tikai papildina akumulatora uzlādi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1b860b15"
+  },
+  "device.lilygo-t-impulse-plus.notes": {
+    "value": "Aproce ar GPS, niecīgu ekrānu un vibromotoru.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3bc53725"
+  },
+  "device.lilygo-t-deck.notes": {
+    "value": "Tastatūra un skārienbumba kā T-Deck Plus, bez GPS un akumulatora. Izvēlies versiju ar LoRa: ir arī versija bez tā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e88fe0ef"
+  },
+  "device.lilygo-t-beam.notes": {
+    "value": "Klasiskais T-Beam ar vecāko SX1276 radio. Tajā ievieto 18650 elementu, kas nav iekļauts.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7c56a56b"
+  },
+  "device.lilygo-t-beam-1w.notes": {
+    "value": "Raida līdz 32 dBm, krietni pāri Eiropas limitam: retranslatoru ceļvedis rāda, kā to ievērot. Vajag 7.4 V akumulatoru, ko ierīce nelādē.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9a8d7b03"
+  },
+  "device.elecrow-thinknode-m1.notes": {
+    "value": "Rokas ierīce ar e-papīra ekrānu un GPS.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "590fa3ac"
+  },
+  "device.elecrow-thinknode-m2.notes": {
+    "value": "Maza rokas ierīce ar OLED ekrānu. Pārdod arī bez akumulatora.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "87f36cea"
+  },
+  "device.elecrow-thinknode-m3.notes": {
+    "value": "Pret putekļiem un ūdeni aizsargāts (IP66) izsekotājs ar GPS, bez ekrāna.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0c7b633a"
+  },
+  "device.elecrow-thinknode-m4.notes": {
+    "value": "Ārējais akumulators ar iebūvētu mezglu un GPS, bez ekrāna.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "638c30a0"
+  },
+  "device.elecrow-thinknode-m5.notes": {
+    "value": "Kā M1, tikai ar ESP32 procesoru: vairāk funkciju, īsāks akumulatora darbības laiks.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7943f498"
+  },
+  "device.elecrow-thinknode-m6.notes": {
+    "value": "Laikapstākļu izturīgs korpuss (IP65) ar 6 W saules paneli, diviem 18650 elementiem un GPS, paredzēts retranslatoriem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c7efcb7f"
+  },
+  "device.elecrow-thinknode-m7.notes": {
+    "value": "Iekštelpu kārba ar Ethernet portu, barošana caur USB vai tīkla kabeli (PoE).",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20225189"
+  },
+  "device.elecrow-thinknode-m9.notes": {
+    "value": "Darbojas patstāvīgi, ar pilnu tastatūru, krāsu ekrānu un GPS. To piegādā ar Ripple programmaparatūru; darbojas arī standarta MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d9fb8bcf"
+  },
+  "device.seeed-wio-tracker-l1.notes": {
+    "value": "L1 Pro bez korpusa un akumulatora. Tai ir GPS un saules paneļa savienotājs.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f317b814"
+  },
+  "device.seeed-wio-tracker-l1-eink.notes": {
+    "value": "L1 ar e-papīra ekrānu, bez korpusa un akumulatora. MeshCore tajā darbojas tikai kā companion.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1c3665d9"
+  },
+  "device.seeed-sensecap-solar-node-p1-basic.notes": {
+    "value": "P1-Pro bez elementiem un GPS: četrus 18650 elementus pievieno pats. Turētājā der tikai elementi ar izvirzītu polu. Parastie plakanie elementi der, ja katram pieliec mazu magnētu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a6f898f4"
+  },
+  "device.seeed-sensecap-meshtracker-x1.notes": {
+    "value": "Kartes izmērā, aizsargāts pret putekļiem un ūdeni (IP66), bez ekrāna. Lādējas caur USB-C un jaunas ziņas gadījumā vibrē.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9eadd1b5"
+  },
+  "device.seeed-xiao-esp32s3-wio-sx1262.notes": {
+    "value": "XIAO komplekts ar ESP32, nevis nRF52: ir Wi-Fi, bet lielāks enerģijas patēriņš.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0e783fe9"
+  },
+  "device.rak-wismesh-1w-booster.notes": {
+    "value": "Raida līdz 30 dBm, pāri Eiropas limitam: retranslatoru ceļvedis rāda, kā to ievērot. Katra versija darbojas vai nu ar akumulatoru, vai ar 5 V, pārbaudi uzlīmi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e03b4d5b"
+  },
+  "device.bq-station-g3.notes": {
+    "value": "Modulāra bāzes stacija ar pastiprinātāju līdz 35 dBm, krietni pāri Eiropas limitam: iestati džemperus un raidīšanas jaudu savai valstij. Vajag 9 līdz 19 V barošanu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ee7d06f9"
+  },
+  "device.bq-nano-g2-ultra.notes": {
+    "value": "Izturīga rokas ierīce ar iebūvētu antenu, kas veidota darbam tuvu ķermenim. Akumulators nav obligāts.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5e947959"
+  },
+  "device.m5stack-unit-c6l.notes": {
+    "value": "Mazs modulis plastmasas apvalkā, barošana caur USB-C. Akumulatora ieejas nav.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "468b2af6"
+  },
+  "device.meshnology-w12.notes": {
+    "value": "Atvērtā koda plate ar akumulatora un saules paneļa ieejām. Tā raida līdz 30 dBm, pāri Eiropas limitam: retranslatoru ceļvedis rāda, kā to ievērot.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "df27901e"
+  },
+  "community.nl-dutch-meshcore.desc": {
+    "value": "Nīderlandes brīvprātīgo grupa MeshCore lietotājiem Nīderlandē. Tā uztur kopīgus MQTT savācējus, novērotāju paneli, iestatījumu palīgu un programmaparatūras rīkus pārlūkā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c4ad2c7f"
+  },
+  "community.nl-meshcore-net.desc": {
+    "value": "Nīderlandiešu valodas Telegram tērzēšana un forums, kur Nīderlandes lietotāji dalās ar iestatīšanas palīdzību, kanālu sarakstiem un retranslatoru jaunumiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c57f1887"
+  },
+  "community.be-radio-actief.desc": {
+    "value": "Beļģijas wiki un Discord, ko sāka radioamatieri, kuri 2025. gada beigās atveda MeshCore uz Beļģiju. Daļa no plašākas radio hobija kopienas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7598f9b8"
+  },
+  "community.lu-meshcore-luxembourg.desc": {
+    "value": "Kopīga sākumlapa Luksemburgas biedrībām, kas uztur MeshCore retranslatorus visā valstī. Tās ir hakeru, radioamatieru un ārkārtas gatavības grupas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e38285ec"
+  },
+  "community.de-meshcore-de.desc": {
+    "value": "Vāciski runājošo MeshCore tērzēšana Telegram, ko izmanto visā Vācijā un Austrijas grupas. Ir arī Matrix istaba tiem, kam tā patīk labāk.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2d34fef"
+  },
+  "community.de-berlin-chaos-mesh.desc": {
+    "value": "Berlīnes grupa ar saknēm hakerspeisā, ar forumu, Matrix istabu un PotatoMesh paneli, aptver MeshCore un citus mesh projektus.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9f0065e0"
+  },
+  "community.de-isarmesh.desc": {
+    "value": "Forums LoRa mesh lietotājiem Minhenes apkārtnē, kas rīko regulāras tikšanās un apspriež MeshCore un citus mesh projektus.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "05e62cf9"
+  },
+  "community.de-mesh-dresden.desc": {
+    "value": "Drēzdenes grupa ar padziļinātiem tehniskiem rakstiem retranslatoru operatoriem. Tā uztur arī vietējo tērzēšanu par MeshCore un citiem mesh projektiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fd5d9e40"
+  },
+  "community.at-meshcore-austria.desc": {
+    "value": "Austrijas kopienas vietne ar iestatīšanas ceļvežiem, pasākumiem un jaunumiem. Austrijas Telegram grupu uztur atsevišķi no vietnes.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3dfcd101"
+  },
+  "community.ch-meshcore-switzerland.desc": {
+    "value": "Šveices vietne četrās valodās ar padomiem par ierīcēm, reģioniem un kanāliem un kopienas forumu jautājumiem un pieprasījumiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e8eb8c2c"
+  },
+  "community.cz-meshcore-cr.desc": {
+    "value": "Čehijas wiki par aparatūru, retranslatoriem, kanāliem un reģioniem, ar Telegram grupu un valsts pakešu analizatoru.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3eb31061"
+  },
+  "community.sk-meshcore-slovensko.desc": {
+    "value": "Slovākijas tīkla lapa, ko uztur Bratislavas radioamatieru klubs, ar Discord serveri un iknedēļas klātienes tikšanām.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "950a6862"
+  },
+  "community.pl-meshcore-polska.desc": {
+    "value": "Polijas valsts mēroga kopiena ar mezglu karti, dokumentāciju poļu valodā un Discord serveri.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bd6ed843"
+  },
+  "community.fr-meshcore-france.desc": {
+    "value": "Francijas koordinācijas lapa ar norādēm uz reģionālajām grupām un reģionālajām tiešsaistes kartēm, ko uztur kā neatkarīgu kopienas vietni.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e2024cd5"
+  },
+  "community.fr-mesh-idf.desc": {
+    "value": "Parīzes reģiona wiki ar MeshCore Telegram tērzēšanu. Wiki aptver arī citus mesh projektus.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b4be06c9"
+  },
+  "community.it-meshcore-italia.desc": {
+    "value": "Itālijas valsts kopiena ar ceļvežiem, reģionālo un laikapstākļu brīdinājumu kanālu sarakstiem, tiešsaistes mezglu karti un Telegram grupu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2a6caa8e"
+  },
+  "community.pt-meshcore-portugal.desc": {
+    "value": "Portugāles kopiena ar saviem ceļvežiem, lietotni un programmaparatūru portugāļu valodā. Tās tērzēšanas ir apkopotas vienā Telegram mapē.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b67ce7bd"
+  },
+  "community.dk-meshcore-dk.desc": {
+    "value": "Dānijas wiki ar pirmo soļu lapām, piezīmēm par ierīcēm, reģionu iestatīšanu un īstu retranslatoru uzstādījumu fotogrāfijām.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d0895f3b"
+  },
+  "community.se-meshat.desc": {
+    "value": "Zviedrijas satikšanās vieta mesh tīklu interesentiem, ar forumu, Discord un Matrix istabu. Tā uztur MeshCore MQTT un karšu pakalpojumus un aptver arī citus mesh projektus.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33d9ed2b"
+  },
+  "community.fi-mesh-finland.desc": {
+    "value": "Somijas MeshCore vietne ar saitēm uz valsts analizatoru un pārklājuma kartēm. Tās Discord serveri izmanto arī citu mesh projektu lietotāji.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3d618dfa"
+  },
+  "community.no-meshwiki.desc": {
+    "value": "Norvēģijas wiki ar MeshCore sadaļu līdzās citiem mesh projektiem un saistītu forumu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ccd83ba2"
+  },
+  "community.ee-estmesh.desc": {
+    "value": "Igaunijas MeshCore lapa un wiki ar valsts un pilsētu kanāliem un Discord serveri Igaunijas radio entuziastiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14530e0d"
+  },
+  "community.lv-apraide.desc": {
+    "value": "Latvijas LoRa mesh kopiena, kas savam tīklam izvēlējās MeshCore, diskusijas notiek Matrix istabā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "42e8a5c2"
+  },
+  "community.lt-atviras-tinklas.desc": {
+    "value": "Lietuvas kopienas vietne ar zināšanu bāzi, ierīču lapām un tiešsaistes tīkla analizatoru MeshCore tīklam.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8a0f8ba4"
+  },
+  "community.si-meshcore-slovenija.desc": {
+    "value": "Slovēnijas vietne ar ieteicamajiem reģionālajiem radio iestatījumiem, mezglu karti un programmaparatūras saitēm.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "73253c8c"
+  },
+  "community.bg-meshcore-bulgaria.desc": {
+    "value": "Bulgārijas kopiena Sofijas un Plovdivas apkārtnē, ar radio savienojumiem uz Rumāniju un Serbiju. Tā publicē kanālus, priekšiestatījumus un plānošanas rīkus.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ef62c925"
+  },
+  "community.rs-meshcore-srbija.desc": {
+    "value": "Neoficiāla Serbijas kopienas vietne ar mezglu reģistru un tiešsaistes karti tīklam Serbijā un kaimiņvalstīs.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "874059ce"
+  },
+  "community.gr-meshcore-greece.desc": {
+    "value": "Grieķijas Discord serveris MeshCore tīklu plānošanai un uzturēšanai Grieķijā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3fa83721"
+  },
+  "community.gb-meshhub-uk.desc": {
+    "value": "Visas Apvienotās Karalistes centrs ar kopienas rīkiem, kartēm un pasākumiem MeshCore lietotājiem un citām mesh kopienām.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "050038cc"
+  },
+  "community.gb-scotmesh.desc": {
+    "value": "Brīvprātīgo uzturēta Skotijas kopiena ar forumu, wiki un Discord, kas darbina MeshCore līdzās citiem mesh projektiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cce9f41c"
+  },
+  "community.ie-lora-project.desc": {
+    "value": "Neatkarīga pirmo soļu vietne par MeshCore visā Īrijas salā. Tās Discord serveris aptver gan ziemeļus, gan dienvidus.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5f335412"
+  },
+  "community.at-carinthiamesh.desc": {
+    "value": "Wiki par MeshCore Karintijā: pirmie soļi, radio iestatījumi, ierīces un retranslatori.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b601e188"
+  },
+  "community.at-meshcore-austria-at.desc": {
+    "value": "Vācu valodas kopienas wiki par MeshCore Austrijā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7746c59b"
+  },
+  "community.be-loramesh.desc": {
+    "value": "Beļģijas grupa, kas izmanto MeshCore ārkārtas ziņām, kad nedarbojas internets un mobilais tīkls.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a0d79514"
+  },
+  "community.be-meshpot.desc": {
+    "value": "Franču valodas ceļvedis par pievienošanos MeshCore tīklam, tā veidošanu un aizsardzību Briselē un Valonijā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3c6c5a0a"
+  },
+  "community.fr-loramesh.desc": {
+    "value": "Francijas grupa, kas ar MeshCore soli pa solim uztur vietējos sakarus, kad nedarbojas internets vai mobilie tīkli, ar aktīvo apgabalu karti.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f22be170"
+  },
+  "community.de-bsmesh.desc": {
+    "value": "MeshCore tīkls Braunšveigas apkārtnei.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "076fd5a0"
+  },
+  "community.de-bremesh.desc": {
+    "value": "Bezmaksas MeshCore tīkls Brēmenei, Brēmerhāfenei un to apkārtnei, ar pamācībām.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7f614859"
+  },
+  "community.de-pemesh.desc": {
+    "value": "MeshCore tīkls Paines pilsētā un apkārtnē, kas radās, apvienojoties diviem vietējiem mesh tīkliem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6423719c"
+  },
+  "community.de-muensterland.desc": {
+    "value": "Kopiena, kas veido bezmaksas MeshCore tīklu visā Minsterlandē. Tā sākās Billerbekā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6f35e420"
+  },
+  "community.de-mesh-rheinland.desc": {
+    "value": "Reinzemes kopiena, kas uztur gan MeshCore, gan Meshtastic tīklu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eb9d7af7"
+  },
+  "community.de-meshcore-de-wiki.desc": {
+    "value": "Vikivietne vācu valodā ar iestatīšanas pamācībām un reģionālo grupu sarakstu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2a7d4602"
+  },
+  "community.de-ffnw.desc": {
+    "value": "Freifunk biedrība kopš 2013. gada uztur kopienas WiFi mesh tīklu Vēzeres-Emsas reģionā, un tagad arī MeshCore retranslatorus. Tā tiekas katru mēnesi Oldenburgā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "abb2138f"
+  },
+  "community.de-meshcore-dresden.desc": {
+    "value": "Grupa, kas veido MeshCore tīklu Drēzdenē un tās apkārtnē. Tās reģioni un kanāli ir sarakstā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d0a1d71d"
+  },
+  "community.de-meshmitte.desc": {
+    "value": "Vietējā grupa Uslārā un tās apkārtnē vēlas, lai cilvēki paliek sazinā elektrības un tīkla pārrāvumu laikā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "82b196a8"
+  },
+  "community.de-saarmesh.desc": {
+    "value": "Reģionāls MeshCore tīkls Zāras zemē ar reģionu struktūru un tiešraides karti.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2eeeb6e6"
+  },
+  "community.de-hansemesh.desc": {
+    "value": "MeshCore tīkls Hamburgai un Ziemeļvācijai ar pamācībām un aparatūras ieteikumiem. Tā tērzētava ir MeshCore DE grupa Telegram.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c27d5586"
+  },
+  "community.de-mesh-weiterstadt.desc": {
+    "value": "Vietējā grupa veido bezmaksas MeshCore tīklu Vaiterštatē, un tas vēl top. Grupa lūdz cilvēkus piedāvāt jumtu retranslatoram.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5a268245"
+  },
+  "community.de-msemesh.desc": {
+    "value": "MeshCore un Meshtastic grupa Noibrandenburgas, Noištrelicas, Vārenas, Deminas un Feldbergas apkārtnē.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc1d7f13"
+  },
+  "community.de-ka-mesh.desc": {
+    "value": "Grupa veido MeshCore tīklu Karlsrūes un Pforcheimas apkārtnē, ar kanālu sarakstu un tikšanās reizēm.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20d493a1"
+  },
+  "community.ie-mayo-mesh.desc": {
+    "value": "Mesh radio lietotāju grupa Mejo grāfistei.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "baab199e"
+  },
+  "community.it-lora-brescia.desc": {
+    "value": "Radio grupa Brešā ar itāļu pamācībām MeshCore retranslatoru programmaparatūras ierakstīšanai un iestatīšanai. Tā uztur arī Meshtastic un LoRa APRS.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08567551"
+  },
+  "community.it-meshcore-ita.desc": {
+    "value": "Pamācības itāļu valodā, kopīgais Itālijas radio priekšiestatījums un piezīmes par aparatūru, ar Telegram grupu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8b178f55"
+  },
+  "community.it-meshcore-torino.desc": {
+    "value": "Grupa Turīnai un tās provincei, kas palīdz tev uzstādīt savu mezglu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d1527a42"
+  },
+  "community.nl-meshwiki.desc": {
+    "value": "Nīderlandiešu vikivietne par MeshCore un mesh radio, ko var rediģēt ikviens.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ce29af01"
+  },
+  "community.pl-lora-meshcore-polska.desc": {
+    "value": "Polijas valsts mēroga tīkls ar EU/UK Narrow priekšiestatījumu. Vietne skaidro, kā tas darbojas un kas to veido.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4c574d21"
+  },
+  "community.pl-meshcore-podlasie.desc": {
+    "value": "Hobija entuziasti veido MeshCore tīklu Podlasē. Vietnē ir jaunumi un vietējie iestatījumi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a15fb772"
+  },
+  "community.pl-meshgo.desc": {
+    "value": "MeshCore grupa Gdaņskas, Gdiņas un Sopotas apkārtnē, kas lieto Polijas valsts mēroga priekšiestatījumu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8d16fa09"
+  },
+  "community.ro-brasov-mesh.desc": {
+    "value": "MeshCore tīkls Brašovā ar EU/UK Narrow priekšiestatījumu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bd8dcbfa"
+  },
+  "community.ro-meshcore-iasi.desc": {
+    "value": "MeshCore tīkls Jasos ar tiešraides informācijas paneli.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eacc34d4"
+  },
+  "community.es-meshcore-catalunya.desc": {
+    "value": "Katalonijas kopienas centrs ar tiešraides karti, analizatoru un aparatūras pamācībām.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5357e7fd"
+  },
+  "community.es-nomadmesh.desc": {
+    "value": "Kopienas MeshCore tīkls Alpuharrasā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ee8acd03"
+  },
+  "community.ua-meshcore-ua.desc": {
+    "value": "Brīvprātīgo uzturēts publisks mesh tīkls saziņai visā Ukrainā, ar retranslatoru, botu un kanālu sarakstiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "96fe6d7d"
+  },
+  "community.gb-ipnet.desc": {
+    "value": "Ipsvičas kopiena Anglijas austrumiem, ar CoreScope informācijas paneļiem un MQTT pakalpojumiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "114be940"
+  },
+  "community.gb-meshcore-wales.desc": {
+    "value": "Kopīgi radio iestatījumi un kanāli Dienvidvelsai un Rietumiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "726b552a"
+  },
+  "community.gb-northmesh.desc": {
+    "value": "Ziemeļanglijas tīkls ar tiešraides karti, kurā redzami retranslatori, pakešu aktivitāte un pārklājums.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a1345cca"
+  },
+  "map.meshcore-official-map.desc": {
+    "value": "Projekta pasaules karte ar mezgliem, kurus to īpašnieki izvēlējušies publicēt. Vari filtrēt pēc mezgla veida un radio frekvences.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1509cafa"
+  },
+  "map.meshmapper.desc": {
+    "value": "Pārklājuma kartes no vietējo brīvprātīgo wardriving braucieniem, sadalītas reģionālās kartēs, ar reģioniem visā Eiropā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f333e608"
+  },
+  "map.eu-meshcore-analyzer.desc": {
+    "value": "Kopīgs Eiropas analizators apvieno novērotāju datus no vairākiem kopienas brokeriem vienā tiešraides skatā ar mezgliem, paketēm un kanāliem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aa93a1ba"
+  },
+  "map.nl-dmc-observers.desc": {
+    "value": "Tiešraides informācijas panelis ar novērotājiem, kas ziņo Dutch MeshCore (DMC) MQTT savācējiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1da8752e"
+  },
+  "map.nl-mc-radar.desc": {
+    "value": "Nīderlandes mesh tīkla statistika: caurlaide, kanālu datplūsma, mezglu aktivitāte un protokola stāvoklis grafikos, no Nīderlandes novērotāju datiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a54bab7e"
+  },
+  "map.cz-analyzer.desc": {
+    "value": "CoreScope instance Čehijas tīklam ar tiešraides pakešu plūsmu, mezglu karti un statistiku katram mezglam.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ade9ad40"
+  },
+  "map.fi-corescope.desc": {
+    "value": "Somijas CoreScope analizators rāda valsts MeshCore tīklu kartē ar paketēm tiešraidē.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9fa0aa59"
+  },
+  "map.se-meshat-corescope.desc": {
+    "value": "Zviedrijas CoreScope analizators, kas saņem datus no Meshat.se MeshCore MQTT brokera.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a1e700c6"
+  },
+  "map.fr-cartolite.desc": {
+    "value": "Pašmitināta tiešraides karte ar MeshCore datplūsmu visā pasaulē. Reljefa kartē tā zīmē dzirdētos savienojumus, paketes tiešraidē un siltumkarti.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "abcdec75"
+  },
+  "map.ee-litescope.desc": {
+    "value": "Viegls Igaunijas analizators ar tiešraides pakešu plūsmu, mezglu karti, signāla statistiku un novērotāju pārskatu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "040c7753"
+  },
+  "map.ie-mayomesh-live.desc": {
+    "value": "Īrijas reāllaika karte ar mezgliem, ziņojumu maršrutiem un advert ceļiem, kā arī pārklājuma, redzamības līnijas un izplatīšanās rīkiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "244a4a53"
+  },
+  "map.de-meshcorenetz-analyzer.desc": {
+    "value": "MeshCore Analyzer MeshCoreNetz.de krāsās, kas atveras ar Ziemeļvācijas skatu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7c597271"
+  },
+  "map.de-meshdresden-analyzer.desc": {
+    "value": "MeshCore Analyzer MeshDresden.eu krāsās. MeshDresden.eu ir Drēzdenes kopienas mesh tīkls.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b7456441"
+  },
+  "map.nl-cornmeister.desc": {
+    "value": "MeshCore Analyzer Cornmeister.nl krāsās, kas atveras ar Nīderlandes skatu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69efcf8b"
+  },
+  "map.be-bemesh-map.desc": {
+    "value": "Beļģijas klientu, retranslatoru, istabu serveru un sensoru karte, kurā īpašnieki var pieteikt savu mezglu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "37af8d74"
+  },
+  "map.be-on8ar-corescope.desc": {
+    "value": "CoreScope analizators Beļģijā dzirdētajai datplūsmai.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97d8adf0"
+  },
+  "map.is-corescope.desc": {
+    "value": "CoreScope analizators Islandes tīklam.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9441de4b"
+  },
+  "map.pl-meshcore-polska-map.desc": {
+    "value": "Polijas klientu, retranslatoru, istabu serveru un sensoru tiešraides karte.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57d86a21"
+  },
+  "map.fr-loramesh-map.desc": {
+    "value": "Karte ar Francijas apgabaliem, kuros MeshCore ir aktīvs. Ārpus lielajām pilsētām pārklājums vēl ir nevienmērīgs.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "85632f3a"
+  },
+  "map.de-meshcore-de-regions.desc": {
+    "value": "Rediģējama MeshCore reģionu un vietējo grupu karte, galvenokārt Vācijā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cec143bd"
+  },
+  "map.gb-ukmesh.desc": {
+    "value": "Apvienotās Karalistes tīkla analītika ar ceļiem un tiešraides skatiem. Datus sniedz novērotāji.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "03a38df8"
+  },
+  "map.gb-meshrank.desc": {
+    "value": "Retranslatoru un maršrutu reitingi un statistika, galvenokārt Apvienotajā Karalistē.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "997a9a6e"
+  },
+  "map.gb-m3sh-contacts.desc": {
+    "value": "Apvienotās Karalistes tīkls tā, kā to dzird viens Oksfordšīras mezgls, ar mezglu aparatūru un prefiksu dublikātiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cb2153f9"
+  },
+  "map.kiekr-map.desc": {
+    "value": "Kurp sniedzas kuri radio reģioni, aprēķināts no kaimiņiem, ko novēro KiekR lietotāji.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9a3aceee"
+  },
+  "map.hopradar.desc": {
+    "value": "Savieno savu mezglu pa Bluetooth vai USB un skaties pārlūkā tā dzirdētos lēcienus, ceļus un SNR.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ae215bf8"
+  },
+  "map.mapme-sh.desc": {
+    "value": "Pārklājuma karte no kartēšanas braucieniem ar telefoniem visā Eiropā, attēlota kā sešstūri signāla stipruma krāsās. Spēle norāda uz robiem mesh tīklā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "23bca522"
+  },
+  "project.meshcore-firmware.desc": {
+    "value": "Oficiālā MeshCore programmaparatūra un maršrutēšanas bibliotēka LoRa platēm, ar companion, retranslatora, istabas servera un sensora lomām.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bba821af"
+  },
+  "project.meshcore-js.desc": {
+    "value": "JavaScript bibliotēka saziņai ar MeshCore companion radio no pārlūkiem un Node.js.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0b9ed81f"
+  },
+  "project.meshcore-py.desc": {
+    "value": "Python saistījumi MeshCore companion radio vadībai pa seriālo savienojumu, Bluetooth vai TCP.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "305bd163"
+  },
+  "project.meshcore-cli.desc": {
+    "value": "Komandrindas klients ziņu sūtīšanai uz MeshCore mezgliem un to pārvaldībai no termināļa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6f68e501"
+  },
+  "project.meshcore-ha.desc": {
+    "value": "Home Assistant integrācija, kas parāda MeshCore mezglus, ziņas un telemetriju kā entītijas uzraudzībai un automatizācijām.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8b5725be"
+  },
+  "project.meshcore-flasher.desc": {
+    "value": "Pirmkods pārlūka rīkam, kas pa USB ieraksta MeshCore programmaparatūru atbalstītajās platēs.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ba3feb1b"
+  },
+  "project.meshcore-map.desc": {
+    "value": "Pirmkods oficiālajai mezglu kartei, kurā īpašnieki var publicēt savus mezglus.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "91b7682b"
+  },
+  "project.openhop-repeater.desc": {
+    "value": "Python retranslatora dēmons, kas Linux datoru ar SPI LoRa radio pārvērš par MeshCore saderīgu retranslatoru.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d2bf1646"
+  },
+  "project.openhop-core.desc": {
+    "value": "MeshCore protokola un maršrutēšanas steka Python reimplementācija ar tiešu SPI LoRa radio atbalstu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54ed7f73"
+  },
+  "project.meshcore-open.desc": {
+    "value": "Atvērtā koda starpplatformu Flutter lietotne MeshCore radio ierīcēm pa Bluetooth, USB seriālo savienojumu vai TCP, arī tīmekļa versijā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c322a23f"
+  },
+  "project.meshcoretomqtt.desc": {
+    "value": "Skripts, kas pārsūta pakešu tvērumus no MeshCore novērotāja radio uz MQTT brokeri analizatoriem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "19dfb497"
+  },
+  "project.meshcore-mqtt-broker.desc": {
+    "value": "MQTT brokeris, kas autentificē novērotājus ar to MeshCore atslēgu pāriem, nevis parolēm.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ca27fa19"
+  },
+  "project.corescope.desc": {
+    "value": "Pašmitināts MeshCore analizators, kas saņem paketes pa MQTT. Tas nodrošina tiešraides plūsmu, kartes, kanālu skatus un mezglu statistiku.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a74322db"
+  },
+  "project.litescope.desc": {
+    "value": "Viegls pašmitināts informācijas panelis MeshCore tīkla vērošanai. Igaunijas kopiena uztur vienu tādu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dc42e5a"
+  },
+  "project.meshcore-hub.desc": {
+    "value": "Python platforma no Apvienotās Karalistes kopienas. Tā vāc MQTT notikumus datubāzē un piedāvā REST API un tīmekļa informācijas paneli.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "07442a84"
+  },
+  "project.potato-mesh.desc": {
+    "value": "Federēts kopienas informācijas panelis MeshCore un citiem mesh tīkliem, ko lieto Berlin Chaos Mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7b98d4f7"
+  },
+  "project.meshcore-mqtt-live-map.desc": {
+    "value": "Tīmekļa tiešraides karte, ko baro MeshCore MQTT plūsma. Tā reāllaikā rāda mezglus, maršrutus un pārklājumu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e0380e74"
+  },
+  "project.meshcore-bot.desc": {
+    "value": "Python bots, kas atbild uz komandām MeshCore kanālos un var pārsūtīt ziņas uz Discord un Telegram un no tiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "04a73c83"
+  },
+  "project.meshcore-channels.desc": {
+    "value": "Kopienas rediģējams publisko MeshCore kanālu JSON saraksts, sagrupēts pa valstīm un publicēts lietotnēm.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3bb8a9a"
+  },
+  "project.meshcore-regions.desc": {
+    "value": "Kopienas rediģējams JSON katalogs ar MeshCore reģionu kodiem, ko lieto visā pasaulē.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ea403726"
+  },
+  "project.zephcore.desc": {
+    "value": "MeshCore pārnesums no Arduino uz Zephyr reāllaika operētājsistēmu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d68923fa"
+  },
+  "project.meshcore-ng.desc": {
+    "value": "Nīderlandes programmaparatūras atzars ar retranslatoru uzlabojumiem blīviem, noslogotiem mesh tīkliem. Tas paliek saderīgs ar standarta klientiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5f288c67"
+  },
+  "project.meshcore-solo.desc": {
+    "value": "Companion programmaparatūras atzars, kas pievieno bezsaistes GPS navigāciju ar ceļa punktiem, kompasu un GPX eksportu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1c9d0659"
+  },
+  "project.meshcore-c.desc": {
+    "value": "MeshCore protokola C implementācija bez atkarībām, kā bibliotēka jebkuram projektam vai komponents ESP-IDF.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "327a07f8"
+  },
+  "project.lora-mesh-nodes.desc": {
+    "value": "Pašbūvējamu mobilo un saules mezglu dizainu kolekcija ar korpusiem, drukājamām detaļām un detaļu sarakstiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "637e2726"
+  },
+  "project.lora-harvester-box.desc": {
+    "value": "Atvērtās aparatūras plate, kas savieno STM32WL LoRa čipu ar enerģijas ieguvēju. Tā paredzēta ļoti mazjaudas LoRa mezgliem, arī MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6ecc7144"
+  },
+  "project.mesh-hunter.desc": {
+    "value": "Telefona tīmekļa lietotne savienojas pārī ar companion radio un žurnālā ieraksta katru dzirdēto paketi ar tavu GPS pozīciju, lai tu ej vai brauc uz nevēlamās datplūsmas avotu. Tā var dalīties dzirdētajā ar MQTT brokeriem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d0fb854e"
+  },
+  "project.eu-meshcore-analyzer.desc": {
+    "value": "Eiropas MeshCore tīkla tiešraides karte un analizators. Datus sniedz novērotāji un telefonu lietotnes, kas ziņo dzirdēto.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fed133d8"
+  },
+  "project.dmc-triangulator.desc": {
+    "value": "Sašaurina mezgla atrašanās vietu pēc retranslatoriem, kas to dzirdēja, kā pirmo meklēšanas apgabalu pirms vietējām medībām.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f73b5e0b"
+  },
+  "project.kiekr.desc": {
+    "value": "Telefona lietotne ziņapmaiņai mesh tīklā, kas arī kartē pārklājumu un var augšupielādēt dzirdēto analizatoriem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "05e5f56a"
+  },
+  "project.meshmapper.desc": {
+    "value": "Pārklājuma karte no wardriving braucieniem, ar reģionālām instancēm, savu MQTT brokeri un atvērtu API.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1135e1cd"
+  },
+  "project.trail-mate.desc": {
+    "value": "Bezsaistes rokas ierīču programmaparatūra LilyGO T-LoRa Pager un T-Deck, ar GPS navigāciju un komandas ziņapmaiņu pa MeshCore un Meshtastic.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "86cd32a0"
+  },
+  "project.remote-terminal.desc": {
+    "value": "Pašmitināts MeshCore radio klients, kas glabā un atšifrē notvertās paketes serverī, ar botiem un MQTT.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90c11494"
+  },
+  "project.meshpoint.desc": {
+    "value": "Raspberry Pi bāzes stacija ar SX1302 vai SX1303 koncentratoru, kas klausās vairākus kanālus vienlaikus, ar vietējo informācijas paneli.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6c668061"
+  },
+  "project.easyskymesh.desc": {
+    "value": "Programmaparatūras atzars, kas taupa enerģiju retranslatoriem un sensoru mezgliem ar akumulatoru vai nelielu saules paneli.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3b1503dc"
+  },
+  "project.solar-os.desc": {
+    "value": "Neliela, uz tekstu vērsta operētājsistēma ESP32 kabatas termināļiem, ar MeshCore companion uz sava radio vai pārī savienota mezgla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "23677e08"
+  },
+  "project.wio-tracker-l1-pro.desc": {
+    "value": "Companion programmaparatūra Seeed Wio Tracker L1 Pro ar lietotāja saskarni pašā ierīcē.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b694d013"
+  },
+  "project.meshcore-one.desc": {
+    "value": "Vietējā MeshCore lietotne iPhone, iPad un Mac ierīcēm.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "87505963"
+  },
+  "project.lunarcore.desc": {
+    "value": "Rust programmaparatūra Heltec WiFi LoRa 32 V3, kas runā MeshCore, Meshtastic un citos protokolos.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f2c6fabd"
+  },
+  "project.meshcore-sar.desc": {
+    "value": "Bezsaistes lietotne meklēšanas un glābšanas komandām: ziņas, balss, attēli, kartes un kopīgotas atrašanās vietas pa MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "413c9353"
+  },
+  "project.cardputer-adv-stachugit.desc": {
+    "value": "Companion programmaparatūra M5Stack Cardputer ADV ar LoRa cap, ar tērzēšanas ekrānu un krāsu tēmām.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9ab883fb"
+  },
+  "project.meshcoreterm.desc": {
+    "value": "Retro stila skārienprogrammaparatūra LilyGO T-Deck, Seeed SenseCAP Indicator un citām platēm ar ekrānu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ac08cb0e"
+  },
+  "project.mesh-client.desc": {
+    "value": "Darbvirsmas lietotne macOS, Linux un Windows, kas sazinās ar MeshCore, Meshtastic un Reticulum radio.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61a3a731"
+  },
+  "project.mishmesh.desc": {
+    "value": "Companion programmaparatūra ar savu saskarni uz radio, lai tu vari sūtīt ziņas bez pārī savienota telefona.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9bde8382"
+  },
+  "project.overmesh.desc": {
+    "value": "Informācijas panelis, ko darbini savā datorā, MeshCore un Meshtastic tīkliem, ar mezglu karti, tērzēšanu, botu un bezsaistes kartēm.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fbacbc50"
+  },
+  "project.meshcore-wardrive-android.desc": {
+    "value": "Android lietotne, kas kartē MeshCore pārklājumu, kamēr tu ej vai brauc.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6c9c49ec"
+  },
+  "project.akita-bridge.desc": {
+    "value": "Tilts, kas pārsūta ziņas starp Meshtastic un MeshCore pa seriālo savienojumu vai MQTT.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eff5e3a1"
+  },
+  "project.meshcore-packet-capture.desc": {
+    "value": "Python skripts, kas tver paketes no companion radio un publicē tās MQTT.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5325460e"
+  },
+  "project.cardputer-adv-sosprz.desc": {
+    "value": "Companion programmaparatūra M5Stack Cardputer ADV ar Cap LoRa868, ierakstāma ar M5Burner.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cf8b55c5"
+  },
+  "project.lora-wideband-decoder.desc": {
+    "value": "Programmatūras radio uztvērējs, kas plašā joslā dekodē MeshCore, Meshtastic un LoRaWAN datplūsmu, ar vietējo tīmekļa lapu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3e575ff"
+  },
+  "project.mc-webui.desc": {
+    "value": "Tīmekļa saskarne virs meshcore-cli, lai sūtītu ziņas no pārlūka.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3372c462"
+  },
+  "project.meshfirmware.desc": {
+    "value": "Skripti Linux un Windows, kas pa USB izvēlas, būvē un ieraksta MeshCore un Meshtastic programmaparatūru.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be0d230e"
+  },
+  "project.repeater-mqtt-gateway.desc": {
+    "value": "Retranslatora programmaparatūra, kas arī savieno mesh tīklu ar MQTT brokeri abos virzienos.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "23f7dfec"
+  },
+  "project.tak-meshcore.desc": {
+    "value": "Spraudnis, ar kuru situācijas pārskata lietotne ATAK lieto MeshCore companion radio pa Bluetooth.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "acbecd75"
+  },
+  "project.meshcore-decoder.desc": {
+    "value": "TypeScript bibliotēka, kas dekodē MeshCore paketes, arī atšifrē tās.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1235f40d"
+  },
+  "project.mesh-loader.desc": {
+    "value": "Divkārša sāknēšana Heltec WiFi LoRa 32 V3 un V4: glabā divas programmaparatūras vienā platē un pārslēdz starp tām.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be49552e"
+  },
+  "project.meshcore-proxy.desc": {
+    "value": "TCP starpniekserveris, ar kuru companion radio uz USB vai Bluetooth kļūst sasniedzams lietotnēm citos datoros.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eaf24463"
+  },
+  "project.roadstr.desc": {
+    "value": "Ziņošana par ceļa notikumiem bez centrālā servera: parakstīti Nostr notikumi, ko pārnes pa MeshCore, kad nav interneta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "60e39810"
+  },
+  "project.domca-docs.desc": {
+    "value": "Dokumentācija nīderlandiešu un angļu valodā, no tava pirmā mezgla līdz protokola, programmaparatūras un radio darbībai. Tā ir rakstīta ar AI rīku palīdzību, tāpēc pārbaudi programmaparatūras detaļas MeshCore pirmkodā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c976aea"
+  },
+  "guides_group_start": {
+    "value": "Tavs pirmais mezgls",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "276f7ca8"
+  },
+  "guides_group_setup": {
+    "value": "Iestati savu mezglu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "55efd611"
+  },
+  "guides_group_deeper": {
+    "value": "Uzzini vairāk",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6bce982b"
+  },
+  "guides_card_get_started_title": {
+    "value": "Sāc šeit",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "guides_card_get_started_desc": {
+    "value": "No jaunas plates līdz tavai pirmajai ziņai mesh tīklā, 6 soļos.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "133bcbfc"
+  },
+  "guides_card_devices_title": {
+    "value": "Ierīces",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ba5121d"
+  },
+  "guides_card_devices_desc": {
+    "value": "Salīdzini plates pēc lomas, cenas un barošanas avota, un izvēlies piemērotāko.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cf3bba38"
+  },
+  "guides_card_settings_title": {
+    "value": "Ieteicamie iestatījumi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cfb32983"
+  },
+  "guides_card_settings_desc": {
+    "value": "Radio priekšiestatījums, ko lieto tavā apkārtnē, un iestatījumi, ko tavi kaimiņi mainījuši.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e18863a"
+  },
+  "guides_card_antenna_title": {
+    "value": "Antenu ceļvedis",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3a76cb0e"
+  },
+  "guides_card_antenna_desc": {
+    "value": "Noskaņota antena un īss kabelis dod lielāku darbības rādiusu nekā papildu jauda. Pārbaudi antenu uz sava companion, un izvēlies, pieslēdz un uzstādi antenu retranslatoram.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3869e4e4"
+  },
+  "guides_card_repeater_title": {
+    "value": "Retranslatoru ceļvedis",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4608abcd"
+  },
+  "guides_card_repeater_desc": {
+    "value": "Retranslators pārsūta ziņas visiem apkārtējiem. Novietojums, iestatīšanas komandas un juridiskie ierobežojumi 868 MHz joslā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "979d61a1"
+  },
+  "guides_card_resilient_title": {
+    "value": "Padari mesh tīklu noturīgu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33ec7ac8"
+  },
+  "guides_card_resilient_desc": {
+    "value": "Kaut kas tavā tuvumā traucē mesh tīklam? Noskaidro, kas tas ir, un ieslēdz retranslatorā iestatījumu, kas to aptur.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a0476ea5"
+  },
+  "guides_card_filter_title": {
+    "value": "Pakešu filtrs",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20a3ef1f"
+  },
+  "guides_card_filter_desc": {
+    "value": "Neļauj savam retranslatoram pārsūtīt nevajadzīgus datus, piemēram, no bota, kas nekad neapstājas, vai trokšņaina kanāla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2db3748c"
+  },
+  "guides_card_mqtt_title": {
+    "value": "MQTT tavā novērotājā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "62626d0f"
+  },
+  "guides_card_mqtt_desc": {
+    "value": "Novērotājs ir mezgls, kas pārsūta dzirdēto pa MQTT. Iestati to kartei vai analizatoram.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "774395b6"
+  },
+  "guides_card_mctomqtt_title": {
+    "value": "Izveido tilta konfigurāciju",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fd2dd667"
+  },
+  "guides_card_mctomqtt_desc": {
+    "value": "Sūti sava retranslatora dzirdēto uz jebkuru MQTT brokeri: savu vai Analyzer.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6c4d4692"
+  },
+  "guides_card_cli_title": {
+    "value": "CLI komandas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a13cc6cb"
+  },
+  "guides_card_cli_desc": {
+    "value": "Retranslatora komandas, katra ar aprakstu, ko tā dara.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "977f43d6"
+  },
+  "firmware_card_flasher_title": {
+    "value": "Ieraksti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3577cb5"
+  },
+  "firmware_card_flasher_desc": {
+    "value": "Ieraksti MeshCore savā platē no pārlūka, pa USB.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0a1c2394"
+  },
+  "firmware_card_console_title": {
+    "value": "Seriālā konsole",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4e3c41fa"
+  },
+  "firmware_card_console_desc": {
+    "value": "Raksti komandas savam retranslatoram no pārlūka, pa USB.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f0d52063"
+  },
+  "firmware_card_changelog_title": {
+    "value": "Izmaiņu žurnāls",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ead07c84"
+  },
+  "firmware_card_changelog_desc": {
+    "value": "Skaties, kas mainījies katrā MeshCore laidienā un vai tas vajadzīgs tavam mezglam.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "314733fe"
+  },
+  "area_device_repeater": {
+    "value": "Tavā retranslatorā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5cb30f9"
+  },
+  "area_device_companion": {
+    "value": "Lietotnē tavā companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e459238"
+  },
+  "area_change_nl_regions": {
+    "value": "Pievieno reģionus, ko apkalpo tavs retranslators, katru iekš augstākā: Eiropa, Benelux, Nīderlande, tava province un tava pilsēta. Tava province kļūst par noklusējumu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "593b1502"
+  },
+  "area_change_strict_regions": {
+    "value": "Atmet paketes bez reģiona, lai tās neceļo pāri Eiropai. Vispirms pievieno reģionus.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "11ca714d"
+  },
+  "area_change_zero_hop": {
+    "value": "Sūti advert, ko dzird tavi tiešie kaimiņi, ik pēc 4 stundām.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0e990713"
+  },
+  "area_change_path_hash": {
+    "value": "Lieto 2 baitu ceļa jaucējkodu: tas atšķir 65,536 retranslatorus, nevis 256.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b63880c0"
+  },
+  "area_change_loop": {
+    "value": "Atmet flood paketes, kas cilpā atgriežas caur tavu retranslatoru. Retranslators, kas iestatīts ar 1.18 vai jaunāku versiju, to jau dara.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "44333e2e"
+  },
+  "area_change_dutycycle": {
+    "value": "Ierobežo savu retranslatoru līdz 10% ētera laika.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8877399e"
+  },
+  "area_change_nl_companion_region": {
+    "value": "Lietotnes eksperimentālajos iestatījumos iestati noklusējuma reģionu uz nl. Piešķir katram kanālam tā reģionu, piemēram, nl-nh Ziemeļholandei.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3c31c16c"
+  },
+  "area_change_companion_path_hash": {
+    "value": "Lietotnes eksperimentālajos iestatījumos iestati noklusējuma ceļa jaucējkoda izmēru uz 2 baitiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4e3414d1"
+  },
+  "area_preset": {
+    "value": "Radio priekšiestatījums",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6fd605ec"
+  },
+  "area_path_hash": {
+    "value": "Ceļa jaucējkods (nosaka priekšiestatījums)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2e93a7f1"
+  },
+  "area_bytes": {
+    "value": "baiti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "277089d9"
+  },
+  "area_firmware": {
+    "value": "Programmaparatūra",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "area_or_newer": {
+    "value": "vai jaunāka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e2cbdfd0"
+  },
+  "area_changes": {
+    "value": "Mainīts no MeshCore noklusējuma",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0587de6f"
+  },
+  "area_source_group": {
+    "value": "Iestatījumu avots",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f06dfa4f"
+  },
+  "area_source_preset": {
+    "value": "Priekšiestatījums no MeshCore projekta saraksta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "89d3440f"
+  },
+  "area_checked": {
+    "value": "pārbaudīts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e61a3d78"
+  },
+  "area_add_title": {
+    "value": "Pievieno savu apgabalu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6ec76c28"
+  },
+  "area_add_body": {
+    "value": "Vai tava vietējā grupa lieto savu priekšiestatījumu vai maina iestatījumus? Iesūti tos ar saiti uz vietu, kur tos izlēmāt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5976a5e5"
+  },
+  "area_add_cta": {
+    "value": "Pievieno savu apgabalu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6ec76c28"
+  },
+  "area_link": {
+    "value": "Saite uz šo apgabalu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "98909794"
+  },
+  "heading_link": {
+    "value": "Saite uz šo sadaļu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9dc5baf3"
+  },
+  "toc_title": {
+    "value": "Šajā lapā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5658fc8"
+  },
+  "regions_title": {
+    "value": "Reģioni: no Eiropas līdz tavai pilsētai",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "698de558"
+  },
+  "regions_body": {
+    "value": "Reģions ir apgabala kods. Reģioni atrodas cits citā: Eiropa, tava valsts, tava province un dažviet tava pilsēta. Piešķir retranslatoram reģionus, kuros tas atrodas, katru iekš augstākā. Tas pārsūta ziņas jebkuram no tiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3f05bbfc"
+  },
+  "regions_map_body": {
+    "value": "Lietotie kodi katrā apgabalā atšķiras. Karte rāda reģionus, ko lieto retranslatori tev apkārt: lieto tos pašus, ko tavi kaimiņi, citādi tavs retranslators atmet viņu ziņas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ccf2219"
+  },
+  "regions_europe": {
+    "value": "Eiropa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e595f45d"
+  },
+  "regions_pick": {
+    "value": "Tava province vai reģions",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ed5a1c0e"
+  },
+  "regions_pick_none": {
+    "value": "Izvēlies",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a880a59d"
+  },
+  "regions_region": {
+    "value": "Tavs reģions, ja tavā apgabalā tādu lieto",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7ebba635"
+  },
+  "regions_town": {
+    "value": "Tava pilsēta, ja tavā apgabalā tādu lieto",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a6221a2f"
+  },
+  "regions_map": {
+    "value": "Karte",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be176b00"
+  },
+  "regions_map_label": {
+    "value": "MeshCore Analyzer kartē",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2df2db10"
+  },
+  "regions_cmd_hint": {
+    "value": "Izvēlies savu provinci vai ieraksti tās kodu izceltās vērtības vietā, tad kopē.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54f7feb3"
+  },
+  "area_ph_hint": {
+    "value": "Ieraksti savas vērtības izcelto vietā, tad kopē.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "04e515aa"
+  },
+  "area_ph_province": {
+    "value": "Tava province",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "492cd073"
+  },
+  "area_ph_city": {
+    "value": "Tava pilsēta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90064d5a"
+  },
+  "area_map_label": {
+    "value": "Apgabalu un to radio priekšiestatījumu karte",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b49bdce9"
+  },
+  "area_map_own": {
+    "value": "Savs priekšiestatījums vai iestatījumi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d7dec3ab"
+  },
+  "area_others_title": {
+    "value": "Pārējā ES un Apvienotā Karaliste",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5b618852"
+  },
+  "area_country_label": {
+    "value": "Tava valsts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "18f2456a"
+  },
+  "area_country_pick": {
+    "value": "Izvēlies valsti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "632aadfb"
+  },
+  "area_country_missing": {
+    "value": "Tavas valsts nav sarakstā? Pajautā vietējai grupai, kuru priekšiestatījumu tā lieto, vai {link}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "64fd9026"
+  },
+  "area_country_missing_link": {
+    "value": "pievieno savu apgabalu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "39737a2b"
+  },
+  "area_country_eu": {
+    "value": "{country} nav sava priekšiestatījuma MeshCore lietotnē. Tā lieto {preset}, priekšiestatījumu, ko MeshCore nosauc ES un Apvienotajai Karalistei.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "221cd765"
+  },
+  "area_others_body": {
+    "value": "Šīm valstīm MeshCore lietotnē nav sava priekšiestatījuma. Tās lieto EU/UK (Narrow), priekšiestatījumu, ko MeshCore tām nosauc.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0fccb2a7"
+  },
+  "cli_groups": {
+    "value": "Komandu grupas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "70883ce1"
+  },
+  "cli_search": {
+    "value": "Meklēt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "49c266ba"
+  },
+  "cli_node_q": {
+    "value": "Kurš mezgls?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5f669f2f"
+  },
+  "cli_node_repeater": {
+    "value": "Retranslators",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "cli_node_room_server": {
+    "value": "Istabas serveris",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68b91cc5"
+  },
+  "cli_node_sensor": {
+    "value": "Sensors",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "162cc64c"
+  },
+  "cli_node_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dadb328"
+  },
+  "cli_link": {
+    "value": "Saite uz šo komandu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8545494"
+  },
+  "cli_default": {
+    "value": "Sākumvērtība",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "faca355f"
+  },
+  "cli_in_source": {
+    "value": "kur to iestata programmaparatūra",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4de4eaa8"
+  },
+  "cli_range": {
+    "value": "Vērtības",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "53b09e10"
+  },
+  "cli_nodes": {
+    "value": "Darbojas uz",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c85fc5a0"
+  },
+  "cli_since": {
+    "value": "Vajadzīga programmaparatūra",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5bf596e9"
+  },
+  "cli_build": {
+    "value": "Tikai programmaparatūrā, kas būvēta ar",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bb208568"
+  },
+  "cli_build_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "176c7866"
+  },
+  "cli_build_sensors": {
+    "value": "sensori",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e22dfb01"
+  },
+  "cli_build_bridge": {
+    "value": "tilts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5a0b83ee"
+  },
+  "cli_build_ethernet": {
+    "value": "Ethernet",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "681e1209"
+  },
+  "cli_build_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10df5f54"
+  },
+  "cli_group_operational": {
+    "value": "Restartēšana, atiestatīšana un atjaunināšana",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a49f50c1"
+  },
+  "cli_group_adverts": {
+    "value": "Paziņojumi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8b8ad4a7"
+  },
+  "cli_group_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2a7dfeb2"
+  },
+  "cli_group_system": {
+    "value": "Nosaukums, parole un pulkstenis",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a96ceeac"
+  },
+  "cli_group_routing": {
+    "value": "Maršrutēšana",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bcba696f"
+  },
+  "cli_group_regions": {
+    "value": "Reģioni",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "610c65d8"
+  },
+  "cli_group_access": {
+    "value": "Piekļuve",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ec5ba0ab"
+  },
+  "cli_group_neighbours": {
+    "value": "Kaimiņi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "24be7e7c"
+  },
+  "cli_group_statistics": {
+    "value": "Statistika",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a656107e"
+  },
+  "cli_group_logging": {
+    "value": "Žurnalēšana",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d3ef01b4"
+  },
+  "cli_group_info": {
+    "value": "Versija un plate",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9a90dcaa"
+  },
+  "cli_group_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "176c7866"
+  },
+  "cli_group_sensors": {
+    "value": "Sensori",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "76140e34"
+  },
+  "cli_group_bridge": {
+    "value": "Tilts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3892e103"
+  },
+  "cli_group_ethernet": {
+    "value": "Ethernet",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "681e1209"
+  },
+  "cli_group_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10df5f54"
+  },
+  "cmd_reboot_desc": {
+    "value": "Uzreiz restartē mezglu, un mezgls tev neatbild. Izmanto to, lai lietotu iestatījumus, kas stājas spēkā tikai pēc restartēšanas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6850ad24"
+  },
+  "cmd_poweroff_desc": {
+    "value": "Izslēdz mezglu uz platēm, kas to atbalsta, un nesūta atbildi. Lai to atkal ieslēgtu, tev vajag barošanas pogu vai barošanas atslēgšanu un pieslēgšanu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5088476d"
+  },
+  "cmd_clkreboot_desc": {
+    "value": "Atgriež pulksteni uz agru datumu un restartē mezglu bez atbildes. Izmanto to, kad pulkstenis steidzas un atsakās iet atpakaļ.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d02bbe66"
+  },
+  "cmd_clock_desc": {
+    "value": "Parāda mezgla pulksteni UTC laikā vai iestata to uz Unix laiku sekundēs. Pulkstenis iet tikai uz priekšu, tāpēc atpakaļ tu to vari pagriezt ar clkreboot.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0193d15f"
+  },
+  "cmd_clock_sync_desc": {
+    "value": "Iestata mezgla pulksteni uz laiku, ko tava companion ierīce nosūta ar šo komandu. Tā darbojas tikai pa mesh tīklu, jo seriālā konsole laiku nesūta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "39198623"
+  },
+  "cmd_start_ota_desc": {
+    "value": "Sāk programmaparatūras bezvadu atjaunināšanu uz ESP32 un nRF52 platēm, kas to atbalsta. ESP32 atver WiFi piekļuves punktu, nRF52 sāk Bluetooth atjaunināšanu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69bd5985"
+  },
+  "cmd_erase_desc": {
+    "value": "Izdzēš mezgla failu sistēmu, arī iestatījumus un identitāti, un darbojas tikai pa seriālo savienojumu. Izmanto to rūpnīcas atiestatei, jo atsaukt to tu nevari.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e781518d"
+  },
+  "cmd_room_post_desc": {
+    "value": "Publicē ziņu istabā paša istabas servera vārdā. Visi istabā to saņem tāpat kā jebkuru citu ziņu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "88a6e1f5"
+  },
+  "cmd_advert_desc": {
+    "value": "Uzreiz nosūta flood paziņojumu, lai mezgli visā mesh tīklā uzzinātu par šo mezglu. Izmanto to pēc nosaukuma vai atrašanās vietas maiņas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "21526c3a"
+  },
+  "cmd_advert_zerohop_desc": {
+    "value": "Nosūta paziņojumu tikai tiešajiem kaimiņiem, un neviens retranslators to nepārsūta tālāk. Izmanto to, lai pieteiktu mezglu tuvumā, nenoslogojot visu mesh tīklu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dfbc07b6"
+  },
+  "cmd_advert_interval_desc": {
+    "value": "Iestata, cik bieži minūtēs mezgls sūta kaimiņiem zero-hop paziņojumu. Ar 0 tu tos aptur; jebkura saglabāta izmaiņa aptur arī intervālus zem 60.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f99f3d5f"
+  },
+  "cmd_flood_advert_interval_desc": {
+    "value": "Iestata, cik bieži stundās mezgls sūta flood paziņojumu visam mesh tīklam. Ar 0 tu pilnībā aptur šī mezgla automātiskos flood paziņojumus.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6473270c"
+  },
+  "cmd_neighbours_desc": {
+    "value": "Parāda retranslatorus, ko šis mezgls dzirdējis tieši, un pēdējais dzirdētais ir pirmais. Katrā rindā ir atslēgas prefikss, sekundes kopš uztveršanas un SNR, reizināts ar 4.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9bd6e27f"
+  },
+  "cmd_neighbour_remove_desc": {
+    "value": "Noņem katru kaimiņu, kura publiskā atslēga sākas ar tevis norādīto hex prefiksu. Izmanto to, lai no kaimiņu saraksta izņemtu vecu retranslatoru.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c1b8c616"
+  },
+  "cmd_discover_neighbours_desc": {
+    "value": "Aicina retranslatorus tiešā sasniedzamībā atbildēt un katru atbildi pievieno kaimiņiem. Izmanto to, lai aizpildītu sarakstu, negaidot to paziņojumus. Retranslators, kuram abi paziņojumu intervāli ir 0 vai pārsūtīšana izslēgta, neatbild.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1ab216ce"
+  },
+  "cmd_clear_stats_desc": {
+    "value": "Atiestata mezgla pakešu, radio un kodola skaitītājus uz nulli. Izmanto to, pirms mēri datplūsmu noteiktā laika posmā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ead62ceb"
+  },
+  "cmd_stats_core_desc": {
+    "value": "Parāda mezgla akumulatora spriegumu, darbības laiku, kļūdu skaitu un raidīšanas rindas garumu. Tā darbojas tikai seriālajā konsolē, nevis pa mesh tīklu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ba9fa3d2"
+  },
+  "cmd_stats_radio_desc": {
+    "value": "Parāda trokšņu līmeni, pēdējo RSSI un SNR, kā arī raidīšanas un uztveršanas ētera laiku. Tā darbojas tikai seriālajā konsolē, nevis pa mesh tīklu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bedd2bf2"
+  },
+  "cmd_stats_packets_desc": {
+    "value": "Parāda, cik pakešu mezgls saņēmis un nosūtījis, sadalot tās flood un tiešajās. Tā darbojas tikai seriālajā konsolē, nevis pa mesh tīklu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d8a3b4d1"
+  },
+  "cmd_log_capture_desc": {
+    "value": "Sāk vai aptur katras mezgla saņemtās un nosūtītās paketes rakstīšanu žurnāla failā. Izmanto to datplūsmas tveršanai, pēc tam izlasi to ar komandu log.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "79dcb812"
+  },
+  "cmd_log_erase_desc": {
+    "value": "Izdzēš pakešu žurnāla failu no mezgla krātuves. Izmanto to, lai atbrīvotu vietu vai sāktu tveršanu no jauna.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c32fe03"
+  },
+  "cmd_log_desc": {
+    "value": "Izvada tverto pakešu žurnālu pa rindām seriālajā konsolē. Tā darbojas tikai seriālajā konsolē, nevis pa mesh tīklu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "59c80f62"
+  },
+  "cmd_ver_desc": {
+    "value": "Parāda mezgla programmaparatūras versiju un būvējuma datumu. Izmanto to, lai pirms atjaunināšanas pārbaudītu, kurš laidiens darbojas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c0752f1b"
+  },
+  "cmd_board_desc": {
+    "value": "Parāda tās aparatūras plates nosaukumu, kurai programmaparatūra būvēta. Izmanto to, lai pārbaudītu, vai ierakstīji pareizo programmaparatūru.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3e5ed786"
+  },
+  "cmd_power_desc": {
+    "value": "Parāda akumulatora spriegumu un to, vai aktīvs ir USB, saules, ārējais barojums un lādētājs. Plate, kas nespēj noteikt USB vai saules barojumu, tam rāda n/a.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4e5129e4"
+  },
+  "cmd_public_key_desc": {
+    "value": "Parāda pilnu mezgla publisko atslēgu hex formātā. Kopīgo to, kad kāds jautā, kurš mezgls ir tavs, vai kad retranslatora īpašnieks ar setperm piešķir lomu tavai companion ierīcei.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d754bc23"
+  },
+  "cmd_role_desc": {
+    "value": "Parāda, kādu programmaparatūru mezgls izmanto: repeater, room_server vai sensor. Izmanto to, lai pārbaudītu lomu, pirms maini iestatījumus attālināti.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "627a92c5"
+  },
+  "cmd_bootloader_ver_desc": {
+    "value": "Parāda sāknēšanas ielādētāja versiju, kas darbojas uz nRF52 platēm. Uz jebkuras citas plates mezgls atbild, ka komanda netiek atbalstīta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a3e90e05"
+  },
+  "cmd_pwrmgt_support_desc": {
+    "value": "Parāda, vai šajā programmaparatūras būvējumā ir nRF52 plašu barošanas pārvaldība. Citām pwrmgt komandām šis atbalsts vajadzīgs, lai sniegtu atbildi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "139d6f9d"
+  },
+  "cmd_pwrmgt_source_desc": {
+    "value": "Parāda, vai mezgls darbojas no ārēja barojuma vai no akumulatora. Šo atbildi tev sniedz tikai būvējumi ar nRF52 barošanas pārvaldības atbalstu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ee83fb61"
+  },
+  "cmd_pwrmgt_bootreason_desc": {
+    "value": "Parāda, kāpēc mezgls pēdējo reizi atiestatījās un kāpēc pēdējo reizi izslēdzās. Izmanto to, lai noskaidrotu, kāpēc mezgls restartējās pats.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "de8338c0"
+  },
+  "cmd_pwrmgt_bootmv_desc": {
+    "value": "Parāda akumulatora spriegumu milivoltos, ko mezgls izmērīja sāknēšanas laikā. Šo atbildi tev sniedz tikai būvējumi ar nRF52 barošanas pārvaldības atbalstu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ff3b5c66"
+  },
+  "cmd_radio_desc": {
+    "value": "Iestata mezgla frekvenci, joslas platumu, izkliedes koeficientu un kodēšanas ātrumu. Visiem tava mesh tīkla mezgliem vajag vienādas vērtības; restartē, lai tās lietotu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf443364"
+  },
+  "cmd_tx_desc": {
+    "value": "Iestata LoRa mikroshēmas raidīšanas jaudu dBm, un tā stājas spēkā uzreiz. Plates ar papildu pastiprinātāju raida jaudīgāk par šo vērtību.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0b7d55b8"
+  },
+  "cmd_tempradio_desc": {
+    "value": "Uz noteiktu minūšu skaitu pārslēdzas uz citiem radio iestatījumiem, tos nesaglabājot. Izmanto to, lai attālināti pārbaudītu jaunus iestatījumus ar automātisku atgriešanos.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "37b19209"
+  },
+  "cmd_freq_desc": {
+    "value": "Iestata tikai frekvenci MHz, un iestatīšanas forma darbojas tikai pa seriālo savienojumu. Pēc tam restartē mezglu, jo jaunā frekvence stājas spēkā tikai pēc restartēšanas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aabd4b62"
+  },
+  "cmd_radio_rxgain_desc": {
+    "value": "Ieslēdz vai izslēdz radio mikroshēmas pastiprināto uztveršanu. Radio bez šī režīma atbild, ka iestatījums tajā netiek atbalstīts.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ecacba86"
+  },
+  "cmd_radio_fem_rxgain_desc": {
+    "value": "Ieslēdz vai izslēdz ārējā radio priekšgala uztveršanas pastiprinātāju. To atbalsta tikai plates ar vadāmu priekšgalu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c71d7980"
+  },
+  "cmd_radio_fem_txgain_desc": {
+    "value": "Pārslēdz ārējā radio priekšgala raidīšanas pastiprinājumu starp tā 2 līmeņiem. To atbalsta tikai plates ar vadāmu priekšgalu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d3f049e3"
+  },
+  "cmd_extra_sf_desc": {
+    "value": "Liek LR2021 radio klausīties arī līdz 3 papildu izkliedes koeficientus. Norādi tos ar komatiem atdalītā sarakstā; citi radio iestatīšanas formu nepieņem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d14313eb"
+  },
+  "cmd_repeat_desc": {
+    "value": "Ieslēdz vai izslēdz citu mezglu pakešu pārsūtīšanu. Izslēdz to, lai mezgls paliktu ēterā, bet neko nepārsūtītu. Istabas serveris atsakās to ieslēgt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c66ee723"
+  },
+  "cmd_path_hash_mode_desc": {
+    "value": "Iestata jaucējvērtības izmēru, ko šis mezgls raksta sūtīto pakešu ceļos. Režīms 0 izmanto 1 baitu, 1 izmanto 2 un 2 izmanto 3.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "486f2338"
+  },
+  "cmd_loop_detect_desc": {
+    "value": "Atmet flood paketes, kuru ceļā šī retranslatora jaucējvērtība jau ir pārāk bieži. Stingrāks līmenis atmet cilpojošu paketi pēc mazāk atkārtojumiem. Retranslators, kas atjaunināts no vecākas versijas, patur iepriekšējo līmeni.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7192683e"
+  },
+  "cmd_txdelay_desc": {
+    "value": "Iestata nejaušu gaidīšanu, pirms mezgls pārsūta flood paketi, mērogotu pēc ētera laika. Lielāka vērtība novērš sadursmes starp retranslatoriem, bet palielina aizkavi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc0b9e0e"
+  },
+  "cmd_direct_txdelay_desc": {
+    "value": "Iestata nejaušu gaidīšanu, pirms mezgls pārsūta tiešo paketi, mērogotu pēc ētera laika. Tiešajām paketēm vajag mazāk gaidīšanas, jo tās pārsūta mazāk mezglu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0f14a917"
+  },
+  "cmd_rxdelay_desc": {
+    "value": "Pirms apstrādes aiztur vājas flood paketes, lai ceļi ar spēcīgu signālu pārsūtītu pirmie. Ar 0 mezgls katru paketi apstrādā uzreiz, neatkarīgi no signāla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9eca669b"
+  },
+  "cmd_dutycycle_desc": {
+    "value": "Ierobežo procentos laika daļu, ko mezgls pavada raidot. Iestati to uz ierobežojumu, kas attiecas uz tavu frekvenču joslu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46f7ce95"
+  },
+  "cmd_af_desc": {
+    "value": "Iestata ētera laika koeficientu, vecāko veidu, kā ierobežot mezgla raidīšanas laika daļu. Tā vietā izmanto dutycycle; af vērtība 9 atbilst 10 procentiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "80189809"
+  },
+  "cmd_int_thresh_desc": {
+    "value": "Uzskata kanālu par aizņemtu, kad tas uzrāda šo dB skaitu virs trokšņu līmeņa. Tad mezgls pirms raidīšanas gaida; 0 šo pārbaudi izslēdz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "32eb85ce"
+  },
+  "cmd_cad_desc": {
+    "value": "Liek radio pirms katras raidīšanas klausīties, vai kanālā ir aktivitāte. Kamēr kanāls ir aizņemts, mezgls ar sūtīšanu gaida.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "998c2731"
+  },
+  "cmd_agc_reset_interval_desc": {
+    "value": "Atiestata radio automātisko pastiprinājuma regulēšanu ik pēc noteikta sekunžu skaita. Mezgls noapaļo uz leju līdz 4 daudzkārtnim; 0 to izslēdz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aa321448"
+  },
+  "cmd_multi_acks_desc": {
+    "value": "Sūta katra apstiprinājuma papildu kopijas, lai uzlabotu piegādi vājos savienojumos. Ar 0 katrs apstiprinājums aiziet tikai vienreiz, bez papildu kopijām.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b2c80c40"
+  },
+  "cmd_flood_max_desc": {
+    "value": "Iestata lēcienu skaitu, pēc kura šis mezgls vairs nepārsūta flood paketi. Samazini to, lai flood paketes neaizceļotu tālu pa mesh tīklu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dee460b4"
+  },
+  "cmd_flood_max_unscoped_desc": {
+    "value": "Iestata lēcienu ierobežojumu flood paketēm bez reģiona. Samazini to, lai šī datplūsma paliktu tuvu mājām.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1003a06a"
+  },
+  "cmd_flood_max_advert_desc": {
+    "value": "Iestata lēcienu ierobežojumu flood paziņojumiem, ko šis mezgls pārsūta. Samazini to, lai paziņojumi nešķērsotu visu mesh tīklu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57c129b9"
+  },
+  "cmd_name_desc": {
+    "value": "Iestata nosaukumu, ko citi mezgli redz šī mezgla paziņojumos. Rakstzīmes [ ] \\ : , ? * nav atļautas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08e6c872"
+  },
+  "cmd_lat_desc": {
+    "value": "Iestata platumu decimālgrādos, ko šis mezgls kopīgo savos paziņojumos. Izmanto to kopā ar lon, lai mezgls kartē būtu pareizajā vietā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ea083178"
+  },
+  "cmd_lon_desc": {
+    "value": "Iestata garumu decimālgrādos, ko šis mezgls kopīgo savos paziņojumos. Izmanto to kopā ar lat, lai mezgls kartē būtu pareizajā vietā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fe5f8039"
+  },
+  "cmd_prv_key_desc": {
+    "value": "Parāda vai aizstāj privāto atslēgu, kas nosaka mezgla identitāti. Forma get darbojas tikai pa seriālo savienojumu; pēc atslēgas iestatīšanas restartē mezglu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3500931c"
+  },
+  "cmd_password_desc": {
+    "value": "Maina administratora paroli un atgriež jauno, lai tu varētu to pārbaudīt. Nomaini to katrā jaunā mezglā, jo noklusējuma parole ir publiska.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a33a87f1"
+  },
+  "cmd_guest_password_desc": {
+    "value": "Iestata viesa paroli; istabas serverī tā dod lasīšanas un rakstīšanas piekļuvi. Kopīgo to ar cilvēkiem, kurus vēlies ielaist istabā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67348593"
+  },
+  "cmd_owner_info_desc": {
+    "value": "Iestata kontaktteikstu, ko citi var pieprasīt no mezgla, piemēram, tavu vārdu. Ieraksti rakstzīmi |, kur vēlies sākt jaunu rindu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "928a68a4"
+  },
+  "cmd_adc_multiplier_desc": {
+    "value": "Koriģē mezgla akumulatora sprieguma rādījumu ar tavai platei atbilstošu reizinātāju. Ar 0 tu atgriezies pie vērtības, ko nosaka pati plate.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0383a608"
+  },
+  "cmd_powersaving_desc": {
+    "value": "Ļauj mezglam starp radio aktivitāti gulēt, lai taupītu akumulatora enerģiju. Tas darbojas uz nRF52 platēm un ESP32 būvējumos bez tilta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3e791562"
+  },
+  "cmd_setperm_desc": {
+    "value": "Piešķir companion ierīcei lomu šajā mezglā, atrodot to pēc publiskās atslēgas. Ar 0 tu ierakstu noņem; citām lomām vajag pilnu atslēgu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "93a740af"
+  },
+  "cmd_acl_desc": {
+    "value": "Izvada piekļuves sarakstu ar katras companion ierīces atļaujām un publisko atslēgu. Tā darbojas tikai seriālajā konsolē, nevis pa mesh tīklu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "784d80d9"
+  },
+  "cmd_allow_read_only_desc": {
+    "value": "Ļauj cilvēkiem ar nepareizu vai tukšu paroli pievienoties istabas serverim tikai lasīšanai. Izslēdz to, lai ielaistu tikai tos, kas zina paroli.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a845f89b"
+  },
+  "cmd_region_desc": {
+    "value": "Parāda pilnu mezgla reģionu koku ar katra reģiona flood karodziņu. F nozīmē, ka flood ir atļauts, un ^ apzīmē mājas reģionu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "07dd7f25"
+  },
+  "cmd_region_load_desc": {
+    "value": "Sāk reģionu koka masveida ievadi, pa vienam reģionam rindā, ar atstarpju atkāpēm. Pievieno F, lai atļautu flood, un pabeidz ar tukšu rindu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d2da253a"
+  },
+  "cmd_region_save_desc": {
+    "value": "Saglabā tavas reģionu izmaiņas mezgla krātuvē, lai tās saglabātos pēc restartēšanas. Palaid to pēc katras reģionu izmaiņas, kuru vēlies paturēt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bd6cb636"
+  },
+  "cmd_region_flood_desc": {
+    "value": "Atļauj vai bloķē flood pakešu pārsūtīšanu reģionam. Izmanto * paketēm, kurām reģiona nav vispār.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "58acd9db"
+  },
+  "cmd_region_get_desc": {
+    "value": "Parāda vienu reģionu ar tā vecāku un F, ja tam flood ir atļauts. Izmanto to, lai pārbaudītu vienu reģionu, nelasot visu koku.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33ef40c6"
+  },
+  "cmd_region_home_desc": {
+    "value": "Parāda vai iestata mājas reģionu, ko reģionu kokā apzīmē ar ^. Pēc tam palaid region save, lai izmaiņa saglabātos pēc restartēšanas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90b9c539"
+  },
+  "cmd_region_default_desc": {
+    "value": "Parāda vai iestata reģionu, ko mezgls liek savām flood paketēm, piemēram, paziņojumiem. Mezgls izmaiņu saglabā uzreiz; <null> to notīra.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b478cd71"
+  },
+  "cmd_region_put_desc": {
+    "value": "Pievieno reģionu aizstājējzīmei vai tevis norādītam vecākam, ar atļautu flood. Pēc tam palaid region save, lai jaunais reģions saglabātos pēc restartēšanas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90f4ec6d"
+  },
+  "cmd_region_def_desc": {
+    "value": "Izveido reģionu koku vienā rindā, kur katrs nosaukums ir iepriekšējā bērns. Raksti name|jump, lai nākamo nosaukumu turpinātu no agrāka reģiona.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "80bfbfce"
+  },
+  "cmd_region_remove_desc": {
+    "value": "Noņem reģionu pēc precīza nosaukuma, kad tam vairs nav bērnu reģionu. Pēc tam palaid region save, lai noņemšana saglabātos pēc restartēšanas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0677775b"
+  },
+  "cmd_region_list_desc": {
+    "value": "Parāda to reģionu nosaukumus, kur flood ir atļauts vai bloķēts. Izmanto to ātrai pārbaudei bez pilna koka.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8156296"
+  },
+  "cmd_gps_desc": {
+    "value": "Parāda, vai GPS ir ieslēgts, vai tam ir fiksācija un cik satelītu tas redz. Formas on un off pārslēdz GPS un saglabā izvēli.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6b7484f4"
+  },
+  "cmd_gps_diag_desc": {
+    "value": "Parāda, vai GPS ir ieslēgts, cik satelītu tas redz un vai tam ir fiksācija. Izmanto to, kad mezgls nesaņem pozīciju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f5838af7"
+  },
+  "cmd_gps_sync_desc": {
+    "value": "Iestata mezgla pulksteni pēc laika, ko saņem GPS. Izmanto to, kad mezglam nav cita pareiza laika avota.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9992274d"
+  },
+  "cmd_gps_setloc_desc": {
+    "value": "Kopē pašreizējo GPS pozīciju mezgla saglabātajā platumā un garumā. Izmanto to vienreiz uz vietas, pēc tam izslēdz GPS.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2e7052c8"
+  },
+  "cmd_gps_advert_desc": {
+    "value": "Izvēlas pozīciju paziņojumos: none, tiešo GPS vai saglabātos lat un lon. Izmanto none, lai mezgla atrašanās vieta paliktu privāta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e7bb3d85"
+  },
+  "cmd_sensor_list_desc": {
+    "value": "Parāda sensoru pārvaldnieka pielāgotos iestatījumus ar to vērtībām. Garš saraksts beidzas ar indeksu, no kura turpināt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "af32a1b7"
+  },
+  "cmd_sensor_setting_desc": {
+    "value": "Nolasa vai maina vienu sensoru pārvaldnieka pielāgoto iestatījumu pēc tā nosaukuma. Vispirms izmanto sensor list, lai redzētu, kādus nosaukumus plate piedāvā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c470cf70"
+  },
+  "cmd_io_desc": {
+    "value": "Nolasa vai raksta plates GPIO kontaktus kā hex bitu masku. Pirms maskas liec r, s vai t, lai bitus atiestatītu, iestatītu vai pārslēgtu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ede2acc1"
+  },
+  "cmd_bridge_type_desc": {
+    "value": "Parāda, kāds tilts ir iebūvēts šajā programmaparatūrā: rs232, espnow vai none. Izmanto to, lai pārbaudītu, vai ierakstīji būvējumu ar tiltu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54cbb77e"
+  },
+  "cmd_bridge_enabled_desc": {
+    "value": "Ieslēdz vai izslēdz tiltu; tas kopē paketes starp mesh tīklu un citu savienojumu. Šis savienojums ir seriālais kabelis vai ESP-NOW, atkarībā no būvējuma.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7249ccd6"
+  },
+  "cmd_bridge_delay_desc": {
+    "value": "Iestata, cik milisekundes tilts gaida, pirms pārsūta paketi tālāk. Palielini to, kad tilta paketes saduras ar datplūsmu mesh tīklā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c8895baa"
+  },
+  "cmd_bridge_source_desc": {
+    "value": "Izvēlas, vai tilts kopē šī mezgla saņemtās vai nosūtītās paketes. Ieraksti rx vai tx, lai to iestatītu; get atbild ar logRx vai logTx.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d81577c2"
+  },
+  "cmd_bridge_baud_desc": {
+    "value": "Iestata RS-232 tilta seriālo ātrumu bodos. Abiem seriālā kabeļa galiem vajag vienādu ātrumu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7322814d"
+  },
+  "cmd_bridge_channel_desc": {
+    "value": "Iestata WiFi kanālu, ko ESP-NOW tilts izmanto savam savienojumam. Katram tiltam, kas sazinās ar šo, vajag to pašu kanālu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "924d978f"
+  },
+  "cmd_bridge_secret_desc": {
+    "value": "Iestata kopīgo noslēpumu, kas ESP-NOW tiltā sajauc paketes. Izmanto to pašu noslēpumu katrā tiltā, kas sazinās ar šo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b1df9356"
+  },
+  "cmd_eth_status_desc": {
+    "value": "Parāda Ethernet konsoles IP adresi un portu vai to, ka tā ir bezsaistē. Tā darbojas seriālajā un Ethernet konsolē, nevis pa mesh tīklu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b27f99e8"
+  },
+  "cmd_pin_desc": {
+    "value": "Iestata Bluetooth PIN, ko tālrunis prasa savienošanas pārī laikā, pēc restartēšanas. Ar 0 plate ar ekrānu katrā startā rāda jaunu PIN, bet plate bez ekrāna izmanto 123456.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "82dc0ee0"
+  },
+  "cmd_tz_offset_desc": {
+    "value": "Iestata tavu laika joslu veselās stundās no UTC. Companion ierīce to izmanto pulkstenim savā ekrānā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d2a9942a"
+  },
+  "cmd_wifi_ssid_desc": {
+    "value": "Parāda vai iestata WiFi tīkla nosaukumu, kuram companion ierīce pievienojas. Iestati arī wifi.pwd, pēc tam restartē, lai izveidotu savienojumu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e53eb6a"
+  },
+  "cmd_wifi_pwd_desc": {
+    "value": "Parāda vai iestata WiFi tīkla paroli, un restartē, lai to lietotu. To var nolasīt arī kontakts, kuram atļauj sūtīt komandas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "15b5453a"
+  },
+  "cmd_wifi_enabled_desc": {
+    "value": "Ieslēdz WiFi ar 1 vai izslēdz ar 0, pēc restartēšanas. Bez tīkla nosaukuma companion ierīce WiFi nestartē.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7dbbf8f1"
+  },
+  "cmd_wifi_clear_desc": {
+    "value": "Noņem WiFi tīkla nosaukumu un paroli no companion ierīces. Restartē, lai lietotu izmaiņu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "29938727"
+  },
+  "cmd_wifi_status_desc": {
+    "value": "Parāda, vai companion ierīce ir savienota ar WiFi, un tās IP adresi tavā tīklā. Companion ierīce pieņem lietotnes savienojumus šajā adresē, portā 5000.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "38894245"
+  },
+  "keygen_find_title": {
+    "value": "1. Atrodi brīvu prefiksu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "23440ddd"
+  },
+  "keygen_find_body": {
+    "value": "Prefiksu rīks parāda, kādus prefiksus mezgli jau izmanto, un iesaka brīvu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8b4149b8"
+  },
+  "keygen_find_link": {
+    "value": "Atvērt Prefiksu rīku",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ad418bc8"
+  },
+  "keygen_make_title": {
+    "value": "2. Izveido ar to atslēgu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "55671108"
+  },
+  "keygen_needs_js": {
+    "value": "Šis rīks darbojas tavā pārlūkā, un tam vajag JavaScript.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9128273b"
+  },
+  "keygen_prefix_label": {
+    "value": "Prefikss, hex formātā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c5fe4703"
+  },
+  "keygen_prefix_hint": {
+    "value": "2 rakstzīmes 1 baitam, 4 rakstzīmes 2 baitiem. Programmaparatūra noraida 00 un FF.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "60646fe6"
+  },
+  "keygen_make": {
+    "value": "Izveidot atslēgu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f2e49767"
+  },
+  "keygen_stop": {
+    "value": "Apturēt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cae7d57b"
+  },
+  "keygen_working": {
+    "value": "Mēģina atslēgas: līdz šim {n}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10781c37"
+  },
+  "keygen_done": {
+    "value": "Atrasta pēc {n} mēģinājumiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8495a72b"
+  },
+  "keygen_stopped": {
+    "value": "Apturēts. Mēģini vēlreiz vai izvēlies īsāku prefiksu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "731c66a8"
+  },
+  "keygen_bad": {
+    "value": "Ieraksti 2 vai 4 hex rakstzīmes (0-9, a-f), kas nesākas ar 00 vai FF.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9569dc0f"
+  },
+  "keygen_unsupported": {
+    "value": "Tavs pārlūks nevar izveidot Ed25519 atslēgas. Izmanto Chrome 137, Firefox 129, Safari 17 vai jaunāku.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "70cf8b1d"
+  },
+  "keygen_set_title": {
+    "value": "3. Iestati to savā retranslatorā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "37e17307"
+  },
+  "keygen_set_body": {
+    "value": "Palaid šo komandu savā retranslatorā, pēc tam to restartē. Tas patur iestatījumus un piekļuves sarakstu, bet visiem kļūst par jaunu mezglu. Pēc tā pirmā paziņojuma pievieno to lietotnē vēlreiz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c80b8962"
+  },
+  "keygen_public": {
+    "value": "Publiskā atslēga",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ee252fb"
+  },
+  "keygen_secret": {
+    "value": "Šī ir tava retranslatora privātā atslēga. Ikviens, kam tā ir, var uzdoties par tavu retranslatoru, tāpēc paturi to pie sevis. To izveidoja tavs pārlūks, un šī lapa to nekur nesūta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b4d3d7d1"
+  },
+  "guides_card_keygen_title": {
+    "value": "Ģenerēt atslēgu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e798fa1b"
+  },
+  "guides_card_keygen_desc": {
+    "value": "Piešķir savam retranslatoram prefiksu, ko neizmanto neviens retranslators tavā tuvumā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "267f04fa"
+  },
+  "ch_needs_js": {
+    "value": "Kanālu saraksts darbojas tavā pārlūkā, un tam vajag JavaScript. Tos pašus kanālus rāda Analyzer:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57228d02"
+  },
+  "ch_source": {
+    "value": "MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ed180c11"
+  },
+  "ch_list_title": {
+    "value": "Tavā valstī dzirdētie kanāli",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6a3ddfed"
+  },
+  "ch_country_label": {
+    "value": "Tava valsts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "18f2456a"
+  },
+  "ch_country_pick": {
+    "value": "Izvēlies valsti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "632aadfb"
+  },
+  "ch_search": {
+    "value": "Meklē nosaukumu vai reģionu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67d2c527"
+  },
+  "ch_loading": {
+    "value": "Ielādē kanālus...",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e4e9f6e5"
+  },
+  "ch_error": {
+    "value": "Kanālu saraksts neielādējās. Mēģini vēlāk; jebkura zemāk esošā #nosaukuma atslēga joprojām darbojas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f653e69d"
+  },
+  "ch_count": {
+    "value": "{country} dzirdēti {n} kanāli, vispirms tie ar visvairāk ziņām.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "923bf6a5"
+  },
+  "ch_messages": {
+    "value": "ziņas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f5cccfb7"
+  },
+  "ch_key": {
+    "value": "Atslēga",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "99a52df3"
+  },
+  "ch_source_note": {
+    "value": "Tiešraidē no",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1db8edb5"
+  },
+  "ch_calc_title": {
+    "value": "Jebkura #kanāla atslēga",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ad70964d"
+  },
+  "ch_calc_body": {
+    "value": "Ieraksti kanāla nosaukumu, kas sākas ar #. Atslēga izriet no nosaukuma, tāpēc tu saņem to pašu atslēgu, ko lietotnē.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8531d7e8"
+  },
+  "ch_calc_label": {
+    "value": "Kanāla nosaukums",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2fe4a2e8"
+  },
+  "guides_card_channels_title": {
+    "value": "Atrast kanālus",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9905513b"
+  },
+  "guides_card_channels_desc": {
+    "value": "Kanāli, ko izmanto cilvēki tavā tuvumā, un kā tiem pievienoties.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2b7ffced"
+  },
+  "ch_count_one": {
+    "value": "{country} dzirdēts 1 kanāls.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8f1ca51"
+  },
+  "ch_show_all": {
+    "value": "Rādīt visus {n} kanālus",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2afe05c3"
+  },
+  "area_other_presets_title": {
+    "value": "Citi priekšiestatījumi MeshCore lietotnē",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e8ca0063"
+  },
+  "area_other_presets_body": {
+    "value": "Lietotne parāda arī šos Eiropas priekšiestatījumus, nenosaucot tiem apgabalu. 433 MHz priekšiestatījumam vajag plati ar 433 MHz radio.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "86f82c5c"
+  },
+  "net_live_title": {
+    "value": "Ko dzird novērotāji",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f89055eb"
+  },
+  "net_live_packets": {
+    "value": "paketes pēdējā pilnajā stundā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e3e24e13"
+  },
+  "net_live_countries": {
+    "value": "valstis, kas dzirdētas pēdējā stundā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "502cba0e"
+  },
+  "net_live_repeaters": {
+    "value": "retranslatori, kas dzirdēti pēdējās 7 dienās",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2890ece6"
+  },
+  "net_live_observers": {
+    "value": "novērotāji pēdējā stundā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6825b26c"
+  },
+  "net_live_source": {
+    "value": "Tiešraides skaitļi no",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f063c292"
+  },
+  "net_join_title": {
+    "value": "Pievieno savu novērotāju",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e772f141"
+  },
+  "net_join_body": {
+    "value": "Katrs novērotājs parāda nedaudz vairāk no mesh tīkla visiem Eiropā. Izvēlies sev piemērotu veidu; MeshCore Analyzer parāda soļus.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "de341930"
+  },
+  "net_way_app_title": {
+    "value": "Ar lietotni KiekR",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "51c6a5e5"
+  },
+  "net_way_app_desc": {
+    "value": "Savieno MeshCore radio ar tālruni pa Bluetooth. Lietotne ziņo, ko dzird, un tev nekas nav jāieraksta ierīcē.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9ae6b7d2"
+  },
+  "net_way_browser_title": {
+    "value": "No sava pārlūka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c6b5042e"
+  },
+  "net_way_browser_desc": {
+    "value": "Pievieno radio pa USB vai Bluetooth pārlūkā Chrome vai Edge. Pārlūks ziņo, kamēr cilne paliek atvērta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "72fc7d03"
+  },
+  "net_way_board_title": {
+    "value": "Ar vienmēr ieslēgtu plati",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "574c32a6"
+  },
+  "net_way_board_desc": {
+    "value": "Ieraksti novērotāja programmaparatūru LoRa platē. Tā pati ziņo pa WiFi, dienu un nakti.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1742bfea"
+  },
+  "project_site": {
+    "value": "Tīmekļa vietne",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5a229ac"
+  },
+  "home_town_title": {
+    "value": "Izseko vienu ziņu pāri jumtiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b6669c81"
+  },
+  "home_town_lead": {
+    "value": "Tavs tālrunis vai klēpjdators nosūta ziņu tavai companion ierīcei pa Bluetooth vai USB. Companion ierīce to pa radio nosūta retranslatoram uz jumta. No turienes tā lec no jumta uz jumtu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2af5006f"
+  },
+  "home_town_tag_phone": {
+    "value": "Tālrunis vai klēpjdators",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54c8157f"
+  },
+  "home_town_tag_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dadb328"
+  },
+  "home_town_tag_repeater": {
+    "value": "Retranslators",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "home_town_tag_mast2": {
+    "value": "Citi retranslatori",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3aa62b45"
+  },
+  "home_town_companion_title": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dadb328"
+  },
+  "home_town_companion_desc": {
+    "value": "Radio, no kura sūti ziņas. Savieno to ar tālruni vai klēpjdatoru, vai izvēlies tādu ar savu ekrānu un tastatūru, kas darbojas patstāvīgi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c70389e6"
+  },
+  "home_town_companion_link": {
+    "value": "Izvēlies companion ierīci",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5eba6690"
+  },
+  "home_town_repeater_title": {
+    "value": "Retranslators",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "home_town_repeater_desc": {
+    "value": "Pārsūta ziņas visiem apkārtējiem. Lielākā daļa darbojas ar saules enerģiju. Savs tev vajadzīgs tikai tur, kur mesh tīkls vēl nesniedzas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3db0ed15"
+  },
+  "home_town_repeater_link": {
+    "value": "Kad uzstādīt retranslatoru",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c5154fb9"
+  },
+  "home_town_mesh_title": {
+    "value": "Mesh tīkls",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "199c9527"
+  },
+  "home_town_mesh_desc": {
+    "value": "Retranslatori pārsūta ziņu tik tālu, cik viens otru dzird. Reģioni to notur tuvumā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2d14f895"
+  },
+  "home_town_mesh_link": {
+    "value": "Apskati tīklu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6f3b43a5"
+  },
+  "planned_label": {
+    "value": "Plānots",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fb6f7c93"
+  },
+  "planned.guides-filter.lead": {
+    "value": "Ar pakešu filtru atmet datplūsmu, ko tavam retranslatoram nevajadzētu pārsūtīt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ef203a0d"
+  },
+  "planned.guides-filter.what.title": {
+    "value": "Ko dara filtrs",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "88a35f90"
+  },
+  "planned.guides-filter.what.desc": {
+    "value": "Kuras paketes retranslators var atmest un kā tas notur mesh tīklu klusu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4a3c7cb5"
+  },
+  "planned.guides-filter.configs.title": {
+    "value": "Ieteicamās konfigurācijas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "42763607"
+  },
+  "planned.guides-filter.configs.desc": {
+    "value": "Gatavi iestatījumi biežiem gadījumiem, piemēram, trokšņaina kanāla bloķēšanai.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2ef6b9e2"
+  },
+  "planned.guides-filter.settings.title": {
+    "value": "Visi iestatījumi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "07182ebe"
+  },
+  "planned.guides-filter.settings.desc": {
+    "value": "Katrs filtra iestatījums ar tā komandu un to, ko tas maina.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b73f8c55"
+  },
+  "planned.guides-mqtt.lead": {
+    "value": "Ļauj savai vienmēr ieslēgtajai platei ziņot MeshCore Analyzer, ko tā dzird.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5aa10eb5"
+  },
+  "planned.guides-mqtt.need.title": {
+    "value": "Kas tev vajadzīgs",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e17c85cc"
+  },
+  "planned.guides-mqtt.need.desc": {
+    "value": "Plate ar novērotāja programmaparatūru un Wi-Fi, kā arī brokera adrese.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f9b88653"
+  },
+  "planned.guides-mqtt.settings.title": {
+    "value": "Iestatījumi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "74a883a0"
+  },
+  "planned.guides-mqtt.settings.desc": {
+    "value": "Wi-Fi, brokera un tēmas iestatījumi, kas vajadzīgi tavai platei.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3d2f63e9"
+  },
+  "planned.guides-mqtt.commands.title": {
+    "value": "Komandas tavam brokerim",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d2db5c84"
+  },
+  "planned.guides-mqtt.commands.desc": {
+    "value": "Komandas ielīmēšanai, aizpildītas tevis izvēlētajam brokerim.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1a37dddf"
+  },
+  "planned.guides-mqtt.check.title": {
+    "value": "Pārbaudi, vai darbojas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2249f06f"
+  },
+  "planned.guides-mqtt.check.desc": {
+    "value": "Kā atrast savu novērotāju MeshCore Analyzer.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2e45d8f2"
+  },
+  "net_data_title": {
+    "value": "Kā dati nonāk šeit",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d199acc6"
+  },
+  "net_data_lead": {
+    "value": "Katrs skaitlis šajā vietnē nāk no cilvēkiem, kas klausās un dalās dzirdētajā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d162c9f3"
+  },
+  "net_data_from_title": {
+    "value": "No kurienes tie nāk",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "87362334"
+  },
+  "net_data_from_body": {
+    "value": "Novērotāji pa MQTT ziņo dzirdēto brokerim, serverim, kas apkopo ziņojumus. Viņi ziņo uz mqtt.meshcore-analyzer.eu vai citam brokerim, ko Analyzer lasa. Ziņo arī lietotne KiekR un pārlūka novērotājs. Analyzer ielādē arī CoreScope analizatorus, kuru īpašnieki tam piekrita. Katru brokeri un analizatoru lasa ar tā īpašnieka atļauju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5604e25f"
+  },
+  "net_data_way_title": {
+    "value": "Kas notiek pa ceļam",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0e5c3f7c"
+  },
+  "net_data_way_body": {
+    "value": "Viena ziņa, ko dzirdējuši daudzi novērotāji, tiek skaitīta vienreiz. Analyzer to atkodē un veido no tās kartes, skaitļus un kanālu sarakstu. Tas glabā katru ziņu, bet katra novērotāja dzirdētais paliek 10 dienas. Stundu skaitļi paliek līdz 30 dienām, dienas kopsummas paliek uz visiem laikiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57413efc"
+  },
+  "net_data_node_title": {
+    "value": "Ko citi redz par tavu mezglu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a6245d5e"
+  },
+  "net_data_node_body": {
+    "value": "Citi redz tā nosaukumu, publisko atslēgu, veidu un atrašanās vietu, ja tu to kopīgo. Tavas tiešās ziņas paliek šifrētas. Ziņas kanālā Public un tēmturu kanālos var lasīt ikviens, arī Analyzer.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0f5e507d"
+  },
+  "net_data_q_title": {
+    "value": "Jautājumi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9a72221a"
+  },
+  "net_data_q1": {
+    "value": "Vai mans mezgls ir kartē?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ec3057eb"
+  },
+  "net_data_a1": {
+    "value": "Tikai tad, ja novērotājs ir dzirdējis tā advert, paketi, ar ko mezgls sevi piesaka. Mezgls tālu no novērotājiem kartē neparādās.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "393d0df5"
+  },
+  "net_data_q2": {
+    "value": "Vai Analyzer var lasīt manas tiešās ziņas?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1cd884fb"
+  },
+  "net_data_a2": {
+    "value": "Nē. Atslēga ir tikai tev un otram cilvēkam.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c6b0e033"
+  },
+  "net_data_q3": {
+    "value": "Vai varu sūtīt datus no sava rīka?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "52255bf4"
+  },
+  "net_data_a3": {
+    "value": "Jā: publicē pa MQTT uz mqtt.meshcore-analyzer.eu, parakstot ar sava mezgla atslēgu, kā to dara novērotājs. {link} parāda, kā pieslēgties.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "171daa27"
+  },
+  "net_data_analyzer_link": {
+    "value": "MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ed180c11"
+  },
+  "net_data_q4": {
+    "value": "Vai varu izmantot Analyzer datus?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2154596d"
+  },
+  "net_data_a4": {
+    "value": "Vispirms pajautā tā vietnē: {link}. Analyzer neatļauj automatizētu datu vākšanu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b935a213"
+  },
+  "release_role_companion": {
+    "value": "Pavadonis",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dadb328"
+  },
+  "release_role_repeater": {
+    "value": "Retranslators",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "release_role_room_server": {
+    "value": "Istabas serveris",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68b91cc5"
+  },
+  "release_notes_link": {
+    "value": "Oficiālās laidiena piezīmes",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8bc96136"
+  },
+  "release.v1-18-0.1": {
+    "value": "Tavam pavadonim ir komandrinda: atver Command Line lietotnē, versijā 1.50 vai jaunākā. Kontakts, kuram tu dod Remote CLI atļauju, var sūtīt tam komandas pa mesh tīklu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14cedc6a"
+  },
+  "release.v1-18-0.2": {
+    "value": "Jauni iestatīts retranslators pats ieslēdz minimālo cilpu noteikšanu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14ac329c"
+  },
+  "release.v1-18-0.3": {
+    "value": "Retranslators ar izslēgtiem advert vairs neparādās, kad citi meklē mezglus.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "73a74341"
+  },
+  "release.v1-18-0.4": {
+    "value": "ESP32 platēs pulkstenis saglabājas pēc pārstartēšanas, un lielākā daļa nRF52 plašu vairs neatsakās startēt ar zemu akumulatora līmeni.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "236a3861"
+  },
+  "release.v1-18-0.5": {
+    "value": "Jaunas plates: Thinknode M4 un M8, Wio Tracker L1 1W, Muzi Base un Waveshare ESP32-S3 LR1121.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1355f413"
+  },
+  "release.v1-18-0.6": {
+    "value": "Bluetooth pavadoņa programmaparatūra vairākās platēs atbalsta arī WiFi, starp tām Heltec, Wireless Paper, RAK un Xiao S3; iestati to lietotnē.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0d070c73"
+  },
+  "release.v1-17-1.1": {
+    "value": "Platēs ar ārējo pastiprinātāju uztveršanas pastiprinājuma iestatījums tagad saglabājas. Pēc atjaunināšanas pārbaudi radio.fem.rxgain un radio.rxgain savā retranslatorā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aa6980e3"
+  },
+  "release.v1-17-1.2": {
+    "value": "Sūtīšana atkal darbojas Heltec T096, un T-Beam Supreme ekrāns atkal rāda attēlu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8973538"
+  },
+  "release.v1-17-0.1": {
+    "value": "Katra programmaparatūra glabā iestatījumus jaunā formātā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2acf27c2"
+  },
+  "release.v1-17-0.2": {
+    "value": "Retranslatoru izslēdz ar ilgu pogas nospiešanu. Jaunas komandas: set cad retranslatoriem un room.post istabu serveriem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "96f0d3d9"
+  },
+  "release.v1-17-0.3": {
+    "value": "nRF52 plates izmanto iebūvēto šifrēšanas mikroshēmu, un plates patērē mazāk enerģijas hibernācijā un izslēgtas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3daf5825"
+  },
+  "release.v1-17-0.4": {
+    "value": "Jaunas plates: Heltec V4 R8, RC32 un Tower V2, Thinknode M7 un M9, Sensecap MeshTracker X1, kā arī radio ar LR2021 mikroshēmu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b90c5ac8"
+  },
+  "release.v1-17-0.5": {
+    "value": "Retranslatori labāk klausās pirms sūtīšanas, tāpēc noslogotos mesh tīklos ir mazāk sadursmju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3061d4fd"
+  },
+  "console_needs_js": {
+    "value": "Konsolei vajag JavaScript un pārlūku ar piekļuvi USB: Chrome, Edge vai Opera datorā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "07c6b52a"
+  },
+  "console_connect": {
+    "value": "Pievieno savu mezglu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bb8e5e01"
+  },
+  "console_disconnect": {
+    "value": "Atvienot",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "acfc5be7"
+  },
+  "console_copy": {
+    "value": "Kopēt žurnālu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e01862b2"
+  },
+  "console_send": {
+    "value": "Sūtīt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f6f4688f"
+  },
+  "console_command_label": {
+    "value": "Komanda",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71316697"
+  },
+  "console_log_label": {
+    "value": "Ko saka tavs mezgls",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "84925ecb"
+  },
+  "console_status_idle": {
+    "value": "Iesprausti savu mezglu, tad pievienojies un izvēlies tā portu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3ebc3314"
+  },
+  "console_status_asking": {
+    "value": "Savienots. Jautā tavam mezglam, kas tas ir.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "02b45460"
+  },
+  "console_status_connected": {
+    "value": "Savienots. Ieraksti komandu un nospied Enter.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d216f35b"
+  },
+  "console_status_lost": {
+    "value": "Savienojums ir zudis. Pārbaudi kabeli un pievienojies vēlreiz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "98fa83ae"
+  },
+  "console_status_busy": {
+    "value": "Portu neizdevās atvērt. Aizver citu programmu vai cilni, kas to izmanto, un mēģini vēlreiz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cf4e9cbd"
+  },
+  "console_status_unsupported": {
+    "value": "Šis pārlūks nevar piekļūt USB. Izmanto Chrome, Edge vai Opera datorā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8ef7eebe"
+  },
+  "console_status_copied": {
+    "value": "Žurnāls ir nokopēts.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "617d378e"
+  },
+  "console_status_copy_failed": {
+    "value": "Žurnālu neizdevās nokopēt. Atlasi to un nokopē ar roku.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "45bd5465"
+  },
+  "console_commands_before": {
+    "value": "Katra komanda ir izskaidrota sadaļā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68ef84d1"
+  },
+  "console_commands_link": {
+    "value": "CLI komandas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a13cc6cb"
+  },
+  "console_commands_after": {
+    "value": ".",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cdb4ee2a"
+  },
+  "console_node_known": {
+    "value": "Ieteikumos redzamas komandas, ko šis mezgls saprot.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "345c274c"
+  },
+  "console_node_unknown": {
+    "value": "Tavs mezgls nenosauca savu lomu. Ieteikumos redzamas retranslatoru, istabu serveru un sensoru komandas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "503c0064"
+  },
+  "console_dmc_before": {
+    "value": "Šajā mezglā darbojas DutchMeshCore programmaparatūra. Ieteikumos redzamas pašas MeshCore komandas. DutchMeshCore komandas atrodas vietnē",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b17e7f2e"
+  },
+  "console_more_link": {
+    "value": "{command} CLI ceļvedī",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9e207731"
+  },
+  "console_dmc_link": {
+    "value": "DutchMeshCore CLI wiki",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ccc16968"
+  },
+  "console_dmc_after": {
+    "value": ".",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cdb4ee2a"
+  },
+  "console_suggestions_label": {
+    "value": "Ieteiktās komandas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "36d1238e"
+  },
+  "console_key_fill": {
+    "value": "aizpilda",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cf686f44"
+  },
+  "console_key_choose": {
+    "value": "izvēlēties",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "725fed9d"
+  },
+  "console_key_guide": {
+    "value": "atver CLI ceļvedi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "de7ca5a8"
+  },
+  "console_key_close": {
+    "value": "aizver",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b2850942"
+  },
+  "console_trouble_title": {
+    "value": "Ja savienojums neizdodas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0cce4809"
+  },
+  "console_trouble_1": {
+    "value": "Izmanto datu kabeli. Daži kabeļi tikai uzlādē.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "958a8d54"
+  },
+  "console_trouble_2": {
+    "value": "Aizver citas programmas, kas izmanto portu, piemēram, citu konsoli vai šīs vietnes ierakstītāju citā cilnē.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fc9daa0a"
+  },
+  "console_trouble_3": {
+    "value": "Izvēlies pareizo portu: atvieno mezglu, skaties, kurš ports pazūd, un iesprausti to atpakaļ.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "75120995"
+  },
+  "console_trouble_4": {
+    "value": "Firefox un Safari no tīmekļa lapas nevar piekļūt USB. Izmanto Chrome, Edge vai Opera datorā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71403007"
+  },
+  "usb_title": {
+    "value": "Nosūti uz savu retranslatoru pa USB.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "815598af"
+  },
+  "usb_body": {
+    "value": "Iesprausti savu retranslatoru, pievienojies un pirms sūtīšanas pārbaudi, kas mainās.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5a67e201"
+  },
+  "usb_connect": {
+    "value": "Pievieno savu retranslatoru",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aaf2563c"
+  },
+  "usb_check": {
+    "value": "Pārbaudi, kas mainās",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3ee77f8f"
+  },
+  "usb_send": {
+    "value": "Nosūti iestatījumus",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7e2580db"
+  },
+  "usb_reboot": {
+    "value": "Pārstartē savu retranslatoru",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "19394bd3"
+  },
+  "usb_disconnect": {
+    "value": "Atvienot",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "acfc5be7"
+  },
+  "usb_col_command": {
+    "value": "Komanda",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71316697"
+  },
+  "usb_col_now": {
+    "value": "Tagad",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fe18013d"
+  },
+  "usb_col_reply": {
+    "value": "Atbilde",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c253f451"
+  },
+  "usb_col_new": {
+    "value": "Jaunā vērtība",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7ca9b97d"
+  },
+  "usb_no_answer": {
+    "value": "nav atbildes",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ad03eb5e"
+  },
+  "usb_status_idle": {
+    "value": "Nav savienots.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3b3d2796"
+  },
+  "usb_status_connected": {
+    "value": "Savienots. Vispirms pārbaudi, kas mainās.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4bb28123"
+  },
+  "usb_status_busy": {
+    "value": "Ports ir aizņemts. Aizver citu programmu vai cilni, kas to izmanto, un mēģini vēlreiz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "438a57fa"
+  },
+  "usb_status_fill": {
+    "value": "Vispirms ieraksti {value} augstāk redzamajās komandās.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d903306b"
+  },
+  "usb_status_reading": {
+    "value": "Nolasa tava retranslatora iestatījumus.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "222e3b98"
+  },
+  "usb_status_review": {
+    "value": "Salīdzini pašreizējās vērtības ar jaunajām, tad sūti.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "017b629e"
+  },
+  "usb_status_sent": {
+    "value": "Nosūtīts. Tavs retranslators pieņēma katru komandu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4cf46e54"
+  },
+  "usb_status_sent_errors": {
+    "value": "Nosūtīts, bet tavs retranslators dažas komandas noraidīja vai neatbildēja. Pārbaudi atbildes.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f77c4ebb"
+  },
+  "usb_status_rebooted": {
+    "value": "Retranslators pārstartējas ar jaunajiem radio iestatījumiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "79ddf8f8"
+  },
+  "flash_releases_link": {
+    "value": "MeshCore laidieni GitHub",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "db7cf404"
+  },
+  "flash_no_match": {
+    "value": "Neviena plate neatbilst. Pamēģini īsāku vārdu vai izvēlies no saraksta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cdba666f"
+  },
+  "flash_needs_js": {
+    "value": "Ierakstītājam vajag JavaScript. Bez tā visi faili ir šeit: {link}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc36838c"
+  },
+  "flash_board_title": {
+    "value": "Izvēlies savu plati",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "225d5074"
+  },
+  "flash_filter_label": {
+    "value": "Meklēt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "49c266ba"
+  },
+  "flash_board_label": {
+    "value": "Plate",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4816cbfd"
+  },
+  "flash_role_label": {
+    "value": "Loma",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14736a2e"
+  },
+  "flash_role_ble": {
+    "value": "Pavadonis, Bluetooth",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2c1378a3"
+  },
+  "flash_role_usb": {
+    "value": "Pavadonis, USB",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4794c45b"
+  },
+  "flash_role_repeater": {
+    "value": "Retranslators",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "flash_role_room_server": {
+    "value": "Istabas serveris",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68b91cc5"
+  },
+  "flash_version_before": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f4f17278"
+  },
+  "flash_version_after": {
+    "value": ", jaunākais laidiens.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1daecb7e"
+  },
+  "flash_flash_title": {
+    "value": "Ieraksti to pa USB",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dfd786e5"
+  },
+  "flash_mode_legend": {
+    "value": "Ko tu vēlies?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3e17dbf9"
+  },
+  "flash_mode_update": {
+    "value": "Atjaunināšana: platei, kurā jau darbojas MeshCore. Saglabā tava mezgla atslēgas, kontaktus un iestatījumus.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "59e8848e"
+  },
+  "flash_mode_fresh": {
+    "value": "Jauna instalēšana: jaunai platei vai platei ar citu programmaparatūru. Izdzēš visu platē, arī atslēgas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bc797149"
+  },
+  "flash_wipe_ok": {
+    "value": "Es zinu, ka jauna instalēšana izdzēš mana mezgla atslēgas un kontaktus.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7aeefcb2"
+  },
+  "flash_flash_button": {
+    "value": "Pievienot un ierakstīt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8a541c7"
+  },
+  "flash_esp_help": {
+    "value": "Chrome, Edge vai Opera datorā. Ja plate nepievienojas, turi tās pogu BOOT (dažās platēs PRG), kamēr to iesprausti, un mēģini vēlreiz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4dafe8fb"
+  },
+  "flash_uf2_title": {
+    "value": "Iekopē failu savā platē",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "263bc1e5"
+  },
+  "flash_uf2_step1": {
+    "value": "Lejupielādē failu:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dee6800a"
+  },
+  "flash_uf2_step2": {
+    "value": "Iesprausti plati un divreiz piesit tās atiestatīšanas pogai. Tā parādās kā USB disks. Platei bez atiestatīšanas pogas ir savs veids; to apraksta tās ražotāja lapa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9cd62884"
+  },
+  "flash_uf2_step3": {
+    "value": "Ievelc failu šajā diskā. Plate pārstartējas ar jauno programmaparatūru; atjauninājums saglabā tās atslēgas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aef87c5b"
+  },
+  "flash_status_unsupported": {
+    "value": "Šis pārlūks nevar piekļūt USB. Izmanto Chrome, Edge vai Opera datorā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8ef7eebe"
+  },
+  "flash_status_no_list": {
+    "value": "Plašu saraksts neielādējās. Pārlādē lapu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7a3841a5"
+  },
+  "flash_status_downloading": {
+    "value": "Lejupielādē programmaparatūru.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c9e6648c"
+  },
+  "flash_status_connecting": {
+    "value": "Savienojas ar tavu plati.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "70ed0d63"
+  },
+  "flash_status_flashing": {
+    "value": "Notiek ierakstīšana. Neatvieno plati.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0796d555"
+  },
+  "flash_status_done": {
+    "value": "Gatavs. Tava plate pārstartējas ar jauno programmaparatūru.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "445b69e2"
+  },
+  "flash_status_failed": {
+    "value": "Ierakstīšana apstājās. Turi pogu BOOT, kamēr iesprausti plati, un mēģini vēlreiz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f716db56"
+  },
+  "flash_status_no_file": {
+    "value": "Programmaparatūras fails netika lejupielādēts. Pēc brīža mēģini vēlreiz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6636a9df"
+  },
+  "flash_other_firmware": {
+    "value": "Citai programmaparatūrai, piemēram, DutchMeshCore novērotāja programmaparatūrai, ir savs ierakstītājs: {link}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b2c75d72"
+  },
+  "release_flash_link": {
+    "value": "Ieraksti to savā platē",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "207bc805"
+  },
+  "menu_privacy": {
+    "value": "Privātums",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54a57c31"
+  },
+  "menu_wallpapers": {
+    "value": "Ekrāntapetes",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "006547c4"
+  },
+  "menu_start": {
+    "value": "Sākums",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e4bb9f1e"
+  },
+  "menu_about": {
+    "value": "Kas ir MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a50b70cf"
+  },
+  "menu_about_sub": {
+    "value": "Radio ziņas bez interneta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aab7190e"
+  },
+  "menu_devices": {
+    "value": "Ierīces",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ba5121d"
+  },
+  "menu_devices_sub": {
+    "value": "Plates, to enerģijas patēriņš un cena",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20f93671"
+  },
+  "menu_get_started": {
+    "value": "Sāc šeit",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "menu_get_started_sub": {
+    "value": "No jaunas plates līdz pirmajai ziņai",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d67ed219"
+  },
+  "menu_repeater_guide": {
+    "value": "Retranslatora ceļvedis",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4608abcd"
+  },
+  "menu_repeater_guide_sub": {
+    "value": "Novietojums, jauda un likumīgie ierobežojumi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "666a0c8c"
+  },
+  "menu_start_group_1": {
+    "value": "Uzzini",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ce78afd0"
+  },
+  "menu_start_group_1_all": {
+    "value": "Vairāk par MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2c7c7283"
+  },
+  "menu_start_group_2": {
+    "value": "Dari",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "30094e0b"
+  },
+  "menu_start_card_eyebrow": {
+    "value": "Pirmo reizi šeit",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10bc4c55"
+  },
+  "menu_start_card_title": {
+    "value": "Tava pirmā ziņa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d0e38ee3"
+  },
+  "menu_start_card_body": {
+    "value": "Plate, lietotne un tavas valsts iestatījumi. Stundas laikā tu esi mesh tīklā.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7c10acb3"
+  },
+  "menu_start_card_button": {
+    "value": "Sāc šeit",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "menu_firmware": {
+    "value": "Programmaparatūra",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "menu_fw_build": {
+    "value": "Programmaparatūras pārskats",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1cf2ad9a"
+  },
+  "menu_fw_build_sub": {
+    "value": "Kura programmaparatūra darbojas tavā platē",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54130720"
+  },
+  "menu_fw_flash": {
+    "value": "Ierakstīt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3577cb5"
+  },
+  "menu_fw_flash_sub": {
+    "value": "No pārlūka, pa USB",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e6dbc0b0"
+  },
+  "menu_fw_console": {
+    "value": "Seriālā konsole",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4e3c41fa"
+  },
+  "menu_fw_console_sub": {
+    "value": "Raksti komandas pa USB",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "40df16c8"
+  },
+  "menu_fw_changelog": {
+    "value": "Izmaiņu žurnāls",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ead07c84"
+  },
+  "menu_fw_changelog_sub": {
+    "value": "Kas mainījies",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1bcbf1dc"
+  },
+  "menu_firmware_group_1": {
+    "value": "Tavā radio",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d3234810"
+  },
+  "menu_firmware_group_1_all": {
+    "value": "Visa programmaparatūra",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "27bfcf0e"
+  },
+  "menu_firmware_group_2": {
+    "value": "Seko līdzi jaunumiem",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57a5a75f"
+  },
+  "menu_firmware_card_eyebrow": {
+    "value": "Programmaparatūra",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "menu_firmware_card_title": {
+    "value": "Oficiālā programmaparatūra",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "39cc2886"
+  },
+  "menu_firmware_card_body": {
+    "value": "Ieraksti oficiālo programmaparatūru no pārlūka. Nekas nav jāinstalē.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e75a91bd"
+  },
+  "menu_firmware_card_button": {
+    "value": "Ieraksti savā platē",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5b6987e"
+  },
+  "menu_guides": {
+    "value": "Ceļveži",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "572cd72f"
+  },
+  "menu_guides_overview": {
+    "value": "Ceļvežu pārskats",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8db6b2ea"
+  },
+  "menu_guides_overview_sub": {
+    "value": "Visi ceļveži pēc tā, ko tu vēlies darīt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0a19370e"
+  },
+  "menu_guide_settings": {
+    "value": "Ieteicamie iestatījumi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cfb32983"
+  },
+  "menu_guide_settings_sub": {
+    "value": "Priekšiestatījums un iestatījumi tavam apgabalam",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8592dd01"
+  },
+  "menu_guide_antenna": {
+    "value": "Antenu ceļvedis",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3a76cb0e"
+  },
+  "menu_guide_antenna_sub": {
+    "value": "Izvēlies, pievieno un uzstādi antenu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e57b6f1d"
+  },
+  "menu_guide_keygen": {
+    "value": "Ģenerē atslēgu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e798fa1b"
+  },
+  "menu_guide_keygen_sub": {
+    "value": "Ar tevis izvēlētu prefiksu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "02f5281d"
+  },
+  "menu_guide_channels": {
+    "value": "Atrodi kanālus",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9905513b"
+  },
+  "menu_guide_channels_sub": {
+    "value": "Kanāli tavā tuvumā ar to atslēgām",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "695ddeef"
+  },
+  "menu_guide_resilient": {
+    "value": "Padari mesh tīklu noturīgu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33ec7ac8"
+  },
+  "menu_guide_resilient_sub": {
+    "value": "Kas palīdz pret pārpludināšanu un surogātziņām",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6b6b932a"
+  },
+  "menu_guide_filter": {
+    "value": "Pakešu filtrs",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20a3ef1f"
+  },
+  "menu_guide_filter_sub": {
+    "value": "Skaidrojums ar komandām",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7cd98eed"
+  },
+  "menu_guide_mqtt": {
+    "value": "MQTT tavā novērotājā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "62626d0f"
+  },
+  "menu_guide_mqtt_sub": {
+    "value": "Ziņo, ko dzird tavs mezgls",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "593d1245"
+  },
+  "menu_guide_mctomqtt": {
+    "value": "Izveido tilta konfigurāciju",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fd2dd667"
+  },
+  "menu_guide_mctomqtt_sub": {
+    "value": "Retranslators pa USB uz brokeri",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "22227ad5"
+  },
+  "menu_guide_cli": {
+    "value": "CLI komandas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a13cc6cb"
+  },
+  "menu_guide_cli_sub": {
+    "value": "Katra komanda izskaidrota",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aa1f6046"
+  },
+  "menu_guides_group_1": {
+    "value": "Iestati savu mezglu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "55efd611"
+  },
+  "menu_guides_group_1_all": {
+    "value": "Visi ceļveži",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0b5543ef"
+  },
+  "menu_guides_group_2": {
+    "value": "Uzzini vairāk",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6bce982b"
+  },
+  "menu_guides_card_eyebrow": {
+    "value": "Zināšanu bāze",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f56819a3"
+  },
+  "menu_guides_card_title": {
+    "value": "MeshWiki",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "821342d8"
+  },
+  "menu_guides_card_body": {
+    "value": "Kopienas wiki par MeshCore visam, kas šeit nav aprakstīts.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b3d4f00f"
+  },
+  "menu_guides_card_button": {
+    "value": "Atvērt MeshWiki",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2ddff05f"
+  },
+  "menu_network": {
+    "value": "Tīkls",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1744b964"
+  },
+  "menu_map": {
+    "value": "Pārklājuma kartes",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4b9f20a0"
+  },
+  "menu_map_sub": {
+    "value": "Kur mesh tīkls sniedzas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ec1e205"
+  },
+  "menu_network_overview": {
+    "value": "Tīkls",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1b32d67c"
+  },
+  "menu_network_overview_sub": {
+    "value": "Novērotāji un tiešraides skaitļi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc64142f"
+  },
+  "menu_network_group_1": {
+    "value": "Kartes",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "119e66d1"
+  },
+  "menu_network_group_1_all": {
+    "value": "Tīkls",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1b32d67c"
+  },
+  "menu_network_group_2": {
+    "value": "Dati",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cec3a9b8"
+  },
+  "menu_network_card_eyebrow": {
+    "value": "Pārklājums",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "523487a5"
+  },
+  "menu_network_card_title": {
+    "value": "Kur tīkls sniedzas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ec1e205"
+  },
+  "menu_network_card_body": {
+    "value": "Kartes uztur kopienas visā Eiropā, no MeshCore Analyzer līdz vietējiem projektiem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fb1630d4"
+  },
+  "menu_network_card_button": {
+    "value": "Atvērt kartes",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e7674cfc"
+  },
+  "menu_community": {
+    "value": "Kopiena",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bb501d78"
+  },
+  "menu_local_groups": {
+    "value": "Vietējās grupas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dff00c14"
+  },
+  "menu_local_groups_sub": {
+    "value": "Atrodi vietējo grupu savā tuvumā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d619ea7a"
+  },
+  "menu_projects": {
+    "value": "Projekti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "04e2a972"
+  },
+  "menu_projects_sub": {
+    "value": "Ko cilvēki būvē uz MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d4563ab2"
+  },
+  "menu_news": {
+    "value": "Ziņas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69752f23"
+  },
+  "menu_news_sub": {
+    "value": "No tīkla visā Eiropā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "39d66042"
+  },
+  "menu_contribute": {
+    "value": "Piedalies",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97b0c61b"
+  },
+  "menu_contribute_sub": {
+    "value": "Palīdzi rakstīt un tulkot vietni",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8f5f2836"
+  },
+  "menu_press_kit": {
+    "value": "Promo un preses komplekts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fc691b26"
+  },
+  "menu_press_kit_sub": {
+    "value": "Logotips, attēli, ekrāntapetes un teksts par vietni",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97e4fd91"
+  },
+  "menu_community_group_1": {
+    "value": "Cilvēki",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7db20897"
+  },
+  "menu_community_group_1_all": {
+    "value": "Visas vietējās grupas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6700740b"
+  },
+  "menu_community_group_2": {
+    "value": "Viņu radīts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "468d3c4f"
+  },
+  "menu_community_card_eyebrow": {
+    "value": "Tavā tuvumā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ab808511"
+  },
+  "menu_community_card_title": {
+    "value": "Pievienojies vietējai grupai",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a0b3cc29"
+  },
+  "menu_community_card_body": {
+    "value": "Katrai vietējai grupai ir savi kanāli, iestatījumi un cilvēki, kuriem pajautāt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b38a16bf"
+  },
+  "menu_community_card_button": {
+    "value": "Atrodi savu grupu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cef2ba32"
+  },
+  "menu_footer_1": {
+    "value": "Sākums",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e4bb9f1e"
+  },
+  "menu_footer_2": {
+    "value": "Programmaparatūra",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "menu_footer_3": {
+    "value": "Ceļveži",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "572cd72f"
+  },
+  "menu_footer_4": {
+    "value": "Tīkls un kopiena",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ade2740d"
+  },
+  "menu_footer_note_1": {
+    "value": "Nekomerciāls kopienas ceļvedis par MeshCore Eiropā, ko veido brīvprātīgie, bez reklāmām, partneru saitēm un izsekošanas. Nav daļa no MeshCore projekta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69e7015d"
+  },
+  "menu_footer_note_2": {
+    "value": "Teksts CC BY 4.0, kods MIT.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "845058ef"
+  },
+  "shell_theme": {
+    "value": "Motīvs",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "efb52e71"
+  },
+  "shell_language": {
+    "value": "Valoda",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4fe6526"
+  },
+  "shell_colour_vision": {
+    "value": "Krāsu redze",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "df1c3606"
+  },
+  "shell_account": {
+    "value": "Konts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7e1b0d56"
+  },
+  "shell_menu": {
+    "value": "Izvēlne",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "99af6606"
+  },
+  "shell_system": {
+    "value": "Kā sistēmā",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "48b4e3ed"
+  },
+  "shell_dark": {
+    "value": "Tumšs",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "60acc53f"
+  },
+  "shell_light": {
+    "value": "Gaišs",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dbcd5e7b"
   }
 }
