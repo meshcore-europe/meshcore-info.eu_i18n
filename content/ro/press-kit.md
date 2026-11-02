@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '5f2826cb'
-  seeded: '2026-10-31'
+  source_hash: '9266fa2b'
+  seeded: '2026-11-02'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', '86fe9fc6', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '70fa58b3', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Despre site {#about}
@@ -20,13 +20,7 @@ translation:
 **În 1 propoziție.** meshcore-info.eu explică MeshCore pentru Europa: setările,
 ghidurile și instrumentele pe care le au în comun mesh-urile locale.
 
-**În 1 paragraf.** MeshCore trimite mesaje prin radio, fără internet sau
-abonament. Radiouri LoRa mici, numite repetoare, transmit mai departe fiecare mesaj.
-În toată Europa, mesh-urile lor se leagă într-unul singur. Regiunile, zonele în care
-rămâne un mesaj, păstrează traficul local, deci setările tale depind de locul unde
-locuiești. meshcore-info.eu adună aceste setări, ghidurile și instrumentele într-un
-singur loc, în 16 limbi. Site-ul te îndrumă și spre grupul local de lângă tine.
-Voluntarii îl scriu, fără reclame, linkuri spre magazine sau urmărirea vizitatorilor.
+**În 1 paragraf.** MeshCore trimite mesaje prin radio, fără internet și fără abonament. Radiourile LoRa mici, numite repetoare, transmit mai departe fiecare mesaj, iar în toată Europa mesh-urile lor se unesc într-unul singur. Regiunile, zonele în care rămâne un mesaj, țin traficul la nivel local, așa că setările tale depind de locul în care locuiești. meshcore-info.eu adună aceste setări, ghidurile și instrumentele într-un singur loc, în 33 de limbi. Site-ul te îndrumă și către grupul local din apropierea ta. Îl scriu voluntari, fără reclame, fără linkuri către magazine și fără urmărire.
 
 Copiază oricare dintre texte așa cum este sau scurtează-l. Scrie numele site-ului
 meshcore-info.eu, cu litere mici și cu .eu. Pentru un text mai lung, copiază

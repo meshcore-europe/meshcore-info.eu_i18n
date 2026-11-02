@@ -1,15 +1,15 @@
 ---
 title: Um site para a mesh na Europa
 date: '2026-10-27'
-description: O meshcore-info.eu reúne as definições, os guias e as ferramentas que as meshes locais partilham, em 16 línguas. Copia daqui o comunicado de imprensa e o kit de imprensa.
+description: meshcore-info.eu reúne as definições, os guias e as ferramentas que as meshes locais partilham, em 33 línguas. Copia daqui o comunicado de imprensa e o kit de imprensa.
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '67a849bd'
-  seeded: '2026-10-31'
-  fields: {title: 'c8779ff6', description: '9aa475b2'}
-  sections: ['ed53d595', 'b09a80c5', '7a4d32fc', '5706973d']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', 'c478e66e', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '13b0211b', '7f458074']
+  source_hash: '948771c0'
+  seeded: '2026-11-02'
+  fields: {title: 'c8779ff6', description: '72955f63'}
+  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 O meshcore-info.eu explica o MeshCore para a Europa: as definições, os guias e
@@ -30,10 +30,10 @@ energia. Não transmite voz nem fotos e não substitui os serviços de emergênc
 22 de outubro de 2026, o meshcore-analyzer.eu tinha ouvido 30 240 repetidores na
 Europa em 7 dias.
 
-São os grupos locais que gerem esses repetidores. Até agora, as definições, os
-guias e as ferramentas estavam dispersos por país ou por comunidade. O meshcore-info.eu
-reúne-os para a Europa, em 16 línguas. Quem o escreve são voluntários, sem anúncios,
-links para lojas nem rastreamento.
+Os grupos locais gerem esses repetidores. Até agora, as suas definições,
+guias e ferramentas estavam dispersos por país ou por comunidade. O meshcore-info.eu
+reúne-os para a Europa, em 33 línguas. São voluntários que o escrevem, sem anúncios,
+links de lojas nem rastreamento.
 
 **Como funciona.**
 
@@ -56,16 +56,16 @@ de lançamento. Usa-os em notícias e publicações, e indica meshcore-info.eu c
 
 ## As promessas {#promises}
 
-- **Sem anúncios, links para lojas nem links de afiliados.** A página [Dispositivos](/devices/)
-  indica as especificações dos fabricantes e uma gama de preços. Nunca tem links para
-  lojas.
-- **Sem rastreamento.** O site não usa ferramentas de análise nem rastreadores. O único cookie guarda
-  o tema que escolheste. O único outro servidor que o site contacta é o meshcore-analyzer.eu,
-  gerido pelos mesmos voluntários. Encontras os pormenores na [página de privacidade](/privacy/).
-- **Fontes para os factos.** O que escrevemos sobre o MeshCore vem do firmware
-  e da documentação. As regras de rádio vêm dos reguladores.
-- **A tua língua.** O site está disponível em 16 línguas. As páginas começam como
-  traduções automáticas e ficam assinaladas como tal até um falante nativo as verificar.
+- **Sem publicidade, links de lojas nem links de afiliados.** A página [Dispositivos](/devices/)
+  indica as especificações dos fabricantes e uma gama de preços. Nunca inclui links para
+  uma loja.
+- **Sem rastreio.** O site não usa ferramentas de análise nem rastreadores. O único cookie guarda o
+  tema que escolheste. O único outro servidor que o site contacta é o meshcore-analyzer.eu,
+  gerido pelos mesmos voluntários. A [página de privacidade](/privacy/) tem os pormenores.
+- **Fontes dos factos.** O que escrevemos sobre o MeshCore vem do seu firmware
+  e da sua documentação. As regras de rádio vêm dos reguladores.
+- **A tua língua.** O site está disponível em 33 línguas. As páginas começam como
+  traduções automáticas, assinaladas como tal até um falante nativo as verificar.
 
 É tudo open source. Falta o teu grupo local, ou há um facto errado?
 [Vê aqui como ajudar](/contribute/).

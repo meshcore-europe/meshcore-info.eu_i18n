@@ -1,15 +1,15 @@
 ---
 title: Sit wieħed għall-mesh fl-Ewropa
 date: '2026-10-27'
-description: meshcore-info.eu jiġbor l-issettjar, il-gwidi u l-għodod li jaqsmu l-meshes lokali, f'16-il lingwa. Ikkopja minn hawn l-istqarrija għall-istampa u l-press kit.
+description: meshcore-info.eu jiġbor is-settings, il-gwidi u l-għodod li jaqsmu l-meshes lokali, f'33 lingwa. Ikkopja l-istqarrija għall-istampa u l-press kit minn hawn.
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '67a849bd'
+  source_hash: '948771c0'
   seeded: '2026-11-02'
-  fields: {title: 'c8779ff6', description: '9aa475b2'}
-  sections: ['ed53d595', 'b09a80c5', '7a4d32fc', '5706973d']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', 'c478e66e', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '13b0211b', '7f458074']
+  fields: {title: 'c8779ff6', description: '72955f63'}
+  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu jispjega MeshCore għall-Ewropa: l-issettjar, il-gwidi u
@@ -29,9 +29,10 @@ jibqa' jaħdem waqt qtugħ tad-dawl jew meta l-internet ikun waqa', sakemm ir-ri
 Ma jġorrx vuċi jew ritratti, u ma jieħux post is-servizzi ta' emerġenza. Fit-22 ta' Ottubru 2026,
 meshcore-analyzer.eu kien sema' 30,240 ripetitur fl-Ewropa f'7 ijiem.
 
-Gruppi lokali jħaddmu dawk ir-ripetituri. Sa issa, l-issettjar, il-gwidi u l-għodod tagħhom
-kienu mifruxa minn pajjiż għal ieħor jew minn komunità għal oħra. meshcore-info.eu jiġborhom flimkien għall-Ewropa,
-f'16-il lingwa. Voluntiera jiktbuh, mingħajr reklami, links għal ħwienet jew tracking.
+Il-gruppi lokali jmexxu dawk ir-ripetituri. Sa issa, l-issettjar,
+il-gwidi u l-għodod tagħhom kienu mqassmin skont il-pajjiż jew il-komunità. meshcore-info.eu
+jiġborhom flimkien għall-Ewropa, f'33 lingwa. Voluntiera jiktbu s-sit, mingħajr reklami,
+links għal ħwienet jew traċċar.
 
 **Kif jaħdem.**
 
@@ -54,16 +55,17 @@ Użahom fl-aħbarijiet u fil-posts, u semmi meshcore-info.eu bħala s-sors.
 
 ## Il-wegħdi {#promises}
 
-- **L-ebda reklam, link għal ħanut jew affiliate link.** Il-paġna [Apparati](/devices/)
-  telenka l-ispeċifikazzjonijiet tal-manifatturi u medda ta' prezzijiet. Qatt ma tagħti link għal
-  ħanut.
-- **L-ebda tracking.** Is-sit ma jħaddem l-ebda analytics jew trackers. L-uniku cookie jiftakar
-  it-tema li tagħżel. Is-sit jikkuntattja server ieħor wieħed biss, meshcore-analyzer.eu,
-  u l-istess voluntiera jħaddmuh. Il-[paġna tal-privatezza](/privacy/) fiha d-dettalji.
-- **Sorsi għall-fatti.** Dak li niktbu dwar MeshCore ġej mill-firmware u mid-dokumentazzjoni
-  tiegħu. Ir-regoli tar-radju ġejjin mir-regolaturi.
-- **Il-lingwa tiegħek.** Is-sit huwa disponibbli f'16-il lingwa. Il-paġni jibdew bħala
-  traduzzjonijiet awtomatiċi, u jibqgħu mmarkati hekk sakemm kelliem nattiv jiċċekkjahom.
+- **Ebda reklami, links għal ħwienet jew links affiljati.** Il-paġna [Apparati](/devices/)
+  telenka l-ispeċifikazzjonijiet tal-manifatturi u firxa ta' prezzijiet. Qatt ma tagħti
+  link għal ħanut.
+- **Ebda traċċar.** Is-sit ma juża l-ebda analytics jew trackers. L-uniku cookie jiftakar it-tema
+  li tagħżel. L-uniku server ieħor li s-sit jikkuntattja hu meshcore-analyzer.eu,
+  u l-istess voluntiera jmexxuh. Il-[paġna tal-privatezza](/privacy/) fiha d-dettalji.
+- **Sorsi għall-fatti.** Dak li niktbu dwar MeshCore ġej mill-firmware
+  u d-dokumentazzjoni tiegħu. Ir-regoli tar-radju ġejjin mir-regolaturi.
+- **Il-lingwa tiegħek.** Is-sit hu disponibbli f'33 lingwa. Il-paġni jibdew bħala
+  traduzzjonijiet awtomatiċi, u jibqgħu mmarkati hekk sakemm kelliem nattiv
+  jiċċekkjahom.
 
 Kollox huwa open source. Il-grupp lokali tiegħek nieqes, jew xi fatt ħażin?
 [Hawn kif tista' tgħin](/contribute/).

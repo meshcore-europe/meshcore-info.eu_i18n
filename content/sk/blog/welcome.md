@@ -1,15 +1,15 @@
 ---
 title: Jeden web pre mesh siete v Európe
 date: '2026-10-27'
-description: meshcore-info.eu zhromažďuje nastavenia, návody a nástroje, ktoré miestne mesh siete spoločne používajú, v 16 jazykoch. Tlačovú správu a press kit si môžeš skopírovať tu.
+description: meshcore-info.eu zbiera nastavenia, návody a nástroje, ktoré miestne siete zdieľajú, v 33 jazykoch. Tlačovú správu a tlačový balík si skopíruj odtiaľto.
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '67a849bd'
+  source_hash: '948771c0'
   seeded: '2026-11-02'
-  fields: {title: 'c8779ff6', description: '9aa475b2'}
-  sections: ['ed53d595', 'b09a80c5', '7a4d32fc', '5706973d']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', 'c478e66e', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '13b0211b', '7f458074']
+  fields: {title: 'c8779ff6', description: '72955f63'}
+  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu vysvetľuje MeshCore pre Európu: nájdeš tu nastavenia, návody
@@ -29,9 +29,9 @@ alebo internetu, pokiaľ majú opakovače napájanie. Hlas ani fotografie
 neprenáša a záchranné zložky nenahrádza. K
 22. októbru 2026 zachytil meshcore-analyzer.eu za 7 dní v Európe 30 240 opakovačov.
 
-Tieto opakovače prevádzkujú miestne skupiny. Ich nastavenia, návody a nástroje
-boli doteraz roztrúsené po jednotlivých krajinách a komunitách. meshcore-info.eu ich spája
-pre celú Európu, v 16 jazykoch. Píšu ho dobrovoľníci, bez reklám,
+Tieto opakovače prevádzkujú miestne skupiny. Doteraz boli ich nastavenia,
+návody a nástroje zvlášť pre každú krajinu alebo komunitu. meshcore-info.eu ich zhromažďuje
+pre Európu, v 33 jazykoch. Píšu ho dobrovoľníci, bez reklám,
 odkazov na obchody a sledovania.
 
 **Ako to funguje.**
@@ -55,16 +55,15 @@ Používaj ich v správach a príspevkoch a ako zdroj uveď meshcore-info.eu.
 
 ## Naše sľuby {#promises}
 
-- **Žiadne reklamy, odkazy na obchody ani affiliate odkazy.** Na stránke [Zariadenia](/devices/)
-  uvádzame špecifikácie od výrobcov a cenové pásmo. Na obchody nikdy
-  neodkazujeme.
+- **Žiadne reklamy, odkazy na obchody ani affiliate odkazy.** Stránka [Zariadenia](/devices/)
+  uvádza špecifikácie výrobcov a cenové rozpätie. Nikdy neodkazuje na obchod.
 - **Žiadne sledovanie.** Web nepoužíva analytiku ani sledovacie nástroje. Jediný súbor cookie si pamätá
-  tvoj výber témy. Jediný ďalší server, na ktorý sa web obracia, je meshcore-analyzer.eu.
-  Prevádzkujú ho tí istí dobrovoľníci. Podrobnosti nájdeš na [stránke o súkromí](/privacy/).
-- **Zdroje faktov.** To, čo píšeme o MeshCore, vychádza z jeho firmvéru
-  a dokumentácie. Pravidlá pre rádiové vysielanie preberáme od regulačných orgánov.
-- **Tvoj jazyk.** Web je dostupný v 16 jazykoch. Stránky vznikajú ako strojové
-  preklady a takto ich označujeme, kým ich neskontroluje rodený hovoriaci.
+  tvoju voľbu témy. Jediný ďalší server, na ktorý sa web pripája, je meshcore-analyzer.eu.
+  Prevádzkujú ho tí istí dobrovoľníci. Podrobnosti nájdeš na stránke [Súkromie](/privacy/).
+- **Zdroje faktov.** To, čo píšeme o MeshCore, pochádza z jeho firmvéru
+  a dokumentácie. Pravidlá rádiovej prevádzky pochádzajú od regulačných úradov.
+- **Tvoj jazyk.** Web je dostupný v 33 jazykoch. Stránky vznikajú najprv ako
+  strojové preklady a toto označenie majú, kým ich neskontroluje rodený hovoriaci.
 
 Všetko je open source. Chýba tvoja miestna skupina alebo je niektorý údaj nesprávny?
 [Takto môžeš pomôcť](/contribute/).

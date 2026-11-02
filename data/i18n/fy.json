@@ -3,7 +3,7 @@
     "language": "fy",
     "name": "Frysk",
     "managed_by": "community",
-    "updated": "2026-10-31"
+    "updated": "2026-11-02"
   },
   "site_tagline": {
     "value": "Berjochten sûnder netwurk, troch hiel Europa",
@@ -2459,6 +2459,18 @@
     "_seeded": "2026-10-31",
     "_source": "5a268245"
   },
+  "community.de-msemesh.desc": {
+    "value": "Groep foar MeshCore en Meshtastic om Neubrandenburg, Neustrelitz, Waren, Demmin en Feldberg hinne.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc1d7f13"
+  },
+  "community.de-ka-mesh.desc": {
+    "value": "Groep dy't om Karlsruhe en Pforzheim hinne in MeshCore-netwurk bout, mei in kanalenlist en byienkomsten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20d493a1"
+  },
   "community.ie-mayo-mesh.desc": {
     "value": "Brûkersgroep foar meshradio yn County Mayo.",
     "_ai": true,
@@ -2476,6 +2488,12 @@
     "_ai": true,
     "_seeded": "2026-10-31",
     "_source": "8b178f55"
+  },
+  "community.it-meshcore-torino.desc": {
+    "value": "Groep foar Turyn en de provinsje dy't dy helpt om dyn eigen node op te setten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d1527a42"
   },
   "community.nl-meshwiki.desc": {
     "value": "Nederlânske wiki dy't elkenien bewurkje kin, oer MeshCore en meshradio.",

@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '5f2826cb'
-  seeded: '2026-10-31'
+  source_hash: '9266fa2b'
+  seeded: '2026-11-02'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', '86fe9fc6', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '70fa58b3', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## À propos du site {#about}
@@ -21,12 +21,12 @@ translation:
 réglages, les guides et les outils que partagent les maillages locaux.
 
 **En 1 paragraphe.** MeshCore envoie des messages par radio, sans internet
-ni abonnement. De petites radios LoRa appelées répéteurs relaient chaque message.
-Partout en Europe, leurs maillages se relient en un seul. Les régions, les zones
-où un message reste, gardent le trafic local. Tes réglages dépendent donc de l'endroit où tu vis.
-meshcore-info.eu rassemble ces réglages, les guides et les outils au même endroit,
-en 16 langues. Le site t'oriente aussi vers le groupe local près de chez toi.
-Des bénévoles le rédigent, sans publicité, sans liens vers des boutiques et sans pistage.
+ni abonnement. De petites radios LoRa, appelées répéteurs, relaient chaque message,
+et partout en Europe, leurs maillages se rejoignent pour n'en former qu'un. Les régions, les zones dont un message
+ne sort pas, gardent le trafic en local : tes réglages dépendent donc de l'endroit où tu vis. meshcore-info.eu réunit ces réglages,
+les guides et les outils au même endroit, en 33 langues. Le site t'indique aussi
+le groupe local près de chez toi. Des bénévoles le rédigent, sans publicité, sans liens vers des boutiques et sans
+pistage.
 
 Copie l'un ou l'autre texte tel quel, ou raccourcis-le. Écris le nom du site
 ainsi : meshcore-info.eu, en minuscules, avec .eu. Pour un texte plus long, copie le

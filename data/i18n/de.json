@@ -3,7 +3,7 @@
     "language": "de",
     "name": "Deutsch",
     "managed_by": "community",
-    "updated": "2026-10-31"
+    "updated": "2026-11-02"
   },
   "site_tagline": {
     "value": "Nachrichten ohne Netz, in ganz Europa",
@@ -2459,6 +2459,18 @@
     "_seeded": "2026-10-31",
     "_source": "5a268245"
   },
+  "community.de-msemesh.desc": {
+    "value": "MeshCore- und Meshtastic-Gruppe rund um Neubrandenburg, Neustrelitz, Waren, Demmin und Feldberg.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc1d7f13"
+  },
+  "community.de-ka-mesh.desc": {
+    "value": "Gruppe, die rund um Karlsruhe und Pforzheim ein MeshCore-Netz aufbaut, mit Kanalliste und Treffen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20d493a1"
+  },
   "community.ie-mayo-mesh.desc": {
     "value": "Nutzergruppe für Mesh-Funk im County Mayo.",
     "_ai": true,
@@ -2476,6 +2488,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "8b178f55"
+  },
+  "community.it-meshcore-torino.desc": {
+    "value": "Gruppe für Turin und seine Provinz, die dir beim Einrichten deines eigenen Knotens hilft.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d1527a42"
   },
   "community.nl-meshwiki.desc": {
     "value": "Niederländisches Wiki, das jeder bearbeiten kann, über MeshCore und Mesh-Funk.",

@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '5f2826cb'
-  seeded: '2026-10-31'
+  source_hash: '9266fa2b'
+  seeded: '2026-11-02'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', '86fe9fc6', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '70fa58b3', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Om sitet {#about}
@@ -20,12 +20,11 @@ translation:
 **I 1 sætning.** meshcore-info.eu forklarer MeshCore for Europa: de
 indstillinger, guides og værktøjer, som de lokale meshes deler.
 
-**I 1 afsnit.** MeshCore sender beskeder via radio, uden internet
-eller abonnement. Små LoRa-radioer, kaldet repeatere, sender hver besked videre,
-og på tværs af Europa hænger deres meshes sammen som ét. Regioner, de områder, en besked
-bliver inden for, holder trafikken lokal, så dine indstillinger afhænger af, hvor du bor. meshcore-info.eu samler
-indstillingerne, guiderne og værktøjerne ét sted, på 16 sprog. Sitet viser dig også
-vej til den lokale gruppe nær dig. Frivillige skriver det, uden reklamer, shoplinks eller
+**I 1 afsnit.** MeshCore sender beskeder via radio, uden internet eller
+abonnement. Små LoRa-radioer, som hedder repeatere, sender hver besked videre,
+og i hele Europa kobler deres meshes sig sammen til ét. Regioner, de områder en besked
+bliver inden for, holder trafikken lokal, så dine indstillinger afhænger af, hvor du bor. meshcore-info.eu samler disse indstillinger, guiderne og værktøjerne ét sted, på 33 sprog. Sitet viser dig også vej til
+den lokale gruppe i nærheden af dig. Frivillige skriver sitet, uden reklamer, butikslinks eller
 sporing.
 
 Kopiér en af de to tekster, som den er, eller forkort den. Skriv sitets navn som meshcore-info.eu,

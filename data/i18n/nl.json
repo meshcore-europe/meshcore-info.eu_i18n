@@ -3,7 +3,7 @@
     "language": "nl",
     "name": "Nederlands",
     "managed_by": "community",
-    "updated": "2026-10-31"
+    "updated": "2026-11-02"
   },
   "site_tagline": {
     "value": "Berichten zonder netwerk, door heel Europa",
@@ -2459,6 +2459,18 @@
     "_seeded": "2026-10-31",
     "_source": "5a268245"
   },
+  "community.de-msemesh.desc": {
+    "value": "MeshCore- en Meshtastic-groep rond Neubrandenburg, Neustrelitz, Waren, Demmin en Feldberg.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc1d7f13"
+  },
+  "community.de-ka-mesh.desc": {
+    "value": "Groep die een MeshCore-netwerk opbouwt rond Karlsruhe en Pforzheim, met een kanalenlijst en meetups.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20d493a1"
+  },
   "community.ie-mayo-mesh.desc": {
     "value": "Gebruikersgroep voor meshradio in County Mayo.",
     "_ai": true,
@@ -2476,6 +2488,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "8b178f55"
+  },
+  "community.it-meshcore-torino.desc": {
+    "value": "Groep voor Turijn en de provincie die je helpt om je eigen node op te zetten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d1527a42"
   },
   "community.nl-meshwiki.desc": {
     "value": "Nederlandse wiki die iedereen kan bewerken, over MeshCore en meshradio.",

@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '5f2826cb'
-  seeded: '2026-10-31'
+  source_hash: '9266fa2b'
+  seeded: '2026-11-02'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', '86fe9fc6', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '70fa58b3', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Om sajten {#about}
@@ -21,13 +21,12 @@ translation:
 inställningar, guider och verktyg som de lokala mesharna delar.
 
 **I 1 stycke.** MeshCore skickar meddelanden via radio, utan internet
-eller abonnemang. Små LoRa-radioapparater som kallas repeaters för
-varje meddelande vidare. Över hela Europa kopplas deras mesh ihop till ett.
-Regioner, de områden som ett meddelande stannar inom, håller trafiken lokal.
-Därför beror dina inställningar på var du bor. meshcore-info.eu samlar de
-inställningarna, guiderna och verktygen på ett ställe, på 16 språk. Sajten
-visar dig också vägen till den lokala gruppen nära dig. Frivilliga skriver
-den, utan annonser, butikslänkar eller spårning.
+eller abonnemang. Små LoRa-radioapparater som kallas repeaters skickar varje meddelande vidare,
+och över hela Europa växer deras mesh ihop till ett. Regioner, de områden där ett meddelande
+stannar, håller trafiken lokal, så dina inställningar beror på var du bor. meshcore-info.eu samlar de inställningarna,
+guiderna och verktygen på ett ställe, på 33 språk. Sajten hänvisar dig också till
+den lokala gruppen nära dig. Volontärer skriver sajten, utan annonser, butikslänkar eller
+spårning.
 
 Kopiera någon av texterna som den är, eller korta ner den. Skriv sajtens
 namn som meshcore-info.eu, med små bokstäver och med .eu. För en längre

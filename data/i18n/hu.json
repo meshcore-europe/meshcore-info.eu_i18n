@@ -3,7 +3,7 @@
     "language": "hu",
     "name": "Magyar",
     "managed_by": "community",
-    "updated": "2026-10-31"
+    "updated": "2026-11-02"
   },
   "site_tagline": {
     "value": "Hálózatfüggetlen üzenetküldés Európa-szerte",
@@ -2459,6 +2459,18 @@
     "_seeded": "2026-10-31",
     "_source": "5a268245"
   },
+  "community.de-msemesh.desc": {
+    "value": "MeshCore- és Meshtastic-csoport Neubrandenburg, Neustrelitz, Waren, Demmin és Feldberg környékén.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc1d7f13"
+  },
+  "community.de-ka-mesh.desc": {
+    "value": "MeshCore-hálózatot építő csoport Karlsruhe és Pforzheim környékén, csatornalistával és találkozókkal.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20d493a1"
+  },
   "community.ie-mayo-mesh.desc": {
     "value": "Mesh rádiós felhasználói csoport Mayo megyében.",
     "_ai": true,
@@ -2476,6 +2488,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "8b178f55"
+  },
+  "community.it-meshcore-torino.desc": {
+    "value": "Csoport Torino és a megye lakóinak, amely segít beállítani a saját csomópontodat.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d1527a42"
   },
   "community.nl-meshwiki.desc": {
     "value": "Holland wiki, amelyet bárki szerkeszthet, a MeshCore-ról és a mesh rádiózásról.",

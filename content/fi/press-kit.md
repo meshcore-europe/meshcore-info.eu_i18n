@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '5f2826cb'
-  seeded: '2026-10-31'
+  source_hash: '9266fa2b'
+  seeded: '2026-11-02'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', '86fe9fc6', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '70fa58b3', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Tietoa sivustosta {#about}
@@ -20,14 +20,7 @@ translation:
 **1 lauseella.** meshcore-info.eu kertoo MeshCoresta Euroopassa:
 asetukset, oppaat ja työkalut, jotka ovat paikallisille mesheille yhteisiä.
 
-**1 kappaleella.** MeshCore lähettää viestejä radiolla, ilman internetiä
-tai liittymää. Pienet LoRa-radiot, joita kutsutaan toistimiksi, välittävät
-jokaisen viestin eteenpäin. Kaikkialla Euroopassa niiden meshit yhdistyvät yhdeksi.
-Alueet eli ne seudut, joille viesti jää, pitävät liikenteen paikallisena. Siksi
-asetuksesi riippuvat siitä, missä asut. meshcore-info.eu kokoaa nämä
-asetukset, oppaat ja työkalut yhteen paikkaan, 16 kielellä. Sivusto ohjaa
-sinut myös lähimpään paikalliseen ryhmään. Vapaaehtoiset kirjoittavat sitä
-ilman mainoksia, kauppalinkkejä tai seurantaa.
+**1 kappaleessa.** MeshCore lähettää viestejä radiolla, ilman internetiä tai tilausta. Pienet LoRa-radiot, joita kutsutaan toistimiksi, välittävät jokaisen viestin eteenpäin, ja eri puolilla Eurooppaa niiden meshit yhdistyvät yhdeksi. Alueet (seudut, joiden sisällä viesti pysyy) pitävät liikenteen paikallisena, joten asetuksesi riippuvat asuinpaikastasi. meshcore-info.eu kokoaa nämä asetukset, oppaat ja työkalut yhteen paikkaan 33 kielellä. Se ohjaa sinut myös lähelläsi toimivaan paikalliseen ryhmään. Sen kirjoittavat vapaaehtoiset, ilman mainoksia, kauppalinkkejä tai seurantaa.
 
 Kopioi kumpi tahansa teksti sellaisenaan tai lyhennä sitä. Kirjoita sivuston
 nimi muodossa meshcore-info.eu, pienillä kirjaimilla ja .eu-päätteellä.

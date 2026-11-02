@@ -1,15 +1,15 @@
 ---
 title: Eén site voor de mesh in Europa
 date: '2026-10-27'
-description: meshcore-info.eu verzamelt de instellingen, handleidingen en tools die de lokale meshes delen, in 16 talen. Hier kopieer je het persbericht en de perskit.
+description: meshcore-info.eu verzamelt de instellingen, handleidingen en tools die de lokale meshes delen, in 33 talen. Kopieer het persbericht en de perskit vanaf deze pagina.
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '67a849bd'
-  seeded: '2026-10-31'
-  fields: {title: 'c8779ff6', description: '9aa475b2'}
-  sections: ['ed53d595', 'b09a80c5', '7a4d32fc', '5706973d']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', 'c478e66e', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '13b0211b', '7f458074']
+  source_hash: '948771c0'
+  seeded: '2026-11-02'
+  fields: {title: 'c8779ff6', description: '72955f63'}
+  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu legt MeshCore uit voor Europa: de instellingen, handleidingen
@@ -31,9 +31,9 @@ de hulpdiensten niet. Op 22 oktober 2026 had meshcore-analyzer.eu in 7 dagen
 30.240 repeaters in Europa gehoord.
 
 Lokale groepen beheren die repeaters. Tot nu toe stonden hun instellingen,
-handleidingen en tools per land of per community verspreid. meshcore-info.eu
-brengt ze samen voor Europa, in 16 talen. Vrijwilligers schrijven de site,
-zonder advertenties, winkellinks of tracking.
+handleidingen en tools apart per land of per community. meshcore-info.eu brengt
+ze voor Europa samen, in 33 talen. Vrijwilligers schrijven de site, zonder advertenties,
+winkellinks of tracking.
 
 **Zo werkt het.**
 
@@ -57,15 +57,16 @@ lanceringsvideo's. Gebruik ze in nieuws en berichten, en noem meshcore-info.eu a
 ## De beloftes {#promises}
 
 - **Geen advertenties, winkellinks of affiliatelinks.** De pagina [Apparaten](/devices/)
-  noemt de specificaties van de makers en een prijsklasse. Die linkt nooit naar
-  een winkel.
+  noemt de specificaties van de makers en een prijsklasse. De pagina linkt nooit naar een
+  winkel.
 - **Geen tracking.** De site gebruikt geen analytics of trackers. De enige cookie onthoudt je
-  themakeuze. De enige andere server die de site benadert, is meshcore-analyzer.eu.
-  Die beheren dezelfde vrijwilligers. Op de [privacypagina](/privacy/) lees je de details.
-- **Bronnen voor feiten.** Wat we over MeshCore schrijven, komt uit de firmware
-  en documentatie. De radioregels komen van de toezichthouders.
-- **Je eigen taal.** De site is er in 16 talen. Pagina's beginnen als
-  machinevertaling en staan zo gemarkeerd tot een moedertaalspreker ze heeft gecontroleerd.
+  themakeuze. De enige andere server waar de site iets opvraagt is meshcore-analyzer.eu,
+  beheerd door dezelfde vrijwilligers. Op de [privacypagina](/privacy/) vind je de details.
+- **Bronnen voor de feiten.** Wat we over MeshCore schrijven, komt uit de eigen firmware en
+  documentatie. Radioregels komen van de toezichthouders.
+- **Jouw taal.** De site is er in 33 talen. Pagina's beginnen als
+  machinevertaling en staan als zodanig gemarkeerd tot een moedertaalspreker ze
+  heeft gecontroleerd.
 
 Alles is open source. Ontbreekt je lokale groep, of klopt er een feit niet?
 [Zo help je mee](/contribute/).

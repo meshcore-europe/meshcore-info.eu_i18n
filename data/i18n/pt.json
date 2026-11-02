@@ -3,7 +3,7 @@
     "language": "pt",
     "name": "Português",
     "managed_by": "community",
-    "updated": "2026-10-31"
+    "updated": "2026-11-02"
   },
   "site_tagline": {
     "value": "Mensagens sem rede por toda a Europa",
@@ -2459,6 +2459,18 @@
     "_seeded": "2026-10-31",
     "_source": "5a268245"
   },
+  "community.de-msemesh.desc": {
+    "value": "Grupo de MeshCore e Meshtastic na zona de Neubrandenburg, Neustrelitz, Waren, Demmin e Feldberg.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc1d7f13"
+  },
+  "community.de-ka-mesh.desc": {
+    "value": "Grupo que está a construir uma rede MeshCore na zona de Karlsruhe e Pforzheim, com lista de canais e encontros.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20d493a1"
+  },
   "community.ie-mayo-mesh.desc": {
     "value": "Grupo de utilizadores de rádio mesh para o Condado de Mayo.",
     "_ai": true,
@@ -2476,6 +2488,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "8b178f55"
+  },
+  "community.it-meshcore-torino.desc": {
+    "value": "Grupo de Turim e da sua província que te ajuda a configurar o teu próprio nó.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d1527a42"
   },
   "community.nl-meshwiki.desc": {
     "value": "Wiki neerlandesa que qualquer pessoa pode editar, sobre MeshCore e rádio mesh.",

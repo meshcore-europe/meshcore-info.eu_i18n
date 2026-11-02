@@ -1,15 +1,15 @@
 ---
 title: Un seul site pour le maillage en Europe
 date: '2026-10-27'
-description: meshcore-info.eu rassemble les réglages, les guides et les outils que partagent les maillages locaux, en 16 langues. Copie ici le communiqué de presse et le kit presse.
+description: meshcore-info.eu rassemble les réglages, guides et outils que les maillages locaux partagent, en 33 langues. Copie le communiqué de presse et le dossier de presse depuis cette page.
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '67a849bd'
-  seeded: '2026-10-31'
-  fields: {title: 'c8779ff6', description: '9aa475b2'}
-  sections: ['ed53d595', 'b09a80c5', '7a4d32fc', '5706973d']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', 'c478e66e', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '13b0211b', '7f458074']
+  source_hash: '948771c0'
+  seeded: '2026-11-02'
+  fields: {title: 'c8779ff6', description: '72955f63'}
+  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu présente MeshCore pour l'Europe : les réglages, les guides et
@@ -32,9 +32,9 @@ ne transmet ni la voix ni les photos, et ne remplace pas les services d'urgence.
 Europe en 7 jours.
 
 Des groupes locaux gèrent ces répéteurs. Jusqu'ici, leurs réglages,
-leurs guides et leurs outils restaient dispersés par pays ou par communauté. meshcore-info.eu les
-rassemble pour l'Europe, en 16 langues. Des bénévoles le rédigent, sans publicité,
-sans liens vers des boutiques et sans pistage.
+guides et outils restaient dispersés par pays ou par communauté. meshcore-info.eu les
+rassemble pour l'Europe, en 33 langues. Des bénévoles le rédigent, sans publicité,
+ni liens vers des boutiques, ni pistage.
 
 **Comment ça marche.**
 
@@ -57,16 +57,16 @@ de lancement. Utilise-les dans tes articles et tes publications, et cite meshcor
 
 ## Nos engagements {#promises}
 
-- **Ni publicité, ni liens vers des boutiques, ni liens d'affiliation.** La page [Appareils](/devices/)
-  indique les caractéristiques des fabricants et une fourchette de prix. Elle ne renvoie jamais vers une
+- **Pas de publicité, de liens vers des boutiques ni de liens d'affiliation.** La page [Matériel](/devices/)
+  indique les caractéristiques données par les fabricants et une fourchette de prix. Elle ne renvoie jamais vers une
   boutique.
-- **Aucun pistage.** Le site n'utilise ni outil de mesure d'audience ni traceur. Le seul cookie retient ton
-  choix de thème. Le seul autre serveur que le site contacte est meshcore-analyzer.eu,
+- **Aucun pistage.** Le site n'utilise ni outil d'analyse ni traceur. Le seul cookie mémorise ton
+  choix de thème. Le seul autre serveur que le site interroge est meshcore-analyzer.eu,
   géré par les mêmes bénévoles. La [page de confidentialité](/privacy/) donne les détails.
-- **Des faits sourcés.** Ce que nous écrivons sur MeshCore provient de son micrologiciel
-  et de sa documentation. Les règles radio proviennent des autorités de régulation.
-- **Ta langue.** Le site existe en 16 langues. Chaque page est d'abord une traduction
-  automatique, signalée comme telle jusqu'à ce qu'un locuteur natif l'ait vérifiée.
+- **Des faits sourcés.** Ce que nous écrivons sur MeshCore vient de son micrologiciel
+  et de sa documentation. Les règles radio viennent des autorités de régulation.
+- **Ta langue.** Le site existe en 33 langues. Les pages partent d'une traduction
+  automatique, signalée comme telle jusqu'à ce qu'un locuteur natif les ait vérifiées.
 
 Tout est open source. Ton groupe local n'y figure pas, ou un fait est faux ?
 [Voici comment aider](/contribute/).

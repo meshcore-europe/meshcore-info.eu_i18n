@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '5f2826cb'
-  seeded: '2026-10-31'
+  source_hash: '9266fa2b'
+  seeded: '2026-11-02'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', '86fe9fc6', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '70fa58b3', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Over de site {#about}
@@ -21,13 +21,12 @@ translation:
 instellingen, handleidingen en tools die de lokale meshes delen.
 
 **In 1 alinea.** MeshCore verstuurt berichten via de radio, zonder internet
-of abonnement. Kleine LoRa-radio's, repeaters genoemd, geven elk bericht door.
-Hun meshes sluiten in heel Europa op elkaar aan tot één mesh. Regio's, de
-gebieden waarin een bericht blijft, houden het verkeer lokaal. Je instellingen
-hangen dus af van waar je woont. meshcore-info.eu verzamelt die instellingen,
-de handleidingen en de tools op één plek, in 16 talen. De site wijst je ook
-de weg naar de lokale groep bij jou in de buurt. Vrijwilligers schrijven de
-site, zonder advertenties, winkellinks of tracking.
+of abonnement. Kleine LoRa-radio's die repeaters heten, geven elk bericht door,
+en in heel Europa sluiten hun meshes op elkaar aan tot één geheel. Regio's, de gebieden waarin een bericht
+blijft, houden het verkeer lokaal, dus je instellingen hangen af van waar je woont. meshcore-info.eu verzamelt die instellingen, de
+handleidingen en de tools op één plek, in 33 talen. De site wijst je ook de weg
+naar de lokale groep bij jou in de buurt. Vrijwilligers schrijven de site, zonder advertenties, webshoplinks of
+tracking.
 
 Kopieer een van beide teksten zoals hij is, of kort hem in. Noem de site
 meshcore-info.eu, in kleine letters, met .eu. Voor een langere tekst kopieer
