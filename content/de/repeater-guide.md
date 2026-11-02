@@ -213,7 +213,7 @@ Hersteller geben den Antennengewinn in dBi an. Das sind 2.15 dB mehr als derselb
 Gewinn in dBd (bezogen auf einen Dipol). Halte diese Summe bei höchstens 27 dBm
 (500 mW):
 
-> transmit power (dBm) + antenna gain (dBi) − cable loss (dB) − 2.15 ≤ 27
+> Sendeleistung (dBm) + Antennengewinn (dBi) − Kabelverlust (dB) − 2.15 ≤ 27
 
 - Ein Board sendet 22 dBm über 1 dB Kabelverlust in eine 5-dBi-Antenne:
   22 + 5 − 1 − 2.15 = 23.85 dBm, etwa 240 mW e.r.p. Das liegt innerhalb der Grenze.

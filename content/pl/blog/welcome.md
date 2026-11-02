@@ -5,11 +5,11 @@ description: meshcore-info.eu zbiera ustawienia, poradniki i narzędzia, którym
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu wyjaśnia MeshCore dla Europy: ustawienia, poradniki i
@@ -37,13 +37,14 @@ linków do sklepów i śledzenia.
 
 **Jak to działa.**
 
-- Otwórz meshcore-info.eu w swoim języku: strona ma 16 wersji językowych.
-- Znajdziesz tu poradniki o [sprzęcie](/devices/), rolach i [ustawieniach](/guides/) oraz o
-  [tym, jak działa MeshCore](/about/).
+- Otwórz meshcore-info.eu w swoim języku: serwis działa w 33 językach.
+- Znajdź poradniki o [sprzęcie](/devices/), rolach i [ustawieniach](/guides/) oraz o tym,
+  [jak działa MeshCore](/about/).
 - Znajdź [lokalną grupę](/community/) w pobliżu albo dodaj swoją.
-- Dodaj ustawienia używane w twojej okolicy do [Zalecanych ustawień](/guides/settings/).
-- Poprawiaj wszystko na stronie, jak w wiki. Wolontariusz sprawdza każdą zmianę,
-  zanim pojawi się na stronie. Na stronie [Współpraca](/contribute/) dowiesz się, jak to zrobić, z kontem GitHub lub bez niego.
+- Dodaj do [Zalecanych ustawień](/guides/settings/) ustawienia używane w twojej okolicy.
+- Popraw w serwisie, co chcesz, jak w wiki. Wolontariusz sprawdza każdą zmianę,
+  zanim pojawi się w serwisie. Strona [Współtwórz](/contribute/) pokazuje, jak to zrobić, z kontem
+  GitHub lub bez niego.
 
 **Dlaczego to ważne.** Społeczności w całej Europie prowadzą sieci MeshCore obok siebie. Przy
 właściwych ustawieniach ich siatki tworzą jedną siatkę.

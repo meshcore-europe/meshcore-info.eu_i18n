@@ -5,11 +5,11 @@ description: meshcore-info.eu samler de indstillinger, guider og værktøjer, so
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu forklarer MeshCore for Europa: de indstillinger, guides og
@@ -38,14 +38,14 @@ butikslinks eller sporing.
 
 **Sådan fungerer det.**
 
-- Åbn meshcore-info.eu på dit sprog: siden findes på 16.
+- Åbn meshcore-info.eu på dit sprog: sitet findes på 33 sprog.
 - Find guides om [hardware](/devices/), roller og [indstillinger](/guides/), og om
-  [hvordan MeshCore fungerer](/about/).
-- Find den [lokale gruppe](/community/) nær dig, eller tilføj din egen.
-- Tilføj de indstillinger, dit område bruger, under [Anbefalede indstillinger](/guides/settings/).
-- Ret hvad som helst på siden, som i en wiki. En frivillig tjekker hver ændring,
-  før den vises på siden. Under [Bidrag](/contribute/) kan du se hvordan, med eller
-  uden en GitHub-konto.
+  [hvordan MeshCore virker](/about/).
+- Find den [lokale gruppe](/community/) i nærheden af dig, eller tilføj din egen.
+- Tilføj de indstillinger, man bruger i dit område, til [Recommended settings](/guides/settings/).
+- Ret hvad som helst på sitet, som i en wiki. En frivillig tjekker hver ændring,
+  før den kommer på sitet. [Bidrag](/contribute/) viser hvordan, med eller
+  uden GitHub-konto.
 
 **Derfor er det vigtigt.** Fællesskaber over hele Europa driver MeshCore side om side. Med
 de rigtige indstillinger bliver deres mesh-netværk til ét mesh.

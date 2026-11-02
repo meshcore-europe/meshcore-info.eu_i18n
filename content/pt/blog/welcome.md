@@ -5,11 +5,11 @@ description: meshcore-info.eu reúne as definições, os guias e as ferramentas 
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 O meshcore-info.eu explica o MeshCore para a Europa: as definições, os guias e
@@ -37,13 +37,13 @@ links de lojas nem rastreamento.
 
 **Como funciona.**
 
-- Abre o meshcore-info.eu na tua língua: o site está disponível em 16.
+- Abre o meshcore-info.eu na tua língua: o site está disponível em 33.
 - Encontra guias sobre [hardware](/devices/), funções e [definições](/guides/), e sobre
   [como funciona o MeshCore](/about/).
-- Encontra o [grupo local](/community/) perto de ti, ou acrescenta o teu.
-- Acrescenta as definições que a tua zona usa às [Definições recomendadas](/guides/settings/).
+- Encontra o [grupo local](/community/) perto de ti, ou adiciona o teu.
+- Adiciona às [Definições recomendadas](/guides/settings/) as definições que se usam na tua zona.
 - Corrige o que quiseres no site, como numa wiki. Um voluntário verifica cada alteração
-  antes de ela aparecer no site. Em [Contribuir](/contribute/) vês como fazê-lo, com ou
+  antes de aparecer no site. A página [Contribuir](/contribute/) mostra como, com ou
   sem conta no GitHub.
 
 **Porque é importante.** Há comunidades por toda a Europa a usar o MeshCore lado a lado. Com

@@ -5,11 +5,11 @@ description: meshcore-info.eu okuplja postavke, vodiče i alate koje dijele loka
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu objašnjava MeshCore za Europu: postavke, vodiče i
@@ -37,14 +37,14 @@ poveznica na trgovine i praćenja.
 
 **Kako to funkcionira.**
 
-- Otvori meshcore-info.eu na svom jeziku: stranica je dostupna na 16 jezika.
+- Otvori meshcore-info.eu na svojem jeziku: stranica je dostupna na 33 jezika.
 - Pronađi vodiče o [hardveru](/devices/), ulogama i [postavkama](/guides/) te o
-  tome [kako MeshCore radi](/about/).
+  [tome kako MeshCore radi](/about/).
 - Pronađi [lokalnu grupu](/community/) u svojoj blizini ili dodaj svoju.
-- Dodaj postavke koje se koriste u tvom području na stranicu [Preporučene postavke](/guides/settings/).
-- Ispravi bilo što na stranici, kao na wikiju. Volonter provjeri svaku izmjenu
-  prije nego što se pojavi na stranici. Na stranici [Doprinesi](/contribute/) piše kako to
-  učiniti, s GitHub računom ili bez njega.
+- Dodaj postavke koje se koriste u tvojem području u [Preporučene postavke](/guides/settings/).
+- Ispravi bilo što na stranici, kao na wikiju. Volonter provjerava svaku promjenu
+  prije nego što se pojavi na stranici. Stranica [Doprinesi](/contribute/) pokazuje kako to učiniti, s
+  GitHub računom ili bez njega.
 
 **Zašto je to važno.** Zajednice diljem Europe koriste MeshCore jedna uz drugu. S
 pravim postavkama njihove mesh mreže čine jednu mesh mrežu.

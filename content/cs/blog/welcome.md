@@ -5,11 +5,11 @@ description: meshcore-info.eu shromažďuje nastavení, návody a nástroje, kte
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu vysvětluje MeshCore pro Evropu: nastavení, návody a
@@ -36,13 +36,13 @@ odkazů na obchody a sledování.
 
 **Jak to funguje.**
 
-- Otevři si meshcore-info.eu ve svém jazyce: web jich umí 16.
-- Najdeš tu návody k [hardwaru](/devices/), rolím a [nastavení](/guides/) i k tomu,
+- Otevři si meshcore-info.eu ve svém jazyce: web je dostupný ve 33 jazycích.
+- Najdeš tu návody k [hardwaru](/devices/), rolím a [nastavení](/guides/) a také k tomu,
   [jak MeshCore funguje](/about/).
-- Najdi [místní skupinu](/community/) ve svém okolí, nebo přidej tu svou.
-- Přidej nastavení, které používá tvoje oblast, do [Doporučeného nastavení](/guides/settings/).
-- Oprav na webu cokoli, jako na wiki. Každou změnu zkontroluje dobrovolník,
-  než se na webu objeví. Jak na to, s účtem na GitHubu i bez něj, najdeš v sekci [Přispět](/contribute/).
+- Najdi si [místní skupinu](/community/) ve svém okolí, nebo přidej tu svou.
+- Doplň do [Doporučeného nastavení](/guides/settings/) to, které se používá ve tvé oblasti.
+- Oprav na webu cokoli, jako na wiki. Každou změnu zkontroluje dobrovolník, než se na webu objeví.
+  Stránka [Přispívání](/contribute/) ukazuje jak, s účtem na GitHubu nebo bez něj.
 
 **Proč na tom záleží.** Komunity po celé Evropě provozují MeshCore vedle sebe.
 Se správným nastavením se jejich meshe spojí v jeden mesh.

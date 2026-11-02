@@ -5,11 +5,11 @@ description: meshcore-info.eu webguneak sare lokalek partekatzen dituzten ezarpe
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu webguneak MeshCore azaltzen du Europarako: tokiko mesh sareek
@@ -37,14 +37,14 @@ eta jarraipenik gabe.
 
 **Nola funtzionatzen du.**
 
-- Ireki meshcore-info.eu zure hizkuntzan: webguneak 16 hizkuntza ditu.
-- Aurkitu gidak [hardwareari](/devices/), rolei eta [ezarpenei](/guides/) buruz, baita
-  [MeshCorek nola funtzionatzen duen](/about/) ere.
+- Ireki meshcore-info.eu zure hizkuntzan: webgunea 33 hizkuntzatan dago.
+- Aurkitu [hardwareari](/devices/), rolei eta [ezarpenei](/guides/) buruzko gidak, baita
+  [MeshCorek nola funtzionatzen duen](/about/) azaltzen dutenak ere.
 - Aurkitu zure inguruko [tokiko taldea](/community/), edo gehitu zurea.
-- Gehitu zure eremuan erabiltzen dituzten ezarpenak [Gomendatutako ezarpenak](/guides/settings/) orrian.
-- Zuzendu webguneko edozer, wiki batean bezala. Boluntario batek aldaketa bakoitza
-  egiaztatzen du, webgunean agertu aurretik. [Ekarpena egin](/contribute/) orriak azaltzen
-  du nola, GitHub konturik izan ala ez.
+- Gehitu zure eremuan erabiltzen diren ezarpenak [Gomendatutako ezarpenak](/guides/settings/) orrian.
+- Zuzendu webguneko edozer, wiki batean bezala. Boluntario batek aldaketa bakoitza egiaztatzen du
+  webgunean agertu aurretik. [Lagundu](/contribute/) orriak erakusten du nola egin, GitHub kontuarekin
+  edo kontu gabe.
 
 **Zergatik da garrantzitsua.** Europa osoko komunitateek MeshCore elkarren ondoan darabilte.
 Ezarpen egokiekin, haien mesh sareek mesh sare bakarra osatzen dute.

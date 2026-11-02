@@ -5,11 +5,11 @@ description: meshcore-info.eu sammelet de ynstellingen, hantliedingen en ark dy'
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu leit MeshCore út foar Europa: de ynstellings, hantliedingen en
@@ -38,13 +38,13 @@ winkelkeppelings of tracking.
 
 **Hoe't it wurket.**
 
-- Iepenje meshcore-info.eu yn dyn taal: de side is der yn 16.
+- Iepenje meshcore-info.eu yn dyn taal: de side is der yn 33 talen.
 - Fyn hantliedingen oer [hardware](/devices/), rollen en [ynstellings](/guides/), en oer
   [hoe't MeshCore wurket](/about/).
-- Fyn de [pleatslike groep](/community/) by dy yn 'e buert, of foegje dyn eigen groep ta.
-- Foegje de ynstellings dy't dyn gebiet brûkt ta oan [Oanrekommandearre ynstellings](/guides/settings/).
-- Ferbetterje alles op 'e side, krekt as op in wiki. In frijwilliger kontrolearret elke feroaring
-  foardat dy op 'e side komt. Op [Meiwurkje](/contribute/) sjochst hoe't dat giet, mei of
+- Fyn de [pleatslike groep](/community/) by dy yn 'e buert, of foegje dyn groep ta.
+- Foegje by [Oanrikkemandearre ynstellings](/guides/settings/) de ynstellings ta dy't dyn gebiet brûkt.
+- Ferbetterje alles op 'e side, lykas op in wiki. In frijwilliger kontrolearret elke wiziging
+  foardat dy op 'e side komt. [Bydrage](/contribute/) lit sjen hoe't dat moat, mei of
   sûnder GitHub-akkount.
 
 **Wêrom it wichtich is.** Mienskippen oer hiel Europa brûke MeshCore njonken inoar. Mei

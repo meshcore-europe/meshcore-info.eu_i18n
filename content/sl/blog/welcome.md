@@ -5,11 +5,11 @@ description: meshcore-info.eu zbira nastavitve, vodnike in orodja, ki si jih del
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu razlaga MeshCore za Evropo: nastavitve, vodiče in orodja, ki si jih
@@ -35,14 +35,14 @@ za Evropo v 33 jezikih. Pišejo ga prostovoljci, brez oglasov, povezav do trgovi
 
 **Kako deluje.**
 
-- Odpri meshcore-info.eu v svojem jeziku: spletno mesto je na voljo v 16 jezikih.
-- Poišči vodiče o [strojni opremi](/devices/), vlogah in [nastavitvah](/guides/) ter o
-  tem, [kako deluje MeshCore](/about/).
+- Odpri meshcore-info.eu v svojem jeziku: stran je na voljo v 33 jezikih.
+- Poišči vodiče o [strojni opremi](/devices/), vlogah in [nastavitvah](/guides/) ter o tem,
+  [kako deluje MeshCore](/about/).
 - Poišči [lokalno skupino](/community/) v svoji bližini ali dodaj svojo.
-- Nastavitve, ki jih uporabljajo na tvojem območju, dodaj med [Priporočene nastavitve](/guides/settings/).
-- Popravi karkoli na spletnem mestu, kot na wikiju. Prostovoljec pregleda vsako
-  spremembo, preden se pojavi na spletnem mestu. Na strani [Sodeluj](/contribute/) izveš,
-  kako to narediš, z računom GitHub ali brez njega.
+- Dodaj nastavitve, ki jih uporabljajo na tvojem območju, med [priporočene nastavitve](/guides/settings/).
+- Popravi kar koli na strani, kot v wikiju. Prostovoljec preveri vsako spremembo,
+  preden se prikaže na strani. Stran [Prispevaj](/contribute/) pokaže, kako to narediš, z računom
+  GitHub ali brez njega.
 
 **Zakaj je to pomembno.** Skupnosti po vsej Evropi uporabljajo MeshCore druga ob drugi.
 S pravimi nastavitvami se njihova omrežja povežejo v eno samo omrežje mesh.

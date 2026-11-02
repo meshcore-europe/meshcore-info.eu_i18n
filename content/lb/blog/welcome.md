@@ -5,11 +5,11 @@ description: meshcore-info.eu sammelt d'Astellungen, d'Guiden an d'Tools, déi d
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu erkläert MeshCore fir Europa: d'Astellungen, d'Guiden an
@@ -38,13 +38,13 @@ Shop-Linken oder Tracking.
 
 **Wéi et funktionéiert.**
 
-- Maach meshcore-info.eu an denger Sprooch op: d'Säit gëtt et an 16 Sproochen.
+- Maach meshcore-info.eu an denger Sprooch op: d'Säit gëtt et an 33 Sproochen.
 - Fann Guiden iwwer [Hardware](/devices/), Rollen an [Astellungen](/guides/), an doriwwer,
   [wéi MeshCore funktionéiert](/about/).
-- Fann d'[lokal Grupp](/community/) bei dir an der Géigend, oder dro deng an.
-- Dro d'Astellungen, déi deng Géigend benotzt, op [Recommandéiert Astellungen](/guides/settings/) an.
+- Fann d'[lokal Grupp](/community/) bei dir an der Géigend, oder setz deng derbäi.
+- Setz d'Astellungen, déi deng Géigend benotzt, bei [Recommended settings](/guides/settings/) derbäi.
 - Korrigéier alles op der Säit, wéi an engem Wiki. E Fräiwëllege kontrolléiert all Ännerung,
-  ier se op der Säit ze gesinn ass. Op [Matmaachen](/contribute/) gesäis du, wéi dat geet, mat oder
+  ier se op der Säit ze gesinn ass. [Contribute](/contribute/) weist, wéi et geet, mat oder
   ouni GitHub-Kont.
 
 **Firwat dat wichteg ass.** Communautéiten uechter Europa bedreiwe MeshCore niewenteneen. Mat

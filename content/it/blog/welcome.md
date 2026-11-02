@@ -5,11 +5,11 @@ description: meshcore-info.eu raccoglie in 33 lingue le impostazioni, le guide e
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu spiega MeshCore per l'Europa: le impostazioni, le guide e gli
@@ -38,14 +38,14 @@ link a negozi o tracciamento.
 
 **Come funziona.**
 
-- Apri meshcore-info.eu nella tua lingua: il sito ne offre 16.
-- Trova guide su [hardware](/devices/), ruoli e [impostazioni](/guides/), e su
+- Apri meshcore-info.eu nella tua lingua: il sito è in 33 lingue.
+- Trova le guide su [hardware](/devices/), ruoli e [impostazioni](/guides/), e su
   [come funziona MeshCore](/about/).
 - Trova il [gruppo locale](/community/) vicino a te, oppure aggiungi il tuo.
-- Aggiungi le impostazioni della tua zona nella pagina [Impostazioni consigliate](/guides/settings/).
+- Aggiungi a [Impostazioni consigliate](/guides/settings/) le impostazioni usate nella tua zona.
 - Correggi qualsiasi cosa sul sito, come in un wiki. Un volontario controlla ogni modifica
-  prima che compaia sul sito. Nella pagina [Contribuisci](/contribute/) vedi come fare, con o
-  senza un account GitHub.
+  prima che appaia sul sito. [Contribuisci](/contribute/) spiega come fare, con o
+  senza account GitHub.
 
 **Perché è importante.** In tutta Europa le comunità gestiscono MeshCore una accanto all'altra. Con
 le impostazioni giuste, le loro mesh formano un'unica mesh.

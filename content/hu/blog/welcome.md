@@ -5,11 +5,11 @@ description: A meshcore-info.eu 33 nyelven gyűjti össze a helyi mesh közöss�
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 A meshcore-info.eu Európának mutatja be a MeshCore-t: a helyi meshek közös beállításait, útmutatóit és eszközeit. Az alábbi sajtóközleményt szabadon átmásolhatod.
@@ -26,11 +26,14 @@ Ezeket az átjátszókat helyi csoportok működtetik. A beállítások, útmuta
 
 **Így működik.**
 
-- Nyisd meg a meshcore-info.eu oldalt a saját nyelveden: az oldal 16 nyelven érhető el.
-- Útmutatókat találsz a [hardverről](/devices/), a szerepekről és a [beállításokról](/guides/), valamint arról, [hogyan működik a MeshCore](/about/).
-- Keresd meg a hozzád közeli [helyi csoportot](/community/), vagy vedd fel a sajátodat.
+- Nyisd meg a meshcore-info.eu oldalt a saját nyelveden: az oldal 33 nyelven érhető el.
+- Útmutatókat találsz a [hardverről](/devices/), a szerepekről és a [beállításokról](/guides/), valamint arról,
+  [hogyan működik a MeshCore](/about/).
+- Keresd meg a közeledben lévő [helyi csoportot](/community/), vagy add hozzá a sajátodat.
 - Add hozzá a környékeden használt beállításokat az [Ajánlott beállítások](/guides/settings/) oldalhoz.
-- Bármit kijavíthatsz az oldalon, mint egy wikiben. Egy önkéntes minden módosítást ellenőriz, mielőtt megjelenik az oldalon. A [Közreműködés](/contribute/) oldalon megtudod, hogyan teheted ezt meg, GitHub-fiókkal vagy anélkül.
+- Javíts ki bármit az oldalon, akárcsak egy wikiben. Egy önkéntes minden módosítást ellenőriz,
+  mielőtt megjelenik az oldalon. A [Közreműködés](/contribute/) oldal megmutatja, hogyan teheted meg,
+  GitHub-fiókkal vagy anélkül.
 
 **Ezért fontos.** Európa-szerte közösségek üzemeltetik egymás mellett a MeshCore-t. A megfelelő beállításokkal a meshjeik egyetlen mesh-sé állnak össze.
 

@@ -5,11 +5,11 @@ description: meshcore-info.eu jiġbor is-settings, il-gwidi u l-għodod li jaqsm
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu jispjega MeshCore għall-Ewropa: l-issettjar, il-gwidi u
@@ -36,13 +36,13 @@ links għal ħwienet jew traċċar.
 
 **Kif jaħdem.**
 
-- Iftaħ meshcore-info.eu bil-lingwa tiegħek: is-sit huwa disponibbli f'16-il lingwa.
+- Iftaħ meshcore-info.eu bil-lingwa tiegħek: is-sit jinqara f'33 lingwa.
 - Sib gwidi dwar il-[hardware](/devices/), ir-rwoli u l-[issettjar](/guides/), u dwar
   [kif jaħdem MeshCore](/about/).
 - Sib il-[grupp lokali](/community/) qrib tiegħek, jew żid il-grupp tiegħek.
-- Żid l-issettjar li jużaw fiż-żona tiegħek fil-paġna [Issettjar rakkomandat](/guides/settings/).
-- Ikkoreġi kull ħaġa fis-sit, bħal f'wiki. Voluntier jiċċekkja kull bidla
-  qabel ma tidher fis-sit. Il-paġna [Ikkontribwixxi](/contribute/) turik kif, b'kont ta' GitHub jew
+- Żid l-issettjar li jużaw fiż-żona tiegħek f'[Issettjar rakkomandat](/guides/settings/).
+- Ikkoreġi kull ħaġa fuq is-sit, bħal f'wiki. Voluntier jiċċekkja kull bidla
+  qabel ma tidher fuq is-sit. Il-paġna [Ikkontribwixxi](/contribute/) turi kif, b'kont GitHub jew
   mingħajru.
 
 **Għaliex hu importanti.** Komunitajiet madwar l-Ewropa jħaddmu MeshCore ħdejn xulxin. Bl-issettjar

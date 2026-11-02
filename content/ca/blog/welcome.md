@@ -5,11 +5,11 @@ description: meshcore-info.eu recull els ajustos, les guies i les eines que comp
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu explica MeshCore per a Europa: la configuració, les guies i
@@ -37,14 +37,14 @@ enllaços a botigues ni seguiment.
 
 **Com funciona.**
 
-- Obre meshcore-info.eu en el teu idioma: el web n'ofereix 16.
-- Busca guies sobre [maquinari](/devices/), rols i [configuració](/guides/), i sobre
+- Obre meshcore-info.eu en la teva llengua: el web n'ofereix 33.
+- Consulta guies sobre [maquinari](/devices/), rols i [configuració](/guides/), i sobre
   [com funciona MeshCore](/about/).
-- Busca el [grup local](/community/) més proper, o afegeix-hi el teu.
-- Afegeix la configuració de la teva zona a [Configuració recomanada](/guides/settings/).
-- Corregeix qualsevol cosa del web, com en una wiki. Un voluntari revisa cada canvi
-  abans que aparegui al web. A [Contribueix](/contribute/) t'expliquem com fer-ho, amb compte
-  de GitHub o sense.
+- Busca el [grup local](/community/) més proper o afegeix el teu.
+- Afegeix a [Configuració recomanada](/guides/settings/) la configuració que es fa servir a la teva zona.
+- Corregeix qualsevol cosa del web, com en un wiki. Un voluntari revisa cada canvi
+  abans que aparegui al web. A [Col·labora](/contribute/) hi veuràs com fer-ho, amb compte de GitHub
+  o sense.
 
 **Per què és important.** Comunitats de tot Europa fan servir MeshCore les unes al costat de les altres. Amb
 la configuració adequada, les seves meshes formen una sola mesh.

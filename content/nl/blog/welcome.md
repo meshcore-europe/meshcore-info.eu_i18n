@@ -5,11 +5,11 @@ description: meshcore-info.eu verzamelt de instellingen, handleidingen en tools 
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu legt MeshCore uit voor Europa: de instellingen, handleidingen
@@ -37,14 +37,14 @@ winkellinks of tracking.
 
 **Zo werkt het.**
 
-- Open meshcore-info.eu in je eigen taal: de site is er in 16 talen.
-- Lees handleidingen over [hardware](/devices/), rollen en [instellingen](/guides/), en over
+- Open meshcore-info.eu in je eigen taal: de site is er in 33 talen.
+- Zoek handleidingen op over [hardware](/devices/), rollen en [instellingen](/guides/), en over
   [hoe MeshCore werkt](/about/).
-- Zoek de [lokale groep](/community/) bij jou in de buurt, of voeg die van jou toe.
-- Zet de instellingen die je regio gebruikt bij [Aanbevolen instellingen](/guides/settings/).
-- Verbeter alles op de site, net als bij een wiki. Een vrijwilliger controleert
-  elke wijziging voordat die op de site verschijnt. Op [Bijdragen](/contribute/) lees je hoe,
-  met of zonder GitHub-account.
+- Zoek de [lokale groep](/community/) bij jou in de buurt, of voeg je eigen groep toe.
+- Voeg de instellingen die in jouw gebied in gebruik zijn toe aan [Aanbevolen instellingen](/guides/settings/).
+- Verbeter alles op de site, net als bij een wiki. Een vrijwilliger controleert elke wijziging
+  voordat die op de site verschijnt. Op [Bijdragen](/contribute/) lees je hoe, met of
+  zonder GitHub-account.
 
 **Waarom dit belangrijk is.** Overal in Europa draaien communities naast elkaar MeshCore.
 Met de juiste instellingen vormen hun meshes samen één mesh.

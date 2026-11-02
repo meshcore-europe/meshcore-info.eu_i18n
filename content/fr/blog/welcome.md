@@ -5,11 +5,11 @@ description: meshcore-info.eu rassemble les réglages, guides et outils que les 
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu présente MeshCore pour l'Europe : les réglages, les guides et
@@ -38,13 +38,13 @@ ni liens vers des boutiques, ni pistage.
 
 **Comment ça marche.**
 
-- Ouvre meshcore-info.eu dans ta langue : le site en propose 16.
-- Trouve des guides sur le [matériel](/devices/), les rôles et les [réglages](/guides/), et sur
-  [le fonctionnement de MeshCore](/about/).
+- Ouvre meshcore-info.eu dans ta langue : le site en propose 33.
+- Trouve des guides sur le [matériel](/devices/), les rôles et les [réglages](/guides/), ainsi que sur
+  le [fonctionnement de MeshCore](/about/).
 - Trouve le [groupe local](/community/) près de chez toi, ou ajoute le tien.
-- Ajoute les réglages de ta région aux [Réglages recommandés](/guides/settings/).
+- Ajoute les réglages utilisés dans ta zone à la page [Réglages recommandés](/guides/settings/).
 - Corrige ce que tu veux sur le site, comme sur un wiki. Un bénévole vérifie chaque modification
-  avant sa mise en ligne. La page [Contribuer](/contribute/) t'explique comment faire, avec ou
+  avant sa mise en ligne. [Contribuer](/contribute/) explique comment faire, avec ou
   sans compte GitHub.
 
 **Pourquoi c'est important.** Partout en Europe, des communautés font tourner MeshCore côte à côte. Avec

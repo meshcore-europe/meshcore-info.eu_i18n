@@ -5,11 +5,11 @@ description: meshcore-info.eu kokoaa paikallisten meshien jakamat asetukset, opp
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '948771c0'
+  source_hash: 'fd3673ae'
   seeded: '2026-11-02'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'e6c910e1', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '4e79670e', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
 ---
 
 meshcore-info.eu kertoo MeshCoresta Euroopassa. Sivustolta löydät paikallisten
@@ -39,14 +39,14 @@ ilman mainoksia, kauppalinkkejä tai seurantaa.
 
 **Näin se toimii.**
 
-- Avaa meshcore-info.eu omalla kielelläsi: sivusto on saatavilla 16 kielellä.
-- Löydät oppaita [laitteista](/devices/), rooleista ja [asetuksista](/guides/)
-  sekä siitä, [miten MeshCore toimii](/about/).
-- Etsi lähelläsi toimiva [paikallinen ryhmä](/community/) tai lisää omasi.
-- Lisää alueesi käyttämät asetukset sivulle [Suositellut asetukset](/guides/settings/).
-- Korjaa mitä tahansa sivustolla, kuten wikissä. Vapaaehtoinen tarkistaa jokaisen
-  muutoksen, ennen kuin se näkyy sivustolla. [Osallistu](/contribute/)-sivulla
-  kerrotaan, miten se onnistuu GitHub-tilillä tai ilman sitä.
+- Avaa meshcore-info.eu omalla kielelläsi: sivusto on saatavilla 33 kielellä.
+- Etsi oppaita [laitteista](/devices/), rooleista ja [asetuksista](/guides/) sekä
+  siitä, [miten MeshCore toimii](/about/).
+- Etsi [paikallinen ryhmä](/community/) läheltäsi tai lisää omasi.
+- Lisää alueellasi käytetyt asetukset sivulle [Suositellut asetukset](/guides/settings/).
+- Korjaa sivustolta mitä tahansa, kuten wikissä. Vapaaehtoinen tarkistaa jokaisen muutoksen,
+  ennen kuin se näkyy sivustolla. Sivu [Osallistu](/contribute/) neuvoo, miten se onnistuu
+  GitHub-tilillä tai ilman sitä.
 
 **Miksi tämä on tärkeää.** Yhteisöt eri puolilla Eurooppaa käyttävät MeshCorea
 rinnakkain. Oikeilla asetuksilla niiden meshit muodostavat yhden meshin.
