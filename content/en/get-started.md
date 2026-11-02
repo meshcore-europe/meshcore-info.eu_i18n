@@ -18,6 +18,10 @@ and keyboard that works on its own.
 Get the 868 MHz version. The supplied antenna does the job; the
 [antenna guide](/guides/antenna/) shows how to check one.
 
+Your board runs Meshtastic now? Flashing MeshCore replaces it, and the two
+do not talk to each other. [Coming from Meshtastic](/about/#meshtastic)
+lists what works differently.
+
 {{< callout type="warning" >}}
 Attach the antenna before you switch the radio on. A LoRa radio that
 transmits without an antenna can damage its own chip.
