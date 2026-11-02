@@ -29,8 +29,8 @@ section (a section starts at a heading); each section gets the sections
 translated before it as context, so a term keeps one translation on the
 whole page.
 Each translated section must pass the parity check against its English
-section (tools/parity.py) and keep protected terms and radio values
-(tools/protected.py); after a failed retry the English section is kept, so
+section (tools/parity.py), keep protected terms and radio values
+(tools/protected.py) and repeat no English sentence (sentences()); after a failed retry the English section is kept, so
 bad output never reaches the page. Such a page is not finished: its
 source_hash is UNFINISHED, so it counts as stale everywhere (tools/gaps.py,
 tools/coverage.py, the banner on the page), and what stayed English has an
@@ -68,6 +68,15 @@ TranslatePage = Callable[[str, Language], str]
 # (English, translation, language) -> rewritten translation.
 Rewrite = Callable[[str, str, Language], str]
 ATTEMPTS = 2
+# A sentence of this many words that the answer repeats from the English is taken as left untranslated.
+# Fewer words are mostly names and titles of sources, which stay the same in a translation.
+ENGLISH_WORDS = 6
+HEADING_ATTRIBUTES = re.compile(r"\{[^}\n]*#[^}\n]*\}")
+WORD = re.compile(r"[^\W\d_]{2,}")
+MARKDOWN_LINK = re.compile(r"\[([^\]]*)\]\([^)]*\)")
+# Between paragraphs, list items and table cells.
+PROSE_BREAK = re.compile(r"\n[ \t]*\n|\n[ \t]*(?:[-*+>]|\d+\.)[ \t]+|^[ \t]*(?:[-*+>]|\d+\.)[ \t]+|\|", re.M)
+SENTENCE_END = re.compile(r"(?<=[.!?:;])\s+")
 REWRITE_LENGTH = (0.8, 1.6)
 # Above the translation block of a machine page: a reader who fixes one word
 # on GitHub should know the next seeding run replaces it unless status is human.
@@ -127,8 +136,32 @@ def blocks(body: str) -> list[str]:
     return parts
 
 
+def sentences(text: str) -> set[str]:
+    """The sentences of running text with at least ENGLISH_WORDS words, without code, shortcodes and link targets."""
+    lines, fence = [], None
+    for line in text.splitlines():
+        m = parity.FENCE.match(line)
+        if fence is None and m:
+            fence = m.group(1)
+        elif fence is not None and m and m.group(1)[0] == fence[0] and len(m.group(1)) >= len(fence):
+            fence = None
+        elif fence is None:
+            lines.append(line)
+    plain = parity.SHORTCODE.sub("", parity.INLINE_CODE.sub("", "\n".join(lines)))
+    plain = HEADING_ATTRIBUTES.sub("", plain)
+    plain = parity.BARE_URL.sub("", MARKDOWN_LINK.sub(r"\1", plain))
+    found = set()
+    for chunk in PROSE_BREAK.split(plain):
+        for sentence in SENTENCE_END.split(" ".join(chunk.split())):
+            sentence = sentence.strip(" #>*_")
+            if len(WORD.findall(sentence)) >= ENGLISH_WORDS:
+                found.add(sentence)
+    return found
+
+
 def faithful(en: str, text: str, terms: list[str]) -> bool:
-    return bool(text.strip()) and not parity.compare(en, text) and not protected.problems(en, text, terms)
+    return (bool(text.strip()) and not parity.compare(en, text) and not protected.problems(en, text, terms)
+            and not sentences(en) & sentences(text))
 
 
 def translate_section(section: str, lang: Language, translate: Translate, terms: list[str],
