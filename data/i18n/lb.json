@@ -3,6 +3,6264 @@
     "language": "lb",
     "name": "Lëtzebuergesch",
     "managed_by": "community",
-    "updated": "2026-10-31"
+    "updated": "2026-11-02"
+  },
+  "site_tagline": {
+    "value": "Messagen ouni Netz, uechter Europa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fd77fd37"
+  },
+  "site_description": {
+    "value": "De Communautéits-Guide fir MeshCore an Europa: éischt Schrëtt, Hardware, lokal Gruppen, Ofdeckungskaarten a Repeateren. Net kommerziell an Open Source.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "00f6c54b"
+  },
+  "skip_to_content": {
+    "value": "Bei den Inhalt sprangen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ac576a66"
+  },
+  "menu": {
+    "value": "Menü",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "99af6606"
+  },
+  "nav_label": {
+    "value": "Haaptnavigatioun",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eb814be3"
+  },
+  "nav_about": {
+    "value": "Iwwer MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4efca0d1"
+  },
+  "nav_get_started": {
+    "value": "Ufänken",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "nav_devices": {
+    "value": "Apparater",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ba5121d"
+  },
+  "nav_community": {
+    "value": "Communautéit",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bb501d78"
+  },
+  "nav_map": {
+    "value": "Kaart",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be176b00"
+  },
+  "nav_repeater_guide": {
+    "value": "Repeater-Guide",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4608abcd"
+  },
+  "nav_news": {
+    "value": "Neiegkeeten",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69752f23"
+  },
+  "nav_projects": {
+    "value": "Projeten",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "04e2a972"
+  },
+  "nav_contribute": {
+    "value": "Matmaachen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97b0c61b"
+  },
+  "nav_privacy": {
+    "value": "Dateschutz",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54a57c31"
+  },
+  "in_english": {
+    "value": "Dës Säit ass op Englesch",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7e9323d9"
+  },
+  "lang_switch_label": {
+    "value": "Sprooch",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4fe6526"
+  },
+  "not_translated_yet": {
+    "value": "nach net iwwersat",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3f59d8d3"
+  },
+  "theme_light": {
+    "value": "Theema: hell",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "72a842db"
+  },
+  "theme_dark": {
+    "value": "Theema: donkel",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "43908c59"
+  },
+  "theme_system": {
+    "value": "Theema: System",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "98a8dd2c"
+  },
+  "copy": {
+    "value": "Kopéieren",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e21f935f"
+  },
+  "copied": {
+    "value": "Kopéiert",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8d525e5f"
+  },
+  "hero_eyebrow": {
+    "value": "868 MHz · Europa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "567ed2b0"
+  },
+  "hero_title": {
+    "value": "Ouni Netz, am Mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "43ed56a7"
+  },
+  "hero_lead": {
+    "value": "MeshCore schéckt Messagen iwwer Radio, ouni Internet an ouni Abonnement. D'Meshen an Europa verbanne sech zu engem eenzegen. Hei deelen hir Communautéiten, wat si léieren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "19ad0ab5"
+  },
+  "hero_cta_start": {
+    "value": "Ufänken",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "hero_cta_about": {
+    "value": "Entdeck, wat MeshCore ass",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cdecad6f"
+  },
+  "paths_title": {
+    "value": "Wou wëlls du ufänken?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf614863"
+  },
+  "path_new_title": {
+    "value": "Nei hei",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10bc4c55"
+  },
+  "path_new_desc": {
+    "value": "Wat e Mesh ass, a wat MeshCore ka a wat net.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a3e4ab18"
+  },
+  "path_offgrid_title": {
+    "value": "Bereet, wann d'Netzer ausfalen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b005ed6a"
+  },
+  "path_offgrid_desc": {
+    "value": "Wiel e Board fir Wanderen, Segelen, Evenementer oder e Stroumausfall.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6a84d5b4"
+  },
+  "path_build_title": {
+    "value": "Bauen a basselen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c24822f6"
+  },
+  "path_build_desc": {
+    "value": "Radio, Antennen, Tools a Projete vun anere Communautéiten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "31166d76"
+  },
+  "path_grow_title": {
+    "value": "E Repeater dobäisetzen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf145b6c"
+  },
+  "path_grow_desc": {
+    "value": "Plang e Repeater, deen däi Gebitt ofdeckt, a stell en op.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "db75c8c5"
+  },
+  "path_local_title": {
+    "value": "Leit bei dir an der Géigend",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "808e1f66"
+  },
+  "path_local_desc": {
+    "value": "Fann deng lokal Grupp, hir Chats an hir Kanäl.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a1e525eb"
+  },
+  "why_title": {
+    "value": "Firwat MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67d51fbe"
+  },
+  "why_costs_title": {
+    "value": "Keng lafend Käschten",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "adff5b03"
+  },
+  "why_costs_desc": {
+    "value": "Du kaafs eemol e Radio. Message kaschten näischt: keng SIM-Kaart, keen Dateforfait, keen Abonnement.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e735f31"
+  },
+  "why_infra_title": {
+    "value": "Funktionéiert ouni Netz",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "058c8eae"
+  },
+  "why_infra_desc": {
+    "value": "MeshCore funktionéiert weider, wann Handysnetzer an Internet ausgefall oder ausser Reechwäit sinn. Message gi vu Radio zu Radio, iwwer d'Loft.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ec9de206"
+  },
+  "why_open_title": {
+    "value": "Open Source",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67a0d2e0"
+  },
+  "why_open_desc": {
+    "value": "D'Firmware an hire Protokoll sinn Open Source, dofir kann jiddereen drop opbauen. Oppen Apps, Tools a Bibliothéike maachen dat schonn.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97859c5f"
+  },
+  "why_privacy_title": {
+    "value": "Privat vun Ufank un",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "485ca594"
+  },
+  "why_privacy_desc": {
+    "value": "Direktmessage si vun Enn zu Enn verschlësselt. Fir matzemaachen, brauchs du kee Kont a keng Telefonsnummer.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6901512e"
+  },
+  "why_routing_title": {
+    "value": "Lokal no Regioun",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be9348e5"
+  },
+  "why_routing_desc": {
+    "value": "Däin éischte Message flutt duerch d'Repeateren, d'Noden op Diech a Masten, déi Message weiderginn. E Message, deen esou flutt, kann eng Regioun matdroen, a Repeateren ginn nëmmen d'Regioune weider, déi si bedéngen, sou bleift en a sengem Gebitt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e9620b88"
+  },
+  "why_community_title": {
+    "value": "Ee Mesh, vill Gruppen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a49e1ded"
+  },
+  "why_community_desc": {
+    "value": "Lokal Gruppen uechter Europa stellen Repeateren op, deelen Astellungen an hëllefen Ufänger. Fann déi bei dir an der Géigend ënner Lokal Gruppen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d1e253bc"
+  },
+  "home_live_label": {
+    "value": "Live uechter Europa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "44ee0071"
+  },
+  "home_live_packets": {
+    "value": "Paketen an der leschter voller Stonn",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e3e24e13"
+  },
+  "home_live_countries": {
+    "value": "Länner, déi an der leschter Stonn héieren goufen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "502cba0e"
+  },
+  "home_live_repeaters": {
+    "value": "Repeateren, déi an de leschte 7 Deeg héieren goufen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2890ece6"
+  },
+  "home_live_source": {
+    "value": "Zuele vu meshcore-analyzer.eu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "73b22a30"
+  },
+  "strip_label_release": {
+    "value": "Verëffentlechung",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e020e3c6"
+  },
+  "strip_label_reference": {
+    "value": "Referenz",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71bf9093"
+  },
+  "strip_label_guides": {
+    "value": "Guiden",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "572cd72f"
+  },
+  "strip_label_directory": {
+    "value": "Verzeechnes",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c8f84c3c"
+  },
+  "strip_label_site": {
+    "value": "Dës Säit",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e487482d"
+  },
+  "strip_released": {
+    "value": "verëffentlecht",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d29eae13"
+  },
+  "strip_boards": {
+    "value": "Boards",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "685d9a8f"
+  },
+  "strip_commands": {
+    "value": "CLI-Befeeler",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a13cc6cb"
+  },
+  "strip_latest_firmware": {
+    "value": "lescht Firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a0daddac"
+  },
+  "strip_releases": {
+    "value": "Verëffentlechungen op dëser Säit",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e99084d9"
+  },
+  "strip_areas": {
+    "value": "Gebidder mat recommandéierten Astellungen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "789b6daa"
+  },
+  "strip_presets": {
+    "value": "Radio-Presets",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cb582a14"
+  },
+  "strip_devices": {
+    "value": "Apparater",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ade15a12"
+  },
+  "strip_groups": {
+    "value": "lokal Gruppen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f40e444b"
+  },
+  "strip_countries": {
+    "value": "Länner",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e45d4cba"
+  },
+  "strip_maps": {
+    "value": "Ofdeckungskaarten",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e149f255"
+  },
+  "strip_channel_countries": {
+    "value": "Länner zur Auswiel",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0fbe9da9"
+  },
+  "strip_projects": {
+    "value": "Projeten",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2577c0f5"
+  },
+  "strip_languages": {
+    "value": "Sproochen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6cb574fa"
+  },
+  "strip_trackers": {
+    "value": "Tracker",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "da068881"
+  },
+  "strip_third_party": {
+    "value": "Ufroen un Drëttubidder",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "64ebce3d"
+  },
+  "strip_cookie": {
+    "value": "Cookie, nëmme wann s du en Theema auswiels",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be0b8e53"
+  },
+  "strip_checked": {
+    "value": "Iwwerpréift",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0efd92a3"
+  },
+  "strip_release_source": {
+    "value": "Aus de MeshCore-Verëffentlechungen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d619a021"
+  },
+  "news_latest": {
+    "value": "Lescht Neiegkeeten",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f74e23c2"
+  },
+  "news_english_only": {
+    "value": "D'Neiegkeete ginn nëmmen op Englesch publizéiert.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "815251ef"
+  },
+  "news_all": {
+    "value": "All Neiegkeeten",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67c7790c"
+  },
+  "badge_ai": {
+    "value": "Maschinell iwwersat",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e174e770"
+  },
+  "badge_human": {
+    "value": "Iwwerpréift Iwwersetzung",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3f4efebd"
+  },
+  "banner_ai_title": {
+    "value": "Eng Maschinn huet dës Säit iwwersat.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1cb96c83"
+  },
+  "banner_ai_body": {
+    "value": "Nach kee Mammesproochler huet se gepréift, dofir kënnen e puer Formuléierunge falsch kléngen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bbc7e56b"
+  },
+  "banner_stale": {
+    "value": "Déi englesch Säit huet sech zënter dëser Iwwersetzung geännert.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b34a3714"
+  },
+  "read_english": {
+    "value": "Liess déi englesch Versioun",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "971012a5"
+  },
+  "banner_improve": {
+    "value": "Hëllef, dës Iwwersetzung ze verbesseren",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a9a967b6"
+  },
+  "edit_page": {
+    "value": "Dës Säit op GitHub änneren",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "073fd103"
+  },
+  "planned_note": {
+    "value": "Mir schaffen nach un dëser Säit.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f0aebcf0"
+  },
+  "planned_more": {
+    "value": "Bis dohinner kënnen dës Säiten dir hëllefen:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ec1b5efa"
+  },
+  "last_verified": {
+    "value": "Fir d'lescht iwwerpréift",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d8e92048"
+  },
+  "sources": {
+    "value": "Quellen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "caf85b08"
+  },
+  "callout_tip": {
+    "value": "Tipp",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4245a3c"
+  },
+  "callout_warning": {
+    "value": "Warnung",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e981ddae"
+  },
+  "callout_legal": {
+    "value": "Juristesch",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4787eaf7"
+  },
+  "filter_title": {
+    "value": "Auswiel agrenzen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "28c6eb01"
+  },
+  "filter_any": {
+    "value": "Egal",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2b505597"
+  },
+  "filter_reset": {
+    "value": "Filteren zerécksetzen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10afa984"
+  },
+  "filter_count": {
+    "value": "{shown} vun {total} ugewisen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3d25c92"
+  },
+  "filter_empty": {
+    "value": "Näischt passt bei dës Filteren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7094992d"
+  },
+  "filter_role_q": {
+    "value": "Wat soll et maachen?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "25ed547a"
+  },
+  "filter_price_q": {
+    "value": "Budget",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1c6225ec"
+  },
+  "filter_power_q": {
+    "value": "Stroum",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "848e9656"
+  },
+  "filter_category_q": {
+    "value": "Kategorie",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "292c06f0"
+  },
+  "role_companion": {
+    "value": "Companion (de Radio, vun deem aus s du Message schécks)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fc49eb4e"
+  },
+  "role_repeater": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "role_room_server": {
+    "value": "Room Server",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68b91cc5"
+  },
+  "price_1": {
+    "value": "€ (ënner 25)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "84cdcfea"
+  },
+  "price_2": {
+    "value": "€€ (25 bis 60)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be9a6bd8"
+  },
+  "price_3": {
+    "value": "€€€ (iwwer 60)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0e261f3a"
+  },
+  "power_battery": {
+    "value": "Agebaut Batterie",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3b3a4b7e"
+  },
+  "power_external": {
+    "value": "Externe Stroum oder Solar",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "50778470"
+  },
+  "power_profile_low": {
+    "value": "Niddreg",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f793de20"
+  },
+  "power_profile_medium": {
+    "value": "Mëttel",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e588cd1"
+  },
+  "power_profile_high": {
+    "value": "Héich",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c4ebc6d4"
+  },
+  "spec_mcu": {
+    "value": "Prozessor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54aac653"
+  },
+  "spec_radio": {
+    "value": "LoRa-Chip",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1d340ea4"
+  },
+  "spec_battery": {
+    "value": "Batterie",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dfcb7c16"
+  },
+  "spec_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "176c7866"
+  },
+  "spec_screen": {
+    "value": "Écran",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e56137e"
+  },
+  "spec_connectivity": {
+    "value": "Konnektivitéit",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5479401f"
+  },
+  "spec_form": {
+    "value": "Bauform",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "12827072"
+  },
+  "spec_price": {
+    "value": "Präisklass",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "396491b7"
+  },
+  "spec_power": {
+    "value": "Stroumverbrauch",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "96fcc312"
+  },
+  "spec_firmware": {
+    "value": "MeshCore-Support",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4f7c9307"
+  },
+  "fw_official": {
+    "value": "Offiziell Build",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e07a4935"
+  },
+  "fw_community": {
+    "value": "Community-Build",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f8338fb4"
+  },
+  "yes": {
+    "value": "Jo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "85a39ab3"
+  },
+  "no": {
+    "value": "Nee",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1ea442a1"
+  },
+  "none": {
+    "value": "Keen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc937b59"
+  },
+  "form_handheld": {
+    "value": "Handapparat",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ecb26701"
+  },
+  "form_board": {
+    "value": "Plakegt Board",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33e95aea"
+  },
+  "form_enclosed": {
+    "value": "Node mat Gehäis",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "751c73a5"
+  },
+  "form_wearable": {
+    "value": "Um Kierper ze droen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e31070f"
+  },
+  "form_usb": {
+    "value": "USB-Stick",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "031ad13f"
+  },
+  "conn_ble": {
+    "value": "Bluetooth LE",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e05f95a2"
+  },
+  "conn_wifi": {
+    "value": "Wi-Fi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "337253f2"
+  },
+  "conn_usb": {
+    "value": "USB",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61f0acff"
+  },
+  "devices_empty": {
+    "value": "Et sinn nach keng Apparater opgelëscht.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a158b22a"
+  },
+  "devices_list_title": {
+    "value": "All d'Apparater",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0594fe82"
+  },
+  "community_channels": {
+    "value": "Kanäl",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4c8906cf"
+  },
+  "community_ask_at": {
+    "value": "fro no dem Link bei",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "969f418d"
+  },
+  "community_languages": {
+    "value": "Sproochen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "318655ce"
+  },
+  "community_empty": {
+    "value": "Et sinn nach keng lokal Gruppen opgelëscht.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "73a4cdc4"
+  },
+  "community_missing_title": {
+    "value": "Feelt deng Grupp?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7c5581b0"
+  },
+  "community_jump": {
+    "value": "Spréng bei e Land",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f7361695"
+  },
+  "community_all": {
+    "value": "All",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a52ace42"
+  },
+  "community_missing_body": {
+    "value": "Jidderee kann eng lokal Grupp dobäisetzen. Maach en Issue mat hirem Numm, Gebitt a Linken op, an e Maintainer setzt se an all Sprooch gläichzäiteg dobäi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a626e730"
+  },
+  "community_missing_cta": {
+    "value": "Setz deng lokal Grupp dobäi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f692beac"
+  },
+  "community_search_title": {
+    "value": "Fann eng Grupp bei dir an der Géigend",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0b6beef7"
+  },
+  "community_search_country": {
+    "value": "Land",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "701d021d"
+  },
+  "community_search_country_pick": {
+    "value": "Wiel e Land",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "19323e2d"
+  },
+  "community_search_place": {
+    "value": "Postcode",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0a4387d2"
+  },
+  "community_search_radius": {
+    "value": "Distanz",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b7bdf7a2"
+  },
+  "community_search_km": {
+    "value": "{n} km",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e4b21b4b"
+  },
+  "community_search_go": {
+    "value": "Sichen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "49c266ba"
+  },
+  "community_search_locate": {
+    "value": "Mäi Standuert benotzen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "30cbc33b"
+  },
+  "community_search_privacy": {
+    "value": "D'Sich leeft an dengem Browser. Däi Standuert an däi Postcode bleiwen op dengem Apparat.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b96fd6a8"
+  },
+  "community_search_loading": {
+    "value": "D'Postcode vun dësem Land gi gelueden...",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08d96769"
+  },
+  "community_search_error": {
+    "value": "D'Postcode-Lëscht ass net gelueden. Probéier et nach eng Kéier.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d7420063"
+  },
+  "community_search_unknown": {
+    "value": "Mir kennen dee Postcode an {country} net. Kontrolléier en oder probéier e Postcode an der Géigend.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2ad685e6"
+  },
+  "community_search_need_country": {
+    "value": "Wiel fir d'éischt e Land.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cebe32b0"
+  },
+  "community_search_no_postcodes": {
+    "value": "D'Postcode-Sich deckt {country} net of. All seng Gruppen:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "26ad24dd"
+  },
+  "community_search_denied": {
+    "value": "Däi Browser huet däi Standuert net gedeelt. Gëff amplaz e Postcode an.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7b0fe439"
+  },
+  "community_search_here": {
+    "value": "däi Standuert",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61d03e13"
+  },
+  "community_search_results": {
+    "value": "Gruppen no bei {place}",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "114324e9"
+  },
+  "community_search_covers": {
+    "value": "Deckt däi Gebitt of",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20cb30ee"
+  },
+  "community_search_national": {
+    "value": "Uechter {country}",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2aea83b"
+  },
+  "community_search_none": {
+    "value": "Nach keng lokal Grupp bannent {n} km.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "09aad8fb"
+  },
+  "community_search_none_country": {
+    "value": "Nach keng lokal Grupp an {country}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d777ab9b"
+  },
+  "community_search_all": {
+    "value": "Dat ganzt Land",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ebe4345"
+  },
+  "community_search_nearest": {
+    "value": "Déi nooste Grupp ass {n} km ewech:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c78007e4"
+  },
+  "community_search_credit": {
+    "value": "Postcoden: GeoNames, CC BY 4.0.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "41bd97b1"
+  },
+  "link_discord": {
+    "value": "Discord",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "053bc658"
+  },
+  "link_telegram": {
+    "value": "Telegram",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "acdd1e73"
+  },
+  "link_signal": {
+    "value": "Signal",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1e9806e4"
+  },
+  "link_matrix": {
+    "value": "Matrix",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "76a2171c"
+  },
+  "link_whatsapp": {
+    "value": "WhatsApp",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6a40edf1"
+  },
+  "link_forum": {
+    "value": "Forum",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4da7bd42"
+  },
+  "link_website": {
+    "value": "Websäit",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5a229ac"
+  },
+  "link_map": {
+    "value": "Kaart",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be176b00"
+  },
+  "link_wiki": {
+    "value": "Wiki",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "63ec69fd"
+  },
+  "map_scope_europe": {
+    "value": "Europawäit",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d7bc2dd9"
+  },
+  "map_scope_country": {
+    "value": "Land",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "701d021d"
+  },
+  "map_scope_region": {
+    "value": "Regional",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "299a03b1"
+  },
+  "map_shows_nodes": {
+    "value": "Noden",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7ac36206"
+  },
+  "map_shows_coverage": {
+    "value": "Ofdeckung",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "523487a5"
+  },
+  "map_shows_traffic": {
+    "value": "Live-Traffic",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9fd86662"
+  },
+  "map_shows_analyzer": {
+    "value": "Paket-Analyser",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14671539"
+  },
+  "map_shows_statistics": {
+    "value": "Statistiken",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a656107e"
+  },
+  "map_open": {
+    "value": "Kaart opmaachen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ea488d26"
+  },
+  "maps_empty": {
+    "value": "Et sinn nach keng Kaarten opgelëscht.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f4332bc7"
+  },
+  "map_tenants_intro": {
+    "value": "Een Analyser fir ganz Europa. Lokal Communautéite bedreiwen en och ënner hirem eegenen Numm an Design, mat deene selwechte Live-Daten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e5054f0"
+  },
+  "project_cat_app": {
+    "value": "App",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0d04bfeb"
+  },
+  "project_cat_tool": {
+    "value": "Tool",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2e53bdcd"
+  },
+  "project_cat_bridge": {
+    "value": "Bréck",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3892e103"
+  },
+  "project_cat_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "project_cat_hardware": {
+    "value": "Hardware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7975300f"
+  },
+  "project_cat_library": {
+    "value": "Bibliothéik",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc20b3d5"
+  },
+  "project_cat_docs": {
+    "value": "Dokumentatioun",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c205924d"
+  },
+  "project_archived": {
+    "value": "Archivéiert",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bdb86505"
+  },
+  "project_licence": {
+    "value": "Lizenz",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3ec8e88"
+  },
+  "project_repo": {
+    "value": "Quellcode",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf046c73"
+  },
+  "projects_empty": {
+    "value": "Nach si keng Projeten opgelëscht.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "26a6bda7"
+  },
+  "projects_list_title": {
+    "value": "All d'Projeten",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4b87271b"
+  },
+  "projects_add_cta": {
+    "value": "Projet areechen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e8a3907"
+  },
+  "footer_about": {
+    "value": "En net-kommerzielle Communityguide zu MeshCore an Europa, ouni Reklamm, Affiliate-Linken oder Tracking.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8a0b3c0d"
+  },
+  "footer_disclaimer": {
+    "value": "Benevoller bedreiwen meshcore-info.eu, an de Site ass net mat den Entwéckler vun der MeshCore-Firmware verbonnen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5043ea17"
+  },
+  "footer_nav_label": {
+    "value": "Site",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fa795581"
+  },
+  "footer_source": {
+    "value": "Quellcode",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf046c73"
+  },
+  "footer_license": {
+    "value": "Text ënner CC BY 4.0, Code ënner MIT.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61085af6"
+  },
+  "not_found_title": {
+    "value": "Säit net fonnt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a469ab4c"
+  },
+  "not_found_body": {
+    "value": "Dës Säit gëtt et net, oder si ass geplënnert.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a9044129"
+  },
+  "not_found_home": {
+    "value": "Op d'Startsäit goen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "adcedded"
+  },
+  "picker_title": {
+    "value": "Wiel deng Sprooch",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e2d0664"
+  },
+  "lang_nudge": {
+    "value": "Mir hunn {language} no denge Browser-Astellungen ausgewielt. Hei kanns du d'Sprooch änneren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e428ce71"
+  },
+  "lang_nudge_others": {
+    "value": "Oder {count} aner Sproochen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c57573b"
+  },
+  "lang_nudge_region": {
+    "value": "Dës Säit gëtt et och op {language}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5d73b6d7"
+  },
+  "lang_nudge_close": {
+    "value": "Zoumaachen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7d9eb7ac"
+  },
+  "coverage_caption": {
+    "value": "Iwwersetzungsstand pro Sprooch",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fdb7f8dd"
+  },
+  "coverage_language": {
+    "value": "Sprooch",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4fe6526"
+  },
+  "coverage_strings": {
+    "value": "Interface-Text",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "146382ff"
+  },
+  "coverage_pages": {
+    "value": "Säiten",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9046da16"
+  },
+  "coverage_human": {
+    "value": "Nogekuckt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fad6057b"
+  },
+  "coverage_ai": {
+    "value": "Maschinell",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8f1cc42d"
+  },
+  "coverage_stale": {
+    "value": "Vereelzt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c759f42e"
+  },
+  "coverage_missing": {
+    "value": "Feelt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6be36ca4"
+  },
+  "presets_caption": {
+    "value": "Radio-Presets an Europa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "037c3732"
+  },
+  "presets_name": {
+    "value": "Preset an der App",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46bda49e"
+  },
+  "presets_frequency": {
+    "value": "Frequenz (MHz)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1740a857"
+  },
+  "presets_bandwidth": {
+    "value": "Bandbreet (kHz)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5cf2dd7b"
+  },
+  "presets_sf": {
+    "value": "Spreading factor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7cda59eb"
+  },
+  "presets_cr": {
+    "value": "Coding rate",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2cd87b32"
+  },
+  "presets_source": {
+    "value": "Aus der Preset-Lëscht vum MeshCore-Projet, nogekuckt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "215b400b"
+  },
+  "gain_label": {
+    "value": "De Strahl vun engem Dipol an engem Glasfaser-Kollinear, duerch de Mast geschnidden a vun der Säit gesinn, massstabsgerecht. De Kollinear erreecht en Node wäit um Horizont. Nëmmen den Dipol erreecht en Node steil drënner.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d90bf3bb"
+  },
+  "gain_dipole": {
+    "value": "Dipol",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ef909a16"
+  },
+  "gain_collinear": {
+    "value": "Glasfaser-Kollinear",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "822f4c75"
+  },
+  "gain_node": {
+    "value": "Node",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e9337253"
+  },
+  "rz_forged_label": {
+    "value": "E Paket geet vum Ofsender iwwer 3 Repeater bei dech. Den Ofsender fänkt säi Wee mat 3 erfonnten IDen un. All Repeater setzt seng eegen ID um Enn dobäi, also ass d'Enn vum Wee echt an den Ufank net.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90a625a8"
+  },
+  "rz_forged_sender": {
+    "value": "Ofsender",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c299f9b8"
+  },
+  "rz_forged_you": {
+    "value": "Du",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08b04193"
+  },
+  "rz_forged_path": {
+    "value": "Wee",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "62fa5a5b"
+  },
+  "rz_forged_made_up": {
+    "value": "Vum Ofsender erfonnt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c0b6677b"
+  },
+  "rz_forged_added": {
+    "value": "Vun all Repeater dobäigesat",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "347c03d9"
+  },
+  "rz_gate_label": {
+    "value": "Regiounen ëm e Repeater alsRéng: dobausse Messagen ouni Regioun, dann e Land, eng Provënz an an der Mëtt d'eege Regioun vum Repeater. Wann de Repeater méi wéi 35% vun der leschter Minutt sendt, stoppen déi baussenzeg Réng een nom aneren. Seng eege Regioun geet weider duerch.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "492a5c36"
+  },
+  "rz_gate_none": {
+    "value": "Keng Regioun",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f7d42834"
+  },
+  "rz_gate_country": {
+    "value": "Land",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "701d021d"
+  },
+  "rz_gate_province": {
+    "value": "Provënz",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "abfcecfa"
+  },
+  "rz_gate_yours": {
+    "value": "Deng",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54b26f7d"
+  },
+  "rz_gate_meter": {
+    "value": "Sendt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1d3af30f"
+  },
+  "rz_gate_step_calm": {
+    "value": "Ënner 35%: däi Repeater gëtt all Regioun weider, déi en huet.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a144fa31"
+  },
+  "rz_gate_step_none": {
+    "value": "Iwwer 35%: Messagen ouni Regioun stoppen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4cf453e"
+  },
+  "rz_gate_step_wide": {
+    "value": "Nach ëmmer beschäftegt: déi gréisst Regioun stoppt och. Deng eege Regioun geet ëmmer duerch.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b08d4c0a"
+  },
+  "rz_copies_label": {
+    "value": "E Paket vun engem Ofsender, deen keen gesäit, passéiert 4 Repeater. 3 Observere mellen all d'Kopie, déi si héieren hunn, mat hirem Wee. D'Kopie mam kierzte Wee, 1 Repeater, gouf am nootste beim Ofsender héieren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a627dcf1"
+  },
+  "rz_copies_repeater": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "rz_copies_observer": {
+    "value": "Observer, mam Wee vu senger Kopie",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c48198e"
+  },
+  "rz_copies_shortest": {
+    "value": "Kierzte Wee: am nootste beim Ofsender",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0beca4a3"
+  },
+  "country_ad": {
+    "value": "Andorra",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3e340be4"
+  },
+  "country_al": {
+    "value": "Albanien",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1af00b87"
+  },
+  "country_at": {
+    "value": "Éisträich",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c9cab023"
+  },
+  "country_ba": {
+    "value": "Bosnien-Herzegowina",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b0772b9c"
+  },
+  "country_be": {
+    "value": "Belsch",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "348841ef"
+  },
+  "country_bg": {
+    "value": "Bulgarien",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "66b86bf0"
+  },
+  "country_by": {
+    "value": "Wäissrussland",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4bef16df"
+  },
+  "country_ch": {
+    "value": "Schwäiz",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "22755831"
+  },
+  "country_cy": {
+    "value": "Zypern",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5f1162c5"
+  },
+  "country_cz": {
+    "value": "Tschechien",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ecfa967e"
+  },
+  "country_de": {
+    "value": "Däitschland",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "80db4ccd"
+  },
+  "country_dk": {
+    "value": "Dänemark",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c5270975"
+  },
+  "country_ee": {
+    "value": "Estland",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10aeba69"
+  },
+  "country_es": {
+    "value": "Spuenien",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8ef41e6f"
+  },
+  "country_fi": {
+    "value": "Finnland",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aed8f531"
+  },
+  "country_fo": {
+    "value": "Färöer",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "773ca4d6"
+  },
+  "country_fr": {
+    "value": "Frankräich",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7a1ca4ef"
+  },
+  "country_gb": {
+    "value": "Vereenegt Kinnekräich",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8d23a6e3"
+  },
+  "country_gg": {
+    "value": "Guernsey",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b9c48cb1"
+  },
+  "country_gi": {
+    "value": "Gibraltar",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "097ced58"
+  },
+  "country_gr": {
+    "value": "Griicheland",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c93ad43"
+  },
+  "country_hr": {
+    "value": "Kroatien",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7328d3f8"
+  },
+  "country_hu": {
+    "value": "Ungarn",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "504be308"
+  },
+  "country_ie": {
+    "value": "Irland",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "02bf1dfa"
+  },
+  "country_im": {
+    "value": "Isle of Man",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "34096f96"
+  },
+  "country_is": {
+    "value": "Island",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "595d6d91"
+  },
+  "country_it": {
+    "value": "Italien",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5a9cf672"
+  },
+  "country_je": {
+    "value": "Jersey",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "764a8c04"
+  },
+  "country_li": {
+    "value": "Liechtenstein",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6ff080c0"
+  },
+  "country_lt": {
+    "value": "Litauen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5c83a631"
+  },
+  "country_lu": {
+    "value": "Lëtzebuerg",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ed76f191"
+  },
+  "country_lv": {
+    "value": "Lettland",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "988c8160"
+  },
+  "country_mc": {
+    "value": "Monaco",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "935018cc"
+  },
+  "country_md": {
+    "value": "Moldawien",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14ad63a1"
+  },
+  "country_me": {
+    "value": "Montenegro",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7ab597e1"
+  },
+  "country_mk": {
+    "value": "Nordmazedonien",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cd847226"
+  },
+  "country_mt": {
+    "value": "Malta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71e9eb10"
+  },
+  "country_nl": {
+    "value": "Holland",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3a386c13"
+  },
+  "country_no": {
+    "value": "Norwegen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bea54a34"
+  },
+  "country_pl": {
+    "value": "Polen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7f69649a"
+  },
+  "country_pt": {
+    "value": "Portugal",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4c7de2c3"
+  },
+  "country_ro": {
+    "value": "Rumänien",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ea23726d"
+  },
+  "country_rs": {
+    "value": "Serbien",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e8739c83"
+  },
+  "country_ru": {
+    "value": "Russland",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33a3d8ed"
+  },
+  "country_se": {
+    "value": "Schweden",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "85363713"
+  },
+  "country_si": {
+    "value": "Slowenien",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "56059e7f"
+  },
+  "country_sk": {
+    "value": "Slowakei",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a2ea3384"
+  },
+  "country_sm": {
+    "value": "San Marino",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "230450a2"
+  },
+  "country_tr": {
+    "value": "Tierkei",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d15b2145"
+  },
+  "country_ua": {
+    "value": "Ukrain",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "580eedc6"
+  },
+  "country_va": {
+    "value": "Vatikanstad",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b0ce1029"
+  },
+  "country_xk": {
+    "value": "Kosovo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4a867424"
+  },
+  "device.heltec-wifi-lora-32-v3.notes": {
+    "value": "Eng blann Platin: du brauchs nach e Gehäus, eng Antenn an eng Batterie. Den ESP32 verbraucht ze vill Stroum fir e klenge Solar-Repeater.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bc29e2c9"
+  },
+  "device.heltec-wifi-lora-32-v4.notes": {
+    "value": "D'High-Power-Versioun sendt mat bis zu 28 dBm, mat de meeschten Antennen iwwer der europäescher Limitt: de Repeater-Guide weist, wéi s du drënner bleifs. D'Basisversioun kascht manner wéi 25 Euro, d'High-Power-Versioun méi. D'R8-Versioun huet méi Späicher a brauch hiren eegene Firmware-Build.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5c626e8a"
+  },
+  "device.heltec-mesh-node-t114.notes": {
+    "value": "Spuersam nRF52-Platin an eng heefeg Basis fir Solar-Repeater. Schierm a GPS kanns du bei der Bestellung dobäihuelen; domat kascht se méi wéi 25 Euro.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f1999a30"
+  },
+  "device.heltec-wireless-tracker.notes": {
+    "value": "Platin mat agebauten GPS. Batterie a Gehäus brénge s du selwer mat.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5d4b7295"
+  },
+  "device.heltec-wireless-paper.notes": {
+    "value": "Den E-Paper-Schierm bleift an der Sonn liesbar. Keng Batterie dobäi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d60633a2"
+  },
+  "device.lilygo-t-echo.notes": {
+    "value": "Handgerät fir an d'Täsch mat E-Paper-Schierm a GPS. Et gëtt och eng Versioun mat enger méi grousser Batterie.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1f285d65"
+  },
+  "device.lilygo-t-deck-plus.notes": {
+    "value": "Richteg Tastatur, Trackball an Touchscreen. De Plus huet zousätzlech GPS an eng 2000 mAh-Batterie.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0fb0f75c"
+  },
+  "device.lilygo-t-beam-supreme.notes": {
+    "value": "Huet Plaz fir eng 18650-Zell, déi net dobäi ass. Huel d'SX1262-Versioun: d'LR1121-Versioun huet keen offizielle Build.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e3db28aa"
+  },
+  "device.rak-wisblock-rak4631.notes": {
+    "value": "Modulär: mat Moduler zum Opstiechen kënnt GPS, e Schierm oder Sensore bäi. D'Basisplatin huet e Solar-Agank.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c1317a23"
+  },
+  "device.rak-wismesh-tag.notes": {
+    "value": "Schmuele wiederfeste Badge mat agebauten Antennen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "572181c6"
+  },
+  "device.seeed-sensecap-t1000-e.notes": {
+    "value": "Gréisst vun enger Kreditkaart, stëbs- a sprëtzwaasserdicht (IP65), ouni Schierm. Benotzt de LR1110-Radio amplaz vum méi heefege SX1262.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e18363be"
+  },
+  "device.seeed-xiao-nrf52840-wio-sx1262.notes": {
+    "value": "E winzege Stack aus zwou Platinen. Fir mobil Notzung löts du eng Batterie drun.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3063cd1d"
+  },
+  "device.seeed-wio-tracker-l1-pro.notes": {
+    "value": "Kënnt an engem Gehäus mat Schierm, GPS a Batterie. Et gëtt och Lite- an E-Ink-Versiounen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d9fd3d73"
+  },
+  "device.seeed-sensecap-solar-node-p1.notes": {
+    "value": "Wiederfest Gehäus mat engem 5 W-Solarpanneau, véier 18650-Zellen a GPS, gemaach fir Repeater.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3c9e1f9"
+  },
+  "device.heltec-wifi-lora-32-v4-expansion-kit.notes": {
+    "value": "Eng V4-Platin an engem Metallgehäus mat Touchscreen. GPS an eng 18650-Zell kanns du bei der Bestellung dobäihuelen. MeshCore weist de Schierm un, benotzt den Touch awer nach net.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8704efde"
+  },
+  "device.heltec-wireless-stick-lite-v3.notes": {
+    "value": "D'V3 ouni Schierm. Eng blann Platin: du brauchs nach e Gehäus, eng Antenn an eng Batterie.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6a36169b"
+  },
+  "device.heltec-wireless-tracker-v2.notes": {
+    "value": "Platin mat GPS an engem Solar-Uschloss. Si sendt mat bis zu 28 dBm, mat de meeschten Antennen iwwer der europäescher Limitt: de Repeater-Guide weist, wéi s du drënner bleifs.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e56ec119"
+  },
+  "device.heltec-vision-master-e213.notes": {
+    "value": "Platin mat engem E-Paper-Schierm, deen an der Sonn liesbar bleift. Batterie a Gehäus brénge s du selwer mat.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7519dcd5"
+  },
+  "device.heltec-vision-master-e290.notes": {
+    "value": "Wéi den E213 mat engem méi grousse E-Paper-Schierm. Batterie a Gehäus brénge s du selwer mat.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "84da4d43"
+  },
+  "device.heltec-vision-master-t190.notes": {
+    "value": "Platin mat engem Faarfschierm. Batterie a Gehäus brénge s du selwer mat.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08d0d0d2"
+  },
+  "device.heltec-mesh-node-t1.notes": {
+    "value": "Tag an der Gréisst vun enger Kaart mat GPS an engem klenge Schierm, stëbs- a sprëtzwaasserdicht (IP65).",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c9807632"
+  },
+  "device.heltec-meshpocket.notes": {
+    "value": "Eng Powerbank mat engem Node dran an engem magnéitesche Wireless-Charger fir däin Handy. Gëtt och mat 10000 mAh verkaf.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0eab0a7c"
+  },
+  "device.heltec-meshsolar.notes": {
+    "value": "Platin fir e Solar-Repeater: hëlt eng bis véier Zellen an e Panneau vun 18 bis 24 V. GPS an e Schierm sinn Add-ons.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "195aa41c"
+  },
+  "device.heltec-meshtower-v2.notes": {
+    "value": "Wiederfest Metallgehäus mat dräi Zellen an engem 10 W-Solarpanneau, gemaach fir Repeater. GPS ass optional. D'30 dBm-Versioun läit iwwer der europäescher Limitt: de Repeater-Guide weist, wéi s du drënner bleifs.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d935df5c"
+  },
+  "device.lilygo-t-echo-lite.notes": {
+    "value": "Méi klengen T-Echo mat engem GPS-Zousazmodul. Gëtt mat oder ouni Gehäus verkaf.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b18c1e64"
+  },
+  "device.lilygo-t-echo-card.notes": {
+    "value": "Gréisst vun enger Kreditkaart mat GPS, engem Lautsprecher an engem klenge Solarpanneau, deen d'Batterie nëmmen nolued.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1b860b15"
+  },
+  "device.lilygo-t-impulse-plus.notes": {
+    "value": "Aarmband mat GPS, engem winzege Schierm an engem Vibratiounsmotor.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3bc53725"
+  },
+  "device.lilygo-t-deck.notes": {
+    "value": "Tastatur an Trackball wéi beim T-Deck Plus, ouni GPS oder Batterie. Huel eng Versioun mat LoRa: et gëtt och eng ouni.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e88fe0ef"
+  },
+  "device.lilygo-t-beam.notes": {
+    "value": "De klassesche T-Beam mam eelere SX1276-Radio. Huet Plaz fir eng 18650-Zell, déi net dobäi ass.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7c56a56b"
+  },
+  "device.lilygo-t-beam-1w.notes": {
+    "value": "Sendt mat bis zu 32 dBm, wäit iwwer der europäescher Limitt: de Repeater-Guide weist, wéi s du drënner bleifs. Brauch eng 7.4 V-Batterie, déi en net oplued.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9a8d7b03"
+  },
+  "device.elecrow-thinknode-m1.notes": {
+    "value": "Handgerät mat E-Paper-Schierm a GPS.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "590fa3ac"
+  },
+  "device.elecrow-thinknode-m2.notes": {
+    "value": "Klengt Handgerät mat OLED-Schierm. Gëtt och ouni Batterie verkaf.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "87f36cea"
+  },
+  "device.elecrow-thinknode-m3.notes": {
+    "value": "Stëbs- a waasserdichten Tracker (IP66) mat GPS, ouni Schierm.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0c7b633a"
+  },
+  "device.elecrow-thinknode-m4.notes": {
+    "value": "Eng Powerbank mat engem Node a GPS dran, ouni Schierm.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "638c30a0"
+  },
+  "device.elecrow-thinknode-m5.notes": {
+    "value": "Wéi den M1 mat engem ESP32-Prozessor: méi Funktiounen, méi kuerz Batterieliewensdauer.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7943f498"
+  },
+  "device.elecrow-thinknode-m6.notes": {
+    "value": "Wiederfest Gehäus (IP65) mat engem 6 W-Solarpanneau, zwou 18650-Zellen a GPS, gemaach fir Repeater.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c7efcb7f"
+  },
+  "device.elecrow-thinknode-m7.notes": {
+    "value": "Këscht fir bannen mat engem Ethernet-Port, mat Stroum iwwer USB oder de Netzwierkkabel (PoE).",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20225189"
+  },
+  "device.elecrow-thinknode-m9.notes": {
+    "value": "Funktionéiert eleng mat enger kompletter Tastatur, Faarfschierm a GPS. Et kënnt mat Ripple-Firmware; Standard-MeshCore leeft och drop.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d9fb8bcf"
+  },
+  "device.seeed-wio-tracker-l1.notes": {
+    "value": "Den L1 Pro ouni Gehäus a Batterie. Huet GPS an e Solar-Uschloss.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f317b814"
+  },
+  "device.seeed-wio-tracker-l1-eink.notes": {
+    "value": "Den L1 mat engem E-Paper-Schierm, ouni Gehäus a Batterie. MeshCore leeft drop nëmmen als Companion.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1c3665d9"
+  },
+  "device.seeed-sensecap-solar-node-p1-basic.notes": {
+    "value": "De P1-Pro ouni Zellen a GPS: véier 18650-Zelle setz du selwer derbäi. Den Halter hëlt nëmme Zelle mat Knäppchen um Pluspol. Heefeg flaach Zelle passen, wann op all Zell e klenge Magnéit sëtzt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a6f898f4"
+  },
+  "device.seeed-sensecap-meshtracker-x1.notes": {
+    "value": "Gréisst vun enger Kaart a stëbs- a waasserdicht (IP66), ouni Schierm. Luet iwwer USB-C a vibréiert bei enger neier Message.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9eadd1b5"
+  },
+  "device.seeed-xiao-esp32s3-wio-sx1262.notes": {
+    "value": "De XIAO-Kit mat engem ESP32 amplaz vum nRF52: Wi-Fi, awer méi Stroumverbrauch.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0e783fe9"
+  },
+  "device.rak-wismesh-1w-booster.notes": {
+    "value": "Sendt mat bis zu 30 dBm, iwwer der europäescher Limitt: de Repeater-Guide weist, wéi s du drënner bleifs. All Versioun leeft entweder op enger Batterie oder op 5 V, kuck op d'Etikett.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e03b4d5b"
+  },
+  "device.bq-station-g3.notes": {
+    "value": "Modulär Basisstatioun mat engem Verstärker bis 35 dBm, wäit iwwer der europäescher Limitt: stell d'Jumperen an d'Sendeleeschtung fir däi Land an. Brauch eng Versuergung vu 9 bis 19 V.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ee7d06f9"
+  },
+  "device.bq-nano-g2-ultra.notes": {
+    "value": "Robust Handgerät mat enger agebauter Antenn, déi fir no um Kierper entworf ass. D'Batterie ass optional.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5e947959"
+  },
+  "device.m5stack-unit-c6l.notes": {
+    "value": "Klengt Modul an enger Plastikschuel, mat Stroum iwwer USB-C. Keen Agank fir eng Batterie.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "468b2af6"
+  },
+  "device.meshnology-w12.notes": {
+    "value": "Open-Source-Platin mat Agäng fir Batterie a Solar. Si sendt mat bis zu 30 dBm, iwwer der europäescher Limitt: de Repeater-Guide weist, wéi s du drënner bleifs.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "df27901e"
+  },
+  "community.nl-dutch-meshcore.desc": {
+    "value": "Hollännesch Benevollegrupp fir MeshCore-Benotzer an Holland. Si bedreift gemeinsam MQTT-Collectoren, en Observer-Dashboard, eng Hëllef fir d'Astellungen an eng Firmware-Toolbox am Browser.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c4ad2c7f"
+  },
+  "community.nl-meshcore-net.desc": {
+    "value": "Hollännesche Telegram-Chat a Forum, wou hollännesch Benotzer Hëllef beim Ariichten, Kanallëschten a Repeater-News austauschen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c57f1887"
+  },
+  "community.be-radio-actief.desc": {
+    "value": "Belsche Wiki an Discord, ugefaange vu Funkamateuren, déi MeshCore Enn 2025 an d'Belsch bruecht hunn. Deel vun enger méi grousser Radiohobby-Community.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7598f9b8"
+  },
+  "community.lu-meshcore-luxembourg.desc": {
+    "value": "Gemeinsam Landingpage vun de Lëtzebuerger Associatiounen, déi am ganze Land MeshCore-Repeater bedreiwen. Et si Hacker-, Funkamateur- a Krisepreparatiounsgruppen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e38285ec"
+  },
+  "community.de-meshcore-de.desc": {
+    "value": "Däitschsproochege MeshCore-Chat op Telegram, deen uechter Däitschland a vun éisträichesche Gruppe benotzt gëtt. Fir déi, déi et léiwer hunn, gëtt et e Matrix-Raum.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2d34fef"
+  },
+  "community.de-berlin-chaos-mesh.desc": {
+    "value": "Berliner Grupp aus der Hackerspace-Szen mat engem Forum, engem Matrix-Raum an engem PotatoMesh-Dashboard, déi sech mat MeshCore an anere Mesh-Projeten ofgëtt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9f0065e0"
+  },
+  "community.de-isarmesh.desc": {
+    "value": "Forum fir LoRa-Mesh-Benotzer ronderëm München, deen regelméisseg Treffen organiséiert an iwwer MeshCore an aner Mesh-Projeten diskutéiert.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "05e62cf9"
+  },
+  "community.de-mesh-dresden.desc": {
+    "value": "Dresdener Grupp mat déiftgräifenden technesche Artikele fir Repeater-Bedreiwer. Si bedreift och e lokale Chat fir MeshCore an aner Mesh-Projeten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fd5d9e40"
+  },
+  "community.at-meshcore-austria.desc": {
+    "value": "Éisträichesche Community-Site mat Ariichtungsguiden, Evenementer an News. Déi éisträichesch Telegram-Grupp gëtt getrennt vum Site bedriwwen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3dfcd101"
+  },
+  "community.ch-meshcore-switzerland.desc": {
+    "value": "Schwäizer Site a véier Sprooche mat Rot zu Geräter, Regiounen a Kanäl an engem Community-Forum fir Froen a Wënsch.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e8eb8c2c"
+  },
+  "community.cz-meshcore-cr.desc": {
+    "value": "Tschechesche Wiki iwwer Hardware, Repeater, Kanäl a Regiounen, ënnerstëtzt vun enger Telegram-Grupp an engem nationale Paket-Analyser.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3eb31061"
+  },
+  "community.sk-meshcore-slovensko.desc": {
+    "value": "Slowakesch Netzwierksäit bei engem Funkamateurclub aus Bratislava, mat engem Discord-Server a wöchentlechen Treffen op der Plaz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "950a6862"
+  },
+  "community.pl-meshcore-polska.desc": {
+    "value": "Polnesch Community am ganze Land mat enger Node-Kaart, Dokumentatioun op Polnesch an engem Discord-Server.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bd6ed843"
+  },
+  "community.fr-meshcore-france.desc": {
+    "value": "Franséisch Koordinatiounssäit mat Linken op regional Gruppen a regional Live-Kaarten, déi als onofhängege Community-Site gefouert gëtt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e2024cd5"
+  },
+  "community.fr-mesh-idf.desc": {
+    "value": "Wiki fir d'Regioun Paräis mat engem MeshCore-Chat op Telegram. De Wiki behandelt och aner Mesh-Projeten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b4be06c9"
+  },
+  "community.it-meshcore-italia.desc": {
+    "value": "Italienesch national Community mat Guiden, Lëschte vu regionale Kanäl a Wiederwarnungs-Kanäl, enger Live-Node-Kaart an enger Telegram-Grupp.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2a6caa8e"
+  },
+  "community.pt-meshcore-portugal.desc": {
+    "value": "Portugisesch Community mat eegene Guiden, an enger App a Firmware op Portugisesch. Hir Chats sinn an engem Telegram-Dossier gesammelt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b67ce7bd"
+  },
+  "community.dk-meshcore-dk.desc": {
+    "value": "Dänesche Wiki mat Säite fir den Ufank, Notizen zu Geräter, Regiounsastellungen a Fotoe vu richtege Repeater-Installatiounen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d0895f3b"
+  },
+  "community.se-meshat.desc": {
+    "value": "Schwedesche Treffpunkt fir Mesh-Netzwierker, mat engem Forum, Discord an engem Matrix-Raum. E bedreift MeshCore-MQTT- a Kaartendéngschter a behandelt och aner Mesh-Projeten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33d9ed2b"
+  },
+  "community.fi-mesh-finland.desc": {
+    "value": "Finnesche MeshCore-Site mat Linken op en nationalen Analyser an Ofdeckungskaarten. Säin Discord-Server deelt e mat Benotzer vun anere Mesh-Projeten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3d618dfa"
+  },
+  "community.no-meshwiki.desc": {
+    "value": "Norwegesche Wiki mat enger MeshCore-Rubrik nieft anere Mesh-Projeten, an engem verlinkte Forum.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ccd83ba2"
+  },
+  "community.ee-estmesh.desc": {
+    "value": "Estnesch MeshCore-Säit an e Wiki, mat nationale Kanäl a Stadkanäl an engem Discord-Server fir estnesch Radiofrënn.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14530e0d"
+  },
+  "community.lv-apraide.desc": {
+    "value": "Lettesch LoRa-Mesh-Community, déi MeshCore fir hiert Netz gewielt huet, mat Diskussiounen an engem Matrix-Raum.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "42e8a5c2"
+  },
+  "community.lt-atviras-tinklas.desc": {
+    "value": "Litauesche Community-Site mat enger Wëssensbasis, Geräter-Säiten an engem Live-Netzwierkanalyser fir d'MeshCore-Netz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8a0f8ba4"
+  },
+  "community.si-meshcore-slovenija.desc": {
+    "value": "Sloweenesche Site mat de recommandéierte regionale Radio-Astellungen, enger Node-Kaart a Firmware-Linken.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "73253c8c"
+  },
+  "community.bg-meshcore-bulgaria.desc": {
+    "value": "Bulgaresch Community ronderëm Sofia a Plovdiv, mat Radioverbindungen a Rumänien a Serbien. Si publizéiert Kanäl, Presets a Planungstools.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ef62c925"
+  },
+  "community.rs-meshcore-srbija.desc": {
+    "value": "Inoffizielle serbesche Community-Site mat engem Node-Register an enger Live-Kaart fir d'Netz a Serbien an den Nopeschlänner.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "874059ce"
+  },
+  "community.gr-meshcore-greece.desc": {
+    "value": "Griicheschen Discord-Server fir MeshCore-Netzer a Griicheland ze plangen an ze bedreiwen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3fa83721"
+  },
+  "community.gb-meshhub-uk.desc": {
+    "value": "Hub fir dat ganzt Vereenegt Kinnekräich mat Community-Tools, Kaarten an Evenementer fir MeshCore-Benotzer an aner Mesh-Communityen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "050038cc"
+  },
+  "community.gb-scotmesh.desc": {
+    "value": "Schottesch Community, déi vu Benevolle gefouert gëtt, mat Forum, Wiki an Discord, a MeshCore nieft anere Mesh-Projete bedreift.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cce9f41c"
+  },
+  "community.ie-lora-project.desc": {
+    "value": "Onofhängege Site fir den Ufank mat MeshCore op der ganzer Insel Irland. Säin Discord-Server deckt den Norden an de Süden of.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5f335412"
+  },
+  "community.at-carinthiamesh.desc": {
+    "value": "Wiki fir MeshCore a Kärnten: Ufank, Radio-Astellungen, Geräter a Repeater.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b601e188"
+  },
+  "community.at-meshcore-austria-at.desc": {
+    "value": "Däitschsproochege Community-Wiki fir MeshCore an Éisträich.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7746c59b"
+  },
+  "community.be-loramesh.desc": {
+    "value": "Belsch Grupp, déi MeshCore fir Noutmessagen benotzt, wann Internet an Handysnetz ausfalen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a0d79514"
+  },
+  "community.be-meshpot.desc": {
+    "value": "Franséischsproochege Guide fir beim MeshCore-Mesh a Bréissel an der Wallonie matzemaachen, et opzebauen an ze schützen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3c6c5a0a"
+  },
+  "community.fr-loramesh.desc": {
+    "value": "Franséisch Grupp, déi mat MeshCore de lokale Kontakt hält, wann Internet oder Handysnetz ausfalen, Schrëtt fir Schrëtt, mat enger Kaart vun den aktive Géigenden.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f22be170"
+  },
+  "community.de-bsmesh.desc": {
+    "value": "MeshCore-Netz fir d'Géigend ronderëm Braunschweig.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "076fd5a0"
+  },
+  "community.de-bremesh.desc": {
+    "value": "Fräit MeshCore-Netz fir Bremen, Bremerhaven an d'Géigend dorëm, mat Tutorials.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7f614859"
+  },
+  "community.de-pemesh.desc": {
+    "value": "MeshCore-Netz zu Peine an Ëmgéigend, entstanen, wéi sech zwee lokal Meshen zesummegeschloss hunn.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6423719c"
+  },
+  "community.de-muensterland.desc": {
+    "value": "Communautéit, déi am ganze Münsterland e gratis MeshCore-Netz opbaut, ugefaangen zu Billerbeck.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6f35e420"
+  },
+  "community.de-mesh-rheinland.desc": {
+    "value": "Communautéit aus dem Rheinland, déi souwuel e MeshCore- wéi och e Meshtastic-Netz bedreift.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eb9d7af7"
+  },
+  "community.de-meshcore-de-wiki.desc": {
+    "value": "Däitschsproege Wiki mat Installatiounsguiden an engem Verzeechnes vu regionale Gruppen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2a7d4602"
+  },
+  "community.de-ffnw.desc": {
+    "value": "Freifunk-Veräin, deen zënter 2013 an der Weser-Ems-Regioun e Communautéits-WiFi-Mesh bedreift an elo och MeshCore-Repeateren. En trëfft sech all Mount zu Oldenburg.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "abb2138f"
+  },
+  "community.de-meshcore-dresden.desc": {
+    "value": "Grupp, déi an ëm Dresden e MeshCore-Netz opbaut, mat enger Lëscht vun hire Regiounen a Kanäl.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d0a1d71d"
+  },
+  "community.de-meshmitte.desc": {
+    "value": "Lokal Grupp an ëm Uslar, déi wëll, datt d'Leit bei Stroum- an Netzausfäll a Kontakt bleiwen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "82b196a8"
+  },
+  "community.de-saarmesh.desc": {
+    "value": "Regionaalt MeshCore-Netz am Saarland, mat senger Regiounsstruktur an enger Live-Kaart.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2eeeb6e6"
+  },
+  "community.de-hansemesh.desc": {
+    "value": "MeshCore-Netz fir Hamburg an Norddäitschland, mat Guiden a Berodung zu Hardware. Säin Chat ass d'Grupp MeshCore DE op Telegram.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c27d5586"
+  },
+  "community.de-mesh-weiterstadt.desc": {
+    "value": "Lokal Grupp, déi zu Weiterstadt e gratis MeshCore-Netz installéiert, dat nach am Opbau ass. Si freet d'Leit, en Daach fir e Repeater unzebidden.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5a268245"
+  },
+  "community.de-msemesh.desc": {
+    "value": "MeshCore- a Meshtastic-Grupp ronderëm Neubrandenburg, Neustrelitz, Waren, Demmin a Feldberg.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc1d7f13"
+  },
+  "community.de-ka-mesh.desc": {
+    "value": "Grupp, déi ronderëm Karlsruhe a Pforzheim e MeshCore-Netz opbaut, mat enger Kanallëscht an Treffen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20d493a1"
+  },
+  "community.ie-mayo-mesh.desc": {
+    "value": "Benotzergrupp fir Mesh-Radio am County Mayo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "baab199e"
+  },
+  "community.it-lora-brescia.desc": {
+    "value": "Radiogrupp zu Brescia mat italienesche Guiden, fir MeshCore-Repeateren ze flashen an anzeriichten. Si bedreift och Meshtastic a LoRa APRS.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08567551"
+  },
+  "community.it-meshcore-ita.desc": {
+    "value": "Guiden op Italienesch, de gemeinsamen italienesche Radio-Preset an Notizen zu Hardware, mat enger Telegram-Grupp.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8b178f55"
+  },
+  "community.it-meshcore-torino.desc": {
+    "value": "Grupp fir Turin a seng Provënz, déi dir hëlleft, däin eegene Node anzeriichten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d1527a42"
+  },
+  "community.nl-meshwiki.desc": {
+    "value": "Hollännesche Wiki iwwer MeshCore a Mesh-Radio, deen jiddereen ännere kann.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ce29af01"
+  },
+  "community.pl-lora-meshcore-polska.desc": {
+    "value": "Nationaalt polnescht Netz um Preset EU/UK Narrow, mat enger Erklärung, wéi et funktionéiert a wien et opbaut.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4c574d21"
+  },
+  "community.pl-meshcore-podlasie.desc": {
+    "value": "Hobbyisten, déi a Podlasie e MeshCore-Netz opbauen, mat Neiegkeeten a lokalen Astellungen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a15fb772"
+  },
+  "community.pl-meshgo.desc": {
+    "value": "MeshCore-Grupp ronderëm Gdańsk, Gdynia a Sopot, déi de polneschen nationale Preset benotzt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8d16fa09"
+  },
+  "community.ro-brasov-mesh.desc": {
+    "value": "MeshCore-Netz zu Brașov um Preset EU/UK Narrow.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bd8dcbfa"
+  },
+  "community.ro-meshcore-iasi.desc": {
+    "value": "MeshCore-Netz zu Iași mat engem Live-Dashboard.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eacc34d4"
+  },
+  "community.es-meshcore-catalunya.desc": {
+    "value": "Katalanesche Communautéitshub mat enger Live-Kaart, engem Analyser a Guiden zu Hardware.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5357e7fd"
+  },
+  "community.es-nomadmesh.desc": {
+    "value": "Communautéits-MeshCore-Netz an den Alpujarras.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ee8acd03"
+  },
+  "community.ua-meshcore-ua.desc": {
+    "value": "Ëffentlecht Mesh, vu Fräiwëllege bedriwwen, fir an der ganzer Ukraine a Kontakt ze bleiwen, mat Lëschte vu Repeateren, Botten a Kanäl.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "96fe6d7d"
+  },
+  "community.gb-ipnet.desc": {
+    "value": "Communautéit aus Ipswich fir den Oste vun England, mat CoreScope-Dashboarden an MQTT-Servicer.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "114be940"
+  },
+  "community.gb-meshcore-wales.desc": {
+    "value": "Gemeinsam Radio-Astellungen a Kanäl fir South Wales an de Westen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "726b552a"
+  },
+  "community.gb-northmesh.desc": {
+    "value": "Netz a Nordengland mat enger Live-Kaart vu Repeateren, Paketaktivitéit an Ofdeckung.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a1345cca"
+  },
+  "map.meshcore-official-map.desc": {
+    "value": "D'Weltkaart vum Projet selwer mat Noden, deenen hir Besëtzer se publizéiere wollten, filterbar no Nodetyp a Radiofrequenz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1509cafa"
+  },
+  "map.meshmapper.desc": {
+    "value": "Ofdeckungskaarten aus Wardriving-Toure vu lokale Fräiwëllegen, opgedeelt a regional Kaarten, mat Regiounen uechter Europa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f333e608"
+  },
+  "map.eu-meshcore-analyzer.desc": {
+    "value": "Gemeinsamen europäeschen Analyser, deen d'Observer-Feeds vu méi Communautéits-Brokeren an eng Live-Usiicht vun Noden, Paketen a Kanäl zesummeféiert.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aa93a1ba"
+  },
+  "map.nl-dmc-observers.desc": {
+    "value": "Live-Dashboard vun den Observeren, déi un d'MQTT-Collectore vun Dutch MeshCore (DMC) mellen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1da8752e"
+  },
+  "map.nl-mc-radar.desc": {
+    "value": "Netzstatistike fir dat hollännescht Mesh, mat Grafike vun Duerchsaz, Kanalverkéier, Nodeaktivitéit a Protokollzoustand aus hollänneschen Observer-Daten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a54bab7e"
+  },
+  "map.cz-analyzer.desc": {
+    "value": "CoreScope-Instanz fir dat tschechescht Netz mat engem Live-Paketfeed, enger Nodekaart a Statistike pro Node.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ade9ad40"
+  },
+  "map.fi-corescope.desc": {
+    "value": "Finneschen CoreScope-Analyser, deen dat nationaalt MeshCore-Netz op enger Kaart mat Live-Pakete weist.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9fa0aa59"
+  },
+  "map.se-meshat-corescope.desc": {
+    "value": "Schwedeschen CoreScope-Analyser, deen de MeshCore-MQTT-Broker vu Meshat.se speist.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a1e700c6"
+  },
+  "map.fr-cartolite.desc": {
+    "value": "Selwer gehost Live-Kaart vum MeshCore-Verkéier weltwäit, déi gehéiert Verbindungen, Live-Paketen an eng Heatmap op eng Terrainkaart zeechent.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "abcdec75"
+  },
+  "map.ee-litescope.desc": {
+    "value": "Liichten estneschen Analyser mat engem Live-Paketfeed, enger Nodekaart, Signalstatistiken an engem Observer-Iwwerbléck.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "040c7753"
+  },
+  "map.ie-mayomesh-live.desc": {
+    "value": "Iresch Echtzäitkaart vun Noden, Noriichtewee an Advert-Pied, mat Tools fir Ofdeckung, Siichtlinn a Propagatioun.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "244a4a53"
+  },
+  "map.de-meshcorenetz-analyzer.desc": {
+    "value": "De MeshCore Analyzer an de Faarwe vu MeshCoreNetz.de, deen op Norddäitschland opgeet.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7c597271"
+  },
+  "map.de-meshdresden-analyzer.desc": {
+    "value": "De MeshCore Analyzer an de Faarwe vu MeshDresden.eu, dem Communautéits-Mesh vun Dresden.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b7456441"
+  },
+  "map.nl-cornmeister.desc": {
+    "value": "De MeshCore Analyzer an de Faarwe vu Cornmeister.nl, deen op Holland opgeet.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69efcf8b"
+  },
+  "map.be-bemesh-map.desc": {
+    "value": "Kaart vu belsche Clienten, Repeateren, Room Serveren a Sensoren, op där Besëtzer hire Node reklaméiere kënnen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "37af8d74"
+  },
+  "map.be-on8ar-corescope.desc": {
+    "value": "CoreScope-Analyser fir de Verkéier, deen an der Belsch gehéiert gëtt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97d8adf0"
+  },
+  "map.is-corescope.desc": {
+    "value": "CoreScope-Analyser fir dat islännescht Netz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9441de4b"
+  },
+  "map.pl-meshcore-polska-map.desc": {
+    "value": "Live-Kaart vu polnesche Clienten, Repeateren, Room Serveren a Sensoren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57d86a21"
+  },
+  "map.fr-loramesh-map.desc": {
+    "value": "Kaart vun de Gebidder a Frankräich, wou MeshCore aktiv ass. D'Ofdeckung huet baussent de grousse Stied nach Lächer.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "85632f3a"
+  },
+  "map.de-meshcore-de-regions.desc": {
+    "value": "Editéierbar Kaart vu MeshCore-Regiounen a lokale Gruppen, meeschtens an Däitschland.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cec143bd"
+  },
+  "map.gb-ukmesh.desc": {
+    "value": "Netzanalyse fir de UK mat Pied a Live-Usiichten, déi Observere speisen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "03a38df8"
+  },
+  "map.gb-meshrank.desc": {
+    "value": "Classementer a Statistike fir Repeateren a Routen, haaptsächlech am UK.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "997a9a6e"
+  },
+  "map.gb-m3sh-contacts.desc": {
+    "value": "D'UK-Netz, sou wéi een eenzegen Node an Oxfordshire et héiert, mat Node-Hardware an duebele Prefixen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cb2153f9"
+  },
+  "map.kiekr-map.desc": {
+    "value": "Wéi eng Radioregioune bis wou reechen, ausgerechent aus den Noperen, déi KiekR-Benotzer observéieren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9a3aceee"
+  },
+  "map.hopradar.desc": {
+    "value": "Verbann däin eegene Node iwwer Bluetooth oder USB a kuck am Browser d'Hops, d'Pied an d'SNR, déi en héiert.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ae215bf8"
+  },
+  "map.mapme-sh.desc": {
+    "value": "Ofdeckungskaart aus Kaartéierungsfaarte mat Handyen uechter Europa, gewise mat Sechsecker, gefierft no Signalstäerkt. E Spill weist op Lächer am Mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "23bca522"
+  },
+  "project.meshcore-firmware.desc": {
+    "value": "Déi offiziell MeshCore-Firmware a Routing-Bibliothéik fir LoRa-Boards, mat de Rolle Companion, Repeater, Room Server a Sensor.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bba821af"
+  },
+  "project.meshcore-js.desc": {
+    "value": "JavaScript-Bibliothéik, fir aus Browseren an Node.js mat MeshCore-Companion-Radioen ze kommunizéieren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0b9ed81f"
+  },
+  "project.meshcore-py.desc": {
+    "value": "Python-Bindings, fir e MeshCore-Companion-Radio iwwer eng seriell Verbindung, Bluetooth oder TCP ze steieren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "305bd163"
+  },
+  "project.meshcore-cli.desc": {
+    "value": "Kommandozeilen-Client, fir aus engem Terminal Noriichten u MeshCore-Noden ze schécken an dës Noden ze geréieren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6f68e501"
+  },
+  "project.meshcore-ha.desc": {
+    "value": "Home Assistant-Integratioun, déi MeshCore-Noden, Noriichten an Telemetrie als Entitéite fir Monitoring an Automatiséierunge verfügbar mécht.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8b5725be"
+  },
+  "project.meshcore-flasher.desc": {
+    "value": "Quellcode vum Browser-Tool, dat MeshCore-Firmware iwwer USB op ënnerstëtzte Boards flasht.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ba3feb1b"
+  },
+  "project.meshcore-map.desc": {
+    "value": "Quellcode vun der offizieller Nodekaart, op där Besëtzer hir Noden publizéiere kënnen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "91b7682b"
+  },
+  "project.openhop-repeater.desc": {
+    "value": "Python-Repeater-Daemon, deen e Linux-Computer mat engem SPI-LoRa-Radio zu engem MeshCore-kompatibele Repeater mécht.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d2bf1646"
+  },
+  "project.openhop-core.desc": {
+    "value": "Nei Python-Implementatioun vum MeshCore-Protokoll a Routing-Stack, mat direkter Ënnerstëtzung fir SPI-LoRa-Radioen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54ed7f73"
+  },
+  "project.meshcore-open.desc": {
+    "value": "Open-Source-Flutter-App fir verschidde Plattformen, fir MeshCore-Radioen iwwer Bluetooth, USB-seriell oder TCP, och als Webversioun.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c322a23f"
+  },
+  "project.meshcoretomqtt.desc": {
+    "value": "Skript, dat Paketopzeechnunge vun engem MeshCore-Observer-Radio un en MQTT-Broker fir Analysere weiderleet.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "19dfb497"
+  },
+  "project.meshcore-mqtt-broker.desc": {
+    "value": "MQTT-Broker, deen Observere mat hire MeshCore-Schlësselpueren amplaz mat Passwierder authentifizéiert.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ca27fa19"
+  },
+  "project.corescope.desc": {
+    "value": "Selwer gehosten MeshCore-Analyser, deen Paketen iwwer MQTT empfänkt. En bitt e Live-Feed, Kaarten, Kanalusiichten an Nodestatistiken.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a74322db"
+  },
+  "project.litescope.desc": {
+    "value": "Liichte, selwer gehosten Dashboard, fir e MeshCore-Netz ze beobachten. D'estnesch Communautéit bedreift eent.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dc42e5a"
+  },
+  "project.meshcore-hub.desc": {
+    "value": "Python-Plattform vun enger Communautéit aus dem UK. Si sammelt MQTT-Evenementer an enger Datebank a bitt eng REST API an e Web-Dashboard.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "07442a84"
+  },
+  "project.potato-mesh.desc": {
+    "value": "Federéierten Communautéits-Dashboard fir MeshCore an aner Mesh-Netzer, dee Berlin Chaos Mesh benotzt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7b98d4f7"
+  },
+  "project.meshcore-mqtt-live-map.desc": {
+    "value": "Live-Webkaart, déi e MeshCore-MQTT-Feed dreift a Noden, Routen an Ofdeckung an Echtzäit weist.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e0380e74"
+  },
+  "project.meshcore-bot.desc": {
+    "value": "Python-Bot, deen op MeshCore-Kanäl op Befeeler äntwert an Noriichten op Discord an Telegram weiderleede kann.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "04a73c83"
+  },
+  "project.meshcore-channels.desc": {
+    "value": "JSON-Lëscht vun ëffentleche MeshCore-Kanäl, déi d'Communautéit ännere kann, no Land gruppéiert a fir Appe publizéiert.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3bb8a9a"
+  },
+  "project.meshcore-regions.desc": {
+    "value": "JSON-Katalog vu MeshCore-Regiounscoden aus der ganzer Welt, deen d'Communautéit ännere kann.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ea403726"
+  },
+  "project.zephcore.desc": {
+    "value": "Portage vu MeshCore vun Arduino op den Echtzäit-Betribssystem Zephyr.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d68923fa"
+  },
+  "project.meshcore-ng.desc": {
+    "value": "Hollännesche Firmware-Fork, deen de Repeater fir dicht, beschäftegt Meshes verbessert a mat de Standard-Clienten kompatibel bleift.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5f288c67"
+  },
+  "project.meshcore-solo.desc": {
+    "value": "Companion-Firmware-Fork, deen Offline-GPS-Navigatioun mat Weepunkten, e Kompass a GPX-Export dobäisetzt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1c9d0659"
+  },
+  "project.meshcore-c.desc": {
+    "value": "C-Implementatioun vum MeshCore-Protokoll ouni Ofhängegkeeten, als Bibliothéik fir all Projet oder als Komponent fir ESP-IDF.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "327a07f8"
+  },
+  "project.lora-mesh-nodes.desc": {
+    "value": "Sammlung vun DIY-Designe fir mobil a Solar-Noden, mat Gehäuser, Drockdeeler an Deelelëschten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "637e2726"
+  },
+  "project.lora-harvester-box.desc": {
+    "value": "Open-Hardware-Board mat engem STM32WL-LoRa-Chip an engem Energy Harvester, fir LoRa-Noden mat ganz nidderegem Verbrauch, dorënner MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6ecc7144"
+  },
+  "project.mesh-hunter.desc": {
+    "value": "Web-App fir den Handy, déi sech mat engem Companion-Radio verbënnt an all gehéierte Paket mat denger GPS-Positioun festhält, fir zu Fouss oder mam Auto bei d'Quell vun ongewollte Verkéier ze kommen. Si kann dat Gehéiert mat MQTT-Brokeren deelen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d0fb854e"
+  },
+  "project.eu-meshcore-analyzer.desc": {
+    "value": "Live-Kaart an Analyser vum europäesche MeshCore-Netz, gespeist vun Observeren an Handy-Appen, déi mellen, wat se héieren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fed133d8"
+  },
+  "project.dmc-triangulator.desc": {
+    "value": "Grenzt an, wou en Node ass, anhand vun de Repeateren, déi en héieren hunn, als éischt Sichgebitt virun enger lokaler Sich.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f73b5e0b"
+  },
+  "project.kiekr.desc": {
+    "value": "Handy-App fir Noriichten um Mesh, déi och d'Ofdeckung kartéiert an dat Gehéiert op Analysere eroplueden kann.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "05e5f56a"
+  },
+  "project.meshmapper.desc": {
+    "value": "Ofdeckungskaart aus Wardriving, mat regionalen Instanzen, engem eegenen MQTT-Broker an enger oppener API.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1135e1cd"
+  },
+  "project.trail-mate.desc": {
+    "value": "Offline-Handheld-Firmware fir d'LilyGO T-LoRa Pager an T-Deck, mat GPS-Navigatioun an Team-Noriichten iwwer MeshCore a Meshtastic.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "86cd32a0"
+  },
+  "project.remote-terminal.desc": {
+    "value": "Selwer gehosten Client fir e MeshCore-Radio, deen opgefaange Paketen op engem Server hält an entschlësselt, mat Botten an MQTT.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90c11494"
+  },
+  "project.meshpoint.desc": {
+    "value": "Raspberry Pi-Basisstatioun mat engem SX1302- oder SX1303-Konzentrator, deen op méi Kanäl gläichzäiteg lauschtert, mat engem lokalen Dashboard.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6c668061"
+  },
+  "project.easyskymesh.desc": {
+    "value": "Firmware-Fork, deen Energie spuert fir Repeateren a Sensornoden, déi mat enger Batterie oder engem klenge Solarpanel lafen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3b1503dc"
+  },
+  "project.solar-os.desc": {
+    "value": "Klengen, textorientéierte Betribssystem fir ESP32-Täschenterminaler, mat engem MeshCore-Companion um eegene Radio oder op engem verbonnene Node.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "23677e08"
+  },
+  "project.wio-tracker-l1-pro.desc": {
+    "value": "Companion-Firmware fir de Seeed Wio Tracker L1 Pro mat enger Benotzeroberfläch um Apparat selwer.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b694d013"
+  },
+  "project.meshcore-one.desc": {
+    "value": "Nativ MeshCore-App fir iPhone, iPad a Mac.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "87505963"
+  },
+  "project.lunarcore.desc": {
+    "value": "Rust-Firmware fir den Heltec WiFi LoRa 32 V3, déi MeshCore, Meshtastic an aner Protokoller schwätzt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f2c6fabd"
+  },
+  "project.meshcore-sar.desc": {
+    "value": "Offline-App fir Sich- a Rettungséquipen: Noriichten, Stëmm, Biller, Kaarten a gedeelte Positiounen iwwer MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "413c9353"
+  },
+  "project.cardputer-adv-stachugit.desc": {
+    "value": "Companion-Firmware fir den M5Stack Cardputer ADV mat enger LoRa Cap, mat engem Chat-Ecran a Faarfthemen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9ab883fb"
+  },
+  "project.meshcoreterm.desc": {
+    "value": "Touch-Firmware am Retro-Stil fir den LilyGO T-Deck, de Seeed SenseCAP Indicator an aner Boards mat Ecran.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ac08cb0e"
+  },
+  "project.mesh-client.desc": {
+    "value": "Desktop-App fir macOS, Linux a Windows, déi mat MeshCore-, Meshtastic- a Reticulum-Radioe kommunizéiert.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61a3a731"
+  },
+  "project.mishmesh.desc": {
+    "value": "Companion-Firmware mat enger eegener Interface um Radio, sou datt du ouni verbonnenen Handy Noriichte schécke kanns.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9bde8382"
+  },
+  "project.overmesh.desc": {
+    "value": "Dashboard, deen s du op dengem eegene Computer fir MeshCore a Meshtastic bedreifs, mat enger Nodekaart, Chat, engem Bot an Offline-Kaarten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fbacbc50"
+  },
+  "project.meshcore-wardrive-android.desc": {
+    "value": "Android-App, déi d'MeshCore-Ofdeckung kartéiert, während s du gees oder fiers.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6c9c49ec"
+  },
+  "project.akita-bridge.desc": {
+    "value": "Bréck, déi Noriichten tëscht Meshtastic a MeshCore weiderginn, iwwer eng seriell Verbindung oder MQTT.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eff5e3a1"
+  },
+  "project.meshcore-packet-capture.desc": {
+    "value": "Python-Skript, dat Pakete vun engem Companion-Radio opfänkt an iwwer MQTT publizéiert.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5325460e"
+  },
+  "project.cardputer-adv-sosprz.desc": {
+    "value": "Companion-Firmware fir den M5Stack Cardputer ADV mat der Cap LoRa868, geflasht mat M5Burner.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cf8b55c5"
+  },
+  "project.lora-wideband-decoder.desc": {
+    "value": "Software-defined-Radio-Empfänger, deen MeshCore-, Meshtastic- a LoRaWAN-Verkéier iwwer e breede Band dekodéiert, mat enger lokaler Websäit.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3e575ff"
+  },
+  "project.mc-webui.desc": {
+    "value": "Web-Interface op Basis vu meshcore-cli, fir aus dem Browser Noriichten ze schécken.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3372c462"
+  },
+  "project.meshfirmware.desc": {
+    "value": "Skripter fir Linux a Windows, déi MeshCore- a Meshtastic-Firmware auswielen, bauen an iwwer USB flashen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be0d230e"
+  },
+  "project.repeater-mqtt-gateway.desc": {
+    "value": "Repeater-Firmware, déi de Mesh och mat engem MQTT-Broker verbënnt, an déi zwou Richtungen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "23f7dfec"
+  },
+  "project.tak-meshcore.desc": {
+    "value": "Plugin, mat deem d'Situational-Awareness-App ATAK e MeshCore-Companion-Radio iwwer Bluetooth benotze kann.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "acbecd75"
+  },
+  "project.meshcore-decoder.desc": {
+    "value": "TypeScript-Bibliothéik, déi MeshCore-Paketen dekodéiert, Entschlësselung abegraff.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1235f40d"
+  },
+  "project.mesh-loader.desc": {
+    "value": "Dual Boot fir den Heltec WiFi LoRa 32 V3 a V4: hal zwou Firmwaren op engem Board a wiessel tëscht hinnen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be49552e"
+  },
+  "project.meshcore-proxy.desc": {
+    "value": "TCP-Proxy, deen e Companion-Radio op USB oder Bluetooth fir Appen op anere Computeren erreechbar mécht.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eaf24463"
+  },
+  "project.roadstr.desc": {
+    "value": "Stroossevenementer mellen ouni zentrale Server: signéiert Nostr-Evenementer, iwwer MeshCore transportéiert, wann et keen Internet gëtt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "60e39810"
+  },
+  "project.domca-docs.desc": {
+    "value": "Dokumentatioun op Hollännesch an Englesch, vun dengem éischten Node bis dozou, wéi de Protokoll, d'Firmware an de Radio funktionéieren. Si gëtt mat Hëllef vun AI-Tools geschriwwen, also préif Firmware-Detailer am MeshCore-Quellcode no.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c976aea"
+  },
+  "guides_group_start": {
+    "value": "Däin éischten Node",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "276f7ca8"
+  },
+  "guides_group_setup": {
+    "value": "Riicht däin Node an",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "55efd611"
+  },
+  "guides_group_deeper": {
+    "value": "Méi déif goen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6bce982b"
+  },
+  "guides_card_get_started_title": {
+    "value": "Ufänken",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "guides_card_get_started_desc": {
+    "value": "Vun engem neie Board bis zu denger éischter Noriicht um Mesh, an 6 Schrëtt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "133bcbfc"
+  },
+  "guides_card_devices_title": {
+    "value": "Apparater",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ba5121d"
+  },
+  "guides_card_devices_desc": {
+    "value": "Vergläich Boards no Roll, Präis a Stroumquell, a wiel dat, wat passt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cf3bba38"
+  },
+  "guides_card_settings_title": {
+    "value": "Recommandéiert Astellungen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cfb32983"
+  },
+  "guides_card_settings_desc": {
+    "value": "De Radio-Preset, deen deng Regioun benotzt, an d'Astellungen, déi deng Noperen geännert hunn.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e18863a"
+  },
+  "guides_card_antenna_title": {
+    "value": "Antennen-Guide",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3a76cb0e"
+  },
+  "guides_card_antenna_desc": {
+    "value": "Eng ofgestëmmten Antenn an e kuerze Kabel bréngen dir méi Reechwäit wéi extra Leeschtung. Préif d'Antenn op dengem Companion, a wiel, verbann a montéier eng fir e Repeater.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3869e4e4"
+  },
+  "guides_card_repeater_title": {
+    "value": "Repeater-Guide",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4608abcd"
+  },
+  "guides_card_repeater_desc": {
+    "value": "E Repeater gëtt Noriichte fir jiddereen ronderëm weider. Standuert, d'Befeeler fir en anzeriichten, an d'legal Limitten op 868 MHz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "979d61a1"
+  },
+  "guides_card_resilient_title": {
+    "value": "Maach de Mesh robust",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33ec7ac8"
+  },
+  "guides_card_resilient_desc": {
+    "value": "Eppes stéiert de Mesh bei dir? Fann eraus, wat et ass, a schalt op dengem Repeater d'Astellung an, déi et stoppt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a0476ea5"
+  },
+  "guides_card_filter_title": {
+    "value": "Paketfilter",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20a3ef1f"
+  },
+  "guides_card_filter_desc": {
+    "value": "Verhënner, datt däi Repeater Schrott weidergëtt, wéi e Bot, deen ni ophält, oder e lauter Kanal.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2db3748c"
+  },
+  "guides_card_mqtt_title": {
+    "value": "MQTT op dengem Observer",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "62626d0f"
+  },
+  "guides_card_mqtt_desc": {
+    "value": "En Observer ass en Node, deen dat, wat en héiert, iwwer MQTT weiderleet. Riicht een fir eng Kaart oder en Analyser an.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "774395b6"
+  },
+  "guides_card_mctomqtt_title": {
+    "value": "Eng Bréck-Config bauen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fd2dd667"
+  },
+  "guides_card_mctomqtt_desc": {
+    "value": "Schéck dat, wat däi Repeater héiert, un all MQTT-Broker: däin eegenen oder den Analyzer.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6c4d4692"
+  },
+  "guides_card_cli_title": {
+    "value": "CLI-Befeeler",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a13cc6cb"
+  },
+  "guides_card_cli_desc": {
+    "value": "D'Befeeler vun engem Repeater, jidderee mat deem, wat en mécht.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "977f43d6"
+  },
+  "firmware_card_flasher_title": {
+    "value": "Flashen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3577cb5"
+  },
+  "firmware_card_flasher_desc": {
+    "value": "Installéier MeshCore aus dengem Browser iwwer USB op däi Board.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0a1c2394"
+  },
+  "firmware_card_console_title": {
+    "value": "Seriell Konsol",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4e3c41fa"
+  },
+  "firmware_card_console_desc": {
+    "value": "Tipp aus dengem Browser iwwer USB Befeeler fir däi Repeater an.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f0d52063"
+  },
+  "firmware_card_changelog_title": {
+    "value": "Changelog",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ead07c84"
+  },
+  "firmware_card_changelog_desc": {
+    "value": "Kuck, wat sech an all MeshCore-Versioun geännert huet, an ob däin Node se brauch.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "314733fe"
+  },
+  "area_device_repeater": {
+    "value": "Op dengem Repeater",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5cb30f9"
+  },
+  "area_device_companion": {
+    "value": "An der App op dengem Companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e459238"
+  },
+  "area_change_nl_regions": {
+    "value": "Setz d'Regiounen derbäi, déi däi Repeater servéiert, jidder an där driwwer: Europa, Benelux, Holland, deng Provënz an deng Stad. Deng Provënz gëtt de Standard.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "593b1502"
+  },
+  "area_change_strict_regions": {
+    "value": "Verwerf Pakete ouni Regioun, sou datt se net duerch Europa reesen. Setz d'Regiounen als éischt derbäi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "11ca714d"
+  },
+  "area_change_zero_hop": {
+    "value": "Schéck all 4 Stonnen den Advert, deen deng direkt Noperen héieren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0e990713"
+  },
+  "area_change_path_hash": {
+    "value": "Benotz en 2-Byte-Path-Hash: en ënnerscheet 65.536 Repeateren amplaz 256.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b63880c0"
+  },
+  "area_change_loop": {
+    "value": "Verwerf Flood-Paketen, déi duerch däi Repeater zréckkommen. E Repeater, deen mat 1.18 oder méi nei ageriicht gouf, mécht dat schonn.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "44333e2e"
+  },
+  "area_change_dutycycle": {
+    "value": "Limitéier däi Repeater op 10% Airtime.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8877399e"
+  },
+  "area_change_nl_companion_region": {
+    "value": "Setz an den experimentellen Astellunge vun der App d'Standardregioun op nl. Gëff all Kanal seng Regioun, wéi nl-nh fir Noordholland.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3c31c16c"
+  },
+  "area_change_companion_path_hash": {
+    "value": "Setz an den experimentellen Astellunge vun der App d'Standardgréisst vum Path Hash op 2 Bytes.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4e3414d1"
+  },
+  "area_preset": {
+    "value": "Radio-Preset",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6fd605ec"
+  },
+  "area_path_hash": {
+    "value": "Path Hash (vum Preset festgeluecht)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2e93a7f1"
+  },
+  "area_bytes": {
+    "value": "Bytes",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "277089d9"
+  },
+  "area_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "area_or_newer": {
+    "value": "oder méi nei",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e2cbdfd0"
+  },
+  "area_changes": {
+    "value": "Geännert géintiwwer de MeshCore-Standardastellungen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0587de6f"
+  },
+  "area_source_group": {
+    "value": "Astellunge vun",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f06dfa4f"
+  },
+  "area_source_preset": {
+    "value": "Preset aus der Lëscht vum MeshCore-Projet",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "89d3440f"
+  },
+  "area_checked": {
+    "value": "gepréift",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e61a3d78"
+  },
+  "area_add_title": {
+    "value": "Setz deng Regioun derbäi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6ec76c28"
+  },
+  "area_add_body": {
+    "value": "Benotzt deng lokal Grupp en eegene Preset oder ännert se Astellungen? Schéck se an, mat engem Link dohin, wou dir se decidéiert hutt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5976a5e5"
+  },
+  "area_add_cta": {
+    "value": "Setz deng Regioun derbäi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6ec76c28"
+  },
+  "area_link": {
+    "value": "Link op dës Regioun",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "98909794"
+  },
+  "heading_link": {
+    "value": "Link op dës Sektioun",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9dc5baf3"
+  },
+  "toc_title": {
+    "value": "Op dëser Säit",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5658fc8"
+  },
+  "regions_title": {
+    "value": "Regiounen: vun Europa bis bei deng Stad",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "698de558"
+  },
+  "regions_body": {
+    "value": "Eng Regioun ass e Code fir e Gebitt. Regioune leien an enaner: Europa, däi Land, deng Provënz an op verschiddene Plazen deng Stad. Gëff dengem Repeater d'Regiounen, an deenen e läit, jidder an där driwwer. En gëtt Noriichte fir all dës Regiounen weider.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3f05bbfc"
+  },
+  "regions_map_body": {
+    "value": "Wéi eng Coden am Asaz sinn, ass vun Gebitt zu Gebitt anescht. D'Kaart weist d'Regiounen, déi d'Repeateren ronderëm dech benotzen: benotz déi vun denge Noperen, soss verwerft däi Repeater hir Noriichten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ccf2219"
+  },
+  "regions_europe": {
+    "value": "Europa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e595f45d"
+  },
+  "regions_pick": {
+    "value": "Deng Provënz oder Regioun",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ed5a1c0e"
+  },
+  "regions_pick_none": {
+    "value": "Wiel eng aus",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a880a59d"
+  },
+  "regions_region": {
+    "value": "Deng Regioun, wann däi Gebitt eng benotzt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7ebba635"
+  },
+  "regions_town": {
+    "value": "Deng Stad, wann däi Gebitt eng benotzt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a6221a2f"
+  },
+  "regions_map": {
+    "value": "Kaart",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be176b00"
+  },
+  "regions_map_label": {
+    "value": "op der Kaart vum MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2df2db10"
+  },
+  "regions_cmd_hint": {
+    "value": "Wiel deng Provënz oder tipp hire Code iwwer de markéierte Wäert, a kopéier dann.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54f7feb3"
+  },
+  "area_ph_hint": {
+    "value": "Tipp deng eege Wäerter iwwer déi markéiert, a kopéier dann.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "04e515aa"
+  },
+  "area_ph_province": {
+    "value": "Deng Provënz",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "492cd073"
+  },
+  "area_ph_city": {
+    "value": "Deng Stad",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90064d5a"
+  },
+  "area_map_label": {
+    "value": "Kaart vun de Gebidder an hirem Radio-Preset",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b49bdce9"
+  },
+  "area_map_own": {
+    "value": "Eegene Preset oder eegen Astellungen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d7dec3ab"
+  },
+  "area_others_title": {
+    "value": "De Rescht vun der EU an de UK",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5b618852"
+  },
+  "area_country_label": {
+    "value": "Däi Land",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "18f2456a"
+  },
+  "area_country_pick": {
+    "value": "Wiel e Land",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "632aadfb"
+  },
+  "area_country_missing": {
+    "value": "Däi Land ass net an der Lëscht? Fro deng lokal Grupp, wéi ee Preset se benotzt, oder {link}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "64fd9026"
+  },
+  "area_country_missing_link": {
+    "value": "setz deng Regioun derbäi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "39737a2b"
+  },
+  "area_country_eu": {
+    "value": "{country} huet keen eegene Preset an der MeshCore-App. Et benotzt {preset}, de Preset, dee MeshCore fir d'EU an de UK nennt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "221cd765"
+  },
+  "area_others_body": {
+    "value": "Dës Länner hu keen eegene Preset an der MeshCore-App. Si benotzen EU/UK (Narrow), de Preset, dee MeshCore fir si nennt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0fccb2a7"
+  },
+  "cli_groups": {
+    "value": "Befehlsgruppen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "70883ce1"
+  },
+  "cli_search": {
+    "value": "Sichen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "49c266ba"
+  },
+  "cli_node_q": {
+    "value": "Wéi en Node?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5f669f2f"
+  },
+  "cli_node_repeater": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "cli_node_room_server": {
+    "value": "Room Server",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68b91cc5"
+  },
+  "cli_node_sensor": {
+    "value": "Sensor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "162cc64c"
+  },
+  "cli_node_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dadb328"
+  },
+  "cli_link": {
+    "value": "Link op dëse Befehl",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8545494"
+  },
+  "cli_default": {
+    "value": "Fänkt un bei",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "faca355f"
+  },
+  "cli_in_source": {
+    "value": "wou d'Firmware et festleet",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4de4eaa8"
+  },
+  "cli_range": {
+    "value": "Wäerter",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "53b09e10"
+  },
+  "cli_nodes": {
+    "value": "Leeft op",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c85fc5a0"
+  },
+  "cli_since": {
+    "value": "Brauch d'Firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5bf596e9"
+  },
+  "cli_build": {
+    "value": "Nëmmen a Firmware, déi gebaut ass mat",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bb208568"
+  },
+  "cli_build_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "176c7866"
+  },
+  "cli_build_sensors": {
+    "value": "Sensoren",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e22dfb01"
+  },
+  "cli_build_bridge": {
+    "value": "enger Bridge",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5a0b83ee"
+  },
+  "cli_build_ethernet": {
+    "value": "Ethernet",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "681e1209"
+  },
+  "cli_build_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10df5f54"
+  },
+  "cli_group_operational": {
+    "value": "Neistart, Reset an Update",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a49f50c1"
+  },
+  "cli_group_adverts": {
+    "value": "Adverts",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8b8ad4a7"
+  },
+  "cli_group_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2a7dfeb2"
+  },
+  "cli_group_system": {
+    "value": "Numm, Passwuert an Auer",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a96ceeac"
+  },
+  "cli_group_routing": {
+    "value": "Routing",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bcba696f"
+  },
+  "cli_group_regions": {
+    "value": "Regiounen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "610c65d8"
+  },
+  "cli_group_access": {
+    "value": "Zougang",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ec5ba0ab"
+  },
+  "cli_group_neighbours": {
+    "value": "Noperen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "24be7e7c"
+  },
+  "cli_group_statistics": {
+    "value": "Statistiken",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a656107e"
+  },
+  "cli_group_logging": {
+    "value": "Logging",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d3ef01b4"
+  },
+  "cli_group_info": {
+    "value": "Versioun a Board",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9a90dcaa"
+  },
+  "cli_group_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "176c7866"
+  },
+  "cli_group_sensors": {
+    "value": "Sensoren",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "76140e34"
+  },
+  "cli_group_bridge": {
+    "value": "Bridge",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3892e103"
+  },
+  "cli_group_ethernet": {
+    "value": "Ethernet",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "681e1209"
+  },
+  "cli_group_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10df5f54"
+  },
+  "cmd_reboot_desc": {
+    "value": "Start den Node direkt nei, an den Node schéckt dir keng Äntwert. Benotz et fir Astellungen, déi eréischt no engem Neistart gëllen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6850ad24"
+  },
+  "cmd_poweroff_desc": {
+    "value": "Schalt den Node op Boards, déi dat ënnerstëtzen, aus, ouni Äntwert ze schécken. Fir en erëm unzemaachen, brauchs du de Power-Knäppchen oder e Stroumzyklus.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5088476d"
+  },
+  "cmd_clkreboot_desc": {
+    "value": "Setzt d'Auer op e fréien Datum zréck a start den Node ouni Äntwert nei. Benotz et, wann d'Auer vir geet an net zréck wëll.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d02bbe66"
+  },
+  "cmd_clock_desc": {
+    "value": "Weist d'Auer vum Node an UTC oder setzt se op eng Unix-Zäit a Sekonnen. D'Auer geet nëmme virun, also benotz fir d'éischt clkreboot, fir zréckzegoen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0193d15f"
+  },
+  "cmd_clock_sync_desc": {
+    "value": "Setzt d'Auer vum Node op d'Zäit, déi däi Companion mat dësem Befehl schéckt. Dat geet nëmmen iwwer de Mesh, well d'serial Konsol keng Zäit schéckt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "39198623"
+  },
+  "cmd_start_ota_desc": {
+    "value": "Start e Firmware-Update iwwer d'Loft op ESP32- an nRF52-Boards, déi dat ënnerstëtzen. ESP32 mécht e WiFi-Accesspoint op, nRF52 start e Bluetooth-Update.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69bd5985"
+  },
+  "cmd_erase_desc": {
+    "value": "Läscht de Dateiesystem vum Node, mat Astellungen an Identitéit, nëmmen iwwer serial. Benotz et fir e Factory-Reset, well du et net réckgängeg maache kanns.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e781518d"
+  },
+  "cmd_room_post_desc": {
+    "value": "Publizéiert e Message am Room als de Room Server selwer. Jiddereen am Room kritt e wéi all anere Post.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "88a6e1f5"
+  },
+  "cmd_advert_desc": {
+    "value": "Schéckt elo e Flood-Advert, sou datt Noden iwwer de ganze Mesh vun dësem Node gewuer ginn. Benotz et, nodeems s du den Numm oder de Standuert geännert hues.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "21526c3a"
+  },
+  "cmd_advert_zerohop_desc": {
+    "value": "Schéckt en Advert nëmmen un direkt Noperen, a kee Repeater gëtt en weider. Benotz et, fir den Node an der Géigend unzekënnegen, ouni de ganze Mesh ze belaaschten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dfbc07b6"
+  },
+  "cmd_advert_interval_desc": {
+    "value": "Setzt, wéi dacks a Minutten den Node en Zero-Hop-Advert u seng Noperen schéckt. Benotz 0, fir se ze stoppen; all gespäichert Ännerung stoppt och Intervaller ënner 60.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f99f3d5f"
+  },
+  "cmd_flood_advert_interval_desc": {
+    "value": "Setzt, wéi dacks a Stonnen den Node e Flood-Advert iwwer de ganze Mesh schéckt. Benotz 0, fir déi automatesch Flood-Adverts vun dësem Node ganz ze stoppen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6473270c"
+  },
+  "cmd_neighbours_desc": {
+    "value": "Lëscht d'Repeateren op, déi dësen Node direkt héieren huet, de leschte fir d'éischt. All Linn weist e Schlëssel-Prefix, d'Sekonnen zanter dem Héieren an den SNR mol 4.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9bd6e27f"
+  },
+  "cmd_neighbour_remove_desc": {
+    "value": "Hëlt all Noper ewech, deem säin ëffentleche Schlëssel mam Hex-Prefix ufänkt, deen s du uginn hues. Benotz et, fir en ale Repeater aus der Noperelëscht ze läschen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c1b8c616"
+  },
+  "cmd_discover_neighbours_desc": {
+    "value": "Freet d'Repeateren a direkter Reechwäit no enger Äntwert an dréit all Äntwert bei d'Noperen an. Benotz et, fir d'Lëscht ze fëllen, ouni op hir Adverts ze waarden. E Repeater mat béiden Advert-Intervaller op 0 oder mat ausgeschaltem Repeat bleift roueg.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1ab216ce"
+  },
+  "cmd_clear_stats_desc": {
+    "value": "Setzt d'Paket-, Radio- a Core-Zieler vum Node op null zréck. Benotz et, ier s du den Traffic iwwer eng fest Zäit moosss.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ead62ceb"
+  },
+  "cmd_stats_core_desc": {
+    "value": "Weist d'Batteriespannung, d'Uptime, d'Zuel vun de Feeler an d'Längt vun der Sendschlaang vum Node. Dat geet nëmmen op der serialer Konsol, net iwwer de Mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ba9fa3d2"
+  },
+  "cmd_stats_radio_desc": {
+    "value": "Weist den Noise Floor, de leschte RSSI an SNR an d'Airtime fir Schécken a Empfänken. Dat geet nëmmen op der serialer Konsol, net iwwer de Mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bedd2bf2"
+  },
+  "cmd_stats_packets_desc": {
+    "value": "Weist, wéi vill Pakete den Node kritt a geschéckt huet, opgedeelt a Flood an Direct. Dat geet nëmmen op der serialer Konsol, net iwwer de Mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d8a3b4d1"
+  },
+  "cmd_log_capture_desc": {
+    "value": "Start oder stoppt d'Schreiwe vun all Paket, deen den Node kritt a schéckt, an eng Log-Datei. Benotz et, fir Traffic opzehuelen, a lies en dann mam Befehl log.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "79dcb812"
+  },
+  "cmd_log_erase_desc": {
+    "value": "Läscht d'Paket-Log-Datei aus dem Späicher vum Node. Benotz et, fir Plaz fräizemaachen oder eng propper Opnam unzefänken.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c32fe03"
+  },
+  "cmd_log_desc": {
+    "value": "Dréckt de gespäicherte Paket-Log Linn fir Linn op der serialer Konsol aus. Dat geet nëmmen op der serialer Konsol, net iwwer de Mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "59c80f62"
+  },
+  "cmd_ver_desc": {
+    "value": "Weist d'Firmware-Versioun an den Build-Datum vum Node. Benotz et, fir virun engem Update ze kucken, wéi eng Release leeft.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c0752f1b"
+  },
+  "cmd_board_desc": {
+    "value": "Weist den Numm vum Hardware-Board, fir dat d'Firmware gebaut gouf. Benotz et, fir ze kucken, ob s du déi richteg Firmware geflasht hues.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3e5ed786"
+  },
+  "cmd_power_desc": {
+    "value": "Weist d'Batteriespannung, an ob USB, Solar, externe Stroum an de Chargeur aktiv sinn. E Board, dat USB oder Solar net erkenne kann, weist dofir n/a.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4e5129e4"
+  },
+  "cmd_public_key_desc": {
+    "value": "Weist de ganzen ëffentleche Schlëssel vum Node an Hex. Deel en, wann een freet, wéi en Node deng ass, oder wann e Repeater-Besëtzer dengem Companion mat setperm eng Roll gëtt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d754bc23"
+  },
+  "cmd_role_desc": {
+    "value": "Weist, wéi eng Firmware um Node leeft: repeater, room_server oder sensor. Benotz et, fir d'Roll ze kucken, ier s du Astellungen op Distanz änners.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "627a92c5"
+  },
+  "cmd_bootloader_ver_desc": {
+    "value": "Weist d'Versioun vum Bootloader, deen op nRF52-Boards leeft. Op all anere Board äntwert den Node, datt de Befehl net ënnerstëtzt gëtt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a3e90e05"
+  },
+  "cmd_pwrmgt_support_desc": {
+    "value": "Weist, ob dëse Firmware-Build Power Management fir nRF52-Boards huet. Déi aner pwrmgt-Befeeler brauchen dës Ënnerstëtzung, fir eng Äntwert ze ginn.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "139d6f9d"
+  },
+  "cmd_pwrmgt_source_desc": {
+    "value": "Weist, ob den Node op externem Stroum oder op senger Batterie leeft. Nëmme Firmware-Builds mat nRF52-Power-Management ginn dir dës Äntwert.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ee83fb61"
+  },
+  "cmd_pwrmgt_bootreason_desc": {
+    "value": "Weist, firwat den Node sech fir d'lescht zréckgesat an ausgeschalt huet. Benotz et, fir erauszefannen, firwat en Node vu sech aus nei gestart ass.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "de8338c0"
+  },
+  "cmd_pwrmgt_bootmv_desc": {
+    "value": "Weist d'Batteriespannung a Millivolt, déi den Node beim Booten gemooss huet. Nëmme Firmware-Builds mat nRF52-Power-Management ginn dir dës Äntwert.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ff3b5c66"
+  },
+  "cmd_radio_desc": {
+    "value": "Setzt d'Frequenz, d'Bandbreet, de Spreading Factor an d'Coding Rate vum Node. All Node an dengem Mesh brauch déi selwecht Wäerter; start nei, fir se unzewenden.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf443364"
+  },
+  "cmd_tx_desc": {
+    "value": "Setzt d'Sendleeschtung vum LoRa-Chip an dBm, an dat gëllt direkt. Boards mat engem extra Verstäerker schécke méi eraus wéi dëse Wäert.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0b7d55b8"
+  },
+  "cmd_tempradio_desc": {
+    "value": "Wiesselt fir eng fest Zuel vu Minutten op aner Radio-Astellungen, ouni se ze späicheren. Benotz et, fir nei Astellungen op Distanz ze testen, mat engem automatesche Wee zréck.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "37b19209"
+  },
+  "cmd_freq_desc": {
+    "value": "Setzt nëmmen d'Frequenz a MHz, an d'Set-Form geet nëmmen iwwer serial. Start den Node duerno nei, well déi nei Frequenz eréischt no engem Neistart gëllt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aabd4b62"
+  },
+  "cmd_radio_rxgain_desc": {
+    "value": "Schalt de verstäerkte Receive-Gain vum Radio-Chip un oder aus. E Radio ouni dëse Modus äntwert, datt d'Astellung op him net ënnerstëtzt gëtt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ecacba86"
+  },
+  "cmd_radio_fem_rxgain_desc": {
+    "value": "Schalt de Receive-Verstäerker vun engem externe Radio-Front-End un oder aus. Nëmme Boards mat engem Front-End, deen s du steiere kanns, ënnerstëtzen dat.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c71d7980"
+  },
+  "cmd_radio_fem_txgain_desc": {
+    "value": "Wiesselt den Transmit-Gain vun engem externe Radio-Front-End tëscht sengen 2 Niveauen. Nëmme Boards mat engem Front-End, deen s du steiere kanns, ënnerstëtzen dat.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d3f049e3"
+  },
+  "cmd_extra_sf_desc": {
+    "value": "Léisst e LR2021-Radio och op bis zu 3 extra Spreading Factors lauschteren. Gëff se als Lëscht mat Kommaen un; aner Radioe akzeptéieren d'Set-Form net.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d14313eb"
+  },
+  "cmd_repeat_desc": {
+    "value": "Schalt d'Weiderleede vu Pakete vun anere Noden un oder aus. Schalt et aus, fir en Node um Radio ze halen, ouni ze widderhuelen. E Room Server refuséiert, et unzeschalten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c66ee723"
+  },
+  "cmd_path_hash_mode_desc": {
+    "value": "Setzt d'Hash-Gréisst, déi dësen Node an d'Pafer vu senge Paketen schreift. Modus 0 benotzt 1 Byte, 1 benotzt 2 a 2 benotzt 3.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "486f2338"
+  },
+  "cmd_loop_detect_desc": {
+    "value": "Verwerft Flood-Paketen, déi den Hash vun dësem Repeater schonn ze dacks an hirem Pad hunn. E méi strengen Niveau verwerft e Loop-Paket no manner Widderhuelungen. E Repeater, deen eng al Versioun aktualiséiert, behält säin Niveau.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7192683e"
+  },
+  "cmd_txdelay_desc": {
+    "value": "Setzt déi zoufälleg Waardezäit, ier den Node e Flood-Paket widderhëlt, skaléiert no Airtime. E méi héije Wäert vermeit Kollisiounen tëscht Repeateren, bréngt awer Verzögerung.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc0b9e0e"
+  },
+  "cmd_direct_txdelay_desc": {
+    "value": "Setzt déi zoufälleg Waardezäit, ier den Node en Direct-Paket widderhëlt, skaléiert no Airtime. Direct-Paketen brauche manner Waardezäit, well manner Noden se widderhuelen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0f14a917"
+  },
+  "cmd_rxdelay_desc": {
+    "value": "Hält schwaach Flood-Paketen virun der Veraarbechtung zréck, sou datt Pafer mat staarkem Signal fir d'éischt widderhuelen. Benotz 0, fir all Paket direkt ze veraarbechten, egal wéi säi Signal ass.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9eca669b"
+  },
+  "cmd_dutycycle_desc": {
+    "value": "Limitéiert den Undeel vun der Zäit, an där den Node schéckt, a Prozent. Setz en op d'Limitt, déi fir däi Frequenzband gëllt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46f7ce95"
+  },
+  "cmd_af_desc": {
+    "value": "Setzt den Airtime Factor, déi al Manéier, fir den Duty Cycle vum Node ze limitéieren. Benotz amplaz dutycycle; en af vun 9 entsprécht 10 Prozent.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "80189809"
+  },
+  "cmd_int_thresh_desc": {
+    "value": "Behandelt de Kanal als besat, wann e sou vill dB iwwer dem Noise Floor läit. Den Node waart dann, ier e schéckt; 0 schalt de Check aus.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "32eb85ce"
+  },
+  "cmd_cad_desc": {
+    "value": "Léisst de Radio virun all Transmissioun lauschteren, ob um Kanal eppes lass ass. Den Node waart mam Schécken, soulaang de Kanal besat ass.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "998c2731"
+  },
+  "cmd_agc_reset_interval_desc": {
+    "value": "Setzt d'automatesch Gain Control vum Radio all fest Zuel vu Sekonnen zréck. Den Node rount op e Multipel vu 4 of; 0 schalt et aus.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aa321448"
+  },
+  "cmd_multi_acks_desc": {
+    "value": "Schéckt extra Kopië vun all Acknowledgement, fir d'Zoustellung op schwaache Verbindungen ze verbesseren. Benotz 0, fir all Acknowledgement nëmmen eemol ze schécken, ouni extra Kopien.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b2c80c40"
+  },
+  "cmd_flood_max_desc": {
+    "value": "Setzt d'Zuel vun Hops, no där dësen Node e Flood-Paket net méi widderhëlt. Setz se méi niddreg, fir datt Floods net wäit iwwer de Mesh reesen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dee460b4"
+  },
+  "cmd_flood_max_unscoped_desc": {
+    "value": "Setzt d'Hop-Limitt fir Flood-Paketen ouni Regioun. Setz se méi niddreg, fir dësen Traffic no bei doheem ze halen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1003a06a"
+  },
+  "cmd_flood_max_advert_desc": {
+    "value": "Setzt d'Hop-Limitt fir d'Flood-Adverts, déi dësen Node widderhëlt. Setz se méi niddreg, fir datt Adverts net de ganze Mesh duerchkräizen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57c129b9"
+  },
+  "cmd_name_desc": {
+    "value": "Setzt den Numm, deen aner Noden an den Adverts vun dësem Node gesinn. D'Zeechen [ ] \\ : , ? * sinn net erlaabt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08e6c872"
+  },
+  "cmd_lat_desc": {
+    "value": "Setzt d'Breet an Dezimalgrad, déi dësen Node a sengen Adverts deelt. Benotz et mat lon, fir den Node op enger Kaart op déi richteg Plaz ze setzen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ea083178"
+  },
+  "cmd_lon_desc": {
+    "value": "Setzt d'Längt an Dezimalgrad, déi dësen Node a sengen Adverts deelt. Benotz et mat lat, fir den Node op enger Kaart op déi richteg Plaz ze setzen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fe5f8039"
+  },
+  "cmd_prv_key_desc": {
+    "value": "Weist oder ersetzt de private Schlëssel, deen d'Identitéit vum Node festleet. D'Get-Form geet nëmmen iwwer serial; start nei, nodeems s du e Schlëssel gesat hues.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3500931c"
+  },
+  "cmd_password_desc": {
+    "value": "Ännert d'Admin-Passwuert a schéckt dat neit zréck, sou datt s du et kontrolléiere kanns. Änner et op all neien Node, well de Standard ëffentlech ass.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a33a87f1"
+  },
+  "cmd_guest_password_desc": {
+    "value": "Setzt d'Gaascht-Passwuert; op engem Room Server gëtt et Lies- a Schreifzougang. Deel et mat de Leit, déi s du an de Room eraloosse wëlls.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67348593"
+  },
+  "cmd_owner_info_desc": {
+    "value": "Setzt Kontakttext, deen anerer beim Node ufroe kënnen, zum Beispill däin Numm. Tipp e |-Zeechen do, wou eng nei Linn ufänke soll.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "928a68a4"
+  },
+  "cmd_adc_multiplier_desc": {
+    "value": "Korrigéiert d'Batteriespannung, déi den Node liest, mat engem Multiplikator fir däi Board. Benotz 0, fir op de Wäert zréckzegoen, deen de Board selwer festleet.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0383a608"
+  },
+  "cmd_powersaving_desc": {
+    "value": "Léisst den Node tëscht Radio-Aktivitéit schlofen, fir Batterie ze spueren. Dat geet op nRF52-Boards an op ESP32-Builds ouni Bridge.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3e791562"
+  },
+  "cmd_setperm_desc": {
+    "value": "Gëtt engem Companion eng Roll op dësem Node, deen s du iwwer säin ëffentleche Schlëssel fënns. Benotz 0, fir den Entrée ze läschen; déi aner Rolle brauchen de ganze Schlëssel.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "93a740af"
+  },
+  "cmd_acl_desc": {
+    "value": "Dréckt d'Zougangslëscht mat de Rechter an dem ëffentleche Schlëssel vun all Companion aus. Dat geet nëmmen op der serialer Konsol, net iwwer de Mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "784d80d9"
+  },
+  "cmd_allow_read_only_desc": {
+    "value": "Léisst Leit mat engem falschen oder eidele Passwuert mat Lieszougang an e Room Server. Schalt et aus, fir nëmme Leit eranzeloossen, déi d'Passwuert kennen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a845f89b"
+  },
+  "cmd_region_desc": {
+    "value": "Weist de ganze Regiounebam vum Node, mam Flood-Flag vun all Regioun. En F heescht, datt Flooding erlaabt ass, an ^ markéiert d'Heemregioun.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "07dd7f25"
+  },
+  "cmd_region_load_desc": {
+    "value": "Start d'Massenagab vun engem Regiounebam, eng Regioun pro Linn, mat Espacen agerréckt. Setz F derbäi, fir Flooding ze erlaben, a schéck eng eidel Linn, fir ofzeschléissen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d2da253a"
+  },
+  "cmd_region_save_desc": {
+    "value": "Späichert deng Regiounsännerungen am Späicher vum Node, sou datt se en Neistart iwwerliewen. Fuer et no all Regiounsännerung aus, déi s du behale wëlls.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bd6cb636"
+  },
+  "cmd_region_flood_desc": {
+    "value": "Erlaabt oder blockéiert d'Widderhuele vu Flood-Paketen fir eng Regioun. Benotz * fir d'Paketen, déi guer keng Regioun hunn.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "58acd9db"
+  },
+  "cmd_region_get_desc": {
+    "value": "Weist eng Regioun mat hirem Elterendeel, an en F, wa Flooding fir si erlaabt ass. Benotz et, fir eng eenzel Regioun ze kucken, ouni de ganze Bam ze liesen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33ef40c6"
+  },
+  "cmd_region_home_desc": {
+    "value": "Weist oder setzt d'Heemregioun, déi de Regiounebam mat engem ^ markéiert. Fuer duerno region save aus, fir d'Ännerung no engem Neistart ze behalen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90b9c539"
+  },
+  "cmd_region_default_desc": {
+    "value": "Weist oder setzt d'Regioun, déi den Node op seng eege Flood-Paketen setzt, wéi Adverts. Den Node späichert d'Ännerung direkt; <null> läscht se.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b478cd71"
+  },
+  "cmd_region_put_desc": {
+    "value": "Füügt eng Regioun ënner dem Wildcard oder ënner engem Elterendeel bäi, deen s du nennst, mat erlaabtem Flooding. Fuer duerno region save aus, fir déi nei Regioun no engem Neistart ze behalen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90f4ec6d"
+  },
+  "cmd_region_def_desc": {
+    "value": "Baut e Regiounebam op enger Linn, all Numm e Kand vum virdrun. Schreif name|jump, fir den nächsten Numm vun enger fréierer Regioun aus weiderzeféieren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "80bfbfce"
+  },
+  "cmd_region_remove_desc": {
+    "value": "Hëlt eng Regioun no hirem exakten Numm ewech, soubal se keng Kannerregioune méi huet. Fuer duerno region save aus, fir datt d'Läsche en Neistart iwwerlieft.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0677775b"
+  },
+  "cmd_region_list_desc": {
+    "value": "Lëscht d'Nimm vun de Regiounen op, wou Flooding erlaabt oder blockéiert ass. Benotz et fir e schnelle Check ouni de ganze Bam.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8156296"
+  },
+  "cmd_gps_desc": {
+    "value": "Weist, ob de GPS un ass, e Fix huet a wéi vill Satellitte e gesäit. D'Formen on an off schalten de GPS a späicheren d'Wiel.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6b7484f4"
+  },
+  "cmd_gps_diag_desc": {
+    "value": "Weist, ob de GPS ugeschalt ass, wéi vill Satellitten e gesäit an ob en e Fix huet. Benotz et, wann den Node keng Positioun kritt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f5838af7"
+  },
+  "cmd_gps_sync_desc": {
+    "value": "Setzt d'Auer vum Node no der Zäit, déi de GPS kritt. Benotz et, wann den Node keng aner Quell fir déi richteg Zäit huet.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9992274d"
+  },
+  "cmd_gps_setloc_desc": {
+    "value": "Kopéiert déi aktuell GPS-Positioun an déi gespäichert Breet a Längt vum Node. Benotz et eemol op der Plaz, a schalt dann de GPS aus.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2e7052c8"
+  },
+  "cmd_gps_advert_desc": {
+    "value": "Wielt d'Positioun an Adverts: none, Live-GPS oder dat gespäichert lat a lon. Benotz none, fir de Standuert vum Node privat ze halen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e7bb3d85"
+  },
+  "cmd_sensor_list_desc": {
+    "value": "Lëscht déi eegen Astellunge vum Sensor-Manager mat hire Wäerter op. Eng laang Lëscht hält mam Index op, vun deem s du weiderfiers.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "af32a1b7"
+  },
+  "cmd_sensor_setting_desc": {
+    "value": "Liest oder ännert eng eegen Astellung vum Sensor-Manager no hirem Numm. Benotz fir d'éischt sensor list, fir ze gesinn, wéi eng Nimm de Board ubitt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c470cf70"
+  },
+  "cmd_io_desc": {
+    "value": "Liest oder schreift d'GPIO-Pins vum Board als Hex-Bitmask. Setz r, s oder t virun d'Mask, fir Bits zréckzesetzen, ze setzen oder ëmzeschalten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ede2acc1"
+  },
+  "cmd_bridge_type_desc": {
+    "value": "Weist, wéi eng Bridge dës Firmware agebaut huet: rs232, espnow oder none. Benotz et, fir ze kucken, ob s du e Bridge-Build geflasht hues.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54cbb77e"
+  },
+  "cmd_bridge_enabled_desc": {
+    "value": "Schalt d'Bridge un oder aus; si kopéiert Paketen tëscht dem Mesh an enger anerer Verbindung. Dës Verbindung ass e serial Kabel oder ESP-NOW, jee no Build.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7249ccd6"
+  },
+  "cmd_bridge_delay_desc": {
+    "value": "Setzt, wéi vill Millisekonnen d'Bridge waart, ier se e Paket weidergëtt. Setz et méi héich, wann iwwerbréckte Paketen mam Traffic um Mesh kollidéieren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c8895baa"
+  },
+  "cmd_bridge_source_desc": {
+    "value": "Wielt, ob d'Bridge d'Paketen kopéiert, déi dësen Node kritt oder déi e schéckt. Tipp rx oder tx, fir et ze setzen; get äntwert mat logRx oder logTx.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d81577c2"
+  },
+  "cmd_bridge_baud_desc": {
+    "value": "Setzt déi serial Vitess vun enger RS-232-Bridge a Baud. Béid Enne vum serialle Kabel brauchen déi selwecht Vitess.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7322814d"
+  },
+  "cmd_bridge_channel_desc": {
+    "value": "Setzt de WiFi-Kanal, deen eng ESP-NOW-Bridge fir hir Verbindung benotzt. All Bridge, déi mat dëser schwätzt, brauch dee selwechte Kanal.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "924d978f"
+  },
+  "cmd_bridge_secret_desc": {
+    "value": "Setzt dat gemeinsaamt Geheimnis, dat Paketen op enger ESP-NOW-Bridge verschlësselt. Benotz dat selwecht Geheimnis op all Bridge, déi mat dëser schwätzt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b1df9356"
+  },
+  "cmd_eth_status_desc": {
+    "value": "Weist d'IP-Adress an de Port vun der Ethernet-Konsol, oder datt se offline ass. Dat geet op der serialer an der Ethernet-Konsol, net iwwer de Mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b27f99e8"
+  },
+  "cmd_pin_desc": {
+    "value": "Setzt no engem Neistart de Bluetooth-PIN, deen däin Telefon beim Koppele freet. Mat 0 weist e Board mat Schierm bei all Start en neie PIN, an een ouni Schierm benotzt 123456.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "82dc0ee0"
+  },
+  "cmd_tz_offset_desc": {
+    "value": "Setzt deng Zäitzon a ganze Stonnen vun UTC. De Companion benotzt se fir d'Auer op sengem Schierm.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d2a9942a"
+  },
+  "cmd_wifi_ssid_desc": {
+    "value": "Weist oder setzt den Numm vum WiFi-Netz, mat deem de Companion sech verbënnt. Setz och wifi.pwd, a start dann nei, fir dech ze verbannen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e53eb6a"
+  },
+  "cmd_wifi_pwd_desc": {
+    "value": "Weist oder setzt d'Passwuert vum WiFi-Netz, a start nei, fir et unzewenden. E Kontakt, deem s du Befeeler erlaabs, kann et och liesen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "15b5453a"
+  },
+  "cmd_wifi_enabled_desc": {
+    "value": "Schalt WiFi no engem Neistart mat 1 un oder mat 0 aus. Ouni Netznumm start de Companion WiFi net.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7dbbf8f1"
+  },
+  "cmd_wifi_clear_desc": {
+    "value": "Läscht den WiFi-Netznumm an d'Passwuert vum Companion. Start nei, fir d'Ännerung unzewenden.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "29938727"
+  },
+  "cmd_wifi_status_desc": {
+    "value": "Weist, ob de Companion mat WiFi verbonnen ass, a seng IP-Adress an dengem Netz. De Companion hëlt op där Adress, Port 5000, Verbindunge vun der App un.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "38894245"
+  },
+  "keygen_find_title": {
+    "value": "1. Fann e fräie Prefix",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "23440ddd"
+  },
+  "keygen_find_body": {
+    "value": "D'Prefix-Tool weist, wéi eng Prefixen Noden scho benotzen, a proposéiert e fräien.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8b4149b8"
+  },
+  "keygen_find_link": {
+    "value": "Prefix-Tool opmaachen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ad418bc8"
+  },
+  "keygen_make_title": {
+    "value": "2. Maach domat e Schlëssel",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "55671108"
+  },
+  "keygen_needs_js": {
+    "value": "Dësen Tool leeft an dengem Browser a brauch JavaScript.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9128273b"
+  },
+  "keygen_prefix_label": {
+    "value": "Prefix, an Hex",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c5fe4703"
+  },
+  "keygen_prefix_hint": {
+    "value": "2 Zeeche fir 1 Byte, 4 fir 2 Bytes. D'Firmware refuséiert 00 an FF.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "60646fe6"
+  },
+  "keygen_make": {
+    "value": "Schlëssel maachen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f2e49767"
+  },
+  "keygen_stop": {
+    "value": "Stoppen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cae7d57b"
+  },
+  "keygen_working": {
+    "value": "Schlësselen ausprobéieren: bis elo {n}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10781c37"
+  },
+  "keygen_done": {
+    "value": "Fonnt no {n} Versich.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8495a72b"
+  },
+  "keygen_stopped": {
+    "value": "Gestoppt. Probéier nach eng Kéier, oder wiel e méi kuerze Prefix.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "731c66a8"
+  },
+  "keygen_bad": {
+    "value": "Tipp 2 oder 4 Hex-Zeechen (0-9, a-f), déi net mat 00 oder FF ufänken.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9569dc0f"
+  },
+  "keygen_unsupported": {
+    "value": "Däi Browser kann keng Ed25519-Schlësselen maachen. Benotz Chrome 137, Firefox 129, Safari 17 oder méi nei.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "70cf8b1d"
+  },
+  "keygen_set_title": {
+    "value": "3. Setz en op däi Repeater",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "37e17307"
+  },
+  "keygen_set_body": {
+    "value": "Fuer dëse Befehl op dengem Repeater aus, a start en dann nei. E behält seng Astellungen an Zougangslëscht, gëtt awer fir jiddereen en neien Node. Füüg en no sengem éischten Advert an der App erëm bäi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c80b8962"
+  },
+  "keygen_public": {
+    "value": "Ëffentleche Schlëssel",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ee252fb"
+  },
+  "keygen_secret": {
+    "value": "Dat ass de private Schlëssel vun dengem Repeater. Jiddereen, deen en huet, kann als däi Repeater optrieden, also behal en fir dech. Däi Browser huet e gemaach, an dës Säit schéckt en néierens hin.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b4d3d7d1"
+  },
+  "guides_card_keygen_title": {
+    "value": "E Schlëssel generéieren",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e798fa1b"
+  },
+  "guides_card_keygen_desc": {
+    "value": "Gëff dengem Repeater e Prefix, deen e kee Repeater bei dir benotzt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "267f04fa"
+  },
+  "ch_needs_js": {
+    "value": "D'Kanallëscht leeft an dengem Browser a brauch JavaScript. Den Analyzer weist déi selwecht Kanäl:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57228d02"
+  },
+  "ch_source": {
+    "value": "MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ed180c11"
+  },
+  "ch_list_title": {
+    "value": "Kanäl, déi an dengem Land héieren goufen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6a3ddfed"
+  },
+  "ch_country_label": {
+    "value": "Däi Land",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "18f2456a"
+  },
+  "ch_country_pick": {
+    "value": "Wiel e Land",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "632aadfb"
+  },
+  "ch_search": {
+    "value": "Sich en Numm oder eng Regioun",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67d2c527"
+  },
+  "ch_loading": {
+    "value": "D'Kanäl gi gelueden...",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e4e9f6e5"
+  },
+  "ch_error": {
+    "value": "D'Kanallëscht ass net gelueden. Probéier et méi spéit nach eng Kéier; de Schlëssel vun all #Numm hei ënnen funktionéiert weider.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f653e69d"
+  },
+  "ch_count": {
+    "value": "{n} Kanäl héieren a(n) {country}, déi mat de meeschte Messagen als éischt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "923bf6a5"
+  },
+  "ch_messages": {
+    "value": "Messagen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f5cccfb7"
+  },
+  "ch_key": {
+    "value": "Schlëssel",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "99a52df3"
+  },
+  "ch_source_note": {
+    "value": "Live vum",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1db8edb5"
+  },
+  "ch_calc_title": {
+    "value": "De Schlëssel vun all #Kanal",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ad70964d"
+  },
+  "ch_calc_body": {
+    "value": "Tipp e Kanalnumm, deen mat # ufänkt. De Schlëssel kënnt aus dem Numm, also kriss du dee selwechte Schlëssel wéi d'App.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8531d7e8"
+  },
+  "ch_calc_label": {
+    "value": "Kanalnumm",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2fe4a2e8"
+  },
+  "guides_card_channels_title": {
+    "value": "Kanäl fannen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9905513b"
+  },
+  "guides_card_channels_desc": {
+    "value": "D'Kanäl, déi d'Leit bei dir benotzen, a wéi s du hinne bäitrieds.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2b7ffced"
+  },
+  "ch_count_one": {
+    "value": "1 Kanal héieren a(n) {country}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8f1ca51"
+  },
+  "ch_show_all": {
+    "value": "All {n} Kanäl weisen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2afe05c3"
+  },
+  "area_other_presets_title": {
+    "value": "Aner Presets an der MeshCore-App",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e8ca0063"
+  },
+  "area_other_presets_body": {
+    "value": "D'App lëscht och dës europäesch Presets op, ouni e Gebitt dofir ze nennen. E 433 MHz-Preset brauch e Board mat engem 433 MHz-Radio.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "86f82c5c"
+  },
+  "net_live_title": {
+    "value": "Wat d'Observer héieren",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f89055eb"
+  },
+  "net_live_packets": {
+    "value": "Paketen an der leschter voller Stonn",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e3e24e13"
+  },
+  "net_live_countries": {
+    "value": "Länner héieren an der leschter Stonn",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "502cba0e"
+  },
+  "net_live_repeaters": {
+    "value": "Repeateren héieren an de leschte 7 Deeg",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2890ece6"
+  },
+  "net_live_observers": {
+    "value": "Observer an der leschter Stonn",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6825b26c"
+  },
+  "net_live_source": {
+    "value": "Live-Zuele vum",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f063c292"
+  },
+  "net_join_title": {
+    "value": "Füüg däin eegenen Observer bäi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e772f141"
+  },
+  "net_join_body": {
+    "value": "All Observer weist e bësse méi vum Mesh, fir jiddereen an Europa. Wiel de Wee, deen dir passt; de MeshCore Analyzer weist d'Schrëtt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "de341930"
+  },
+  "net_way_app_title": {
+    "value": "Mat der KiekR-App",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "51c6a5e5"
+  },
+  "net_way_app_desc": {
+    "value": "Kuppel e MeshCore-Radio iwwer Bluetooth mat dengem Telefon. D'App mellt, wat se héiert, an du brauchs näischt ze flashen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9ae6b7d2"
+  },
+  "net_way_browser_title": {
+    "value": "Aus dengem Browser",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c6b5042e"
+  },
+  "net_way_browser_desc": {
+    "value": "Verbann e Radio iwwer USB oder Bluetooth a Chrome oder Edge. De Browser mellt, soulaang den Tab op bleift.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "72fc7d03"
+  },
+  "net_way_board_title": {
+    "value": "Mat engem Board, dat ëmmer un ass",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "574c32a6"
+  },
+  "net_way_board_desc": {
+    "value": "Flash Observer-Firmware op e LoRa-Board. Et mellt vu sech aus iwwer Wi-Fi, Dag an Nuecht.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1742bfea"
+  },
+  "project_site": {
+    "value": "Websäit",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5a229ac"
+  },
+  "home_town_title": {
+    "value": "Folleg engem Message iwwer d'Diecher.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b6669c81"
+  },
+  "home_town_lead": {
+    "value": "Däin Telefon oder Laptop schéckt e Message iwwer Bluetooth oder USB un däi Companion. De Companion schéckt en iwwer Radio un e Repeater um Daach. Vun do spréngt e vun Daach zu Daach.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2af5006f"
+  },
+  "home_town_tag_phone": {
+    "value": "Telefon oder Laptop",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54c8157f"
+  },
+  "home_town_tag_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dadb328"
+  },
+  "home_town_tag_repeater": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "home_town_tag_mast2": {
+    "value": "Aner Repeateren",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3aa62b45"
+  },
+  "home_town_companion_title": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dadb328"
+  },
+  "home_town_companion_desc": {
+    "value": "De Radio, mat deem s du Messagen schécks. Kuppel en mat dengem Telefon oder Laptop, oder wiel een mat eegenem Schierm a Keyboard, deen eleng funktionéiert.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c70389e6"
+  },
+  "home_town_companion_link": {
+    "value": "Wiel e Companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5eba6690"
+  },
+  "home_town_repeater_title": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "home_town_repeater_desc": {
+    "value": "Gëtt Messagen fir jiddereen ronderëm weider. Déi meescht lafen op Solarenergie. Du brauchs nëmmen en eegenen, wou de Mesh nach net hikënnt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3db0ed15"
+  },
+  "home_town_repeater_link": {
+    "value": "Wéini s du e Repeater opstelle solls",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c5154fb9"
+  },
+  "home_town_mesh_title": {
+    "value": "De Mesh",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "199c9527"
+  },
+  "home_town_mesh_desc": {
+    "value": "Repeateren ginn e Message weider, sou wäit wéi se sech héieren. Regiounen halen en lokal.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2d14f895"
+  },
+  "home_town_mesh_link": {
+    "value": "Kuck d'Netz",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6f3b43a5"
+  },
+  "planned_label": {
+    "value": "Geplangt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fb6f7c93"
+  },
+  "planned.guides-filter.lead": {
+    "value": "Verwerf mam Paketfilter Traffic, deen däi Repeater net weiderginn soll.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ef203a0d"
+  },
+  "planned.guides-filter.what.title": {
+    "value": "Wat de Filter mécht",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "88a35f90"
+  },
+  "planned.guides-filter.what.desc": {
+    "value": "Wéi eng Paketen e Repeater verwerfe kann, a wéi dat de Mesh roueg hält.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4a3c7cb5"
+  },
+  "planned.guides-filter.configs.title": {
+    "value": "Recommandéiert Konfiguratiounen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "42763607"
+  },
+  "planned.guides-filter.configs.desc": {
+    "value": "Fäerdeg Astellunge fir heefeg Fäll, wéi e Kanal mat vill Stéierunge blockéieren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2ef6b9e2"
+  },
+  "planned.guides-filter.settings.title": {
+    "value": "All Astellung",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "07182ebe"
+  },
+  "planned.guides-filter.settings.desc": {
+    "value": "All Filter-Astellung mat hirem Befeel a wat se ännert.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b73f8c55"
+  },
+  "planned.guides-mqtt.lead": {
+    "value": "Looss däi Board, dat ëmmer u bleift, dem MeshCore Analyzer mellen, wat et héiert.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5aa10eb5"
+  },
+  "planned.guides-mqtt.need.title": {
+    "value": "Wat s du brauchs",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e17c85cc"
+  },
+  "planned.guides-mqtt.need.desc": {
+    "value": "E Board mat Observer-Firmware a Wi-Fi, an d'Adress vun engem Broker.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f9b88653"
+  },
+  "planned.guides-mqtt.settings.title": {
+    "value": "Astellungen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "74a883a0"
+  },
+  "planned.guides-mqtt.settings.desc": {
+    "value": "D'Astellunge fir Wi-Fi, Broker an Topic, déi däi Board brauch.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3d2f63e9"
+  },
+  "planned.guides-mqtt.commands.title": {
+    "value": "Befeeler fir däi Broker",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d2db5c84"
+  },
+  "planned.guides-mqtt.commands.desc": {
+    "value": "D'Befeeler zum Apechen, ausgefëllt fir de Broker, deen s du auswiels.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1a37dddf"
+  },
+  "planned.guides-mqtt.check.title": {
+    "value": "Kontrolléier, ob et funktionéiert",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2249f06f"
+  },
+  "planned.guides-mqtt.check.desc": {
+    "value": "Wéi s du däin Observer um MeshCore Analyzer fënns.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2e45d8f2"
+  },
+  "net_data_title": {
+    "value": "Wéi d'Donnéeën heihinner kommen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d199acc6"
+  },
+  "net_data_lead": {
+    "value": "All Zuel op dësem Site kënnt vu Leit, déi lauschteren an deelen, wat se héieren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d162c9f3"
+  },
+  "net_data_from_title": {
+    "value": "Wou se hierkommen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "87362334"
+  },
+  "net_data_from_body": {
+    "value": "Observere mellen iwwer MQTT, wat se héieren, un e Broker, e Server, deen d'Meldunge sammelt. Si mellen un mqtt.meshcore-analyzer.eu oder un en anere Broker, deen den Analyzer liest. D'KiekR-App an de Browser-Observer mellen och. Den Analyzer hëlt och Donnéeën vu CoreScope-Analyser, wann hir Besëtzer zougestëmmt hunn. All Broker an all Analyser gëtt mat der Erlaabnis vu sengem Besëtzer gelies.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5604e25f"
+  },
+  "net_data_way_title": {
+    "value": "Wat ënnerwee geschitt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0e5c3f7c"
+  },
+  "net_data_way_body": {
+    "value": "E Message, dee vu ville Observer héieren gëtt, zielt eemol. Den Analyzer decodéiert en a baut doraus d'Kaarten, d'Zuelen an d'Kanallëscht. Hie behält all Message, mä wat all Observer héieren huet, bleift 10 Deeg. Zuele pro Stonn bleiwe bis zu 30 Deeg, Dagestotaler bleiwe fir ëmmer.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57413efc"
+  },
+  "net_data_node_title": {
+    "value": "Wat anerer vun dengem Node gesinn",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a6245d5e"
+  },
+  "net_data_node_body": {
+    "value": "Anerer gesinn säin Numm, säin ëffentleche Schlëssel, seng Aart a seng Positioun, wann s du se deels. Deng direkt Messagen bleiwe verschlësselt. Messagen op Public an op Hashtag-Kanäl si fir jiddereen liesbar, och fir den Analyzer.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0f5e507d"
+  },
+  "net_data_q_title": {
+    "value": "Froen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9a72221a"
+  },
+  "net_data_q1": {
+    "value": "Ass mäin Node op der Kaart?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ec3057eb"
+  },
+  "net_data_a1": {
+    "value": "Nëmme wann en Observer säin Advert héieren huet, de Pak, mat deem en Node sech ukënnegt. En Node wäit vun all Observer ewech bleift net op der Kaart.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "393d0df5"
+  },
+  "net_data_q2": {
+    "value": "Kann den Analyzer meng direkt Messagë liesen?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1cd884fb"
+  },
+  "net_data_a2": {
+    "value": "Nee. Nëmmen du an déi aner Persoun hunn de Schlëssel.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c6b0e033"
+  },
+  "net_data_q3": {
+    "value": "Kann ech Donnéeë vu mengem eegenen Tool schécken?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "52255bf4"
+  },
+  "net_data_a3": {
+    "value": "Jo: publizéier iwwer MQTT op mqtt.meshcore-analyzer.eu, ënnerschriwwe mam Schlëssel vun dengem Node, wéi en Observer et mécht. De {link} weist, wéi s du dech verbënns.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "171daa27"
+  },
+  "net_data_analyzer_link": {
+    "value": "MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ed180c11"
+  },
+  "net_data_q4": {
+    "value": "Kann ech d'Donnéeë vum Analyzer benotzen?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2154596d"
+  },
+  "net_data_a4": {
+    "value": "Fro fir d'éischt op sengem {link} no. Den Analyzer erlaabt keng automatiséiert Sammlung.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b935a213"
+  },
+  "release_role_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dadb328"
+  },
+  "release_role_repeater": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "release_role_room_server": {
+    "value": "Room Server",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68b91cc5"
+  },
+  "release_notes_link": {
+    "value": "Déi offiziell Release Notes",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8bc96136"
+  },
+  "release.v1-18-0.1": {
+    "value": "Däi Companion kritt eng Kommandozeil: maach Command Line an der App op, Versioun 1.50 oder méi nei. E Kontakt, deem s du d'Remote CLI-Erlaabnis gëss, kann him iwwer de Mesh Befeeler schécken.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14cedc6a"
+  },
+  "release.v1-18-0.2": {
+    "value": "En nei ageriichtene Repeater schalt d'minimal Loop-Erkennung vu selwer un.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14ac329c"
+  },
+  "release.v1-18-0.3": {
+    "value": "E Repeater mat ausgeschalten Adverts gëtt net méi ugewisen, wann anerer no Node sichen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "73a74341"
+  },
+  "release.v1-18-0.4": {
+    "value": "Op ESP32-Boards iwwerlieft d'Auer en Neistart, an déi meescht nRF52-Boards refuséieren net méi, mat enger schwaacher Batterie ze starten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "236a3861"
+  },
+  "release.v1-18-0.5": {
+    "value": "Nei Boards: Thinknode M4 an M8, Wio Tracker L1 1W, Muzi Base a Waveshare ESP32-S3 LR1121.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1355f413"
+  },
+  "release.v1-18-0.6": {
+    "value": "D'Bluetooth-Companion-Firmware kann op e puer Boards och WiFi, dorënner Heltec, Wireless Paper, RAK a Xiao S3; riicht et an der App an.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0d070c73"
+  },
+  "release.v1-17-1.1": {
+    "value": "Op Boards mat externem Verstäerker gëtt d'Astellung fir de Receive Gain elo gespäichert. Kontrolléier radio.fem.rxgain a radio.rxgain op dengem Repeater nom Update.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aa6980e3"
+  },
+  "release.v1-17-1.2": {
+    "value": "Schécken funktionéiert erëm um Heltec T096, an den Ecran vum T-Beam Supreme weist erëm eppes un.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8973538"
+  },
+  "release.v1-17-0.1": {
+    "value": "All Firmware späichert hir Astellungen an engem neie Format.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2acf27c2"
+  },
+  "release.v1-17-0.2": {
+    "value": "Du schalts e Repeater mat engem laangen Drock op säi Knäppchen aus. Nei Befeeler: set cad fir Repeateren a room.post fir Room Serveren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "96f0d3d9"
+  },
+  "release.v1-17-0.3": {
+    "value": "nRF52-Boards benotzen hiren agebauten Verschlësselungschip, a Boards verbrauche manner Stroum am Hibernate an ausgeschalt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3daf5825"
+  },
+  "release.v1-17-0.4": {
+    "value": "Nei Boards: Heltec V4 R8, RC32 an Tower V2, Thinknode M7 an M9, Sensecap MeshTracker X1, a Radioe mam LR2021-Chip.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b90c5ac8"
+  },
+  "release.v1-17-0.5": {
+    "value": "Repeatere lauschtere besser, ier se schécken, dofir gëtt et a vill benotzte Meshes manner Kollisiounen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3061d4fd"
+  },
+  "console_needs_js": {
+    "value": "D'Konsol brauch JavaScript an e Browser, deen op USB zougräife kann: Chrome, Edge oder Opera op engem Computer.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "07c6b52a"
+  },
+  "console_connect": {
+    "value": "Verbann däin Node",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bb8e5e01"
+  },
+  "console_disconnect": {
+    "value": "Trennen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "acfc5be7"
+  },
+  "console_copy": {
+    "value": "Kopéier de Log",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e01862b2"
+  },
+  "console_send": {
+    "value": "Schécken",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f6f4688f"
+  },
+  "console_command_label": {
+    "value": "Befeel",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71316697"
+  },
+  "console_log_label": {
+    "value": "Wat däin Node seet",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "84925ecb"
+  },
+  "console_status_idle": {
+    "value": "Steech däin Node un, verbann dech dann a wiel säi Port.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3ebc3314"
+  },
+  "console_status_asking": {
+    "value": "Verbonnen. Däin Node gëtt gefrot, wat en ass.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "02b45460"
+  },
+  "console_status_connected": {
+    "value": "Verbonnen. Tipp e Befeel an dréck op Enter.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d216f35b"
+  },
+  "console_status_lost": {
+    "value": "D'Verbindung ass fort. Kontrolléier de Kabel a verbann dech nach eng Kéier.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "98fa83ae"
+  },
+  "console_status_busy": {
+    "value": "De Port konnt net opgemaach ginn. Maach deen anere Programm oder Tab zou, deen en benotzt, a probéier et dann nach eng Kéier.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cf4e9cbd"
+  },
+  "console_status_unsupported": {
+    "value": "Dëse Browser kann net op USB zougräifen. Benotz Chrome, Edge oder Opera op engem Computer.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8ef7eebe"
+  },
+  "console_status_copied": {
+    "value": "De Log ass kopéiert.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "617d378e"
+  },
+  "console_status_copy_failed": {
+    "value": "De Log konnt net kopéiert ginn. Markéier en a kopéier en von Hand.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "45bd5465"
+  },
+  "console_commands_before": {
+    "value": "All Befeel ass erkläert ënner",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68ef84d1"
+  },
+  "console_commands_link": {
+    "value": "CLI-Befeeler",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a13cc6cb"
+  },
+  "console_commands_after": {
+    "value": ".",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cdb4ee2a"
+  },
+  "console_node_known": {
+    "value": "D'Virschléi weisen d'Befeeler, déi dësen Node versteet.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "345c274c"
+  },
+  "console_node_unknown": {
+    "value": "Däin Node huet seng Roll net genannt. D'Virschléi weisen d'Befeeler vu Repeateren, Room Serveren a Sensoren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "503c0064"
+  },
+  "console_dmc_before": {
+    "value": "Dësen Node leeft mat DutchMeshCore-Firmware. D'Virschléi weisen déi eege Befeeler vu MeshCore. D'DutchMeshCore-Befeeler stinn an der",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b17e7f2e"
+  },
+  "console_more_link": {
+    "value": "{command} am CLI-Guide",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9e207731"
+  },
+  "console_dmc_link": {
+    "value": "DutchMeshCore CLI-Wiki",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ccc16968"
+  },
+  "console_dmc_after": {
+    "value": ".",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cdb4ee2a"
+  },
+  "console_suggestions_label": {
+    "value": "Virgeschloe Befeeler",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "36d1238e"
+  },
+  "console_key_fill": {
+    "value": "fëllt et aus",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cf686f44"
+  },
+  "console_key_choose": {
+    "value": "auswielen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "725fed9d"
+  },
+  "console_key_guide": {
+    "value": "mécht de CLI-Guide op",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "de7ca5a8"
+  },
+  "console_key_close": {
+    "value": "mécht zou",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b2850942"
+  },
+  "console_trouble_title": {
+    "value": "Wann d'Verbindung net klappt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0cce4809"
+  },
+  "console_trouble_1": {
+    "value": "Benotz en Datekabel. E puer Kabele luede nëmmen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "958a8d54"
+  },
+  "console_trouble_2": {
+    "value": "Maach aner Programmer zou, déi de Port benotzen, wéi eng aner Konsol oder de Flasher vun dësem Site an engem aneren Tab.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fc9daa0a"
+  },
+  "console_trouble_3": {
+    "value": "Wiel de richtege Port: zéi däin Node eraus, kuck, wéi ee Port verschwënnt, a steech en erëm un.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "75120995"
+  },
+  "console_trouble_4": {
+    "value": "Firefox a Safari kënnen net vun enger Websäit op USB zougräifen. Benotz Chrome, Edge oder Opera op engem Computer.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71403007"
+  },
+  "usb_title": {
+    "value": "Schéck un däi Repeater iwwer USB.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "815598af"
+  },
+  "usb_body": {
+    "value": "Steech däi Repeater un, verbann dech a kontrolléier, wat sech ännert, ier s du schécks.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5a67e201"
+  },
+  "usb_connect": {
+    "value": "Verbann däi Repeater",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aaf2563c"
+  },
+  "usb_check": {
+    "value": "Kontrolléier, wat sech ännert",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3ee77f8f"
+  },
+  "usb_send": {
+    "value": "Schéck d'Astellungen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7e2580db"
+  },
+  "usb_reboot": {
+    "value": "Start däi Repeater nei",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "19394bd3"
+  },
+  "usb_disconnect": {
+    "value": "Trennen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "acfc5be7"
+  },
+  "usb_col_command": {
+    "value": "Befeel",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71316697"
+  },
+  "usb_col_now": {
+    "value": "Elo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fe18013d"
+  },
+  "usb_col_reply": {
+    "value": "Äntwert",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c253f451"
+  },
+  "usb_col_new": {
+    "value": "Neie Wäert",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7ca9b97d"
+  },
+  "usb_no_answer": {
+    "value": "keng Äntwert",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ad03eb5e"
+  },
+  "usb_status_idle": {
+    "value": "Net verbonnen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3b3d2796"
+  },
+  "usb_status_connected": {
+    "value": "Verbonnen. Kontrolléier fir d'éischt, wat sech ännert.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4bb28123"
+  },
+  "usb_status_busy": {
+    "value": "De Port ass besat. Maach deen anere Programm oder Tab zou, deen en benotzt, a probéier et dann nach eng Kéier.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "438a57fa"
+  },
+  "usb_status_fill": {
+    "value": "Fëll fir d'éischt {value} an de Befeeler uewendriwwer aus.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d903306b"
+  },
+  "usb_status_reading": {
+    "value": "D'Astellunge vun dengem Repeater gi gelies.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "222e3b98"
+  },
+  "usb_status_review": {
+    "value": "Vergläich déi aktuell Wäerter mat den neien, a schéck dann.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "017b629e"
+  },
+  "usb_status_sent": {
+    "value": "Geschéckt. Däi Repeater huet all Befeel ugeholl.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4cf46e54"
+  },
+  "usb_status_sent_errors": {
+    "value": "Geschéckt, mä däi Repeater huet e puer Befeeler refuséiert oder net geäntwert. Kontrolléier d'Äntwerten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f77c4ebb"
+  },
+  "usb_status_rebooted": {
+    "value": "De Repeater start mat sengen neie Radio-Astellungen nei.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "79ddf8f8"
+  },
+  "flash_releases_link": {
+    "value": "MeshCore-Releases op GitHub",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "db7cf404"
+  },
+  "flash_no_match": {
+    "value": "Kee Board passt. Probéier e méi kuerzt Wuert, oder wiel aus der Lëscht.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cdba666f"
+  },
+  "flash_needs_js": {
+    "value": "De Flasher brauch JavaScript. Ouni JavaScript fënns du all Datei bei {link}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc36838c"
+  },
+  "flash_board_title": {
+    "value": "Wiel däi Board",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "225d5074"
+  },
+  "flash_filter_label": {
+    "value": "Sichen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "49c266ba"
+  },
+  "flash_board_label": {
+    "value": "Board",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4816cbfd"
+  },
+  "flash_role_label": {
+    "value": "Roll",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14736a2e"
+  },
+  "flash_role_ble": {
+    "value": "Companion, Bluetooth",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2c1378a3"
+  },
+  "flash_role_usb": {
+    "value": "Companion, USB",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4794c45b"
+  },
+  "flash_role_repeater": {
+    "value": "Repeater",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "flash_role_room_server": {
+    "value": "Room Server",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68b91cc5"
+  },
+  "flash_version_before": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f4f17278"
+  },
+  "flash_version_after": {
+    "value": ", déi neist Versioun.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1daecb7e"
+  },
+  "flash_flash_title": {
+    "value": "Flash et iwwer USB",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dfd786e5"
+  },
+  "flash_mode_legend": {
+    "value": "Wat wëlls du?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3e17dbf9"
+  },
+  "flash_mode_update": {
+    "value": "Update: fir e Board, op deem MeshCore schonn leeft. Behält d'Schlësselen, d'Kontakter an d'Astellunge vun dengem Node.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "59e8848e"
+  },
+  "flash_mode_fresh": {
+    "value": "Nei Installatioun: fir en neit Board oder eent mat anerer Firmware. Läscht alles um Board, och d'Schlësselen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bc797149"
+  },
+  "flash_wipe_ok": {
+    "value": "Ech weess, datt eng nei Installatioun d'Schlësselen an d'Kontakter vu mengem Node läscht.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7aeefcb2"
+  },
+  "flash_flash_button": {
+    "value": "Verbannen a flashen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8a541c7"
+  },
+  "flash_esp_help": {
+    "value": "Chrome, Edge oder Opera op engem Computer. Wann d'Board sech net verbënnt, hal säi BOOT-Knäppchen (PRG op e puer Boards) gedréckt, während s du et usteechs, a probéier et dann nach eng Kéier.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4dafe8fb"
+  },
+  "flash_uf2_title": {
+    "value": "Kopéier d'Datei op däi Board",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "263bc1e5"
+  },
+  "flash_uf2_step1": {
+    "value": "Lued d'Datei erof:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dee6800a"
+  },
+  "flash_uf2_step2": {
+    "value": "Steech däi Board un an dréck zweemol séier op säi Reset-Knäppchen. Et erschéngt als USB-Drive. E Board ouni Reset-Knäppchen huet en eegene Wee; d'Säit vum Hiersteller seet, wéi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9cd62884"
+  },
+  "flash_uf2_step3": {
+    "value": "Zéi d'Datei op dësen Drive. D'Board start mat der neier Firmware nei; en Update behält seng Schlësselen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aef87c5b"
+  },
+  "flash_status_unsupported": {
+    "value": "Dëse Browser kann net op USB zougräifen. Benotz Chrome, Edge oder Opera op engem Computer.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8ef7eebe"
+  },
+  "flash_status_no_list": {
+    "value": "D'Lëscht vun de Boards ass net gelueden. Lued d'Säit nei.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7a3841a5"
+  },
+  "flash_status_downloading": {
+    "value": "D'Firmware gëtt erofgelueden.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c9e6648c"
+  },
+  "flash_status_connecting": {
+    "value": "Verbindung mat dengem Board gëtt opgebaut.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "70ed0d63"
+  },
+  "flash_status_flashing": {
+    "value": "Gëtt geflasht. Looss d'Board ugestach.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0796d555"
+  },
+  "flash_status_done": {
+    "value": "Fäerdeg. Däi Board start mat der neier Firmware nei.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "445b69e2"
+  },
+  "flash_status_failed": {
+    "value": "Flashen ass gestoppt. Hal de BOOT-Knäppchen gedréckt, während s du d'Board usteechs, a probéier et dann nach eng Kéier.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f716db56"
+  },
+  "flash_status_no_file": {
+    "value": "D'Firmware-Datei ass net erofgelueden. Probéier et gläich nach eng Kéier.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6636a9df"
+  },
+  "flash_other_firmware": {
+    "value": "Aner Firmware, wéi d'DutchMeshCore-Observer-Firmware, kënnt mat hirem eegene Flasher: {link}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b2c75d72"
+  },
+  "release_flash_link": {
+    "value": "Flash et op däi Board",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "207bc805"
+  },
+  "menu_privacy": {
+    "value": "Dateschutz",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54a57c31"
+  },
+  "menu_wallpapers": {
+    "value": "Hannergrondbiller",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "006547c4"
+  },
+  "menu_start": {
+    "value": "Start",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e4bb9f1e"
+  },
+  "menu_about": {
+    "value": "Wat ass MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a50b70cf"
+  },
+  "menu_about_sub": {
+    "value": "Radiosmessagen ouni Internet",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aab7190e"
+  },
+  "menu_devices": {
+    "value": "Apparater",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ba5121d"
+  },
+  "menu_devices_sub": {
+    "value": "Boards, hire Stroumverbrauch an hire Präis",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20f93671"
+  },
+  "menu_get_started": {
+    "value": "Ufänken",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "menu_get_started_sub": {
+    "value": "Vun engem neie Board bis zu dengem éischte Message",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d67ed219"
+  },
+  "menu_repeater_guide": {
+    "value": "Repeater-Guide",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4608abcd"
+  },
+  "menu_repeater_guide_sub": {
+    "value": "Standuert, Leeschtung an déi gesetzlech Limitten",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "666a0c8c"
+  },
+  "menu_start_group_1": {
+    "value": "Léieren",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ce78afd0"
+  },
+  "menu_start_group_1_all": {
+    "value": "Méi iwwer MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2c7c7283"
+  },
+  "menu_start_group_2": {
+    "value": "Maachen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "30094e0b"
+  },
+  "menu_start_card_eyebrow": {
+    "value": "Nei hei",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10bc4c55"
+  },
+  "menu_start_card_title": {
+    "value": "Däin éischte Message",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d0e38ee3"
+  },
+  "menu_start_card_body": {
+    "value": "E Board, d'App an d'Astellunge fir däi Land. Du bass bannent enger Stonn um Mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7c10acb3"
+  },
+  "menu_start_card_button": {
+    "value": "Ufänken",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "menu_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "menu_fw_build": {
+    "value": "Firmware-Iwwersiicht",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1cf2ad9a"
+  },
+  "menu_fw_build_sub": {
+    "value": "Wéi eng Firmware op dengem Board leeft",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54130720"
+  },
+  "menu_fw_flash": {
+    "value": "Flashen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3577cb5"
+  },
+  "menu_fw_flash_sub": {
+    "value": "Aus dengem Browser, iwwer USB",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e6dbc0b0"
+  },
+  "menu_fw_console": {
+    "value": "Seriell Konsol",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4e3c41fa"
+  },
+  "menu_fw_console_sub": {
+    "value": "Tipp Befeeler iwwer USB",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "40df16c8"
+  },
+  "menu_fw_changelog": {
+    "value": "Changelog",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ead07c84"
+  },
+  "menu_fw_changelog_sub": {
+    "value": "Wat sech geännert huet",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1bcbf1dc"
+  },
+  "menu_firmware_group_1": {
+    "value": "Op dengem Radio",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d3234810"
+  },
+  "menu_firmware_group_1_all": {
+    "value": "All Firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "27bfcf0e"
+  },
+  "menu_firmware_group_2": {
+    "value": "Um neiste Stand bleiwen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57a5a75f"
+  },
+  "menu_firmware_card_eyebrow": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "menu_firmware_card_title": {
+    "value": "Déi offiziell Firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "39cc2886"
+  },
+  "menu_firmware_card_body": {
+    "value": "Flash déi offiziell Firmware aus dengem Browser. Du muss näischt installéieren.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e75a91bd"
+  },
+  "menu_firmware_card_button": {
+    "value": "Flash däi Board",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5b6987e"
+  },
+  "menu_guides": {
+    "value": "Guiden",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "572cd72f"
+  },
+  "menu_guides_overview": {
+    "value": "Iwwersiicht vun de Guiden",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8db6b2ea"
+  },
+  "menu_guides_overview_sub": {
+    "value": "All Guide, no deem, wat s du maache wëlls",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0a19370e"
+  },
+  "menu_guide_settings": {
+    "value": "Recommandéiert Astellungen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cfb32983"
+  },
+  "menu_guide_settings_sub": {
+    "value": "De Preset an d'Astellunge fir deng Regioun",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8592dd01"
+  },
+  "menu_guide_antenna": {
+    "value": "Antenne-Guide",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3a76cb0e"
+  },
+  "menu_guide_antenna_sub": {
+    "value": "Eng auswielen, uschléissen a montéieren",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e57b6f1d"
+  },
+  "menu_guide_keygen": {
+    "value": "E Schlëssel generéieren",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e798fa1b"
+  },
+  "menu_guide_keygen_sub": {
+    "value": "Mat engem Präfix, deen s du auswiels",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "02f5281d"
+  },
+  "menu_guide_channels": {
+    "value": "Kanäl fannen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9905513b"
+  },
+  "menu_guide_channels_sub": {
+    "value": "D'Kanäl bei dir an der Géigend, mat hire Schlësselen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "695ddeef"
+  },
+  "menu_guide_resilient": {
+    "value": "De Mesh robust maachen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33ec7ac8"
+  },
+  "menu_guide_resilient_sub": {
+    "value": "Wat géint Floods a Spam hëlleft",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6b6b932a"
+  },
+  "menu_guide_filter": {
+    "value": "Paketfilter",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20a3ef1f"
+  },
+  "menu_guide_filter_sub": {
+    "value": "Erkläert, mat Befeeler",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7cd98eed"
+  },
+  "menu_guide_mqtt": {
+    "value": "MQTT op dengem Observer",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "62626d0f"
+  },
+  "menu_guide_mqtt_sub": {
+    "value": "Meld, wat däin Node héiert",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "593d1245"
+  },
+  "menu_guide_mctomqtt": {
+    "value": "Eng Bridge-Config bauen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fd2dd667"
+  },
+  "menu_guide_mctomqtt_sub": {
+    "value": "E Repeater iwwer USB un e Broker",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "22227ad5"
+  },
+  "menu_guide_cli": {
+    "value": "CLI-Befeeler",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a13cc6cb"
+  },
+  "menu_guide_cli_sub": {
+    "value": "All Befeel erkläert",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aa1f6046"
+  },
+  "menu_guides_group_1": {
+    "value": "Riicht däin Node an",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "55efd611"
+  },
+  "menu_guides_group_1_all": {
+    "value": "All Guiden",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0b5543ef"
+  },
+  "menu_guides_group_2": {
+    "value": "Méi déif goen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6bce982b"
+  },
+  "menu_guides_card_eyebrow": {
+    "value": "Wëssensbasis",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f56819a3"
+  },
+  "menu_guides_card_title": {
+    "value": "MeshWiki",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "821342d8"
+  },
+  "menu_guides_card_body": {
+    "value": "D'Community-Wiki iwwer MeshCore, fir alles, wat hei net behandelt gëtt.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b3d4f00f"
+  },
+  "menu_guides_card_button": {
+    "value": "Op d'MeshWiki",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2ddff05f"
+  },
+  "menu_network": {
+    "value": "Netzwierk",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1744b964"
+  },
+  "menu_map": {
+    "value": "Ofdeckungskaarten",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4b9f20a0"
+  },
+  "menu_map_sub": {
+    "value": "Wou de Mesh hikënnt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ec1e205"
+  },
+  "menu_network_overview": {
+    "value": "D'Netzwierk",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1b32d67c"
+  },
+  "menu_network_overview_sub": {
+    "value": "Observer a Live-Zuelen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc64142f"
+  },
+  "menu_network_group_1": {
+    "value": "Kaarten",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "119e66d1"
+  },
+  "menu_network_group_1_all": {
+    "value": "D'Netzwierk",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1b32d67c"
+  },
+  "menu_network_group_2": {
+    "value": "Donnéeën",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cec3a9b8"
+  },
+  "menu_network_card_eyebrow": {
+    "value": "Ofdeckung",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "523487a5"
+  },
+  "menu_network_card_title": {
+    "value": "Wou de Mesh hikënnt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ec1e205"
+  },
+  "menu_network_card_body": {
+    "value": "Communautéiten uechter Europa bedreiwen dës Kaarten, vum MeshCore Analyzer bis zu lokale Projeten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fb1630d4"
+  },
+  "menu_network_card_button": {
+    "value": "Kaarten opmaachen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e7674cfc"
+  },
+  "menu_community": {
+    "value": "Communautéit",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bb501d78"
+  },
+  "menu_local_groups": {
+    "value": "Lokal Gruppen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dff00c14"
+  },
+  "menu_local_groups_sub": {
+    "value": "Fann déi lokal Grupp bei dir an der Géigend",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d619ea7a"
+  },
+  "menu_projects": {
+    "value": "Projeten",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "04e2a972"
+  },
+  "menu_projects_sub": {
+    "value": "Wat d'Leit mat MeshCore bauen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d4563ab2"
+  },
+  "menu_news": {
+    "value": "Neiegkeeten",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69752f23"
+  },
+  "menu_news_sub": {
+    "value": "Aus dem Mesh uechter Europa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "39d66042"
+  },
+  "menu_contribute": {
+    "value": "Matmaachen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97b0c61b"
+  },
+  "menu_contribute_sub": {
+    "value": "Hëllef, de Site ze schreiwen an ze iwwersetzen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8f5f2836"
+  },
+  "menu_press_kit": {
+    "value": "Promo- a Pressekit",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fc691b26"
+  },
+  "menu_press_kit_sub": {
+    "value": "Logo, Biller, Wallpaperen an en Text iwwer de Site",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97e4fd91"
+  },
+  "menu_community_group_1": {
+    "value": "Leit",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7db20897"
+  },
+  "menu_community_group_1_all": {
+    "value": "All lokal Gruppen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6700740b"
+  },
+  "menu_community_group_2": {
+    "value": "Vun hinne gemaach",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "468d3c4f"
+  },
+  "menu_community_card_eyebrow": {
+    "value": "Bei dir an der Géigend",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ab808511"
+  },
+  "menu_community_card_title": {
+    "value": "Maach bei enger lokaler Grupp mat",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a0b3cc29"
+  },
+  "menu_community_card_body": {
+    "value": "All lokal Grupp huet hir eege Kanäl, Astellungen a Leit, déi s du froe kanns.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b38a16bf"
+  },
+  "menu_community_card_button": {
+    "value": "Fann deng Grupp",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cef2ba32"
+  },
+  "menu_footer_1": {
+    "value": "Start",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e4bb9f1e"
+  },
+  "menu_footer_2": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "menu_footer_3": {
+    "value": "Guiden",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "572cd72f"
+  },
+  "menu_footer_4": {
+    "value": "Netzwierk a Communautéit",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ade2740d"
+  },
+  "menu_footer_note_1": {
+    "value": "En net-kommerziellen Community-Guide iwwer MeshCore an Europa, vu Fräiwëllegen, ouni Reklamm, Affiliate-Linken oder Tracking. Net Deel vum MeshCore-Projet.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69e7015d"
+  },
+  "menu_footer_note_2": {
+    "value": "Text CC BY 4.0, Code MIT.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "845058ef"
+  },
+  "shell_theme": {
+    "value": "Thema",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "efb52e71"
+  },
+  "shell_language": {
+    "value": "Sprooch",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4fe6526"
+  },
+  "shell_colour_vision": {
+    "value": "Faarfgesiicht",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "df1c3606"
+  },
+  "shell_account": {
+    "value": "Kont",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7e1b0d56"
+  },
+  "shell_menu": {
+    "value": "Menü",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "99af6606"
+  },
+  "shell_system": {
+    "value": "System nokommen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "48b4e3ed"
+  },
+  "shell_dark": {
+    "value": "Däischter",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "60acc53f"
+  },
+  "shell_light": {
+    "value": "Hell",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dbcd5e7b"
   }
 }

@@ -3,6 +3,6264 @@
     "language": "gl",
     "name": "Galego",
     "managed_by": "community",
-    "updated": "2026-10-31"
+    "updated": "2026-11-02"
+  },
+  "site_tagline": {
+    "value": "Mensaxes sen rede en toda Europa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fd77fd37"
+  },
+  "site_description": {
+    "value": "A guía da comunidade de MeshCore en Europa: primeiros pasos, hardware, grupos locais, mapas de cobertura e repetidores. Sen fins comerciais e de código aberto.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "00f6c54b"
+  },
+  "skip_to_content": {
+    "value": "Ir ao contido",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ac576a66"
+  },
+  "menu": {
+    "value": "Menú",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "99af6606"
+  },
+  "nav_label": {
+    "value": "Principal",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eb814be3"
+  },
+  "nav_about": {
+    "value": "Sobre MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4efca0d1"
+  },
+  "nav_get_started": {
+    "value": "Comezar",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "nav_devices": {
+    "value": "Dispositivos",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ba5121d"
+  },
+  "nav_community": {
+    "value": "Comunidade",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bb501d78"
+  },
+  "nav_map": {
+    "value": "Mapa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be176b00"
+  },
+  "nav_repeater_guide": {
+    "value": "Guía de repetidores",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4608abcd"
+  },
+  "nav_news": {
+    "value": "Novas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69752f23"
+  },
+  "nav_projects": {
+    "value": "Proxectos",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "04e2a972"
+  },
+  "nav_contribute": {
+    "value": "Colaborar",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97b0c61b"
+  },
+  "nav_privacy": {
+    "value": "Privacidade",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54a57c31"
+  },
+  "in_english": {
+    "value": "Esta páxina está en inglés",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7e9323d9"
+  },
+  "lang_switch_label": {
+    "value": "Idioma",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4fe6526"
+  },
+  "not_translated_yet": {
+    "value": "aínda sen traducir",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3f59d8d3"
+  },
+  "theme_light": {
+    "value": "Tema: claro",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "72a842db"
+  },
+  "theme_dark": {
+    "value": "Tema: escuro",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "43908c59"
+  },
+  "theme_system": {
+    "value": "Tema: do sistema",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "98a8dd2c"
+  },
+  "copy": {
+    "value": "Copiar",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e21f935f"
+  },
+  "copied": {
+    "value": "Copiado",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8d525e5f"
+  },
+  "hero_eyebrow": {
+    "value": "868 MHz · Europa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "567ed2b0"
+  },
+  "hero_title": {
+    "value": "Fóra da rede, dentro da malla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "43ed56a7"
+  },
+  "hero_lead": {
+    "value": "MeshCore envía mensaxes por radio, sen internet nin subscrición. As mallas de Europa únense nunha soa. Aquí, as súas comunidades comparten o que aprenden.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "19ad0ab5"
+  },
+  "hero_cta_start": {
+    "value": "Comezar",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "hero_cta_about": {
+    "value": "Descobre que é MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cdecad6f"
+  },
+  "paths_title": {
+    "value": "Por onde queres comezar?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf614863"
+  },
+  "path_new_title": {
+    "value": "Acabas de chegar",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10bc4c55"
+  },
+  "path_new_desc": {
+    "value": "Que é unha malla, e que pode e que non pode facer MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a3e4ab18"
+  },
+  "path_offgrid_title": {
+    "value": "Preparado para cando fallen as redes",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b005ed6a"
+  },
+  "path_offgrid_desc": {
+    "value": "Escolle unha placa para sendeirismo, navegación, eventos ou un corte de luz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6a84d5b4"
+  },
+  "path_build_title": {
+    "value": "Construír e experimentar",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c24822f6"
+  },
+  "path_build_desc": {
+    "value": "Radio, antenas, ferramentas e proxectos doutras comunidades.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "31166d76"
+  },
+  "path_grow_title": {
+    "value": "Engadir un repetidor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf145b6c"
+  },
+  "path_grow_desc": {
+    "value": "Planifica e coloca un repetidor que cubra a túa zona.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "db75c8c5"
+  },
+  "path_local_title": {
+    "value": "Xente preto de ti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "808e1f66"
+  },
+  "path_local_desc": {
+    "value": "Atopa o teu grupo local, os seus chats e as súas canles.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a1e525eb"
+  },
+  "why_title": {
+    "value": "Por que MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67d51fbe"
+  },
+  "why_costs_title": {
+    "value": "Sen custos periódicos",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "adff5b03"
+  },
+  "why_costs_desc": {
+    "value": "Compras unha radio unha vez. As mensaxes non custan nada: sen tarxeta SIM, plan de datos nin subscrición.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e735f31"
+  },
+  "why_infra_title": {
+    "value": "Funciona sen rede",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "058c8eae"
+  },
+  "why_infra_desc": {
+    "value": "Segues comunicándote cando as redes móbiles e internet caen ou quedan fóra de alcance. As mensaxes van de radio en radio, polo aire.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ec9de206"
+  },
+  "why_open_title": {
+    "value": "Código aberto",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67a0d2e0"
+  },
+  "why_open_desc": {
+    "value": "O firmware e o seu protocolo son de código aberto, así que calquera pode construír sobre eles. Xa o fan aplicacións, ferramentas e bibliotecas abertas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97859c5f"
+  },
+  "why_privacy_title": {
+    "value": "Privado desde o deseño",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "485ca594"
+  },
+  "why_privacy_desc": {
+    "value": "As mensaxes directas van cifradas de extremo a extremo. Non precisas conta nin número de teléfono para unirte.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6901512e"
+  },
+  "why_routing_title": {
+    "value": "Local por rexión",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be9348e5"
+  },
+  "why_routing_desc": {
+    "value": "A túa primeira mensaxe difúndese polos repetidores, os nodos en tellados e mastros que reenvían as mensaxes. Unha mensaxe difundida pode levar unha rexión, e os repetidores só reenvían as rexións que atenden, así que queda na súa zona.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e9620b88"
+  },
+  "why_community_title": {
+    "value": "Unha malla, moitos grupos",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a49e1ded"
+  },
+  "why_community_desc": {
+    "value": "Os grupos locais de toda Europa instalan repetidores, comparten axustes e axudan a quen chega. Atopa o máis próximo a ti en Grupos locais.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d1e253bc"
+  },
+  "home_live_label": {
+    "value": "En directo en toda Europa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "44ee0071"
+  },
+  "home_live_packets": {
+    "value": "paquetes na última hora completa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e3e24e13"
+  },
+  "home_live_countries": {
+    "value": "países escoitados na última hora",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "502cba0e"
+  },
+  "home_live_repeaters": {
+    "value": "repetidores escoitados nos últimos 7 días",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2890ece6"
+  },
+  "home_live_source": {
+    "value": "Cifras de meshcore-analyzer.eu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "73b22a30"
+  },
+  "strip_label_release": {
+    "value": "Versión",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e020e3c6"
+  },
+  "strip_label_reference": {
+    "value": "Referencia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71bf9093"
+  },
+  "strip_label_guides": {
+    "value": "Guías",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "572cd72f"
+  },
+  "strip_label_directory": {
+    "value": "Directorio",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c8f84c3c"
+  },
+  "strip_label_site": {
+    "value": "Este sitio",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e487482d"
+  },
+  "strip_released": {
+    "value": "publicada",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d29eae13"
+  },
+  "strip_boards": {
+    "value": "placas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "685d9a8f"
+  },
+  "strip_commands": {
+    "value": "comandos CLI",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a13cc6cb"
+  },
+  "strip_latest_firmware": {
+    "value": "último firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a0daddac"
+  },
+  "strip_releases": {
+    "value": "versións nesta páxina",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e99084d9"
+  },
+  "strip_areas": {
+    "value": "zonas con axustes recomendados",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "789b6daa"
+  },
+  "strip_presets": {
+    "value": "predefinicións de radio",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cb582a14"
+  },
+  "strip_devices": {
+    "value": "dispositivos",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ade15a12"
+  },
+  "strip_groups": {
+    "value": "grupos locais",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f40e444b"
+  },
+  "strip_countries": {
+    "value": "países",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e45d4cba"
+  },
+  "strip_maps": {
+    "value": "mapas de cobertura",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e149f255"
+  },
+  "strip_channel_countries": {
+    "value": "países para escoller",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0fbe9da9"
+  },
+  "strip_projects": {
+    "value": "proxectos",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2577c0f5"
+  },
+  "strip_languages": {
+    "value": "idiomas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6cb574fa"
+  },
+  "strip_trackers": {
+    "value": "rastreadores",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "da068881"
+  },
+  "strip_third_party": {
+    "value": "peticións a terceiros",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "64ebce3d"
+  },
+  "strip_cookie": {
+    "value": "cookie, só cando escolles un tema",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be0b8e53"
+  },
+  "strip_checked": {
+    "value": "Comprobado",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0efd92a3"
+  },
+  "strip_release_source": {
+    "value": "Das versións de MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d619a021"
+  },
+  "news_latest": {
+    "value": "Últimas novas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f74e23c2"
+  },
+  "news_english_only": {
+    "value": "As novas publícanse só en inglés.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "815251ef"
+  },
+  "news_all": {
+    "value": "Todas as novas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67c7790c"
+  },
+  "badge_ai": {
+    "value": "Tradución automática",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e174e770"
+  },
+  "badge_human": {
+    "value": "Tradución revisada",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3f4efebd"
+  },
+  "banner_ai_title": {
+    "value": "Esta páxina traduciuna unha máquina.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1cb96c83"
+  },
+  "banner_ai_body": {
+    "value": "Aínda non a revisou ningún falante nativo, así que algunha expresión pode soar rara.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bbc7e56b"
+  },
+  "banner_stale": {
+    "value": "A páxina en inglés cambiou desde esta tradución.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b34a3714"
+  },
+  "read_english": {
+    "value": "Ler a versión en inglés",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "971012a5"
+  },
+  "banner_improve": {
+    "value": "Axuda a mellorar esta tradución",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a9a967b6"
+  },
+  "edit_page": {
+    "value": "Editar esta páxina en GitHub",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "073fd103"
+  },
+  "planned_note": {
+    "value": "Aínda estamos construíndo esta páxina.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f0aebcf0"
+  },
+  "planned_more": {
+    "value": "Mentres tanto, estas páxinas poden axudarche:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ec1b5efa"
+  },
+  "last_verified": {
+    "value": "Última comprobación",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d8e92048"
+  },
+  "sources": {
+    "value": "Fontes",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "caf85b08"
+  },
+  "callout_tip": {
+    "value": "Consello",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4245a3c"
+  },
+  "callout_warning": {
+    "value": "Aviso",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e981ddae"
+  },
+  "callout_legal": {
+    "value": "Legal",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4787eaf7"
+  },
+  "filter_title": {
+    "value": "Afina a busca",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "28c6eb01"
+  },
+  "filter_any": {
+    "value": "Calquera",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2b505597"
+  },
+  "filter_reset": {
+    "value": "Restablecer filtros",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10afa984"
+  },
+  "filter_count": {
+    "value": "Amosando {shown} de {total}",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3d25c92"
+  },
+  "filter_empty": {
+    "value": "Nada coincide con estes filtros.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7094992d"
+  },
+  "filter_role_q": {
+    "value": "Que vai facer?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "25ed547a"
+  },
+  "filter_price_q": {
+    "value": "Orzamento",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1c6225ec"
+  },
+  "filter_power_q": {
+    "value": "Alimentación",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "848e9656"
+  },
+  "filter_category_q": {
+    "value": "Categoría",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "292c06f0"
+  },
+  "role_companion": {
+    "value": "Companion (a radio desde a que envías mensaxes)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fc49eb4e"
+  },
+  "role_repeater": {
+    "value": "Repetidor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "role_room_server": {
+    "value": "Room server",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68b91cc5"
+  },
+  "price_1": {
+    "value": "€ (menos de 25)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "84cdcfea"
+  },
+  "price_2": {
+    "value": "€€ (de 25 a 60)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be9a6bd8"
+  },
+  "price_3": {
+    "value": "€€€ (máis de 60)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0e261f3a"
+  },
+  "power_battery": {
+    "value": "Batería integrada",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3b3a4b7e"
+  },
+  "power_external": {
+    "value": "Alimentación externa ou solar",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "50778470"
+  },
+  "power_profile_low": {
+    "value": "Baixo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f793de20"
+  },
+  "power_profile_medium": {
+    "value": "Medio",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e588cd1"
+  },
+  "power_profile_high": {
+    "value": "Alto",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c4ebc6d4"
+  },
+  "spec_mcu": {
+    "value": "Procesador",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54aac653"
+  },
+  "spec_radio": {
+    "value": "Chip LoRa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1d340ea4"
+  },
+  "spec_battery": {
+    "value": "Batería",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dfcb7c16"
+  },
+  "spec_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "176c7866"
+  },
+  "spec_screen": {
+    "value": "Pantalla",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e56137e"
+  },
+  "spec_connectivity": {
+    "value": "Conectividade",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5479401f"
+  },
+  "spec_form": {
+    "value": "Formato",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "12827072"
+  },
+  "spec_price": {
+    "value": "Rango de prezo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "396491b7"
+  },
+  "spec_power": {
+    "value": "Consumo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "96fcc312"
+  },
+  "spec_firmware": {
+    "value": "Compatibilidade con MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4f7c9307"
+  },
+  "fw_official": {
+    "value": "Compilación oficial",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e07a4935"
+  },
+  "fw_community": {
+    "value": "Compilación da comunidade",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f8338fb4"
+  },
+  "yes": {
+    "value": "Si",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "85a39ab3"
+  },
+  "no": {
+    "value": "Non",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1ea442a1"
+  },
+  "none": {
+    "value": "Ningún",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc937b59"
+  },
+  "form_handheld": {
+    "value": "De man",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ecb26701"
+  },
+  "form_board": {
+    "value": "Placa sen caixa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33e95aea"
+  },
+  "form_enclosed": {
+    "value": "Nodo con caixa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "751c73a5"
+  },
+  "form_wearable": {
+    "value": "Para levar posto",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e31070f"
+  },
+  "form_usb": {
+    "value": "Memoria USB",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "031ad13f"
+  },
+  "conn_ble": {
+    "value": "Bluetooth LE",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e05f95a2"
+  },
+  "conn_wifi": {
+    "value": "Wi-Fi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "337253f2"
+  },
+  "conn_usb": {
+    "value": "USB",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61f0acff"
+  },
+  "devices_empty": {
+    "value": "Aínda non hai dispositivos na lista.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a158b22a"
+  },
+  "devices_list_title": {
+    "value": "Todos os dispositivos",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0594fe82"
+  },
+  "community_channels": {
+    "value": "Canles",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4c8906cf"
+  },
+  "community_ask_at": {
+    "value": "pide a ligazón en",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "969f418d"
+  },
+  "community_languages": {
+    "value": "Idiomas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "318655ce"
+  },
+  "community_empty": {
+    "value": "Aínda non hai grupos locais na lista.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "73a4cdc4"
+  },
+  "community_missing_title": {
+    "value": "Falta o teu grupo?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7c5581b0"
+  },
+  "community_jump": {
+    "value": "Ir a un país",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f7361695"
+  },
+  "community_all": {
+    "value": "Todos",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a52ace42"
+  },
+  "community_missing_body": {
+    "value": "Calquera pode engadir un grupo local. Abre unha incidencia co nome, a zona e as ligazóns, e unha persoa mantedora engádeo a todos os idiomas á vez.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a626e730"
+  },
+  "community_missing_cta": {
+    "value": "Engade o teu grupo local",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f692beac"
+  },
+  "community_search_title": {
+    "value": "Atopa un grupo preto de ti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0b6beef7"
+  },
+  "community_search_country": {
+    "value": "País",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "701d021d"
+  },
+  "community_search_country_pick": {
+    "value": "Escolle un país",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "19323e2d"
+  },
+  "community_search_place": {
+    "value": "Código postal",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0a4387d2"
+  },
+  "community_search_radius": {
+    "value": "Distancia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b7bdf7a2"
+  },
+  "community_search_km": {
+    "value": "{n} km",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e4b21b4b"
+  },
+  "community_search_go": {
+    "value": "Buscar",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "49c266ba"
+  },
+  "community_search_locate": {
+    "value": "Usar a miña localización",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "30cbc33b"
+  },
+  "community_search_privacy": {
+    "value": "A busca execútase no teu navegador. A túa posición e o teu código postal quedan no teu dispositivo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b96fd6a8"
+  },
+  "community_search_loading": {
+    "value": "Cargando os códigos postais deste país...",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08d96769"
+  },
+  "community_search_error": {
+    "value": "A lista de códigos postais non se cargou. Téntao de novo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d7420063"
+  },
+  "community_search_unknown": {
+    "value": "Non coñecemos ese código postal en {country}. Compróbao ou proba cun código postal próximo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2ad685e6"
+  },
+  "community_search_need_country": {
+    "value": "Escolle primeiro un país.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cebe32b0"
+  },
+  "community_search_no_postcodes": {
+    "value": "A busca por código postal non cobre {country}. Todos os seus grupos:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "26ad24dd"
+  },
+  "community_search_denied": {
+    "value": "O teu navegador non compartiu a túa posición. Escribe un código postal.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7b0fe439"
+  },
+  "community_search_here": {
+    "value": "a túa localización",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61d03e13"
+  },
+  "community_search_results": {
+    "value": "Grupos preto de {place}",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "114324e9"
+  },
+  "community_search_covers": {
+    "value": "Cobre a túa zona",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20cb30ee"
+  },
+  "community_search_national": {
+    "value": "En todo {country}",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2aea83b"
+  },
+  "community_search_none": {
+    "value": "Aínda non hai ningún grupo local a menos de {n} km.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "09aad8fb"
+  },
+  "community_search_none_country": {
+    "value": "Aínda non hai ningún grupo local en {country}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d777ab9b"
+  },
+  "community_search_all": {
+    "value": "Todo o país",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ebe4345"
+  },
+  "community_search_nearest": {
+    "value": "O grupo máis próximo está a {n} km:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c78007e4"
+  },
+  "community_search_credit": {
+    "value": "Códigos postais: GeoNames, CC BY 4.0.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "41bd97b1"
+  },
+  "link_discord": {
+    "value": "Discord",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "053bc658"
+  },
+  "link_telegram": {
+    "value": "Telegram",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "acdd1e73"
+  },
+  "link_signal": {
+    "value": "Signal",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1e9806e4"
+  },
+  "link_matrix": {
+    "value": "Matrix",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "76a2171c"
+  },
+  "link_whatsapp": {
+    "value": "WhatsApp",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6a40edf1"
+  },
+  "link_forum": {
+    "value": "Foro",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4da7bd42"
+  },
+  "link_website": {
+    "value": "Sitio web",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5a229ac"
+  },
+  "link_map": {
+    "value": "Mapa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be176b00"
+  },
+  "link_wiki": {
+    "value": "Wiki",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "63ec69fd"
+  },
+  "map_scope_europe": {
+    "value": "Toda Europa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d7bc2dd9"
+  },
+  "map_scope_country": {
+    "value": "País",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "701d021d"
+  },
+  "map_scope_region": {
+    "value": "Rexional",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "299a03b1"
+  },
+  "map_shows_nodes": {
+    "value": "Nodos",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7ac36206"
+  },
+  "map_shows_coverage": {
+    "value": "Cobertura",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "523487a5"
+  },
+  "map_shows_traffic": {
+    "value": "Tráfico en directo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9fd86662"
+  },
+  "map_shows_analyzer": {
+    "value": "Analizador de paquetes",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14671539"
+  },
+  "map_shows_statistics": {
+    "value": "Estatísticas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a656107e"
+  },
+  "map_open": {
+    "value": "Abrir o mapa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ea488d26"
+  },
+  "maps_empty": {
+    "value": "Aínda non hai mapas na lista.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f4332bc7"
+  },
+  "map_tenants_intro": {
+    "value": "Un só analizador para toda Europa. As comunidades locais tamén o executan co seu propio nome e deseño, cos mesmos datos en directo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e5054f0"
+  },
+  "project_cat_app": {
+    "value": "Aplicación",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0d04bfeb"
+  },
+  "project_cat_tool": {
+    "value": "Ferramenta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2e53bdcd"
+  },
+  "project_cat_bridge": {
+    "value": "Ponte",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3892e103"
+  },
+  "project_cat_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "project_cat_hardware": {
+    "value": "Hardware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7975300f"
+  },
+  "project_cat_library": {
+    "value": "Biblioteca",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc20b3d5"
+  },
+  "project_cat_docs": {
+    "value": "Documentación",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c205924d"
+  },
+  "project_archived": {
+    "value": "Arquivado",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bdb86505"
+  },
+  "project_licence": {
+    "value": "Licenza",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3ec8e88"
+  },
+  "project_repo": {
+    "value": "Código fonte",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf046c73"
+  },
+  "projects_empty": {
+    "value": "Aínda non hai proxectos na lista.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "26a6bda7"
+  },
+  "projects_list_title": {
+    "value": "Todos os proxectos",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4b87271b"
+  },
+  "projects_add_cta": {
+    "value": "Enviar un proxecto",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e8a3907"
+  },
+  "footer_about": {
+    "value": "Unha guía comunitaria e non comercial de MeshCore en Europa, sen anuncios, ligazóns de afiliados nin rastrexo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8a0b3c0d"
+  },
+  "footer_disclaimer": {
+    "value": "meshcore-info.eu está xestionado por persoas voluntarias e non ten relación cos desenvolvedores do firmware MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5043ea17"
+  },
+  "footer_nav_label": {
+    "value": "Sitio",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fa795581"
+  },
+  "footer_source": {
+    "value": "Código fonte",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf046c73"
+  },
+  "footer_license": {
+    "value": "Texto con licenza CC BY 4.0, código con licenza MIT.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61085af6"
+  },
+  "not_found_title": {
+    "value": "Páxina non atopada",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a469ab4c"
+  },
+  "not_found_body": {
+    "value": "Esta páxina non existe ou cambiou de lugar.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a9044129"
+  },
+  "not_found_home": {
+    "value": "Ir á páxina de inicio",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "adcedded"
+  },
+  "picker_title": {
+    "value": "Escolle o teu idioma",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e2d0664"
+  },
+  "lang_nudge": {
+    "value": "Escollemos {language} segundo a configuración do teu navegador. Aquí podes cambiar o idioma.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e428ce71"
+  },
+  "lang_nudge_others": {
+    "value": "Ou {count} idiomas máis",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c57573b"
+  },
+  "lang_nudge_region": {
+    "value": "Esta páxina tamén está en {language}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5d73b6d7"
+  },
+  "lang_nudge_close": {
+    "value": "Pechar",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7d9eb7ac"
+  },
+  "coverage_caption": {
+    "value": "Cobertura da tradución por idioma",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fdb7f8dd"
+  },
+  "coverage_language": {
+    "value": "Idioma",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4fe6526"
+  },
+  "coverage_strings": {
+    "value": "Texto da interface",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "146382ff"
+  },
+  "coverage_pages": {
+    "value": "Páxinas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9046da16"
+  },
+  "coverage_human": {
+    "value": "Revisado",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fad6057b"
+  },
+  "coverage_ai": {
+    "value": "Automático",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8f1cc42d"
+  },
+  "coverage_stale": {
+    "value": "Desactualizado",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c759f42e"
+  },
+  "coverage_missing": {
+    "value": "Falta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6be36ca4"
+  },
+  "presets_caption": {
+    "value": "Preconfiguracións de radio en Europa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "037c3732"
+  },
+  "presets_name": {
+    "value": "Preconfiguración na app",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46bda49e"
+  },
+  "presets_frequency": {
+    "value": "Frecuencia (MHz)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1740a857"
+  },
+  "presets_bandwidth": {
+    "value": "Largura de banda (kHz)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5cf2dd7b"
+  },
+  "presets_sf": {
+    "value": "Factor de espallamento",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7cda59eb"
+  },
+  "presets_cr": {
+    "value": "Taxa de codificación",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2cd87b32"
+  },
+  "presets_source": {
+    "value": "Da lista de preconfiguracións do proxecto MeshCore, comprobada",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "215b400b"
+  },
+  "gain_label": {
+    "value": "O feixe dun dipolo e dunha colineal de fibra de vidro, cortado polo mastro e visto de lado, a escala. A colineal chega a un nodo moi lonxe no horizonte. Só o dipolo chega a un nodo moi abaixo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d90bf3bb"
+  },
+  "gain_dipole": {
+    "value": "Dipolo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ef909a16"
+  },
+  "gain_collinear": {
+    "value": "Colineal de fibra de vidro",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "822f4c75"
+  },
+  "gain_node": {
+    "value": "Nodo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e9337253"
+  },
+  "rz_forged_label": {
+    "value": "Un paquete vai do remitente ata ti a través de 3 repetidores. O remitente empeza a ruta con 3 ID inventados. Cada repetidor engade o seu ID ao final, así que o final da ruta é real e o comezo non.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90a625a8"
+  },
+  "rz_forged_sender": {
+    "value": "Remitente",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c299f9b8"
+  },
+  "rz_forged_you": {
+    "value": "Ti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08b04193"
+  },
+  "rz_forged_path": {
+    "value": "Ruta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "62fa5a5b"
+  },
+  "rz_forged_made_up": {
+    "value": "Inventados polo remitente",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c0b6677b"
+  },
+  "rz_forged_added": {
+    "value": "Engadidos por cada repetidor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "347c03d9"
+  },
+  "rz_gate_label": {
+    "value": "Rexións arredor dun repetidor en forma de aneis: fóra, as mensaxes sen rexión; despois, un país, unha provincia e, no centro, a rexión do propio repetidor. Cando o repetidor transmite máis do 35% do último minuto, os aneis exteriores páranse un a un. A súa propia rexión segue pasando.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "492a5c36"
+  },
+  "rz_gate_none": {
+    "value": "Sen rexión",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f7d42834"
+  },
+  "rz_gate_country": {
+    "value": "País",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "701d021d"
+  },
+  "rz_gate_province": {
+    "value": "Provincia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "abfcecfa"
+  },
+  "rz_gate_yours": {
+    "value": "A túa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54b26f7d"
+  },
+  "rz_gate_meter": {
+    "value": "Transmitindo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1d3af30f"
+  },
+  "rz_gate_step_calm": {
+    "value": "Por debaixo do 35%: o teu repetidor reenvía todas as rexións que ten.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a144fa31"
+  },
+  "rz_gate_step_none": {
+    "value": "Por riba do 35%: as mensaxes sen rexión páranse.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4cf453e"
+  },
+  "rz_gate_step_wide": {
+    "value": "Segue ocupado: a rexión máis ampla tamén se para. A túa rexión sempre pasa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b08d4c0a"
+  },
+  "rz_copies_label": {
+    "value": "Un paquete dun remitente que ninguén ve pasa por 4 repetidores. 3 observadores informan cada un da copia que oíron, coa súa ruta. A copia coa ruta máis curta, 1 repetidor, oíuse máis preto do remitente.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a627dcf1"
+  },
+  "rz_copies_repeater": {
+    "value": "Repetidor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "rz_copies_observer": {
+    "value": "Observador, coa ruta da súa copia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c48198e"
+  },
+  "rz_copies_shortest": {
+    "value": "Ruta máis curta: máis preto do remitente",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0beca4a3"
+  },
+  "country_ad": {
+    "value": "Andorra",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3e340be4"
+  },
+  "country_al": {
+    "value": "Albania",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1af00b87"
+  },
+  "country_at": {
+    "value": "Austria",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c9cab023"
+  },
+  "country_ba": {
+    "value": "Bosnia e Hercegovina",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b0772b9c"
+  },
+  "country_be": {
+    "value": "Bélxica",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "348841ef"
+  },
+  "country_bg": {
+    "value": "Bulgaria",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "66b86bf0"
+  },
+  "country_by": {
+    "value": "Bielorrusia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4bef16df"
+  },
+  "country_ch": {
+    "value": "Suíza",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "22755831"
+  },
+  "country_cy": {
+    "value": "Chipre",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5f1162c5"
+  },
+  "country_cz": {
+    "value": "Chequia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ecfa967e"
+  },
+  "country_de": {
+    "value": "Alemaña",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "80db4ccd"
+  },
+  "country_dk": {
+    "value": "Dinamarca",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c5270975"
+  },
+  "country_ee": {
+    "value": "Estonia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10aeba69"
+  },
+  "country_es": {
+    "value": "España",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8ef41e6f"
+  },
+  "country_fi": {
+    "value": "Finlandia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aed8f531"
+  },
+  "country_fo": {
+    "value": "Illas Feroe",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "773ca4d6"
+  },
+  "country_fr": {
+    "value": "Francia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7a1ca4ef"
+  },
+  "country_gb": {
+    "value": "Reino Unido",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8d23a6e3"
+  },
+  "country_gg": {
+    "value": "Guernsey",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b9c48cb1"
+  },
+  "country_gi": {
+    "value": "Xibraltar",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "097ced58"
+  },
+  "country_gr": {
+    "value": "Grecia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c93ad43"
+  },
+  "country_hr": {
+    "value": "Croacia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7328d3f8"
+  },
+  "country_hu": {
+    "value": "Hungría",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "504be308"
+  },
+  "country_ie": {
+    "value": "Irlanda",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "02bf1dfa"
+  },
+  "country_im": {
+    "value": "Illa de Man",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "34096f96"
+  },
+  "country_is": {
+    "value": "Islandia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "595d6d91"
+  },
+  "country_it": {
+    "value": "Italia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5a9cf672"
+  },
+  "country_je": {
+    "value": "Jersey",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "764a8c04"
+  },
+  "country_li": {
+    "value": "Liechtenstein",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6ff080c0"
+  },
+  "country_lt": {
+    "value": "Lituania",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5c83a631"
+  },
+  "country_lu": {
+    "value": "Luxemburgo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ed76f191"
+  },
+  "country_lv": {
+    "value": "Letonia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "988c8160"
+  },
+  "country_mc": {
+    "value": "Mónaco",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "935018cc"
+  },
+  "country_md": {
+    "value": "Moldavia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14ad63a1"
+  },
+  "country_me": {
+    "value": "Montenegro",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7ab597e1"
+  },
+  "country_mk": {
+    "value": "Macedonia do Norte",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cd847226"
+  },
+  "country_mt": {
+    "value": "Malta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71e9eb10"
+  },
+  "country_nl": {
+    "value": "Países Baixos",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3a386c13"
+  },
+  "country_no": {
+    "value": "Noruega",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bea54a34"
+  },
+  "country_pl": {
+    "value": "Polonia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7f69649a"
+  },
+  "country_pt": {
+    "value": "Portugal",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4c7de2c3"
+  },
+  "country_ro": {
+    "value": "Romanía",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ea23726d"
+  },
+  "country_rs": {
+    "value": "Serbia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e8739c83"
+  },
+  "country_ru": {
+    "value": "Rusia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33a3d8ed"
+  },
+  "country_se": {
+    "value": "Suecia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "85363713"
+  },
+  "country_si": {
+    "value": "Eslovenia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "56059e7f"
+  },
+  "country_sk": {
+    "value": "Eslovaquia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a2ea3384"
+  },
+  "country_sm": {
+    "value": "San Marino",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "230450a2"
+  },
+  "country_tr": {
+    "value": "Turquía",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d15b2145"
+  },
+  "country_ua": {
+    "value": "Ucraína",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "580eedc6"
+  },
+  "country_va": {
+    "value": "Cidade do Vaticano",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b0ce1029"
+  },
+  "country_xk": {
+    "value": "Kosovo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4a867424"
+  },
+  "device.heltec-wifi-lora-32-v3.notes": {
+    "value": "Unha placa nua: engádelle unha caixa, unha antena e unha batería. O ESP32 consome demasiado para un repetidor solar pequeno.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bc29e2c9"
+  },
+  "device.heltec-wifi-lora-32-v4.notes": {
+    "value": "A versión de alta potencia transmite ata 28 dBm, por riba do límite europeo coa maioría das antenas: a guía de repetidores explica como cumprilo. A versión básica custa menos de 25 euros, a de alta potencia máis. A versión R8 ten máis memoria e necesita a súa propia compilación do firmware.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5c626e8a"
+  },
+  "device.heltec-mesh-node-t114.notes": {
+    "value": "Placa nRF52 de baixo consumo e base habitual para repetidores solares. A pantalla e o GPS son opcionais ao facer o pedido; con eles custa máis de 25 euros.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f1999a30"
+  },
+  "device.heltec-wireless-tracker.notes": {
+    "value": "Placa con GPS integrado. Tes que pór ti a batería e a caixa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5d4b7295"
+  },
+  "device.heltec-wireless-paper.notes": {
+    "value": "A pantalla de papel electrónico lese ben á luz do sol. Non inclúe batería.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d60633a2"
+  },
+  "device.lilygo-t-echo.notes": {
+    "value": "Dispositivo de peto con pantalla de papel electrónico e GPS. Tamén existe unha versión cunha batería maior.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1f285d65"
+  },
+  "device.lilygo-t-deck-plus.notes": {
+    "value": "Teclado físico, trackball e pantalla táctil. O Plus engade GPS e unha batería de 2000 mAh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0fb0f75c"
+  },
+  "device.lilygo-t-beam-supreme.notes": {
+    "value": "Leva unha cela 18650, non incluída. Escolle a versión SX1262: a versión LR1121 non ten compilación oficial.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e3db28aa"
+  },
+  "device.rak-wisblock-rak4631.notes": {
+    "value": "Modular: os módulos de encaixe engaden GPS, pantalla ou sensores. A placa base ten unha entrada solar.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c1317a23"
+  },
+  "device.rak-wismesh-tag.notes": {
+    "value": "Distintivo fino, resistente á intemperie e con antenas integradas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "572181c6"
+  },
+  "device.seeed-sensecap-t1000-e.notes": {
+    "value": "Tamaño de tarxeta de crédito, resistente ao po e ás salpicaduras (IP65), sen pantalla. Usa a radio LR1110 en vez da SX1262, máis habitual.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e18363be"
+  },
+  "device.seeed-xiao-nrf52840-wio-sx1262.notes": {
+    "value": "Unha pequena pila de dúas placas. Para usala en mobilidade, sóldalle unha batería.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3063cd1d"
+  },
+  "device.seeed-wio-tracker-l1-pro.notes": {
+    "value": "Vén nunha caixa con pantalla, GPS e batería. Tamén existen as versións Lite e e-ink.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d9fd3d73"
+  },
+  "device.seeed-sensecap-solar-node-p1.notes": {
+    "value": "Caixa resistente á intemperie cun panel solar de 5 W, catro celas 18650 e GPS, feita para repetidores.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3c9e1f9"
+  },
+  "device.heltec-wifi-lora-32-v4-expansion-kit.notes": {
+    "value": "Unha placa V4 nunha caixa metálica con pantalla táctil. O GPS e unha cela 18650 son opcionais ao facer o pedido. MeshCore mostra a pantalla pero aínda non usa o táctil.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8704efde"
+  },
+  "device.heltec-wireless-stick-lite-v3.notes": {
+    "value": "A V3 sen pantalla. Unha placa nua: engádelle unha caixa, unha antena e unha batería.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6a36169b"
+  },
+  "device.heltec-wireless-tracker-v2.notes": {
+    "value": "Placa con GPS e conector solar. Transmite ata 28 dBm, por riba do límite europeo coa maioría das antenas: a guía de repetidores explica como cumprilo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e56ec119"
+  },
+  "device.heltec-vision-master-e213.notes": {
+    "value": "Placa cunha pantalla de papel electrónico que se le ben á luz do sol. Tes que pór ti a batería e a caixa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7519dcd5"
+  },
+  "device.heltec-vision-master-e290.notes": {
+    "value": "Como a E213, cunha pantalla de papel electrónico maior. Tes que pór ti a batería e a caixa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "84da4d43"
+  },
+  "device.heltec-vision-master-t190.notes": {
+    "value": "Placa con pantalla en cor. Tes que pór ti a batería e a caixa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08d0d0d2"
+  },
+  "device.heltec-mesh-node-t1.notes": {
+    "value": "Dispositivo do tamaño dunha tarxeta con GPS e pantalla pequena, resistente ao po e ás salpicaduras (IP65).",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c9807632"
+  },
+  "device.heltec-meshpocket.notes": {
+    "value": "Unha batería externa cun nodo dentro e un cargador magnético sen fíos para o teu móbil. Tamén se vende con 10000 mAh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0eab0a7c"
+  },
+  "device.heltec-meshsolar.notes": {
+    "value": "Placa para un repetidor solar: admite de unha a catro celas e un panel de 18 a 24 V. O GPS e a pantalla son complementos.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "195aa41c"
+  },
+  "device.heltec-meshtower-v2.notes": {
+    "value": "Caixa metálica resistente á intemperie con tres celas e un panel solar de 10 W, feita para repetidores. O GPS é opcional. A versión de 30 dBm supera o límite europeo: a guía de repetidores explica como cumprilo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d935df5c"
+  },
+  "device.lilygo-t-echo-lite.notes": {
+    "value": "T-Echo máis pequeno cun módulo GPS opcional. Véndese con caixa ou sen ela.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b18c1e64"
+  },
+  "device.lilygo-t-echo-card.notes": {
+    "value": "Tamaño de tarxeta de crédito con GPS, altofalante e un pequeno panel solar que só repón a batería.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1b860b15"
+  },
+  "device.lilygo-t-impulse-plus.notes": {
+    "value": "Pulseira con GPS, unha pantalla moi pequena e un motor de vibración.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3bc53725"
+  },
+  "device.lilygo-t-deck.notes": {
+    "value": "Teclado e trackball como o T-Deck Plus, sen GPS nin batería. Escolle unha versión con LoRa: existe unha sen el.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e88fe0ef"
+  },
+  "device.lilygo-t-beam.notes": {
+    "value": "O T-Beam clásico coa radio SX1276, máis antiga. Leva unha cela 18650, non incluída.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7c56a56b"
+  },
+  "device.lilygo-t-beam-1w.notes": {
+    "value": "Transmite ata 32 dBm, moi por riba do límite europeo: a guía de repetidores explica como cumprilo. Necesita unha batería de 7.4 V, que non carga.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9a8d7b03"
+  },
+  "device.elecrow-thinknode-m1.notes": {
+    "value": "Dispositivo de man con pantalla de papel electrónico e GPS.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "590fa3ac"
+  },
+  "device.elecrow-thinknode-m2.notes": {
+    "value": "Dispositivo de man pequeno con pantalla OLED. Tamén se vende sen batería.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "87f36cea"
+  },
+  "device.elecrow-thinknode-m3.notes": {
+    "value": "Localizador resistente ao po e á auga (IP66) con GPS, sen pantalla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0c7b633a"
+  },
+  "device.elecrow-thinknode-m4.notes": {
+    "value": "Unha batería externa cun nodo e GPS dentro, sen pantalla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "638c30a0"
+  },
+  "device.elecrow-thinknode-m5.notes": {
+    "value": "Como o M1 cun procesador ESP32: máis funcións, menos autonomía.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7943f498"
+  },
+  "device.elecrow-thinknode-m6.notes": {
+    "value": "Caixa resistente á intemperie (IP65) cun panel solar de 6 W, dúas celas 18650 e GPS, feita para repetidores.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c7efcb7f"
+  },
+  "device.elecrow-thinknode-m7.notes": {
+    "value": "Caixa de interior con porto Ethernet, alimentada por USB ou polo cable de rede (PoE).",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20225189"
+  },
+  "device.elecrow-thinknode-m9.notes": {
+    "value": "Funciona por si só, con teclado completo, pantalla en cor e GPS. Vén co firmware Ripple; tamén funciona co MeshCore estándar.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d9fb8bcf"
+  },
+  "device.seeed-wio-tracker-l1.notes": {
+    "value": "O L1 Pro sen caixa nin batería. Ten GPS e conector solar.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f317b814"
+  },
+  "device.seeed-wio-tracker-l1-eink.notes": {
+    "value": "O L1 con pantalla de papel electrónico, sen caixa nin batería. MeshCore só funciona nel como companion.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1c3665d9"
+  },
+  "device.seeed-sensecap-solar-node-p1-basic.notes": {
+    "value": "O P1-Pro sen celas nin GPS: engade ti catro celas 18650. O soporte só admite celas con polo saliente. As celas planas habituais encaixan cun pequeno imán en cada unha.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a6f898f4"
+  },
+  "device.seeed-sensecap-meshtracker-x1.notes": {
+    "value": "Tamaño de tarxeta, resistente ao po e á auga (IP66), sen pantalla. Cárgase por USB-C e vibra cando chega unha mensaxe nova.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9eadd1b5"
+  },
+  "device.seeed-xiao-esp32s3-wio-sx1262.notes": {
+    "value": "O kit XIAO cun ESP32 en vez do nRF52: Wi-Fi, pero máis consumo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0e783fe9"
+  },
+  "device.rak-wismesh-1w-booster.notes": {
+    "value": "Transmite ata 30 dBm, por riba do límite europeo: a guía de repetidores explica como cumprilo. Cada versión funciona con batería ou con 5 V, comproba a etiqueta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e03b4d5b"
+  },
+  "device.bq-station-g3.notes": {
+    "value": "Estación base modular cun amplificador de ata 35 dBm, moi por riba do límite europeo: axusta os jumpers e a potencia de transmisión para o teu país. Necesita unha alimentación de 9 a 19 V.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ee7d06f9"
+  },
+  "device.bq-nano-g2-ultra.notes": {
+    "value": "Dispositivo de man robusto cunha antena integrada deseñada para funcionar preto do teu corpo. A batería é opcional.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5e947959"
+  },
+  "device.m5stack-unit-c6l.notes": {
+    "value": "Módulo pequeno cunha carcasa de plástico, alimentado por USB-C. Sen entrada de batería.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "468b2af6"
+  },
+  "device.meshnology-w12.notes": {
+    "value": "Placa de código aberto con entradas de batería e solar. Transmite ata 30 dBm, por riba do límite europeo: a guía de repetidores explica como cumprilo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "df27901e"
+  },
+  "community.nl-dutch-meshcore.desc": {
+    "value": "Grupo neerlandés de voluntarios para usuarios de MeshCore nos Países Baixos. Xestiona colectores MQTT compartidos, un panel de observadores, un axudante de configuración e unha caixa de ferramentas de firmware no navegador.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c4ad2c7f"
+  },
+  "community.nl-meshcore-net.desc": {
+    "value": "Chat de Telegram e foro en neerlandés onde usuarios neerlandeses comparten axuda de configuración, listas de canles e novas de repetidores.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c57f1887"
+  },
+  "community.be-radio-actief.desc": {
+    "value": "Wiki e Discord belgas, iniciados por radioafeccionados que levaron MeshCore a Bélxica a finais de 2025. Forma parte dunha comunidade máis ampla de afeccionados á radio.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7598f9b8"
+  },
+  "community.lu-meshcore-luxembourg.desc": {
+    "value": "Páxina de inicio compartida das asociacións luxemburguesas que xestionan repetidores MeshCore por todo o país. Son grupos de hackers, de radioafección e de preparación para emerxencias.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e38285ec"
+  },
+  "community.de-meshcore-de.desc": {
+    "value": "Chat de MeshCore en alemán en Telegram, usado en toda Alemaña e por grupos austríacos. Hai unha sala de Matrix para quen a prefira.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2d34fef"
+  },
+  "community.de-berlin-chaos-mesh.desc": {
+    "value": "Grupo de Berlín con raíces nun hackerspace, cun foro, unha sala de Matrix e un panel PotatoMesh, que trata MeshCore xunto con outros proxectos mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9f0065e0"
+  },
+  "community.de-isarmesh.desc": {
+    "value": "Foro para usuarios de redes mesh LoRa arredor de Múnic que organiza encontros regulares e trata MeshCore e outros proxectos mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "05e62cf9"
+  },
+  "community.de-mesh-dresden.desc": {
+    "value": "Grupo de Dresde con artigos técnicos detallados para operadores de repetidores. Tamén xestiona un chat local para MeshCore e outros proxectos mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fd5d9e40"
+  },
+  "community.at-meshcore-austria.desc": {
+    "value": "Sitio comunitario austríaco con guías de configuración, eventos e novas. O grupo austríaco de Telegram xestiónase á parte do sitio.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3dfcd101"
+  },
+  "community.ch-meshcore-switzerland.desc": {
+    "value": "Sitio suízo en catro idiomas con orientación sobre dispositivos, rexións e canles, e un foro comunitario para preguntas e peticións.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e8eb8c2c"
+  },
+  "community.cz-meshcore-cr.desc": {
+    "value": "Wiki checa sobre hardware, repetidores, canles e rexións, apoiada por un grupo de Telegram e un analizador nacional de paquetes.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3eb31061"
+  },
+  "community.sk-meshcore-slovensko.desc": {
+    "value": "Páxina da rede eslovaca aloxada por un club de radioafección de Bratislava, cun servidor de Discord e encontros presenciais semanais.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "950a6862"
+  },
+  "community.pl-meshcore-polska.desc": {
+    "value": "Comunidade polaca de ámbito nacional cun mapa de nodos, documentación en polaco e un servidor de Discord.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bd6ed843"
+  },
+  "community.fr-meshcore-france.desc": {
+    "value": "Páxina francesa de coordinación que remite a grupos rexionais e a mapas rexionais en directo, mantida como sitio comunitario independente.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e2024cd5"
+  },
+  "community.fr-mesh-idf.desc": {
+    "value": "Wiki da rexión de París cun chat de MeshCore en Telegram. A wiki tamén trata outros proxectos mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b4be06c9"
+  },
+  "community.it-meshcore-italia.desc": {
+    "value": "Comunidade nacional italiana con guías, listas de canles rexionais e de alertas meteorolóxicas, un mapa de nodos en directo e un grupo de Telegram.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2a6caa8e"
+  },
+  "community.pt-meshcore-portugal.desc": {
+    "value": "Comunidade portuguesa con guías propias, e unha app e un firmware en portugués. Os seus chats están reunidos nun cartafol de Telegram.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b67ce7bd"
+  },
+  "community.dk-meshcore-dk.desc": {
+    "value": "Wiki danesa con páxinas para comezar, notas sobre dispositivos, configuración de rexións e fotos de instalacións reais de repetidores.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d0895f3b"
+  },
+  "community.se-meshat.desc": {
+    "value": "Punto de encontro sueco sobre redes mesh, con foro, Discord e unha sala de Matrix. Xestiona servizos MQTT e de mapas de MeshCore e tamén trata outros proxectos mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33d9ed2b"
+  },
+  "community.fi-mesh-finland.desc": {
+    "value": "Sitio finlandés de MeshCore con ligazóns a un analizador nacional e a mapas de cobertura. Comparte o seu servidor de Discord con usuarios doutros proxectos mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3d618dfa"
+  },
+  "community.no-meshwiki.desc": {
+    "value": "Wiki norueguesa cunha sección de MeshCore xunto a outros proxectos mesh, e un foro ligado.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ccd83ba2"
+  },
+  "community.ee-estmesh.desc": {
+    "value": "Páxina estoniana de MeshCore e unha wiki, con canles nacionais e de cidades e un servidor de Discord para afeccionados estonianos á radio.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14530e0d"
+  },
+  "community.lv-apraide.desc": {
+    "value": "Comunidade letoa de redes mesh LoRa que escolleu MeshCore para a súa rede, con debate nunha sala de Matrix.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "42e8a5c2"
+  },
+  "community.lt-atviras-tinklas.desc": {
+    "value": "Sitio comunitario lituano cunha base de coñecemento, páxinas de dispositivos e un analizador en directo da rede MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8a0f8ba4"
+  },
+  "community.si-meshcore-slovenija.desc": {
+    "value": "Sitio esloveno coa configuración de radio rexional recomendada, un mapa de nodos e ligazóns ao firmware.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "73253c8c"
+  },
+  "community.bg-meshcore-bulgaria.desc": {
+    "value": "Comunidade búlgara arredor de Sofía e Plovdiv, con enlaces de radio con Romanía e Serbia. Publica canles, preconfiguracións e ferramentas de planificación.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ef62c925"
+  },
+  "community.rs-meshcore-srbija.desc": {
+    "value": "Sitio comunitario serbio non oficial cun rexistro de nodos e un mapa en directo da rede que abrangue Serbia e países veciños.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "874059ce"
+  },
+  "community.gr-meshcore-greece.desc": {
+    "value": "Servidor grego de Discord para planificar e xestionar redes MeshCore en Grecia.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3fa83721"
+  },
+  "community.gb-meshhub-uk.desc": {
+    "value": "Centro de ámbito británico con ferramentas comunitarias, mapas e eventos para usuarios de MeshCore e outras comunidades mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "050038cc"
+  },
+  "community.gb-scotmesh.desc": {
+    "value": "Comunidade escocesa xestionada por voluntarios, con foro, wiki e Discord, que usa MeshCore xunto a outros proxectos mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cce9f41c"
+  },
+  "community.ie-lora-project.desc": {
+    "value": "Sitio independente para comezar con MeshCore en toda a illa de Irlanda. O seu servidor de Discord abrangue tanto o norte como o sur.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5f335412"
+  },
+  "community.at-carinthiamesh.desc": {
+    "value": "Wiki de MeshCore en Caríntia: primeiros pasos, configuración de radio, dispositivos e repetidores.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b601e188"
+  },
+  "community.at-meshcore-austria-at.desc": {
+    "value": "Wiki comunitaria en alemán sobre MeshCore en Austria.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7746c59b"
+  },
+  "community.be-loramesh.desc": {
+    "value": "Grupo belga que usa MeshCore para mensaxes de emerxencia cando internet e a rede móbil non funcionan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a0d79514"
+  },
+  "community.be-meshpot.desc": {
+    "value": "Guía en francés para unirse á rede mesh MeshCore en Bruxelas e Valonia, construíla e protexela.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3c6c5a0a"
+  },
+  "community.fr-loramesh.desc": {
+    "value": "Grupo francés que mantén o contacto local con MeshCore cando fallan internet ou a rede móbil, paso a paso, cun mapa das zonas activas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f22be170"
+  },
+  "community.de-bsmesh.desc": {
+    "value": "Rede MeshCore para a área metropolitana de Braunschweig.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "076fd5a0"
+  },
+  "community.de-bremesh.desc": {
+    "value": "Rede MeshCore libre para Bremen, Bremerhaven e os seus arredores, con titoriais.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7f614859"
+  },
+  "community.de-pemesh.desc": {
+    "value": "Rede MeshCore en Peine e arredores, nacida da unión de dúas redes mesh locais.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6423719c"
+  },
+  "community.de-muensterland.desc": {
+    "value": "Comunidade que constrúe unha rede MeshCore libre en todo o Münsterland, nacida en Billerbeck.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6f35e420"
+  },
+  "community.de-mesh-rheinland.desc": {
+    "value": "Comunidade de Renania que xestiona unha rede MeshCore e outra Meshtastic.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eb9d7af7"
+  },
+  "community.de-meshcore-de-wiki.desc": {
+    "value": "Wiki en alemán con guías de configuración e un directorio de grupos rexionais.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2a7d4602"
+  },
+  "community.de-ffnw.desc": {
+    "value": "Asociación Freifunk que xestiona unha mesh WiFi comunitaria na rexión de Weser-Ems desde 2013 e agora tamén repetidores MeshCore. Reúnese cada mes en Oldenburg.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "abb2138f"
+  },
+  "community.de-meshcore-dresden.desc": {
+    "value": "Grupo que constrúe unha rede MeshCore en Dresde e arredores, coa lista das súas rexións e canles.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d0a1d71d"
+  },
+  "community.de-meshmitte.desc": {
+    "value": "Grupo local de Uslar e arredores que quere manter a xente en contacto durante os cortes de luz e de rede.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "82b196a8"
+  },
+  "community.de-saarmesh.desc": {
+    "value": "Rede MeshCore rexional no Sarre, coa súa estrutura de rexións e un mapa en directo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2eeeb6e6"
+  },
+  "community.de-hansemesh.desc": {
+    "value": "Rede MeshCore para Hamburgo e o norte de Alemaña, con guías e consellos sobre hardware. O seu chat é o grupo MeshCore DE en Telegram.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c27d5586"
+  },
+  "community.de-mesh-weiterstadt.desc": {
+    "value": "Grupo local que monta unha rede MeshCore libre en Weiterstadt, aínda en construción. Pide á xente que ofreza un tellado para un repetidor.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5a268245"
+  },
+  "community.de-msemesh.desc": {
+    "value": "Grupo de MeshCore e Meshtastic arredor de Neubrandenburg, Neustrelitz, Waren, Demmin e Feldberg.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc1d7f13"
+  },
+  "community.de-ka-mesh.desc": {
+    "value": "Grupo que constrúe unha rede MeshCore arredor de Karlsruhe e Pforzheim, cunha lista de canles e encontros.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20d493a1"
+  },
+  "community.ie-mayo-mesh.desc": {
+    "value": "Grupo de usuarios de radio mesh do condado de Mayo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "baab199e"
+  },
+  "community.it-lora-brescia.desc": {
+    "value": "Grupo de radio de Brescia con guías en italiano para flashear e configurar repetidores MeshCore. Tamén xestiona Meshtastic e LoRa APRS.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08567551"
+  },
+  "community.it-meshcore-ita.desc": {
+    "value": "Guías en italiano, a predefinición de radio común italiana e notas sobre hardware, cun grupo de Telegram.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8b178f55"
+  },
+  "community.it-meshcore-torino.desc": {
+    "value": "Grupo de Turín e a súa provincia que te axuda a configurar o teu propio nodo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d1527a42"
+  },
+  "community.nl-meshwiki.desc": {
+    "value": "Wiki neerlandesa que calquera pode editar, sobre MeshCore e a radio mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ce29af01"
+  },
+  "community.pl-lora-meshcore-polska.desc": {
+    "value": "Rede polaca de ámbito nacional coa predefinición EU/UK Narrow, cunha explicación de como funciona e quen a constrúe.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4c574d21"
+  },
+  "community.pl-meshcore-podlasie.desc": {
+    "value": "Afeccionados que constrúen unha rede MeshCore en Podlasie, con novas e axustes locais.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a15fb772"
+  },
+  "community.pl-meshgo.desc": {
+    "value": "Grupo de MeshCore arredor de Gdańsk, Gdynia e Sopot, que usa a predefinición nacional polaca.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8d16fa09"
+  },
+  "community.ro-brasov-mesh.desc": {
+    "value": "Rede MeshCore en Brașov coa predefinición EU/UK Narrow.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bd8dcbfa"
+  },
+  "community.ro-meshcore-iasi.desc": {
+    "value": "Rede MeshCore en Iași cun panel en directo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eacc34d4"
+  },
+  "community.es-meshcore-catalunya.desc": {
+    "value": "Punto de encontro da comunidade catalá cun mapa en directo, un analizador e guías de hardware.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5357e7fd"
+  },
+  "community.es-nomadmesh.desc": {
+    "value": "Rede MeshCore comunitaria nas Alpujarras.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ee8acd03"
+  },
+  "community.ua-meshcore-ua.desc": {
+    "value": "Mesh pública xestionada por voluntarios para manter o contacto en toda Ucraína, con listas de repetidores, bots e canles.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "96fe6d7d"
+  },
+  "community.gb-ipnet.desc": {
+    "value": "Comunidade de Ipswich que dá servizo ao leste de Inglaterra, con paneis CoreScope e servizos MQTT.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "114be940"
+  },
+  "community.gb-meshcore-wales.desc": {
+    "value": "Axustes de radio e canles comúns para o sur de Gales e o oeste.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "726b552a"
+  },
+  "community.gb-northmesh.desc": {
+    "value": "Rede do norte de Inglaterra cun mapa en directo de repetidores, actividade de paquetes e cobertura.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a1345cca"
+  },
+  "map.meshcore-official-map.desc": {
+    "value": "O mapa mundial do propio proxecto, cos nodos que os seus donos decidiron publicar. Podes filtralo por tipo de nodo e frecuencia de radio.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1509cafa"
+  },
+  "map.meshmapper.desc": {
+    "value": "Mapas de cobertura feitos a partir de saídas de wardriving de voluntarios locais, divididos en mapas rexionais, con rexións en toda Europa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f333e608"
+  },
+  "map.eu-meshcore-analyzer.desc": {
+    "value": "Analizador europeo compartido que une os datos de observadores de varios brokers comunitarios nunha soa vista en directo de nodos, paquetes e canles.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aa93a1ba"
+  },
+  "map.nl-dmc-observers.desc": {
+    "value": "Panel en directo dos observadores que informan aos colectores MQTT de Dutch MeshCore (DMC).",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1da8752e"
+  },
+  "map.nl-mc-radar.desc": {
+    "value": "Estatísticas da mesh neerlandesa, con gráficas de capacidade, tráfico de canles, actividade de nodos e saúde do protocolo a partir de datos de observadores neerlandeses.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a54bab7e"
+  },
+  "map.cz-analyzer.desc": {
+    "value": "Instancia de CoreScope para a rede checa con paquetes en directo, mapa de nodos e estatísticas por nodo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ade9ad40"
+  },
+  "map.fi-corescope.desc": {
+    "value": "Analizador CoreScope finlandés que mostra a rede MeshCore nacional nun mapa con paquetes en directo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9fa0aa59"
+  },
+  "map.se-meshat-corescope.desc": {
+    "value": "Analizador CoreScope sueco alimentado polo broker MQTT de MeshCore de Meshat.se.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a1e700c6"
+  },
+  "map.fr-cartolite.desc": {
+    "value": "Mapa en directo autoaloxado do tráfico MeshCore mundial, que debuxa enlaces oídos, paquetes en directo e un mapa de calor sobre un mapa de relevo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "abcdec75"
+  },
+  "map.ee-litescope.desc": {
+    "value": "Analizador estoniano lixeiro con paquetes en directo, mapa de nodos, estatísticas de sinal e resumo de observadores.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "040c7753"
+  },
+  "map.ie-mayomesh-live.desc": {
+    "value": "Mapa irlandés en tempo real de nodos, rutas de mensaxes e camiños de anuncios, con ferramentas de cobertura, liña de visión e propagación.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "244a4a53"
+  },
+  "map.de-meshcorenetz-analyzer.desc": {
+    "value": "O MeshCore Analyzer coas cores de MeshCoreNetz.de, que se abre no norte de Alemaña.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7c597271"
+  },
+  "map.de-meshdresden-analyzer.desc": {
+    "value": "O MeshCore Analyzer coas cores de MeshDresden.eu, a mesh comunitaria de Dresde.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b7456441"
+  },
+  "map.nl-cornmeister.desc": {
+    "value": "O MeshCore Analyzer coas cores de Cornmeister.nl, que se abre nos Países Baixos.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69efcf8b"
+  },
+  "map.be-bemesh-map.desc": {
+    "value": "Mapa de clientes, repetidores, servidores de sala e sensores belgas, onde os donos poden reclamar o seu nodo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "37af8d74"
+  },
+  "map.be-on8ar-corescope.desc": {
+    "value": "Analizador CoreScope para o tráfico que se oe en Bélxica.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97d8adf0"
+  },
+  "map.is-corescope.desc": {
+    "value": "Analizador CoreScope para a rede islandesa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9441de4b"
+  },
+  "map.pl-meshcore-polska-map.desc": {
+    "value": "Mapa en directo de clientes, repetidores, servidores de sala e sensores polacos.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57d86a21"
+  },
+  "map.fr-loramesh-map.desc": {
+    "value": "Mapa das zonas de Francia onde MeshCore está activo. A cobertura aínda é irregular fóra das grandes cidades.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "85632f3a"
+  },
+  "map.de-meshcore-de-regions.desc": {
+    "value": "Mapa editable de rexións MeshCore e grupos locais, sobre todo en Alemaña.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cec143bd"
+  },
+  "map.gb-ukmesh.desc": {
+    "value": "Análise da rede do Reino Unido con camiños e vistas en directo, alimentada por observadores.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "03a38df8"
+  },
+  "map.gb-meshrank.desc": {
+    "value": "Clasificacións e estatísticas de repetidores e rutas, principalmente no Reino Unido.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "997a9a6e"
+  },
+  "map.gb-m3sh-contacts.desc": {
+    "value": "A rede do Reino Unido tal como a oe un nodo de Oxfordshire, co hardware dos nodos e os prefixos duplicados.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cb2153f9"
+  },
+  "map.kiekr-map.desc": {
+    "value": "Que rexións de radio chegan a onde, calculado a partir dos veciños que observan os usuarios de KiekR.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9a3aceee"
+  },
+  "map.hopradar.desc": {
+    "value": "Conecta o teu propio nodo por Bluetooth ou USB e mira no navegador os saltos, camiños e SNR que oe.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ae215bf8"
+  },
+  "map.mapme-sh.desc": {
+    "value": "Mapa de cobertura feito con saídas de mapeo con móbiles por toda Europa, en hexágonos coloreados segundo a forza do sinal. Un xogo sinala os ocos da mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "23bca522"
+  },
+  "project.meshcore-firmware.desc": {
+    "value": "O firmware oficial de MeshCore e a biblioteca de enrutamento para placas LoRa, cos roles de companion, repetidor, servidor de sala e sensor.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bba821af"
+  },
+  "project.meshcore-js.desc": {
+    "value": "Biblioteca de JavaScript para comunicarse con radios companion de MeshCore desde navegadores e Node.js.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0b9ed81f"
+  },
+  "project.meshcore-py.desc": {
+    "value": "Bindings de Python para controlar unha radio companion de MeshCore por serie, Bluetooth ou TCP.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "305bd163"
+  },
+  "project.meshcore-cli.desc": {
+    "value": "Cliente de liña de comandos para enviar mensaxes a nodos MeshCore e xestionalos desde un terminal.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6f68e501"
+  },
+  "project.meshcore-ha.desc": {
+    "value": "Integración de Home Assistant que expón nodos, mensaxes e telemetría de MeshCore como entidades para monitorización e automatizacións.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8b5725be"
+  },
+  "project.meshcore-flasher.desc": {
+    "value": "Código fonte da ferramenta de navegador que flashea o firmware de MeshCore nas placas compatibles por USB.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ba3feb1b"
+  },
+  "project.meshcore-map.desc": {
+    "value": "Código fonte do mapa oficial de nodos, onde os donos poden publicar os seus nodos.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "91b7682b"
+  },
+  "project.openhop-repeater.desc": {
+    "value": "Daemon de repetidor en Python que converte un ordenador Linux cunha radio LoRa SPI nun repetidor compatible con MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d2bf1646"
+  },
+  "project.openhop-core.desc": {
+    "value": "Reimplementación en Python do protocolo e da pila de enrutamento de MeshCore, con soporte directo para radios LoRa SPI.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54ed7f73"
+  },
+  "project.meshcore-open.desc": {
+    "value": "Aplicación Flutter multiplataforma de código aberto para radios MeshCore por Bluetooth, USB serie ou TCP, con versión web incluída.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c322a23f"
+  },
+  "project.meshcoretomqtt.desc": {
+    "value": "Script que reenvía as capturas de paquetes dunha radio observadora MeshCore a un broker MQTT para analizadores.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "19dfb497"
+  },
+  "project.meshcore-mqtt-broker.desc": {
+    "value": "Broker MQTT que autentica os observadores coos seus pares de claves MeshCore en lugar de contrasinais.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ca27fa19"
+  },
+  "project.corescope.desc": {
+    "value": "Analizador de MeshCore autoaloxado que recibe paquetes por MQTT. Ofrece datos en directo, mapas, vistas de canles e estatísticas de nodos.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a74322db"
+  },
+  "project.litescope.desc": {
+    "value": "Panel lixeiro e autoaloxado para seguir unha rede MeshCore. A comunidade estoniana ten un en funcionamento.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dc42e5a"
+  },
+  "project.meshcore-hub.desc": {
+    "value": "Plataforma en Python dunha comunidade do Reino Unido. Recolle eventos MQTT nunha base de datos e ofrece unha API REST e un panel web.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "07442a84"
+  },
+  "project.potato-mesh.desc": {
+    "value": "Panel comunitario federado para MeshCore e outras redes mesh, que usa Berlin Chaos Mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7b98d4f7"
+  },
+  "project.meshcore-mqtt-live-map.desc": {
+    "value": "Mapa web en directo alimentado por datos MQTT de MeshCore, que mostra nodos, rutas e cobertura en tempo real.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e0380e74"
+  },
+  "project.meshcore-bot.desc": {
+    "value": "Bot en Python que responde a comandos nas canles de MeshCore e pode pasar mensaxes a Discord e Telegram.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "04a73c83"
+  },
+  "project.meshcore-channels.desc": {
+    "value": "Lista JSON de canles públicas de MeshCore, editable pola comunidade e agrupada por país, publicada para que a usen as aplicacións.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3bb8a9a"
+  },
+  "project.meshcore-regions.desc": {
+    "value": "Catálogo JSON dos códigos de rexión de MeshCore usados en todo o mundo, editable pola comunidade.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ea403726"
+  },
+  "project.zephcore.desc": {
+    "value": "Adaptación de MeshCore de Arduino ao sistema operativo en tempo real Zephyr.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d68923fa"
+  },
+  "project.meshcore-ng.desc": {
+    "value": "Fork neerlandés do firmware que engade melloras de repetidor para mesh densas e con moito tráfico, e segue sendo compatible cos clientes estándar.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5f288c67"
+  },
+  "project.meshcore-solo.desc": {
+    "value": "Fork do firmware companion que engade navegación GPS sen conexión con puntos de ruta, un compás e exportación a GPX.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1c9d0659"
+  },
+  "project.meshcore-c.desc": {
+    "value": "Implementación en C do protocolo MeshCore, sen dependencias, como biblioteca para calquera proxecto ou compoñente para ESP-IDF.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "327a07f8"
+  },
+  "project.lora-mesh-nodes.desc": {
+    "value": "Colección de deseños caseiros de nodos móbiles e solares con caixas, pezas imprimibles e listas de pezas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "637e2726"
+  },
+  "project.lora-harvester-box.desc": {
+    "value": "Placa de hardware aberto que combina un chip LoRa STM32WL cun captador de enerxía, para nodos LoRa de moi baixo consumo, entre eles MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6ecc7144"
+  },
+  "project.mesh-hunter.desc": {
+    "value": "Aplicación web para o móbil que se empareja cunha radio companion e rexistra cada paquete que oe coa túa posición GPS, para ir a pé ou en coche ata a orixe do tráfico non desexado. Pode compartir o que oe con brokers MQTT.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d0fb854e"
+  },
+  "project.eu-meshcore-analyzer.desc": {
+    "value": "Mapa en directo e analizador da rede MeshCore europea, alimentado por observadores e aplicacións móbiles que informan do que oen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fed133d8"
+  },
+  "project.dmc-triangulator.desc": {
+    "value": "Acota onde está un nodo a partir dos repetidores que o oíron, como primeira zona de busca antes dunha procura local.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f73b5e0b"
+  },
+  "project.kiekr.desc": {
+    "value": "Aplicación móbil para enviar mensaxes na mesh que tamén mapea a cobertura e pode subir o que oe a analizadores.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "05e5f56a"
+  },
+  "project.meshmapper.desc": {
+    "value": "Mapa de cobertura feito con wardriving, con instancias rexionais, broker MQTT propio e unha API aberta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1135e1cd"
+  },
+  "project.trail-mate.desc": {
+    "value": "Firmware de man sen conexión para o LilyGO T-LoRa Pager e o T-Deck, con navegación GPS e mensaxes de equipo por MeshCore e Meshtastic.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "86cd32a0"
+  },
+  "project.remote-terminal.desc": {
+    "value": "Cliente autoaloxado para unha radio MeshCore que garda e descifra os paquetes capturados nun servidor, con bots e MQTT.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90c11494"
+  },
+  "project.meshpoint.desc": {
+    "value": "Estación base con Raspberry Pi e un concentrador SX1302 ou SX1303 que escoita en varias canles á vez, cun panel local.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6c668061"
+  },
+  "project.easyskymesh.desc": {
+    "value": "Fork do firmware que aforra enerxía en repetidores e nodos sensores con batería ou cun panel solar pequeno.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3b1503dc"
+  },
+  "project.solar-os.desc": {
+    "value": "Pequeno sistema operativo centrado no texto para terminais de peto ESP32, cun companion MeshCore na súa propia radio ou nun nodo emparellado.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "23677e08"
+  },
+  "project.wio-tracker-l1-pro.desc": {
+    "value": "Firmware companion para o Seeed Wio Tracker L1 Pro cunha interface de usuario no propio dispositivo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b694d013"
+  },
+  "project.meshcore-one.desc": {
+    "value": "Aplicación nativa de MeshCore para iPhone, iPad e Mac.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "87505963"
+  },
+  "project.lunarcore.desc": {
+    "value": "Firmware en Rust para o Heltec WiFi LoRa 32 V3 que fala MeshCore, Meshtastic e outros protocolos.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f2c6fabd"
+  },
+  "project.meshcore-sar.desc": {
+    "value": "Aplicación sen conexión para equipos de busca e rescate: mensaxes, voz, imaxes, mapas e localizacións compartidas por MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "413c9353"
+  },
+  "project.cardputer-adv-stachugit.desc": {
+    "value": "Firmware companion para o M5Stack Cardputer ADV cun módulo LoRa, con pantalla de chat e temas de cor.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9ab883fb"
+  },
+  "project.meshcoreterm.desc": {
+    "value": "Firmware táctil de estilo retro para o LilyGO T-Deck, o Seeed SenseCAP Indicator e outras placas con pantalla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ac08cb0e"
+  },
+  "project.mesh-client.desc": {
+    "value": "Aplicación de escritorio para macOS, Linux e Windows que se comunica con radios MeshCore, Meshtastic e Reticulum.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61a3a731"
+  },
+  "project.mishmesh.desc": {
+    "value": "Firmware companion con interface propia na radio, para que envíes mensaxes sen un móbil emparellado.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9bde8382"
+  },
+  "project.overmesh.desc": {
+    "value": "Panel que executas no teu propio ordenador para MeshCore e Meshtastic, con mapa de nodos, chat, un bot e mapas sen conexión.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fbacbc50"
+  },
+  "project.meshcore-wardrive-android.desc": {
+    "value": "Aplicación de Android que mapea a cobertura de MeshCore mentres camiñas ou conduces.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6c9c49ec"
+  },
+  "project.akita-bridge.desc": {
+    "value": "Ponte que pasa mensaxes entre Meshtastic e MeshCore, por unha ligazón serie ou MQTT.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eff5e3a1"
+  },
+  "project.meshcore-packet-capture.desc": {
+    "value": "Script en Python que captura paquetes dunha radio companion e os publica en MQTT.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5325460e"
+  },
+  "project.cardputer-adv-sosprz.desc": {
+    "value": "Firmware companion para o M5Stack Cardputer ADV co Cap LoRa868, que se flashea con M5Burner.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cf8b55c5"
+  },
+  "project.lora-wideband-decoder.desc": {
+    "value": "Receptor de radio definida por software que descodifica tráfico MeshCore, Meshtastic e LoRaWAN nunha banda ampla, cunha páxina web local.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3e575ff"
+  },
+  "project.mc-webui.desc": {
+    "value": "Interface web sobre meshcore-cli, para enviar mensaxes desde un navegador.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3372c462"
+  },
+  "project.meshfirmware.desc": {
+    "value": "Scripts para Linux e Windows que elixen, compilan e flashean firmware de MeshCore e Meshtastic por USB.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be0d230e"
+  },
+  "project.repeater-mqtt-gateway.desc": {
+    "value": "Firmware de repetidor que tamén conecta a mesh a un broker MQTT, nos dous sentidos.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "23f7dfec"
+  },
+  "project.tak-meshcore.desc": {
+    "value": "Complemento que permite á aplicación de coñecemento da situación ATAK usar unha radio companion de MeshCore por Bluetooth.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "acbecd75"
+  },
+  "project.meshcore-decoder.desc": {
+    "value": "Biblioteca de TypeScript que descodifica paquetes MeshCore, descifrado incluído.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1235f40d"
+  },
+  "project.mesh-loader.desc": {
+    "value": "Arranque dual para o Heltec WiFi LoRa 32 V3 e V4: garda dous firmwares nunha placa e cambia entre eles.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be49552e"
+  },
+  "project.meshcore-proxy.desc": {
+    "value": "Proxy TCP que fai accesible unha radio companion por USB ou Bluetooth para aplicacións doutros ordenadores.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eaf24463"
+  },
+  "project.roadstr.desc": {
+    "value": "Avisos de incidencias na estrada sen servidor central: eventos Nostr asinados, transportados por MeshCore cando non hai internet.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "60e39810"
+  },
+  "project.domca-docs.desc": {
+    "value": "Documentación en neerlandés e inglés, desde o teu primeiro nodo ata como funcionan o protocolo, o firmware e a radio. Está escrita con axuda de ferramentas de IA, así que comproba os detalles do firmware no código fonte de MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c976aea"
+  },
+  "guides_group_start": {
+    "value": "O teu primeiro nodo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "276f7ca8"
+  },
+  "guides_group_setup": {
+    "value": "Configura o teu nodo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "55efd611"
+  },
+  "guides_group_deeper": {
+    "value": "Afonda máis",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6bce982b"
+  },
+  "guides_card_get_started_title": {
+    "value": "Primeiros pasos",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "guides_card_get_started_desc": {
+    "value": "Dunha placa nova á túa primeira mensaxe na mesh, en 6 pasos.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "133bcbfc"
+  },
+  "guides_card_devices_title": {
+    "value": "Dispositivos",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ba5121d"
+  },
+  "guides_card_devices_desc": {
+    "value": "Compara placas por rol, prezo e fonte de alimentación, e elixe a que che encaixa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cf3bba38"
+  },
+  "guides_card_settings_title": {
+    "value": "Axustes recomendados",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cfb32983"
+  },
+  "guides_card_settings_desc": {
+    "value": "A predefinición de radio que usa a túa zona e os axustes que cambiaron os teus veciños.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e18863a"
+  },
+  "guides_card_antenna_title": {
+    "value": "Guía de antenas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3a76cb0e"
+  },
+  "guides_card_antenna_desc": {
+    "value": "Unha antena axustada e un cable curto dan máis alcance ca unha potencia maior. Comproba a antena do teu companion, e elixe, conecta e monta unha para un repetidor.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3869e4e4"
+  },
+  "guides_card_repeater_title": {
+    "value": "Guía de repetidores",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4608abcd"
+  },
+  "guides_card_repeater_desc": {
+    "value": "Un repetidor retransmite as mensaxes para todos os que ten arredor. Colocación, os comandos para configuralo e os límites legais en 868 MHz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "979d61a1"
+  },
+  "guides_card_resilient_title": {
+    "value": "Fai a mesh resistente",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33ec7ac8"
+  },
+  "guides_card_resilient_desc": {
+    "value": "Algo perturba a mesh preto de ti? Descobre que é e activa no teu repetidor o axuste que o detén.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a0476ea5"
+  },
+  "guides_card_filter_title": {
+    "value": "Filtro de paquetes",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20a3ef1f"
+  },
+  "guides_card_filter_desc": {
+    "value": "Evita que o teu repetidor retransmita lixo, como un bot que nunca para ou unha canle ruidosa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2db3748c"
+  },
+  "guides_card_mqtt_title": {
+    "value": "MQTT no teu observador",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "62626d0f"
+  },
+  "guides_card_mqtt_desc": {
+    "value": "Un observador é un nodo que reenvía por MQTT o que oe. Configura un para un mapa ou un analizador.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "774395b6"
+  },
+  "guides_card_mctomqtt_title": {
+    "value": "Crea unha configuración de ponte",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fd2dd667"
+  },
+  "guides_card_mctomqtt_desc": {
+    "value": "Envía o que oe o teu repetidor a calquera broker MQTT: o teu ou o do Analyzer.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6c4d4692"
+  },
+  "guides_card_cli_title": {
+    "value": "Comandos CLI",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a13cc6cb"
+  },
+  "guides_card_cli_desc": {
+    "value": "Os comandos dun repetidor, cada un co que fai.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "977f43d6"
+  },
+  "firmware_card_flasher_title": {
+    "value": "Flashear",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3577cb5"
+  },
+  "firmware_card_flasher_desc": {
+    "value": "Pon MeshCore na túa placa desde o navegador, por USB.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0a1c2394"
+  },
+  "firmware_card_console_title": {
+    "value": "Consola serie",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4e3c41fa"
+  },
+  "firmware_card_console_desc": {
+    "value": "Escribe comandos para o teu repetidor desde o navegador, por USB.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f0d52063"
+  },
+  "firmware_card_changelog_title": {
+    "value": "Rexistro de cambios",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ead07c84"
+  },
+  "firmware_card_changelog_desc": {
+    "value": "Mira que cambiou en cada versión de MeshCore e se o teu nodo a necesita.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "314733fe"
+  },
+  "area_device_repeater": {
+    "value": "No teu repetidor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5cb30f9"
+  },
+  "area_device_companion": {
+    "value": "Na aplicación do teu companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e459238"
+  },
+  "area_change_nl_regions": {
+    "value": "Engade as rexións que atende o teu repetidor, cada unha dentro da anterior: Europa, Benelux, os Países Baixos, a túa provincia e a túa cidade. A túa provincia pasa a ser a predeterminada.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "593b1502"
+  },
+  "area_change_strict_regions": {
+    "value": "Descarta os paquetes sen rexión, para que non viaxen por toda Europa. Engade antes as rexións.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "11ca714d"
+  },
+  "area_change_zero_hop": {
+    "value": "Envía cada 4 horas o anuncio que oen os teus veciños directos.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0e990713"
+  },
+  "area_change_path_hash": {
+    "value": "Usa un hash de ruta de 2 bytes: distingue 65.536 repetidores en lugar de 256.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b63880c0"
+  },
+  "area_change_loop": {
+    "value": "Descarta os paquetes flood que volven en bucle polo teu repetidor. Un repetidor configurado coa versión 1.18 ou posterior xa o fai.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "44333e2e"
+  },
+  "area_change_dutycycle": {
+    "value": "Limita o teu repetidor a un 10 % de tempo de emisión.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8877399e"
+  },
+  "area_change_nl_companion_region": {
+    "value": "Nos axustes experimentais da aplicación, define nl como rexión predeterminada. Dálle a cada canle a súa rexión, como nl-nh para Holanda Setentrional.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3c31c16c"
+  },
+  "area_change_companion_path_hash": {
+    "value": "Nos axustes experimentais da aplicación, define en 2 bytes o tamaño predeterminado do hash de ruta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4e3414d1"
+  },
+  "area_preset": {
+    "value": "Predefinición de radio",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6fd605ec"
+  },
+  "area_path_hash": {
+    "value": "Hash de ruta (definido pola predefinición)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2e93a7f1"
+  },
+  "area_bytes": {
+    "value": "bytes",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "277089d9"
+  },
+  "area_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "area_or_newer": {
+    "value": "ou posterior",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e2cbdfd0"
+  },
+  "area_changes": {
+    "value": "Cambios respecto dos valores predeterminados de MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0587de6f"
+  },
+  "area_source_group": {
+    "value": "Axustes de",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f06dfa4f"
+  },
+  "area_source_preset": {
+    "value": "Predefinición da lista do proxecto MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "89d3440f"
+  },
+  "area_checked": {
+    "value": "comprobado",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e61a3d78"
+  },
+  "area_add_title": {
+    "value": "Engade a túa zona",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6ec76c28"
+  },
+  "area_add_body": {
+    "value": "O teu grupo local usa unha predefinición propia ou cambia axustes? Envíanos eses datos, cunha ligazón a onde os decidistes.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5976a5e5"
+  },
+  "area_add_cta": {
+    "value": "Engade a túa zona",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6ec76c28"
+  },
+  "area_link": {
+    "value": "Ligazón a esta zona",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "98909794"
+  },
+  "heading_link": {
+    "value": "Ligazón a esta sección",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9dc5baf3"
+  },
+  "toc_title": {
+    "value": "Nesta páxina",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5658fc8"
+  },
+  "regions_title": {
+    "value": "Rexións: de Europa á túa vila",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "698de558"
+  },
+  "regions_body": {
+    "value": "Unha rexión é un código para unha zona. As rexións están unhas dentro doutras: Europa, o teu país, a túa provincia e, nalgúns lugares, a túa vila. Dálle ao teu repetidor as rexións onde está, cada unha dentro da anterior. Retransmite mensaxes de calquera delas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3f05bbfc"
+  },
+  "regions_map_body": {
+    "value": "Os códigos en uso varían segundo a zona. O mapa mostra as rexións que usan os repetidores da túa contorna: usa as dos teus veciños, ou o teu repetidor descartará as súas mensaxes.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ccf2219"
+  },
+  "regions_europe": {
+    "value": "Europa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e595f45d"
+  },
+  "regions_pick": {
+    "value": "A túa provincia ou rexión",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ed5a1c0e"
+  },
+  "regions_pick_none": {
+    "value": "Elixe unha",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a880a59d"
+  },
+  "regions_region": {
+    "value": "A túa rexión, se a túa zona usa unha",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7ebba635"
+  },
+  "regions_town": {
+    "value": "A túa vila, se a túa zona usa unha",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a6221a2f"
+  },
+  "regions_map": {
+    "value": "Mapa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be176b00"
+  },
+  "regions_map_label": {
+    "value": "no mapa do MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2df2db10"
+  },
+  "regions_cmd_hint": {
+    "value": "Elixe a túa provincia, ou escribe o seu código sobre o valor resaltado, e despois copia.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54f7feb3"
+  },
+  "area_ph_hint": {
+    "value": "Escribe os teus propios valores sobre os resaltados e despois copia.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "04e515aa"
+  },
+  "area_ph_province": {
+    "value": "A túa provincia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "492cd073"
+  },
+  "area_ph_city": {
+    "value": "A túa cidade",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90064d5a"
+  },
+  "area_map_label": {
+    "value": "Mapa das zonas e da súa predefinición de radio",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b49bdce9"
+  },
+  "area_map_own": {
+    "value": "Predefinición ou axustes propios",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d7dec3ab"
+  },
+  "area_others_title": {
+    "value": "O resto da UE e o Reino Unido",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5b618852"
+  },
+  "area_country_label": {
+    "value": "O teu país",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "18f2456a"
+  },
+  "area_country_pick": {
+    "value": "Elixe un país",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "632aadfb"
+  },
+  "area_country_missing": {
+    "value": "O teu país non está na lista? Pregunta ao teu grupo local que predefinición usa, ou {link}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "64fd9026"
+  },
+  "area_country_missing_link": {
+    "value": "engade a túa zona",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "39737a2b"
+  },
+  "area_country_eu": {
+    "value": "{country} non ten predefinición propia na aplicación de MeshCore. Usa {preset}, a predefinición que MeshCore indica para a UE e o Reino Unido.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "221cd765"
+  },
+  "area_others_body": {
+    "value": "Estes países non teñen predefinición propia na aplicación de MeshCore. Usan EU/UK (Narrow), a predefinición que MeshCore indica para eles.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0fccb2a7"
+  },
+  "cli_groups": {
+    "value": "Grupos de comandos",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "70883ce1"
+  },
+  "cli_search": {
+    "value": "Buscar",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "49c266ba"
+  },
+  "cli_node_q": {
+    "value": "Que nodo?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5f669f2f"
+  },
+  "cli_node_repeater": {
+    "value": "Repetidor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "cli_node_room_server": {
+    "value": "Servidor de sala",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68b91cc5"
+  },
+  "cli_node_sensor": {
+    "value": "Sensor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "162cc64c"
+  },
+  "cli_node_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dadb328"
+  },
+  "cli_link": {
+    "value": "Ligazón a este comando",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8545494"
+  },
+  "cli_default": {
+    "value": "Comeza en",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "faca355f"
+  },
+  "cli_in_source": {
+    "value": "onde o define o firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4de4eaa8"
+  },
+  "cli_range": {
+    "value": "Valores",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "53b09e10"
+  },
+  "cli_nodes": {
+    "value": "Funciona en",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c85fc5a0"
+  },
+  "cli_since": {
+    "value": "Require o firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5bf596e9"
+  },
+  "cli_build": {
+    "value": "Só en firmware compilado con",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bb208568"
+  },
+  "cli_build_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "176c7866"
+  },
+  "cli_build_sensors": {
+    "value": "sensores",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e22dfb01"
+  },
+  "cli_build_bridge": {
+    "value": "unha ponte",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5a0b83ee"
+  },
+  "cli_build_ethernet": {
+    "value": "Ethernet",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "681e1209"
+  },
+  "cli_build_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10df5f54"
+  },
+  "cli_group_operational": {
+    "value": "Reinicio, restablecemento e actualización",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a49f50c1"
+  },
+  "cli_group_adverts": {
+    "value": "Anuncios",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8b8ad4a7"
+  },
+  "cli_group_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2a7dfeb2"
+  },
+  "cli_group_system": {
+    "value": "Nome, contrasinal e reloxo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a96ceeac"
+  },
+  "cli_group_routing": {
+    "value": "Encamiñamento",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bcba696f"
+  },
+  "cli_group_regions": {
+    "value": "Rexións",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "610c65d8"
+  },
+  "cli_group_access": {
+    "value": "Acceso",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ec5ba0ab"
+  },
+  "cli_group_neighbours": {
+    "value": "Veciños",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "24be7e7c"
+  },
+  "cli_group_statistics": {
+    "value": "Estatísticas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a656107e"
+  },
+  "cli_group_logging": {
+    "value": "Rexistro",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d3ef01b4"
+  },
+  "cli_group_info": {
+    "value": "Versión e placa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9a90dcaa"
+  },
+  "cli_group_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "176c7866"
+  },
+  "cli_group_sensors": {
+    "value": "Sensores",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "76140e34"
+  },
+  "cli_group_bridge": {
+    "value": "Ponte",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3892e103"
+  },
+  "cli_group_ethernet": {
+    "value": "Ethernet",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "681e1209"
+  },
+  "cli_group_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10df5f54"
+  },
+  "cmd_reboot_desc": {
+    "value": "Reinicia o nodo de inmediato, e o nodo non che envía resposta. Úsao para aplicar axustes que só funcionan tras un reinicio.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6850ad24"
+  },
+  "cmd_poweroff_desc": {
+    "value": "Apaga o nodo nas placas compatibles, sen enviar resposta. Para arrancalo de novo precisas o botón de acendido ou cortar e devolver a alimentación.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5088476d"
+  },
+  "cmd_clkreboot_desc": {
+    "value": "Leva o reloxo a unha data antiga e reinicia o nodo sen resposta. Úsao cando o reloxo vai adiantado e non admite volver atrás.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d02bbe66"
+  },
+  "cmd_clock_desc": {
+    "value": "Mostra o reloxo do nodo en UTC, ou axústao a unha hora Unix en segundos. O reloxo só avanza, así que usa antes clkreboot para volver atrás.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0193d15f"
+  },
+  "cmd_clock_sync_desc": {
+    "value": "Axusta o reloxo do nodo á hora que o teu companion envía con este comando. Só funciona a través da malla, porque a consola serie non envía a hora.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "39198623"
+  },
+  "cmd_start_ota_desc": {
+    "value": "Inicia unha actualización de firmware sen fíos nas placas ESP32 e nRF52 compatibles. ESP32 abre un punto de acceso WiFi, nRF52 inicia unha actualización por Bluetooth.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69bd5985"
+  },
+  "cmd_erase_desc": {
+    "value": "Borra o sistema de ficheiros do nodo, cos seus axustes e identidade, só desde a consola serie. Úsao para un restablecemento de fábrica, porque non podes desfacelo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e781518d"
+  },
+  "cmd_room_post_desc": {
+    "value": "Publica unha mensaxe na sala en nome do propio servidor de sala. Todas as persoas da sala recíbena como calquera outra publicación.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "88a6e1f5"
+  },
+  "cmd_advert_desc": {
+    "value": "Envía agora un anuncio de inundación, para que os nodos de toda a malla coñezan este nodo. Úsao despois de cambiar o nome ou a localización.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "21526c3a"
+  },
+  "cmd_advert_zerohop_desc": {
+    "value": "Envía un anuncio só aos veciños directos, e ningún repetidor o reenvía. Úsao para anunciar o nodo nas proximidades sen cargar toda a malla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dfbc07b6"
+  },
+  "cmd_advert_interval_desc": {
+    "value": "Define cada cantos minutos envía o nodo un anuncio de cero saltos aos veciños. Usa 0 para detelos; calquera cambio gardado tamén detén os intervalos menores de 60.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f99f3d5f"
+  },
+  "cmd_flood_advert_interval_desc": {
+    "value": "Define cada cantas horas envía o nodo un anuncio de inundación por toda a malla. Usa 0 para deter por completo os anuncios de inundación automáticos deste nodo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6473270c"
+  },
+  "cmd_neighbours_desc": {
+    "value": "Lista os repetidores que este nodo escoitou directamente, co máis recente primeiro. Cada liña mostra un prefixo da chave, os segundos desde que se escoitou e o SNR multiplicado por 4.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9bd6e27f"
+  },
+  "cmd_neighbour_remove_desc": {
+    "value": "Elimina todos os veciños cuxa chave pública comeza polo prefixo hex que indiques. Úsao para quitar un repetidor antigo da lista de veciños.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c1b8c616"
+  },
+  "cmd_discover_neighbours_desc": {
+    "value": "Pide aos repetidores ao alcance directo que respondan, e engade cada resposta aos veciños. Úsao para encher a lista sen agardar polos seus anuncios. Un repetidor cos dous intervalos de anuncio a 0, ou coa repetición desactivada, non responde.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1ab216ce"
+  },
+  "cmd_clear_stats_desc": {
+    "value": "Pon a cero os contadores de paquetes, de radio e centrais do nodo. Úsao antes de medir o tráfico durante un período determinado.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ead62ceb"
+  },
+  "cmd_stats_core_desc": {
+    "value": "Mostra a tensión da batería, o tempo acendido, o número de erros e a lonxitude da cola de transmisión do nodo. Só funciona na consola serie, non a través da malla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ba9fa3d2"
+  },
+  "cmd_stats_radio_desc": {
+    "value": "Mostra o nivel de ruído, os últimos RSSI e SNR, e o tempo de emisión gastado en enviar e recibir. Só funciona na consola serie, non a través da malla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bedd2bf2"
+  },
+  "cmd_stats_packets_desc": {
+    "value": "Mostra cantos paquetes recibiu e enviou o nodo, separados en inundación e directos. Só funciona na consola serie, non a través da malla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d8a3b4d1"
+  },
+  "cmd_log_capture_desc": {
+    "value": "Inicia ou detén a escritura en ficheiro de todos os paquetes que o nodo recibe e envía. Úsao para capturar tráfico, e despois leo co comando log.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "79dcb812"
+  },
+  "cmd_log_erase_desc": {
+    "value": "Elimina o ficheiro de rexistro de paquetes do almacenamento do nodo. Úsao para liberar espazo ou para empezar unha captura limpa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c32fe03"
+  },
+  "cmd_log_desc": {
+    "value": "Imprime o rexistro de paquetes capturado, liña a liña, na consola serie. Só funciona na consola serie, non a través da malla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "59c80f62"
+  },
+  "cmd_ver_desc": {
+    "value": "Mostra a versión do firmware e a data de compilación do nodo. Úsao para comprobar que versión ten antes de actualizar.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c0752f1b"
+  },
+  "cmd_board_desc": {
+    "value": "Mostra o nome da placa para a que se compilou o firmware. Úsao para comprobar que instalaches o firmware correcto.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3e5ed786"
+  },
+  "cmd_power_desc": {
+    "value": "Mostra a tensión da batería, e se o USB, o solar, a alimentación externa e o cargador están activos. Unha placa que non detecta USB ou solar mostra n/a nese dato.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4e5129e4"
+  },
+  "cmd_public_key_desc": {
+    "value": "Mostra a chave pública completa do nodo en hex. Compártea cando alguén pregunte cal é o teu nodo, ou cando o dono dun repetidor lle dea un rol ao teu companion con setperm.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d754bc23"
+  },
+  "cmd_role_desc": {
+    "value": "Mostra que firmware usa o nodo: repeater, room_server ou sensor. Úsao para comprobar o rol antes de cambiar axustes en remoto.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "627a92c5"
+  },
+  "cmd_bootloader_ver_desc": {
+    "value": "Mostra a versión do cargador de arranque das placas nRF52. En calquera outra placa, o nodo responde que o comando non é compatible.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a3e90e05"
+  },
+  "cmd_pwrmgt_support_desc": {
+    "value": "Mostra se esta compilación do firmware inclúe a xestión de enerxía para placas nRF52. Os demais comandos pwrmgt precisan esta compatibilidade para dar unha resposta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "139d6f9d"
+  },
+  "cmd_pwrmgt_source_desc": {
+    "value": "Mostra se o nodo funciona con alimentación externa ou coa batería. Só as compilacións de firmware con xestión de enerxía para nRF52 che dan esta resposta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ee83fb61"
+  },
+  "cmd_pwrmgt_bootreason_desc": {
+    "value": "Mostra por que se reiniciou o nodo e por que se apagou a última vez. Úsao para descubrir por que un nodo se reiniciou só.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "de8338c0"
+  },
+  "cmd_pwrmgt_bootmv_desc": {
+    "value": "Mostra a tensión da batería en millivoltios que o nodo mediu no arranque. Só as compilacións de firmware con xestión de enerxía para nRF52 che dan esta resposta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ff3b5c66"
+  },
+  "cmd_radio_desc": {
+    "value": "Define a frecuencia, o ancho de banda, o factor de espallamento e a taxa de codificación do nodo. Todos os nodos da túa malla precisan os mesmos valores; reinicia para aplicalos.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf443364"
+  },
+  "cmd_tx_desc": {
+    "value": "Define a potencia de transmisión do chip LoRa en dBm, e aplícase de inmediato. As placas cun amplificador adicional emiten máis ca este valor.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0b7d55b8"
+  },
+  "cmd_tempradio_desc": {
+    "value": "Cambia a outros axustes de radio durante un número determinado de minutos, sen gardalos. Úsao para probar novos axustes en remoto, cunha volta automática.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "37b19209"
+  },
+  "cmd_freq_desc": {
+    "value": "Define só a frecuencia en MHz, e a forma set só funciona pola consola serie. Reinicia despois o nodo, porque a nova frecuencia só se aplica tras un reinicio.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aabd4b62"
+  },
+  "cmd_radio_rxgain_desc": {
+    "value": "Activa ou desactiva a ganancia de recepción reforzada do chip de radio. Unha radio sen este modo responde que o axuste non é compatible.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ecacba86"
+  },
+  "cmd_radio_fem_rxgain_desc": {
+    "value": "Activa ou desactiva o amplificador de recepción dun módulo frontal de radio externo. Só o admiten as placas cun módulo frontal que poidas controlar.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c71d7980"
+  },
+  "cmd_radio_fem_txgain_desc": {
+    "value": "Cambia a ganancia de transmisión dun módulo frontal de radio externo entre os seus 2 niveis. Só o admiten as placas cun módulo frontal que poidas controlar.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d3f049e3"
+  },
+  "cmd_extra_sf_desc": {
+    "value": "Fai que unha radio LR2021 escoite tamén ata 3 factores de espallamento adicionais. Indícaos nunha lista separada por comas; as demais radios non aceptan a forma set.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d14313eb"
+  },
+  "cmd_repeat_desc": {
+    "value": "Activa ou desactiva o reenvío de paquetes doutros nodos. Desactívao para manter un nodo no aire sen repetir. Un servidor de sala négase a activalo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c66ee723"
+  },
+  "cmd_path_hash_mode_desc": {
+    "value": "Define o tamaño do hash que este nodo escribe nas rutas dos paquetes que envía. O modo 0 usa 1 byte, o 1 usa 2 e o 2 usa 3.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "486f2338"
+  },
+  "cmd_loop_detect_desc": {
+    "value": "Descarta os paquetes de inundación que xa levan o hash deste repetidor na ruta demasiadas veces. Un nivel máis estrito descarta un paquete en bucle tras menos repeticións. Un repetidor actualizado desde unha versión antiga conserva o nivel que tiña.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7192683e"
+  },
+  "cmd_txdelay_desc": {
+    "value": "Define a espera aleatoria antes de que o nodo repita un paquete de inundación, en proporción ao tempo de emisión. Un valor máis alto evita colisións entre repetidores, pero engade atraso.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc0b9e0e"
+  },
+  "cmd_direct_txdelay_desc": {
+    "value": "Define a espera aleatoria antes de que o nodo repita un paquete directo, en proporción ao tempo de emisión. Os paquetes directos precisan menos espera, porque os repiten menos nodos.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0f14a917"
+  },
+  "cmd_rxdelay_desc": {
+    "value": "Retén os paquetes de inundación débiles antes de procesalos, para que as rutas con sinal forte repitan primeiro. Usa 0 para procesar cada paquete de inmediato, sexa cal sexa o seu sinal.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9eca669b"
+  },
+  "cmd_dutycycle_desc": {
+    "value": "Limita a parte do tempo que o nodo dedica a transmitir, como porcentaxe. Ponlle o límite que se aplica á túa banda de frecuencia.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46f7ce95"
+  },
+  "cmd_af_desc": {
+    "value": "Define o factor de tempo de emisión, a forma antiga de limitar o ciclo de traballo do nodo. Usa no seu lugar dutycycle; un af de 9 equivale ao 10 por cento.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "80189809"
+  },
+  "cmd_int_thresh_desc": {
+    "value": "Considera a canle ocupada cando le estes dB por riba do nivel de ruído. Entón o nodo agarda antes de transmitir; 0 desactiva a comprobación.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "32eb85ce"
+  },
+  "cmd_cad_desc": {
+    "value": "Fai que a radio escoite se hai actividade na canle antes de cada transmisión. O nodo agarda para enviar mentres a canle está ocupada.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "998c2731"
+  },
+  "cmd_agc_reset_interval_desc": {
+    "value": "Restablece o control automático de ganancia da radio cada certo número de segundos. O nodo redondea á baixa a un múltiplo de 4; 0 desactívao.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aa321448"
+  },
+  "cmd_multi_acks_desc": {
+    "value": "Envía copias adicionais de cada confirmación para mellorar a entrega en enlaces débiles. Usa 0 para enviar cada confirmación unha soa vez, sen copias adicionais.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b2c80c40"
+  },
+  "cmd_flood_max_desc": {
+    "value": "Define o número de saltos tras o que este nodo deixa de repetir un paquete de inundación. Baíxao para evitar que as inundacións cheguen lonxe na malla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dee460b4"
+  },
+  "cmd_flood_max_unscoped_desc": {
+    "value": "Define o límite de saltos para os paquetes de inundación sen rexión. Baíxao para manter ese tráfico preto da túa zona.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1003a06a"
+  },
+  "cmd_flood_max_advert_desc": {
+    "value": "Define o límite de saltos para os anuncios de inundación que repite este nodo. Baíxao para evitar que os anuncios crucen toda a malla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57c129b9"
+  },
+  "cmd_name_desc": {
+    "value": "Define o nome que os outros nodos ven nos anuncios deste nodo. Os caracteres [ ] \\ : , ? * non están permitidos.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08e6c872"
+  },
+  "cmd_lat_desc": {
+    "value": "Define a latitude en graos decimais que este nodo comparte nos seus anuncios. Úsao con lon para colocar o nodo no lugar correcto dun mapa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ea083178"
+  },
+  "cmd_lon_desc": {
+    "value": "Define a lonxitude en graos decimais que este nodo comparte nos seus anuncios. Úsao con lat para colocar o nodo no lugar correcto dun mapa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fe5f8039"
+  },
+  "cmd_prv_key_desc": {
+    "value": "Mostra ou substitúe a chave privada, que define a identidade do nodo. A forma get só funciona pola consola serie; reinicia despois de definir unha chave.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3500931c"
+  },
+  "cmd_password_desc": {
+    "value": "Cambia o contrasinal de administración e devolve o novo para que poidas comprobalo. Cámbiao en cada nodo novo, porque o predeterminado é público.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a33a87f1"
+  },
+  "cmd_guest_password_desc": {
+    "value": "Define o contrasinal de convidado; nun servidor de sala dá acceso de lectura e escritura. Compárteo coas persoas que queiras deixar entrar na sala.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67348593"
+  },
+  "cmd_owner_info_desc": {
+    "value": "Define un texto de contacto que outras persoas poden pedirlle ao nodo, como o teu nome. Escribe un carácter | onde queiras que empece unha liña nova.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "928a68a4"
+  },
+  "cmd_adc_multiplier_desc": {
+    "value": "Corrixe a lectura da tensión da batería do nodo cun multiplicador para a túa placa. Usa 0 para volver ao valor que define a propia placa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0383a608"
+  },
+  "cmd_powersaving_desc": {
+    "value": "Permite que o nodo durma entre actividades de radio para aforrar batería. Funciona nas placas nRF52 e nas compilacións ESP32 sen ponte.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3e791562"
+  },
+  "cmd_setperm_desc": {
+    "value": "Dálle a un companion un rol neste nodo, buscándoo pola súa chave pública. Usa 0 para eliminar a entrada; os demais roles precisan a chave completa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "93a740af"
+  },
+  "cmd_acl_desc": {
+    "value": "Imprime a lista de acceso cos permisos e a chave pública de cada companion. Só funciona na consola serie, non a través da malla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "784d80d9"
+  },
+  "cmd_allow_read_only_desc": {
+    "value": "Permite que as persoas cun contrasinal incorrecto ou baleiro entren nun servidor de sala con acceso de só lectura. Desactívao para admitir só a quen coñeza o contrasinal.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a845f89b"
+  },
+  "cmd_region_desc": {
+    "value": "Mostra a árbore completa de rexións do nodo, co indicador de inundación de cada rexión. Un F significa que se permite a inundación e ^ marca a rexión de orixe.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "07dd7f25"
+  },
+  "cmd_region_load_desc": {
+    "value": "Inicia a entrada en bloque dunha árbore de rexións, unha rexión por liña, con sangría de espazos. Engade F para permitir a inundación, e envía unha liña en branco para rematar.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d2da253a"
+  },
+  "cmd_region_save_desc": {
+    "value": "Garda os teus cambios de rexións no almacenamento do nodo, para que sobrevivan a un reinicio. Execútao despois de cada cambio de rexión que queiras conservar.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bd6cb636"
+  },
+  "cmd_region_flood_desc": {
+    "value": "Permite ou bloquea a repetición de paquetes de inundación dunha rexión. Usa * para os paquetes que non levan ningunha rexión.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "58acd9db"
+  },
+  "cmd_region_get_desc": {
+    "value": "Mostra unha rexión coa súa rexión nai, e un F cando se permite a inundación nela. Úsao para comprobar unha soa rexión sen ler toda a árbore.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33ef40c6"
+  },
+  "cmd_region_home_desc": {
+    "value": "Mostra ou define a rexión de orixe, que a árbore de rexións marca cun ^. Executa despois region save para conservar o cambio tras un reinicio.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90b9c539"
+  },
+  "cmd_region_default_desc": {
+    "value": "Mostra ou define a rexión que o nodo pon nos seus propios paquetes de inundación, como os anuncios. O nodo garda o cambio de inmediato; <null> bórraa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b478cd71"
+  },
+  "cmd_region_put_desc": {
+    "value": "Engade unha rexión baixo o comodín ou baixo a rexión nai que indiques, coa inundación permitida. Executa despois region save para conservar a nova rexión tras un reinicio.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90f4ec6d"
+  },
+  "cmd_region_def_desc": {
+    "value": "Constrúe unha árbore de rexións nunha liña, con cada nome como filla do anterior. Escribe name|jump para continuar o seguinte nome desde unha rexión anterior.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "80bfbfce"
+  },
+  "cmd_region_remove_desc": {
+    "value": "Elimina unha rexión polo seu nome exacto, cando xa non ten rexións fillas. Executa despois region save para que a eliminación sobreviva a un reinicio.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0677775b"
+  },
+  "cmd_region_list_desc": {
+    "value": "Lista os nomes das rexións onde se permite a inundación, ou onde está bloqueada. Úsao para unha comprobación rápida sen a árbore completa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8156296"
+  },
+  "cmd_gps_desc": {
+    "value": "Mostra se o GPS está acendido, se ten posición fixada e cantos satélites ve. As formas on e off acenden ou apagan o GPS e gardan a opción.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6b7484f4"
+  },
+  "cmd_gps_diag_desc": {
+    "value": "Mostra se o GPS está acendido, cantos satélites ve e se ten posición fixada. Úsao cando o nodo non obtén posición.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f5838af7"
+  },
+  "cmd_gps_sync_desc": {
+    "value": "Axusta o reloxo do nodo coa hora que recibe o GPS. Úsao cando o nodo non ten outra fonte de hora correcta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9992274d"
+  },
+  "cmd_gps_setloc_desc": {
+    "value": "Copia a posición actual do GPS na latitude e lonxitude gardadas do nodo. Úsao unha vez no lugar, e despois apaga o GPS.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2e7052c8"
+  },
+  "cmd_gps_advert_desc": {
+    "value": "Escolle a posición dos anuncios: none, GPS en directo ou os lat e lon gardados. Usa none para manter privada a localización do nodo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e7bb3d85"
+  },
+  "cmd_sensor_list_desc": {
+    "value": "Lista os axustes personalizados do xestor de sensores cos seus valores. Unha lista longa remata co índice desde o que continuar.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "af32a1b7"
+  },
+  "cmd_sensor_setting_desc": {
+    "value": "Le ou cambia un axuste personalizado do xestor de sensores polo seu nome. Usa antes sensor list para ver que nomes ofrece a placa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c470cf70"
+  },
+  "cmd_io_desc": {
+    "value": "Le ou escribe os pins GPIO da placa como unha máscara de bits en hex. Pon r, s ou t antes da máscara para restablecer, activar ou inverter bits.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ede2acc1"
+  },
+  "cmd_bridge_type_desc": {
+    "value": "Mostra que ponte leva integrada este firmware: rs232, espnow ou none. Úsao para comprobar que instalaches unha compilación con ponte.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54cbb77e"
+  },
+  "cmd_bridge_enabled_desc": {
+    "value": "Activa ou desactiva a ponte; esta copia paquetes entre a malla e outro enlace. Ese enlace é un cable serie ou ESP-NOW, segundo a compilación.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7249ccd6"
+  },
+  "cmd_bridge_delay_desc": {
+    "value": "Define cantos milisegundos agarda a ponte antes de reenviar un paquete. Súbeo cando os paquetes da ponte collidan co tráfico da malla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c8895baa"
+  },
+  "cmd_bridge_source_desc": {
+    "value": "Escolle se a ponte copia os paquetes que este nodo recibe ou os que envía. Escribe rx ou tx para definilo; get responde con logRx ou logTx.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d81577c2"
+  },
+  "cmd_bridge_baud_desc": {
+    "value": "Define a velocidade serie dunha ponte RS-232 en baudios. Os dous extremos do cable serie precisan a mesma velocidade.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7322814d"
+  },
+  "cmd_bridge_channel_desc": {
+    "value": "Define a canle WiFi que usa unha ponte ESP-NOW para o seu enlace. Cada ponte que fale con esta precisa a mesma canle.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "924d978f"
+  },
+  "cmd_bridge_secret_desc": {
+    "value": "Define o segredo compartido que cifra os paquetes nunha ponte ESP-NOW. Usa o mesmo segredo en cada ponte que fale con esta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b1df9356"
+  },
+  "cmd_eth_status_desc": {
+    "value": "Mostra o enderezo IP e o porto da consola Ethernet, ou que está desconectada. Funciona nas consolas serie e Ethernet, non a través da malla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b27f99e8"
+  },
+  "cmd_pin_desc": {
+    "value": "Define o PIN de Bluetooth que o teu teléfono pide ao emparellar, tras un reinicio. Con 0, unha placa con pantalla mostra un PIN novo en cada arranque, e unha sen pantalla usa 123456.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "82dc0ee0"
+  },
+  "cmd_tz_offset_desc": {
+    "value": "Define o teu fuso horario en horas enteiras respecto de UTC. O companion úsao para o reloxo da súa pantalla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d2a9942a"
+  },
+  "cmd_wifi_ssid_desc": {
+    "value": "Mostra ou define o nome da rede WiFi á que se une o companion. Define tamén wifi.pwd, e despois reinicia para conectar.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e53eb6a"
+  },
+  "cmd_wifi_pwd_desc": {
+    "value": "Mostra ou define o contrasinal da rede WiFi, e reinicia para aplicalo. Un contacto ao que permitas enviar comandos tamén pode lelo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "15b5453a"
+  },
+  "cmd_wifi_enabled_desc": {
+    "value": "Activa o WiFi con 1 ou desactívao con 0, tras un reinicio. Sen nome de rede, o companion non inicia o WiFi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7dbbf8f1"
+  },
+  "cmd_wifi_clear_desc": {
+    "value": "Elimina do companion o nome e o contrasinal da rede WiFi. Reinicia para aplicar o cambio.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "29938727"
+  },
+  "cmd_wifi_status_desc": {
+    "value": "Mostra se o companion está conectado ao WiFi, e o seu enderezo IP na túa rede. O companion acepta conexións da app nese enderezo, no porto 5000.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "38894245"
+  },
+  "keygen_find_title": {
+    "value": "1. Busca un prefixo libre",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "23440ddd"
+  },
+  "keygen_find_body": {
+    "value": "A ferramenta de prefixos mostra que prefixos usan xa os nodos, e suxire un libre.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8b4149b8"
+  },
+  "keygen_find_link": {
+    "value": "Abrir a ferramenta de prefixos",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ad418bc8"
+  },
+  "keygen_make_title": {
+    "value": "2. Crea unha chave con el",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "55671108"
+  },
+  "keygen_needs_js": {
+    "value": "Esta ferramenta funciona no teu navegador e precisa JavaScript.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9128273b"
+  },
+  "keygen_prefix_label": {
+    "value": "Prefixo, en hex",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c5fe4703"
+  },
+  "keygen_prefix_hint": {
+    "value": "2 caracteres para 1 byte, 4 para 2 bytes. O firmware rexeita 00 e FF.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "60646fe6"
+  },
+  "keygen_make": {
+    "value": "Crear unha chave",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f2e49767"
+  },
+  "keygen_stop": {
+    "value": "Deter",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cae7d57b"
+  },
+  "keygen_working": {
+    "value": "Probando chaves: {n} ata agora.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10781c37"
+  },
+  "keygen_done": {
+    "value": "Atopada tras {n} intentos.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8495a72b"
+  },
+  "keygen_stopped": {
+    "value": "Detido. Téntao de novo, ou escolle un prefixo máis curto.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "731c66a8"
+  },
+  "keygen_bad": {
+    "value": "Escribe 2 ou 4 caracteres hex (0-9, a-f), sen comezar por 00 nin FF.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9569dc0f"
+  },
+  "keygen_unsupported": {
+    "value": "O teu navegador non pode crear chaves Ed25519. Usa Chrome 137, Firefox 129, Safari 17 ou máis recentes.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "70cf8b1d"
+  },
+  "keygen_set_title": {
+    "value": "3. Ponla no teu repetidor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "37e17307"
+  },
+  "keygen_set_body": {
+    "value": "Executa este comando no teu repetidor, e despois reinícialo. Conserva os seus axustes e a lista de acceso, pero pasa a ser un nodo novo para todo o mundo. Engádeo de novo na app tras o seu primeiro anuncio.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c80b8962"
+  },
+  "keygen_public": {
+    "value": "Chave pública",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ee252fb"
+  },
+  "keygen_secret": {
+    "value": "Esta é a chave privada do teu repetidor. Quen a teña pode actuar como o teu repetidor, así que gárdaa só para ti. Creouna o teu navegador, e esta páxina non a envía a ningures.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b4d3d7d1"
+  },
+  "guides_card_keygen_title": {
+    "value": "Xerar unha chave",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e798fa1b"
+  },
+  "guides_card_keygen_desc": {
+    "value": "Dálle ao teu repetidor un prefixo que non use ningún repetidor preto de ti.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "267f04fa"
+  },
+  "ch_needs_js": {
+    "value": "A lista de canles funciona no teu navegador e precisa JavaScript. O Analyzer mostra as mesmas canles:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57228d02"
+  },
+  "ch_source": {
+    "value": "MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ed180c11"
+  },
+  "ch_list_title": {
+    "value": "Canles escoitadas no teu país",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6a3ddfed"
+  },
+  "ch_country_label": {
+    "value": "O teu país",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "18f2456a"
+  },
+  "ch_country_pick": {
+    "value": "Escolle un país",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "632aadfb"
+  },
+  "ch_search": {
+    "value": "Busca un nome ou rexión",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67d2c527"
+  },
+  "ch_loading": {
+    "value": "Cargando as canles...",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e4e9f6e5"
+  },
+  "ch_error": {
+    "value": "A lista de canles non se cargou. Téntao máis tarde; a chave de calquera #nome de abaixo segue funcionando.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f653e69d"
+  },
+  "ch_count": {
+    "value": "{n} canles escoitadas en {country}, primeiro as que teñen máis mensaxes.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "923bf6a5"
+  },
+  "ch_messages": {
+    "value": "mensaxes",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f5cccfb7"
+  },
+  "ch_key": {
+    "value": "Chave",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "99a52df3"
+  },
+  "ch_source_note": {
+    "value": "En directo desde",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1db8edb5"
+  },
+  "ch_calc_title": {
+    "value": "A chave de calquera #canle",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ad70964d"
+  },
+  "ch_calc_body": {
+    "value": "Escribe un nome de canle que comece por #. A chave sae do nome, así que obtés a mesma chave ca na app.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8531d7e8"
+  },
+  "ch_calc_label": {
+    "value": "Nome da canle",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2fe4a2e8"
+  },
+  "guides_card_channels_title": {
+    "value": "Buscar canles",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9905513b"
+  },
+  "guides_card_channels_desc": {
+    "value": "As canles que usa a xente preto de ti, e como unirte a elas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2b7ffced"
+  },
+  "ch_count_one": {
+    "value": "1 canle escoitada en {country}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8f1ca51"
+  },
+  "ch_show_all": {
+    "value": "Mostrar as {n} canles",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2afe05c3"
+  },
+  "area_other_presets_title": {
+    "value": "Outros axustes predefinidos na app de MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e8ca0063"
+  },
+  "area_other_presets_body": {
+    "value": "A app tamén lista estes axustes predefinidos europeos, sen indicar unha zona para eles. Un axuste predefinido de 433 MHz precisa unha placa cunha radio de 433 MHz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "86f82c5c"
+  },
+  "net_live_title": {
+    "value": "O que escoitan os observadores",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f89055eb"
+  },
+  "net_live_packets": {
+    "value": "paquetes na última hora completa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e3e24e13"
+  },
+  "net_live_countries": {
+    "value": "países escoitados na última hora",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "502cba0e"
+  },
+  "net_live_repeaters": {
+    "value": "repetidores escoitados nos últimos 7 días",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2890ece6"
+  },
+  "net_live_observers": {
+    "value": "observadores na última hora",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6825b26c"
+  },
+  "net_live_source": {
+    "value": "Cifras en directo desde",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f063c292"
+  },
+  "net_join_title": {
+    "value": "Engade o teu propio observador",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e772f141"
+  },
+  "net_join_body": {
+    "value": "Cada observador mostra un pouco máis da malla, para todo o mundo en Europa. Escolle a forma que che conveña; o MeshCore Analyzer mostra os pasos.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "de341930"
+  },
+  "net_way_app_title": {
+    "value": "Coa app KiekR",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "51c6a5e5"
+  },
+  "net_way_app_desc": {
+    "value": "Emparella unha radio MeshCore co teu teléfono por Bluetooth. A app informa do que escoita, sen instalar firmware.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9ae6b7d2"
+  },
+  "net_way_browser_title": {
+    "value": "Desde o teu navegador",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c6b5042e"
+  },
+  "net_way_browser_desc": {
+    "value": "Conecta unha radio por USB ou Bluetooth en Chrome ou Edge. O navegador informa mentres a lapela siga aberta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "72fc7d03"
+  },
+  "net_way_board_title": {
+    "value": "Cunha placa sempre acendida",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "574c32a6"
+  },
+  "net_way_board_desc": {
+    "value": "Instala firmware de observador nunha placa LoRa. Informa por si soa por Wi-Fi, día e noite.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1742bfea"
+  },
+  "project_site": {
+    "value": "Sitio web",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5a229ac"
+  },
+  "home_town_title": {
+    "value": "Segue unha mensaxe polos tellados.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b6669c81"
+  },
+  "home_town_lead": {
+    "value": "O teu teléfono ou portátil envía unha mensaxe ao teu companion, por Bluetooth ou USB. O companion envíaa por radio a un repetidor no tellado. Desde alí salta de tellado en tellado.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2af5006f"
+  },
+  "home_town_tag_phone": {
+    "value": "Teléfono ou portátil",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54c8157f"
+  },
+  "home_town_tag_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dadb328"
+  },
+  "home_town_tag_repeater": {
+    "value": "Repetidor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "home_town_tag_mast2": {
+    "value": "Outros repetidores",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3aa62b45"
+  },
+  "home_town_companion_title": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dadb328"
+  },
+  "home_town_companion_desc": {
+    "value": "A radio coa que envías mensaxes. Emparéllaa co teu teléfono ou portátil, ou escolle unha con pantalla e teclado propios que funcione soa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c70389e6"
+  },
+  "home_town_companion_link": {
+    "value": "Escolle un companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5eba6690"
+  },
+  "home_town_repeater_title": {
+    "value": "Repetidor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "home_town_repeater_desc": {
+    "value": "Reenvía as mensaxes de todo o mundo ao seu arredor. A maioría funcionan con enerxía solar. Só precisas o teu propio onde a malla aínda non chega.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3db0ed15"
+  },
+  "home_town_repeater_link": {
+    "value": "Cando instalar un repetidor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c5154fb9"
+  },
+  "home_town_mesh_title": {
+    "value": "A malla",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "199c9527"
+  },
+  "home_town_mesh_desc": {
+    "value": "Os repetidores reenvían unha mensaxe ata onde se escoitan entre eles. As rexións mantena local.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2d14f895"
+  },
+  "home_town_mesh_link": {
+    "value": "Ver a rede",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6f3b43a5"
+  },
+  "planned_label": {
+    "value": "Previsto",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fb6f7c93"
+  },
+  "planned.guides-filter.lead": {
+    "value": "Descarta o tráfico que o teu repetidor non debe reenviar, co filtro de paquetes.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ef203a0d"
+  },
+  "planned.guides-filter.what.title": {
+    "value": "Que fai o filtro",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "88a35f90"
+  },
+  "planned.guides-filter.what.desc": {
+    "value": "Que paquetes pode descartar un repetidor, e como iso mantén tranquila a malla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4a3c7cb5"
+  },
+  "planned.guides-filter.configs.title": {
+    "value": "Configuracións recomendadas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "42763607"
+  },
+  "planned.guides-filter.configs.desc": {
+    "value": "Axustes listos para casos habituais, como bloquear unha canle ruidosa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2ef6b9e2"
+  },
+  "planned.guides-filter.settings.title": {
+    "value": "Todos os axustes",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "07182ebe"
+  },
+  "planned.guides-filter.settings.desc": {
+    "value": "Cada axuste do filtro, co seu comando e o que cambia.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b73f8c55"
+  },
+  "planned.guides-mqtt.lead": {
+    "value": "Deixa que a túa placa sempre acesa informe ao MeshCore Analyzer do que escoita.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5aa10eb5"
+  },
+  "planned.guides-mqtt.need.title": {
+    "value": "O que necesitas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e17c85cc"
+  },
+  "planned.guides-mqtt.need.desc": {
+    "value": "Unha placa con firmware de observador e Wi-Fi, e o enderezo dun broker.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f9b88653"
+  },
+  "planned.guides-mqtt.settings.title": {
+    "value": "Axustes",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "74a883a0"
+  },
+  "planned.guides-mqtt.settings.desc": {
+    "value": "Os axustes de Wi-Fi, broker e topic que necesita a túa placa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3d2f63e9"
+  },
+  "planned.guides-mqtt.commands.title": {
+    "value": "Comandos para o teu broker",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d2db5c84"
+  },
+  "planned.guides-mqtt.commands.desc": {
+    "value": "Os comandos para pegar, completados para o broker que escollas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1a37dddf"
+  },
+  "planned.guides-mqtt.check.title": {
+    "value": "Comproba que funciona",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2249f06f"
+  },
+  "planned.guides-mqtt.check.desc": {
+    "value": "Como atopar o teu observador no MeshCore Analyzer.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2e45d8f2"
+  },
+  "net_data_title": {
+    "value": "Como chegan os datos",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d199acc6"
+  },
+  "net_data_lead": {
+    "value": "Cada número deste sitio vén de persoas que escoitan e comparten o que oen.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d162c9f3"
+  },
+  "net_data_from_title": {
+    "value": "De onde veñen",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "87362334"
+  },
+  "net_data_from_body": {
+    "value": "Os observadores informan do que escoitan por MQTT a un broker, un servidor que recolle os informes. Informan a mqtt.meshcore-analyzer.eu ou a outro broker que le o Analyzer. A app KiekR e o observador do navegador tamén informan. O Analyzer tamén consulta analizadores CoreScope cuxos propietarios aceptaron. O Analyzer le cada broker e analizador co permiso do seu propietario.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5604e25f"
+  },
+  "net_data_way_title": {
+    "value": "Que pasa polo camiño",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0e5c3f7c"
+  },
+  "net_data_way_body": {
+    "value": "Unha mensaxe escoitada por moitos observadores conta unha soa vez. O Analyzer descodifícaa e con ela constrúe os mapas, os números e a lista de canles. Garda cada mensaxe, pero o que escoitou cada observador queda 10 días. Os números por hora quedan ata 30 días, os totais diarios quedan para sempre.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57413efc"
+  },
+  "net_data_node_title": {
+    "value": "Que ven os demais do teu nodo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a6245d5e"
+  },
+  "net_data_node_body": {
+    "value": "Os demais ven o seu nome, a súa clave pública, o seu tipo e a súa posición se a compartes. As túas mensaxes directas seguen cifradas. Calquera pode ler as mensaxes de Public e das canles con hashtag, tamén o Analyzer.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0f5e507d"
+  },
+  "net_data_q_title": {
+    "value": "Preguntas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9a72221a"
+  },
+  "net_data_q1": {
+    "value": "O meu nodo está no mapa?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ec3057eb"
+  },
+  "net_data_a1": {
+    "value": "Só cando un observador escoitou o seu advert, o paquete que envía un nodo para anunciarse. Un nodo lonxe de calquera observador queda fóra do mapa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "393d0df5"
+  },
+  "net_data_q2": {
+    "value": "Pode o Analyzer ler as miñas mensaxes directas?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1cd884fb"
+  },
+  "net_data_a2": {
+    "value": "Non. Só ti e a outra persoa tedes a clave.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c6b0e033"
+  },
+  "net_data_q3": {
+    "value": "Podo enviar datos desde a miña propia ferramenta?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "52255bf4"
+  },
+  "net_data_a3": {
+    "value": "Si: publica por MQTT en mqtt.meshcore-analyzer.eu, con asinatura da clave do teu nodo, como fai un observador. O {link} mostra como conectarte.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "171daa27"
+  },
+  "net_data_analyzer_link": {
+    "value": "MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ed180c11"
+  },
+  "net_data_q4": {
+    "value": "Podo usar os datos do Analyzer?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2154596d"
+  },
+  "net_data_a4": {
+    "value": "Pregunta primeiro no seu {link}. O Analyzer non permite a recollida automatizada.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b935a213"
+  },
+  "release_role_companion": {
+    "value": "Compañeiro",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dadb328"
+  },
+  "release_role_repeater": {
+    "value": "Repetidor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "release_role_room_server": {
+    "value": "Servidor de sala",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68b91cc5"
+  },
+  "release_notes_link": {
+    "value": "As notas oficiais da versión",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8bc96136"
+  },
+  "release.v1-18-0.1": {
+    "value": "O teu compañeiro recibe unha liña de comandos: abre Command Line na app, versión 1.50 ou posterior. Un contacto ao que deas o permiso Remote CLI pode enviarlle comandos pola malla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14cedc6a"
+  },
+  "release.v1-18-0.2": {
+    "value": "Un repetidor recén configurado activa por si só a detección mínima de bucles.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14ac329c"
+  },
+  "release.v1-18-0.3": {
+    "value": "Un repetidor cos adverts desactivados xa non aparece cando outros buscan nodos.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "73a74341"
+  },
+  "release.v1-18-0.4": {
+    "value": "Nas placas ESP32 o reloxo sobrevive a un reinicio, e a maioría das placas nRF52 xa non se negan a arrancar coa batería baixa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "236a3861"
+  },
+  "release.v1-18-0.5": {
+    "value": "Placas novas: Thinknode M4 e M8, Wio Tracker L1 1W, Muzi Base e Waveshare ESP32-S3 LR1121.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1355f413"
+  },
+  "release.v1-18-0.6": {
+    "value": "O firmware de compañeiro Bluetooth tamén funciona con WiFi en varias placas, entre elas Heltec, Wireless Paper, RAK e Xiao S3; configúrao na app.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0d070c73"
+  },
+  "release.v1-17-1.1": {
+    "value": "Nas placas cun amplificador externo, o axuste de ganancia de recepción agora gárdase. Comproba radio.fem.rxgain e radio.rxgain no teu repetidor despois de actualizar.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aa6980e3"
+  },
+  "release.v1-17-1.2": {
+    "value": "O envío volve funcionar na Heltec T096, e a pantalla da T-Beam Supreme volve verse.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8973538"
+  },
+  "release.v1-17-0.1": {
+    "value": "Cada firmware garda os seus axustes nun formato novo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2acf27c2"
+  },
+  "release.v1-17-0.2": {
+    "value": "Apagas un repetidor cunha pulsación longa no seu botón. Comandos novos: set cad para repetidores e room.post para servidores de sala.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "96f0d3d9"
+  },
+  "release.v1-17-0.3": {
+    "value": "As placas nRF52 usan o seu chip de cifrado integrado, e as placas consomen menos en hibernación e apagadas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3daf5825"
+  },
+  "release.v1-17-0.4": {
+    "value": "Placas novas: Heltec V4 R8, RC32 e Tower V2, Thinknode M7 e M9, Sensecap MeshTracker X1, e radios co chip LR2021.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b90c5ac8"
+  },
+  "release.v1-17-0.5": {
+    "value": "Os repetidores escoitan mellor antes de enviar, así que as mallas con moito tráfico teñen menos colisións.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3061d4fd"
+  },
+  "console_needs_js": {
+    "value": "A consola necesita JavaScript e un navegador con acceso a USB: Chrome, Edge ou Opera nun ordenador.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "07c6b52a"
+  },
+  "console_connect": {
+    "value": "Conecta o teu nodo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bb8e5e01"
+  },
+  "console_disconnect": {
+    "value": "Desconecta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "acfc5be7"
+  },
+  "console_copy": {
+    "value": "Copia o rexistro",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e01862b2"
+  },
+  "console_send": {
+    "value": "Envía",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f6f4688f"
+  },
+  "console_command_label": {
+    "value": "Comando",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71316697"
+  },
+  "console_log_label": {
+    "value": "O que di o teu nodo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "84925ecb"
+  },
+  "console_status_idle": {
+    "value": "Enchufa o teu nodo, despois conéctate e escolle o seu porto.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3ebc3314"
+  },
+  "console_status_asking": {
+    "value": "Conectado. Estamos a preguntarlle ao teu nodo que é.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "02b45460"
+  },
+  "console_status_connected": {
+    "value": "Conectado. Escribe un comando e preme Enter.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d216f35b"
+  },
+  "console_status_lost": {
+    "value": "Perdeuse a conexión. Comproba o cable e conéctate de novo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "98fa83ae"
+  },
+  "console_status_busy": {
+    "value": "O porto non se puido abrir. Pecha o outro programa ou lapela que o usa e téntao de novo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cf4e9cbd"
+  },
+  "console_status_unsupported": {
+    "value": "Este navegador non ten acceso a USB. Usa Chrome, Edge ou Opera nun ordenador.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8ef7eebe"
+  },
+  "console_status_copied": {
+    "value": "O rexistro está copiado.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "617d378e"
+  },
+  "console_status_copy_failed": {
+    "value": "O rexistro non se puido copiar. Selecciónao e cópiao a man.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "45bd5465"
+  },
+  "console_commands_before": {
+    "value": "Cada comando explícase en",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68ef84d1"
+  },
+  "console_commands_link": {
+    "value": "Comandos CLI",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a13cc6cb"
+  },
+  "console_commands_after": {
+    "value": ".",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cdb4ee2a"
+  },
+  "console_node_known": {
+    "value": "As suxestións mostran os comandos que entende este nodo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "345c274c"
+  },
+  "console_node_unknown": {
+    "value": "O teu nodo non indicou o seu rol. As suxestións mostran os comandos de repetidores, servidores de sala e sensores.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "503c0064"
+  },
+  "console_dmc_before": {
+    "value": "Este nodo usa firmware DutchMeshCore. As suxestións mostran os comandos propios de MeshCore. Os comandos de DutchMeshCore están na",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b17e7f2e"
+  },
+  "console_more_link": {
+    "value": "{command} na guía CLI",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9e207731"
+  },
+  "console_dmc_link": {
+    "value": "wiki CLI de DutchMeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ccc16968"
+  },
+  "console_dmc_after": {
+    "value": ".",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cdb4ee2a"
+  },
+  "console_suggestions_label": {
+    "value": "Comandos suxeridos",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "36d1238e"
+  },
+  "console_key_fill": {
+    "value": "complétao",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cf686f44"
+  },
+  "console_key_choose": {
+    "value": "escolle",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "725fed9d"
+  },
+  "console_key_guide": {
+    "value": "abre a guía CLI",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "de7ca5a8"
+  },
+  "console_key_close": {
+    "value": "pecha",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b2850942"
+  },
+  "console_trouble_title": {
+    "value": "Cando non se conecta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0cce4809"
+  },
+  "console_trouble_1": {
+    "value": "Usa un cable de datos. Algúns cables só cargan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "958a8d54"
+  },
+  "console_trouble_2": {
+    "value": "Pecha outros programas que usen o porto, como outra consola ou o gravador deste sitio noutra lapela.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fc9daa0a"
+  },
+  "console_trouble_3": {
+    "value": "Escolle o porto correcto: desenchufa o teu nodo, mira que porto desaparece e volve enchufalo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "75120995"
+  },
+  "console_trouble_4": {
+    "value": "Firefox e Safari non teñen acceso a USB desde unha páxina web. Usa Chrome, Edge ou Opera nun ordenador.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71403007"
+  },
+  "usb_title": {
+    "value": "Envía ao teu repetidor por USB.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "815598af"
+  },
+  "usb_body": {
+    "value": "Enchufa o teu repetidor, conéctate e comproba que cambia antes de enviar.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5a67e201"
+  },
+  "usb_connect": {
+    "value": "Conecta o teu repetidor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aaf2563c"
+  },
+  "usb_check": {
+    "value": "Comproba que cambia",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3ee77f8f"
+  },
+  "usb_send": {
+    "value": "Envía os axustes",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7e2580db"
+  },
+  "usb_reboot": {
+    "value": "Reinicia o teu repetidor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "19394bd3"
+  },
+  "usb_disconnect": {
+    "value": "Desconecta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "acfc5be7"
+  },
+  "usb_col_command": {
+    "value": "Comando",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71316697"
+  },
+  "usb_col_now": {
+    "value": "Agora",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fe18013d"
+  },
+  "usb_col_reply": {
+    "value": "Resposta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c253f451"
+  },
+  "usb_col_new": {
+    "value": "Valor novo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7ca9b97d"
+  },
+  "usb_no_answer": {
+    "value": "sen resposta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ad03eb5e"
+  },
+  "usb_status_idle": {
+    "value": "Sen conexión.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3b3d2796"
+  },
+  "usb_status_connected": {
+    "value": "Conectado. Comproba primeiro que cambia.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4bb28123"
+  },
+  "usb_status_busy": {
+    "value": "O porto está en uso. Pecha o outro programa ou lapela que o usa e téntao de novo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "438a57fa"
+  },
+  "usb_status_fill": {
+    "value": "Primeiro completa {value} nos comandos de arriba.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d903306b"
+  },
+  "usb_status_reading": {
+    "value": "Estamos a ler os axustes do teu repetidor.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "222e3b98"
+  },
+  "usb_status_review": {
+    "value": "Compara os valores actuais cos novos e despois envía.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "017b629e"
+  },
+  "usb_status_sent": {
+    "value": "Enviado. O teu repetidor aceptou todos os comandos.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4cf46e54"
+  },
+  "usb_status_sent_errors": {
+    "value": "Enviado, pero o teu repetidor rexeitou algúns comandos ou non respondeu. Comproba as respostas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f77c4ebb"
+  },
+  "usb_status_rebooted": {
+    "value": "O repetidor reiníciase cos seus novos axustes de radio.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "79ddf8f8"
+  },
+  "flash_releases_link": {
+    "value": "As versións de MeshCore en GitHub",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "db7cf404"
+  },
+  "flash_no_match": {
+    "value": "Ningunha placa coincide. Proba cunha palabra máis curta ou escolle da lista.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cdba666f"
+  },
+  "flash_needs_js": {
+    "value": "O gravador necesita JavaScript. Sen el, {link} teñen todos os ficheiros.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc36838c"
+  },
+  "flash_board_title": {
+    "value": "Escolle a túa placa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "225d5074"
+  },
+  "flash_filter_label": {
+    "value": "Busca",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "49c266ba"
+  },
+  "flash_board_label": {
+    "value": "Placa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4816cbfd"
+  },
+  "flash_role_label": {
+    "value": "Rol",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14736a2e"
+  },
+  "flash_role_ble": {
+    "value": "Compañeiro, Bluetooth",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2c1378a3"
+  },
+  "flash_role_usb": {
+    "value": "Compañeiro, USB",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4794c45b"
+  },
+  "flash_role_repeater": {
+    "value": "Repetidor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "flash_role_room_server": {
+    "value": "Servidor de sala",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68b91cc5"
+  },
+  "flash_version_before": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f4f17278"
+  },
+  "flash_version_after": {
+    "value": ", a versión máis recente.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1daecb7e"
+  },
+  "flash_flash_title": {
+    "value": "Grávao por USB",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dfd786e5"
+  },
+  "flash_mode_legend": {
+    "value": "Que queres facer?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3e17dbf9"
+  },
+  "flash_mode_update": {
+    "value": "Actualización: para unha placa que xa usa MeshCore. Conserva as claves, os contactos e os axustes do teu nodo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "59e8848e"
+  },
+  "flash_mode_fresh": {
+    "value": "Instalación limpa: para unha placa nova ou con outro firmware. Borra a placa, claves incluídas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bc797149"
+  },
+  "flash_wipe_ok": {
+    "value": "Sei que unha instalación limpa borra as claves e os contactos do meu nodo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7aeefcb2"
+  },
+  "flash_flash_button": {
+    "value": "Conecta e grava",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8a541c7"
+  },
+  "flash_esp_help": {
+    "value": "Chrome, Edge ou Opera nun ordenador. Se a placa non se conecta, mantén premido o seu botón BOOT (PRG nalgunhas placas) mentres a enchufas e téntao de novo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4dafe8fb"
+  },
+  "flash_uf2_title": {
+    "value": "Copia o ficheiro na túa placa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "263bc1e5"
+  },
+  "flash_uf2_step1": {
+    "value": "Descarga o ficheiro:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dee6800a"
+  },
+  "flash_uf2_step2": {
+    "value": "Enchufa a túa placa e preme dúas veces seguidas o seu botón de reinicio. Aparece como unha unidade USB. Unha placa sen botón de reinicio ten o seu propio método; a páxina do fabricante indica cal.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9cd62884"
+  },
+  "flash_uf2_step3": {
+    "value": "Arrastra o ficheiro a esa unidade. A placa reiníciase co firmware novo; unha actualización conserva as súas claves.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aef87c5b"
+  },
+  "flash_status_unsupported": {
+    "value": "Este navegador non ten acceso a USB. Usa Chrome, Edge ou Opera nun ordenador.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8ef7eebe"
+  },
+  "flash_status_no_list": {
+    "value": "A lista de placas non se cargou. Recarga a páxina.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7a3841a5"
+  },
+  "flash_status_downloading": {
+    "value": "Descargando o firmware.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c9e6648c"
+  },
+  "flash_status_connecting": {
+    "value": "Conectando coa túa placa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "70ed0d63"
+  },
+  "flash_status_flashing": {
+    "value": "Gravando. Mantén a placa enchufada.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0796d555"
+  },
+  "flash_status_done": {
+    "value": "Listo. A túa placa reiníciase co firmware novo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "445b69e2"
+  },
+  "flash_status_failed": {
+    "value": "A gravación parou. Mantén premido o botón BOOT mentres enchufas a placa e téntao de novo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f716db56"
+  },
+  "flash_status_no_file": {
+    "value": "O ficheiro do firmware non se descargou. Téntao de novo nun momento.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6636a9df"
+  },
+  "flash_other_firmware": {
+    "value": "Outros firmwares, como o firmware de observador DutchMeshCore, teñen o seu propio gravador: {link}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b2c75d72"
+  },
+  "release_flash_link": {
+    "value": "Grávao na túa placa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "207bc805"
+  },
+  "menu_privacy": {
+    "value": "Privacidade",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54a57c31"
+  },
+  "menu_wallpapers": {
+    "value": "Fondos de pantalla",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "006547c4"
+  },
+  "menu_start": {
+    "value": "Inicio",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e4bb9f1e"
+  },
+  "menu_about": {
+    "value": "Que é MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a50b70cf"
+  },
+  "menu_about_sub": {
+    "value": "Mensaxes por radio sen internet",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aab7190e"
+  },
+  "menu_devices": {
+    "value": "Dispositivos",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ba5121d"
+  },
+  "menu_devices_sub": {
+    "value": "Placas, o seu consumo e o seu prezo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20f93671"
+  },
+  "menu_get_started": {
+    "value": "Comeza",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "menu_get_started_sub": {
+    "value": "Dunha placa nova á túa primeira mensaxe",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d67ed219"
+  },
+  "menu_repeater_guide": {
+    "value": "Guía de repetidores",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4608abcd"
+  },
+  "menu_repeater_guide_sub": {
+    "value": "Colocación, potencia e límites legais",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "666a0c8c"
+  },
+  "menu_start_group_1": {
+    "value": "Aprende",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ce78afd0"
+  },
+  "menu_start_group_1_all": {
+    "value": "Máis sobre MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2c7c7283"
+  },
+  "menu_start_group_2": {
+    "value": "Fai",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "30094e0b"
+  },
+  "menu_start_card_eyebrow": {
+    "value": "Acabas de chegar",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10bc4c55"
+  },
+  "menu_start_card_title": {
+    "value": "A túa primeira mensaxe",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d0e38ee3"
+  },
+  "menu_start_card_body": {
+    "value": "Unha placa, a app e os axustes para o teu país. Antes dunha hora estás na malla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7c10acb3"
+  },
+  "menu_start_card_button": {
+    "value": "Comeza",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "menu_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "menu_fw_build": {
+    "value": "Resumo de firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1cf2ad9a"
+  },
+  "menu_fw_build_sub": {
+    "value": "Que firmware usa a túa placa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54130720"
+  },
+  "menu_fw_flash": {
+    "value": "Gravar",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3577cb5"
+  },
+  "menu_fw_flash_sub": {
+    "value": "Desde o teu navegador, por USB",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e6dbc0b0"
+  },
+  "menu_fw_console": {
+    "value": "Consola serie",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4e3c41fa"
+  },
+  "menu_fw_console_sub": {
+    "value": "Escribe comandos por USB",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "40df16c8"
+  },
+  "menu_fw_changelog": {
+    "value": "Rexistro de cambios",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ead07c84"
+  },
+  "menu_fw_changelog_sub": {
+    "value": "Que cambiou",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1bcbf1dc"
+  },
+  "menu_firmware_group_1": {
+    "value": "Na túa radio",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d3234810"
+  },
+  "menu_firmware_group_1_all": {
+    "value": "Todo o firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "27bfcf0e"
+  },
+  "menu_firmware_group_2": {
+    "value": "Mantente ao día",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57a5a75f"
+  },
+  "menu_firmware_card_eyebrow": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "menu_firmware_card_title": {
+    "value": "O firmware oficial",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "39cc2886"
+  },
+  "menu_firmware_card_body": {
+    "value": "Grava o firmware oficial desde o teu navegador. Non hai nada que instalar.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e75a91bd"
+  },
+  "menu_firmware_card_button": {
+    "value": "Grava a túa placa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5b6987e"
+  },
+  "menu_guides": {
+    "value": "Guías",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "572cd72f"
+  },
+  "menu_guides_overview": {
+    "value": "Resumo das guías",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8db6b2ea"
+  },
+  "menu_guides_overview_sub": {
+    "value": "Todas as guías, segundo o que queiras facer",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0a19370e"
+  },
+  "menu_guide_settings": {
+    "value": "Axustes recomendados",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cfb32983"
+  },
+  "menu_guide_settings_sub": {
+    "value": "O preset e os axustes para a túa zona",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8592dd01"
+  },
+  "menu_guide_antenna": {
+    "value": "Guía de antenas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3a76cb0e"
+  },
+  "menu_guide_antenna_sub": {
+    "value": "Escolle, conecta e monta unha",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e57b6f1d"
+  },
+  "menu_guide_keygen": {
+    "value": "Xera unha clave",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e798fa1b"
+  },
+  "menu_guide_keygen_sub": {
+    "value": "Cun prefixo que ti escolles",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "02f5281d"
+  },
+  "menu_guide_channels": {
+    "value": "Atopa canles",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9905513b"
+  },
+  "menu_guide_channels_sub": {
+    "value": "As canles preto de ti, coas súas claves",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "695ddeef"
+  },
+  "menu_guide_resilient": {
+    "value": "Fai a malla resistente",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33ec7ac8"
+  },
+  "menu_guide_resilient_sub": {
+    "value": "O que axuda contra as inundacións e o spam",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6b6b932a"
+  },
+  "menu_guide_filter": {
+    "value": "Filtro de paquetes",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20a3ef1f"
+  },
+  "menu_guide_filter_sub": {
+    "value": "Explicado, con comandos",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7cd98eed"
+  },
+  "menu_guide_mqtt": {
+    "value": "MQTT no teu observador",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "62626d0f"
+  },
+  "menu_guide_mqtt_sub": {
+    "value": "Informa do que escoita o teu nodo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "593d1245"
+  },
+  "menu_guide_mctomqtt": {
+    "value": "Crea unha configuración de ponte",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fd2dd667"
+  },
+  "menu_guide_mctomqtt_sub": {
+    "value": "Un repetidor por USB a un broker",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "22227ad5"
+  },
+  "menu_guide_cli": {
+    "value": "Comandos CLI",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a13cc6cb"
+  },
+  "menu_guide_cli_sub": {
+    "value": "Cada comando explicado",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aa1f6046"
+  },
+  "menu_guides_group_1": {
+    "value": "Configura o teu nodo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "55efd611"
+  },
+  "menu_guides_group_1_all": {
+    "value": "Todas as guías",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0b5543ef"
+  },
+  "menu_guides_group_2": {
+    "value": "Afonda máis",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6bce982b"
+  },
+  "menu_guides_card_eyebrow": {
+    "value": "Base de coñecemento",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f56819a3"
+  },
+  "menu_guides_card_title": {
+    "value": "MeshWiki",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "821342d8"
+  },
+  "menu_guides_card_body": {
+    "value": "A wiki da comunidade sobre MeshCore, para todo o que non se trata aquí.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b3d4f00f"
+  },
+  "menu_guides_card_button": {
+    "value": "Vai a MeshWiki",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2ddff05f"
+  },
+  "menu_network": {
+    "value": "Rede",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1744b964"
+  },
+  "menu_map": {
+    "value": "Mapas de cobertura",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4b9f20a0"
+  },
+  "menu_map_sub": {
+    "value": "Ata onde chega a malla",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ec1e205"
+  },
+  "menu_network_overview": {
+    "value": "A rede",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1b32d67c"
+  },
+  "menu_network_overview_sub": {
+    "value": "Observadores e cifras en directo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc64142f"
+  },
+  "menu_network_group_1": {
+    "value": "Mapas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "119e66d1"
+  },
+  "menu_network_group_1_all": {
+    "value": "A rede",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1b32d67c"
+  },
+  "menu_network_group_2": {
+    "value": "Datos",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cec3a9b8"
+  },
+  "menu_network_card_eyebrow": {
+    "value": "Cobertura",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "523487a5"
+  },
+  "menu_network_card_title": {
+    "value": "Ata onde chega a malla",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ec1e205"
+  },
+  "menu_network_card_body": {
+    "value": "Mapas xestionados por comunidades de toda Europa, desde o MeshCore Analyzer ata proxectos locais.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fb1630d4"
+  },
+  "menu_network_card_button": {
+    "value": "Abre os mapas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e7674cfc"
+  },
+  "menu_community": {
+    "value": "Comunidade",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bb501d78"
+  },
+  "menu_local_groups": {
+    "value": "Grupos locais",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dff00c14"
+  },
+  "menu_local_groups_sub": {
+    "value": "Atopa o grupo local máis preto de ti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d619ea7a"
+  },
+  "menu_projects": {
+    "value": "Proxectos",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "04e2a972"
+  },
+  "menu_projects_sub": {
+    "value": "O que a xente constrúe sobre MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d4563ab2"
+  },
+  "menu_news": {
+    "value": "Novas",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69752f23"
+  },
+  "menu_news_sub": {
+    "value": "Desde a malla de toda Europa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "39d66042"
+  },
+  "menu_contribute": {
+    "value": "Colabora",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97b0c61b"
+  },
+  "menu_contribute_sub": {
+    "value": "Axuda a escribir e traducir o sitio",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8f5f2836"
+  },
+  "menu_press_kit": {
+    "value": "Kit de promoción e prensa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fc691b26"
+  },
+  "menu_press_kit_sub": {
+    "value": "Logo, imaxes, fondos de pantalla e un texto sobre o sitio",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97e4fd91"
+  },
+  "menu_community_group_1": {
+    "value": "Xente",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7db20897"
+  },
+  "menu_community_group_1_all": {
+    "value": "Todos os grupos locais",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6700740b"
+  },
+  "menu_community_group_2": {
+    "value": "Feito por eles",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "468d3c4f"
+  },
+  "menu_community_card_eyebrow": {
+    "value": "Preto de ti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ab808511"
+  },
+  "menu_community_card_title": {
+    "value": "Únete a un grupo local",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a0b3cc29"
+  },
+  "menu_community_card_body": {
+    "value": "Cada grupo local ten as súas propias canles, os seus axustes e a súa xente á que preguntar.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b38a16bf"
+  },
+  "menu_community_card_button": {
+    "value": "Atopa o teu grupo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cef2ba32"
+  },
+  "menu_footer_1": {
+    "value": "Comezar",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e4bb9f1e"
+  },
+  "menu_footer_2": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "menu_footer_3": {
+    "value": "Guías",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "572cd72f"
+  },
+  "menu_footer_4": {
+    "value": "Rede e comunidade",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ade2740d"
+  },
+  "menu_footer_note_1": {
+    "value": "Unha guía comunitaria sen ánimo de lucro sobre MeshCore en Europa, feita por voluntarios, sen anuncios, ligazóns de afiliados nin seguimento. Non forma parte do proxecto MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69e7015d"
+  },
+  "menu_footer_note_2": {
+    "value": "Texto CC BY 4.0, código MIT.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "845058ef"
+  },
+  "shell_theme": {
+    "value": "Tema",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "efb52e71"
+  },
+  "shell_language": {
+    "value": "Idioma",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4fe6526"
+  },
+  "shell_colour_vision": {
+    "value": "Visión das cores",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "df1c3606"
+  },
+  "shell_account": {
+    "value": "Conta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7e1b0d56"
+  },
+  "shell_menu": {
+    "value": "Menú",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "99af6606"
+  },
+  "shell_system": {
+    "value": "Seguir o sistema",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "48b4e3ed"
+  },
+  "shell_dark": {
+    "value": "Escuro",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "60acc53f"
+  },
+  "shell_light": {
+    "value": "Claro",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dbcd5e7b"
   }
 }

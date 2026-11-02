@@ -3,6 +3,6264 @@
     "language": "hr",
     "name": "Hrvatski",
     "managed_by": "community",
-    "updated": "2026-10-31"
+    "updated": "2026-11-02"
+  },
+  "site_tagline": {
+    "value": "Poruke bez mobilne mreže diljem Europe",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fd77fd37"
+  },
+  "site_description": {
+    "value": "Vodič zajednice za MeshCore u Europi: prvi koraci, uređaji, lokalne grupe, karte pokrivenosti i repetitori. Nekomercijalno i otvorenog koda.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "00f6c54b"
+  },
+  "skip_to_content": {
+    "value": "Preskoči na sadržaj",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ac576a66"
+  },
+  "menu": {
+    "value": "Izbornik",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "99af6606"
+  },
+  "nav_label": {
+    "value": "Glavna navigacija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eb814be3"
+  },
+  "nav_about": {
+    "value": "O projektu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4efca0d1"
+  },
+  "nav_get_started": {
+    "value": "Prvi koraci",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "nav_devices": {
+    "value": "Uređaji",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ba5121d"
+  },
+  "nav_community": {
+    "value": "Zajednica",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bb501d78"
+  },
+  "nav_map": {
+    "value": "Karta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be176b00"
+  },
+  "nav_repeater_guide": {
+    "value": "Vodič za repetitore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4608abcd"
+  },
+  "nav_news": {
+    "value": "Novosti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69752f23"
+  },
+  "nav_projects": {
+    "value": "Projekti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "04e2a972"
+  },
+  "nav_contribute": {
+    "value": "Doprinesi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97b0c61b"
+  },
+  "nav_privacy": {
+    "value": "Privatnost",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54a57c31"
+  },
+  "in_english": {
+    "value": "Ova je stranica na engleskom",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7e9323d9"
+  },
+  "lang_switch_label": {
+    "value": "Jezik",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4fe6526"
+  },
+  "not_translated_yet": {
+    "value": "još nije prevedeno",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3f59d8d3"
+  },
+  "theme_light": {
+    "value": "Tema: svijetla",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "72a842db"
+  },
+  "theme_dark": {
+    "value": "Tema: tamna",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "43908c59"
+  },
+  "theme_system": {
+    "value": "Tema: sustavska",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "98a8dd2c"
+  },
+  "copy": {
+    "value": "Kopiraj",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e21f935f"
+  },
+  "copied": {
+    "value": "Kopirano",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8d525e5f"
+  },
+  "hero_eyebrow": {
+    "value": "868 MHz · Europa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "567ed2b0"
+  },
+  "hero_title": {
+    "value": "Izvan mreže, na meshu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "43ed56a7"
+  },
+  "hero_lead": {
+    "value": "MeshCore šalje poruke radijom, bez interneta i pretplate. Europske mesh mreže povezuju se u jednu. Ovdje njihove zajednice dijele ono što nauče.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "19ad0ab5"
+  },
+  "hero_cta_start": {
+    "value": "Započni",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "hero_cta_about": {
+    "value": "Saznaj što je MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cdecad6f"
+  },
+  "paths_title": {
+    "value": "Odakle želiš početi?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf614863"
+  },
+  "path_new_title": {
+    "value": "Novi si ovdje",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10bc4c55"
+  },
+  "path_new_desc": {
+    "value": "Što je mesh mreža i što MeshCore može, a što ne može.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a3e4ab18"
+  },
+  "path_offgrid_title": {
+    "value": "Spreman kad mreže zakažu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b005ed6a"
+  },
+  "path_offgrid_desc": {
+    "value": "Odaberi pločicu za planinarenje, jedrenje, događanja ili nestanak struje.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6a84d5b4"
+  },
+  "path_build_title": {
+    "value": "Gradnja i eksperimentiranje",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c24822f6"
+  },
+  "path_build_desc": {
+    "value": "Radio, antene, alati i projekti iz drugih zajednica.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "31166d76"
+  },
+  "path_grow_title": {
+    "value": "Dodavanje repetitora",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf145b6c"
+  },
+  "path_grow_desc": {
+    "value": "Isplaniraj i postavi repetitor koji pokriva tvoje područje.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "db75c8c5"
+  },
+  "path_local_title": {
+    "value": "Ljudi u tvojoj blizini",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "808e1f66"
+  },
+  "path_local_desc": {
+    "value": "Pronađi svoju lokalnu grupu, njezine chatove i kanale.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a1e525eb"
+  },
+  "why_title": {
+    "value": "Zašto MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67d51fbe"
+  },
+  "why_costs_title": {
+    "value": "Bez tekućih troškova",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "adff5b03"
+  },
+  "why_costs_desc": {
+    "value": "Radio kupuješ jednom. Poruke ne koštaju ništa: bez SIM kartice, podatkovnog paketa i pretplate.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e735f31"
+  },
+  "why_infra_title": {
+    "value": "Radi bez mreže",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "058c8eae"
+  },
+  "why_infra_desc": {
+    "value": "Radi i kad mobilne mreže i internet ne rade ili su izvan dosega. Poruke putuju od radija do radija, zrakom.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ec9de206"
+  },
+  "why_open_title": {
+    "value": "Otvoreni kod",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67a0d2e0"
+  },
+  "why_open_desc": {
+    "value": "Firmware i njegov protokol otvorenog su koda, pa svatko može graditi na njima. Otvorene aplikacije, alati i biblioteke to već rade.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97859c5f"
+  },
+  "why_privacy_title": {
+    "value": "Privatnost u samoj osnovi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "485ca594"
+  },
+  "why_privacy_desc": {
+    "value": "Izravne poruke šifrirane su od kraja do kraja. Za pridruživanje ne trebaš račun ni broj telefona.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6901512e"
+  },
+  "why_routing_title": {
+    "value": "Lokalno po regijama",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be9348e5"
+  },
+  "why_routing_desc": {
+    "value": "Tvoja prva poruka preplavljuje repetitore, čvorove na krovovima i stupovima koji prosljeđuju poruke. Poruka koja se tako širi može nositi regiju, a repetitori prosljeđuju samo regije koje opslužuju, pa ona ostaje u svom području.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e9620b88"
+  },
+  "why_community_title": {
+    "value": "Jedna mesh mreža, mnogo grupa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a49e1ded"
+  },
+  "why_community_desc": {
+    "value": "Lokalne grupe diljem Europe postavljaju repetitore, dijele postavke i pomažu novima. Onu u svojoj blizini pronađi pod Lokalne grupe.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d1e253bc"
+  },
+  "home_live_label": {
+    "value": "Uživo diljem Europe",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "44ee0071"
+  },
+  "home_live_packets": {
+    "value": "paketa u posljednjem punom satu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e3e24e13"
+  },
+  "home_live_countries": {
+    "value": "zemalja čutih u posljednjem satu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "502cba0e"
+  },
+  "home_live_repeaters": {
+    "value": "repetitora čutih u posljednjih 7 dana",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2890ece6"
+  },
+  "home_live_source": {
+    "value": "Brojke s meshcore-analyzer.eu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "73b22a30"
+  },
+  "strip_label_release": {
+    "value": "Izdanje",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e020e3c6"
+  },
+  "strip_label_reference": {
+    "value": "Referenca",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71bf9093"
+  },
+  "strip_label_guides": {
+    "value": "Vodiči",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "572cd72f"
+  },
+  "strip_label_directory": {
+    "value": "Imenik",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c8f84c3c"
+  },
+  "strip_label_site": {
+    "value": "Ova stranica",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e487482d"
+  },
+  "strip_released": {
+    "value": "objavljeno",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d29eae13"
+  },
+  "strip_boards": {
+    "value": "pločica",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "685d9a8f"
+  },
+  "strip_commands": {
+    "value": "CLI naredbi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a13cc6cb"
+  },
+  "strip_latest_firmware": {
+    "value": "najnoviji firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a0daddac"
+  },
+  "strip_releases": {
+    "value": "izdanja na ovoj stranici",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e99084d9"
+  },
+  "strip_areas": {
+    "value": "područja s preporučenim postavkama",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "789b6daa"
+  },
+  "strip_presets": {
+    "value": "radijskih predložaka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cb582a14"
+  },
+  "strip_devices": {
+    "value": "uređaja",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ade15a12"
+  },
+  "strip_groups": {
+    "value": "lokalnih grupa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f40e444b"
+  },
+  "strip_countries": {
+    "value": "zemalja",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e45d4cba"
+  },
+  "strip_maps": {
+    "value": "karata pokrivenosti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e149f255"
+  },
+  "strip_channel_countries": {
+    "value": "zemalja za odabir",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0fbe9da9"
+  },
+  "strip_projects": {
+    "value": "projekata",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2577c0f5"
+  },
+  "strip_languages": {
+    "value": "jezika",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6cb574fa"
+  },
+  "strip_trackers": {
+    "value": "alata za praćenje",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "da068881"
+  },
+  "strip_third_party": {
+    "value": "zahtjeva trećim stranama",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "64ebce3d"
+  },
+  "strip_cookie": {
+    "value": "kolačić, samo kad odabereš temu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be0b8e53"
+  },
+  "strip_checked": {
+    "value": "Provjereno",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0efd92a3"
+  },
+  "strip_release_source": {
+    "value": "Iz MeshCore izdanja",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d619a021"
+  },
+  "news_latest": {
+    "value": "Najnovije vijesti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f74e23c2"
+  },
+  "news_english_only": {
+    "value": "Vijesti objavljujemo samo na engleskom.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "815251ef"
+  },
+  "news_all": {
+    "value": "Sve vijesti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67c7790c"
+  },
+  "badge_ai": {
+    "value": "Strojni prijevod",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e174e770"
+  },
+  "badge_human": {
+    "value": "Provjeren prijevod",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3f4efebd"
+  },
+  "banner_ai_title": {
+    "value": "Ovu je stranicu preveo stroj.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1cb96c83"
+  },
+  "banner_ai_body": {
+    "value": "Nijedan izvorni govornik još ju nije provjerio, pa neki izrazi možda nisu točni.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bbc7e56b"
+  },
+  "banner_stale": {
+    "value": "Engleska stranica promijenila se nakon ovog prijevoda.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b34a3714"
+  },
+  "read_english": {
+    "value": "Pročitaj englesku verziju",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "971012a5"
+  },
+  "banner_improve": {
+    "value": "Pomozi poboljšati ovaj prijevod",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a9a967b6"
+  },
+  "edit_page": {
+    "value": "Uredi ovu stranicu na GitHubu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "073fd103"
+  },
+  "planned_note": {
+    "value": "Ovu stranicu još gradimo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f0aebcf0"
+  },
+  "planned_more": {
+    "value": "Do tada ti mogu pomoći ove stranice:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ec1b5efa"
+  },
+  "last_verified": {
+    "value": "Zadnja provjera",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d8e92048"
+  },
+  "sources": {
+    "value": "Izvori",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "caf85b08"
+  },
+  "callout_tip": {
+    "value": "Savjet",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4245a3c"
+  },
+  "callout_warning": {
+    "value": "Upozorenje",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e981ddae"
+  },
+  "callout_legal": {
+    "value": "Pravne napomene",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4787eaf7"
+  },
+  "filter_title": {
+    "value": "Suzi izbor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "28c6eb01"
+  },
+  "filter_any": {
+    "value": "Bilo koji",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2b505597"
+  },
+  "filter_reset": {
+    "value": "Poništi filtre",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10afa984"
+  },
+  "filter_count": {
+    "value": "Prikazano {shown} od {total}",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3d25c92"
+  },
+  "filter_empty": {
+    "value": "Ništa ne odgovara ovim filtrima.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7094992d"
+  },
+  "filter_role_q": {
+    "value": "Čemu će služiti?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "25ed547a"
+  },
+  "filter_price_q": {
+    "value": "Budžet",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1c6225ec"
+  },
+  "filter_power_q": {
+    "value": "Napajanje",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "848e9656"
+  },
+  "filter_category_q": {
+    "value": "Kategorija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "292c06f0"
+  },
+  "role_companion": {
+    "value": "Companion (radio s kojeg šalješ poruke)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fc49eb4e"
+  },
+  "role_repeater": {
+    "value": "Repetitor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "role_room_server": {
+    "value": "Room server",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68b91cc5"
+  },
+  "price_1": {
+    "value": "€ (ispod 25)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "84cdcfea"
+  },
+  "price_2": {
+    "value": "€€ (25 do 60)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be9a6bd8"
+  },
+  "price_3": {
+    "value": "€€€ (iznad 60)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0e261f3a"
+  },
+  "power_battery": {
+    "value": "Ugrađena baterija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3b3a4b7e"
+  },
+  "power_external": {
+    "value": "Vanjsko napajanje ili solarno",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "50778470"
+  },
+  "power_profile_low": {
+    "value": "Niska",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f793de20"
+  },
+  "power_profile_medium": {
+    "value": "Srednja",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e588cd1"
+  },
+  "power_profile_high": {
+    "value": "Visoka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c4ebc6d4"
+  },
+  "spec_mcu": {
+    "value": "Procesor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54aac653"
+  },
+  "spec_radio": {
+    "value": "LoRa čip",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1d340ea4"
+  },
+  "spec_battery": {
+    "value": "Baterija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dfcb7c16"
+  },
+  "spec_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "176c7866"
+  },
+  "spec_screen": {
+    "value": "Zaslon",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e56137e"
+  },
+  "spec_connectivity": {
+    "value": "Povezivost",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5479401f"
+  },
+  "spec_form": {
+    "value": "Oblik",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "12827072"
+  },
+  "spec_price": {
+    "value": "Cjenovni razred",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "396491b7"
+  },
+  "spec_power": {
+    "value": "Potrošnja energije",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "96fcc312"
+  },
+  "spec_firmware": {
+    "value": "Podrška za MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4f7c9307"
+  },
+  "fw_official": {
+    "value": "Službena verzija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e07a4935"
+  },
+  "fw_community": {
+    "value": "Verzija zajednice",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f8338fb4"
+  },
+  "yes": {
+    "value": "Da",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "85a39ab3"
+  },
+  "no": {
+    "value": "Ne",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1ea442a1"
+  },
+  "none": {
+    "value": "Nema",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc937b59"
+  },
+  "form_handheld": {
+    "value": "Ručni uređaj",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ecb26701"
+  },
+  "form_board": {
+    "value": "Gola pločica",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33e95aea"
+  },
+  "form_enclosed": {
+    "value": "Čvor u kućištu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "751c73a5"
+  },
+  "form_wearable": {
+    "value": "Nosivi uređaj",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e31070f"
+  },
+  "form_usb": {
+    "value": "USB stick",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "031ad13f"
+  },
+  "conn_ble": {
+    "value": "Bluetooth LE",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e05f95a2"
+  },
+  "conn_wifi": {
+    "value": "Wi-Fi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "337253f2"
+  },
+  "conn_usb": {
+    "value": "USB",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61f0acff"
+  },
+  "devices_empty": {
+    "value": "Još nema navedenih uređaja.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a158b22a"
+  },
+  "devices_list_title": {
+    "value": "Svi uređaji",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0594fe82"
+  },
+  "community_channels": {
+    "value": "Kanali",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4c8906cf"
+  },
+  "community_ask_at": {
+    "value": "zatraži poveznicu na",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "969f418d"
+  },
+  "community_languages": {
+    "value": "Jezici",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "318655ce"
+  },
+  "community_empty": {
+    "value": "Još nema navedenih lokalnih grupa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "73a4cdc4"
+  },
+  "community_missing_title": {
+    "value": "Nedostaje li tvoja grupa?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7c5581b0"
+  },
+  "community_jump": {
+    "value": "Skoči na zemlju",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f7361695"
+  },
+  "community_all": {
+    "value": "Sve",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a52ace42"
+  },
+  "community_missing_body": {
+    "value": "Svatko može dodati lokalnu grupu. Otvori issue s njezinim imenom, područjem i poveznicama, a održavatelj je dodaje na sve jezike odjednom.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a626e730"
+  },
+  "community_missing_cta": {
+    "value": "Dodaj svoju lokalnu grupu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f692beac"
+  },
+  "community_search_title": {
+    "value": "Pronađi grupu u svojoj blizini",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0b6beef7"
+  },
+  "community_search_country": {
+    "value": "Zemlja",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "701d021d"
+  },
+  "community_search_country_pick": {
+    "value": "Odaberi zemlju",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "19323e2d"
+  },
+  "community_search_place": {
+    "value": "Poštanski broj",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0a4387d2"
+  },
+  "community_search_radius": {
+    "value": "Udaljenost",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b7bdf7a2"
+  },
+  "community_search_km": {
+    "value": "{n} km",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e4b21b4b"
+  },
+  "community_search_go": {
+    "value": "Traži",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "49c266ba"
+  },
+  "community_search_locate": {
+    "value": "Koristi moju lokaciju",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "30cbc33b"
+  },
+  "community_search_privacy": {
+    "value": "Pretraga se izvodi u tvom pregledniku. Tvoj položaj i poštanski broj ostaju na tvom uređaju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b96fd6a8"
+  },
+  "community_search_loading": {
+    "value": "Učitavanje poštanskih brojeva ove zemlje...",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08d96769"
+  },
+  "community_search_error": {
+    "value": "Popis poštanskih brojeva nije se učitao. Pokušaj ponovno.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d7420063"
+  },
+  "community_search_unknown": {
+    "value": "Taj poštanski broj ne poznajemo u zemlji {country}. Provjeri ga ili pokušaj s obližnjim poštanskim brojem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2ad685e6"
+  },
+  "community_search_need_country": {
+    "value": "Prvo odaberi zemlju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cebe32b0"
+  },
+  "community_search_no_postcodes": {
+    "value": "Pretraga po poštanskom broju ne pokriva zemlju {country}. Sve njezine grupe:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "26ad24dd"
+  },
+  "community_search_denied": {
+    "value": "Tvoj preglednik nije podijelio tvoj položaj. Umjesto toga upiši poštanski broj.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7b0fe439"
+  },
+  "community_search_here": {
+    "value": "tvoja lokacija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61d03e13"
+  },
+  "community_search_results": {
+    "value": "Grupe u blizini: {place}",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "114324e9"
+  },
+  "community_search_covers": {
+    "value": "Pokriva tvoje područje",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20cb30ee"
+  },
+  "community_search_national": {
+    "value": "Cijela zemlja: {country}",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2aea83b"
+  },
+  "community_search_none": {
+    "value": "Još nema lokalne grupe unutar {n} km.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "09aad8fb"
+  },
+  "community_search_none_country": {
+    "value": "Još nema lokalne grupe u zemlji {country}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d777ab9b"
+  },
+  "community_search_all": {
+    "value": "Cijela zemlja",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ebe4345"
+  },
+  "community_search_nearest": {
+    "value": "Najbliža grupa udaljena je {n} km:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c78007e4"
+  },
+  "community_search_credit": {
+    "value": "Poštanski brojevi: GeoNames, CC BY 4.0.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "41bd97b1"
+  },
+  "link_discord": {
+    "value": "Discord",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "053bc658"
+  },
+  "link_telegram": {
+    "value": "Telegram",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "acdd1e73"
+  },
+  "link_signal": {
+    "value": "Signal",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1e9806e4"
+  },
+  "link_matrix": {
+    "value": "Matrix",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "76a2171c"
+  },
+  "link_whatsapp": {
+    "value": "WhatsApp",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6a40edf1"
+  },
+  "link_forum": {
+    "value": "Forum",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4da7bd42"
+  },
+  "link_website": {
+    "value": "Web stranica",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5a229ac"
+  },
+  "link_map": {
+    "value": "Karta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be176b00"
+  },
+  "link_wiki": {
+    "value": "Wiki",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "63ec69fd"
+  },
+  "map_scope_europe": {
+    "value": "Cijela Europa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d7bc2dd9"
+  },
+  "map_scope_country": {
+    "value": "Zemlja",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "701d021d"
+  },
+  "map_scope_region": {
+    "value": "Regionalno",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "299a03b1"
+  },
+  "map_shows_nodes": {
+    "value": "Čvorovi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7ac36206"
+  },
+  "map_shows_coverage": {
+    "value": "Pokrivenost",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "523487a5"
+  },
+  "map_shows_traffic": {
+    "value": "Promet uživo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9fd86662"
+  },
+  "map_shows_analyzer": {
+    "value": "Analizator paketa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14671539"
+  },
+  "map_shows_statistics": {
+    "value": "Statistika",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a656107e"
+  },
+  "map_open": {
+    "value": "Otvori kartu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ea488d26"
+  },
+  "maps_empty": {
+    "value": "Još nema navedenih karata.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f4332bc7"
+  },
+  "map_tenants_intro": {
+    "value": "Jedan analizator za cijelu Europu. Lokalne zajednice pokreću ga i pod svojim imenom i dizajnom, s istim podacima uživo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e5054f0"
+  },
+  "project_cat_app": {
+    "value": "Aplikacija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0d04bfeb"
+  },
+  "project_cat_tool": {
+    "value": "Alat",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2e53bdcd"
+  },
+  "project_cat_bridge": {
+    "value": "Most",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3892e103"
+  },
+  "project_cat_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "project_cat_hardware": {
+    "value": "Hardver",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7975300f"
+  },
+  "project_cat_library": {
+    "value": "Biblioteka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc20b3d5"
+  },
+  "project_cat_docs": {
+    "value": "Dokumentacija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c205924d"
+  },
+  "project_archived": {
+    "value": "Arhivirano",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bdb86505"
+  },
+  "project_licence": {
+    "value": "Licenca",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3ec8e88"
+  },
+  "project_repo": {
+    "value": "Izvorni kod",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf046c73"
+  },
+  "projects_empty": {
+    "value": "Još nema navedenih projekata.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "26a6bda7"
+  },
+  "projects_list_title": {
+    "value": "Svi projekti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4b87271b"
+  },
+  "projects_add_cta": {
+    "value": "Prijavi projekt",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e8a3907"
+  },
+  "footer_about": {
+    "value": "Nekomercijalni vodič zajednice za MeshCore u Europi, bez oglasa, affiliate poveznica i praćenja.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8a0b3c0d"
+  },
+  "footer_disclaimer": {
+    "value": "meshcore-info.eu vode volonteri i nije povezan s razvojnim programerima firmwarea MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5043ea17"
+  },
+  "footer_nav_label": {
+    "value": "Stranica",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fa795581"
+  },
+  "footer_source": {
+    "value": "Izvorni kod",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf046c73"
+  },
+  "footer_license": {
+    "value": "Tekst je pod licencom CC BY 4.0, kod pod licencom MIT.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61085af6"
+  },
+  "not_found_title": {
+    "value": "Stranica nije pronađena",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a469ab4c"
+  },
+  "not_found_body": {
+    "value": "Ova stranica ne postoji ili je premještena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a9044129"
+  },
+  "not_found_home": {
+    "value": "Idi na početnu stranicu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "adcedded"
+  },
+  "picker_title": {
+    "value": "Odaberi jezik",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e2d0664"
+  },
+  "lang_nudge": {
+    "value": "Prema postavkama tvojeg preglednika odabrali smo jezik: {language}. Jezik možeš promijeniti ovdje.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e428ce71"
+  },
+  "lang_nudge_others": {
+    "value": "Ili drugi jezici: {count}",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c57573b"
+  },
+  "lang_nudge_region": {
+    "value": "Ova stranica postoji i na jeziku: {language}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5d73b6d7"
+  },
+  "lang_nudge_close": {
+    "value": "Zatvori",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7d9eb7ac"
+  },
+  "coverage_caption": {
+    "value": "Pokrivenost prijevoda po jeziku",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fdb7f8dd"
+  },
+  "coverage_language": {
+    "value": "Jezik",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4fe6526"
+  },
+  "coverage_strings": {
+    "value": "Tekst sučelja",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "146382ff"
+  },
+  "coverage_pages": {
+    "value": "Stranice",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9046da16"
+  },
+  "coverage_human": {
+    "value": "Pregledano",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fad6057b"
+  },
+  "coverage_ai": {
+    "value": "Strojno",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8f1cc42d"
+  },
+  "coverage_stale": {
+    "value": "Zastarjelo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c759f42e"
+  },
+  "coverage_missing": {
+    "value": "Nedostaje",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6be36ca4"
+  },
+  "presets_caption": {
+    "value": "Radijski predlošci u Europi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "037c3732"
+  },
+  "presets_name": {
+    "value": "Predložak u aplikaciji",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46bda49e"
+  },
+  "presets_frequency": {
+    "value": "Frekvencija (MHz)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1740a857"
+  },
+  "presets_bandwidth": {
+    "value": "Širina pojasa (kHz)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5cf2dd7b"
+  },
+  "presets_sf": {
+    "value": "Faktor širenja",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7cda59eb"
+  },
+  "presets_cr": {
+    "value": "Stopa kodiranja",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2cd87b32"
+  },
+  "presets_source": {
+    "value": "Iz popisa predložaka projekta MeshCore, provjereno",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "215b400b"
+  },
+  "gain_label": {
+    "value": "Snop dipola i kolinearne antene od stakloplastike, u presjeku kroz stup i gledano sa strane, u mjerilu. Kolinearna antena doseže čvor daleko uz horizont. Samo dipol doseže čvor strmo ispod sebe.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d90bf3bb"
+  },
+  "gain_dipole": {
+    "value": "Dipol",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ef909a16"
+  },
+  "gain_collinear": {
+    "value": "Kolinearna antena od stakloplastike",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "822f4c75"
+  },
+  "gain_node": {
+    "value": "Čvor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e9337253"
+  },
+  "rz_forged_label": {
+    "value": "Paket ide od pošiljatelja preko 3 repetitora do tebe. Pošiljatelj započinje svoj put s 3 izmišljena ID-a. Svaki repetitor dodaje svoj ID na kraj, pa je kraj puta stvaran, a početak nije.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90a625a8"
+  },
+  "rz_forged_sender": {
+    "value": "Pošiljatelj",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c299f9b8"
+  },
+  "rz_forged_you": {
+    "value": "Ti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08b04193"
+  },
+  "rz_forged_path": {
+    "value": "Put",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "62fa5a5b"
+  },
+  "rz_forged_made_up": {
+    "value": "Izmislio pošiljatelj",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c0b6677b"
+  },
+  "rz_forged_added": {
+    "value": "Dodao svaki repetitor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "347c03d9"
+  },
+  "rz_gate_label": {
+    "value": "Regije oko repetitora prikazane su kao prstenovi: izvana poruke bez regije, zatim država, pokrajina, a u sredini vlastita regija repetitora. Kada repetitor odašilje više od 35% posljednje minute, vanjski se prstenovi zaustavljaju jedan po jedan. Njegova vlastita regija i dalje prolazi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "492a5c36"
+  },
+  "rz_gate_none": {
+    "value": "Bez regije",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f7d42834"
+  },
+  "rz_gate_country": {
+    "value": "Država",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "701d021d"
+  },
+  "rz_gate_province": {
+    "value": "Pokrajina",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "abfcecfa"
+  },
+  "rz_gate_yours": {
+    "value": "Tvoja",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54b26f7d"
+  },
+  "rz_gate_meter": {
+    "value": "Odašiljanje",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1d3af30f"
+  },
+  "rz_gate_step_calm": {
+    "value": "Ispod 35%: tvoj repetitor prosljeđuje svaku regiju koju ima.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a144fa31"
+  },
+  "rz_gate_step_none": {
+    "value": "Iznad 35%: poruke bez regije se zaustavljaju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4cf453e"
+  },
+  "rz_gate_step_wide": {
+    "value": "Još uvijek zauzeto: zaustavlja se i najšira regija. Tvoja vlastita regija uvijek prolazi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b08d4c0a"
+  },
+  "rz_copies_label": {
+    "value": "Jedan paket pošiljatelja kojeg nitko ne vidi prolazi kroz 4 repetitora. 3 promatrača prijavljuju kopiju koju su čuli, s njezinim putem. Kopija s najkraćim putem, 1 repetitor, čula se najbliže pošiljatelju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a627dcf1"
+  },
+  "rz_copies_repeater": {
+    "value": "Repetitor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "rz_copies_observer": {
+    "value": "Promatrač, s putem svoje kopije",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c48198e"
+  },
+  "rz_copies_shortest": {
+    "value": "Najkraći put: najbliže pošiljatelju",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0beca4a3"
+  },
+  "country_ad": {
+    "value": "Andora",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3e340be4"
+  },
+  "country_al": {
+    "value": "Albanija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1af00b87"
+  },
+  "country_at": {
+    "value": "Austrija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c9cab023"
+  },
+  "country_ba": {
+    "value": "Bosna i Hercegovina",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b0772b9c"
+  },
+  "country_be": {
+    "value": "Belgija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "348841ef"
+  },
+  "country_bg": {
+    "value": "Bugarska",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "66b86bf0"
+  },
+  "country_by": {
+    "value": "Bjelorusija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4bef16df"
+  },
+  "country_ch": {
+    "value": "Švicarska",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "22755831"
+  },
+  "country_cy": {
+    "value": "Cipar",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5f1162c5"
+  },
+  "country_cz": {
+    "value": "Češka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ecfa967e"
+  },
+  "country_de": {
+    "value": "Njemačka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "80db4ccd"
+  },
+  "country_dk": {
+    "value": "Danska",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c5270975"
+  },
+  "country_ee": {
+    "value": "Estonija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10aeba69"
+  },
+  "country_es": {
+    "value": "Španjolska",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8ef41e6f"
+  },
+  "country_fi": {
+    "value": "Finska",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aed8f531"
+  },
+  "country_fo": {
+    "value": "Farski Otoci",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "773ca4d6"
+  },
+  "country_fr": {
+    "value": "Francuska",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7a1ca4ef"
+  },
+  "country_gb": {
+    "value": "Ujedinjeno Kraljevstvo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8d23a6e3"
+  },
+  "country_gg": {
+    "value": "Guernsey",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b9c48cb1"
+  },
+  "country_gi": {
+    "value": "Gibraltar",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "097ced58"
+  },
+  "country_gr": {
+    "value": "Grčka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c93ad43"
+  },
+  "country_hr": {
+    "value": "Hrvatska",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7328d3f8"
+  },
+  "country_hu": {
+    "value": "Mađarska",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "504be308"
+  },
+  "country_ie": {
+    "value": "Irska",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "02bf1dfa"
+  },
+  "country_im": {
+    "value": "Otok Man",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "34096f96"
+  },
+  "country_is": {
+    "value": "Island",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "595d6d91"
+  },
+  "country_it": {
+    "value": "Italija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5a9cf672"
+  },
+  "country_je": {
+    "value": "Jersey",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "764a8c04"
+  },
+  "country_li": {
+    "value": "Lihtenštajn",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6ff080c0"
+  },
+  "country_lt": {
+    "value": "Litva",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5c83a631"
+  },
+  "country_lu": {
+    "value": "Luksemburg",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ed76f191"
+  },
+  "country_lv": {
+    "value": "Latvija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "988c8160"
+  },
+  "country_mc": {
+    "value": "Monako",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "935018cc"
+  },
+  "country_md": {
+    "value": "Moldova",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14ad63a1"
+  },
+  "country_me": {
+    "value": "Crna Gora",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7ab597e1"
+  },
+  "country_mk": {
+    "value": "Sjeverna Makedonija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cd847226"
+  },
+  "country_mt": {
+    "value": "Malta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71e9eb10"
+  },
+  "country_nl": {
+    "value": "Nizozemska",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3a386c13"
+  },
+  "country_no": {
+    "value": "Norveška",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bea54a34"
+  },
+  "country_pl": {
+    "value": "Poljska",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7f69649a"
+  },
+  "country_pt": {
+    "value": "Portugal",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4c7de2c3"
+  },
+  "country_ro": {
+    "value": "Rumunjska",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ea23726d"
+  },
+  "country_rs": {
+    "value": "Srbija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e8739c83"
+  },
+  "country_ru": {
+    "value": "Rusija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33a3d8ed"
+  },
+  "country_se": {
+    "value": "Švedska",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "85363713"
+  },
+  "country_si": {
+    "value": "Slovenija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "56059e7f"
+  },
+  "country_sk": {
+    "value": "Slovačka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a2ea3384"
+  },
+  "country_sm": {
+    "value": "San Marino",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "230450a2"
+  },
+  "country_tr": {
+    "value": "Turska",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d15b2145"
+  },
+  "country_ua": {
+    "value": "Ukrajina",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "580eedc6"
+  },
+  "country_va": {
+    "value": "Vatikan",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b0ce1029"
+  },
+  "country_xk": {
+    "value": "Kosovo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4a867424"
+  },
+  "device.heltec-wifi-lora-32-v3.notes": {
+    "value": "Gola pločica: dodaj kućište, antenu i bateriju. ESP32 troši previše energije za mali solarni repetitor.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bc29e2c9"
+  },
+  "device.heltec-wifi-lora-32-v4.notes": {
+    "value": "Verzija visoke snage odašilje do 28 dBm, iznad europskog ograničenja s većinom antena: vodič za repetitore pokazuje kako ostati unutar njega. Osnovna verzija stoji manje od 25 eura, a verzija visoke snage više. Verzija R8 ima više memorije i treba vlastitu verziju firmwarea.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5c626e8a"
+  },
+  "device.heltec-mesh-node-t114.notes": {
+    "value": "Štedljiva pločica nRF52 i česta osnova za solarne repetitore. Zaslon i GPS možeš odabrati pri narudžbi; s njima stoji više od 25 eura.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f1999a30"
+  },
+  "device.heltec-wireless-tracker.notes": {
+    "value": "Pločica s ugrađenim GPS-om. Bateriju i kućište nabavljaš sam.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5d4b7295"
+  },
+  "device.heltec-wireless-paper.notes": {
+    "value": "E-paper zaslon ostaje čitljiv na suncu. Baterija nije uključena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d60633a2"
+  },
+  "device.lilygo-t-echo.notes": {
+    "value": "Džepni ručni uređaj s e-paper zaslonom i GPS-om. Postoji i verzija s većom baterijom.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1f285d65"
+  },
+  "device.lilygo-t-deck-plus.notes": {
+    "value": "Fizička tipkovnica, trackball i zaslon osjetljiv na dodir. Plus dodaje GPS i bateriju od 2000 mAh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0fb0f75c"
+  },
+  "device.lilygo-t-beam-supreme.notes": {
+    "value": "Prima ćeliju 18650, koja nije uključena. Odaberi verziju SX1262: verzija LR1121 nema službeni firmware.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e3db28aa"
+  },
+  "device.rak-wisblock-rak4631.notes": {
+    "value": "Modularan: moduli koji se umeću dodaju GPS, zaslon ili senzore. Osnovna pločica ima solarni ulaz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c1317a23"
+  },
+  "device.rak-wismesh-tag.notes": {
+    "value": "Tanka vodootporna pločica s ugrađenim antenama.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "572181c6"
+  },
+  "device.seeed-sensecap-t1000-e.notes": {
+    "value": "Veličine kreditne kartice, otporan na prašinu i prskanje (IP65), bez zaslona. Koristi radio LR1110 umjesto češćeg SX1262.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e18363be"
+  },
+  "device.seeed-xiao-nrf52840-wio-sx1262.notes": {
+    "value": "Sićušan sklop od dvije pločice. Za prijenosnu upotrebu zalemi bateriju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3063cd1d"
+  },
+  "device.seeed-wio-tracker-l1-pro.notes": {
+    "value": "Dolazi u kućištu sa zaslonom, GPS-om i baterijom. Postoje i verzije Lite i e-ink.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d9fd3d73"
+  },
+  "device.seeed-sensecap-solar-node-p1.notes": {
+    "value": "Vodootporno kućište sa solarnim panelom od 5 W, četiri ćelije 18650 i GPS-om, napravljeno za repetitore.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3c9e1f9"
+  },
+  "device.heltec-wifi-lora-32-v4-expansion-kit.notes": {
+    "value": "Pločica V4 u metalnom kućištu sa zaslonom osjetljivim na dodir. GPS i ćeliju 18650 možeš odabrati pri narudžbi. MeshCore prikazuje sliku na zaslonu, ali još ne koristi dodir.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8704efde"
+  },
+  "device.heltec-wireless-stick-lite-v3.notes": {
+    "value": "V3 bez zaslona. Gola pločica: dodaj kućište, antenu i bateriju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6a36169b"
+  },
+  "device.heltec-wireless-tracker-v2.notes": {
+    "value": "Pločica s GPS-om i solarnim priključkom. Odašilje do 28 dBm, iznad europskog ograničenja s većinom antena: vodič za repetitore pokazuje kako ostati unutar njega.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e56ec119"
+  },
+  "device.heltec-vision-master-e213.notes": {
+    "value": "Pločica s e-paper zaslonom koji ostaje čitljiv na suncu. Bateriju i kućište nabavljaš sam.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7519dcd5"
+  },
+  "device.heltec-vision-master-e290.notes": {
+    "value": "Kao E213, s većim e-paper zaslonom. Bateriju i kućište nabavljaš sam.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "84da4d43"
+  },
+  "device.heltec-vision-master-t190.notes": {
+    "value": "Pločica sa zaslonom u boji. Bateriju i kućište nabavljaš sam.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08d0d0d2"
+  },
+  "device.heltec-mesh-node-t1.notes": {
+    "value": "Oznaka veličine kartice s GPS-om i malim zaslonom, otporna na prašinu i prskanje (IP65).",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c9807632"
+  },
+  "device.heltec-meshpocket.notes": {
+    "value": "Prijenosna baterija s čvorom unutra i magnetskim bežičnim punjačem za tvoj telefon. Prodaje se i s 10000 mAh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0eab0a7c"
+  },
+  "device.heltec-meshsolar.notes": {
+    "value": "Pločica za solarni repetitor: prima jednu do četiri ćelije i panel od 18 do 24 V. GPS i zaslon su dodaci.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "195aa41c"
+  },
+  "device.heltec-meshtower-v2.notes": {
+    "value": "Vodootporno metalno kućište s tri ćelije i solarnim panelom od 10 W, napravljeno za repetitore. GPS je opcionalan. Verzija od 30 dBm je iznad europskog ograničenja: vodič za repetitore pokazuje kako ostati unutar njega.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d935df5c"
+  },
+  "device.lilygo-t-echo-lite.notes": {
+    "value": "Manji T-Echo s dodatnim GPS modulom. Prodaje se s kućištem ili bez njega.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b18c1e64"
+  },
+  "device.lilygo-t-echo-card.notes": {
+    "value": "Veličine kreditne kartice, s GPS-om, zvučnikom i malim solarnim panelom koji samo dopunjava bateriju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1b860b15"
+  },
+  "device.lilygo-t-impulse-plus.notes": {
+    "value": "Narukvica s GPS-om, sićušnim zaslonom i motorom za vibraciju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3bc53725"
+  },
+  "device.lilygo-t-deck.notes": {
+    "value": "Tipkovnica i trackball kao na T-Deck Plus, bez GPS-a i baterije. Odaberi verziju s LoRa: postoji i verzija bez nje.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e88fe0ef"
+  },
+  "device.lilygo-t-beam.notes": {
+    "value": "Klasični T-Beam sa starijim radiom SX1276. Prima ćeliju 18650, koja nije uključena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7c56a56b"
+  },
+  "device.lilygo-t-beam-1w.notes": {
+    "value": "Odašilje do 32 dBm, daleko iznad europskog ograničenja: vodič za repetitore pokazuje kako ostati unutar njega. Treba bateriju od 7.4 V, koju ne puni.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9a8d7b03"
+  },
+  "device.elecrow-thinknode-m1.notes": {
+    "value": "Ručni uređaj s e-paper zaslonom i GPS-om.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "590fa3ac"
+  },
+  "device.elecrow-thinknode-m2.notes": {
+    "value": "Mali ručni uređaj s OLED zaslonom. Prodaje se i bez baterije.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "87f36cea"
+  },
+  "device.elecrow-thinknode-m3.notes": {
+    "value": "Tracker otporan na prašinu i vodu (IP66), s GPS-om, bez zaslona.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0c7b633a"
+  },
+  "device.elecrow-thinknode-m4.notes": {
+    "value": "Prijenosna baterija s čvorom i GPS-om unutra, bez zaslona.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "638c30a0"
+  },
+  "device.elecrow-thinknode-m5.notes": {
+    "value": "Kao M1, s procesorom ESP32: više funkcija, kraće trajanje baterije.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7943f498"
+  },
+  "device.elecrow-thinknode-m6.notes": {
+    "value": "Vodootporno kućište (IP65) sa solarnim panelom od 6 W, dvije ćelije 18650 i GPS-om, napravljeno za repetitore.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c7efcb7f"
+  },
+  "device.elecrow-thinknode-m7.notes": {
+    "value": "Kutija za unutarnju upotrebu s Ethernet priključkom, napaja se preko USB-a ili mrežnog kabela (PoE).",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20225189"
+  },
+  "device.elecrow-thinknode-m9.notes": {
+    "value": "Radi samostalno, s punom tipkovnicom, zaslonom u boji i GPS-om. Isporučuje se s firmwareom Ripple; na njemu radi i standardni MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d9fb8bcf"
+  },
+  "device.seeed-wio-tracker-l1.notes": {
+    "value": "L1 Pro bez kućišta i baterije. Ima GPS i solarni priključak.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f317b814"
+  },
+  "device.seeed-wio-tracker-l1-eink.notes": {
+    "value": "L1 s e-paper zaslonom, bez kućišta i baterije. MeshCore na njemu radi samo kao companion.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1c3665d9"
+  },
+  "device.seeed-sensecap-solar-node-p1-basic.notes": {
+    "value": "P1-Pro bez ćelija i GPS-a: sam dodaj četiri ćelije 18650. Držač prima samo ćelije s izbočenim polom. Uobičajene ravne ćelije stanu s malim magnetom na svakoj.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a6f898f4"
+  },
+  "device.seeed-sensecap-meshtracker-x1.notes": {
+    "value": "Veličine kartice, otporan na prašinu i vodu (IP66), bez zaslona. Puni se preko USB-C-a i vibrira pri novoj poruci.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9eadd1b5"
+  },
+  "device.seeed-xiao-esp32s3-wio-sx1262.notes": {
+    "value": "Komplet XIAO s ESP32 umjesto nRF52: Wi-Fi, ali veća potrošnja energije.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0e783fe9"
+  },
+  "device.rak-wismesh-1w-booster.notes": {
+    "value": "Odašilje do 30 dBm, iznad europskog ograničenja: vodič za repetitore pokazuje kako ostati unutar njega. Svaka verzija radi ili na bateriju ili na 5 V, provjeri oznaku.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e03b4d5b"
+  },
+  "device.bq-station-g3.notes": {
+    "value": "Modularna bazna stanica s pojačalom do 35 dBm, daleko iznad europskog ograničenja: postavi kratkospojnike i snagu odašiljanja za svoju državu. Treba napajanje od 9 do 19 V.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ee7d06f9"
+  },
+  "device.bq-nano-g2-ultra.notes": {
+    "value": "Robustan ručni uređaj s ugrađenom antenom koja je predviđena za rad blizu tijela. Baterija je opcionalna.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5e947959"
+  },
+  "device.m5stack-unit-c6l.notes": {
+    "value": "Mali modul u plastičnom kućištu, napaja se preko USB-C-a. Nema ulaz za bateriju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "468b2af6"
+  },
+  "device.meshnology-w12.notes": {
+    "value": "Pločica otvorenog koda s ulazima za bateriju i solarni panel. Odašilje do 30 dBm, iznad europskog ograničenja: vodič za repetitore pokazuje kako ostati unutar njega.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "df27901e"
+  },
+  "community.nl-dutch-meshcore.desc": {
+    "value": "Nizozemska volonterska grupa za korisnike MeshCorea u Nizozemskoj. Vodi zajedničke MQTT kolektore, nadzornu ploču promatrača, pomoćnik za postavke i alate za firmware u pregledniku.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c4ad2c7f"
+  },
+  "community.nl-meshcore-net.desc": {
+    "value": "Chat i forum na Telegramu na nizozemskom, gdje nizozemski korisnici razmjenjuju pomoć pri postavljanju, popise kanala i vijesti o repetitorima.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c57f1887"
+  },
+  "community.be-radio-actief.desc": {
+    "value": "Belgijski wiki i Discord, koje su pokrenuli radioamateri koji su MeshCore donijeli u Belgiju krajem 2025. Dio je šire zajednice radijskog hobija.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7598f9b8"
+  },
+  "community.lu-meshcore-luxembourg.desc": {
+    "value": "Zajednička početna stranica luksemburških udruga koje vode MeshCore repetitore diljem zemlje. To su hakerske, radioamaterske i grupe za pripravnost na izvanredne situacije.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e38285ec"
+  },
+  "community.de-meshcore-de.desc": {
+    "value": "MeshCore chat na njemačkom na Telegramu, koji se koristi diljem Njemačke i u austrijskim grupama. Za one koji ga više vole postoji i Matrix soba.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2d34fef"
+  },
+  "community.de-berlin-chaos-mesh.desc": {
+    "value": "Berlinska grupa iz hakerskog prostora s forumom, Matrix sobom i nadzornom pločom PotatoMesh, koja pokriva MeshCore uz druge mesh projekte.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9f0065e0"
+  },
+  "community.de-isarmesh.desc": {
+    "value": "Forum za korisnike LoRa mesha oko Münchena koji organizira redovite susrete i raspravlja o MeshCoreu i drugim mesh projektima.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "05e62cf9"
+  },
+  "community.de-mesh-dresden.desc": {
+    "value": "Grupa iz Dresdena s detaljnim tehničkim člancima za operatere repetitora. Vodi i lokalni chat za MeshCore i druge mesh projekte.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fd5d9e40"
+  },
+  "community.at-meshcore-austria.desc": {
+    "value": "Austrijska stranica zajednice s vodičima za postavljanje, događajima i vijestima. Austrijska Telegram grupa vodi se odvojeno od stranice.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3dfcd101"
+  },
+  "community.ch-meshcore-switzerland.desc": {
+    "value": "Švicarska stranica na četiri jezika sa savjetima o uređajima, regijama i kanalima te forumom zajednice za pitanja i zahtjeve.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e8eb8c2c"
+  },
+  "community.cz-meshcore-cr.desc": {
+    "value": "Češki wiki o hardveru, repetitorima, kanalima i regijama, uz Telegram grupu i nacionalni analizator paketa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3eb31061"
+  },
+  "community.sk-meshcore-slovensko.desc": {
+    "value": "Slovačka stranica mreže koju vodi radioamaterski klub iz Bratislave, s Discord poslužiteljem i tjednim susretima uživo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "950a6862"
+  },
+  "community.pl-meshcore-polska.desc": {
+    "value": "Poljska zajednica na razini cijele zemlje s kartom čvorova, dokumentacijom na poljskom i Discord poslužiteljem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bd6ed843"
+  },
+  "community.fr-meshcore-france.desc": {
+    "value": "Francuska koordinacijska stranica koja upućuje na regionalne grupe i regionalne karte uživo, a održava se kao neovisna stranica zajednice.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e2024cd5"
+  },
+  "community.fr-mesh-idf.desc": {
+    "value": "Wiki pariške regije s MeshCore chatom na Telegramu. Wiki pokriva i druge mesh projekte.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b4be06c9"
+  },
+  "community.it-meshcore-italia.desc": {
+    "value": "Talijanska nacionalna zajednica s vodičima, popisima regionalnih kanala i kanala za vremenska upozorenja, kartom čvorova uživo i Telegram grupom.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2a6caa8e"
+  },
+  "community.pt-meshcore-portugal.desc": {
+    "value": "Portugalska zajednica s vlastitim vodičima te aplikacijom i firmwareom na portugalskom. Njezini su chatovi okupljeni u jednoj Telegram mapi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b67ce7bd"
+  },
+  "community.dk-meshcore-dk.desc": {
+    "value": "Danski wiki sa stranicama za početnike, bilješkama o uređajima, postavljanjem regija i fotografijama stvarnih instalacija repetitora.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d0895f3b"
+  },
+  "community.se-meshat.desc": {
+    "value": "Švedsko mjesto okupljanja za mesh umrežavanje, s forumom, Discordom i Matrix sobom. Vodi MeshCore MQTT i usluge karata, a pokriva i druge mesh projekte.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33d9ed2b"
+  },
+  "community.fi-mesh-finland.desc": {
+    "value": "Finska MeshCore stranica s poveznicama na nacionalni analizator i karte pokrivenosti. Njezin Discord poslužitelj dijeli s korisnicima drugih mesh projekata.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3d618dfa"
+  },
+  "community.no-meshwiki.desc": {
+    "value": "Norveški wiki s odjeljkom o MeshCoreu uz druge mesh projekte i povezanim forumom.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ccd83ba2"
+  },
+  "community.ee-estmesh.desc": {
+    "value": "Estonska MeshCore stranica i wiki, s nacionalnim i gradskim kanalima te Discord poslužiteljem za estonske radioentuzijaste.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14530e0d"
+  },
+  "community.lv-apraide.desc": {
+    "value": "Latvijska LoRa mesh zajednica koja je za svoju mrežu odabrala MeshCore, a raspravlja u Matrix sobi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "42e8a5c2"
+  },
+  "community.lt-atviras-tinklas.desc": {
+    "value": "Litavska stranica zajednice s bazom znanja, stranicama o uređajima i analizatorom mreže MeshCore uživo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8a0f8ba4"
+  },
+  "community.si-meshcore-slovenija.desc": {
+    "value": "Slovenska stranica s preporučenim regionalnim radijskim postavkama, kartom čvorova i poveznicama na firmware.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "73253c8c"
+  },
+  "community.bg-meshcore-bulgaria.desc": {
+    "value": "Bugarska zajednica oko Sofije i Plovdiva, s radijskim vezama prema Rumunjskoj i Srbiji. Objavljuje kanale, predloške i alate za planiranje.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ef62c925"
+  },
+  "community.rs-meshcore-srbija.desc": {
+    "value": "Neslužbena srpska stranica zajednice s registrom čvorova i kartom uživo za mrežu koja obuhvaća Srbiju i susjedne zemlje.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "874059ce"
+  },
+  "community.gr-meshcore-greece.desc": {
+    "value": "Grčki Discord poslužitelj za planiranje i vođenje MeshCore mreža u Grčkoj.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3fa83721"
+  },
+  "community.gb-meshhub-uk.desc": {
+    "value": "Središte za cijelo Ujedinjeno Kraljevstvo s alatima zajednice, kartama i događajima za korisnike MeshCorea i druge mesh zajednice.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "050038cc"
+  },
+  "community.gb-scotmesh.desc": {
+    "value": "Škotska zajednica koju vode volonteri, s forumom, wikijem i Discordom, a uz MeshCore vodi i druge mesh projekte.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cce9f41c"
+  },
+  "community.ie-lora-project.desc": {
+    "value": "Neovisna stranica za početnike s MeshCoreom na cijelom otoku Irskoj. Njezin Discord poslužitelj pokriva i sjever i jug.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5f335412"
+  },
+  "community.at-carinthiamesh.desc": {
+    "value": "Wiki za MeshCore u Koruškoj: prvi koraci, radijske postavke, uređaji i repetitori.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b601e188"
+  },
+  "community.at-meshcore-austria-at.desc": {
+    "value": "Wiki zajednice na njemačkom za MeshCore u Austriji.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7746c59b"
+  },
+  "community.be-loramesh.desc": {
+    "value": "Belgijska grupa koja koristi MeshCore za hitne poruke kada internet i mobilna mreža ne rade.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a0d79514"
+  },
+  "community.be-meshpot.desc": {
+    "value": "Vodič na francuskom za pridruživanje, izgradnju i zaštitu MeshCore mesha u Bruxellesu i Valoniji.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3c6c5a0a"
+  },
+  "community.fr-loramesh.desc": {
+    "value": "Francuska grupa koja s MeshCoreom održava lokalni kontakt kada internet ili mobilna mreža zakažu, korak po korak, s kartom aktivnih područja.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f22be170"
+  },
+  "community.de-bsmesh.desc": {
+    "value": "MeshCore mreža za šire područje Braunschweiga.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "076fd5a0"
+  },
+  "community.de-bremesh.desc": {
+    "value": "Besplatna MeshCore mreža za Bremen, Bremerhaven i njihovu okolicu, s vodičima.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7f614859"
+  },
+  "community.de-pemesh.desc": {
+    "value": "MeshCore mreža u Peineu i okolici, nastala spajanjem dva lokalna mesha.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6423719c"
+  },
+  "community.de-muensterland.desc": {
+    "value": "Zajednica gradi besplatnu MeshCore mrežu diljem Münsterlanda, a počela je u Billerbecku.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6f35e420"
+  },
+  "community.de-mesh-rheinland.desc": {
+    "value": "Zajednica iz Porajnja koja vodi i MeshCore i Meshtastic mrežu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eb9d7af7"
+  },
+  "community.de-meshcore-de-wiki.desc": {
+    "value": "Wiki na njemačkom s vodičima za postavljanje i popisom regionalnih grupa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2a7d4602"
+  },
+  "community.de-ffnw.desc": {
+    "value": "Udruga Freifunk od 2013. vodi društvenu WiFi mesh mrežu u regiji Weser-Ems, a sada vodi i MeshCore repetitore. Sastaje se svaki mjesec u Oldenburgu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "abb2138f"
+  },
+  "community.de-meshcore-dresden.desc": {
+    "value": "Grupa gradi MeshCore mrežu u Dresdenu i okolici, s popisom regija i kanala.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d0a1d71d"
+  },
+  "community.de-meshmitte.desc": {
+    "value": "Lokalna grupa u Uslaru i okolici želi da ljudi ostanu u kontaktu tijekom nestanka struje i mreže.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "82b196a8"
+  },
+  "community.de-saarmesh.desc": {
+    "value": "Regionalna MeshCore mreža u Saarlandu, sa strukturom regija i kartom uživo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2eeeb6e6"
+  },
+  "community.de-hansemesh.desc": {
+    "value": "MeshCore mreža za Hamburg i sjevernu Njemačku, s vodičima i savjetima o hardveru. Njezin chat je grupa MeshCore DE na Telegramu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c27d5586"
+  },
+  "community.de-mesh-weiterstadt.desc": {
+    "value": "Lokalna grupa postavlja besplatnu MeshCore mrežu u Weiterstadtu, a mreža je još u izgradnji. Grupa traži od ljudi da ponude krov za repetitor.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5a268245"
+  },
+  "community.de-msemesh.desc": {
+    "value": "MeshCore i Meshtastic grupa oko Neubrandenburga, Neustrelitza, Warena, Demmina i Feldberga.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc1d7f13"
+  },
+  "community.de-ka-mesh.desc": {
+    "value": "Grupa gradi MeshCore mrežu oko Karlsruhea i Pforzheima, s popisom kanala i susretima.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20d493a1"
+  },
+  "community.ie-mayo-mesh.desc": {
+    "value": "Grupa korisnika mesh radija za okrug Mayo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "baab199e"
+  },
+  "community.it-lora-brescia.desc": {
+    "value": "Radijska grupa u Bresci s talijanskim vodičima za flashanje i postavljanje MeshCore repetitora. Vodi i Meshtastic i LoRa APRS.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08567551"
+  },
+  "community.it-meshcore-ita.desc": {
+    "value": "Vodiči na talijanskom, zajednički talijanski radijski preset i bilješke o hardveru, uz grupu na Telegramu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8b178f55"
+  },
+  "community.it-meshcore-torino.desc": {
+    "value": "Grupa za Torino i njegovu pokrajinu koja ti pomaže postaviti vlastiti čvor.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d1527a42"
+  },
+  "community.nl-meshwiki.desc": {
+    "value": "Nizozemski wiki o MeshCoreu i mesh radiju koji svatko može uređivati.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ce29af01"
+  },
+  "community.pl-lora-meshcore-polska.desc": {
+    "value": "Poljska nacionalna mreža na presetu EU/UK Narrow, s objašnjenjem kako radi i tko je gradi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4c574d21"
+  },
+  "community.pl-meshcore-podlasie.desc": {
+    "value": "Hobisti grade MeshCore mrežu u Podlasju, s novostima i lokalnim postavkama.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a15fb772"
+  },
+  "community.pl-meshgo.desc": {
+    "value": "MeshCore grupa oko Gdańska, Gdynije i Sopota koja koristi poljski nacionalni preset.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8d16fa09"
+  },
+  "community.ro-brasov-mesh.desc": {
+    "value": "MeshCore mreža u Brașovu na presetu EU/UK Narrow.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bd8dcbfa"
+  },
+  "community.ro-meshcore-iasi.desc": {
+    "value": "MeshCore mreža u Iașiju s nadzornom pločom uživo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eacc34d4"
+  },
+  "community.es-meshcore-catalunya.desc": {
+    "value": "Katalonsko središte zajednice s kartom uživo, analizatorom i vodičima za hardver.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5357e7fd"
+  },
+  "community.es-nomadmesh.desc": {
+    "value": "MeshCore mreža zajednice u Alpujarrasu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ee8acd03"
+  },
+  "community.ua-meshcore-ua.desc": {
+    "value": "Javni mesh koji vode volonteri, za održavanje kontakta diljem Ukrajine, s popisima repetitora, botova i kanala.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "96fe6d7d"
+  },
+  "community.gb-ipnet.desc": {
+    "value": "Zajednica iz Ipswicha za istok Engleske, s nadzornim pločama CoreScope i MQTT uslugama.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "114be940"
+  },
+  "community.gb-meshcore-wales.desc": {
+    "value": "Zajedničke radijske postavke i kanali za Južni Wales i zapad Engleske.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "726b552a"
+  },
+  "community.gb-northmesh.desc": {
+    "value": "Mreža sjeverne Engleske s kartom uživo koja prikazuje repetitore, aktivnost paketa i pokrivenost.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a1345cca"
+  },
+  "map.meshcore-official-map.desc": {
+    "value": "Vlastita svjetska karta projekta s čvorovima koje su vlasnici odlučili objaviti, s filtrima po vrsti čvora i radijskoj frekvenciji.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1509cafa"
+  },
+  "map.meshmapper.desc": {
+    "value": "Karte pokrivenosti nastale iz wardrivinga lokalnih volontera, podijeljene na regionalne karte, s regijama diljem Europe.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f333e608"
+  },
+  "map.eu-meshcore-analyzer.desc": {
+    "value": "Zajednički europski analizator spaja podatke observera iz više brokera zajednice u jedan prikaz uživo čvorova, paketa i kanala.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aa93a1ba"
+  },
+  "map.nl-dmc-observers.desc": {
+    "value": "Nadzorna ploča uživo s observerima koji šalju podatke MQTT kolektorima Dutch MeshCorea (DMC).",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1da8752e"
+  },
+  "map.nl-mc-radar.desc": {
+    "value": "Statistika nizozemskog mesha s grafovima propusnosti, prometa po kanalima, aktivnosti čvorova i stanja protokola iz podataka nizozemskih observera.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a54bab7e"
+  },
+  "map.cz-analyzer.desc": {
+    "value": "Instanca CoreScopea za češku mrežu s paketima uživo, kartom čvorova i statistikom po čvoru.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ade9ad40"
+  },
+  "map.fi-corescope.desc": {
+    "value": "Finski CoreScope analizator prikazuje nacionalnu MeshCore mrežu na karti s paketima uživo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9fa0aa59"
+  },
+  "map.se-meshat-corescope.desc": {
+    "value": "Švedski CoreScope analizator koji podatke dobiva od MeshCore MQTT brokera Meshat.se.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a1e700c6"
+  },
+  "map.fr-cartolite.desc": {
+    "value": "Karta MeshCore prometa uživo iz cijelog svijeta na vlastitom poslužitelju, sa slušanim vezama, paketima uživo i toplinskom kartom na reljefnoj podlozi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "abcdec75"
+  },
+  "map.ee-litescope.desc": {
+    "value": "Lagani estonski analizator s paketima uživo, kartom čvorova, statistikom signala i pregledom observera.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "040c7753"
+  },
+  "map.ie-mayomesh-live.desc": {
+    "value": "Irska karta čvorova, ruta poruka i putova adverta u stvarnom vremenu, s alatima za pokrivenost, liniju vidljivosti i propagaciju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "244a4a53"
+  },
+  "map.de-meshcorenetz-analyzer.desc": {
+    "value": "MeshCore Analyzer u bojama MeshCoreNetz.de, otvara se na sjevernoj Njemačkoj.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7c597271"
+  },
+  "map.de-meshdresden-analyzer.desc": {
+    "value": "MeshCore Analyzer u bojama MeshDresden.eu, mesha zajednice u Dresdenu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b7456441"
+  },
+  "map.nl-cornmeister.desc": {
+    "value": "MeshCore Analyzer u bojama Cornmeister.nl, otvara se na Nizozemskoj.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69efcf8b"
+  },
+  "map.be-bemesh-map.desc": {
+    "value": "Karta belgijskih klijenata, repetitora, room servera i senzora, na kojoj vlasnici mogu preuzeti svoj čvor.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "37af8d74"
+  },
+  "map.be-on8ar-corescope.desc": {
+    "value": "CoreScope analizator za promet koji se čuje u Belgiji.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97d8adf0"
+  },
+  "map.is-corescope.desc": {
+    "value": "CoreScope analizator za islandsku mrežu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9441de4b"
+  },
+  "map.pl-meshcore-polska-map.desc": {
+    "value": "Karta uživo poljskih klijenata, repetitora, room servera i senzora.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57d86a21"
+  },
+  "map.fr-loramesh-map.desc": {
+    "value": "Karta područja u Francuskoj gdje je MeshCore aktivan. Pokrivenost je još uvijek rascjepkana izvan velikih gradova.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "85632f3a"
+  },
+  "map.de-meshcore-de-regions.desc": {
+    "value": "Karta MeshCore regija i lokalnih grupa koju možeš uređivati, uglavnom u Njemačkoj.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cec143bd"
+  },
+  "map.gb-ukmesh.desc": {
+    "value": "Analitika mreže u Ujedinjenom Kraljevstvu s putovima i prikazima uživo, iz podataka observera.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "03a38df8"
+  },
+  "map.gb-meshrank.desc": {
+    "value": "Ljestvice i statistika repetitora i ruta, uglavnom u Ujedinjenom Kraljevstvu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "997a9a6e"
+  },
+  "map.gb-m3sh-contacts.desc": {
+    "value": "Mreža Ujedinjenog Kraljevstva kako je čuje jedan čvor u Oxfordshireu, s hardverom čvorova i dupliciranim prefiksima.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cb2153f9"
+  },
+  "map.kiekr-map.desc": {
+    "value": "Koje radijske regije dosežu koja područja, izračunato iz susjeda koje korisnici KiekR-a opažaju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9a3aceee"
+  },
+  "map.hopradar.desc": {
+    "value": "Spoji vlastiti čvor preko Bluetootha ili USB-a i u pregledniku vidi skokove, putove i SNR koje čuje.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ae215bf8"
+  },
+  "map.mapme-sh.desc": {
+    "value": "Karta pokrivenosti nastala iz vožnji s mobitelima diljem Europe, prikazana šesterokutima obojenima prema jačini signala. Igra upozorava na rupe u meshu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "23bca522"
+  },
+  "project.meshcore-firmware.desc": {
+    "value": "Službeni MeshCore firmware i biblioteka za usmjeravanje za LoRa pločice, s ulogama companion, repetitor, room server i senzor.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bba821af"
+  },
+  "project.meshcore-js.desc": {
+    "value": "JavaScript biblioteka za komunikaciju s MeshCore companion radijima iz preglednika i Node.js-a.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0b9ed81f"
+  },
+  "project.meshcore-py.desc": {
+    "value": "Python veze za upravljanje MeshCore companion radijem preko serijske veze, Bluetootha ili TCP-a.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "305bd163"
+  },
+  "project.meshcore-cli.desc": {
+    "value": "Klijent za naredbeni redak za slanje poruka MeshCore čvorovima i upravljanje njima iz terminala.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6f68e501"
+  },
+  "project.meshcore-ha.desc": {
+    "value": "Integracija za Home Assistant koja MeshCore čvorove, poruke i telemetriju prikazuje kao entitete za nadzor i automatizacije.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8b5725be"
+  },
+  "project.meshcore-flasher.desc": {
+    "value": "Izvorni kod alata u pregledniku koji preko USB-a flasha MeshCore firmware na podržane pločice.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ba3feb1b"
+  },
+  "project.meshcore-map.desc": {
+    "value": "Izvorni kod službene karte čvorova na kojoj vlasnici mogu objaviti svoje čvorove.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "91b7682b"
+  },
+  "project.openhop-repeater.desc": {
+    "value": "Python repeater daemon koji Linux računalo sa SPI LoRa radijem pretvara u repetitor kompatibilan s MeshCoreom.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d2bf1646"
+  },
+  "project.openhop-core.desc": {
+    "value": "Nova Python implementacija MeshCore protokola i sustava za usmjeravanje s izravnom podrškom za SPI LoRa radije.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54ed7f73"
+  },
+  "project.meshcore-open.desc": {
+    "value": "Višeplatformska Flutter aplikacija otvorenog koda za MeshCore radije preko Bluetootha, USB serijske veze ili TCP-a, uključujući web verziju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c322a23f"
+  },
+  "project.meshcoretomqtt.desc": {
+    "value": "Skripta koja pakete uhvaćene na MeshCore observer radiju prosljeđuje MQTT brokeru za analizatore.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "19dfb497"
+  },
+  "project.meshcore-mqtt-broker.desc": {
+    "value": "MQTT broker koji observere autentificira njihovim MeshCore parovima ključeva umjesto lozinkama.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ca27fa19"
+  },
+  "project.corescope.desc": {
+    "value": "MeshCore analizator na vlastitom poslužitelju koji prima pakete preko MQTT-a. Nudi prikaz uživo, karte, prikaze kanala i statistiku čvorova.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a74322db"
+  },
+  "project.litescope.desc": {
+    "value": "Lagana nadzorna ploča na vlastitom poslužitelju za praćenje MeshCore mreže. Estonska zajednica vodi jednu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dc42e5a"
+  },
+  "project.meshcore-hub.desc": {
+    "value": "Python platforma jedne zajednice iz Ujedinjenog Kraljevstva. Sprema MQTT događaje u bazu podataka i nudi REST API i web nadzornu ploču.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "07442a84"
+  },
+  "project.potato-mesh.desc": {
+    "value": "Federirana nadzorna ploča zajednice za MeshCore i druge mesh mreže, koju koristi Berlin Chaos Mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7b98d4f7"
+  },
+  "project.meshcore-mqtt-live-map.desc": {
+    "value": "Web karta uživo koju pokreće MeshCore MQTT feed, a prikazuje čvorove, rute i pokrivenost u stvarnom vremenu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e0380e74"
+  },
+  "project.meshcore-bot.desc": {
+    "value": "Python bot koji odgovara na naredbe na MeshCore kanalima i može prenositi poruke na Discord i Telegram.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "04a73c83"
+  },
+  "project.meshcore-channels.desc": {
+    "value": "JSON popis javnih MeshCore kanala po državama koji zajednica može uređivati, objavljen za korištenje u aplikacijama.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3bb8a9a"
+  },
+  "project.meshcore-regions.desc": {
+    "value": "JSON katalog MeshCore kodova regija iz cijelog svijeta koji zajednica može uređivati.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ea403726"
+  },
+  "project.zephcore.desc": {
+    "value": "Prijenos MeshCorea s Arduina na operacijski sustav za rad u stvarnom vremenu Zephyr.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d68923fa"
+  },
+  "project.meshcore-ng.desc": {
+    "value": "Nizozemski fork firmwarea koji dodaje poboljšanja repetitora za guste, prometne mesheve i ostaje kompatibilan sa standardnim klijentima.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5f288c67"
+  },
+  "project.meshcore-solo.desc": {
+    "value": "Companion fork firmwarea koji dodaje izvanmrežnu GPS navigaciju s točkama puta, kompas i izvoz u GPX.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1c9d0659"
+  },
+  "project.meshcore-c.desc": {
+    "value": "Implementacija MeshCore protokola u C-u bez ovisnosti, kao biblioteka za bilo koji projekt ili komponenta za ESP-IDF.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "327a07f8"
+  },
+  "project.lora-mesh-nodes.desc": {
+    "value": "Zbirka DIY dizajna mobilnih i solarnih čvorova s kućištima, dijelovima za ispis i popisima dijelova.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "637e2726"
+  },
+  "project.lora-harvester-box.desc": {
+    "value": "Otvorena hardverska pločica spaja LoRa čip STM32WL sa skupljačem energije, za LoRa čvorove vrlo niske potrošnje, među njima i MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6ecc7144"
+  },
+  "project.mesh-hunter.desc": {
+    "value": "Web aplikacija za mobitel povezuje se s companion radijem i bilježi svaki čuti paket s tvojim GPS položajem, kako bi pješice ili vozilom došao do izvora neželjenog prometa. Može dijeliti ono što čuje s MQTT brokerima.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d0fb854e"
+  },
+  "project.eu-meshcore-analyzer.desc": {
+    "value": "Karta uživo i analizator europske MeshCore mreže, iz podataka observera i aplikacija za mobitel koji javljaju što čuju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fed133d8"
+  },
+  "project.dmc-triangulator.desc": {
+    "value": "Sužava gdje se čvor nalazi prema repetitorima koji su ga čuli, kao prvo područje traženja prije lokalne potrage.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f73b5e0b"
+  },
+  "project.kiekr.desc": {
+    "value": "Aplikacija za mobitel za slanje poruka na meshu koja i mapira pokrivenost te može slati ono što čuje analizatorima.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "05e5f56a"
+  },
+  "project.meshmapper.desc": {
+    "value": "Karta pokrivenosti nastala iz wardrivinga, s regionalnim instancama, vlastitim MQTT brokerom i otvorenim API-jem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1135e1cd"
+  },
+  "project.trail-mate.desc": {
+    "value": "Izvanmrežni firmware za ručne uređaje LilyGO T-LoRa Pager i T-Deck, s GPS navigacijom i timskim porukama preko MeshCorea i Meshtastica.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "86cd32a0"
+  },
+  "project.remote-terminal.desc": {
+    "value": "Klijent na vlastitom poslužitelju za MeshCore radio koji uhvaćene pakete čuva i dešifrira na poslužitelju, s botovima i MQTT-om.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90c11494"
+  },
+  "project.meshpoint.desc": {
+    "value": "Bazna stanica na Raspberry Piju s koncentratorom SX1302 ili SX1303 koja sluša više kanala odjednom, s lokalnom nadzornom pločom.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6c668061"
+  },
+  "project.easyskymesh.desc": {
+    "value": "Fork firmwarea koji štedi energiju za repetitore i senzorske čvorove na bateriju ili mali solarni panel.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3b1503dc"
+  },
+  "project.solar-os.desc": {
+    "value": "Mali operacijski sustav usmjeren na tekst za džepne terminale s ESP32, s MeshCore companionom na vlastitom radiju ili uparenom čvoru.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "23677e08"
+  },
+  "project.wio-tracker-l1-pro.desc": {
+    "value": "Companion firmware za Seeed Wio Tracker L1 Pro s korisničkim sučeljem na samom uređaju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b694d013"
+  },
+  "project.meshcore-one.desc": {
+    "value": "Izvorna MeshCore aplikacija za iPhone, iPad i Mac.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "87505963"
+  },
+  "project.lunarcore.desc": {
+    "value": "Rust firmware za Heltec WiFi LoRa 32 V3 koji govori MeshCore, Meshtastic i druge protokole.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f2c6fabd"
+  },
+  "project.meshcore-sar.desc": {
+    "value": "Izvanmrežna aplikacija za timove za potragu i spašavanje: poruke, glas, slike, karte i dijeljene lokacije preko MeshCorea.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "413c9353"
+  },
+  "project.cardputer-adv-stachugit.desc": {
+    "value": "Companion firmware za M5Stack Cardputer ADV s LoRa kapom, sa zaslonom za chat i temama boja.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9ab883fb"
+  },
+  "project.meshcoreterm.desc": {
+    "value": "Firmware s dodirnim sučeljem u retro stilu za LilyGO T-Deck, Seeed SenseCAP Indicator i druge pločice sa zaslonom.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ac08cb0e"
+  },
+  "project.mesh-client.desc": {
+    "value": "Desktop aplikacija za macOS, Linux i Windows koja komunicira s MeshCore, Meshtastic i Reticulum radijima.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61a3a731"
+  },
+  "project.mishmesh.desc": {
+    "value": "Companion firmware s vlastitim sučeljem na radiju, pa možeš slati poruke bez uparenog mobitela.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9bde8382"
+  },
+  "project.overmesh.desc": {
+    "value": "Nadzorna ploča koju pokrećeš na svom računalu za MeshCore i Meshtastic, s kartom čvorova, chatom, botom i izvanmrežnim kartama.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fbacbc50"
+  },
+  "project.meshcore-wardrive-android.desc": {
+    "value": "Android aplikacija koja mapira MeshCore pokrivenost dok hodaš ili voziš.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6c9c49ec"
+  },
+  "project.akita-bridge.desc": {
+    "value": "Most koji prenosi poruke između Meshtastica i MeshCorea, preko serijske veze ili MQTT-a.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eff5e3a1"
+  },
+  "project.meshcore-packet-capture.desc": {
+    "value": "Python skripta koja hvata pakete s companion radija i objavljuje ih na MQTT.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5325460e"
+  },
+  "project.cardputer-adv-sosprz.desc": {
+    "value": "Companion firmware za M5Stack Cardputer ADV s Cap LoRa868, koji flashaš pomoću M5Burnera.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cf8b55c5"
+  },
+  "project.lora-wideband-decoder.desc": {
+    "value": "Softverski definiran radijski prijamnik dekodira MeshCore, Meshtastic i LoRaWAN promet u širokom pojasu, s lokalnom web stranicom.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3e575ff"
+  },
+  "project.mc-webui.desc": {
+    "value": "Web sučelje povrh meshcore-cli za slanje poruka iz preglednika.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3372c462"
+  },
+  "project.meshfirmware.desc": {
+    "value": "Skripte za Linux i Windows koje odabiru, grade i preko USB-a flashaju MeshCore i Meshtastic firmware.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be0d230e"
+  },
+  "project.repeater-mqtt-gateway.desc": {
+    "value": "Firmware za repetitor koji mesh povezuje i s MQTT brokerom, u oba smjera.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "23f7dfec"
+  },
+  "project.tak-meshcore.desc": {
+    "value": "Dodatak koji aplikaciji za situacijsku svijest ATAK omogućuje korištenje MeshCore companion radija preko Bluetootha.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "acbecd75"
+  },
+  "project.meshcore-decoder.desc": {
+    "value": "TypeScript biblioteka koja dekodira MeshCore pakete, uključujući dešifriranje.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1235f40d"
+  },
+  "project.mesh-loader.desc": {
+    "value": "Dual boot za Heltec WiFi LoRa 32 V3 i V4: drži dva firmwarea na jednoj pločici i prebacuj se između njih.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be49552e"
+  },
+  "project.meshcore-proxy.desc": {
+    "value": "TCP proxy koji companion radio na USB-u ili Bluetoothu čini dostupnim aplikacijama na drugim računalima.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "eaf24463"
+  },
+  "project.roadstr.desc": {
+    "value": "Prijava događaja na cesti bez središnjeg poslužitelja: potpisani Nostr događaji, koji idu preko MeshCorea kad nema interneta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "60e39810"
+  },
+  "project.domca-docs.desc": {
+    "value": "Dokumentacija na nizozemskom i engleskom, od tvog prvog čvora do načina rada protokola, firmwarea i radija. Piše se uz pomoć AI alata, pa detalje o firmwareu provjeri u izvornom kodu MeshCorea.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c976aea"
+  },
+  "guides_group_start": {
+    "value": "Tvoj prvi čvor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "276f7ca8"
+  },
+  "guides_group_setup": {
+    "value": "Postavi svoj čvor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "55efd611"
+  },
+  "guides_group_deeper": {
+    "value": "Saznaj više",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6bce982b"
+  },
+  "guides_card_get_started_title": {
+    "value": "Prvi koraci",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "guides_card_get_started_desc": {
+    "value": "Od nove pločice do prve poruke na meshu, u 6 koraka.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "133bcbfc"
+  },
+  "guides_card_devices_title": {
+    "value": "Uređaji",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ba5121d"
+  },
+  "guides_card_devices_desc": {
+    "value": "Usporedi pločice po ulozi, cijeni i izvoru napajanja, pa odaberi onu koja ti odgovara.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cf3bba38"
+  },
+  "guides_card_settings_title": {
+    "value": "Preporučene postavke",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cfb32983"
+  },
+  "guides_card_settings_desc": {
+    "value": "Radijski preset koji se koristi u tvom području i postavke koje su tvoji susjedi promijenili.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e18863a"
+  },
+  "guides_card_antenna_title": {
+    "value": "Vodič za antene",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3a76cb0e"
+  },
+  "guides_card_antenna_desc": {
+    "value": "Podešena antena i kratak kabel daju veći domet od dodatne snage. Provjeri antenu na svom companionu, a za repetitor je odaberi, spoji i montiraj.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3869e4e4"
+  },
+  "guides_card_repeater_title": {
+    "value": "Vodič za repetitore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4608abcd"
+  },
+  "guides_card_repeater_desc": {
+    "value": "Repetitor prosljeđuje poruke za sve oko sebe. Položaj, naredbe za postavljanje i zakonska ograničenja na 868 MHz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "979d61a1"
+  },
+  "guides_card_resilient_title": {
+    "value": "Učini mesh otpornim",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33ec7ac8"
+  },
+  "guides_card_resilient_desc": {
+    "value": "Nešto ometa mesh blizu tebe? Otkrij što je to i uključi postavku na repetitoru koja to zaustavlja.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a0476ea5"
+  },
+  "guides_card_filter_title": {
+    "value": "Filtar paketa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20a3ef1f"
+  },
+  "guides_card_filter_desc": {
+    "value": "Spriječi da tvoj repetitor prosljeđuje smeće, poput bota koji nikad ne staje ili bučnog kanala.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2db3748c"
+  },
+  "guides_card_mqtt_title": {
+    "value": "MQTT na tvom observeru",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "62626d0f"
+  },
+  "guides_card_mqtt_desc": {
+    "value": "Observer je čvor koji ono što čuje prosljeđuje preko MQTT-a. Postavi ga za kartu ili analizator.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "774395b6"
+  },
+  "guides_card_mctomqtt_title": {
+    "value": "Izradi konfiguraciju mosta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fd2dd667"
+  },
+  "guides_card_mctomqtt_desc": {
+    "value": "Šalji ono što tvoj repetitor čuje bilo kojem MQTT brokeru: svom ili Analyzeru.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6c4d4692"
+  },
+  "guides_card_cli_title": {
+    "value": "CLI naredbe",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a13cc6cb"
+  },
+  "guides_card_cli_desc": {
+    "value": "Naredbe repetitora, svaka s opisom onoga što radi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "977f43d6"
+  },
+  "firmware_card_flasher_title": {
+    "value": "Flashaj",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3577cb5"
+  },
+  "firmware_card_flasher_desc": {
+    "value": "Stavi MeshCore na svoju pločicu iz preglednika, preko USB-a.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0a1c2394"
+  },
+  "firmware_card_console_title": {
+    "value": "Serijska konzola",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4e3c41fa"
+  },
+  "firmware_card_console_desc": {
+    "value": "Upisuj naredbe svom repetitoru iz preglednika, preko USB-a.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f0d52063"
+  },
+  "firmware_card_changelog_title": {
+    "value": "Popis promjena",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ead07c84"
+  },
+  "firmware_card_changelog_desc": {
+    "value": "Pogledaj što se promijenilo u svakom izdanju MeshCorea i treba li to tvom čvoru.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "314733fe"
+  },
+  "area_device_repeater": {
+    "value": "Na tvom repetitoru",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5cb30f9"
+  },
+  "area_device_companion": {
+    "value": "U aplikaciji na tvom companionu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8e459238"
+  },
+  "area_change_nl_regions": {
+    "value": "Dodaj regije koje tvoj repetitor poslužuje, svaku unutar one iznad nje: Europa, Benelux, Nizozemska, tvoja pokrajina i tvoj grad. Tvoja pokrajina postaje zadana.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "593b1502"
+  },
+  "area_change_strict_regions": {
+    "value": "Odbacuj pakete bez regije, da ne putuju diljem Europe. Prvo dodaj regije.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "11ca714d"
+  },
+  "area_change_zero_hop": {
+    "value": "Šalji advert koji čuju tvoji izravni susjedi svaka 4 sata.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0e990713"
+  },
+  "area_change_path_hash": {
+    "value": "Koristi 2-bajtni path hash: razlikuje 65.536 repetitora umjesto 256.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b63880c0"
+  },
+  "area_change_loop": {
+    "value": "Odbacuj flood pakete koji se kroz tvoj repetitor vraćaju u petlji. Repetitor postavljen s verzijom 1.18 ili novijom to već radi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "44333e2e"
+  },
+  "area_change_dutycycle": {
+    "value": "Ograniči svoj repetitor na 10% vremena emitiranja.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8877399e"
+  },
+  "area_change_nl_companion_region": {
+    "value": "U eksperimentalnim postavkama aplikacije postavi zadanu regiju na nl. Svakom kanalu dodijeli njegovu regiju, poput nl-nh za Sjevernu Holandiju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3c31c16c"
+  },
+  "area_change_companion_path_hash": {
+    "value": "U eksperimentalnim postavkama aplikacije postavi zadanu veličinu path hasha na 2 bajta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4e3414d1"
+  },
+  "area_preset": {
+    "value": "Radijski preset",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6fd605ec"
+  },
+  "area_path_hash": {
+    "value": "Path hash (određuje ga preset)",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2e93a7f1"
+  },
+  "area_bytes": {
+    "value": "bajtova",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "277089d9"
+  },
+  "area_firmware": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "area_or_newer": {
+    "value": "ili noviji",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e2cbdfd0"
+  },
+  "area_changes": {
+    "value": "Promijenjeno u odnosu na zadane postavke MeshCorea",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0587de6f"
+  },
+  "area_source_group": {
+    "value": "Izvor postavki",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f06dfa4f"
+  },
+  "area_source_preset": {
+    "value": "Preset s popisa projekta MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "89d3440f"
+  },
+  "area_checked": {
+    "value": "provjereno",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e61a3d78"
+  },
+  "area_add_title": {
+    "value": "Dodaj svoje područje",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6ec76c28"
+  },
+  "area_add_body": {
+    "value": "Koristi li tvoja lokalna grupa vlastiti preset ili mijenja postavke? Pošalji ih, s poveznicom na mjesto gdje ste ih dogovorili.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5976a5e5"
+  },
+  "area_add_cta": {
+    "value": "Dodaj svoje područje",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6ec76c28"
+  },
+  "area_link": {
+    "value": "Poveznica na ovo područje",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "98909794"
+  },
+  "heading_link": {
+    "value": "Poveznica na ovaj odjeljak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9dc5baf3"
+  },
+  "toc_title": {
+    "value": "Na ovoj stranici",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5658fc8"
+  },
+  "regions_title": {
+    "value": "Regije: od Europe do tvog grada",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "698de558"
+  },
+  "regions_body": {
+    "value": "Regija je kod za neko područje. Regije se nalaze jedna unutar druge: Europa, tvoja država, tvoja pokrajina, a negdje i tvoj grad. Dodijeli svom repetitoru regije u kojima se nalazi, svaku unutar one iznad nje. Repetitor prosljeđuje poruke za svaku od njih.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3f05bbfc"
+  },
+  "regions_map_body": {
+    "value": "Kodovi u upotrebi razlikuju se po područjima. Karta prikazuje regije koje koriste repetitori oko tebe: koristi iste kao tvoji susjedi, inače tvoj repetitor odbacuje njihove poruke.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ccf2219"
+  },
+  "regions_europe": {
+    "value": "Europa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e595f45d"
+  },
+  "regions_pick": {
+    "value": "Tvoja pokrajina ili regija",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ed5a1c0e"
+  },
+  "regions_pick_none": {
+    "value": "Odaberi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a880a59d"
+  },
+  "regions_region": {
+    "value": "Tvoja regija, ako je tvoje područje koristi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7ebba635"
+  },
+  "regions_town": {
+    "value": "Tvoj grad, ako ga tvoje područje koristi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a6221a2f"
+  },
+  "regions_map": {
+    "value": "Karta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "be176b00"
+  },
+  "regions_map_label": {
+    "value": "na karti MeshCore Analyzera",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2df2db10"
+  },
+  "regions_cmd_hint": {
+    "value": "Odaberi svoju pokrajinu ili upiši njezin kod preko označene vrijednosti, zatim kopiraj.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54f7feb3"
+  },
+  "area_ph_hint": {
+    "value": "Upiši svoje vrijednosti preko označenih, zatim kopiraj.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "04e515aa"
+  },
+  "area_ph_province": {
+    "value": "Tvoja pokrajina",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "492cd073"
+  },
+  "area_ph_city": {
+    "value": "Tvoj grad",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90064d5a"
+  },
+  "area_map_label": {
+    "value": "Karta područja i njihovih radijskih preseta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b49bdce9"
+  },
+  "area_map_own": {
+    "value": "Vlastiti preset ili postavke",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d7dec3ab"
+  },
+  "area_others_title": {
+    "value": "Ostatak EU-a i Ujedinjeno Kraljevstvo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5b618852"
+  },
+  "area_country_label": {
+    "value": "Tvoja država",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "18f2456a"
+  },
+  "area_country_pick": {
+    "value": "Odaberi državu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "632aadfb"
+  },
+  "area_country_missing": {
+    "value": "Tvoje države nema na popisu? Pitaj svoju lokalnu grupu koji preset koristi ili {link}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "64fd9026"
+  },
+  "area_country_missing_link": {
+    "value": "dodaj svoje područje",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "39737a2b"
+  },
+  "area_country_eu": {
+    "value": "{country} nema vlastiti preset u aplikaciji MeshCore. Koristi {preset}, preset koji MeshCore navodi za EU i Ujedinjeno Kraljevstvo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "221cd765"
+  },
+  "area_others_body": {
+    "value": "Ove države nemaju vlastiti preset u aplikaciji MeshCore. Koriste EU/UK (Narrow), preset koji MeshCore navodi za njih.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0fccb2a7"
+  },
+  "cli_groups": {
+    "value": "Grupe naredbi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "70883ce1"
+  },
+  "cli_search": {
+    "value": "Traži",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "49c266ba"
+  },
+  "cli_node_q": {
+    "value": "Koji čvor?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5f669f2f"
+  },
+  "cli_node_repeater": {
+    "value": "Repetitor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "cli_node_room_server": {
+    "value": "Room server",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68b91cc5"
+  },
+  "cli_node_sensor": {
+    "value": "Senzor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "162cc64c"
+  },
+  "cli_node_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dadb328"
+  },
+  "cli_link": {
+    "value": "Poveznica na ovu naredbu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8545494"
+  },
+  "cli_default": {
+    "value": "Početna vrijednost",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "faca355f"
+  },
+  "cli_in_source": {
+    "value": "gdje je firmware postavlja",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4de4eaa8"
+  },
+  "cli_range": {
+    "value": "Vrijednosti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "53b09e10"
+  },
+  "cli_nodes": {
+    "value": "Radi na",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c85fc5a0"
+  },
+  "cli_since": {
+    "value": "Potreban firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5bf596e9"
+  },
+  "cli_build": {
+    "value": "Samo u firmwareu izgrađenom s podrškom za",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bb208568"
+  },
+  "cli_build_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "176c7866"
+  },
+  "cli_build_sensors": {
+    "value": "senzore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e22dfb01"
+  },
+  "cli_build_bridge": {
+    "value": "most",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5a0b83ee"
+  },
+  "cli_build_ethernet": {
+    "value": "Ethernet",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "681e1209"
+  },
+  "cli_build_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10df5f54"
+  },
+  "cli_group_operational": {
+    "value": "Ponovno pokretanje, reset i ažuriranje",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a49f50c1"
+  },
+  "cli_group_adverts": {
+    "value": "Oglasi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8b8ad4a7"
+  },
+  "cli_group_radio": {
+    "value": "Radio",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2a7dfeb2"
+  },
+  "cli_group_system": {
+    "value": "Ime, lozinka i sat",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a96ceeac"
+  },
+  "cli_group_routing": {
+    "value": "Usmjeravanje",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bcba696f"
+  },
+  "cli_group_regions": {
+    "value": "Regije",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "610c65d8"
+  },
+  "cli_group_access": {
+    "value": "Pristup",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ec5ba0ab"
+  },
+  "cli_group_neighbours": {
+    "value": "Susjedi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "24be7e7c"
+  },
+  "cli_group_statistics": {
+    "value": "Statistika",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a656107e"
+  },
+  "cli_group_logging": {
+    "value": "Zapisivanje",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d3ef01b4"
+  },
+  "cli_group_info": {
+    "value": "Verzija i ploča",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9a90dcaa"
+  },
+  "cli_group_gps": {
+    "value": "GPS",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "176c7866"
+  },
+  "cli_group_sensors": {
+    "value": "Senzori",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "76140e34"
+  },
+  "cli_group_bridge": {
+    "value": "Most",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3892e103"
+  },
+  "cli_group_ethernet": {
+    "value": "Ethernet",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "681e1209"
+  },
+  "cli_group_wifi": {
+    "value": "WiFi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10df5f54"
+  },
+  "cmd_reboot_desc": {
+    "value": "Odmah ponovno pokreće čvor, a čvor ti ne šalje odgovor. Koristi je za postavke koje vrijede tek nakon ponovnog pokretanja.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6850ad24"
+  },
+  "cmd_poweroff_desc": {
+    "value": "Isključuje čvor na pločama koje to podržavaju, bez slanja odgovora. Za ponovno pokretanje trebaš tipku za napajanje ili prekid napajanja.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5088476d"
+  },
+  "cmd_clkreboot_desc": {
+    "value": "Vraća sat na rani datum i ponovno pokreće čvor bez odgovora. Koristi je kad sat ide naprijed i ne da se vratiti.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d02bbe66"
+  },
+  "cmd_clock_desc": {
+    "value": "Prikazuje sat čvora u UTC-u ili ga postavlja na Unix vrijeme u sekundama. Sat ide samo naprijed, pa za povratak prvo pokreni clkreboot.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0193d15f"
+  },
+  "cmd_clock_sync_desc": {
+    "value": "Postavlja sat čvora na vrijeme koje tvoj companion šalje s ovom naredbom. Radi samo preko mesha, jer serijska konzola ne šalje vrijeme.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "39198623"
+  },
+  "cmd_start_ota_desc": {
+    "value": "Pokreće bežično ažuriranje firmwarea na ESP32 i nRF52 pločama koje to podržavaju. ESP32 otvara WiFi pristupnu točku, a nRF52 pokreće ažuriranje preko Bluetooth veze.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69bd5985"
+  },
+  "cmd_erase_desc": {
+    "value": "Briše datotečni sustav čvora, uključujući postavke i identitet, samo preko serijske veze. Koristi je za vraćanje na tvorničke postavke, jer brisanje ne možeš poništiti.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e781518d"
+  },
+  "cmd_room_post_desc": {
+    "value": "Objavljuje poruku u sobi u ime samog room servera. Svi u sobi primaju je kao i svaku drugu objavu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "88a6e1f5"
+  },
+  "cmd_advert_desc": {
+    "value": "Odmah šalje flood oglas, pa čvorovi diljem mesha saznaju za ovaj čvor. Koristi je nakon promjene imena ili lokacije.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "21526c3a"
+  },
+  "cmd_advert_zerohop_desc": {
+    "value": "Šalje oglas samo izravnim susjedima, a nijedan ga repetitor ne prenosi dalje. Koristi je da najaviš čvor u blizini bez opterećenja cijelog mesha.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dfbc07b6"
+  },
+  "cmd_advert_interval_desc": {
+    "value": "Postavlja koliko često, u minutama, čvor šalje zero-hop oglas susjedima. Upiši 0 da ih zaustaviš; svaka spremljena promjena zaustavlja i intervale ispod 60.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f99f3d5f"
+  },
+  "cmd_flood_advert_interval_desc": {
+    "value": "Postavlja koliko često, u satima, čvor šalje flood oglas cijelim meshom. Upiši 0 da potpuno zaustaviš automatske flood oglase ovog čvora.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6473270c"
+  },
+  "cmd_neighbours_desc": {
+    "value": "Navodi repetitore koje je ovaj čvor izravno čuo, s najnovijim na vrhu. Svaki redak prikazuje prefiks ključa, sekunde od zadnjeg prijema i SNR pomnožen s 4.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9bd6e27f"
+  },
+  "cmd_neighbour_remove_desc": {
+    "value": "Uklanja svakog susjeda čiji javni ključ počinje hex prefiksom koji upišeš. Koristi je da ukloniš stari repetitor s popisa susjeda.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c1b8c616"
+  },
+  "cmd_discover_neighbours_desc": {
+    "value": "Traži od repetitora u izravnom dometu da odgovore i svaki odgovor dodaje među susjede. Koristi je da popuniš popis bez čekanja njihovih oglasa. Repetitor s oba intervala oglasa na 0 ili s isključenim ponavljanjem ne odgovara.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1ab216ce"
+  },
+  "cmd_clear_stats_desc": {
+    "value": "Vraća brojače paketa, radija i jezgre čvora na nulu. Koristi je prije mjerenja prometa u određenom razdoblju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ead62ceb"
+  },
+  "cmd_stats_core_desc": {
+    "value": "Prikazuje napon baterije, vrijeme rada, broj grešaka i duljinu reda za slanje čvora. Radi samo na serijskoj konzoli, ne preko mesha.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ba9fa3d2"
+  },
+  "cmd_stats_radio_desc": {
+    "value": "Prikazuje razinu šuma, zadnji RSSI i SNR te vrijeme emitiranja potrošeno na slanje i prijem. Radi samo na serijskoj konzoli, ne preko mesha.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bedd2bf2"
+  },
+  "cmd_stats_packets_desc": {
+    "value": "Prikazuje koliko je paketa čvor primio i poslao, podijeljeno na flood i direct. Radi samo na serijskoj konzoli, ne preko mesha.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d8a3b4d1"
+  },
+  "cmd_log_capture_desc": {
+    "value": "Pokreće ili zaustavlja upisivanje svakog primljenog i poslanog paketa čvora u log datoteku. Koristi je za snimanje prometa, a zatim ga pročitaj naredbom log.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "79dcb812"
+  },
+  "cmd_log_erase_desc": {
+    "value": "Briše log datoteku paketa iz pohrane čvora. Koristi je da oslobodiš prostor ili počneš čisto snimanje.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9c32fe03"
+  },
+  "cmd_log_desc": {
+    "value": "Ispisuje snimljeni log paketa, redak po redak, na serijsku konzolu. Radi samo na serijskoj konzoli, ne preko mesha.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "59c80f62"
+  },
+  "cmd_ver_desc": {
+    "value": "Prikazuje verziju firmwarea i datum izgradnje čvora. Koristi je da prije ažuriranja provjeriš koje izdanje radi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c0752f1b"
+  },
+  "cmd_board_desc": {
+    "value": "Prikazuje naziv hardverske ploče za koju je firmware izgrađen. Koristi je da provjeriš jesi li flashao pravi firmware.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3e5ed786"
+  },
+  "cmd_power_desc": {
+    "value": "Prikazuje napon baterije i jesu li USB, solarno napajanje, vanjsko napajanje i punjač aktivni. Ploča koja ne može otkriti USB ili solarno napajanje za njih prikazuje n/a.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4e5129e4"
+  },
+  "cmd_public_key_desc": {
+    "value": "Prikazuje cijeli javni ključ čvora u hex zapisu. Podijeli ga kad netko pita koji je čvor tvoj ili kad vlasnik repetitora tvom companionu dodjeljuje ulogu naredbom setperm.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d754bc23"
+  },
+  "cmd_role_desc": {
+    "value": "Prikazuje koji firmware čvor pokreće: repeater, room_server ili sensor. Koristi je da provjeriš ulogu prije daljinske promjene postavki.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "627a92c5"
+  },
+  "cmd_bootloader_ver_desc": {
+    "value": "Prikazuje verziju bootloadera koji radi na nRF52 pločama. Na svakoj drugoj ploči čvor odgovara da naredba nije podržana.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a3e90e05"
+  },
+  "cmd_pwrmgt_support_desc": {
+    "value": "Prikazuje uključuje li ova verzija firmwarea upravljanje napajanjem za nRF52 ploče. Ostale pwrmgt naredbe trebaju tu podršku da bi dale odgovor.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "139d6f9d"
+  },
+  "cmd_pwrmgt_source_desc": {
+    "value": "Prikazuje radi li čvor na vanjsko napajanje ili na bateriju. Taj odgovor daju samo verzije firmwarea s podrškom za nRF52 upravljanje napajanjem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ee83fb61"
+  },
+  "cmd_pwrmgt_bootreason_desc": {
+    "value": "Prikazuje zašto se čvor zadnji put resetirao i zašto se zadnji put ugasio. Koristi je da otkriješ zašto se čvor sam ponovno pokrenuo.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "de8338c0"
+  },
+  "cmd_pwrmgt_bootmv_desc": {
+    "value": "Prikazuje napon baterije u milivoltima koji je čvor izmjerio pri pokretanju. Taj odgovor daju samo verzije firmwarea s podrškom za nRF52 upravljanje napajanjem.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ff3b5c66"
+  },
+  "cmd_radio_desc": {
+    "value": "Postavlja frekvenciju, širinu pojasa, spreading factor i coding rate koje čvor koristi. Svaki čvor u tvom meshu treba iste vrijednosti; ponovno ga pokreni da ih primijeniš.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bf443364"
+  },
+  "cmd_tx_desc": {
+    "value": "Postavlja snagu odašiljanja LoRa čipa u dBm i odmah se primjenjuje. Ploče s dodatnim pojačalom odašilju više od te vrijednosti.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0b7d55b8"
+  },
+  "cmd_tempradio_desc": {
+    "value": "Prebacuje se na druge radijske postavke na zadani broj minuta, bez spremanja. Koristi je za daljinsko testiranje novih postavki, uz automatski povratak.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "37b19209"
+  },
+  "cmd_freq_desc": {
+    "value": "Postavlja samo frekvenciju u MHz, a set oblik radi samo preko serijske veze. Nakon toga ponovno pokreni čvor, jer nova frekvencija vrijedi tek nakon ponovnog pokretanja.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aabd4b62"
+  },
+  "cmd_radio_rxgain_desc": {
+    "value": "Uključuje ili isključuje pojačano prijemno pojačanje radijskog čipa. Radio bez tog načina odgovara da postavka na njemu nije podržana.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ecacba86"
+  },
+  "cmd_radio_fem_rxgain_desc": {
+    "value": "Uključuje ili isključuje prijemno pojačalo vanjskog radijskog front enda. Podržavaju je samo ploče s front endom kojim možeš upravljati.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c71d7980"
+  },
+  "cmd_radio_fem_txgain_desc": {
+    "value": "Prebacuje odašiljačko pojačanje vanjskog radijskog front enda između njegove 2 razine. Podržavaju je samo ploče s front endom kojim možeš upravljati.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d3f049e3"
+  },
+  "cmd_extra_sf_desc": {
+    "value": "Omogućuje da LR2021 radio sluša i do 3 dodatna spreading factora. Navedi ih kao popis odvojen zarezima; drugi radiji ne prihvaćaju set oblik.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d14313eb"
+  },
+  "cmd_repeat_desc": {
+    "value": "Uključuje ili isključuje prosljeđivanje paketa drugih čvorova. Isključi ga da čvor ostane u eteru bez ponavljanja. Room server odbija uključiti tu opciju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c66ee723"
+  },
+  "cmd_path_hash_mode_desc": {
+    "value": "Postavlja veličinu hasha koju ovaj čvor upisuje u putanje poslanih paketa. Način 0 koristi 1 bajt, 1 koristi 2, a 2 koristi 3.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "486f2338"
+  },
+  "cmd_loop_detect_desc": {
+    "value": "Odbacuje flood pakete koji u putanji već prečesto nose hash ovog repetitora. Stroža razina odbacuje paket u petlji nakon manje ponavljanja. Repetitor nadograđen sa starije verzije zadržava razinu koju je imao.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7192683e"
+  },
+  "cmd_txdelay_desc": {
+    "value": "Postavlja nasumično čekanje prije nego čvor ponovi flood paket, skalirano prema vremenu emitiranja. Veća vrijednost sprječava sudare između repetitora, ali dodaje kašnjenje.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc0b9e0e"
+  },
+  "cmd_direct_txdelay_desc": {
+    "value": "Postavlja nasumično čekanje prije nego čvor ponovi direct paket, skalirano prema vremenu emitiranja. Direct paketi trebaju kraće čekanje, jer ih ponavlja manje čvorova.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0f14a917"
+  },
+  "cmd_rxdelay_desc": {
+    "value": "Zadržava slabe flood pakete prije obrade, pa putanje s jakim signalom ponavljaju prve. Upiši 0 da se svaki paket obradi odmah, bez obzira na signal.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9eca669b"
+  },
+  "cmd_dutycycle_desc": {
+    "value": "Ograničava udio vremena koji čvor provodi u odašiljanju, u postocima. Postavi ga na granicu koja vrijedi za tvoj frekvencijski pojas.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46f7ce95"
+  },
+  "cmd_af_desc": {
+    "value": "Postavlja airtime factor, stariji način ograničavanja duty cyclea čvora. Umjesto nje koristi dutycycle; af od 9 jednak je 10 posto.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "80189809"
+  },
+  "cmd_int_thresh_desc": {
+    "value": "Smatra kanal zauzetim kad očitanje bude ovoliko dB iznad razine šuma. Čvor tada čeka prije odašiljanja; 0 isključuje provjeru.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "32eb85ce"
+  },
+  "cmd_cad_desc": {
+    "value": "Tjera radio da prije svakog odašiljanja osluškuje aktivnost na kanalu. Čvor čeka sa slanjem dok je kanal zauzet.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "998c2731"
+  },
+  "cmd_agc_reset_interval_desc": {
+    "value": "Resetira automatsku kontrolu pojačanja radija svakih zadani broj sekundi. Čvor zaokružuje naniže na višekratnik broja 4; 0 to isključuje.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aa321448"
+  },
+  "cmd_multi_acks_desc": {
+    "value": "Šalje dodatne kopije svake potvrde radi bolje isporuke na slabim vezama. Upiši 0 da se svaka potvrda pošalje samo jednom, bez dodatnih kopija.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b2c80c40"
+  },
+  "cmd_flood_max_desc": {
+    "value": "Postavlja broj skokova nakon kojeg ovaj čvor prestaje ponavljati flood paket. Smanji ga da flood paketi ne putuju daleko po meshu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dee460b4"
+  },
+  "cmd_flood_max_unscoped_desc": {
+    "value": "Postavlja ograničenje skokova za flood pakete bez regije. Smanji ga da taj promet ostane blizu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1003a06a"
+  },
+  "cmd_flood_max_advert_desc": {
+    "value": "Postavlja ograničenje skokova za flood oglase koje ovaj čvor ponavlja. Smanji ga da oglasi ne prelaze cijeli mesh.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57c129b9"
+  },
+  "cmd_name_desc": {
+    "value": "Postavlja ime koje drugi čvorovi vide u oglasima ovog čvora. Znakovi [ ] \\ : , ? * nisu dopušteni.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "08e6c872"
+  },
+  "cmd_lat_desc": {
+    "value": "Postavlja geografsku širinu u decimalnim stupnjevima koju ovaj čvor dijeli u oglasima. Koristi je uz lon da čvor postaviš na pravo mjesto na karti.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ea083178"
+  },
+  "cmd_lon_desc": {
+    "value": "Postavlja geografsku dužinu u decimalnim stupnjevima koju ovaj čvor dijeli u oglasima. Koristi je uz lat da čvor postaviš na pravo mjesto na karti.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fe5f8039"
+  },
+  "cmd_prv_key_desc": {
+    "value": "Prikazuje ili zamjenjuje privatni ključ koji određuje identitet čvora. Oblik get radi samo preko serijske veze; nakon postavljanja ključa ponovno pokreni čvor.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3500931c"
+  },
+  "cmd_password_desc": {
+    "value": "Mijenja administratorsku lozinku i ispisuje novu da je možeš provjeriti. Promijeni je na svakom novom čvoru, jer je zadana lozinka javna.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a33a87f1"
+  },
+  "cmd_guest_password_desc": {
+    "value": "Postavlja lozinku za goste; na room serveru daje pristup za čitanje i pisanje. Podijeli je s ljudima koje želiš pustiti u sobu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67348593"
+  },
+  "cmd_owner_info_desc": {
+    "value": "Postavlja kontaktni tekst koji drugi mogu zatražiti od čvora, primjerice tvoje ime. Upiši znak | gdje želiš započeti novi redak.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "928a68a4"
+  },
+  "cmd_adc_multiplier_desc": {
+    "value": "Ispravlja očitanje napona baterije čvora množiteljem za tvoju ploču. Upiši 0 za povratak na vrijednost koju određuje sama ploča.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0383a608"
+  },
+  "cmd_powersaving_desc": {
+    "value": "Omogućuje čvoru da spava između radijskih aktivnosti radi uštede baterije. Radi na nRF52 pločama i na ESP32 verzijama bez mosta.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3e791562"
+  },
+  "cmd_setperm_desc": {
+    "value": "Dodjeljuje companionu ulogu na ovom čvoru, a pronalazi ga po javnom ključu. Upiši 0 da ukloniš unos; ostale uloge trebaju cijeli ključ.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "93a740af"
+  },
+  "cmd_acl_desc": {
+    "value": "Ispisuje popis pristupa s dozvolama i javnim ključem svakog companiona. Radi samo na serijskoj konzoli, ne preko mesha.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "784d80d9"
+  },
+  "cmd_allow_read_only_desc": {
+    "value": "Omogućuje ljudima s pogrešnom ili praznom lozinkom ulazak na room server samo za čitanje. Isključi je da pustiš samo one koji znaju lozinku.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a845f89b"
+  },
+  "cmd_region_desc": {
+    "value": "Prikazuje cijelo stablo regija čvora, s flood oznakom svake regije. F znači da je flooding dopušten, a ^ označava matičnu regiju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "07dd7f25"
+  },
+  "cmd_region_load_desc": {
+    "value": "Pokreće skupni unos stabla regija, jedna regija po retku, s uvlakama od razmaka. Dodaj F da dopustiš flooding, a za kraj pošalji prazan redak.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d2da253a"
+  },
+  "cmd_region_save_desc": {
+    "value": "Sprema tvoje promjene regija u pohranu čvora, pa ostaju i nakon ponovnog pokretanja. Pokreni je nakon svake promjene regije koju želiš zadržati.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bd6cb636"
+  },
+  "cmd_region_flood_desc": {
+    "value": "Dopušta ili blokira ponavljanje flood paketa za regiju. Upiši * za pakete koji uopće nemaju regiju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "58acd9db"
+  },
+  "cmd_region_get_desc": {
+    "value": "Prikazuje jednu regiju s nadređenom regijom i oznaku F ako je flooding za nju dopušten. Koristi je da provjeriš jednu regiju bez čitanja cijelog stabla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33ef40c6"
+  },
+  "cmd_region_home_desc": {
+    "value": "Prikazuje ili postavlja matičnu regiju, koju stablo regija označava znakom ^. Nakon toga pokreni region save da promjena ostane i nakon ponovnog pokretanja.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90b9c539"
+  },
+  "cmd_region_default_desc": {
+    "value": "Prikazuje ili postavlja regiju koju čvor stavlja na vlastite flood pakete, poput oglasa. Čvor odmah sprema promjenu; <null> je briše.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b478cd71"
+  },
+  "cmd_region_put_desc": {
+    "value": "Dodaje regiju pod wildcard ili pod nadređenu regiju koju navedeš, s dopuštenim floodingom. Nakon toga pokreni region save da nova regija ostane i nakon ponovnog pokretanja.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "90f4ec6d"
+  },
+  "cmd_region_def_desc": {
+    "value": "Gradi stablo regija u jednom retku, gdje je svako ime podređeno prethodnom. Napiši name|jump da sljedeće ime nastaviš od ranije regije.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "80bfbfce"
+  },
+  "cmd_region_remove_desc": {
+    "value": "Uklanja regiju prema točnom imenu kad više nema podređenih regija. Nakon toga pokreni region save da uklanjanje ostane i nakon ponovnog pokretanja.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0677775b"
+  },
+  "cmd_region_list_desc": {
+    "value": "Navodi imena regija u kojima je flooding dopušten ili blokiran. Koristi je za brzu provjeru bez cijelog stabla.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8156296"
+  },
+  "cmd_gps_desc": {
+    "value": "Prikazuje je li GPS uključen, ima li fix i koliko satelita vidi. Oblici on i off uključuju ili isključuju GPS i spremaju izbor.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6b7484f4"
+  },
+  "cmd_gps_diag_desc": {
+    "value": "Prikazuje je li GPS uključen, koliko satelita vidi i ima li fix. Koristi je kad čvor ne dobiva položaj.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f5838af7"
+  },
+  "cmd_gps_sync_desc": {
+    "value": "Postavlja sat čvora prema vremenu koje GPS prima. Koristi je kad čvor nema drugi izvor točnog vremena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9992274d"
+  },
+  "cmd_gps_setloc_desc": {
+    "value": "Kopira trenutni GPS položaj u spremljenu geografsku širinu i dužinu čvora. Koristi je jednom na lokaciji, a zatim isključi GPS.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2e7052c8"
+  },
+  "cmd_gps_advert_desc": {
+    "value": "Bira položaj u oglasima: none, GPS uživo ili spremljene lat i lon. Odaberi none da lokacija čvora ostane privatna.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e7bb3d85"
+  },
+  "cmd_sensor_list_desc": {
+    "value": "Navodi prilagođene postavke upravitelja senzora s njihovim vrijednostima. Dugačak popis završava indeksom od kojeg nastavljaš.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "af32a1b7"
+  },
+  "cmd_sensor_setting_desc": {
+    "value": "Čita ili mijenja jednu prilagođenu postavku upravitelja senzora prema imenu. Prvo pokreni sensor list da vidiš koja imena ploča nudi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c470cf70"
+  },
+  "cmd_io_desc": {
+    "value": "Čita ili upisuje GPIO pinove ploče kao hex bit masku. Ispred maske stavi r, s ili t da resetiraš, postaviš ili preklopiš bitove.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ede2acc1"
+  },
+  "cmd_bridge_type_desc": {
+    "value": "Prikazuje koji je most ugrađen u ovaj firmware: rs232, espnow ili none. Koristi je da provjeriš jesi li flashao verziju s mostom.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54cbb77e"
+  },
+  "cmd_bridge_enabled_desc": {
+    "value": "Uključuje ili isključuje most; on kopira pakete između mesha i druge veze. Ta veza je serijski kabel ili ESP-NOW, ovisno o verziji.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7249ccd6"
+  },
+  "cmd_bridge_delay_desc": {
+    "value": "Postavlja koliko milisekundi most čeka prije prosljeđivanja paketa. Povećaj vrijednost kad se paketi s mosta sudaraju s prometom na meshu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c8895baa"
+  },
+  "cmd_bridge_source_desc": {
+    "value": "Bira kopira li most pakete koje ovaj čvor prima ili one koje šalje. Upiši rx ili tx za postavljanje; get odgovara s logRx ili logTx.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d81577c2"
+  },
+  "cmd_bridge_baud_desc": {
+    "value": "Postavlja serijsku brzinu RS-232 mosta u baudima. Oba kraja serijskog kabela trebaju istu brzinu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7322814d"
+  },
+  "cmd_bridge_channel_desc": {
+    "value": "Postavlja WiFi kanal koji ESP-NOW most koristi za svoju vezu. Svaki most koji komunicira s ovim treba isti kanal.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "924d978f"
+  },
+  "cmd_bridge_secret_desc": {
+    "value": "Postavlja zajedničku tajnu koja šifrira pakete na ESP-NOW mostu. Koristi istu tajnu na svakom mostu koji komunicira s ovim.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b1df9356"
+  },
+  "cmd_eth_status_desc": {
+    "value": "Prikazuje IP adresu i port Ethernet konzole ili da je konzola izvan mreže. Radi na serijskoj i Ethernet konzoli, ne preko mesha.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b27f99e8"
+  },
+  "cmd_pin_desc": {
+    "value": "Nakon ponovnog pokretanja postavlja Bluetooth PIN koji tvoj telefon traži pri uparivanju. S 0 ploča sa zaslonom pri svakom pokretanju prikazuje novi PIN, a ploča bez zaslona koristi 123456.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "82dc0ee0"
+  },
+  "cmd_tz_offset_desc": {
+    "value": "Postavlja tvoju vremensku zonu u punim satima od UTC-a. Companion je koristi za sat na svom zaslonu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d2a9942a"
+  },
+  "cmd_wifi_ssid_desc": {
+    "value": "Prikazuje ili postavlja ime WiFi mreže na koju se companion spaja. Postavi i wifi.pwd, a zatim ponovno pokreni uređaj za spajanje.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6e53eb6a"
+  },
+  "cmd_wifi_pwd_desc": {
+    "value": "Prikazuje ili postavlja lozinku WiFi mreže, a ponovno pokretanje je primjenjuje. Može je pročitati i kontakt kojem dopuštaš slanje naredbi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "15b5453a"
+  },
+  "cmd_wifi_enabled_desc": {
+    "value": "Nakon ponovnog pokretanja uključuje WiFi s 1 ili ga isključuje s 0. Bez imena mreže companion ne pokreće WiFi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7dbbf8f1"
+  },
+  "cmd_wifi_clear_desc": {
+    "value": "Uklanja ime i lozinku WiFi mreže iz companiona. Ponovno ga pokreni da primijeniš promjenu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "29938727"
+  },
+  "cmd_wifi_status_desc": {
+    "value": "Prikazuje je li companion spojen na WiFi i njegovu IP adresu u tvojoj mreži. Companion prima veze iz aplikacije na toj adresi, port 5000.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "38894245"
+  },
+  "keygen_find_title": {
+    "value": "1. Pronađi slobodan prefiks",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "23440ddd"
+  },
+  "keygen_find_body": {
+    "value": "Alat Prefix prikazuje koje prefikse čvorovi već koriste i predlaže slobodan.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8b4149b8"
+  },
+  "keygen_find_link": {
+    "value": "Otvori alat Prefix",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ad418bc8"
+  },
+  "keygen_make_title": {
+    "value": "2. Napravi ključ s njim",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "55671108"
+  },
+  "keygen_needs_js": {
+    "value": "Ovaj alat radi u tvom pregledniku i treba JavaScript.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9128273b"
+  },
+  "keygen_prefix_label": {
+    "value": "Prefiks, u hex zapisu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c5fe4703"
+  },
+  "keygen_prefix_hint": {
+    "value": "2 znaka za 1 bajt, 4 za 2 bajta. Firmware odbija 00 i FF.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "60646fe6"
+  },
+  "keygen_make": {
+    "value": "Napravi ključ",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f2e49767"
+  },
+  "keygen_stop": {
+    "value": "Zaustavi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cae7d57b"
+  },
+  "keygen_working": {
+    "value": "Isprobavanje ključeva: dosad {n}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10781c37"
+  },
+  "keygen_done": {
+    "value": "Pronađeno nakon {n} pokušaja.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8495a72b"
+  },
+  "keygen_stopped": {
+    "value": "Zaustavljeno. Pokušaj ponovno ili odaberi kraći prefiks.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "731c66a8"
+  },
+  "keygen_bad": {
+    "value": "Upiši 2 ili 4 hex znaka (0-9, a-f), bez 00 ili FF na početku.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9569dc0f"
+  },
+  "keygen_unsupported": {
+    "value": "Tvoj preglednik ne može izraditi Ed25519 ključeve. Koristi Chrome 137, Firefox 129, Safari 17 ili noviji.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "70cf8b1d"
+  },
+  "keygen_set_title": {
+    "value": "3. Postavi ga na svoj repetitor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "37e17307"
+  },
+  "keygen_set_body": {
+    "value": "Pokreni ovu naredbu na svom repetitoru, a zatim ga ponovno pokreni. Zadržava postavke i popis pristupa, ali za sve postaje novi čvor. Nakon njegova prvog oglasa ponovno ga dodaj u aplikaciji.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c80b8962"
+  },
+  "keygen_public": {
+    "value": "Javni ključ",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ee252fb"
+  },
+  "keygen_secret": {
+    "value": "Ovo je privatni ključ tvog repetitora. Svatko tko ga ima može se predstavljati kao tvoj repetitor, zato ga čuvaj za sebe. Izradio ga je tvoj preglednik, a ova ga stranica nikamo ne šalje.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b4d3d7d1"
+  },
+  "guides_card_keygen_title": {
+    "value": "Generiraj ključ",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e798fa1b"
+  },
+  "guides_card_keygen_desc": {
+    "value": "Daj svom repetitoru prefiks koji ne koristi nijedan repetitor u tvojoj blizini.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "267f04fa"
+  },
+  "ch_needs_js": {
+    "value": "Popis kanala radi u tvom pregledniku i treba JavaScript. Analyzer prikazuje iste kanale:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57228d02"
+  },
+  "ch_source": {
+    "value": "MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ed180c11"
+  },
+  "ch_list_title": {
+    "value": "Kanali čujni u tvojoj zemlji",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6a3ddfed"
+  },
+  "ch_country_label": {
+    "value": "Tvoja zemlja",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "18f2456a"
+  },
+  "ch_country_pick": {
+    "value": "Odaberi zemlju",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "632aadfb"
+  },
+  "ch_search": {
+    "value": "Traži ime ili regiju",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "67d2c527"
+  },
+  "ch_loading": {
+    "value": "Učitavanje kanala...",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e4e9f6e5"
+  },
+  "ch_error": {
+    "value": "Popis kanala nije se učitao. Pokušaj ponovno kasnije; ključ svakog #imena u nastavku i dalje radi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f653e69d"
+  },
+  "ch_count": {
+    "value": "Kanali čujni u zemlji {country}: {n}, prvo oni s najviše poruka.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "923bf6a5"
+  },
+  "ch_messages": {
+    "value": "poruke",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f5cccfb7"
+  },
+  "ch_key": {
+    "value": "Ključ",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "99a52df3"
+  },
+  "ch_source_note": {
+    "value": "Uživo iz",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1db8edb5"
+  },
+  "ch_calc_title": {
+    "value": "Ključ bilo kojeg #kanala",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ad70964d"
+  },
+  "ch_calc_body": {
+    "value": "Upiši ime kanala koje počinje znakom #. Ključ proizlazi iz imena, pa dobivaš isti ključ kao u aplikaciji.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8531d7e8"
+  },
+  "ch_calc_label": {
+    "value": "Ime kanala",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2fe4a2e8"
+  },
+  "guides_card_channels_title": {
+    "value": "Pronađi kanale",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9905513b"
+  },
+  "guides_card_channels_desc": {
+    "value": "Kanali koje koriste ljudi u tvojoj blizini i kako im se pridružiti.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2b7ffced"
+  },
+  "ch_count_one": {
+    "value": "1 kanal čujan u zemlji {country}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8f1ca51"
+  },
+  "ch_show_all": {
+    "value": "Prikaži sve kanale ({n})",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2afe05c3"
+  },
+  "area_other_presets_title": {
+    "value": "Ostale predpostavke u aplikaciji MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e8ca0063"
+  },
+  "area_other_presets_body": {
+    "value": "Aplikacija navodi i ove europske predpostavke, bez navođenja područja za njih. Predpostavka za 433 MHz treba ploču s radijem od 433 MHz.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "86f82c5c"
+  },
+  "net_live_title": {
+    "value": "Što observeri čuju",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f89055eb"
+  },
+  "net_live_packets": {
+    "value": "paketa u zadnjem punom satu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e3e24e13"
+  },
+  "net_live_countries": {
+    "value": "zemalja čujnih u zadnjem satu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "502cba0e"
+  },
+  "net_live_repeaters": {
+    "value": "repetitora čujnih u zadnjih 7 dana",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2890ece6"
+  },
+  "net_live_observers": {
+    "value": "observera u zadnjem satu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6825b26c"
+  },
+  "net_live_source": {
+    "value": "Brojke uživo iz",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f063c292"
+  },
+  "net_join_title": {
+    "value": "Dodaj svoj observer",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e772f141"
+  },
+  "net_join_body": {
+    "value": "Svaki observer prikazuje malo više mesha, za sve u Europi. Odaberi način koji ti odgovara; MeshCore Analyzer prikazuje korake.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "de341930"
+  },
+  "net_way_app_title": {
+    "value": "S aplikacijom KiekR",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "51c6a5e5"
+  },
+  "net_way_app_desc": {
+    "value": "Upari MeshCore radio sa svojim telefonom preko Bluetooth veze. Aplikacija javlja što čuje, a ništa ne trebaš flashati.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9ae6b7d2"
+  },
+  "net_way_browser_title": {
+    "value": "Iz preglednika",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c6b5042e"
+  },
+  "net_way_browser_desc": {
+    "value": "Spoji radio preko USB ili Bluetooth veze u Chromeu ili Edgeu. Preglednik javlja podatke dok je kartica otvorena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "72fc7d03"
+  },
+  "net_way_board_title": {
+    "value": "S pločom koja je stalno uključena",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "574c32a6"
+  },
+  "net_way_board_desc": {
+    "value": "Flashaj observer firmware na LoRa ploču. Ploča sama javlja podatke preko Wi-Fi veze, danju i noću.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1742bfea"
+  },
+  "project_site": {
+    "value": "Web stranica",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5a229ac"
+  },
+  "home_town_title": {
+    "value": "Prati jednu poruku preko krovova.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b6669c81"
+  },
+  "home_town_lead": {
+    "value": "Tvoj telefon ili laptop šalje poruku tvom companionu preko Bluetooth ili USB veze. Companion je radijem šalje repetitoru na krovu. Odande poruka skače s krova na krov.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2af5006f"
+  },
+  "home_town_tag_phone": {
+    "value": "Telefon ili laptop",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54c8157f"
+  },
+  "home_town_tag_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dadb328"
+  },
+  "home_town_tag_repeater": {
+    "value": "Repetitor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "home_town_tag_mast2": {
+    "value": "Drugi repetitori",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3aa62b45"
+  },
+  "home_town_companion_title": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dadb328"
+  },
+  "home_town_companion_desc": {
+    "value": "Radio s kojeg šalješ poruke. Upari ga s telefonom ili laptopom ili odaberi model sa zaslonom i tipkovnicom koji radi samostalno.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c70389e6"
+  },
+  "home_town_companion_link": {
+    "value": "Odaberi companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5eba6690"
+  },
+  "home_town_repeater_title": {
+    "value": "Repetitor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "home_town_repeater_desc": {
+    "value": "Prenosi poruke za sve oko sebe. Većina radi na solarnu energiju. Vlastiti trebaš samo tamo gdje mesh još ne doseže.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3db0ed15"
+  },
+  "home_town_repeater_link": {
+    "value": "Kada postaviti repetitor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c5154fb9"
+  },
+  "home_town_mesh_title": {
+    "value": "Mesh",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "199c9527"
+  },
+  "home_town_mesh_desc": {
+    "value": "Repetitori prenose poruku dokle god se međusobno čuju. Regije je drže lokalnom.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2d14f895"
+  },
+  "home_town_mesh_link": {
+    "value": "Pogledaj mrežu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6f3b43a5"
+  },
+  "planned_label": {
+    "value": "Planirano",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fb6f7c93"
+  },
+  "planned.guides-filter.lead": {
+    "value": "Filtrom paketa odbaci promet koji tvoj repetitor ne treba prenositi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ef203a0d"
+  },
+  "planned.guides-filter.what.title": {
+    "value": "Što filtar radi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "88a35f90"
+  },
+  "planned.guides-filter.what.desc": {
+    "value": "Koje pakete repetitor može odbaciti i kako to održava mesh tihim.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4a3c7cb5"
+  },
+  "planned.guides-filter.configs.title": {
+    "value": "Preporučene konfiguracije",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "42763607"
+  },
+  "planned.guides-filter.configs.desc": {
+    "value": "Gotove postavke za česte slučajeve, poput blokiranja bučnog kanala.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2ef6b9e2"
+  },
+  "planned.guides-filter.settings.title": {
+    "value": "Sve postavke",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "07182ebe"
+  },
+  "planned.guides-filter.settings.desc": {
+    "value": "Svaka postavka filtra, s naredbom i onim što mijenja.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b73f8c55"
+  },
+  "planned.guides-mqtt.lead": {
+    "value": "Neka tvoja stalno uključena pločica javlja MeshCore Analyzeru što čuje.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5aa10eb5"
+  },
+  "planned.guides-mqtt.need.title": {
+    "value": "Što ti treba",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e17c85cc"
+  },
+  "planned.guides-mqtt.need.desc": {
+    "value": "Pločica s firmverom za promatrača i Wi-Fi vezom te adresa brokera.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f9b88653"
+  },
+  "planned.guides-mqtt.settings.title": {
+    "value": "Postavke",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "74a883a0"
+  },
+  "planned.guides-mqtt.settings.desc": {
+    "value": "Postavke za Wi-Fi, broker i temu koje tvoja pločica treba.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3d2f63e9"
+  },
+  "planned.guides-mqtt.commands.title": {
+    "value": "Naredbe za tvoj broker",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d2db5c84"
+  },
+  "planned.guides-mqtt.commands.desc": {
+    "value": "Naredbe za lijepljenje, popunjene za broker koji odabereš.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1a37dddf"
+  },
+  "planned.guides-mqtt.check.title": {
+    "value": "Provjeri radi li",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2249f06f"
+  },
+  "planned.guides-mqtt.check.desc": {
+    "value": "Kako ćeš pronaći svog promatrača na MeshCore Analyzeru.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2e45d8f2"
+  },
+  "net_data_title": {
+    "value": "Kako podaci stižu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d199acc6"
+  },
+  "net_data_lead": {
+    "value": "Svaki broj na ovoj stranici dolazi od ljudi koji slušaju i dijele što čuju.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d162c9f3"
+  },
+  "net_data_from_title": {
+    "value": "Odakle dolaze",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "87362334"
+  },
+  "net_data_from_body": {
+    "value": "Promatrači preko MQTT-a javljaju što čuju brokeru, poslužitelju koji prikuplja izvještaje. Javljaju na mqtt.meshcore-analyzer.eu ili na drugi broker koji Analyzer čita. Izvještaje šalju i aplikacija KiekR i promatrač u pregledniku. Analyzer dohvaća i CoreScope analizatore čiji su vlasnici pristali. Svaki broker i analizator čita se uz dopuštenje vlasnika.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5604e25f"
+  },
+  "net_data_way_title": {
+    "value": "Što se događa usput",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0e5c3f7c"
+  },
+  "net_data_way_body": {
+    "value": "Poruka koju čuju mnogi promatrači broji se jednom. Analyzer je dekodira i iz nje gradi karte, brojke i popis kanala. Čuva svaku poruku, ali ono što je svaki promatrač čuo ostaje 10 dana. Satne brojke ostaju do 30 dana, dnevni zbrojevi ostaju trajno.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57413efc"
+  },
+  "net_data_node_title": {
+    "value": "Što drugi vide o tvom čvoru",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a6245d5e"
+  },
+  "net_data_node_body": {
+    "value": "Drugi vide njegovo ime, javni ključ, vrstu i položaj ako ga dijeliš. Tvoje izravne poruke ostaju šifrirane. Poruke na kanalu Public i hashtag kanalima može čitati svatko, pa i Analyzer.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0f5e507d"
+  },
+  "net_data_q_title": {
+    "value": "Pitanja",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9a72221a"
+  },
+  "net_data_q1": {
+    "value": "Je li moj čvor na karti?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ec3057eb"
+  },
+  "net_data_a1": {
+    "value": "Samo kad je promatrač čuo njegov advert, paket kojim se čvor najavljuje. Čvor daleko od svih promatrača ostaje izvan karte.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "393d0df5"
+  },
+  "net_data_q2": {
+    "value": "Može li Analyzer čitati moje izravne poruke?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1cd884fb"
+  },
+  "net_data_a2": {
+    "value": "Ne. Ključ imate samo ti i druga osoba.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c6b0e033"
+  },
+  "net_data_q3": {
+    "value": "Mogu li slati podatke iz vlastitog alata?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "52255bf4"
+  },
+  "net_data_a3": {
+    "value": "Da: objavljuj preko MQTT-a na mqtt.meshcore-analyzer.eu, potpisano ključem svog čvora, kao što radi promatrač. {link} pokazuje kako se povezati.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "171daa27"
+  },
+  "net_data_analyzer_link": {
+    "value": "MeshCore Analyzer",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ed180c11"
+  },
+  "net_data_q4": {
+    "value": "Mogu li koristiti podatke Analyzera?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2154596d"
+  },
+  "net_data_a4": {
+    "value": "Prvo pitaj ovdje: {link}. Analyzer ne dopušta automatsko prikupljanje.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b935a213"
+  },
+  "release_role_companion": {
+    "value": "Companion",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1dadb328"
+  },
+  "release_role_repeater": {
+    "value": "Repetitor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "release_role_room_server": {
+    "value": "Sobni poslužitelj",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68b91cc5"
+  },
+  "release_notes_link": {
+    "value": "Službene bilješke o izdanju",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8bc96136"
+  },
+  "release.v1-18-0.1": {
+    "value": "Tvoj companion dobiva naredbeni redak: otvori Command Line u aplikaciji, verzija 1.50 ili novija. Kontakt kojem daš dopuštenje Remote CLI može mu slati naredbe preko mesha.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14cedc6a"
+  },
+  "release.v1-18-0.2": {
+    "value": "Novopostavljeni repetitor sam uključuje minimalno otkrivanje petlji.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14ac329c"
+  },
+  "release.v1-18-0.3": {
+    "value": "Repetitor s isključenim advertima više se ne pojavljuje kad drugi traže čvorove.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "73a74341"
+  },
+  "release.v1-18-0.4": {
+    "value": "Na ESP32 pločicama sat preživljava ponovno pokretanje, a većina nRF52 pločica više ne odbija start pri slaboj bateriji.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "236a3861"
+  },
+  "release.v1-18-0.5": {
+    "value": "Nove pločice: Thinknode M4 i M8, Wio Tracker L1 1W, Muzi Base i Waveshare ESP32-S3 LR1121.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1355f413"
+  },
+  "release.v1-18-0.6": {
+    "value": "Bluetooth companion firmver na nekoliko pločica podržava i WiFi, među njima Heltec, Wireless Paper, RAK i Xiao S3; postavi ga u aplikaciji.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0d070c73"
+  },
+  "release.v1-17-1.1": {
+    "value": "Na pločicama s vanjskim pojačalom postavka prijemnog pojačanja sada se sprema. Nakon ažuriranja provjeri radio.fem.rxgain i radio.rxgain na svom repetitoru.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aa6980e3"
+  },
+  "release.v1-17-1.2": {
+    "value": "Slanje ponovno radi na pločici Heltec T096, a zaslon T-Beam Supreme opet prikazuje sliku.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8973538"
+  },
+  "release.v1-17-0.1": {
+    "value": "Svaki firmver sprema postavke u novom formatu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2acf27c2"
+  },
+  "release.v1-17-0.2": {
+    "value": "Repetitor se isključuje dugim pritiskom na tipku. Nove naredbe: set cad za repetitore i room.post za sobne poslužitelje.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "96f0d3d9"
+  },
+  "release.v1-17-0.3": {
+    "value": "nRF52 pločice koriste ugrađeni čip za šifriranje, a pločice troše manje energije u hibernaciji i kad su isključene.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3daf5825"
+  },
+  "release.v1-17-0.4": {
+    "value": "Nove pločice: Heltec V4 R8, RC32 i Tower V2, Thinknode M7 i M9, Sensecap MeshTracker X1 te radiji s čipom LR2021.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b90c5ac8"
+  },
+  "release.v1-17-0.5": {
+    "value": "Repetitori bolje slušaju prije slanja, pa je u prometnim mesh mrežama manje sudara.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3061d4fd"
+  },
+  "console_needs_js": {
+    "value": "Konzoli trebaju JavaScript i preglednik koji može pristupiti USB-u: Chrome, Edge ili Opera na računalu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "07c6b52a"
+  },
+  "console_connect": {
+    "value": "Poveži svoj čvor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bb8e5e01"
+  },
+  "console_disconnect": {
+    "value": "Prekini vezu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "acfc5be7"
+  },
+  "console_copy": {
+    "value": "Kopiraj zapisnik",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e01862b2"
+  },
+  "console_send": {
+    "value": "Pošalji",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f6f4688f"
+  },
+  "console_command_label": {
+    "value": "Naredba",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71316697"
+  },
+  "console_log_label": {
+    "value": "Što tvoj čvor govori",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "84925ecb"
+  },
+  "console_status_idle": {
+    "value": "Priključi svoj čvor, zatim se poveži i odaberi njegov port.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3ebc3314"
+  },
+  "console_status_asking": {
+    "value": "Povezano. Pitam tvoj čvor što je.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "02b45460"
+  },
+  "console_status_connected": {
+    "value": "Povezano. Upiši naredbu i pritisni Enter.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d216f35b"
+  },
+  "console_status_lost": {
+    "value": "Veza je prekinuta. Provjeri kabel i ponovno se poveži.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "98fa83ae"
+  },
+  "console_status_busy": {
+    "value": "Port se nije mogao otvoriti. Zatvori drugi program ili karticu koja ga koristi, zatim pokušaj ponovno.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cf4e9cbd"
+  },
+  "console_status_unsupported": {
+    "value": "Ovaj preglednik ne može pristupiti USB-u. Koristi Chrome, Edge ili Operu na računalu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8ef7eebe"
+  },
+  "console_status_copied": {
+    "value": "Zapisnik je kopiran.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "617d378e"
+  },
+  "console_status_copy_failed": {
+    "value": "Zapisnik se nije mogao kopirati. Označi ga i kopiraj ručno.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "45bd5465"
+  },
+  "console_commands_before": {
+    "value": "Svaka naredba objašnjena je u",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68ef84d1"
+  },
+  "console_commands_link": {
+    "value": "CLI naredbama",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a13cc6cb"
+  },
+  "console_commands_after": {
+    "value": ".",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cdb4ee2a"
+  },
+  "console_node_known": {
+    "value": "Prijedlozi prikazuju naredbe koje ovaj čvor razumije.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "345c274c"
+  },
+  "console_node_unknown": {
+    "value": "Tvoj čvor nije naveo svoju ulogu. Prijedlozi prikazuju naredbe repetitora, sobnih poslužitelja i senzora.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "503c0064"
+  },
+  "console_dmc_before": {
+    "value": "Ovaj čvor koristi firmver DutchMeshCore. Prijedlozi prikazuju vlastite naredbe MeshCore firmvera. Naredbe DutchMeshCore nalaze se u",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b17e7f2e"
+  },
+  "console_more_link": {
+    "value": "{command} u CLI vodiču",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9e207731"
+  },
+  "console_dmc_link": {
+    "value": "DutchMeshCore CLI wikiju",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ccc16968"
+  },
+  "console_dmc_after": {
+    "value": ".",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cdb4ee2a"
+  },
+  "console_suggestions_label": {
+    "value": "Predložene naredbe",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "36d1238e"
+  },
+  "console_key_fill": {
+    "value": "popunjava",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cf686f44"
+  },
+  "console_key_choose": {
+    "value": "odabir",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "725fed9d"
+  },
+  "console_key_guide": {
+    "value": "otvara CLI vodič",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "de7ca5a8"
+  },
+  "console_key_close": {
+    "value": "zatvara",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b2850942"
+  },
+  "console_trouble_title": {
+    "value": "Kad se ne povezuje",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0cce4809"
+  },
+  "console_trouble_1": {
+    "value": "Koristi podatkovni kabel. Neki kabeli služe samo za punjenje.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "958a8d54"
+  },
+  "console_trouble_2": {
+    "value": "Zatvori druge programe koji koriste port, poput druge konzole ili flashera s ove stranice u drugoj kartici.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fc9daa0a"
+  },
+  "console_trouble_3": {
+    "value": "Odaberi pravi port: isključi čvor, pogledaj koji port nestaje i ponovno ga priključi.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "75120995"
+  },
+  "console_trouble_4": {
+    "value": "Firefox i Safari ne mogu pristupiti USB-u s web-stranice. Koristi Chrome, Edge ili Operu na računalu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71403007"
+  },
+  "usb_title": {
+    "value": "Pošalji na svoj repetitor preko USB-a.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "815598af"
+  },
+  "usb_body": {
+    "value": "Priključi repetitor, poveži se i prije slanja provjeri što se mijenja.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "5a67e201"
+  },
+  "usb_connect": {
+    "value": "Poveži svoj repetitor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aaf2563c"
+  },
+  "usb_check": {
+    "value": "Provjeri što se mijenja",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3ee77f8f"
+  },
+  "usb_send": {
+    "value": "Pošalji postavke",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7e2580db"
+  },
+  "usb_reboot": {
+    "value": "Ponovno pokreni repetitor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "19394bd3"
+  },
+  "usb_disconnect": {
+    "value": "Prekini vezu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "acfc5be7"
+  },
+  "usb_col_command": {
+    "value": "Naredba",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "71316697"
+  },
+  "usb_col_now": {
+    "value": "Sada",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fe18013d"
+  },
+  "usb_col_reply": {
+    "value": "Odgovor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c253f451"
+  },
+  "usb_col_new": {
+    "value": "Nova vrijednost",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7ca9b97d"
+  },
+  "usb_no_answer": {
+    "value": "nema odgovora",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ad03eb5e"
+  },
+  "usb_status_idle": {
+    "value": "Nije povezano.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3b3d2796"
+  },
+  "usb_status_connected": {
+    "value": "Povezano. Prvo provjeri što se mijenja.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4bb28123"
+  },
+  "usb_status_busy": {
+    "value": "Port je zauzet. Zatvori drugi program ili karticu koja ga koristi, zatim pokušaj ponovno.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "438a57fa"
+  },
+  "usb_status_fill": {
+    "value": "Prvo upiši {value} u gornje naredbe.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d903306b"
+  },
+  "usb_status_reading": {
+    "value": "Čitam postavke tvog repetitora.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "222e3b98"
+  },
+  "usb_status_review": {
+    "value": "Usporedi trenutačne vrijednosti s novima, zatim pošalji.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "017b629e"
+  },
+  "usb_status_sent": {
+    "value": "Poslano. Tvoj repetitor prihvatio je svaku naredbu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4cf46e54"
+  },
+  "usb_status_sent_errors": {
+    "value": "Poslano, ali tvoj repetitor odbio je neke naredbe ili nije odgovorio. Provjeri odgovore.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f77c4ebb"
+  },
+  "usb_status_rebooted": {
+    "value": "Repetitor se ponovno pokreće s novim radijskim postavkama.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "79ddf8f8"
+  },
+  "flash_releases_link": {
+    "value": "MeshCore izdanja na GitHubu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "db7cf404"
+  },
+  "flash_no_match": {
+    "value": "Nijedna pločica ne odgovara. Pokušaj s kraćom riječi ili odaberi s popisa.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cdba666f"
+  },
+  "flash_needs_js": {
+    "value": "Flasher treba JavaScript. Bez njega, {link} sadrže sve datoteke.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc36838c"
+  },
+  "flash_board_title": {
+    "value": "Odaberi svoju pločicu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "225d5074"
+  },
+  "flash_filter_label": {
+    "value": "Traži",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "49c266ba"
+  },
+  "flash_board_label": {
+    "value": "Pločica",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4816cbfd"
+  },
+  "flash_role_label": {
+    "value": "Uloga",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "14736a2e"
+  },
+  "flash_role_ble": {
+    "value": "Companion, Bluetooth",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2c1378a3"
+  },
+  "flash_role_usb": {
+    "value": "Companion, USB",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4794c45b"
+  },
+  "flash_role_repeater": {
+    "value": "Repetitor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "46e7bee1"
+  },
+  "flash_role_room_server": {
+    "value": "Sobni poslužitelj",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "68b91cc5"
+  },
+  "flash_version_before": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f4f17278"
+  },
+  "flash_version_after": {
+    "value": ", najnovije izdanje.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1daecb7e"
+  },
+  "flash_flash_title": {
+    "value": "Flashaj preko USB-a",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dfd786e5"
+  },
+  "flash_mode_legend": {
+    "value": "Što želiš?",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3e17dbf9"
+  },
+  "flash_mode_update": {
+    "value": "Ažuriranje: za pločicu koja već koristi MeshCore. Čuva ključeve, kontakte i postavke tvog čvora.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "59e8848e"
+  },
+  "flash_mode_fresh": {
+    "value": "Nova instalacija: za novu pločicu ili pločicu s drugim firmverom. Briše pločicu, uključujući ključeve.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bc797149"
+  },
+  "flash_wipe_ok": {
+    "value": "Znam da nova instalacija briše ključeve i kontakte mog čvora.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7aeefcb2"
+  },
+  "flash_flash_button": {
+    "value": "Poveži i flashaj",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b8a541c7"
+  },
+  "flash_esp_help": {
+    "value": "Chrome, Edge ili Opera na računalu. Ako se pločica ne poveže, drži njezinu tipku BOOT (na nekim pločicama PRG) dok je priključuješ, zatim pokušaj ponovno.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4dafe8fb"
+  },
+  "flash_uf2_title": {
+    "value": "Kopiraj datoteku na svoju pločicu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "263bc1e5"
+  },
+  "flash_uf2_step1": {
+    "value": "Preuzmi datoteku:",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dee6800a"
+  },
+  "flash_uf2_step2": {
+    "value": "Priključi pločicu i dvaput brzo pritisni njezinu tipku za reset. Pojavit će se kao USB pogon. Pločica bez tipke za reset ima vlastiti način; piše na stranici proizvođača.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9cd62884"
+  },
+  "flash_uf2_step3": {
+    "value": "Povuci datoteku na taj pogon. Pločica se ponovno pokreće s novim firmverom; ažuriranje čuva njezine ključeve.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aef87c5b"
+  },
+  "flash_status_unsupported": {
+    "value": "Ovaj preglednik ne može pristupiti USB-u. Koristi Chrome, Edge ili Operu na računalu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8ef7eebe"
+  },
+  "flash_status_no_list": {
+    "value": "Popis pločica nije se učitao. Ponovno učitaj stranicu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7a3841a5"
+  },
+  "flash_status_downloading": {
+    "value": "Preuzimam firmver.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c9e6648c"
+  },
+  "flash_status_connecting": {
+    "value": "Povezujem se s tvojom pločicom.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "70ed0d63"
+  },
+  "flash_status_flashing": {
+    "value": "Flashanje je u tijeku. Ostavi pločicu priključenu.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0796d555"
+  },
+  "flash_status_done": {
+    "value": "Gotovo. Tvoja se pločica ponovno pokreće s novim firmverom.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "445b69e2"
+  },
+  "flash_status_failed": {
+    "value": "Flashanje je prekinuto. Drži tipku BOOT dok priključuješ pločicu, zatim pokušaj ponovno.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f716db56"
+  },
+  "flash_status_no_file": {
+    "value": "Datoteka firmvera nije se preuzela. Pokušaj ponovno za trenutak.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6636a9df"
+  },
+  "flash_other_firmware": {
+    "value": "Drugi firmver, poput firmvera DutchMeshCore za promatrače, dolazi s vlastitim flasherom: {link}.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b2c75d72"
+  },
+  "release_flash_link": {
+    "value": "Flashaj na svoju pločicu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "207bc805"
+  },
+  "menu_privacy": {
+    "value": "Privatnost",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54a57c31"
+  },
+  "menu_wallpapers": {
+    "value": "Pozadine",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "006547c4"
+  },
+  "menu_start": {
+    "value": "Početak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e4bb9f1e"
+  },
+  "menu_about": {
+    "value": "Što je MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a50b70cf"
+  },
+  "menu_about_sub": {
+    "value": "Radijske poruke bez interneta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aab7190e"
+  },
+  "menu_devices": {
+    "value": "Uređaji",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ba5121d"
+  },
+  "menu_devices_sub": {
+    "value": "Pločice, njihova potrošnja i cijena",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20f93671"
+  },
+  "menu_get_started": {
+    "value": "Započni",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "menu_get_started_sub": {
+    "value": "Od nove pločice do tvoje prve poruke",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d67ed219"
+  },
+  "menu_repeater_guide": {
+    "value": "Vodič za repetitore",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4608abcd"
+  },
+  "menu_repeater_guide_sub": {
+    "value": "Postavljanje, napajanje i zakonska ograničenja",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "666a0c8c"
+  },
+  "menu_start_group_1": {
+    "value": "Uči",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ce78afd0"
+  },
+  "menu_start_group_1_all": {
+    "value": "Više o MeshCore sustavu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2c7c7283"
+  },
+  "menu_start_group_2": {
+    "value": "Napravi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "30094e0b"
+  },
+  "menu_start_card_eyebrow": {
+    "value": "Novi si ovdje",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "10bc4c55"
+  },
+  "menu_start_card_title": {
+    "value": "Tvoja prva poruka",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d0e38ee3"
+  },
+  "menu_start_card_body": {
+    "value": "Pločica, aplikacija i postavke za tvoju zemlju. Na meshu si u roku od sat vremena.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7c10acb3"
+  },
+  "menu_start_card_button": {
+    "value": "Započni",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "61e8d44a"
+  },
+  "menu_firmware": {
+    "value": "Firmver",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "menu_fw_build": {
+    "value": "Pregled firmvera",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1cf2ad9a"
+  },
+  "menu_fw_build_sub": {
+    "value": "Koji firmver koristi tvoja pločica",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "54130720"
+  },
+  "menu_fw_flash": {
+    "value": "Flashaj",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f3577cb5"
+  },
+  "menu_fw_flash_sub": {
+    "value": "Iz preglednika, preko USB-a",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e6dbc0b0"
+  },
+  "menu_fw_console": {
+    "value": "Serijska konzola",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4e3c41fa"
+  },
+  "menu_fw_console_sub": {
+    "value": "Upisuj naredbe preko USB-a",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "40df16c8"
+  },
+  "menu_fw_changelog": {
+    "value": "Popis promjena",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ead07c84"
+  },
+  "menu_fw_changelog_sub": {
+    "value": "Što se promijenilo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1bcbf1dc"
+  },
+  "menu_firmware_group_1": {
+    "value": "Na tvom radiju",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d3234810"
+  },
+  "menu_firmware_group_1_all": {
+    "value": "Sav firmver",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "27bfcf0e"
+  },
+  "menu_firmware_group_2": {
+    "value": "Prati novosti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "57a5a75f"
+  },
+  "menu_firmware_card_eyebrow": {
+    "value": "Firmver",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "menu_firmware_card_title": {
+    "value": "Službeni firmver",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "39cc2886"
+  },
+  "menu_firmware_card_body": {
+    "value": "Flashaj službeni firmver iz preglednika. Ništa ne moraš instalirati.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e75a91bd"
+  },
+  "menu_firmware_card_button": {
+    "value": "Flashaj svoju pločicu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b5b6987e"
+  },
+  "menu_guides": {
+    "value": "Vodiči",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "572cd72f"
+  },
+  "menu_guides_overview": {
+    "value": "Pregled vodiča",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8db6b2ea"
+  },
+  "menu_guides_overview_sub": {
+    "value": "Svi vodiči, prema onome što želiš napraviti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0a19370e"
+  },
+  "menu_guide_settings": {
+    "value": "Preporučene postavke",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cfb32983"
+  },
+  "menu_guide_settings_sub": {
+    "value": "Unaprijed zadane i ostale postavke za tvoje područje",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8592dd01"
+  },
+  "menu_guide_antenna": {
+    "value": "Vodič za antene",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "3a76cb0e"
+  },
+  "menu_guide_antenna_sub": {
+    "value": "Odaberi, spoji i montiraj antenu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e57b6f1d"
+  },
+  "menu_guide_keygen": {
+    "value": "Generiraj ključ",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e798fa1b"
+  },
+  "menu_guide_keygen_sub": {
+    "value": "S prefiksom koji sam odabereš",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "02f5281d"
+  },
+  "menu_guide_channels": {
+    "value": "Pronađi kanale",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "9905513b"
+  },
+  "menu_guide_channels_sub": {
+    "value": "Kanali u tvojoj blizini, s njihovim ključevima",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "695ddeef"
+  },
+  "menu_guide_resilient": {
+    "value": "Učini mesh otpornim",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "33ec7ac8"
+  },
+  "menu_guide_resilient_sub": {
+    "value": "Što pomaže protiv preplavljivanja i spama",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6b6b932a"
+  },
+  "menu_guide_filter": {
+    "value": "Filtar paketa",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "20a3ef1f"
+  },
+  "menu_guide_filter_sub": {
+    "value": "Objašnjenje s naredbama",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7cd98eed"
+  },
+  "menu_guide_mqtt": {
+    "value": "MQTT na tvom promatraču",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "62626d0f"
+  },
+  "menu_guide_mqtt_sub": {
+    "value": "Javljaj što tvoj čvor čuje",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "593d1245"
+  },
+  "menu_guide_mctomqtt": {
+    "value": "Izradi konfiguraciju mosta",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fd2dd667"
+  },
+  "menu_guide_mctomqtt_sub": {
+    "value": "Repetitor preko USB-a do brokera",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "22227ad5"
+  },
+  "menu_guide_cli": {
+    "value": "CLI naredbe",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a13cc6cb"
+  },
+  "menu_guide_cli_sub": {
+    "value": "Objašnjenje svake naredbe",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "aa1f6046"
+  },
+  "menu_guides_group_1": {
+    "value": "Postavi svoj čvor",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "55efd611"
+  },
+  "menu_guides_group_1_all": {
+    "value": "Svi vodiči",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "0b5543ef"
+  },
+  "menu_guides_group_2": {
+    "value": "Saznaj više",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6bce982b"
+  },
+  "menu_guides_card_eyebrow": {
+    "value": "Baza znanja",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "f56819a3"
+  },
+  "menu_guides_card_title": {
+    "value": "MeshWiki",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "821342d8"
+  },
+  "menu_guides_card_body": {
+    "value": "Wiki zajednice o MeshCore sustavu, za sve što ovdje nije obrađeno.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b3d4f00f"
+  },
+  "menu_guides_card_button": {
+    "value": "Idi na MeshWiki",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "2ddff05f"
+  },
+  "menu_network": {
+    "value": "Mreža",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1744b964"
+  },
+  "menu_map": {
+    "value": "Karte pokrivenosti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4b9f20a0"
+  },
+  "menu_map_sub": {
+    "value": "Dokle mesh doseže",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ec1e205"
+  },
+  "menu_network_overview": {
+    "value": "Mreža",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1b32d67c"
+  },
+  "menu_network_overview_sub": {
+    "value": "Observeri i brojke uživo",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dc64142f"
+  },
+  "menu_network_group_1": {
+    "value": "Karte",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "119e66d1"
+  },
+  "menu_network_group_1_all": {
+    "value": "Mreža",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "1b32d67c"
+  },
+  "menu_network_group_2": {
+    "value": "Podaci",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cec3a9b8"
+  },
+  "menu_network_card_eyebrow": {
+    "value": "Pokrivenost",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "523487a5"
+  },
+  "menu_network_card_title": {
+    "value": "Dokle mesh doseže",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "4ec1e205"
+  },
+  "menu_network_card_body": {
+    "value": "Karte koje vode zajednice diljem Europe, od MeshCore Analyzera do lokalnih projekata.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fb1630d4"
+  },
+  "menu_network_card_button": {
+    "value": "Otvori karte",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e7674cfc"
+  },
+  "menu_community": {
+    "value": "Zajednica",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "bb501d78"
+  },
+  "menu_local_groups": {
+    "value": "Lokalne grupe",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dff00c14"
+  },
+  "menu_local_groups_sub": {
+    "value": "Pronađi lokalnu grupu u svojoj blizini",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d619ea7a"
+  },
+  "menu_projects": {
+    "value": "Projekti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "04e2a972"
+  },
+  "menu_projects_sub": {
+    "value": "Što ljudi grade na MeshCoreu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "d4563ab2"
+  },
+  "menu_news": {
+    "value": "Novosti",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69752f23"
+  },
+  "menu_news_sub": {
+    "value": "Iz mesha diljem Europe",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "39d66042"
+  },
+  "menu_contribute": {
+    "value": "Doprinesi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97b0c61b"
+  },
+  "menu_contribute_sub": {
+    "value": "Pomozi pisati i prevoditi stranicu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "8f5f2836"
+  },
+  "menu_press_kit": {
+    "value": "Promotivni i press materijali",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "fc691b26"
+  },
+  "menu_press_kit_sub": {
+    "value": "Logo, slike, pozadine i tekst o stranici",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "97e4fd91"
+  },
+  "menu_community_group_1": {
+    "value": "Ljudi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7db20897"
+  },
+  "menu_community_group_1_all": {
+    "value": "Sve lokalne grupe",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "6700740b"
+  },
+  "menu_community_group_2": {
+    "value": "Njihovi radovi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "468d3c4f"
+  },
+  "menu_community_card_eyebrow": {
+    "value": "U tvojoj blizini",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ab808511"
+  },
+  "menu_community_card_title": {
+    "value": "Pridruži se lokalnoj grupi",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a0b3cc29"
+  },
+  "menu_community_card_body": {
+    "value": "Svaka lokalna grupa ima svoje kanale, postavke i ljude koje možeš pitati.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "b38a16bf"
+  },
+  "menu_community_card_button": {
+    "value": "Pronađi svoju grupu",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "cef2ba32"
+  },
+  "menu_footer_1": {
+    "value": "Početak",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "e4bb9f1e"
+  },
+  "menu_footer_2": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "c2a314c3"
+  },
+  "menu_footer_3": {
+    "value": "Vodiči",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "572cd72f"
+  },
+  "menu_footer_4": {
+    "value": "Mreža i zajednica",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "ade2740d"
+  },
+  "menu_footer_note_1": {
+    "value": "Nekomercijalni vodič zajednice za MeshCore u Europi. Pišu ga volonteri, bez oglasa, affiliate poveznica i praćenja. Nije dio projekta MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "69e7015d"
+  },
+  "menu_footer_note_2": {
+    "value": "Tekst CC BY 4.0, kod MIT.",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "845058ef"
+  },
+  "shell_theme": {
+    "value": "Tema",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "efb52e71"
+  },
+  "shell_language": {
+    "value": "Jezik",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "a4fe6526"
+  },
+  "shell_colour_vision": {
+    "value": "Prikaz boja",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "df1c3606"
+  },
+  "shell_account": {
+    "value": "Račun",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "7e1b0d56"
+  },
+  "shell_menu": {
+    "value": "Izbornik",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "99af6606"
+  },
+  "shell_system": {
+    "value": "Prati sustav",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "48b4e3ed"
+  },
+  "shell_dark": {
+    "value": "Tamna",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "60acc53f"
+  },
+  "shell_light": {
+    "value": "Svijetla",
+    "_ai": true,
+    "_seeded": "2026-11-02",
+    "_source": "dbcd5e7b"
   }
 }
