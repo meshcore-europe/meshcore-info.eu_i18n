@@ -1,16 +1,16 @@
 ---
 title: Che cos'è MeshCore?
 lead: MeshCore invia messaggi di testo via radio, da nodo a nodo. Funziona senza internet e senza abbonamento.
-description: 'Che cosa è MeshCore e che cosa non è: la mesh, companion, ripetitori e room server, l''instradamento, la cifratura e la banda 868 MHz in Europa.'
+description: 'Cos''è MeshCore e cosa non è: tipi di nodo, routing, differenze da Meshtastic, crittografia e banda 868 MHz.'
 eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '78bc31e8'
-  seeded: '2026-10-31'
-  fields: {title: '06eda66b', lead: 'c0174569', description: '658f8a01', eyebrow: '8610c822'}
-  sections: ['aa768ac3', 'c9b24089', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '655373a9', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b9fc8810', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '0eb54b47', '02f1fe2f', 'e6b5b258']
+  source_hash: '279b56a4'
+  seeded: '2026-11-02'
+  fields: {title: '06eda66b', lead: 'c0174569', description: '15e6d2a7', eyebrow: '8610c822'}
+  sections: ['aa768ac3', '16fde264', '0a55792c', 'c3de803d', '493b444f', 'a8b2b9b4', '429f699c', 'f8008f48', '88af2bd3', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'fab378a5', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', 'fc8f3129', '8dec428a', '07cbac35', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '95e18f18', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore è un software gratuito per piccole radio LoRa. LoRa è una tecnica radio
@@ -28,32 +28,32 @@ MIT.
 Sei alle prime armi con la radio? Ecco le cose che la gente si aspetta più spesso
 da MeshCore, e che MeshCore non fa.
 
-- **Non è internet e non è un telefono.** MeshCore invia brevi messaggi di testo,
-  lunghi più o meno come un SMS sul telefono. Niente voce, foto, video o siti
-  web, e non puoi raggiungere un normale numero di telefono.
-- **Non è un servizio di emergenza.** Nessun servizio di emergenza ascolta la
+- **Non è internet e non è un telefono.** MeshCore manda brevi messaggi di testo,
+  più o meno lunghi come un SMS sul tuo telefono. Niente voce, foto, video
+  o siti web, e non puoi raggiungere un normale numero di telefono.
+- **Non è un servizio di emergenza.** Nessun servizio di emergenza è in ascolto sulla
   mesh, e nessuno garantisce che qualcuno legga il tuo messaggio. In caso di
   emergenza, chiama il 112.
-- **Non è immediato e non arriva ovunque.** Un messaggio salta da una radio
-  all'altra e può metterci qualche secondo, oppure non arrivare affatto. Se passa
-  o no dipende dai ripetitori intorno a te, dall'altezza, dagli edifici e dalla
-  tua antenna. Una piccola radio in casa spesso non raggiunge nessuno. Un
-  ripetitore su un tetto arriva a chilometri di distanza.
-- **Non è un servizio che qualcuno gestisce per te.** Non c'è un provider, non
-  c'è assistenza e nessuno promette copertura. La mesh esiste dove le persone
-  della community hanno installato ripetitori, e da nessun'altra parte.
-- **Non tutto è privato.** I messaggi diretti sono cifrati. Public e i canali
-  hashtag invece li può leggere chiunque. Il nome del tuo nodo e la posizione
-  che condividi li vedono tutti quelli nel raggio di ricezione.
-  Gli [observer](/network/) riportano su mappe pubbliche quello che ricevono. La
+- **Non è istantaneo e non arriva ovunque.** Un messaggio salta da radio a
+  radio e può metterci qualche secondo, o non arrivare affatto. Se passa o no
+  dipende dai ripetitori intorno a te, dall'altezza, dagli edifici e dalla tua
+  antenna. Una piccola radio al chiuso spesso non raggiunge nessuno; un ripetitore sul tetto
+  arriva a chilometri di distanza.
+- **Non è un servizio che qualcuno gestisce per te.** Non ci sono provider, helpdesk
+  o garanzie di copertura. La mesh esiste dove le persone della
+  community hanno installato ripetitori, e da nessun'altra parte.
+- **Non tutto è privato.** I messaggi diretti sono cifrati, ma
+  chiunque può leggere Public e i canali hashtag, e il nome del tuo nodo
+  e la posizione che condividi sono visibili a tutti nel raggio di ricezione.
+  Gli [observer](/network/) segnalano alle mappe pubbliche quello che ricevono. La
   [sezione sulla cifratura](#encryption) spiega che cosa resta privato.
-- **Non è illimitato.** Tutti in una zona condividono un solo canale radio, e le
-  regole della [banda 868 MHz](#band) limitano quanto a lungo ogni radio può
-  trasmettere. Ogni messaggio toglie tempo di trasmissione a tutti gli altri.
-  Per questo bot, annunci frequenti e messaggi di prova rallentano la mesh per
-  tutti.
-- **Non è Meshtastic.** Meshtastic è un sistema diverso che gira più o meno
-  sulle stesse schede. I due sistemi non possono comunicare tra loro.
+- **Non è illimitato.** Tutti quelli che si trovano in una zona condividono un solo canale radio, e
+  le regole per la [banda 868 MHz](#band) limitano il tempo di trasmissione di ogni radio.
+  Ogni messaggio toglie tempo di trasmissione a tutti gli altri, quindi bot, annunci frequenti
+  e messaggi di prova rallentano la mesh per tutti.
+- **Non è Meshtastic.** Meshtastic è un sistema diverso che gira più o meno sulle
+  stesse schede. I due sistemi non possono comunicare tra loro.
+  [Se vieni da Meshtastic](#meshtastic) elenca che cosa funziona in modo diverso.
 
 ## La mesh in un minuto {#mesh}
 
@@ -105,6 +105,23 @@ I ripetitori ricordano che cosa hanno inoltrato di recente e scartano le copie
 che arrivano di nuovo per un'altra strada. Un messaggio può attraversare fino a 64 ripetitori, oppure 32 se il preset usa ID da
 2 byte.
 
+## Se vieni da Meshtastic {#meshtastic}
+
+Su molte schede gira MeshCore oppure Meshtastic, e installi quello che vuoi. Ecco le differenze che noti per prime. Si basano su MeshCore v1.18.0 e sulla documentazione di Meshtastic di novembre 2026.
+
+- **Chi inoltra i messaggi.** In MeshCore lo fanno solo i ripetitori; il tuo companion
+  non lo fa mai. In Meshtastic li inoltra anche il ruolo client predefinito,
+  a meno che un altro nodo non l'abbia già fatto.
+- **Fin dove arriva un messaggio.** Un messaggio MeshCore può attraversare fino a 64
+  ripetitori. Meshtastic si ferma di default dopo 3 hop, e al massimo dopo 7.
+- **Misure dagli altri nodi.** I ripetitori e i nodi sensore di MeshCore inviano
+  misure come la tensione della batteria quando le chiedi. Non le inviano
+  a tutta la mesh.
+- **Internet.** Il firmware MeshCore non ha alcun collegamento tra mesh via
+  internet. Gli [observer](/network/) riportano alle mappe quello che ricevono, solo
+  in una direzione. Meshtastic ha un modulo MQTT integrato
+  che può trasportare messaggi tra mesh via internet.
+
 ## Cifratura e privacy {#encryption}
 
 I tuoi messaggi diretti sono cifrati end-to-end: solo tu e l'altra persona potete
@@ -141,11 +158,18 @@ sentono. Alcuni paesi e regioni usano una variante: il tuo
 
 ## A che cosa serve {#uses}
 
-- Restare in contatto durante le escursioni, in mare e ai festival, dove la rete
-  mobile è sovraccarica o assente.
-- Un canale di riserva per la famiglia o i vicini quando manca la corrente o
-  cadono le reti mobili.
-- Chat locali su radio che appartengono alle persone stesse.
+- Restare in contatto durante le escursioni, in mare e ai festival, dove la rete mobile
+  è sovraccarica o assente.
+- Un canale di riserva per la famiglia o i vicini quando saltano la corrente o le
+  reti mobili.
+- Chat locale su radio di proprietà di chi le usa.
+- Controllare da casa un sito remoto. I ripetitori e i nodi sensore comunicano la
+  tensione della batteria e altre misure quando glielo chiedi.
+- Tenere d'occhio un sensore. Un nodo sensore esegue il firmware di MeshCore per
+  le misurazioni. Conserva uno storico delle sue misure. Se ti iscrivi, ti avvisa, per
+  esempio quando la batteria si sta scaricando.
+- Comandare a distanza qualcosa, come una pompa. Aggiungi questa funzione al firmware
+  del sensore con il tuo codice.
 - Sperimentare con radio, antenne, energia solare e software open source.
 
 ## Da dove vengono i dati {#data}

@@ -1,16 +1,16 @@
 ---
 title: Wat is MeshCore?
 lead: MeshCore verstuurt tekstberichten via de radio, van node naar node. Je hebt geen internet of abonnement nodig.
-description: 'Wat MeshCore is en wat niet: de mesh, companions, repeaters en room servers, routering, versleuteling en de 868 MHz-band in Europa.'
+description: 'Wat MeshCore wel en niet is: soorten nodes, routing, het verschil met Meshtastic, versleuteling en de 868 MHz-band.'
 eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '78bc31e8'
-  seeded: '2026-10-31'
-  fields: {title: '06eda66b', lead: 'c0174569', description: '658f8a01', eyebrow: '8610c822'}
-  sections: ['aa768ac3', 'c9b24089', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '655373a9', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b9fc8810', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '0eb54b47', '02f1fe2f', 'e6b5b258']
+  source_hash: '279b56a4'
+  seeded: '2026-11-02'
+  fields: {title: '06eda66b', lead: 'c0174569', description: '15e6d2a7', eyebrow: '8610c822'}
+  sections: ['aa768ac3', '16fde264', '0a55792c', 'c3de803d', '493b444f', 'a8b2b9b4', '429f699c', 'f8008f48', '88af2bd3', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'fab378a5', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', 'fc8f3129', '8dec428a', '07cbac35', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '95e18f18', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore is gratis software voor kleine LoRa-radio's. LoRa is een radiotechniek
@@ -28,30 +28,31 @@ MIT-licentie.
 Heb je nog geen ervaring met radio? Dit zijn de dingen die mensen het vaakst van MeshCore
 verwachten, maar die het niet doet.
 
-- **Het is geen internet en geen telefoon.** MeshCore verstuurt korte
-  tekstberichten, ongeveer zo lang als een sms op je telefoon. Geen spraak,
-  foto's, video of websites, en je kunt geen gewoon telefoonnummer bereiken.
-- **Het is geen hulpdienst.** Geen enkele hulpdienst luistert mee op de mesh,
-  en niemand belooft dat iemand je bericht leest. Bel bij nood 112.
-- **Het is niet direct, en niet overal.** Een bericht springt van radio naar
-  radio. Dat kan een paar seconden duren, of het komt helemaal niet aan. Of
-  het aankomt, hangt af van de repeaters in je buurt, van hoogte, gebouwen en
-  je antenne. Een kleine radio binnenshuis bereikt vaak niemand. Een repeater
-  op een dak haalt kilometers.
-- **Het is geen dienst die iemand voor je draait.** Er is geen provider, geen
-  helpdesk en geen garantie op dekking. De mesh bestaat waar mensen uit de
+- **Het is geen internet of telefoon.** MeshCore verstuurt korte tekstberichten,
+  ongeveer zo lang als een sms op je telefoon. Geen spraak, foto's, video of
+  websites, en je bereikt er geen gewoon telefoonnummer mee.
+- **Het is geen hulpdienst.** Geen enkele hulpdienst luistert mee op de mesh, en
+  niemand belooft dat iemand je bericht leest. Bel in een noodgeval 112.
+- **Het werkt niet meteen, en niet overal.** Een bericht springt van radio naar
+  radio en kan er een paar seconden over doen, of helemaal niet aankomen. Of het
+  doorkomt, hangt af van de repeaters om je heen, van hoogte, gebouwen en je
+  antenne. Met een kleine radio binnenshuis bereik je vaak niemand; een repeater
+  op een dak reikt kilometers ver.
+- **Het is geen dienst die iemand voor je beheert.** Er is geen provider, geen
+  helpdesk en geen belofte over dekking. De mesh bestaat waar mensen uit de
   community repeaters hebben neergezet, en nergens anders.
-- **Niet alles erop is privé.** Directe berichten zijn versleuteld. Public en
-  de hashtagkanalen kan iedereen lezen, en de naam van je node en je gedeelde
-  positie ziet iedereen binnen bereik. [Observers](/network/) melden wat ze
-  horen aan openbare kaarten. In het [deel over versleuteling](#encryption)
-  lees je wat privé blijft.
-- **Het is niet onbeperkt.** Iedereen in een gebied deelt één radiokanaal. De
+- **Niet alles op de mesh is privé.** Directe berichten zijn versleuteld, maar
+  Public en de hashtagkanalen kan iedereen lezen, en iedereen binnen bereik ziet
+  de naam en gedeelde positie van je node.
+  [Observers](/network/) geven wat ze horen door aan openbare kaarten. In het
+  [gedeelte over versleuteling](#encryption) lees je wat privé blijft.
+- **Het is niet onbeperkt.** Iedereen in een gebied deelt één radiokanaal, en de
   regels voor de [868 MHz-band](#band) beperken hoe lang elke radio mag zenden.
-  Elk bericht neemt zendtijd af van alle anderen. Bots, vaak herhaalde
-  advertenties en testberichten maken de mesh dus voor iedereen trager.
+  Elk bericht kost alle anderen zendtijd, dus bots, frequente advertenties en
+  testberichten vertragen de mesh voor iedereen.
 - **Het is geen Meshtastic.** Meshtastic is een ander systeem dat op grotendeels
-  dezelfde boards draait. De twee kunnen niet met elkaar praten.
+  dezelfde boards draait. De twee kunnen niet met elkaar communiceren.
+  [Overstappen van Meshtastic](#meshtastic) laat zien wat er anders werkt.
 
 ## De mesh in een minuut {#mesh}
 
@@ -107,6 +108,23 @@ via een andere route nog eens binnenkomen, gooien ze weg. Een bericht kan
 langs maximaal 64 repeaters gaan, of 32 als de preset ID's van 2 bytes
 gebruikt.
 
+## Overstappen van Meshtastic {#meshtastic}
+
+Op veel boards draait MeshCore of Meshtastic, en je flasht degene die je wilt. Dit zijn de verschillen die je het eerst opvallen. Ze gaan uit van MeshCore v1.18.0 en de documentatie van Meshtastic van november 2026.
+
+- **Wie berichten doorgeeft.** In MeshCore doen alleen repeaters dat; je companion
+  doet het nooit. In Meshtastic geeft ook de standaardrol client berichten door,
+  tenzij een andere node dat al heeft gedaan.
+- **Hoe ver een bericht komt.** Een MeshCore-bericht kan langs maximaal 64
+  repeaters gaan. Meshtastic stopt standaard na 3 hops, en uiterlijk na 7.
+- **Metingen van andere nodes.** In MeshCore sturen repeaters en sensornodes
+  metingen zoals de batterijspanning als je erom vraagt. Ze sturen die niet naar
+  de hele mesh.
+- **Het internet.** De MeshCore-firmware kan meshes niet via het internet met
+  elkaar verbinden. [Observers](/network/) melden wat ze horen aan kaarten, alleen
+  in die richting. Meshtastic heeft een ingebouwde MQTT-module die berichten via
+  het internet tussen meshes kan overbrengen.
+
 ## Versleuteling en privacy {#encryption}
 
 Je directe berichten zijn end-to-end versleuteld: alleen jij en de ander
@@ -143,12 +161,19 @@ elkaar niet. Sommige landen en regio's gebruiken een variant: je
 
 ## Waar mensen het voor gebruiken {#uses}
 
-- Contact houden tijdens wandeltochten, op zee en op festivals waar het mobiele
-  netwerk overbelast is of ontbreekt.
-- Een reservekanaal voor familie of buren als de stroom of het mobiele netwerk
-  uitvalt.
-- Lokaal chatten op radio's die mensen zelf bezitten.
-- Experimenteren met radio, antennes, zonne-energie en open-source software.
+- Contact houden tijdens wandeltochten, op zee en op festivals waar het mobiele netwerk
+  overbelast is of ontbreekt.
+- Een reservekanaal voor familie of buren als de stroom of de mobiele netwerken
+  uitvallen.
+- Lokaal chatten op radio's die van mensen zelf zijn.
+- Vanuit huis een afgelegen plek controleren. Repeaters en sensornodes melden hun
+  batterijspanning en andere meetwaarden als je erom vraagt.
+- Een sensor in de gaten houden. Op een sensornode draait de MeshCore-firmware voor
+  metingen. Hij bewaart de geschiedenis van zijn metingen. Als je je
+  abonneert, waarschuwt hij je, bijvoorbeeld als zijn batterij bijna leeg is.
+- Iets schakelen dat ver weg staat, zoals een pomp. Dat voeg je met je eigen code toe aan
+  de sensorfirmware.
+- Experimenteren met radio, antennes, zonne-energie en opensourcesoftware.
 
 ## Waar de gegevens vandaan komen {#data}
 
