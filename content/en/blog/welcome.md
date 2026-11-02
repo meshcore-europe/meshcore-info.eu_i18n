@@ -30,7 +30,7 @@ shop links or tracking.
 
 **How it works.**
 
-- Open meshcore-info.eu in your language: the site speaks 16.
+- Open meshcore-info.eu in your language: the site speaks 33.
 - Find guides on [hardware](/devices/), roles and [settings](/guides/), and on
   [how MeshCore works](/about/).
 - Find the [local group](/community/) near you, or add yours.
