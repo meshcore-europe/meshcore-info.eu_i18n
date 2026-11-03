@@ -1,7 +1,7 @@
 ---
 title: "What is MeshCore?"
 lead: "MeshCore sends text messages by radio, from node to node. It works without the internet or a subscription."
-description: "What MeshCore is and is not: node kinds, routing, how it differs from Meshtastic, encryption and the 868 MHz band."
+description: "What MeshCore is and is not: node kinds, routing, encryption and the 868 MHz band."
 eyebrow: "MeshCore v1.18.0"
 ---
 
@@ -43,7 +43,6 @@ and that it does not do.
   and test messages slow the mesh down for all.
 - **It is not Meshtastic.** Meshtastic is a different system that runs on
   much the same boards. The two cannot talk to each other.
-  [Coming from Meshtastic](#meshtastic) lists what works differently.
 
 ## The mesh in a minute {#mesh}
 
@@ -92,25 +91,6 @@ Messages to a channel have no single address, so they always flood.
 Repeaters remember what they recently passed on and drop copies that arrive
 again by another route. A message can cross up to 64 repeaters, or 32 where the preset uses 2-byte
 IDs.
-
-## Coming from Meshtastic {#meshtastic}
-
-Many boards run either MeshCore or Meshtastic, and you flash the one you
-want. These are the differences you notice first. They follow MeshCore
-v1.18.0 and the Meshtastic documentation of November 2026.
-
-- **Who passes messages on.** In MeshCore only repeaters do; your companion
-  never does. In Meshtastic the default client role passes messages on as
-  well, unless another node already did.
-- **How far a message goes.** A MeshCore message can cross up to 64
-  repeaters. Meshtastic stops after 3 hops by default, and 7 at most.
-- **Readings from other nodes.** Repeaters and sensor nodes in MeshCore send
-  readings such as battery voltage when you ask for them. They do not send
-  them to the whole mesh.
-- **The internet.** The MeshCore firmware has no link between meshes over
-  the internet. [Observers](/network/) report what they hear to maps, one
-  way only. Meshtastic has a built-in MQTT module
-  that can carry messages between meshes over the internet.
 
 ## Encryption and privacy {#encryption}
 
