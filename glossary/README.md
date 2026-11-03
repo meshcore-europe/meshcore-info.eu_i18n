@@ -29,15 +29,17 @@ repeater	repeater
   copies them verbatim; do not edit them here. Propose changes to
   kiekr-i18n, then run the sync.
 - **Local**: languages kiekr-i18n lacks (pt for pt-PT, cs, sv, da, nb, fi,
-  hu, ro, el). They are created here and offered upstream to kiekr-i18n.
+  hu, ro, el, fy, bg, hr, et, ga, lv, lt, mt, sk, sl, sr, uk, ca, eu, gl, cy,
+  lb). They are created here and offered upstream to kiekr-i18n.
   Once kiekr-i18n has a file for the language, the sync takes it over.
   The first versions (2026-10-02) cover kiekr's core terms plus public and
   private key. They were drafted without a native speaker: technical terms
   that communities usually keep in English (flood, mesh, often repeater and
-  advert) stay English. A native speaker's review is welcome.
-- **None yet**: the languages added on 31 October 2026 (fy, bg, hr, et, ga, lv,
-  lt, mt, sk, sl, sr, uk, ca, eu, gl, cy, lb). The seeders work without a
-  glossary; a correction goes in `site/<lang>.tsv`.
+  advert) stay English. The files for the languages added on 31 October 2026
+  (fy to lb in the list above) came on 3 November 2026, with the same terms:
+  each takes the word its translations already used most, except where that
+  word reads as a commercial ad for an advert. A native speaker's review is
+  welcome.
 
 ```sh
 python tools/sync_glossary.py          # update synced files
