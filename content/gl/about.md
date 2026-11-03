@@ -1,16 +1,16 @@
 ---
 title: Que é MeshCore?
 lead: MeshCore envía mensaxes de texto por radio, de nodo en nodo. Funciona sen internet e sen subscrición.
-description: 'Que é MeshCore e que non é: a malla, os compañeiros, os repetidores e os servidores de sala, o encamiñamento, o cifrado e a banda de 868 MHz en Europa.'
+description: 'Que é MeshCore e que non é: tipos de nodo, enrutamento, en que se diferencia de Meshtastic, cifrado e a banda de 868 MHz.'
 eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '78bc31e8'
-  seeded: '2026-11-02'
-  fields: {title: '06eda66b', lead: 'c0174569', description: '658f8a01', eyebrow: '8610c822'}
-  sections: ['aa768ac3', 'c9b24089', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '655373a9', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b9fc8810', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '0eb54b47', '02f1fe2f', 'e6b5b258']
+  source_hash: '279b56a4'
+  seeded: '2026-11-03'
+  fields: {title: '06eda66b', lead: 'c0174569', description: '15e6d2a7', eyebrow: '8610c822'}
+  sections: ['aa768ac3', '16fde264', '0a55792c', 'c3de803d', '493b444f', 'a8b2b9b4', '429f699c', 'f8008f48', '88af2bd3', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'fab378a5', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', 'fc8f3129', '8dec428a', '07cbac35', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '95e18f18', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore é software libre para radios LoRa pequenas. LoRa é unha técnica de
@@ -28,30 +28,31 @@ Acabas de chegar ao mundo da radio? Isto é o que a xente espera máis a miúdo 
 e que non fai.
 
 - **Non é internet nin un teléfono.** MeshCore envía mensaxes de texto curtas,
-  máis ou menos da lonxitude dun SMS do teu móbil. Non hai voz, fotos, vídeo
+  aproximadamente tan longas coma un SMS no teu móbil. Non hai voz, fotos, vídeo
   nin sitios web, e non podes contactar cun número de teléfono normal.
 - **Non é un servizo de emerxencias.** Ningún servizo de emerxencias escoita na
-  malla, e ninguén garante que alguén lea a túa mensaxe. Nunha
+  malla, e ninguén promete que alguén lea a túa mensaxe. En caso de
   emerxencia, chama ao 112.
 - **Non é instantáneo nin chega a todas partes.** Unha mensaxe salta de radio en
   radio e pode tardar uns segundos, ou non chegar nunca. Que chegue ou non
-  depende dos repetidores que teñas arredor, da altura, dos edificios e da túa
-  antena. Unha radio pequena dentro da casa a miúdo non chega a ninguén. Un repetidor nun tellado
-  chega a quilómetros.
+  depende dos repetidores que tes arredor, da altura, dos edificios e da túa
+  antena. Unha radio pequena en interiores moitas veces non chega a ninguén; un repetidor nun tellado
+  chega a quilómetros de distancia.
 - **Non é un servizo que alguén xestione por ti.** Non hai provedor, nin
-  asistencia técnica, nin garantía de cobertura. A malla existe onde a xente da
-  comunidade instalou repetidores, e en ningún sitio máis.
+  servizo de axuda, nin promesa de cobertura. A malla existe onde a xente da
+  comunidade instalou repetidores, e en ningún outro sitio.
 - **Non todo o que circula nela é privado.** As mensaxes directas van cifradas, pero
-  calquera pode ler Public e as canles con hashtag. Todo o mundo ao teu alcance
-  ve o nome do teu nodo e a posición que compartes.
+  calquera pode ler Public e as canles con hashtag, e todo o mundo ao alcance pode ver o nome
+  do teu nodo e a posición que compartes.
   Os [observadores](/network/) comunican a mapas públicos o que escoitan. A
-  [sección de cifrado](#encryption) explica o que segue sendo privado.
-- **Non é ilimitado.** Todas as persoas dunha zona comparten unha soa canle de radio, e
+  [sección sobre cifrado](#encryption) explica o que segue sendo privado.
+- **Non é ilimitado.** Todas as persoas dunha zona comparten unha canle de radio, e
   as normas da [banda de 868 MHz](#band) limitan canto tempo pode emitir cada radio.
-  Cada mensaxe quítalles tempo de emisión ás demais persoas, así que os bots, os anuncios frecuentes
-  e as mensaxes de proba fan a malla máis lenta para todos.
-- **Non é Meshtastic.** Meshtastic é un sistema diferente que funciona en
-  placas moi parecidas. Os dous sistemas non se poden comunicar entre si.
+  Cada mensaxe quítalles tempo de emisión a todas as demais persoas, así que os bots, os anuncios frecuentes
+  e as mensaxes de proba volven a malla máis lenta para todo o mundo.
+- **Non é Meshtastic.** Meshtastic é un sistema diferente que funciona case nas
+  mesmas placas. Os dous non se poden comunicar entre si.
+  [Se vés de Meshtastic](#meshtastic) enumera o que funciona doutro xeito.
 
 ## A malla nun minuto {#mesh}
 
@@ -101,6 +102,24 @@ Os repetidores lembran o que reenviaron hai pouco e descartan as copias que volv
 chegar por outra ruta. Unha mensaxe pode cruzar ata 64 repetidores, ou 32 se a predefinición usa ID de 2
 bytes.
 
+## Se vés de Meshtastic {#meshtastic}
+
+Moitas placas funcionan con MeshCore ou con Meshtastic, e instalas o que queiras. Estas son as primeiras diferenzas que notarás. Baséanse en MeshCore
+v1.18.0 e na documentación de Meshtastic de novembro de 2026.
+
+- **Quen reenvía as mensaxes.** En MeshCore só o fan os repetidores; o teu compañeiro
+  nunca o fai. En Meshtastic o rol de cliente predeterminado tamén reenvía as mensaxes,
+  a non ser que outro nodo xa o fixese.
+- **Ata onde chega unha mensaxe.** Unha mensaxe de MeshCore pode pasar por ata 64
+  repetidores. Meshtastic para tras 3 saltos por defecto, e tras 7 como máximo.
+- **Lecturas doutros nodos.** Os repetidores e os nodos sensores de MeshCore envían
+  lecturas como a tensión da batería cando llelas pides. Non as envían
+  a toda a malla.
+- **Internet.** O firmware de MeshCore non ten ningunha ligazón entre mallas por
+  internet. Os [observadores](/network/) envían aos mapas o que escoitan, só nun
+  sentido. Meshtastic ten un módulo MQTT integrado
+  que pode levar mensaxes entre mallas por internet.
+
 ## Cifrado e privacidade {#encryption}
 
 As túas mensaxes directas van cifradas de extremo a extremo: só ti e a outra persoa
@@ -136,10 +155,18 @@ entre si. Algúns países e rexións usan unha variante: o teu
 
 ## Para que o usa a xente {#uses}
 
-- Manterse en contacto en rutas de sendeirismo, no mar e en festivais onde a rede móbil
+- Manterte en contacto en rutas de sendeirismo, no mar e en festivais onde a rede móbil
   está saturada ou non existe.
-- Unha canle de reserva para a familia ou a veciñanza cando falla a luz ou a rede móbil.
+- Unha canle de reserva para a familia ou a veciñanza cando fallan a luz ou as redes
+  móbiles.
 - Conversas locais en radios que son da propia xente.
+- Comprobar un lugar afastado desde a casa. Os repetidores e os nodos sensores envían
+  a tensión da batería e outras lecturas cando llelas pides.
+- Vixiar un sensor. Un nodo sensor usa o firmware de MeshCore para medir
+  cousas. Garda un historial das súas lecturas. Se te subscribes, avísate,
+  por exemplo cando lle queda pouca batería.
+- Accionar algo que está lonxe, como unha bomba. Iso engádelo ao firmware do sensor
+  co teu propio código.
 - Experimentar con radio, antenas, enerxía solar e software de código aberto.
 
 ## De onde veñen os datos {#data}
