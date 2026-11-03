@@ -25,6 +25,13 @@ Copy either text as it is, or shorten it. Name the site as meshcore-info.eu,
 in lowercase, with .eu. For a longer text, copy the press release in the
 [launch post](/blog/welcome/).
 
+## Short links for the mesh {#short-links}
+
+These links take less room in a mesh message. Each one opens in the language
+of whoever taps it. We keep every name working once we give it out.
+
+{{< short-links >}}
+
 ## Logo {#logo}
 
 - [The logo as SVG](/media/press-kit/meshcore-info-logo.svg)
