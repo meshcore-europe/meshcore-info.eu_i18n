@@ -27,6 +27,8 @@ the baseline):
   hard  abbreviations  LoRa, MQTT, USB, ... kept as written
   hard  never          Meshcore, ISM band, internal terms (sections 3, 8, 9)
   hard  exclamation    no exclamation marks (section 2)
+  hard  mixed-script   a word with Latin letters and Cyrillic or Greek letters: a
+                       Cyrillic \u043e looks like a Latin o, but search misses the word
   soft  sentence       a sentence over 25 words (section 1: 10 to 15)
   soft  paragraph      a paragraph over 100 words or 10 sentences
   soft  glossary       a glossary term of the English missing (section 8)
@@ -72,7 +74,7 @@ from validate_i18n import placeholders
 from validate_pages import TRANSLATED
 
 HARD = ["em-dash", "broken-word", "address", "placeholders", "protected", "numbers", "approx", "abbreviations", "never",
-        "exclamation"]
+        "exclamation", "mixed-script"]
 SOFT = ["sentence", "paragraph", "glossary", "count-list", "negation", "filler", "polite", "do-not-use"]
 LONG_SENTENCE = 25
 LONG_PARAGRAPH_WORDS = 100
@@ -89,6 +91,9 @@ LIST_ITEM = re.compile(r"^\s*(?:[-*+]|\d+[.)])\s+")
 TABLE_ROW = re.compile(r"^\s*\|")
 HEADING = re.compile(r"^\s*#{1,6}\s+")
 EMOJI = re.compile("[\U0001F300-\U0001FAFF☀-➿]")
+LETTERS = re.compile(r"[^\W\d_]+")
+LATIN_LETTER = re.compile("[A-Za-z\u00c0-\u024f]")
+LOOKALIKE_SCRIPT = re.compile("[\u0370-\u03ff\u0400-\u052f]")
 
 
 @dataclass
@@ -324,6 +329,7 @@ def measure(raw: str, kind: str, lang: str) -> Measure:
     hits["approx"] = approx_hits(prose, lang)
     hits["never"] = [m.group(0) for p, _ in R.NEVER for m in re.finditer(p, prose)]
     hits["exclamation"] = re.findall(r"[!¡]", prose) + EMOJI.findall(prose)
+    hits["mixed-script"] = [w for w in LETTERS.findall(prose) if LATIN_LETTER.search(w) and LOOKALIKE_SCRIPT.search(w)]
     hits["sentence"] = [s for s in all_sents if len(words(s)) > LONG_SENTENCE]
     hits["paragraph"] = [b.text[:60] for b in bs if b.kind == "paragraph"
                          and (len(words(b.text)) > LONG_PARAGRAPH_WORDS

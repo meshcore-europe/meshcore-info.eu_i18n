@@ -75,7 +75,7 @@ redoes current machine translations.
 `tools/grade_copy.py` holds the translations to the site's copy guide
 (`docs/design/ui-copy.md` in the site repository) with search rules, per
 language: informal address, no em dash, numbers and terms kept, sentence
-length and more. `--check` fails on a hard rule; CI runs it with `--since` on what a pull
+length, no word that mixes Latin with Cyrillic or Greek letters, and more. `--check` fails on a hard rule; CI runs it with `--since` on what a pull
 request changes. `tools/judge.py` asks Claude
 whether a translation keeps the meaning of the English and reads as written
 in its language.
