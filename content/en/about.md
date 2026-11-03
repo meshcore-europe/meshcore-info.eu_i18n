@@ -22,9 +22,8 @@ and that it does not do.
 - **It is not the internet or a phone.** MeshCore sends short text messages,
   about the length of a text message on your phone. No voice, photos, video
   or websites, and you cannot reach a normal phone number.
-- **It is not an emergency service.** No emergency service listens on the
-  mesh, and nobody promises that someone reads your message. In an
-  emergency, call 112.
+- **It is not an emergency service.** No emergency service promises to
+  listen on the mesh, and nobody promises that someone reads your message.
 - **It is not instant, and not everywhere.** A message hops from radio to
   radio and can take a few seconds, or not arrive at all. Whether it gets
   through depends on the repeaters around you, on height, buildings and your
@@ -32,7 +31,7 @@ and that it does not do.
   reaches kilometres.
 - **It is not a service someone runs for you.** There is no provider, no
   helpdesk and no coverage promise. The mesh exists where people in the
-  community have put up repeaters, and nowhere else.
+  community have put up repeaters.
 - **Not everything on it is private.** Direct messages are encrypted, but
   Public and the hashtag channels can be read by anyone, and your node's
   name and shared position are visible to everyone in range.
@@ -152,6 +151,7 @@ other. Some countries and regions use a variant: your
   is overloaded or absent.
 - A backup channel for family or neighbours when power or mobile networks
   fail.
+- A backup for local authorities when their usual networks fail.
 - Local chat on radios that people own themselves.
 - Checking a remote site from home. Repeaters and sensor nodes report their
   battery voltage and other readings when you ask.
@@ -161,6 +161,32 @@ other. Some countries and regions use a variant: your
 - Switching something far away, such as a pump. You add that to the sensor
   firmware with your own code.
 - Experimenting with radio, antennas, solar power and open-source software.
+
+Some authorities are building or testing a backup on MeshCore. We checked
+these examples in November 2026.
+
+- Cyclone Gabrielle cut all communications in Tairāwhiti, New Zealand. In
+  September 2025 the region's emergency management named MeshCore
+  [one of at least 6 backup ways to communicate](https://www.scoop.co.nz/stories/AK2509/S00669.htm).
+  It was also building solar repeaters as the backbone.
+- The German district of Bad Kissingen
+  [is building a text network on MeshCore](https://www.landkreis-badkissingen.de/wirtschaft/digitalisierung/kommunikationsnetze/index.html)
+  for authorities, emergency services and critical sites. Fire stations
+  connect first.
+- The council of Hilversum, in the Netherlands,
+  [voted 34 to 1 for a trial](https://hilversum.nl/nieuwsoverzicht/gemeenteraad-buigt-zich-over-financien)
+  with a repeater on the town hall tower. The municipality
+  [evaluates it in autumn 2027](https://www.spreekbuis.nl/hilversum-start-proef-met-onafhankelijk-noodcommunicatienetwerk-meshcore/).
+- Two Dutch safety regions, which organise the response to a crisis, are
+  experimenting with MeshCore:
+  [South Limburg](https://nos.nl/nieuwsuur/artikel/2607176-communicatie-hulpdiensten-valt-uit-bij-lange-stroomstoring-oplossing-niet-in-zicht)
+  and [Drenthe](https://www.rtvdrenthe.nl/nieuws/18438486/hackerspace-drenthe-werkt-aan-een-noodnetwerk-voor-de-provincie).
+  Drenthe calls it too early to say how or when it could use it.
+- In Dalfsen, also in the Netherlands, volunteers
+  [run a pilot alongside the municipalities](https://noodnetoverijssel.nl/).
+  They use voice radio first and MeshCore as a second layer for text.
+
+Nobody promises that someone reads your message on the mesh near you.
 
 ## Where the data comes from {#data}
 
