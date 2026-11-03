@@ -1,16 +1,16 @@
 ---
 title: O que é o MeshCore?
 lead: O MeshCore envia mensagens de texto por rádio, de nó em nó. Funciona sem internet e sem assinatura.
-description: 'O que o MeshCore é e não é: a mesh, companions, repetidores e room servers, o encaminhamento, a encriptação e a banda de 868 MHz na Europa.'
+description: 'O que o MeshCore é e não é: tipos de nó, encaminhamento, diferenças face ao Meshtastic, encriptação e a banda de 868 MHz.'
 eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '78bc31e8'
-  seeded: '2026-10-31'
-  fields: {title: '06eda66b', lead: 'c0174569', description: '658f8a01', eyebrow: '8610c822'}
-  sections: ['aa768ac3', 'c9b24089', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '655373a9', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b9fc8810', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '0eb54b47', '02f1fe2f', 'e6b5b258']
+  source_hash: '279b56a4'
+  seeded: '2026-11-02'
+  fields: {title: '06eda66b', lead: 'c0174569', description: '15e6d2a7', eyebrow: '8610c822'}
+  sections: ['aa768ac3', '16fde264', '0a55792c', 'c3de803d', '493b444f', 'a8b2b9b4', '429f699c', 'f8008f48', '88af2bd3', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'fab378a5', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', 'fc8f3129', '8dec428a', '07cbac35', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '95e18f18', '02f1fe2f', 'e6b5b258']
 ---
 
 O MeshCore é software livre para pequenos rádios LoRa. O LoRa é uma técnica de
@@ -28,33 +28,32 @@ MIT.
 És novo no mundo da rádio? Estas são as coisas que as pessoas mais vezes
 esperam do MeshCore e que ele não faz.
 
-- **Não é a internet nem um telefone.** O MeshCore envia mensagens de texto
-  curtas, mais ou menos do tamanho de um SMS no teu telemóvel. Não há voz,
-  fotos, vídeo nem sites, e não consegues contactar um número de telefone
-  normal.
-- **Não é um serviço de emergência.** Nenhum serviço de emergência está à
-  escuta na mesh, e ninguém garante que alguém leia a tua mensagem. Numa
+- **Não é a internet nem um telefone.** O MeshCore envia mensagens de texto curtas,
+  mais ou menos do tamanho de uma mensagem de texto no teu telemóvel. Não há voz, fotos, vídeo
+  nem sites, e não consegues contactar um número de telefone normal.
+- **Não é um serviço de emergência.** Nenhum serviço de emergência está à escuta na
+  mesh, e ninguém garante que alguém leia a tua mensagem. Numa
   emergência, liga para o 112.
-- **Não é instantâneo nem chega a todo o lado.** Uma mensagem salta de rádio
-  em rádio e pode demorar alguns segundos, ou nem chegar. Se passa ou não
-  depende dos repetidores à tua volta, da altura, dos edifícios e da tua
-  antena. Um rádio pequeno dentro de casa muitas vezes não chega a ninguém.
-  Um repetidor num telhado chega a quilómetros.
-- **Não é um serviço que alguém gere por ti.** Não há fornecedor, nem apoio
-  ao cliente, nem garantia de cobertura. A mesh existe onde pessoas da
+- **Não é instantâneo nem chega a todo o lado.** Uma mensagem salta de rádio em
+  rádio e pode demorar alguns segundos, ou nem sequer chegar. Chegar ou não depende dos
+  repetidores à tua volta, da altura, dos edifícios e da tua
+  antena. Um rádio pequeno dentro de casa muitas vezes não chega a ninguém; um repetidor num telhado
+  alcança quilómetros.
+- **Não é um serviço que alguém gere por ti.** Não há fornecedor, apoio técnico
+  nem promessa de cobertura. A mesh existe onde pessoas da
   comunidade instalaram repetidores, e em mais lado nenhum.
-- **Nem tudo o que lá circula é privado.** As mensagens diretas são
-  encriptadas, mas qualquer pessoa pode ler o Public e os canais com hashtag.
-  O nome do teu nó e a posição que partilhas ficam visíveis para todos ao
-  alcance. Os [observers](/network/) enviam o que ouvem para mapas públicos.
-  A [secção sobre encriptação](#encryption) explica o que fica privado.
-- **Não é ilimitado.** Todos numa zona partilham um único canal de rádio, e
-  as regras da [banda de 868 MHz](#band) limitam quanto tempo cada rádio pode
-  emitir. Cada mensagem tira tempo de emissão a todos os outros. Por isso,
-  bots, anúncios frequentes e mensagens de teste tornam a mesh mais lenta para
-  todos.
-- **Não é o Meshtastic.** O Meshtastic é outro sistema, que funciona em placas
-  muito parecidas. Os dois não comunicam entre si.
+- **Nem tudo o que lá circula é privado.** As mensagens diretas são cifradas, mas
+  qualquer pessoa pode ler o Public e os canais hashtag, e todos os que estão ao alcance veem
+  o nome do teu nó e a posição que partilhas.
+  Os [observadores](/network/) enviam para mapas públicos o que ouvem. A
+  [secção sobre cifragem](#encryption) explica o que continua privado.
+- **Não é ilimitado.** Numa zona, todos partilham um único canal de rádio, e
+  as regras da [banda de 868 MHz](#band) limitam o tempo de emissão de cada rádio.
+  Cada mensagem tira tempo de emissão a todos os outros, por isso bots, anúncios frequentes
+  e mensagens de teste tornam a mesh mais lenta para todos.
+- **Não é o Meshtastic.** O Meshtastic é um sistema diferente que corre praticamente
+  nas mesmas placas. Os dois não conseguem comunicar entre si.
+  [Vens do Meshtastic](#meshtastic) lista o que funciona de forma diferente.
 
 ## A mesh num minuto {#mesh}
 
@@ -108,6 +107,23 @@ flood. Os repetidores lembram-se do que retransmitiram há pouco e descartam as
 cópias que voltam a chegar por outro caminho. Uma mensagem pode atravessar até
 64 repetidores, ou 32 quando o preset usa IDs de 2 bytes.
 
+## Se vens do Meshtastic {#meshtastic}
+
+Muitas placas correm o MeshCore ou o Meshtastic, e instalas o que quiseres. Estas são as primeiras diferenças que vais notar. Baseiam-se no MeshCore
+v1.18.0 e na documentação do Meshtastic de novembro de 2026.
+
+- **Quem retransmite as mensagens.** No MeshCore, só os repetidores o fazem; o teu
+  companion nunca o faz. No Meshtastic, o papel de cliente predefinido também
+  retransmite mensagens, a não ser que outro nó já o tenha feito.
+- **Até onde vai uma mensagem.** No MeshCore, uma mensagem pode atravessar até 64
+  repetidores. Por predefinição, o Meshtastic para ao fim de 3 saltos, e ao fim de 7 no máximo.
+- **Leituras de outros nós.** No MeshCore, os repetidores e os nós sensores enviam
+  leituras como a tensão da bateria quando as pedes. Não as enviam para toda a mesh.
+- **A internet.** O firmware do MeshCore não tem ligação entre meshes pela
+  internet. Os [observadores](/network/) enviam aos mapas o que ouvem, só num
+  sentido. O Meshtastic tem um módulo MQTT integrado
+  que pode transportar mensagens entre meshes pela internet.
+
 ## Encriptação e privacidade {#encryption}
 
 As tuas mensagens diretas são encriptadas de ponta a ponta: só tu e a outra
@@ -148,7 +164,14 @@ outros. Alguns países e regiões usam uma variante: o teu
   está sobrecarregada ou não existe.
 - Um canal de reserva para a família ou os vizinhos quando a eletricidade ou as
   redes móveis falham.
-- Conversa local em rádios que são das próprias pessoas.
+- Conversas locais em rádios que são das próprias pessoas.
+- Verificar um local remoto a partir de casa. Os repetidores e os nós sensores
+  enviam a tensão da bateria e outras leituras quando as pedes.
+- Acompanhar um sensor. Um nó sensor usa o firmware do MeshCore para fazer
+  medições. Guarda um histórico das leituras. Se fizeres a subscrição, avisa-te,
+  por exemplo quando a bateria está a ficar fraca.
+- Ligar ou desligar algo à distância, como uma bomba. Acrescentas isso ao
+  firmware do sensor com o teu próprio código.
 - Fazer experiências com rádio, antenas, energia solar e software open source.
 
 ## De onde vêm os dados {#data}

@@ -1,16 +1,16 @@
 ---
 title: Qu'est-ce que MeshCore ?
 lead: MeshCore envoie des messages texte par radio, de nœud en nœud. Pas besoin d'internet ni d'abonnement.
-description: 'Ce que MeshCore est et n''est pas : le maillage, les compagnons, les répéteurs et les serveurs de salon, le routage, le chiffrement et la bande 868 MHz en Europe.'
+description: 'Ce qu''est MeshCore et ce qu''il n''est pas : types de nœuds, routage, différences avec Meshtastic, chiffrement et bande 868 MHz.'
 eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '78bc31e8'
-  seeded: '2026-10-31'
-  fields: {title: '06eda66b', lead: 'c0174569', description: '658f8a01', eyebrow: '8610c822'}
-  sections: ['aa768ac3', 'c9b24089', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '655373a9', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b9fc8810', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '0eb54b47', '02f1fe2f', 'e6b5b258']
+  source_hash: '279b56a4'
+  seeded: '2026-11-02'
+  fields: {title: '06eda66b', lead: 'c0174569', description: '15e6d2a7', eyebrow: '8610c822'}
+  sections: ['aa768ac3', '16fde264', '0a55792c', 'c3de803d', '493b444f', 'a8b2b9b4', '429f699c', 'f8008f48', '88af2bd3', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'fab378a5', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', 'fc8f3129', '8dec428a', '07cbac35', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '95e18f18', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore est un logiciel libre pour de petites radios LoRa. LoRa est une technique radio qui transmet peu de données très loin, avec très peu d'énergie. Une radio équipée de MeshCore s'appelle un *nœud*. Tu l'associes à l'application sur ton téléphone ou ton ordinateur, ou tu utilises son propre écran et son clavier. Tu envoies alors du texte à des personnes situées à des kilomètres. Aucune antenne relais, aucun routeur et aucun opérateur ne se trouve entre toi et eux.
@@ -21,13 +21,32 @@ Le logiciel est open source. Son développement se fait sur [meshcore-dev/MeshCo
 
 Tu débutes en radio ? Voici ce que les gens attendent le plus souvent de MeshCore, et qu'il ne fait pas.
 
-- **Ce n'est ni internet ni un téléphone.** MeshCore envoie de courts messages texte, à peu près de la longueur d'un SMS. Pas de voix, de photos, de vidéos ni de sites web, et tu ne peux pas joindre un numéro de téléphone normal.
-- **Ce n'est pas un service d'urgence.** Aucun service d'urgence n'écoute le maillage, et personne ne garantit que quelqu'un lira ton message. En cas d'urgence, appelle le 112.
-- **Ce n'est ni instantané ni disponible partout.** Un message saute de radio en radio. Il peut mettre quelques secondes, ou ne jamais arriver. Qu'il passe ou non dépend des répéteurs autour de toi, de la hauteur, des bâtiments et de ton antenne. Une petite radio en intérieur n'atteint souvent personne. Un répéteur sur un toit porte à des kilomètres.
-- **Ce n'est pas un service que quelqu'un gère pour toi.** Il n'y a ni opérateur, ni assistance, ni promesse de couverture. Le maillage existe là où des membres de la communauté ont installé des répéteurs, et nulle part ailleurs.
-- **Tout n'y est pas privé.** Les messages directs sont chiffrés. En revanche, tout le monde peut lire Public et les canaux hashtag. Le nom de ton nœud et la position que tu partages sont visibles de tous ceux qui sont à portée. Des [observateurs](/network/) transmettent ce qu'ils captent à des cartes publiques. La [section sur le chiffrement](#encryption) explique ce qui reste privé.
-- **Ce n'est pas illimité.** Dans une zone, tout le monde partage un seul canal radio. Les règles de la [bande 868 MHz](#band) limitent la durée d'émission de chaque radio. Chaque message prend du temps d'antenne aux autres. Les bots, les annonces fréquentes et les messages de test ralentissent donc le maillage pour tous.
-- **Ce n'est pas Meshtastic.** Meshtastic est un autre système qui tourne sur des cartes très similaires. Les deux ne peuvent pas communiquer entre eux.
+- **Ce n'est ni internet ni un téléphone.** MeshCore envoie de courts messages texte,
+  à peu près de la longueur d'un SMS sur ton téléphone. Ni voix, ni photos, ni vidéos,
+  ni sites web, et tu ne peux pas joindre un numéro de téléphone classique.
+- **Ce n'est pas un service d'urgence.** Aucun service d'urgence n'est à l'écoute du
+  maillage, et personne ne te garantit qu'on lira ton message. En cas
+  d'urgence, appelle le 112.
+- **Ce n'est ni instantané ni disponible partout.** Un message saute de radio en
+  radio et peut mettre quelques secondes, ou ne jamais arriver. Qu'il passe ou non dépend
+  des répéteurs autour de toi, de la hauteur, des bâtiments et de ton antenne.
+  Une petite radio en intérieur n'atteint souvent personne ; un répéteur sur un toit
+  porte à des kilomètres.
+- **Ce n'est pas un service que quelqu'un gère pour toi.** Il n'y a ni opérateur, ni
+  assistance, ni promesse de couverture. Le maillage existe là où des membres de la
+  communauté ont installé des répéteurs, et nulle part ailleurs.
+- **Tout n'y est pas privé.** Les messages directs sont chiffrés, mais n'importe qui
+  peut lire le canal Public et les canaux hashtag, et tout le monde à portée voit le nom de
+  ton nœud et ta position partagée.
+  Les [observateurs](/network/) transmettent ce qu'ils captent à des cartes publiques. La
+  [section sur le chiffrement](#encryption) explique ce qui reste privé.
+- **Ce n'est pas illimité.** Dans une zone, tout le monde partage un seul canal radio, et
+  les règles de la [bande 868 MHz](#band) limitent la durée d'émission de chaque radio.
+  Chaque message prend du temps d'antenne aux autres : les bots, les annonces
+  fréquentes et les messages de test ralentissent donc le maillage pour tout le monde.
+- **Ce n'est pas Meshtastic.** Meshtastic est un autre système qui fonctionne sur
+  à peu près les mêmes cartes. Les deux ne peuvent pas communiquer entre eux.
+  [Tu viens de Meshtastic](#meshtastic) liste ce qui fonctionne différemment.
 
 ## Le maillage en une minute {#mesh}
 
@@ -53,6 +72,25 @@ Ton premier message à un contact part en *diffusion*. Chaque répéteur qui le 
 
 Les messages vers un canal n'ont pas d'adresse unique. Ils partent donc toujours en diffusion. Les répéteurs se souviennent de ce qu'ils viennent de relayer. Ils ignorent les copies qui reviennent par un autre chemin. Un message peut traverser jusqu'à 64 répéteurs, ou 32 si le préréglage utilise des identifiants de 2 octets.
 
+## Tu viens de Meshtastic {#meshtastic}
+
+Beaucoup de cartes font tourner MeshCore ou Meshtastic, et tu flashes celui que tu veux.
+Voici les différences que tu remarqueras en premier. Elles correspondent à MeshCore
+v1.18.0 et à la documentation de Meshtastic de novembre 2026.
+
+- **Qui relaie les messages.** Dans MeshCore, seuls les répéteurs le font ; ton compagnon
+  ne le fait jamais. Dans Meshtastic, le rôle client par défaut relaie aussi les messages,
+  sauf si un autre nœud l'a déjà fait.
+- **Jusqu'où va un message.** Un message MeshCore peut traverser jusqu'à 64
+  répéteurs. Meshtastic s'arrête par défaut après 3 sauts, et après 7 au maximum.
+- **Les relevés des autres nœuds.** Dans MeshCore, les répéteurs et les nœuds capteurs envoient
+  des relevés, comme la tension de la batterie, quand tu les demandes. Ils ne les
+  envoient pas à tout le maillage.
+- **Internet.** Le micrologiciel MeshCore ne relie pas les maillages par
+  internet. Les [observateurs](/network/) envoient ce qu'ils captent vers des cartes, à sens
+  unique. Meshtastic a un module MQTT intégré
+  qui peut transporter des messages entre maillages par internet.
+
 ## Chiffrement et vie privée {#encryption}
 
 Tes messages directs sont chiffrés de bout en bout : seuls toi et ton correspondant pouvez les lire. Un répéteur ne voit le destinataire d'un paquet que sous forme d'un indice de 1 octet.
@@ -73,10 +111,19 @@ Dans une zone, tout le monde utilise le même préréglage, sinon les radios ne 
 
 ## À quoi les gens l'utilisent {#uses}
 
-- Rester en contact en randonnée, en mer et dans les festivals où le réseau mobile est saturé ou absent.
-- Un canal de secours pour la famille ou les voisins quand le courant ou les réseaux mobiles tombent.
-- Discuter localement sur des radios dont les gens sont eux-mêmes propriétaires.
-- Faire des essais avec la radio, les antennes, l'énergie solaire et les logiciels open source.
+- Rester en contact en randonnée, en mer et dans les festivals où le réseau mobile
+  est saturé ou absent.
+- Un canal de secours pour la famille ou les voisins quand l'électricité ou les réseaux
+  mobiles tombent en panne.
+- Discuter en local sur des radios que les gens possèdent eux-mêmes.
+- Vérifier un site éloigné depuis chez toi. Les répéteurs et les nœuds capteurs envoient
+  la tension de leur batterie et d'autres relevés quand tu les demandes.
+- Surveiller un capteur. Un nœud capteur fait tourner le micrologiciel de MeshCore conçu pour
+  prendre des mesures. Il garde un historique de ses relevés. Si tu t'abonnes, il t'alerte,
+  par exemple quand sa batterie faiblit.
+- Commander un appareil à distance, comme une pompe. Tu ajoutes cette fonction au
+  micrologiciel du capteur avec ton propre code.
+- Expérimenter avec la radio, les antennes, l'énergie solaire et les logiciels open source.
 
 ## D'où viennent les données {#data}
 

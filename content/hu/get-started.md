@@ -6,11 +6,11 @@ eyebrow: 6 lépés · MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'f97ca1b9'
-  seeded: '2026-10-31'
+  source_hash: '0c1b08d9'
+  seeded: '2026-11-02'
   fields: {title: '61e8d44a', lead: '45b0e5c3', description: 'cf031b18', eyebrow: '4fa6fe1e'}
-  sections: ['16c3728c', '203acaa5', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
-  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
+  sections: ['16c3728c', '90f3d626', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
+  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '757c634a', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
 ---
 
 Ezek a lépések a MeshCore firmware v1.18.0 verzióját és a 2026 októberi hivatalos eszközöket követik. Az app menünevei verziónként kissé eltérhetnek.
@@ -20,6 +20,8 @@ Ezek a lépések a MeshCore firmware v1.18.0 verzióját és a 2026 októberi hi
 Az [eszközök oldalán](/devices/) bármelyik panel megfelel, amelynél fel van tüntetve a companion. Az első csomópontodnak válassz egy *companiont*: ez az a rádió, amelyről üzenetet küldesz. Párosítsd a telefonoddal vagy a laptopoddal Bluetooth-on vagy USB-n keresztül. Választhatsz olyat is, amelynek saját kijelzője és billentyűzete van, és önállóan működik.
 
 A 868 MHz-es változatot szerezd be. A mellékelt antenna megfelel; az [antennás útmutatóból](/guides/antenna/) megtudod, hogyan ellenőrizheted.
+
+A paneleden most Meshtastic fut? Ha MeshCore-t flashelsz rá, az lecseréli, és a kettő nem kommunikál egymással. A [Váltás Meshtasticról](/about/#meshtastic) rész felsorolja, mi működik másképp.
 
 {{< callout type="warning" >}}
 Az antennát a rádió bekapcsolása előtt csatlakoztasd. Ha egy LoRa rádió antenna nélkül ad, károsíthatja a saját chipjét.

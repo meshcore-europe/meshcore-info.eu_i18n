@@ -1,16 +1,16 @@
 ---
 title: Što je MeshCore?
 lead: MeshCore šalje tekstualne poruke radiovezom, od čvora do čvora. Radi bez interneta i bez pretplate.
-description: 'Što MeshCore jest, a što nije: mesh, companioni, repetitori i room serveri, usmjeravanje, šifriranje i pojas 868 MHz u Europi.'
+description: 'Što MeshCore jest, a što nije: vrste čvorova, usmjeravanje, razlike u odnosu na Meshtastic, enkripcija i pojas 868 MHz.'
 eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '78bc31e8'
+  source_hash: '279b56a4'
   seeded: '2026-11-02'
-  fields: {title: '06eda66b', lead: 'c0174569', description: '658f8a01', eyebrow: '8610c822'}
-  sections: ['aa768ac3', 'c9b24089', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '655373a9', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b9fc8810', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '0eb54b47', '02f1fe2f', 'e6b5b258']
+  fields: {title: '06eda66b', lead: 'c0174569', description: '15e6d2a7', eyebrow: '8610c822'}
+  sections: ['aa768ac3', '16fde264', '0a55792c', 'c3de803d', '493b444f', 'a8b2b9b4', '429f699c', 'f8008f48', '88af2bd3', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'fab378a5', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', 'fc8f3129', '8dec428a', '07cbac35', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '95e18f18', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore je besplatan softver za male LoRa radiouređaje. LoRa je radijska tehnika koja malo podataka šalje daleko, uz vrlo malo energije. Radiouređaj s MeshCoreom zove se *čvor*. Povežeš li ga s aplikacijom na mobitelu ili laptopu, ili koristiš njegov vlastiti zaslon i tipkovnicu, šalješ tekst ljudima udaljenima kilometrima. Između tebe i njih nema ni antenskog stupa, ni usmjerivača, ni operatera.
@@ -21,13 +21,31 @@ Softver je otvorenog koda. Razvija se na [meshcore-dev/MeshCore](https://github.
 
 Radio ti je novost? Evo što ljudi najčešće očekuju od MeshCorea, a on to ne radi.
 
-- **Nije internet ni telefon.** MeshCore šalje kratke tekstualne poruke, otprilike duljine SMS-a na mobitelu. Nema glasa, fotografija, videa ni web-stranica, a do običnog telefonskog broja ne možeš doprijeti.
-- **Nije hitna služba.** Nijedna hitna služba ne prati mesh i nitko ne jamči da će netko pročitati tvoju poruku. U hitnom slučaju nazovi 112.
-- **Nije trenutačan i nije svugdje.** Poruka skače s radiouređaja na radiouređaj i može putovati nekoliko sekundi ili uopće ne stići. Hoće li proći, ovisi o repetitorima oko tebe, o visini, zgradama i tvojoj anteni. Mali radiouređaj u zatvorenom često ne dosegne nikoga, a repetitor na krovu doseže kilometrima daleko.
-- **Nije usluga koju netko vodi za tebe.** Nema operatera, korisničke podrške ni obećane pokrivenosti. Mesh postoji tamo gdje su ljudi iz zajednice postavili repetitore, i nigdje drugdje.
-- **Nije sve na njemu privatno.** Izravne poruke su šifrirane, ali Public i hashtag kanale može čitati svatko. Ime tvojeg čvora i položaj koji dijeliš vidi svatko u dometu. [Promatrači](/network/) ono što čuju javljaju javnim kartama. [Odjeljak o šifriranju](#encryption) objašnjava što ostaje privatno.
-- **Nije neograničen.** Svi na nekom području dijele jedan radijski kanal, a pravila za [pojas 868 MHz](#band) ograničavaju koliko dugo svaki radiouređaj smije slati. Svaka poruka svima ostalima oduzima vrijeme u eteru, pa botovi, česti oglasi i testne poruke usporavaju mesh za sve.
-- **Nije Meshtastic.** Meshtastic je drugi sustav koji radi na uglavnom istim pločicama. Ta dva sustava ne mogu međusobno komunicirati.
+- **Nije internet ni telefon.** MeshCore šalje kratke tekstualne poruke,
+  otprilike duge kao SMS na tvom mobitelu. Nema glasa, fotografija, videa
+  ni web-stranica, a ne možeš kontaktirati ni običan telefonski broj.
+- **Nije hitna služba.** Nijedna hitna služba ne prati mrežu i nitko ne
+  jamči da će netko pročitati tvoju poruku. U hitnom slučaju nazovi 112.
+- **Nije trenutačan i nije svugdje.** Poruka skače od radiouređaja do
+  radiouređaja. Može joj trebati nekoliko sekundi, a može i ne stići. Hoće li
+  stići, ovisi o repetitorima oko tebe, o visini, zgradama i tvojoj anteni.
+  Mali radiouređaj u zatvorenom često ne dosegne nikoga, a repetitor na krovu
+  dopire kilometrima daleko.
+- **Nije usluga koju netko vodi za tebe.** Nema pružatelja usluge, korisničke
+  podrške ni jamstva pokrivenosti. Mreža postoji tamo gdje su ljudi iz
+  zajednice postavili repetitore, i nigdje drugdje.
+- **Nije sve na njemu privatno.** Izravne poruke su šifrirane, ali Public i
+  hashtag kanale može čitati svatko. Ime tvog čvora i pozicija koju dijeliš
+  vidljivi su svima u dometu.
+  [Promatrači](/network/) ono što čuju javljaju javnim kartama.
+  [Odjeljak o šifriranju](#encryption) objašnjava što ostaje privatno.
+- **Nije neograničen.** Svi na nekom području dijele jedan radijski kanal, a
+  pravila za [pojas 868 MHz](#band) ograničavaju koliko dugo svaki radiouređaj
+  smije slati. Svaka poruka svima ostalima uzima vrijeme emitiranja. Zato botovi,
+  česta oglašavanja i testne poruke usporavaju mrežu za sve.
+- **Nije Meshtastic.** Meshtastic je drugi sustav koji radi na gotovo istim
+  pločicama. Ta dva sustava ne mogu međusobno komunicirati.
+  [Dolaziš s Meshtastica](#meshtastic) navodi što funkcionira drukčije.
 
 ## Mesh u jednoj minuti {#mesh}
 
@@ -53,6 +71,22 @@ Tvoja prva poruka kontaktu odlazi kao *flood*. Svaki repetitor koji je čuje pre
 
 Poruke na kanal nemaju jednu adresu, pa uvijek idu kao flood. Repetitori pamte što su nedavno prenijeli i odbacuju kopije koje ponovno stignu drugom rutom. Poruka može proći kroz najviše 64 repetitora, ili 32 ako preset koristi 2-bajtne ID-ove.
 
+## Prelazak s Meshtastica {#meshtastic}
+
+Na mnogim pločicama radi MeshCore ili Meshtastic, a ti flashaš onaj koji želiš. Ovo su razlike koje ćeš prve primijetiti. Temelje se na MeshCoreu v1.18.0 i dokumentaciji Meshtastica iz studenog 2026.
+
+- **Tko prenosi poruke.** U MeshCoreu to rade samo repetitori, a tvoj companion nikada.
+  U Meshtasticu poruke prenosi i zadana uloga klijenta, osim ako ih je već
+  prenio neki drugi čvor.
+- **Dokle poruka stiže.** Poruka u MeshCoreu može proći kroz najviše 64
+  repetitora. Meshtastic po zadanim postavkama staje nakon 3 skoka, a najviše dopušta 7.
+- **Očitanja s drugih čvorova.** Repetitori i senzorski čvorovi u MeshCoreu šalju
+  očitanja poput napona baterije kad ih zatražiš. Ne šalju ih cijelom meshu.
+- **Internet.** Firmware MeshCorea nema vezu između mesheva preko interneta.
+  [Promatrači](/network/) javljaju kartama ono što čuju, samo u jednom smjeru.
+  Meshtastic ima ugrađeni MQTT modul koji može prenositi poruke između mesheva
+  preko interneta.
+
 ## Šifriranje i privatnost {#encryption}
 
 Tvoje izravne poruke šifrirane su s kraja na kraj: mogu ih čitati samo ti i druga osoba. Repetitor o primatelju paketa vidi samo 1-bajtni nagovještaj.
@@ -73,10 +107,19 @@ Svi na nekom području koriste isti preset, inače se njihovi radiouređaji ne m
 
 ## Za što ga ljudi koriste {#uses}
 
-- Za održavanje kontakta na planinarenju, na moru i na festivalima gdje je mobilna mreža preopterećena ili je nema.
-- Kao rezervni kanal za obitelj ili susjede kad nestane struje ili mobilne mreže.
-- Za lokalni chat na radiouređajima koje ljudi sami posjeduju.
-- Za eksperimentiranje s radiovezom, antenama, solarnom energijom i softverom otvorenog koda.
+- Ostaješ u kontaktu na planinarenju, na moru i na festivalima gdje je mobilna
+  mreža preopterećena ili je nema.
+- Rezervni kanal za obitelj ili susjede kad zakažu struja ili mobilne mreže.
+- Lokalni razgovor na radiouređajima koje ljudi sami posjeduju.
+- Od kuće provjeravaš udaljenu lokaciju. Repetitori i senzorski čvorovi javljaju
+  napon baterije i druga očitanja kad to zatražiš.
+- Pratiš senzor. Na senzorskom čvoru radi firmware MeshCorea za mjerenje. Čvor
+  čuva povijest svojih očitanja. Ako se pretplatiš, upozorava te, na primjer kad
+  mu je baterija pri kraju.
+- Uključuješ ili isključuješ nešto što je daleko, na primjer pumpu. To dodaješ
+  u senzorski firmware vlastitim kodom.
+- Eksperimentiraš s radijem, antenama, solarnom energijom i softverom otvorenog
+  koda.
 
 ## Odakle dolaze podaci {#data}
 

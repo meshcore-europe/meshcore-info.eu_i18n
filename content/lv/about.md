@@ -1,16 +1,16 @@
 ---
 title: Kas ir MeshCore?
 lead: MeshCore pa radio sūta īsziņas no mezgla uz mezglu. Tam nav vajadzīgs ne internets, ne abonements.
-description: 'Kas MeshCore ir un kas tas nav: mesh tīkls, companion mezgli, retranslatori un istabu serveri, maršrutēšana, šifrēšana un 868 MHz josla Eiropā.'
+description: 'Kas MeshCore ir un kas tas nav: mezglu veidi, maršrutēšana, atšķirības no Meshtastic, šifrēšana un 868 MHz josla.'
 eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '78bc31e8'
+  source_hash: '279b56a4'
   seeded: '2026-11-02'
-  fields: {title: '06eda66b', lead: 'c0174569', description: '658f8a01', eyebrow: '8610c822'}
-  sections: ['aa768ac3', 'c9b24089', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '655373a9', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b9fc8810', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '0eb54b47', '02f1fe2f', 'e6b5b258']
+  fields: {title: '06eda66b', lead: 'c0174569', description: '15e6d2a7', eyebrow: '8610c822'}
+  sections: ['aa768ac3', '16fde264', '0a55792c', 'c3de803d', '493b444f', 'a8b2b9b4', '429f699c', 'f8008f48', '88af2bd3', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'fab378a5', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', 'fc8f3129', '8dec428a', '07cbac35', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '95e18f18', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore ir bezmaksas programmatūra mazām LoRa radioierīcēm. LoRa ir radio tehnika, kas ar ļoti mazu jaudu aizsūta nelielu datu apjomu tālu. Radioierīci ar MeshCore sauc par *mezglu*. Tu to savieno ar lietotni telefonā vai klēpjdatorā vai izmanto paša mezgla ekrānu un tastatūru. Tā tu sūti tekstu cilvēkiem, kas ir kilometriem tālu. Pa vidu nav ne torņa, ne maršrutētāja, ne pakalpojumu sniedzēja.
@@ -21,13 +21,31 @@ Programmatūra ir atvērtā koda, un to izstrādā repozitorijā [meshcore-dev/M
 
 Radio tev ir kaut kas jauns? Šīs ir lietas, ko cilvēki no MeshCore gaida visbiežāk, bet ko tas nedara.
 
-- **Tas nav ne internets, ne telefons.** MeshCore sūta īsus tekstus, aptuveni telefona īsziņas garumā. Nav ne balss, ne fotoattēlu, ne video, ne tīmekļa vietņu, un ar parastu tālruņa numuru tu sazināties nevari.
-- **Tas nav operatīvais dienests.** Neviens operatīvais dienests mesh tīklu neklausās, un neviens nesola, ka kāds tavu ziņu izlasīs. Ārkārtas situācijā zvani 112.
-- **Tas nedarbojas acumirklī un ne visur.** Ziņa lec no radioierīces uz radioierīci un ceļā var pavadīt dažas sekundes vai nepienākt vispār. Vai tā nonāks galā, atkarīgs no tuvumā esošajiem retranslatoriem, augstuma, ēkām un tavas antenas. Maza radioierīce telpās bieži nesasniedz nevienu, bet retranslators uz jumta sniedzas kilometriem tālu.
-- **Tas nav pakalpojums, ko kāds tev nodrošina.** Nav ne pakalpojumu sniedzēja, ne palīdzības dienesta, ne pārklājuma solījuma. Mesh tīkls pastāv tur, kur kopienas dalībnieki ir uzstādījuši retranslatorus, un nekur citur.
-- **Ne viss tajā ir privāts.** Tiešās ziņas ir šifrētas, bet kanālu Public un tēmturu kanālus var lasīt jebkurš. Tava mezgla nosaukumu un kopīgoto atrašanās vietu redz visi, kas ir darbības rādiusā. [Novērotāji](/network/) dzirdēto nodod publiskām kartēm. Sadaļā par [šifrēšanu](#encryption) vari izlasīt, kas paliek privāts.
-- **Tas nav neierobežots.** Visi vienā apvidū izmanto vienu kopīgu radio kanālu, un [868 MHz joslas](#band) noteikumi ierobežo, cik ilgi katra radioierīce drīkst raidīt. Katra ziņa atņem ēterlaiku visiem pārējiem, tāpēc boti, bieži adverti un testa ziņas bremzē mesh tīklu visiem.
-- **Tas nav Meshtastic.** Meshtastic ir cita sistēma, kas darbojas uz gandrīz tām pašām platēm. Abas sistēmas savā starpā sazināties nevar.
+- **Tas nav ne internets, ne telefons.** MeshCore sūta īsas teksta ziņas,
+  apmēram tik garas kā īsziņa tavā telefonā. Nav ne balss, ne fotoattēlu, ne video,
+  ne tīmekļa vietņu, un parastu tālruņa numuru tu sasniegt nevari.
+- **Tas nav operatīvais dienests.** Neviens operatīvais dienests tīklā neklausās,
+  un neviens nesola, ka kāds tavu ziņu izlasīs. Ārkārtas situācijā zvani 112.
+- **Tas nedarbojas uzreiz un ne visur.** Ziņa pārlec no radioierīces uz
+  radioierīci un var ceļot dažas sekundes vai nepienākt nemaz.
+  Vai ziņa nonāks galā, ir atkarīgs no retranslatoriem tev apkārt, no augstuma,
+  ēkām un tavas antenas. Maza radioierīce telpās bieži nesasniedz nevienu;
+  retranslators uz jumta sniedzas kilometriem tālu.
+- **Tas nav pakalpojums, ko kāds tev uztur.** Nav ne pakalpojumu sniedzēja,
+  ne atbalsta dienesta, ne pārklājuma solījuma. Tīkls pastāv tur, kur
+  kopienas cilvēki ir uzstādījuši retranslatorus, un nekur citur.
+- **Ne viss tīklā ir privāts.** Tiešās ziņas ir šifrētas, bet Public un
+  mirkļbirku kanālus var lasīt jebkurš, un tava mezgla nosaukumu un kopīgoto
+  atrašanās vietu redz visi, kas ir darbības zonā.
+  [Novērotāji](/network/) dzirdēto nodod publiskajām kartēm.
+  [Šifrēšanas sadaļā](#encryption) ir paskaidrots, kas paliek privāts.
+- **Tas nav neierobežots.** Visi vienā apvidū izmanto vienu radiokanālu, un
+  [868 MHz joslas](#band) noteikumi ierobežo, cik ilgi katra radioierīce drīkst raidīt.
+  Katra ziņa atņem ētera laiku visiem pārējiem, tāpēc boti, biežas advert
+  pārraides un testa ziņas palēnina tīklu visiem.
+- **Tas nav Meshtastic.** Meshtastic ir cita sistēma, kas darbojas uz gandrīz
+  tām pašām platēm. Abas sistēmas savā starpā sazināties nevar.
+  Sadaļā [Pāreja no Meshtastic](#meshtastic) ir uzskaitīts, kas darbojas citādi.
 
 ## Mesh tīkls vienā minūtē {#mesh}
 
@@ -53,6 +71,23 @@ Tava pirmā ziņa kontaktam aiziet kā *flood*. Katrs retranslators, kas to dzir
 
 Kanāla ziņām nav vienas adreses, tāpēc tās vienmēr iet kā flood. Retranslatori atceras, ko nesen nodevuši tālāk, un atmet kopijas, kas vēlreiz pienāk pa citu maršrutu. Ziņa var šķērsot līdz 64 retranslatoriem vai līdz 32, ja iestatījumu komplekts izmanto 2 baitu ID.
 
+## Pāreja no Meshtastic {#meshtastic}
+
+Daudzās platēs var darboties vai nu MeshCore, vai Meshtastic, un tu ieraksti to, kuru vēlies. Vispirms tu pamanīsi šīs atšķirības. Tās atbilst MeshCore v1.18.0 un Meshtastic 2026. gada novembra dokumentācijai.
+
+- **Kas nodod ziņas tālāk.** MeshCore tīklā to dara tikai retranslatori;
+  tavs companion mezgls to nedara nekad. Meshtastic tīklā ziņas tālāk nodod arī
+  noklusējuma client loma, ja vien cits mezgls to jau nav izdarījis.
+- **Cik tālu ziņa nonāk.** MeshCore ziņa var iziet cauri līdz 64
+  retranslatoriem. Meshtastic ziņa pēc noklusējuma apstājas pēc 3 lēcieniem, un maksimums ir 7.
+- **Citu mezglu rādījumi.** MeshCore retranslatori un sensoru mezgli sūta
+  rādījumus, piemēram, akumulatora spriegumu, kad tu tos pieprasi. Visam mesh
+  tīklam tie šos rādījumus nesūta.
+- **Internets.** MeshCore programmaparatūrā nav iespējas savienot mesh tīklus pa
+  internetu. [Novērotāji](/network/) dzirdēto nodod kartēm, tikai vienā
+  virzienā. Meshtastic ir iebūvēts MQTT modulis,
+  kas var pārsūtīt ziņas starp mesh tīkliem pa internetu.
+
 ## Šifrēšana un privātums {#encryption}
 
 Tavas tiešās ziņas ir šifrētas no gala līdz galam: tās var izlasīt tikai tu un otrs cilvēks. Par to, kam pakete paredzēta, retranslators redz tikai 1 baita norādi.
@@ -73,10 +108,18 @@ Visi vienā apvidū izmanto vienu un to pašu iestatījumu komplektu, citādi vi
 
 ## Kam cilvēki to izmanto {#uses}
 
-- Lai uzturētu sakarus pārgājienos, jūrā un festivālos, kur mobilais tīkls ir pārslogots vai tā nav.
-- Kā rezerves kanālu ģimenei vai kaimiņiem, kad pazūd elektrība vai mobilie tīkli.
-- Vietējām sarunām pa radioierīcēm, kas pieder pašiem cilvēkiem.
-- Lai eksperimentētu ar radio, antenām, saules enerģiju un atvērtā koda programmatūru.
+- Saziņa pārgājienos, jūrā un festivālos, kur mobilais tīkls
+  ir pārslogots vai nav pieejams.
+- Rezerves kanāls ģimenei vai kaimiņiem, kad pazūd elektrība vai mobilie tīkli.
+- Vietējā sarakste pa radioierīcēm, kas cilvēkiem pieder pašiem.
+- Attālas vietas pārbaudīšana no mājām. Retranslatori un sensoru mezgli pēc tava
+  pieprasījuma ziņo akumulatora spriegumu un citus rādījumus.
+- Sensora novērošana. Sensora mezglā darbojas MeshCore mērījumu programmaparatūra.
+  Tas glabā rādījumu vēsturi. Ja tu to abonē, tas tevi brīdina,
+  piemēram, kad tā akumulators ir gandrīz izlādējies.
+- Kādas tālas ierīces, piemēram, sūkņa, pārslēgšana. Šo iespēju tu pievieno sensora
+  programmaparatūrai ar savu kodu.
+- Eksperimenti ar radio, antenām, saules enerģiju un atvērtā koda programmatūru.
 
 ## No kurienes nāk dati {#data}
 

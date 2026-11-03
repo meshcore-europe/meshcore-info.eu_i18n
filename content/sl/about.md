@@ -1,16 +1,16 @@
 ---
 title: Kaj je MeshCore?
 lead: MeshCore pošilja besedilna sporočila po radiu, od vozlišča do vozlišča. Ne potrebuješ interneta ali naročnine.
-description: 'Kaj MeshCore je in kaj ni: mreža, spremljevalci, repetitorji in strežniki sob, usmerjanje, šifriranje in pas 868 MHz v Evropi.'
+description: 'Kaj MeshCore je in česa ni: vrste vozlišč, usmerjanje, razlike od Meshtastica, šifriranje in pas 868 MHz.'
 eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '78bc31e8'
-  seeded: '2026-11-02'
-  fields: {title: '06eda66b', lead: 'c0174569', description: '658f8a01', eyebrow: '8610c822'}
-  sections: ['aa768ac3', 'c9b24089', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '655373a9', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b9fc8810', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '0eb54b47', '02f1fe2f', 'e6b5b258']
+  source_hash: '279b56a4'
+  seeded: '2026-11-03'
+  fields: {title: '06eda66b', lead: 'c0174569', description: '15e6d2a7', eyebrow: '8610c822'}
+  sections: ['aa768ac3', '16fde264', '0a55792c', 'c3de803d', '493b444f', 'a8b2b9b4', '429f699c', 'f8008f48', '88af2bd3', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'fab378a5', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', 'fc8f3129', '8dec428a', '07cbac35', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '95e18f18', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore je brezplačna programska oprema za majhne radie LoRa. LoRa je radijska tehnika,
@@ -28,29 +28,30 @@ MIT.
 a tega ne zmore.
 
 - **Ni internet in ni telefon.** MeshCore pošilja kratka besedilna sporočila,
-  približno tako dolga kot SMS na telefonu. Govora, fotografij, videa in
-  spletnih strani ne prenaša, običajne telefonske številke pa ne moreš doseči.
-- **Ni služba za nujno pomoč.** Mreže ne posluša nobena služba za nujno pomoč
-  in nihče ne obljublja, da bo kdo prebral tvoje sporočilo. V nujnih primerih
-  pokliči 112.
-- **Ni takojšen in ne deluje povsod.** Sporočilo potuje od radia do radia.
-  Lahko traja nekaj sekund ali pa sploh ne prispe. Ali pride do cilja, je odvisno
-  od repetitorjev okoli tebe, višine, stavb in tvoje antene. Majhen radio v zaprtem
-  prostoru pogosto ne doseže nikogar, repetitor na strehi pa seže kilometre daleč.
+  približno tako dolga kot SMS na telefonu. Glasu, fotografij, videa
+  in spletnih strani ni, običajne telefonske številke pa ne moreš doseči.
+- **Ni služba za nujne primere.** Nobena služba za nujne primere ne spremlja
+  omrežja in nihče ne obljublja, da bo kdo prebral tvoje sporočilo. V
+  nujnem primeru pokliči 112.
+- **Ne deluje takoj in ne povsod.** Sporočilo skače od radia do
+  radia in lahko potrebuje nekaj sekund ali pa sploh ne prispe. Ali pride do cilja, je odvisno od repetitorjev okoli tebe, višine, stavb in tvoje
+  antene. Majhen radio v zaprtem prostoru pogosto ne doseže nikogar, repetitor na strehi
+  pa seže kilometre daleč.
 - **Ni storitev, ki bi jo kdo upravljal zate.** Ni ponudnika, ni službe za pomoč
-  uporabnikom in nihče ne obljublja pokritosti. Mreža obstaja tam, kjer so ljudje
-  iz skupnosti postavili repetitorje, drugje pa ne.
-- **V mreži ni vse zasebno.** Neposredna sporočila so šifrirana, kanal Public in
-  kanale s ključnikom pa lahko bere vsak. Ime tvojega vozlišča in položaj, ki ga
-  deliš, vidijo vsi v dosegu.
-  [Opazovalci](/network/) to, kar slišijo, sporočajo javnim zemljevidom. V
-  [razdelku o šifriranju](#encryption) piše, kaj ostane zasebno.
-- **Ni neomejen.** Vsi na istem območju si delijo en radijski kanal, pravila za
-  [pas 868 MHz](#band) pa omejujejo, koliko časa sme posamezen radio oddajati.
-  Vsako sporočilo vsem drugim vzame del časa za oddajanje, zato boti, pogosta
-  oznanila in testna sporočila upočasnijo mrežo za vse.
-- **Ni Meshtastic.** Meshtastic je drug sistem, ki teče na skoraj istih
-  ploščah. Sistema ne moreta komunicirati med seboj.
+  in ni zagotovila o pokritosti. Omrežje obstaja tam, kjer so člani
+  skupnosti postavili repetitorje, in nikjer drugje.
+- **V njem ni vse zasebno.** Neposredna sporočila so šifrirana, a
+  Public in kanale s ključnikom lahko bere vsak, ime tvojega vozlišča in
+  položaj, ki ga deliš, pa vidijo vsi v dosegu.
+  [Opazovalci](/network/) javnim zemljevidom sporočajo, kar slišijo.
+  [Razdelek o šifriranju](#encryption) pojasnjuje, kaj ostane zasebno.
+- **Ni brez omejitev.** Vsi na območju si delijo en radijski kanal,
+  pravila za [pas 868 MHz](#band) pa omejujejo, kako dolgo sme oddajati vsak radio.
+  Vsako sporočilo vsem drugim vzame del časa oddajanja, zato boti, pogosta oglaševanja
+  in testna sporočila upočasnijo omrežje za vse.
+- **Ni Meshtastic.** Meshtastic je drug sistem, ki deluje na
+  skoraj enakih ploščicah. Sistema med seboj ne moreta komunicirati.
+  [Prehod z Meshtastica](#meshtastic) navaja, kaj deluje drugače.
 
 ## Mreža v eni minuti {#mesh}
 
@@ -100,6 +101,25 @@ Repetitorji si zapomnijo, kaj so nedavno posredovali, in zavržejo kopije, ki
 pridejo znova po drugi poti. Sporočilo lahko prečka do 64 repetitorjev oziroma 32, kjer prednastavitev uporablja 2-bajtne
 ID-je.
 
+## Prehod z Meshtastica {#meshtastic}
+
+Na številnih ploščicah deluje MeshCore ali Meshtastic, nanje pa naložiš tistega, ki ga želiš.
+To so razlike, ki jih opaziš najprej. Temeljijo na MeshCoru
+v1.18.0 in dokumentaciji Meshtastica iz novembra 2026.
+
+- **Kdo posreduje sporočila.** V sistemu MeshCore to počnejo le repetitorji, tvoj spremljevalec
+  nikoli. V sistemu Meshtastic sporočila posreduje tudi privzeta vloga odjemalca,
+  razen če jih je že posredovalo drugo vozlišče.
+- **Kako daleč seže sporočilo.** Sporočilo v sistemu MeshCore lahko prečka do 64
+  repetitorjev. Meshtastic sporočilo privzeto ustavi po 3 skokih, največ pa jih dovoli 7.
+- **Odčitki drugih vozlišč.** Repetitorji in senzorska vozlišča v sistemu MeshCore pošljejo
+  odčitke, kot je napetost baterije, ko jih zanje prosiš. Ne pošiljajo jih
+  celotni mreži.
+- **Internet.** Vdelana programska oprema MeshCore nima povezave med mrežami prek
+  interneta. [Opazovalci](/network/) to, kar slišijo, sporočajo zemljevidom, le v
+  eno smer. Meshtastic ima vgrajen modul MQTT, ki lahko prenaša sporočila med
+  mrežami prek interneta.
+
 ## Šifriranje in zasebnost {#encryption}
 
 Tvoja neposredna sporočila so šifrirana od konca do konca: brati jih morata le ti
@@ -132,12 +152,18 @@ slišijo. Nekatere države in regije uporabljajo različico: katero, ve tvoja
 
 ## Za kaj ga ljudje uporabljajo {#uses}
 
-- Za stik na pohodih, na morju in na festivalih, kjer je mobilno omrežje
+- Ostaneš v stiku na pohodih, na morju in na festivalih, kjer je mobilno omrežje
   preobremenjeno ali ga ni.
-- Kot rezervni kanal za družino ali sosede, ko odpove elektrika ali mobilno
-  omrežje.
-- Za lokalni klepet po radiih, ki so v lasti ljudi samih.
-- Za eksperimentiranje z radiem, antenami, sončno energijo in odprtokodno programsko opremo.
+- Rezervni kanal za družino ali sosede, ko odpove elektrika ali mobilno omrežje.
+- Lokalni klepet na radijskih postajah, ki jih imajo ljudje sami v lasti.
+- Od doma preverjaš oddaljeno lokacijo. Repetitorji in senzorska vozlišča ti na zahtevo
+  sporočijo napetost baterije in druge odčitke.
+- Spremljaš senzor. Na senzorskem vozlišču teče vdelana programska oprema MeshCore za
+  meritve. Vozlišče hrani zgodovino svojih odčitkov. Če se naročiš nanj, te opozori,
+  na primer ko mu zmanjkuje baterije.
+- Na daljavo nekaj vklapljaš ali izklapljaš, na primer črpalko. To s svojo kodo dodaš
+  v vdelano programsko opremo senzorja.
+- Eksperimentiraš z radiem, antenami, sončno energijo in odprtokodno programsko opremo.
 
 ## Od kod so podatki {#data}
 

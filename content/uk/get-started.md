@@ -6,11 +6,11 @@ eyebrow: 6 кроків · MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'f97ca1b9'
-  seeded: '2026-11-02'
+  source_hash: '0c1b08d9'
+  seeded: '2026-11-03'
   fields: {title: '61e8d44a', lead: '45b0e5c3', description: 'cf031b18', eyebrow: '4fa6fe1e'}
-  sections: ['16c3728c', '203acaa5', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
-  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
+  sections: ['16c3728c', '90f3d626', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
+  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '757c634a', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
 ---
 
 Ці кроки розраховані на прошивку MeshCore v1.18.0 та офіційні інструменти станом на
@@ -25,6 +25,10 @@ translation:
 
 Бери версію на 868 MHz. Антена з комплекту цілком підходить.
 [Посібник про антени](/guides/antenna/) показує, як її перевірити.
+
+Твоя плата зараз працює на Meshtastic? Прошивши MeshCore, ти заміниш Meshtastic, а ці дві
+системи між собою не зв'язуються. У розділі [Перехід із Meshtastic](/about/#meshtastic)
+перелічено, що працює інакше.
 
 {{< callout type="warning" >}}
 Під'єднай антену, перш ніж вмикати радіо. Радіо LoRa, яке передає без антени,

@@ -1,16 +1,16 @@
 ---
 title: Co je MeshCore?
 lead: MeshCore posílá textové zprávy rádiem, od uzlu k uzlu. Funguje bez internetu a bez předplatného.
-description: 'Co MeshCore je a co není: mesh, companiony, repeatery a room servery, směrování, šifrování a pásmo 868 MHz v Evropě.'
+description: 'Co MeshCore je a co není: druhy uzlů, směrování, rozdíly oproti Meshtastic, šifrování a pásmo 868 MHz.'
 eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '78bc31e8'
-  seeded: '2026-10-31'
-  fields: {title: '06eda66b', lead: 'c0174569', description: '658f8a01', eyebrow: '8610c822'}
-  sections: ['aa768ac3', 'c9b24089', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '655373a9', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b9fc8810', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '0eb54b47', '02f1fe2f', 'e6b5b258']
+  source_hash: '279b56a4'
+  seeded: '2026-11-02'
+  fields: {title: '06eda66b', lead: 'c0174569', description: '15e6d2a7', eyebrow: '8610c822'}
+  sections: ['aa768ac3', '16fde264', '0a55792c', 'c3de803d', '493b444f', 'a8b2b9b4', '429f699c', 'f8008f48', '88af2bd3', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'fab378a5', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', 'fc8f3129', '8dec428a', '07cbac35', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '95e18f18', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore je svobodný software pro malá rádia LoRa. LoRa je rádiová technika,
@@ -29,29 +29,29 @@ S rádiem začínáš? Tohle od MeshCore lidé nejčastěji očekávají, a při
 neumí.
 
 - **Není to internet ani telefon.** MeshCore posílá krátké textové zprávy,
-  dlouhé zhruba jako SMS v telefonu. Žádný hlas, fotky, video ani weby.
-  Na běžné telefonní číslo se jím nedovoláš.
-- **Není to tísňová služba.** Žádná tísňová služba mesh neposlouchá
-  a nikdo neslibuje, že tvou zprávu někdo přečte. V nouzi volej 112.
-- **Nefunguje okamžitě a všude.** Zpráva skáče od rádia k rádiu. Může to
-  trvat pár sekund, nebo nedorazí vůbec. Jestli projde, záleží na
-  repeaterech kolem tebe, na výšce, budovách a tvé anténě. Malé rádio
-  uvnitř domu často nikoho nezastihne. Repeater na střeše dosáhne na
-  kilometry.
-- **Nikdo ti ho neprovozuje jako službu.** Není tu žádný operátor, žádná
-  podpora a žádný slib pokrytí. Mesh existuje tam, kde lidé z komunity
-  postavili repeatery, a nikde jinde.
-- **Ne všechno v něm je soukromé.** Přímé zprávy jsou šifrované. Public
-  a hashtagové kanály si ale může přečíst kdokoli. Název tvého uzlu
-  a sdílenou polohu vidí každý v dosahu. [Observery](/network/) (pozorovatelé)
-  hlásí, co zachytí, na veřejné mapy. Co zůstane soukromé, vysvětluje
-  [část o šifrování](#encryption).
-- **Není neomezený.** Všichni v oblasti sdílejí jeden rádiový kanál.
-  Pravidla pro [pásmo 868 MHz](#band) omezují, jak dlouho smí každé rádio
-  vysílat. Každá zpráva bere vysílací čas všem ostatním. Boti, časté adverty
-  a testovací zprávy proto zpomalují mesh pro všechny.
+  zhruba tak dlouhé jako SMS v telefonu. Žádný hlas, fotky, video ani weby
+  a na běžné telefonní číslo se nedovoláš ani nenapíšeš.
+- **Není to tísňová služba.** V meshi nenaslouchá žádná tísňová služba a nikdo
+  neslibuje, že si někdo tvou zprávu přečte. V nouzi volej 112.
+- **Není to okamžité a nefunguje to všude.** Zpráva přeskakuje z rádia na rádio
+  a může jí to trvat několik sekund, nebo nedorazí vůbec. Jestli projde, záleží
+  na repeaterech kolem tebe, na výšce, budovách a tvé anténě. Malé rádio uvnitř
+  budovy často nikoho nezastihne. Repeater na střeše dosáhne kilometry daleko.
+- **Není to služba, kterou pro tebe někdo provozuje.** Není tu žádný
+  poskytovatel, žádná podpora ani slíbené pokrytí. Mesh existuje tam, kde lidé
+  z komunity postavili repeatery, a nikde jinde.
+- **Ne všechno v něm je soukromé.** Přímé zprávy jsou šifrované, ale kanál
+  Public a hashtagové kanály si může přečíst kdokoli. Jméno tvého uzlu
+  a sdílenou polohu vidí všichni v dosahu.
+  [Observery](/network/) hlásí veřejným mapám, co slyší. Co zůstává soukromé,
+  vysvětluje [část o šifrování](#encryption).
+- **Není to neomezené.** Všichni v oblasti sdílejí jeden rádiový kanál. Pravidla
+  pro [pásmo 868 MHz](#band) omezují, jak dlouho smí každé rádio vysílat. Každá
+  zpráva bere vysílací čas všem ostatním, takže boti, časté adverty a testovací
+  zprávy zpomalují mesh pro všechny.
 - **Není to Meshtastic.** Meshtastic je jiný systém, který běží na velmi
-  podobných deskách. Ty dva spolu komunikovat neumí.
+  podobných deskách. Oba systémy se spolu nedomluví.
+  [Přechod z Meshtasticu](#meshtastic) popisuje, co funguje jinak.
 
 ## Mesh za minutu {#mesh}
 
@@ -103,6 +103,23 @@ si pamatují, co nedávno předaly, a kopie, které dorazí znovu jinou cestou,
 zahodí. Zpráva může projít až 64 repeatery, nebo 32, pokud preset používá
 2bajtová ID.
 
+## Přechod z Meshtasticu {#meshtastic}
+
+Na mnoha deskách běží buď MeshCore, nebo Meshtastic, a ty si nahraješ ten, který chceš. Tohle jsou rozdíly, kterých si všimneš jako první. Vycházejí z MeshCore
+v1.18.0 a z dokumentace Meshtasticu z listopadu 2026.
+
+- **Kdo předává zprávy.** V MeshCore to dělají jen repeatery, tvůj companion
+  nikdy. V Meshtasticu zprávy předává i výchozí role client, pokud to už
+  neudělal jiný uzel.
+- **Jak daleko zpráva dojde.** Zpráva v MeshCore může projít až 64 repeatery.
+  Meshtastic ve výchozím nastavení končí po 3 skocích, maximálně po 7.
+- **Údaje z jiných uzlů.** Repeatery a senzorové uzly v MeshCore posílají údaje,
+  například napětí baterie, když si o ně řekneš. Neposílají je celému meshi.
+- **Internet.** Firmware MeshCore nemá žádné propojení meshů přes internet.
+  [Observery](/network/) hlásí mapám, co slyší, a to jen jedním směrem.
+  Meshtastic má vestavěný modul MQTT, který umí přenášet zprávy mezi meshi
+  přes internet.
+
 ## Šifrování a soukromí {#encryption}
 
 Tvoje přímé zprávy jsou šifrované end-to-end: přečteš je jen ty a druhá
@@ -137,11 +154,18 @@ Některé země a regiony používají variantu. Kterou, ví tvoje
 
 ## K čemu to lidé používají {#uses}
 
-- Udržet spojení na túrách, na moři a na festivalech, kde je mobilní síť
-  přetížená nebo chybí.
-- Záložní kanál pro rodinu nebo sousedy, když vypadne proud nebo mobilní síť.
+- Spojení na túrách, na moři a na festivalech, kde je mobilní síť přetížená
+  nebo chybí.
+- Záložní kanál pro rodinu nebo sousedy, když vypadne proud nebo mobilní sítě.
 - Místní chat na rádiích, která lidé sami vlastní.
-- Experimenty s rádiem, anténami, solární energií a open-source softwarem.
+- Kontrola vzdáleného místa z domova. Repeatery a senzorové uzly hlásí napětí
+  baterie a další údaje, když si o ně řekneš.
+- Sledování senzoru. Na senzorovém uzlu běží firmware MeshCore určený k měření.
+  Uchovává historii naměřených hodnot. Když se přihlásíš k odběru, upozorní tě,
+  například když mu dochází baterie.
+- Spínání něčeho na dálku, třeba čerpadla. Do firmwaru senzoru to přidáš
+  vlastním kódem.
+- Experimenty s rádiem, anténami, solární energií a open source softwarem.
 
 ## Odkud pocházejí data {#data}
 
