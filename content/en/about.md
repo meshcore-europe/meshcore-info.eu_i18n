@@ -153,11 +153,15 @@ other. Some countries and regions use a variant: your
   fail.
 - A backup for local authorities when their usual networks fail.
 - Local chat on radios that people own themselves.
+- Keeping a search and rescue team in touch where there is no mobile network.
+  MeshCore SAR, a community app on [Projects](/projects/), adds maps and
+  shared locations.
 - Checking a remote site from home. Repeaters and sensor nodes report their
   battery voltage and other readings when you ask.
 - Watching a sensor. A sensor node runs MeshCore's firmware for measuring
-  things. It keeps a history of its readings. If you subscribe, it alerts
-  you, for example when its battery runs low.
+  things. It keeps a history of its battery voltage. Log in as admin and it
+  alerts you when the battery runs low. You add alerts for other readings
+  with your own code.
 - Switching something far away, such as a pump. You add that to the sensor
   firmware with your own code.
 - Experimenting with radio, antennas, solar power and open-source software.
