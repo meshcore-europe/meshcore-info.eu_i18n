@@ -40,13 +40,38 @@ milliwatts win back.
 - **Keep the antenna in the clear.** Mount it above roof edges, away from
   metal, gutters and other antennas.
 - **Check the view.** Tools such as [HeyWhatsThat](https://www.heywhatsthat.com/)
-  show what can be seen from a location. If you can see a spot, a repeater
-  there is within reach.
-- **Leave clearance.** A radio path needs some free space around the direct
-  line, not only the line itself. Over long distances, the middle of the path
-  should clear obstacles by several metres.
+  show what can be seen from a location. The MeshCore app
+  [calculates what a repeater there can reach](#check-site).
+- **Leave clearance.** A radio path needs free space around the direct line,
+  not only the line itself. At 868 MHz that space is about 20 m around the
+  middle of a 5 km path. Over 20 km it is about 40 m.
 - **Ask permission.** Get the owner's consent for the roof or mast, and agree
   how you will reach the repeater for maintenance.
+
+### Check a site in the app {#check-site}
+
+Version 1.33 or later of the MeshCore app has these tools under **Tools** in
+its menu. They work without a radio connected.
+
+- **Line of Sight** draws the ground between 2 points, and the space the
+  signal needs above it. Long press 2 points on the map, or tap repeaters.
+- **Antenna Coverage** shows on the map what an antenna at 1 point can reach.
+  Long press a point or tap a repeater. Add more points to compare sites.
+
+On a computer, choose **Add Point** in the tool's menu and type the coordinates.
+
+Both tools start with the antenna at your site at 5 m, so set the height you
+plan in the tool's settings. Antenna Coverage starts with a receiving antenna
+at 1 m. Without a radio connected, Line of Sight starts at 915 MHz: set the
+frequency of your [preset](/guides/settings/) in its settings.
+
+The tools calculate from height data and don't test your radio. Check trees and
+new buildings yourself, then take a companion to the spot and see which
+repeaters it hears.
+
+![Line of Sight in the MeshCore app: the ground between 2 points, and the space the signal needs above it](/media/guides/line-of-sight.webp)
+
+![Antenna Coverage in the MeshCore app: the area an antenna on a hill can reach, on a map](/media/guides/antenna-coverage.webp)
 
 ## Hardware {#hardware}
 
