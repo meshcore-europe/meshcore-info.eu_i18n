@@ -6,11 +6,11 @@ eyebrow: 6 Schrëtt · MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0c1b08d9'
-  seeded: '2026-11-03'
+  source_hash: '0490a311'
+  seeded: '2026-11-04'
   fields: {title: '61e8d44a', lead: '45b0e5c3', description: 'cf031b18', eyebrow: '4fa6fe1e'}
-  sections: ['16c3728c', '90f3d626', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
-  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '757c634a', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
+  sections: ['16c3728c', '5b6d136a', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', '1741ed35', '66d00206']
+  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', 'e90b7859', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', '53276869', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
 ---
 
 Dës Schrëtt baséieren op der MeshCore-Firmware v1.18.0 an den offiziellen Tools
@@ -27,7 +27,8 @@ huel ee mat eegenem Schierm an eegener Tastatur, deen eleng funktionéiert.
 Huel d'Versioun fir 868 MHz. D'Antenn, déi dobäi ass, geet duer; am
 [Antennen-Guide](/guides/antenna/) gesäis du, wéi s du eng iwwerpréifs.
 
-Leeft op dengem Board elo Meshtastic? Wanns de MeshCore flashs, ersetz de Meshtastic, an déi zwee schwätzen net matenee. [Vu Meshtastic kommen](/about/#meshtastic) zielt op, wat anescht funktionéiert.
+Leeft op dengem Board elo Meshtastic? Wann s de MeshCore flashs, ersetzt dat
+Meshtastic, an déi zwee schwätze net mateneen.
 
 {{< callout type="warning" >}}
 Schléiss d'Antenn un, ier s du de Radio aschalts. E LoRa-Radio, deen ouni Antenn
@@ -90,20 +91,21 @@ Preset keen App-Update.
 
 ## 6. So Moien {#hello}
 
-1. **Mell dech.** Schéck en *advert* aus der App. E "flood"-Advert geet duerch
-   d'Repeateren (Noden, déi Noriichte weiderginn), sou datt jiddereen am Mesh dech
-   derbäisetze kann.
+1. **Mell dech.** Schéck en *Advert* aus der App. En "Flood"-Advert
+   geet iwwer d'Repeateren (Noden, déi Noriichte weiderginn), sou datt jiddereen
+   am Mesh dech derbäisetze kann.
    Companions mellen sech ni automatesch.
-2. **Fann anerer.** Leit erschéngen an denge Kontakter, soubal hir Adverts bei dir
-   ukommen. Repeatere schécken standardméisseg all 47 Stonnen e flood-Advert, also
-   kann et 2 Deeg daueren, bis deng Lëscht sech fëllt.
-3. **Schéck eng Noriicht.** Maach e Kontakt op a schreif. Déi éischt Noriicht geet
-   als flood duerch d'ganzt Netz; den Empfänger mellt de Wee zeréck, deen se geholl
-   huet, a spéider Noriichte huelen dee Wee.
-4. **Schléiss dech Kanäl un.** De **Public**-Kanal ass schonn ageriicht; alles, wat
-   s du do schreifs, erreecht jiddereen am Mesh. Setz den *hashtag channel* vun denger
-   Regioun (en Numm, deen mat `#` ufänkt) derbäi: gëff säin Numm an. Deng
+2. **Fann anerer.** Leit erschéngen an denge Kontakter, soubal hir Adverts bei
+   dech ukommen. Repeateren schécken standardméisseg all 47 Stonnen e Flood-Advert,
+   dofir kann et 2 Deeg daueren, bis deng Lëscht voll ass.
+3. **Schéck eng Noriicht.** Maach e Kontakt op a schreif. Déi éischt Noriicht
+   geet als Flood duerch d'Netz; den Empfänger mellt de Wee zréck, deen se geholl huet,
+   a spéider Noriichte huelen dee Wee.
+4. **Tritt Kanäl bäi.** De **Public**-Kanal ass schonn ageriicht; alles, wat s du
+   do schreifs, erreecht jiddereen am Mesh. Füeg de *Hashtag-Kanal* vun denger
+   Regioun (en Numm, deen mat `#` ufänkt) derbäi, andeems s du säin Numm agëss. Deng
    [lokal Grupp](/community/) seet dir, wéi eng Kanäl aktiv sinn.
+   Wëlls du se perséinlech treffen? Kuck d'[Treffen](/meetings/) bei dir an der Géigend.
 
 ## Wann eppes net funktionéiert {#troubleshooting}
 

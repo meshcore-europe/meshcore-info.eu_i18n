@@ -48,6 +48,6 @@ set flood.max.advert 3
 set flood.max.unscoped 1
 ```
 
-- `flood.max.advert 3`: advertenties, waarmee een node zich bij de mesh meldt,
+- `flood.max.advert 3`: adverts, waarmee een node zich bij de mesh meldt,
   reizen hooguit 3 hops.
 - `flood.max.unscoped 1`: een bericht zonder regio gaat via hooguit één repeater.

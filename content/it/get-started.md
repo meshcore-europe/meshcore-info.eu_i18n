@@ -6,11 +6,11 @@ eyebrow: 6 passaggi · MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0c1b08d9'
-  seeded: '2026-11-02'
+  source_hash: '0490a311'
+  seeded: '2026-11-04'
   fields: {title: '61e8d44a', lead: '45b0e5c3', description: 'cf031b18', eyebrow: '4fa6fe1e'}
-  sections: ['16c3728c', '90f3d626', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
-  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '757c634a', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
+  sections: ['16c3728c', '5b6d136a', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', '1741ed35', '66d00206']
+  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', 'e90b7859', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', '53276869', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
 ---
 
 Questi passaggi si basano sul firmware MeshCore v1.18.0 e sugli strumenti
@@ -27,9 +27,8 @@ alternativa ne scegli uno con schermo e tastiera propri, che funziona da solo.
 Prendi la versione a 868 MHz. L'antenna in dotazione va bene; la
 [guida alle antenne](/guides/antenna/) spiega come verificarne una.
 
-Sulla tua scheda ora gira Meshtastic? Se installi MeshCore lo sostituisci, e i due firmware
-non comunicano tra loro. La sezione [Se arrivi da Meshtastic](/about/#meshtastic)
-elenca cosa funziona diversamente.
+Sulla tua scheda ora gira Meshtastic? Se installi MeshCore, lo sostituisci, e
+i due sistemi non comunicano tra loro.
 
 {{< callout type="warning" >}}
 Collega l'antenna prima di accendere la radio. Se una radio LoRa trasmette
@@ -95,19 +94,19 @@ preset non richiede un aggiornamento dell'app.
 
 1. **Fatti conoscere.** Invia un *annuncio* dall'app. Un annuncio "flood"
    passa attraverso i ripetitori (nodi che inoltrano i messaggi), così
-   chiunque sulla mesh può aggiungerti.
-   I companion non si annunciano mai da soli.
-2. **Trova gli altri.** Le persone compaiono tra i tuoi contatti quando i
-   loro annunci ti raggiungono. Per impostazione predefinita i ripetitori
-   inviano un annuncio flood ogni 47 ore, quindi l'elenco può impiegare 2
-   giorni a riempirsi.
-3. **Invia un messaggio.** Apri un contatto e scrivi. Il primo messaggio
-   viaggia in flood per tutta la rete; il destinatario ti comunica il
-   percorso seguito, e i messaggi successivi usano quel percorso.
+   tutti sulla mesh possono aggiungerti.
+   I companion non si annunciano mai in automatico.
+2. **Trova gli altri.** Le persone compaiono nei tuoi contatti quando i loro
+   annunci ti raggiungono. Di default i ripetitori inviano un annuncio flood
+   ogni 47 ore, quindi la tua lista può impiegare 2 giorni a riempirsi.
+3. **Invia un messaggio.** Apri un contatto e scrivi. Il primo messaggio va
+   in flood sulla rete; il destinatario ti rimanda il percorso seguito, e i
+   messaggi successivi usano quel percorso.
 4. **Entra nei canali.** Il canale **Public** è già configurato; quello che
    scrivi lì arriva a tutti sulla mesh. Aggiungi il *canale hashtag* della
    tua regione (un nome che inizia con `#`) digitandone il nome. Il tuo
    [gruppo locale](/community/) ti dirà quali canali sono attivi.
+   Vuoi conoscerli di persona? Guarda gli [incontri](/meetings/) vicino a te.
 
 ## Quando qualcosa non funziona {#troubleshooting}
 

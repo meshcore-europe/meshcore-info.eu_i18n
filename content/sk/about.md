@@ -1,16 +1,16 @@
 ---
 title: Čo je MeshCore?
 lead: MeshCore posiela textové správy rádiom, od uzla k uzlu. Funguje bez internetu a bez predplatného.
-description: 'Čo MeshCore je a čo nie je: typy uzlov, smerovanie, rozdiely oproti Meshtastic, šifrovanie a pásmo 868 MHz.'
+description: 'Čo MeshCore je a čo nie je: druhy uzlov, smerovanie, šifrovanie a pásmo 868 MHz.'
 eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '279b56a4'
-  seeded: '2026-11-03'
-  fields: {title: '06eda66b', lead: 'c0174569', description: '15e6d2a7', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '16fde264', '0a55792c', 'c3de803d', '493b444f', 'a8b2b9b4', '429f699c', 'f8008f48', '88af2bd3', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'fab378a5', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', 'fc8f3129', '8dec428a', '07cbac35', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '95e18f18', '02f1fe2f', 'e6b5b258']
+  source_hash: '2a40da22'
+  seeded: '2026-11-04'
+  fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
+  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore je bezplatný softvér pre malé LoRa rádiá. LoRa je rádiová technika, ktorá prenáša malé množstvo dát na veľkú vzdialenosť s veľmi nízkou spotrebou. Rádio s MeshCore sa volá *uzol*. Spáruješ ho s aplikáciou v telefóne alebo notebooku, alebo použiješ jeho vlastný displej a klávesnicu. Potom môžeš posielať text ľuďom vzdialeným celé kilometre. Medzi vami nestojí žiadny vysielač, router ani poskytovateľ.
@@ -23,30 +23,27 @@ Softvér má otvorený zdrojový kód. Vyvíja sa v repozitári
 Začínaš s rádiom? Toto ľudia od MeshCore najčastejšie očakávajú, no MeshCore to nerobí.
 
 - **Nie je to internet ani telefón.** MeshCore posiela krátke textové správy,
-  zhruba také dlhé ako SMS v telefóne. Hlas, fotky, video ani weby ním
-  neprenesieš a bežné telefónne číslo nezastihneš.
-- **Nie je to tiesňová služba.** Žiadna tiesňová služba v sieti nepočúva
-  a nikto nesľubuje, že tvoju správu niekto prečíta. V tiesni volaj 112.
-- **Nie je to okamžité a nefunguje to všade.** Správa preskakuje z rádia na
-  rádio. Môže to trvať niekoľko sekúnd alebo správa nepríde vôbec. Či
-  prejde, závisí od opakovačov okolo teba, od výšky, budov a tvojej antény.
-  Malé rádio v budove často nikoho nezastihne; opakovač na streche dosiahne
-  na kilometre ďaleko.
-- **Nie je to služba, ktorú pre teba niekto prevádzkuje.** Nie je tu žiadny
-  poskytovateľ, zákaznícka podpora ani sľub pokrytia. Sieť existuje tam,
-  kde ľudia z komunity postavili opakovače, a nikde inde.
-- **Nie všetko v sieti je súkromné.** Priame správy sú šifrované, no
-  Public a hashtagové kanály môže čítať ktokoľvek. Názov tvojho uzla a zdieľanú
-  polohu vidia všetci v dosahu.
-  [Pozorovatelia](/network/) posielajú to, čo počujú, na verejné mapy.
-  [Časť o šifrovaní](#encryption) vysvetľuje, čo zostáva súkromné.
-- **Nie je to neobmedzené.** Všetci v oblasti sa delia o jeden rádiový kanál
-  a pravidlá pre [pásmo 868 MHz](#band) obmedzujú, ako dlho smie každé rádio
-  vysielať. Každá správa berie vysielací čas všetkým ostatným, takže boty, časté
-  oznámenia a testovacie správy spomaľujú sieť všetkým.
-- **Nie je to Meshtastic.** Meshtastic je iný systém, ktorý beží na takmer
-  rovnakých doskách. Tieto dva systémy spolu nedokážu komunikovať.
-  [Prechod z Meshtastic](#meshtastic) uvádza, čo funguje inak.
+  zhruba také dlhé ako SMS v tvojom telefóne. Žiadny hlas, fotky, video
+  ani webové stránky a na bežné telefónne číslo sa nedovoláš.
+- **Nie je to tiesňová služba.** Žiadna tiesňová služba nesľubuje, že
+  bude mesh počúvať, a nikto nesľubuje, že tvoju správu niekto prečíta.
+- **Nefunguje to okamžite ani všade.** Správa skáče z rádia na
+  rádio a môže jej to trvať pár sekúnd, alebo nepríde vôbec. Či prejde, závisí
+  od repeaterov okolo teba, od výšky, budov a tvojej antény. Malé rádio
+  v interiéri často nedosiahne nikoho. Repeater na streche dosiahne kilometre ďaleko.
+- **Nie je to služba, ktorú pre teba niekto prevádzkuje.** Nemá
+  poskytovateľa, helpdesk ani prísľub pokrytia. Mesh existuje tam, kde ľudia
+  z komunity postavili repeatery.
+- **Nie všetko v meshi je súkromné.** Priame správy sú šifrované. Kanál Public
+  a hashtagové kanály však môže čítať ktokoľvek. Meno tvojho uzla a zdieľanú
+  polohu vidí každý v dosahu. [Observery](/network/) posielajú to, čo počujú, na
+  verejné mapy. [Časť o šifrovaní](#encryption) vysvetľuje, čo zostane súkromné.
+- **Nie je to neobmedzené.** Všetci v oblasti zdieľajú jeden rádiový kanál.
+  Pravidlá pre [pásmo 868 MHz](#band) obmedzujú, ako dlho môže každé rádio
+  vysielať. Každá správa berie vysielací čas všetkým ostatným. Boty, časté
+  adverty a testovacie správy preto spomaľujú mesh pre všetkých.
+- **Nie je to Meshtastic.** Meshtastic je iný systém, ktorý beží na
+  takmer rovnakých doskách. Tieto dva systémy spolu nedokážu komunikovať.
 
 ## Sieť mesh za minútu {#mesh}
 
@@ -72,21 +69,6 @@ Tvoja prvá správa kontaktu odchádza ako *flood*, teda záplava. Každý repea
 
 Správy do kanála nemajú jednu adresu, takže sa vždy šíria ako flood. Repeatery si pamätajú, čo nedávno odovzdali, a kópie, ktoré dorazia inou trasou, zahodia. Správa môže prejsť cez najviac 64 repeaterov, alebo cez 32, ak predvoľba používa 2-bajtové ID.
 
-## Prechod z Meshtasticu {#meshtastic}
-
-Mnohé dosky zvládnu MeshCore aj Meshtastic a naflashuješ si ten, ktorý chceš. Toto sú rozdiely, ktoré si všimneš ako prvé. Vychádzajú z MeshCore v1.18.0 a z dokumentácie Meshtasticu z novembra 2026.
-
-- **Kto posiela správy ďalej.** V MeshCore to robia len repeatery, tvoj companion nikdy.
-  V Meshtasticu ich ďalej posiela aj predvolená rola klienta, ak to už
-  neurobil iný uzol.
-- **Ako ďaleko správa dôjde.** Správa v MeshCore môže prejsť až cez 64
-  repeaterov. V Meshtasticu sa predvolene zastaví po 3 skokoch, najviac po 7.
-- **Údaje z iných uzlov.** Repeatery a senzorové uzly v MeshCore posielajú údaje,
-  napríklad napätie batérie, keď o ne požiadaš. Celej sieti ich neposielajú.
-- **Internet.** Firmvér MeshCore nemá prepojenie sietí cez internet.
-  [Pozorovatelia](/network/) hlásia mapám to, čo počujú, a len jedným smerom.
-  Meshtastic má vstavaný modul MQTT, ktorý dokáže prenášať správy medzi sieťami cez internet.
-
 ## Šifrovanie a súkromie {#encryption}
 
 Tvoje priame správy sú šifrované end-to-end: čítať ich môžeš len ty a druhá osoba. Repeater vidí adresáta paketu len ako 1-bajtovú nápovedu.
@@ -107,20 +89,51 @@ Všetci v oblasti používajú rovnakú predvoľbu, inak sa ich rádiá navzájo
 
 ## Na čo to ľudia používajú {#uses}
 
-- Spojenie na túrach, na mori a na festivaloch, kde je mobilná sieť
+- Byť v kontakte na túrach, na mori a na festivaloch, kde je mobilná sieť
   preťažená alebo chýba.
-- Záložný kanál pre rodinu alebo susedov, keď vypadne elektrina alebo
-  mobilná sieť.
+- Záložný kanál pre rodinu alebo susedov, keď zlyhajú elektrické alebo mobilné
+  siete.
+- Záloha pre miestne úrady, keď zlyhajú ich bežné siete.
 - Miestny chat na rádiách, ktoré ľudia sami vlastnia.
+- Udržať pátrací a záchranný tím v spojení tam, kde nie je mobilná sieť.
+  MeshCore SAR, komunitná aplikácia v časti [Projekty](/projects/), pridáva mapy
+  a zdieľané polohy.
 - Kontrola vzdialeného miesta z domu. Repeatery a senzorové uzly hlásia napätie
-  batérie a ďalšie údaje, keď o ne požiadaš.
-- Sledovanie senzora. Senzorový uzol beží na firmvéri MeshCore určenom na meranie.
-  Uchováva históriu svojich meraní. Ak sa prihlásiš na odber, upozorní ťa,
-  napríklad keď sa mu vybíja batéria.
-- Spínanie niečoho na diaľku, napríklad čerpadla. Túto funkciu pridáš do
-  firmvéru senzora vlastným kódom.
-- Experimenty s rádiom, anténami, solárnou energiou a softvérom s otvoreným
-  zdrojovým kódom.
+  batérie a ďalšie hodnoty, keď si ich vyžiadaš.
+- Sledovanie senzora. Na senzorovom uzle beží firmvér MeshCore určený na
+  meranie. Uzol uchováva históriu napätia svojej batérie. Prihlás sa ako admin
+  a uzol ťa upozorní, keď je batéria slabá. Upozornenia na ďalšie hodnoty
+  pridáš vlastným kódom.
+- Spínanie niečoho na diaľku, napríklad čerpadla. To pridáš do firmvéru senzora
+  vlastným kódom.
+- Experimentovanie s rádiom, anténami, solárnou energiou a softvérom
+  s otvoreným zdrojovým kódom.
+
+Niektoré úrady budujú alebo testujú záložné riešenie postavené na MeshCore. Tieto príklady sme overili
+v novembri 2026.
+
+- Cyklón Gabrielle prerušil všetku komunikáciu v Tairāwhiti na Novom Zélande. V
+  septembri 2025 krízový manažment regiónu označil MeshCore za
+  [jeden z najmenej 6 záložných spôsobov komunikácie](https://www.scoop.co.nz/stories/AK2509/S00669.htm).
+  Zároveň budoval solárne repeatery ako chrbticu siete.
+- Nemecký okres Bad Kissingen
+  [buduje na MeshCore textovú sieť](https://www.landkreis-badkissingen.de/wirtschaft/digitalisierung/kommunikationsnetze/index.html)
+  pre úrady, záchranné zložky a kritické objekty. Ako prvé sa pripájajú hasičské
+  stanice.
+- Mestské zastupiteľstvo Hilversumu v Holandsku
+  [odhlasovalo pomerom 34 ku 1 skúšobnú prevádzku](https://hilversum.nl/nieuwsoverzicht/gemeenteraad-buigt-zich-over-financien)
+  s repeaterom na veži radnice. Mesto ju
+  [vyhodnotí na jeseň 2027](https://www.spreekbuis.nl/hilversum-start-proef-met-onafhankelijk-noodcommunicatienetwerk-meshcore/).
+- Dva holandské bezpečnostné regióny, ktoré organizujú reakciu na krízu,
+  experimentujú s MeshCore:
+  [Južný Limburg](https://nos.nl/nieuwsuur/artikel/2607176-communicatie-hulpdiensten-valt-uit-bij-lange-stroomstoring-oplossing-niet-in-zicht)
+  a [Drenthe](https://www.rtvdrenthe.nl/nieuws/18438486/hackerspace-drenthe-werkt-aan-een-noodnetwerk-voor-de-provincie).
+  Podľa Drenthe je priskoro povedať, ako alebo kedy by ho mohla použiť.
+- V Dalfsene, tiež v Holandsku, dobrovoľníci
+  [vedú pilotný projekt spolu s obcami](https://noodnetoverijssel.nl/).
+  Primárne používajú hlasové rádio a MeshCore ako druhú vrstvu na text.
+
+Nikto nesľubuje, že tvoju správu v meshi vo tvojom okolí niekto prečíta.
 
 ## Odkiaľ pochádzajú dáta {#data}
 

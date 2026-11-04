@@ -6,11 +6,11 @@ eyebrow: 868 MHz · do 500 mW · bez licence
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '7c7e3be3'
-  seeded: '2026-11-02'
+  source_hash: '3e38a8c6'
+  seeded: '2026-11-04'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '766086be', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', '6a7c4493', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
 ---
 
 Mreža počiva na repetitorima. Companioni, radiji s kojih šalješ poruke, ne prosljeđuju poruke. Bez repetitora zato dopireš samo do ljudi u izravnom dometu. Repetitor na pravom mjestu proširuje mrežu za sve oko sebe. Ovaj vodič temelji se na firmwareu MeshCore v1.18.0.
@@ -30,11 +30,33 @@ Postavi repetitor tamo gdje nedostaje pokrivenost:
 
 Visina vrijedi više od snage. LoRa na 868 MHz najbolje se širi uz čistu liniju vidljivosti. Brda, zgrade i gusto drveće oduzmu daleko više dometa nego što nekoliko dodatnih milivata može vratiti.
 
-- **Postavi ga visoko.** Krov, stup, visoka zgrada ili brdo pokrivaju puno više od prozorske daske. Pomaže već i nekoliko metara iznad okolnih krovova.
-- **Drži antenu na otvorenom.** Montiraj je iznad rubova krova, dalje od metala, oluka i drugih antena.
-- **Provjeri vidljivost.** Alati poput [HeyWhatsThat](https://www.heywhatsthat.com/) pokazuju što se vidi s određene lokacije. Ako neko mjesto vidiš, repetitor na njemu je u dometu.
-- **Ostavi slobodan prostor.** Radijskoj putanji nije dovoljna sama izravna linija: treba joj i nešto slobodnog prostora oko nje. Na velikim udaljenostima sredina putanje treba prolaziti nekoliko metara iznad prepreka.
-- **Zatraži dopuštenje.** Pribavi suglasnost vlasnika krova ili stupa i dogovori kako ćeš doći do repetitora radi održavanja.
+- **Biraj visoko mjesto.** Krov, stup, visoka zgrada ili brdo pokrivaju puno više od prozorske daske. Pomaže već i nekoliko metara iznad okolnih krovova.
+- **Drži antenu na otvorenom.** Montiraj je iznad rubova krova, podalje od metala, oluka i drugih antena.
+- **Provjeri vidljivost.** Alati poput [HeyWhatsThat](https://www.heywhatsthat.com/) pokazuju što se vidi s nekog mjesta. Aplikacija MeshCore [izračuna dokle seže repetitor na tom mjestu](#check-site).
+- **Ostavi slobodan prostor.** Radijskom putu treba slobodan prostor oko izravne linije, ne samo sama linija. Na 868 MHz taj je prostor oko 20 m u sredini puta od 5 km. Na putu od 20 km iznosi oko 40 m.
+- **Zatraži dopuštenje.** Dobij pristanak vlasnika krova ili stupa i dogovori kako ćeš doći do repetitora radi održavanja.
+
+### Provjeri lokaciju u aplikaciji {#check-site}
+
+Od verzije 1.33 aplikacija MeshCore ima ove alate u izborniku, pod **Tools**. Rade i bez spojenog radija.
+
+- **Line of Sight** crta teren između 2 točke i prostor koji signalu treba iznad njega. Dugo pritisni 2 točke na karti ili dodirni repetitore.
+- **Antenna Coverage** na karti pokazuje dokle doseže antena na 1 točki. Dugo pritisni točku ili dodirni repetitor. Dodaj još točaka da usporediš lokacije.
+
+Na računalu u izborniku alata odaberi **Add Point** i upiši koordinate.
+
+Oba alata polaze od antene na tvojoj lokaciji na 5 m, pa u postavkama alata
+upiši visinu koju planiraš. Antenna Coverage polazi od prijamne antene
+na 1 m. Bez spojenog radija Line of Sight polazi od 915 MHz: u njegovim postavkama
+upiši frekvenciju svog [preseta](/guides/settings/).
+
+Alati računaju na temelju podataka o visini i ne testiraju tvoj radio. Drveće
+i nove zgrade provjeri sam. Zatim odnesi companion na to mjesto i pogledaj koje
+repetitore čuje.
+
+![Line of Sight u aplikaciji MeshCore: teren između 2 točke i prostor koji signalu treba iznad njega](/media/guides/line-of-sight.webp)
+
+![Antenna Coverage u aplikaciji MeshCore: područje koje antena na brdu može doseći, prikazano na karti](/media/guides/antenna-coverage.webp)
 
 ## Hardver {#hardware}
 

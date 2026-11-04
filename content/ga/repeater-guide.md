@@ -6,11 +6,11 @@ eyebrow: 868 MHz · suas le 500 mW · gan cheadúnas
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '7c7e3be3'
-  seeded: '2026-11-02'
+  source_hash: '3e38a8c6'
+  seeded: '2026-11-04'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '766086be', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', '6a7c4493', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
 ---
 
 Is ar athsheoltóirí atá an mogalra ina sheasamh. Ní chuireann compánaigh, na raidiónna óna
@@ -42,17 +42,43 @@ Is tábhachtaí airde ná cumhacht. Is fearr a thaistealaíonn LoRa ar 868 MHz n
 ghlan aige. Cailleann tú i bhfad níos mó raoin de bharr cnoc, foirgneamh agus crann dlúth ná mar a
 thugann cúpla milleavata breise ar ais.
 
-- **Téigh in airde.** Clúdaíonn díon, crann raidió, foirgneamh ard nó cnoc i bhfad níos mó ná leac
-  fuinneoige. Cabhraíonn fiú cúpla méadar os cionn na ndíonta máguaird.
-- **Coinnigh an aeróg saor.** Feistigh í os cionn imill an dín, amach ó mhiotal, ó gháitéir agus ó
-  aeróga eile.
+- **Téigh in airde.** Clúdaíonn díon, crann, foirgneamh ard nó cnoc i bhfad níos mó
+  ná leac fuinneoige. Cabhraíonn fiú cúpla méadar os cionn na ndíonta máguaird.
+- **Coinnigh an aeróg saor.** Cuir suas í os cionn imeall an dín, amach ó mhiotal,
+  ó gháitéir agus ó aeróga eile.
 - **Seiceáil an radharc.** Taispeánann uirlisí ar nós [HeyWhatsThat](https://www.heywhatsthat.com/)
-  cad atá le feiceáil ó shuíomh. Más féidir leat spota a fheiceáil, tá athsheoltóir ansin i do
-  raon.
-- **Fág spás saor.** Teastaíonn roinnt spáis shaoir ó chonair raidió timpeall na líne dírí, ní hamháin
-  an líne féin. Thar achair fhada, ba cheart roinnt méadar a bheith idir lár na conaire agus constaicí.
-- **Iarr cead.** Faigh toiliú an úinéara don díon nó don chrann, agus socraigh conas a shroichfidh
-  tú an t-athsheoltóir le haghaidh cothabhála.
+  cad atá le feiceáil ó shuíomh. Ríomhann an aip MeshCore
+  [cad is féidir le hathsheoltóir ansin a shroicheadh](#check-site).
+- **Fág spás saor.** Tá spás saor de dhíth ar chonair raidió timpeall na líne dírí,
+  ní hamháin ar an líne féin. Ar 868 MHz, tá an spás sin thart ar 20 m timpeall
+  lár conaire 5 km. Ar chonair 20 km, tá sé thart ar 40 m.
+- **Iarr cead.** Faigh toiliú an úinéara don díon nó don chrann, agus socraigh
+  conas a shroichfidh tú an t-athsheoltóir le haghaidh cothabhála.
+
+### Seiceáil suíomh san aip {#check-site}
+
+Ó leagan 1.33 ar aghaidh, tá na huirlisí seo faoi **Tools** i roghchlár na haipe MeshCore.
+Oibríonn siad gan raidió a bheith ceangailte.
+
+- Tarraingíonn **Line of Sight** an talamh idir 2 phointe, agus an spás atá ag teastáil ón
+  gcomhartha os a chionn. Brúigh go fada ar 2 phointe ar an léarscáil, nó tapáil athsheoltóirí.
+- Taispeánann **Antenna Coverage** ar an léarscáil cad is féidir le haeróg ag 1 phointe a shroicheadh.
+  Brúigh go fada ar phointe nó tapáil athsheoltóir. Cuir pointí eile leis chun suíomhanna a chur i gcomparáid.
+
+Ar ríomhaire, roghnaigh **Add Point** i roghchlár na huirlise agus clóscríobh na comhordanáidí.
+
+Socraíonn an dá uirlis an aeróg ag do shuíomh ar 5 m ar dtús, mar sin cuir isteach an airde
+atá beartaithe agat i socruithe na huirlise. In Antenna Coverage, bíonn an aeróg ghlactha
+ar 1 m ar dtús. Mura bhfuil raidió ceangailte, úsáideann Line of Sight 915 MHz ar dtús: socraigh
+minicíocht do [réamhshocraithe](/guides/settings/) ina socruithe.
+
+Ríomhann na huirlisí as sonraí airde, agus ní thástálann siad do raidió. Seiceáil féin na crainn agus
+na foirgnimh nua. Ansin tabhair compánach go dtí an láthair agus féach cé na
+hathsheoltóirí a chloiseann sé.
+
+![Line of Sight san aip MeshCore: an talamh idir 2 phointe, agus an spás atá ag teastáil ón gcomhartha os a chionn](/media/guides/line-of-sight.webp)
+
+![Antenna Coverage san aip MeshCore: an ceantar is féidir le haeróg ar chnoc a shroicheadh, ar léarscáil](/media/guides/antenna-coverage.webp)
 
 ## Crua-earraí {#hardware}
 

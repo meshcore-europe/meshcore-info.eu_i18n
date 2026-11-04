@@ -6,11 +6,11 @@ eyebrow: 868 MHz · până la 500 mW · fără licență
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '7c7e3be3'
-  seeded: '2026-10-31'
+  source_hash: '3e38a8c6'
+  seeded: '2026-11-04'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '766086be', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', '6a7c4493', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
 ---
 
 Mesh-ul se sprijină pe repetoare. Dispozitivele companion, adică radiourile de pe care trimiți mesaje, nu
@@ -43,18 +43,43 @@ Instalează un repetor acolo unde lipsește acoperirea:
 de vedere liberă. Dealurile, clădirile și copacii denși îți iau mult mai multă rază decât
 recuperează câțiva miliwați în plus.
 
-- **Urcă sus.** Un acoperiș, un catarg, o clădire înaltă sau un deal acoperă mult mai mult
-  decât un pervaz. Ajută chiar și câțiva metri peste acoperișurile din jur.
-- **Ține antena în spațiu liber.** Monteaz-o deasupra marginii acoperișului, departe de
-  metal, de jgheaburi și de alte antene.
-- **Verifică ce se vede.** Cu unelte precum [HeyWhatsThat](https://www.heywhatsthat.com/)
-  afli ce se vede dintr-un loc. Dacă vezi un punct, un repetor de acolo e
-  în raza ta.
-- **Lasă spațiu liber.** O rută radio are nevoie de loc liber în jurul liniei directe,
-  nu doar de linia propriu-zisă. Pe distanțe lungi, mijlocul rutei trebuie să treacă
-  cu câțiva metri peste obstacole.
+- **Alege un loc înalt.** Un acoperiș, un catarg, o clădire înaltă sau un deal acoperă mult mai mult
+  decât un pervaz. Ajută chiar și câțiva metri deasupra acoperișurilor din jur.
+- **Lasă antena liberă.** Montează-o deasupra marginilor acoperișului, departe de
+  metal, jgheaburi și alte antene.
+- **Verifică vizibilitatea.** Instrumente precum [HeyWhatsThat](https://www.heywhatsthat.com/)
+  arată ce se vede dintr-un loc. Aplicația MeshCore
+  [calculează unde poate ajunge un repetor pus acolo](#check-site).
+- **Lasă spațiu liber.** O rută radio are nevoie de spațiu liber în jurul liniei directe,
+  nu doar de linia în sine. La 868 MHz, acest spațiu are aproximativ 20 m în jurul
+  mijlocului unei rute de 5 km. Pe 20 km are aproximativ 40 m.
 - **Cere permisiunea.** Obține acordul proprietarului pentru acoperiș sau catarg și stabilește
-  cu el cum vei ajunge la repetor pentru întreținere.
+  cum vei ajunge la repetor pentru întreținere.
+
+### Verifică un amplasament în aplicație {#check-site}
+
+Aplicația MeshCore, versiunea 1.33 sau mai nouă, are aceste instrumente în
+meniu, la **Tools**. Funcționează fără un radio conectat.
+
+- **Line of Sight** desenează terenul dintre 2 puncte și spațiul de care semnalul
+  are nevoie deasupra lui. Ține apăsat pe 2 puncte de pe hartă sau atinge repetoare.
+- **Antenna Coverage** arată pe hartă unde ajunge o antenă amplasată în 1 punct.
+  Ține apăsat pe un punct sau atinge un repetor. Adaugă mai multe puncte ca să compari amplasamentele.
+
+Pe calculator, alege **Add Point** din meniul instrumentului și introdu coordonatele.
+
+Ambele instrumente pun inițial antena din locul tău la 5 m, așa că setează
+în setările instrumentului înălțimea pe care o plănuiești. Antenna Coverage pune
+inițial antena de recepție la 1 m. Fără un radio conectat, Line of Sight folosește
+inițial 915 MHz: setează în setările lui frecvența [presetării](/guides/settings/) tale.
+
+Instrumentele calculează pe baza datelor de altitudine și nu îți testează radioul. Verifică
+tu copacii și clădirile noi, apoi du un companion la fața locului și vezi ce
+repetoare aude.
+
+![Line of Sight în aplicația MeshCore: terenul dintre 2 puncte și spațiul de care semnalul are nevoie deasupra lui](/media/guides/line-of-sight.webp)
+
+![Antenna Coverage în aplicația MeshCore: zona pe care o poate acoperi o antenă de pe un deal, pe hartă](/media/guides/antenna-coverage.webp)
 
 ## Hardware {#hardware}
 

@@ -6,11 +6,11 @@ eyebrow: 868 MHz · fins a 500 mW · sense llicència
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '7c7e3be3'
-  seeded: '2026-11-02'
+  source_hash: '3e38a8c6'
+  seeded: '2026-11-04'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '766086be', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', '6a7c4493', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
 ---
 
 Els repetidors sostenen la malla. Els companions, les ràdios amb què envies missatges, no
@@ -43,18 +43,41 @@ L'alçada val més que la potència. A 868 MHz, LoRa arriba més lluny amb una l
 visió lliure. Els turons, els edificis i els arbres densos et fan perdre molt més abast
 del que recuperes amb uns quants mil·liwatts de més.
 
-- **Puja ben amunt.** Un terrat, un pal, un edifici alt o un turó cobreixen molt més
-  que l'ampit d'una finestra. Fins i tot uns quants metres per sobre dels terrats del voltant ajuden.
-- **Deixa l'antena ben lliure.** Munta-la per sobre de les vores del terrat, lluny
-  del metall, de les canals i d'altres antenes.
+- **Busca alçada.** Un terrat, un pal, un edifici alt o un turó cobreixen molt més
+  que l'ampit d'una finestra. Ni que siguin uns quants metres per sobre dels terrats del voltant, ja ajuda.
+- **Deixa l'antena lliure.** Munta-la per sobre de les vores del terrat, lluny
+  del metall, dels canalons i d'altres antenes.
 - **Comprova què es veu.** Eines com [HeyWhatsThat](https://www.heywhatsthat.com/)
-  mostren què es veu des d'un lloc. Si veus un punt, un repetidor
-  situat allà és al teu abast.
-- **Deixa espai lliure.** Un trajecte de ràdio necessita cert espai lliure al voltant de la línia
-  directa, no només la línia. En distàncies llargues, el tram central del trajecte
-  ha de passar uns quants metres per sobre dels obstacles.
-- **Demana permís.** Obtén el consentiment del propietari del terrat o del pal, i
-  acorda amb ell com accediràs al repetidor per fer-ne el manteniment.
+  mostren què es veu des d'un lloc. L'app de MeshCore
+  [calcula fins on arriba un repetidor situat allà](#check-site).
+- **Deixa espai lliure.** Una ruta de ràdio necessita espai lliure al voltant de la línia directa,
+  no només la línia en si. A 868 MHz aquest espai és d'uns 20 m al voltant del
+  punt mitjà d'una ruta de 5 km. En una ruta de 20 km és d'uns 40 m.
+- **Demana permís.** Obtén el consentiment del propietari del terrat o del pal, i acorda
+  com accediràs al repetidor per fer-ne el manteniment.
+
+### Comprova un emplaçament a l'app {#check-site}
+
+A partir de la versió 1.33, l'app de MeshCore té aquestes eines al menú, a
+**Tools**. Funcionen sense cap ràdio connectada.
+
+- **Line of Sight** dibuixa el terreny entre 2 punts i l'espai que el
+  senyal necessita per sobre. Mantén premuts 2 punts al mapa, o toca repetidors.
+- **Antenna Coverage** mostra al mapa fins on arriba una antena situada en 1 punt.
+  Mantén premut un punt o toca un repetidor. Afegeix més punts per comparar emplaçaments.
+
+En un ordinador, tria **Add Point** al menú de l'eina i escriu les coordenades.
+
+Totes dues eines parteixen de l'antena del teu emplaçament a 5 m, així que
+indica l'alçada que prevegis a la configuració de l'eina. Antenna Coverage parteix
+d'una antena receptora a 1 m. Sense cap ràdio connectada, Line of Sight parteix de
+915 MHz: indica a la seva configuració la freqüència del teu [preset](/guides/settings/).
+
+Les eines calculen a partir de dades d'alçada i no proven la teva ràdio. Comprova tu mateix els arbres i els edificis nous. Després porta un companion al lloc i mira quins repetidors capta.
+
+![Line of Sight a l'app de MeshCore: el terreny entre 2 punts i l'espai que el senyal necessita per sobre](/media/guides/line-of-sight.webp)
+
+![Antenna Coverage a l'app de MeshCore: la zona que pot abastar una antena dalt d'un turó, en un mapa](/media/guides/antenna-coverage.webp)
 
 ## Maquinari {#hardware}
 

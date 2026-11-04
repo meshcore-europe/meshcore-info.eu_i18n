@@ -6,11 +6,11 @@ eyebrow: 6 kroków · MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0c1b08d9'
-  seeded: '2026-11-02'
+  source_hash: '0490a311'
+  seeded: '2026-11-04'
   fields: {title: '61e8d44a', lead: '45b0e5c3', description: 'cf031b18', eyebrow: '4fa6fe1e'}
-  sections: ['16c3728c', '90f3d626', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
-  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '757c634a', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
+  sections: ['16c3728c', '5b6d136a', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', '1741ed35', '66d00206']
+  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', 'e90b7859', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', '53276869', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
 ---
 
 Te kroki opisują firmware MeshCore v1.18.0 i oficjalne narzędzia z
@@ -26,9 +26,8 @@ wybrać model z własnym ekranem i klawiaturą, który działa samodzielnie.
 Kup wersję na 868 MHz. Antena z zestawu wystarczy. Z
 [poradnika o antenach](/guides/antenna/) dowiesz się, jak ją sprawdzić.
 
-Na twojej płytce działa teraz Meshtastic? Wgranie MeshCore go zastąpi, a te dwa systemy
-nie komunikują się ze sobą. [Przejście z Meshtastic](/about/#meshtastic)
-wymienia, co działa inaczej.
+Na twojej płytce działa teraz Meshtastic? Wgrany MeshCore go zastąpi, a te
+dwa systemy nie komunikują się ze sobą.
 
 {{< callout type="warning" >}}
 Podłącz antenę, zanim włączysz radio. Radio LoRa, które nadaje bez anteny,
@@ -89,20 +88,21 @@ aktualizacji aplikacji.
 
 ## 6. Przywitaj się {#hello}
 
-1. **Ogłoś się.** Wyślij z aplikacji *ogłoszenie*. Ogłoszenie typu „flood”
+1. **Ogłoś się.** Wyślij *ogłoszenie* z aplikacji. Ogłoszenie typu „flood”
    przechodzi przez przekaźniki (węzły, które przekazują wiadomości dalej), więc każdy
    w siatce może cię dodać.
-   Companiony nigdy nie ogłaszają się same.
+   Companiony nigdy nie ogłaszają się automatycznie.
 2. **Znajdź innych.** Ludzie pojawiają się w twoich kontaktach, gdy dotrą do ciebie
-   ich ogłoszenia. Przekaźniki domyślnie wysyłają ogłoszenie flood co 47 godzin, więc
-   zapełnienie listy może potrwać 2 dni.
+   ich ogłoszenia. Przekaźniki domyślnie wysyłają ogłoszenie flood co 47 godzin.
+   Zapełnienie twojej listy może więc potrwać 2 dni.
 3. **Wyślij wiadomość.** Otwórz kontakt i napisz. Pierwsza wiadomość rozchodzi się
-   po całej sieci metodą flood. Odbiorca odsyła trasę, którą do niego dotarła, a kolejne
-   wiadomości idą już tą trasą.
+   po sieci metodą flood. Odbiorca odsyła ci trasę, którą przebyła. Kolejne wiadomości
+   idą już tą trasą.
 4. **Dołącz do kanałów.** Kanał **Public** jest już skonfigurowany. Wszystko, co tam
-   napiszesz, trafia do wszystkich w siatce. Dodaj *kanał hashtagowy* swojego regionu
-   (nazwa zaczynająca się od `#`), wpisując jego nazwę. Twoja
+   napiszesz, trafia do każdego w siatce. Aby dodać *kanał hashtagowy* swojego regionu
+   (jego nazwa zaczyna się od `#`), wpisz jego nazwę. Twoja
    [lokalna grupa](/community/) powie ci, które kanały są aktywne.
+   Chcesz poznać ich osobiście? Sprawdź [spotkania](/meetings/) w swojej okolicy.
 
 ## Gdy coś nie działa {#troubleshooting}
 

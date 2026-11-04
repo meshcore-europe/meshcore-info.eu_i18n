@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '9266fa2b'
-  seeded: '2026-11-02'
+  source_hash: 'f3e63cef'
+  seeded: '2026-11-04'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', 'ee7ba544', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', '6f034862', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Dwar is-sit {#about}
@@ -22,6 +22,13 @@ translation:
 **F'paragrafu 1.** MeshCore jibgħat il-messaġġi bir-radju, mingħajr internet u mingħajr abbonament. Radjijiet LoRa żgħar, imsejħa repeaters, jgħaddu kull messaġġ 'il quddiem, u madwar l-Ewropa n-netwerks mesh tagħhom jingħaqdu f'wieħed. Ir-reġjuni, iż-żoni li fihom jibqa' messaġġ, iżommu t-traffiku lokali, għalhekk is-settings tiegħek jiddependu minn fejn toqgħod. meshcore-info.eu jiġbor dawk is-settings, il-gwidi u l-għodod f'post wieħed, f'33 lingwa. Jindikalek ukoll il-grupp lokali qrib tiegħek. Jiktbuh il-voluntiera, mingħajr reklami, links għal ħwienet jew traċċar.
 
 Ikkopja t-test li trid kif inhu, jew qassru. Sejjaħ lis-sit meshcore-info.eu, b'ittri żgħar, bil-.eu. Għal test itwal, ikkopja l-istqarrija għall-istampa fil-[post tat-tnedija](/blog/welcome/).
+
+## Links qosra għall-mesh {#short-links}
+
+Dawn il-links jieħdu inqas spazju f'messaġġ mesh. Kull link jinfetaħ fil-lingwa
+ta' min jagħfas fuqu. Ladarba nagħtu isem, inżommuh jaħdem.
+
+{{< short-links >}}
 
 ## Logo {#logo}
 

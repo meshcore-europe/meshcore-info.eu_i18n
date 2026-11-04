@@ -6,11 +6,11 @@ eyebrow: 868 MHz · oant 500 mW · sûnder fergunning
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '7c7e3be3'
-  seeded: '2026-10-31'
+  source_hash: '3e38a8c6'
+  seeded: '2026-11-04'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '766086be', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', '6a7c4493', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
 ---
 
 Repeaters drage de mesh. Companions, de radio's dêr't do berjochten mei stjoerst, stjoere gjin berjochten troch. Sûnder
@@ -42,18 +42,43 @@ Hichte wint it fan fermogen. LoRa op 868 MHz komt it fierst by frij sicht.
 Heuvels, gebouwen en tichte beammen kostje folle mear berik as in pear ekstra
 milliwatt weromwinne.
 
-- **Gean heech.** In dak, in mêst, in heech gebou of in heuvel beslacht folle mear
-  as in finsterbank. In pear meter boppe de omlizzende dakken helpt al.
-- **Hâld de antenne frij.** Monteer him boppe de dakrâne, fuort fan
-  metaal, dakgoaten en oare antennes.
-- **Kontrolearje it útsicht.** Mei ark lykas [HeyWhatsThat](https://www.heywhatsthat.com/)
-  sjochsto wat fan in plak út te sjen is. Kinsto in plak sjen, dan is in repeater
-  dêr binnen berik.
-- **Lit romte frij.** In radiopaad hat wat frije romte om de direkte
-  line hinne nedich, net allinnich de line sels. Oer lange ôfstannen moat it midden fan it paad
-  ferskate meters boppe obstakels bliuwe.
-- **Freegje tastimming.** Regelje tastimming fan de eigner foar it dak of de mêst, en sprek ôf
+- **Gean heech.** In dak, in mêst, in heech gebou of in bult berikt folle mear
+  as in finsterbank. Sels in pear meter boppe de dakken deromhinne helpt al.
+- **Hâld de antenne frij.** Monteer him boppe de dakrânen, fuort fan metaal, dakgoaten
+  en oare antennes.
+- **Kontrolearje it sicht.** Ark lykas [HeyWhatsThat](https://www.heywhatsthat.com/)
+  litte sjen wat fan in plak ôf te sjen is. De MeshCore-app
+  [berekkenet wat in repeater dêr berikke kin](#check-site).
+- **Lit romte frij.** In radiopaad hat frije romte om de rjochte line hinne nedich,
+  net allinnich de line sels. Op 868 MHz is dy romte sa'n 20 m om it
+  midden fan in paad fan 5 km. By 20 km is it sa'n 40 m.
+- **Freegje tastimming.** Freegje de eigner om tastimming foar it dak of de mêst, en sprek ôf
   hoe'tsto by de repeater komst foar ûnderhâld.
+
+### Kontrolearje in plak yn de app {#check-site}
+
+Ferzje 1.33 of letter fan de MeshCore-app hat dit ark ûnder **Tools** yn
+it menu. It wurket sûnder dat der in radio ferbûn is.
+
+- **Line of Sight** tekenet de grûn tusken 2 punten, en de romte dy't it
+  sinjaal dêrboppe nedich hat. Druk lang op 2 punten op de kaart, of tik repeaters oan.
+- **Antenna Coverage** lit op de kaart sjen wat in antenne op 1 punt berikke kin.
+  Druk lang op in punt of tik in repeater oan. Foegje mear punten ta om plakken te fergelykjen.
+
+Op in kompjûter kiesto **Add Point** yn it menu fan it ark en typest de koördinaten yn.
+
+Beide ark begjinne mei de antenne op dyn plak op 5 m, dus stel de hichte dy'tsto
+plannest yn de ynstellingen fan it ark yn. Antenna Coverage begjint mei in
+ûntfangstantenne op 1 m. As der gjin radio ferbûn is, begjint Line of Sight op
+915 MHz: stel yn de ynstellingen de frekwinsje fan dyn [preset](/guides/settings/) yn.
+
+De ark rekkenje mei hichtegegevens en teste dyn radio net. Kontrolearje sels beammen en
+nije gebouwen, nim dan in companion mei nei it plak en sjoch hokker
+repeaters er heart.
+
+![Line of Sight yn de MeshCore-app: de grûn tusken 2 punten, en de romte dy't it sinjaal dêrboppe nedich hat](/media/guides/line-of-sight.webp)
+
+![Antenna Coverage yn de MeshCore-app: it gebiet dat in antenne op in heuvel berikke kin, op in kaart](/media/guides/antenna-coverage.webp)
 
 ## Hardware {#hardware}
 

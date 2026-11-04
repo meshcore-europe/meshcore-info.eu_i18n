@@ -6,11 +6,11 @@ description: Карти на MeshCore в реално време, карти н�
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '351071aa'
-  seeded: '2026-11-02'
+  source_hash: '24bfdf6b'
+  seeded: '2026-11-04'
   fields: {title: '4b9f20a0', lead: 'fedb89bb', description: 'b5719f82'}
-  sections: ['351071aa']
-  blocks: ['dd5f039e', '9d4a2ad8', '70c417f2', '9fef7e16']
+  sections: ['24bfdf6b']
+  blocks: ['dd5f039e', '9d4a2ad8', '763fc710', '70c417f2', '9fef7e16']
 ---
 
 Възелът се появява на тези карти, когато собственикът му го публикува или когато го чуе
@@ -22,6 +22,9 @@ translation:
 Възелът стои на картата там, където го е поставил собственикът му. Това място може да е грешно или
 остаряло. Flood съобщението минава по няколко пътя едновременно. Маршрутът на картата е пътят
 на копието, което е пристигнало първо. Останалите пътища не се записват.
+
+Маршрут на картата изглежда неправдоподобен? Провери 2 от възлите му с Line of Sight
+в приложението MeshCore. [Ръководството за ретранслатори](/repeater-guide/#check-site) показва как.
 
 Тези карти не могат без интернет, а мрежата може. [Защо](/network/)
 

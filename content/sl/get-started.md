@@ -6,11 +6,11 @@ eyebrow: 6 korakov · MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0c1b08d9'
-  seeded: '2026-11-03'
+  source_hash: '0490a311'
+  seeded: '2026-11-04'
   fields: {title: '61e8d44a', lead: '45b0e5c3', description: 'cf031b18', eyebrow: '4fa6fe1e'}
-  sections: ['16c3728c', '90f3d626', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
-  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '757c634a', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
+  sections: ['16c3728c', '5b6d136a', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', '1741ed35', '66d00206']
+  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', 'e90b7859', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', '53276869', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
 ---
 
 Ti koraki veljajo za vdelano programsko opremo MeshCore v1.18.0 in uradna orodja
@@ -26,8 +26,8 @@ izbereš model z lastnim zaslonom in tipkovnico, ki deluje samostojno.
 Kupi različico za 868 MHz. Priložena antena zadostuje, v
 [vodniku po antenah](/guides/antenna/) pa piše, kako anteno preveriš.
 
-Na tvoji plošči zdaj teče Meshtastic? Ko naložiš MeshCore, ga s tem zamenjaš, sistema pa med seboj ne komunicirata.
-V razdelku [Prehod z Meshtastica](/about/#meshtastic) piše, kaj deluje drugače.
+Na tvoji plošči zdaj teče Meshtastic? Ko naložiš MeshCore, ta zamenja Meshtastic,
+sistema pa med seboj ne komunicirata.
 
 {{< callout type="warning" >}}
 Anteno priklopi, preden vklopiš radio. Radio LoRa, ki oddaja brez antene,
@@ -88,19 +88,20 @@ prednastavitev ne zahteva posodobitve aplikacije.
 
 ## 6. Pozdravi {#hello}
 
-1. **Predstavi se.** V aplikaciji pošlji *advert* (objavo svojega vozlišča). Advert tipa
-   „flood“ potuje prek repetitorjev (vozlišč, ki posredujejo sporočila), zato te lahko
-   doda vsak v omrežju mesh.
-   Companioni se nikoli ne predstavijo samodejno.
-2. **Poišči druge.** Ljudje se prikažejo med tvojimi stiki, ko te dosežejo njihovi
-   adverti. Repetitorji privzeto pošljejo advert flood vsakih 47 ur, zato se lahko
-   seznam polni 2 dni.
-3. **Pošlji sporočilo.** Odpri stik in piši. Prvo sporočilo preplavi omrežje. Prejemnik
-   nato sporoči pot, po kateri je prišlo, in naslednja sporočila gredo po tej poti.
-4. **Pridruži se kanalom.** Kanal **Public** je že nastavljen, kar napišeš vanj, pa
-   doseže vse v omrežju mesh. Dodaj *kanal s ključnikom* svoje regije (ime se začne
-   z `#`), tako da vtipkaš njegovo ime. Tvoja [lokalna skupina](/community/) ti bo
-   povedala, kateri kanali so aktivni.
+1. **Najavi se.** V aplikaciji pošlji *najavo*. Najava s »poplavljanjem« potuje prek
+   repetitorjev (vozlišč, ki sporočila posredujejo naprej), zato te lahko doda
+   vsak v mreži.
+   Companioni se nikoli ne najavijo samodejno.
+2. **Poišči druge.** Ljudje se prikažejo med tvojimi stiki, ko te dosežejo njihove najave.
+   Repetitorji privzeto pošljejo najavo s poplavljanjem vsakih 47 ur. Zato lahko traja
+   2 dni, da se tvoj seznam napolni.
+3. **Pošlji sporočilo.** Odpri stik in piši. Prvo sporočilo se po omrežju razširi s poplavljanjem.
+   Prejemnik ti sporoči pot, po kateri je prišlo, in poznejša sporočila gredo po tej poti.
+4. **Pridruži se kanalom.** Kanal **Public** je že nastavljen. Vse, kar napišeš tam,
+   doseže vse v mreži. Dodaj *kanal s ključnikom* svoje regije (ime se začne z `#`):
+   vtipkaj njegovo ime. Tvoja [lokalna skupina](/community/) ti bo povedala,
+   kateri kanali so dejavni.
+   Bi jih rad spoznal v živo? Oglej si [srečanja](/meetings/) v svoji bližini.
 
 ## Ko kaj ne deluje {#troubleshooting}
 

@@ -6,11 +6,11 @@ eyebrow: 868 MHz · hyd at 500 mW · heb drwydded
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '7c7e3be3'
-  seeded: '2026-11-02'
+  source_hash: '3e38a8c6'
+  seeded: '2026-11-04'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '766086be', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', '6a7c4493', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
 ---
 
 Ailadroddyddion sy'n cynnal y rhwydwaith mesh. Dydy cymdeithion (companions), y radios rwyt ti'n anfon negeseuon ohonyn nhw, ddim yn anfon negeseuon ymlaen. Heb ailadroddyddion, dim ond pobl o fewn amrediad uniongyrchol y gelli di eu cyrraedd. Mae ailadroddydd yn y lle iawn yn ymestyn y mesh i bawb o'i gwmpas. Mae'r canllaw hwn yn dilyn cadarnwedd MeshCore v1.18.0.
@@ -30,11 +30,36 @@ Gosoda ailadroddydd lle mae bwlch yn y ddarpariaeth:
 
 Mae uchder yn bwysicach na phŵer. Mae LoRa ar 868 MHz yn teithio orau ar hyd llinell welediad glir. Mae bryniau, adeiladau a choed trwchus yn costio llawer mwy o gyrhaeddiad nag y mae ychydig o filiwatiau ychwanegol yn ei ennill yn ôl.
 
-- **Dos yn uchel.** Mae to, mast, adeilad tal neu fryn yn cyrraedd llawer pellach na sil ffenest. Mae hyd yn oed ychydig fetrau uwchben y toeau cyfagos yn helpu.
-- **Cadwa'r antena'n glir.** Gosoda hi uwchben ymylon y to, i ffwrdd o fetel, cafnau ac antenâu eraill.
-- **Gwiria'r olygfa.** Mae offer fel [HeyWhatsThat](https://www.heywhatsthat.com/) yn dangos beth sydd i'w weld o leoliad. Os gelli di weld man, mae ailadroddydd yno o fewn cyrraedd.
-- **Gad le gwag.** Mae angen rhywfaint o le gwag ar lwybr radio o gwmpas y llinell uniongyrchol, nid y llinell ei hun yn unig. Dros bellteroedd hir, dylai canol y llwybr glirio rhwystrau o sawl metr.
-- **Gofynna am ganiatâd.** Sicrha ganiatâd y perchennog ar gyfer y to neu'r mast, a chytuna sut byddi di'n cyrraedd yr ailadroddydd ar gyfer gwaith cynnal.
+- **Dos yn uchel.** Mae to, mast, adeilad tal neu fryn yn cwmpasu llawer mwy na sil ffenest. Mae hyd yn oed ychydig fetrau uwchben y toeau o gwmpas yn helpu.
+- **Cadwa'r antena yn glir.** Gosoda hi uwchben ymylon y to, i ffwrdd o fetel, cafnau ac antenâu eraill.
+- **Gwiria'r olygfa.** Mae offer fel [HeyWhatsThat](https://www.heywhatsthat.com/) yn dangos beth sydd i'w weld o leoliad. Mae ap MeshCore yn [cyfrifo beth y gall ailadroddydd yno ei gyrraedd](#check-site).
+- **Gad le clir.** Mae angen gofod rhydd ar lwybr radio o gwmpas y llinell uniongyrchol, nid y llinell ei hun yn unig. Ar 868 MHz, mae'r gofod hwnnw tua 20 m o amgylch canol llwybr 5 km. Dros 20 km, mae tua 40 m.
+- **Gofyn am ganiatâd.** Sicrha ganiatâd y perchennog ar gyfer y to neu'r mast, a chytuna sut y byddi di'n cyrraedd yr ailadroddydd i'w gynnal a'i gadw.
+
+### Gwirio safle yn yr ap {#check-site}
+
+Mae gan fersiwn 1.33 neu ddiweddarach o ap MeshCore yr offer hyn o dan **Tools** yn
+ei ddewislen. Maen nhw'n gweithio heb radio wedi'i gysylltu.
+
+- Mae **Line of Sight** yn llunio'r tir rhwng 2 bwynt, a'r gofod sydd ei angen ar y
+  signal uwch ei ben. Pwysa'n hir ar 2 bwynt ar y map, neu tapia ailadroddyddion.
+- Mae **Antenna Coverage** yn dangos ar y map beth all antena ar 1 pwynt ei gyrraedd.
+  Pwysa'n hir ar bwynt neu tapia ailadroddydd. Ychwanega ragor o bwyntiau i gymharu safleoedd.
+
+Ar gyfrifiadur, dewisa **Add Point** yn newislen yr offeryn a theipia'r cyfesurynnau.
+
+Mae'r ddau offeryn yn rhoi'r antena ar dy safle ar 5 m i ddechrau, felly gosod
+yr uchder rwyt ti'n ei fwriadu yng ngosodiadau'r offeryn. Mae Antenna Coverage yn rhoi antena
+derbyn ar 1 m i ddechrau. Heb radio wedi'i gysylltu, mae Line of Sight yn dechrau ar 915 MHz: gosod
+amledd dy [ragosodiad](/guides/settings/) yn ei osodiadau.
+
+Mae'r offer yn cyfrifo ar sail data uchder, a dydyn nhw ddim yn profi dy radio. Gwiria goed ac
+adeiladau newydd dy hun, yna cer â chydymaith i'r fan a gweld pa
+ailadroddyddion mae'n eu clywed.
+
+![Line of Sight yn ap MeshCore: y tir rhwng 2 bwynt, a'r gofod sydd ei angen ar y signal uwch ei ben](/media/guides/line-of-sight.webp)
+
+![Antenna Coverage yn ap MeshCore: yr ardal y gall antena ar fryn ei chyrraedd, ar fap](/media/guides/antenna-coverage.webp)
 
 ## Caledwedd {#hardware}
 

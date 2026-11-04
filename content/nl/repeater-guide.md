@@ -6,11 +6,11 @@ eyebrow: 868 MHz · tot 500 mW · licentievrij
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '7c7e3be3'
-  seeded: '2026-11-02'
+  source_hash: '3e38a8c6'
+  seeded: '2026-11-04'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '766086be', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', '6a7c4493', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
 ---
 
 De mesh draait op repeaters. Companions, de radio's waarmee je berichten stuurt, geven berichten niet door. Zonder repeaters kom je dus alleen bij mensen in je directe bereik. Een repeater op de juiste plek vergroot de mesh voor iedereen in de omgeving. Deze gids gaat uit van MeshCore-firmware v1.18.0.
@@ -30,11 +30,44 @@ Plaats een repeater waar dekking ontbreekt:
 
 Hoogte weegt zwaarder dan vermogen. LoRa op 868 MHz komt het verst langs een vrije zichtlijn. Heuvels, gebouwen en dichte bomen kosten veel meer bereik dan een paar extra milliwatt kunnen goedmaken.
 
-- **Ga hoog.** Vanaf een dak, een mast, een hoog gebouw of een heuvel dek je veel meer dan vanaf een vensterbank. Zelfs een paar meter boven de omliggende daken helpt al.
-- **Houd de antenne vrij.** Monteer hem boven de dakranden, uit de buurt van metaal, dakgoten en andere antennes.
-- **Controleer het uitzicht.** Met tools zoals [HeyWhatsThat](https://www.heywhatsthat.com/) zie je wat vanaf een locatie zichtbaar is. Als je een plek kunt zien, ligt een repeater daar binnen bereik.
-- **Houd ruimte vrij.** Een radiopad heeft wat vrije ruimte rond de directe lijn nodig, niet alleen de lijn zelf. Over lange afstanden moet het midden van het pad enkele meters boven obstakels blijven.
-- **Vraag toestemming.** Regel toestemming van de eigenaar voor het dak of de mast, en spreek af hoe je voor onderhoud bij de repeater komt.
+- **Ga hoog.** Een dak, een mast, een hoog gebouw of een heuvel bestrijkt veel meer
+  dan een vensterbank. Zelfs een paar meter boven de omliggende daken helpt al.
+- **Houd de antenne vrij.** Monteer hem boven de dakrand, uit de buurt van
+  metaal, dakgoten en andere antennes.
+- **Bekijk het uitzicht.** Tools zoals [HeyWhatsThat](https://www.heywhatsthat.com/)
+  laten zien wat je vanaf een plek kunt zien. De MeshCore-app
+  [berekent wat een repeater daar kan bereiken](#check-site).
+- **Zorg voor vrije ruimte.** Een radiopad heeft vrije ruimte rond de directe lijn nodig,
+  niet alleen de lijn zelf. Op 868 MHz is die ruimte ongeveer 20 m rond het
+  midden van een pad van 5 km. Bij 20 km is dat ongeveer 40 m.
+- **Vraag toestemming.** Vraag de eigenaar toestemming voor het dak of de mast,
+  en spreek af hoe je de repeater bereikt voor onderhoud.
+
+### Een locatie controleren in de app {#check-site}
+
+In versie 1.33 of later van de MeshCore-app staan deze tools in het menu onder
+**Tools**. Ze werken zonder verbonden radio.
+
+- **Line of Sight** tekent het terrein tussen 2 punten en de ruimte die het
+  signaal daarboven nodig heeft. Druk lang op 2 punten op de kaart, of tik op repeaters.
+- **Antenna Coverage** laat op de kaart zien wat een antenne op 1 punt kan bereiken.
+  Druk lang op een punt of tik op een repeater. Voeg meer punten toe om locaties te vergelijken.
+
+Op een computer kies je **Add Point** in het menu van de tool en typ je de coördinaten in.
+
+Beide tools gaan uit van een antenne op jouw locatie op 5 m. Stel daarom in
+de instellingen van de tool de hoogte in die je wilt gebruiken. Antenna
+Coverage gaat uit van een ontvangende antenne op 1 m. Zonder aangesloten radio
+gaat Line of Sight uit van 915 MHz: stel in de instellingen de frequentie van
+je [preset](/guides/settings/) in.
+
+De tools rekenen met hoogtegegevens en testen je radio niet. Controleer zelf bomen en
+nieuwe gebouwen. Neem daarna een companion mee naar de plek en kijk welke
+repeaters hij hoort.
+
+![Line of Sight in de MeshCore-app: het terrein tussen 2 punten en de ruimte die het signaal daarboven nodig heeft](/media/guides/line-of-sight.webp)
+
+![Antenna Coverage in de MeshCore-app: het gebied dat een antenne op een heuvel kan bereiken, op een kaart](/media/guides/antenna-coverage.webp)
 
 ## Hardware {#hardware}
 
@@ -70,7 +103,7 @@ Een uitgewerkt voorbeeld, met aangenomen getallen: een repeater die 1 Wh per dag
 | Zendvermogen van de radiochip, in dBm | `set tx <dBm>` |
 | Positie, zodat de repeater op kaarten verschijnt | `set lat <degrees>` en `set lon <degrees>` |
 | Contactgegevens voor andere beheerders | `set owner.info <text>` |
-| Uren tussen flood-advertenties, de advertenties die de hele mesh hoort | `set flood.advert.interval <hours>` |
+| Uren tussen flood-adverts, de adverts die de hele mesh hoort | `set flood.advert.interval <hours>` |
 | Nu aankondigen | `advert` |
 | Herstarten | `reboot` |
 

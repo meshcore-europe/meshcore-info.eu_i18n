@@ -6,11 +6,11 @@ eyebrow: 868 MHz · gehienez 500 mW · lizentziarik gabe
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '7c7e3be3'
-  seeded: '2026-11-02'
+  source_hash: '3e38a8c6'
+  seeded: '2026-11-04'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '766086be', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', '6a7c4493', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
 ---
 
 Errepikagailuek eusten diote mesh sareari. Companion gailuek, mezuak bidaltzeko erabiltzen dituzun irratiek, ez dituzte mezuak birbidaltzen. Beraz, errepikagailurik gabe, zuzeneko irismenean dagoen jendearengana bakarrik iristen zara. Toki egokian jarritako errepikagailuak inguruko guztientzat zabaltzen du sarea. Gida honek MeshCore firmwarearen v1.18.0 bertsioa hartzen du oinarritzat.
@@ -30,11 +30,28 @@ Jarri errepikagailua estaldura falta den tokian:
 
 Altuerak potentziak baino gehiago balio du. 868 MHz bandan, LoRa seinalea ikusmen-lerro garbian hedatzen da ondoen. Muinoek, eraikinek eta zuhaitz trinkoek irismen asko kentzen dute, milliwatt gehigarri batzuek berreskuratzen dutena baino askoz gehiago.
 
-- **Jarri goian.** Teilatu batek, masta batek, eraikin altu batek edo muino batek leiho-ertz batek baino askoz eremu handiagoa estaltzen du. Inguruko teilatuen gainetik metro batzuk igotzeak ere laguntzen du.
-- **Utzi antena oztoporik gabe.** Muntatu teilatu-ertzen gainetik, metaletatik, euri-kanaletatik eta beste antenetatik urrun.
-- **Egiaztatu ikuspegia.** [HeyWhatsThat](https://www.heywhatsthat.com/) bezalako tresnek erakusten dute toki batetik zer ikusten den. Toki bat ikusten baduzu, han dagoen errepikagailua irismenean duzu.
-- **Utzi tartea.** Irrati-bideak leku librea behar du lerro zuzenaren inguruan ere, ez lerroan bakarrik. Distantzia luzeetan, bidearen erdialdeak metro batzuetako tartea izan behar du oztopoen gainetik.
+- **Igo gora.** Teilatu batek, masta batek, eraikin altu batek edo muino batek leiho-ertz batek baino askoz eremu handiagoa estaltzen du. Inguruko teilatuen gainetik metro gutxi batzuk igotzeak ere laguntzen du.
+- **Eduki antena oztoporik gabe.** Jarri teilatu-ertzen gainetik, eta metaletik, euri-hodietatik eta beste antenetatik urrun.
+- **Egiaztatu ikuspegia.** [HeyWhatsThat](https://www.heywhatsthat.com/) bezalako tresnek erakusten dute toki batetik zer ikus daitekeen. MeshCore aplikazioak [kalkulatzen du hor jarritako errepikagailu bat noraino irits daitekeen](#check-site).
+- **Utzi tartea.** Irrati-bide batek lerro zuzena ez ezik, haren inguruko espazioa ere libre behar du. 868 MHz-en, espazio hori 20 m ingurukoa da 5 km-ko bide baten erdialdean. 20 km-ko bidean, 40 m ingurukoa da.
 - **Eskatu baimena.** Lortu teilatuaren edo mastaren jabearen baimena, eta adostu nola iritsiko zaren errepikagailura mantentze-lanak egiteko.
+
+### Egiaztatu toki bat aplikazioan {#check-site}
+
+MeshCore aplikazioak 1.33 bertsiotik aurrera tresna hauek ditu menuko **Tools** atalean. Irratirik konektatu gabe ere funtzionatzen dute.
+
+- **Line of Sight** tresnak 2 punturen arteko lurra marrazten du, baita seinaleak haren gainean behar duen espazioa ere. Sakatu luze mapako 2 puntu, edo ukitu errepikagailuak.
+- **Antenna Coverage** tresnak mapan erakusten du 1 puntuko antena bat noraino irits daitekeen. Sakatu luze puntu bat edo ukitu errepikagailu bat. Gehitu puntu gehiago tokiak alderatzeko.
+
+Ordenagailuan, tresnaren menuan, aukeratu **Add Point** eta idatzi koordenatuak.
+
+Bi tresnek 5 m-ko altueran jartzen dute zure kokalekuko antena hasieran. Beraz, ezarri tresnaren ezarpenetan aurreikusten duzun altuera. Antenna Coverage tresnak 1 m-ko altueran jartzen du harrera-antena hasieran. Irratirik konektatu gabe, Line of Sight tresnak 915 MHz erabiltzen du hasieran: ezarri zure [presetaren](/guides/settings/) maiztasuna haren ezarpenetan.
+
+Tresnek altuera-datuetan oinarrituta kalkulatzen dute, eta ez dute zure irratia probatzen. Egiaztatu zuk zeuk zuhaitzak eta eraikin berriak. Ondoren, eraman companion gailu bat tokira eta ikusi zein errepikagailu entzuten dituen.
+
+![MeshCore aplikazioko Line of Sight: 2 punturen arteko lurra, eta seinaleak haren gainean behar duen espazioa](/media/guides/line-of-sight.webp)
+
+![Antenna Coverage MeshCore aplikazioan: muino batean dagoen antena batek estal dezakeen eremua, mapa batean](/media/guides/antenna-coverage.webp)
 
 ## Hardwarea {#hardware}
 

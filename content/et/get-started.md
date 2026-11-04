@@ -6,11 +6,11 @@ eyebrow: 6 sammu · MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0c1b08d9'
-  seeded: '2026-11-02'
+  source_hash: '0490a311'
+  seeded: '2026-11-04'
   fields: {title: '61e8d44a', lead: '45b0e5c3', description: 'cf031b18', eyebrow: '4fa6fe1e'}
-  sections: ['16c3728c', '90f3d626', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
-  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '757c634a', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
+  sections: ['16c3728c', '5b6d136a', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', '1741ed35', '66d00206']
+  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', 'e90b7859', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', '53276869', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
 ---
 
 Need sammud põhinevad MeshCore'i püsivara versioonil v1.18.0 ja 2026. aasta oktoobri ametlikel tööriistadel. Rakenduse menüüde nimed võivad versiooniti veidi erineda.
@@ -21,7 +21,7 @@ Sobib iga plaat, mille juures [seadmete lehel](/devices/) on märgitud companion
 
 Võta 868 MHz versioon. Kaasasolev antenn sobib. [Antennijuhendist](/guides/antenna/) näed, kuidas antenni kontrollida.
 
-Kas sinu plaadil töötab praegu Meshtastic? MeshCore'i paigaldades asendad selle ja need kaks omavahel ei suhtle. Jaotisest [Meshtasticult tulijale](/about/#meshtastic) leiad, mis töötab teisiti.
+Kas sinu plaadil töötab praegu Meshtastic? Kui kirjutad plaadile MeshCore'i, asendab see Meshtasticu ja need kaks ei suhtle omavahel.
 
 {{< callout type="warning" >}}
 Ühenda antenn enne raadio sisselülitamist. LoRa-raadio võib ilma antennita saates oma kiipi kahjustada.
@@ -61,11 +61,12 @@ Sa pole kindel? Sinu [kohalik grupp](/community/) teab, millist eelseadistust si
 
 ## 6. Ütle tere {#hello}
 
-1. **Anna endast teada.** Saada rakendusest *advert*. „Flood“-advert liigub repeaterite (sõlmede, mis sõnumeid edasi saadavad) kaudu, nii et kõik võrgus olijad saavad sind lisada.
-   Companionid ei anna endast kunagi automaatselt teada.
-2. **Leia teised.** Inimesed ilmuvad sinu kontaktidesse siis, kui nende advertid sinuni jõuavad. Repeaterid saadavad vaikimisi flood-adverti iga 47 tunni järel, seega võib loendi täitumine võtta 2 päeva.
-3. **Saada sõnum.** Ava kontakt ja kirjuta. Esimene sõnum levib üle kogu võrgu. Saaja teatab tagasi, mis teed sõnum läbis, ja hilisemad sõnumid liiguvad sama teed.
-4. **Liitu kanalitega.** Kanal **Public** on juba seadistatud ja kõik, mida sinna kirjutad, jõuab kõigini võrgus. Oma piirkonna *hashtag-kanali* (nimi algab märgiga `#`) lisamiseks sisesta selle nimi. Sinu [kohalik grupp](/community/) ütleb, millised kanalid on aktiivsed.
+1. **Anna endast teada.** Saada rakendusest *kuulutus*. "Üleujutus"-kuulutus liigub läbi repiitrite (sõlmed, mis sõnumeid edasi saadavad), nii et kõik võrgus saavad sind lisada.
+   Companionid ei anna endast kunagi ise teada.
+2. **Leia teisi.** Inimesed ilmuvad sinu kontaktidesse, kui nende kuulutused sinuni jõuavad. Repiitrid saadavad üleujutuskuulutuse vaikimisi iga 47 tunni järel, seega võib loendi täitumiseks kuluda 2 päeva.
+3. **Saada sõnum.** Ava kontakt ja kirjuta. Esimene sõnum levib võrgus üleujutusena. Saaja saadab tagasi teekonna, mida sõnum läbis, ja järgmised sõnumid liiguvad mööda seda teekonda.
+4. **Liitu kanalitega.** Kanal **Public** on juba seadistatud. Kõik, mida sinna kirjutad, jõuab kõigi võrgus olijateni. Oma piirkonna *teemaviitega kanali* (nimi algab märgiga `#`) lisamiseks sisesta selle nimi. Sinu [kohalik grupp](/community/) ütleb, millised kanalid on aktiivsed.
+   Tahad nendega silmast silma kohtuda? Vaata oma lähedal toimuvaid [kohtumisi](/meetings/).
 
 ## Kui miski ei tööta {#troubleshooting}
 

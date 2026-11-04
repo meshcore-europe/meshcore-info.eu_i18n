@@ -6,11 +6,11 @@ eyebrow: 6 pași · MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0c1b08d9'
-  seeded: '2026-11-02'
+  source_hash: '0490a311'
+  seeded: '2026-11-04'
   fields: {title: '61e8d44a', lead: '45b0e5c3', description: 'cf031b18', eyebrow: '4fa6fe1e'}
-  sections: ['16c3728c', '90f3d626', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
-  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '757c634a', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
+  sections: ['16c3728c', '5b6d136a', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', '1741ed35', '66d00206']
+  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', 'e90b7859', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', '53276869', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
 ---
 
 Pașii de mai jos se bazează pe firmware-ul MeshCore v1.18.0 și pe instrumentele oficiale
@@ -26,8 +26,8 @@ cu ecran și tastatură proprii, care funcționează singur.
 Ia versiunea de 868 MHz. Antena din pachet își face treaba. În
 [ghidul despre antene](/guides/antenna/) afli cum verifici o antenă.
 
-Pe placa ta rulează acum Meshtastic? Când instalezi MeshCore, acesta îl înlocuiește, iar cele două nu comunică între ele.
-În [Vii de la Meshtastic](/about/#meshtastic) găsești ce funcționează diferit.
+Placa ta rulează acum Meshtastic? Când instalezi MeshCore, înlocuiești Meshtastic, iar cele două
+nu comunică între ele.
 
 {{< callout type="warning" >}}
 Montează antena înainte să pornești radioul. Un radio LoRa care
@@ -88,20 +88,21 @@ nu ai nevoie de o actualizare a aplicației.
 
 ## 6. Salută {#hello}
 
-1. **Anunță-te.** Trimite un *anunț* din aplicație. Un anunț „flood” trece
-   prin repetoare (noduri care transmit mesajele mai departe). Așa te poate adăuga
-   oricine din mesh.
-   Un companion nu se anunță niciodată singur.
-2. **Găsește-i pe ceilalți.** Oamenii apar în contactele tale când anunțurile lor ajung
-   la tine. Implicit, repetoarele trimit un anunț flood la fiecare 47 de ore. De aceea, lista ta
-   se poate umple abia în 2 zile.
-3. **Trimite un mesaj.** Deschide un contact și scrie. Primul mesaj se răspândește prin flood
-   în toată rețeaua. Destinatarul îți trimite înapoi ruta pe care a venit mesajul, iar
-   mesajele următoare urmează acea rută.
-4. **Intră pe canale.** Canalul **Public** este deja configurat. Tot ce scrii acolo
-   ajunge la toată lumea din mesh. Adaugă *canalul hashtag* al regiunii tale (un nume
+1. **Anunță-te.** Trimite un *anunț* din aplicație. Un anunț „flood” trece prin
+   repetoare (noduri care transmit mesajele mai departe). Astfel, oricine
+   din mesh te poate adăuga.
+   Companion-urile nu se anunță niciodată singure.
+2. **Găsește-i pe ceilalți.** Oamenii apar în contactele tale când anunțurile lor
+   ajung la tine. Implicit, repetoarele trimit un anunț flood la fiecare 47 de ore.
+   De aceea, lista ta se poate umple abia în 2 zile.
+3. **Trimite un mesaj.** Deschide un contact și scrie. Primul mesaj se răspândește
+   în flood prin toată rețeaua. Destinatarul îți trimite înapoi ruta pe care a mers mesajul.
+   Mesajele următoare urmează acea rută.
+4. **Intră în canale.** Canalul **Public** este deja configurat. Ce scrii acolo
+   ajunge la toți cei din mesh. Adaugă *canalul hashtag* al regiunii tale (un nume
    care începe cu `#`) tastându-i numele. [Grupul tău local](/community/) îți spune
    ce canale sunt active.
+   Vrei să-i cunoști personal? Vezi [întâlnirile](/meetings/) din apropierea ta.
 
 ## Când ceva nu merge {#troubleshooting}
 

@@ -6,11 +6,11 @@ eyebrow: 6 passi · MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0c1b08d9'
-  seeded: '2026-11-02'
+  source_hash: '0490a311'
+  seeded: '2026-11-04'
   fields: {title: '61e8d44a', lead: '45b0e5c3', description: 'cf031b18', eyebrow: '4fa6fe1e'}
-  sections: ['16c3728c', '90f3d626', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
-  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '757c634a', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
+  sections: ['16c3728c', '5b6d136a', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', '1741ed35', '66d00206']
+  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', 'e90b7859', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', '53276869', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
 ---
 
 Dawn il-passi huma bbażati fuq il-firmware MeshCore v1.18.0 u l-għodod uffiċjali ta' Ottubru 2026. L-ismijiet tal-menus fl-app jistgħu jvarjaw ftit minn verżjoni għal oħra.
@@ -21,7 +21,7 @@ Tista' tuża kull bord fil-[paġna tal-apparati](/devices/) li jkollu companion 
 
 Ħu l-verżjoni ta' 868 MHz. L-antenna li tiġi mal-apparat tajba biżżejjed. Fil-[gwida tal-antenni](/guides/antenna/) issib kif tiċċekkja waħda.
 
-Il-bord tiegħek bħalissa jħaddem Meshtastic? Meta tniżżel MeshCore, dan jieħu post Meshtastic, u t-tnejn ma jikkomunikawx ma' xulxin. [Ġej minn Meshtastic](/about/#meshtastic) jelenka x'jaħdem b'mod differenti.
+Il-bord tiegħek bħalissa jħaddem Meshtastic? Meta tiflaxxja MeshCore, dan jieħu post Meshtastic, u t-tnejn ma jitkellmux ma' xulxin.
 
 {{< callout type="warning" >}}
 Waħħal l-antenna qabel ma tixgħel ir-radju. Radju LoRa li jittrasmetti mingħajr antenna jista' jagħmel ħsara liċ-ċippa tiegħu stess.
@@ -61,11 +61,21 @@ M'intix ċert? Il-[grupp lokali tiegħek](/community/) jaf liema preset tuża ż
 
 ## 6. Sellem {#hello}
 
-1. **Ħabbar lilek innifsek.** Ibgħat *advert* mill-app. Advert "flood" jgħaddi mir-repeaters (nodes li jgħaddu l-messaġġi), biex kulħadd fuq il-mesh ikun jista' jżidek.
-   Il-companions qatt ma jħabbru lilhom infushom awtomatikament.
-2. **Sib lil ħaddieħor.** In-nies jidhru fil-kuntatti tiegħek meta l-adverts tagħhom jaslu għandek. Skont is-settings standard, ir-repeaters jibagħtu flood advert kull 47 siegħa, għalhekk il-lista tiegħek tista' tieħu 2 jiem biex timtela.
-3. **Ibgħat messaġġ.** Iftaħ kuntatt u ikteb. L-ewwel messaġġ jinxtered fin-netwerk kollu b'flood. Min jirċevih jirrapporta lura r-rotta li ħa, u l-messaġġi ta' wara jsegwu dik ir-rotta.
-4. **Ingħaqad mal-kanali.** Il-kanal **Public** huwa diġà konfigurat, u dak kollu li tikteb hemm jasal għand kulħadd fuq il-mesh. Żid il-*hashtag channel* tar-reġjun tiegħek (isem li jibda b'`#`) billi tikteb ismu. Il-[grupp lokali tiegħek](/community/) jgħidlek liema kanali huma attivi.
+1. **Ħabbar lilek innifsek.** Ibgħat *advert* mill-app. Advert "flood"
+   jgħaddi mir-repeaters (nodes li jgħaddu l-messaġġi lil ħaddieħor), u
+   għalhekk kulħadd fuq il-mesh jista' jżidek.
+   Il-companions qatt ma jħabbru lilhom infushom waħedhom.
+2. **Sib lil ħaddieħor.** In-nies jidhru fil-kuntatti tiegħek meta l-adverts
+   tagħhom jaslu għandek. Ir-repeaters jibagħtu advert flood kull 47 siegħa
+   awtomatikament, għalhekk il-lista tiegħek tista' tieħu 2 ijiem biex timtela.
+3. **Ibgħat messaġġ.** Iftaħ kuntatt u ikteb. L-ewwel messaġġ jagħmel flood
+   fin-netwerk. Ir-riċevitur jibgħatlek lura r-rotta li ħa, u l-messaġġi ta'
+   wara jimxu fuq dik ir-rotta.
+4. **Ingħaqad ma' kanali.** Il-kanal **Public** diġà lest: kull ma tikteb
+   hemm jasal għand kulħadd fuq il-mesh. Żid il-*kanal hashtag* tar-reġjun
+   tiegħek (isem li jibda b'`#`) billi tikteb ismu. Il-[grupp lokali
+   tiegħek](/community/) jgħidlek liema kanali huma attivi.
+   Trid tiltaqa' magħhom wiċċ imb wiċċ? Ara l-[laqgħat](/meetings/) qrib tiegħek.
 
 ## Meta xi ħaġa ma taħdimx {#troubleshooting}
 

@@ -13,8 +13,6 @@ translation:
   blocks: ['35d65281', 'dfcd0f46']
 ---
 
-Kanaal: "kanaal". Group chat: "groepsgesprek".
-
 In kanaal is in groepsgesprek op it mesh. In kanaal wêrfan't de namme begjint mei #
 hellet syn kaai út dy namme. Foegje yn de MeshCore-app in hashtagkanaal ta en
 typ de namme, mei de #. It kanaal Public stiet al klear.

@@ -1,16 +1,16 @@
 ---
 title: O que é o MeshCore?
 lead: O MeshCore envia mensagens de texto por rádio, de nó em nó. Funciona sem internet e sem assinatura.
-description: 'O que o MeshCore é e não é: tipos de nó, encaminhamento, diferenças face ao Meshtastic, encriptação e a banda de 868 MHz.'
+description: 'O que o MeshCore é e não é: tipos de nó, encaminhamento, encriptação e a banda de 868 MHz.'
 eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '279b56a4'
-  seeded: '2026-11-02'
-  fields: {title: '06eda66b', lead: 'c0174569', description: '15e6d2a7', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '16fde264', '0a55792c', 'c3de803d', '493b444f', 'a8b2b9b4', '429f699c', 'f8008f48', '88af2bd3', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'fab378a5', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', 'fc8f3129', '8dec428a', '07cbac35', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '95e18f18', '02f1fe2f', 'e6b5b258']
+  source_hash: '2a40da22'
+  seeded: '2026-11-04'
+  fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
+  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
 ---
 
 O MeshCore é software livre para pequenos rádios LoRa. O LoRa é uma técnica de
@@ -28,32 +28,31 @@ MIT.
 És novo no mundo da rádio? Estas são as coisas que as pessoas mais vezes
 esperam do MeshCore e que ele não faz.
 
-- **Não é a internet nem um telefone.** O MeshCore envia mensagens de texto curtas,
-  mais ou menos do tamanho de uma mensagem de texto no teu telemóvel. Não há voz, fotos, vídeo
-  nem sites, e não consegues contactar um número de telefone normal.
-- **Não é um serviço de emergência.** Nenhum serviço de emergência está à escuta na
-  mesh, e ninguém garante que alguém leia a tua mensagem. Numa
-  emergência, liga para o 112.
-- **Não é instantâneo nem chega a todo o lado.** Uma mensagem salta de rádio em
-  rádio e pode demorar alguns segundos, ou nem sequer chegar. Chegar ou não depende dos
-  repetidores à tua volta, da altura, dos edifícios e da tua
-  antena. Um rádio pequeno dentro de casa muitas vezes não chega a ninguém; um repetidor num telhado
-  alcança quilómetros.
-- **Não é um serviço que alguém gere por ti.** Não há fornecedor, apoio técnico
-  nem promessa de cobertura. A mesh existe onde pessoas da
-  comunidade instalaram repetidores, e em mais lado nenhum.
-- **Nem tudo o que lá circula é privado.** As mensagens diretas são cifradas, mas
-  qualquer pessoa pode ler o Public e os canais hashtag, e todos os que estão ao alcance veem
-  o nome do teu nó e a posição que partilhas.
-  Os [observadores](/network/) enviam para mapas públicos o que ouvem. A
-  [secção sobre cifragem](#encryption) explica o que continua privado.
-- **Não é ilimitado.** Numa zona, todos partilham um único canal de rádio, e
-  as regras da [banda de 868 MHz](#band) limitam o tempo de emissão de cada rádio.
-  Cada mensagem tira tempo de emissão a todos os outros, por isso bots, anúncios frequentes
-  e mensagens de teste tornam a mesh mais lenta para todos.
-- **Não é o Meshtastic.** O Meshtastic é um sistema diferente que corre praticamente
-  nas mesmas placas. Os dois não conseguem comunicar entre si.
-  [Vens do Meshtastic](#meshtastic) lista o que funciona de forma diferente.
+- **Não é a internet nem um telemóvel.** O MeshCore envia mensagens de texto
+  curtas, mais ou menos do tamanho de um SMS no teu telemóvel. Não há voz,
+  fotos, vídeo nem sites, e não consegues contactar um número de telefone
+  normal.
+- **Não é um serviço de emergência.** Nenhum serviço de emergência promete
+  estar à escuta na mesh, e ninguém promete que alguém leia a tua mensagem.
+- **Não é instantâneo, nem chega a todo o lado.** Uma mensagem salta de rádio
+  em rádio e pode demorar alguns segundos, ou nem sequer chegar. Se passa ou
+  não depende dos repetidores à tua volta, da altura, dos edifícios e da tua
+  antena. Um rádio pequeno dentro de casa muitas vezes não chega a ninguém; um
+  repetidor num telhado alcança quilómetros.
+- **Não é um serviço que alguém gere por ti.** Não há fornecedor, apoio ao
+  cliente nem promessa de cobertura. A mesh existe onde pessoas da comunidade
+  instalaram repetidores.
+- **Nem tudo o que lá está é privado.** As mensagens diretas são cifradas, mas
+  qualquer pessoa pode ler o canal Public e os canais com hashtag. O nome do
+  teu nó e a posição que partilhas são visíveis para todos ao alcance.
+  Os [observadores](/network/) enviam o que ouvem para mapas públicos. A
+  [secção sobre cifragem](#encryption) explica o que fica privado.
+- **Não é ilimitado.** Na mesma zona, todos partilham um único canal de rádio, e as
+  regras da [banda de 868 MHz](#band) limitam quanto tempo cada rádio pode
+  emitir. Cada mensagem tira tempo de antena a todos os outros. Por isso, bots,
+  anúncios frequentes e mensagens de teste tornam a mesh mais lenta para todos.
+- **Não é o Meshtastic.** O Meshtastic é um sistema diferente que corre
+  praticamente nas mesmas placas. Os dois não comunicam entre si.
 
 ## A mesh num minuto {#mesh}
 
@@ -107,23 +106,6 @@ flood. Os repetidores lembram-se do que retransmitiram há pouco e descartam as
 cópias que voltam a chegar por outro caminho. Uma mensagem pode atravessar até
 64 repetidores, ou 32 quando o preset usa IDs de 2 bytes.
 
-## Se vens do Meshtastic {#meshtastic}
-
-Muitas placas correm o MeshCore ou o Meshtastic, e instalas o que quiseres. Estas são as primeiras diferenças que vais notar. Baseiam-se no MeshCore
-v1.18.0 e na documentação do Meshtastic de novembro de 2026.
-
-- **Quem retransmite as mensagens.** No MeshCore, só os repetidores o fazem; o teu
-  companion nunca o faz. No Meshtastic, o papel de cliente predefinido também
-  retransmite mensagens, a não ser que outro nó já o tenha feito.
-- **Até onde vai uma mensagem.** No MeshCore, uma mensagem pode atravessar até 64
-  repetidores. Por predefinição, o Meshtastic para ao fim de 3 saltos, e ao fim de 7 no máximo.
-- **Leituras de outros nós.** No MeshCore, os repetidores e os nós sensores enviam
-  leituras como a tensão da bateria quando as pedes. Não as enviam para toda a mesh.
-- **A internet.** O firmware do MeshCore não tem ligação entre meshes pela
-  internet. Os [observadores](/network/) enviam aos mapas o que ouvem, só num
-  sentido. O Meshtastic tem um módulo MQTT integrado
-  que pode transportar mensagens entre meshes pela internet.
-
 ## Encriptação e privacidade {#encryption}
 
 As tuas mensagens diretas são encriptadas de ponta a ponta: só tu e a outra
@@ -162,17 +144,49 @@ outros. Alguns países e regiões usam uma variante: o teu
 
 - Manter o contacto em caminhadas, no mar e em festivais onde a rede móvel
   está sobrecarregada ou não existe.
-- Um canal de reserva para a família ou os vizinhos quando a eletricidade ou as
+- Um canal de reserva para a família ou os vizinhos quando a energia ou as
   redes móveis falham.
-- Conversas locais em rádios que são das próprias pessoas.
-- Verificar um local remoto a partir de casa. Os repetidores e os nós sensores
-  enviam a tensão da bateria e outras leituras quando as pedes.
-- Acompanhar um sensor. Um nó sensor usa o firmware do MeshCore para fazer
-  medições. Guarda um histórico das leituras. Se fizeres a subscrição, avisa-te,
-  por exemplo quando a bateria está a ficar fraca.
+- Uma reserva para as autoridades locais quando as suas redes habituais falham.
+- Conversas locais em rádios que as pessoas têm de seu.
+- Manter uma equipa de busca e salvamento em contacto onde não há rede móvel.
+  O MeshCore SAR, uma app da comunidade em [Projetos](/projects/), acrescenta
+  mapas e localizações partilhadas.
+- Verificar um local remoto a partir de casa. Os repetidores e os nós de
+  sensores enviam a tensão da bateria e outras leituras quando lhes pedires.
+- Vigiar um sensor. Um nó de sensor corre o firmware do MeshCore para fazer
+  medições. Guarda um histórico da tensão da bateria. Se entrares como admin,
+  avisa-te quando a bateria estiver fraca. Para outras leituras, acrescentas
+  os avisos com o teu próprio código.
 - Ligar ou desligar algo à distância, como uma bomba. Acrescentas isso ao
   firmware do sensor com o teu próprio código.
-- Fazer experiências com rádio, antenas, energia solar e software open source.
+- Fazer experiências com rádio, antenas, energia solar e software de código
+  aberto.
+
+Algumas autoridades estão a montar ou a testar um sistema de reserva baseado no MeshCore.
+Verificámos estes exemplos em novembro de 2026.
+
+- O ciclone Gabrielle cortou todas as comunicações em Tairāwhiti, na Nova
+  Zelândia. Em setembro de 2025, a proteção civil da região indicou o MeshCore
+  como [uma de pelo menos 6 formas alternativas de comunicar](https://www.scoop.co.nz/stories/AK2509/S00669.htm).
+  Também estava a instalar repetidores solares como espinha dorsal da rede.
+- O distrito alemão de Bad Kissingen
+  [está a montar uma rede de texto com o MeshCore](https://www.landkreis-badkissingen.de/wirtschaft/digitalisierung/kommunikationsnetze/index.html)
+  para as autoridades, os serviços de emergência e as infraestruturas críticas. Os
+  quartéis de bombeiros são os primeiros a ligar-se.
+- A assembleia municipal de Hilversum, nos Países Baixos,
+  [aprovou um teste por 34 votos contra 1](https://hilversum.nl/nieuwsoverzicht/gemeenteraad-buigt-zich-over-financien),
+  com um repetidor na torre da câmara municipal. O município
+  [avalia-o no outono de 2027](https://www.spreekbuis.nl/hilversum-start-proef-met-onafhankelijk-noodcommunicatienetwerk-meshcore/).
+- Duas regiões de segurança neerlandesas, que organizam a resposta a uma crise,
+  estão a testar o MeshCore:
+  [Limburgo do Sul](https://nos.nl/nieuwsuur/artikel/2607176-communicatie-hulpdiensten-valt-uit-bij-lange-stroomstoring-oplossing-niet-in-zicht)
+  e [Drenthe](https://www.rtvdrenthe.nl/nieuws/18438486/hackerspace-drenthe-werkt-aan-een-noodnetwerk-voor-de-provincie).
+  Drenthe diz que ainda é demasiado cedo para saber como ou quando o poderá usar.
+- Em Dalfsen, também nos Países Baixos, há voluntários que
+  [levam a cabo um projeto-piloto em conjunto com os municípios](https://noodnetoverijssel.nl/).
+  Usam primeiro o rádio de voz e o MeshCore como segunda camada para texto.
+
+Ninguém te garante que alguém leia a tua mensagem na mesh perto de ti.
 
 ## De onde vêm os dados {#data}
 

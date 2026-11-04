@@ -6,11 +6,11 @@ eyebrow: 868 MHz · iki 500 mW · be licencijos
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '7c7e3be3'
-  seeded: '2026-11-02'
+  source_hash: '3e38a8c6'
+  seeded: '2026-11-04'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '766086be', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', '6a7c4493', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
 ---
 
 Kartotuvai neša tinklą. Kompanionai (radijo įrenginiai, iš kurių rašai žinutes) žinučių toliau neperduoda, todėl be kartotuvų pasieksi tik tuos žmones, kurie yra tiesioginiame ryšio nuotolyje. Tinkamoje vietoje pastatytas kartotuvas išplečia tinklą visiems aplinkui. Šis vadovas parengtas pagal MeshCore programinę įrangą v1.18.0.
@@ -30,11 +30,30 @@ Kartotuvą statyk ten, kur trūksta aprėpties:
 
 Aukštis svarbesnis už galią. LoRa signalas 868 MHz dažniu geriausiai sklinda atvira tiesioginio matomumo linija. Kalvos, pastatai ir tankūs medžiai atima kur kas daugiau nuotolio, nei susigrąžintum keliais papildomais milivatais.
 
-- **Rinkis aukštą vietą.** Stogas, stiebas, aukštas pastatas ar kalva aprėpia kur kas daugiau nei palangė. Padeda net keli metrai virš aplinkinių stogų.
-- **Palik anteną atviroje vietoje.** Tvirtink ją aukščiau stogo kraštų, atokiau nuo metalo, latakų ir kitų antenų.
-- **Patikrink matomumą.** Tokiais įrankiais kaip [HeyWhatsThat](https://www.heywhatsthat.com/) pamatysi, kas matoma iš pasirinktos vietos. Jei vietą matai, ten esantį kartotuvą pasieksi.
-- **Palik laisvos erdvės.** Radijo keliui reikia šiek tiek laisvos erdvės aplink tiesioginę liniją, ne tik pačios linijos. Dideliais atstumais kelio vidurys turėtų būti keliais metrais aukščiau už kliūtis.
-- **Paprašyk leidimo.** Gauk stogo ar stiebo savininko sutikimą ir susitark, kaip pateksi prie kartotuvo priežiūros darbams.
+- **Statyk aukštai.** Stogas, stiebas, aukštas pastatas ar kalva aprėpia kur kas daugiau nei palangė. Padeda net keli metrai virš aplinkinių stogų.
+- **Antenai palik laisvą erdvę.** Tvirtink ją aukščiau stogo kraštų, atokiau nuo metalo, latakų ir kitų antenų.
+- **Patikrink matomumą.** Tokie įrankiai kaip [HeyWhatsThat](https://www.heywhatsthat.com/) parodo, kas matyti iš tam tikros vietos. MeshCore programėlė [apskaičiuoja, ką pasiektų ten pastatytas retransliatorius](#check-site).
+- **Palik laisvą tarpą.** Radijo ryšiui reikia laisvos erdvės aplink tiesioginę liniją, ne tik pačios linijos. Esant 868 MHz dažniui, ta erdvė siekia apie 20 m aplink 5 km ryšio linijos vidurį. Kai atstumas 20 km, ji siekia apie 40 m.
+- **Paprašyk leidimo.** Gauk stogo ar stiebo savininko sutikimą ir susitark, kaip pateksi prie retransliatoriaus jį prižiūrėti.
+
+### Patikrink vietą programėlėje {#check-site}
+
+MeshCore programėlės 1.33 ir naujesnės versijos meniu šiuos įrankius rasi skiltyje **Tools**. Jie veikia ir be prijungto radijo.
+
+- **Line of Sight** nubraižo žemės paviršių tarp 2 taškų ir erdvę, kurios signalui reikia virš jo. Ilgai paspausk 2 taškus žemėlapyje arba bakstelėk retransliatorius.
+- **Antenna Coverage** žemėlapyje parodo, ką pasiektų antena 1 taške. Ilgai paspausk tašką arba bakstelėk retransliatorių. Pridėk daugiau taškų, kad palygintum vietas.
+
+Kompiuteryje įrankio meniu pasirink **Add Point** ir įvesk koordinates.
+
+Abu įrankiai iš pradžių nustato, kad antena tavo vietoje yra 5 m aukštyje, todėl įrankio nustatymuose nurodyk planuojamą aukštį. Antenna Coverage iš pradžių naudoja priimančiąją anteną 1 m aukštyje. Jei radijas neprijungtas, Line of Sight iš pradžių naudoja 915 MHz dažnį: jo nustatymuose nurodyk savo [profilio](/guides/settings/) dažnį.
+
+Įrankiai skaičiuoja pagal aukščio duomenis ir tavo radijo netikrina. Medžius ir
+naujus pastatus patikrink pats, tada nusinešk kompanioną į tą vietą ir pažiūrėk,
+kuriuos retransliatorius jis girdi.
+
+![Line of Sight MeshCore programėlėje: žemės paviršius tarp 2 taškų ir erdvė, kurios signalui reikia virš jo](/media/guides/line-of-sight.webp)
+
+![Antenna Coverage MeshCore programėlėje: žemėlapyje pažymėta sritis, kurią gali pasiekti antena ant kalvos](/media/guides/antenna-coverage.webp)
 
 ## Įranga {#hardware}
 

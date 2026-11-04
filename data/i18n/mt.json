@@ -3,7 +3,7 @@
     "language": "mt",
     "name": "Malti",
     "managed_by": "community",
-    "updated": "2026-11-02"
+    "updated": "2026-11-04"
   },
   "site_tagline": {
     "value": "Messaġġi off-grid madwar l-Ewropa",
@@ -142,6 +142,30 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "8d525e5f"
+  },
+  "short_link": {
+    "value": "Link qasir",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f44e613a"
+  },
+  "short_links_page": {
+    "value": "Paġna",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0a30a815"
+  },
+  "short_links_country": {
+    "value": "Settings għall-Ġermanja (uża l-kodiċi tal-pajjiż tiegħek)",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9f895094"
+  },
+  "short_links_area": {
+    "value": "Settings għal Limburg",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5d3b1103"
   },
   "hero_eyebrow": {
     "value": "868 MHz · Ewropa",
@@ -912,10 +936,10 @@
     "_source": "a52ace42"
   },
   "community_missing_body": {
-    "value": "Kulħadd jista' jżid grupp lokali. Iftaħ issue bl-isem, iż-żona u l-links tiegħu, u maintainer iżidu f'kull lingwa f'daqqa.",
+    "value": "Kulħadd jista' jżid grupp lokali. Iftaħ issue bl-isem, iż-żona u l-links tiegħu, u maintainer iżidu f'kull lingwa f'daqqa. Il-grupp tiegħek jaħdem ma' kunsill lokali, mal-pompieri jew mal-protezzjoni ċivili? Għidu fl-issue, b'link pubbliku, u aħna nżidu dan fid-deskrizzjoni tal-grupp tiegħek.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "a626e730"
+    "_seeded": "2026-11-04",
+    "_source": "15c70c68"
   },
   "community_missing_cta": {
     "value": "Żid il-grupp lokali tiegħek",
@@ -928,6 +952,66 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "0b6beef7"
+  },
+  "community_search_or": {
+    "value": "Jew fittex bil-kodiċi postali",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "868b07ff"
+  },
+  "community_map_label": {
+    "value": "Mappa tal-Ewropa bil-gruppi lokali",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "39852ecb"
+  },
+  "community_map_hint": {
+    "value": "Agħżel pajjiż jew tikka biex tara l-gruppi tagħha. Ċirku juri bejn wieħed u ieħor iż-żona li jkopri grupp. Tikka miftuħa hija grupp għall-pajjiż kollu.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8a99c786"
+  },
+  "community_map_credit": {
+    "value": "Data tal-mappa:",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "38bfee0b"
+  },
+  "community_map_here": {
+    "value": "Gruppi hawn",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8e5bcafb"
+  },
+  "community_map_country": {
+    "value": "Gruppi: {country}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fb89e1cc"
+  },
+  "community_map_none": {
+    "value": "Għad m'hemm l-ebda grupp lokali f'dan il-pajjiż.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f9c4a071"
+  },
+  "community_map_zoom_in": {
+    "value": "Kabbar",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0e47f09a"
+  },
+  "community_map_zoom_out": {
+    "value": "Ċekken",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "bc7b631a"
+  },
+  "community_map_reset": {
+    "value": "Il-mappa kollha",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5b8e0478"
   },
   "community_search_country": {
     "value": "Pajjiż",
@@ -2208,10 +2292,10 @@
     "_source": "9f0065e0"
   },
   "community.de-isarmesh.desc": {
-    "value": "Forum għall-utenti ta' LoRa mesh madwar Munich li jorganizza laqgħat regolari u jiddiskuti MeshCore u proġetti mesh oħra.",
+    "value": "Forum għal utenti ta' LoRa mesh madwar Munich, dwar MeshCore u proġetti mesh oħra.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "05e62cf9"
+    "_seeded": "2026-11-04",
+    "_source": "33c3e363"
   },
   "community.de-mesh-dresden.desc": {
     "value": "Grupp ta' Dresden b'artikli tekniċi fil-fond għal min iħaddem repeaters. Imexxi wkoll chat lokali għal MeshCore u proġetti mesh oħra.",
@@ -2238,10 +2322,10 @@
     "_source": "3eb31061"
   },
   "community.sk-meshcore-slovensko.desc": {
-    "value": "Paġna Slovakka tan-netwerk ospitata minn klabb tar-radju amatur ta' Bratislava, b'server Discord u laqgħat wiċċ imb wiċċ kull ġimgħa.",
+    "value": "Paġna tan-netwerk Slovakk ospitata minn klabb tar-radju amatur ta' Bratislava, b'server fuq Discord.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "950a6862"
+    "_seeded": "2026-11-04",
+    "_source": "ea102b97"
   },
   "community.pl-meshcore-polska.desc": {
     "value": "Komunità Pollakka madwar il-pajjiż kollu b'mappa tan-nodi, dokumentazzjoni bil-Pollakk u server Discord.",
@@ -2424,10 +2508,10 @@
     "_source": "2a7d4602"
   },
   "community.de-ffnw.desc": {
-    "value": "Assoċjazzjoni Freifunk li tmexxi mesh WiFi komunitarju fir-reġjun Weser-Ems mill-2013 u issa tmexxi wkoll repeaters MeshCore. Tiltaqa' kull xahar f'Oldenburg.",
+    "value": "Assoċjazzjoni Freifunk li tħaddem mesh WiFi komunitarju fir-reġjun ta' Weser-Ems mill-2013 u issa tħaddem ukoll repeaters ta' MeshCore.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "abb2138f"
+    "_seeded": "2026-11-04",
+    "_source": "6fd9acc0"
   },
   "community.de-meshcore-dresden.desc": {
     "value": "Grupp li qed jibni network MeshCore f'Dresden u fl-inħawi, bir-reġjuni u l-kanali elenkati.",
@@ -2466,10 +2550,10 @@
     "_source": "dc1d7f13"
   },
   "community.de-ka-mesh.desc": {
-    "value": "Grupp li qed jibni network MeshCore madwar Karlsruhe u Pforzheim, b'lista ta' kanali u laqgħat.",
+    "value": "Grupp li qed jibni netwerk MeshCore madwar Karlsruhe u Pforzheim, b'lista ta' kanali.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "20d493a1"
+    "_seeded": "2026-11-04",
+    "_source": "62f0440b"
   },
   "community.de-ostfriesland.desc": {
     "value": "Kanal komuni għal East Frisia kollha, madwar Aurich, Wittmund, Norden u Emden. Il-grupp jinsab fuq il-mesh biss, mingħajr websajt jew chat.",
@@ -3156,10 +3240,10 @@
     "_source": "4608abcd"
   },
   "guides_card_repeater_desc": {
-    "value": "Repeater jgħaddi l-messaġġi għal kulħadd madwaru. Il-pożizzjoni, il-kmandi biex tissettjah, u l-limiti legali fuq 868 MHz.",
+    "value": "Repeater jgħaddi l-messaġġi għal kulħadd ta' madwaru. Fejn tpoġġih, l-għodod tal-ippjanar fl-app, il-kmandi biex twaqqfu, u l-limiti legali fuq 868 MHz.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "979d61a1"
+    "_seeded": "2026-11-04",
+    "_source": "f52f6bd7"
   },
   "guides_card_resilient_title": {
     "value": "Agħmel il-mesh reżiljenti",
@@ -3323,6 +3407,12 @@
     "_seeded": "2026-11-02",
     "_source": "6fd605ec"
   },
+  "area_note_pt_bridges": {
+    "value": "Il-Portugall jaħdem fuq iż-żewġ presets, u bridges iġorru t-traffiku kollu ta' MeshCore bejniethom. Portugal 433 jeħtieġ board b'radju ta' 433 MHz.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "948efc51"
+  },
   "area_path_hash": {
     "value": "Path hash (issettjat mill-preset)",
     "_ai": true,
@@ -3364,6 +3454,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "89d3440f"
+  },
+  "area_source_link": {
+    "value": "sors",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "41cf6794"
   },
   "area_checked": {
     "value": "iċċekkjat",
@@ -3455,6 +3551,78 @@
     "_seeded": "2026-11-02",
     "_source": "a6221a2f"
   },
+  "regions_district": {
+    "value": "Il-kodiċi tad-distrett jew tal-gżira tiegħek",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f46ccde8"
+  },
+  "regions_preset_pick": {
+    "value": "Il-preset tar-radju tiegħek",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "1d5f12a5"
+  },
+  "regions_nesting": {
+    "value": "Żomm ir-reġjuni tiegħek wieħed ġewwa l-ieħor, kull wieħed ġewwa dak ta' fuqu. Repeater mgħobbi b'duty-cycle gating imbagħad iwaqqa' l-ewwel ir-reġjun l-iktar wiesa', u r-reġjun tiegħek jibqa' jgħaddi.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4bd6c031"
+  },
+  "regions_nesting_link": {
+    "value": "Għaliex in-nesting huwa importanti",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "01aad29b"
+  },
+  "regions_style": {
+    "value": "Kif tikteb il-kmandi",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b2634f41"
+  },
+  "regions_style_put": {
+    "value": "Linja waħda għal kull reġjun",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7020bdec"
+  },
+  "regions_style_def": {
+    "value": "Kollox f'linja waħda, firmware 1.16 jew aktar ġdid",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7b909df1"
+  },
+  "regions_note_pt": {
+    "value": "MeshCore Portugal juża europe bħala l-kodiċi għall-Ewropa, fejn pajjiżi oħra jużaw eu. Dawn huma żewġ reġjuni separati: repeater li jaf biss lil europe iwaqqa' messaġġi mibgħuta lil eu, u bil-maqlub. LusoFW v2026.9.1 jew aktar ġdid jimla r-reġjuni waħdu. Uża l-kmandi hawn taħt meta ssettjahom bl-idejn.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "37de255f"
+  },
+  "regions_table_title": {
+    "value": "Reġjuni u distretti fil-Portugall",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "10268d8d"
+  },
+  "regions_table_region": {
+    "value": "Reġjun",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d3a008ef"
+  },
+  "regions_table_inside": {
+    "value": "Distretti u gżejjer ġo fih",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "97d751bd"
+  },
+  "regions_footnote_pt": {
+    "value": "Setúbal huwa maqsum skont il-muniċipalità. Alcochete, Almada, Barreiro, Moita, Montijo, Palmela, Seixal, Sesimbra u Setúbal jinsabu f'Lisboa e Vale do Tejo. Alcácer do Sal, Grândola, Santiago do Cacém u Sines jinsabu f'Alentejo.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e4d089f6"
+  },
   "regions_map": {
     "value": "Mappa",
     "_ai": true,
@@ -3473,6 +3641,12 @@
     "_seeded": "2026-11-02",
     "_source": "54f7feb3"
   },
+  "regions_cmd_hint_town": {
+    "value": "Ikteb il-belt tiegħek fil-kaxxa ta' fuq, jekk iż-żona tiegħek tużaha, imbagħad ikkopja.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "73fd15ae"
+  },
   "area_ph_hint": {
     "value": "Ikteb il-valuri tiegħek fuq dawk enfasizzati, imbagħad ikkopja.",
     "_ai": true,
@@ -3490,6 +3664,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "90064d5a"
+  },
+  "area_ph_band": {
+    "value": "Il-preset tar-radju tiegħek",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "1d5f12a5"
   },
   "area_map_label": {
     "value": "Mappa taż-żoni u l-preset tar-radju tagħhom",
@@ -6268,5 +6448,437 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "dbcd5e7b"
+  },
+  "meetings_strip_title": {
+    "value": "Il-ġimgħat 8 li ġejjin",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fc9d509f"
+  },
+  "meetings_kind_in_person": {
+    "value": "Wiċċ imb wiċċ",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5cf02dbb"
+  },
+  "meetings_kind_online": {
+    "value": "Online",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0d21bd52"
+  },
+  "meetings_kind_channel": {
+    "value": "Fuq kanal",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6e611a5b"
+  },
+  "meetings_today": {
+    "value": "Illum",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2b065c7c"
+  },
+  "meetings_spoken": {
+    "value": "Lingwi mitkellma",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b0a422a0"
+  },
+  "meetings_repeat_once": {
+    "value": "Data waħda",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "af4b82fa"
+  },
+  "meetings_repeat_weekly": {
+    "value": "Kull ġimgħa: {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "334afb72"
+  },
+  "meetings_repeat_monthly_1": {
+    "value": "Kull xahar, l-1: {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4721ffa0"
+  },
+  "meetings_repeat_monthly_2": {
+    "value": "Kull xahar, it-2: {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "cf11319c"
+  },
+  "meetings_repeat_monthly_3": {
+    "value": "Kull xahar, it-3: {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6ecb3a6a"
+  },
+  "meetings_repeat_monthly_4": {
+    "value": "Kull xahar, ir-4: {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fde48201"
+  },
+  "meetings_repeat_monthly_last": {
+    "value": "Kull xahar, l-aħħar: {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "249b8757"
+  },
+  "meetings_your_time": {
+    "value": "Il-ħin tiegħek: {time}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d99b734d"
+  },
+  "meetings_listed_by": {
+    "value": "imniżżla minn {name}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "22a3c6a0"
+  },
+  "meetings_their_page": {
+    "value": "Il-paġna tagħhom",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4b4cc1a1"
+  },
+  "meetings_add_calendar": {
+    "value": "Żid mal-kalendarju",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d0efffa6"
+  },
+  "meetings_empty_country": {
+    "value": "Għad m'hemm l-ebda laqgħa mniżżla f'dan il-pajjiż. Żid il-feed hawn taħt issa, u l-kalendarju tiegħek juri laqgħat ġodda waħdu.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ac1fa865"
+  },
+  "meetings_empty_country_cta": {
+    "value": "Żid il-laqgħa tal-grupp tiegħek",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e31ccacb"
+  },
+  "meetings_empty_group": {
+    "value": "Dan il-grupp għad m'għandu l-ebda laqgħa mniżżla. Żid il-feed tiegħu hawn taħt issa, u l-kalendarju tiegħek juri laqgħat ġodda waħdu.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ec792e24"
+  },
+  "meetings_as_of": {
+    "value": "Lista kif kienet fi {date}.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "243d44bb"
+  },
+  "meetings_feed_title": {
+    "value": "Ikseb dawn il-laqgħat fil-kalendarju tiegħek",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ba1c4685"
+  },
+  "meetings_feed_body": {
+    "value": "Ikkopja dan il-link u żidu mal-app tal-kalendarju tiegħek bħala subscription. Il-kalendarju tiegħek imbagħad iżid laqgħat ġodda waħdu. Jaħdem ukoll qabel ikun hemm laqgħat.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8ae965d1"
+  },
+  "meetings_feed_pick": {
+    "value": "Liema laqgħat?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b962e77b"
+  },
+  "meetings_feed_europe": {
+    "value": "L-Ewropa kollha",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "326c492d"
+  },
+  "meetings_feed_groups": {
+    "value": "Gruppi lokali",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dff00c14"
+  },
+  "meetings_copy": {
+    "value": "Ikkopja l-link",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dbf362d4"
+  },
+  "meetings_copied": {
+    "value": "Ikkopjat",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8d525e5f"
+  },
+  "meetings_add_title": {
+    "value": "Żid il-laqgħa tiegħek",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7f5cd406"
+  },
+  "meetings_add_body": {
+    "value": "Imla din il-formola darba. M'għandekx bżonn grupp imniżżel. Aħna niċċekkjaw il-link u nżidu l-laqgħa tiegħek. Laqgħa li tirrepeti tibqa' mniżżla għal 6 xhur; ibgħat il-formola mill-ġdid biex iżżommha aktar.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8428d436"
+  },
+  "meetings_next_title": {
+    "value": "Il-laqgħat li ġejjin",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "89d075ce"
+  },
+  "meetings_all": {
+    "value": "Il-laqgħat kollha",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8406d032"
+  },
+  "meetings_next": {
+    "value": "Il-laqgħa li jmiss",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e97c87bd"
+  },
+  "meetings_last": {
+    "value": "L-aħħar laqgħa",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "61922265"
+  },
+  "meetings_group_feed": {
+    "value": "Ikseb il-laqgħat ta' dan il-grupp fil-kalendarju tiegħek",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "382f76fb"
+  },
+  "community_search_meetings": {
+    "value": "Laqgħat qrib {place}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9dfdca50"
+  },
+  "meetings_map_hint": {
+    "value": "Kwadru huwa laqgħa fl-30 jum li ġejjin.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6f937c88"
+  },
+  "meetings_add_group": {
+    "value": "Grupp lokali",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "21b10847"
+  },
+  "meetings_add_group_new": {
+    "value": "Grupp ġdid, għadu mhux imniżżel",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a4159cd"
+  },
+  "meetings_add_group_none": {
+    "value": "L-ebda grupp",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2463cfb8"
+  },
+  "meetings_add_new_group": {
+    "value": "Isem il-grupp tiegħek",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b593feb6"
+  },
+  "meetings_add_region": {
+    "value": "Reġjun jew belt, jekk il-grupp tiegħek mhuwiex għall-pajjiż kollu",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4ac7ccde"
+  },
+  "meetings_add_links": {
+    "value": "Il-website pubblika jew iċ-chat tal-grupp tiegħek",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ab1c8140"
+  },
+  "meetings_add_who": {
+    "value": "Min imexxi din il-laqgħa?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f55abade"
+  },
+  "meetings_add_who_example": {
+    "value": "Klabb, hackerspace jew isem li trid turi",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "38de17e3"
+  },
+  "meetings_add_page": {
+    "value": "Paġna pubblika dwar din il-laqgħa",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "733d7b57"
+  },
+  "meetings_add_name": {
+    "value": "Isem il-laqgħa",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d944cb35"
+  },
+  "meetings_add_kind": {
+    "value": "Kif jissieħbu n-nies?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7a0bae93"
+  },
+  "meetings_add_place": {
+    "value": "Post pubbliku, link jew kanal",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b67943a9"
+  },
+  "meetings_add_first": {
+    "value": "L-ewwel data",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9dbd4f04"
+  },
+  "meetings_add_time": {
+    "value": "Ħin, fil-ħin lokali",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "015e7494"
+  },
+  "meetings_add_rule": {
+    "value": "Kemm-il darba?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ddc79ba1"
+  },
+  "meetings_add_languages": {
+    "value": "Lingwi mitkellma",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "65a782e4"
+  },
+  "meetings_add_open": {
+    "value": "Kulħadd jista' jissieħeb f'din il-laqgħa, mingħajr stedina.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "974467c3"
+  },
+  "meetings_add_open_form": {
+    "value": "Iftaħ il-formola fuq GitHub",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "019b07aa"
+  },
+  "meetings_add_need_new_group": {
+    "value": "Żid l-isem tal-grupp tiegħek.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e80cb28c"
+  },
+  "meetings_add_need_new_link": {
+    "value": "Żid link pubbliku għall-grupp tiegħek.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a24f94d"
+  },
+  "meetings_add_need_who": {
+    "value": "Għid min imexxi din il-laqgħa.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2e0010ac"
+  },
+  "meetings_add_need_page": {
+    "value": "Żid paġna pubblika dwar din il-laqgħa.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b3b3de31"
+  },
+  "meetings_add_need_place": {
+    "value": "Imla l-isem, il-post, il-ħin u l-lingwi.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "05437f1c"
+  },
+  "meetings_add_need_open": {
+    "value": "Aħna nniżżlu biss laqgħat li kulħadd jista' jissieħeb fihom.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dd4b5f10"
+  },
+  "meetings_add_need_date": {
+    "value": "Din id-data għaddiet. Agħżel waħda ġdida.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d2351d30"
+  },
+  "meetings_add_next_dates": {
+    "value": "Id-dati li jmiss tiegħek",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a762da5"
+  },
+  "meetings_add_feed_title": {
+    "value": "Il-link tal-kalendarju tiegħek",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "3a418e8c"
+  },
+  "meetings_add_feed_group": {
+    "value": "Il-grupp tiegħek diġà għandu dan il-link.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "937b5be9"
+  },
+  "meetings_add_feed_new": {
+    "value": "Aħna nniżżlu l-laqgħa tiegħek l-ewwel, fil-feeds għall-Ewropa u għall-pajjiż tiegħek. Imbagħad niċċekkjaw il-grupp tiegħek u nżiduh ma' Gruppi lokali, bil-link tiegħu.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e63f510c"
+  },
+  "meetings_add_feed_none": {
+    "value": "Il-laqgħa tiegħek tidħol fil-feeds għall-Ewropa u għall-pajjiż tiegħek.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0789df65"
+  },
+  "meetings_add_how_title": {
+    "value": "Kif jaħdem il-link tal-kalendarju ta' grupp",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2f16e35a"
+  },
+  "meetings_add_how_1": {
+    "value": "Kull grupp f'Gruppi lokali għandu l-link tiegħu, anke qabel l-ewwel laqgħa tiegħu. Tinsab fuq il-card tal-grupp tiegħek.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "003c9615"
+  },
+  "meetings_add_how_2": {
+    "value": "Poġġi l-link fuq is-sit tiegħek jew waħħlu fiċ-chat tiegħek.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "74a2d43c"
+  },
+  "meetings_add_how_3": {
+    "value": "Il-membri jżiduh mal-app tal-kalendarju tagħhom bħala subscription. Id-dati ġodda imbagħad jidhru hemm waħedhom.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8480d2ed"
+  },
+  "meetings_add_how_note": {
+    "value": "Biex tibdel data, ibgħat il-formola mill-ġdid. L-apps tal-kalendarju jiċċekkjaw il-link skont l-iskeda tagħhom, għalhekk data ġdida tista' tieħu ftit żmien biex tidher.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d533e900"
   }
 }

@@ -6,11 +6,11 @@ description: Live MeshCore-kaarten, dekkingskaarten en pakketanalyzers foar Euro
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '351071aa'
-  seeded: '2026-10-31'
+  source_hash: '24bfdf6b'
+  seeded: '2026-11-04'
   fields: {title: '4b9f20a0', lead: 'fedb89bb', description: 'b5719f82'}
-  sections: ['351071aa']
-  blocks: ['dd5f039e', '9d4a2ad8', '70c417f2', '9fef7e16']
+  sections: ['24bfdf6b']
+  blocks: ['dd5f039e', '9d4a2ad8', '763fc710', '70c417f2', '9fef7e16']
 ---
 
 In node komt op dizze kaarten as de eigener him publisearret, of as in
@@ -22,6 +22,9 @@ fersifere, dus gjin analyzer lit sjen wat dêryn stiet.
 In node stiet op in kaart wêr't de eigener him delset hat. Dat kin ferkeard of
 ferâldere wêze. In floodberjocht reizget tagelyk oer ferskate paden. In rûte op
 in kaart is it paad fan de kopy dy't it earst oankaam. De oaren wurde net fêstlein.
+
+Liket in rûte op in kaart ûnwierskynlik? Kontrolearje 2 nodes fan dy rûte mei Line of Sight
+yn de MeshCore-app. De [repeater-gids](/repeater-guide/#check-site) lit sjen hoe't dat moat.
 
 Dizze kaarten hawwe it ynternet nedich, it mesh net. [Wêrom](/network/)
 

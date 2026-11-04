@@ -6,11 +6,11 @@ eyebrow: 868 MHz · legfeljebb 500 mW · engedély nélkül
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '7c7e3be3'
-  seeded: '2026-10-31'
+  source_hash: '3e38a8c6'
+  seeded: '2026-11-04'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '766086be', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', '6a7c4493', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
 ---
 
 Az átjátszók tartják össze a mesh-t. A companionök (a rádiók, amelyekről üzenetet küldesz) nem
@@ -43,17 +43,44 @@ A magasság többet ér a teljesítménynél. A LoRa 868 MHz-en szabad rálátá
 jut a legmesszebbre. A dombok, épületek és sűrű fák sokkal több hatótávot vesznek el,
 mint amennyit néhány extra milliwatt visszahoz.
 
-- **Menj magasra.** Egy háztető, árboc, magas épület vagy domb sokkal nagyobb területet lát be,
-  mint egy ablakpárkány. Már néhány méter a környező tetők fölött is segít.
-- **Hagyd szabadon az antennát.** Szereld a tetőperem fölé, távol a fémtől,
-  ereszcsatornáktól és más antennáktól.
-- **Ellenőrizd a rálátást.** A [HeyWhatsThat](https://www.heywhatsthat.com/) és hasonló eszközök
-  megmutatják, mi látszik egy adott helyről. Ha egy pontot látsz, az ottani átjátszót is eléred.
-- **Hagyj szabad teret.** A rádiós útvonal körül is kell némi szabad tér,
-  nem elég, ha csak a közvetlen vonal szabad. Nagy távolságon az útvonal közepének több méterrel
-  kell az akadályok fölött haladnia.
-- **Kérj engedélyt.** Szerezd meg a tető vagy az árboc tulajdonosának beleegyezését, és egyezzetek meg,
-  hogyan férsz hozzá az átjátszóhoz karbantartáskor.
+- **Menj magasra.** Egy tető, egy árboc, egy magas épület vagy egy domb
+  sokkal nagyobb területet lefed, mint egy ablakpárkány. Már az is segít, ha
+  néhány méterrel a környező tetők fölé kerülsz.
+- **Tartsd szabadon az antennát.** Szereld a tetőperem fölé, távol a fémtől,
+  az ereszcsatornáktól és más antennáktól.
+- **Nézd meg a kilátást.** A [HeyWhatsThat](https://www.heywhatsthat.com/)
+  és a hasonló eszközök megmutatják, mi látszik egy adott helyről. A MeshCore alkalmazás
+  [kiszámolja, mit ér el onnan egy átjátszó](#check-site).
+- **Hagyj szabad teret.** A rádiós útvonalhoz a közvetlen vonal körül is szabad
+  tér kell, nem csak magán a vonalon. 868 MHz-en ez a tér egy 5 km-es útvonal
+  közepén körben nagyjából 20 m. 20 km-es útvonalnál nagyjából 40 m.
+- **Kérj engedélyt.** Szerezd meg a tulajdonos hozzájárulását a tető vagy az
+  árboc használatához. Egyezz meg vele, hogyan jutsz el az átjátszóhoz karbantartáskor.
+
+### Helyszín ellenőrzése az alkalmazásban {#check-site}
+
+A MeshCore alkalmazás 1.33-as vagy újabb verziójában ezek az eszközök a menü **Tools**
+pontjában vannak. Akkor is működnek, ha nincs rádió csatlakoztatva.
+
+- A **Line of Sight** megrajzolja a terepet 2 pont között, és fölötte azt a teret, amelyre a
+  jelnek szüksége van. Tarts lenyomva 2 pontot a térképen, vagy koppints átjátszókra.
+- Az **Antenna Coverage** megmutatja a térképen, mit ér el egy antenna 1 pontból.
+  Tarts lenyomva egy pontot, vagy koppints egy átjátszóra. Ha helyszíneket akarsz összehasonlítani, adj hozzá több pontot.
+
+Számítógépen válaszd az eszköz menüjében az **Add Point** pontot, és írd be a koordinátákat.
+
+Mindkét eszköz úgy indul, hogy a helyszíneden 5 m magasan van az antenna, ezért
+az eszköz beállításaiban add meg a tervezett magasságot. Az Antenna Coverage 1 m
+magasan lévő vevőantennával indul. Ha nincs rádió csatlakoztatva, a Line of Sight
+915 MHz-en indul: a beállításaiban add meg az [előbeállításod](/guides/settings/) frekvenciáját.
+
+Az eszközök magassági adatokból számolnak, a rádiódat nem próbálják ki. A fákat és
+az új épületeket magad ellenőrizd, aztán vigyél ki egy companiont a helyszínre, és nézd meg, mely
+átjátszókat hallja.
+
+![A Line of Sight a MeshCore alkalmazásban: a terep 2 pont között és a fölötte lévő tér, amelyre a jelnek szüksége van](/media/guides/line-of-sight.webp)
+
+![Az Antenna Coverage a MeshCore alkalmazásban: a térképen az a terület, amelyet egy dombon álló antenna elér](/media/guides/antenna-coverage.webp)
 
 ## Hardver {#hardware}
 

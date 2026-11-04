@@ -3,7 +3,7 @@
     "language": "cs",
     "name": "Čeština",
     "managed_by": "community",
-    "updated": "2026-11-02"
+    "updated": "2026-11-04"
   },
   "site_tagline": {
     "value": "Zprávy bez sítě napříč Evropou",
@@ -142,6 +142,30 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "8d525e5f"
+  },
+  "short_link": {
+    "value": "Krátký odkaz",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f44e613a"
+  },
+  "short_links_page": {
+    "value": "Stránka",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0a30a815"
+  },
+  "short_links_country": {
+    "value": "Nastavení pro Německo (použij kód své země)",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9f895094"
+  },
+  "short_links_area": {
+    "value": "Nastavení pro Limburg",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5d3b1103"
   },
   "hero_eyebrow": {
     "value": "868 MHz · Evropa",
@@ -912,10 +936,10 @@
     "_source": "a52ace42"
   },
   "community_missing_body": {
-    "value": "Místní skupinu může přidat kdokoli. Otevři issue s jejím názvem, oblastí a odkazy a správce ji přidá do všech jazyků najednou.",
+    "value": "Místní skupinu může přidat kdokoli. Otevři issue s jejím názvem, oblastí a odkazy a správce ji přidá do všech jazyků naráz. Spolupracuje tvoje skupina s obcí, hasiči nebo civilní ochranou? Uveď to v issue s veřejným odkazem a my to doplníme do popisu tvé skupiny.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "a626e730"
+    "_seeded": "2026-11-04",
+    "_source": "15c70c68"
   },
   "community_missing_cta": {
     "value": "Přidej svou místní skupinu",
@@ -928,6 +952,66 @@
     "_ai": true,
     "_seeded": "2026-10-31",
     "_source": "0b6beef7"
+  },
+  "community_search_or": {
+    "value": "Nebo hledej podle PSČ",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "868b07ff"
+  },
+  "community_map_label": {
+    "value": "Mapa Evropy s místními skupinami",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "39852ecb"
+  },
+  "community_map_hint": {
+    "value": "Vyber zemi nebo tečku a uvidíš její skupiny. Kruh ukazuje přibližnou oblast, kterou skupina pokrývá. Prázdná tečka je skupina pro celou zemi.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8a99c786"
+  },
+  "community_map_credit": {
+    "value": "Mapová data:",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "38bfee0b"
+  },
+  "community_map_here": {
+    "value": "Skupiny tady",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8e5bcafb"
+  },
+  "community_map_country": {
+    "value": "Skupiny v zemi {country}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fb89e1cc"
+  },
+  "community_map_none": {
+    "value": "V této zemi zatím není žádná místní skupina.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f9c4a071"
+  },
+  "community_map_zoom_in": {
+    "value": "Přiblížit",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0e47f09a"
+  },
+  "community_map_zoom_out": {
+    "value": "Oddálit",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "bc7b631a"
+  },
+  "community_map_reset": {
+    "value": "Celá mapa",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5b8e0478"
   },
   "community_search_country": {
     "value": "Země",
@@ -2208,10 +2292,10 @@
     "_source": "9f0065e0"
   },
   "community.de-isarmesh.desc": {
-    "value": "Fórum pro uživatele LoRa mesh v okolí Mnichova, které pořádá pravidelná setkání a diskutuje o MeshCore a dalších mesh projektech.",
+    "value": "Fórum pro uživatele LoRa mesh sítí v okolí Mnichova, o MeshCore a dalších mesh projektech.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "05e62cf9"
+    "_seeded": "2026-11-04",
+    "_source": "33c3e363"
   },
   "community.de-mesh-dresden.desc": {
     "value": "Drážďanská skupina s podrobnými technickými články pro provozovatele repeaterů. Provozuje také místní chat pro MeshCore a další mesh projekty.",
@@ -2238,10 +2322,10 @@
     "_source": "3eb31061"
   },
   "community.sk-meshcore-slovensko.desc": {
-    "value": "Slovenská stránka sítě hostovaná bratislavským radioklubem, se serverem na Discordu a týdenními osobními setkáními.",
+    "value": "Stránka slovenské sítě, kterou provozuje radioamatérský klub z Bratislavy, se serverem na Discord.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "950a6862"
+    "_seeded": "2026-11-04",
+    "_source": "ea102b97"
   },
   "community.pl-meshcore-polska.desc": {
     "value": "Celopolská komunita s mapou uzlů, dokumentací v polštině a serverem na Discordu.",
@@ -2424,10 +2508,10 @@
     "_source": "2a7d4602"
   },
   "community.de-ffnw.desc": {
-    "value": "Spolek Freifunk, který od roku 2013 provozuje komunitní WiFi mesh v regionu Weser-Ems a nyní provozuje i MeshCore repeatery. Schází se každý měsíc v Oldenburgu.",
+    "value": "Spolek Freifunk, který od roku 2013 provozuje komunitní WiFi mesh v regionu Weser-Ems a teď provozuje i MeshCore repeatery.",
     "_ai": true,
-    "_seeded": "2026-10-28",
-    "_source": "abb2138f"
+    "_seeded": "2026-11-04",
+    "_source": "6fd9acc0"
   },
   "community.de-meshcore-dresden.desc": {
     "value": "Skupina budující síť MeshCore v Drážďanech a okolí, se seznamem svých regionů a kanálů.",
@@ -2466,10 +2550,10 @@
     "_source": "dc1d7f13"
   },
   "community.de-ka-mesh.desc": {
-    "value": "Skupina, která buduje síť MeshCore v okolí Karlsruhe a Pforzheimu, se seznamem kanálů a setkáními.",
+    "value": "Skupina, která buduje síť MeshCore v okolí Karlsruhe a Pforzheimu, se seznamem kanálů.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "20d493a1"
+    "_seeded": "2026-11-04",
+    "_source": "62f0440b"
   },
   "community.de-ostfriesland.desc": {
     "value": "Společný kanál pro celé Východní Frísko, v okolí měst Aurich, Wittmund, Norden a Emden. Skupina funguje jen na mesh, nemá web ani chat.",
@@ -3156,10 +3240,10 @@
     "_source": "4608abcd"
   },
   "guides_card_repeater_desc": {
-    "value": "Repeater předává zprávy všem kolem sebe. Umístění, příkazy k nastavení a zákonné limity na 868 MHz.",
+    "value": "Repeater předává zprávy dál pro všechny ve svém okolí. Umístění, plánovací nástroje v aplikaci, příkazy pro nastavení a zákonné limity na 868 MHz.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "979d61a1"
+    "_seeded": "2026-11-04",
+    "_source": "f52f6bd7"
   },
   "guides_card_resilient_title": {
     "value": "Udělej mesh odolný",
@@ -3323,6 +3407,12 @@
     "_seeded": "2026-10-26",
     "_source": "6fd605ec"
   },
+  "area_note_pt_bridges": {
+    "value": "Portugalsko běží na obou předvolbách a mosty mezi nimi přenášejí veškerý provoz MeshCore. Pro Portugal 433 potřebuješ desku s rádiem na 433 MHz.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "948efc51"
+  },
   "area_path_hash": {
     "value": "Hash cesty (nastavuje preset)",
     "_ai": true,
@@ -3364,6 +3454,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "89d3440f"
+  },
+  "area_source_link": {
+    "value": "zdroj",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "41cf6794"
   },
   "area_checked": {
     "value": "zkontrolováno",
@@ -3455,6 +3551,78 @@
     "_seeded": "2026-10-26",
     "_source": "a6221a2f"
   },
+  "regions_district": {
+    "value": "Kód tvého okresu nebo ostrova",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f46ccde8"
+  },
+  "regions_preset_pick": {
+    "value": "Tvoje rádiová předvolba",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "1d5f12a5"
+  },
+  "regions_nesting": {
+    "value": "Udržuj své regiony vnořené, každý uvnitř toho nad ním. Vytížený repeater s omezením duty cycle pak zahodí nejdřív nejširší region. Tvůj vlastní region dál prochází.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4bd6c031"
+  },
+  "regions_nesting_link": {
+    "value": "Proč na vnoření záleží",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "01aad29b"
+  },
+  "regions_style": {
+    "value": "Jak psát příkazy",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b2634f41"
+  },
+  "regions_style_put": {
+    "value": "Jeden řádek na region",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7020bdec"
+  },
+  "regions_style_def": {
+    "value": "Vše na jednom řádku, firmware 1.16 nebo novější",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7b909df1"
+  },
+  "regions_note_pt": {
+    "value": "MeshCore Portugal používá pro Evropu kód europe, kde jiné země používají eu. Jsou to dva samostatné regiony: repeater, který zná jen europe, zahazuje zprávy poslané do eu, a naopak. LusoFW v2026.9.1 nebo novější vyplní regiony sám. Když je nastavuješ ručně, použij příkazy níže.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "37de255f"
+  },
+  "regions_table_title": {
+    "value": "Regiony a okresy v Portugalsku",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "10268d8d"
+  },
+  "regions_table_region": {
+    "value": "Region",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d3a008ef"
+  },
+  "regions_table_inside": {
+    "value": "Okresy a ostrovy v něm",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "97d751bd"
+  },
+  "regions_footnote_pt": {
+    "value": "Setúbal je rozdělený podle obcí. Alcochete, Almada, Barreiro, Moita, Montijo, Palmela, Seixal, Sesimbra a Setúbal patří do Lisboa e Vale do Tejo. Alcácer do Sal, Grândola, Santiago do Cacém a Sines patří do Alentejo.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e4d089f6"
+  },
   "regions_map": {
     "value": "Mapa",
     "_ai": true,
@@ -3473,6 +3641,12 @@
     "_seeded": "2026-10-26",
     "_source": "54f7feb3"
   },
+  "regions_cmd_hint_town": {
+    "value": "Napiš do pole výše své město, pokud ho tvoje oblast používá, a pak zkopíruj.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "73fd15ae"
+  },
   "area_ph_hint": {
     "value": "Napiš vlastní hodnoty přes zvýrazněné a pak zkopíruj.",
     "_ai": true,
@@ -3490,6 +3664,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "90064d5a"
+  },
+  "area_ph_band": {
+    "value": "Tvoje rádiová předvolba",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "1d5f12a5"
   },
   "area_map_label": {
     "value": "Mapa oblastí a jejich rádiových presetů",
@@ -6268,5 +6448,437 @@
     "_ai": true,
     "_seeded": "2026-10-27",
     "_source": "dbcd5e7b"
+  },
+  "meetings_strip_title": {
+    "value": "Příštích 8 týdnů",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fc9d509f"
+  },
+  "meetings_kind_in_person": {
+    "value": "Osobně",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5cf02dbb"
+  },
+  "meetings_kind_online": {
+    "value": "Online",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0d21bd52"
+  },
+  "meetings_kind_channel": {
+    "value": "Na kanálu",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6e611a5b"
+  },
+  "meetings_today": {
+    "value": "Dnes",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2b065c7c"
+  },
+  "meetings_spoken": {
+    "value": "Jazyk",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b0a422a0"
+  },
+  "meetings_repeat_once": {
+    "value": "Jednorázově",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "af4b82fa"
+  },
+  "meetings_repeat_weekly": {
+    "value": "Každý týden: {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "334afb72"
+  },
+  "meetings_repeat_monthly_1": {
+    "value": "Každý měsíc: 1. {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4721ffa0"
+  },
+  "meetings_repeat_monthly_2": {
+    "value": "Každý měsíc: 2. {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "cf11319c"
+  },
+  "meetings_repeat_monthly_3": {
+    "value": "Každý měsíc: 3. {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6ecb3a6a"
+  },
+  "meetings_repeat_monthly_4": {
+    "value": "Každý měsíc: 4. {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fde48201"
+  },
+  "meetings_repeat_monthly_last": {
+    "value": "Každý měsíc: poslední {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "249b8757"
+  },
+  "meetings_your_time": {
+    "value": "Tvůj čas: {time}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d99b734d"
+  },
+  "meetings_listed_by": {
+    "value": "přidal(a) {name}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "22a3c6a0"
+  },
+  "meetings_their_page": {
+    "value": "Jejich stránka",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4b4cc1a1"
+  },
+  "meetings_add_calendar": {
+    "value": "Přidat do kalendáře",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d0efffa6"
+  },
+  "meetings_empty_country": {
+    "value": "V této zemi zatím nejsou žádná setkání. Přidej si už teď kanál níže a tvůj kalendář bude nová setkání ukazovat automaticky.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ac1fa865"
+  },
+  "meetings_empty_country_cta": {
+    "value": "Přidej setkání své skupiny",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e31ccacb"
+  },
+  "meetings_empty_group": {
+    "value": "Tato skupina zatím nemá žádná setkání. Přidej si už teď její kanál níže a tvůj kalendář bude nová setkání ukazovat automaticky.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ec792e24"
+  },
+  "meetings_as_of": {
+    "value": "Seznam ke dni {date}.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "243d44bb"
+  },
+  "meetings_feed_title": {
+    "value": "Měj tato setkání ve svém kalendáři",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ba1c4685"
+  },
+  "meetings_feed_body": {
+    "value": "Zkopíruj tento odkaz a přidej ho do kalendářové aplikace jako odběr. Kalendář pak nová setkání přidává automaticky. Funguje to i předtím, než nějaká setkání jsou.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8ae965d1"
+  },
+  "meetings_feed_pick": {
+    "value": "Která setkání?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b962e77b"
+  },
+  "meetings_feed_europe": {
+    "value": "Celá Evropa",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "326c492d"
+  },
+  "meetings_feed_groups": {
+    "value": "Místní skupiny",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dff00c14"
+  },
+  "meetings_copy": {
+    "value": "Kopírovat odkaz",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dbf362d4"
+  },
+  "meetings_copied": {
+    "value": "Zkopírováno",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8d525e5f"
+  },
+  "meetings_add_title": {
+    "value": "Přidej své setkání",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7f5cd406"
+  },
+  "meetings_add_body": {
+    "value": "Vyplň tento formulář jednou. Nemusíš mít skupinu v seznamu. Zkontrolujeme odkaz a tvoje setkání přidáme. Opakované setkání zůstane v seznamu 6 měsíců. Pro delší dobu pošli formulář znovu.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8428d436"
+  },
+  "meetings_next_title": {
+    "value": "Další setkání",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "89d075ce"
+  },
+  "meetings_all": {
+    "value": "Všechna setkání",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8406d032"
+  },
+  "meetings_next": {
+    "value": "Příští setkání",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e97c87bd"
+  },
+  "meetings_last": {
+    "value": "Poslední setkání",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "61922265"
+  },
+  "meetings_group_feed": {
+    "value": "Měj setkání této skupiny ve svém kalendáři",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "382f76fb"
+  },
+  "community_search_meetings": {
+    "value": "Setkání poblíž místa {place}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9dfdca50"
+  },
+  "meetings_map_hint": {
+    "value": "Čtverec je setkání v příštích 30 dnech.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6f937c88"
+  },
+  "meetings_add_group": {
+    "value": "Místní skupina",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "21b10847"
+  },
+  "meetings_add_group_new": {
+    "value": "Nová skupina, zatím není v seznamu",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a4159cd"
+  },
+  "meetings_add_group_none": {
+    "value": "Žádná skupina",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2463cfb8"
+  },
+  "meetings_add_new_group": {
+    "value": "Název tvé skupiny",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b593feb6"
+  },
+  "meetings_add_region": {
+    "value": "Region nebo město, pokud tvoje skupina nepůsobí v celé zemi",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4ac7ccde"
+  },
+  "meetings_add_links": {
+    "value": "Veřejný web nebo chat tvé skupiny",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ab1c8140"
+  },
+  "meetings_add_who": {
+    "value": "Kdo toto setkání pořádá?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f55abade"
+  },
+  "meetings_add_who_example": {
+    "value": "Klub, hackerspace nebo jméno, které chceš zobrazit",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "38de17e3"
+  },
+  "meetings_add_page": {
+    "value": "Veřejná stránka o tomto setkání",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "733d7b57"
+  },
+  "meetings_add_name": {
+    "value": "Název setkání",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d944cb35"
+  },
+  "meetings_add_kind": {
+    "value": "Jak se lidé připojí?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7a0bae93"
+  },
+  "meetings_add_place": {
+    "value": "Veřejné místo, odkaz nebo kanál",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b67943a9"
+  },
+  "meetings_add_first": {
+    "value": "První termín",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9dbd4f04"
+  },
+  "meetings_add_time": {
+    "value": "Čas, v místním čase",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "015e7494"
+  },
+  "meetings_add_rule": {
+    "value": "Jak často?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ddc79ba1"
+  },
+  "meetings_add_languages": {
+    "value": "Jazyky",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "65a782e4"
+  },
+  "meetings_add_open": {
+    "value": "K tomuto setkání se může připojit kdokoli, bez pozvánky.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "974467c3"
+  },
+  "meetings_add_open_form": {
+    "value": "Otevřít formulář na GitHub",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "019b07aa"
+  },
+  "meetings_add_need_new_group": {
+    "value": "Doplň název své skupiny.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e80cb28c"
+  },
+  "meetings_add_need_new_link": {
+    "value": "Doplň veřejný odkaz na svou skupinu.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a24f94d"
+  },
+  "meetings_add_need_who": {
+    "value": "Uveď, kdo toto setkání pořádá.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2e0010ac"
+  },
+  "meetings_add_need_page": {
+    "value": "Doplň veřejnou stránku o tomto setkání.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b3b3de31"
+  },
+  "meetings_add_need_place": {
+    "value": "Vyplň název, místo, čas a jazyky.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "05437f1c"
+  },
+  "meetings_add_need_open": {
+    "value": "Uvádíme jen setkání, ke kterým se může připojit kdokoli.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dd4b5f10"
+  },
+  "meetings_add_need_date": {
+    "value": "Toto datum už minulo. Vyber nové.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d2351d30"
+  },
+  "meetings_add_next_dates": {
+    "value": "Tvoje další termíny",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a762da5"
+  },
+  "meetings_add_feed_title": {
+    "value": "Tvůj odkaz pro kalendář",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "3a418e8c"
+  },
+  "meetings_add_feed_group": {
+    "value": "Tvoje skupina už tento odkaz má.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "937b5be9"
+  },
+  "meetings_add_feed_new": {
+    "value": "Tvoje setkání nejdřív zařadíme do kanálů pro Evropu a tvoji zemi. Pak zkontrolujeme tvoji skupinu a přidáme ji do Místních skupin s vlastním odkazem.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e63f510c"
+  },
+  "meetings_add_feed_none": {
+    "value": "Tvoje setkání se objeví v kanálech pro Evropu a tvoji zemi.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0789df65"
+  },
+  "meetings_add_how_title": {
+    "value": "Jak funguje odkaz skupiny pro kalendář",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2f16e35a"
+  },
+  "meetings_add_how_1": {
+    "value": "Každá skupina v Místních skupinách má vlastní odkaz, i před svým prvním setkáním. Najdeš ho na kartě své skupiny.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "003c9615"
+  },
+  "meetings_add_how_2": {
+    "value": "Dej odkaz na svůj web nebo ho připni v chatu.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "74a2d43c"
+  },
+  "meetings_add_how_3": {
+    "value": "Členové si ho přidají do kalendářové aplikace jako odběr. Nové termíny se tam pak objeví automaticky.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8480d2ed"
+  },
+  "meetings_add_how_note": {
+    "value": "Když chceš změnit termín, pošli formulář znovu. Kalendářové aplikace kontrolují odkaz podle vlastního rozvrhu, takže nový termín se může chvíli neukazovat.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d533e900"
   }
 }

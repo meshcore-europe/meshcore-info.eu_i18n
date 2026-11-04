@@ -6,11 +6,11 @@ eyebrow: 6 stappen · MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0c1b08d9'
-  seeded: '2026-11-02'
+  source_hash: '0490a311'
+  seeded: '2026-11-04'
   fields: {title: '61e8d44a', lead: '45b0e5c3', description: 'cf031b18', eyebrow: '4fa6fe1e'}
-  sections: ['16c3728c', '90f3d626', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
-  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '757c634a', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
+  sections: ['16c3728c', '5b6d136a', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', '1741ed35', '66d00206']
+  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', 'e90b7859', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', '53276869', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
 ---
 
 Deze stappen gaan uit van MeshCore-firmware v1.18.0 en de officiële tools van
@@ -26,7 +26,8 @@ met eigen scherm en toetsenbord, die zelfstandig werkt.
 Neem de 868 MHz-versie. De meegeleverde antenne volstaat. In de
 [antennegids](/guides/antenna/) lees je hoe je een antenne controleert.
 
-Draait er nu Meshtastic op je bordje? Als je MeshCore flasht, vervang je Meshtastic, en de twee kunnen niet met elkaar communiceren. [Overstappen van Meshtastic](/about/#meshtastic) zet op een rij wat anders werkt.
+Draait je bordje nu Meshtastic? Als je MeshCore flasht, vervang je Meshtastic,
+en die twee kunnen niet met elkaar communiceren.
 
 {{< callout type="warning" >}}
 Sluit de antenne aan voordat je de radio aanzet. Een LoRa-radio die zonder
@@ -88,20 +89,22 @@ preset hoeft de app dus niet bijgewerkt te worden.
 
 ## 6. Zeg hallo {#hello}
 
-1. **Maak jezelf bekend.** Stuur vanuit de app een *advertentie*. Een
-   flood-advertentie gaat via de repeaters (nodes die berichten doorgeven) de
-   hele mesh rond, zodat iedereen je kan toevoegen.
-   Een companion maakt zich nooit vanzelf bekend.
-2. **Vind anderen.** Mensen verschijnen in je contacten zodra hun advertenties
-   je bereiken. Repeaters sturen standaard elke 47 uur een flood-advertentie.
-   Het kan dus 2 dagen duren voordat je lijst gevuld is.
+1. **Maak jezelf bekend.** Stuur een *advert* vanuit de app. Een
+   "flood"-advert gaat via de repeaters (nodes die berichten doorgeven), zodat
+   iedereen op de mesh je kan toevoegen.
+   Companions maken zichzelf nooit automatisch bekend.
+2. **Vind anderen.** Mensen verschijnen in je contacten zodra hun adverts je
+   bereiken. Repeaters sturen standaard elke 47 uur een flood-advert. Het kan
+   dus 2 dagen duren voordat je lijst gevuld is.
 3. **Stuur een bericht.** Open een contact en schrijf. Het eerste bericht gaat
-   als flood door het netwerk. De ontvanger meldt terug welke route het nam, en
-   latere berichten volgen die route.
+   als flood door het netwerk. De ontvanger meldt terug welk pad het bericht
+   nam, en latere berichten volgen dat pad.
 4. **Word lid van kanalen.** Het kanaal **Public** staat al klaar. Alles wat je
    daar schrijft, bereikt iedereen op de mesh. Voeg het *hashtagkanaal* van je
    regio toe (een naam die met `#` begint) door de naam in te typen. Je
    [lokale groep](/community/) vertelt je welke kanalen actief zijn.
+   Wil je ze in het echt ontmoeten? Bekijk de [bijeenkomsten](/meetings/) bij
+   jou in de buurt.
 
 ## Als iets niet werkt {#troubleshooting}
 
@@ -115,7 +118,7 @@ Verwijder het apparaat uit de Bluetooth-instellingen van je telefoon, herstart
 Bluetooth en koppel opnieuw met de pincode op het scherm of `123456`.
 
 **Er verschijnt niemand in mijn contacten.**
-Controleer of je preset bij je omgeving past. Stuur een flood-advertentie. Is
+Controleer of je preset bij je omgeving past. Stuur een flood-advert. Is
 er geen repeater binnen bereik, dan hoor je alleen radio's vlak in de buurt. Op
 de [kaartpagina](/map/) zie je waar repeaters staan.
 
@@ -127,7 +130,7 @@ groep bewaren) moet de eigenaar de tijd instellen.
 **Een direct bericht komt nooit aan.**
 Jij en de ander moeten elkaar allebei als contact hebben. Een node gooit een bericht van
 een onbekende weg, zonder dat de afzender het merkt. Stuur een
-flood-advertentie en vraag de ander om dat ook te doen. Controleer in de app of
+flood-advert en vraag de ander om dat ook te doen. Controleer in de app of
 die nieuwe contacten automatisch toevoegt. De app voegt alleen nodes toe binnen
 de hoplimiet.
 

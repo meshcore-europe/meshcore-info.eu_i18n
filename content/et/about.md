@@ -1,16 +1,16 @@
 ---
 title: Mis on MeshCore?
 lead: MeshCore saadab tekstisõnumeid raadio teel, sõlmest sõlme. Selleks ei ole vaja internetti ega lepingut.
-description: 'Mis on MeshCore ja mis see ei ole: sõlmede tüübid, marsruutimine, erinevused Meshtasticust, krüpteerimine ja 868 MHz sagedusala.'
+description: 'Mis MeshCore on ja mis see ei ole: sõlmede liigid, marsruutimine, krüpteerimine ja 868 MHz sagedusala.'
 eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '279b56a4'
-  seeded: '2026-11-02'
-  fields: {title: '06eda66b', lead: 'c0174569', description: '15e6d2a7', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '16fde264', '0a55792c', 'c3de803d', '493b444f', 'a8b2b9b4', '429f699c', 'f8008f48', '88af2bd3', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'fab378a5', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', 'fc8f3129', '8dec428a', '07cbac35', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '95e18f18', '02f1fe2f', 'e6b5b258']
+  source_hash: '2a40da22'
+  seeded: '2026-11-04'
+  fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
+  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore on tasuta tarkvara väikestele LoRa-raadiotele. LoRa on raadiotehnika, mis saadab vähe andmeid kaugele ja kulutab väga vähe energiat. MeshCore'iga raadiot nimetatakse *sõlmeks*. Kui seod sõlme telefoni või sülearvuti rakendusega või kasutad selle enda ekraani ja klaviatuuri, saad saata teksti inimestele kilomeetrite kaugusele. Vahele ei jää ühtegi masti, ruuterit ega teenusepakkujat.
@@ -21,31 +21,13 @@ Tarkvara on avatud lähtekoodiga. Seda arendatakse hoidlas [meshcore-dev/MeshCor
 
 Kas raadio on sulle uus? Siin on asjad, mida inimesed MeshCore'ilt kõige sagedamini ootavad, kuid mida see ei tee.
 
-- **See ei ole internet ega telefon.** MeshCore saadab lühikesi tekstisõnumeid,
-  umbes sama pikki kui SMS sinu telefonis. Kõnesid, fotosid, videot ega veebisaite
-  siin ei ole ja tavalist telefoninumbrit sa sellega kätte ei saa.
-- **See ei ole hädaabiteenus.** Ükski hädaabiteenus ei kuula seda võrku ja keegi
-  ei luba, et sinu sõnumit loetakse. Hädaolukorras helista numbrile 112.
-- **See ei toimi kohe ega kõikjal.** Sõnum liigub raadiolt raadiole ja võib
-  kohale jõuda mõne sekundiga või üldse mitte. Kas see kohale jõuab, sõltub sinu
-  ümber olevatest repiiteritest, kõrgusest, hoonetest ja sinu antennist. Väike
-  raadio toas ei ulatu sageli kellenigi; repiiter katusel ulatub kilomeetrite
-  kaugusele.
-- **See ei ole teenus, mida keegi sinu eest haldab.** Pole teenusepakkujat,
-  kasutajatuge ega lubadust, et levi on olemas. Võrk on olemas seal, kuhu
-  kogukonna inimesed on repiitereid üles pannud, ja mitte kusagil mujal.
-- **Kõik ei ole siin privaatne.** Otsesõnumid on krüpteeritud, kuid kanalit
-  Public ja räsimärgiga kanaleid saab lugeda igaüks ning sinu sõlme nime ja
-  jagatud asukohta näevad kõik levialas olijad.
-  [Vaatlejad](/network/) edastavad kuuldu avalikele kaartidele.
-  [Krüpteerimise jaotis](#encryption) selgitab, mis jääb privaatseks.
-- **See ei ole piiramatu.** Kõik piirkonna kasutajad jagavad üht raadiokanalit ja
-  [868 MHz sagedusala](#band) reeglid piiravad, kui kaua iga raadio tohib saata.
-  Iga sõnum võtab eetriaega kõigilt teistelt, nii et botid, sagedased kuulutused
-  ja testsõnumid aeglustavad võrku kõigi jaoks.
-- **See ei ole Meshtastic.** Meshtastic on teine süsteem, mis töötab suures osas
-  samadel plaatidel. Need kaks süsteemi ei saa omavahel suhelda.
-  Jaotis [Kui tuled Meshtasticust](#meshtastic) loetleb, mis töötab teisiti.
+- **See ei ole internet ega telefon.** MeshCore saadab lühikesi tekstisõnumeid, umbes sama pikki kui SMS sinu telefonis. Häält, fotosid, videot ega veebilehti see ei edasta ning tavalise telefoninumbrini sa sellega ei jõua.
+- **See ei ole hädaabiteenus.** Ükski hädaabiteenus ei luba võrku kuulata ja keegi ei luba, et keegi sinu sõnumit loeb.
+- **See ei ole kohene ega toimi kõikjal.** Sõnum liigub hüpetega raadiolt raadiole ja võib kesta mõne sekundi või üldse kohale jõudmata jääda. Kas see kohale jõuab, sõltub sinu ümber olevatest repiiteritest, kõrgusest, hoonetest ja sinu antennist. Väike raadio toas ei jõua sageli kellenigi, katusel olev repiiter ulatub kilomeetrite kaugusele.
+- **See ei ole teenus, mida keegi sinu jaoks haldab.** Pole teenusepakkujat, kasutajatuge ega levi lubadust. Võrk on olemas seal, kus kogukonna inimesed on repiitereid üles pannud.
+- **Kõik siin ei ole privaatne.** Otsesõnumid on krüpteeritud, kuid Public kanalit ja räsimärgiga kanaleid saab lugeda igaüks. Sinu sõlme nime ja jagatud asukohta näevad kõik levialas olijad. [Vaatlejad](/network/) saadavad kuuldu avalikele kaartidele. [Krüpteerimise jaotis](#encryption) selgitab, mis jääb privaatseks.
+- **See ei ole piiramatu.** Kõik piirkonna kasutajad jagavad ühte raadiokanalit ja [868 MHz sagedusala](#band) reeglid piiravad, kui kaua iga raadio tohib saata. Iga sõnum võtab eetriaega kõigilt teistelt. Seetõttu aeglustavad botid, sagedased kuulutused ja testsõnumid võrku kõigi jaoks.
+- **See ei ole Meshtastic.** Meshtastic on teine süsteem, mis töötab suures osas samadel plaatidel. Need kaks ei saa omavahel suhelda.
 
 ## Mesh-võrk ühe minutiga {#mesh}
 
@@ -71,22 +53,6 @@ Sinu esimene sõnum kontaktile läheb teele *üleujutusena*. Iga repiiter, mis s
 
 Kanalisõnumitel ei ole ühte kindlat aadressi, seega levivad need alati üleujutusena. Repiiterid mäletavad, mida nad hiljuti edastasid, ja viskavad ära koopiad, mis saabuvad uuesti mööda teist teed. Sõnum võib läbida kuni 64 repiiterit või 32, kui eelseadistus kasutab 2-baidiseid ID-sid.
 
-## Kui tuled Meshtasticu juurest {#meshtastic}
-
-Paljud plaadid töötavad kas MeshCore'i või Meshtasticuga ja paigaldad neist selle, mida soovid. Need on erinevused, mida märkad kõigepealt. Nende aluseks on MeshCore'i versioon v1.18.0 ja Meshtasticu dokumentatsioon 2026. aasta novembrist.
-
-- **Kes sõnumeid edasi saadab.** MeshCore'is teevad seda ainult repiiterid; sinu
-  kaasseade ei tee seda kunagi. Meshtasticus saadab sõnumeid edasi ka vaikimisi
-  kliendiroll, kui mõni teine sõlm pole seda juba teinud.
-- **Kui kaugele sõnum jõuab.** MeshCore'i sõnum võib läbida kuni 64 repiiterit.
-  Meshtasticus peatub sõnum vaikimisi pärast 3 hüpet ja hiljemalt pärast 7 hüpet.
-- **Teiste sõlmede näidud.** MeshCore'i repiiterid ja andurisõlmed saadavad näite,
-  nagu aku pinget, siis, kui sa neid küsid. Kogu mesh-võrgule nad neid ei saada.
-- **Internet.** MeshCore'i püsivara ei ühenda mesh-võrke interneti kaudu.
-  [Vaatlejad](/network/) edastavad kuuldu kaartidele ainult ühes suunas.
-  Meshtasticul on sisseehitatud MQTT-moodul, mis saab sõnumeid interneti kaudu
-  mesh-võrkude vahel edastada.
-
 ## Krüpteerimine ja privaatsus {#encryption}
 
 Sinu otsesõnumid on otspunktkrüpteeritud: peale sinu ja teise inimese ei saa neid lugeda keegi. Repiiter näeb paketi saajat ainult 1-baidise vihjena.
@@ -107,17 +73,40 @@ Kõik ühe piirkonna inimesed kasutavad sama eelseadistust, muidu ei kuule nende
 
 ## Milleks inimesed seda kasutavad {#uses}
 
-- Ühenduses püsimine matkal, merel ja festivalidel, kus mobiilivõrk on ülekoormatud
-  või puudub.
+- Ühenduses püsimine matkadel, merel ja festivalidel, kus mobiilivõrk on ülekoormatud või puudub.
 - Varukanal perele või naabritele, kui elekter või mobiilivõrgud kaovad.
-- Kohalik vestlus raadiotega, mis kuuluvad inimestele endile.
-- Kauge koha kontrollimine kodust. Kui küsid, teatavad repiiterid ja andurisõlmed oma
-  aku pinge ja muud näidud.
-- Anduri jälgimine. Andurisõlmes töötab MeshCore'i mõõtmiseks mõeldud püsivara.
-  See säilitab oma näitude ajalugu. Kui tellid teavitused, hoiatab see sind,
-  näiteks siis, kui selle aku hakkab tühjaks saama.
-- Kaugel asuva asja, näiteks pumba, lülitamine. Selle võimaluse lisad anduri püsivarale oma koodiga.
-- Katsetamine raadio, antennide, päikeseenergia ja avatud lähtekoodiga tarkvaraga.
+- Varulahendus kohalikele omavalitsustele, kui nende tavalised võrgud ei tööta.
+- Kohalik vestlus raadiotega, mis on inimeste endi omad.
+- Otsingu- ja päästemeeskonna omavaheline ühendus seal, kus mobiilivõrku pole. Kogukonna rakendus MeshCore SAR lehel [Projektid](/projects/) lisab kaardid ja jagatud asukohad.
+- Kaugel asuva paiga kontrollimine kodust. Kui sa küsid, teatavad repiitrid ja andurisõlmed oma aku pinge ja muud näidud.
+- Anduri jälgimine. Andurisõlmes töötab MeshCore'i mõõtmispüsivara. See salvestab oma aku pinge ajaloo. Logi sisse administraatorina ja see hoiatab sind, kui aku hakkab tühjenema. Teiste näitude jaoks lisad hoiatused oma koodiga.
+- Kaugel asuva seadme, näiteks pumba lülitamine. Selle lisad andurisõlme püsivarasse oma koodiga.
+- Katsetamine raadioside, antennide, päikeseenergia ja avatud lähtekoodiga tarkvaraga.
+
+Mõned ametiasutused ehitavad või katsetavad MeshCore'i põhjal varulahendust. Kontrollisime neid näiteid 2026. aasta novembris.
+
+- Tsüklon Gabrielle katkestas Uus-Meremaal Tairāwhitis kogu side. 2025. aasta
+  septembris nimetas piirkonna hädaolukorrateenistus MeshCore'i
+  [üheks vähemalt 6 varusidevahendist](https://www.scoop.co.nz/stories/AK2509/S00669.htm).
+  Teenistus ehitas ka võrgu selgrooks päikeseenergial töötavaid repiitereid.
+- Saksamaal ehitab Bad Kissingeni maakond
+  [MeshCore'il põhinevat tekstivõrku](https://www.landkreis-badkissingen.de/wirtschaft/digitalisierung/kommunikationsnetze/index.html)
+  ametiasutustele, päästeteenistustele ja elutähtsatele objektidele. Esimesena
+  liituvad tuletõrjedepood.
+- Hollandis kiitis Hilversumi volikogu
+  [34 poolt- ja 1 vastuhäälega heaks katse](https://hilversum.nl/nieuwsoverzicht/gemeenteraad-buigt-zich-over-financien),
+  mille repiiter asub raekoja tornis. Omavalitsus
+  [hindab katset 2027. aasta sügisel](https://www.spreekbuis.nl/hilversum-start-proef-met-onafhankelijk-noodcommunicatienetwerk-meshcore/).
+- Kaks Hollandi turvalisuspiirkonda, mis korraldavad kriisile reageerimist,
+  katsetavad MeshCore'i:
+  [Lõuna-Limburg](https://nos.nl/nieuwsuur/artikel/2607176-communicatie-hulpdiensten-valt-uit-bij-lange-stroomstoring-oplossing-niet-in-zicht)
+  ja [Drenthe](https://www.rtvdrenthe.nl/nieuws/18438486/hackerspace-drenthe-werkt-aan-een-noodnetwerk-voor-de-provincie).
+  Drenthe sõnul on veel vara öelda, kuidas või millal piirkond seda kasutada saaks.
+- Dalfsenis, samuti Hollandis,
+  [korraldavad vabatahtlikud koos omavalitsustega pilootprojekti](https://noodnetoverijssel.nl/).
+  Nad kasutavad esmalt häälraadiot ja teise kihina MeshCore'i tekstisõnumite jaoks.
+
+Keegi ei luba, et sinu lähedal võrgus keegi su sõnumit loeb.
 
 ## Kust andmed pärinevad {#data}
 

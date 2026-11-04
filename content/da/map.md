@@ -6,11 +6,11 @@ description: Live-kort over MeshCore, dækningskort og pakkeanalysatorer for Eur
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '351071aa'
-  seeded: '2026-10-31'
+  source_hash: '24bfdf6b'
+  seeded: '2026-11-04'
   fields: {title: '4b9f20a0', lead: 'fedb89bb', description: 'b5719f82'}
-  sections: ['351071aa']
-  blocks: ['dd5f039e', '9d4a2ad8', '70c417f2', '9fef7e16']
+  sections: ['24bfdf6b']
+  blocks: ['dd5f039e', '9d4a2ad8', '763fc710', '70c417f2', '9fef7e16']
 ---
 
 En node kommer på disse kort, når ejeren offentliggør den, eller når en
@@ -23,6 +23,9 @@ En node står på kortet der, hvor ejeren har placeret den. Placeringen kan vær
 forkert eller forældet. En flood-besked bevæger sig ad flere stier på én gang. En
 rute på et kort er stien for den kopi, der kom først frem. De andre bliver ikke
 registreret.
+
+Ser en rute på et kort usandsynlig ud? Tjek 2 af dens noder med Line of Sight i
+MeshCore-appen. [Repeater-guiden](/repeater-guide/#check-site) viser, hvordan du gør.
 
 Kortene kræver internet. Det gør mesh'et ikke. [Hvorfor](/network/)
 

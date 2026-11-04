@@ -6,11 +6,11 @@ eyebrow: 868 MHz · bis 500 mW · lizenzfrei
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '7c7e3be3'
-  seeded: '2026-10-31'
+  source_hash: '3e38a8c6'
+  seeded: '2026-11-04'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '766086be', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', '6a7c4493', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
 ---
 
 Repeater tragen das Mesh. Companions, also die Funkgeräte, mit denen du Nachrichten
@@ -44,19 +44,43 @@ Höhe schlägt Leistung. LoRa auf 868 MHz kommt bei freier Sichtlinie am weitest
 Hügel, Gebäude und dichte Bäume kosten weit mehr Reichweite, als ein paar
 zusätzliche Milliwatt zurückholen.
 
-- **Geh hoch hinaus.** Ein Dach, ein Mast, ein hohes Gebäude oder ein Hügel deckt
-  weit mehr ab als eine Fensterbank. Schon ein paar Meter über den umliegenden
-  Dächern helfen.
-- **Halte die Antenne frei.** Montiere sie über der Dachkante, fern von Metall,
-  Dachrinnen und anderen Antennen.
-- **Prüf die Sicht.** Mit Tools wie [HeyWhatsThat](https://www.heywhatsthat.com/)
-  siehst du, was von einem Standort aus sichtbar ist. Siehst du einen Ort, ist ein
-  Repeater dort in Reichweite.
-- **Lass Freiraum.** Eine Funkstrecke braucht etwas freien Raum um die direkte
-  Linie herum, nicht nur die Linie selbst. Auf langen Strecken sollte die Mitte des
-  Pfads mehrere Meter Abstand zu Hindernissen haben.
-- **Frag um Erlaubnis.** Hol dir die Zustimmung des Eigentümers für Dach oder Mast.
-  Vereinbare auch, wie du für die Wartung an den Repeater kommst.
+- **Geh in die Höhe.** Ein Dach, ein Mast, ein hohes Gebäude oder ein Hügel
+  deckt weit mehr ab als eine Fensterbank. Schon ein paar Meter über den Dächern
+  ringsum helfen.
+- **Halte die Antenne frei.** Montiere sie über den Dachkanten, mit Abstand zu
+  Metall, Dachrinnen und anderen Antennen.
+- **Prüf die Sicht.** Werkzeuge wie [HeyWhatsThat](https://www.heywhatsthat.com/)
+  zeigen, was man von einem Standort aus sieht. Die MeshCore-App
+  [berechnet, was ein Repeater dort erreichen kann](#check-site).
+- **Lass Freiraum.** Ein Funkpfad braucht freien Raum rund um die direkte Linie,
+  nicht nur die Linie selbst. Bei 868 MHz sind das in der Mitte eines 5 km langen
+  Pfads etwa 20 m rundherum. Auf 20 km sind es etwa 40 m.
+- **Frag um Erlaubnis.** Hol dir die Zustimmung des Eigentümers für Dach oder Mast
+  und vereinbare, wie du den Repeater für die Wartung erreichst.
+
+### Standort in der App prüfen {#check-site}
+
+Ab Version 1.33 hat die MeshCore-App diese Werkzeuge im Menü unter
+**Tools**. Sie funktionieren ohne verbundenes Funkgerät.
+
+- **Line of Sight** zeichnet das Gelände zwischen 2 Punkten und den Raum, den
+  das Signal darüber braucht. Drück lange auf 2 Punkte auf der Karte oder tippe
+  auf Repeater.
+- **Antenna Coverage** zeigt auf der Karte, was eine Antenne an 1 Punkt erreichen
+  kann. Drück lange auf einen Punkt oder tippe auf einen Repeater. Füg weitere
+  Punkte hinzu, um Standorte zu vergleichen.
+
+Am Computer wählst du **Add Point** im Menü des Werkzeugs und gibst die Koordinaten ein.
+
+Beide Werkzeuge gehen anfangs von einer Antennenhöhe von 5 m an deinem Standort aus. Stell deshalb in den Einstellungen des Werkzeugs die Höhe ein, die du planst. Antenna Coverage geht anfangs von einer Empfangsantenne auf 1 m aus. Ohne verbundenes Funkgerät startet Line of Sight mit 915 MHz: Stell in seinen Einstellungen die Frequenz deines [Presets](/guides/settings/) ein.
+
+Die Werkzeuge rechnen mit Höhendaten und testen dein Funkgerät nicht. Prüf Bäume und
+neue Gebäude selbst, nimm dann einen Companion mit an den Ort und schau, welche
+Repeater er empfängt.
+
+![Line of Sight in der MeshCore-App: das Gelände zwischen 2 Punkten und der Raum, den das Signal darüber braucht](/media/guides/line-of-sight.webp)
+
+![Antenna Coverage in der MeshCore-App: auf einer Karte der Bereich, den eine Antenne auf einem Hügel erreichen kann](/media/guides/antenna-coverage.webp)
 
 ## Hardware {#hardware}
 

@@ -6,11 +6,11 @@ eyebrow: 6 steg · MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0c1b08d9'
-  seeded: '2026-11-02'
+  source_hash: '0490a311'
+  seeded: '2026-11-04'
   fields: {title: '61e8d44a', lead: '45b0e5c3', description: 'cf031b18', eyebrow: '4fa6fe1e'}
-  sections: ['16c3728c', '90f3d626', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
-  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '757c634a', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
+  sections: ['16c3728c', '5b6d136a', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', '1741ed35', '66d00206']
+  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', 'e90b7859', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', '53276869', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
 ---
 
 Stegen utgår från MeshCore-firmware v1.18.0 och de officiella verktygen från
@@ -26,9 +26,8 @@ också välja en med egen skärm och eget tangentbord som fungerar fristående.
 Köp 868 MHz-versionen. Den medföljande antennen räcker. I
 [antennguiden](/guides/antenna/) ser du hur du kontrollerar en antenn.
 
-Kör ditt kort Meshtastic nu? När du flashar MeshCore ersätter det Meshtastic, och de två pratar inte
-med varandra. Avsnittet [Kommer du från Meshtastic](/about/#meshtastic)
-listar vad som fungerar annorlunda.
+Kör ditt kort Meshtastic nu? När du flashar MeshCore ersätts det, och de två
+systemen kan inte prata med varandra.
 
 {{< callout type="warning" >}}
 Montera antennen innan du slår på radion. En LoRa-radio som sänder utan
@@ -90,20 +89,21 @@ kräver ingen uppdatering av appen.
 
 ## 6. Säg hej {#hello}
 
-1. **Presentera dig.** Skicka en *advert* från appen. En advert av typen
-   "flood" går vidare via repeatrarna (noder som skickar meddelanden vidare).
-   Då kan alla i meshen lägga till dig.
-   En companion presenterar sig aldrig automatiskt.
+1. **Presentera dig.** Skicka en *advert* från appen. En flood-advert
+   färdas genom repeatrarna (noder som skickar meddelanden vidare), så alla
+   i meshen kan lägga till dig.
+   Companions presenterar sig aldrig automatiskt.
 2. **Hitta andra.** Andra dyker upp bland dina kontakter när deras adverts når
-   dig. Repeatrar skickar som standard en flood-advert var 47:e timme. Det kan
-   alltså ta 2 dagar innan din lista fylls.
+   dig. Repeatrar skickar som standard en flood-advert var 47:e timme. Därför
+   kan det ta 2 dagar innan din lista fylls på.
 3. **Skicka ett meddelande.** Öppna en kontakt och skriv. Det första
-   meddelandet sprids med flood genom nätet. Mottagaren skickar tillbaka vilken
-   väg det tog, och senare meddelanden följer den vägen.
-4. **Gå med i kanaler.** Kanalen **Public** är redan inställd. Allt du skriver
-   där når alla i meshen. Lägg till din regions *hashtag-kanal* (ett namn som
-   börjar med `#`) genom att skriva in namnet. Din
+   meddelandet sprids som flood i nätverket. Mottagaren skickar tillbaka
+   vägen som meddelandet tog, och senare meddelanden följer den vägen.
+4. **Gå med i kanaler.** Kanalen **Public** finns redan. Allt du skriver
+   där når alla i meshen. Lägg till din regions *hashtagkanal* (ett namn som
+   börjar med `#`) genom att skriva in dess namn. Din
    [lokala grupp](/community/) berättar vilka kanaler som är aktiva.
+   Vill du träffa dem personligen? Se [träffarna](/meetings/) nära dig.
 
 ## När något inte fungerar {#troubleshooting}
 

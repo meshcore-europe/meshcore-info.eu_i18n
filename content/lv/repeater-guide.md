@@ -6,11 +6,11 @@ eyebrow: 868 MHz · līdz 500 mW · bez licences
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '7c7e3be3'
-  seeded: '2026-11-02'
+  source_hash: '3e38a8c6'
+  seeded: '2026-11-04'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '766086be', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', '6a7c4493', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
 ---
 
 Tīkls balstās uz retranslatoriem. Companion ierīces ir radio, no kuriem tu sūti ziņas, un tās ziņas tālāk nepārsūta. Tāpēc bez retranslatoriem tu sasniedz tikai tos, kas ir tiešā darbības rādiusā. Pareizi novietots retranslators paplašina tīklu visiem apkārtējiem. Šis ceļvedis atbilst MeshCore programmaparatūras versijai v1.18.0.
@@ -30,11 +30,38 @@ Uzstādi retranslatoru tur, kur trūkst pārklājuma:
 
 Augstums ir svarīgāks par jaudu. LoRa signāls 868 MHz joslā vislabāk izplatās pa brīvu redzamības līniju. Pakalni, ēkas un blīvi koki atņem daudz vairāk darbības rādiusa, nekā atgūst daži papildu milivati.
 
-- **Novieto augstu.** Jumts, masts, augsta ēka vai pakalns aptver daudz vairāk nekā palodze. Palīdz pat daži metri virs apkārtējiem jumtiem.
-- **Turi antenu brīvā vietā.** Uzstādi to virs jumta malām, tālāk no metāla, notekām un citām antenām.
-- **Pārbaudi redzamību.** Ar tādiem rīkiem kā [HeyWhatsThat](https://www.heywhatsthat.com/) vari redzēt, kas no konkrētas vietas ir saskatāms. Ja tu kādu punktu redzi, tur novietots retranslators ir sasniedzams.
-- **Atstāj brīvu telpu.** Radiosignālam vajag brīvu telpu arī ap tiešo līniju, ne tikai pašu līniju. Lielos attālumos signāla ceļa vidusdaļai jāatrodas vairākus metrus virs šķēršļiem.
-- **Palūdz atļauju.** Saņem jumta vai masta īpašnieka piekrišanu un vienojies, kā piekļūsi retranslatoram apkopes darbiem.
+- **Izvēlies augstu vietu.** Jumts, masts, augsta ēka vai pakalns aptver daudz lielāku zonu
+  nekā palodze. Palīdz pat daži metri virs apkārtējiem jumtiem.
+- **Turi antenu brīvā vietā.** Uzstādi to virs jumta malām, tālāk no
+  metāla, notekcaurulēm un citām antenām.
+- **Pārbaudi redzamību.** Tādi rīki kā [HeyWhatsThat](https://www.heywhatsthat.com/)
+  rāda, kas no konkrētās vietas ir redzams. MeshCore lietotne
+  [aprēķina, ko tur novietots retranslators var sasniegt](#check-site).
+- **Atstāj brīvu telpu.** Radio ceļam vajag brīvu telpu ap tiešo līniju,
+  ne tikai pašu līniju. 868 MHz joslā šī telpa ir aptuveni 20 m ap
+  5 km ceļa vidu. 20 km ceļam tā ir aptuveni 40 m.
+- **Lūdz atļauju.** Saņem īpašnieka piekrišanu jumtam vai mastam un
+  vienojies, kā tu piekļūsi retranslatoram apkopei.
+
+### Pārbaudi vietu lietotnē {#check-site}
+
+MeshCore lietotnes 1.33 vai jaunākā versijā šie rīki atrodas izvēlnes sadaļā **Tools**.
+Tie darbojas bez pievienota radio.
+
+- **Line of Sight** attēlo zemes profilu starp 2 punktiem un telpu, kas signālam vajadzīga virs tā.
+  Kartē ilgi turi nospiestus 2 punktus vai pieskaries retranslatoriem.
+- **Antenna Coverage** kartē rāda, ko var sasniegt antena 1 punktā.
+  Ilgi turi nospiestu punktu vai pieskaries retranslatoram. Pievieno vēl punktus, lai salīdzinātu vietas.
+
+Datorā rīka izvēlnē izvēlies **Add Point** un ievadi koordinātas.
+
+Abi rīki pēc noklusējuma pieņem, ka antena tavā vietā ir 5 m augstumā, tāpēc rīka iestatījumos norādi plānoto augstumu. Antenna Coverage pēc noklusējuma pieņem, ka uztverošā antena ir 1 m augstumā. Ja radio nav pievienots, Line of Sight pēc noklusējuma izmanto 915 MHz: šī rīka iestatījumos norādi sava [priekšiestatījuma](/guides/settings/) frekvenci.
+
+Rīki rēķina pēc augstuma datiem un tavu radio nepārbauda. Kokus un jaunas ēkas pārbaudi pats, tad aiznes companion ierīci uz šo vietu un paskaties, kurus retranslatorus tā dzird.
+
+![Line of Sight MeshCore lietotnē: zeme starp 2 punktiem un telpa, kas signālam vajadzīga virs tās](/media/guides/line-of-sight.webp)
+
+![Antenna Coverage MeshCore lietotnē: kartē redzama zona, ko var sasniegt antena uz pakalna](/media/guides/antenna-coverage.webp)
 
 ## Aparatūra {#hardware}
 

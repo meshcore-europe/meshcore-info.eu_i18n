@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '9266fa2b'
-  seeded: '2026-11-02'
+  source_hash: 'f3e63cef'
+  seeded: '2026-11-04'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', 'ee7ba544', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', '6f034862', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Maidir leis an suíomh {#about}
@@ -22,6 +22,12 @@ translation:
 **In 1 alt.** Seolann MeshCore teachtaireachtaí trí raidió, gan idirlíon ná síntiús. Cuireann raidiónna beaga LoRa, dá ngairtear athsheoltóirí, gach teachtaireacht ar aghaidh, agus nascann a mogalraí ina mogalra amháin ar fud na hEorpa. Coinníonn réigiúin, na limistéir a bhfanann teachtaireacht iontu, an trácht áitiúil, mar sin braitheann do shocruithe ar an áit a bhfuil cónaí ort. Bailíonn meshcore-info.eu na socruithe sin, na treoracha agus na huirlisí in aon áit amháin, i 33 teanga. Treoraíonn sé thú freisin chuig an ngrúpa áitiúil atá gar duit. Scríobhann oibrithe deonacha é, gan fhógraí, naisc siopa ná rianú.
 
 Cóipeáil ceachtar den dá théacs mar atá, nó giorraigh é. Tabhair meshcore-info.eu ar an suíomh, i litreacha beaga, le .eu. Le haghaidh téacs níos faide, cóipeáil an preasráiteas sa [phost seolta](/blog/welcome/).
+
+## Naisc ghearra don mhogalra {#short-links}
+
+Tógann na naisc seo níos lú spáis i dteachtaireacht mhogalra. Osclaíonn gach nasc i dteanga an duine a thapálann é. Coinnímid gach ainm ag obair tar éis dúinn é a thabhairt amach.
+
+{{< short-links >}}
 
 ## Lógó {#logo}
 

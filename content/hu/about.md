@@ -1,16 +1,16 @@
 ---
 title: Mi a MeshCore?
 lead: A MeshCore rádión küld szöveges üzeneteket, csomópontról csomópontra. Nem kell hozzá internet vagy előfizetés.
-description: 'Mi a MeshCore, és mi nem: csomóponttípusok, útválasztás, eltérések a Meshtastictól, titkosítás és a 868 MHz-es sáv.'
+description: 'A MeshCore mi és mi nem: csomóponttípusok, útválasztás, titkosítás és a 868 MHz-es sáv.'
 eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '279b56a4'
-  seeded: '2026-11-02'
-  fields: {title: '06eda66b', lead: 'c0174569', description: '15e6d2a7', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '16fde264', '0a55792c', 'c3de803d', '493b444f', 'a8b2b9b4', '429f699c', 'f8008f48', '88af2bd3', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'fab378a5', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', 'fc8f3129', '8dec428a', '07cbac35', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '95e18f18', '02f1fe2f', 'e6b5b258']
+  source_hash: '2a40da22'
+  seeded: '2026-11-04'
+  fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
+  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
 ---
 
 A MeshCore ingyenes szoftver kis LoRa rádiókhoz. A LoRa olyan rádiós technika,
@@ -29,32 +29,29 @@ licenc alatt.
 pedig nem képes rájuk.
 
 - **Nem internet és nem telefon.** A MeshCore rövid szöveges üzeneteket küld,
-  nagyjából akkorákat, mint egy SMS a telefonodon. Nincs hang, fotó, videó
-  és weboldal sem, és normál telefonszámot sem tudsz elérni.
-- **Nem segélyszolgálat.** Egyetlen segélyszolgálat sem figyeli a mesht, és
-  senki sem ígéri, hogy valaki elolvassa az üzenetedet. Vészhelyzetben hívd a
-  112-t.
-- **Nem azonnali, és nem működik mindenhol.** Az üzenet rádióról rádióra ugrik,
-  és eltarthat néhány másodpercig, vagy meg sem érkezik. Hogy átjut-e, az a
-  körülötted lévő átjátszóktól, a magasságtól, az épületektől és az antennádtól
-  függ. Egy kis rádió beltérben gyakran senkit sem ér el; egy tetőn lévő átjátszó
-  kilométerekre is elér.
-- **Nem olyan szolgáltatás, amelyet valaki üzemeltet neked.** Nincs szolgáltató,
-  nincs ügyfélszolgálat, és senki sem ígér lefedettséget. A mesh ott van, ahol a
-  közösség tagjai átjátszókat állítottak fel, máshol nincs.
-- **Nem minden privát a meshen.** A közvetlen üzenetek titkosítottak, de a Public
-  és a hashtag-csatornákat bárki elolvashatja, a csomópontod nevét és megosztott
-  pozícióját pedig a hatótávolságon belül mindenki látja.
-  [A megfigyelők](/network/) nyilvános térképekre küldik, amit hallanak. A
+  nagyjából olyan hosszúakat, mint egy SMS a telefonodon. Nincs hang, fotó, videó vagy weboldal,
+  és normál telefonszámot sem érhetsz el vele.
+- **Nem segélyhívó szolgálat.** Egyetlen segélyszolgálat sem vállalja, hogy
+  figyeli a mesh-t. Senki sem ígéri, hogy valaki elolvassa az üzenetedet.
+- **Nem azonnali, és nem működik mindenhol.** Az üzenet rádióról rádióra ugrik.
+  Ez eltarthat néhány másodpercig, vagy az üzenet meg sem érkezik. Hogy átjut-e,
+  az a környékeden lévő átjátszóktól függ, a magasságtól, az épületektől és az
+  antennádtól. Egy kis rádió beltérben gyakran senkit sem ér el. Egy tetőre szerelt
+  átjátszó kilométerekre elér.
+- **Nem olyan szolgáltatás, amelyet valaki üzemeltet neked.** Nincs szolgáltató, nincs
+  ügyfélszolgálat, és nincs lefedettségi ígéret. A mesh ott létezik, ahol a
+  közösség tagjai átjátszókat telepítettek.
+- **Nem minden privát rajta.** A közvetlen üzenetek titkosítottak. A Public és a
+  hashtag-csatornák viszont bárki számára olvashatók. A csomópontod nevét és
+  megosztott pozícióját a hatótávon belül mindenki látja.
+  A [megfigyelők](/network/) nyilvános térképekre jelentik, amit hallanak. A
   [titkosításról szóló rész](#encryption) elmagyarázza, mi marad privát.
-- **Nem korlátlan.** Egy területen mindenki egyetlen rádiócsatornán osztozik, és
-  a [868 MHz-es sáv](#band) szabályai korlátozzák, mennyi ideig adhat egy-egy
-  rádió. Minden üzenet adásidőt vesz el mindenki mástól, ezért a botok, a gyakori
-  advertek és a tesztüzenetek mindenkinek lassítják a mesht.
-- **Nem Meshtastic.** A Meshtastic egy másik rendszer, amely nagyrészt ugyanazokon
+- **Nem korlátlan.** Egy környéken mindenki egyetlen rádiócsatornán osztozik. A
+  [868 MHz-es sáv](#band) szabályai korlátozzák, mennyi ideig adhat egy rádió.
+  Minden üzenet adásidőt vesz el a többiektől. Ezért a botok, a gyakori advertek
+  és a tesztüzenetek mindenki számára lassítják a mesh-t.
+- **Nem Meshtastic.** A Meshtastic egy másik rendszer, amely nagyjából ugyanazokon
   a paneleken fut. A kettő nem tud egymással kommunikálni.
-  [A Meshtasticról érkezőknek szóló rész](#meshtastic) felsorolja, mi működik
-  másképp.
 
 ## A mesh egy percben {#mesh}
 
@@ -103,25 +100,6 @@ Az átjátszók megjegyzik, mit adtak tovább nemrég, és eldobják a másolato
 más útvonalon újra beérkeznek. Egy üzenet legfeljebb 64 átjátszón juthat át, vagy
 32-n, ha a preset 2 bájtos azonosítókat használ.
 
-## Ha a Meshtasticról érkezel {#meshtastic}
-
-Sok panelen a MeshCore vagy a Meshtastic is futhat, és azt írod fel rá, amelyiket szeretnéd.
-Ezeket a különbségeket veszed észre először. A MeshCore
-v1.18.0 verzióján és a Meshtastic 2026. novemberi dokumentációján alapulnak.
-
-- **Ki adja tovább az üzeneteket.** A MeshCore-ban csak az átjátszók adják tovább, a companionöd
-  soha. A Meshtasticban az alapértelmezett kliens szerep is továbbadja az üzeneteket,
-  hacsak egy másik csomópont már meg nem tette.
-- **Meddig jut el egy üzenet.** Egy MeshCore-üzenet legfeljebb 64 átjátszón haladhat
-  át. A Meshtastic alapértelmezés szerint 3 ugrás után megáll, és legfeljebb 7 ugrást enged.
-- **Más csomópontok mért adatai.** A MeshCore-ban az átjátszók és a szenzorcsomópontok akkor
-  küldenek mért adatokat, például akkumulátorfeszültséget, ha kéred. Ezeket nem
-  küldik el az egész meshnek.
-- **Az internet.** A MeshCore firmware nem köti össze a mesheket az interneten át.
-  [A megfigyelők](/network/) jelentik a térképeknek, amit hallanak, csak egy irányban. A
-  Meshtasticban van beépített MQTT modul, amely az interneten át szállíthat
-  üzeneteket a meshek között.
-
 ## Titkosítás és adatvédelem {#encryption}
 
 A közvetlen üzeneteid végponttól végpontig titkosítottak: csak te és a másik fél
@@ -156,19 +134,49 @@ egymást. Néhány ország és régió egy változatot használ: a
 
 ## Mire használják az emberek {#uses}
 
-- Kapcsolattartás túrákon, a tengeren és fesztiválokon, ahol túlterhelt a mobilhálózat,
-  vagy egyáltalán nincs.
+- Kapcsolattartás túrákon, a tengeren és fesztiválokon, ahol a mobilhálózat
+  túlterhelt vagy nincs.
 - Tartalék csatorna a családnak vagy a szomszédoknak, ha kiesik az áram vagy a
   mobilhálózat.
+- Tartalék a helyi hatóságoknak, ha kiesnek a szokásos hálózataik.
 - Helyi csevegés az emberek saját rádióin.
-- Távoli helyszín ellenőrzése otthonról. Az átjátszók és a szenzorcsomópontok elküldik
-  az akkumulátorfeszültségüket és más mért értékeiket, ha kéred.
-- Szenzor figyelése. A szenzorcsomópont a MeshCore mérésekhez készült firmware-ét
-  futtatja. Megőrzi a korábbi mért értékeit. Ha feliratkozol, riasztást küld neked,
-  például amikor lemerülőben van az akkumulátora.
-- Távoli eszköz, például egy szivattyú kapcsolása. Ezt saját kóddal adod hozzá
-  a szenzor-firmware-hez.
+- Kapcsolattartás egy kutató-mentő csapaton belül ott, ahol nincs mobilhálózat.
+  A MeshCore SAR egy közösségi app a [Projektek](/projects/) oldalon. Térképekkel és
+  megosztott pozíciókkal egészíti ki a MeshCore-t.
+- Egy távoli helyszín ellenőrzése otthonról. Az átjátszók és a szenzorcsomópontok
+  kérésre elküldik az akkumulátorfeszültségüket és más mért értékeiket.
+- Egy szenzor figyelése. A szenzorcsomóponton a MeshCore méréshez készült firmware-e
+  fut. Tárolja az akkumulátorfeszültsége előzményeit. Ha adminként lépsz be,
+  figyelmeztet, amikor lemerülőben van az akkumulátor. Más mért értékekhez saját
+  kóddal adhatsz hozzá figyelmeztetéseket.
+- Egy távoli eszköz, például egy szivattyú kapcsolása. Ezt saját kóddal adod
+  hozzá a szenzor-firmware-hez.
 - Kísérletezés rádióval, antennákkal, napenergiával és nyílt forráskódú szoftverrel.
+
+Néhány hatóság MeshCore-alapú tartalékrendszert épít vagy tesztel. Ezeket a példákat 2026 novemberében ellenőriztük.
+
+- A Gabrielle ciklon minden kommunikációt megszakított Új-Zélandon, Tairāwhitiben.
+  2025 szeptemberében a régió katasztrófavédelme a MeshCore-t
+  [legalább 6 tartalék kommunikációs mód egyikeként](https://www.scoop.co.nz/stories/AK2509/S00669.htm) nevezte meg.
+  A gerinchálózathoz napelemes átjátszókat is épített.
+- A németországi Bad Kissingen járás
+  [MeshCore-alapú szöveges hálózatot épít](https://www.landkreis-badkissingen.de/wirtschaft/digitalisierung/kommunikationsnetze/index.html)
+  a hatóságok, a mentőszervezetek és a létfontosságú létesítmények számára. Elsőként a
+  tűzoltóállomások csatlakoznak.
+- A hollandiai Hilversum városi tanácsa
+  [34:1 arányban megszavazott egy kísérletet](https://hilversum.nl/nieuwsoverzicht/gemeenteraad-buigt-zich-over-financien):
+  egy átjátszó kerül a városháza tornyára. Az önkormányzat
+  [2027 őszén értékeli ki](https://www.spreekbuis.nl/hilversum-start-proef-met-onafhankelijk-noodcommunicatienetwerk-meshcore/).
+- Két holland biztonsági régió (ezek szervezik a válságkezelést) kísérletezik
+  a MeshCore-ral:
+  [Dél-Limburg](https://nos.nl/nieuwsuur/artikel/2607176-communicatie-hulpdiensten-valt-uit-bij-lange-stroomstoring-oplossing-niet-in-zicht)
+  és [Drenthe](https://www.rtvdrenthe.nl/nieuws/18438486/hackerspace-drenthe-werkt-aan-een-noodnetwerk-voor-de-provincie).
+  Drenthe szerint még túl korai megmondani, hogyan vagy mikor használhatná.
+- A szintén hollandiai Dalfsenben önkéntesek
+  [kísérleti projektet visznek az önkormányzatokkal közösen](https://noodnetoverijssel.nl/).
+  Elsősorban hangrádiót használnak, a szöveges üzenetekhez pedig második rétegként a MeshCore-t.
+
+Senki sem ígéri, hogy a közeledben lévő meshen valaki elolvassa az üzenetedet.
 
 ## Honnan származnak az adatok {#data}
 

@@ -6,11 +6,11 @@ description: Live-Karten, Abdeckungskarten und Paketanalysatoren für MeshCore i
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '351071aa'
-  seeded: '2026-10-31'
+  source_hash: '24bfdf6b'
+  seeded: '2026-11-04'
   fields: {title: '4b9f20a0', lead: 'fedb89bb', description: 'b5719f82'}
-  sections: ['351071aa']
-  blocks: ['dd5f039e', '9d4a2ad8', '70c417f2', '9fef7e16']
+  sections: ['24bfdf6b']
+  blocks: ['dd5f039e', '9d4a2ad8', '763fc710', '70c417f2', '9fef7e16']
 ---
 
 Ein Knoten erscheint auf diesen Karten, wenn sein Besitzer ihn veröffentlicht oder wenn
@@ -22,6 +22,9 @@ deshalb kein Analysator.
 Ein Knoten steht dort auf der Karte, wo sein Besitzer ihn eingetragen hat. Diese Angabe kann falsch
 oder veraltet sein. Eine Flood-Nachricht läuft über mehrere Pfade gleichzeitig. Die Route auf einer Karte ist der Pfad
 der Kopie, die zuerst ankam. Die anderen Pfade werden nicht erfasst.
+
+Wirkt eine Route auf einer Karte unwahrscheinlich? Prüfe 2 ihrer Knoten in der
+MeshCore-App mit Line of Sight. Die [Repeater-Anleitung](/repeater-guide/#check-site) zeigt, wie das geht.
 
 Diese Karten brauchen das Internet, das Mesh nicht. [Warum](/network/)
 

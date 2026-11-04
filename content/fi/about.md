@@ -1,16 +1,16 @@
 ---
 title: Mikä MeshCore on?
 lead: MeshCore lähettää tekstiviestejä radiolla solmusta solmuun. Se toimii ilman internetiä ja ilman liittymää.
-description: 'Mitä MeshCore on ja mitä se ei ole: solmutyypit, reititys, erot Meshtasticiin, salaus ja 868 MHz:n taajuusalue.'
+description: 'Mitä MeshCore on ja mitä se ei ole: solmutyypit, reititys, salaus ja 868 MHz:n taajuusalue.'
 eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '279b56a4'
-  seeded: '2026-11-02'
-  fields: {title: '06eda66b', lead: 'c0174569', description: '15e6d2a7', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '16fde264', '0a55792c', 'c3de803d', '493b444f', 'a8b2b9b4', '429f699c', 'f8008f48', '88af2bd3', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'fab378a5', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', 'fc8f3129', '8dec428a', '07cbac35', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '95e18f18', '02f1fe2f', 'e6b5b258']
+  source_hash: '2a40da22'
+  seeded: '2026-11-04'
+  fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
+  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore on ilmainen ohjelmisto pienille LoRa-radioille. LoRa on radiotekniikka,
@@ -27,29 +27,29 @@ Onko radio sinulle uusi asia? Näitä ihmiset odottavat MeshCorelta useimmin,
 mutta se ei tee niitä.
 
 - **Se ei ole internet eikä puhelin.** MeshCore lähettää lyhyitä tekstiviestejä,
-  suunnilleen puhelimen tekstiviestin pituisia. Ääni, kuvat, video ja verkkosivut
-  eivät kulje, etkä tavoita tavallista puhelinnumeroa.
-- **Se ei ole hätäpalvelu.** Yksikään hätäpalvelu ei kuuntele meshiä, eikä kukaan
-  lupaa, että joku lukee viestisi. Hätätilanteessa soita numeroon 112.
-- **Se ei ole välitön, eikä sitä ole kaikkialla.** Viesti hyppii radiolta radiolle.
-  Perillepääsy voi kestää muutaman sekunnin, tai viesti ei tule perille lainkaan.
-  Se, meneekö viesti perille, riippuu ympärilläsi olevista toistimista, korkeudesta,
-  rakennuksista ja antennistasi. Pieni radio ei sisätiloissa useinkaan tavoita ketään,
-  kun taas katolla oleva toistin kantaa kilometrien päähän.
-- **Se ei ole palvelu, jota joku ylläpitää puolestasi.** Palveluntarjoajaa, tukipalvelua
-  tai kuuluvuuslupausta ei ole. Meshiä on siellä, missä yhteisön jäsenet ovat
-  pystyttäneet toistimia, eikä missään muualla.
-- **Kaikki meshissä ei ole yksityistä.** Yksityisviestit on salattu, mutta kuka tahansa
-  voi lukea Public-kanavaa ja hashtag-kanavia. Solmusi nimen ja jakamasi sijainnin
-  näkevät kaikki kantaman sisällä. [Tarkkailijat](/network/) raportoivat kuulemansa
-  julkisille kartoille. [Salausosio](#encryption) kertoo, mikä pysyy yksityisenä.
-- **Se ei ole rajaton.** Kaikki alueen käyttäjät jakavat yhden radiokanavan, ja
-  [868 MHz:n taajuusalueen](#band) säännöt rajoittavat, kuinka kauan kukin radio saa
-  lähettää. Jokainen viesti vie lähetysaikaa kaikilta muilta, joten botit, tiheät
-  ilmoitukset ja testiviestit hidastavat meshiä kaikkien osalta.
-- **Se ei ole Meshtastic.** Meshtastic on eri järjestelmä, joka toimii pitkälti
-  samoilla piirilevyillä. Järjestelmät eivät voi viestiä keskenään.
-  Osio [Meshtasticista siirtyville](#meshtastic) kertoo, mikä toimii eri tavalla.
+  suunnilleen puhelimesi tekstiviestin mittaisia. Ääntä, kuvia, videota
+  tai verkkosivuja ei voi lähettää, etkä tavoita tavallista puhelinnumeroa.
+- **Se ei ole hätäpalvelu.** Mikään hätäpalvelu ei lupaa kuunnella meshiä,
+  eikä kukaan lupaa, että joku lukee viestisi.
+- **Se ei ole välitön eikä toimi kaikkialla.** Viesti hyppää radiolta
+  radiolle. Se voi viedä muutaman sekunnin, tai se ei mene perille
+  lainkaan. Perille pääsy riippuu ympärilläsi olevista toistimista,
+  korkeudesta, rakennuksista ja antennistasi. Sisätiloissa pieni radio ei
+  usein tavoita ketään. Katolla oleva toistin kantaa kilometrien päähän.
+- **Se ei ole palvelu, jota joku ylläpitää puolestasi.** Palveluntarjoajaa,
+  tukipalvelua tai kuuluvuuslupausta ei ole. Mesh on olemassa siellä,
+  missä yhteisön ihmiset ovat pystyttäneet toistimia.
+- **Kaikki meshissä ei ole yksityistä.** Yksityisviestit on salattu, mutta
+  Public-kanavaa ja hashtag-kanavia voi lukea kuka tahansa. Solmusi nimen
+  ja jakamasi sijainnin näkevät kaikki kantaman sisällä.
+  [Tarkkailijat](/network/) raportoivat kuulemansa julkisille kartoille.
+  [Salausta käsittelevä osio](#encryption) kertoo, mikä pysyy yksityisenä.
+- **Se ei ole rajaton.** Kaikki alueen käyttäjät jakavat yhden radiokanavan,
+  ja [868 MHz:n kaistan](#band) säännöt rajoittavat, kuinka kauan kukin
+  radio saa lähettää. Jokainen viesti vie lähetysaikaa kaikilta muilta.
+  Siksi botit, tiheät ilmoitukset ja testiviestit hidastavat meshiä kaikille.
+- **Se ei ole Meshtastic.** Meshtastic on eri järjestelmä, joka toimii
+  pitkälti samoilla piirilevyillä. Ne eivät pysty viestimään keskenään.
 
 ## Mesh minuutissa {#mesh}
 
@@ -99,22 +99,6 @@ Toistimet muistavat, mitä ne ovat äskettäin välittäneet, ja hylkäävät ko
 saapuvat uudelleen toista reittiä. Viesti voi kulkea enintään 64 toistimen kautta tai 32:n kautta, jos esiasetus käyttää 2-tavuisia
 tunnuksia.
 
-## Meshtasticista siirtyville {#meshtastic}
-
-Monilla piirilevyillä toimii joko MeshCore tai Meshtastic, ja asennat niistä haluamasi. Nämä erot huomaat ensimmäisenä. Ne perustuvat MeshCoren versioon v1.18.0 ja Meshtasticin marraskuun 2026 dokumentaatioon.
-
-- **Kuka välittää viestit eteenpäin.** MeshCoressa sen tekevät vain toistimet, oma companionisi ei koskaan.
-  Meshtasticissa viestejä välittää myös oletuksena käytössä oleva client-rooli, ellei jokin toinen
-  solmu ole jo tehnyt sitä.
-- **Kuinka pitkälle viesti kulkee.** MeshCore-viesti voi kulkea enintään 64
-  toistimen kautta. Meshtasticissa raja on oletuksena 3 hyppyä ja enintään 7.
-- **Muiden solmujen lukemat.** MeshCoressa toistimet ja anturisolmut lähettävät
-  lukemia, kuten akun jännitteen, kun pyydät niitä. Ne eivät lähetä lukemia koko meshille.
-- **Internet.** MeshCoren laiteohjelmistossa ei ole meshien välistä yhteyttä
-  internetin kautta. [Tarkkailijat](/network/) raportoivat kuulemansa kartoille, vain
-  yhteen suuntaan. Meshtasticissa on sisäänrakennettu MQTT-moduuli, joka voi välittää
-  viestejä meshien välillä internetin kautta.
-
 ## Salaus ja yksityisyys {#encryption}
 
 Yksityisviestisi on salattu päästä päähän: vain sinä ja toinen osapuoli
@@ -150,18 +134,49 @@ tietää, mitä muunnelmaa.
 
 ## Mihin sitä käytetään {#uses}
 
-- Yhteydenpito vaelluksilla, merellä ja festivaaleilla, kun matkapuhelinverkko on
-  ruuhkautunut tai puuttuu.
-- Varakanava perheelle tai naapureille, kun sähköt katkeavat tai matkapuhelinverkot lakkaavat toimimasta.
+- Yhteydenpito vaelluksilla, merellä ja festivaaleilla, joilla mobiiliverkko
+  on ruuhkautunut tai puuttuu kokonaan.
+- Varayhteys perheelle tai naapureille, kun sähköt tai mobiiliverkot
+  pettävät.
+- Varayhteys paikallisille viranomaisille, kun niiden tavalliset verkot pettävät.
 - Paikallinen keskustelu ihmisten omilla radioilla.
-- Etäkohteen tarkistaminen kotoa käsin. Toistimet ja anturisolmut ilmoittavat akkujännitteensä
-  ja muita lukemia, kun pyydät niitä.
-- Anturin seuranta. Anturisolmussa toimii MeshCoren laiteohjelmisto mittaamiseen.
-  Solmu pitää lukemistaan historiaa. Jos tilaat hälytykset, solmu varoittaa sinua
-  esimerkiksi silloin, kun sen akku on vähissä.
-- Kaukana olevan laitteen, kuten pumpun, kytkeminen. Lisäät tämän toiminnon
-  anturisolmun laiteohjelmistoon omalla koodillasi.
-- Kokeileminen radiolla, antenneilla, aurinkovoimalla ja avoimen lähdekoodin ohjelmistoilla.
+- Etsintä- ja pelastusryhmän yhteydenpito siellä, missä mobiiliverkkoa ei ole.
+  MeshCore SAR on yhteisön sovellus [Projektit-sivulla](/projects/). Se tuo mukaan kartat ja
+  jaetut sijainnit.
+- Syrjäisen kohteen tarkistaminen kotoa käsin. Toistimet ja anturisolmut kertovat
+  akkujännitteensä ja muita lukemia, kun pyydät.
+- Anturin seuraaminen. Anturisolmussa toimii MeshCoren mittaamiseen tarkoitettu
+  laiteohjelmisto. Se tallentaa akkujännitteensä historiaa. Kirjaudu sisään
+  ylläpitäjänä, niin se hälyttää sinulle, kun akku on vähissä. Hälytykset muille
+  lukemille lisäät omalla koodillasi.
+- Kaukana olevan laitteen kytkeminen, esimerkiksi pumpun. Tämän lisäät
+  anturin laiteohjelmistoon omalla koodillasi.
+- Kokeileminen radion, antennien, aurinkosähkön ja avoimen lähdekoodin ohjelmistojen parissa.
+
+Jotkin viranomaiset rakentavat tai testaavat MeshCoreen perustuvaa varayhteyttä. Tarkistimme nämä esimerkit marraskuussa 2026.
+
+- Hirmumyrsky Gabrielle katkaisi kaikki yhteydet Tairāwhitissa Uudessa-Seelannissa.
+  Syyskuussa 2025 alueen valmiusviranomainen nimesi MeshCoren
+  [yhdeksi vähintään 6 varaviestintätavasta](https://www.scoop.co.nz/stories/AK2509/S00669.htm).
+  Lisäksi se rakensi aurinkovoimalla toimivia toistimia verkon rungoksi.
+- Saksalainen Bad Kissingenin piirikunta
+  [rakentaa MeshCoren varaan tekstiverkkoa](https://www.landkreis-badkissingen.de/wirtschaft/digitalisierung/kommunikationsnetze/index.html)
+  viranomaisille, pelastuspalveluille ja kriittisille kohteille. Paloasemat
+  liittyvät verkkoon ensimmäisinä.
+- Alankomaissa Hilversumin kunnanvaltuusto
+  [äänesti kokeilun puolesta äänin 34–1](https://hilversum.nl/nieuwsoverzicht/gemeenteraad-buigt-zich-over-financien).
+  Kokeilussa toistin on kaupungintalon tornissa. Kunta
+  [arvioi kokeilun syksyllä 2027](https://www.spreekbuis.nl/hilversum-start-proef-met-onafhankelijk-noodcommunicatienetwerk-meshcore/).
+- Kaksi alankomaalaista turvallisuusaluetta (ne järjestävät kriisin hoidon) kokeilee
+  MeshCorea:
+  [Etelä-Limburg](https://nos.nl/nieuwsuur/artikel/2607176-communicatie-hulpdiensten-valt-uit-bij-lange-stroomstoring-oplossing-niet-in-zicht)
+  ja [Drenthe](https://www.rtvdrenthe.nl/nieuws/18438486/hackerspace-drenthe-werkt-aan-een-noodnetwerk-voor-de-provincie).
+  Drenthen mukaan on liian aikaista sanoa, miten tai milloin se voisi käyttää MeshCorea.
+- Dalfsenissa, myös Alankomaissa, vapaaehtoiset
+  [vetävät pilottia yhdessä kuntien kanssa](https://noodnetoverijssel.nl/).
+  He käyttävät ensisijaisesti puheradiota ja MeshCorea toisena kerroksena tekstiviestintään.
+
+Kukaan ei lupaa, että joku lukee viestisi lähelläsi olevassa meshissä.
 
 ## Mistä tiedot tulevat {#data}
 

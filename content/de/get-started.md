@@ -6,11 +6,11 @@ eyebrow: 6 Schritte · MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0c1b08d9'
-  seeded: '2026-11-02'
+  source_hash: '0490a311'
+  seeded: '2026-11-04'
   fields: {title: '61e8d44a', lead: '45b0e5c3', description: 'cf031b18', eyebrow: '4fa6fe1e'}
-  sections: ['16c3728c', '90f3d626', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
-  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '757c634a', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
+  sections: ['16c3728c', '5b6d136a', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', '1741ed35', '66d00206']
+  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', 'e90b7859', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', '53276869', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
 ---
 
 Diese Anleitung bezieht sich auf die MeshCore-Firmware v1.18.0 und die
@@ -28,7 +28,7 @@ Display und eigener Tastatur, das allein funktioniert.
 Kauf die 868-MHz-Version. Die mitgelieferte Antenne reicht aus. In der
 [Antennen-Anleitung](/guides/antenna/) erfährst du, wie du eine Antenne prüfst.
 
-Auf deinem Board läuft gerade Meshtastic? Wenn du MeshCore flashst, ersetzt es Meshtastic, und die beiden können nicht miteinander kommunizieren. Unter [Coming from Meshtastic](/about/#meshtastic) steht, was anders funktioniert.
+Auf deinem Board läuft gerade Meshtastic? Wenn du MeshCore flashst, ersetzt das Meshtastic, und die beiden kommunizieren nicht miteinander.
 
 {{< callout type="warning" >}}
 Schraub die Antenne an, bevor du das Funkgerät einschaltest. Ein LoRa-Funkgerät,
@@ -93,21 +93,22 @@ neues Preset brauchst du deshalb kein App-Update.
 
 ## 6. Sag Hallo {#hello}
 
-1. **Mach dich bekannt.** Schick in der App ein *Advert*. Ein „Flood“-Advert
-   läuft über die Repeater (Knoten, die Nachrichten weiterreichen). So kann
-   dich jeder im Mesh hinzufügen.
-   Companions machen sich nie automatisch bekannt.
-2. **Finde andere.** Leute tauchen in deinen Kontakten auf, sobald ihre Adverts
-   bei dir ankommen. Repeater senden standardmäßig alle 47 Stunden ein
-   Flood-Advert. Bis sich deine Liste füllt, können also 2 Tage vergehen.
-3. **Schick eine Nachricht.** Öffne einen Kontakt und schreib los. Die erste
-   Nachricht geht als Flood durchs Netz. Der Empfänger meldet den Weg zurück,
-   den sie genommen hat, und spätere Nachrichten nehmen diesen Weg.
+1. **Mach dich bekannt.** Sende aus der App einen *Advert*. Ein „Flood“-Advert
+   läuft über die Repeater (Knoten, die Nachrichten weitergeben). So kann dich
+   jeder im Mesh hinzufügen.
+   Companions machen sich nie von selbst bekannt.
+2. **Finde andere.** Andere erscheinen in deinen Kontakten, sobald ihre Adverts
+   dich erreichen. Repeater senden standardmäßig alle 47 Stunden einen
+   Flood-Advert. Deine Liste kann deshalb 2 Tage brauchen, bis sie sich füllt.
+3. **Schick eine Nachricht.** Öffne einen Kontakt und schreib. Die erste
+   Nachricht geht als Flood durch das Netz. Der Empfänger meldet den Pfad
+   zurück, den sie genommen hat. Spätere Nachrichten folgen diesem Pfad.
 4. **Tritt Kanälen bei.** Der Kanal **Public** ist schon eingerichtet. Alles,
    was du dort schreibst, erreicht jeden im Mesh. Den *Hashtag-Kanal* deiner
-   Region (ein Name, der mit `#` beginnt) fügst du hinzu, indem du seinen
-   Namen eintippst. Deine [lokale Gruppe](/community/) sagt dir, welche Kanäle
-   aktiv sind.
+   Region (ein Name, der mit `#` beginnt) fügst du hinzu, indem du seinen Namen
+   eintippst. Deine [lokale Gruppe](/community/) sagt dir, welche Kanäle aktiv
+   sind. Willst du sie persönlich treffen? Schau dir die [Treffen](/meetings/)
+   in deiner Nähe an.
 
 ## Wenn etwas nicht klappt {#troubleshooting}
 

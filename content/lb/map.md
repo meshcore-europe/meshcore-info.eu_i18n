@@ -6,11 +6,11 @@ description: Live-Kaarte vu MeshCore, Ofdeckungskaarten a Paketanalyser fir Euro
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '351071aa'
-  seeded: '2026-11-02'
+  source_hash: '24bfdf6b'
+  seeded: '2026-11-04'
   fields: {title: '4b9f20a0', lead: 'fedb89bb', description: 'b5719f82'}
-  sections: ['351071aa']
-  blocks: ['dd5f039e', '9d4a2ad8', '70c417f2', '9fef7e16']
+  sections: ['24bfdf6b']
+  blocks: ['dd5f039e', '9d4a2ad8', '763fc710', '70c417f2', '9fef7e16']
 ---
 
 En Node erschéngt op dëse Kaarten, wann säin Eegentëmer en publizéiert oder wann en
@@ -22,6 +22,9 @@ wat dra steet.
 En Node steet op enger Kaart do, wou säin Eegentëmer en higesat huet, an dat kann falsch oder net méi
 aktuell sinn. Eng Flood-Noriicht reest gläichzäiteg iwwer e puer Weeër. Eng Route op enger Kaart ass de Wee
 vun der Kopie, déi als éischt ukomm ass; déi aner gi net opgezeechent.
+
+Gesäit eng Route op enger Kaart onwahrscheinlech aus? Préif 2 vun hiren Noden mat Line of Sight
+an der MeshCore-App. De [Repeater-Guide](/repeater-guide/#check-site) weist, wéi dat geet.
 
 Dës Kaarte brauchen Internet, de Mesh net. [Firwat](/network/)
 

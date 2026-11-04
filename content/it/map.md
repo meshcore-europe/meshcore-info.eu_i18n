@@ -6,11 +6,11 @@ description: Mappe MeshCore in tempo reale, mappe di copertura e analizzatori di
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '351071aa'
-  seeded: '2026-10-31'
+  source_hash: '24bfdf6b'
+  seeded: '2026-11-04'
   fields: {title: '4b9f20a0', lead: 'fedb89bb', description: 'b5719f82'}
-  sections: ['351071aa']
-  blocks: ['dd5f039e', '9d4a2ad8', '70c417f2', '9fef7e16']
+  sections: ['24bfdf6b']
+  blocks: ['dd5f039e', '9d4a2ad8', '763fc710', '70c417f2', '9fef7e16']
 ---
 
 Un nodo compare su queste mappe quando il suo proprietario lo pubblica, oppure
@@ -23,6 +23,10 @@ Un nodo si trova sulla mappa dove l'ha messo il suo proprietario. Questa
 posizione può essere sbagliata o non aggiornata. Un messaggio flood segue più
 percorsi contemporaneamente. La rotta su una mappa è il percorso della copia
 arrivata per prima: le altre non vengono registrate.
+
+Un percorso su una mappa ti sembra improbabile? Controlla 2 dei suoi nodi con
+Line of Sight nell'app MeshCore. La [guida ai ripetitori](/repeater-guide/#check-site)
+spiega come fare.
 
 Queste mappe hanno bisogno di internet, la mesh no. [Perché](/network/)
 

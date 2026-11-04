@@ -1,16 +1,16 @@
 ---
 title: Wat is MeshCore?
 lead: MeshCore stjoert tekstberjochten oer de radio, fan node nei node. It wurket sûnder ynternet en sûnder abonnemint.
-description: 'Wat MeshCore is en net is: soarten nodes, routing, it ferskil mei Meshtastic, fersifering en de 868 MHz-bân.'
+description: 'Wat MeshCore is en wat net: soarten nodes, routing, fersifering en de 868 MHz-bân.'
 eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '279b56a4'
-  seeded: '2026-11-02'
-  fields: {title: '06eda66b', lead: 'c0174569', description: '15e6d2a7', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '16fde264', '0a55792c', 'c3de803d', '493b444f', 'a8b2b9b4', '429f699c', 'f8008f48', '88af2bd3', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'fab378a5', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', 'fc8f3129', '8dec428a', '07cbac35', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '95e18f18', '02f1fe2f', 'e6b5b258']
+  source_hash: '2a40da22'
+  seeded: '2026-11-04'
+  fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
+  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore is fergese software foar lytse LoRa-radio's. LoRa is in radiotechyk
@@ -27,31 +27,30 @@ MIT-lisinsje.
 Bist nij yn de radiowrâld? Dit binne de dingen dy't minsken it faakst fan MeshCore
 ferwachtsje, en dy't it net docht.
 
-- **It is net it ynternet of in telefoan.** MeshCore stjoert koarte tekstberjochten,
-  sawat sa lang as in tekstberjocht op dyn telefoan. Gjin spraak, foto's, fideo
+- **It is net it ynternet en gjin telefoan.** MeshCore stjoert koarte tekstberjochten,
+  sawat sa lang as in sms op dyn telefoan. Gjin spraak, foto's, fideo
   of websites, en do kinst gjin gewoan telefoannûmer berikke.
-- **It is gjin needtsjinst.** Gjin inkelde needtsjinst harket mei op it mesh, en
-  nimmen belooft dat ien dyn berjocht lêst. Is der need, belje dan 112.
-- **It wurket net daliks, en net oeral.** In berjocht springt fan radio nei
-  radio en kin der in pear sekonden oer dwaan, of hielendal net oankomme. Oft it
+- **It is gjin needtsjinst.** Gjin needtsjinst belooft om op de mesh te
+  harkjen, en gjinien belooft dat immen dyn berjocht lêst.
+- **It is net direkt, en net oeral.** In berjocht hopt fan radio nei
+  radio en kin in pear sekonden duorje, of hielendal net oankomme. Oft it
   trochkomt, hinget ôf fan de repeaters om dy hinne, fan hichte, gebouwen en dyn
-  antenne. In lytse radio binnendoar berikt faak nimmen; in repeater op in dak
-  komt kilometers fier.
-- **It is gjin tsjinst dy't ien foar dy fersoarget.** Der is gjin provider, gjin
-  helpdesk en gjin dekkingsbelofte. It mesh bestiet dêr't minsken út de mienskip
-  repeaters opset hawwe, en nearne oars.
-- **Net alles derop is privee.** Direkte berjochten binne fersifere, mar Public
-  en de hashtagkanalen kin elkenien lêze, en de namme fan dyn node en dyn dielde
-  posysje binne te sjen foar elkenien binnen berik.
+  antenne. In lytse radio binnendoar berikt faak gjinien. In repeater op in dak
+  berikt kilometers.
+- **It is gjin tsjinst dy't immen foar dy beheart.** Der is gjin provider, gjin
+  helpdesk en gjin belofte oer dekking. De mesh bestiet dêr't minsken út de
+  mienskip repeaters delset hawwe.
+- **Net alles derop is privee.** Direkte berjochten binne fersifere, mar
+  Public en de hashtag-kanalen kin elkenien lêze. De namme fan dyn node en
+  de posysje dy'tst dielst, sjocht elkenien binnen berik.
   [Observers](/network/) jouwe wat se hearre troch oan iepenbiere kaarten. De
   [seksje oer fersifering](#encryption) leit út wat privee bliuwt.
-- **It is net ûnbeheind.** Elkenien yn in gebiet dielt ien radiokanaal, en de
-  regels foar de [band fan 868 MHz](#band) beheine hoe lang elke radio stjoere
-  mei. Elk berjocht nimt stjoertiid fan alle oaren ôf, dus bots, faak stjoerde
-  adverts en testberjochten meitsje it mesh stadiger foar elkenien.
-- **It is net Meshtastic.** Meshtastic is in oar systeem dat op sawat deselde
-  boards draait. Dy twa kinne net mei-inoar prate.
-  [Oerstappe fan Meshtastic](#meshtastic) lit sjen wat oars wurket.
+- **It is net ûnbeheind.** Elkenien yn in gebiet dielt ien radiokanaal, en
+  de regels foar de [868 MHz-bân](#band) beheine hoe lang elke radio stjoere mei.
+  Elk berjocht nimt stjoertiid fan alle oaren ôf. Bots, faak útstjoerde adverts
+  en testberjochten meitsje de mesh dêrom stadiger foar elkenien.
+- **It is net Meshtastic.** Meshtastic is in oar systeem dat foar it
+  grutste part op deselde boards rint. De twa kinne net mei-inoar prate.
 
 ## De mesh yn in minút {#mesh}
 
@@ -102,24 +101,6 @@ Repeaters ûnthâlde wat se koartlyn trochjûn hawwe, en smite kopyen fuort dy't
 oer in oare rûte nochris oankomme. In berjocht kin oer maksimaal 64 repeaters gean, of 32 as de preset 2-byte
 ID's brûkt.
 
-## Oerstappe fan Meshtastic {#meshtastic}
-
-Op in protte boards draait MeshCore of Meshtastic, en do flashest de ien dy'tst wolst. Dit binne de ferskillen dy'tst it earst fernimst. Se binne basearre op MeshCore
-v1.18.0 en de dokumintaasje fan Meshtastic fan novimber 2026.
-
-- **Wa't berjochten trochjout.** Yn MeshCore dogge allinnich repeaters dat; dyn companion
-  docht dat nea. Yn Meshtastic jout de standert clientrol berjochten ek troch,
-  útsein as in oare node dat al dien hat.
-- **Hoe fier in berjocht giet.** In MeshCore-berjocht kin oer op syn heechst 64
-  repeaters gean. Meshtastic hâldt standert op nei 3 hops, en op syn heechst nei 7.
-- **Mjitwearden fan oare nodes.** Repeaters en sensornodes yn MeshCore stjoere
-  mjitwearden lykas batterijspanning as do derom freegest. Se stjoere se net
-  nei de hiele mesh.
-- **It ynternet.** De MeshCore-firmware hat gjin ferbining tusken meshes oer
-  it ynternet. [Observers](/network/) jouwe wat se hearre troch oan kaarten, allinnich yn
-  ien rjochting. Meshtastic hat in ynboude MQTT-module
-  dy't berjochten tusken meshes oer it ynternet ferfiere kin.
-
 ## Fersifering en privacy {#encryption}
 
 Dyn direkte berjochten binne fan ein ta ein fersifere: allinnich do en de oare
@@ -156,19 +137,50 @@ hearre. Guon lannen en regio's brûke in fariant: dyn
 
 ## Wêr't minsken it foar brûke {#uses}
 
-- Yn kontakt bliuwe op kuiertochten, op see en op festivals dêr't it mobile netwurk
+- Kontakt hâlde by kuiertochten, op see en op festivals dêr't it mobile netwurk
   oerbelêste is of ûntbrekt.
-- In reservekanaal foar famylje of buorlju as de stroom of de mobile netwurken
+- In reservekanaal foar famylje of buorlju as stroom of mobile netwurken
   útfalle.
-- Pleatslik chatte op radio's dy't fan de minsken sels binne.
-- Fan hûs út in plak op ôfstân kontrolearje. Repeaters en sensornodes jouwe harren
-  batterijspanning en oare mjitwearden troch as do derom freegest.
-- In sensor yn de gaten hâlde. In sensornode draait de firmware fan MeshCore foar mjittingen.
-  Hy hâldt in skiednis fan syn mjitwearden by. As do dy abonnearrest, warskôget er
-  dy, bygelyks as syn batterij leech rekket.
-- Eat fier fuort skeakelje, lykas in pomp. Dat foegest do mei dyn eigen koade
-  ta oan de sensorfirmware.
+- In reserve foar pleatslike oerheden as harren gewoane netwurken útfalle.
+- Pleatslik petearje fia radio's dy't minsken sels besitte.
+- In sykjen-en-rêdingsteam yn kontakt hâlde dêr't gjin mobyl netwurk is.
+  MeshCore SAR, in mienskipsapp op [Projects](/projects/), foeget kaarten en
+  dielde lokaasjes ta.
+- Fan hûs út in ôfgelegen plak kontrolearje. Repeaters en sensornodes melde
+  harren batterijspanning en oare mjittingen as do dêrom freegest.
+- In sensor yn 'e gaten hâlde. Op in sensornode rint de MeshCore-firmware foar
+  mjittingen. Hy hâldt in skiednis fan syn batterijspanning by. Log yn as admin,
+  dan warskôget er dy as de batterij leech rekket. Warskôgingen foar oare
+  mjittingen foegest do ta mei dyn eigen koade.
+- Eat fier fuort skeakelje, lykas in pomp. Dat foegest do ta oan de
+  sensorfirmware mei dyn eigen koade.
 - Eksperimintearje mei radio, antennes, sinne-enerzjy en iepenboarnesoftware.
+
+Guon oerheden bouwe of teste in reservesysteem mei MeshCore. Wy hawwe dizze
+foarbylden yn novimber 2026 kontrolearre.
+
+- Sykloan Gabrielle sloech yn Tairāwhiti, Nij-Seelân, alle kommunikaasje plat. Yn
+  septimber 2025 neamde de rampebestriding fan de regio MeshCore
+  [ien fan teminsten 6 reservemanieren om te kommunisearjen](https://www.scoop.co.nz/stories/AK2509/S00669.htm).
+  Dy wie ek dwaande mei it bouwen fan repeaters op sinne-enerzjy as rêchbonke.
+- De Dútske Landkreis Bad Kissingen
+  [bout in tekstnetwurk op MeshCore](https://www.landkreis-badkissingen.de/wirtschaft/digitalisierung/kommunikationsnetze/index.html)
+  foar oerheden, helptsjinsten en fitale lokaasjes. De brânwachtkazernes
+  slute earst oan.
+- De gemeenteried fan Hilversum, yn Nederlân,
+  [stimde mei 34 tsjin 1 foar in proef](https://hilversum.nl/nieuwsoverzicht/gemeenteraad-buigt-zich-over-financien)
+  mei in repeater op de toer fan it riedshûs. De gemeente
+  [evaluearret de proef yn de hjerst fan 2027](https://www.spreekbuis.nl/hilversum-start-proef-met-onafhankelijk-noodcommunicatienetwerk-meshcore/).
+- Twa Nederlânske feilichheidsregio's, dy't de oanpak fan in krisis organisearje,
+  eksperimintearje mei MeshCore:
+  [Súd-Limburch](https://nos.nl/nieuwsuur/artikel/2607176-communicatie-hulpdiensten-valt-uit-bij-lange-stroomstoring-oplossing-niet-in-zicht)
+  en [Drinte](https://www.rtvdrenthe.nl/nieuws/18438486/hackerspace-drenthe-werkt-aan-een-noodnetwerk-voor-de-provincie).
+  Neffens Drinte is it te betiid om te sizzen hoe of wannear't de regio it brûke kin.
+- Yn Dalfsen, ek yn Nederlân, draaie frijwilligers
+  [in pilot tegearre mei de gemeenten](https://noodnetoverijssel.nl/).
+  Se brûke earst spraakradio en MeshCore as twadde laach foar tekst.
+
+Nimmen belooft dat immen dyn berjocht op de mesh by dy yn 'e buert lêst.
 
 ## Wêr't de gegevens weikomme {#data}
 

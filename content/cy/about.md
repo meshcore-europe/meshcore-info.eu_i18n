@@ -1,16 +1,16 @@
 ---
 title: Beth yw MeshCore?
 lead: Mae MeshCore yn anfon negeseuon testun dros y radio, o nod i nod. Mae'n gweithio heb y rhyngrwyd a heb danysgrifiad.
-description: 'Beth yw MeshCore a beth nad yw: mathau o nodau, llwybro, sut mae''n wahanol i Meshtastic, amgryptio a''r band 868 MHz.'
+description: 'Beth yw MeshCore a beth nad yw: mathau o nod, llwybro, amgryptio a''r band 868 MHz.'
 eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '279b56a4'
-  seeded: '2026-11-03'
-  fields: {title: '06eda66b', lead: 'c0174569', description: '15e6d2a7', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '16fde264', '0a55792c', 'c3de803d', '493b444f', 'a8b2b9b4', '429f699c', 'f8008f48', '88af2bd3', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'fab378a5', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', 'fc8f3129', '8dec428a', '07cbac35', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '95e18f18', '02f1fe2f', 'e6b5b258']
+  source_hash: '2a40da22'
+  seeded: '2026-11-04'
+  fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
+  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
 ---
 
 Meddalwedd rydd ar gyfer radios LoRa bach yw MeshCore. Techneg radio yw LoRa sy'n anfon ychydig o ddata yn bell, ar ychydig iawn o bŵer. *Nod* yw'r enw ar radio sydd â MeshCore arno. Wedi'i baru â'r ap ar dy ffôn neu dy liniadur, neu gyda'i sgrin a'i fysellfwrdd ei hun, mae'n anfon testun at bobl sydd gilometrau i ffwrdd. Does dim mast, llwybrydd na darparwr yn y canol.
@@ -23,31 +23,29 @@ Cod agored yw'r feddalwedd. Mae'r datblygwyr yn gweithio arni yn
 Wyt ti'n newydd i radio? Dyma'r pethau mae pobl yn eu disgwyl amlaf gan MeshCore, ond nad yw'n eu gwneud.
 
 - **Nid y rhyngrwyd na ffôn yw MeshCore.** Mae MeshCore yn anfon negeseuon testun byr,
-  tua hyd neges destun ar dy ffôn. Dim llais, lluniau, fideo
-  na gwefannau, ac alli di ddim cyrraedd rhif ffôn arferol.
-- **Nid gwasanaeth brys yw MeshCore.** Does dim gwasanaeth brys yn gwrando ar y
-  mesh, a does neb yn addo y bydd rhywun yn darllen dy neges. Mewn
-  argyfwng, ffonia 112.
-- **Nid yw'n digwydd ar unwaith, ac nid yw ym mhobman.** Mae neges yn neidio o radio i
-  radio a gall gymryd ychydig eiliadau, neu beidio â chyrraedd o gwbl. Mae p'un a yw'n
-  cyrraedd yn dibynnu ar yr ailadroddwyr o dy gwmpas, ar uchder, adeiladau a dy
-  antena. Yn aml dydy radio bach dan do ddim yn cyrraedd neb; mae ailadroddydd ar do
-  yn cyrraedd cilometrau i ffwrdd.
-- **Nid gwasanaeth mae rhywun yn ei redeg i ti yw MeshCore.** Does dim darparwr, dim desg
-  gymorth a dim addewid am ddarpariaeth. Mae'r mesh yn bodoli lle mae pobl yn y
-  gymuned wedi codi ailadroddwyr, a nunlle arall.
-- **Dydy popeth arno ddim yn breifat.** Mae negeseuon uniongyrchol wedi'u hamgryptio, ond
-  gall unrhyw un ddarllen Public a'r sianeli hashnod, ac mae enw dy nod a'r
-  safle rwyt ti'n ei rannu i'w gweld gan bawb o fewn cyrraedd.
-  Mae [arsylwyr](/network/) yn rhoi gwybod i fapiau cyhoeddus beth maen nhw'n ei glywed. Mae'r
+  tua hyd neges destun ar dy ffôn. Does dim llais, lluniau, fideo
+  na gwefannau, a fedri di ddim cyrraedd rhif ffôn arferol.
+- **Nid gwasanaeth brys yw e.** Does dim gwasanaeth brys yn addo
+  gwrando ar y rhwyll, a does neb yn addo bod rhywun yn darllen dy neges.
+- **Dyw e ddim yn syth, a dyw e ddim ym mhobman.** Mae neges yn neidio o radio i
+  radio a gall gymryd ychydig eiliadau, neu beidio cyrraedd o gwbl. Mae p'un a yw hi'n cyrraedd yn dibynnu
+  ar yr ailadroddyddion o dy gwmpas, ar uchder, adeiladau a dy
+  antena. Yn aml, dyw radio bach dan do ddim yn cyrraedd neb; mae ailadroddydd ar do
+  yn cyrraedd am gilometrau.
+- **Nid gwasanaeth mae rhywun yn ei redeg i ti yw e.** Does dim darparwr, dim
+  desg gymorth a dim addewid o ddarpariaeth. Mae'r rhwyll yn bodoli lle mae pobl
+  yn y gymuned wedi codi ailadroddyddion.
+- **Dyw popeth arno ddim yn breifat.** Mae negeseuon uniongyrchol wedi'u hamgryptio, ond
+  gall unrhyw un ddarllen Public a'r sianeli hashnod. Gall pawb o fewn cyrraedd weld
+  enw dy nod a'r lleoliad rwyt ti'n ei rannu.
+  Mae [arsylwyr](/network/) yn anfon yr hyn maen nhw'n ei glywed i fapiau cyhoeddus. Mae'r
   [adran amgryptio](#encryption) yn esbonio beth sy'n aros yn breifat.
-- **Nid yw'n ddiderfyn.** Mae pawb mewn ardal yn rhannu un sianel radio, ac mae'r
-  rheolau ar gyfer y [band 868 MHz](#band) yn cyfyngu ar ba mor hir y caiff pob radio anfon.
-  Mae pob neges yn cymryd amser darlledu oddi wrth bawb arall, felly mae botiau,
-  hysbysebion aml a negeseuon prawf yn arafu'r mesh i bawb.
-- **Nid Meshtastic yw MeshCore.** Mae Meshtastic yn system wahanol sy'n rhedeg ar fyrddau
-  tebyg iawn. All y ddau ddim siarad â'i gilydd.
-  Mae [Dod o Meshtastic](#meshtastic) yn rhestru beth sy'n gweithio'n wahanol.
+- **Dyw e ddim yn ddiderfyn.** Mae pawb mewn ardal yn rhannu un sianel radio, ac
+  mae rheolau'r [band 868 MHz](#band) yn cyfyngu ar ba mor hir mae pob radio'n cael anfon.
+  Mae pob neges yn cymryd amser darlledu oddi wrth bawb arall. Felly mae bots, adverts aml
+  a negeseuon prawf yn arafu'r rhwyll i bawb.
+- **Nid Meshtastic yw e.** Mae Meshtastic yn system wahanol sy'n rhedeg ar
+  fwy neu lai yr un byrddau. Fedr y ddwy ddim siarad â'i gilydd.
 
 ## Y rhwyll mewn munud {#mesh}
 
@@ -73,15 +71,6 @@ Mae dy neges gyntaf at gyswllt yn mynd allan fel *llif*. Mae pob ailadroddydd sy
 
 Does gan negeseuon at sianel ddim un cyfeiriad penodol, felly maen nhw bob amser yn mynd fel llif. Mae ailadroddyddion yn cofio'r hyn maen nhw wedi'i drosglwyddo'n ddiweddar, ac yn gollwng copïau sy'n cyrraedd eto ar hyd llwybr arall. Gall neges groesi hyd at 64 ailadroddydd, neu 32 lle mae'r rhagosodiad yn defnyddio IDs 2 beit.
 
-## Dod o Meshtastic {#meshtastic}
-
-Mae llawer o fyrddau'n rhedeg naill ai MeshCore neu Meshtastic, ac rwyt ti'n fflachio'r un rwyt ti ei eisiau. Dyma'r gwahaniaethau y byddi di'n sylwi arnyn nhw gyntaf. Maen nhw'n seiliedig ar MeshCore v1.18.0 a dogfennaeth Meshtastic mis Tachwedd 2026.
-
-- **Pwy sy'n trosglwyddo negeseuon.** Yn MeshCore, dim ond ailadroddyddion sy'n gwneud hynny; dydy dy gydymaith byth yn gwneud hynny. Yn Meshtastic, mae'r rôl cleient ddiofyn hefyd yn trosglwyddo negeseuon, oni bai bod nod arall wedi gwneud hynny'n barod.
-- **Pa mor bell mae neges yn mynd.** Gall neges MeshCore groesi hyd at 64 ailadroddydd. Mae Meshtastic yn stopio ar ôl 3 naid yn ddiofyn, a 7 ar y mwyaf.
-- **Darlleniadau gan nodau eraill.** Mae ailadroddyddion a nodau synhwyrydd yn MeshCore yn anfon darlleniadau fel foltedd batri pan fyddi di'n gofyn amdanyn nhw. Dydyn nhw ddim yn eu hanfon at y rhwyll gyfan.
-- **Y rhyngrwyd.** Does gan gadarnwedd MeshCore ddim cysylltiad rhwng rhwyllau dros y rhyngrwyd. Mae [arsylwyr](/network/) yn rhoi gwybod i fapiau beth maen nhw'n ei glywed, i un cyfeiriad yn unig. Mae gan Meshtastic fodiwl MQTT adeiledig sy'n gallu cludo negeseuon rhwng rhwyllau dros y rhyngrwyd.
-
 ## Amgryptio a phreifatrwydd {#encryption}
 
 Mae dy negeseuon uniongyrchol wedi'u hamgryptio o'r naill ben i'r llall: dim ond ti a'r person arall sy'n gallu eu darllen. Dim ond fel awgrym 1 beit mae ailadroddydd yn gweld i bwy mae pecyn yn mynd.
@@ -102,19 +91,49 @@ Mae pawb mewn ardal yn defnyddio'r un rhagosodiad, neu ni all eu radios glywed e
 
 ## I beth mae pobl yn ei ddefnyddio {#uses}
 
-- Cadw mewn cysylltiad ar deithiau cerdded, ar y môr ac mewn gwyliau lle mae'r rhwydwaith symudol
-  wedi'i orlwytho neu ddim ar gael.
-- Sianel wrth gefn i deulu neu gymdogion pan fydd y trydan neu'r rhwydweithiau symudol
-  yn methu.
-- Sgwrsio lleol ar radios sy'n eiddo i'r bobl eu hunain.
-- Gwirio safle anghysbell o adref. Mae ailadroddyddion a nodau synhwyrydd yn rhoi gwybod am foltedd eu
-  batri a darlleniadau eraill pan fyddi di'n gofyn.
-- Cadw llygad ar synhwyrydd. Mae nod synhwyrydd yn rhedeg cadarnwedd MeshCore ar gyfer mesur
-  pethau. Mae'n cadw hanes ei ddarlleniadau. Os wyt ti'n tanysgrifio, mae'n dy rybuddio di,
-  er enghraifft pan fydd ei fatri'n mynd yn isel.
+- Cadw mewn cysylltiad ar deithiau cerdded, ar y môr ac mewn gwyliau lle mae'r rhwydwaith
+  symudol dan ormod o bwysau neu'n absennol.
+- Sianel wrth gefn i deulu neu gymdogion pan fydd y cyflenwad pŵer neu'r rhwydweithiau
+  symudol yn methu.
+- Dull wrth gefn i awdurdodau lleol pan fydd eu rhwydweithiau arferol yn methu.
+- Sgwrsio lleol ar radios sy'n eiddo i bobl eu hunain.
+- Cadw tîm chwilio ac achub mewn cysylltiad lle nad oes rhwydwaith symudol.
+  Mae MeshCore SAR, ap cymunedol ar [Prosiectau](/projects/), yn ychwanegu mapiau a
+  lleoliadau wedi'u rhannu.
+- Gwirio safle anghysbell o gartref. Mae ailadroddyddion a nodau synhwyrydd yn rhoi gwybod
+  am foltedd eu batri a darlleniadau eraill pan fyddi di'n gofyn.
+- Cadw llygad ar synhwyrydd. Mae nod synhwyrydd yn rhedeg cadarnwedd MeshCore ar gyfer
+  mesur pethau. Mae'n cadw hanes o foltedd ei fatri. Mewngofnoda fel gweinyddwr ac
+  mae'n dy rybuddio pan fydd y batri'n mynd yn isel. Rwyt ti'n ychwanegu rhybuddion ar gyfer
+  darlleniadau eraill gyda dy god dy hun.
 - Troi rhywbeth ymlaen neu i ffwrdd o bell, fel pwmp. Rwyt ti'n ychwanegu hynny at
   gadarnwedd y synhwyrydd gyda dy god dy hun.
 - Arbrofi gyda radio, antenâu, pŵer solar a meddalwedd cod agored.
+
+Mae rhai awdurdodau'n adeiladu neu'n profi system wrth gefn ar MeshCore. Fe wnaethon ni wirio'r enghreifftiau hyn ym mis Tachwedd 2026.
+
+- Torrodd Seiclon Gabrielle bob cyfathrebu yn Tairāwhiti, Seland Newydd. Ym mis
+  Medi 2025, enwodd rheolwyr argyfwng y rhanbarth MeshCore yn
+  [un o o leiaf 6 ffordd wrth gefn i gyfathrebu](https://www.scoop.co.nz/stories/AK2509/S00669.htm).
+  Roedden nhw hefyd yn adeiladu ailadroddyddion solar yn asgwrn cefn.
+- Mae ardal Bad Kissingen yn yr Almaen
+  [yn adeiladu rhwydwaith testun ar MeshCore](https://www.landkreis-badkissingen.de/wirtschaft/digitalisierung/kommunikationsnetze/index.html)
+  ar gyfer awdurdodau, gwasanaethau brys a safleoedd hanfodol. Gorsafoedd tân
+  sy'n cysylltu gyntaf.
+- Yn yr Iseldiroedd, fe wnaeth cyngor Hilversum
+  [bleidleisio 34 i 1 dros dreial](https://hilversum.nl/nieuwsoverzicht/gemeenteraad-buigt-zich-over-financien)
+  gydag ailadroddydd ar dŵr neuadd y dref. Mae'r fwrdeistref
+  [yn ei werthuso yn hydref 2027](https://www.spreekbuis.nl/hilversum-start-proef-met-onafhankelijk-noodcommunicatienetwerk-meshcore/).
+- Mae dau ranbarth diogelwch yn yr Iseldiroedd, sy'n trefnu'r ymateb i argyfwng,
+  yn arbrofi gyda MeshCore:
+  [De Limburg](https://nos.nl/nieuwsuur/artikel/2607176-communicatie-hulpdiensten-valt-uit-bij-lange-stroomstoring-oplossing-niet-in-zicht)
+  a [Drenthe](https://www.rtvdrenthe.nl/nieuws/18438486/hackerspace-drenthe-werkt-aan-een-noodnetwerk-voor-de-provincie).
+  Yn ôl Drenthe, mae'n rhy gynnar i ddweud sut na phryd y gallai ei ddefnyddio.
+- Yn Dalfsen, hefyd yn yr Iseldiroedd, mae gwirfoddolwyr
+  [yn rhedeg cynllun peilot ochr yn ochr â'r bwrdeistrefi](https://noodnetoverijssel.nl/).
+  Maen nhw'n defnyddio radio llais yn gyntaf, a MeshCore fel ail haen ar gyfer testun.
+
+Does neb yn addo y bydd rhywun yn darllen dy neges ar y rhwyll o dy gwmpas.
 
 ## O ble mae'r data'n dod {#data}
 
