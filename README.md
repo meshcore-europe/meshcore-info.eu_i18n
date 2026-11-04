@@ -33,8 +33,8 @@ translation" that opens the file here on GitHub.
 **A page** (`content/<lang>/<page>.md`): fix the wording, then change
 `status: ai` to `status: human` in the `translation` block at the top. Keep
 the structure of the English page: the same headings, heading ids such as
-`{#legal}`, links, shortcodes such as `{{< callout >}}`, code, numbers and
-names. Do not change `source_hash` unless you checked the page against the
+`{#legal}`, links, shortcodes such as `{{< callout >}}`, code, paragraphs,
+numbers and names. Do not change `source_hash` unless you checked the page against the
 current English version; then set it to what
 `python tools/source_hash.py content/en/<page>.md` prints.
 Leave `fields` and `sections` as they are: the seeder uses them to translate
@@ -56,7 +56,8 @@ bash tools/ci.sh
 ```
 
 CI runs the same on every pull request. A translated page must keep the
-English page's headings, heading ids, links, shortcodes and code;
+English page's headings, heading ids, links, shortcodes, code and number of
+paragraphs, lists and tables;
 `glossary/protected.txt` terms and radio values such as `869.618 MHz` stay
 unchanged.
 

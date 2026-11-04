@@ -7,7 +7,9 @@ A translation must keep, compared with the English body:
   to #legal must keep working when the heading text is translated;
 - the shortcode tags with their parameters, in order (inner text may change);
 - the fenced code blocks, unchanged and in order;
-- the inline code spans and the link targets, bare URLs included (any order).
+- the inline code spans and the link targets, bare URLs included (any order);
+- the number of blocks (paragraph, list, table, code block), so a line the
+  English does not have cannot slip onto the page.
 """
 
 from __future__ import annotations
@@ -32,6 +34,8 @@ LINK_TARGETS = [
 # forms above are blanked out, so no URL counts twice.
 BARE_URL = re.compile(r"(?<![\w/.@-])(?:https?://|www\.)[^\s<>\"'()\[\]]+")
 TRAILING = ".,;:!?*_~"
+# The name of a shortcode tag; group 1 is "/" for a closing tag.
+SHORTCODE_NAME = re.compile(r"\{\{[<%]\s*(/?)\s*([\w-]+)")
 
 
 @dataclass
@@ -77,6 +81,55 @@ def structure(body: str) -> Structure:
     return s
 
 
+def sections(body: str) -> list[str]:
+    """Split a Markdown body before each heading outside code blocks."""
+    parts, current, fence = [], [], None
+    for line in body.splitlines(keepends=True):
+        m = FENCE.match(line)
+        if fence is None and m:
+            fence = m.group(1)
+        elif fence is not None and m and m.group(1)[0] == fence[0] and len(m.group(1)) >= len(fence):
+            fence = None
+        elif fence is None and HEADING.match(line) and current:
+            parts.append("".join(current))
+            current = []
+        current.append(line)
+    if current:
+        parts.append("".join(current))
+    return parts
+
+
+def blocks(body: str) -> list[str]:
+    """Split each section into its blocks (paragraph, list, table, code block), after a blank line.
+
+    Never inside a code block or between a shortcode's opening and closing tag, so
+    each block can be translated on its own; joined, the blocks give the body back."""
+    parts = []
+    for section in sections(body):
+        closing = {m.group(2) for m in map(SHORTCODE_NAME.match, SHORTCODE.findall(section))
+                   if m and m.group(1)}
+        current, fence, depth = [], None, 0
+        for line in section.splitlines(keepends=True):
+            after_blank = current and not current[-1].strip() and any(l.strip() for l in current)
+            if line.strip() and after_blank and fence is None and depth == 0:
+                parts.append("".join(current))
+                current = []
+            current.append(line)
+            m = FENCE.match(line)
+            if fence is None and m:
+                fence = m.group(1)
+            elif fence is not None and m and m.group(1)[0] == fence[0] and len(m.group(1)) >= len(fence):
+                fence = None
+            elif fence is None:
+                for tag in SHORTCODE.finditer(line):
+                    name = SHORTCODE_NAME.match(tag.group(0))
+                    if name and name.group(2) in closing:
+                        depth += -1 if name.group(1) else 1
+        if current:
+            parts.append("".join(current))
+    return parts
+
+
 def _diff(kind: str, en: list[str], tr: list[str]) -> list[str]:
     missing = sorted((Counter(en) - Counter(tr)).elements())
     extra = sorted((Counter(tr) - Counter(en)).elements())
@@ -97,6 +150,9 @@ def compare(en_body: str, translated_body: str) -> list[str]:
                      f"{len(tr.code_blocks)} here; code is never translated)")
     if en.shortcodes != tr.shortcodes:
         found.append(f"shortcodes {tr.shortcodes} differ from the English source {en.shortcodes}")
+    en_blocks, tr_blocks = len(blocks(en_body)), len(blocks(translated_body))
+    if en_blocks != tr_blocks:
+        found.append(f"{tr_blocks} blocks (paragraphs, lists, tables, code) where the English source has {en_blocks}")
     found += _diff("inline code", en.inline_code, tr.inline_code)
     found += _diff("link targets", en.links, tr.links)
     return found

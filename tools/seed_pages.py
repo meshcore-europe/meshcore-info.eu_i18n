@@ -21,7 +21,7 @@ A front matter field or section of that answer that fails its check is
 translated again on its own. A second pass then rewrites the body (or,
 on a stale page, each block translated again) without the patterns of
 generated text (tools/llm.py REWRITE_SYSTEM); the rewrite replaces the
-first translation only when it keeps the structure and the blocks, the
+first translation only when it keeps the structure, the
 protected terms and radio values, breaks no hard rule of
 tools/grade_copy.py the first translation kept, and stays within
 REWRITE_LENGTH of its length. A local model translates the body section by
@@ -58,6 +58,7 @@ import yaml
 import parity
 import protected
 from common import ROOT, Language, content_pages, languages, split_front_matter
+from parity import blocks, sections
 from source_hash import source_hash, string_hash
 from validate_pages import TRANSLATED
 
@@ -80,60 +81,9 @@ SENTENCE_END = re.compile(r"(?<=[.!?:;])\s+")
 REWRITE_LENGTH = (0.8, 1.6)
 # Above the translation block of a machine page: a reader who fixes one word
 # on GitHub should know the next seeding run replaces it unless status is human.
-# The name of a shortcode tag; group 1 is "/" for a closing tag.
-SHORTCODE_NAME = re.compile(r"\{\{[<%]\s*(/?)\s*([\w-]+)")
 # The source_hash of a page with parts left in English; it matches no English page, so the page stays stale.
 UNFINISHED = "00000000"
 NUDGE = "# Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.\n"
-
-
-def sections(body: str) -> list[str]:
-    """Split a Markdown body before each heading outside code blocks."""
-    parts, current, fence = [], [], None
-    for line in body.splitlines(keepends=True):
-        m = parity.FENCE.match(line)
-        if fence is None and m:
-            fence = m.group(1)
-        elif fence is not None and m and m.group(1)[0] == fence[0] and len(m.group(1)) >= len(fence):
-            fence = None
-        elif fence is None and parity.HEADING.match(line) and current:
-            parts.append("".join(current))
-            current = []
-        current.append(line)
-    if current:
-        parts.append("".join(current))
-    return parts
-
-
-def blocks(body: str) -> list[str]:
-    """Split each section into its blocks (paragraph, list, table, code block), after a blank line.
-
-    Never inside a code block or between a shortcode's opening and closing tag, so
-    each block can be translated on its own; joined, the blocks give the body back."""
-    parts = []
-    for section in sections(body):
-        closing = {m.group(2) for m in map(SHORTCODE_NAME.match, parity.SHORTCODE.findall(section))
-                   if m and m.group(1)}
-        current, fence, depth = [], None, 0
-        for line in section.splitlines(keepends=True):
-            after_blank = current and not current[-1].strip() and any(l.strip() for l in current)
-            if line.strip() and after_blank and fence is None and depth == 0:
-                parts.append("".join(current))
-                current = []
-            current.append(line)
-            m = parity.FENCE.match(line)
-            if fence is None and m:
-                fence = m.group(1)
-            elif fence is not None and m and m.group(1)[0] == fence[0] and len(m.group(1)) >= len(fence):
-                fence = None
-            elif fence is None:
-                for tag in parity.SHORTCODE.finditer(line):
-                    name = SHORTCODE_NAME.match(tag.group(0))
-                    if name and name.group(2) in closing:
-                        depth += -1 if name.group(1) else 1
-        if current:
-            parts.append("".join(current))
-    return parts
 
 
 def sentences(text: str) -> set[str]:
@@ -201,8 +151,6 @@ def rewritten(en: str, text: str, lang: Language, rewrite: Rewrite | None, terms
         return text, f"rewrite failed: {e}"
     if not faithful(en.strip("\n"), new, terms):
         return text, "rewrite changed the structure, a protected term or a radio value"
-    if len(blocks(new)) != len(blocks(core)):
-        return text, "rewrite changed the paragraphs"
     if hard_hits(new, lang.key) > hard_hits(core, lang.key):
         return text, "rewrite broke a hard rule of grade_copy.py"
     ratio = len(grade_copy.words(new)) / max(len(grade_copy.words(core)), 1)
