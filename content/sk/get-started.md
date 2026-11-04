@@ -6,11 +6,11 @@ eyebrow: 6 krokov · MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0c1b08d9'
-  seeded: '2026-11-03'
+  source_hash: '0490a311'
+  seeded: '2026-11-04'
   fields: {title: '61e8d44a', lead: '45b0e5c3', description: 'cf031b18', eyebrow: '4fa6fe1e'}
-  sections: ['16c3728c', '90f3d626', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
-  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '757c634a', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
+  sections: ['16c3728c', '5b6d136a', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', '1741ed35', '66d00206']
+  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', 'e90b7859', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', '53276869', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
 ---
 
 Tento postup vychádza z firmvéru MeshCore v1.18.0 a oficiálnych nástrojov z októbra 2026. Názvy položiek v menu aplikácie sa môžu medzi verziami trochu líšiť.
@@ -21,7 +21,7 @@ Hodí sa každá doska zo [stránky zariadení](/devices/), pri ktorej je uveden
 
 Kúp si verziu na 868 MHz. Dodaná anténa postačí. V [návode k anténam](/guides/antenna/) zistíš, ako ju skontrolovať.
 
-Na tvojej doske teraz beží Meshtastic? Nahratím MeshCore ho nahradíš a tieto dva systémy sa spolu nedohovoria. V časti [Prechod z Meshtastic](/about/#meshtastic) nájdeš, čo funguje inak.
+Na tvojej doske teraz beží Meshtastic? Nahratím MeshCore ho nahradíš a tieto dva systémy spolu nekomunikujú.
 
 {{< callout type="warning" >}}
 Anténu pripoj skôr, ako rádio zapneš. Rádio LoRa, ktoré vysiela bez antény, si môže poškodiť vlastný čip.
@@ -61,11 +61,21 @@ Nie si si istý? Tvoja [miestna skupina](/community/) vie, ktorú predvoľbu pou
 
 ## 6. Pozdrav ostatných {#hello}
 
-1. **Ohlás sa.** Pošli z aplikácie *advert*. „Flood“ advert putuje cez repeatery (uzly, ktoré posúvajú správy ďalej), takže si ťa môže pridať každý v sieti.
-   Companiony sa nikdy neohlasujú automaticky.
-2. **Nájdi ostatných.** Ľudia sa objavia v tvojich kontaktoch, keď k tebe dorazia ich adverty. Repeatery predvolene posielajú flood advert každých 47 hodín, takže zoznam sa môže plniť 2 dni.
-3. **Pošli správu.** Otvor kontakt a napíš mu. Prvá správa zaplaví sieť. Príjemca potom spätne oznámi trasu, ktorou prišla, a ďalšie správy idú touto trasou.
-4. **Pridaj sa do kanálov.** Kanál **Public** je už nastavený a všetko, čo doň napíšeš, sa dostane ku každému v sieti. *Hashtagový kanál* svojho regiónu (názov začína znakom `#`) pridáš zadaním jeho názvu. Tvoja [miestna skupina](/community/) ti povie, ktoré kanály sú aktívne.
+1. **Ohlás sa.** Pošli z aplikácie *advert*. Advert typu „flood“
+   prechádza cez repeatery (uzly, ktoré posúvajú správy ďalej), takže
+   ťa môže pridať každý v mesh sieti.
+   Companion sa nikdy neohlási automaticky.
+2. **Nájdi ostatných.** Ľudia sa objavia v tvojich kontaktoch, keď k tebe
+   dorazí ich advert. Repeatery predvolene posielajú flood advert každých
+   47 hodín, takže naplnenie zoznamu môže trvať 2 dni.
+3. **Pošli správu.** Otvor kontakt a napíš správu. Prvá správa sa šíri
+   sieťou ako flood. Príjemca ti spätne oznámi cestu, ktorou prišla, a ďalšie
+   správy idú touto cestou.
+4. **Pridaj sa ku kanálom.** Kanál **Public** je už nastavený. Všetko, čo
+   doň napíšeš, dostane každý v mesh sieti. *Hashtagový kanál* svojho
+   regiónu (názov začína znakom `#`) pridáš tak, že napíšeš jeho názov. Tvoja
+   [miestna skupina](/community/) ti povie, ktoré kanály sú aktívne.
+   Chceš sa s nimi stretnúť osobne? Pozri si [stretnutia](/meetings/) vo svojom okolí.
 
 ## Keď niečo nefunguje {#troubleshooting}
 

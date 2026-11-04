@@ -6,11 +6,11 @@ eyebrow: 6 vaihetta · MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0c1b08d9'
-  seeded: '2026-11-02'
+  source_hash: '0490a311'
+  seeded: '2026-11-04'
   fields: {title: '61e8d44a', lead: '45b0e5c3', description: 'cf031b18', eyebrow: '4fa6fe1e'}
-  sections: ['16c3728c', '90f3d626', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
-  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '757c634a', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
+  sections: ['16c3728c', '5b6d136a', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', '1741ed35', '66d00206']
+  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', 'e90b7859', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', '53276869', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
 ---
 
 Nämä ohjeet perustuvat MeshCore-laiteohjelmistoon v1.18.0 ja lokakuun 2026
@@ -28,7 +28,8 @@ itsenäisesti.
 Hanki 868 MHz:n versio. Mukana tuleva antenni riittää.
 [Antenniohjeesta](/guides/antenna/) näet, miten antennin voi tarkistaa.
 
-Onko laitteessasi nyt Meshtastic? Kun asennat MeshCoren, se korvaa Meshtasticin, eivätkä nämä kaksi viesti keskenään. [Siirtyminen Meshtasticista](/about/#meshtastic) kertoo, mikä toimii toisin.
+Pyöriikö laitteessasi nyt Meshtastic? MeshCoren asentaminen korvaa sen, eivätkä nämä kaksi
+pysty viestimään keskenään.
 
 {{< callout type="warning" >}}
 Kiinnitä antenni ennen kuin kytket radion päälle. Jos LoRa-radio lähettää
@@ -97,16 +98,18 @@ uusi esiasetus ei vaadi sovelluspäivitystä.
    kulkee toistimien (solmujen, jotka välittävät viestejä eteenpäin) kautta,
    joten kaikki meshissä voivat lisätä sinut.
    Companionit eivät koskaan ilmoita itsestään automaattisesti.
-2. **Löydä muita.** Muut ilmestyvät yhteystietoihisi, kun heidän ilmoituksensa
+2. **Löydä muut.** Ihmiset näkyvät yhteystiedoissasi, kun heidän ilmoituksensa
    tavoittavat sinut. Toistimet lähettävät oletuksena flood-ilmoituksen 47
-   tunnin välein, joten listasi täyttymiseen voi mennä 2 päivää.
+   tunnin välein, joten listasi täyttyminen voi kestää 2 päivää.
 3. **Lähetä viesti.** Avaa yhteystieto ja kirjoita. Ensimmäinen viesti
-   leviää koko verkkoon flood-tilassa. Vastaanottaja ilmoittaa takaisin
-   reitin, jota viesti kulki, ja myöhemmät viestit kulkevat sitä reittiä.
-4. **Liity kanaville.** **Public**-kanava on valmiiksi käytössä. Kaikki, mitä
-   kirjoitat sinne, tavoittaa jokaisen meshissä. Lisää alueesi
-   *hashtag-kanava* (nimi alkaa merkillä `#`) kirjoittamalla sen nimi.
+   leviää verkkoon floodina. Vastaanottaja kertoo takaisin reitin, jota
+   viesti kulki, ja myöhemmät viestit kulkevat samaa reittiä.
+4. **Liity kanaviin.** **Public**-kanava on valmiiksi käytössä. Kaikki, mitä
+   kirjoitat sinne, tavoittaa jokaisen meshissä. Lisää alueesi *hashtag-kanava*
+   (nimi, joka alkaa merkillä `#`) kirjoittamalla sen nimen.
    [Paikallinen ryhmäsi](/community/) kertoo, mitkä kanavat ovat aktiivisia.
+   Haluatko tavata heitä kasvokkain? Katso lähelläsi olevat
+   [tapaamiset](/meetings/).
 
 ## Kun jokin ei toimi {#troubleshooting}
 

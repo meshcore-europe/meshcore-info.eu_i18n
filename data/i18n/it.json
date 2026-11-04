@@ -3,7 +3,7 @@
     "language": "it",
     "name": "Italiano",
     "managed_by": "community",
-    "updated": "2026-11-02"
+    "updated": "2026-11-04"
   },
   "site_tagline": {
     "value": "Messaggi senza rete in tutta Europa",
@@ -142,6 +142,30 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "8d525e5f"
+  },
+  "short_link": {
+    "value": "Link breve",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f44e613a"
+  },
+  "short_links_page": {
+    "value": "Pagina",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0a30a815"
+  },
+  "short_links_country": {
+    "value": "Impostazioni per la Germania (usa il codice del tuo paese)",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9f895094"
+  },
+  "short_links_area": {
+    "value": "Impostazioni per il Limburgo",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5d3b1103"
   },
   "hero_eyebrow": {
     "value": "868 MHz · Europa",
@@ -912,10 +936,10 @@
     "_source": "a52ace42"
   },
   "community_missing_body": {
-    "value": "Chiunque può aggiungere un gruppo locale. Apri una issue con nome, area e link, e un manutentore lo aggiunge in tutte le lingue in una volta.",
+    "value": "Chiunque può aggiungere un gruppo locale. Apri una issue con nome, zona e link del gruppo: un maintainer lo aggiunge a tutte le lingue in una volta. Il tuo gruppo collabora con un comune, i vigili del fuoco o la protezione civile? Scrivilo nella issue, con un link pubblico, e noi lo aggiungiamo alla descrizione del tuo gruppo.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "a626e730"
+    "_seeded": "2026-11-04",
+    "_source": "15c70c68"
   },
   "community_missing_cta": {
     "value": "Aggiungi il tuo gruppo locale",
@@ -928,6 +952,66 @@
     "_ai": true,
     "_seeded": "2026-10-31",
     "_source": "0b6beef7"
+  },
+  "community_search_or": {
+    "value": "Oppure cerca per CAP",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "868b07ff"
+  },
+  "community_map_label": {
+    "value": "Mappa dell'Europa con i gruppi locali",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "39852ecb"
+  },
+  "community_map_hint": {
+    "value": "Scegli un paese o un punto per vederne i gruppi. Un cerchio mostra la zona approssimativa coperta da un gruppo. Un punto vuoto è un gruppo per tutto il paese.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8a99c786"
+  },
+  "community_map_credit": {
+    "value": "Dati della mappa:",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "38bfee0b"
+  },
+  "community_map_here": {
+    "value": "Gruppi qui",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8e5bcafb"
+  },
+  "community_map_country": {
+    "value": "Gruppi in {country}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fb89e1cc"
+  },
+  "community_map_none": {
+    "value": "Ancora nessun gruppo locale in questo paese.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f9c4a071"
+  },
+  "community_map_zoom_in": {
+    "value": "Ingrandisci",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0e47f09a"
+  },
+  "community_map_zoom_out": {
+    "value": "Riduci",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "bc7b631a"
+  },
+  "community_map_reset": {
+    "value": "Mappa intera",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5b8e0478"
   },
   "community_search_country": {
     "value": "Paese",
@@ -2208,10 +2292,10 @@
     "_source": "9f0065e0"
   },
   "community.de-isarmesh.desc": {
-    "value": "Forum per utenti di mesh LoRa nell'area di Monaco di Baviera che organizza incontri regolari e discute di MeshCore e altri progetti mesh.",
+    "value": "Forum per chi usa reti mesh LoRa nella zona di Monaco, su MeshCore e altri progetti mesh.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "05e62cf9"
+    "_seeded": "2026-11-04",
+    "_source": "33c3e363"
   },
   "community.de-mesh-dresden.desc": {
     "value": "Gruppo di Dresda con articoli tecnici approfonditi per chi gestisce ripetitori. Gestisce anche una chat locale per MeshCore e altri progetti mesh.",
@@ -2238,10 +2322,10 @@
     "_source": "3eb31061"
   },
   "community.sk-meshcore-slovensko.desc": {
-    "value": "Pagina della rete slovacca ospitata da un club di radioamatori di Bratislava, con un server Discord e incontri settimanali di persona.",
+    "value": "Pagina della rete slovacca, ospitata da un club di radioamatori di Bratislava, con un server Discord.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "950a6862"
+    "_seeded": "2026-11-04",
+    "_source": "ea102b97"
   },
   "community.pl-meshcore-polska.desc": {
     "value": "Comunità polacca nazionale con una mappa dei nodi, documentazione in polacco e un server Discord.",
@@ -2424,10 +2508,10 @@
     "_source": "2a7d4602"
   },
   "community.de-ffnw.desc": {
-    "value": "Associazione Freifunk che gestisce dal 2013 una mesh WiFi comunitaria nella regione Weser-Ems e ora gestisce anche ripetitori MeshCore. Si incontra ogni mese a Oldenburg.",
+    "value": "Associazione Freifunk che dal 2013 gestisce una rete mesh WiFi comunitaria nella regione Weser-Ems e ora gestisce anche ripetitori MeshCore.",
     "_ai": true,
-    "_seeded": "2026-10-28",
-    "_source": "abb2138f"
+    "_seeded": "2026-11-04",
+    "_source": "6fd9acc0"
   },
   "community.de-meshcore-dresden.desc": {
     "value": "Gruppo che costruisce una rete MeshCore a Dresda e dintorni, con l'elenco delle sue regioni e dei suoi canali.",
@@ -2466,10 +2550,10 @@
     "_source": "dc1d7f13"
   },
   "community.de-ka-mesh.desc": {
-    "value": "Gruppo che costruisce una rete MeshCore nella zona di Karlsruhe e Pforzheim, con un elenco dei canali e incontri.",
+    "value": "Gruppo che costruisce una rete MeshCore nella zona di Karlsruhe e Pforzheim, con un elenco dei canali.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "20d493a1"
+    "_seeded": "2026-11-04",
+    "_source": "62f0440b"
   },
   "community.de-ostfriesland.desc": {
     "value": "Canale condiviso per tutta la Frisia orientale, intorno ad Aurich, Wittmund, Norden ed Emden. Il gruppo è solo sulla mesh, senza sito web né chat.",
@@ -3151,10 +3235,10 @@
     "_source": "4608abcd"
   },
   "guides_card_repeater_desc": {
-    "value": "Un ripetitore passa i messaggi a tutti quelli intorno a lui. Posizionamento, i comandi per configurarlo e i limiti legali sugli 868 MHz.",
+    "value": "Un ripetitore inoltra i messaggi per tutti quelli intorno. Posizionamento, strumenti di pianificazione nell'app, comandi per configurarlo e limiti di legge sugli 868 MHz.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "979d61a1"
+    "_seeded": "2026-11-04",
+    "_source": "f52f6bd7"
   },
   "guides_card_resilient_title": {
     "value": "Rendi la mesh resiliente",
@@ -3318,6 +3402,12 @@
     "_seeded": "2026-10-26",
     "_source": "6fd605ec"
   },
+  "area_note_pt_bridges": {
+    "value": "Il Portogallo usa entrambi i preset, e dei bridge trasportano tutto il traffico MeshCore tra i due. Portugal 433 richiede una scheda con radio a 433 MHz.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "948efc51"
+  },
   "area_path_hash": {
     "value": "Hash del percorso (impostato dal preset)",
     "_ai": true,
@@ -3359,6 +3449,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "89d3440f"
+  },
+  "area_source_link": {
+    "value": "fonte",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "41cf6794"
   },
   "area_checked": {
     "value": "verificato",
@@ -3450,6 +3546,78 @@
     "_seeded": "2026-10-26",
     "_source": "a6221a2f"
   },
+  "regions_district": {
+    "value": "Il codice del tuo distretto o della tua isola",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f46ccde8"
+  },
+  "regions_preset_pick": {
+    "value": "Il preset della tua radio",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "1d5f12a5"
+  },
+  "regions_nesting": {
+    "value": "Tieni le tue regioni annidate, ognuna dentro quella superiore. Un ripetitore carico con limitazione del duty cycle scarta allora prima la regione più ampia, e la tua regione continua a passare.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4bd6c031"
+  },
+  "regions_nesting_link": {
+    "value": "Perché l'annidamento conta",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "01aad29b"
+  },
+  "regions_style": {
+    "value": "Come scrivere i comandi",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b2634f41"
+  },
+  "regions_style_put": {
+    "value": "Una riga per regione",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7020bdec"
+  },
+  "regions_style_def": {
+    "value": "Tutto su una riga, firmware 1.16 o successivo",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7b909df1"
+  },
+  "regions_note_pt": {
+    "value": "MeshCore Portugal usa europe come codice per l'Europa, dove altri paesi usano eu. Sono due regioni distinte: un ripetitore che conosce solo europe scarta i messaggi inviati a eu, e viceversa. LusoFW v2026.9.1 o successivo compila le regioni da solo. Usa i comandi qui sotto quando le imposti a mano.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "37de255f"
+  },
+  "regions_table_title": {
+    "value": "Regioni e distretti in Portogallo",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "10268d8d"
+  },
+  "regions_table_region": {
+    "value": "Regione",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d3a008ef"
+  },
+  "regions_table_inside": {
+    "value": "Distretti e isole al suo interno",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "97d751bd"
+  },
+  "regions_footnote_pt": {
+    "value": "Setúbal è divisa per comune. Alcochete, Almada, Barreiro, Moita, Montijo, Palmela, Seixal, Sesimbra e Setúbal sono in Lisboa e Vale do Tejo. Alcácer do Sal, Grândola, Santiago do Cacém e Sines sono in Alentejo.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e4d089f6"
+  },
   "regions_map": {
     "value": "Mappa",
     "_ai": true,
@@ -3468,6 +3636,12 @@
     "_seeded": "2026-10-26",
     "_source": "54f7feb3"
   },
+  "regions_cmd_hint_town": {
+    "value": "Scrivi la tua città nella casella qui sopra, se la tua zona la usa, poi copia.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "73fd15ae"
+  },
   "area_ph_hint": {
     "value": "Scrivi i tuoi valori sopra quelli evidenziati, poi copia.",
     "_ai": true,
@@ -3485,6 +3659,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "90064d5a"
+  },
+  "area_ph_band": {
+    "value": "Il preset della tua radio",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "1d5f12a5"
   },
   "area_map_label": {
     "value": "Mappa delle aree e del loro preset radio",
@@ -6263,5 +6443,437 @@
     "_ai": true,
     "_seeded": "2026-10-27",
     "_source": "dbcd5e7b"
+  },
+  "meetings_strip_title": {
+    "value": "Prossime 8 settimane",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fc9d509f"
+  },
+  "meetings_kind_in_person": {
+    "value": "Di persona",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5cf02dbb"
+  },
+  "meetings_kind_online": {
+    "value": "Online",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0d21bd52"
+  },
+  "meetings_kind_channel": {
+    "value": "Su un canale",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6e611a5b"
+  },
+  "meetings_today": {
+    "value": "Oggi",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2b065c7c"
+  },
+  "meetings_spoken": {
+    "value": "Lingua",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b0a422a0"
+  },
+  "meetings_repeat_once": {
+    "value": "Una data",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "af4b82fa"
+  },
+  "meetings_repeat_weekly": {
+    "value": "Ogni {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "334afb72"
+  },
+  "meetings_repeat_monthly_1": {
+    "value": "Ogni 1° {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4721ffa0"
+  },
+  "meetings_repeat_monthly_2": {
+    "value": "Ogni 2° {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "cf11319c"
+  },
+  "meetings_repeat_monthly_3": {
+    "value": "Ogni 3° {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6ecb3a6a"
+  },
+  "meetings_repeat_monthly_4": {
+    "value": "Ogni 4° {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fde48201"
+  },
+  "meetings_repeat_monthly_last": {
+    "value": "Ogni ultimo {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "249b8757"
+  },
+  "meetings_your_time": {
+    "value": "Il tuo orario: {time}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d99b734d"
+  },
+  "meetings_listed_by": {
+    "value": "inserito da {name}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "22a3c6a0"
+  },
+  "meetings_their_page": {
+    "value": "La loro pagina",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4b4cc1a1"
+  },
+  "meetings_add_calendar": {
+    "value": "Aggiungi al calendario",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d0efffa6"
+  },
+  "meetings_empty_country": {
+    "value": "In questo paese non ci sono ancora incontri in elenco. Aggiungi ora il feed qui sotto, e il tuo calendario mostra i nuovi incontri in automatico.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ac1fa865"
+  },
+  "meetings_empty_country_cta": {
+    "value": "Aggiungi l'incontro del tuo gruppo",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e31ccacb"
+  },
+  "meetings_empty_group": {
+    "value": "Questo gruppo non ha ancora incontri in elenco. Aggiungi ora il suo feed qui sotto, e il tuo calendario mostra i nuovi incontri in automatico.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ec792e24"
+  },
+  "meetings_as_of": {
+    "value": "Elenco aggiornato al {date}.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "243d44bb"
+  },
+  "meetings_feed_title": {
+    "value": "Ricevi questi incontri nel tuo calendario",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ba1c4685"
+  },
+  "meetings_feed_body": {
+    "value": "Copia questo link e aggiungilo alla tua app di calendario come abbonamento. Il tuo calendario aggiunge poi i nuovi incontri in automatico. Funziona anche prima che ci siano incontri.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8ae965d1"
+  },
+  "meetings_feed_pick": {
+    "value": "Quali incontri?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b962e77b"
+  },
+  "meetings_feed_europe": {
+    "value": "Tutta Europa",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "326c492d"
+  },
+  "meetings_feed_groups": {
+    "value": "Gruppi locali",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dff00c14"
+  },
+  "meetings_copy": {
+    "value": "Copia link",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dbf362d4"
+  },
+  "meetings_copied": {
+    "value": "Copiato",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8d525e5f"
+  },
+  "meetings_add_title": {
+    "value": "Aggiungi il tuo incontro",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7f5cd406"
+  },
+  "meetings_add_body": {
+    "value": "Compila questo modulo una volta. Non serve un gruppo in elenco. Noi controlliamo il link e aggiungiamo il tuo incontro. Un incontro ricorrente resta in elenco per 6 mesi; invia di nuovo il modulo per tenerlo più a lungo.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8428d436"
+  },
+  "meetings_next_title": {
+    "value": "Prossimi incontri",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "89d075ce"
+  },
+  "meetings_all": {
+    "value": "Tutti gli incontri",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8406d032"
+  },
+  "meetings_next": {
+    "value": "Prossimo incontro",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e97c87bd"
+  },
+  "meetings_last": {
+    "value": "Ultimo incontro",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "61922265"
+  },
+  "meetings_group_feed": {
+    "value": "Ricevi gli incontri di questo gruppo nel tuo calendario",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "382f76fb"
+  },
+  "community_search_meetings": {
+    "value": "Incontri vicino a {place}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9dfdca50"
+  },
+  "meetings_map_hint": {
+    "value": "Un quadrato è un incontro nei prossimi 30 giorni.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6f937c88"
+  },
+  "meetings_add_group": {
+    "value": "Gruppo locale",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "21b10847"
+  },
+  "meetings_add_group_new": {
+    "value": "Un gruppo nuovo, non ancora in elenco",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a4159cd"
+  },
+  "meetings_add_group_none": {
+    "value": "Nessun gruppo",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2463cfb8"
+  },
+  "meetings_add_new_group": {
+    "value": "Nome del tuo gruppo",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b593feb6"
+  },
+  "meetings_add_region": {
+    "value": "Regione o città, se il tuo gruppo non copre tutto il paese",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4ac7ccde"
+  },
+  "meetings_add_links": {
+    "value": "Sito web o chat pubblica del tuo gruppo",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ab1c8140"
+  },
+  "meetings_add_who": {
+    "value": "Chi organizza questo incontro?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f55abade"
+  },
+  "meetings_add_who_example": {
+    "value": "Un club, un hackerspace o un nome che vuoi mostrare",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "38de17e3"
+  },
+  "meetings_add_page": {
+    "value": "Pagina pubblica su questo incontro",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "733d7b57"
+  },
+  "meetings_add_name": {
+    "value": "Nome dell'incontro",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d944cb35"
+  },
+  "meetings_add_kind": {
+    "value": "Come si partecipa?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7a0bae93"
+  },
+  "meetings_add_place": {
+    "value": "Luogo pubblico, link o canale",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b67943a9"
+  },
+  "meetings_add_first": {
+    "value": "Prima data",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9dbd4f04"
+  },
+  "meetings_add_time": {
+    "value": "Orario, in ora locale",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "015e7494"
+  },
+  "meetings_add_rule": {
+    "value": "Ogni quanto?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ddc79ba1"
+  },
+  "meetings_add_languages": {
+    "value": "Lingue parlate",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "65a782e4"
+  },
+  "meetings_add_open": {
+    "value": "Chiunque può partecipare a questo incontro, senza invito.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "974467c3"
+  },
+  "meetings_add_open_form": {
+    "value": "Apri il modulo su GitHub",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "019b07aa"
+  },
+  "meetings_add_need_new_group": {
+    "value": "Aggiungi il nome del tuo gruppo.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e80cb28c"
+  },
+  "meetings_add_need_new_link": {
+    "value": "Aggiungi un link pubblico al tuo gruppo.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a24f94d"
+  },
+  "meetings_add_need_who": {
+    "value": "Indica chi organizza questo incontro.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2e0010ac"
+  },
+  "meetings_add_need_page": {
+    "value": "Aggiungi una pagina pubblica su questo incontro.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b3b3de31"
+  },
+  "meetings_add_need_place": {
+    "value": "Inserisci nome, luogo, orario e lingue.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "05437f1c"
+  },
+  "meetings_add_need_open": {
+    "value": "Elenchiamo solo incontri aperti a tutti.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dd4b5f10"
+  },
+  "meetings_add_need_date": {
+    "value": "Questa data è passata. Scegline una nuova.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d2351d30"
+  },
+  "meetings_add_next_dates": {
+    "value": "Le tue prossime date",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a762da5"
+  },
+  "meetings_add_feed_title": {
+    "value": "Il tuo link del calendario",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "3a418e8c"
+  },
+  "meetings_add_feed_group": {
+    "value": "Il tuo gruppo ha già questo link.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "937b5be9"
+  },
+  "meetings_add_feed_new": {
+    "value": "Prima inseriamo il tuo incontro, nei feed per l'Europa e per il tuo paese. Poi controlliamo il tuo gruppo e lo aggiungiamo a Gruppi locali, con un suo link.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e63f510c"
+  },
+  "meetings_add_feed_none": {
+    "value": "Il tuo incontro entra nei feed per l'Europa e per il tuo paese.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0789df65"
+  },
+  "meetings_add_how_title": {
+    "value": "Come funziona il link del calendario di un gruppo",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2f16e35a"
+  },
+  "meetings_add_how_1": {
+    "value": "Ogni gruppo in Gruppi locali ha un suo link, anche prima del primo incontro. Lo trovi nella scheda del tuo gruppo.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "003c9615"
+  },
+  "meetings_add_how_2": {
+    "value": "Metti il link sul tuo sito o fissalo nella tua chat.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "74a2d43c"
+  },
+  "meetings_add_how_3": {
+    "value": "I membri lo aggiungono alla loro app di calendario come abbonamento. Le nuove date compaiono poi lì in automatico.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8480d2ed"
+  },
+  "meetings_add_how_note": {
+    "value": "Per cambiare una data, invia di nuovo il modulo. Le app di calendario controllano il link con i propri tempi, quindi una nuova data può metterci un po' a comparire.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d533e900"
   }
 }

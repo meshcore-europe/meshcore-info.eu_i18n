@@ -3,7 +3,7 @@
     "language": "nb",
     "name": "Norsk bokmål",
     "managed_by": "community",
-    "updated": "2026-11-02"
+    "updated": "2026-11-04"
   },
   "site_tagline": {
     "value": "Meldinger uten nett i hele Europa",
@@ -142,6 +142,30 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "8d525e5f"
+  },
+  "short_link": {
+    "value": "Kortlenke",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f44e613a"
+  },
+  "short_links_page": {
+    "value": "Side",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0a30a815"
+  },
+  "short_links_country": {
+    "value": "Innstillinger for Tyskland (bruk din egen landskode)",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9f895094"
+  },
+  "short_links_area": {
+    "value": "Innstillinger for Limburg",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5d3b1103"
   },
   "hero_eyebrow": {
     "value": "868 MHz · Europa",
@@ -912,10 +936,10 @@
     "_source": "a52ace42"
   },
   "community_missing_body": {
-    "value": "Hvem som helst kan legge til en lokal gruppe. Åpne et issue med navn, område og lenker, så legger en vedlikeholder den til på alle språk samtidig.",
+    "value": "Alle kan legge til en lokal gruppe. Opprett en issue med navn, område og lenker, så legger en vedlikeholder den inn på alle språk samtidig. Samarbeider gruppen din med en kommune, et brannvesen eller sivilforsvaret? Skriv det i issuen, med en offentlig lenke, så legger vi det til i beskrivelsen av gruppen din.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "a626e730"
+    "_seeded": "2026-11-04",
+    "_source": "15c70c68"
   },
   "community_missing_cta": {
     "value": "Legg til din lokale gruppe",
@@ -928,6 +952,66 @@
     "_ai": true,
     "_seeded": "2026-10-31",
     "_source": "0b6beef7"
+  },
+  "community_search_or": {
+    "value": "Eller søk etter postnummer",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "868b07ff"
+  },
+  "community_map_label": {
+    "value": "Kart over Europa med de lokale gruppene",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "39852ecb"
+  },
+  "community_map_hint": {
+    "value": "Velg et land eller en prikk for å se gruppene der. En sirkel viser omtrent området en gruppe dekker. En åpen prikk er en gruppe for hele landet.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8a99c786"
+  },
+  "community_map_credit": {
+    "value": "Kartdata:",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "38bfee0b"
+  },
+  "community_map_here": {
+    "value": "Grupper her",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8e5bcafb"
+  },
+  "community_map_country": {
+    "value": "Grupper i {country}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fb89e1cc"
+  },
+  "community_map_none": {
+    "value": "Ingen lokal gruppe i dette landet ennå.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f9c4a071"
+  },
+  "community_map_zoom_in": {
+    "value": "Zoom inn",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0e47f09a"
+  },
+  "community_map_zoom_out": {
+    "value": "Zoom ut",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "bc7b631a"
+  },
+  "community_map_reset": {
+    "value": "Hele kartet",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5b8e0478"
   },
   "community_search_country": {
     "value": "Land",
@@ -2208,10 +2292,10 @@
     "_source": "9f0065e0"
   },
   "community.de-isarmesh.desc": {
-    "value": "Forum for LoRa-mesh-brukere rundt München som arrangerer faste treff og diskuterer MeshCore og andre mesh-prosjekter.",
+    "value": "Forum for LoRa-mesh-brukere rundt München, om MeshCore og andre mesh-prosjekter.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "05e62cf9"
+    "_seeded": "2026-11-04",
+    "_source": "33c3e363"
   },
   "community.de-mesh-dresden.desc": {
     "value": "Dresden-gruppe med grundige tekniske artikler for repeater-operatører. Den driver også en lokal chat for MeshCore og andre mesh-prosjekter.",
@@ -2238,10 +2322,10 @@
     "_source": "3eb31061"
   },
   "community.sk-meshcore-slovensko.desc": {
-    "value": "Slovakisk nettverksside drevet av en radioamatørklubb i Bratislava, med Discord-server og ukentlige fysiske treff.",
+    "value": "Slovakisk nettverksside drevet av en amatørradioklubb i Bratislava, med en Discord-server.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "950a6862"
+    "_seeded": "2026-11-04",
+    "_source": "ea102b97"
   },
   "community.pl-meshcore-polska.desc": {
     "value": "Landsdekkende polsk fellesskap med nodekart, dokumentasjon på polsk og en Discord-server.",
@@ -2424,10 +2508,10 @@
     "_source": "2a7d4602"
   },
   "community.de-ffnw.desc": {
-    "value": "Freifunk-forening som har drevet et felles WiFi-mesh i regionen Weser-Ems siden 2013, og nå også driver MeshCore-repeatere. Den møtes hver måned i Oldenburg.",
+    "value": "Freifunk-forening som har drevet et felles WiFi-mesh i Weser-Ems-regionen siden 2013 og nå også driver MeshCore-repeatere.",
     "_ai": true,
-    "_seeded": "2026-10-28",
-    "_source": "abb2138f"
+    "_seeded": "2026-11-04",
+    "_source": "6fd9acc0"
   },
   "community.de-meshcore-dresden.desc": {
     "value": "Gruppe som bygger et MeshCore-nettverk i og rundt Dresden, med regioner og kanaler oppført.",
@@ -2466,10 +2550,10 @@
     "_source": "dc1d7f13"
   },
   "community.de-ka-mesh.desc": {
-    "value": "Gruppe som bygger et MeshCore-nettverk rundt Karlsruhe og Pforzheim, med kanalliste og treff.",
+    "value": "Gruppe som bygger et MeshCore-nettverk rundt Karlsruhe og Pforzheim, med en kanalliste.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "20d493a1"
+    "_seeded": "2026-11-04",
+    "_source": "62f0440b"
   },
   "community.de-ostfriesland.desc": {
     "value": "Felles kanal for hele Øst-Frisland, rundt Aurich, Wittmund, Norden og Emden. Gruppen finnes bare på meshen, uten nettside eller chat.",
@@ -3156,10 +3240,10 @@
     "_source": "4608abcd"
   },
   "guides_card_repeater_desc": {
-    "value": "En repeater sender meldinger videre for alle rundt seg. Plassering, kommandoene for å sette den opp, og de juridiske grensene på 868 MHz.",
+    "value": "En repeater sender meldinger videre for alle rundt seg. Plassering, planleggingsverktøyene i appen, kommandoene for oppsett og de juridiske grensene på 868 MHz.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "979d61a1"
+    "_seeded": "2026-11-04",
+    "_source": "f52f6bd7"
   },
   "guides_card_resilient_title": {
     "value": "Gjør meshen robust",
@@ -3323,6 +3407,12 @@
     "_seeded": "2026-10-26",
     "_source": "6fd605ec"
   },
+  "area_note_pt_bridges": {
+    "value": "Portugal bruker begge forhåndsinnstillingene, og broer fører all MeshCore-trafikk mellom dem. Portugal 433 krever et kort med en 433 MHz-radio.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "948efc51"
+  },
   "area_path_hash": {
     "value": "Sti-hash (satt av forvalget)",
     "_ai": true,
@@ -3364,6 +3454,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "89d3440f"
+  },
+  "area_source_link": {
+    "value": "kilde",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "41cf6794"
   },
   "area_checked": {
     "value": "sjekket",
@@ -3455,6 +3551,78 @@
     "_seeded": "2026-10-26",
     "_source": "a6221a2f"
   },
+  "regions_district": {
+    "value": "Koden for distriktet eller øya di",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f46ccde8"
+  },
+  "regions_preset_pick": {
+    "value": "Radioforhåndsinnstillingen din",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "1d5f12a5"
+  },
+  "regions_nesting": {
+    "value": "Hold regionene dine nøstet, hver inni den over. En travel repeater med duty-cycle-begrensning dropper da den bredeste regionen først, og din egen region slipper fortsatt gjennom.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4bd6c031"
+  },
+  "regions_nesting_link": {
+    "value": "Hvorfor nøsting er viktig",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "01aad29b"
+  },
+  "regions_style": {
+    "value": "Slik skriver du kommandoene",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b2634f41"
+  },
+  "regions_style_put": {
+    "value": "Én linje per region",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7020bdec"
+  },
+  "regions_style_def": {
+    "value": "Alt på én linje, firmware 1.16 eller nyere",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7b909df1"
+  },
+  "regions_note_pt": {
+    "value": "MeshCore Portugal bruker europe som kode for Europa, der andre land bruker eu. Dette er to separate regioner: en repeater som bare kjenner europe, dropper meldinger sendt til eu, og omvendt. LusoFW v2026.9.1 eller nyere fyller inn regionene selv. Bruk kommandoene nedenfor når du setter dem manuelt.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "37de255f"
+  },
+  "regions_table_title": {
+    "value": "Regioner og distrikter i Portugal",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "10268d8d"
+  },
+  "regions_table_region": {
+    "value": "Region",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d3a008ef"
+  },
+  "regions_table_inside": {
+    "value": "Distrikter og øyer i regionen",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "97d751bd"
+  },
+  "regions_footnote_pt": {
+    "value": "Setúbal er delt etter kommune. Alcochete, Almada, Barreiro, Moita, Montijo, Palmela, Seixal, Sesimbra og Setúbal hører til Lisboa e Vale do Tejo. Alcácer do Sal, Grândola, Santiago do Cacém og Sines hører til Alentejo.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e4d089f6"
+  },
   "regions_map": {
     "value": "Kart",
     "_ai": true,
@@ -3473,6 +3641,12 @@
     "_seeded": "2026-10-26",
     "_source": "54f7feb3"
   },
+  "regions_cmd_hint_town": {
+    "value": "Skriv inn byen din i feltet over, hvis området ditt bruker det, og kopier så.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "73fd15ae"
+  },
   "area_ph_hint": {
     "value": "Skriv dine egne verdier over de uthevede, og kopier.",
     "_ai": true,
@@ -3490,6 +3664,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "90064d5a"
+  },
+  "area_ph_band": {
+    "value": "Radioforhåndsinnstillingen din",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "1d5f12a5"
   },
   "area_map_label": {
     "value": "Kart over områdene og radioforvalget deres",
@@ -6268,5 +6448,437 @@
     "_ai": true,
     "_seeded": "2026-10-27",
     "_source": "dbcd5e7b"
+  },
+  "meetings_strip_title": {
+    "value": "Neste 8 uker",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fc9d509f"
+  },
+  "meetings_kind_in_person": {
+    "value": "Fysisk",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5cf02dbb"
+  },
+  "meetings_kind_online": {
+    "value": "På nett",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0d21bd52"
+  },
+  "meetings_kind_channel": {
+    "value": "På en kanal",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6e611a5b"
+  },
+  "meetings_today": {
+    "value": "I dag",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2b065c7c"
+  },
+  "meetings_spoken": {
+    "value": "Språk",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b0a422a0"
+  },
+  "meetings_repeat_once": {
+    "value": "Én dato",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "af4b82fa"
+  },
+  "meetings_repeat_weekly": {
+    "value": "Hver {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "334afb72"
+  },
+  "meetings_repeat_monthly_1": {
+    "value": "Hver 1. {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4721ffa0"
+  },
+  "meetings_repeat_monthly_2": {
+    "value": "Hver 2. {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "cf11319c"
+  },
+  "meetings_repeat_monthly_3": {
+    "value": "Hver 3. {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6ecb3a6a"
+  },
+  "meetings_repeat_monthly_4": {
+    "value": "Hver 4. {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fde48201"
+  },
+  "meetings_repeat_monthly_last": {
+    "value": "Hver siste {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "249b8757"
+  },
+  "meetings_your_time": {
+    "value": "Din tid: {time}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d99b734d"
+  },
+  "meetings_listed_by": {
+    "value": "lagt inn av {name}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "22a3c6a0"
+  },
+  "meetings_their_page": {
+    "value": "Siden deres",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4b4cc1a1"
+  },
+  "meetings_add_calendar": {
+    "value": "Legg til i kalender",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d0efffa6"
+  },
+  "meetings_empty_country": {
+    "value": "Ingen møter er oppført i dette landet ennå. Legg til feeden nedenfor nå, så viser kalenderen din nye møter automatisk.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ac1fa865"
+  },
+  "meetings_empty_country_cta": {
+    "value": "Legg til gruppens møte",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e31ccacb"
+  },
+  "meetings_empty_group": {
+    "value": "Denne gruppen har ingen oppførte møter ennå. Legg til feeden nedenfor nå, så viser kalenderen din nye møter automatisk.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ec792e24"
+  },
+  "meetings_as_of": {
+    "value": "Listen per {date}.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "243d44bb"
+  },
+  "meetings_feed_title": {
+    "value": "Få disse møtene i kalenderen din",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ba1c4685"
+  },
+  "meetings_feed_body": {
+    "value": "Kopier denne lenken og legg den til som abonnement i kalenderappen din. Kalenderen legger da til nye møter automatisk. Det fungerer også før det finnes møter.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8ae965d1"
+  },
+  "meetings_feed_pick": {
+    "value": "Hvilke møter?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b962e77b"
+  },
+  "meetings_feed_europe": {
+    "value": "Hele Europa",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "326c492d"
+  },
+  "meetings_feed_groups": {
+    "value": "Lokale grupper",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dff00c14"
+  },
+  "meetings_copy": {
+    "value": "Kopier lenke",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dbf362d4"
+  },
+  "meetings_copied": {
+    "value": "Kopiert",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8d525e5f"
+  },
+  "meetings_add_title": {
+    "value": "Legg til møtet ditt",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7f5cd406"
+  },
+  "meetings_add_body": {
+    "value": "Fyll ut dette skjemaet én gang. Du trenger ikke en oppført gruppe. Vi sjekker lenken og legger til møtet ditt. Et gjentakende møte står oppført i 6 måneder; send skjemaet på nytt for å beholde det lenger.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8428d436"
+  },
+  "meetings_next_title": {
+    "value": "Neste møter",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "89d075ce"
+  },
+  "meetings_all": {
+    "value": "Alle møter",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8406d032"
+  },
+  "meetings_next": {
+    "value": "Neste møte",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e97c87bd"
+  },
+  "meetings_last": {
+    "value": "Siste møte",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "61922265"
+  },
+  "meetings_group_feed": {
+    "value": "Få gruppens møter i kalenderen din",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "382f76fb"
+  },
+  "community_search_meetings": {
+    "value": "Møter nær {place}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9dfdca50"
+  },
+  "meetings_map_hint": {
+    "value": "En firkant er et møte i løpet av de neste 30 dagene.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6f937c88"
+  },
+  "meetings_add_group": {
+    "value": "Lokal gruppe",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "21b10847"
+  },
+  "meetings_add_group_new": {
+    "value": "En ny gruppe, ikke oppført ennå",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a4159cd"
+  },
+  "meetings_add_group_none": {
+    "value": "Ingen gruppe",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2463cfb8"
+  },
+  "meetings_add_new_group": {
+    "value": "Navnet på gruppen din",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b593feb6"
+  },
+  "meetings_add_region": {
+    "value": "Region eller by, hvis gruppen din ikke dekker hele landet",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4ac7ccde"
+  },
+  "meetings_add_links": {
+    "value": "Gruppens offentlige nettside eller chat",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ab1c8140"
+  },
+  "meetings_add_who": {
+    "value": "Hvem arrangerer dette møtet?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f55abade"
+  },
+  "meetings_add_who_example": {
+    "value": "En klubb, et hackerspace eller et navn du vil vise",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "38de17e3"
+  },
+  "meetings_add_page": {
+    "value": "Offentlig side om dette møtet",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "733d7b57"
+  },
+  "meetings_add_name": {
+    "value": "Navnet på møtet",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d944cb35"
+  },
+  "meetings_add_kind": {
+    "value": "Hvordan blir folk med?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7a0bae93"
+  },
+  "meetings_add_place": {
+    "value": "Offentlig sted, lenke eller kanal",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b67943a9"
+  },
+  "meetings_add_first": {
+    "value": "Første dato",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9dbd4f04"
+  },
+  "meetings_add_time": {
+    "value": "Klokkeslett, i lokal tid",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "015e7494"
+  },
+  "meetings_add_rule": {
+    "value": "Hvor ofte?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ddc79ba1"
+  },
+  "meetings_add_languages": {
+    "value": "Språk som snakkes",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "65a782e4"
+  },
+  "meetings_add_open": {
+    "value": "Alle kan bli med på dette møtet, uten invitasjon.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "974467c3"
+  },
+  "meetings_add_open_form": {
+    "value": "Åpne skjemaet på GitHub",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "019b07aa"
+  },
+  "meetings_add_need_new_group": {
+    "value": "Legg til navnet på gruppen din.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e80cb28c"
+  },
+  "meetings_add_need_new_link": {
+    "value": "Legg til en offentlig lenke til gruppen din.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a24f94d"
+  },
+  "meetings_add_need_who": {
+    "value": "Oppgi hvem som arrangerer dette møtet.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2e0010ac"
+  },
+  "meetings_add_need_page": {
+    "value": "Legg til en offentlig side om dette møtet.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b3b3de31"
+  },
+  "meetings_add_need_place": {
+    "value": "Fyll inn navn, sted, klokkeslett og språk.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "05437f1c"
+  },
+  "meetings_add_need_open": {
+    "value": "Vi fører bare opp møter som alle kan bli med på.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dd4b5f10"
+  },
+  "meetings_add_need_date": {
+    "value": "Denne datoen er passert. Velg en ny.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d2351d30"
+  },
+  "meetings_add_next_dates": {
+    "value": "Dine neste datoer",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a762da5"
+  },
+  "meetings_add_feed_title": {
+    "value": "Kalenderlenken din",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "3a418e8c"
+  },
+  "meetings_add_feed_group": {
+    "value": "Gruppen din har allerede denne lenken.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "937b5be9"
+  },
+  "meetings_add_feed_new": {
+    "value": "Vi fører først opp møtet ditt i feedene for Europa og landet ditt. Deretter sjekker vi gruppen din og legger den til under Lokale grupper, med en egen lenke.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e63f510c"
+  },
+  "meetings_add_feed_none": {
+    "value": "Møtet ditt kommer med i feedene for Europa og landet ditt.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0789df65"
+  },
+  "meetings_add_how_title": {
+    "value": "Slik fungerer kalenderlenken til en gruppe",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2f16e35a"
+  },
+  "meetings_add_how_1": {
+    "value": "Hver gruppe under Lokale grupper har sin egen lenke, også før det første møtet. Du finner den på kortet til gruppen din.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "003c9615"
+  },
+  "meetings_add_how_2": {
+    "value": "Legg lenken på nettsiden din eller fest den i chatten din.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "74a2d43c"
+  },
+  "meetings_add_how_3": {
+    "value": "Medlemmene legger den til som abonnement i kalenderappen sin. Nye datoer dukker da opp der automatisk.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8480d2ed"
+  },
+  "meetings_add_how_note": {
+    "value": "For å endre en dato sender du skjemaet på nytt. Kalenderapper sjekker lenken etter sin egen tidsplan, så det kan ta en stund før en ny dato vises.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d533e900"
   }
 }

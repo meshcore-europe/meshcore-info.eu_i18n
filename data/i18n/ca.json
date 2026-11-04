@@ -3,7 +3,7 @@
     "language": "ca",
     "name": "Català",
     "managed_by": "community",
-    "updated": "2026-11-02"
+    "updated": "2026-11-04"
   },
   "site_tagline": {
     "value": "Missatges sense xarxa per tot Europa",
@@ -142,6 +142,30 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "8d525e5f"
+  },
+  "short_link": {
+    "value": "Enllaç curt",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f44e613a"
+  },
+  "short_links_page": {
+    "value": "Pàgina",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0a30a815"
+  },
+  "short_links_country": {
+    "value": "Configuració per a Alemanya (fes servir el codi del teu país)",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9f895094"
+  },
+  "short_links_area": {
+    "value": "Configuració per a Limburg",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5d3b1103"
   },
   "hero_eyebrow": {
     "value": "868 MHz · Europa",
@@ -912,10 +936,10 @@
     "_source": "a52ace42"
   },
   "community_missing_body": {
-    "value": "Qualsevol pot afegir un grup local. Obre una incidència amb el nom, la zona i els enllaços, i un mantenidor l'afegeix a tots els idiomes alhora.",
+    "value": "Qualsevol persona pot afegir un grup local. Obre una issue amb el nom, la zona i els enllaços del grup. Un mantenidor l'afegeix a tots els idiomes alhora. El teu grup col·labora amb un ajuntament, uns bombers o la protecció civil? Indica-ho a la issue, amb un enllaç públic. Nosaltres ho afegim a la descripció del teu grup.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "a626e730"
+    "_seeded": "2026-11-04",
+    "_source": "15c70c68"
   },
   "community_missing_cta": {
     "value": "Afegeix el teu grup local",
@@ -928,6 +952,66 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "0b6beef7"
+  },
+  "community_search_or": {
+    "value": "O cerca per codi postal",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "868b07ff"
+  },
+  "community_map_label": {
+    "value": "Mapa d'Europa amb els grups locals",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "39852ecb"
+  },
+  "community_map_hint": {
+    "value": "Tria un país o un punt per veure'n els grups. Un cercle mostra la zona aproximada que cobreix un grup. Un punt buit és un grup per a tot el país.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8a99c786"
+  },
+  "community_map_credit": {
+    "value": "Dades del mapa:",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "38bfee0b"
+  },
+  "community_map_here": {
+    "value": "Grups aquí",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8e5bcafb"
+  },
+  "community_map_country": {
+    "value": "Grups a {country}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fb89e1cc"
+  },
+  "community_map_none": {
+    "value": "Encara no hi ha cap grup local en aquest país.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f9c4a071"
+  },
+  "community_map_zoom_in": {
+    "value": "Amplia",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0e47f09a"
+  },
+  "community_map_zoom_out": {
+    "value": "Redueix",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "bc7b631a"
+  },
+  "community_map_reset": {
+    "value": "Mapa sencer",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5b8e0478"
   },
   "community_search_country": {
     "value": "País",
@@ -2208,10 +2292,10 @@
     "_source": "9f0065e0"
   },
   "community.de-isarmesh.desc": {
-    "value": "Fòrum per a usuaris de xarxes mesh LoRa de la zona de Munic que organitza trobades regulars i parla de MeshCore i altres projectes mesh.",
+    "value": "Fòrum per a usuaris de malles LoRa de la zona de Munic, sobre MeshCore i altres projectes de malla.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "05e62cf9"
+    "_seeded": "2026-11-04",
+    "_source": "33c3e363"
   },
   "community.de-mesh-dresden.desc": {
     "value": "Grup de Dresden amb articles tècnics detallats per a operadors de repetidors. També gestiona un xat local per a MeshCore i altres projectes mesh.",
@@ -2238,10 +2322,10 @@
     "_source": "3eb31061"
   },
   "community.sk-meshcore-slovensko.desc": {
-    "value": "Pàgina de la xarxa eslovaca allotjada per un club de radioaficionats de Bratislava, amb un servidor de Discord i trobades presencials setmanals.",
+    "value": "Pàgina de la xarxa eslovaca allotjada per un radioclub de Bratislava, amb un servidor de Discord.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "950a6862"
+    "_seeded": "2026-11-04",
+    "_source": "ea102b97"
   },
   "community.pl-meshcore-polska.desc": {
     "value": "Comunitat polonesa d'àmbit nacional amb un mapa de nodes, documentació en polonès i un servidor de Discord.",
@@ -2424,10 +2508,10 @@
     "_source": "2a7d4602"
   },
   "community.de-ffnw.desc": {
-    "value": "Associació Freifunk que des de 2013 gestiona una xarxa WiFi mesh comunitària a la regió de Weser-Ems i ara també repetidors MeshCore. Es reuneix cada mes a Oldenburg.",
+    "value": "Associació Freifunk que gestiona una malla WiFi comunitària a la regió de Weser-Ems des del 2013 i ara també té repetidors MeshCore.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "abb2138f"
+    "_seeded": "2026-11-04",
+    "_source": "6fd9acc0"
   },
   "community.de-meshcore-dresden.desc": {
     "value": "Grup que construeix una xarxa MeshCore a Dresden i rodalia, amb la llista de regions i canals.",
@@ -2466,10 +2550,10 @@
     "_source": "dc1d7f13"
   },
   "community.de-ka-mesh.desc": {
-    "value": "Grup que construeix una xarxa MeshCore a la zona de Karlsruhe i Pforzheim, amb una llista de canals i trobades.",
+    "value": "Grup que construeix una xarxa MeshCore a la zona de Karlsruhe i Pforzheim, amb una llista de canals.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "20d493a1"
+    "_seeded": "2026-11-04",
+    "_source": "62f0440b"
   },
   "community.de-ostfriesland.desc": {
     "value": "Canal compartit per a tota la Frísia Oriental, a la zona d'Aurich, Wittmund, Norden i Emden. El grup només és a la xarxa mesh, sense web ni xat.",
@@ -3156,10 +3240,10 @@
     "_source": "4608abcd"
   },
   "guides_card_repeater_desc": {
-    "value": "Un repetidor retransmet missatges per a tothom que té al voltant. Ubicació, les ordres per configurar-lo i els límits legals a 868 MHz.",
+    "value": "Un repetidor retransmet els missatges per a tothom del seu voltant. Ubicació, les eines de planificació de l'app, les ordres per configurar-lo i els límits legals a 868 MHz.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "979d61a1"
+    "_seeded": "2026-11-04",
+    "_source": "f52f6bd7"
   },
   "guides_card_resilient_title": {
     "value": "Fes la xarxa mesh més resistent",
@@ -3323,6 +3407,12 @@
     "_seeded": "2026-11-02",
     "_source": "6fd605ec"
   },
+  "area_note_pt_bridges": {
+    "value": "Portugal funciona amb els dos presets, i uns ponts porten tot el trànsit MeshCore d'un a l'altre. Portugal 433 necessita una placa amb una ràdio de 433 MHz.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "948efc51"
+  },
   "area_path_hash": {
     "value": "Hash de ruta (definit pel preset)",
     "_ai": true,
@@ -3364,6 +3454,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "89d3440f"
+  },
+  "area_source_link": {
+    "value": "font",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "41cf6794"
   },
   "area_checked": {
     "value": "comprovat",
@@ -3455,6 +3551,78 @@
     "_seeded": "2026-11-02",
     "_source": "a6221a2f"
   },
+  "regions_district": {
+    "value": "El codi del teu districte o illa",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f46ccde8"
+  },
+  "regions_preset_pick": {
+    "value": "El preset de la teva ràdio",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "1d5f12a5"
+  },
+  "regions_nesting": {
+    "value": "Mantén les regions niades, cadascuna dins de la superior. Llavors un repetidor ocupat amb limitació de duty cycle descarta primer la regió més àmplia, i la teva regió continua passant.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4bd6c031"
+  },
+  "regions_nesting_link": {
+    "value": "Per què importa niar les regions",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "01aad29b"
+  },
+  "regions_style": {
+    "value": "Com escriure les ordres",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b2634f41"
+  },
+  "regions_style_put": {
+    "value": "Una línia per regió",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7020bdec"
+  },
+  "regions_style_def": {
+    "value": "Tot en una línia, firmware 1.16 o més recent",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7b909df1"
+  },
+  "regions_note_pt": {
+    "value": "MeshCore Portugal fa servir europe com a codi per a Europa, mentre que altres països fan servir eu. Són dues regions separades: un repetidor que només coneix europe descarta els missatges enviats a eu, i a l'inrevés. LusoFW v2026.9.1 o més recent omple les regions automàticament. Fes servir les ordres de sota quan les configuris a mà.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "37de255f"
+  },
+  "regions_table_title": {
+    "value": "Regions i districtes de Portugal",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "10268d8d"
+  },
+  "regions_table_region": {
+    "value": "Regió",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d3a008ef"
+  },
+  "regions_table_inside": {
+    "value": "Districtes i illes que inclou",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "97d751bd"
+  },
+  "regions_footnote_pt": {
+    "value": "Setúbal està dividit per municipis. Alcochete, Almada, Barreiro, Moita, Montijo, Palmela, Seixal, Sesimbra i Setúbal són a Lisboa e Vale do Tejo. Alcácer do Sal, Grândola, Santiago do Cacém i Sines són a l'Alentejo.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e4d089f6"
+  },
   "regions_map": {
     "value": "Mapa",
     "_ai": true,
@@ -3473,6 +3641,12 @@
     "_seeded": "2026-11-02",
     "_source": "54f7feb3"
   },
+  "regions_cmd_hint_town": {
+    "value": "Escriu la teva població al quadre de dalt, si la teva zona en fa servir una, i després copia.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "73fd15ae"
+  },
   "area_ph_hint": {
     "value": "Escriu els teus valors sobre els ressaltats, i després copia.",
     "_ai": true,
@@ -3490,6 +3664,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "90064d5a"
+  },
+  "area_ph_band": {
+    "value": "El preset de la teva ràdio",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "1d5f12a5"
   },
   "area_map_label": {
     "value": "Mapa de les zones i el seu preset de ràdio",
@@ -6268,5 +6448,437 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "dbcd5e7b"
+  },
+  "meetings_strip_title": {
+    "value": "Properes 8 setmanes",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fc9d509f"
+  },
+  "meetings_kind_in_person": {
+    "value": "Presencial",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5cf02dbb"
+  },
+  "meetings_kind_online": {
+    "value": "En línia",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0d21bd52"
+  },
+  "meetings_kind_channel": {
+    "value": "En un canal",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6e611a5b"
+  },
+  "meetings_today": {
+    "value": "Avui",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2b065c7c"
+  },
+  "meetings_spoken": {
+    "value": "Idioma",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b0a422a0"
+  },
+  "meetings_repeat_once": {
+    "value": "Una sola data",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "af4b82fa"
+  },
+  "meetings_repeat_weekly": {
+    "value": "Cada {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "334afb72"
+  },
+  "meetings_repeat_monthly_1": {
+    "value": "Cada 1r {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4721ffa0"
+  },
+  "meetings_repeat_monthly_2": {
+    "value": "Cada 2n {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "cf11319c"
+  },
+  "meetings_repeat_monthly_3": {
+    "value": "Cada 3r {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6ecb3a6a"
+  },
+  "meetings_repeat_monthly_4": {
+    "value": "Cada 4t {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fde48201"
+  },
+  "meetings_repeat_monthly_last": {
+    "value": "Cada últim {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "249b8757"
+  },
+  "meetings_your_time": {
+    "value": "La teva hora: {time}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d99b734d"
+  },
+  "meetings_listed_by": {
+    "value": "publicada per {name}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "22a3c6a0"
+  },
+  "meetings_their_page": {
+    "value": "La seva pàgina",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4b4cc1a1"
+  },
+  "meetings_add_calendar": {
+    "value": "Afegeix al calendari",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d0efffa6"
+  },
+  "meetings_empty_country": {
+    "value": "Encara no hi ha trobades publicades en aquest país. Afegeix ara el feed de sota, i el teu calendari mostrarà les noves trobades automàticament.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ac1fa865"
+  },
+  "meetings_empty_country_cta": {
+    "value": "Afegeix la trobada del teu grup",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e31ccacb"
+  },
+  "meetings_empty_group": {
+    "value": "Aquest grup encara no té trobades publicades. Afegeix ara el seu feed de sota, i el teu calendari mostrarà les noves trobades automàticament.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ec792e24"
+  },
+  "meetings_as_of": {
+    "value": "Llista a data de {date}.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "243d44bb"
+  },
+  "meetings_feed_title": {
+    "value": "Rep aquestes trobades al teu calendari",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ba1c4685"
+  },
+  "meetings_feed_body": {
+    "value": "Copia aquest enllaç i afegeix-lo a l'app de calendari com a subscripció. Llavors el teu calendari afegeix les noves trobades automàticament. També funciona abans que hi hagi trobades.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8ae965d1"
+  },
+  "meetings_feed_pick": {
+    "value": "Quines trobades?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b962e77b"
+  },
+  "meetings_feed_europe": {
+    "value": "Tota Europa",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "326c492d"
+  },
+  "meetings_feed_groups": {
+    "value": "Grups locals",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dff00c14"
+  },
+  "meetings_copy": {
+    "value": "Copia l'enllaç",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dbf362d4"
+  },
+  "meetings_copied": {
+    "value": "Copiat",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8d525e5f"
+  },
+  "meetings_add_title": {
+    "value": "Afegeix la teva trobada",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7f5cd406"
+  },
+  "meetings_add_body": {
+    "value": "Omple aquest formulari una vegada. No et cal un grup publicat. Nosaltres comprovem l'enllaç i afegim la teva trobada. Una trobada periòdica es manté publicada 6 mesos; torna a enviar el formulari per mantenir-la més temps.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8428d436"
+  },
+  "meetings_next_title": {
+    "value": "Properes trobades",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "89d075ce"
+  },
+  "meetings_all": {
+    "value": "Totes les trobades",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8406d032"
+  },
+  "meetings_next": {
+    "value": "Propera trobada",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e97c87bd"
+  },
+  "meetings_last": {
+    "value": "Última trobada",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "61922265"
+  },
+  "meetings_group_feed": {
+    "value": "Rep les trobades d'aquest grup al teu calendari",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "382f76fb"
+  },
+  "community_search_meetings": {
+    "value": "Trobades a prop de {place}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9dfdca50"
+  },
+  "meetings_map_hint": {
+    "value": "Un quadrat és una trobada en els propers 30 dies.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6f937c88"
+  },
+  "meetings_add_group": {
+    "value": "Grup local",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "21b10847"
+  },
+  "meetings_add_group_new": {
+    "value": "Un grup nou, encara no publicat",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a4159cd"
+  },
+  "meetings_add_group_none": {
+    "value": "Cap grup",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2463cfb8"
+  },
+  "meetings_add_new_group": {
+    "value": "Nom del teu grup",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b593feb6"
+  },
+  "meetings_add_region": {
+    "value": "Regió o ciutat, si el teu grup no és de tot el país",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4ac7ccde"
+  },
+  "meetings_add_links": {
+    "value": "El web públic o el xat del teu grup",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ab1c8140"
+  },
+  "meetings_add_who": {
+    "value": "Qui organitza aquesta trobada?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f55abade"
+  },
+  "meetings_add_who_example": {
+    "value": "Un club, un hackerspace o un nom que vulguis mostrar",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "38de17e3"
+  },
+  "meetings_add_page": {
+    "value": "Pàgina pública sobre aquesta trobada",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "733d7b57"
+  },
+  "meetings_add_name": {
+    "value": "Nom de la trobada",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d944cb35"
+  },
+  "meetings_add_kind": {
+    "value": "Com s'hi uneix la gent?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7a0bae93"
+  },
+  "meetings_add_place": {
+    "value": "Lloc públic, enllaç o canal",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b67943a9"
+  },
+  "meetings_add_first": {
+    "value": "Primera data",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9dbd4f04"
+  },
+  "meetings_add_time": {
+    "value": "Hora, en hora local",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "015e7494"
+  },
+  "meetings_add_rule": {
+    "value": "Amb quina freqüència?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ddc79ba1"
+  },
+  "meetings_add_languages": {
+    "value": "Idiomes que s'hi parlen",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "65a782e4"
+  },
+  "meetings_add_open": {
+    "value": "Qualsevol persona pot unir-se a aquesta trobada, sense invitació.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "974467c3"
+  },
+  "meetings_add_open_form": {
+    "value": "Obre el formulari a GitHub",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "019b07aa"
+  },
+  "meetings_add_need_new_group": {
+    "value": "Afegeix el nom del teu grup.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e80cb28c"
+  },
+  "meetings_add_need_new_link": {
+    "value": "Afegeix un enllaç públic al teu grup.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a24f94d"
+  },
+  "meetings_add_need_who": {
+    "value": "Indica qui organitza aquesta trobada.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2e0010ac"
+  },
+  "meetings_add_need_page": {
+    "value": "Afegeix una pàgina pública sobre aquesta trobada.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b3b3de31"
+  },
+  "meetings_add_need_place": {
+    "value": "Omple el nom, el lloc, l'hora i els idiomes.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "05437f1c"
+  },
+  "meetings_add_need_open": {
+    "value": "Només publiquem trobades obertes a tothom.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dd4b5f10"
+  },
+  "meetings_add_need_date": {
+    "value": "Aquesta data ja ha passat. Tria'n una de nova.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d2351d30"
+  },
+  "meetings_add_next_dates": {
+    "value": "Les teves properes dates",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a762da5"
+  },
+  "meetings_add_feed_title": {
+    "value": "L'enllaç del teu calendari",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "3a418e8c"
+  },
+  "meetings_add_feed_group": {
+    "value": "El teu grup ja té aquest enllaç.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "937b5be9"
+  },
+  "meetings_add_feed_new": {
+    "value": "Primer publiquem la teva trobada als feeds d'Europa i del teu país. Després comprovem el teu grup i l'afegim a Grups locals, amb el seu propi enllaç.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e63f510c"
+  },
+  "meetings_add_feed_none": {
+    "value": "La teva trobada entra als feeds d'Europa i del teu país.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0789df65"
+  },
+  "meetings_add_how_title": {
+    "value": "Com funciona l'enllaç de calendari d'un grup",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2f16e35a"
+  },
+  "meetings_add_how_1": {
+    "value": "Cada grup de Grups locals té el seu propi enllaç, també abans de la primera trobada. És a la fitxa del teu grup.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "003c9615"
+  },
+  "meetings_add_how_2": {
+    "value": "Posa l'enllaç al teu web o fixa'l al teu xat.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "74a2d43c"
+  },
+  "meetings_add_how_3": {
+    "value": "Els membres l'afegeixen a l'app de calendari com a subscripció. Llavors les noves dates hi apareixen automàticament.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8480d2ed"
+  },
+  "meetings_add_how_note": {
+    "value": "Per canviar una data, torna a enviar el formulari. Les apps de calendari comproven l'enllaç al seu propi ritme, així que una data nova pot tardar una estona a aparèixer.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d533e900"
   }
 }

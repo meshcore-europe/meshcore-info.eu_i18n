@@ -6,11 +6,11 @@ eyebrow: 6 chéim · MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0c1b08d9'
-  seeded: '2026-11-02'
+  source_hash: '0490a311'
+  seeded: '2026-11-04'
   fields: {title: '61e8d44a', lead: '45b0e5c3', description: 'cf031b18', eyebrow: '4fa6fe1e'}
-  sections: ['16c3728c', '90f3d626', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
-  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '757c634a', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
+  sections: ['16c3728c', '5b6d136a', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', '1741ed35', '66d00206']
+  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', 'e90b7859', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', '53276869', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
 ---
 
 Tá na céimeanna seo bunaithe ar fhirmware MeshCore v1.18.0 agus ar uirlisí oifigiúla
@@ -26,8 +26,7 @@ agus a mhéarchlár féin aige agus a oibríonn as féin.
 Faigh an leagan 868 MHz. Déanann an aeróg a thagann leis an gnó; taispeánann an
 [treoir aeróige](/guides/antenna/) duit conas ceann a sheiceáil.
 
-An bhfuil Meshtastic ag rith ar do chlár anois? Má fhlaiseálann tú MeshCore, tagann sé in áit Meshtastic, agus ní dhéanann
-an dá cheann cumarsáid le chéile. Tá liosta in [Ag teacht ó Meshtastic](/about/#meshtastic) de na rudaí a oibríonn ar bhealach eile.
+An bhfuil Meshtastic ar do chlár anois? Má chuireann tú MeshCore air, tiocfaidh sé in áit Meshtastic, agus ní labhraíonn an dá cheann lena chéile.
 
 {{< callout type="warning" >}}
 Ceangail an aeróg sula gcuireann tú an raidió ar siúl. Má tharchuireann raidió LoRa gan aeróg,
@@ -87,19 +86,21 @@ do réamhshocrú nua.
 
 ## 6. Abair heileo {#hello}
 
-1. **Fógair thú féin.** Seol *fógra* ón aip. Taistealaíonn fógra "flood" trí na hathsheoltóirí
-   (nóid a chuireann teachtaireachtaí ar aghaidh), ionas gur féidir le gach duine ar an mogalra tú a chur leis.
+1. **Fógair tú féin.** Seol *fógra* ón aip. Taistealaíonn fógra "tuile" trí na hathsheoltóirí
+   (nóid a chuireann teachtaireachtaí ar aghaidh), mar sin is féidir le gach duine
+   ar an mogalra tú a chur leo.
    Ní fhógraíonn compánaigh iad féin go huathoibríoch riamh.
-2. **Aimsigh daoine eile.** Nochtann daoine i do theagmhálaithe chomh luath agus a shroicheann a
-   bhfógraí thú. Seolann athsheoltóirí fógra "flood" gach 47 uair an chloig de réir réamhshocraithe,
-   mar sin d'fhéadfadh sé 2 lá a thógáil ar do liosta líonadh.
-3. **Seol teachtaireacht.** Oscail teagmhálaí agus scríobh. Scaipeann an chéad teachtaireacht ar
-   fud an líonra; cuireann an faighteoir in iúl ar ais cén bealach a ghlac sí, agus leanann
-   teachtaireachtaí níos déanaí an bealach sin.
-4. **Téigh isteach i gcainéil.** Tá an cainéal **Public** socraithe cheana; sroicheann gach rud a
-   scríobhann tú ansin gach duine ar an mogalra. Cuir *cainéal haischlibe* do réigiúin leis (ainm a
-   thosaíonn le `#`) trína ainm a chlóscríobh. Inseoidh do [ghrúpa áitiúil](/community/) duit cé
-   na cainéil atá gníomhach.
+2. **Aimsigh daoine eile.** Nochtann daoine i do theagmhálaithe nuair a shroicheann a gcuid fógraí
+   thú. Seolann athsheoltóirí fógra tuile gach 47 uair an chloig de réir réamhshocraithe, mar sin
+   d'fhéadfadh sé 2 lá a thógáil sula mbeidh do liosta lán.
+3. **Seol teachtaireacht.** Oscail teagmhálaí agus scríobh. Téann an chéad teachtaireacht mar thuile
+   tríd an líonra; cuireann an faighteoir in iúl duit an bealach a ghlac sí, agus leanann
+   na teachtaireachtaí ina dhiaidh sin an bealach sin.
+4. **Téigh isteach i gcainéil.** Tá an cainéal **Public** socraithe cheana féin; sroicheann gach rud
+   a scríobhann tú ann gach duine ar an mogalra. Cuir *cainéal haischlibe* do réigiúin leis
+   (ainm a thosaíonn le `#`) trína ainm a chlóscríobh. Inseoidh do
+   [ghrúpa áitiúil](/community/) duit cé na cainéil atá gníomhach.
+   Ar mhaith leat bualadh leo go pearsanta? Féach na [cruinnithe](/meetings/) gar duit.
 
 ## Nuair nach n-oibríonn rud éigin {#troubleshooting}
 

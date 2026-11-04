@@ -3,7 +3,7 @@
     "language": "hu",
     "name": "Magyar",
     "managed_by": "community",
-    "updated": "2026-11-02"
+    "updated": "2026-11-04"
   },
   "site_tagline": {
     "value": "Hálózatfüggetlen üzenetküldés Európa-szerte",
@@ -142,6 +142,30 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "8d525e5f"
+  },
+  "short_link": {
+    "value": "Rövid link",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f44e613a"
+  },
+  "short_links_page": {
+    "value": "Oldal",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0a30a815"
+  },
+  "short_links_country": {
+    "value": "Beállítások Németországhoz (a saját országkódodat használd)",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9f895094"
+  },
+  "short_links_area": {
+    "value": "Beállítások Limburghoz",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5d3b1103"
   },
   "hero_eyebrow": {
     "value": "868 MHz · Európa",
@@ -912,10 +936,10 @@
     "_source": "a52ace42"
   },
   "community_missing_body": {
-    "value": "Bárki hozzáadhat helyi csoportot. Nyiss egy issue-t a nevével, területével és linkjeivel, és egy karbantartó egyszerre felveszi minden nyelven.",
+    "value": "Bárki hozzáadhat egy helyi csoportot. Nyiss egy issue-t a csoport nevével, területével és linkjeivel, és egy karbantartó egyszerre minden nyelvhez hozzáadja. Együttműködik a csoportod egy önkormányzattal, tűzoltósággal vagy katasztrófavédelemmel? Írd meg az issue-ban, egy nyilvános linkkel, és ezt felvesszük a csoportod leírásába.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "a626e730"
+    "_seeded": "2026-11-04",
+    "_source": "15c70c68"
   },
   "community_missing_cta": {
     "value": "Add hozzá a helyi csoportodat",
@@ -928,6 +952,66 @@
     "_ai": true,
     "_seeded": "2026-10-31",
     "_source": "0b6beef7"
+  },
+  "community_search_or": {
+    "value": "Vagy keress irányítószám alapján",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "868b07ff"
+  },
+  "community_map_label": {
+    "value": "Európa térképe a helyi csoportokkal",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "39852ecb"
+  },
+  "community_map_hint": {
+    "value": "Válassz egy országot vagy egy pontot, hogy lásd a csoportjait. A kör a csoport által lefedett terület hozzávetőleges kiterjedését mutatja. Az üres pont egy egész országra kiterjedő csoport.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8a99c786"
+  },
+  "community_map_credit": {
+    "value": "Térképadatok:",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "38bfee0b"
+  },
+  "community_map_here": {
+    "value": "Csoportok itt",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8e5bcafb"
+  },
+  "community_map_country": {
+    "value": "Csoportok itt: {country}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fb89e1cc"
+  },
+  "community_map_none": {
+    "value": "Ebben az országban még nincs helyi csoport.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f9c4a071"
+  },
+  "community_map_zoom_in": {
+    "value": "Nagyítás",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0e47f09a"
+  },
+  "community_map_zoom_out": {
+    "value": "Kicsinyítés",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "bc7b631a"
+  },
+  "community_map_reset": {
+    "value": "Teljes térkép",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5b8e0478"
   },
   "community_search_country": {
     "value": "Ország",
@@ -2208,10 +2292,10 @@
     "_source": "9f0065e0"
   },
   "community.de-isarmesh.desc": {
-    "value": "Fórum a München környéki LoRa mesh-felhasználóknak, rendszeres találkozókat szervez, és a MeshCore-ról és más mesh-projektekről beszélget.",
+    "value": "Fórum München környéki LoRa mesh felhasználóknak, a MeshCore-ról és más mesh projektekről.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "05e62cf9"
+    "_seeded": "2026-11-04",
+    "_source": "33c3e363"
   },
   "community.de-mesh-dresden.desc": {
     "value": "Drezdai csoport alapos műszaki cikkekkel átjátszó-üzemeltetőknek. Helyi csevegést is futtat a MeshCore-hoz és más mesh-projektekhez.",
@@ -2238,10 +2322,10 @@
     "_source": "3eb31061"
   },
   "community.sk-meshcore-slovensko.desc": {
-    "value": "Szlovák hálózati oldal, egy pozsonyi rádióamatőr klub üzemelteti, Discord-szerverrel és heti személyes találkozókkal.",
+    "value": "Szlovák hálózati oldal, amelyet egy pozsonyi rádióamatőr klub üzemeltet, Discord szerverrel.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "950a6862"
+    "_seeded": "2026-11-04",
+    "_source": "ea102b97"
   },
   "community.pl-meshcore-polska.desc": {
     "value": "Országos lengyel közösség csomóponttérképpel, lengyel nyelvű dokumentációval és Discord-szerverrel.",
@@ -2424,10 +2508,10 @@
     "_source": "2a7d4602"
   },
   "community.de-ffnw.desc": {
-    "value": "Freifunk egyesület, amely 2013 óta közösségi WiFi mesh-t működtet a Weser-Ems régióban, és ma már MeshCore átjátszókat is üzemeltet. Havonta találkozik Oldenburgban.",
+    "value": "Freifunk egyesület, amely 2013 óta közösségi WiFi mesh-t üzemeltet a Weser-Ems régióban, és most MeshCore átjátszókat is működtet.",
     "_ai": true,
-    "_seeded": "2026-10-28",
-    "_source": "abb2138f"
+    "_seeded": "2026-11-04",
+    "_source": "6fd9acc0"
   },
   "community.de-meshcore-dresden.desc": {
     "value": "Csoport, amely MeshCore-hálózatot épít Drezdában és környékén, régióit és csatornáit felsorolva.",
@@ -2466,10 +2550,10 @@
     "_source": "dc1d7f13"
   },
   "community.de-ka-mesh.desc": {
-    "value": "MeshCore-hálózatot építő csoport Karlsruhe és Pforzheim környékén, csatornalistával és találkozókkal.",
+    "value": "Csoport, amely MeshCore hálózatot épít Karlsruhe és Pforzheim környékén, csatornalistával.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "20d493a1"
+    "_seeded": "2026-11-04",
+    "_source": "62f0440b"
   },
   "community.de-ostfriesland.desc": {
     "value": "Közös csatorna egész Kelet-Frízia számára, Aurich, Wittmund, Norden és Emden környékén. A csoport csak a meshen érhető el, nincs weboldala vagy chatje.",
@@ -3156,10 +3240,10 @@
     "_source": "4608abcd"
   },
   "guides_card_repeater_desc": {
-    "value": "Az átjátszó mindenkinek továbbadja az üzeneteket maga körül. Elhelyezés, a beállító parancsok és a 868 MHz jogi korlátai.",
+    "value": "Az átjátszó mindenkinek továbbítja az üzeneteket a környezetében. Elhelyezés, az app tervezőeszközei, a beállítás parancsai és a 868 MHz-es sáv jogi korlátai.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "979d61a1"
+    "_seeded": "2026-11-04",
+    "_source": "f52f6bd7"
   },
   "guides_card_resilient_title": {
     "value": "Tedd ellenállóvá a mesh-t",
@@ -3323,6 +3407,12 @@
     "_seeded": "2026-10-26",
     "_source": "6fd605ec"
   },
+  "area_note_pt_bridges": {
+    "value": "Portugália mindkét előbeállítást használja, és hidak viszik át köztük a teljes MeshCore forgalmat. A Portugal 433-hoz 433 MHz-es rádióval szerelt panel kell.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "948efc51"
+  },
   "area_path_hash": {
     "value": "Útvonal-hash (a profil állítja be)",
     "_ai": true,
@@ -3364,6 +3454,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "89d3440f"
+  },
+  "area_source_link": {
+    "value": "forrás",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "41cf6794"
   },
   "area_checked": {
     "value": "ellenőrizve",
@@ -3455,6 +3551,78 @@
     "_seeded": "2026-10-26",
     "_source": "a6221a2f"
   },
+  "regions_district": {
+    "value": "A kerületed vagy szigeted kódja",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f46ccde8"
+  },
+  "regions_preset_pick": {
+    "value": "A rádiós előbeállításod",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "1d5f12a5"
+  },
+  "regions_nesting": {
+    "value": "A régióidat egymásba ágyazva tartsd, mindegyiket a fölötte lévőn belül. Egy forgalmas, duty-cycle korlátozást használó átjátszó így először a legszélesebb régiót ejti el, a saját régiód pedig továbbra is átjut.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4bd6c031"
+  },
+  "regions_nesting_link": {
+    "value": "Miért fontos az egymásba ágyazás",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "01aad29b"
+  },
+  "regions_style": {
+    "value": "Hogyan írd a parancsokat",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b2634f41"
+  },
+  "regions_style_put": {
+    "value": "Régiónként egy sor",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7020bdec"
+  },
+  "regions_style_def": {
+    "value": "Mind egy sorban, firmware 1.16 vagy újabb",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7b909df1"
+  },
+  "regions_note_pt": {
+    "value": "A MeshCore Portugal az europe kódot használja Európára, ahol más országok az eu kódot. Ez két külön régió: az az átjátszó, amely csak az europe régiót ismeri, eldobja az eu régióba küldött üzeneteket, és fordítva. A LusoFW v2026.9.1 vagy újabb magától kitölti a régiókat. Az alábbi parancsokat akkor használd, ha kézzel állítod be őket.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "37de255f"
+  },
+  "regions_table_title": {
+    "value": "Régiók és kerületek Portugáliában",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "10268d8d"
+  },
+  "regions_table_region": {
+    "value": "Régió",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d3a008ef"
+  },
+  "regions_table_inside": {
+    "value": "A benne lévő kerületek és szigetek",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "97d751bd"
+  },
+  "regions_footnote_pt": {
+    "value": "Setúbal települések szerint oszlik meg. Alcochete, Almada, Barreiro, Moita, Montijo, Palmela, Seixal, Sesimbra és Setúbal Lisboa e Vale do Tejo része. Alcácer do Sal, Grândola, Santiago do Cacém és Sines Alentejo része.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e4d089f6"
+  },
   "regions_map": {
     "value": "Térkép",
     "_ai": true,
@@ -3473,6 +3641,12 @@
     "_seeded": "2026-10-26",
     "_source": "54f7feb3"
   },
+  "regions_cmd_hint_town": {
+    "value": "Írd be a településedet a fenti mezőbe, ha a területed használ ilyet, aztán másold.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "73fd15ae"
+  },
   "area_ph_hint": {
     "value": "Írd a saját értékeidet a kiemeltek helyére, majd másold.",
     "_ai": true,
@@ -3490,6 +3664,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "90064d5a"
+  },
+  "area_ph_band": {
+    "value": "A rádiós előbeállításod",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "1d5f12a5"
   },
   "area_map_label": {
     "value": "A területek és rádióprofiljuk térképe",
@@ -6268,5 +6448,437 @@
     "_ai": true,
     "_seeded": "2026-10-27",
     "_source": "dbcd5e7b"
+  },
+  "meetings_strip_title": {
+    "value": "A következő 8 hét",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fc9d509f"
+  },
+  "meetings_kind_in_person": {
+    "value": "Személyesen",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5cf02dbb"
+  },
+  "meetings_kind_online": {
+    "value": "Online",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0d21bd52"
+  },
+  "meetings_kind_channel": {
+    "value": "Csatornán",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6e611a5b"
+  },
+  "meetings_today": {
+    "value": "Ma",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2b065c7c"
+  },
+  "meetings_spoken": {
+    "value": "Nyelv",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b0a422a0"
+  },
+  "meetings_repeat_once": {
+    "value": "Egy alkalom",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "af4b82fa"
+  },
+  "meetings_repeat_weekly": {
+    "value": "Minden {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "334afb72"
+  },
+  "meetings_repeat_monthly_1": {
+    "value": "Minden hónap 1. {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4721ffa0"
+  },
+  "meetings_repeat_monthly_2": {
+    "value": "Minden hónap 2. {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "cf11319c"
+  },
+  "meetings_repeat_monthly_3": {
+    "value": "Minden hónap 3. {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6ecb3a6a"
+  },
+  "meetings_repeat_monthly_4": {
+    "value": "Minden hónap 4. {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fde48201"
+  },
+  "meetings_repeat_monthly_last": {
+    "value": "Minden hónap utolsó {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "249b8757"
+  },
+  "meetings_your_time": {
+    "value": "Nálad: {time}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d99b734d"
+  },
+  "meetings_listed_by": {
+    "value": "felvette: {name}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "22a3c6a0"
+  },
+  "meetings_their_page": {
+    "value": "Az oldaluk",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4b4cc1a1"
+  },
+  "meetings_add_calendar": {
+    "value": "Hozzáadás a naptárhoz",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d0efffa6"
+  },
+  "meetings_empty_country": {
+    "value": "Ebben az országban még nincs felvett találkozó. Add hozzá most az alábbi feedet, és a naptárad automatikusan megmutatja az új találkozókat.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ac1fa865"
+  },
+  "meetings_empty_country_cta": {
+    "value": "Add hozzá a csoportod találkozóját",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e31ccacb"
+  },
+  "meetings_empty_group": {
+    "value": "Ennek a csoportnak még nincs felvett találkozója. Add hozzá most az alábbi feedjét, és a naptárad automatikusan megmutatja az új találkozókat.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ec792e24"
+  },
+  "meetings_as_of": {
+    "value": "A lista állapota: {date}.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "243d44bb"
+  },
+  "meetings_feed_title": {
+    "value": "Kapd meg ezeket a találkozókat a naptáradban",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ba1c4685"
+  },
+  "meetings_feed_body": {
+    "value": "Másold ki ezt a linket, és add hozzá a naptáralkalmazásodhoz feliratkozásként. A naptárad ezután automatikusan hozzáadja az új találkozókat. Akkor is működik, amikor még nincsenek találkozók.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8ae965d1"
+  },
+  "meetings_feed_pick": {
+    "value": "Mely találkozók?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b962e77b"
+  },
+  "meetings_feed_europe": {
+    "value": "Egész Európa",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "326c492d"
+  },
+  "meetings_feed_groups": {
+    "value": "Helyi csoportok",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dff00c14"
+  },
+  "meetings_copy": {
+    "value": "Link másolása",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dbf362d4"
+  },
+  "meetings_copied": {
+    "value": "Kimásolva",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8d525e5f"
+  },
+  "meetings_add_title": {
+    "value": "Add hozzá a találkozódat",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7f5cd406"
+  },
+  "meetings_add_body": {
+    "value": "Ezt az űrlapot egyszer töltsd ki. Nem kell felvett csoport hozzá. Ellenőrizzük a linket, és felvesszük a találkozódat. Az ismétlődő találkozó 6 hónapig marad a listán; küldd el újra az űrlapot, ha tovább akarod tartani.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8428d436"
+  },
+  "meetings_next_title": {
+    "value": "Következő találkozók",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "89d075ce"
+  },
+  "meetings_all": {
+    "value": "Összes találkozó",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8406d032"
+  },
+  "meetings_next": {
+    "value": "Következő találkozó",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e97c87bd"
+  },
+  "meetings_last": {
+    "value": "Legutóbbi találkozó",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "61922265"
+  },
+  "meetings_group_feed": {
+    "value": "Kapd meg a csoport találkozóit a naptáradban",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "382f76fb"
+  },
+  "community_search_meetings": {
+    "value": "Találkozók {place} közelében",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9dfdca50"
+  },
+  "meetings_map_hint": {
+    "value": "A négyzet egy találkozó a következő 30 napban.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6f937c88"
+  },
+  "meetings_add_group": {
+    "value": "Helyi csoport",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "21b10847"
+  },
+  "meetings_add_group_new": {
+    "value": "Új csoport, még nincs a listán",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a4159cd"
+  },
+  "meetings_add_group_none": {
+    "value": "Nincs csoport",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2463cfb8"
+  },
+  "meetings_add_new_group": {
+    "value": "A csoportod neve",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b593feb6"
+  },
+  "meetings_add_region": {
+    "value": "Régió vagy város, ha a csoportod nem országos",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4ac7ccde"
+  },
+  "meetings_add_links": {
+    "value": "A csoportod nyilvános weboldala vagy chatje",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ab1c8140"
+  },
+  "meetings_add_who": {
+    "value": "Ki szervezi ezt a találkozót?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f55abade"
+  },
+  "meetings_add_who_example": {
+    "value": "Egy klub, egy hackerspace vagy egy név, amit meg akarsz jeleníteni",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "38de17e3"
+  },
+  "meetings_add_page": {
+    "value": "Nyilvános oldal a találkozóról",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "733d7b57"
+  },
+  "meetings_add_name": {
+    "value": "A találkozó neve",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d944cb35"
+  },
+  "meetings_add_kind": {
+    "value": "Hogyan lehet csatlakozni?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7a0bae93"
+  },
+  "meetings_add_place": {
+    "value": "Nyilvános hely, link vagy csatorna",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b67943a9"
+  },
+  "meetings_add_first": {
+    "value": "Első időpont",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9dbd4f04"
+  },
+  "meetings_add_time": {
+    "value": "Időpont, helyi idő szerint",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "015e7494"
+  },
+  "meetings_add_rule": {
+    "value": "Milyen gyakran?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ddc79ba1"
+  },
+  "meetings_add_languages": {
+    "value": "Beszélt nyelvek",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "65a782e4"
+  },
+  "meetings_add_open": {
+    "value": "Bárki csatlakozhat ehhez a találkozóhoz, meghívó nélkül.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "974467c3"
+  },
+  "meetings_add_open_form": {
+    "value": "Űrlap megnyitása a GitHubon",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "019b07aa"
+  },
+  "meetings_add_need_new_group": {
+    "value": "Add meg a csoportod nevét.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e80cb28c"
+  },
+  "meetings_add_need_new_link": {
+    "value": "Adj meg egy nyilvános linket a csoportodhoz.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a24f94d"
+  },
+  "meetings_add_need_who": {
+    "value": "Add meg, ki szervezi ezt a találkozót.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2e0010ac"
+  },
+  "meetings_add_need_page": {
+    "value": "Adj meg egy nyilvános oldalt a találkozóról.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b3b3de31"
+  },
+  "meetings_add_need_place": {
+    "value": "Töltsd ki a nevet, a helyet, az időpontot és a nyelveket.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "05437f1c"
+  },
+  "meetings_add_need_open": {
+    "value": "Csak olyan találkozókat veszünk fel, amelyekhez bárki csatlakozhat.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dd4b5f10"
+  },
+  "meetings_add_need_date": {
+    "value": "Ez az időpont már elmúlt. Válassz újat.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d2351d30"
+  },
+  "meetings_add_next_dates": {
+    "value": "A következő időpontjaid",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a762da5"
+  },
+  "meetings_add_feed_title": {
+    "value": "A naptárlinked",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "3a418e8c"
+  },
+  "meetings_add_feed_group": {
+    "value": "A csoportodnak már megvan ez a linkje.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "937b5be9"
+  },
+  "meetings_add_feed_new": {
+    "value": "Először a találkozódat vesszük fel, az európai és az országod feedjébe. Aztán ellenőrizzük a csoportodat, és felvesszük a Helyi csoportok közé, saját linkkel.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e63f510c"
+  },
+  "meetings_add_feed_none": {
+    "value": "A találkozód az európai és az országod feedjébe kerül.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0789df65"
+  },
+  "meetings_add_how_title": {
+    "value": "Hogyan működik egy csoport naptárlinkje",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2f16e35a"
+  },
+  "meetings_add_how_1": {
+    "value": "A Helyi csoportok minden csoportjának saját linkje van, már az első találkozója előtt is. A csoportod kártyáján találod.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "003c9615"
+  },
+  "meetings_add_how_2": {
+    "value": "Tedd ki a linket az oldaladra, vagy tűzd ki a chatedben.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "74a2d43c"
+  },
+  "meetings_add_how_3": {
+    "value": "A tagok feliratkozásként adják hozzá a naptáralkalmazásukhoz. Az új időpontok ezután automatikusan megjelennek ott.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8480d2ed"
+  },
+  "meetings_add_how_note": {
+    "value": "Egy időpont módosításához küldd el újra az űrlapot. A naptáralkalmazások a saját ütemezésük szerint ellenőrzik a linket, ezért egy új időpont megjelenése eltarthat egy ideig.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d533e900"
   }
 }

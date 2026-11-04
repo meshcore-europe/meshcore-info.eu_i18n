@@ -6,11 +6,11 @@ eyebrow: 868 MHz · kuni 500 mW · litsentsivaba
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '7c7e3be3'
-  seeded: '2026-11-02'
+  source_hash: '3e38a8c6'
+  seeded: '2026-11-04'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '766086be', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', '6a7c4493', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
 ---
 
 Võrk püsib repiitrite peal. Kaasseadmed ehk raadiod, millega sõnumeid saadad, sõnumeid edasi ei anna. Ilma repiitriteta jõuad seega ainult nendeni, kes on otseses levis. Õiges kohas asuv repiiter laiendab võrku kõigile ümberkaudsetele. See juhend põhineb MeshCore'i püsivaral v1.18.0.
@@ -30,11 +30,43 @@ Pane repiiter üles sinna, kus levi puudub:
 
 Kõrgus on tähtsam kui võimsus. LoRa levib 868 MHz sagedusel kõige paremini vaba otsenähtavuse korral. Künkad, hooned ja tihe mets võtavad levi palju rohkem, kui mõni lisamillivatt tagasi annab.
 
-- **Mine kõrgele.** Katus, mast, kõrge hoone või küngas katab palju suurema ala kui aknalaud. Juba mõni meeter üle ümbritsevate katuste aitab.
-- **Hoia antenn lagedal.** Paigalda see katuseservadest kõrgemale, eemale metallist, vihmaveerennidest ja teistest antennidest.
-- **Kontrolli vaadet.** Sellised tööriistad nagu [HeyWhatsThat](https://www.heywhatsthat.com/) näitavad, mis asukohast paistab. Kui näed mingit kohta, on sealne repiiter sinu levis.
-- **Jäta vaba ruumi.** Raadioteele ei piisa otsejoonest, vaba ruumi on vaja ka selle ümber. Pikkadel vahemaadel peab tee keskosa jääma takistustest mitu meetrit kõrgemale.
-- **Küsi luba.** Hangi katuse või masti omanikult nõusolek ja lepi kokku, kuidas sa hoolduseks repiitrini pääsed.
+- **Mine kõrgele.** Katus, mast, kõrge hoone või küngas katab palju rohkem
+  kui aknalaud. Juba mõni meeter üle ümbritsevate katuste aitab.
+- **Hoia antenn vabas kohas.** Paigalda see katuseservadest kõrgemale, eemale
+  metallist, vihmaveerennidest ja teistest antennidest.
+- **Kontrolli nähtavust.** Sellised tööriistad nagu [HeyWhatsThat](https://www.heywhatsthat.com/)
+  näitavad, mida mingist kohast näha on. MeshCore'i rakendus
+  [arvutab, kuhu sinna paigutatud repiiter ulatub](#check-site).
+- **Jäta vaba ruumi.** Raadioteekonnal peab vaba olema ka ruum otsejoone ümber,
+  mitte ainult joon ise. 868 MHz sagedusel on see ruum 5 km teekonna
+  keskel umbes 20 m. 20 km teekonnal on see umbes 40 m.
+- **Küsi luba.** Hangi katuse või masti omaniku nõusolek ja lepi kokku,
+  kuidas sa hoolduseks repiitrini pääsed.
+
+### Kontrolli asukohta rakenduses {#check-site}
+
+MeshCore'i rakenduse versioonis 1.33 ja uuemates leiad need tööriistad
+menüü jaotisest **Tools**. Need töötavad ka ilma ühendatud raadiota.
+
+- **Line of Sight** joonistab 2 punkti vahelise maapinna ja ruumi, mida signaal
+  selle kohal vajab. Vajuta kaardil pikalt 2 punktile või puuduta repiitreid.
+- **Antenna Coverage** näitab kaardil, kuhu 1 punktis asuv antenn ulatub.
+  Vajuta pikalt punktile või puuduta repiitrit. Asukohtade võrdlemiseks lisa veel punkte.
+
+Arvutis vali tööriista menüüst **Add Point** ja sisesta koordinaadid.
+
+Mõlemas tööriistas on sinu asukoha antenn algul 5 m kõrgusel, seega määra
+tööriista seadetes kõrgus, mida plaanid. Antenna Coverage'is on vastuvõttev
+antenn algul 1 m kõrgusel. Kui raadio pole ühendatud, kasutab Line of Sight algul
+sagedust 915 MHz: määra selle seadetes oma [eelseadistuse](/guides/settings/) sagedus.
+
+Tööriistad arvutavad kõrgusandmete põhjal ega testi sinu raadiot. Kontrolli puid ja
+uusi hooneid ise, seejärel vii companion kohale ja vaata, milliseid
+repiitreid see kuuleb.
+
+![Line of Sight MeshCore'i rakenduses: maapind 2 punkti vahel ja ruum, mida signaal selle kohal vajab](/media/guides/line-of-sight.webp)
+
+![Antenna Coverage MeshCore'i rakenduses: ala kaardil, kuhu künkal asuv antenn ulatub](/media/guides/antenna-coverage.webp)
 
 ## Riistvara {#hardware}
 

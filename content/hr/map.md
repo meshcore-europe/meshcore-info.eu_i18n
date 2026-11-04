@@ -6,11 +6,11 @@ description: MeshCore karte uživo, karte pokrivenosti i analizatori paketa za E
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '351071aa'
-  seeded: '2026-11-02'
+  source_hash: '24bfdf6b'
+  seeded: '2026-11-04'
   fields: {title: '4b9f20a0', lead: 'fedb89bb', description: 'b5719f82'}
-  sections: ['351071aa']
-  blocks: ['dd5f039e', '9d4a2ad8', '70c417f2', '9fef7e16']
+  sections: ['24bfdf6b']
+  blocks: ['dd5f039e', '9d4a2ad8', '763fc710', '70c417f2', '9fef7e16']
 ---
 
 Čvor se pojavljuje na ovim kartama kada ga vlasnik objavi ili kada ga čuje
@@ -22,6 +22,8 @@ ne prikazuje njihov sadržaj.
 Čvor stoji na karti ondje gdje ga je vlasnik postavio, a to mjesto može biti pogrešno ili
 zastarjelo. Flood poruka putuje kroz više putova odjednom. Ruta na karti put je
 kopije koja je stigla prva, a ostali se putovi ne bilježe.
+
+Čini li ti se neka ruta na karti malo vjerojatnom? Provjeri 2 njezina čvora funkcijom Line of Sight u aplikaciji MeshCore. [Vodič za repetitore](/repeater-guide/#check-site) pokazuje kako.
 
 Ovim kartama treba internet, a mreži ne treba. [Zašto](/network/)
 

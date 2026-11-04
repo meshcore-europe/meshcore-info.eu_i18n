@@ -6,11 +6,11 @@ eyebrow: 6 lépés · MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0c1b08d9'
-  seeded: '2026-11-02'
+  source_hash: '0490a311'
+  seeded: '2026-11-04'
   fields: {title: '61e8d44a', lead: '45b0e5c3', description: 'cf031b18', eyebrow: '4fa6fe1e'}
-  sections: ['16c3728c', '90f3d626', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
-  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '757c634a', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
+  sections: ['16c3728c', '5b6d136a', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', '1741ed35', '66d00206']
+  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', 'e90b7859', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', '53276869', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
 ---
 
 Ezek a lépések a MeshCore firmware v1.18.0 verzióját és a 2026 októberi hivatalos eszközöket követik. Az app menünevei verziónként kissé eltérhetnek.
@@ -21,7 +21,7 @@ Az [eszközök oldalán](/devices/) bármelyik panel megfelel, amelynél fel van
 
 A 868 MHz-es változatot szerezd be. A mellékelt antenna megfelel; az [antennás útmutatóból](/guides/antenna/) megtudod, hogyan ellenőrizheted.
 
-A paneleden most Meshtastic fut? Ha MeshCore-t flashelsz rá, az lecseréli, és a kettő nem kommunikál egymással. A [Váltás Meshtasticról](/about/#meshtastic) rész felsorolja, mi működik másképp.
+A paneleden most Meshtastic fut? Ha MeshCore-t telepítesz rá, az lecseréli, és a kettő nem tud kommunikálni egymással.
 
 {{< callout type="warning" >}}
 Az antennát a rádió bekapcsolása előtt csatlakoztasd. Ha egy LoRa rádió antenna nélkül ad, károsíthatja a saját chipjét.
@@ -61,11 +61,12 @@ Nem vagy biztos benne? A [helyi csoportod](/community/) tudja, melyik előbeáll
 
 ## 6. Köszönj be {#hello}
 
-1. **Mutatkozz be.** Küldj egy *advertet* az appból. A „flood” advert végigmegy az átjátszókon (ezek a csomópontok továbbítják az üzeneteket), így a mesh-en bárki felvehet téged.
+1. **Mutatkozz be.** Küldj egy *advertet* az appból. A „flood” advert végighalad az átjátszókon (az üzeneteket továbbító csomópontokon), így a mesh-en mindenki felvehet téged.
    A companionök sosem mutatkoznak be maguktól.
-2. **Találj meg másokat.** Az emberek akkor jelennek meg a kapcsolataid között, amikor az advertjük eljut hozzád. Az átjátszók alapértelmezés szerint 47 óránként küldenek flood advertet, így a listád feltöltődése 2 napig is eltarthat.
-3. **Küldj üzenetet.** Nyiss meg egy kapcsolatot, és írj. Az első üzenet flood módon terjed a hálózaton. A címzett visszaküldi, milyen útvonalon érkezett, és a későbbi üzenetek ezt az útvonalat követik.
-4. **Csatlakozz csatornákhoz.** A **Public** csatorna már be van állítva; amit oda írsz, az a mesh-en mindenkihez eljut. A régiód *hashtag-csatornáját* (`#` jellel kezdődő nevű csatorna) úgy adod hozzá, hogy beírod a nevét. A [helyi csoportod](/community/) megmondja, mely csatornák aktívak.
+2. **Keress másokat.** Mások akkor jelennek meg a kapcsolataid között, amikor az advertjük eljut hozzád. Az átjátszók alapértelmezetten 47 óránként küldenek flood advertet, ezért akár 2 napig is eltarthat, mire megtelik a listád.
+3. **Küldj üzenetet.** Nyiss meg egy kapcsolatot, és írj. Az első üzenet flood módon terjed a hálózaton. A címzett visszaküldi, melyik útvonalon érkezett, és a későbbi üzenetek ezt az útvonalat követik.
+4. **Csatlakozz csatornákhoz.** A **Public** csatorna már be van állítva; amit oda írsz, az a mesh-en mindenkihez eljut. A régiód *hashtag csatornáját* (`#` jellel kezdődő név) úgy adod hozzá, hogy beírod a nevét. A [helyi csoportod](/community/) megmondja, mely csatornák aktívak.
+   Személyesen is találkoznál velük? Nézd meg a közeli [találkozókat](/meetings/).
 
 ## Ha valami nem működik {#troubleshooting}
 

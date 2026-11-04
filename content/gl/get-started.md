@@ -6,11 +6,11 @@ eyebrow: 6 pasos · MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0c1b08d9'
-  seeded: '2026-11-03'
+  source_hash: '0490a311'
+  seeded: '2026-11-04'
   fields: {title: '61e8d44a', lead: '45b0e5c3', description: 'cf031b18', eyebrow: '4fa6fe1e'}
-  sections: ['16c3728c', '90f3d626', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
-  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '757c634a', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
+  sections: ['16c3728c', '5b6d136a', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', '1741ed35', '66d00206']
+  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', 'e90b7859', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', '53276869', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
 ---
 
 Estes pasos corresponden ao firmware MeshCore v1.18.0 e ás ferramentas oficiais de
@@ -26,9 +26,8 @@ e teclado propios que funcione por si só.
 Colle a versión de 868 MHz. A antena incluída cumpre ben; na
 [guía de antenas](/guides/antenna/) ves como comprobar unha.
 
-A túa placa leva agora Meshtastic? Ao flashear MeshCore substitúelo, e os dous
-non se comunican entre si. [Se vés de Meshtastic](/about/#meshtastic)
-recolle o que funciona doutro xeito.
+A túa placa ten agora Meshtastic? Se flasheas MeshCore, substitúelo, e os dous
+non se comunican entre si.
 
 {{< callout type="warning" >}}
 Conecta a antena antes de acender a radio. Unha radio LoRa que
@@ -89,20 +88,21 @@ require actualizar a app.
 
 ## 6. Saúda {#hello}
 
-1. **Date a coñecer.** Envía un *advert* desde a app. Un advert "flood"
-   viaxa a través dos repetidores (nodos que retransmiten as mensaxes), de modo que calquera
-   persoa da malla pode engadirte.
-   Os companions nunca se anuncian automaticamente.
+1. **Preséntate.** Envía un *anuncio* desde a app. Un anuncio de "inundación"
+   viaxa a través dos repetidores (nodos que reenvían as mensaxes), así que todos
+   na malla poden engadirte.
+   Os companions nunca se anuncian por si sós.
 2. **Atopa outras persoas.** A xente aparece nos teus contactos cando che chegan
-   os seus adverts. Os repetidores envían por defecto un advert flood cada 47 horas, así que a túa lista
+   os seus anuncios. Os repetidores envían un anuncio de inundación cada 47 horas de serie, así que a túa lista
    pode tardar 2 días en encherse.
 3. **Envía unha mensaxe.** Abre un contacto e escribe. A primeira mensaxe inunda
-   a rede; o destinatario informa da ruta que seguiu, e as mensaxes
+   a rede; o receptor devolve a ruta que seguiu, e as mensaxes
    seguintes van por esa ruta.
-4. **Únete a canles.** A canle **Public** xa vén configurada; o que escribas nela chega a
-   toda a xente da malla. Engade a *canle hashtag* da túa rexión (un nome que empeza por `#`)
-   escribindo o seu nome. O teu
+4. **Únete ás canles.** A canle **Public** xa está configurada; todo o que
+   escribas nela chega a todos na malla. Engade a *canle hashtag* da túa rexión
+   (un nome que empeza por `#`) escribindo o seu nome. O teu
    [grupo local](/community/) dirache que canles están activas.
+   Queres coñecelos en persoa? Mira as [quedadas](/meetings/) preto de ti.
 
 ## Cando algo non funciona {#troubleshooting}
 

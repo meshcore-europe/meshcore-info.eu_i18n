@@ -1,16 +1,16 @@
 ---
 title: Zer da MeshCore?
 lead: MeshCore-k testu-mezuak irratiz bidaltzen ditu, nodotik nodora. Ez du internetik edo harpidetzarik behar.
-description: 'MeshCore zer den eta zer ez den: nodo motak, bideratzea, Meshtastic-etik zertan bereizten den, enkriptatzea eta 868 MHz-eko banda.'
+description: 'MeshCore zer den eta zer ez den: nodo motak, bideratzea, enkriptatzea eta 868 MHz-eko banda.'
 eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '279b56a4'
-  seeded: '2026-11-03'
-  fields: {title: '06eda66b', lead: 'c0174569', description: '15e6d2a7', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '16fde264', '0a55792c', 'c3de803d', '493b444f', 'a8b2b9b4', '429f699c', 'f8008f48', '88af2bd3', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'fab378a5', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', 'fc8f3129', '8dec428a', '07cbac35', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '95e18f18', '02f1fe2f', 'e6b5b258']
+  source_hash: '2a40da22'
+  seeded: '2026-11-04'
+  fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
+  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore LoRa irrati txikietarako software librea da. LoRa irrati-teknika bat da: datu gutxi urrutira bidaltzen ditu, oso energia gutxirekin. MeshCore duen irrati bati *nodo* esaten zaio. Zure telefonoko edo eramangarriko aplikazioarekin parekatuta, edo bere pantaila eta teklatuarekin, testua bidaltzen die kilometroetara dagoen jendeari. Tartean ez dago dorrerik, bideratzailerik edo hornitzailerik.
@@ -21,31 +21,29 @@ Softwarea kode irekikoa da. [meshcore-dev/MeshCore](https://github.com/meshcore-
 
 Irratien munduan berria zara? Hauek dira jendeak MeshCore-ri gehien eskatzen dizkion gauzak, eta MeshCore-k egiten ez dituenak.
 
-- **Ez da internet, ezta telefonoa ere.** MeshCore-k testu-mezu laburrak bidaltzen ditu,
-  gutxi gorabehera zure telefonoko testu-mezu baten luzerakoak. Ez dago ahotsik, argazkirik, bideorik
-  edo webgunerik, eta ezin duzu telefono-zenbaki arruntekin harremanetan jarri.
-- **Ez da larrialdi-zerbitzu bat.** Ez dago mesh sarea entzuten duen larrialdi-zerbitzurik,
-  eta inork ez du bermatzen norbaitek zure mezua irakurriko duenik. Larrialdi
-  batean, deitu 112ra.
-- **Ez da berehalakoa, eta ez dago leku guztietan.** Mezua irratiz irrati doa jauzika.
-  Segundo batzuk behar ditzake, edo agian ez da iritsiko. Iritsiko den ala ez zure inguruko errepikagailuen,
-  altueraren, eraikinen eta zure antenaren araberakoa da. Eraikin barruan, irrati txiki bat askotan
-  ez da inorengana iristen; teilatuko errepikagailu bat kilometroetara iristen da.
+- **Ez da internet, ezta telefono bat ere.** MeshCore-k testu-mezu laburrak bidaltzen ditu,
+  zure telefonoko SMS baten luzera, gutxi gorabehera. Ez dago ahotsik, argazkirik, bideorik
+  edo webgunerik, eta ezin duzu telefono-zenbaki arrunt batera deitu.
+- **Ez da larrialdi-zerbitzu bat.** Larrialdi-zerbitzu batek ere ez du hitzematen
+  mesh sarean entzungo duenik, eta inork ez du hitzematen norbaitek zure mezua irakurriko duenik.
+- **Ez da berehalakoa, ezta leku guztietan ere.** Mezu batek irratiz irrati egiten du jauzi,
+  eta segundo batzuk behar ditzake, edo ez iritsi ere egin. Iristen den ala ez inguruko
+  errepikagailuen, altueraren, eraikinen eta zure antenaren araberakoa da. Barruko irrati
+  txiki bat askotan ez da inorengana iristen; teilatu bateko errepikagailu bat kilometroetara iristen da.
 - **Ez da norbaitek zuretzat kudeatzen duen zerbitzu bat.** Ez dago hornitzailerik,
-  laguntza-zerbitzurik, ezta estaldura-bermerik ere. Mesh sarea komunitateko jendeak errepikagailuak
-  jarri dituen lekuetan dago, eta ez beste inon.
-- **Ez da dena pribatua.** Mezu zuzenak zifratuta daude, baina
-  edonork irakur ditzake Public eta hashtag kanalak. Irismen barruko guztiek ikusten dituzte
-  zure nodoaren izena eta partekatutako kokapena.
-  [Behatzaileek](/network/) entzuten dutenaren berri ematen dute mapa publikoetan.
+  laguntza-zerbitzurik edo estaldura-bermerik. Mesh sarea komunitateko jendeak
+  errepikagailuak jarri dituen lekuetan dago.
+- **Bertan dagoen guztia ez da pribatua.** Mezu zuzenak zifratuta daude, baina
+  Public eta hashtag kanalak edonork irakur ditzake. Zure nodoaren izena eta
+  partekatzen duzun kokapena irismenean dagoen orok ikus ditzake.
+  [Behatzaileek](/network/) entzuten dutena mapa publikoetara bidaltzen dute.
   [Zifratzeari buruzko atalak](#encryption) azaltzen du zer geratzen den pribatu.
-- **Ez da mugagabea.** Eremu bateko guztiek irrati-kanal bakarra partekatzen dute, eta
-  [868 MHz-eko bandaren](#band) arauek mugatzen dute irrati bakoitzak zenbat denbora igor dezakeen.
-  Mezu bakoitzak aire-denbora kentzen die beste guztiei. Horregatik, botek, maiz bidalitako iragarkiek
-  eta proba-mezuek mesh sarea moteltzen dute guztientzat.
-- **Ez da Meshtastic.** Meshtastic beste sistema bat da, eta plaka ia berberetan dabil.
-  Bi sistemek ezin dute elkarrekin hitz egin.
-  [Meshtastic-etik zatoz](#meshtastic) atalak zerrendatzen du zer dabilen desberdin.
+- **Ez da mugagabea.** Eremu bateko denek irrati-kanal bakarra partekatzen dute, eta
+  [868 MHz-ko bandaren](#band) arauek mugatzen dute irrati bakoitzak zenbat denbora igor dezakeen.
+  Mezu bakoitzak beste guztiei emisio-denbora kentzen die. Horregatik, botek, maiz bidalitako
+  iragarkiek eta proba-mezuek mesh sarea moteltzen dute guztientzat.
+- **Ez da Meshtastic.** Meshtastic beste sistema bat da, eta ia plaka berberetan
+  dabil. Biek ezin dute elkarrekin hitz egin.
 
 ## Mesh sarea minutu batean {#mesh}
 
@@ -71,23 +69,6 @@ Kontaktu bati bidaltzen diozun lehen mezua *uholde* gisa ateratzen da. Mezua ent
 
 Kanaletako mezuek ez dute helbide bakarra, beraz beti uholdez doaz. Errepikagailuek gogoratzen dute zer pasatu duten duela gutxi, eta beste bide batetik berriro iristen diren kopiak baztertzen dituzte. Mezu batek gehienez 64 errepikagailu zeharka ditzake, edo 32, aurrezarpenak 2 byteko IDak erabiltzen dituen tokietan.
 
-## Meshtastic-etik bazatoz {#meshtastic}
-
-Plaka askok MeshCore edo Meshtastic exekuta dezakete, eta nahi duzuna grabatzen duzu. Hauek dira lehenik nabarituko dituzun desberdintasunak. MeshCore v1.18.0 eta Meshtastic-en 2026ko azaroko dokumentazioari jarraitzen diete.
-
-- **Nork birbidaltzen dituen mezuak.** MeshCore-n errepikagailuek bakarrik birbidaltzen dituzte; zure companionak inoiz ez.
-  Meshtastic-en, client rol lehenetsiak ere birbidaltzen ditu mezuak,
-  beste nodo batek lehendik birbidali ez baditu.
-- **Zein urrun iristen den mezu bat.** MeshCore-n mezu batek gehienez 64
-  errepikagailu zeharka ditzake. Meshtastic-en mezua 3 jauziren ondoren gelditzen da lehenespenez, eta gehienez 7ren ondoren.
-- **Beste nodoen neurketak.** MeshCore-n errepikagailuek eta sentsore-nodoek
-  neurketak bidaltzen dituzte, adibidez bateriaren tentsioa, zuk eskatzen dizkiezunean. Ez dizkiote
-  mesh sare osoari bidaltzen.
-- **Internet.** MeshCore firmwareak ez du internet bidezko loturarik mesh sareen artean.
-  [Behatzaileek](/network/) entzuten dutenaren berri ematen diete mapei, norabide bakarrean.
-  Meshtastic-ek MQTT modulu integratu bat du,
-  eta modulu horrek mezuak internet bidez eraman ditzake mesh sareen artean.
-
 ## Zifratzea eta pribatutasuna {#encryption}
 
 Zure mezu zuzenak muturretik muturrera zifratuta doaz: zutaz eta beste pertsonaz gain, inork ezin ditu irakurri. Errepikagailu batek 1 byteko aztarna gisa bakarrik ikusten du nori doakion paketea.
@@ -108,19 +89,49 @@ Eremu bateko guztiek aurrezarpen bera erabiltzen dute, bestela irratiek ezin dut
 
 ## Zertarako erabiltzen duen jendeak {#uses}
 
-- Harremanetan egotea mendi-ibilaldietan, itsasoan eta sare mugikorra gainezka dagoen
-  edo falta den jaialdietan.
-- Ordezko kanal bat familiarentzat edo auzokoentzat, argindarra edo sare mugikorrak
-  erortzen direnean.
-- Tokiko berriketa, jendeak berak dituen irratietan.
-- Urruneko leku bat etxetik kontrolatzea. Errepikagailuek eta sentsore-nodoek bateriaren
-  tentsioa eta beste neurketa batzuk bidaltzen dizkizute, eskatzen dituzunean.
-- Sentsore bat zaintzea. Sentsore-nodo batek MeshCore-ren neurketetarako firmwarea darabil.
-  Neurketen historia gordetzen du. Harpidetzen bazara, abisua bidaltzen dizu,
-  adibidez bateria agortzen ari zaionean.
-- Urrun dagoen zerbait piztea edo itzaltzea, ponpa bat adibidez. Hori zeure kodearekin
-  gehitzen diozu sentsore-firmwareari.
-- Esperimentuak egitea irratiarekin, antenekin, eguzki-energiarekin eta kode irekiko softwarearekin.
+- Harremanetan jarraitzea mendi-ibilaldietan, itsasoan eta jaialdietan, sare mugikorra
+  gainezka dagoenean edo sarerik ez dagoenean.
+- Ordezko kanal bat familiarentzat edo auzokoentzat, argindarrak edo sare mugikorrek
+  huts egiten dutenean.
+- Ordezko bitarteko bat tokiko agintarientzat, ohiko sareek huts egiten dutenean.
+- Tokiko txata, jendeak berak dituen irratietan.
+- Bilaketa eta erreskate talde bat harremanetan mantentzea, sare mugikorrik ez dagoen tokian.
+  [Proiektuak](/projects/) orrian dagoen MeshCore SAR komunitate-aplikazioak mapak eta
+  partekatutako kokapenak gehitzen ditu.
+- Urruneko leku bat etxetik kontrolatzea. Errepikagailuek eta sentsore-nodoek beren
+  bateriaren tentsioa eta beste neurketa batzuk bidaltzen dituzte, zuk eskatzen diezunean.
+- Sentsore bat zaintzea. Sentsore-nodo batek neurketetarako MeshCore firmwarea darabil.
+  Bere bateriaren tentsioaren historia gordetzen du. Hasi saioa admin gisa, eta
+  bateria gutxi dagoenean abisatuko dizu. Beste neurketetarako abisuak zeure kodearekin
+  gehitzen dituzu.
+- Urrun dagoen zerbait piztea edo itzaltzea, ponpa bat adibidez. Hori sentsore-firmwarean
+  gehitzen duzu, zeure kodearekin.
+- Irratiarekin, antenekin, eguzki-energiarekin eta kode irekiko softwarearekin esperimentatzea.
+
+Agintari batzuk MeshCore-n oinarritutako ordezko sistema bat eraikitzen edo probatzen ari dira. Adibide hauek 2026ko azaroan egiaztatu ditugu.
+
+- Zikloi Gabrielek komunikazio guztiak eten zituen Tairāwhitin, Zeelanda Berrian.
+  2025eko irailean, eskualdeko larrialdi-kudeaketak MeshCore sartu zuen
+  [komunikatzeko gutxienez 6 ordezko moduen artean](https://www.scoop.co.nz/stories/AK2509/S00669.htm).
+  Eguzki-energiako errepikagailuak ere eraikitzen ari zen, sarearen bizkarrezur izateko.
+- Alemaniako Bad Kissingen barrutia
+  [MeshCore-n oinarritutako testu-sare bat eraikitzen ari da](https://www.landkreis-badkissingen.de/wirtschaft/digitalisierung/kommunikationsnetze/index.html)
+  agintarientzat, larrialdi-zerbitzuentzat eta gune kritikoentzat. Suhiltzaile-etxeak
+  dira lehenak konektatzen.
+- Herbehereetako Hilversumgo udalbatzak
+  [proba bat onartu zuen, 34 aldeko eta 1 kontrako botorekin](https://hilversum.nl/nieuwsoverzicht/gemeenteraad-buigt-zich-over-financien).
+  Proban errepikagailu bat dago udaletxeko dorrean. Udalak
+  [2027ko udazkenean ebaluatuko du](https://www.spreekbuis.nl/hilversum-start-proef-met-onafhankelijk-noodcommunicatienetwerk-meshcore/).
+- Herbehereetako bi segurtasun-eskualde MeshCore-rekin esperimentatzen ari dira.
+  Segurtasun-eskualdeek krisi baten aurrean erantzuna antolatzen dute. Hauek dira:
+  [Hego Limburg](https://nos.nl/nieuwsuur/artikel/2607176-communicatie-hulpdiensten-valt-uit-bij-lange-stroomstoring-oplossing-niet-in-zicht)
+  eta [Drenthe](https://www.rtvdrenthe.nl/nieuws/18438486/hackerspace-drenthe-werkt-aan-een-noodnetwerk-voor-de-provincie).
+  Drenthek dio goizegi dela esateko nola edo noiz erabil lezakeen.
+- Dalfsenen, hau ere Herbehereetan, boluntarioak
+  [proiektu pilotu bat egiten ari dira udalekin batera](https://noodnetoverijssel.nl/).
+  Ahots-irratia erabiltzen dute lehenik, eta MeshCore testurako bigarren geruza gisa.
+
+Inork ez du hitzematen zure inguruko mesh sarean norbaitek zure mezua irakurriko duenik.
 
 ## Nondik datozen datuak {#data}
 

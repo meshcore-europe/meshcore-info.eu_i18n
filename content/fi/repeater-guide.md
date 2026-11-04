@@ -6,11 +6,11 @@ eyebrow: 868 MHz · enintään 500 mW · ilman lupaa
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '7c7e3be3'
-  seeded: '2026-10-31'
+  source_hash: '3e38a8c6'
+  seeded: '2026-11-04'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '766086be', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', '6a7c4493', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
 ---
 
 Mesh toimii toistimien varassa. Companionit eli radiot, joilla lähetät viestejä, eivät
@@ -43,17 +43,43 @@ Korkeus on tärkeämpää kuin teho. LoRa kulkee 868 MHz:llä parhaiten esteett�
 näköyhteydellä. Mäet, rakennukset ja tiheä metsä syövät kantamaa paljon enemmän
 kuin muutama lisämilliwatti voittaa takaisin.
 
-- **Mene korkealle.** Katto, masto, korkea rakennus tai mäki kattaa paljon
-  enemmän kuin ikkunalauta. Jo muutama metri ympäröivien kattojen yläpuolella auttaa.
-- **Pidä antenni vapaana.** Asenna se räystäiden yläpuolelle, kauas
-  metallista, ränneistä ja muista antenneista.
-- **Tarkista näkymä.** [HeyWhatsThatin](https://www.heywhatsthat.com/) kaltaisilla työkaluilla
-  näet, mitä paikasta näkyy. Jos näet jonkin kohdan, sinne sijoitettu toistin on kantaman sisällä.
-- **Jätä tilaa.** Radioreitti tarvitsee vapaata tilaa myös suoran
-  linjan ympärille. Pitkillä matkoilla reitin keskikohdan
-  pitää kulkea useita metrejä esteiden yläpuolella.
-- **Pyydä lupa.** Hanki katon tai maston omistajan suostumus ja sovi,
-  miten pääset toistimelle huoltoa varten.
+- **Mene korkealle.** Katto, masto, korkea rakennus tai mäki kattaa paljon laajemman alueen
+  kuin ikkunalauta. Jo muutama metri ympäröivien kattojen yläpuolella auttaa.
+- **Sijoita antenni avoimeen paikkaan.** Asenna se kattoreunojen yläpuolelle, kauas
+  metallista, räystäskouruista ja muista antenneista.
+- **Tarkista näkyvyys.** Esimerkiksi [HeyWhatsThat](https://www.heywhatsthat.com/)
+  ja vastaavat työkalut näyttävät, mitä paikasta näkyy. MeshCore-sovellus
+  [laskee, mihin siellä oleva toistin yltää](#check-site).
+- **Jätä vapaata tilaa.** Radioreitti tarvitsee vapaata tilaa myös suoran linjan ympärillä,
+  ei vain itse linjalla. 868 MHz:n taajuudella tilaa tarvitaan noin 20 m 5 km:n reitin
+  keskikohdan ympärillä. 20 km:n reitillä sitä tarvitaan noin 40 m.
+- **Pyydä lupa.** Hanki katon tai maston omistajan suostumus ja sovi, miten
+  pääset toistimelle huoltoa varten.
+
+### Tarkista paikka sovelluksessa {#check-site}
+
+MeshCore-sovelluksen versiossa 1.33 ja uudemmissa nämä työkalut löytyvät valikon kohdasta **Tools**.
+Ne toimivat ilman yhdistettyä radiota.
+
+- **Line of Sight** piirtää maanpinnan 2 pisteen välille ja tilan, jonka signaali
+  tarvitsee sen yläpuolella. Paina pitkään 2 pistettä kartalla tai napauta toistimia.
+- **Antenna Coverage** näyttää kartalla, mihin 1 pisteessä oleva antenni yltää.
+  Paina pitkään pistettä tai napauta toistinta. Lisää pisteitä, niin voit verrata paikkoja.
+
+Valitse tietokoneella työkalun valikosta **Add Point** ja kirjoita koordinaatit.
+
+Molemmat työkalut asettavat oletuksena antennin paikassasi 5 m:n korkeuteen, joten
+aseta suunnittelemasi korkeus työkalun asetuksissa. Antenna Coverage asettaa oletuksena
+vastaanottavan antennin 1 m:n korkeuteen. Jos radiota ei ole yhdistetty, Line of Sight
+käyttää oletuksena taajuutta 915 MHz: aseta [esiasetuksesi](/guides/settings/) taajuus sen asetuksissa.
+
+Työkalut laskevat tuloksensa korkeustiedoista eivätkä testaa radiotasi. Tarkista puut ja
+uudet rakennukset itse. Vie sitten companion paikalle ja katso, mitkä
+toistimet se kuulee.
+
+![MeshCore-sovelluksen Line of Sight: maanpinta 2 pisteen välillä ja tila, jonka signaali tarvitsee sen yläpuolella](/media/guides/line-of-sight.webp)
+
+![Antenna Coverage MeshCore-sovelluksessa: kartta alueesta, johon mäellä oleva antenni yltää](/media/guides/antenna-coverage.webp)
 
 ## Laitteisto {#hardware}
 

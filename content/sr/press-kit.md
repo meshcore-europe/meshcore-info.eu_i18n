@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '9266fa2b'
-  seeded: '2026-11-02'
+  source_hash: 'f3e63cef'
+  seeded: '2026-11-04'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', 'ee7ba544', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', '6f034862', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## O sajtu {#about}
@@ -22,6 +22,12 @@ translation:
 **U 1 pasusu.** MeshCore šalje poruke radiom, bez interneta i pretplate. Mali LoRa radio-uređaji, zvani repetitori, prosleđuju svaku poruku dalje, a širom Evrope se njihove mreže spajaju u jednu. Regioni, oblasti u kojima poruka ostaje, zadržavaju saobraćaj na lokalnom nivou, pa tvoja podešavanja zavise od toga gde živiš. meshcore-info.eu na jednom mestu okuplja ta podešavanja, vodiče i alate, na 33 jezika. Sajt te upućuje i na lokalnu grupu u tvojoj blizini. Pišu ga volonteri, bez reklama, linkova ka prodavnicama i praćenja.
 
 Kopiraj bilo koji od ova dva teksta takav kakav je ili ga skrati. Navedi sajt kao meshcore-info.eu, malim slovima, sa .eu. Za duži tekst kopiraj saopštenje za medije iz [objave o pokretanju](/blog/welcome/).
+
+## Kratki linkovi za mesh {#short-links}
+
+Ovi linkovi zauzimaju manje mesta u mesh poruci. Svaki se otvara na jeziku osobe koja ga dodirne. Svako ime koje jednom podelimo nastavlja da radi.
+
+{{< short-links >}}
 
 ## Logo {#logo}
 

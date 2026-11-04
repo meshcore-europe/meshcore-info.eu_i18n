@@ -1,16 +1,16 @@
 ---
 title: Vad är MeshCore?
 lead: MeshCore skickar textmeddelanden via radio, från nod till nod. Det fungerar utan internet och utan abonnemang.
-description: 'Vad MeshCore är och inte är: typer av noder, routing, skillnaden mot Meshtastic, kryptering och 868 MHz-bandet.'
+description: 'Vad MeshCore är och inte är: nodtyper, routing, kryptering och 868 MHz-bandet.'
 eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '279b56a4'
-  seeded: '2026-11-02'
-  fields: {title: '06eda66b', lead: 'c0174569', description: '15e6d2a7', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '16fde264', '0a55792c', 'c3de803d', '493b444f', 'a8b2b9b4', '429f699c', 'f8008f48', '88af2bd3', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'fab378a5', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', 'fc8f3129', '8dec428a', '07cbac35', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '95e18f18', '02f1fe2f', 'e6b5b258']
+  source_hash: '2a40da22'
+  seeded: '2026-11-04'
+  fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
+  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore är fri programvara för små LoRa-radioapparater. LoRa är en radioteknik
@@ -27,32 +27,29 @@ MIT-licensen.
 Är du ny inom radio? Här är det folk oftast förväntar sig av MeshCore,
 men som det inte gör.
 
-- **Det är varken internet eller en telefon.** MeshCore skickar korta textmeddelanden,
-  ungefär lika långa som ett sms på din telefon. Ingen röst, inga foton, ingen video
-  och inga webbsidor, och du kan inte nå ett vanligt telefonnummer.
-- **Det är ingen larmtjänst.** Ingen larmtjänst lyssnar på meshen,
-  och ingen lovar att någon läser ditt meddelande. I en nödsituation
-  ringer du 112.
-- **Det är inte omedelbart, och det finns inte överallt.** Ett meddelande hoppar från radio till
-  radio och kan ta några sekunder, eller aldrig komma fram. Om det kommer fram beror på
-  repeatrarna omkring dig, på höjd, byggnader och din
-  antenn. En liten radio inomhus når ofta ingen; en repeater på ett tak
-  når flera kilometer.
-- **Det är ingen tjänst som någon driver åt dig.** Det finns ingen leverantör, ingen
-  kundtjänst och inget löfte om täckning. Meshen finns där folk i
-  communityt har satt upp repeatrar, och ingen annanstans.
-- **Allt på meshen är inte privat.** Direktmeddelanden är krypterade, men
-  alla kan läsa Public och hashtagkanalerna, och din nods
-  namn och delade position syns för alla inom räckhåll.
-  [Observers](/network/) rapporterar det de hör till offentliga kartor.
-  [Avsnittet om kryptering](#encryption) förklarar vad som förblir privat.
-- **Det är inte obegränsat.** Alla i ett område delar på samma radiokanal, och
+- **Det är inte internet eller en telefon.** MeshCore skickar korta textmeddelanden,
+  ungefär lika långa som ett sms på din telefon. Inga röstsamtal, bilder, video
+  eller webbsidor, och du kan inte nå ett vanligt telefonnummer.
+- **Det är ingen nödtjänst.** Ingen nödtjänst lovar att lyssna på meshen,
+  och ingen lovar att någon läser ditt meddelande.
+- **Det är inte omedelbart, och det finns inte överallt.** Ett meddelande hoppar
+  från radio till radio och kan ta några sekunder, eller aldrig komma fram. Om det
+  går fram beror på repeatrarna runt dig, på höjd, byggnader och din antenn.
+  En liten radio inomhus når ofta ingen. En repeater på ett tak når flera kilometer.
+- **Det är ingen tjänst som någon driver åt dig.** Det finns ingen leverantör,
+  ingen support och inget löfte om täckning. Meshen finns där folk i
+  gemenskapen har satt upp repeatrar.
+- **Inte allt i meshen är privat.** Direktmeddelanden är krypterade, men alla kan
+  läsa Public och hashtag-kanalerna. Alla inom räckhåll ser din nods namn och
+  den position du delar. [Observers](/network/) rapporterar det de hör till
+  offentliga kartor. [Avsnittet om kryptering](#encryption) förklarar vad som
+  förblir privat.
+- **Det är inte obegränsat.** Alla i ett område delar en radiokanal, och
   reglerna för [868 MHz-bandet](#band) begränsar hur länge varje radio får sända.
-  Varje meddelande tar sändningstid från alla andra, så bottar, täta adverts
-  och testmeddelanden gör meshen långsammare för alla.
+  Varje meddelande tar sändningstid från alla andra. Därför gör bottar, täta adverts
+  och testmeddelanden meshen långsammare för alla.
 - **Det är inte Meshtastic.** Meshtastic är ett annat system som körs på
-  ungefär samma kort. Systemen kan inte prata med varandra.
-  [Från Meshtastic](#meshtastic) listar vad som fungerar annorlunda.
+  ungefär samma kort. De två kan inte prata med varandra.
 
 ## Meshen på en minut {#mesh}
 
@@ -102,23 +99,6 @@ Meddelanden till en kanal har ingen enskild adress, så de skickas alltid som fl
 Repeatrar minns vad de nyligen skickat vidare och kastar kopior som kommer
 igen via en annan väg. Ett meddelande kan passera upp till 64 repeatrar, eller 32 där förinställningen använder ID:n på 2 byte.
 
-## Från Meshtastic {#meshtastic}
-
-Många kort kan köra antingen MeshCore eller Meshtastic, och du flashar det du vill ha. Här är skillnaderna du märker först. De utgår från MeshCore
-v1.18.0 och Meshtastics dokumentation från november 2026.
-
-- **Vem som för meddelanden vidare.** I MeshCore gör bara repeatrar det, din companion
-  gör det aldrig. I Meshtastic för även standardrollen client meddelanden vidare,
-  om inte en annan nod redan har gjort det.
-- **Hur långt ett meddelande når.** Ett meddelande i MeshCore kan passera upp till 64
-  repeatrar. Meshtastic stannar som standard efter 3 hopp och som mest efter 7.
-- **Mätvärden från andra noder.** Repeatrar och sensornoder i MeshCore skickar
-  mätvärden som batterispänning när du ber om dem. De skickar dem inte till hela meshen.
-- **Internet.** MeshCores firmware har ingen länk mellan mesher via
-  internet. [Observers](/network/) rapporterar det de hör till kartor, bara
-  i en riktning. Meshtastic har en inbyggd MQTT-modul
-  som kan föra över meddelanden mellan mesher via internet.
-
 ## Kryptering och integritet {#encryption}
 
 Dina direktmeddelanden är krypterade från ände till ände: bara du och den
@@ -157,17 +137,48 @@ inte höra varandra. Vissa länder och regioner använder en variant: din
 
 - Hålla kontakten på vandringar, till sjöss och på festivaler där mobilnätet
   är överbelastat eller saknas.
-- En reservkanal för familj eller grannar när strömmen eller mobilnäten
-  ligger nere.
+- En reservkanal för familj eller grannar när ström eller mobilnät
+  slutar fungera.
+- En reserv för lokala myndigheter när deras vanliga nät slutar fungera.
 - Lokal chatt på radioapparater som folk äger själva.
-- Kolla läget på en avlägsen plats hemifrån. Repeatrar och sensornoder rapporterar sin
+- Hålla ett sök- och räddningsteam i kontakt där det inte finns något mobilnät.
+  MeshCore SAR, en app från communityn under [Projekt](/projects/), lägger till kartor och
+  delade positioner.
+- Kontrollera en avlägsen plats hemifrån. Repeatrar och sensornoder rapporterar sin
   batterispänning och andra mätvärden när du frågar.
-- Hålla koll på en sensor. En sensornod kör MeshCores firmware för mätningar.
-  Den sparar historik över sina mätvärden. Om du prenumererar varnar den
-  dig, till exempel när batteriet börjar ta slut.
-- Styra något på långt håll, till exempel en pump. Du lägger till det i sensorns
-  firmware med egen kod.
-- Experimentera med radio, antenner, solenergi och programvara med öppen källkod.
+- Övervaka en sensor. En sensornod kör MeshCores firmware för att mäta
+  saker. Den sparar en historik över sin batterispänning. Logga in som admin så
+  varnar den dig när batteriet börjar ta slut. Varningar för andra mätvärden lägger
+  du till med egen kod.
+- Slå på eller av något långt bort, till exempel en pump. Det lägger du till i
+  sensorns firmware med egen kod.
+- Experimentera med radio, antenner, solkraft och programvara med öppen källkod.
+
+Vissa myndigheter bygger eller testar en reservlösning på MeshCore. Vi kontrollerade
+de här exemplen i november 2026.
+
+- Cyklonen Gabrielle slog ut all kommunikation i Tairāwhiti, Nya Zeeland. I
+  september 2025 pekade regionens krisberedskap ut MeshCore som
+  [ett av minst 6 reservalternativ för kommunikation](https://www.scoop.co.nz/stories/AK2509/S00669.htm).
+  Krisberedskapen höll också på att bygga solcellsdrivna repeatrar som stomme.
+- Det tyska distriktet Bad Kissingen
+  [bygger ett textnät på MeshCore](https://www.landkreis-badkissingen.de/wirtschaft/digitalisierung/kommunikationsnetze/index.html)
+  för myndigheter, räddningstjänst och samhällsviktiga platser. Brandstationerna
+  ansluts först.
+- Kommunfullmäktige i Hilversum, i Nederländerna,
+  [röstade 34 mot 1 för ett försök](https://hilversum.nl/nieuwsoverzicht/gemeenteraad-buigt-zich-over-financien)
+  med en repeater i stadshustornet. Kommunen
+  [utvärderar försöket hösten 2027](https://www.spreekbuis.nl/hilversum-start-proef-met-onafhankelijk-noodcommunicatienetwerk-meshcore/).
+- Två nederländska säkerhetsregioner, som organiserar insatsen vid en kris,
+  testar MeshCore:
+  [Södra Limburg](https://nos.nl/nieuwsuur/artikel/2607176-communicatie-hulpdiensten-valt-uit-bij-lange-stroomstoring-oplossing-niet-in-zicht)
+  och [Drenthe](https://www.rtvdrenthe.nl/nieuws/18438486/hackerspace-drenthe-werkt-aan-een-noodnetwerk-voor-de-provincie).
+  Enligt Drenthe är det för tidigt att säga hur eller när regionen kan använda det.
+- I Dalfsen, också i Nederländerna,
+  [driver frivilliga ett pilotprojekt tillsammans med kommunerna](https://noodnetoverijssel.nl/).
+  De använder röstradio i första hand och MeshCore som ett andra lager för text.
+
+Ingen lovar att någon i meshen nära dig läser ditt meddelande.
 
 ## Var datan kommer ifrån {#data}
 

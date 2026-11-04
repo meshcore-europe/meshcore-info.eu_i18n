@@ -6,11 +6,11 @@ eyebrow: 868 MHz · ata 500 mW · sen licenza
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '7c7e3be3'
-  seeded: '2026-11-02'
+  source_hash: '3e38a8c6'
+  seeded: '2026-11-04'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '766086be', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', '6a7c4493', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
 ---
 
 Os repetidores sosteñen a malla. Os companion, as radios coas que envías mensaxes, non reenvían as mensaxes. Por iso, sen repetidores só chegas ás persoas que tes en alcance directo. Un repetidor ben situado amplía a malla para todos os que ten arredor. Esta guía segue o firmware MeshCore v1.18.0.
@@ -30,11 +30,42 @@ Instala un repetidor onde falte cobertura:
 
 A altura vale máis ca a potencia. LoRa en 868 MHz viaxa mellor cunha liña de visión despexada. Os outeiros, os edificios e as árbores mestas quitan moito máis alcance do que recuperan uns poucos milivatios de máis.
 
-- **Sube ao alto.** Un tellado, un mastro, un edificio alto ou un outeiro cobren moito máis ca o peitoril dunha fiestra. Mesmo uns poucos metros por riba dos tellados da contorna axudan.
-- **Deixa a antena despexada.** Móntaa por riba dos bordos do tellado, lonxe de metais, canalóns e outras antenas.
-- **Comproba a vista.** Con ferramentas como [HeyWhatsThat](https://www.heywhatsthat.com/) podes ver o que se divisa desde un lugar. Se ves un punto, un repetidor situado alí está ao teu alcance.
-- **Deixa marxe libre.** Un traxecto de radio precisa algo de espazo libre arredor da liña directa, non só a propia liña. En distancias longas, a parte central do traxecto debe pasar varios metros por riba dos obstáculos.
-- **Pide permiso.** Consegue o consentimento do dono do tellado ou do mastro, e acorda como vas chegar ao repetidor para o mantemento.
+- **Sobe alto.** Un tellado, un mastro, un edificio alto ou un outeiro cobren
+  moito máis ca o peitoril dunha fiestra. Mesmo uns poucos metros por riba dos
+  tellados de arredor axudan.
+- **Deixa a antena despexada.** Móntaa por riba dos bordos do tellado, lonxe
+  de metal, canlóns e outras antenas.
+- **Comproba a visibilidade.** Ferramentas como [HeyWhatsThat](https://www.heywhatsthat.com/)
+  mostran o que se ve desde un lugar. A app de MeshCore
+  [calcula ata onde chega un repetidor nese lugar](#check-site).
+- **Deixa espazo libre.** Unha ruta de radio precisa espazo libre arredor da
+  liña directa, non só a propia liña. En 868 MHz ese espazo é duns 20 m
+  arredor do medio dunha ruta de 5 km. Nunha de 20 km é duns 40 m.
+- **Pide permiso.** Pídelle consentimento ao dono do tellado ou do mastro, e
+  acorda con el como chegarás ao repetidor para o mantemento.
+
+### Comproba un lugar na app {#check-site}
+
+A versión 1.33 ou posterior da app de MeshCore trae estas ferramentas no menú, en
+**Tools**. Funcionan sen ter unha radio conectada.
+
+- **Line of Sight** debuxa o terreo entre 2 puntos e o espazo que o
+  sinal necesita por riba del. Mantén premidos 2 puntos no mapa ou toca repetidores.
+- **Antenna Coverage** mostra no mapa ata onde chega unha antena situada en 1 punto.
+  Mantén premido un punto ou toca un repetidor. Engade máis puntos para comparar emprazamentos.
+
+Nun ordenador, escolle **Add Point** no menú da ferramenta e escribe as coordenadas.
+
+As dúas ferramentas empezan coa antena do teu sitio a 5 m, así que indica nos axustes
+da ferramenta a altura que prevés. Antenna Coverage empeza cunha antena receptora
+a 1 m. Sen radio conectada, Line of Sight empeza en 915 MHz: indica nos seus
+axustes a frecuencia do teu [preset](/guides/settings/).
+
+As ferramentas calculan a partir de datos de altitude e non proban a túa radio. Comproba ti mesmo as árbores e os edificios novos, e despois leva un companion ao lugar e mira que repetidores escoita.
+
+![Line of Sight na app de MeshCore: o terreo entre 2 puntos e o espazo que o sinal precisa por riba del](/media/guides/line-of-sight.webp)
+
+![Antenna Coverage na app de MeshCore: a zona que pode alcanzar unha antena nun outeiro, nun mapa](/media/guides/antenna-coverage.webp)
 
 ## Hardware {#hardware}
 

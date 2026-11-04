@@ -6,11 +6,11 @@ eyebrow: 868 MHz · bis zu 500 mW · ouni Lizenz
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '7c7e3be3'
-  seeded: '2026-11-02'
+  source_hash: '3e38a8c6'
+  seeded: '2026-11-04'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '766086be', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', '6a7c4493', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
 ---
 
 D'Repeatere droen d'Mesh. Companions, d'Radioen, mat deenen s du Message schécks, gi keng Message weider. Ouni Repeatere erreechs du also nëmmen d'Leit an denger direkter Reechwäit. E Repeater op der richteger Plaz vergréissert d'Mesh fir jiddereen ronderëm. Dëse Guide baséiert op der MeshCore-Firmware v1.18.0.
@@ -30,11 +30,43 @@ Riicht e Repeater do an, wou d'Ofdeckung feelt:
 
 Héicht zielt méi wéi Leeschtung. LoRa op 868 MHz geet am beschte laanscht eng fräi Siichtlinn. Hiwwelen, Gebaier an dicht Beem kaschte vill méi Reechwäit, wéi e puer Milliwatt méi erëmbréngen.
 
-- **Géi no uewen.** En Daach, e Mast, en héicht Gebai oder en Hiwwel deckt vill méi of wéi eng Fënsterbänk. Och e puer Meter iwwer den Diecher ronderëm hëllefen.
-- **Hal d'Antenn fräi.** Montéier se iwwer den Daachkanten, ewech vu Metall, Daachrënnen an anere Antennen.
-- **Préif d'Siicht.** Mat Tools wéi [HeyWhatsThat](https://www.heywhatsthat.com/) gesäis du, wat vun enger Plaz aus ze gesinn ass. Wann s du eng Plaz gesäis, ass e Repeater do a Reechwäit.
-- **Looss Fräiraum.** E Radiowee brauch e bësse fräie Raum ronderëm déi direkt Linn, net nëmmen d'Linn selwer. Op laangen Distanzen soll d'Mëtt vum Wee e puer Meter iwwer den Hindernisser leien.
-- **Fro no Erlaabnes.** Looss der vum Proprietär d'Zoustëmmung fir den Daach oder de Mast ginn, a maach aus, wéi s du fir d'Maintenance bei de Repeater kënns.
+- **Géi no uewen.** En Daach, e Mast, en héicht Gebai oder en Hiwwel deckt
+  vill méi of wéi eng Fënsterbänk. Schonn e puer Meter iwwer den Diecher
+  ronderëm hëllefen.
+- **Hal d'Antenne fräi.** Montéier se iwwer d'Daachkanten, ewech vu
+  Metall, Kéngelen an aneren Antennen.
+- **Préif d'Siicht.** Tools wéi [HeyWhatsThat](https://www.heywhatsthat.com/)
+  weisen, wat ee vun enger Plaz aus gesäit. D'MeshCore-App
+  [rechent aus, wat e Repeater do erreeche kann](#check-site).
+- **Looss Plaz fräi.** E Funkwee brauch fräie Raum ronderëm déi direkt Linn,
+  net nëmmen d'Linn selwer. Bei 868 MHz sinn dat ongeféier 20 m ronderëm
+  d'Mëtt vun engem Wee vu 5 km. Iwwer 20 km sinn et ongeféier 40 m.
+- **Fro no Erlaabnes.** Hol dir d'Zoustëmmung vum Besëtzer fir den Daach oder
+  de Mast, a maach aus, wéi s du fir d'Wartung bei de Repeater kënns.
+
+### Préif e Standuert an der App {#check-site}
+
+D'MeshCore-App huet vun der Versioun 1.33 un dës Tools am Menü ënner **Tools**.
+Si funktionéieren och, wann kee Radio ugeschloss ass.
+
+- **Line of Sight** zeechent de Buedem tëscht 2 Punkten, an de Raum, deen
+  d'Signal driwwer brauch. Dréck laang op 2 Punkten op der Kaart, oder tipp op Repeateren.
+- **Antenna Coverage** weist op der Kaart, wat eng Antenn op 1 Punkt erreeche kann.
+  Dréck laang op e Punkt oder tipp op e Repeater. Setz méi Punkten derbäi, fir Standuerter ze vergläichen.
+
+Um Computer wiels du am Menü vum Tool **Add Point** a gëss d'Koordinaten an.
+
+Béid Tools fänke mat der Antenn op dengem Standuert op 5 m un. Stell dofir
+d'Héicht, déi s du plangs, an den Astellunge vum Tool an. Antenna Coverage
+fänkt mat enger Empfangsantenn op 1 m un. Ouni ugeschlossene Radio fänkt Line
+of Sight op 915 MHz un: stell d'Frequenz vun dengem [Preset](/guides/settings/)
+a sengen Astellungen an.
+
+D'Tools rechne mat Héichtdaten a testen net däi Radio. Préif Beem an nei Gebaier selwer, huel dann e Companion mat op d'Plaz a kuck, wéi eng Repeateren en héiert.
+
+![Line of Sight an der MeshCore-App: de Buedem tëscht 2 Punkten, an de Raum, deen d'Signal driwwer brauch](/media/guides/line-of-sight.webp)
+
+![Antenna Coverage an der MeshCore-App: d'Géigend, déi eng Antenn op engem Hiwwel erreeche kann, op enger Kaart](/media/guides/antenna-coverage.webp)
 
 ## Hardware {#hardware}
 

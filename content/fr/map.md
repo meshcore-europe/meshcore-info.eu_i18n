@@ -6,11 +6,11 @@ description: Cartes MeshCore en direct, cartes de couverture et analyseurs de pa
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '351071aa'
-  seeded: '2026-10-31'
+  source_hash: '24bfdf6b'
+  seeded: '2026-11-04'
   fields: {title: '4b9f20a0', lead: 'fedb89bb', description: 'b5719f82'}
-  sections: ['351071aa']
-  blocks: ['dd5f039e', '9d4a2ad8', '70c417f2', '9fef7e16']
+  sections: ['24bfdf6b']
+  blocks: ['dd5f039e', '9d4a2ad8', '763fc710', '70c417f2', '9fef7e16']
 ---
 
 Un nœud apparaît sur ces cartes quand son propriétaire le publie, ou quand un
@@ -22,6 +22,9 @@ n'en affiche donc le contenu.
 Un nœud figure sur une carte à l'endroit où son propriétaire l'a placé. Cette position peut être fausse ou
 périmée. Un message en diffusion emprunte plusieurs chemins à la fois. La route affichée sur une carte est le chemin
 de la copie arrivée en premier. Les autres ne sont pas enregistrées.
+
+Une route sur une carte te semble improbable ? Vérifie 2 de ses nœuds avec Line of Sight dans
+l'appli MeshCore. Le [guide du répéteur](/repeater-guide/#check-site) explique comment faire.
 
 Ces cartes ont besoin d'internet, le maillage non. [Pourquoi](/network/)
 

@@ -6,11 +6,11 @@ eyebrow: 868 MHz · sa 500 mW · mingħajr liċenzja
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '7c7e3be3'
-  seeded: '2026-11-02'
+  source_hash: '3e38a8c6'
+  seeded: '2026-11-04'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '766086be', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', '6a7c4493', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
 ---
 
 Ir-ripetituri huma s-sinsla tal-mesh. Il-companions, ir-radjijiet li minnhom tibgħat il-messaġġi, ma jgħaddux il-messaġġi 'l quddiem. Għalhekk, mingħajr ripetituri tilħaq biss lin-nies fil-medda diretta tiegħek. Ripetitur fil-post it-tajjeb ikabbar il-mesh għal kulħadd madwaru. Din il-gwida ssegwi l-firmware MeshCore v1.18.0.
@@ -30,11 +30,39 @@ Waħħal ripetitur fejn hemm nuqqas ta' kopertura:
 
 L-għoli jgħodd aktar mill-qawwa. LoRa fuq 868 MHz jasal l-aħjar f'linja tal-vista ħielsa. L-għoljiet, il-binjiet u s-siġar fitti jnaqqsu l-medda ferm aktar milli jistgħu jpattu ftit milliwatts żejda.
 
-- **Itla' fl-għoli.** Bejt, arblu, bini għoli jew għolja jkopru ferm aktar minn xifer it-tieqa. Anki ftit metri fuq il-bjut ta' madwarek jgħinu.
-- **Żomm l-antenna fil-miftuħ.** Waħħalha ogħla mit-truf tal-bejt, 'il bogħod minn metall, kanali tal-ilma u antenni oħra.
-- **Iċċekkja l-veduta.** Għodod bħal [HeyWhatsThat](https://www.heywhatsthat.com/) juruk x'jidher minn post partikolari. Jekk tista' tara post, ripetitur hemmhekk ikun fil-medda.
-- **Ħalli spazju ħieles.** Mogħdija tar-radju teħtieġ ftit spazju ħieles madwar il-linja diretta, mhux il-linja biss. Fuq distanzi twal, nofs il-mogħdija għandu jgħaddi diversi metri 'l fuq mill-ostakli.
-- **Itlob il-permess.** Ikseb il-kunsens tas-sid tal-bejt jew tal-arblu, u ftiehem kif se tilħaq ir-ripetitur għall-manutenzjoni.
+- **Itla' fl-għoli.** Saqaf, arblu, bini għoli jew għolja jkopru ferm aktar
+  minn xifer tat-tieqa. Anki ftit metri fuq is-soqfa ta' madwarek jgħinu.
+- **Żomm l-antenna fil-beraħ.** Waħħalha 'l fuq mit-truf tas-saqaf, 'il bogħod
+  mill-metall, mill-katusi u minn antenni oħra.
+- **Iċċekkja l-vista.** Għodod bħal [HeyWhatsThat](https://www.heywhatsthat.com/)
+  juruk x'jidher minn post. L-app MeshCore
+  [tikkalkula x'jista' jilħaq repeater f'dak il-post](#check-site).
+- **Ħalli spazju ħieles.** Path tar-radju jeħtieġ spazju ħieles madwar il-linja
+  diretta, mhux il-linja biss. Fi 868 MHz dak l-ispazju huwa madwar 20 m
+  f'nofs path ta' 5 km. Fuq 20 km huwa madwar 40 m.
+- **Itlob il-permess.** Ikseb il-kunsens tas-sid għas-saqaf jew l-arblu, u
+  ftiehem kif se tilħaq ir-repeater għall-manutenzjoni.
+
+### Iċċekkja post fl-app {#check-site}
+
+Il-verżjoni 1.33 tal-app MeshCore, jew verżjoni aktar ġdida, għandha dawn l-għodod taħt **Tools**
+fil-menu tagħha. Jaħdmu mingħajr radju mqabbad.
+
+- **Line of Sight** tpinġi l-art bejn 2 punti, u l-ispazju li s-sinjal jeħtieġ fuqha. Agħfas fit-tul fuq 2 punti fil-mappa, jew agħfas fuq ir-repeaters.
+- **Antenna Coverage** turik fuq il-mappa x'tista' tilħaq antenna f'1 punt. Agħfas fit-tul fuq punt jew agħfas fuq repeater. Żid aktar punti biex tqabbel il-postijiet.
+
+Fuq il-kompjuter, agħżel **Add Point** fil-menu tal-għodda u ikteb il-koordinati.
+
+Iż-żewġ għodod jibdew bl-antenna fis-sit tiegħek f'għoli ta' 5 m, allura daħħal
+l-għoli li qed tippjana fis-settings tal-għodda. Antenna Coverage tibda b'antenna
+li tirċievi f'għoli ta' 1 m. Mingħajr radju mqabbad, Line of Sight tibda fuq 915 MHz:
+daħħal il-frekwenza tal-[preset](/guides/settings/) tiegħek fis-settings tagħha.
+
+L-għodod jikkalkulaw mid-data tal-għoli u ma jittestjawx ir-radju tiegħek. Iċċekkja s-siġar u l-binjiet il-ġodda int stess, imbagħad ħu companion sal-post u ara liema repeaters jisma'.
+
+![Line of Sight fl-app ta' MeshCore: l-art bejn 2 punti u l-ispazju li s-sinjal għandu bżonn fuqha](/media/guides/line-of-sight.webp)
+
+![Antenna Coverage fl-app ta' MeshCore: iż-żona li antenna fuq għolja tista' tilħaq, fuq mappa](/media/guides/antenna-coverage.webp)
 
 ## Hardware {#hardware}
 

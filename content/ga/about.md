@@ -1,16 +1,16 @@
 ---
 title: Cad é MeshCore?
 lead: Seolann MeshCore teachtaireachtaí téacs thar raidió, ó nód go nód. Oibríonn sé gan an t-idirlíon agus gan síntiús.
-description: 'Cad is MeshCore ann agus cad nach bhfuil ann: cineálacha nóid, ródú, an difríocht ó Meshtastic, criptiú agus an banda 868 MHz.'
+description: 'Cad is MeshCore ann agus cad nach ea: cineálacha nód, ródú, criptiú agus an banda 868 MHz.'
 eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '279b56a4'
-  seeded: '2026-11-02'
-  fields: {title: '06eda66b', lead: 'c0174569', description: '15e6d2a7', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '16fde264', '0a55792c', 'c3de803d', '493b444f', 'a8b2b9b4', '429f699c', 'f8008f48', '88af2bd3', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'fab378a5', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', 'fc8f3129', '8dec428a', '07cbac35', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '95e18f18', '02f1fe2f', 'e6b5b258']
+  source_hash: '2a40da22'
+  seeded: '2026-11-04'
+  fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
+  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
 ---
 
 Bogearraí saora do raidiónna beaga LoRa is ea MeshCore. Teicníc raidió is ea LoRa a sheolann beagán sonraí i bhfad, ar fhíorbheagán cumhachta. Tugtar *nód* ar raidió a bhfuil MeshCore air. Nuair a nascann tú é leis an aip ar do ghuthán nó ar do ríomhaire glúine, nó nuair a úsáideann tú a scáileán agus a mhéarchlár féin, seolann tú téacs chuig daoine atá ciliméadair uait. Níl aon túr, ródaire ná soláthraí sa lár.
@@ -21,13 +21,30 @@ Bogearraí foinse oscailte atá iontu. Forbraítear iad ag [meshcore-dev/MeshCor
 
 An bhfuil raidió nua duit? Seo na rudaí is minice a mbíonn daoine ag súil leo ó MeshCore, agus nach ndéanann sé.
 
-- **Ní hé an t-idirlíon é, ná guthán.** Seolann MeshCore teachtaireachtaí gearra téacs, thart ar fhad téacs ar do ghuthán. Níl guth, grianghraif, físeáin ná suíomhanna gréasáin ann, agus ní féidir leat gnáthuimhir ghutháin a bhaint amach.
-- **Ní seirbhís éigeandála é.** Níl aon seirbhís éigeandála ag éisteacht ar an mesh, agus ní gheallann aon duine go léifidh duine éigin do theachtaireacht. I gcás éigeandála, glaoigh ar 112.
-- **Níl sé ar an toirt, ná i ngach áit.** Léimeann teachtaireacht ó raidió go raidió agus d'fhéadfadh sí cúpla soicind a thógáil, nó gan teacht in aon chor. Cibé an dtagann sí slán nó nach dtagann, braitheann sé ar na hathsheoltóirí timpeall ort, ar airde, ar fhoirgnimh agus ar d'aeróg. Is minic nach sroicheann raidió beag istigh aon duine; tá raon ciliméadar ag athsheoltóir ar dhíon.
-- **Ní seirbhís é a reáchtálann duine éigin duit.** Níl soláthraí, deasc chabhrach ná gealltanas clúdaigh ann. Tá an mesh ann áit ar chuir daoine sa phobal athsheoltóirí in airde, agus níl sé áit ar bith eile.
-- **Níl gach rud air príobháideach.** Tá teachtaireachtaí díreacha criptithe, ach is féidir le duine ar bith Public agus na cainéil haischlibe a léamh, agus feiceann gach duine atá i raon ainm do nóid agus an suíomh a roinneann tú. Tuairiscíonn [breathnóirí](/network/) an méid a chloiseann siad do léarscáileanna poiblí. Míníonn [an chuid faoi chriptiú](#encryption) cad a fhanann príobháideach.
-- **Níl sé gan teorainn.** Roinneann gach duine i gceantar aon chainéal raidió amháin, agus cuireann na rialacha don [bhanda 868 MHz](#band) teorainn leis an méid ama a fhéadann gach raidió a bheith ag seoladh. Baineann gach teachtaireacht am craolta de gach duine eile, mar sin cuireann róbónna, fógraí minice agus teachtaireachtaí tástála moill ar an mesh do chách.
-- **Ní Meshtastic é.** Córas difriúil is ea Meshtastic a ritheann ar bhoird atá mórán mar an gcéanna. Ní féidir leis an dá chóras labhairt le chéile. Liostaíonn [Ag teacht ó Meshtastic](#meshtastic) cad a oibríonn ar bhealach difriúil.
+- **Ní hé an t-idirlíon ná guthán é.** Seolann MeshCore teachtaireachtaí gearra téacs,
+  thart ar fhad téacs ar do ghuthán. Níl guth, grianghraif, físeáin
+  ná suíomhanna gréasáin ann, agus ní féidir leat gnáthuimhir ghutháin a shroicheadh.
+- **Ní seirbhís éigeandála é.** Ní gheallann aon seirbhís éigeandála go n-éistfidh sí
+  ar an mogalra. Ní gheallann aon duine go léifidh duine éigin do theachtaireacht.
+- **Níl sé láithreach, agus níl sé i ngach áit.** Léimeann teachtaireacht ó raidió go
+  raidió. Féadann sí cúpla soicind a thógáil, nó gan teacht ar chor ar bith. Braitheann
+  a teacht ar na hathsheoltóirí timpeall ort, ar an airde, ar fhoirgnimh agus ar d'aeróg.
+  Is minic nach sroicheann raidió beag istigh aon duine. Sroicheann athsheoltóir ar dhíon
+  ciliméadair i gcéin.
+- **Ní seirbhís é a reáchtálann duine éigin duit.** Níl soláthraí, deasc chabhrach
+  ná gealltanas clúdaigh ann. Tá an mogalra ann san áit ar chuir daoine sa
+  phobal athsheoltóirí in airde.
+- **Níl gach rud air príobháideach.** Criptítear teachtaireachtaí díreacha. Ach is féidir
+  le duine ar bith Public agus na cainéil haischlibe a léamh. Feiceann gach duine
+  i raon ainm do nóid agus an suíomh a roinneann tú.
+  Tuairiscíonn [breathnóirí](/network/) an méid a chloiseann siad chuig léarscáileanna poiblí.
+  Míníonn an [chuid faoin gcriptiú](#encryption) céard a fhanann príobháideach.
+- **Níl sé gan teorainn.** Roinneann gach duine i gceantar aon chainéal raidió amháin.
+  Cuireann rialacha an [bhanda 868 MHz](#band) teorainn leis an bhfad ama a fhéadann gach raidió seoladh.
+  Tógann gach teachtaireacht am craolta ó gach duine eile. Mar sin moillíonn róbait, fógraí
+  minice agus teachtaireachtaí tástála an mogalra do chách.
+- **Ní Meshtastic é.** Córas eile is ea Meshtastic a ritheann ar na boird chéanna, nach mór.
+  Ní féidir leis an dá chóras labhairt lena chéile.
 
 ## An mogalra i nóiméad {#mesh}
 
@@ -53,15 +70,6 @@ Imíonn do chéad teachtaireacht chuig teagmhálaí mar *thuile*. Cuireann gach 
 
 Níl aon seoladh amháin ag teachtaireachtaí chuig cainéal, mar sin is tuile i gcónaí iad. Is cuimhin le hathsheoltóirí a bhfuil curtha ar aghaidh acu le déanaí, agus caitheann siad amach cóipeanna a thagann arís ar bhealach eile. Is féidir le teachtaireacht suas le 64 athsheoltóir a thrasnú, nó 32 san áit a n-úsáideann an réamhshocrú aitheantais 2 bheart.
 
-## Ag aistriú ó Meshtastic {#meshtastic}
-
-Is féidir le go leor bord MeshCore nó Meshtastic a rith, agus splancann tú an ceann is mian leat. Seo iad na difríochtaí a thugann tú faoi deara ar dtús. Tá siad bunaithe ar MeshCore v1.18.0 agus ar dhoiciméadacht Meshtastic ó mhí na Samhna 2026.
-
-- **Cé a chuireann teachtaireachtaí ar aghaidh.** In MeshCore, is iad na hathsheoltóirí amháin a dhéanann é; ní dhéanann do chompánach é choíche. In Meshtastic, cuireann an ról cliaint réamhshocraithe teachtaireachtaí ar aghaidh freisin, mura ndearna nód eile é cheana.
-- **Cé chomh fada a théann teachtaireacht.** Is féidir le teachtaireacht MeshCore dul trí suas le 64 athsheoltóir. Stopann Meshtastic tar éis 3 léim de réir réamhshocraithe, agus tar éis 7 ar a mhéad.
-- **Léamha ó nóid eile.** Seolann athsheoltóirí agus nóid braiteora in MeshCore léamha, mar shampla voltas ceallraí, nuair a iarrann tú orthu iad. Ní sheolann siad chuig an mogalra iomlán iad.
-- **An t-idirlíon.** Níl aon nasc idir mogalraí thar an idirlíon i bhfirmware MeshCore. Tuairiscíonn [breathnóirí](/network/) an méid a chloiseann siad do léarscáileanna, i dtreo amháin. Tá modúl MQTT ionsuite ag Meshtastic atá in ann teachtaireachtaí a iompar idir mogalraí thar an idirlíon.
-
 ## Criptiú agus príobháideacht {#encryption}
 
 Tá do theachtaireachtaí díreacha criptithe ó cheann go ceann: ní féidir ach leatsa agus leis an duine eile iad a léamh. Ní fheiceann athsheoltóir cé dó an paicéad ach mar leid 1 bheart.
@@ -82,13 +90,50 @@ San Eoraip, úsáideann MeshCore cuid bheag den bhanda 868 MHz atá ar fáil do 
 
 ## Cad chuige a n-úsáideann daoine é {#uses}
 
-- Fanacht i dteagmháil ar shiúlóidí, ar an bhfarraige agus ag féilte, áit a bhfuil an líonra móibíleach faoi bhrú rómhór nó nach bhfuil sé ann.
-- Cainéal cúltaca do theaghlach nó do chomharsana nuair a theipeann ar an leictreachas nó ar na líonraí móibíleacha.
-- Comhrá áitiúil ar raidiónna ar leis na daoine féin iad.
-- Láthair iargúlta a sheiceáil ón mbaile. Tuairiscíonn athsheoltóirí agus nóid braiteora voltas a gceallraí agus léamha eile nuair a iarrann tú orthu é.
-- Súil a choinneáil ar bhraiteoir. Ritheann nód braiteora firmware de chuid MeshCore chun rudaí a thomhas. Coinníonn sé stair a chuid léamha. Má liostálann tú, tugann sé foláireamh duit, mar shampla nuair a bhíonn a cheallra ag éirí lag.
-- Rud éigin i bhfad uait a lasadh nó a mhúchadh, ar nós caidéil. Cuireann tú é sin leis an bhfirmware braiteora le do chód féin.
-- Turgnaimh a dhéanamh le raidió, aeróga, cumhacht na gréine agus bogearraí foinse oscailte.
+- Teagmháil a choinneáil ar shiúlóidí, ar muir agus ag féilte, áit a bhfuil an líonra soghluaiste
+  faoi bhrú nó as láthair.
+- Cainéal cúltaca do theaghlach nó do chomharsana nuair a theipeann ar an gcumhacht nó ar na
+  líonraí soghluaiste.
+- Cúltaca d'údaráis áitiúla nuair a theipeann ar a ngnáthlíonraí.
+- Comhrá áitiúil ar raidiónna ar le daoine féin iad.
+- Foireann chuardaigh agus tarrthála a choinneáil i dteagmháil áit nach bhfuil líonra soghluaiste.
+  Cuireann MeshCore SAR, aip phobail ar [Thionscadail](/projects/), léarscáileanna agus
+  suíomhanna roinnte leis.
+- Suíomh iargúlta a sheiceáil ón mbaile. Tuairiscíonn athsheoltóirí agus nóid bhraiteora
+  voltas a gceallraí agus léamha eile nuair a iarrann tú orthu.
+- Faire ar bhraiteoir. Ritheann nód braiteora dochtearraí MeshCore le haghaidh tomhais.
+  Coinníonn sé stair voltas a cheallraí. Logáil isteach mar riarthóir agus tugann sé
+  rabhadh duit nuair a bhíonn an ceallra ag éirí íseal. Cuireann tú rabhaidh do léamha eile
+  leis le do chód féin.
+- Rud éigin i bhfad uait a chasadh air nó as, caidéal mar shampla. Cuireann tú é sin le
+  dochtearraí an bhraiteora le do chód féin.
+- Turgnamh a dhéanamh le raidió, aeróga, cumhacht na gréine agus bogearraí foinse oscailte.
+
+Tá roinnt údarás ag tógáil nó ag tástáil cúltaca bunaithe ar MeshCore. Sheiceálamar
+na samplaí seo i mí na Samhna 2026.
+
+- Ghearr Cioclón Gabrielle gach cumarsáid in Tairāwhiti, sa Nua-Shéalainn. I
+  Meán Fómhair 2025, d'ainmnigh bainistíocht éigeandála an réigiúin MeshCore mar
+  [cheann de 6 bhealach cúltaca ar a laghad le cumarsáid a dhéanamh](https://www.scoop.co.nz/stories/AK2509/S00669.htm).
+  Bhí sí ag tógáil athsheoltóirí gréine mar chnámh droma freisin.
+- Tá ceantar Bad Kissingen sa Ghearmáin
+  [ag tógáil líonra téacs ar MeshCore](https://www.landkreis-badkissingen.de/wirtschaft/digitalisierung/kommunikationsnetze/index.html)
+  d'údaráis, do sheirbhísí éigeandála agus do láithreacha criticiúla. Is iad na
+  stáisiúin dóiteáin a nascann ar dtús.
+- Vótáil comhairle Hilversum, san Ísiltír,
+  [34 in aghaidh 1 ar son trialach](https://hilversum.nl/nieuwsoverzicht/gemeenteraad-buigt-zich-over-financien)
+  le hathsheoltóir ar thúr halla an bhaile. Déanfaidh an bardas
+  [measúnú air i bhfómhar 2027](https://www.spreekbuis.nl/hilversum-start-proef-met-onafhankelijk-noodcommunicatienetwerk-meshcore/).
+- Tá dhá réigiún sábháilteachta san Ísiltír, a eagraíonn an fhreagairt ar ghéarchéim,
+  ag déanamh turgnaimh le MeshCore:
+  [Limburg Theas](https://nos.nl/nieuwsuur/artikel/2607176-communicatie-hulpdiensten-valt-uit-bij-lange-stroomstoring-oplossing-niet-in-zicht)
+  agus [Drenthe](https://www.rtvdrenthe.nl/nieuws/18438486/hackerspace-drenthe-werkt-aan-een-noodnetwerk-voor-de-provincie).
+  Deir Drenthe go bhfuil sé ró-luath le rá conas nó cathain a d'fhéadfadh an réigiún é a úsáid.
+- In Dalfsen, san Ísiltír freisin, tá oibrithe deonacha
+  [ag reáchtáil píolóta in éineacht leis na bardais](https://noodnetoverijssel.nl/).
+  Úsáideann siad raidió gutha ar dtús, agus MeshCore mar dhara sraith le haghaidh téacs.
+
+Ní gheallann aon duine go léifidh duine éigin do theachtaireacht ar an mogalra in aice leat.
 
 ## Cá as a dtagann na sonraí {#data}
 

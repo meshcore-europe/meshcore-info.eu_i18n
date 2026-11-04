@@ -6,11 +6,11 @@ description: Mapas MeshCore em tempo real, mapas de cobertura e analisadores de 
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '351071aa'
-  seeded: '2026-10-31'
+  source_hash: '24bfdf6b'
+  seeded: '2026-11-04'
   fields: {title: '4b9f20a0', lead: 'fedb89bb', description: 'b5719f82'}
-  sections: ['351071aa']
-  blocks: ['dd5f039e', '9d4a2ad8', '70c417f2', '9fef7e16']
+  sections: ['24bfdf6b']
+  blocks: ['dd5f039e', '9d4a2ad8', '763fc710', '70c417f2', '9fef7e16']
 ---
 
 Um nó aparece nestes mapas quando o dono o publica, ou quando um
@@ -23,6 +23,9 @@ Um nó fica no mapa no sítio onde o dono o colocou. Essa posição pode estar
 errada ou desatualizada. Uma mensagem flood segue vários caminhos ao mesmo tempo.
 A rota que vês no mapa é o caminho da cópia que chegou primeiro. As outras
 cópias não ficam registadas.
+
+Uma rota no mapa parece-te improvável? Verifica 2 dos nós dela com Line of Sight
+na app MeshCore. O [guia do repetidor](/repeater-guide/#check-site) explica como.
 
 Estes mapas precisam de internet; a mesh não. [Porquê](/network/)
 

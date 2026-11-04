@@ -6,11 +6,11 @@ description: Живі карти MeshCore, карти покриття та ан
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '351071aa'
-  seeded: '2026-11-02'
+  source_hash: '24bfdf6b'
+  seeded: '2026-11-04'
   fields: {title: '4b9f20a0', lead: 'fedb89bb', description: 'b5719f82'}
-  sections: ['351071aa']
-  blocks: ['dd5f039e', '9d4a2ad8', '70c417f2', '9fef7e16']
+  sections: ['24bfdf6b']
+  blocks: ['dd5f039e', '9d4a2ad8', '763fc710', '70c417f2', '9fef7e16']
 ---
 
 Вузол з'являється на цих картах, коли його публікує власник або коли його чує
@@ -20,6 +20,9 @@ translation:
 
 Вузол стоїть на карті там, де його поставив власник, і ця позиція може бути хибною або застарілою.
 Flood-повідомлення йде кількома шляхами одночасно. Маршрут на карті показує шлях копії, яка дійшла першою. Інші шляхи ніхто не записує.
+
+Маршрут на карті здається малоймовірним? Перевір 2 його вузли за допомогою Line of Sight
+у застосунку MeshCore. Як це зробити, показує [посібник із ретрансляторів](/repeater-guide/#check-site).
 
 Цим картам потрібен інтернет, а mesh-мережі не потрібен. [Чому](/network/)
 

@@ -6,11 +6,11 @@ eyebrow: 6 koraka · MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0c1b08d9'
-  seeded: '2026-11-03'
+  source_hash: '0490a311'
+  seeded: '2026-11-04'
   fields: {title: '61e8d44a', lead: '45b0e5c3', description: 'cf031b18', eyebrow: '4fa6fe1e'}
-  sections: ['16c3728c', '90f3d626', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
-  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '757c634a', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
+  sections: ['16c3728c', '5b6d136a', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', '1741ed35', '66d00206']
+  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', 'e90b7859', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', '53276869', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
 ---
 
 Ovi koraci važe za MeshCore firmver v1.18.0 i zvanične alate iz oktobra 2026.
@@ -26,7 +26,8 @@ i tastaturom, koji radi samostalno.
 Uzmi verziju za 868 MHz. Antena iz kompleta je dovoljna. U
 [vodiču za antene](/guides/antenna/) piše kako da je proveriš.
 
-Na pločici ti sada radi Meshtastic? Kad flešuješ MeshCore, on ga zamenjuje, a ta dva sistema ne komuniciraju međusobno. U odeljku [Prelazak sa Meshtastic-a](/about/#meshtastic) piše šta funkcioniše drugačije.
+Na tvojoj pločici sada radi Meshtastic? Kad flešuješ MeshCore, on zamenjuje Meshtastic, a ta
+dva sistema ne komuniciraju međusobno.
 
 {{< callout type="warning" >}}
 Priključi antenu pre nego što uključiš radio. LoRa radio koji
@@ -87,19 +88,21 @@ da ažuriraš aplikaciju.
 
 ## 6. Javi se {#hello}
 
-1. **Najavi se.** Pošalji *advert* (najavu) iz aplikacije. „Flood” advert
-   putuje preko repeatera (čvorova koji prosleđuju poruke), pa svi
-   na mreži mogu da te dodaju.
-   Companion uređaji se nikada ne najavljuju automatski.
-2. **Pronađi druge.** Ljudi se pojavljuju u tvojim kontaktima kada njihovi adverti stignu
-   do tebe. Repeateri podrazumevano šalju flood advert na svakih 47 sati, pa punjenje
-   liste može da potraje 2 dana.
-3. **Pošalji poruku.** Otvori kontakt i piši. Prva poruka se širi celom
-   mrežom. Primalac javlja kojom je putanjom stigla, a kasnije
+1. **Predstavi se.** Pošalji *advert* iz aplikacije. „Flood“ advert
+   putuje preko repetitora (čvorova koji prosleđuju poruke), pa svako
+   na mesh mreži može da te doda.
+   Companion uređaji se nikad ne predstavljaju sami.
+2. **Pronađi druge.** Ljudi se pojavljuju u tvojim kontaktima kad njihovi adverti stignu
+   do tebe. Repetitori podrazumevano šalju flood advert svakih 47 sati, pa popunjavanje
+   tvoje liste može da potraje 2 dana.
+3. **Pošalji poruku.** Otvori kontakt i piši. Prva poruka ide kroz mrežu kao flood.
+   Primalac ti javlja putanju kojom je poruka stigla, a sledeće
    poruke idu tom putanjom.
-4. **Pridruži se kanalima.** Kanal **Public** je već podešen. Sve što tamo napišeš stiže do svih na mreži. Dodaj *hashtag
-   kanal* svog regiona (naziv koji počinje sa `#`) tako što ukucaš njegov naziv. Tvoja
+4. **Pridruži se kanalima.** Kanal **Public** je već podešen. Sve što
+   tamo napišeš stiže do svih na mesh mreži. Dodaj *hashtag kanal* svog regiona
+   (naziv koji počinje sa `#`) tako što ukucaš njegov naziv. Tvoja
    [lokalna grupa](/community/) će ti reći koji su kanali aktivni.
+   Želiš da ih upoznaš uživo? Pogledaj [sastanke](/meetings/) u svojoj blizini.
 
 ## Kada nešto ne radi {#troubleshooting}
 

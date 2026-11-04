@@ -3,7 +3,7 @@
     "language": "sl",
     "name": "Slovenščina",
     "managed_by": "community",
-    "updated": "2026-11-02"
+    "updated": "2026-11-04"
   },
   "site_tagline": {
     "value": "Sporočila brez omrežja po vsej Evropi",
@@ -142,6 +142,30 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "8d525e5f"
+  },
+  "short_link": {
+    "value": "Kratka povezava",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f44e613a"
+  },
+  "short_links_page": {
+    "value": "Stran",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0a30a815"
+  },
+  "short_links_country": {
+    "value": "Nastavitve za Nemčijo (uporabi kodo svoje države)",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9f895094"
+  },
+  "short_links_area": {
+    "value": "Nastavitve za Limburg",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5d3b1103"
   },
   "hero_eyebrow": {
     "value": "868 MHz · Evropa",
@@ -912,10 +936,10 @@
     "_source": "a52ace42"
   },
   "community_missing_body": {
-    "value": "Lokalno skupino lahko doda vsakdo. Odpri issue z njenim imenom, območjem in povezavami, vzdrževalec pa jo doda v vse jezike hkrati.",
+    "value": "Lokalno skupino lahko doda vsak. Odpri issue z imenom, območjem in povezavami skupine, vzdrževalec pa jo doda v vse jezike hkrati. Ali tvoja skupina sodeluje z občino, gasilci ali civilno zaščito? To napiši v issue, z javno povezavo, in to dodamo v opis tvoje skupine.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "a626e730"
+    "_seeded": "2026-11-04",
+    "_source": "15c70c68"
   },
   "community_missing_cta": {
     "value": "Dodaj svojo lokalno skupino",
@@ -928,6 +952,66 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "0b6beef7"
+  },
+  "community_search_or": {
+    "value": "Ali išči po poštni številki",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "868b07ff"
+  },
+  "community_map_label": {
+    "value": "Zemljevid Evrope z lokalnimi skupinami",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "39852ecb"
+  },
+  "community_map_hint": {
+    "value": "Izberi državo ali piko, da vidiš njene skupine. Krog kaže približno območje, ki ga skupina pokriva. Prazna pika je skupina za vso državo.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8a99c786"
+  },
+  "community_map_credit": {
+    "value": "Podatki zemljevida:",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "38bfee0b"
+  },
+  "community_map_here": {
+    "value": "Skupine tukaj",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8e5bcafb"
+  },
+  "community_map_country": {
+    "value": "Skupine v državi {country}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fb89e1cc"
+  },
+  "community_map_none": {
+    "value": "V tej državi še ni lokalne skupine.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f9c4a071"
+  },
+  "community_map_zoom_in": {
+    "value": "Povečaj",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0e47f09a"
+  },
+  "community_map_zoom_out": {
+    "value": "Pomanjšaj",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "bc7b631a"
+  },
+  "community_map_reset": {
+    "value": "Cel zemljevid",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5b8e0478"
   },
   "community_search_country": {
     "value": "Država",
@@ -2208,10 +2292,10 @@
     "_source": "9f0065e0"
   },
   "community.de-isarmesh.desc": {
-    "value": "Forum za uporabnike omrežij LoRa mesh v okolici Münchna, ki organizira redna srečanja ter razpravlja o MeshCore in drugih projektih mesh.",
+    "value": "Forum za uporabnike mrež LoRa v okolici Münchna, o MeshCore in drugih projektih mrež.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "05e62cf9"
+    "_seeded": "2026-11-04",
+    "_source": "33c3e363"
   },
   "community.de-mesh-dresden.desc": {
     "value": "Dresdenska skupina s poglobljenimi tehničnimi članki za upravljavce repetitorjev. Upravlja tudi lokalni klepet za MeshCore in druge projekte mesh.",
@@ -2238,10 +2322,10 @@
     "_source": "3eb31061"
   },
   "community.sk-meshcore-slovensko.desc": {
-    "value": "Stran slovaškega omrežja, ki jo gosti bratislavski radioamaterski klub, s strežnikom Discord in tedenskimi srečanji v živo.",
+    "value": "Stran slovaškega omrežja, ki jo gosti radioamaterski klub iz Bratislave, s strežnikom Discord.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "950a6862"
+    "_seeded": "2026-11-04",
+    "_source": "ea102b97"
   },
   "community.pl-meshcore-polska.desc": {
     "value": "Vsepoljska skupnost z zemljevidom vozlišč, dokumentacijo v poljščini in strežnikom Discord.",
@@ -2424,10 +2508,10 @@
     "_source": "2a7d4602"
   },
   "community.de-ffnw.desc": {
-    "value": "Združenje Freifunk od leta 2013 upravlja skupnostno omrežje WiFi mesh v regiji Weser-Ems, zdaj upravlja tudi repetitorje MeshCore. Vsak mesec se srečuje v Oldenburgu.",
+    "value": "Društvo Freifunk, ki od leta 2013 vodi skupnostno mrežo WiFi v regiji Weser-Ems, zdaj pa vodi tudi repetitorje MeshCore.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "abb2138f"
+    "_seeded": "2026-11-04",
+    "_source": "6fd9acc0"
   },
   "community.de-meshcore-dresden.desc": {
     "value": "Skupina, ki gradi omrežje MeshCore v Dresdnu in okolici, s seznamom regij in kanalov.",
@@ -2466,10 +2550,10 @@
     "_source": "dc1d7f13"
   },
   "community.de-ka-mesh.desc": {
-    "value": "Skupina, ki gradi omrežje MeshCore v okolici Karlsruheja in Pforzheima, s seznamom kanalov in srečanji.",
+    "value": "Skupina, ki gradi omrežje MeshCore v okolici Karlsruheja in Pforzheima, s seznamom kanalov.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "20d493a1"
+    "_seeded": "2026-11-04",
+    "_source": "62f0440b"
   },
   "community.de-ostfriesland.desc": {
     "value": "Skupni kanal za vso Vzhodno Frizijo, okoli Auricha, Wittmunda, Nordna in Emdna. Skupina deluje samo v omrežju mesh, brez spletne strani ali klepeta.",
@@ -3156,10 +3240,10 @@
     "_source": "4608abcd"
   },
   "guides_card_repeater_desc": {
-    "value": "Repetitor posreduje sporočila za vse okoli sebe. Postavitev, ukazi za nastavitev in zakonske omejitve na 868 MHz.",
+    "value": "Repetitor posreduje sporočila naprej za vse v svoji okolici. Postavitev, orodja za načrtovanje v aplikaciji, ukazi za nastavitev in zakonske omejitve na 868 MHz.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "979d61a1"
+    "_seeded": "2026-11-04",
+    "_source": "f52f6bd7"
   },
   "guides_card_resilient_title": {
     "value": "Naredi omrežje mesh odporno",
@@ -3323,6 +3407,12 @@
     "_seeded": "2026-11-02",
     "_source": "6fd605ec"
   },
+  "area_note_pt_bridges": {
+    "value": "Portugalska uporablja obe prednastavitvi, mostovi pa prenašajo ves promet MeshCore med njima. Za Portugal 433 potrebuješ ploščico z radiem za 433 MHz.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "948efc51"
+  },
   "area_path_hash": {
     "value": "Zgoščena vrednost poti (določi jo prednastavitev)",
     "_ai": true,
@@ -3364,6 +3454,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "89d3440f"
+  },
+  "area_source_link": {
+    "value": "vir",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "41cf6794"
   },
   "area_checked": {
     "value": "preverjeno",
@@ -3455,6 +3551,78 @@
     "_seeded": "2026-11-02",
     "_source": "a6221a2f"
   },
+  "regions_district": {
+    "value": "Koda tvojega okrožja ali otoka",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f46ccde8"
+  },
+  "regions_preset_pick": {
+    "value": "Tvoja radijska prednastavitev",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "1d5f12a5"
+  },
+  "regions_nesting": {
+    "value": "Regije naj bodo gnezdene, vsaka znotraj tiste nad njo. Obremenjen repetitor z omejevanjem obratovalnega cikla potem najprej zavrže najširšo regijo, tvoja regija pa še naprej prehaja.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4bd6c031"
+  },
+  "regions_nesting_link": {
+    "value": "Zakaj je gnezdenje pomembno",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "01aad29b"
+  },
+  "regions_style": {
+    "value": "Kako zapisati ukaze",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b2634f41"
+  },
+  "regions_style_put": {
+    "value": "Ena vrstica na regijo",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7020bdec"
+  },
+  "regions_style_def": {
+    "value": "Vse v eni vrstici, vdelana programska oprema 1.16 ali novejša",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7b909df1"
+  },
+  "regions_note_pt": {
+    "value": "MeshCore Portugal za Evropo uporablja kodo europe, druge države pa eu. To sta dve ločeni regiji: repetitor, ki pozna samo europe, zavrže sporočila, poslana v eu, in obratno. LusoFW v2026.9.1 ali novejši regije izpolni sam. Ko jih nastavljaš ročno, uporabi spodnje ukaze.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "37de255f"
+  },
+  "regions_table_title": {
+    "value": "Regije in okrožja na Portugalskem",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "10268d8d"
+  },
+  "regions_table_region": {
+    "value": "Regija",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d3a008ef"
+  },
+  "regions_table_inside": {
+    "value": "Okrožja in otoki v njej",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "97d751bd"
+  },
+  "regions_footnote_pt": {
+    "value": "Setúbal je razdeljen po občinah. Alcochete, Almada, Barreiro, Moita, Montijo, Palmela, Seixal, Sesimbra in Setúbal so v regiji Lisboa e Vale do Tejo. Alcácer do Sal, Grândola, Santiago do Cacém in Sines so v regiji Alentejo.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e4d089f6"
+  },
   "regions_map": {
     "value": "Zemljevid",
     "_ai": true,
@@ -3473,6 +3641,12 @@
     "_seeded": "2026-11-02",
     "_source": "54f7feb3"
   },
+  "regions_cmd_hint_town": {
+    "value": "V polje zgoraj vpiši svoj kraj, če ga tvoje območje uporablja, nato kopiraj.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "73fd15ae"
+  },
   "area_ph_hint": {
     "value": "Vtipkaj svoje vrednosti čez označene, nato kopiraj.",
     "_ai": true,
@@ -3490,6 +3664,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "90064d5a"
+  },
+  "area_ph_band": {
+    "value": "Tvoja radijska prednastavitev",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "1d5f12a5"
   },
   "area_map_label": {
     "value": "Zemljevid območij in njihovih radijskih prednastavitev",
@@ -6268,5 +6448,437 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "dbcd5e7b"
+  },
+  "meetings_strip_title": {
+    "value": "Naslednjih 8 tednov",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fc9d509f"
+  },
+  "meetings_kind_in_person": {
+    "value": "V živo",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5cf02dbb"
+  },
+  "meetings_kind_online": {
+    "value": "Na spletu",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0d21bd52"
+  },
+  "meetings_kind_channel": {
+    "value": "Na kanalu",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6e611a5b"
+  },
+  "meetings_today": {
+    "value": "Danes",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2b065c7c"
+  },
+  "meetings_spoken": {
+    "value": "Jezik",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b0a422a0"
+  },
+  "meetings_repeat_once": {
+    "value": "En datum",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "af4b82fa"
+  },
+  "meetings_repeat_weekly": {
+    "value": "Vsak {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "334afb72"
+  },
+  "meetings_repeat_monthly_1": {
+    "value": "Vsak 1. {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4721ffa0"
+  },
+  "meetings_repeat_monthly_2": {
+    "value": "Vsak 2. {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "cf11319c"
+  },
+  "meetings_repeat_monthly_3": {
+    "value": "Vsak 3. {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6ecb3a6a"
+  },
+  "meetings_repeat_monthly_4": {
+    "value": "Vsak 4. {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fde48201"
+  },
+  "meetings_repeat_monthly_last": {
+    "value": "Vsak zadnji {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "249b8757"
+  },
+  "meetings_your_time": {
+    "value": "Tvoj čas: {time}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d99b734d"
+  },
+  "meetings_listed_by": {
+    "value": "objavil {name}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "22a3c6a0"
+  },
+  "meetings_their_page": {
+    "value": "Njihova stran",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4b4cc1a1"
+  },
+  "meetings_add_calendar": {
+    "value": "Dodaj v koledar",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d0efffa6"
+  },
+  "meetings_empty_country": {
+    "value": "V tej državi še ni objavljenih srečanj. Dodaj spodnji vir že zdaj, in tvoj koledar bo nova srečanja prikazal samodejno.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ac1fa865"
+  },
+  "meetings_empty_country_cta": {
+    "value": "Dodaj srečanje svoje skupine",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e31ccacb"
+  },
+  "meetings_empty_group": {
+    "value": "Ta skupina še nima objavljenih srečanj. Dodaj njen vir spodaj že zdaj, in tvoj koledar bo nova srečanja prikazal samodejno.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ec792e24"
+  },
+  "meetings_as_of": {
+    "value": "Seznam na dan {date}.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "243d44bb"
+  },
+  "meetings_feed_title": {
+    "value": "Dodaj ta srečanja v svoj koledar",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ba1c4685"
+  },
+  "meetings_feed_body": {
+    "value": "Kopiraj to povezavo in jo dodaj v aplikacijo za koledar kot naročnino. Tvoj koledar potem samodejno doda nova srečanja. Deluje tudi, ko srečanj še ni.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8ae965d1"
+  },
+  "meetings_feed_pick": {
+    "value": "Katera srečanja?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b962e77b"
+  },
+  "meetings_feed_europe": {
+    "value": "Vsa Evropa",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "326c492d"
+  },
+  "meetings_feed_groups": {
+    "value": "Lokalne skupine",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dff00c14"
+  },
+  "meetings_copy": {
+    "value": "Kopiraj povezavo",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dbf362d4"
+  },
+  "meetings_copied": {
+    "value": "Kopirano",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8d525e5f"
+  },
+  "meetings_add_title": {
+    "value": "Dodaj svoje srečanje",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7f5cd406"
+  },
+  "meetings_add_body": {
+    "value": "Ta obrazec izpolniš enkrat. Objavljene skupine ne potrebuješ. Preverimo povezavo in dodamo tvoje srečanje. Ponavljajoče se srečanje ostane objavljeno 6 mesecev; za daljši čas obrazec pošlji znova.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8428d436"
+  },
+  "meetings_next_title": {
+    "value": "Naslednja srečanja",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "89d075ce"
+  },
+  "meetings_all": {
+    "value": "Vsa srečanja",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8406d032"
+  },
+  "meetings_next": {
+    "value": "Naslednje srečanje",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e97c87bd"
+  },
+  "meetings_last": {
+    "value": "Zadnje srečanje",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "61922265"
+  },
+  "meetings_group_feed": {
+    "value": "Dodaj srečanja te skupine v svoj koledar",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "382f76fb"
+  },
+  "community_search_meetings": {
+    "value": "Srečanja blizu {place}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9dfdca50"
+  },
+  "meetings_map_hint": {
+    "value": "Kvadrat je srečanje v naslednjih 30 dneh.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6f937c88"
+  },
+  "meetings_add_group": {
+    "value": "Lokalna skupina",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "21b10847"
+  },
+  "meetings_add_group_new": {
+    "value": "Nova skupina, še ni objavljena",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a4159cd"
+  },
+  "meetings_add_group_none": {
+    "value": "Brez skupine",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2463cfb8"
+  },
+  "meetings_add_new_group": {
+    "value": "Ime tvoje skupine",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b593feb6"
+  },
+  "meetings_add_region": {
+    "value": "Regija ali mesto, če tvoja skupina ne pokriva vse države",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4ac7ccde"
+  },
+  "meetings_add_links": {
+    "value": "Javna spletna stran ali klepet tvoje skupine",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ab1c8140"
+  },
+  "meetings_add_who": {
+    "value": "Kdo vodi to srečanje?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f55abade"
+  },
+  "meetings_add_who_example": {
+    "value": "Klub, hackerspace ali ime, ki ga želiš prikazati",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "38de17e3"
+  },
+  "meetings_add_page": {
+    "value": "Javna stran o tem srečanju",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "733d7b57"
+  },
+  "meetings_add_name": {
+    "value": "Ime srečanja",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d944cb35"
+  },
+  "meetings_add_kind": {
+    "value": "Kako se ljudje pridružijo?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7a0bae93"
+  },
+  "meetings_add_place": {
+    "value": "Javni kraj, povezava ali kanal",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b67943a9"
+  },
+  "meetings_add_first": {
+    "value": "Prvi datum",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9dbd4f04"
+  },
+  "meetings_add_time": {
+    "value": "Ura, po lokalnem času",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "015e7494"
+  },
+  "meetings_add_rule": {
+    "value": "Kako pogosto?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ddc79ba1"
+  },
+  "meetings_add_languages": {
+    "value": "Jeziki srečanja",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "65a782e4"
+  },
+  "meetings_add_open": {
+    "value": "Temu srečanju se lahko pridruži vsak, brez povabila.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "974467c3"
+  },
+  "meetings_add_open_form": {
+    "value": "Odpri obrazec na GitHub",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "019b07aa"
+  },
+  "meetings_add_need_new_group": {
+    "value": "Dodaj ime svoje skupine.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e80cb28c"
+  },
+  "meetings_add_need_new_link": {
+    "value": "Dodaj javno povezavo do svoje skupine.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a24f94d"
+  },
+  "meetings_add_need_who": {
+    "value": "Navedi, kdo vodi to srečanje.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2e0010ac"
+  },
+  "meetings_add_need_page": {
+    "value": "Dodaj javno stran o tem srečanju.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b3b3de31"
+  },
+  "meetings_add_need_place": {
+    "value": "Izpolni ime, kraj, uro in jezike.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "05437f1c"
+  },
+  "meetings_add_need_open": {
+    "value": "Objavljamo samo srečanja, ki se jim lahko pridruži vsak.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dd4b5f10"
+  },
+  "meetings_add_need_date": {
+    "value": "Ta datum je že mimo. Izberi novega.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d2351d30"
+  },
+  "meetings_add_next_dates": {
+    "value": "Tvoji naslednji datumi",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a762da5"
+  },
+  "meetings_add_feed_title": {
+    "value": "Tvoja povezava za koledar",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "3a418e8c"
+  },
+  "meetings_add_feed_group": {
+    "value": "Tvoja skupina to povezavo že ima.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "937b5be9"
+  },
+  "meetings_add_feed_new": {
+    "value": "Najprej objavimo tvoje srečanje, v virih za Evropo in tvojo državo. Nato preverimo tvojo skupino in jo dodamo med Lokalne skupine, z lastno povezavo.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e63f510c"
+  },
+  "meetings_add_feed_none": {
+    "value": "Tvoje srečanje gre v vira za Evropo in tvojo državo.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0789df65"
+  },
+  "meetings_add_how_title": {
+    "value": "Kako deluje povezava za koledar skupine",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2f16e35a"
+  },
+  "meetings_add_how_1": {
+    "value": "Vsaka skupina med Lokalnimi skupinami ima svojo povezavo, tudi pred prvim srečanjem. Najdeš jo na kartici svoje skupine.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "003c9615"
+  },
+  "meetings_add_how_2": {
+    "value": "Povezavo objavi na svoji strani ali jo pripni v svoj klepet.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "74a2d43c"
+  },
+  "meetings_add_how_3": {
+    "value": "Člani jo dodajo v aplikacijo za koledar kot naročnino. Novi datumi se tam potem prikažejo samodejno.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8480d2ed"
+  },
+  "meetings_add_how_note": {
+    "value": "Za spremembo datuma pošlji obrazec znova. Aplikacije za koledar povezavo preverjajo po svojem urniku, zato se nov datum lahko prikaže z zamikom.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d533e900"
   }
 }

@@ -6,11 +6,11 @@ description: MeshCore tiešsaistes kartes, pārklājuma kartes un pakešu analiz
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '351071aa'
-  seeded: '2026-11-02'
+  source_hash: '24bfdf6b'
+  seeded: '2026-11-04'
   fields: {title: '4b9f20a0', lead: 'fedb89bb', description: 'b5719f82'}
-  sections: ['351071aa']
-  blocks: ['dd5f039e', '9d4a2ad8', '70c417f2', '9fef7e16']
+  sections: ['24bfdf6b']
+  blocks: ['dd5f039e', '9d4a2ad8', '763fc710', '70c417f2', '9fef7e16']
 ---
 
 Mezgls parādās šajās kartēs, kad to publisko tā īpašnieks vai kad to uztver
@@ -22,6 +22,9 @@ analizators nerāda to saturu.
 Kartē mezgls atrodas tur, kur to novietojis īpašnieks, un šī vieta var būt
 nepareiza vai novecojusi. Flood ziņa izplatās pa vairākiem ceļiem vienlaikus. Kartē redzamais maršruts ir
 tās kopijas ceļš, kas pienāca pirmā; pārējos ceļus neviens nepieraksta.
+
+Vai maršruts kartē šķiet neticams? Pārbaudi 2 tā mezglus ar Line of Sight
+MeshCore lietotnē. [Retranslatoru ceļvedī](/repeater-guide/#check-site) ir parādīts, kā to izdarīt.
 
 Šīm kartēm vajag internetu, bet tīklam ne. [Kāpēc](/network/)
 

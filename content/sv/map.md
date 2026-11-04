@@ -6,11 +6,11 @@ description: Livekartor, täckningskartor och paketanalysverktyg för MeshCore i
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '351071aa'
-  seeded: '2026-10-31'
+  source_hash: '24bfdf6b'
+  seeded: '2026-11-04'
   fields: {title: '4b9f20a0', lead: 'fedb89bb', description: 'b5719f82'}
-  sections: ['351071aa']
-  blocks: ['dd5f039e', '9d4a2ad8', '70c417f2', '9fef7e16']
+  sections: ['24bfdf6b']
+  blocks: ['dd5f039e', '9d4a2ad8', '763fc710', '70c417f2', '9fef7e16']
 ---
 
 En nod syns på kartorna när ägaren publicerar den, eller när en
@@ -22,6 +22,9 @@ visar vad de innehåller.
 En nod står på kartan där ägaren har placerat den. Den platsen kan vara fel eller
 inaktuell. Ett flood-meddelande tar flera vägar samtidigt. En rutt på kartan är vägen
 för den kopia som kom fram först. De andra sparas inte.
+
+Ser en rutt på en karta osannolik ut? Kontrollera 2 av ruttens noder med Line of Sight i
+MeshCore-appen. [Repeaterguiden](/repeater-guide/#check-site) visar hur du gör.
 
 Kartorna behöver internet, men det gör inte meshen. [Varför](/network/)
 

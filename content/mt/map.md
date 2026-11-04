@@ -6,11 +6,11 @@ description: Mapep live ta' MeshCore, mapep tal-kopertura u analizzaturi tal-pak
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '351071aa'
-  seeded: '2026-11-02'
+  source_hash: '24bfdf6b'
+  seeded: '2026-11-04'
   fields: {title: '4b9f20a0', lead: 'fedb89bb', description: 'b5719f82'}
-  sections: ['351071aa']
-  blocks: ['dd5f039e', '9d4a2ad8', '70c417f2', '9fef7e16']
+  sections: ['24bfdf6b']
+  blocks: ['dd5f039e', '9d4a2ad8', '763fc710', '70c417f2', '9fef7e16']
 ---
 
 Node jidher fuq dawn il-mapep meta sidu jippubblikah, jew meta *observer* jismgħu:
@@ -23,6 +23,9 @@ Node jidher fuq mappa fejn poġġieh sidu, u din il-pożizzjoni tista' tkun ħa�
 jew mhux aġġornata. Messaġġ flood jimxi minn diversi mogħdijiet fl-istess ħin.
 Ir-rotta fuq mappa hi l-mogħdija tal-kopja li waslet l-ewwel; l-oħrajn ma jiġux
 irreġistrati.
+
+Rotta fuq mappa tidher improbabbli? Iċċekkja 2 min-nodes tagħha b'Line of Sight
+fl-app ta' MeshCore. Il-[gwida tar-repeater](/repeater-guide/#check-site) turik kif tagħmel dan.
 
 Dawn il-mapep għandhom bżonn l-internet; il-mesh le. [Għaliex](/network/)
 

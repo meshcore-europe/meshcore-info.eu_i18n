@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '9266fa2b'
-  seeded: '2026-11-02'
+  source_hash: 'f3e63cef'
+  seeded: '2026-11-04'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', 'ee7ba544', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', '6f034862', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Saidist {#about}
@@ -22,6 +22,13 @@ translation:
 **1 lõigus.** MeshCore saadab sõnumeid raadio teel, ilma interneti ja tellimuseta. Väikesed LoRa-raadiod, mida nimetatakse kordajateks, saadavad iga sõnumi edasi, ja kogu Euroopas liituvad nende võrgud üheks. Regioonid ehk alad, millest sõnum välja ei lähe, hoiavad liikluse kohalikuna, seega sõltuvad sinu seadistused elukohast. meshcore-info.eu koondab need seadistused, juhendid ja tööriistad 33 keeles ühte kohta. Sait juhatab sind ka sinu lähedal asuva kohaliku grupi juurde. Seda kirjutavad vabatahtlikud, ilma reklaamide, poelinkide ja jälgimiseta.
 
 Kopeeri kumb tahes tekst muutmata kujul või lühenda seda. Kirjuta saidi nimeks meshcore-info.eu, väiketähtedega ja koos .eu-ga. Pikema teksti jaoks kopeeri pressiteade [avapostitusest](/blog/welcome/).
+
+## Lühilingid võrgu jaoks {#short-links}
+
+Need lingid võtavad võrgusõnumis vähem ruumi. Iga link avaneb selle inimese keeles,
+kes sellele vajutab. Iga nime, mille me välja anname, hoiame töös.
+
+{{< short-links >}}
 
 ## Logo {#logo}
 

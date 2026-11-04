@@ -6,11 +6,11 @@ eyebrow: 6 urrats · MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0c1b08d9'
-  seeded: '2026-11-03'
+  source_hash: '0490a311'
+  seeded: '2026-11-04'
   fields: {title: '61e8d44a', lead: '45b0e5c3', description: 'cf031b18', eyebrow: '4fa6fe1e'}
-  sections: ['16c3728c', '90f3d626', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
-  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '757c634a', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
+  sections: ['16c3728c', '5b6d136a', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', '1741ed35', '66d00206']
+  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', 'e90b7859', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', '53276869', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
 ---
 
 Urrats hauek MeshCore firmwarearen v1.18.0 bertsioan eta 2026ko urriko tresna ofizialetan oinarrituta daude. Aplikazioko menuen izenak apur bat alda daitezke bertsio batetik bestera.
@@ -21,7 +21,7 @@ Urrats hauek MeshCore firmwarearen v1.18.0 bertsioan eta 2026ko urriko tresna of
 
 Hartu 868 MHz-ko bertsioa. Berarekin datorren antenak balio du; [antena-gidan](/guides/antenna/) ikusiko duzu nola egiaztatu antena bat.
 
-Zure plakak orain Meshtastic darabil? MeshCore instalatzean, Meshtastic ordezkatzen duzu, eta biak ez dira elkarrekin komunikatzen. [Meshtastic-etik zatoz](/about/#meshtastic) atalean ikusiko duzu zer dabilen bestela.
+Zure plakak Meshtastic darabil orain? MeshCore flasheatzen baduzu, Meshtastic ordezkatzen du, eta bi sistemak ez dira elkarren artean komunikatzen.
 
 {{< callout type="warning" >}}
 Konektatu antena irratia piztu aurretik. Antenarik gabe transmititzen duen LoRa irrati batek bere txipa honda dezake.
@@ -61,11 +61,11 @@ Ez zaude ziur? Zure [tokiko taldeak](/community/) badaki zein aurrezarpen erabil
 
 ## 6. Esan kaixo {#hello}
 
-1. **Iragarri zure burua.** Bidali *advert* bat aplikaziotik. "Flood" motako advert bat errepikagailuetatik (mezuak aurrera pasatzen dituzten nodoetatik) igarotzen da, eta horrela mesh sareko edonork gehi zaitzake.
+1. **Aurkeztu zure burua.** Bidali *iragarki* bat aplikaziotik. "Flood" iragarki bat errepikagailuetatik igarotzen da (mezuak aurrera pasatzen dituzten nodoak), beraz mesh sareko edonork gehi zaitzake.
    Companion-ek ez dute inoiz beren burua automatikoki iragartzen.
-2. **Bilatu besteak.** Jendea zure kontaktuetan agertzen da, haien advert-ak zuregana iristen direnean. Lehenespenez, errepikagailuek flood advert bat bidaltzen dute 47 orduz behin, beraz zure zerrenda betetzeak 2 egun har ditzake.
-3. **Bidali mezu bat.** Ireki kontaktu bat eta idatzi. Lehen mezua sare osoan hedatzen da (flood); hartzaileak mezuak egindako bidea jakinarazten du, eta hurrengo mezuek bide horri jarraitzen diote.
-4. **Sartu kanaletan.** **Public** kanala prest dago; bertan idazten duzun guztia mesh sareko guztiengana iristen da. Gehitu zure eskualdeko *hashtag kanala* (`#` karakterez hasten den izena) haren izena idatzita. Zure [tokiko taldeak](/community/) esango dizu zein kanal dauden aktibo.
+2. **Aurkitu besteak.** Besteen iragarkiak zuregana iristen direnean, zure kontaktuetan agertzen dira. Errepikagailuek, berez, flood iragarki bat bidaltzen dute 47 orduro, beraz zure zerrenda betetzeko 2 egun igaro daitezke.
+3. **Bidali mezu bat.** Ireki kontaktu bat eta idatzi. Lehen mezua flood moduan zabaltzen da sarean. Hartzaileak mezuak egin duen bidea jakinarazten dizu, eta hurrengo mezuak bide horretatik doaz.
+4. **Sartu kanaletan.** **Public** kanala dagoeneko konfiguratuta dago. Han idazten duzun guztia mesh sareko denengana iristen da. Gehitu zure eskualdeko *hashtag kanala* (`#` ikurrarekin hasten den izena) haren izena idatziz. Zure [tokiko taldeak](/community/) esango dizu zein kanal dauden aktibo. Aurrez aurre ezagutu nahi dituzu? Begiratu zure inguruko [topaketak](/meetings/).
 
 ## Zerbait ondo ez dabilenean {#troubleshooting}
 

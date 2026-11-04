@@ -6,11 +6,11 @@ eyebrow: 868 MHz · do 500 mW · bez licencji
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '7c7e3be3'
-  seeded: '2026-10-31'
+  source_hash: '3e38a8c6'
+  seeded: '2026-11-04'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '766086be', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', '6a7c4493', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
 ---
 
 Przekaźniki są podstawą siatki. Companiony, czyli radia, z których wysyłasz
@@ -43,18 +43,41 @@ Wysokość wygrywa z mocą. LoRa na 868 MHz najlepiej rozchodzi się w linii
 wzroku bez przeszkód. Wzgórza, budynki i gęste drzewa zabierają dużo więcej
 zasięgu, niż odzyskasz kilkoma dodatkowymi miliwatami.
 
-- **Wybierz wysokie miejsce.** Dach, maszt, wysoki budynek lub wzgórze obejmuje
-  znacznie większy obszar niż parapet. Pomaga nawet kilka metrów ponad okolicznymi dachami.
+- **Wybierz wysokie miejsce.** Dach, maszt, wysoki budynek lub wzgórze daje dużo większy zasięg
+  niż parapet. Pomaga nawet kilka metrów ponad okolicznymi dachami.
 - **Zostaw antenie wolną przestrzeń.** Zamontuj ją ponad krawędzią dachu, z dala
   od metalu, rynien i innych anten.
-- **Sprawdź widok.** Narzędzia takie jak [HeyWhatsThat](https://www.heywhatsthat.com/)
-  pokazują, co widać z danego miejsca. Jeśli widzisz jakiś punkt, przekaźnik
-  w tym miejscu jest w zasięgu.
-- **Zachowaj prześwit.** Ścieżka radiowa potrzebuje wolnej przestrzeni wokół
-  linii bezpośredniej, nie tylko samej linii. Na dużych odległościach środek
-  ścieżki powinien przechodzić kilka metrów nad przeszkodami.
+- **Sprawdź widoczność.** Narzędzia takie jak [HeyWhatsThat](https://www.heywhatsthat.com/)
+  pokazują, co widać z danego miejsca. Aplikacja MeshCore
+  [oblicza, dokąd sięgnie stamtąd przekaźnik](#check-site).
+- **Zostaw zapas wokół linii.** Ścieżka radiowa potrzebuje wolnej przestrzeni
+  wokół linii prostej, nie tylko samej linii. Przy 868 MHz ta przestrzeń ma około
+  20 m wokół środka ścieżki o długości 5 km. Przy 20 km ma około 40 m.
 - **Zapytaj o zgodę.** Uzyskaj zgodę właściciela dachu lub masztu. Ustal z nim,
-  jak dostaniesz się do przekaźnika, żeby go serwisować.
+  jak dostaniesz się do przekaźnika na potrzeby konserwacji.
+
+### Sprawdź miejsce w aplikacji {#check-site}
+
+Aplikacja MeshCore od wersji 1.33 ma te narzędzia w menu, w pozycji **Narzędzia**.
+Działają bez podłączonego radia.
+
+- **Line of Sight** rysuje teren między 2 punktami i wolną przestrzeń nad nim
+  potrzebną sygnałowi. Przytrzymaj palec na 2 punktach mapy albo stuknij przekaźniki.
+- **Antenna Coverage** pokazuje na mapie, dokąd sięga antena ustawiona w 1 punkcie.
+  Przytrzymaj palec na punkcie albo stuknij przekaźnik. Dodaj więcej punktów, aby porównać lokalizacje.
+
+Na komputerze wybierz **Add Point** w menu narzędzia i wpisz współrzędne.
+
+Oba narzędzia domyślnie przyjmują antenę w twoim miejscu na wysokości 5 m, więc
+w ustawieniach narzędzia wpisz planowaną wysokość. Antenna Coverage domyślnie
+przyjmuje antenę odbiorczą na wysokości 1 m. Bez podłączonego radia Line of Sight
+domyślnie używa 915 MHz: w jego ustawieniach wpisz częstotliwość swojego [presetu](/guides/settings/).
+
+Narzędzia liczą na podstawie danych o wysokości terenu i nie testują twojego radia. Drzewa i nowe budynki sprawdź sam, potem zabierz companion na miejsce i zobacz, które przekaźniki słyszy.
+
+![Line of Sight w aplikacji MeshCore: teren między 2 punktami i przestrzeń nad nim potrzebna sygnałowi](/media/guides/line-of-sight.webp)
+
+![Antenna Coverage w aplikacji MeshCore: obszar na mapie, do którego sięga antena na wzgórzu](/media/guides/antenna-coverage.webp)
 
 ## Sprzęt {#hardware}
 

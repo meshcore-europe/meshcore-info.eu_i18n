@@ -6,11 +6,11 @@ description: Mapas de MeshCore en directo, mapas de cobertura e analizadores de 
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '351071aa'
-  seeded: '2026-11-02'
+  source_hash: '24bfdf6b'
+  seeded: '2026-11-04'
   fields: {title: '4b9f20a0', lead: 'fedb89bb', description: 'b5719f82'}
-  sections: ['351071aa']
-  blocks: ['dd5f039e', '9d4a2ad8', '70c417f2', '9fef7e16']
+  sections: ['24bfdf6b']
+  blocks: ['dd5f039e', '9d4a2ad8', '763fc710', '70c417f2', '9fef7e16']
 ---
 
 Un nodo aparece nestes mapas cando o seu dono o publica ou cando o escoita un
@@ -22,6 +22,9 @@ así que ningún analizador mostra o que din.
 Un nodo figura no mapa onde o puxo o seu dono, e esa posición pode estar errada
 ou desactualizada. Unha mensaxe por inundación (flood) percorre varios camiños á vez. Unha ruta
 nun mapa é o camiño da copia que chegou primeiro; os outros non quedan rexistrados.
+
+Unha ruta nun mapa parece pouco probable? Comproba 2 dos seus nodos con Line of Sight
+na app de MeshCore. A [guía de repetidores](/repeater-guide/#check-site) explica como facelo.
 
 Estes mapas precisan internet; a rede mesh non. [Por que](/network/)
 

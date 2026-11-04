@@ -6,11 +6,11 @@ description: Hărți MeshCore live, hărți de acoperire și analizoare de pache
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '351071aa'
-  seeded: '2026-10-31'
+  source_hash: '24bfdf6b'
+  seeded: '2026-11-04'
   fields: {title: '4b9f20a0', lead: 'fedb89bb', description: 'b5719f82'}
-  sections: ['351071aa']
-  blocks: ['dd5f039e', '9d4a2ad8', '70c417f2', '9fef7e16']
+  sections: ['24bfdf6b']
+  blocks: ['dd5f039e', '9d4a2ad8', '763fc710', '70c417f2', '9fef7e16']
 ---
 
 Un nod apare pe aceste hărți când proprietarul lui îl publică sau când îl aude un
@@ -22,6 +22,9 @@ nu le arată conținutul.
 Pe hartă, un nod stă unde l-a pus proprietarul. Poziția poate fi greșită sau
 depășită. Un mesaj flood circulă pe mai multe rute în același timp. Ruta de pe hartă e cea
 a copiei care a ajuns prima. Celelalte nu se înregistrează.
+
+Ți se pare neverosimilă o rută de pe hartă? Verifică 2 dintre nodurile ei cu Line of Sight
+în aplicația MeshCore. [Ghidul pentru repetoare](/repeater-guide/#check-site) îți arată cum.
 
 Aceste hărți au nevoie de internet. Mesh-ul nu are nevoie. [De ce](/network/)
 

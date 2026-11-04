@@ -3,7 +3,7 @@
     "language": "cy",
     "name": "Cymraeg",
     "managed_by": "community",
-    "updated": "2026-11-02"
+    "updated": "2026-11-04"
   },
   "site_tagline": {
     "value": "Negeseuon oddi ar y grid ledled Ewrop",
@@ -142,6 +142,30 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "8d525e5f"
+  },
+  "short_link": {
+    "value": "Dolen fer",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f44e613a"
+  },
+  "short_links_page": {
+    "value": "Tudalen",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0a30a815"
+  },
+  "short_links_country": {
+    "value": "Gosodiadau ar gyfer yr Almaen (defnyddia god dy wlad dy hun)",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9f895094"
+  },
+  "short_links_area": {
+    "value": "Gosodiadau ar gyfer Limburg",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5d3b1103"
   },
   "hero_eyebrow": {
     "value": "868 MHz · Ewrop",
@@ -912,10 +936,10 @@
     "_source": "a52ace42"
   },
   "community_missing_body": {
-    "value": "Gall unrhyw un ychwanegu grŵp lleol. Agora issue gyda'i enw, ei ardal a'i ddolenni, ac mae cynhaliwr yn ei ychwanegu at bob iaith ar unwaith.",
+    "value": "Gall unrhyw un ychwanegu grŵp lleol. Agor issue gydag enw, ardal a dolenni'r grŵp, ac mae cynhaliwr yn ei ychwanegu at bob iaith ar unwaith. Ydy dy grŵp yn gweithio gyda chyngor lleol, gwasanaeth tân neu amddiffyn sifil? Dyweda hynny yn yr issue, gyda dolen gyhoeddus, ac rydyn ni'n ychwanegu hynny at ddisgrifiad dy grŵp.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "a626e730"
+    "_seeded": "2026-11-04",
+    "_source": "15c70c68"
   },
   "community_missing_cta": {
     "value": "Ychwanega dy grŵp lleol",
@@ -928,6 +952,66 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "0b6beef7"
+  },
+  "community_search_or": {
+    "value": "Neu chwilia yn ôl cod post",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "868b07ff"
+  },
+  "community_map_label": {
+    "value": "Map o Ewrop gyda'r grwpiau lleol",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "39852ecb"
+  },
+  "community_map_hint": {
+    "value": "Dewisa wlad neu ddot i weld ei grwpiau. Mae cylch yn dangos yr ardal fras mae grŵp yn ei chwmpasu. Mae dot agored yn grŵp ar gyfer y wlad gyfan.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8a99c786"
+  },
+  "community_map_credit": {
+    "value": "Data'r map:",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "38bfee0b"
+  },
+  "community_map_here": {
+    "value": "Grwpiau yma",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8e5bcafb"
+  },
+  "community_map_country": {
+    "value": "Grwpiau yn {country}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fb89e1cc"
+  },
+  "community_map_none": {
+    "value": "Does dim grŵp lleol yn y wlad hon eto.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f9c4a071"
+  },
+  "community_map_zoom_in": {
+    "value": "Chwyddo i mewn",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0e47f09a"
+  },
+  "community_map_zoom_out": {
+    "value": "Chwyddo allan",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "bc7b631a"
+  },
+  "community_map_reset": {
+    "value": "Y map cyfan",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5b8e0478"
   },
   "community_search_country": {
     "value": "Gwlad",
@@ -2208,10 +2292,10 @@
     "_source": "9f0065e0"
   },
   "community.de-isarmesh.desc": {
-    "value": "Fforwm i ddefnyddwyr mesh LoRa o amgylch München sy'n trefnu cyfarfodydd rheolaidd ac yn trafod MeshCore a phrosiectau mesh eraill.",
+    "value": "Fforwm i ddefnyddwyr rhwyll LoRa o gwmpas München, am MeshCore a phrosiectau rhwyll eraill.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "05e62cf9"
+    "_seeded": "2026-11-04",
+    "_source": "33c3e363"
   },
   "community.de-mesh-dresden.desc": {
     "value": "Grŵp o Dresden gydag erthyglau technegol manwl i weithredwyr ailadroddyddion. Mae hefyd yn rhedeg sgwrs leol i MeshCore a phrosiectau mesh eraill.",
@@ -2238,10 +2322,10 @@
     "_source": "3eb31061"
   },
   "community.sk-meshcore-slovensko.desc": {
-    "value": "Tudalen rhwydwaith Slofacaidd a gynhelir gan glwb radio amatur o Bratislava, gyda gweinydd Discord a chyfarfodydd wyneb yn wyneb wythnosol.",
+    "value": "Tudalen rhwydwaith Slofacia, wedi'i chynnal gan glwb radio amatur yn Bratislava, gyda gweinydd Discord.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "950a6862"
+    "_seeded": "2026-11-04",
+    "_source": "ea102b97"
   },
   "community.pl-meshcore-polska.desc": {
     "value": "Cymuned Bwylaidd genedlaethol gyda map nodau, dogfennaeth yn Bwyleg a gweinydd Discord.",
@@ -2424,10 +2508,10 @@
     "_source": "2a7d4602"
   },
   "community.de-ffnw.desc": {
-    "value": "Cymdeithas Freifunk sydd wedi rhedeg rhwyll WiFi gymunedol yn ardal Weser-Ems ers 2013 ac sydd bellach yn rhedeg ailadroddwyr MeshCore hefyd. Mae'n cwrdd bob mis yn Oldenburg.",
+    "value": "Cymdeithas Freifunk sydd wedi rhedeg rhwyll WiFi gymunedol yn rhanbarth Weser-Ems ers 2013. Mae hi bellach hefyd yn rhedeg ailadroddyddion MeshCore.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "abb2138f"
+    "_seeded": "2026-11-04",
+    "_source": "6fd9acc0"
   },
   "community.de-meshcore-dresden.desc": {
     "value": "Grŵp sy'n adeiladu rhwydwaith MeshCore yn Dresden a'r cyffiniau, gyda rhestr o'i ranbarthau a'i sianeli.",
@@ -2466,10 +2550,10 @@
     "_source": "dc1d7f13"
   },
   "community.de-ka-mesh.desc": {
-    "value": "Grŵp sy'n adeiladu rhwydwaith MeshCore o gwmpas Karlsruhe a Pforzheim, gyda rhestr sianeli a chyfarfodydd.",
+    "value": "Grŵp sy'n adeiladu rhwydwaith MeshCore o gwmpas Karlsruhe a Pforzheim, gyda rhestr sianeli.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "20d493a1"
+    "_seeded": "2026-11-04",
+    "_source": "62f0440b"
   },
   "community.de-ostfriesland.desc": {
     "value": "Sianel a rennir ar gyfer East Frisia gyfan, o gwmpas Aurich, Wittmund, Norden ac Emden. Dim ar y mesh mae'r grŵp, heb wefan na sgwrs.",
@@ -3156,10 +3240,10 @@
     "_source": "4608abcd"
   },
   "guides_card_repeater_desc": {
-    "value": "Mae ailadroddydd yn trosglwyddo negeseuon ymlaen i bawb o'i gwmpas. Lleoliad, y gorchmynion i'w osod, a'r terfynau cyfreithiol ar 868 MHz.",
+    "value": "Mae ailadroddydd yn trosglwyddo negeseuon i bawb o'i gwmpas. Lleoliad, yr offer cynllunio yn yr ap, y gorchmynion i'w osod, a'r terfynau cyfreithiol ar 868 MHz.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "979d61a1"
+    "_seeded": "2026-11-04",
+    "_source": "f52f6bd7"
   },
   "guides_card_resilient_title": {
     "value": "Gwneud y rhwyll yn wydn",
@@ -3323,6 +3407,12 @@
     "_seeded": "2026-11-02",
     "_source": "6fd605ec"
   },
+  "area_note_pt_bridges": {
+    "value": "Mae Portiwgal yn rhedeg ar y ddau ragosodiad, ac mae pontydd yn cario holl draffig MeshCore rhyngddyn nhw. Mae Portugal 433 angen bwrdd gyda radio 433 MHz.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "948efc51"
+  },
   "area_path_hash": {
     "value": "Hash llwybr (wedi'i osod gan y rhagosodiad)",
     "_ai": true,
@@ -3364,6 +3454,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "89d3440f"
+  },
+  "area_source_link": {
+    "value": "ffynhonnell",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "41cf6794"
   },
   "area_checked": {
     "value": "gwiriwyd",
@@ -3455,6 +3551,78 @@
     "_seeded": "2026-11-02",
     "_source": "a6221a2f"
   },
+  "regions_district": {
+    "value": "Cod dy ardal neu dy ynys",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f46ccde8"
+  },
+  "regions_preset_pick": {
+    "value": "Rhagosodiad dy radio",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "1d5f12a5"
+  },
+  "regions_nesting": {
+    "value": "Cadwa dy ranbarthau wedi'u nythu, pob un y tu mewn i'r un uwch ei ben. Wedyn mae ailadroddydd prysur gyda chyfyngiad cylch gwaith yn gollwng y rhanbarth ehangaf yn gyntaf, ac mae dy ranbarth di yn dal i basio.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4bd6c031"
+  },
+  "regions_nesting_link": {
+    "value": "Pam mae nythu'n bwysig",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "01aad29b"
+  },
+  "regions_style": {
+    "value": "Sut i ysgrifennu'r gorchmynion",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b2634f41"
+  },
+  "regions_style_put": {
+    "value": "Un llinell i bob rhanbarth",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7020bdec"
+  },
+  "regions_style_def": {
+    "value": "Popeth ar un llinell, cadarnwedd 1.16 neu fwy newydd",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7b909df1"
+  },
+  "regions_note_pt": {
+    "value": "Mae MeshCore Portugal yn defnyddio europe fel ei god ar gyfer Ewrop, lle mae gwledydd eraill yn defnyddio eu. Dau ranbarth ar wahân yw'r rhain: mae ailadroddydd sydd ond yn gwybod europe yn gollwng negeseuon a anfonwyd i eu, a'r ffordd arall. Mae LusoFW v2026.9.1 neu fwy newydd yn llenwi'r rhanbarthau ar ei ben ei hun. Defnyddia'r gorchmynion isod pan fyddi di'n eu gosod â llaw.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "37de255f"
+  },
+  "regions_table_title": {
+    "value": "Rhanbarthau ac ardaloedd ym Mhortiwgal",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "10268d8d"
+  },
+  "regions_table_region": {
+    "value": "Rhanbarth",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d3a008ef"
+  },
+  "regions_table_inside": {
+    "value": "Ardaloedd ac ynysoedd y tu mewn iddo",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "97d751bd"
+  },
+  "regions_footnote_pt": {
+    "value": "Mae Setúbal wedi'i rhannu fesul bwrdeistref. Mae Alcochete, Almada, Barreiro, Moita, Montijo, Palmela, Seixal, Sesimbra a Setúbal yn Lisboa e Vale do Tejo. Mae Alcácer do Sal, Grândola, Santiago do Cacém a Sines yn Alentejo.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e4d089f6"
+  },
   "regions_map": {
     "value": "Map",
     "_ai": true,
@@ -3473,6 +3641,12 @@
     "_seeded": "2026-11-02",
     "_source": "54f7feb3"
   },
+  "regions_cmd_hint_town": {
+    "value": "Teipia dy dref yn y blwch uchod, os yw dy ardal yn defnyddio un, yna copïa.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "73fd15ae"
+  },
   "area_ph_hint": {
     "value": "Teipia dy werthoedd dy hun dros y rhai sydd wedi'u hamlygu, yna copïa.",
     "_ai": true,
@@ -3490,6 +3664,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "90064d5a"
+  },
+  "area_ph_band": {
+    "value": "Rhagosodiad dy radio",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "1d5f12a5"
   },
   "area_map_label": {
     "value": "Map o'r ardaloedd a'u rhagosodiad radio",
@@ -6268,5 +6448,437 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "dbcd5e7b"
+  },
+  "meetings_strip_title": {
+    "value": "Yr 8 wythnos nesaf",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fc9d509f"
+  },
+  "meetings_kind_in_person": {
+    "value": "Wyneb yn wyneb",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5cf02dbb"
+  },
+  "meetings_kind_online": {
+    "value": "Ar-lein",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0d21bd52"
+  },
+  "meetings_kind_channel": {
+    "value": "Ar sianel",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6e611a5b"
+  },
+  "meetings_today": {
+    "value": "Heddiw",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2b065c7c"
+  },
+  "meetings_spoken": {
+    "value": "Iaith",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b0a422a0"
+  },
+  "meetings_repeat_once": {
+    "value": "Un dyddiad",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "af4b82fa"
+  },
+  "meetings_repeat_weekly": {
+    "value": "Pob {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "334afb72"
+  },
+  "meetings_repeat_monthly_1": {
+    "value": "Pob {weekday} 1af",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4721ffa0"
+  },
+  "meetings_repeat_monthly_2": {
+    "value": "Pob 2il {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "cf11319c"
+  },
+  "meetings_repeat_monthly_3": {
+    "value": "Pob 3ydd {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6ecb3a6a"
+  },
+  "meetings_repeat_monthly_4": {
+    "value": "Pob 4ydd {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fde48201"
+  },
+  "meetings_repeat_monthly_last": {
+    "value": "Pob {weekday} olaf",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "249b8757"
+  },
+  "meetings_your_time": {
+    "value": "Dy amser di: {time}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d99b734d"
+  },
+  "meetings_listed_by": {
+    "value": "wedi'i restru gan {name}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "22a3c6a0"
+  },
+  "meetings_their_page": {
+    "value": "Eu tudalen",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4b4cc1a1"
+  },
+  "meetings_add_calendar": {
+    "value": "Ychwanegu at y calendr",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d0efffa6"
+  },
+  "meetings_empty_country": {
+    "value": "Does dim cyfarfodydd wedi'u rhestru yn y wlad hon eto. Ychwanega'r ffrwd isod nawr, ac mae dy galendr yn dangos cyfarfodydd newydd yn awtomatig.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ac1fa865"
+  },
+  "meetings_empty_country_cta": {
+    "value": "Ychwanega gyfarfod dy grŵp",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e31ccacb"
+  },
+  "meetings_empty_group": {
+    "value": "Does gan y grŵp hwn ddim cyfarfodydd wedi'u rhestru eto. Ychwanega ei ffrwd isod nawr, ac mae dy galendr yn dangos cyfarfodydd newydd yn awtomatig.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ec792e24"
+  },
+  "meetings_as_of": {
+    "value": "Rhestr fel yr oedd ar {date}.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "243d44bb"
+  },
+  "meetings_feed_title": {
+    "value": "Cael y cyfarfodydd hyn yn dy galendr",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ba1c4685"
+  },
+  "meetings_feed_body": {
+    "value": "Copïa'r ddolen hon a'i hychwanegu at dy ap calendr fel tanysgrifiad. Wedyn mae dy galendr yn ychwanegu cyfarfodydd newydd yn awtomatig. Mae'n gweithio cyn bod cyfarfodydd hefyd.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8ae965d1"
+  },
+  "meetings_feed_pick": {
+    "value": "Pa gyfarfodydd?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b962e77b"
+  },
+  "meetings_feed_europe": {
+    "value": "Ewrop gyfan",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "326c492d"
+  },
+  "meetings_feed_groups": {
+    "value": "Grwpiau lleol",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dff00c14"
+  },
+  "meetings_copy": {
+    "value": "Copïo'r ddolen",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dbf362d4"
+  },
+  "meetings_copied": {
+    "value": "Wedi'i chopïo",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8d525e5f"
+  },
+  "meetings_add_title": {
+    "value": "Ychwanega dy gyfarfod",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7f5cd406"
+  },
+  "meetings_add_body": {
+    "value": "Llenwa'r ffurflen hon unwaith. Does dim angen grŵp wedi'i restru arnat ti. Rydyn ni'n gwirio'r ddolen ac yn ychwanegu dy gyfarfod. Mae cyfarfod sy'n ailadrodd yn aros ar y rhestr am 6 mis; anfona'r ffurflen eto i'w gadw'n hirach.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8428d436"
+  },
+  "meetings_next_title": {
+    "value": "Y cyfarfodydd nesaf",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "89d075ce"
+  },
+  "meetings_all": {
+    "value": "Pob cyfarfod",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8406d032"
+  },
+  "meetings_next": {
+    "value": "Y cyfarfod nesaf",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e97c87bd"
+  },
+  "meetings_last": {
+    "value": "Y cyfarfod diwethaf",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "61922265"
+  },
+  "meetings_group_feed": {
+    "value": "Cael cyfarfodydd y grŵp hwn yn dy galendr",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "382f76fb"
+  },
+  "community_search_meetings": {
+    "value": "Cyfarfodydd ger {place}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9dfdca50"
+  },
+  "meetings_map_hint": {
+    "value": "Mae sgwâr yn gyfarfod yn y 30 diwrnod nesaf.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6f937c88"
+  },
+  "meetings_add_group": {
+    "value": "Grŵp lleol",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "21b10847"
+  },
+  "meetings_add_group_new": {
+    "value": "Grŵp newydd, heb ei restru eto",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a4159cd"
+  },
+  "meetings_add_group_none": {
+    "value": "Dim grŵp",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2463cfb8"
+  },
+  "meetings_add_new_group": {
+    "value": "Enw dy grŵp",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b593feb6"
+  },
+  "meetings_add_region": {
+    "value": "Rhanbarth neu ddinas, os nad yw dy grŵp yn cwmpasu'r wlad gyfan",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4ac7ccde"
+  },
+  "meetings_add_links": {
+    "value": "Gwefan neu sgwrs gyhoeddus dy grŵp",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ab1c8140"
+  },
+  "meetings_add_who": {
+    "value": "Pwy sy'n cynnal y cyfarfod hwn?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f55abade"
+  },
+  "meetings_add_who_example": {
+    "value": "Clwb, hackerspace neu enw rwyt ti eisiau ei ddangos",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "38de17e3"
+  },
+  "meetings_add_page": {
+    "value": "Tudalen gyhoeddus am y cyfarfod hwn",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "733d7b57"
+  },
+  "meetings_add_name": {
+    "value": "Enw'r cyfarfod",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d944cb35"
+  },
+  "meetings_add_kind": {
+    "value": "Sut mae pobl yn ymuno?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7a0bae93"
+  },
+  "meetings_add_place": {
+    "value": "Lle cyhoeddus, dolen neu sianel",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b67943a9"
+  },
+  "meetings_add_first": {
+    "value": "Dyddiad cyntaf",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9dbd4f04"
+  },
+  "meetings_add_time": {
+    "value": "Amser, yn ôl amser lleol",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "015e7494"
+  },
+  "meetings_add_rule": {
+    "value": "Pa mor aml?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ddc79ba1"
+  },
+  "meetings_add_languages": {
+    "value": "Ieithoedd a siaredir",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "65a782e4"
+  },
+  "meetings_add_open": {
+    "value": "Gall unrhyw un ymuno â'r cyfarfod hwn, heb wahoddiad.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "974467c3"
+  },
+  "meetings_add_open_form": {
+    "value": "Agor y ffurflen ar GitHub",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "019b07aa"
+  },
+  "meetings_add_need_new_group": {
+    "value": "Ychwanega enw dy grŵp.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e80cb28c"
+  },
+  "meetings_add_need_new_link": {
+    "value": "Ychwanega ddolen gyhoeddus i dy grŵp.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a24f94d"
+  },
+  "meetings_add_need_who": {
+    "value": "Dyweda pwy sy'n cynnal y cyfarfod hwn.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2e0010ac"
+  },
+  "meetings_add_need_page": {
+    "value": "Ychwanega dudalen gyhoeddus am y cyfarfod hwn.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b3b3de31"
+  },
+  "meetings_add_need_place": {
+    "value": "Llenwa'r enw, y lle, yr amser a'r ieithoedd.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "05437f1c"
+  },
+  "meetings_add_need_open": {
+    "value": "Dim ond cyfarfodydd y gall unrhyw un ymuno â nhw rydyn ni'n eu rhestru.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dd4b5f10"
+  },
+  "meetings_add_need_date": {
+    "value": "Mae'r dyddiad hwn wedi mynd heibio. Dewisa un newydd.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d2351d30"
+  },
+  "meetings_add_next_dates": {
+    "value": "Dy ddyddiadau nesaf",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a762da5"
+  },
+  "meetings_add_feed_title": {
+    "value": "Dolen dy galendr",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "3a418e8c"
+  },
+  "meetings_add_feed_group": {
+    "value": "Mae gan dy grŵp y ddolen hon yn barod.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "937b5be9"
+  },
+  "meetings_add_feed_new": {
+    "value": "Rydyn ni'n rhestru dy gyfarfod yn gyntaf, yn y ffrydiau ar gyfer Ewrop a dy wlad. Wedyn rydyn ni'n gwirio dy grŵp ac yn ei ychwanegu at Grwpiau lleol, gyda'i ddolen ei hun.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e63f510c"
+  },
+  "meetings_add_feed_none": {
+    "value": "Mae dy gyfarfod yn mynd i'r ffrydiau ar gyfer Ewrop a dy wlad.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0789df65"
+  },
+  "meetings_add_how_title": {
+    "value": "Sut mae dolen calendr grŵp yn gweithio",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2f16e35a"
+  },
+  "meetings_add_how_1": {
+    "value": "Mae gan bob grŵp ar Grwpiau lleol ei ddolen ei hun, hyd yn oed cyn ei gyfarfod cyntaf. Mae hi ar gerdyn dy grŵp.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "003c9615"
+  },
+  "meetings_add_how_2": {
+    "value": "Rho'r ddolen ar dy wefan neu pinia hi yn dy sgwrs.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "74a2d43c"
+  },
+  "meetings_add_how_3": {
+    "value": "Mae aelodau'n ei hychwanegu at eu ap calendr fel tanysgrifiad. Wedyn mae dyddiadau newydd yn ymddangos yno'n awtomatig.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8480d2ed"
+  },
+  "meetings_add_how_note": {
+    "value": "I newid dyddiad, anfona'r ffurflen eto. Mae apiau calendr yn gwirio'r ddolen yn ôl eu hamserlen eu hunain, felly gall dyddiad newydd gymryd amser i ymddangos.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d533e900"
   }
 }

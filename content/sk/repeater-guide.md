@@ -6,11 +6,11 @@ eyebrow: 868 MHz · do 500 mW · bez licencie
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '7c7e3be3'
-  seeded: '2026-11-02'
+  source_hash: '3e38a8c6'
+  seeded: '2026-11-04'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '766086be', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', '6a7c4493', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
 ---
 
 Na opakovačoch (repeateroch) stojí sieť mesh. Companiony, teda rádiá, z ktorých píšeš správy, ich
@@ -42,18 +42,42 @@ Výška je dôležitejšia než výkon. LoRa na 868 MHz sa najlepšie šíri pri
 viditeľnosti bez prekážok. Kopce, budovy a husté stromy uberú oveľa viac dosahu, než koľko vrátí
 pár miliwattov navyše.
 
-- **Choď do výšky.** Strecha, stožiar, vysoká budova alebo kopec pokryjú oveľa viac
-  než parapet. Pomôže aj pár metrov nad okolitými strechami.
-- **Nechaj anténu vo voľnom priestore.** Namontuj ju nad okraje striech, ďalej od
-  kovu, odkvapov a iných antén.
+- **Umiestni ho vysoko.** Strecha, stožiar, vysoká budova alebo kopec pokryjú oveľa väčšiu
+  oblasť než okenný parapet. Pomôže aj pár metrov nad okolitými strechami.
+- **Daj anténu na voľné miesto.** Namontuj ju nad okraje striech, ďalej od kovu,
+  odkvapov a iných antén.
 - **Over si výhľad.** Nástroje ako [HeyWhatsThat](https://www.heywhatsthat.com/)
-  ukážu, čo je z daného miesta vidieť. Ak nejaké miesto vidíš, opakovač na ňom
-  je v dosahu.
-- **Nechaj voľný priestor.** Rádiová trasa potrebuje voľný priestor aj okolo priamej
-  spojnice, nielen samotnú spojnicu. Na dlhých vzdialenostiach by mal stred trasy
-  prechádzať niekoľko metrov nad prekážkami.
-- **Vypýtaj si povolenie.** Získaj súhlas vlastníka strechy alebo stožiara a dohodni sa,
-  ako sa k opakovaču dostaneš pri údržbe.
+  ukážu, čo je z daného miesta vidieť. Aplikácia MeshCore
+  [vypočíta, kam by odtiaľ repeater dosiahol](#check-site).
+- **Nechaj voľný priestor.** Rádiová cesta potrebuje voľný priestor okolo priamej spojnice,
+  nielen samotnú spojnicu. Pri 868 MHz je to v strede 5 km cesty
+  asi 20 m. Pri 20 km je to asi 40 m.
+- **Požiadaj o povolenie.** Získaj súhlas majiteľa strechy alebo stožiara a dohodni sa,
+  ako sa k repeateru dostaneš pri údržbe.
+
+### Over si miesto v aplikácii {#check-site}
+
+Aplikácia MeshCore od verzie 1.33 má tieto nástroje v ponuke pod položkou **Tools**.
+Fungujú aj bez pripojeného rádia.
+
+- **Line of Sight** nakreslí terén medzi 2 bodmi a priestor, ktorý signál nad ním potrebuje. Dlho podrž 2 body na mape alebo ťukni na repeatery.
+- **Antenna Coverage** ukáže na mape, kam dosiahne anténa v 1 bode. Dlho podrž bod alebo ťukni na repeater. Pridaj ďalšie body a porovnaj miesta.
+
+Na počítači vyber v ponuke nástroja **Add Point** a zadaj súradnice.
+
+Oba nástroje predvolene počítajú s anténou na tvojom mieste vo výške 5 m, preto
+v nastaveniach nástroja nastav výšku, ktorú plánuješ. Antenna Coverage predvolene
+počíta s prijímacou anténou vo výške 1 m. Ak nemáš pripojené rádio, Line of Sight
+predvolene používa 915 MHz: v jeho nastaveniach nastav frekvenciu svojej
+[predvoľby](/guides/settings/).
+
+Nástroje počítajú z výškových údajov a tvoje rádio netestujú. Stromy a
+nové budovy si over sám, potom vezmi companion na dané miesto a zisti, ktoré
+repeatery počuje.
+
+![Line of Sight v aplikácii MeshCore: terén medzi 2 bodmi a priestor, ktorý signál nad ním potrebuje](/media/guides/line-of-sight.webp)
+
+![Antenna Coverage v aplikácii MeshCore: oblasť na mape, kam dosiahne anténa na kopci](/media/guides/antenna-coverage.webp)
 
 ## Hardvér {#hardware}
 

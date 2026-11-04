@@ -3,7 +3,7 @@
     "language": "fi",
     "name": "Suomi",
     "managed_by": "community",
-    "updated": "2026-11-02"
+    "updated": "2026-11-04"
   },
   "site_tagline": {
     "value": "Viestintää ilman verkkoa kautta Euroopan",
@@ -142,6 +142,30 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "8d525e5f"
+  },
+  "short_link": {
+    "value": "Lyhytlinkki",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f44e613a"
+  },
+  "short_links_page": {
+    "value": "Sivu",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0a30a815"
+  },
+  "short_links_country": {
+    "value": "Asetukset Saksalle (käytä oman maasi koodia)",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9f895094"
+  },
+  "short_links_area": {
+    "value": "Asetukset Limburgille",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5d3b1103"
   },
   "hero_eyebrow": {
     "value": "868 MHz · Eurooppa",
@@ -912,10 +936,10 @@
     "_source": "a52ace42"
   },
   "community_missing_body": {
-    "value": "Kuka tahansa voi lisätä paikallisryhmän. Avaa issue, jossa on ryhmän nimi, alue ja linkit, ja ylläpitäjä lisää sen kaikille kielille kerralla.",
+    "value": "Kuka tahansa voi lisätä paikallisen ryhmän. Avaa issue, jossa on ryhmän nimi, alue ja linkit. Ylläpitäjä lisää sen kerralla kaikille kielille. Tekeekö ryhmäsi yhteistyötä kunnan, palokunnan tai väestönsuojelun kanssa? Kerro se issuessa julkisen linkin kanssa. Lisäämme sen ryhmäsi kuvaukseen.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "a626e730"
+    "_seeded": "2026-11-04",
+    "_source": "15c70c68"
   },
   "community_missing_cta": {
     "value": "Lisää paikallisryhmäsi",
@@ -928,6 +952,66 @@
     "_ai": true,
     "_seeded": "2026-10-31",
     "_source": "0b6beef7"
+  },
+  "community_search_or": {
+    "value": "Tai hae postinumerolla",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "868b07ff"
+  },
+  "community_map_label": {
+    "value": "Euroopan kartta, jossa paikalliset ryhmät",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "39852ecb"
+  },
+  "community_map_hint": {
+    "value": "Valitse maa tai piste, niin näet sen ryhmät. Ympyrä näyttää ryhmän likimääräisen alueen. Avoin piste on koko maan ryhmä.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8a99c786"
+  },
+  "community_map_credit": {
+    "value": "Karttatiedot:",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "38bfee0b"
+  },
+  "community_map_here": {
+    "value": "Ryhmät täällä",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8e5bcafb"
+  },
+  "community_map_country": {
+    "value": "Ryhmät: {country}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fb89e1cc"
+  },
+  "community_map_none": {
+    "value": "Tässä maassa ei ole vielä paikallista ryhmää.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f9c4a071"
+  },
+  "community_map_zoom_in": {
+    "value": "Lähennä",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0e47f09a"
+  },
+  "community_map_zoom_out": {
+    "value": "Loitonna",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "bc7b631a"
+  },
+  "community_map_reset": {
+    "value": "Koko kartta",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5b8e0478"
   },
   "community_search_country": {
     "value": "Maa",
@@ -2208,10 +2292,10 @@
     "_source": "9f0065e0"
   },
   "community.de-isarmesh.desc": {
-    "value": "Foorumi LoRa mesh -käyttäjille Münchenin seudulla. Se järjestää säännöllisiä tapaamisia ja keskustelee MeshCoresta ja muista mesh-projekteista.",
+    "value": "Foorumi LoRa-mesh-käyttäjille Münchenin seudulla. Aiheina MeshCore ja muut mesh-projektit.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "05e62cf9"
+    "_seeded": "2026-11-04",
+    "_source": "33c3e363"
   },
   "community.de-mesh-dresden.desc": {
     "value": "Dresdenin ryhmä, jolla on syventäviä teknisiä artikkeleita toistinten ylläpitäjille. Se pyörittää myös paikallista keskustelua MeshCoresta ja muista mesh-projekteista.",
@@ -2238,10 +2322,10 @@
     "_source": "3eb31061"
   },
   "community.sk-meshcore-slovensko.desc": {
-    "value": "Slovakialainen verkkosivu, jota isännöi bratislavalainen radioamatöörikerho, Discord-palvelimella ja viikoittaisilla tapaamisilla.",
+    "value": "Slovakian verkon sivu, jota ylläpitää bratislavalainen radioamatöörikerho. Mukana Discord-palvelin.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "950a6862"
+    "_seeded": "2026-11-04",
+    "_source": "ea102b97"
   },
   "community.pl-meshcore-polska.desc": {
     "value": "Koko Puolan kattava yhteisö, jolla on solmukartta, puolankielinen dokumentaatio ja Discord-palvelin.",
@@ -2424,10 +2508,10 @@
     "_source": "2a7d4602"
   },
   "community.de-ffnw.desc": {
-    "value": "Freifunk-yhdistys, joka on ylläpitänyt yhteisön WiFi-meshiä Weser-Emsin alueella vuodesta 2013 ja ylläpitää nyt myös MeshCore-toistimia. Se kokoontuu kuukausittain Oldenburgissa.",
+    "value": "Freifunk-yhdistys, joka on ylläpitänyt yhteisön WiFi-meshiä Weser-Emsin alueella vuodesta 2013. Nyt se ylläpitää myös MeshCore-toistimia.",
     "_ai": true,
-    "_seeded": "2026-10-28",
-    "_source": "abb2138f"
+    "_seeded": "2026-11-04",
+    "_source": "6fd9acc0"
   },
   "community.de-meshcore-dresden.desc": {
     "value": "Ryhmä, joka rakentaa MeshCore-verkkoa Dresdenissä ja sen ympäristössä, alueet ja kanavat listattuina.",
@@ -2466,10 +2550,10 @@
     "_source": "dc1d7f13"
   },
   "community.de-ka-mesh.desc": {
-    "value": "Ryhmä rakentaa MeshCore-verkkoa Karlsruhen ja Pforzheimin alueelle, ja sillä on kanavalista ja tapaamisia.",
+    "value": "Ryhmä, joka rakentaa MeshCore-verkkoa Karlsruhen ja Pforzheimin seudulle. Mukana kanavalista.",
     "_ai": true,
-    "_seeded": "2026-11-02",
-    "_source": "20d493a1"
+    "_seeded": "2026-11-04",
+    "_source": "62f0440b"
   },
   "community.de-ostfriesland.desc": {
     "value": "Yhteinen kanava koko Itä-Friisille, Aurichin, Wittmundin, Nordenin ja Emdenin seudulla. Ryhmä toimii vain meshissä, eikä sillä ole verkkosivustoa tai chattia.",
@@ -3156,10 +3240,10 @@
     "_source": "4608abcd"
   },
   "guides_card_repeater_desc": {
-    "value": "Toistin välittää viestejä kaikille ympärillään. Sijoitus, komennot sen määrittämiseen ja 868 MHz:n lailliset rajat.",
+    "value": "Toistin välittää viestejä eteenpäin kaikille ympärillään. Sijoitus, sovelluksen suunnittelutyökalut, asetuskomennot ja 868 MHz:n lailliset rajat.",
     "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "979d61a1"
+    "_seeded": "2026-11-04",
+    "_source": "f52f6bd7"
   },
   "guides_card_resilient_title": {
     "value": "Tee meshistä kestävä",
@@ -3323,6 +3407,12 @@
     "_seeded": "2026-10-26",
     "_source": "6fd605ec"
   },
+  "area_note_pt_bridges": {
+    "value": "Portugalissa käytetään kahta esiasetusta, ja sillat välittävät kaiken MeshCore-liikenteen niiden välillä. Portugal 433 vaatii laitteen, jossa on 433 MHz:n radio.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "948efc51"
+  },
   "area_path_hash": {
     "value": "Reittitiiviste (radioasetuksen määräämä)",
     "_ai": true,
@@ -3364,6 +3454,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "89d3440f"
+  },
+  "area_source_link": {
+    "value": "lähde",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "41cf6794"
   },
   "area_checked": {
     "value": "tarkistettu",
@@ -3455,6 +3551,78 @@
     "_seeded": "2026-10-26",
     "_source": "a6221a2f"
   },
+  "regions_district": {
+    "value": "Piirisi tai saaresi koodi",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f46ccde8"
+  },
+  "regions_preset_pick": {
+    "value": "Radiosi esiasetus",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "1d5f12a5"
+  },
+  "regions_nesting": {
+    "value": "Pidä alueesi sisäkkäin, jokainen ylemmän alueen sisällä. Kiireinen toistin, jossa on duty cycle -rajoitus, pudottaa silloin ensin laajimman alueen. Oman alueesi viestit kulkevat edelleen.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4bd6c031"
+  },
+  "regions_nesting_link": {
+    "value": "Miksi sisäkkäisyys on tärkeää",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "01aad29b"
+  },
+  "regions_style": {
+    "value": "Näin kirjoitat komennot",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b2634f41"
+  },
+  "regions_style_put": {
+    "value": "Yksi rivi aluetta kohden",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7020bdec"
+  },
+  "regions_style_def": {
+    "value": "Kaikki yhdelle riville, laiteohjelmisto 1.16 tai uudempi",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7b909df1"
+  },
+  "regions_note_pt": {
+    "value": "MeshCore Portugal käyttää Euroopan koodina europe, kun muut maat käyttävät eu. Nämä ovat kaksi erillistä aluetta: toistin, joka tuntee vain europe, pudottaa eu:hun lähetetyt viestit, ja päinvastoin. LusoFW v2026.9.1 tai uudempi täyttää alueet itse. Käytä alla olevia komentoja, kun asetat ne käsin.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "37de255f"
+  },
+  "regions_table_title": {
+    "value": "Portugalin alueet ja piirit",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "10268d8d"
+  },
+  "regions_table_region": {
+    "value": "Alue",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d3a008ef"
+  },
+  "regions_table_inside": {
+    "value": "Alueeseen kuuluvat piirit ja saaret",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "97d751bd"
+  },
+  "regions_footnote_pt": {
+    "value": "Setúbal on jaettu kunnittain. Alcochete, Almada, Barreiro, Moita, Montijo, Palmela, Seixal, Sesimbra ja Setúbal kuuluvat Lisboa e Vale do Tejoon. Alcácer do Sal, Grândola, Santiago do Cacém ja Sines kuuluvat Alentejoon.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e4d089f6"
+  },
   "regions_map": {
     "value": "Kartta",
     "_ai": true,
@@ -3473,6 +3641,12 @@
     "_seeded": "2026-10-26",
     "_source": "54f7feb3"
   },
+  "regions_cmd_hint_town": {
+    "value": "Kirjoita kaupunkisi yllä olevaan kenttään, jos alueesi käyttää sitä. Kopioi sitten.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "73fd15ae"
+  },
   "area_ph_hint": {
     "value": "Kirjoita omat arvosi korostettujen päälle, ja kopioi sitten.",
     "_ai": true,
@@ -3490,6 +3664,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "90064d5a"
+  },
+  "area_ph_band": {
+    "value": "Radiosi esiasetus",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "1d5f12a5"
   },
   "area_map_label": {
     "value": "Kartta alueista ja niiden radioasetuksesta",
@@ -6268,5 +6448,437 @@
     "_ai": true,
     "_seeded": "2026-10-27",
     "_source": "dbcd5e7b"
+  },
+  "meetings_strip_title": {
+    "value": "Seuraavat 8 viikkoa",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fc9d509f"
+  },
+  "meetings_kind_in_person": {
+    "value": "Paikan päällä",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5cf02dbb"
+  },
+  "meetings_kind_online": {
+    "value": "Verkossa",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0d21bd52"
+  },
+  "meetings_kind_channel": {
+    "value": "Kanavalla",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6e611a5b"
+  },
+  "meetings_today": {
+    "value": "Tänään",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2b065c7c"
+  },
+  "meetings_spoken": {
+    "value": "Kieli",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b0a422a0"
+  },
+  "meetings_repeat_once": {
+    "value": "Yksi päivä",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "af4b82fa"
+  },
+  "meetings_repeat_weekly": {
+    "value": "Joka {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "334afb72"
+  },
+  "meetings_repeat_monthly_1": {
+    "value": "Kuun 1. {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4721ffa0"
+  },
+  "meetings_repeat_monthly_2": {
+    "value": "Kuun 2. {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "cf11319c"
+  },
+  "meetings_repeat_monthly_3": {
+    "value": "Kuun 3. {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6ecb3a6a"
+  },
+  "meetings_repeat_monthly_4": {
+    "value": "Kuun 4. {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "fde48201"
+  },
+  "meetings_repeat_monthly_last": {
+    "value": "Kuun viimeinen {weekday}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "249b8757"
+  },
+  "meetings_your_time": {
+    "value": "Sinun aikasi: {time}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d99b734d"
+  },
+  "meetings_listed_by": {
+    "value": "lisännyt {name}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "22a3c6a0"
+  },
+  "meetings_their_page": {
+    "value": "Heidän sivunsa",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4b4cc1a1"
+  },
+  "meetings_add_calendar": {
+    "value": "Lisää kalenteriin",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d0efffa6"
+  },
+  "meetings_empty_country": {
+    "value": "Tässä maassa ei ole vielä tapaamisia listalla. Lisää alla oleva syöte nyt, niin kalenterisi näyttää uudet tapaamiset automaattisesti.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ac1fa865"
+  },
+  "meetings_empty_country_cta": {
+    "value": "Lisää ryhmäsi tapaaminen",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e31ccacb"
+  },
+  "meetings_empty_group": {
+    "value": "Tällä ryhmällä ei ole vielä tapaamisia listalla. Lisää sen syöte alta nyt, niin kalenterisi näyttää uudet tapaamiset automaattisesti.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ec792e24"
+  },
+  "meetings_as_of": {
+    "value": "Lista päivältä {date}.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "243d44bb"
+  },
+  "meetings_feed_title": {
+    "value": "Saa nämä tapaamiset kalenteriisi",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ba1c4685"
+  },
+  "meetings_feed_body": {
+    "value": "Kopioi tämä linkki ja lisää se kalenterisovellukseesi tilauksena. Kalenterisi lisää sitten uudet tapaamiset automaattisesti. Se toimii myös ennen kuin tapaamisia on.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8ae965d1"
+  },
+  "meetings_feed_pick": {
+    "value": "Mitkä tapaamiset?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b962e77b"
+  },
+  "meetings_feed_europe": {
+    "value": "Koko Eurooppa",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "326c492d"
+  },
+  "meetings_feed_groups": {
+    "value": "Paikalliset ryhmät",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dff00c14"
+  },
+  "meetings_copy": {
+    "value": "Kopioi linkki",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dbf362d4"
+  },
+  "meetings_copied": {
+    "value": "Kopioitu",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8d525e5f"
+  },
+  "meetings_add_title": {
+    "value": "Lisää tapaamisesi",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7f5cd406"
+  },
+  "meetings_add_body": {
+    "value": "Täytä tämä lomake kerran. Ryhmäsi ei tarvitse olla listalla. Tarkistamme linkin ja lisäämme tapaamisesi. Toistuva tapaaminen pysyy listalla 6 kuukautta. Lähetä lomake uudelleen, jos haluat pitää sen pidempään.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8428d436"
+  },
+  "meetings_next_title": {
+    "value": "Seuraavat tapaamiset",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "89d075ce"
+  },
+  "meetings_all": {
+    "value": "Kaikki tapaamiset",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8406d032"
+  },
+  "meetings_next": {
+    "value": "Seuraava tapaaminen",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e97c87bd"
+  },
+  "meetings_last": {
+    "value": "Edellinen tapaaminen",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "61922265"
+  },
+  "meetings_group_feed": {
+    "value": "Saa tämän ryhmän tapaamiset kalenteriisi",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "382f76fb"
+  },
+  "community_search_meetings": {
+    "value": "Tapaamiset lähellä: {place}",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9dfdca50"
+  },
+  "meetings_map_hint": {
+    "value": "Neliö on tapaaminen seuraavan 30 päivän aikana.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6f937c88"
+  },
+  "meetings_add_group": {
+    "value": "Paikallinen ryhmä",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "21b10847"
+  },
+  "meetings_add_group_new": {
+    "value": "Uusi ryhmä, ei vielä listalla",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a4159cd"
+  },
+  "meetings_add_group_none": {
+    "value": "Ei ryhmää",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2463cfb8"
+  },
+  "meetings_add_new_group": {
+    "value": "Ryhmäsi nimi",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b593feb6"
+  },
+  "meetings_add_region": {
+    "value": "Alue tai kaupunki, jos ryhmäsi ei ole koko maan ryhmä",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "4ac7ccde"
+  },
+  "meetings_add_links": {
+    "value": "Ryhmäsi julkinen verkkosivu tai chat",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ab1c8140"
+  },
+  "meetings_add_who": {
+    "value": "Kuka järjestää tämän tapaamisen?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "f55abade"
+  },
+  "meetings_add_who_example": {
+    "value": "Kerho, hackerspace tai nimi, jonka haluat näyttää",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "38de17e3"
+  },
+  "meetings_add_page": {
+    "value": "Julkinen sivu tästä tapaamisesta",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "733d7b57"
+  },
+  "meetings_add_name": {
+    "value": "Tapaamisen nimi",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d944cb35"
+  },
+  "meetings_add_kind": {
+    "value": "Miten osallistutaan?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "7a0bae93"
+  },
+  "meetings_add_place": {
+    "value": "Julkinen paikka, linkki tai kanava",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b67943a9"
+  },
+  "meetings_add_first": {
+    "value": "Ensimmäinen päivä",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "9dbd4f04"
+  },
+  "meetings_add_time": {
+    "value": "Kellonaika, paikallista aikaa",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "015e7494"
+  },
+  "meetings_add_rule": {
+    "value": "Kuinka usein?",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "ddc79ba1"
+  },
+  "meetings_add_languages": {
+    "value": "Puhutut kielet",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "65a782e4"
+  },
+  "meetings_add_open": {
+    "value": "Kuka tahansa voi osallistua tähän tapaamiseen ilman kutsua.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "974467c3"
+  },
+  "meetings_add_open_form": {
+    "value": "Avaa lomake GitHubissa",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "019b07aa"
+  },
+  "meetings_add_need_new_group": {
+    "value": "Lisää ryhmäsi nimi.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e80cb28c"
+  },
+  "meetings_add_need_new_link": {
+    "value": "Lisää julkinen linkki ryhmääsi.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a24f94d"
+  },
+  "meetings_add_need_who": {
+    "value": "Kerro, kuka järjestää tämän tapaamisen.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2e0010ac"
+  },
+  "meetings_add_need_page": {
+    "value": "Lisää julkinen sivu tästä tapaamisesta.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "b3b3de31"
+  },
+  "meetings_add_need_place": {
+    "value": "Täytä nimi, paikka, kellonaika ja kielet.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "05437f1c"
+  },
+  "meetings_add_need_open": {
+    "value": "Listaamme vain tapaamiset, joihin kuka tahansa voi osallistua.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "dd4b5f10"
+  },
+  "meetings_add_need_date": {
+    "value": "Tämä päivä on mennyt. Valitse uusi.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d2351d30"
+  },
+  "meetings_add_next_dates": {
+    "value": "Seuraavat päiväsi",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "5a762da5"
+  },
+  "meetings_add_feed_title": {
+    "value": "Kalenterilinkkisi",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "3a418e8c"
+  },
+  "meetings_add_feed_group": {
+    "value": "Ryhmälläsi on jo tämä linkki.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "937b5be9"
+  },
+  "meetings_add_feed_new": {
+    "value": "Listaamme tapaamisesi ensin Euroopan ja maasi syötteisiin. Sitten tarkistamme ryhmäsi ja lisäämme sen Paikallisiin ryhmiin omalla linkillään.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "e63f510c"
+  },
+  "meetings_add_feed_none": {
+    "value": "Tapaamisesi tulee Euroopan ja maasi syötteisiin.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "0789df65"
+  },
+  "meetings_add_how_title": {
+    "value": "Näin ryhmän kalenterilinkki toimii",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "2f16e35a"
+  },
+  "meetings_add_how_1": {
+    "value": "Jokaisella Paikallisten ryhmien ryhmällä on oma linkki, myös ennen ensimmäistä tapaamista. Se on ryhmäsi kortissa.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "003c9615"
+  },
+  "meetings_add_how_2": {
+    "value": "Laita linkki sivustollesi tai kiinnitä se chattiisi.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "74a2d43c"
+  },
+  "meetings_add_how_3": {
+    "value": "Jäsenet lisäävät sen kalenterisovellukseensa tilauksena. Uudet päivät näkyvät siellä sitten automaattisesti.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "8480d2ed"
+  },
+  "meetings_add_how_note": {
+    "value": "Jos haluat muuttaa päivää, lähetä lomake uudelleen. Kalenterisovellukset tarkistavat linkin omaan tahtiinsa, joten uuden päivän näkyminen voi kestää hetken.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "d533e900"
   }
 }

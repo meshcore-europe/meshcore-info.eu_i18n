@@ -1,16 +1,16 @@
 ---
 title: Ce este MeshCore?
 lead: MeshCore trimite mesaje text prin radio, de la nod la nod. Funcționează fără internet și fără abonament.
-description: 'Ce este MeshCore și ce nu este: tipuri de noduri, rutare, diferențele față de Meshtastic, criptarea și banda de 868 MHz.'
+description: 'Ce este MeshCore și ce nu este: tipuri de noduri, rutare, criptare și banda de 868 MHz.'
 eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '279b56a4'
-  seeded: '2026-11-02'
-  fields: {title: '06eda66b', lead: 'c0174569', description: '15e6d2a7', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '16fde264', '0a55792c', 'c3de803d', '493b444f', 'a8b2b9b4', '429f699c', 'f8008f48', '88af2bd3', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'fab378a5', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', 'fc8f3129', '8dec428a', '07cbac35', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '95e18f18', '02f1fe2f', 'e6b5b258']
+  source_hash: '2a40da22'
+  seeded: '2026-11-04'
+  fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
+  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore este un software gratuit pentru radiouri LoRa mici. LoRa este o tehnică radio
@@ -27,32 +27,30 @@ MIT.
 Ești nou în lumea radio? Acestea sunt lucrurile pe care oamenii le așteaptă cel mai des de la MeshCore,
 dar pe care MeshCore nu le face.
 
-- **Nu este internet și nici telefon.** MeshCore trimite mesaje text scurte,
-  cam cât un SMS pe telefonul tău. Fără voce, fotografii, video
-  sau site-uri web, și nu poți contacta un număr de telefon obișnuit.
-- **Nu este un serviciu de urgență.** Niciun serviciu de urgență nu ascultă în
-  mesh și nimeni nu îți promite că cineva îți citește mesajul. În caz de
-  urgență, sună la 112.
-- **Nu este instant și nu merge peste tot.** Un mesaj sare din radio în
-  radio și poate dura câteva secunde sau poate să nu ajungă deloc. Dacă ajunge sau nu depinde
-  de repetoarele din jurul tău, de înălțime, de clădiri și de antena ta.
-  În interior, un radio mic adesea nu ajunge la nimeni; un repetor pe acoperiș
+- **Nu este internetul și nici un telefon.** MeshCore trimite mesaje text scurte,
+  cam cât un SMS de pe telefonul tău. Nu ai voce, poze, video
+  sau site-uri web și nu poți contacta un număr de telefon obișnuit.
+- **Nu este un serviciu de urgență.** Niciun serviciu de urgență nu promite că
+  ascultă mesh-ul și nimeni nu promite că cineva îți citește mesajul.
+- **Nu este instant și nu este peste tot.** Un mesaj sare din radio în
+  radio. Poate dura câteva secunde sau poate să nu ajungă deloc. Dacă ajunge sau nu
+  depinde de repetoarele din jurul tău, de înălțime, de clădiri și de antena ta.
+  Un radio mic ținut în casă adesea nu ajunge la nimeni. Un repetor pe un acoperiș
   ajunge la kilometri distanță.
-- **Nu este un serviciu pe care cineva îl operează pentru tine.** Nu există furnizor,
-  nici helpdesk, nici promisiune de acoperire. Mesh-ul există acolo unde oamenii din
-  comunitate au instalat repetoare, și nicăieri altundeva.
-- **Nu tot ce circulă în mesh este privat.** Mesajele directe sunt criptate, dar
-  oricine poate citi canalul Public și canalele cu hashtag, iar numele nodului tău
-  și poziția pe care o partajezi sunt vizibile pentru toți cei aflați în rază.
-  [Observatorii](/network/) raportează hărților publice ce aud.
+- **Nu este un serviciu pe care cineva îl administrează pentru tine.** Nu există
+  furnizor, helpdesk sau promisiune de acoperire. Mesh-ul există acolo unde
+  oamenii din comunitate au instalat repetoare.
+- **Nu tot ce circulă pe el este privat.** Mesajele directe sunt criptate.
+  Canalul Public și canalele cu hashtag le poate citi însă oricine. Numele nodului tău
+  și poziția pe care o partajezi sunt vizibile pentru toți cei din raza de acoperire.
+  [Observatorii](/network/) trimit pe hărți publice ce aud.
   [Secțiunea despre criptare](#encryption) explică ce rămâne privat.
-- **Nu este nelimitat.** Toți cei dintr-o zonă folosesc în comun un singur canal radio, iar
-  regulile pentru [banda de 868 MHz](#band) limitează cât timp poate transmite fiecare radio.
-  Fiecare mesaj consumă din timpul de emisie al tuturor celorlalți, așa că boții, anunțurile dese
-  și mesajele de test încetinesc mesh-ul pentru toți.
-- **Nu este Meshtastic.** Meshtastic este un alt sistem, care rulează pe
-  aproape aceleași plăci. Cele două nu pot comunica între ele.
-  [Dacă vii de la Meshtastic](#meshtastic) arată ce funcționează altfel.
+- **Nu este nelimitat.** Toți cei dintr-o zonă împart un singur canal radio.
+  Regulile pentru [banda de 868 MHz](#band) limitează cât timp poate emite fiecare radio.
+  Fiecare mesaj consumă din timpul de emisie al tuturor celorlalți. De aceea boții, anunțurile
+  dese și mesajele de test încetinesc mesh-ul pentru toată lumea.
+- **Nu este Meshtastic.** Meshtastic este un alt sistem care rulează
+  cam pe aceleași plăci. Cele două nu pot comunica între ele.
 
 ## Mesh-ul într-un minut {#mesh}
 
@@ -103,24 +101,6 @@ Repetoarele își amintesc ce au retransmis recent și aruncă copiile care sose
 din nou pe altă rută. Un mesaj poate trece prin cel mult 64 de repetoare, sau 32 acolo unde presetarea folosește
 ID-uri de 2 octeți.
 
-## Dacă vii de la Meshtastic {#meshtastic}
-
-Multe plăci rulează fie MeshCore, fie Meshtastic, iar tu încarci firmware-ul pe care îl
-vrei. Acestea sunt diferențele pe care le observi mai întâi. Se bazează pe MeshCore
-v1.18.0 și pe documentația Meshtastic din noiembrie 2026.
-
-- **Cine retransmite mesajele.** În MeshCore o fac doar repetoarele; companionul tău
-  nu o face niciodată. În Meshtastic, rolul implicit de client retransmite și el
-  mesajele, dacă nu a făcut-o deja alt nod.
-- **Cât de departe ajunge un mesaj.** Un mesaj MeshCore poate trece prin cel mult 64
-  de repetoare. Meshtastic se oprește implicit după 3 salturi, iar maximul este 7.
-- **Valori măsurate de la alte noduri.** Repetoarele și nodurile cu senzori din MeshCore trimit
-  valori măsurate, cum ar fi tensiunea bateriei, când le ceri. Nu le trimit în tot mesh-ul.
-- **Internetul.** Firmware-ul MeshCore nu are nicio legătură între mesh-uri prin
-  internet. [Observatorii](/network/) transmit hărților ce aud, doar într-un singur
-  sens. Meshtastic are un modul MQTT integrat, care poate transmite mesaje între
-  mesh-uri prin internet.
-
 ## Criptare și confidențialitate {#encryption}
 
 Mesajele tale directe sunt criptate cap la cap: doar tu și cealaltă persoană
@@ -156,19 +136,50 @@ local](/community/) știe care.
 
 ## La ce îl folosesc oamenii {#uses}
 
-- Păstrezi legătura în drumeții, pe mare și la festivaluri unde rețeaua mobilă
-  este supraîncărcată sau lipsește.
-- Un canal de rezervă pentru familie sau vecini când pică curentul sau rețelele
+- Să rămâi în legătură în drumeții, pe mare și la festivaluri unde rețeaua mobilă
+  e supraîncărcată sau lipsește.
+- Un canal de rezervă pentru familie sau vecini când cad curentul sau rețelele
   mobile.
-- Chat local pe radiouri pe care oamenii le dețin chiar ei.
-- Verifici de acasă un loc îndepărtat. Repetoarele și nodurile cu senzori îți trimit
-  tensiunea bateriei și alte valori măsurate când le ceri.
-- Urmărești un senzor. Un nod cu senzori rulează firmware-ul MeshCore pentru
-  măsurători. Nodul păstrează un istoric al valorilor măsurate. Dacă te abonezi, te
-  avertizează, de exemplu când i se descarcă bateria.
-- Comuți ceva aflat departe, de exemplu o pompă. Adaugi funcția asta în firmware-ul
-  pentru senzori, cu propriul tău cod.
-- Faci experimente cu radio, antene, energie solară și software open source.
+- O rezervă pentru autoritățile locale când le cad rețelele obișnuite.
+- Chat local pe stații radio care aparțin chiar oamenilor care le folosesc.
+- Să ții în legătură o echipă de căutare și salvare acolo unde nu există rețea mobilă.
+  MeshCore SAR, o aplicație a comunității din [Proiecte](/projects/), adaugă hărți și
+  poziții partajate.
+- Să verifici de acasă un loc îndepărtat. Repetoarele și nodurile senzor îți trimit
+  tensiunea bateriei și alte valori când le ceri.
+- Să urmărești un senzor. Un nod senzor rulează firmware-ul MeshCore pentru măsurători.
+  Păstrează un istoric al tensiunii bateriei. Te autentifici ca admin și nodul
+  te avertizează când bateria se descarcă. Alertele pentru alte valori le adaugi
+  cu propriul tău cod.
+- Să pornești sau să oprești de la distanță ceva, de exemplu o pompă. Adaugi asta în
+  firmware-ul senzorului cu propriul tău cod.
+- Să experimentezi cu radioul, antenele, energia solară și software-ul open source.
+
+Unele autorități construiesc sau testează un sistem de rezervă bazat pe MeshCore. Am verificat
+aceste exemple în noiembrie 2026.
+
+- Ciclonul Gabrielle a întrerupt toate comunicațiile în Tairāwhiti, Noua Zeelandă. În
+  septembrie 2025, serviciul de gestionare a urgențelor din regiune a desemnat MeshCore drept
+  [una dintre cel puțin 6 căi de rezervă pentru comunicare](https://www.scoop.co.nz/stories/AK2509/S00669.htm).
+  Serviciul construia și repetoare solare drept coloană vertebrală a rețelei.
+- Districtul german Bad Kissingen
+  [construiește o rețea de mesaje text pe MeshCore](https://www.landkreis-badkissingen.de/wirtschaft/digitalisierung/kommunikationsnetze/index.html)
+  pentru autorități, serviciile de urgență și obiectivele critice. Primele se conectează
+  remizele de pompieri.
+- Consiliul local din Hilversum, în Țările de Jos,
+  [a votat cu 34 la 1 pentru o testare](https://hilversum.nl/nieuwsoverzicht/gemeenteraad-buigt-zich-over-financien)
+  cu un repetor pe turnul primăriei. Municipalitatea
+  [o va evalua în toamna lui 2027](https://www.spreekbuis.nl/hilversum-start-proef-met-onafhankelijk-noodcommunicatienetwerk-meshcore/).
+- Două regiuni de siguranță din Țările de Jos, care organizează intervenția în caz de criză,
+  fac experimente cu MeshCore:
+  [Limburgul de Sud](https://nos.nl/nieuwsuur/artikel/2607176-communicatie-hulpdiensten-valt-uit-bij-lange-stroomstoring-oplossing-niet-in-zicht)
+  și [Drenthe](https://www.rtvdrenthe.nl/nieuws/18438486/hackerspace-drenthe-werkt-aan-een-noodnetwerk-voor-de-provincie).
+  Drenthe consideră că e prea devreme pentru a spune cum sau când l-ar putea folosi.
+- În Dalfsen, tot în Țările de Jos, voluntarii
+  [derulează un proiect pilot împreună cu municipalitățile](https://noodnetoverijssel.nl/).
+  Ei folosesc în primul rând radioul pentru voce, iar MeshCore e un al doilea nivel, pentru text.
+
+Nimeni nu-ți garantează că cineva din mesh-ul din jurul tău îți va citi mesajul.
 
 ## De unde provin datele {#data}
 

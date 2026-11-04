@@ -6,11 +6,11 @@ eyebrow: 6 kroků · MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0c1b08d9'
-  seeded: '2026-11-02'
+  source_hash: '0490a311'
+  seeded: '2026-11-04'
   fields: {title: '61e8d44a', lead: '45b0e5c3', description: 'cf031b18', eyebrow: '4fa6fe1e'}
-  sections: ['16c3728c', '90f3d626', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
-  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '757c634a', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
+  sections: ['16c3728c', '5b6d136a', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', '1741ed35', '66d00206']
+  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', 'e90b7859', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', '53276869', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
 ---
 
 Tento postup vychází z firmwaru MeshCore v1.18.0 a oficiálních nástrojů
@@ -27,8 +27,8 @@ samostatně.
 Kup verzi pro 868 MHz. Přiložená anténa stačí. Jak ji zkontrolovat, najdeš
 v [průvodci anténami](/guides/antenna/).
 
-Na desce ti teď běží Meshtastic? Nahráním MeshCore ho nahradíš a oba systémy spolu nekomunikují.
-[Přechod z Meshtasticu](/about/#meshtastic) uvádí, co funguje jinak.
+Na tvé desce teď běží Meshtastic? Nahráním MeshCore ho nahradíš a tyto dva
+systémy spolu nekomunikují.
 
 {{< callout type="warning" >}}
 Než rádio zapneš, připoj anténu. LoRa rádio, které vysílá bez antény, si
@@ -89,20 +89,22 @@ preset proto nevyžaduje aktualizaci aplikace.
 
 ## 6. Pozdrav ostatní {#hello}
 
-1. **Ohlas se.** Pošli z aplikace *advert*. „Flood“ advert putuje přes
-   repeatery (uzly, které zprávy předávají dál). Díky tomu si tě může přidat
-   každý v mesh síti.
-   Companiony se nikdy neohlašují automaticky.
-2. **Najdi ostatní.** Lidé se ti objeví v kontaktech, jakmile k tobě dorazí
-   jejich adverty. Repeatery standardně posílají flood advert každých
-   47 hodin. Naplnění seznamu proto může trvat 2 dny.
-3. **Pošli zprávu.** Otevři kontakt a napiš zprávu. První zpráva se šíří
-   sítí jako flood. Příjemce ti pošle zpět cestu, kterou zpráva prošla,
-   a další zprávy už jdou po ní.
-4. **Připoj se ke kanálům.** Kanál **Public** máš nastavený od začátku. Co
-   do něj napíšeš, dostane každý v mesh síti. *Hashtagový kanál* svého
-   regionu (název začínající `#`) přidáš tak, že napíšeš jeho název. Které
-   kanály jsou aktivní, ti řekne tvoje [místní skupina](/community/).
+1. **Ohlas se.** Pošli z aplikace *advert*. Advert typu „flood“ projde přes
+   repeatery (uzly, které zprávy předávají dál). Tak si tě může přidat každý
+   v mesh síti.
+   Companiony se nikdy neohlašují samy.
+2. **Najdi ostatní.** Lidé se objeví v tvých kontaktech, jakmile k tobě
+   dorazí jejich adverty. Repeatery ve výchozím nastavení posílají flood advert
+   každých 47 hodin. Naplnění seznamu tak může trvat 2 dny.
+3. **Pošli zprávu.** Otevři kontakt a napiš. První zpráva se šíří sítí jako
+   flood. Příjemce ti pošle zpět cestu, kterou zpráva prošla, a další zprávy
+   jdou touto cestou.
+4. **Přidej se do kanálů.** Kanál **Public** už máš nastavený. Cokoli tam
+   napíšeš, dorazí ke všem v mesh síti. Přidej *hashtagový kanál* svého regionu
+   (název začínající `#`) tak, že napíšeš jeho název. Tvoje
+   [místní skupina](/community/) ti řekne, které kanály jsou aktivní.
+   Chceš se s nimi setkat osobně? Podívej se na [setkání](/meetings/) ve
+   svém okolí.
 
 ## Když něco nefunguje {#troubleshooting}
 

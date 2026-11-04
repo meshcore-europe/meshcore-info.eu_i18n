@@ -6,11 +6,11 @@ eyebrow: 6 žingsniai · MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0c1b08d9'
-  seeded: '2026-11-02'
+  source_hash: '0490a311'
+  seeded: '2026-11-04'
   fields: {title: '61e8d44a', lead: '45b0e5c3', description: 'cf031b18', eyebrow: '4fa6fe1e'}
-  sections: ['16c3728c', '90f3d626', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
-  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '757c634a', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
+  sections: ['16c3728c', '5b6d136a', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', '1741ed35', '66d00206']
+  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', 'e90b7859', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', '53276869', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
 ---
 
 Šie žingsniai parašyti pagal MeshCore programinę įrangą v1.18.0 ir 2026 m. spalio mėnesio oficialius įrankius. Skirtingose versijose programėlės meniu pavadinimai gali šiek tiek skirtis.
@@ -21,7 +21,7 @@ Tinka bet kuri [įrenginių puslapyje](/devices/) esanti plokštė, prie kurios 
 
 Įsigyk 868 MHz versiją. Komplekte esančios antenos pakanka, o [antenų vadove](/guides/antenna/) rasi, kaip ją patikrinti.
 
-Tavo plokštėje dabar veikia Meshtastic? Kai įrašai MeshCore, jis pakeičia Meshtastic, o šios dvi sistemos tarpusavyje nesusikalba. Skiltyje [Perėjimas iš Meshtastic](/about/#meshtastic) išvardyta, kas veikia kitaip.
+Tavo plokštėje dabar veikia Meshtastic? Įrašęs MeshCore, pakeisi Meshtastic, o šios dvi sistemos tarpusavyje nesusikalba.
 
 {{< callout type="warning" >}}
 Prijunk anteną prieš įjungdamas radiją. LoRa radijas, siųsdamas be antenos, gali sugadinti savo lustą.
@@ -61,10 +61,12 @@ Abejoji? Tavo [vietinė grupė](/community/) žino, kurį profilį naudoja tavo 
 
 ## 6. Pasisveikink {#hello}
 
-1. **Prisistatyk.** Programėlėje išsiųsk skelbimą (*advert*). „Flood“ skelbimas keliauja per kartotuvus (mazgus, kurie perduoda žinutes toliau), tad visi tinklo dalyviai gali tave pridėti. Companion įrenginiai niekada neprisistato automatiškai.
-2. **Rask kitus.** Žmonės atsiranda tavo kontaktuose, kai tave pasiekia jų skelbimai. Pagal numatytuosius nustatymus kartotuvai siunčia „flood“ skelbimą kas 47 valandas, tad sąrašas gali pildytis 2 dienas.
-3. **Išsiųsk žinutę.** Atidaryk kontaktą ir rašyk. Pirmoji žinutė pasklinda po visą tinklą, gavėjas praneša, kokiu maršrutu ji atėjo, o vėlesnės žinutės keliauja tuo maršrutu.
-4. **Prisijunk prie kanalų.** Kanalas **Public** jau nustatytas, ir viską, ką jame parašai, gauna visi tinklo dalyviai. Savo regiono *grotažymės kanalą* (jo pavadinimas prasideda `#`) pridėk įvesdamas jo pavadinimą. Tavo [vietinė grupė](/community/) pasakys, kurie kanalai aktyvūs.
+1. **Prisistatyk.** Programėlėje išsiųsk *skelbimą*. „Flood“ skelbimas keliauja per retransliatorius (mazgus, kurie perduoda žinutes toliau), tad visi mesh tinkle gali tave pridėti.
+   Kompanionai patys savęs niekada neskelbia.
+2. **Rask kitus.** Žmonės atsiranda tavo kontaktuose, kai jų skelbimai tave pasiekia. Retransliatoriai pagal numatytuosius nustatymus siunčia flood skelbimą kas 47 valandas, tad gali prireikti 2 dienų, kol tavo sąrašas užsipildys.
+3. **Išsiųsk žinutę.** Atidaryk kontaktą ir rašyk. Pirmoji žinutė pasklinda tinkle flood būdu. Gavėjas atsiunčia atgal maršrutą, kuriuo ji atėjo, o vėlesnės žinutės keliauja juo.
+4. **Prisijunk prie kanalų.** Kanalas **Public** jau nustatytas: viskas, ką ten parašai, pasiekia visus mesh tinkle. Pridėk savo regiono *grotažymės kanalą* (kanalą, kurio pavadinimas prasideda `#`), įvesdamas jo pavadinimą. Tavo [vietinė grupė](/community/) pasakys, kurie kanalai aktyvūs.
+   Nori susitikti su jais gyvai? Pažiūrėk [susitikimus](/meetings/) savo apylinkėse.
 
 ## Kai kas nors neveikia {#troubleshooting}
 

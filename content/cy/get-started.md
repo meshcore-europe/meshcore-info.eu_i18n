@@ -6,11 +6,11 @@ eyebrow: 6 cham · MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0c1b08d9'
-  seeded: '2026-11-03'
+  source_hash: '0490a311'
+  seeded: '2026-11-04'
   fields: {title: '61e8d44a', lead: '45b0e5c3', description: 'cf031b18', eyebrow: '4fa6fe1e'}
-  sections: ['16c3728c', '90f3d626', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', 'a419ce79', '66d00206']
-  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', '757c634a', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', 'bc333adf', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
+  sections: ['16c3728c', '5b6d136a', 'df7a1665', '6da9fd7a', 'cb5fb72e', 'a1cf8b26', '1741ed35', '66d00206']
+  blocks: ['16c3728c', '2a70a7ed', '6f8e6f5f', '16c11d47', 'e90b7859', '081db416', 'd5e7fd0b', '6d28c323', 'eb2ea361', 'de50125c', 'ae20cb8e', 'abd42710', 'c08a865a', '7d1eb0b9', '263e0c96', '0903299f', 'eba20370', '5cdc20cf', '7f542f82', '802ca5a8', '1a854187', '53276869', 'f25b16fa', '7c893ae2', '7f5927b4', '26e13713', '39a142cf', 'a786620c', '216897fa', '2d222782', 'a9755900', 'f081b357']
 ---
 
 Mae'r camau hyn yn dilyn cadarnwedd MeshCore v1.18.0 ac offer swyddogol
@@ -26,9 +26,8 @@ dewisa un â'i sgrin a'i fysellfwrdd ei hun sy'n gweithio ar ei ben ei hun.
 Pryna'r fersiwn 868 MHz. Mae'r antena sy'n dod gyda'r ddyfais yn gwneud y tro;
 mae'r [canllaw antenâu](/guides/antenna/) yn dangos sut i wirio un.
 
-Ydy dy fwrdd yn rhedeg Meshtastic nawr? Mae fflachio MeshCore yn cymryd ei le, a dydy'r
-ddau ddim yn siarad â'i gilydd. Mae [Dod o Meshtastic](/about/#meshtastic)
-yn rhestru beth sy'n gweithio'n wahanol.
+Ydy dy fwrdd yn rhedeg Meshtastic ar hyn o bryd? Pan fyddi di'n fflachio MeshCore, mae'n cymryd ei
+le, a dydy'r ddau ddim yn siarad â'i gilydd.
 
 {{< callout type="warning" >}}
 Cysyllta'r antena cyn i ti droi'r radio ymlaen. Gall radio LoRa sy'n trawsyrru
@@ -90,20 +89,23 @@ MeshCore, felly does dim angen diweddaru'r ap ar gyfer rhagosodiad newydd.
 
 ## 6. Dweud helo {#hello}
 
-1. **Cyhoedda dy fod ti yno.** Anfona *advert* o'r ap. Mae advert "flood" yn
-   teithio drwy'r ailadroddyddion (nodau sy'n trosglwyddo negeseuon ymlaen), felly
-   gall pawb ar y mesh dy ychwanegu di.
-   Dydy companions byth yn cyhoeddi eu hunain yn awtomatig.
-2. **Dod o hyd i eraill.** Mae pobl yn ymddangos yn dy gysylltiadau pan fydd eu
-   hadverts yn dy gyrraedd. Yn ddiofyn, mae ailadroddyddion yn anfon advert flood
-   bob 47 awr, felly gall dy restr gymryd 2 ddiwrnod i lenwi.
-3. **Anfon neges.** Agor gyswllt ac ysgrifenna. Mae'r neges gyntaf yn gorlifo'r
-   rhwydwaith; mae'r derbynnydd yn rhoi gwybod pa lwybr a gymerodd hi, ac mae
+1. **Cyhoedda dy hun.** Anfona *advert* o'r ap. Mae advert "gorlif" yn teithio
+   drwy'r ailadroddyddion (nodau sy'n trosglwyddo negeseuon ymlaen), felly gall pawb
+   ar y rhwyll dy ychwanegu di.
+   Dydy cymdeithion byth yn cyhoeddi eu hunain yn awtomatig.
+2. **Dere o hyd i eraill.** Mae pobl yn ymddangos yn dy gysylltiadau pan fydd eu
+   hadverts yn dy gyrraedd. Mae ailadroddyddion yn anfon advert gorlif bob 47
+   awr yn ddiofyn, felly gall dy restr gymryd 2 ddiwrnod i lenwi.
+3. **Anfona neges.** Agor gyswllt ac ysgrifenna. Mae'r neges gyntaf yn gorlifo'r
+   rhwydwaith. Mae'r derbynnydd yn rhoi gwybod pa lwybr a gymerodd hi, ac mae
    negeseuon diweddarach yn dilyn y llwybr hwnnw.
-4. **Ymuno â sianeli.** Mae'r sianel **Public** eisoes wedi'i gosod; mae
-   unrhyw beth rwyt ti'n ei ysgrifennu yno yn cyrraedd pawb ar y mesh. Ychwanega
-   *sianel hashnod* dy ranbarth (enw sy'n dechrau gyda `#`) drwy deipio ei henw.
-   Bydd dy [grŵp lleol](/community/) yn dweud wrthot ti pa sianeli sy'n weithgar.
+4. **Ymuna â sianeli.** Mae'r sianel **Public** wedi'i gosod yn barod. Mae
+   unrhyw beth rwyt ti'n ei ysgrifennu yno yn cyrraedd pawb ar y rhwyll. Ychwanega
+   *sianel hashnod* dy ranbarth (enw sy'n dechrau gyda `#`) drwy deipio ei
+   henw. Bydd dy [grŵp lleol](/community/) yn dweud wrthot ti pa sianeli sy'n
+   weithgar.
+   Eisiau eu cyfarfod wyneb yn wyneb? Edrycha ar y [cyfarfodydd](/meetings/)
+   yn agos atat ti.
 
 ## Pan nad yw rhywbeth yn gweithio {#troubleshooting}
 

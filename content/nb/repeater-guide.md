@@ -6,11 +6,11 @@ eyebrow: 868 MHz · opptil 500 mW · lisensfritt
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '7c7e3be3'
-  seeded: '2026-10-31'
+  source_hash: '3e38a8c6'
+  seeded: '2026-11-04'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '766086be', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', '6a7c4493', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
 ---
 
 Repeaterne bærer meshet. Companions, radioene du sender meldinger fra, sender ikke
@@ -43,18 +43,44 @@ Høyde slår effekt. LoRa på 868 MHz går best med fri sikt.
 Åser, bygninger og tett skog koster langt mer rekkevidde enn noen få ekstra
 milliwatt vinner tilbake.
 
-- **Gå høyt.** Et tak, en mast, en høy bygning eller en ås dekker langt mer
+- **Sett den høyt.** Et tak, en mast, en høy bygning eller en ås dekker langt mer
   enn en vinduskarm. Selv noen få meter over takene rundt hjelper.
-- **Hold antennen fri.** Monter den over takkantene, unna
-  metall, takrenner og andre antenner.
-- **Sjekk utsikten.** Verktøy som [HeyWhatsThat](https://www.heywhatsthat.com/)
-  viser hva du kan se fra et sted. Kan du se et punkt, er en repeater
-  der innenfor rekkevidde.
-- **Sørg for klaring.** En radiosti trenger litt fri plass rundt den direkte
-  linjen, ikke bare selve linjen. Over lange avstander bør midten av stien
-  gå flere meter over hindringer.
-- **Spør om lov.** Få eierens samtykke for taket eller masten, og avtal
-  hvordan du kommer til repeateren for vedlikehold.
+- **Hold antennen fri.** Monter den over takkantene, unna metall, takrenner og
+  andre antenner.
+- **Sjekk sikten.** Verktøy som [HeyWhatsThat](https://www.heywhatsthat.com/)
+  viser hva du kan se fra et sted. MeshCore-appen
+  [beregner hva en repeater der kan nå](#check-site).
+- **Sørg for klaring.** En radiosti trenger fri plass rundt den direkte linjen,
+  ikke bare selve linjen. På 868 MHz er denne plassen omtrent 20 m rundt
+  midten av en sti på 5 km. På 20 km er den omtrent 40 m.
+- **Be om lov.** Få samtykke fra eieren av taket eller masten, og avtal
+  hvordan du får tilgang til repeateren ved vedlikehold.
+
+### Sjekk et sted i appen {#check-site}
+
+Versjon 1.33 eller nyere av MeshCore-appen har disse verktøyene under **Tools** i
+menyen. De virker uten at du har koblet til en radio.
+
+- **Line of Sight** tegner terrenget mellom 2 punkter, og plassen signalet trenger
+  over det. Trykk lenge på 2 punkter på kartet, eller trykk på repeatere.
+- **Antenna Coverage** viser på kartet hva en antenne på 1 punkt kan nå.
+  Trykk lenge på et punkt eller trykk på en repeater. Legg til flere punkter for å
+  sammenligne steder.
+
+På en datamaskin velger du **Add Point** i verktøyets meny og skriver inn koordinatene.
+
+Begge verktøyene starter med antennen på stedet ditt i 5 m høyde, så sett høyden du
+planlegger i innstillingene til verktøyet. Antenna Coverage starter med en mottakerantenne
+i 1 m høyde. Uten tilkoblet radio starter Line of Sight på 915 MHz: legg inn
+frekvensen for [forhåndsinnstillingen](/guides/settings/) din i innstillingene.
+
+Verktøyene beregner ut fra høydedata og tester ikke radioen din. Sjekk trær og
+nye bygninger selv, og ta så med en companion til stedet og se hvilke
+repeatere den hører.
+
+![Line of Sight i MeshCore-appen: terrenget mellom 2 punkter og rommet signalet trenger over det](/media/guides/line-of-sight.webp)
+
+![Antenna Coverage i MeshCore-appen: et kart over området en antenne på en ås kan nå](/media/guides/antenna-coverage.webp)
 
 ## Maskinvare {#hardware}
 

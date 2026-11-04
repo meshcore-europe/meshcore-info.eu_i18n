@@ -6,11 +6,11 @@ eyebrow: 868 MHz · až 500 mW · bez licence
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '7c7e3be3'
-  seeded: '2026-11-02'
+  source_hash: '3e38a8c6'
+  seeded: '2026-11-04'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '766086be', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', '6a7c4493', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
 ---
 
 Na repeaterech stojí celý mesh. Companiony, tedy vysílačky, ze kterých posíláš zprávy, je dál nepředávají. Bez repeaterů proto zastihneš jen lidi v přímém dosahu. Repeater na správném místě rozšíří mesh všem kolem sebe. Tento návod vychází z firmwaru MeshCore v1.18.0.
@@ -30,11 +30,43 @@ Repeater postav tam, kde chybí pokrytí:
 
 Výška je důležitější než výkon. LoRa na 868 MHz se nejlépe šíří při přímé viditelnosti bez překážek. Kopce, budovy a husté stromy ti vezmou mnohem víc dosahu, než kolik vrátí několik miliwattů navíc.
 
-- **Jdi do výšky.** Střecha, stožár, vysoká budova nebo kopec pokryjí mnohem víc než parapet. Pomůže i pár metrů nad okolními střechami.
-- **Dej anténě volný prostor.** Namontuj ji nad okraje střechy, dál od kovu, okapů a jiných antén.
-- **Ověř si výhled.** Nástroje jako [HeyWhatsThat](https://www.heywhatsthat.com/) ukážou, co je z daného místa vidět. Když nějaké místo vidíš, repeater na něm je v dosahu.
-- **Nech volný prostor kolem spoje.** Rádiová cesta potřebuje volný prostor i kolem přímé spojnice, nejen samotnou spojnici. Na dlouhé vzdálenosti by uprostřed cesty měly překážky zůstat několik metrů pod ní.
-- **Požádej o svolení.** Získej souhlas majitele střechy nebo stožáru a domluv se, jak se k repeateru dostaneš kvůli údržbě.
+- **Jdi do výšky.** Střecha, stožár, vysoká budova nebo kopec pokryje mnohem víc
+  než parapet. Pomůže i pár metrů nad okolními střechami.
+- **Dej anténě volný výhled.** Namontuj ji nad okraj střechy, dál od kovu, okapů
+  a jiných antén.
+- **Ověř si výhled.** Nástroje jako [HeyWhatsThat](https://www.heywhatsthat.com/)
+  ukážou, co je z daného místa vidět. Aplikace MeshCore
+  [spočítá, kam odtud repeater dosáhne](#check-site).
+- **Nech volný prostor.** Rádiová cesta potřebuje volný prostor kolem přímé
+  spojnice, nejen samotnou spojnici. Na 868 MHz je to asi 20 m kolem středu
+  cesty dlouhé 5 km. Na cestě dlouhé 20 km je to asi 40 m.
+- **Požádej o svolení.** Získej souhlas majitele střechy nebo stožáru a domluv
+  se, jak se k repeateru dostaneš kvůli údržbě.
+
+### Ověř místo v aplikaci {#check-site}
+
+Aplikace MeshCore má od verze 1.33 tyto nástroje v nabídce pod **Tools**.
+Fungují i bez připojené vysílačky.
+
+- **Line of Sight** vykreslí terén mezi 2 body a prostor, který signál nad ním
+  potřebuje. Dlouze podrž 2 body na mapě nebo klepni na repeatery.
+- **Antenna Coverage** ukáže na mapě, kam dosáhne anténa v 1 bodě.
+  Dlouze podrž bod nebo klepni na repeater. Přidej další body a porovnej místa.
+
+Na počítači zvol v nabídce nástroje **Add Point** a zadej souřadnice.
+
+Oba nástroje na začátku počítají s anténou na tvém stanovišti ve výšce 5 m, takže
+plánovanou výšku zadej v nastavení nástroje. Antenna Coverage na začátku počítá
+s přijímací anténou ve výšce 1 m. Bez připojené vysílačky začíná Line of Sight
+na 915 MHz: v jeho nastavení zadej frekvenci své [předvolby](/guides/settings/).
+
+Nástroje vycházejí z výškových dat a tvoje rádio netestují. Stromy a nové
+budovy si ověř sám, pak vezmi companion na místo a podívej se, které
+repeatery slyší.
+
+![Line of Sight v aplikaci MeshCore: terén mezi 2 body a prostor, který nad ním signál potřebuje](/media/guides/line-of-sight.webp)
+
+![Antenna Coverage v aplikaci MeshCore: oblast na mapě, kam dosáhne anténa na kopci](/media/guides/antenna-coverage.webp)
 
 ## Hardware {#hardware}
 
