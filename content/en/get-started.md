@@ -94,6 +94,7 @@ no app update.
    write there reaches everyone on the mesh. Add your region's *hashtag
    channel* (a name starting with `#`) by typing its name. Your
    [local group](/community/) will tell you which channels are active.
+   Want to meet them in person? See the [meetings](/meetings/) near you.
 
 ## When something does not work {#troubleshooting}
 
