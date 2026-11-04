@@ -103,7 +103,7 @@ Een uitgewerkt voorbeeld, met aangenomen getallen: een repeater die 1 Wh per dag
 | Zendvermogen van de radiochip, in dBm | `set tx <dBm>` |
 | Positie, zodat de repeater op kaarten verschijnt | `set lat <degrees>` en `set lon <degrees>` |
 | Contactgegevens voor andere beheerders | `set owner.info <text>` |
-| Uren tussen flood-advertenties, de advertenties die de hele mesh hoort | `set flood.advert.interval <hours>` |
+| Uren tussen flood-adverts, de adverts die de hele mesh hoort | `set flood.advert.interval <hours>` |
 | Nu aankondigen | `advert` |
 | Herstarten | `reboot` |
 

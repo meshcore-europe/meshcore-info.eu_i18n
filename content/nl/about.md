@@ -89,10 +89,10 @@ dus weg. Een lokale groep gebruikt er een voor aankondigingen.
 ## Hoe een bericht zijn weg vindt {#routing}
 
 Elke node heeft een geheime sleutel en een publieke sleutel. De publieke
-sleutel is zijn identiteit. Een node maakt zich bekend met een *advertentie*:
+sleutel is zijn identiteit. Een node maakt zich bekend met een *advert*:
 een ondertekend pakket met zijn naam en, als je dat wilt, zijn positie. Iemand
-verschijnt in je contacten zodra een van zijn advertenties je bereikt heeft, of
-als je zijn QR-code scant. In de app zit een knop om je eigen advertentie te
+verschijnt in je contacten zodra een van zijn adverts je bereikt heeft, of
+als je zijn QR-code scant. In de app zit een knop om je eigen advert te
 versturen.
 
 Je eerste bericht aan een contact gaat als *flood* de lucht in. Elke repeater die het
@@ -123,7 +123,7 @@ af van wie die sleutel heeft:
 - **Privékanalen** gebruiken een willekeurige sleutel die je zelf deelt,
   bijvoorbeeld als QR-code.
 
-Advertenties zijn ondertekend, maar niet versleuteld. De naam van je node, en
+Adverts zijn ondertekend, maar niet versleuteld. De naam van je node, en
 zijn positie als je die deelt, ziet iedereen binnen bereik. Kies een naam die
 niet meer zegt dan je wilt.
 

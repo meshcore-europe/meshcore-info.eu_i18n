@@ -984,7 +984,7 @@
     "_source": "8e5bcafb"
   },
   "community_map_country": {
-    "value": "Groepen in {country}",
+    "value": "Groepen: {country}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "fb89e1cc"
@@ -2718,7 +2718,7 @@
     "_source": "040c7753"
   },
   "map.ie-mayomesh-live.desc": {
-    "value": "Realtime Ierse kaart van nodes, berichtroutes en advertentiepaden, met tools voor dekking, zichtlijn en propagatie.",
+    "value": "Realtime Ierse kaart van nodes, berichtroutes en advertpaden, met tools voor dekking, zichtlijn en propagatie.",
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "244a4a53"
@@ -3366,7 +3366,7 @@
     "_source": "11ca714d"
   },
   "area_change_zero_hop": {
-    "value": "Stuur elke 4 uur de advertentie die je directe buren horen.",
+    "value": "Stuur elke 4 uur de advert die je directe buren horen.",
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "0e990713"
@@ -3846,7 +3846,7 @@
     "_source": "a49f50c1"
   },
   "cli_group_adverts": {
-    "value": "Advertenties",
+    "value": "Adverts",
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "8b8ad4a7"
@@ -3984,25 +3984,25 @@
     "_source": "88a6e1f5"
   },
   "cmd_advert_desc": {
-    "value": "Stuurt nu een flood-advertentie, zodat nodes in de hele mesh deze node leren kennen. Gebruik het nadat je de naam of de locatie hebt veranderd.",
+    "value": "Stuurt nu een flood-advert, zodat nodes in de hele mesh deze node leren kennen. Gebruik het nadat je de naam of de locatie hebt veranderd.",
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "21526c3a"
   },
   "cmd_advert_zerohop_desc": {
-    "value": "Stuurt een advertentie alleen naar directe buren, en geen repeater geeft hem door. Gebruik het om de node in de buurt aan te kondigen zonder de hele mesh te belasten.",
+    "value": "Stuurt een advert alleen naar directe buren, en geen repeater geeft hem door. Gebruik het om de node in de buurt aan te kondigen zonder de hele mesh te belasten.",
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "dfbc07b6"
   },
   "cmd_advert_interval_desc": {
-    "value": "Stelt in hoe vaak, in minuten, de node een zero-hop advertentie naar zijn buren stuurt. Gebruik 0 om ze te stoppen; elke opgeslagen wijziging stopt ook intervallen onder 60.",
+    "value": "Stelt in hoe vaak, in minuten, de node een zero-hop advert naar zijn buren stuurt. Gebruik 0 om ze te stoppen; elke opgeslagen wijziging stopt ook intervallen onder 60.",
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "f99f3d5f"
   },
   "cmd_flood_advert_interval_desc": {
-    "value": "Stelt in hoe vaak, in uren, de node een flood-advertentie over de hele mesh stuurt. Gebruik 0 om de automatische flood-advertenties van deze node helemaal te stoppen.",
+    "value": "Stelt in hoe vaak, in uren, de node een flood-advert over de hele mesh stuurt. Gebruik 0 om de automatische flood-adverts van deze node helemaal te stoppen.",
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "6473270c"
@@ -4020,7 +4020,7 @@
     "_source": "c1b8c616"
   },
   "cmd_discover_neighbours_desc": {
-    "value": "Vraagt de repeaters binnen direct bereik om te antwoorden, en voegt elk antwoord toe aan de buren. Gebruik het om de lijst te vullen zonder op hun advertenties te wachten. Een repeater met beide advertentie-intervallen op 0, of met repeat uit, blijft stil.",
+    "value": "Vraagt de repeaters binnen direct bereik om te antwoorden, en voegt elk antwoord toe aan de buren. Gebruik het om de lijst te vullen zonder op hun adverts te wachten. Een repeater met beide advert-intervallen op 0, of met repeat uit, blijft stil.",
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "1ab216ce"
@@ -4260,25 +4260,25 @@
     "_source": "1003a06a"
   },
   "cmd_flood_max_advert_desc": {
-    "value": "Stelt de hop-limiet in voor de flood-advertenties die deze node repeat. Verlaag het om te voorkomen dat advertenties de hele mesh doorkruisen.",
+    "value": "Stelt de hop-limiet in voor de flood-adverts die deze node repeat. Verlaag het om te voorkomen dat adverts de hele mesh doorkruisen.",
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "57c129b9"
   },
   "cmd_name_desc": {
-    "value": "Stelt de naam in die andere nodes zien in de advertenties van deze node. De tekens [ ] \\ : , ? * zijn niet toegestaan.",
+    "value": "Stelt de naam in die andere nodes zien in de adverts van deze node. De tekens [ ] \\ : , ? * zijn niet toegestaan.",
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "08e6c872"
   },
   "cmd_lat_desc": {
-    "value": "Stelt de breedtegraad in decimale graden in die deze node deelt in zijn advertenties. Gebruik het samen met lon om de node op de juiste plek op een kaart te zetten.",
+    "value": "Stelt de breedtegraad in decimale graden in die deze node deelt in zijn adverts. Gebruik het samen met lon om de node op de juiste plek op een kaart te zetten.",
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "ea083178"
   },
   "cmd_lon_desc": {
-    "value": "Stelt de lengtegraad in decimale graden in die deze node deelt in zijn advertenties. Gebruik het samen met lat om de node op de juiste plek op een kaart te zetten.",
+    "value": "Stelt de lengtegraad in decimale graden in die deze node deelt in zijn adverts. Gebruik het samen met lat om de node op de juiste plek op een kaart te zetten.",
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "fe5f8039"
@@ -4374,7 +4374,7 @@
     "_source": "90b9c539"
   },
   "cmd_region_default_desc": {
-    "value": "Toont of stelt de regio in die de node op zijn eigen flood-pakketten zet, zoals advertenties. De node slaat de wijziging meteen op; <null> wist hem.",
+    "value": "Toont of stelt de regio in die de node op zijn eigen flood-pakketten zet, zoals adverts. De node slaat de wijziging meteen op; <null> wist hem.",
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "b478cd71"
@@ -4428,7 +4428,7 @@
     "_source": "2e7052c8"
   },
   "cmd_gps_advert_desc": {
-    "value": "Kiest de positie in advertenties: geen, live GPS of de opgeslagen lat en lon. Gebruik geen om de locatie van de node privé te houden.",
+    "value": "Kiest de positie in adverts: geen, live GPS of de opgeslagen lat en lon. Gebruik geen om de locatie van de node privé te houden.",
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "e7bb3d85"
@@ -4632,7 +4632,7 @@
     "_source": "37e17307"
   },
   "keygen_set_body": {
-    "value": "Voer dit commando uit op je repeater, en herstart hem daarna. Hij houdt zijn instellingen en toegangslijst, maar wordt voor iedereen een nieuwe node. Voeg hem na zijn eerste advertentie opnieuw toe in de app.",
+    "value": "Voer dit commando uit op je repeater, en herstart hem daarna. Hij houdt zijn instellingen en toegangslijst, maar wordt voor iedereen een nieuwe node. Voeg hem na zijn eerste advert opnieuw toe in de app.",
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "c80b8962"
@@ -5130,7 +5130,7 @@
     "_source": "ec3057eb"
   },
   "net_data_a1": {
-    "value": "Alleen wanneer een observer zijn advertentie hoorde, het pakket dat een node stuurt om zichzelf aan te kondigen. Een node ver van elke observer blijft van de kaart.",
+    "value": "Alleen wanneer een observer zijn advert hoorde, het pakket dat een node stuurt om zichzelf aan te kondigen. Een node ver van elke observer blijft van de kaart.",
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "393d0df5"
@@ -5214,7 +5214,7 @@
     "_source": "14ac329c"
   },
   "release.v1-18-0.3": {
-    "value": "Een repeater met zijn advertenties uit verschijnt niet meer als anderen naar nodes zoeken.",
+    "value": "Een repeater met zijn adverts uit verschijnt niet meer als anderen naar nodes zoeken.",
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "73a74341"

@@ -6492,37 +6492,37 @@
     "_source": "af4b82fa"
   },
   "meetings_repeat_weekly": {
-    "value": "Každý {weekday}",
+    "value": "Každý týždeň: {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "334afb72"
   },
   "meetings_repeat_monthly_1": {
-    "value": "Každý 1. {weekday}",
+    "value": "Každý mesiac: 1. {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "4721ffa0"
   },
   "meetings_repeat_monthly_2": {
-    "value": "Každý 2. {weekday}",
+    "value": "Každý mesiac: 2. {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "cf11319c"
   },
   "meetings_repeat_monthly_3": {
-    "value": "Každý 3. {weekday}",
+    "value": "Každý mesiac: 3. {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "6ecb3a6a"
   },
   "meetings_repeat_monthly_4": {
-    "value": "Každý 4. {weekday}",
+    "value": "Každý mesiac: 4. {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "fde48201"
   },
   "meetings_repeat_monthly_last": {
-    "value": "Každý posledný {weekday}",
+    "value": "Každý mesiac: posledný/posledná {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "249b8757"

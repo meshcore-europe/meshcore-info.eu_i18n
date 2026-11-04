@@ -984,7 +984,7 @@
     "_source": "8e5bcafb"
   },
   "community_map_country": {
-    "value": "Групи в {country}",
+    "value": "Групи: {country}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "fb89e1cc"
@@ -6492,37 +6492,37 @@
     "_source": "af4b82fa"
   },
   "meetings_repeat_weekly": {
-    "value": "Всеки {weekday}",
+    "value": "Всяка седмица: {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "334afb72"
   },
   "meetings_repeat_monthly_1": {
-    "value": "Всеки 1-ви {weekday}",
+    "value": "Всеки месец: 1-ви/ва {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "4721ffa0"
   },
   "meetings_repeat_monthly_2": {
-    "value": "Всеки 2-ри {weekday}",
+    "value": "Всеки месец: 2-ри/ра {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "cf11319c"
   },
   "meetings_repeat_monthly_3": {
-    "value": "Всеки 3-ти {weekday}",
+    "value": "Всеки месец: 3-ти/та {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "6ecb3a6a"
   },
   "meetings_repeat_monthly_4": {
-    "value": "Всеки 4-ти {weekday}",
+    "value": "Всеки месец: 4-ти/та {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "fde48201"
   },
   "meetings_repeat_monthly_last": {
-    "value": "Всеки последен {weekday}",
+    "value": "Всеки месец: последен/последна {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "249b8757"

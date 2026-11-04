@@ -984,7 +984,7 @@
     "_source": "8e5bcafb"
   },
   "community_map_country": {
-    "value": "Групи в {country}",
+    "value": "Групи: {country}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "fb89e1cc"
@@ -6498,31 +6498,31 @@
     "_source": "334afb72"
   },
   "meetings_repeat_monthly_1": {
-    "value": "Кожен 1-й {weekday}",
+    "value": "Щомісяця: 1-й/а {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "4721ffa0"
   },
   "meetings_repeat_monthly_2": {
-    "value": "Кожен 2-й {weekday}",
+    "value": "Щомісяця: 2-й/а {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "cf11319c"
   },
   "meetings_repeat_monthly_3": {
-    "value": "Кожен 3-й {weekday}",
+    "value": "Щомісяця: 3-й/я {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "6ecb3a6a"
   },
   "meetings_repeat_monthly_4": {
-    "value": "Кожен 4-й {weekday}",
+    "value": "Щомісяця: 4-й/а {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "fde48201"
   },
   "meetings_repeat_monthly_last": {
-    "value": "Кожен останній {weekday}",
+    "value": "Щомісяця: останній/остання {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "249b8757"

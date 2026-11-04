@@ -24,7 +24,7 @@ houdt zendtijd vrij voor alle anderen.
 
 Een flood per ongeluk komt van een node waarvan de eigenaar niet weet dat
 die er een veroorzaakt. Zodra de eigenaar het weet, stopt de flood. Een
-advertentie in de tabellen hieronder is de groet die een node uitzendt,
+advert in de tabellen hieronder is de groet die een node uitzendt,
 zodat anderen hem kunnen vinden.
 
 De instellingen in de tabellen volgen uit wat de firmware doet. Niet elke
@@ -46,7 +46,7 @@ voor duty-cycle gating en het companionfilter. Deze pagina volgt de DMC
 | Dag en nacht verzoeken van één node aan repeaters, en een mesh die dagenlang traag blijft | Een domotica-systeem of een bot die repeaters te vaak om hun status vraagt | `filter on`. Het pakketfilter laat dan 5 verzoeken per minuut door. Laat het de eigenaar weten. |
 | Elke minuut hetzelfde soort bericht op een kanaal | Een bot die te vaak post | [Blokkeer het kanaal](/guides/filter/#channel) of [rem de afzender af](/guides/filter/#sender). Laat het de eigenaar weten. |
 | Onleesbare berichten op Public en andere kanalen | Een node met kapotte firmware of verkeerde radio-instellingen | `filter malformed on` laat ze op Public vallen. Laat het de eigenaar weten. |
-| Om de paar minuten een advertentie van dezelfde node | Een node die te vaak adverteert | `filter advert 24` laat van elke node één advertentie per dag door. `set flood.max.advert 3` houdt advertenties binnen 3 hops. |
+| Om de paar minuten een advert van dezelfde node | Een node die te vaak adverts stuurt | `filter advert 24` laat van elke node één advert per dag door. `set flood.max.advert 3` houdt adverts binnen 3 hops. |
 | Berichten van ver weg, met regio's die hier niet horen | Een brug die meshes via internet koppelt | `set flood.max.unscoped 1`, en zet je repeater alleen in de [regio's die hij bedient](/guides/settings/#traffic). |
 | Hetzelfde bericht komt steeds opnieuw langs, met de ID van je repeater meer dan eens in het pad | Een repeater die pakketten aanpast en doorgeeft, waardoor ze rondzingen | Lusdetectie staat standaard op `minimal`. Met `set loop.detect moderate` valt een lus eerder weg. |
 
@@ -58,7 +58,7 @@ stopt geen enkele regel de flood op zichzelf.
 
 | Wat je ziet | Wat het is | Wat helpt |
 | --- | --- | --- |
-| Veel nieuwe nodes met willekeurige namen, elk met een nieuwe sleutel | Nepadvertenties | `filter rate 04 5 60` laat 5 advertenties per minuut door. `filter advert` helpt niet: elke advertentie komt van een [nieuwe sleutel](#forged). |
+| Veel nieuwe nodes met willekeurige namen, elk met een nieuwe sleutel | Nep-adverts | `filter rate 04 5 60` laat 5 adverts per minuut door. `filter advert` helpt niet: elke advert komt van een [nieuwe sleutel](#forged). |
 | Berichten met onleesbare tekst van verzonnen afzenders, vaak met een datum van meer dan een jaar geleden | Kanaalspam | `filter malformed on` laat ze op Public vallen. `filter age 60` laat de oud gedateerde vallen op Public en op [bewaakte kanalen](/guides/filter/#settings). |
 | Tot 200 directe berichten per minuut aan nodes die niet bestaan, en geen ontvangstbevestigingen terug | Een flood van directe berichten | `filter rate 02 5 60`. Je app toont deze berichten niet, een observer wel. |
 | Salvo's verzoeken van één node aan tientallen andere | Verzoekspam | Met `filter on` laat het pakketfilter 5 verzoeken per minuut door. |
@@ -117,7 +117,7 @@ Deze werken, welke flood de mesh ook treft:
   [Houd het verkeer laag](/guides/settings/#traffic).
 - **Het pakketfilter voor een drukke repeater.** De
   [kant-en-klare instellingen](/guides/filter/#busy) halveren groepsberichten
-  en advertenties. Probeer ze eerst in [dry-run](/guides/filter/#dryrun): dan
+  en adverts. Probeer ze eerst in [dry-run](/guides/filter/#dryrun): dan
   telt het filter alleen wat het zou laten vallen.
 - **Het companionfilter, in de DMC-firmware.** Je companion, de node waarmee
   je berichten stuurt, houdt rommel uit je app. Hij verbergt kapotte en oude

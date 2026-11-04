@@ -984,7 +984,7 @@
     "_source": "8e5bcafb"
   },
   "community_map_country": {
-    "value": "Grupos em {country}",
+    "value": "Grupos: {country}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "fb89e1cc"
@@ -6492,37 +6492,37 @@
     "_source": "af4b82fa"
   },
   "meetings_repeat_weekly": {
-    "value": "Todas as semanas, {weekday}",
+    "value": "Todas as semanas: {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "334afb72"
   },
   "meetings_repeat_monthly_1": {
-    "value": "Todos os meses, 1.º {weekday}",
+    "value": "Todos os meses: 1.º/ª {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "4721ffa0"
   },
   "meetings_repeat_monthly_2": {
-    "value": "Todos os meses, 2.º {weekday}",
+    "value": "Todos os meses: 2.º/ª {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "cf11319c"
   },
   "meetings_repeat_monthly_3": {
-    "value": "Todos os meses, 3.º {weekday}",
+    "value": "Todos os meses: 3.º/ª {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "6ecb3a6a"
   },
   "meetings_repeat_monthly_4": {
-    "value": "Todos os meses, 4.º {weekday}",
+    "value": "Todos os meses: 4.º/ª {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "fde48201"
   },
   "meetings_repeat_monthly_last": {
-    "value": "Todos os meses, último {weekday}",
+    "value": "Todos os meses: último/última {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "249b8757"

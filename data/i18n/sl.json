@@ -6492,37 +6492,37 @@
     "_source": "af4b82fa"
   },
   "meetings_repeat_weekly": {
-    "value": "Vsak {weekday}",
+    "value": "Vsak teden: {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "334afb72"
   },
   "meetings_repeat_monthly_1": {
-    "value": "Vsak 1. {weekday}",
+    "value": "Vsak mesec: 1. {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "4721ffa0"
   },
   "meetings_repeat_monthly_2": {
-    "value": "Vsak 2. {weekday}",
+    "value": "Vsak mesec: 2. {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "cf11319c"
   },
   "meetings_repeat_monthly_3": {
-    "value": "Vsak 3. {weekday}",
+    "value": "Vsak mesec: 3. {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "6ecb3a6a"
   },
   "meetings_repeat_monthly_4": {
-    "value": "Vsak 4. {weekday}",
+    "value": "Vsak mesec: 4. {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "fde48201"
   },
   "meetings_repeat_monthly_last": {
-    "value": "Vsak zadnji {weekday}",
+    "value": "Vsak mesec: zadnji/zadnja {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "249b8757"

@@ -14,7 +14,7 @@ translation:
 
 Een repeater (een node die berichten doorgeeft) herhaalt alles wat hij hoort.
 Op een drukke mesh zit daar ook rommel tussen. Een bot post elke minuut. Een
-node stuurt om de paar minuten opnieuw zijn advertentie, het hallo waarmee
+node stuurt om de paar minuten opnieuw zijn advert, het hallo waarmee
 anderen hem vinden. Er komen berichten binnen die het halve land door zijn
 gereisd. Elke herhaling kost zendtijd voor iedereen om je heen. Met het
 pakketfilter gooit je repeater dat verkeer weg in plaats van het door te
@@ -42,7 +42,7 @@ ook door. Het filter kan dit weggooien:
 - pakketten die al zoveel repeaters (hops) zijn gepasseerd als je toestaat,
   per pakkettype;
 - meer pakketten van één type per minuut dan je toestaat;
-- een advertentie van een node die de afgelopen uren al een advertentie
+- een advert van een node die de afgelopen uren al een advert
   stuurde;
 - berichten op een kanaal dat je blokkeert;
 - alles wat via één repeater kwam die je blokkeert;
@@ -115,10 +115,10 @@ filter hops 02 16
 filter hops 04 8
 ```
 
-Dit halveert de groepsberichten en de advertenties. De advertentie van elke
+Dit halveert de groepsberichten en de adverts. De advert van elke
 node gaat nog één keer per dag door. Berichten die al 16 repeaters zijn
 gepasseerd, gooit het filter weg. Na een herstart krijgt elke node één
-advertentie door. De eigen documentatie van de firmware zet hier ook
+advert door. De eigen documentatie van de firmware zet hier ook
 `filter hash 2`. Deze pagina laat dat weg (zie [Alle instellingen](#settings)
 voor de reden).
 
@@ -174,7 +174,7 @@ nummers met de namen uit de firmware, zoals `TXT_MSG` en `GRP_TXT`:
 | `01` | antwoord | `07` | anoniem verzoek |
 | `02` | direct bericht | `08` | pad |
 | `03` | bevestiging | `09` | trace |
-| `04` | advertentie | `10` | multipart |
+| `04` | advert | `10` | multipart |
 | `05` | groepsbericht | `11` | besturing |
 
 | Commando | Wat het doet | Standaard |
@@ -182,8 +182,8 @@ nummers met de namen uit de firmware, zoals `TXT_MSG` en `GRP_TXT`:
 | `filter on` / `filter off` | Zet het filter aan of uit. | uit |
 | `filter dryrun on` / `off` | Telt wat het zou weggooien, maar geeft alles door. | uit |
 | `filter hops <type> <max>` | Gooit een type weg dat al zoveel repeaters is gepasseerd, 0 tot 64. | 32 voor groepsberichten, 8 voor de rest |
-| `filter rate <type> <limit> <secs> [soft]` | Geeft van een type hooguit `limit` per `secs` door. Met `soft` neemt het doorgeven geleidelijk af van `soft` naar `limit`. `0` zet de limiet uit. | 20 per 60 s voor directe berichten en groepsberichten, 10 voor advertenties, 5 voor de rest |
-| `filter advert <hours>` | Geeft de advertentie van elke node één keer per zoveel uur door, tot 720. | 0 (uit) |
+| `filter rate <type> <limit> <secs> [soft]` | Geeft van een type hooguit `limit` per `secs` door. Met `soft` neemt het doorgeven geleidelijk af van `soft` naar `limit`. `0` zet de limiet uit. | 20 per 60 s voor directe berichten en groepsberichten, 10 voor adverts, 5 voor de rest |
+| `filter advert <hours>` | Geeft de advert van elke node één keer per zoveel uur door, tot 720. | 0 (uit) |
 | `filter channel add <#name>` | Geeft een kanaal niet meer door. | geen |
 | `filter path add <hex>` | Gooit alles weg wat via een repeater met dit prefix kwam, 2 tot 8 hexcijfers. | geen |
 | `filter sender add <name> [secs] [prob]` | Gooit groepsberichten van een afzender weg, op Public en op gevolgde kanalen. `Bot*` past op elke naam die met Bot begint. | geen |

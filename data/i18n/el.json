@@ -984,7 +984,7 @@
     "_source": "8e5bcafb"
   },
   "community_map_country": {
-    "value": "Ομάδες σε {country}",
+    "value": "Ομάδες: {country}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "fb89e1cc"
@@ -6498,31 +6498,31 @@
     "_source": "334afb72"
   },
   "meetings_repeat_monthly_1": {
-    "value": "Κάθε 1η {weekday} του μήνα",
+    "value": "Κάθε μήνα: 1η/ο {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "4721ffa0"
   },
   "meetings_repeat_monthly_2": {
-    "value": "Κάθε 2η {weekday} του μήνα",
+    "value": "Κάθε μήνα: 2η/ο {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "cf11319c"
   },
   "meetings_repeat_monthly_3": {
-    "value": "Κάθε 3η {weekday} του μήνα",
+    "value": "Κάθε μήνα: 3η/ο {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "6ecb3a6a"
   },
   "meetings_repeat_monthly_4": {
-    "value": "Κάθε 4η {weekday} του μήνα",
+    "value": "Κάθε μήνα: 4η/ο {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "fde48201"
   },
   "meetings_repeat_monthly_last": {
-    "value": "Κάθε τελευταία {weekday} του μήνα",
+    "value": "Κάθε μήνα: τελευταία/τελευταίο {weekday}",
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "249b8757"

@@ -118,7 +118,7 @@ Verwijder het apparaat uit de Bluetooth-instellingen van je telefoon, herstart
 Bluetooth en koppel opnieuw met de pincode op het scherm of `123456`.
 
 **Er verschijnt niemand in mijn contacten.**
-Controleer of je preset bij je omgeving past. Stuur een flood-advertentie. Is
+Controleer of je preset bij je omgeving past. Stuur een flood-advert. Is
 er geen repeater binnen bereik, dan hoor je alleen radio's vlak in de buurt. Op
 de [kaartpagina](/map/) zie je waar repeaters staan.
 
@@ -130,7 +130,7 @@ groep bewaren) moet de eigenaar de tijd instellen.
 **Een direct bericht komt nooit aan.**
 Jij en de ander moeten elkaar allebei als contact hebben. Een node gooit een bericht van
 een onbekende weg, zonder dat de afzender het merkt. Stuur een
-flood-advertentie en vraag de ander om dat ook te doen. Controleer in de app of
+flood-advert en vraag de ander om dat ook te doen. Controleer in de app of
 die nieuwe contacten automatisch toevoegt. De app voegt alleen nodes toe binnen
 de hoplimiet.
 
