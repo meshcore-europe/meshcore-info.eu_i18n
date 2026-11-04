@@ -6749,11 +6749,29 @@
     "_seeded": "2026-11-04",
     "_source": "7a0bae93"
   },
-  "meetings_add_place": {
-    "value": "Lugar público, enlace o canal",
+  "meetings_add_kind_hint": {
+    "value": "Rellena todas las formas que correspondan.",
     "_ai": true,
     "_seeded": "2026-11-04",
-    "_source": "b67943a9"
+    "_source": "44866a05"
+  },
+  "meetings_add_place": {
+    "value": "En persona: lugar y dirección",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "a876c7a2"
+  },
+  "meetings_add_place_online": {
+    "value": "En línea: enlace al encuentro",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "c9cebb1f"
+  },
+  "meetings_add_place_channel": {
+    "value": "En un canal: nombre del canal",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "852a9ec7"
   },
   "meetings_add_first": {
     "value": "Primera fecha",
@@ -6816,10 +6834,16 @@
     "_source": "b3b3de31"
   },
   "meetings_add_need_place": {
-    "value": "Rellena el nombre, el lugar, la hora y los idiomas.",
+    "value": "Rellena el nombre, cómo se une la gente, la hora y los idiomas.",
     "_ai": true,
     "_seeded": "2026-11-04",
-    "_source": "05437f1c"
+    "_source": "fc387664"
+  },
+  "meetings_add_need_online": {
+    "value": "Añade el enlace completo al encuentro en línea, empezando por https://.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6d65a445"
   },
   "meetings_add_need_open": {
     "value": "Solo publicamos reuniones a las que cualquiera puede unirse.",

@@ -6749,11 +6749,29 @@
     "_seeded": "2026-11-04",
     "_source": "7a0bae93"
   },
-  "meetings_add_place": {
-    "value": "Ëffentlech Plaz, Link oder Kanal",
+  "meetings_add_kind_hint": {
+    "value": "Fëll all Weeër aus, déi zoutreffen.",
     "_ai": true,
     "_seeded": "2026-11-04",
-    "_source": "b67943a9"
+    "_source": "44866a05"
+  },
+  "meetings_add_place": {
+    "value": "Perséinlech: Plaz an Adress",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "a876c7a2"
+  },
+  "meetings_add_place_online": {
+    "value": "Online: Link op d'Treffen",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "c9cebb1f"
+  },
+  "meetings_add_place_channel": {
+    "value": "Op engem Kanal: Numm vum Kanal",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "852a9ec7"
   },
   "meetings_add_first": {
     "value": "Éischten Datum",
@@ -6816,10 +6834,16 @@
     "_source": "b3b3de31"
   },
   "meetings_add_need_place": {
-    "value": "Fëll den Numm, d'Plaz, d'Zäit an d'Sproochen aus.",
+    "value": "Fëll den Numm aus, wéi d'Leit derbäikommen, d'Zäit an d'Sproochen.",
     "_ai": true,
     "_seeded": "2026-11-04",
-    "_source": "05437f1c"
+    "_source": "fc387664"
+  },
+  "meetings_add_need_online": {
+    "value": "Setz de komplette Link op d'Online-Treffen dobäi, deen mat https:// ufänkt.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6d65a445"
   },
   "meetings_add_need_open": {
     "value": "Mir droen nëmmen Treffen an, bei deenen jidderee ka matmaachen.",

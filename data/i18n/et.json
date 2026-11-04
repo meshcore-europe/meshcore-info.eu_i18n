@@ -6749,11 +6749,29 @@
     "_seeded": "2026-11-04",
     "_source": "7a0bae93"
   },
-  "meetings_add_place": {
-    "value": "Avalik koht, link või kanal",
+  "meetings_add_kind_hint": {
+    "value": "Täida kõik viisid, mis sobivad.",
     "_ai": true,
     "_seeded": "2026-11-04",
-    "_source": "b67943a9"
+    "_source": "44866a05"
+  },
+  "meetings_add_place": {
+    "value": "Kohapeal: koht ja aadress",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "a876c7a2"
+  },
+  "meetings_add_place_online": {
+    "value": "Veebis: kohtumise link",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "c9cebb1f"
+  },
+  "meetings_add_place_channel": {
+    "value": "Kanalis: kanali nimi",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "852a9ec7"
   },
   "meetings_add_first": {
     "value": "Esimene kuupäev",
@@ -6816,10 +6834,16 @@
     "_source": "b3b3de31"
   },
   "meetings_add_need_place": {
-    "value": "Täida nimi, koht, kellaaeg ja keeled.",
+    "value": "Täida nimi, liitumisviis, aeg ja keeled.",
     "_ai": true,
     "_seeded": "2026-11-04",
-    "_source": "05437f1c"
+    "_source": "fc387664"
+  },
+  "meetings_add_need_online": {
+    "value": "Lisa veebikohtumise täielik link, mis algab https://.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6d65a445"
   },
   "meetings_add_need_open": {
     "value": "Me lisame ainult kohtumisi, millega saab liituda igaüks.",

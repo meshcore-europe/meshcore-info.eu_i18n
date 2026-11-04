@@ -6749,11 +6749,29 @@
     "_seeded": "2026-11-04",
     "_source": "7a0bae93"
   },
-  "meetings_add_place": {
-    "value": "Lloc públic, enllaç o canal",
+  "meetings_add_kind_hint": {
+    "value": "Omple totes les opcions que corresponguin.",
     "_ai": true,
     "_seeded": "2026-11-04",
-    "_source": "b67943a9"
+    "_source": "44866a05"
+  },
+  "meetings_add_place": {
+    "value": "Presencial: lloc i adreça",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "a876c7a2"
+  },
+  "meetings_add_place_online": {
+    "value": "En línia: enllaç a la trobada",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "c9cebb1f"
+  },
+  "meetings_add_place_channel": {
+    "value": "En un canal: nom del canal",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "852a9ec7"
   },
   "meetings_add_first": {
     "value": "Primera data",
@@ -6816,10 +6834,16 @@
     "_source": "b3b3de31"
   },
   "meetings_add_need_place": {
-    "value": "Omple el nom, el lloc, l'hora i els idiomes.",
+    "value": "Omple el nom, com s'hi uneix la gent, l'hora i els idiomes.",
     "_ai": true,
     "_seeded": "2026-11-04",
-    "_source": "05437f1c"
+    "_source": "fc387664"
+  },
+  "meetings_add_need_online": {
+    "value": "Afegeix l'enllaç complet a la trobada en línia, començant per https://.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6d65a445"
   },
   "meetings_add_need_open": {
     "value": "Només publiquem trobades obertes a tothom.",

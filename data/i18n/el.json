@@ -6749,11 +6749,29 @@
     "_seeded": "2026-11-04",
     "_source": "7a0bae93"
   },
-  "meetings_add_place": {
-    "value": "Δημόσιος χώρος, σύνδεσμος ή κανάλι",
+  "meetings_add_kind_hint": {
+    "value": "Συμπλήρωσε κάθε τρόπο που ισχύει.",
     "_ai": true,
     "_seeded": "2026-11-04",
-    "_source": "b67943a9"
+    "_source": "44866a05"
+  },
+  "meetings_add_place": {
+    "value": "Δια ζώσης: τόπος και διεύθυνση",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "a876c7a2"
+  },
+  "meetings_add_place_online": {
+    "value": "Διαδικτυακά: σύνδεσμος της συνάντησης",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "c9cebb1f"
+  },
+  "meetings_add_place_channel": {
+    "value": "Σε κανάλι: όνομα καναλιού",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "852a9ec7"
   },
   "meetings_add_first": {
     "value": "Πρώτη ημερομηνία",
@@ -6816,10 +6834,16 @@
     "_source": "b3b3de31"
   },
   "meetings_add_need_place": {
-    "value": "Συμπλήρωσε το όνομα, τον χώρο, την ώρα και τις γλώσσες.",
+    "value": "Συμπλήρωσε το όνομα, πώς συμμετέχουν οι άλλοι, την ώρα και τις γλώσσες.",
     "_ai": true,
     "_seeded": "2026-11-04",
-    "_source": "05437f1c"
+    "_source": "fc387664"
+  },
+  "meetings_add_need_online": {
+    "value": "Πρόσθεσε τον πλήρη σύνδεσμο της διαδικτυακής συνάντησης, που ξεκινά με https://.",
+    "_ai": true,
+    "_seeded": "2026-11-04",
+    "_source": "6d65a445"
   },
   "meetings_add_need_open": {
     "value": "Καταχωρίζουμε μόνο συναντήσεις ανοιχτές σε όλους.",
