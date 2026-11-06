@@ -533,6 +533,7 @@
   "project.meshcore-proxy.desc": "TCP proxy that makes a companion radio on USB or Bluetooth reachable for apps on other computers.",
   "project.roadstr.desc": "Road event reporting without a central server: signed Nostr events, carried over MeshCore when there is no internet.",
   "project.domca-docs.desc": "Documentation in Dutch and English, from your first node to how the protocol, the firmware and the radio work. It is written with help from AI tools, so check firmware details against the MeshCore source.",
+  "project.onlyfaqs-meshcore.desc": "About 40 common questions on MeshCore in Dutch, each with a short and a long answer. Some answers are older than the current settings, so check your preset on Recommended settings.",
   "guides_group_start": "Your first node",
   "guides_group_setup": "Set up your node",
   "guides_group_deeper": "Go deeper",
