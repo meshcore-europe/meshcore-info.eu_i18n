@@ -57,6 +57,10 @@ every shape in the colour of its number. Warm colours show where the radio beam
 of an antenna is strong, cold colours where it is weak. The tiny shapes without
 a number are yours to choose.
 
+To print them all at once, download
+[all colouring pages in 1 PDF](/media/colouring/colouring-pages.pdf) (A4, 9
+pages).
+
 - [![A happy tabby cat on a roof ridge, reaching for a radio wave from an antenna, on an upright page](/media/colouring/cat-upright-thumb.webp) Cat on the roof (PDF, A4)](/media/colouring/cat-upright.pdf)
 - [![A striped cat on a roof ridge, swatting at the waves from an antenna on a mast](/media/colouring/cat-ridge-thumb.webp) Cat and antenna (PDF, A4)](/media/colouring/cat-ridge.pdf)
 - [![A circuit board up close, with a USB-C socket, a chip, buttons and copper tracks like roads](/media/colouring/circuit-board-thumb.webp) Circuit board (PDF, A4)](/media/colouring/circuit-board.pdf)
