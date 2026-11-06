@@ -15,6 +15,8 @@ Each wallpaper is 5120 by 2880 pixels (16:9), a JPEG of 1 to 3 MB. Any
 screen of that shape scales it down. On a phone, choose the part you want when you set it.
 The meshcore-info.eu wordmark sits in the bottom right corner.
 
+To show the mesh to children, print a [colouring page](#colouring).
+
 ## Scenes {#scenes}
 
 - [Devices](/devices/) [![Devices for each role laid out on a cutting mat on a desk](/media/wallpapers/01-devices-light-thumb.webp) Light](/media/wallpapers/01-devices-light.jpg) [![Devices for each role laid out on a cutting mat on a desk](/media/wallpapers/01-devices-dark-thumb.webp) Dark](/media/wallpapers/01-devices-dark.jpg)
@@ -45,7 +47,29 @@ The meshcore-info.eu wordmark sits in the bottom right corner.
 - [Firmware](/firmware/) [![A board on a cutting mat, close up](/media/wallpapers/26-firmware-light-thumb.webp) Light](/media/wallpapers/26-firmware-light.jpg) [![A board on a cutting mat, close up](/media/wallpapers/26-firmware-dark-thumb.webp) Dark](/media/wallpapers/26-firmware-dark.jpg)
 - [Antenna guide](/guides/antenna/) [![Antenna parts laid out on a cutting mat, a corn cob in the coffee mug](/media/wallpapers/27-antenna-light-thumb.webp) Light](/media/wallpapers/27-antenna-light.jpg) [![Antenna parts laid out on a cutting mat, a corn cob in the coffee mug](/media/wallpapers/27-antenna-dark-thumb.webp) Dark](/media/wallpapers/27-antenna-dark.jpg)
 
+## Colouring pages {#colouring}
+
+Print a page and colour it in, at home, in a class or at your group's stand.
+Each page is an A4 PDF with black lines on white.
+
+On the number page, pick a colour for each number in the boxes. Then colour
+every shape in the colour of its number. Warm colours show where the radio beam
+of an antenna is strong, cold colours where it is weak. The tiny shapes without
+a number are yours to choose.
+
+- [![A happy tabby cat on a roof ridge, reaching for a radio wave from an antenna, on an upright page](/media/colouring/cat-upright-thumb.webp) Cat on the roof (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![A striped cat on a roof ridge, swatting at the waves from an antenna on a mast](/media/colouring/cat-ridge-thumb.webp) Cat and antenna (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![A circuit board up close, with a USB-C socket, a chip, buttons and copper tracks like roads](/media/colouring/circuit-board-thumb.webp) Circuit board (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![A circuit board from above, with a chip, a screen, a USB-C socket and 2 buttons](/media/colouring/circuit-board-above-thumb.webp) Circuit board from above (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![A child with a phone and a node in a treehouse, a second child waving from another treehouse](/media/colouring/treehouses-thumb.webp) Treehouses (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Arcs from a house to a church tower, a hill and a farm across a valley with cows](/media/colouring/valley-thumb.webp) Across the valley (PDF, A4)](/media/colouring/valley.pdf)
+- [![A repeater box on a mast above a roof, with a solar panel, a bird and radio waves](/media/colouring/solar-repeater-thumb.webp) Solar repeater (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![A full page of doodles with masts, repeater boxes, phones, envelopes, waves and leaves](/media/colouring/mesh-doodle-thumb.webp) Mesh doodle (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![A full page of doodles with antennas, boards, chips, phones and envelopes, and a number in each shape](/media/colouring/doodle-in-numbers-thumb.webp) Doodle in numbers (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
 ## Using them {#use}
+
+Print the colouring pages as often as you like and hand them out.
 
 Use the wallpapers as the background of your own screens, and share them as
 they are: the wordmark in the corner names the source. Do not
