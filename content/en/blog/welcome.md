@@ -55,8 +55,9 @@ videos. Use them in news and posts, and name meshcore-info.eu as the source.
 - **No tracking.** The site runs no analytics or trackers. The only cookie remembers your
   theme choice. The only other server the site asks is meshcore-analyzer.eu,
   run by the same volunteers. The [privacy page](/privacy/) has the details.
-- **Sources for facts.** What we write about MeshCore comes from its firmware
-  and documentation. Radio rules come from the regulators.
+- **Sources for facts.** MeshCore facts come from its firmware, its
+  documentation or the people who maintain this site. Radio rules come from
+  the regulators.
 - **Your language.** The site is available in 33 languages. Pages start as
   machine translations, marked as such until a native speaker has checked
   them.

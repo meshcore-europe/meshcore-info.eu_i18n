@@ -53,8 +53,8 @@ Found a wrong word but no time to fix it? Report it with the
 Guides are written in English first and translated from there. Corrections
 and new topics are welcome through the
 [content form](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=new-content.yml)
-or a pull request. Facts need a source: the MeshCore firmware and its
-documentation, a radio regulator, or a manufacturer. Write in your own words. A
+or a pull request. Facts need a source: MeshCore's firmware or documentation, a
+regulator, a manufacturer or a maintainer. Write in your own words. A
 short quote with its source is fine.
 
 The [contributor guide](https://github.com/meshcore-europe/meshcore-info.eu/blob/main/CONTRIBUTING.md)
