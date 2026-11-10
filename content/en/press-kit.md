@@ -32,6 +32,18 @@ of whoever taps it. We keep every name working once we give it out.
 
 {{< short-links >}}
 
+## Booklet {#booklet}
+
+[![The booklet unfolded: the empty contact box on the back, and on the front the town from above with its network](/media/booklet/meshcore-info-booklet-thumb.webp)](/media/booklet/meshcore-info-booklet-en.pdf)
+
+Hand out this booklet at a stand, or give it to the owner of a roof you would like to use. It answers the first questions: what MeshCore is, what it costs, how it works, what a repeater on a roof involves, and how to find your local group. The back has room for your own contact details.
+
+1. [Download the booklet as PDF](/media/booklet/meshcore-info-booklet-en.pdf), 1 A4 sheet.
+2. Print it on both sides, flipped on the short edge, at 100%.
+3. Write your name or group in the empty box, and fold the sheet once.
+
+Print as many as you like. The booklet is in English for now; other languages follow once they are translated.
+
 ## Logo {#logo}
 
 - [The logo as SVG](/media/press-kit/meshcore-info-logo.svg)

@@ -23,7 +23,8 @@ and that it does not do.
   about the length of a text message on your phone. No voice, photos, video
   or websites, and you cannot reach a normal phone number.
 - **It is not an emergency service.** No emergency service promises to
-  listen on the mesh, and nobody promises that someone reads your message.
+  listen on the mesh. We know the mesh can work. Whether it works in an
+  emergency, nobody knows.
 - **It is not instant, and not everywhere.** A message hops from radio to
   radio and can take a few seconds, or not arrive at all. Whether it gets
   through depends on the repeaters around you, on height, buildings and your
@@ -170,7 +171,7 @@ these examples in November 2026.
   [run a pilot alongside the municipalities](https://noodnetoverijssel.nl/).
   They use voice radio first and MeshCore as a second layer for text.
 
-Nobody promises that someone reads your message on the mesh near you.
+Whether the mesh near you works in an emergency, nobody knows.
 
 ## Where the data comes from {#data}
 
