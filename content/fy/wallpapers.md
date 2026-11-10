@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-10-31'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Kleurplaten {#colouring}
+
+Printsje in side út en kleurje dy yn, thús, yn in klasse of by de stand fan dyn groep.
+Elke side is in A4-PDF mei swarte linen op wyt.
+
+Kies op de nûmerside foar elts nûmer yn de fakjes in kleur. Kleurje dêrnei
+eltse foarm yn de kleur fan syn nûmer. Waarme kleuren litte sjen wêr't de radiobondel
+fan in antenne sterk is, kâlde kleuren wêr't er swak is. De lytse foarmen sûnder
+nûmer meist sels kieze.
+
+Wolsto se allegear tagelyk printsje, download dan
+[alle kleurplaten yn 1 PDF](/media/colouring/colouring-pages.pdf) (A4, 9
+siden).
+
+- [![In blide siperske kat op in dakfoarst, dy't nei in radioweach fan in antenne rikt, op in steande side](/media/colouring/cat-upright-thumb.webp) Kat op it dak (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![In streepte kat op in dakfoarst, dy't nei de weagen fan in antenne op in mêst slacht](/media/colouring/cat-ridge-thumb.webp) Kat en antenne (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![In printplaat fan tichtby, mei in USB-C-oansluting, in chip, knoppen en koperbanen as wegen](/media/colouring/circuit-board-thumb.webp) Printplaat (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![In printplaat fan boppen, mei in chip, in skerm, in USB-C-oansluting en 2 knoppen](/media/colouring/circuit-board-above-thumb.webp) Printplaat fan boppen (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![In bern mei in telefoan en in node yn in beamhutte, in twadde bern dat fan in oare beamhutte ôf wiuwt](/media/colouring/treehouses-thumb.webp) Beamhutten (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Bôgen fan in hûs nei in tsjerketoer, in heuvel en in pleats oer in delling mei kij](/media/colouring/valley-thumb.webp) Oer de delling (PDF, A4)](/media/colouring/valley.pdf)
+- [![In repeaterkastje op in mêst boppe in dak, mei in sinnepaniel, in fûgel en radioweagen](/media/colouring/solar-repeater-thumb.webp) Repeater op sinne-enerzjy (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![In folle side mei krabbels fan mêsten, repeaterkastjes, telefoans, slúven, weagen en blêden](/media/colouring/mesh-doodle-thumb.webp) Mesh-krabbels (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![In folle side mei krabbels fan antennes, printplaten, chips, telefoans en slúven, en in nûmer yn eltse foarm](/media/colouring/doodle-in-numbers-thumb.webp) Krabbels mei nûmers (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Sênes {#scenes}
+
 
 Kies in sêne yn de ljochte of de tsjustere ferzje. Download him en stel him yn as
 eftergrûn fan dyn buroblêd.
@@ -21,8 +48,6 @@ eftergrûn fan dyn buroblêd.
 Elke eftergrûn is 5120 by 2880 piksels (16:9), in JPEG fan 1 oant 3 MB. Elk
 skerm mei dy foarm makket him lytser. Op in telefoan kiest do by it ynstellen it diel dat do wolst.
 It wurdmerk fan meshcore-info.eu stiet rjochts ûnder yn 'e hoeke.
-
-## Sênes {#scenes}
 
 - [Apparaten](/devices/) [![Apparaten foar elke rol útstald op in snijmat op in buro](/media/wallpapers/01-devices-light-thumb.webp) Ljocht](/media/wallpapers/01-devices-light.jpg) [![Apparaten foar elke rol útstald op in snijmat op in buro](/media/wallpapers/01-devices-dark-thumb.webp) Tsjuster](/media/wallpapers/01-devices-dark.jpg)
 - [Begjinne](/get-started/) [![In earste node en in telefoan op in buro, neist in tekkendoas](/media/wallpapers/02-get-started-light-thumb.webp) Ljocht](/media/wallpapers/02-get-started-light.jpg) [![In earste node en in telefoan op in buro, neist in tekkendoas](/media/wallpapers/02-get-started-dark-thumb.webp) Tsjuster](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ It wurdmerk fan meshcore-info.eu stiet rjochts ûnder yn 'e hoeke.
 - [Antennegids](/guides/antenna/) [![Antenne-ûnderdielen útstald op in snijmat, in maiskolf yn 'e kofjemok](/media/wallpapers/27-antenna-light-thumb.webp) Ljocht](/media/wallpapers/27-antenna-light.jpg) [![Antenne-ûnderdielen útstald op in snijmat, in maiskolf yn 'e kofjemok](/media/wallpapers/27-antenna-dark-thumb.webp) Tsjuster](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Gebrûk {#use}
+
+Printsje de kleurplaten sa faak asto wolst en diel se út.
 
 Brûk de eftergrûnen op dyn eigen skermen, en diel se sa't se binne: it
 wurdmerk yn 'e hoeke neamt de boarne. Brûk se net yn

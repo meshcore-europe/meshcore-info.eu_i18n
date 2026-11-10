@@ -3,7 +3,7 @@
     "language": "it",
     "name": "Italiano",
     "managed_by": "community",
-    "updated": "2026-11-04"
+    "updated": "2026-11-10"
   },
   "site_tagline": {
     "value": "Messaggi senza rete in tutta Europa",
@@ -2555,6 +2555,12 @@
     "_seeded": "2026-11-04",
     "_source": "62f0440b"
   },
+  "community.de-meshcore-kiel.desc": {
+    "value": "Gruppo IoT di Kiel che lavora con MeshCore su 868 MHz e si incontra ogni mese, di persona e online.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "b60019ba"
+  },
   "community.de-ostfriesland.desc": {
     "value": "Canale condiviso per tutta la Frisia orientale, intorno ad Aurich, Wittmund, Norden ed Emden. Il gruppo è solo sulla mesh, senza sito web né chat.",
     "_ai": true,
@@ -3161,6 +3167,12 @@
     "_ai": true,
     "_seeded": "2026-10-28",
     "_source": "9c976aea"
+  },
+  "project.onlyfaqs-meshcore.desc": {
+    "value": "Circa 40 domande frequenti su MeshCore in olandese, ognuna con una risposta breve e una lunga. Alcune risposte sono più vecchie delle impostazioni attuali, quindi controlla il tuo preset in Impostazioni consigliate.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "e955c5f7"
   },
   "guides_group_start": {
     "value": "Il tuo primo nodo",
@@ -6911,5 +6923,149 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "d533e900"
+  },
+  "guides_group_node": {
+    "value": "Il tuo nodo",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "650dcfa8"
+  },
+  "guides_group_mesh": {
+    "value": "La tua mesh",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "6ab83049"
+  },
+  "guides_group_depth": {
+    "value": "Approfondimenti",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "731b94f2"
+  },
+  "menu_wallpapers_sub": {
+    "value": "Scene per il tuo schermo e disegni da colorare",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "13f6f97b"
+  },
+  "menu_in_depth": {
+    "value": "Approfondimenti",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "731b94f2"
+  },
+  "menu_in_depth_group_1": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "c2a314c3"
+  },
+  "menu_in_depth_group_2": {
+    "value": "Rete",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "1744b964"
+  },
+  "menu_in_depth_card_eyebrow": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "c2a314c3"
+  },
+  "menu_in_depth_card_title": {
+    "value": "Il firmware ufficiale",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "39cc2886"
+  },
+  "menu_in_depth_card_body": {
+    "value": "Installa il firmware ufficiale sulla scheda dal tuo browser. Non devi installare niente sul computer.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "e75a91bd"
+  },
+  "menu_in_depth_card_button": {
+    "value": "Aggiorna la tua scheda",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "b5b6987e"
+  },
+  "menu_guides_group_your_node": {
+    "value": "Il tuo nodo",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "650dcfa8"
+  },
+  "menu_guides_group_your_mesh": {
+    "value": "La tua mesh",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "6ab83049"
+  },
+  "menu_footer_community": {
+    "value": "Community",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "bb501d78"
+  },
+  "menu_footer_in_depth": {
+    "value": "Approfondimenti",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "731b94f2"
+  },
+  "home_near_title": {
+    "value": "La mesh vicino a te",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "ed836e2f"
+  },
+  "home_near_lead": {
+    "value": "{n} gruppi locali in tutta Europa gestiscono i ripetitori. Trova il tuo, incontralo e usa le impostazioni dei tuoi vicini.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "b33f8699"
+  },
+  "home_near_map_title": {
+    "value": "Gruppi locali",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "dff00c14"
+  },
+  "home_near_map_hint": {
+    "value": "Scegli un paese o un punto per aprire i suoi gruppi.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "5f747d3b"
+  },
+  "home_near_map_all": {
+    "value": "Trova il gruppo vicino a te",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "91724719"
+  },
+  "home_near_meetings_title": {
+    "value": "Prossimi incontri",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "89d075ce"
+  },
+  "home_near_settings_title": {
+    "value": "Impostazioni per la tua zona",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "e6c93768"
+  },
+  "home_near_settings_lead": {
+    "value": "Ogni zona qui sotto ha le sue impostazioni radio. Scegli la tua.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "00d1b44c"
+  },
+  "home_near_settings_all": {
+    "value": "Impostazioni consigliate",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "cfb32983"
   }
 }

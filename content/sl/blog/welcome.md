@@ -5,11 +5,11 @@ description: meshcore-info.eu zbira nastavitve, vodnike in orodja, ki si jih del
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 meshcore-info.eu razlaga MeshCore za Evropo: nastavitve, vodiče in orodja, ki si jih
@@ -54,15 +54,18 @@ ob predstavitvi. Uporabi jih v novicah in objavah, kot vir pa navedi meshcore-in
 
 ## Naše obljube {#promises}
 
-- **Brez oglasov, povezav do trgovin ali partnerskih povezav.** Stran [Naprave](/devices/)
-  navaja specifikacije proizvajalcev in cenovni razred. Nikoli ne vodi do trgovine.
-- **Brez sledenja.** Spletno mesto ne uporablja analitike ali sledilnikov. Edini piškotek si
-  zapomni tvojo izbiro teme. Edini drugi strežnik, ki mu spletno mesto pošilja zahteve, je meshcore-analyzer.eu,
-  upravljajo pa ga isti prostovoljci. Podrobnosti najdeš na [strani o zasebnosti](/privacy/).
-- **Dejstva iz virov.** Kar pišemo o MeshCore, izhaja iz njegove vdelane programske opreme
-  in dokumentacije. Radijska pravila povzemamo po regulativnih organih.
-- **Tvoj jezik.** Spletno mesto je na voljo v 33 jezikih. Strani so sprva strojni
-  prevodi in so tako označene, dokler jih ne preveri materni govorec.
+- **Brez oglasov, povezav do trgovin in partnerskih povezav.** Stran [Naprave](/devices/)
+  navaja specifikacije proizvajalcev in cenovni razred. Nikoli ne vsebuje povezave do
+  trgovine.
+- **Brez sledenja.** Spletišče ne uporablja ne analitike ne sledilnikov. Edini piškotek si zapomni
+  tvojo izbrano temo. Edini drugi strežnik, ki ga spletišče kliče, je meshcore-analyzer.eu,
+  ki ga upravljajo isti prostovoljci. Podrobnosti najdeš na [strani o zasebnosti](/privacy/).
+- **Viri dejstev.** Dejstva o MeshCore prihajajo iz njegove vdelane programske opreme, iz
+  dokumentacije ali od ljudi, ki vzdržujejo to spletišče. Radijska pravila prihajajo
+  od regulatorjev.
+- **Tvoj jezik.** Spletišče je na voljo v 33 jezikih. Strani so sprva
+  strojni prevodi in so tako tudi označene, dokler jih ne preveri
+  rojeni govorec.
 
 Vse je odprtokodno. Manjka tvoja lokalna skupina ali je kakšno dejstvo napačno?
 [Tako lahko pomagaš](/contribute/).

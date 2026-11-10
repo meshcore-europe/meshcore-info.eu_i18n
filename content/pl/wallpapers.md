@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-10-31'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Kolorowanki {#colouring}
+
+Wydrukuj stronę i pokoloruj ją w domu, w klasie albo na stoisku swojej grupy.
+Każda strona to plik PDF w formacie A4 z czarnymi liniami na białym tle.
+
+Na stronie z numerami wybierz w ramkach kolor dla każdego numeru. Potem pokoloruj
+każdy kształt kolorem jego numeru. Ciepłe kolory pokazują, gdzie wiązka radiowa
+anteny jest silna, a zimne, gdzie jest słaba. Malutkie kształty bez numeru
+pokoloruj tak, jak chcesz.
+
+Aby wydrukować wszystkie naraz, pobierz
+[wszystkie kolorowanki w 1 pliku PDF](/media/colouring/colouring-pages.pdf) (A4, 9
+stron).
+
+- [![Zadowolony pręgowany kot na kalenicy dachu sięga po falę radiową z anteny, na stronie w pionie](/media/colouring/cat-upright-thumb.webp) Kot na dachu (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Pręgowany kot na kalenicy dachu trąca łapą fale z anteny na maszcie](/media/colouring/cat-ridge-thumb.webp) Kot i antena (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Płytka drukowana z bliska, z gniazdem USB-C, chipem, przyciskami i miedzianymi ścieżkami przypominającymi drogi](/media/colouring/circuit-board-thumb.webp) Płytka drukowana (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Płytka drukowana widziana z góry, z chipem, ekranem, gniazdem USB-C i 2 przyciskami](/media/colouring/circuit-board-above-thumb.webp) Płytka drukowana z góry (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Dziecko z telefonem i węzłem w domku na drzewie, drugie dziecko macha z innego domku na drzewie](/media/colouring/treehouses-thumb.webp) Domki na drzewie (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Łuki biegnące od domu do wieży kościelnej, wzgórza i gospodarstwa ponad doliną z krowami](/media/colouring/valley-thumb.webp) Przez dolinę (PDF, A4)](/media/colouring/valley.pdf)
+- [![Skrzynka przekaźnika na maszcie nad dachem, z panelem słonecznym, ptakiem i falami radiowymi](/media/colouring/solar-repeater-thumb.webp) Przekaźnik solarny (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Strona pełna drobnych rysunków: maszty, skrzynki przekaźników, telefony, koperty, fale i liście](/media/colouring/mesh-doodle-thumb.webp) Rysunki z siatką (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Strona pełna drobnych rysunków: anteny, płytki, chipy, telefony i koperty, z numerem w każdym kształcie](/media/colouring/doodle-in-numbers-thumb.webp) Rysunki z numerami (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Sceny {#scenes}
+
 
 Wybierz scenę w wersji jasnej lub ciemnej. Pobierz ją i ustaw jako
 tło pulpitu.
@@ -21,8 +48,6 @@ tło pulpitu.
 Każda tapeta ma 5120 na 2880 pikseli (16:9) i jest plikiem JPEG o rozmiarze od 1 do 3 MB.
 Każdy ekran o tych proporcjach sam ją pomniejszy. Na telefonie przy ustawianiu tapety wybierz potrzebny fragment.
 Napis meshcore-info.eu znajduje się w prawym dolnym rogu.
-
-## Sceny {#scenes}
 
 - [Urządzenia](/devices/) [![Urządzenia do każdej roli rozłożone na macie do cięcia na biurku](/media/wallpapers/01-devices-light-thumb.webp) Jasna](/media/wallpapers/01-devices-light.jpg) [![Urządzenia do każdej roli rozłożone na macie do cięcia na biurku](/media/wallpapers/01-devices-dark-thumb.webp) Ciemna](/media/wallpapers/01-devices-dark.jpg)
 - [Pierwsze kroki](/get-started/) [![Pierwszy węzeł i telefon na biurku, obok listwy zasilającej](/media/wallpapers/02-get-started-light-thumb.webp) Jasna](/media/wallpapers/02-get-started-light.jpg) [![Pierwszy węzeł i telefon na biurku, obok listwy zasilającej](/media/wallpapers/02-get-started-dark-thumb.webp) Ciemna](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ Napis meshcore-info.eu znajduje się w prawym dolnym rogu.
 - [Poradnik o antenach](/guides/antenna/) [![Części anteny rozłożone na macie do cięcia, w kubku na kawę kolba kukurydzy](/media/wallpapers/27-antenna-light-thumb.webp) Jasna](/media/wallpapers/27-antenna-light.jpg) [![Części anteny rozłożone na macie do cięcia, w kubku na kawę kolba kukurydzy](/media/wallpapers/27-antenna-dark-thumb.webp) Ciemna](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Jak z nich korzystać {#use}
+
+Drukuj kolorowanki, ile razy chcesz, i rozdawaj je.
 
 Ustaw tapety jako tło na swoich ekranach i udostępniaj je bez zmian:
 napis w rogu wskazuje źródło. Nie używaj ich w reklamach,

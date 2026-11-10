@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-11-02'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Krāsojamās lapas {#colouring}
+
+Izdrukā lapu un izkrāso to mājās, klasē vai savas grupas stendā.
+Katra lapa ir A4 formāta PDF ar melnām līnijām uz balta fona.
+
+Ciparu lapā lodziņos izvēlies katram ciparam savu krāsu. Pēc tam izkrāso
+katru laukumu sava cipara krāsā. Siltās krāsas rāda, kur antenas radiostars
+ir spēcīgs, aukstās krāsas rāda, kur tas ir vājš. Sīkajiem laukumiem bez
+cipara krāsu izvēlies pēc saviem ieskatiem.
+
+Lai izdrukātu visas uzreiz, lejupielādē
+[visas krāsojamās lapas 1 PDF failā](/media/colouring/colouring-pages.pdf) (A4, 9
+lapas).
+
+- [![Priecīgs svītrains kaķis uz jumta kores sniedzas pēc antenas radioviļņa, stāvus lapā](/media/colouring/cat-upright-thumb.webp) Kaķis uz jumta (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Svītrains kaķis uz jumta kores sit ar ķepu pa viļņiem, kas nāk no antenas mastā](/media/colouring/cat-ridge-thumb.webp) Kaķis un antena (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Shēmas plate tuvplānā ar USB-C ligzdu, mikroshēmu, pogām un vara celiņiem, kas līdzinās ceļiem](/media/colouring/circuit-board-thumb.webp) Shēmas plate (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Shēmas plate no augšas ar mikroshēmu, ekrānu, USB-C ligzdu un 2 pogām](/media/colouring/circuit-board-above-thumb.webp) Shēmas plate no augšas (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Bērns ar telefonu un mezglu mājiņā kokā, otrs bērns māj ar roku no citas mājiņas kokā](/media/colouring/treehouses-thumb.webp) Mājiņas kokos (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Loki no mājas uz baznīcas torni, pakalnu un lauku sētu pāri ielejai ar govīm](/media/colouring/valley-thumb.webp) Pāri ielejai (PDF, A4)](/media/colouring/valley.pdf)
+- [![Retranslatora kaste uz masta virs jumta ar saules paneli, putnu un radioviļņiem](/media/colouring/solar-repeater-thumb.webp) Retranslators ar saules paneli (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Pilna lapa ar ķeburiem: masti, retranslatoru kastes, telefoni, aploksnes, viļņi un koku lapas](/media/colouring/mesh-doodle-thumb.webp) Mesh tīkla ķeburi (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Pilna lapa ar ķeburiem: antenas, plates, mikroshēmas, telefoni un aploksnes, katrā laukumā ir skaitlis](/media/colouring/doodle-in-numbers-thumb.webp) Ķeburi ar skaitļiem (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Ainas {#scenes}
+
 
 Izvēlies ainu gaišā vai tumšā versijā. Lejupielādē to un iestati kā
 darbvirsmas fonu.
@@ -21,8 +48,6 @@ darbvirsmas fonu.
 Katrs fona attēls ir 5120 x 2880 pikseļu (16:9), JPEG fails 1 līdz 3 MB apjomā. Jebkurš
 šādu proporciju ekrāns attēlu samazina. Tālrunī, iestatot fonu, izvēlies vajadzīgo attēla daļu.
 Apakšējā labajā stūrī ir meshcore-info.eu logotipa uzraksts.
-
-## Ainas {#scenes}
 
 - [Ierīces](/devices/) [![Ierīces katrai lomai, izliktas uz griešanas paklāja uz darba galda](/media/wallpapers/01-devices-light-thumb.webp) Gaišs](/media/wallpapers/01-devices-light.jpg) [![Ierīces katrai lomai, izliktas uz griešanas paklāja uz darba galda](/media/wallpapers/01-devices-dark-thumb.webp) Tumšs](/media/wallpapers/01-devices-dark.jpg)
 - [Darba sākšana](/get-started/) [![Pirmais mezgls un tālrunis uz darba galda, blakus elektrības pagarinātājs](/media/wallpapers/02-get-started-light-thumb.webp) Gaišs](/media/wallpapers/02-get-started-light.jpg) [![Pirmais mezgls un tālrunis uz darba galda, blakus elektrības pagarinātājs](/media/wallpapers/02-get-started-dark-thumb.webp) Tumšs](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ Apakšējā labajā stūrī ir meshcore-info.eu logotipa uzraksts.
 - [Antenu ceļvedis](/guides/antenna/) [![Antenas detaļas izliktas uz griešanas paklāja, kafijas krūzē kukurūzas vālīte](/media/wallpapers/27-antenna-light-thumb.webp) Gaišs](/media/wallpapers/27-antenna-light.jpg) [![Antenas detaļas izliktas uz griešanas paklāja, kafijas krūzē kukurūzas vālīte](/media/wallpapers/27-antenna-dark-thumb.webp) Tumšs](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Izmantošana {#use}
+
+Izdrukā krāsojamās lapas, cik reižu vien vēlies, un izdali tās citiem.
 
 Izmanto šos attēlus kā fonu savos ekrānos un dalies ar tiem nemainītiem:
 logotipa uzraksts stūrī norāda avotu. Neizmanto tos reklāmās, uz produktiem vai

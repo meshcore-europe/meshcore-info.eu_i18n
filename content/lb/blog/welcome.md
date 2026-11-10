@@ -5,11 +5,11 @@ description: meshcore-info.eu sammelt d'Astellungen, d'Guiden an d'Tools, déi d
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 meshcore-info.eu erkläert MeshCore fir Europa: d'Astellungen, d'Guiden an
@@ -57,16 +57,18 @@ Benotz se an Noriichten a Posts, a nenn meshcore-info.eu als Quell.
 
 ## D'Verspriechen {#promises}
 
-- **Keng Reklamm, Shop-Linken oder Affiliate-Linken.** D'Säit [Geräter](/devices/)
-  weist d'Spezifikatioune vun den Hiersteller an eng Präisklass. Si verlinkt ni op e
+- **Keng Reklamm, keng Shop-Linken a keng Affiliate-Linken.** D'Säit [Devices](/devices/)
+  lëscht d'Spezifikatioune vun den Hiersteller an eng Präisklass op. Si verlinkt ni op e
   Shop.
-- **Keen Tracking.** D'Websäit leeft ouni Analytics an ouni Tracker. Deen eenzege Cookie behält,
-  wéi en Theme s du gewielt hues. Deen eenzegen anere Server, deen d'Websäit ufreet, ass meshcore-analyzer.eu.
-  Déi selwecht Fräiwëlleger bedreiwen en. D'Detailer stinn op der [Dateschutz-Säit](/privacy/).
-- **Quelle fir Fakten.** Wat mir iwwer MeshCore schreiwen, kënnt aus senger Firmware
-  a senger Dokumentatioun. D'Reegele fir de Funk komme vun de Regulateuren.
-- **Deng Sprooch.** D'Websäit gëtt et a 33 Sproochen. Säite fänken als Maschinn-Iwwersetzungen un.
-  Si bleiwen als Maschinn-Iwwersetzung markéiert, bis e Mammesproochler se nogekuckt huet.
+- **Keen Tracking.** D'Websäit benotzt keng Analysetools a keng Tracker. Deen eenzege Cookie verhält
+  däi gewielten Theme. Deen eenzegen anere Server, deen d'Websäit ufreet, ass meshcore-analyzer.eu,
+  an dee bedreiwen déi selwecht Fräiwëlleg. D'Detailer stinn op der [Dateschutzsäit](/privacy/).
+- **Quelle fir Fakten.** D'Fakten iwwer MeshCore kommen aus senger Firmware, senger
+  Dokumentatioun oder vun de Leit, déi dës Websäit ënnerhalen. D'Funkreegele komme
+  vun de Reguléierungsbehörden.
+- **Deng Sprooch.** D'Websäit gëtt et an 33 Sproochen. All Säit fänkt als
+  maschinell Iwwersetzung un a bleift esou markéiert, bis e Mammesproochler se
+  kontrolléiert huet.
 
 Alles ass Open Source. Feelt deng lokal Grupp, oder stëmmt e Fakt net?
 [Hei gesäis du, wéi s du hëllefe kanns](/contribute/).

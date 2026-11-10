@@ -3,7 +3,7 @@
     "language": "ga",
     "name": "Gaeilge",
     "managed_by": "community",
-    "updated": "2026-11-04"
+    "updated": "2026-11-10"
   },
   "site_tagline": {
     "value": "Teachtaireachtaí lasmuigh den eangach ar fud na hEorpa",
@@ -2555,6 +2555,12 @@
     "_seeded": "2026-11-04",
     "_source": "62f0440b"
   },
+  "community.de-meshcore-kiel.desc": {
+    "value": "Grúpa IoT in Kiel a oibríonn le MeshCore ar 868 MHz agus a thagann le chéile gach mí, i bpearsa agus ar líne.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "b60019ba"
+  },
   "community.de-ostfriesland.desc": {
     "value": "Cainéal comhroinnte d'Oirthear na Freaslainne ar fad, timpeall Aurich, Wittmund, Norden agus Emden. Tá an grúpa ar an mesh amháin, gan suíomh gréasáin ná comhrá.",
     "_ai": true,
@@ -3166,6 +3172,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "9c976aea"
+  },
+  "project.onlyfaqs-meshcore.desc": {
+    "value": "Thart ar 40 ceist choitianta faoi MeshCore in Ollainnis, gach ceann le freagra gearr agus freagra fada. Tá roinnt freagraí níos sine ná na socruithe reatha, mar sin seiceáil do réamhshocrú ar Socruithe molta.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "e955c5f7"
   },
   "guides_group_start": {
     "value": "Do chéad nód",
@@ -6916,5 +6928,149 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "d533e900"
+  },
+  "guides_group_node": {
+    "value": "Do nód",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "650dcfa8"
+  },
+  "guides_group_mesh": {
+    "value": "Do mhogalra",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "6ab83049"
+  },
+  "guides_group_depth": {
+    "value": "Go mion",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "731b94f2"
+  },
+  "menu_wallpapers_sub": {
+    "value": "Radhairc do do scáileán, agus leathanaigh dathúcháin",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "13f6f97b"
+  },
+  "menu_in_depth": {
+    "value": "Go mion",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "731b94f2"
+  },
+  "menu_in_depth_group_1": {
+    "value": "Dochtearraí",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "c2a314c3"
+  },
+  "menu_in_depth_group_2": {
+    "value": "Líonra",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "1744b964"
+  },
+  "menu_in_depth_card_eyebrow": {
+    "value": "Dochtearraí",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "c2a314c3"
+  },
+  "menu_in_depth_card_title": {
+    "value": "Na dochtearraí oifigiúla",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "39cc2886"
+  },
+  "menu_in_depth_card_body": {
+    "value": "Flaiseáil na dochtearraí oifigiúla ó do bhrabhsálaí. Níl aon rud le suiteáil.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "e75a91bd"
+  },
+  "menu_in_depth_card_button": {
+    "value": "Flaiseáil do chlár",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "b5b6987e"
+  },
+  "menu_guides_group_your_node": {
+    "value": "Do nód",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "650dcfa8"
+  },
+  "menu_guides_group_your_mesh": {
+    "value": "Do mhogalra",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "6ab83049"
+  },
+  "menu_footer_community": {
+    "value": "Pobal",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "bb501d78"
+  },
+  "menu_footer_in_depth": {
+    "value": "Go mion",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "731b94f2"
+  },
+  "home_near_title": {
+    "value": "An mogalra in aice leat",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "ed836e2f"
+  },
+  "home_near_lead": {
+    "value": "Reáchtálann {n} grúpa áitiúil ar fud na hEorpa na hathsheoltóirí. Aimsigh do ghrúpa féin, buail leo, agus úsáid na socruithe a úsáideann do chomharsana.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "b33f8699"
+  },
+  "home_near_map_title": {
+    "value": "Grúpaí áitiúla",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "dff00c14"
+  },
+  "home_near_map_hint": {
+    "value": "Roghnaigh tír nó ponc chun a ghrúpaí a oscailt.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "5f747d3b"
+  },
+  "home_near_map_all": {
+    "value": "Aimsigh an grúpa in aice leat",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "91724719"
+  },
+  "home_near_meetings_title": {
+    "value": "Na chéad chruinnithe eile",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "89d075ce"
+  },
+  "home_near_settings_title": {
+    "value": "Socruithe do do cheantar",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "e6c93768"
+  },
+  "home_near_settings_lead": {
+    "value": "Tá a shocruithe raidió féin ag gach ceantar thíos. Roghnaigh do cheantar féin.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "00d1b44c"
+  },
+  "home_near_settings_all": {
+    "value": "Socruithe molta",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "cfb32983"
   }
 }

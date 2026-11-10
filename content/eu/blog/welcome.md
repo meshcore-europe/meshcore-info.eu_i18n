@@ -5,11 +5,11 @@ description: meshcore-info.eu webguneak sare lokalek partekatzen dituzten ezarpe
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 meshcore-info.eu webguneak MeshCore azaltzen du Europarako: tokiko mesh sareek
@@ -56,15 +56,18 @@ Erabili albisteetan eta argitalpenetan, eta aipatu meshcore-info.eu iturri gisa.
 
 ## Promesak {#promises}
 
-- **Iragarkirik, denda-estekarik eta afiliazio-estekarik ez.** [Gailuak](/devices/) orriak fabrikatzaileen
-  zehaztapenak eta prezio-tarte bat erakusten ditu. Ez du inoiz dendetarako estekarik jartzen.
-- **Jarraipenik ez.** Webguneak ez du analitikarik ez jarraipen-tresnarik erabiltzen. Cookie bakarrak zuk
-  aukeratutako gaia gogoratzen du. Webguneak beste zerbitzari bakar bati egiten dizkio eskaerak: meshcore-analyzer.eu,
-  boluntario berek kudeatzen dutena. [Pribatutasun-orriak](/privacy/) xehetasunak ematen ditu.
-- **Datuen iturriak.** MeshCoreri buruz idazten duguna haren firmwaretik eta
-  dokumentaziotik dator. Irrati-arauak erregulatzaileengandik datoz.
-- **Zure hizkuntza.** Webgunea 33 hizkuntzatan dago. Hasieran, orriak itzulpen automatikoak dira,
-  eta hala markatuta daude jatorrizko hiztun batek egiaztatu arte.
+- **Iragarkirik, dendetarako estekarik eta afiliazio-estekarik ez.** [Gailuak](/devices/) orriak
+  fabrikatzaileen zehaztapenak eta prezio-tarte bat zerrendatzen ditu. Ez du inoiz
+  dendetarako estekarik jartzen.
+- **Jarraipenik ez.** Webguneak ez du analitikarik edo jarraitzailerik erabiltzen. Cookie bakarrak zuk
+  aukeratutako gaia gogoratzen du. Webguneak kontsultatzen duen beste zerbitzari bakarra meshcore-analyzer.eu da,
+  boluntario berek kudeatzen dutena. [Pribatutasun-orrian](/privacy/) daude xehetasunak.
+- **Datuen iturriak.** MeshCoreri buruzko datuak haren firmwaretik, haren
+  dokumentaziotik edo webgune hau mantentzen dutenengandik datoz. Irrati-arauak
+  erregulatzaileengandik datoz.
+- **Zure hizkuntza.** Webgunea 33 hizkuntzatan dago. Hasieran, orriak itzulpen
+  automatikoak dira, eta hala markatuta daude hiztun natibo batek
+  egiaztatu arte.
 
 Dena kode irekikoa da. Zure tokiko taldea falta da, edo datu bat okerra da?
 [Hemen duzu nola lagundu](/contribute/).

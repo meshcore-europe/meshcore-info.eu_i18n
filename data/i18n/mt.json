@@ -3,7 +3,7 @@
     "language": "mt",
     "name": "Malti",
     "managed_by": "community",
-    "updated": "2026-11-04"
+    "updated": "2026-11-10"
   },
   "site_tagline": {
     "value": "Messaġġi off-grid madwar l-Ewropa",
@@ -2555,6 +2555,12 @@
     "_seeded": "2026-11-04",
     "_source": "62f0440b"
   },
+  "community.de-meshcore-kiel.desc": {
+    "value": "Grupp tal-IoT f'Kiel li jaħdem b'MeshCore fuq 868 MHz u jiltaqa' kull xahar, wiċċ imb wiċċ u online.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "b60019ba"
+  },
   "community.de-ostfriesland.desc": {
     "value": "Kanal komuni għal East Frisia kollha, madwar Aurich, Wittmund, Norden u Emden. Il-grupp jinsab fuq il-mesh biss, mingħajr websajt jew chat.",
     "_ai": true,
@@ -3166,6 +3172,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "9c976aea"
+  },
+  "project.onlyfaqs-meshcore.desc": {
+    "value": "Madwar 40 mistoqsija komuni dwar MeshCore bl-Olandiż, kull waħda bi tweġiba qasira u oħra twila. Xi tweġibiet huma eqdem mis-settings attwali, għalhekk iċċekkja l-preset tiegħek f'Settings rakkomandati.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "e955c5f7"
   },
   "guides_group_start": {
     "value": "L-ewwel node tiegħek",
@@ -6916,5 +6928,149 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "d533e900"
+  },
+  "guides_group_node": {
+    "value": "In-node tiegħek",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "650dcfa8"
+  },
+  "guides_group_mesh": {
+    "value": "Il-mesh tiegħek",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "6ab83049"
+  },
+  "guides_group_depth": {
+    "value": "Fid-dettall",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "731b94f2"
+  },
+  "menu_wallpapers_sub": {
+    "value": "Xeni għall-iskrin tiegħek, u paġni għall-kulur",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "13f6f97b"
+  },
+  "menu_in_depth": {
+    "value": "Fid-dettall",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "731b94f2"
+  },
+  "menu_in_depth_group_1": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "c2a314c3"
+  },
+  "menu_in_depth_group_2": {
+    "value": "Netwerk",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "1744b964"
+  },
+  "menu_in_depth_card_eyebrow": {
+    "value": "Firmware",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "c2a314c3"
+  },
+  "menu_in_depth_card_title": {
+    "value": "Il-firmware uffiċjali",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "39cc2886"
+  },
+  "menu_in_depth_card_body": {
+    "value": "Ifflexxja l-firmware uffiċjali mill-browser tiegħek. M'għandek xejn x'tinstalla.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "e75a91bd"
+  },
+  "menu_in_depth_card_button": {
+    "value": "Ifflexxja l-board tiegħek",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "b5b6987e"
+  },
+  "menu_guides_group_your_node": {
+    "value": "In-node tiegħek",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "650dcfa8"
+  },
+  "menu_guides_group_your_mesh": {
+    "value": "Il-mesh tiegħek",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "6ab83049"
+  },
+  "menu_footer_community": {
+    "value": "Komunità",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "bb501d78"
+  },
+  "menu_footer_in_depth": {
+    "value": "Fid-dettall",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "731b94f2"
+  },
+  "home_near_title": {
+    "value": "Il-mesh qrib tiegħek",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "ed836e2f"
+  },
+  "home_near_lead": {
+    "value": "{n} gruppi lokali madwar l-Ewropa jħaddmu r-repeaters. Sib tiegħek, iltaqa' magħhom, u uża s-settings li jużaw il-ġirien tiegħek.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "b33f8699"
+  },
+  "home_near_map_title": {
+    "value": "Gruppi lokali",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "dff00c14"
+  },
+  "home_near_map_hint": {
+    "value": "Agħżel pajjiż jew tikka biex tiftaħ il-gruppi tiegħu.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "5f747d3b"
+  },
+  "home_near_map_all": {
+    "value": "Sib il-grupp qrib tiegħek",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "91724719"
+  },
+  "home_near_meetings_title": {
+    "value": "Laqgħat li jmiss",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "89d075ce"
+  },
+  "home_near_settings_title": {
+    "value": "Settings għaż-żona tiegħek",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "e6c93768"
+  },
+  "home_near_settings_lead": {
+    "value": "Kull żona hawn taħt għandha s-settings tar-radju tagħha. Agħżel tiegħek.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "00d1b44c"
+  },
+  "home_near_settings_all": {
+    "value": "Settings rakkomandati",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "cfb32983"
   }
 }

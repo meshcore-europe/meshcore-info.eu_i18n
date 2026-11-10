@@ -3,7 +3,7 @@
     "language": "el",
     "name": "Ελληνικά",
     "managed_by": "community",
-    "updated": "2026-11-04"
+    "updated": "2026-11-10"
   },
   "site_tagline": {
     "value": "Μηνύματα χωρίς δίκτυο σε όλη την Ευρώπη",
@@ -2555,6 +2555,12 @@
     "_seeded": "2026-11-04",
     "_source": "62f0440b"
   },
+  "community.de-meshcore-kiel.desc": {
+    "value": "Ομάδα IoT στο Κίελο που δουλεύει με το MeshCore στα 868 MHz και συναντιέται κάθε μήνα, από κοντά και online.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "b60019ba"
+  },
   "community.de-ostfriesland.desc": {
     "value": "Κοινό κανάλι για όλη την Ανατολική Φρισία, γύρω από το Aurich, το Wittmund, το Norden και το Emden. Η ομάδα υπάρχει μόνο στο mesh, χωρίς ιστότοπο ή συνομιλία.",
     "_ai": true,
@@ -3166,6 +3172,12 @@
     "_ai": true,
     "_seeded": "2026-10-28",
     "_source": "9c976aea"
+  },
+  "project.onlyfaqs-meshcore.desc": {
+    "value": "Περίπου 40 συχνές ερωτήσεις για το MeshCore στα ολλανδικά, η καθεμία με μια σύντομη και μια αναλυτική απάντηση. Κάποιες απαντήσεις είναι παλαιότερες από τις τρέχουσες ρυθμίσεις, γι' αυτό έλεγξε την προρύθμισή σου στις Προτεινόμενες ρυθμίσεις.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "e955c5f7"
   },
   "guides_group_start": {
     "value": "Ο πρώτος σου κόμβος",
@@ -6916,5 +6928,149 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "d533e900"
+  },
+  "guides_group_node": {
+    "value": "Ο κόμβος σου",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "650dcfa8"
+  },
+  "guides_group_mesh": {
+    "value": "Το mesh σου",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "6ab83049"
+  },
+  "guides_group_depth": {
+    "value": "Σε βάθος",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "731b94f2"
+  },
+  "menu_wallpapers_sub": {
+    "value": "Σκηνές για την οθόνη σου και σελίδες ζωγραφικής",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "13f6f97b"
+  },
+  "menu_in_depth": {
+    "value": "Σε βάθος",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "731b94f2"
+  },
+  "menu_in_depth_group_1": {
+    "value": "Υλικολογισμικό",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "c2a314c3"
+  },
+  "menu_in_depth_group_2": {
+    "value": "Δίκτυο",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "1744b964"
+  },
+  "menu_in_depth_card_eyebrow": {
+    "value": "Υλικολογισμικό",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "c2a314c3"
+  },
+  "menu_in_depth_card_title": {
+    "value": "Το επίσημο υλικολογισμικό",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "39cc2886"
+  },
+  "menu_in_depth_card_body": {
+    "value": "Πέρασε το επίσημο υλικολογισμικό από τον browser σου. Δεν χρειάζεται να εγκαταστήσεις τίποτα.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "e75a91bd"
+  },
+  "menu_in_depth_card_button": {
+    "value": "Φλασάρισε την πλακέτα σου",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "b5b6987e"
+  },
+  "menu_guides_group_your_node": {
+    "value": "Ο κόμβος σου",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "650dcfa8"
+  },
+  "menu_guides_group_your_mesh": {
+    "value": "Το mesh σου",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "6ab83049"
+  },
+  "menu_footer_community": {
+    "value": "Κοινότητα",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "bb501d78"
+  },
+  "menu_footer_in_depth": {
+    "value": "Σε βάθος",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "731b94f2"
+  },
+  "home_near_title": {
+    "value": "Το mesh κοντά σου",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "ed836e2f"
+  },
+  "home_near_lead": {
+    "value": "{n} τοπικές ομάδες σε όλη την Ευρώπη λειτουργούν τους αναμεταδότες. Βρες τη δική σου, γνώρισέ τη και χρησιμοποίησε τις ρυθμίσεις που χρησιμοποιούν οι γείτονές σου.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "b33f8699"
+  },
+  "home_near_map_title": {
+    "value": "Τοπικές ομάδες",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "dff00c14"
+  },
+  "home_near_map_hint": {
+    "value": "Διάλεξε μια χώρα ή μια κουκκίδα για να ανοίξεις τις ομάδες της.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "5f747d3b"
+  },
+  "home_near_map_all": {
+    "value": "Βρες την ομάδα κοντά σου",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "91724719"
+  },
+  "home_near_meetings_title": {
+    "value": "Επόμενες συναντήσεις",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "89d075ce"
+  },
+  "home_near_settings_title": {
+    "value": "Ρυθμίσεις για την περιοχή σου",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "e6c93768"
+  },
+  "home_near_settings_lead": {
+    "value": "Κάθε περιοχή παρακάτω έχει τις δικές της ρυθμίσεις ραδιοεπικοινωνίας. Διάλεξε τη δική σου.",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "00d1b44c"
+  },
+  "home_near_settings_all": {
+    "value": "Προτεινόμενες ρυθμίσεις",
+    "_ai": true,
+    "_seeded": "2026-11-10",
+    "_source": "cfb32983"
   }
 }

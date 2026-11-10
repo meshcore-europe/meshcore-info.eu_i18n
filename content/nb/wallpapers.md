@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-10-31'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Fargeleggingsark {#colouring}
+
+Skriv ut et ark og fargelegg det, hjemme, i klassen eller på standen til gruppa di.
+Hvert ark er en PDF i A4-format med svarte streker på hvit bakgrunn.
+
+På tallsiden velger du en farge for hvert tall i rutene. Så fargelegger du
+hver form med fargen til tallet som står i den. Varme farger viser hvor radiostrålen fra en
+antenne er sterk, kalde farger hvor den er svak. De bitte små formene uten
+tall bestemmer du selv fargen på.
+
+Vil du skrive ut alle på én gang, laster du ned
+[alle fargeleggingsarkene i 1 PDF](/media/colouring/colouring-pages.pdf) (A4, 9
+sider).
+
+- [![En glad stripete katt på et takmøne, som strekker seg etter en radiobølge fra en antenne, på et stående ark](/media/colouring/cat-upright-thumb.webp) Katt på taket (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![En stripete katt på et takmøne, som slår etter bølgene fra en antenne på en mast](/media/colouring/cat-ridge-thumb.webp) Katt og antenne (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Et kretskort på nært hold, med en USB-C-kontakt, en brikke, knapper og kobberbaner som ligner veier](/media/colouring/circuit-board-thumb.webp) Kretskort (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Et kretskort sett ovenfra, med en brikke, en skjerm, en USB-C-kontakt og 2 knapper](/media/colouring/circuit-board-above-thumb.webp) Kretskort ovenfra (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Et barn med en telefon og en node i en trehytte, og et barn til som vinker fra en annen trehytte](/media/colouring/treehouses-thumb.webp) Trehytter (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Buer fra et hus til et kirketårn, en ås og en gård, tvers over en dal med kuer](/media/colouring/valley-thumb.webp) Over dalen (PDF, A4)](/media/colouring/valley.pdf)
+- [![En repeaterboks på en mast over et tak, med et solcellepanel, en fugl og radiobølger](/media/colouring/solar-repeater-thumb.webp) Repeater med solcelle (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Et ark fullt av kruseduller med master, repeaterbokser, telefoner, konvolutter, bølger og blader](/media/colouring/mesh-doodle-thumb.webp) Mesh-kruseduller (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Et ark fullt av kruseduller med antenner, kretskort, brikker, telefoner og konvolutter, og et tall i hver figur](/media/colouring/doodle-in-numbers-thumb.webp) Kruseduller med tall (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Scener {#scenes}
+
 
 Velg en scene i lys eller mørk utgave. Last den ned og bruk den som
 skrivebordsbakgrunn.
@@ -21,8 +48,6 @@ skrivebordsbakgrunn.
 Hvert bakgrunnsbilde er 5120 x 2880 piksler (16:9), en JPEG på 1 til 3 MB. Alle
 skjermer med samme format skalerer det ned. På mobilen velger du utsnittet du vil ha når du setter det som bakgrunn.
 Ordmerket til meshcore-info.eu står nederst i høyre hjørne.
-
-## Scener {#scenes}
 
 - [Enheter](/devices/) [![Enheter for hver rolle lagt ut på en skjærematte på et skrivebord](/media/wallpapers/01-devices-light-thumb.webp) Lys](/media/wallpapers/01-devices-light.jpg) [![Enheter for hver rolle lagt ut på en skjærematte på et skrivebord](/media/wallpapers/01-devices-dark-thumb.webp) Mørk](/media/wallpapers/01-devices-dark.jpg)
 - [Kom i gang](/get-started/) [![En første node og en mobil på et skrivebord, ved siden av en grenkontakt](/media/wallpapers/02-get-started-light-thumb.webp) Lys](/media/wallpapers/02-get-started-light.jpg) [![En første node og en mobil på et skrivebord, ved siden av en grenkontakt](/media/wallpapers/02-get-started-dark-thumb.webp) Mørk](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ Ordmerket til meshcore-info.eu står nederst i høyre hjørne.
 - [Antenneguide](/guides/antenna/) [![Antennedeler lagt ut på en skjærematte, med en maiskolbe i kaffekoppen](/media/wallpapers/27-antenna-light-thumb.webp) Lys](/media/wallpapers/27-antenna-light.jpg) [![Antennedeler lagt ut på en skjærematte, med en maiskolbe i kaffekoppen](/media/wallpapers/27-antenna-dark-thumb.webp) Mørk](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Slik bruker du dem {#use}
+
+Skriv ut fargeleggingsarkene så ofte du vil, og del dem ut.
 
 Bruk bakgrunnsbildene på dine egne skjermer, og del dem slik de er: ordmerket i
 hjørnet viser hvor de kommer fra. Ikke bruk dem i reklame, på

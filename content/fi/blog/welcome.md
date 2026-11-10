@@ -5,11 +5,11 @@ description: meshcore-info.eu kokoaa paikallisten meshien jakamat asetukset, opp
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 meshcore-info.eu kertoo MeshCoresta Euroopassa. Sivustolta löydät paikallisten
@@ -58,15 +58,18 @@ Käytä niitä uutisissa ja julkaisuissa ja mainitse lähteeksi meshcore-info.eu
 
 ## Lupauksemme {#promises}
 
-- **Ei mainoksia, kauppalinkkejä eikä kumppanilinkkejä.** [Laitteet](/devices/)-sivulla
-  on valmistajien tekniset tiedot ja hintaluokka. Sivu ei koskaan linkitä kauppaan.
-- **Ei seurantaa.** Sivusto ei käytä analytiikkaa eikä seurantatyökaluja. Ainoa eväste muistaa
-  teemavalintasi. Ainoa muu palvelin, jolta sivusto pyytää tietoja, on meshcore-analyzer.eu.
-  Sitä ylläpitävät samat vapaaehtoiset. Tarkemmat tiedot löydät [tietosuojasivulta](/privacy/).
-- **Faktoilla on lähteet.** Se, mitä kirjoitamme MeshCoresta, perustuu sen laiteohjelmistoon
-  ja dokumentaatioon. Radiosäännöt tulevat viranomaisilta.
-- **Omalla kielelläsi.** Sivusto on saatavilla 33 kielellä. Sivut ovat aluksi konekäännöksiä,
-  ja ne on merkitty sellaisiksi, kunnes äidinkielinen puhuja on tarkistanut ne.
+- **Ei mainoksia, kauppalinkkejä eikä kumppanuuslinkkejä.** [Laitteet](/devices/)-sivulla
+  on valmistajien ilmoittamat tekniset tiedot ja hintaluokka. Kauppaan sivu ei
+  linkitä koskaan.
+- **Ei seurantaa.** Sivustolla ei ole analytiikkaa eikä seuraimia. Ainoa eväste muistaa
+  valitsemasi teeman. Ainoa muu palvelin, jolta sivusto hakee tietoja, on samojen
+  vapaaehtoisten ylläpitämä meshcore-analyzer.eu. Yksityiskohdat löydät [tietosuojasivulta](/privacy/).
+- **Faktoille on lähteet.** MeshCorea koskevat tiedot ovat peräisin sen laiteohjelmistosta,
+  dokumentaatiosta tai tämän sivuston ylläpitäjiltä. Radiomääräykset ovat peräisin
+  sääntelyviranomaisilta.
+- **Omalla kielelläsi.** Sivusto on saatavilla 33 kielellä. Sivut ovat aluksi
+  konekäännöksiä, ja ne on merkitty sellaisiksi, kunnes kieltä äidinkielenään puhuva on
+  tarkistanut ne.
 
 Kaikki on avointa lähdekoodia. Puuttuuko paikallinen ryhmäsi tai onko jokin tieto
 väärin? [Näin voit auttaa](/contribute/).

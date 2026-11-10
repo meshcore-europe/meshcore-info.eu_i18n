@@ -5,11 +5,11 @@ description: meshcore-info.eu raccoglie in 33 lingue le impostazioni, le guide e
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 meshcore-info.eu spiega MeshCore per l'Europa: le impostazioni, le guide e gli
@@ -57,16 +57,18 @@ di lancio. Usali in articoli e post, e cita meshcore-info.eu come fonte.
 
 ## Le promesse {#promises}
 
-- **Niente pubblicità, né link a negozi o di affiliazione.** La pagina [Dispositivi](/devices/)
+- **Niente pubblicità, link a negozi o link di affiliazione.** La pagina [Dispositivi](/devices/)
   elenca le specifiche dei produttori e una fascia di prezzo. Non rimanda mai a un
   negozio.
 - **Nessun tracciamento.** Il sito non usa strumenti di analisi né tracker. L'unico cookie ricorda il
-  tema che hai scelto. L'unico altro server che il sito contatta è meshcore-analyzer.eu,
-  gestito dagli stessi volontari. Nella [pagina sulla privacy](/privacy/) trovi i dettagli.
-- **Le fonti dei fatti.** Quello che scriviamo su MeshCore viene dal suo firmware
-  e dalla sua documentazione. Le norme radio vengono dalle autorità di regolamentazione.
+  tema che hai scelto. L'unico altro server che il sito interroga è meshcore-analyzer.eu,
+  gestito dagli stessi volontari. Trovi i dettagli nella [pagina sulla privacy](/privacy/).
+- **Le fonti dei fatti.** I fatti su MeshCore vengono dal firmware, dalla
+  documentazione o da chi cura questo sito. Le regole radio vengono
+  dalle autorità di regolamentazione.
 - **La tua lingua.** Il sito è disponibile in 33 lingue. Le pagine nascono come
-  traduzioni automatiche, segnalate come tali finché un madrelingua non le controlla.
+  traduzioni automatiche, segnalate come tali finché un madrelingua non le ha
+  controllate.
 
 Tutto è open source. Manca il tuo gruppo locale o hai trovato un errore?
 [Ecco come aiutare](/contribute/).

@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-10-31'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Páginas para colorir {#colouring}
+
+Imprime uma página e pinta-a, em casa, numa aula ou na banca do teu grupo.
+Cada página é um PDF A4 com linhas pretas sobre fundo branco.
+
+Na página dos números, escolhe uma cor para cada número nas caixas. Depois pinta
+cada forma com a cor do seu número. As cores quentes mostram onde o feixe de rádio
+de uma antena é forte, as cores frias onde é fraco. As formas pequeninas sem
+número ficam à tua escolha.
+
+Para as imprimires todas de uma vez, descarrega
+[todas as páginas para colorir em 1 PDF](/media/colouring/colouring-pages.pdf) (A4, 9
+páginas).
+
+- [![Um gato tigrado contente na cumeeira de um telhado, a tentar apanhar uma onda de rádio de uma antena, numa página ao alto](/media/colouring/cat-upright-thumb.webp) Gato no telhado (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Um gato às riscas na cumeeira de um telhado, a dar patadas nas ondas de uma antena num mastro](/media/colouring/cat-ridge-thumb.webp) Gato e antena (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Uma placa de circuito vista de perto, com uma entrada USB-C, um chip, botões e pistas de cobre que parecem estradas](/media/colouring/circuit-board-thumb.webp) Placa de circuito (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Uma placa de circuito vista de cima, com um chip, um ecrã, uma entrada USB-C e 2 botões](/media/colouring/circuit-board-above-thumb.webp) Placa de circuito vista de cima (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Uma criança com um telemóvel e um nó numa casa na árvore, uma segunda criança a acenar de outra casa na árvore](/media/colouring/treehouses-thumb.webp) Casas na árvore (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Arcos de uma casa até à torre de uma igreja, a uma colina e a uma quinta, através de um vale com vacas](/media/colouring/valley-thumb.webp) Através do vale (PDF, A4)](/media/colouring/valley.pdf)
+- [![Uma caixa de repetidor num mastro por cima de um telhado, com um painel solar, um pássaro e ondas de rádio](/media/colouring/solar-repeater-thumb.webp) Repetidor solar (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Uma página cheia de rabiscos com mastros, caixas de repetidor, telemóveis, envelopes, ondas e folhas](/media/colouring/mesh-doodle-thumb.webp) Rabiscos da mesh (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Uma página cheia de rabiscos com antenas, placas, chips, telemóveis e envelopes, e um número em cada forma](/media/colouring/doodle-in-numbers-thumb.webp) Rabiscos com números (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Cenas {#scenes}
+
 
 Escolhe uma cena na versão clara ou escura. Descarrega-a e põe-na como
 fundo do teu ambiente de trabalho.
@@ -21,8 +48,6 @@ fundo do teu ambiente de trabalho.
 Cada fundo de ecrã tem 5120 por 2880 píxeis (16:9) e é um JPEG de 1 a 3 MB.
 Qualquer ecrã com esse formato reduz a imagem. No telemóvel, escolhe a parte que queres quando o definires.
 O logótipo de meshcore-info.eu está no canto inferior direito.
-
-## Cenas {#scenes}
 
 - [Dispositivos](/devices/) [![Dispositivos para cada função dispostos numa base de corte, em cima de uma secretária](/media/wallpapers/01-devices-light-thumb.webp) Claro](/media/wallpapers/01-devices-light.jpg) [![Dispositivos para cada função dispostos numa base de corte, em cima de uma secretária](/media/wallpapers/01-devices-dark-thumb.webp) Escuro](/media/wallpapers/01-devices-dark.jpg)
 - [Começar](/get-started/) [![Um primeiro nó e um telemóvel numa secretária, ao lado de uma extensão elétrica](/media/wallpapers/02-get-started-light-thumb.webp) Claro](/media/wallpapers/02-get-started-light.jpg) [![Um primeiro nó e um telemóvel numa secretária, ao lado de uma extensão elétrica](/media/wallpapers/02-get-started-dark-thumb.webp) Escuro](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ O logótipo de meshcore-info.eu está no canto inferior direito.
 - [Guia de antenas](/guides/antenna/) [![Peças de antena dispostas numa base de corte, com uma maçaroca de milho na caneca do café](/media/wallpapers/27-antenna-light-thumb.webp) Claro](/media/wallpapers/27-antenna-light.jpg) [![Peças de antena dispostas numa base de corte, com uma maçaroca de milho na caneca do café](/media/wallpapers/27-antenna-dark-thumb.webp) Escuro](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Como usar {#use}
+
+Imprime as páginas para colorir quantas vezes quiseres e distribui-as.
 
 Usa os fundos de ecrã nos teus próprios ecrãs e partilha-os tal como estão:
 o logótipo no canto indica a origem. Não os uses em anúncios publicitários,

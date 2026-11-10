@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-11-02'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Molbiller {#colouring}
+
+Dréck eng Säit aus a mol se aus, doheem, an enger Klass oder um Stand vun denger Grupp.
+All Säit ass en A4-PDF mat schwaarze Linnen op wäissem Hannergrond.
+
+Sich op der Zuelesäit an de Këschten eng Faarf fir all Zuel eraus. Mol duerno
+all Form an der Faarf vun hirer Zuel aus. Waarm Faarwe weisen, wou de
+Funkstral vun enger Antenn staark ass, kal Faarwen, wou e schwaach ass. Fir déi
+ganz kleng Formen ouni Zuel sichs du d'Faarf selwer eraus.
+
+Wëlls du se all op eemol ausdrécken, da lued
+[all d'Molbiller an 1 PDF](/media/colouring/colouring-pages.pdf) erof (A4, 9
+Säiten).
+
+- [![Eng glécklech getigert Kaz um First vun engem Daach, déi no enger Funkwell vun enger Antenn gräift, op enger Säit am Héichformat](/media/colouring/cat-upright-thumb.webp) Kaz um Daach (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Eng gesträifte Kaz um First vun engem Daach, déi no de Welle vun enger Antenn op engem Mast schléit](/media/colouring/cat-ridge-thumb.webp) Kaz an Antenn (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Eng Platin vun no, mat enger USB-C-Buchs, engem Chip, Knäppercher a Kofferbunnen ewéi Stroossen](/media/colouring/circuit-board-thumb.webp) Platin (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Eng Platin vun uewen, mat engem Chip, engem Ecran, enger USB-C-Buchs an 2 Knäppercher](/media/colouring/circuit-board-above-thumb.webp) Platin vun uewen (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![E Kand mat engem Handy an engem Node an engem Bamhaus, en zweet Kand wénkt aus engem anere Bamhaus](/media/colouring/treehouses-thumb.webp) Bamhaiser (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Béi vun engem Haus bei e Kierchtuerm, en Hiwwel an e Bauerenhaff iwwer en Dall mat Kéi](/media/colouring/valley-thumb.webp) Iwwer den Dall (PDF, A4)](/media/colouring/valley.pdf)
+- [![Eng Repeater-Këscht op engem Mast iwwer engem Daach, mat engem Solarpanneau, engem Vugel a Funkwellen](/media/colouring/solar-repeater-thumb.webp) Solar-Repeater (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Eng ganz Säit voller Kritzeleie mat Masten, Repeater-Këschten, Handyen, Enveloppen, Wellen a Blieder](/media/colouring/mesh-doodle-thumb.webp) Mesh-Kritzelei (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Eng ganz Säit voller Kritzeleie mat Antennen, Platinnen, Chips, Handyen an Enveloppen, an eng Zuel an all Form](/media/colouring/doodle-in-numbers-thumb.webp) Kritzelei mat Zuelen (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Zeenen {#scenes}
+
 
 Sich dir eng Zeen an der heller oder an der däischterer Versioun eraus. Lued se erof a setz se als
 Hannergrond op däin Desktop.
@@ -21,8 +48,6 @@ Hannergrond op däin Desktop.
 All Hannergrondbild huet 5120 op 2880 Pixel (16:9) an ass e JPEG vun 1 bis 3 MB. All Ecran mat
 deem Format skaléiert et erof. Um Handy wiels du beim Astellen den Ausschnëtt, deen s du wëlls.
 Ënne riets am Eck steet de Schrëftzuch vu meshcore-info.eu.
-
-## Zeenen {#scenes}
 
 - [Geräter](/devices/) [![Geräter fir all Roll, op enger Schneidmatt um Schreifdësch ausgeluecht](/media/wallpapers/01-devices-light-thumb.webp) Hell](/media/wallpapers/01-devices-light.jpg) [![Geräter fir all Roll, op enger Schneidmatt um Schreifdësch ausgeluecht](/media/wallpapers/01-devices-dark-thumb.webp) Däischter](/media/wallpapers/01-devices-dark.jpg)
 - [Ufänken](/get-started/) [![En éischten Node an en Handy op engem Schreifdësch, nieft enger Steckerleescht](/media/wallpapers/02-get-started-light-thumb.webp) Hell](/media/wallpapers/02-get-started-light.jpg) [![En éischten Node an en Handy op engem Schreifdësch, nieft enger Steckerleescht](/media/wallpapers/02-get-started-dark-thumb.webp) Däischter](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ deem Format skaléiert et erof. Um Handy wiels du beim Astellen den Ausschnëtt,
 - [Antennen-Guide](/guides/antenna/) [![Antennendeeler op enger Schneidmatt ausgeluecht, e Maiskolben an der Kaffistas](/media/wallpapers/27-antenna-light-thumb.webp) Hell](/media/wallpapers/27-antenna-light.jpg) [![Antennendeeler op enger Schneidmatt ausgeluecht, e Maiskolben an der Kaffistas](/media/wallpapers/27-antenna-dark-thumb.webp) Däischter](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Se benotzen {#use}
+
+Dréck d'Molbiller sou dacks aus, wéi s du wëlls, a verdeel se.
 
 Benotz d'Biller als Hannergrond op dengen eegenen Ecranen, an deel se esou, wéi se sinn:
 de Schrëftzuch am Eck nennt d'Quell. Benotz se net a Reklammen, op Produkter oder Merchandise. Am

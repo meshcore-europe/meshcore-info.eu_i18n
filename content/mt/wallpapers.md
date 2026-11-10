@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-11-02'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Paġni għall-ikkulurar {#colouring}
+
+Ipprintja paġna u ikkuluraha, id-dar, fil-klassi jew fl-istand tal-grupp tiegħek.
+Kull paġna hija PDF A4 b'linji suwed fuq l-abjad.
+
+Fil-paġna tan-numri, agħżel kulur għal kull numru fil-kaxxi. Imbagħad ikkulura
+kull forma bil-kulur tan-numru tagħha. Il-kuluri sħan juru fejn ir-raġġ tar-radju
+ta' antenna huwa qawwi, il-kuluri kesħin fejn huwa dgħajjef. Għall-forom żgħar ħafna
+mingħajr numru, il-kulur tagħżlu int.
+
+Biex tipprintjahom kollha f'daqqa, niżżel
+[il-paġni kollha tal-ikkulurar f'PDF 1](/media/colouring/colouring-pages.pdf) (A4, 9
+paġni).
+
+- [![Qattus tigrat ferħan fuq il-quċċata ta' saqaf, jiġġebbed lejn mewġa tar-radju ħierġa minn antenna, fuq paġna bil-wieqfa](/media/colouring/cat-upright-thumb.webp) Qattus fuq is-saqaf (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Qattus bl-istrixxi fuq il-quċċata ta' saqaf, jipprova jolqot b'siequ l-mewġ ħiereġ minn antenna fuq arblu](/media/colouring/cat-ridge-thumb.webp) Qattus u antenna (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Bord taċ-ċirkwit mill-qrib, b'sokit USB-C, ċippa, buttuni u linji tar-ram qishom toroq](/media/colouring/circuit-board-thumb.webp) Bord taċ-ċirkwit (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Bord taċ-ċirkwit minn fuq, b'ċippa, skrin, sokit USB-C u 2 buttuni](/media/colouring/circuit-board-above-thumb.webp) Bord taċ-ċirkwit minn fuq (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Tifel b'mowbajl u node f'dar fuq siġra, u tifel ieħor ixejjer b'idu minn dar oħra fuq siġra](/media/colouring/treehouses-thumb.webp) Djar fuq is-siġar (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Arki minn dar sa kampnar ta' knisja, għolja u razzett fuq in-naħa l-oħra ta' wied bil-baqar](/media/colouring/valley-thumb.webp) Minn naħa għall-oħra tal-wied (PDF, A4)](/media/colouring/valley.pdf)
+- [![Kaxxa ta' repeater fuq arblu 'l fuq minn saqaf, b'pannell solari, għasfur u mewġ tar-radju](/media/colouring/solar-repeater-thumb.webp) Repeater solari (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Paġna sħiħa ta' tpinġijiet żgħar b'arbli, kaxxi tar-repeater, mowbajls, envelops, mewġ u weraq](/media/colouring/mesh-doodle-thumb.webp) Tpinġijiet tal-mesh (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Paġna sħiħa ta' tpinġijiet żgħar b'antenni, bordijiet, ċipep, mowbajls u envelops, u numru f'kull forma](/media/colouring/doodle-in-numbers-thumb.webp) Tpinġijiet bin-numri (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Xeni {#scenes}
+
 
 Agħżel xena fil-verżjoni ċara jew skura tagħha. Niżżilha u agħmilha
 l-isfond tad-desktop tiegħek.
@@ -21,8 +48,6 @@ l-isfond tad-desktop tiegħek.
 Kull sfond huwa ta' 5120 b'2880 pixel (16:9), JPEG ta' 1 sa 3 MB. Kull
 skrin b'din il-forma jċekknu. Fuq it-telefon, agħżel il-parti li trid meta tpoġġih bħala sfond.
 Il-wordmark ta' meshcore-info.eu tinsab fil-kantuniera t'isfel fuq il-lemin.
-
-## Xeni {#scenes}
 
 - [Apparati](/devices/) [![Apparati għal kull rwol mqiegħda fuq tapit tal-qtugħ fuq skrivanija](/media/wallpapers/01-devices-light-thumb.webp) Ċar](/media/wallpapers/01-devices-light.jpg) [![Apparati għal kull rwol mqiegħda fuq tapit tal-qtugħ fuq skrivanija](/media/wallpapers/01-devices-dark-thumb.webp) Skur](/media/wallpapers/01-devices-dark.jpg)
 - [Ibda](/get-started/) [![L-ewwel node u telefon fuq skrivanija, ħdejn estensjoni tal-elettriku](/media/wallpapers/02-get-started-light-thumb.webp) Ċar](/media/wallpapers/02-get-started-light.jpg) [![L-ewwel node u telefon fuq skrivanija, ħdejn estensjoni tal-elettriku](/media/wallpapers/02-get-started-dark-thumb.webp) Skur](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ Il-wordmark ta' meshcore-info.eu tinsab fil-kantuniera t'isfel fuq il-lemin.
 - [Gwida għall-antenna](/guides/antenna/) [![Partijiet tal-antenna mqiegħda fuq tapit tal-qtugħ, b'zokk tal-qamħirrum fil-mug tal-kafè](/media/wallpapers/27-antenna-light-thumb.webp) Ċar](/media/wallpapers/27-antenna-light.jpg) [![Partijiet tal-antenna mqiegħda fuq tapit tal-qtugħ, b'zokk tal-qamħirrum fil-mug tal-kafè](/media/wallpapers/27-antenna-dark-thumb.webp) Skur](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Kif tużahom {#use}
+
+Ipprintja l-paġni tal-ikkulurar kemm-il darba trid u qassamhom.
 
 Uża l-isfondi fuq l-iskrins tiegħek, u aqsamhom kif inhuma:
 il-wordmark fil-kantuniera ssemmi s-sors. Tużahomx

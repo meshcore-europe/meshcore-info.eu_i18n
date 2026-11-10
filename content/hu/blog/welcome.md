@@ -5,11 +5,11 @@ description: A meshcore-info.eu 33 nyelven gyűjti össze a helyi mesh közöss�
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 A meshcore-info.eu Európának mutatja be a MeshCore-t: a helyi meshek közös beállításait, útmutatóit és eszközeit. Az alábbi sajtóközleményt szabadon átmásolhatod.
@@ -43,15 +43,17 @@ A [Promóciós és sajtócsomagban](/press-kit/) megtalálod a logót, a képeke
 
 ## Az ígéreteink {#promises}
 
-- **Nincs hirdetés, webshoplink vagy partnerlink.** Az [Eszközök](/devices/) oldal
-  felsorolja a gyártók műszaki adatait és egy ársávot. Webshopra sosem
+- **Nincs hirdetés, bolti link vagy affiliate link.** Az [Eszközök](/devices/) oldal
+  a gyártók műszaki adatait és egy ársávot közöl. Boltra soha nem
   linkel.
-- **Nincs követés.** A webhely nem futtat analitikát vagy követőkódot. Az egyetlen süti
-  a választott témádat jegyzi meg. A webhely ezen kívül csak a meshcore-analyzer.eu szerverhez fordul,
-  ezt ugyanazok az önkéntesek üzemeltetik. A részleteket az [adatvédelmi oldalon](/privacy/) találod.
-- **Tények forrásból.** Amit a MeshCore-ról írunk, azt a firmware-éből
-  és a dokumentációjából vesszük. A rádiózási szabályok a hatóságoktól származnak.
-- **A saját nyelveden.** A webhely 33 nyelven érhető el. Az oldalak először gépi fordításban jelennek meg,
-  és ezt jelöljük is rajtuk, amíg egy anyanyelvi beszélő át nem nézi őket.
+- **Nincs követés.** A webhelyen nincs analitika és nincs követőkód. Az egyetlen süti azt
+  jegyzi meg, melyik témát választottad. A webhely ezen kívül egyetlen szerverhez fordul: a meshcore-analyzer.eu-hoz,
+  amelyet ugyanazok az önkéntesek üzemeltetnek. A részleteket az [adatvédelmi oldalon](/privacy/) találod.
+- **A tények forrása.** A MeshCore-ról szóló tények a firmware-éből, a
+  dokumentációjából vagy a webhely karbantartóitól származnak. A rádiós szabályok a
+  szabályozó hatóságoktól származnak.
+- **A saját nyelveden.** A webhely 33 nyelven érhető el. Minden oldal
+  gépi fordításként indul, és ezt jelezzük rajta, amíg egy anyanyelvi beszélő át nem
+  nézi.
 
 Minden nyílt forráskódú. Hiányzik a helyi csoportod, vagy hibás egy adat? [Így segíthetsz](/contribute/).

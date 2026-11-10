@@ -5,11 +5,11 @@ description: meshcore-info.eu kogub kohalike võrkude jagatud seadistused, juhen
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 meshcore-info.eu tutvustab MeshCore'i Euroopa kasutajatele: siit leiad kohalike mesh-võrkude ühised seaded,
@@ -55,10 +55,18 @@ avamisvideod. Kasuta neid uudistes ja postitustes ning märgi allikaks meshcore-
 
 ## Meie lubadused {#promises}
 
-- **Reklaame, poelinke ega partnerlinke pole.** Lehel [Seadmed](/devices/) on tootjate tehnilised andmed ja hinnaklass. Sealt ei vii kunagi ühtegi linki poodi.
-- **Jälgimist pole.** Sait ei kasuta analüütikat ega jälgijaid. Ainus küpsis jätab meelde sinu teemavaliku. Ainus teine server, mille poole sait pöördub, on meshcore-analyzer.eu, mida haldavad samad vabatahtlikud. Üksikasjad leiad [privaatsuslehelt](/privacy/).
-- **Faktidel on allikad.** See, mida me MeshCore'i kohta kirjutame, pärineb selle püsivarast ja dokumentatsioonist. Raadioreeglid pärinevad reguleerivatelt asutustelt.
-- **Sinu keel.** Sait on saadaval 33 keeles. Lehed ilmuvad esmalt masintõlkena ja on nii märgitud, kuni emakeelena kõneleja on need üle vaadanud.
+- **Ei reklaame, poelinke ega partnerlinke.** Lehel [Seadmed](/devices/)
+  on tootjate spetsifikatsioonid ja hinnavahemik. Poodidele see kunagi
+  ei viita.
+- **Ei mingit jälgimist.** Sait ei kasuta analüütikat ega jälgureid. Ainus küpsis jätab meelde sinu
+  teemavaliku. Ainus teine server, mille poole sait pöördub, on meshcore-analyzer.eu,
+  mida haldavad samad vabatahtlikud. Üksikasjad leiad [privaatsuslehelt](/privacy/).
+- **Faktidel on allikad.** Faktid MeshCore'i kohta pärinevad selle püsivarast,
+  dokumentatsioonist või inimestelt, kes seda saiti haldavad. Raadioside reeglid pärinevad
+  järelevalveasutustelt.
+- **Sinu keel.** Sait on saadaval 33 keeles. Lehed on algul
+  masintõlked ja nii ka märgitud, kuni keelt emakeelena kõneleja on need üle
+  kontrollinud.
 
 Kõik on avatud lähtekoodiga. Kas sinu kohalik grupp puudub või on mõni fakt vale?
 [Nii saad aidata](/contribute/).

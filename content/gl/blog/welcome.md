@@ -5,11 +5,11 @@ description: meshcore-info.eu recolle os axustes, as guías e as ferramentas que
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 meshcore-info.eu explica MeshCore para Europa: os axustes, as guías e as
@@ -48,16 +48,17 @@ No [Kit de promoción e prensa](/press-kit/) tes o logo, as imaxes e os vídeos 
 ## Os compromisos {#promises}
 
 - **Sen anuncios, ligazóns a tendas nin ligazóns de afiliación.** A páxina [Dispositivos](/devices/)
-  recolle as especificacións dos fabricantes e unha franxa de prezos. Nunca enlaza con ningunha
-  tenda.
-- **Sen rastrexo.** O sitio non usa analíticas nin rastrexadores. A única cookie lembra o
-  tema que escolliches. O sitio só consulta outro servidor: meshcore-analyzer.eu,
-  que xestionan as mesmas persoas voluntarias. Tes os detalles na [páxina de privacidade](/privacy/).
-- **Fontes dos datos.** O que escribimos sobre MeshCore procede do seu firmware
-  e da súa documentación. As normas de radio veñen dos organismos reguladores.
-- **A túa lingua.** O sitio está dispoñible en 33 linguas. As páxinas comezan sendo
-  traducións automáticas, e así figuran marcadas ata que as revisa unha persoa falante
-  nativa.
+  recolle as especificacións dos fabricantes e unha franxa de prezos. Nunca enlaza a
+  unha tenda.
+- **Sen rastrexo.** O sitio non usa analítica nin rastrexadores. A única cookie lembra o
+  tema que escolliches. O sitio só consulta outro servidor, meshcore-analyzer.eu,
+  que levan as mesmas persoas voluntarias. Os detalles están na [páxina de privacidade](/privacy/).
+- **Fontes dos datos.** Os datos sobre MeshCore saen do seu firmware, da súa
+  documentación ou das persoas que manteñen este sitio. As normas de radio saen
+  dos reguladores.
+- **A túa lingua.** O sitio está dispoñible en 33 linguas. As páxinas empezan como
+  traducións automáticas, marcadas como tales ata que un falante nativo as
+  revise.
 
 Todo é código aberto. Falta o teu grupo local ou hai un dato incorrecto?
 [Así podes axudar](/contribute/).

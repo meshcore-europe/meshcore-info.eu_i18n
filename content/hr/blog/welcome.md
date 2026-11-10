@@ -5,11 +5,11 @@ description: meshcore-info.eu okuplja postavke, vodiče i alate koje dijele loka
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 meshcore-info.eu objašnjava MeshCore za Europu: postavke, vodiče i
@@ -56,17 +56,18 @@ s predstavljanja. Koristi ih u vijestima i objavama, a kao izvor navedi meshcore
 
 ## Obećanja {#promises}
 
-- **Bez oglasa, poveznica na trgovine i partnerskih poveznica.** Stranica [Uređaji](/devices/)
-  navodi specifikacije proizvođača i cjenovni razred. Nikad ne vodi do
-  trgovine.
-- **Bez praćenja.** Web-stranica ne koristi analitiku ni alate za praćenje. Jedini kolačić pamti tvoj
-  odabir teme. Jedini drugi poslužitelj kojem se web-stranica obraća je meshcore-analyzer.eu,
-  a vode ga isti volonteri. Detalji su na [stranici o privatnosti](/privacy/).
-- **Izvori činjenica.** Ono što pišemo o sustavu MeshCore dolazi iz njegova firmwarea
-  i dokumentacije. Radijska pravila dolaze od regulatornih tijela.
-- **Tvoj jezik.** Web-stranica je dostupna na 33 jezika. Stranice najprije nastaju kao
-  strojni prijevodi i tako su označene dok ih izvorni govornik ne
-  provjeri.
+- **Bez oglasa, poveznica na trgovine i affiliate poveznica.** Stranica [Uređaji](/devices/)
+  navodi specifikacije proizvođača i cjenovni raspon. Nikad ne vodi na
+  trgovinu.
+- **Bez praćenja.** Stranica ne koristi analitiku ni alate za praćenje. Jedini kolačić pamti tvoj
+  odabir teme. Jedini drugi poslužitelj kojem stranica šalje upite je meshcore-analyzer.eu,
+  a vode ga isti volonteri. Pojedinosti su na [stranici o privatnosti](/privacy/).
+- **Izvori činjenica.** Činjenice o MeshCoreu potječu iz njegova firmwarea, iz njegove
+  dokumentacije ili od ljudi koji održavaju ovu stranicu. Radijska pravila dolaze od
+  regulatora.
+- **Tvoj jezik.** Stranica je dostupna na 33 jezika. Stranice nastaju kao
+  strojni prijevodi i tako su označene dok ih ne provjeri izvorni
+  govornik.
 
 Sve je otvorenog koda. Nedostaje tvoja lokalna grupa ili je neka činjenica pogrešna?
 [Evo kako možeš pomoći](/contribute/).

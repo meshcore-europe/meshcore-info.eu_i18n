@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-10-31'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Ausmalbilder {#colouring}
+
+Drucke eine Seite aus und male sie aus, zu Hause, in der Klasse oder am Stand deiner Gruppe.
+Jede Seite ist ein A4-PDF mit schwarzen Linien auf weißem Grund.
+
+Wähle auf der Zahlenseite in den Kästchen für jede Zahl eine Farbe. Male dann
+jede Form in der Farbe ihrer Zahl aus. Warme Farben zeigen, wo der Funkstrahl
+einer Antenne stark ist, kalte Farben, wo er schwach ist. Bei den winzigen Formen ohne
+Zahl wählst du die Farbe selbst.
+
+Um alle auf einmal zu drucken, lade
+[alle Ausmalbilder in 1 PDF](/media/colouring/colouring-pages.pdf) herunter (A4, 9
+Seiten).
+
+- [![Eine fröhliche getigerte Katze auf einem Dachfirst, die nach einer Funkwelle von einer Antenne greift, auf einer Seite im Hochformat](/media/colouring/cat-upright-thumb.webp) Katze auf dem Dach (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Eine gestreifte Katze auf einem Dachfirst, die nach den Wellen einer Antenne an einem Mast schlägt](/media/colouring/cat-ridge-thumb.webp) Katze und Antenne (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Eine Platine aus der Nähe, mit einer USB-C-Buchse, einem Chip, Tasten und Kupferbahnen wie Straßen](/media/colouring/circuit-board-thumb.webp) Platine (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Eine Platine von oben, mit einem Chip, einem Display, einer USB-C-Buchse und 2 Tasten](/media/colouring/circuit-board-above-thumb.webp) Platine von oben (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Ein Kind mit einem Handy und einem Knoten in einem Baumhaus, ein zweites Kind winkt aus einem anderen Baumhaus](/media/colouring/treehouses-thumb.webp) Baumhäuser (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Bögen von einem Haus zu einem Kirchturm, einem Hügel und einem Bauernhof über ein Tal mit Kühen](/media/colouring/valley-thumb.webp) Über das Tal (PDF, A4)](/media/colouring/valley.pdf)
+- [![Ein Repeater-Kasten an einem Mast über einem Dach, mit einem Solarpanel, einem Vogel und Funkwellen](/media/colouring/solar-repeater-thumb.webp) Solar-Repeater (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Eine ganze Seite voller Kritzeleien mit Masten, Repeater-Kästen, Handys, Briefumschlägen, Wellen und Blättern](/media/colouring/mesh-doodle-thumb.webp) Mesh-Kritzelbild (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Eine ganze Seite voller Kritzeleien mit Antennen, Platinen, Chips, Handys und Briefumschlägen und einer Zahl in jeder Form](/media/colouring/doodle-in-numbers-thumb.webp) Kritzelbild mit Zahlen (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Szenen {#scenes}
+
 
 Wähl eine Szene in der hellen oder dunklen Version. Lade sie herunter und
 mach sie zu deinem Desktop-Hintergrund.
@@ -21,8 +48,6 @@ mach sie zu deinem Desktop-Hintergrund.
 Jedes Hintergrundbild hat 5120 mal 2880 Pixel (16:9) und ist ein JPEG mit 1 bis 3 MB.
 Jeder Bildschirm in diesem Format skaliert es herunter. Auf dem Handy wählst du beim Einrichten den Ausschnitt, den du willst.
 Der Schriftzug von meshcore-info.eu steht unten rechts in der Ecke.
-
-## Szenen {#scenes}
 
 - [Geräte](/devices/) [![Geräte für jede Rolle, ausgelegt auf einer Schneidematte auf einem Schreibtisch](/media/wallpapers/01-devices-light-thumb.webp) Hell](/media/wallpapers/01-devices-light.jpg) [![Geräte für jede Rolle, ausgelegt auf einer Schneidematte auf einem Schreibtisch](/media/wallpapers/01-devices-dark-thumb.webp) Dunkel](/media/wallpapers/01-devices-dark.jpg)
 - [Einstieg](/get-started/) [![Ein erster Knoten und ein Handy auf einem Schreibtisch, neben einer Steckdosenleiste](/media/wallpapers/02-get-started-light-thumb.webp) Hell](/media/wallpapers/02-get-started-light.jpg) [![Ein erster Knoten und ein Handy auf einem Schreibtisch, neben einer Steckdosenleiste](/media/wallpapers/02-get-started-dark-thumb.webp) Dunkel](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ Der Schriftzug von meshcore-info.eu steht unten rechts in der Ecke.
 - [Antennen-Anleitung](/guides/antenna/) [![Antennenteile, ausgelegt auf einer Schneidematte, ein Maiskolben im Kaffeebecher](/media/wallpapers/27-antenna-light-thumb.webp) Hell](/media/wallpapers/27-antenna-light.jpg) [![Antennenteile, ausgelegt auf einer Schneidematte, ein Maiskolben im Kaffeebecher](/media/wallpapers/27-antenna-dark-thumb.webp) Dunkel](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Verwendung {#use}
+
+Drucke die Ausmalbilder so oft aus, wie du willst, und verteile sie.
 
 Nutz die Hintergrundbilder auf deinen eigenen Bildschirmen und teil sie unverändert:
 Der Schriftzug in der Ecke nennt die Quelle. Verwende sie nicht in Werbung,

@@ -5,11 +5,11 @@ description: meshcore-info.eu 33 kalbomis renka vietinių tinklų dalijamus nust
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 meshcore-info.eu paaiškina MeshCore Europos skaitytojams: čia rasi nustatymus, vadovus ir
@@ -55,16 +55,17 @@ vaizdo įrašus. Naudok juos naujienose ir įrašuose, o kaip šaltinį nurodyk 
 
 ## Pažadai {#promises}
 
-- **Jokios reklamos, parduotuvių ar partnerių nuorodų.** Puslapyje [Įranga](/devices/)
-  pateikiamos gamintojų specifikacijos ir kainų intervalas. Nuorodų į parduotuves
-  jame niekada nėra.
-- **Jokio sekimo.** Svetainė nenaudoja analitikos ar sekiklių. Vienintelis slapukas įsimena tavo
-  pasirinktą temą. Vienintelis kitas serveris, į kurį svetainė kreipiasi, yra meshcore-analyzer.eu.
-  Jį prižiūri tie patys savanoriai. Smulkmenas rasi [privatumo puslapyje](/privacy/).
-- **Faktų šaltiniai.** Tai, ką rašome apie MeshCore, paimta iš jo programinės įrangos
-  ir dokumentacijos. Radijo taisykles imame iš reguliavimo institucijų.
-- **Tavo kalba.** Svetainė prieinama 33 kalbomis. Iš pradžių puslapiai būna išversti mašininiu būdu.
-  Tokią žymą jie turi, kol juos patikrina gimtakalbis.
+- **Jokių reklamų, parduotuvių ar partnerių nuorodų.** Puslapyje [Įrenginiai](/devices/)
+  rasi gamintojų specifikacijas ir kainų rėžį. Į parduotuvę jis niekada
+  nenukreipia.
+- **Jokio sekimo.** Svetainėje nėra nei analitikos, nei sekimo priemonių. Vienintelis slapukas įsimena tavo
+  pasirinktą temą. Be savo serverio, svetainė kreipiasi tik į meshcore-analyzer.eu,
+  kurį prižiūri tie patys savanoriai. Daugiau informacijos rasi [privatumo puslapyje](/privacy/).
+- **Faktų šaltiniai.** Faktai apie MeshCore gauti iš jo programinės įrangos, jo
+  dokumentacijos arba iš šią svetainę prižiūrinčių žmonių. Radijo ryšio taisyklės paimtos iš
+  reguliavimo institucijų.
+- **Tavo kalba.** Svetainę gali skaityti 33 kalbomis. Iš pradžių puslapiai būna
+  išversti mašininiu būdu ir taip pažymėti, kol jų nepatikrina gimtakalbis.
 
 Viskas yra atvirojo kodo. Trūksta tavo vietinės grupės arba radai faktinę klaidą?
 [Štai kaip gali padėti](/contribute/).

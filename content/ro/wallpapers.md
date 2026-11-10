@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-10-31'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Planșe de colorat {#colouring}
+
+Printează o planșă și coloreaz-o, acasă, la clasă sau la standul grupului tău.
+Fiecare planșă este un PDF A4 cu linii negre pe fond alb.
+
+Pe planșa cu numere, alege în căsuțe o culoare pentru fiecare număr. Apoi colorează
+fiecare formă în culoarea numărului ei. Culorile calde arată unde fasciculul radio
+al unei antene este puternic, cele reci unde este slab. Pentru formele mărunte fără
+număr alegi tu culoarea.
+
+Ca să le printezi pe toate odată, descarcă
+[toate planșele de colorat în 1 PDF](/media/colouring/colouring-pages.pdf) (A4, 9
+pagini).
+
+- [![O pisică tărcată veselă pe coama unui acoperiș, care întinde laba spre o undă radio de la o antenă, pe o pagină verticală](/media/colouring/cat-upright-thumb.webp) Pisica de pe acoperiș (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![O pisică dungată pe coama unui acoperiș, care lovește cu laba undele de la o antenă de pe un catarg](/media/colouring/cat-ridge-thumb.webp) Pisica și antena (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![O placă de circuit văzută de aproape, cu o mufă USB-C, un cip, butoane și trasee de cupru ca niște drumuri](/media/colouring/circuit-board-thumb.webp) Placă de circuit (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![O placă de circuit văzută de sus, cu un cip, un ecran, o mufă USB-C și 2 butoane](/media/colouring/circuit-board-above-thumb.webp) Placă de circuit văzută de sus (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Un copil cu un telefon și un nod într-o căsuță din copac, un al doilea copil care face cu mâna din altă căsuță din copac](/media/colouring/treehouses-thumb.webp) Căsuțe în copac (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Arce de la o casă spre o turlă de biserică, un deal și o fermă, peste o vale cu vaci](/media/colouring/valley-thumb.webp) Peste vale (PDF, A4)](/media/colouring/valley.pdf)
+- [![O cutie de repetor pe un catarg deasupra unui acoperiș, cu un panou solar, o pasăre și unde radio](/media/colouring/solar-repeater-thumb.webp) Repetor solar (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![O pagină plină de mâzgălituri cu catarge, cutii de repetor, telefoane, plicuri, unde și frunze](/media/colouring/mesh-doodle-thumb.webp) Mâzgălituri mesh (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![O pagină plină de mâzgălituri cu antene, plăci, cipuri, telefoane și plicuri, cu câte un număr în fiecare formă](/media/colouring/doodle-in-numbers-thumb.webp) Mâzgălituri cu numere (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Scene {#scenes}
+
 
 Alege o scenă în varianta luminoasă sau întunecată. Descarc-o și pune-o
 ca fundal pe desktop.
@@ -21,8 +48,6 @@ ca fundal pe desktop.
 Fiecare imagine de fundal are 5120 pe 2880 de pixeli (16:9) și e un JPEG de 1 până la 3 MB. Orice
 ecran cu acest format o micșorează. Pe telefon, alegi partea dorită când o setezi.
 Sigla meshcore-info.eu apare în colțul din dreapta jos.
-
-## Scene {#scenes}
 
 - [Dispozitive](/devices/) [![Dispozitive pentru fiecare rol, așezate pe o planșetă de tăiere pe un birou](/media/wallpapers/01-devices-light-thumb.webp) Luminoasă](/media/wallpapers/01-devices-light.jpg) [![Dispozitive pentru fiecare rol, așezate pe o planșetă de tăiere pe un birou](/media/wallpapers/01-devices-dark-thumb.webp) Întunecată](/media/wallpapers/01-devices-dark.jpg)
 - [Primii pași](/get-started/) [![Un prim nod și un telefon pe un birou, lângă un prelungitor](/media/wallpapers/02-get-started-light-thumb.webp) Luminoasă](/media/wallpapers/02-get-started-light.jpg) [![Un prim nod și un telefon pe un birou, lângă un prelungitor](/media/wallpapers/02-get-started-dark-thumb.webp) Întunecată](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ Sigla meshcore-info.eu apare în colțul din dreapta jos.
 - [Ghid pentru antene](/guides/antenna/) [![Piese de antenă așezate pe o planșetă de tăiere, cu un știulete de porumb în cana de cafea](/media/wallpapers/27-antenna-light-thumb.webp) Luminoasă](/media/wallpapers/27-antenna-light.jpg) [![Piese de antenă așezate pe o planșetă de tăiere, cu un știulete de porumb în cana de cafea](/media/wallpapers/27-antenna-dark-thumb.webp) Întunecată](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Cum le folosești {#use}
+
+Printează planșele de colorat de câte ori vrei și împarte-le.
 
 Folosește imaginile ca fundal pe propriile ecrane și distribuie-le așa cum sunt:
 sigla din colț arată sursa. Nu le folosi

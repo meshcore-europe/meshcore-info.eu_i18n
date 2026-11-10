@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-10-31'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Kleurplaten {#colouring}
+
+Print een pagina uit en kleur hem in, thuis, in de klas of op de stand van je groep.
+Elke pagina is een A4-pdf met zwarte lijnen op wit.
+
+Kies op de cijferpagina in de vakjes een kleur voor elk cijfer. Kleur daarna
+elke vorm in de kleur van zijn cijfer. Warme kleuren laten zien waar de radiobundel
+van een antenne sterk is, koude kleuren waar hij zwak is. Voor de kleine vormpjes
+zonder cijfer kies je zelf een kleur.
+
+Wil je ze allemaal in één keer printen, download dan
+[alle kleurplaten in 1 pdf](/media/colouring/colouring-pages.pdf) (A4, 9
+pagina's).
+
+- [![Een vrolijke cyperse kat op de nok van een dak, die reikt naar een radiogolf van een antenne, op een staande pagina](/media/colouring/cat-upright-thumb.webp) Kat op het dak (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Een gestreepte kat op de nok van een dak, die mept naar de golven van een antenne op een mast](/media/colouring/cat-ridge-thumb.webp) Kat en antenne (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Een printplaat van dichtbij, met een USB-C-aansluiting, een chip, knoppen en kopersporen als wegen](/media/colouring/circuit-board-thumb.webp) Printplaat (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Een printplaat van bovenaf, met een chip, een scherm, een USB-C-aansluiting en 2 knoppen](/media/colouring/circuit-board-above-thumb.webp) Printplaat van bovenaf (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Een kind met een telefoon en een node in een boomhut, een tweede kind zwaait vanuit een andere boomhut](/media/colouring/treehouses-thumb.webp) Boomhutten (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Bogen over een dal met koeien, van een huis naar een kerktoren, een heuvel en een boerderij](/media/colouring/valley-thumb.webp) Het dal over (PDF, A4)](/media/colouring/valley.pdf)
+- [![Een repeaterkastje op een mast boven een dak, met een zonnepaneel, een vogel en radiogolven](/media/colouring/solar-repeater-thumb.webp) Repeater op zonne-energie (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Een pagina vol doodles met masten, repeaterkastjes, telefoons, enveloppen, golven en bladeren](/media/colouring/mesh-doodle-thumb.webp) Mesh-doodle (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Een pagina vol doodles met antennes, printplaten, chips, telefoons en enveloppen, en een nummer in elke vorm](/media/colouring/doodle-in-numbers-thumb.webp) Doodle op nummer (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Scènes {#scenes}
+
 
 Kies een scène in de lichte of de donkere versie. Download hem en stel hem in als
 achtergrond van je bureaublad.
@@ -21,8 +48,6 @@ achtergrond van je bureaublad.
 Elke achtergrond is 5120 bij 2880 pixels (16:9), een JPEG van 1 tot 3 MB. Elk
 scherm met die verhouding verkleint hem. Op een telefoon kies je bij het instellen welk deel je wilt zien.
 Het woordmerk van meshcore-info.eu staat rechtsonder in de hoek.
-
-## Scènes {#scenes}
 
 - [Apparaten](/devices/) [![Apparaten voor elke rol uitgestald op een snijmat op een bureau](/media/wallpapers/01-devices-light-thumb.webp) Licht](/media/wallpapers/01-devices-light.jpg) [![Apparaten voor elke rol uitgestald op een snijmat op een bureau](/media/wallpapers/01-devices-dark-thumb.webp) Donker](/media/wallpapers/01-devices-dark.jpg)
 - [Aan de slag](/get-started/) [![Een eerste node en een telefoon op een bureau, naast een stekkerdoos](/media/wallpapers/02-get-started-light-thumb.webp) Licht](/media/wallpapers/02-get-started-light.jpg) [![Een eerste node en een telefoon op een bureau, naast een stekkerdoos](/media/wallpapers/02-get-started-dark-thumb.webp) Donker](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ Het woordmerk van meshcore-info.eu staat rechtsonder in de hoek.
 - [Antennegids](/guides/antenna/) [![Antenneonderdelen uitgestald op een snijmat, een maiskolf in de koffiemok](/media/wallpapers/27-antenna-light-thumb.webp) Licht](/media/wallpapers/27-antenna-light.jpg) [![Antenneonderdelen uitgestald op een snijmat, een maiskolf in de koffiemok](/media/wallpapers/27-antenna-dark-thumb.webp) Donker](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Gebruik {#use}
+
+Print de kleurplaten zo vaak als je wilt en deel ze uit.
 
 Gebruik de achtergronden op je eigen schermen en deel ze zoals ze zijn: het
 woordmerk in de hoek noemt de bron. Gebruik ze niet in advertenties, op

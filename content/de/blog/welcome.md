@@ -5,11 +5,11 @@ description: meshcore-info.eu sammelt die Einstellungen, Anleitungen und Tools, 
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 meshcore-info.eu erklärt MeshCore für Europa: die Einstellungen, Anleitungen und
@@ -58,15 +58,16 @@ Verwende sie in Berichten und Beiträgen und nenne meshcore-info.eu als Quelle.
 ## Unsere Versprechen {#promises}
 
 - **Keine Werbung, keine Shop- oder Affiliate-Links.** Die Seite [Geräte](/devices/)
-  nennt die Spezifikationen der Hersteller und eine Preisspanne. Sie verlinkt nie auf
-  einen Shop.
-- **Kein Tracking.** Die Website nutzt weder Analyse-Tools noch Tracker. Das einzige Cookie speichert dein
-  gewähltes Design. Der einzige andere Server, den die Website abfragt, ist meshcore-analyzer.eu.
-  Dieselben Freiwilligen betreiben ihn. Die Details stehen auf der Seite [Datenschutz](/privacy/).
-- **Quellen für Fakten.** Was wir über MeshCore schreiben, stammt aus der Firmware
-  und der Dokumentation. Die Funkvorschriften stammen von den Regulierungsbehörden.
-- **Deine Sprache.** Die Website gibt es in 33 Sprachen. Seiten entstehen zuerst als
-  maschinelle Übersetzungen. Sie bleiben als solche gekennzeichnet, bis ein Muttersprachler sie
+  nennt die Herstellerangaben und eine Preisspanne. Sie verlinkt nie auf einen
+  Shop.
+- **Kein Tracking.** Die Website nutzt weder Analyse-Tools noch Tracker. Das einzige Cookie merkt sich
+  dein gewähltes Design. Der einzige andere Server, den die Website abfragt, ist meshcore-analyzer.eu,
+  den dieselben Freiwilligen betreiben. Die Details stehen auf der [Datenschutzseite](/privacy/).
+- **Quellen für Fakten.** Fakten zu MeshCore stammen aus der Firmware, der
+  Dokumentation oder von den Leuten, die diese Website pflegen. Die Funkregeln kommen von
+  den Regulierungsbehörden.
+- **Deine Sprache.** Die Website gibt es in 33 Sprachen. Jede Seite ist zunächst eine
+  maschinelle Übersetzung und als solche gekennzeichnet, bis ein Muttersprachler sie
   geprüft hat.
 
 Alles ist Open Source. Deine lokale Gruppe fehlt oder eine Angabe stimmt nicht?

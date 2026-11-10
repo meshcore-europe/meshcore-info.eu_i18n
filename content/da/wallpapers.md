@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-10-31'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Malesider {#colouring}
+
+Print en side og farvelæg den derhjemme, i en klasse eller på din gruppes stand.
+Hver side er en A4-PDF med sorte streger på hvid baggrund.
+
+På talsiden vælger du en farve til hvert tal i felterne. Farvelæg derefter
+hver figur med den farve, der hører til dens tal. Varme farver viser, hvor radiostrålen
+fra en antenne er stærk, kolde farver, hvor den er svag. De bittesmå figurer uden
+tal bestemmer du selv farven på.
+
+Vil du printe dem alle på én gang, så download
+[alle malesider i 1 PDF](/media/colouring/colouring-pages.pdf) (A4, 9
+sider).
+
+- [![En glad tigerstribet kat på en tagryg, der rækker ud efter en radiobølge fra en antenne, på en side i højformat](/media/colouring/cat-upright-thumb.webp) Kat på taget (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![En stribet kat på en tagryg, der slår efter bølgerne fra en antenne på en mast](/media/colouring/cat-ridge-thumb.webp) Kat og antenne (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Et printkort helt tæt på, med et USB-C-stik, en chip, knapper og kobberbaner som veje](/media/colouring/circuit-board-thumb.webp) Printkort (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Et printkort set ovenfra, med en chip, en skærm, et USB-C-stik og 2 knapper](/media/colouring/circuit-board-above-thumb.webp) Printkort set ovenfra (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Et barn med en telefon og en node i en træhule, et andet barn vinker fra en anden træhule](/media/colouring/treehouses-thumb.webp) Træhuler (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Buer fra et hus til et kirketårn, en bakke og en gård på tværs af en dal med køer](/media/colouring/valley-thumb.webp) På tværs af dalen (PDF, A4)](/media/colouring/valley.pdf)
+- [![En repeaterkasse på en mast over et tag, med et solcellepanel, en fugl og radiobølger](/media/colouring/solar-repeater-thumb.webp) Repeater med solceller (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![En hel side kruseduller med master, repeaterkasser, telefoner, konvolutter, bølger og blade](/media/colouring/mesh-doodle-thumb.webp) Mesh-kruseduller (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![En hel side kruseduller med antenner, printkort, chips, telefoner og konvolutter, og et tal i hver figur](/media/colouring/doodle-in-numbers-thumb.webp) Kruseduller med tal (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Scener {#scenes}
+
 
 Vælg en scene i den lyse eller mørke udgave. Hent den, og sæt den som
 baggrund på dit skrivebord.
@@ -21,8 +48,6 @@ baggrund på dit skrivebord.
 Hvert baggrundsbillede er 5120 gange 2880 pixels (16:9), en JPEG på 1 til 3 MB. Alle
 skærme med det format skalerer det ned. På en telefon vælger du det udsnit, du vil have, når du sætter det op.
 Ordmærket meshcore-info.eu står i nederste højre hjørne.
-
-## Scener {#scenes}
 
 - [Enheder](/devices/) [![Enheder til hver rolle lagt frem på en skæreplade på et skrivebord](/media/wallpapers/01-devices-light-thumb.webp) Lys](/media/wallpapers/01-devices-light.jpg) [![Enheder til hver rolle lagt frem på en skæreplade på et skrivebord](/media/wallpapers/01-devices-dark-thumb.webp) Mørk](/media/wallpapers/01-devices-dark.jpg)
 - [Kom i gang](/get-started/) [![En første node og en telefon på et skrivebord ved siden af en stikdåse](/media/wallpapers/02-get-started-light-thumb.webp) Lys](/media/wallpapers/02-get-started-light.jpg) [![En første node og en telefon på et skrivebord ved siden af en stikdåse](/media/wallpapers/02-get-started-dark-thumb.webp) Mørk](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ Ordmærket meshcore-info.eu står i nederste højre hjørne.
 - [Antenneguide](/guides/antenna/) [![Antennedele lagt frem på en skæreplade, en majskolbe i kaffekruset](/media/wallpapers/27-antenna-light-thumb.webp) Lys](/media/wallpapers/27-antenna-light.jpg) [![Antennedele lagt frem på en skæreplade, en majskolbe i kaffekruset](/media/wallpapers/27-antenna-dark-thumb.webp) Mørk](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Sådan bruger du dem {#use}
+
+Print malesiderne så tit, du vil, og del dem ud.
 
 Brug baggrundsbillederne på dine egne skærme, og del dem, som
 de er: ordmærket i hjørnet angiver kilden. Du må ikke

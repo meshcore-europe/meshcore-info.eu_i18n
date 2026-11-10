@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-11-02'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Страници за оцветяване {#colouring}
+
+Разпечатай страница и я оцвети у дома, в клас или на щанда на групата ти.
+Всяка страница е PDF във формат A4 с черни линии на бял фон.
+
+На страницата с числа избери цвят за всяко число в квадратчетата. После оцвети
+всяка фигура с цвета на нейното число. Топлите цветове показват къде радиолъчът
+на една антена е силен, а студените показват къде е слаб. Цветовете за мъничките
+фигури без число избираш ти.
+
+За да разпечаташ всички наведнъж, изтегли
+[всички страници за оцветяване в 1 PDF](/media/colouring/colouring-pages.pdf) (A4, 9
+страници).
+
+- [![Щастлива тигрова котка на билото на покрив посяга към радиовълна от антена, на вертикална страница](/media/colouring/cat-upright-thumb.webp) Котка на покрива (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Раирана котка на билото на покрив замахва с лапа към вълните от антена на мачта](/media/colouring/cat-ridge-thumb.webp) Котка и антена (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Платка в близък план с USB-C гнездо, чип, бутони и медни писти като пътища](/media/colouring/circuit-board-thumb.webp) Платка (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Платка, гледана отгоре, с чип, екран, USB-C гнездо и 2 бутона](/media/colouring/circuit-board-above-thumb.webp) Платка отгоре (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Дете с телефон и възел в къщичка на дърво, второ дете маха от друга къщичка на дърво](/media/colouring/treehouses-thumb.webp) Къщички на дърво (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Дъги от къща до църковна кула, хълм и ферма през долина с крави](/media/colouring/valley-thumb.webp) През долината (PDF, A4)](/media/colouring/valley.pdf)
+- [![Кутия на ретранслатор на мачта над покрив, със соларен панел, птица и радиовълни](/media/colouring/solar-repeater-thumb.webp) Соларен ретранслатор (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Цяла страница с драсканици: мачти, кутии на ретранслатори, телефони, пликове, вълни и листа](/media/colouring/mesh-doodle-thumb.webp) Mesh драсканици (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Цяла страница с драсканици: антени, платки, чипове, телефони и пликове, с число във всяка фигура](/media/colouring/doodle-in-numbers-thumb.webp) Драсканици с числа (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Сцени {#scenes}
+
 
 Избери сцена в светъл или тъмен вариант. Изтегли я и я сложи за фон
 на работния плот.
@@ -21,8 +48,6 @@ translation:
 Всеки тапет е 5120 на 2880 пиксела (16:9), JPEG файл от 1 до 3 MB. Всеки
 екран с такива пропорции го смалява. На телефон избери желаната част, когато задаваш тапета.
 Надписът meshcore-info.eu стои в долния десен ъгъл.
-
-## Сцени {#scenes}
 
 - [Устройства](/devices/) [![Устройства за всяка роля, подредени върху подложка за рязане на бюро](/media/wallpapers/01-devices-light-thumb.webp) Светъл](/media/wallpapers/01-devices-light.jpg) [![Устройства за всяка роля, подредени върху подложка за рязане на бюро](/media/wallpapers/01-devices-dark-thumb.webp) Тъмен](/media/wallpapers/01-devices-dark.jpg)
 - [Първи стъпки](/get-started/) [![Първи възел и телефон на бюро, до разклонител](/media/wallpapers/02-get-started-light-thumb.webp) Светъл](/media/wallpapers/02-get-started-light.jpg) [![Първи възел и телефон на бюро, до разклонител](/media/wallpapers/02-get-started-dark-thumb.webp) Тъмен](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ translation:
 - [Ръководство за антени](/guides/antenna/) [![Части за антена, подредени върху подложка за рязане, царевичен кочан в чашата за кафе](/media/wallpapers/27-antenna-light-thumb.webp) Светъл](/media/wallpapers/27-antenna-light.jpg) [![Части за антена, подредени върху подложка за рязане, царевичен кочан в чашата за кафе](/media/wallpapers/27-antenna-dark-thumb.webp) Тъмен](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Как да ги използваш {#use}
+
+Разпечатвай страниците за оцветяване колкото пъти искаш и ги раздавай.
 
 Използвай тапетите за фон на собствените си екрани и ги споделяй непроменени:
 надписът в ъгъла посочва източника. Не ги използвай в реклами, върху

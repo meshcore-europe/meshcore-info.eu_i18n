@@ -5,11 +5,11 @@ description: meshcore-info.eu recull els ajustos, les guies i les eines que comp
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 meshcore-info.eu explica MeshCore per a Europa: la configuració, les guies i
@@ -56,16 +56,18 @@ de llançament. Fes-los servir en notícies i publicacions, i cita meshcore-info
 
 ## Els compromisos {#promises}
 
-- **Sense anuncis ni enllaços a botigues o d'afiliació.** La pàgina [Dispositius](/devices/)
-  mostra les especificacions dels fabricants i una franja de preus. No enllaça mai a cap
+- **Sense publicitat, enllaços a botigues ni enllaços d'afiliació.** La pàgina [Dispositius](/devices/)
+  recull les especificacions dels fabricants i una franja de preus. No enllaça mai a cap
   botiga.
-- **Sense seguiment.** El web no fa servir cap eina d'analítica ni de seguiment. L'única galeta recorda el
-  tema que has triat. L'únic altre servidor al qual es connecta el web és meshcore-analyzer.eu,
-  que gestionen els mateixos voluntaris. A la [pàgina de privadesa](/privacy/) trobaràs els detalls.
-- **Fets amb fonts.** El que escrivim sobre MeshCore prové del seu firmware
-  i de la seva documentació. Les normes de ràdio provenen dels reguladors.
-- **El teu idioma.** El web està disponible en 33 idiomes. Les pàgines comencen com a
-  traduccions automàtiques, i les marquem així fins que un parlant nadiu les ha revisat.
+- **Sense seguiment.** El web no fa servir eines d'analítica ni rastrejadors. L'única galeta recorda
+  el tema que has triat. L'únic altre servidor que el web consulta és meshcore-analyzer.eu,
+  que gestionen els mateixos voluntaris. La [pàgina de privadesa](/privacy/) en dona els detalls.
+- **Fonts de la informació.** La informació sobre MeshCore prové del firmware, de la
+  documentació o de les persones que mantenen aquest web. Les normes de ràdio provenen dels
+  reguladors.
+- **La teva llengua.** El web està disponible en 33 llengües. Les pàgines comencen com a
+  traduccions automàtiques i porten un avís fins que un parlant nadiu les
+  revisa.
 
 Tot és de codi obert. Falta el teu grup local, o hi ha alguna dada errònia?
 [Així pots ajudar](/contribute/).

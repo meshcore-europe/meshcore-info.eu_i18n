@@ -5,11 +5,11 @@ description: Bailíonn meshcore-info.eu na socruithe, na treoracha agus na huirl
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 Míníonn meshcore-info.eu MeshCore don Eoraip: na socruithe, na treoracha agus
@@ -56,16 +56,19 @@ Tá an lógó, na híomhánna agus físeáin an tseolta sa [Phacáiste poiblíoc
 
 ## Na geallúintí {#promises}
 
-- **Gan fógraí, gan naisc chuig siopaí ná naisc chleamhnachta.** Tá sonraíochtaí na ndéantóirí agus raon praghais ar an leathanach [Gléasanna](/devices/).
-  Ní thugann sé nasc chuig siopa riamh.
-- **Gan rianú.** Níl anailísíocht ná rianairí ar bith ar an suíomh. Níl ach fianán amháin ann, agus cuimhníonn sé ar do
-  rogha téama. Is é meshcore-analyzer.eu an t-aon fhreastalaí eile a ndéanann an suíomh teagmháil leis,
-  agus is iad na hoibrithe deonacha céanna a ritheann é. Tá na sonraí ar an [leathanach príobháideachais](/privacy/).
-- **Foinsí leis na fíricí.** Tagann an méid a scríobhaimid faoi MeshCore óna dhochtearraí
-  agus óna dhoiciméadú. Is ó na rialtóirí a thagann rialacha raidió.
-- **Do theanga féin.** Tá an suíomh ar fáil i 33 theanga. Is aistriúcháin mheaisín iad na leathanaigh ar dtús,
-  agus bíonn lipéad orthu á rá sin go dtí go seiceálann cainteoir dúchais
-  iad.
+- **Gan fógraíocht, gan naisc chuig siopaí ná naisc chleamhnaithe.** Tá sonraíochtaí
+  na ndéantóirí agus raon praghsanna ar an leathanach [Gléasanna](/devices/). Ní bhíonn
+  nasc chuig siopa air riamh.
+- **Gan rianú.** Níl anailísíocht ná rianairí ar bith ar an suíomh. Níl ann ach fianán amháin,
+  a choinníonn cuimhne ar an téama a roghnaigh tú. Is é meshcore-analyzer.eu an t-aon
+  fhreastalaí eile a gcuireann an suíomh ceist air, agus is iad na saorálaithe céanna
+  a reáchtálann é. Tá na sonraí ar an [leathanach príobháideachais](/privacy/).
+- **Foinsí na bhfíricí.** Tagann fíricí MeshCore óna dhochtearraí, óna
+  dhoiciméadúchán nó ó na daoine a dhéanann cothabháil ar an suíomh seo. Tagann na
+  rialacha raidió ó na rialtóirí.
+- **Do theanga féin.** Tá an suíomh ar fáil i 33 teanga. Meaisínaistriúcháin a bhíonn
+  sna leathanaigh ar dtús, agus bíonn siad marcáilte mar sin go dtí go seiceálann
+  cainteoir dúchais iad.
 
 Is foinse oscailte gach rud. An bhfuil do ghrúpa áitiúil ar iarraidh, nó an bhfuil fíric mhícheart?
 [Seo mar is féidir leat cabhrú](/contribute/).

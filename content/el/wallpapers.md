@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-10-31'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Σελίδες ζωγραφικής {#colouring}
+
+Τύπωσε μια σελίδα και χρωμάτισέ τη, στο σπίτι, σε μια τάξη ή στο περίπτερο της ομάδας σου.
+Κάθε σελίδα είναι ένα PDF μεγέθους A4 με μαύρες γραμμές σε λευκό φόντο.
+
+Στη σελίδα με τους αριθμούς, διάλεξε στα κουτάκια ένα χρώμα για κάθε αριθμό. Μετά χρωμάτισε
+κάθε σχήμα με το χρώμα του αριθμού του. Τα θερμά χρώματα δείχνουν πού είναι δυνατή η δέσμη
+ραδιοκυμάτων μιας κεραίας, τα ψυχρά πού είναι αδύναμη. Για τα μικροσκοπικά σχήματα χωρίς
+αριθμό, τα χρώματα τα διαλέγεις εσύ.
+
+Για να τις τυπώσεις όλες μαζί, κατέβασε
+[όλες τις σελίδες ζωγραφικής σε 1 PDF](/media/colouring/colouring-pages.pdf) (A4, 9
+σελίδες).
+
+- [![Μια χαρούμενη τιγρέ γάτα στην κορυφή μιας στέγης απλώνει την πατούσα της προς ένα ραδιοκύμα από μια κεραία, σε όρθια σελίδα](/media/colouring/cat-upright-thumb.webp) Γάτα στη στέγη (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Μια ριγέ γάτα στην κορυφή μιας στέγης χτυπά με την πατούσα της τα κύματα από μια κεραία πάνω σε ιστό](/media/colouring/cat-ridge-thumb.webp) Γάτα και κεραία (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Μια πλακέτα κυκλώματος από κοντά, με υποδοχή USB-C, τσιπ, κουμπιά και χάλκινες γραμμές σαν δρόμους](/media/colouring/circuit-board-thumb.webp) Πλακέτα κυκλώματος (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Μια πλακέτα κυκλώματος από πάνω, με τσιπ, οθόνη, υποδοχή USB-C και 2 κουμπιά](/media/colouring/circuit-board-above-thumb.webp) Πλακέτα κυκλώματος από πάνω (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Ένα παιδί με τηλέφωνο και κόμβο σε δεντρόσπιτο, ένα δεύτερο παιδί χαιρετά από άλλο δεντρόσπιτο](/media/colouring/treehouses-thumb.webp) Δεντρόσπιτα (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Τόξα από ένα σπίτι προς ένα καμπαναριό, έναν λόφο και μια φάρμα, πάνω από μια κοιλάδα με αγελάδες](/media/colouring/valley-thumb.webp) Πάνω από την κοιλάδα (PDF, A4)](/media/colouring/valley.pdf)
+- [![Ένα κουτί αναμεταδότη σε ιστό πάνω από μια στέγη, με ηλιακό πάνελ, ένα πουλί και ραδιοκύματα](/media/colouring/solar-repeater-thumb.webp) Ηλιακός αναμεταδότης (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Μια σελίδα γεμάτη σκίτσα με ιστούς, κουτιά αναμεταδοτών, τηλέφωνα, φακέλους, κύματα και φύλλα](/media/colouring/mesh-doodle-thumb.webp) Σκίτσα mesh (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Μια σελίδα γεμάτη σκίτσα με κεραίες, πλακέτες, τσιπ, τηλέφωνα και φακέλους, με έναν αριθμό σε κάθε σχήμα](/media/colouring/doodle-in-numbers-thumb.webp) Σκίτσα με αριθμούς (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Σκηνές {#scenes}
+
 
 Διάλεξε μια σκηνή στη φωτεινή ή στη σκοτεινή της εκδοχή. Κατέβασέ την και
 βάλ' την ως φόντο στην επιφάνεια εργασίας σου.
@@ -21,8 +48,6 @@ translation:
 Κάθε ταπετσαρία έχει 5120 επί 2880 pixel (16:9) και είναι αρχείο JPEG 1 έως 3 MB. Κάθε
 οθόνη με αυτή την αναλογία τη μικραίνει. Στο κινητό, διαλέγεις το κομμάτι που θέλεις όταν την ορίζεις.
 Το λογότυπο του meshcore-info.eu βρίσκεται κάτω δεξιά.
-
-## Σκηνές {#scenes}
 
 - [Συσκευές](/devices/) [![Συσκευές για κάθε ρόλο απλωμένες σε επιφάνεια κοπής πάνω σε γραφείο](/media/wallpapers/01-devices-light-thumb.webp) Φωτεινή](/media/wallpapers/01-devices-light.jpg) [![Συσκευές για κάθε ρόλο απλωμένες σε επιφάνεια κοπής πάνω σε γραφείο](/media/wallpapers/01-devices-dark-thumb.webp) Σκοτεινή](/media/wallpapers/01-devices-dark.jpg)
 - [Ξεκίνα](/get-started/) [![Ένας πρώτος κόμβος και ένα κινητό σε γραφείο, δίπλα σε ένα πολύπριζο](/media/wallpapers/02-get-started-light-thumb.webp) Φωτεινή](/media/wallpapers/02-get-started-light.jpg) [![Ένας πρώτος κόμβος και ένα κινητό σε γραφείο, δίπλα σε ένα πολύπριζο](/media/wallpapers/02-get-started-dark-thumb.webp) Σκοτεινή](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ translation:
 - [Οδηγός κεραίας](/guides/antenna/) [![Εξαρτήματα κεραίας απλωμένα σε επιφάνεια κοπής, ένα καλαμπόκι μέσα στην κούπα του καφέ](/media/wallpapers/27-antenna-light-thumb.webp) Φωτεινή](/media/wallpapers/27-antenna-light.jpg) [![Εξαρτήματα κεραίας απλωμένα σε επιφάνεια κοπής, ένα καλαμπόκι μέσα στην κούπα του καφέ](/media/wallpapers/27-antenna-dark-thumb.webp) Σκοτεινή](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Πώς τις χρησιμοποιείς {#use}
+
+Τύπωσε τις σελίδες ζωγραφικής όσες φορές θέλεις και μοίρασέ τες.
 
 Βάλε τις ταπετσαρίες ως φόντο στις δικές σου οθόνες και μοιράσου τις όπως
 είναι: το λογότυπο στη γωνία δείχνει την πηγή. Μην τις

@@ -5,11 +5,11 @@ description: meshcore-info.eu sammelet de ynstellingen, hantliedingen en ark dy'
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 meshcore-info.eu leit MeshCore út foar Europa: de ynstellings, hantliedingen en
@@ -57,16 +57,18 @@ lansearringsfideo's. Brûk se yn nijs en berjochten, en neam meshcore-info.eu as
 
 ## De beloften {#promises}
 
-- **Gjin advertinsjes, winkelkeppelingen of affiliatekeppelingen.** De side [Apparaten](/devices/)
-  neamt de spesifikaasjes fan de makkers en in priisklasse. Dy side ferwiist nea
-  nei in winkel.
-- **Gjin tracking.** De webside brûkt gjin analytics of trackers. De iennichste cookie ûnthâldt dyn
-  kar foar it tema. De iennichste oare server dêr't de webside wat by opfreget, is meshcore-analyzer.eu.
-  Deselde frijwilligers beheare dy server. De details steane op de [privacyside](/privacy/).
-- **Boarnen foar feiten.** Wat wy oer MeshCore skriuwe, komt út de firmware en
-  dokumintaasje fan MeshCore. Radioregels komme fan de tafersjochhâlders.
-- **Dyn taal.** De webside is der yn 33 talen. Siden begjinne as masineoersettingen.
-  Dat stiet derby oant in memmetaalsprekker se kontrolearre hat.
+- **Gjin advertinsjes, winkelkeppelings of affiliate-keppelings.** De side [Apparaten](/devices/)
+  neamt de spesifikaasjes fan de fabrikanten en in priisklasse. Der stiet nea in keppeling
+  nei in winkel op.
+- **Gjin tracking.** It webstee brûkt gjin analytics of trackers. It iennige cookie ûnthâldt
+  hokker tema'tsto keazen hast. De iennige oare server dêr't it webstee wat oan freget is meshcore-analyzer.eu,
+  dy't deselde frijwilligers beheare. Op de [privacyside](/privacy/) steane de details.
+- **Boarnen foar feiten.** Feiten oer MeshCore komme út de firmware, de
+  dokumintaasje of fan de minsken dy't dit webstee ûnderhâlde. Radioregels komme fan
+  de tafersjochhâlders.
+- **Dyn taal.** It webstee is der yn 33 talen. Siden begjinne as
+  masineoersetting en binne as sadanich markearre oant in memmetaalsprekker se neisjoen
+  hat.
 
 Alles is iepen boarne. Mist dyn pleatslike groep, of klopt in feit net?
 [Sa kinst helpe](/contribute/).

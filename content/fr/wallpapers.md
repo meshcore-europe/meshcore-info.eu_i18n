@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-10-31'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Pages à colorier {#colouring}
+
+Imprime une page et colorie-la, chez toi, en classe ou sur le stand de ton groupe.
+Chaque page est un PDF A4 avec des traits noirs sur fond blanc.
+
+Sur la page à numéros, choisis une couleur pour chaque numéro dans les cases. Colorie
+ensuite chaque forme de la couleur de son numéro. Les couleurs chaudes montrent où le faisceau radio
+d'une antenne est fort, les couleurs froides où il est faible. Pour les minuscules formes sans
+numéro, c'est toi qui choisis la couleur.
+
+Pour tout imprimer d'un coup, télécharge
+[tous les coloriages en 1 PDF](/media/colouring/colouring-pages.pdf) (A4, 9
+pages).
+
+- [![Un chat tigré tout content sur le faîte d'un toit, qui tend la patte vers une onde radio venue d'une antenne, sur une page au format portrait](/media/colouring/cat-upright-thumb.webp) Le chat sur le toit (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Un chat rayé sur le faîte d'un toit, qui donne des coups de patte aux ondes d'une antenne sur un mât](/media/colouring/cat-ridge-thumb.webp) Le chat et l'antenne (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Un circuit imprimé vu de près, avec une prise USB-C, une puce, des boutons et des pistes de cuivre comme des routes](/media/colouring/circuit-board-thumb.webp) Circuit imprimé (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Un circuit imprimé vu de dessus, avec une puce, un écran, une prise USB-C et 2 boutons](/media/colouring/circuit-board-above-thumb.webp) Circuit imprimé vu de dessus (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Un enfant avec un téléphone et un nœud dans une cabane dans les arbres, un deuxième enfant qui fait signe de la main depuis une autre cabane](/media/colouring/treehouses-thumb.webp) Cabanes dans les arbres (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Des arcs qui partent d'une maison vers un clocher, une colline et une ferme, par-dessus une vallée avec des vaches](/media/colouring/valley-thumb.webp) À travers la vallée (PDF, A4)](/media/colouring/valley.pdf)
+- [![Un boîtier de répéteur sur un mât au-dessus d'un toit, avec un panneau solaire, un oiseau et des ondes radio](/media/colouring/solar-repeater-thumb.webp) Répéteur solaire (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Une page entière de gribouillages avec des mâts, des boîtiers de répéteur, des téléphones, des enveloppes, des ondes et des feuilles](/media/colouring/mesh-doodle-thumb.webp) Gribouillage du maillage (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Une page entière de gribouillages avec des antennes, des cartes, des puces, des téléphones et des enveloppes, et un numéro dans chaque forme](/media/colouring/doodle-in-numbers-thumb.webp) Gribouillage à numéros (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Scènes {#scenes}
+
 
 Choisis une scène dans sa version claire ou sombre. Télécharge-la et mets-la
 en fond d'écran.
@@ -21,8 +48,6 @@ en fond d'écran.
 Chaque fond d'écran fait 5120 sur 2880 pixels (16:9), en JPEG de 1 à 3 Mo. Tout
 écran de ce format le réduit à sa taille. Sur un téléphone, tu choisis la partie à garder au moment de l'installer.
 Le logo meshcore-info.eu figure dans le coin inférieur droit.
-
-## Scènes {#scenes}
 
 - [Appareils](/devices/) [![Des appareils pour chaque rôle, posés sur un tapis de découpe sur un bureau](/media/wallpapers/01-devices-light-thumb.webp) Clair](/media/wallpapers/01-devices-light.jpg) [![Des appareils pour chaque rôle, posés sur un tapis de découpe sur un bureau](/media/wallpapers/01-devices-dark-thumb.webp) Sombre](/media/wallpapers/01-devices-dark.jpg)
 - [Bien démarrer](/get-started/) [![Un premier nœud et un téléphone sur un bureau, à côté d'une multiprise](/media/wallpapers/02-get-started-light-thumb.webp) Clair](/media/wallpapers/02-get-started-light.jpg) [![Un premier nœud et un téléphone sur un bureau, à côté d'une multiprise](/media/wallpapers/02-get-started-dark-thumb.webp) Sombre](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ Le logo meshcore-info.eu figure dans le coin inférieur droit.
 - [Guide des antennes](/guides/antenna/) [![Des pièces d'antenne posées sur un tapis de découpe, un épi de maïs dans la tasse à café](/media/wallpapers/27-antenna-light-thumb.webp) Clair](/media/wallpapers/27-antenna-light.jpg) [![Des pièces d'antenne posées sur un tapis de découpe, un épi de maïs dans la tasse à café](/media/wallpapers/27-antenna-dark-thumb.webp) Sombre](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Utilisation {#use}
+
+Imprime les pages à colorier autant de fois que tu veux et distribue-les.
 
 Mets les fonds d'écran sur tes propres écrans, et partage-les tels
 quels : le logo dans le coin indique la source. Ne les

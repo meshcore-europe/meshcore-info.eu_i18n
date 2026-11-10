@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-11-02'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Розмальовки {#colouring}
+
+Роздрукуй сторінку й розфарбуй її вдома, у класі чи на стенді своєї групи.
+Кожна сторінка є PDF-файлом формату A4 з чорними лініями на білому тлі.
+
+На сторінці з цифрами обери колір для кожної цифри в клітинках. Потім розфарбуй
+кожну фігуру кольором її цифри. Теплі кольори показують, де радіопромінь
+антени сильний, а холодні показують, де він слабкий. Для крихітних фігур без цифри
+колір обираєш ти.
+
+Щоб надрукувати всі одразу, завантаж
+[усі розмальовки в 1 PDF](/media/colouring/colouring-pages.pdf) (A4, 9
+сторінок).
+
+- [![Щаслива смугаста кішка на гребені даху тягнеться до радіохвилі від антени, на вертикальній сторінці](/media/colouring/cat-upright-thumb.webp) Кішка на даху (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Смугаста кішка на гребені даху б'є лапою по хвилях від антени на щоглі](/media/colouring/cat-ridge-thumb.webp) Кішка й антена (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Друкована плата зблизька, з гніздом USB-C, чипом, кнопками й мідними доріжками, схожими на дороги](/media/colouring/circuit-board-thumb.webp) Друкована плата (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Друкована плата згори, з чипом, екраном, гніздом USB-C і 2 кнопками](/media/colouring/circuit-board-above-thumb.webp) Друкована плата згори (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Дитина з телефоном і вузлом у будиночку на дереві, друга дитина махає з іншого будиночка на дереві](/media/colouring/treehouses-thumb.webp) Будиночки на деревах (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Дуги від будинку до церковної вежі, пагорба й ферми через долину з коровами](/media/colouring/valley-thumb.webp) Через долину (PDF, A4)](/media/colouring/valley.pdf)
+- [![Коробка ретранслятора на щоглі над дахом, із сонячною панеллю, пташкою й радіохвилями](/media/colouring/solar-repeater-thumb.webp) Сонячний ретранслятор (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Ціла сторінка дудлів зі щоглами, коробками ретрансляторів, телефонами, конвертами, хвилями й листям](/media/colouring/mesh-doodle-thumb.webp) Дудл мережі (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Ціла сторінка дудлів з антенами, платами, чипами, телефонами й конвертами, і з числом у кожній фігурі](/media/colouring/doodle-in-numbers-thumb.webp) Дудл із числами (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Сцени {#scenes}
+
 
 Вибери сцену у світлому або темному варіанті. Завантаж її та встанови як
 фон робочого столу.
@@ -21,8 +48,6 @@ translation:
 Кожні шпалери мають розмір 5120 на 2880 пікселів (16:9), це файл JPEG від 1 до 3 MB. На будь-якому
 екрані з такими пропорціями шпалери зменшуються під його розмір. На телефоні вибери потрібну частину, коли встановлюватимеш шпалери.
 Напис meshcore-info.eu стоїть у правому нижньому куті.
-
-## Сцени {#scenes}
 
 - [Пристрої](/devices/) [![Пристрої для кожної ролі, розкладені на макетному килимку на столі](/media/wallpapers/01-devices-light-thumb.webp) Світлі](/media/wallpapers/01-devices-light.jpg) [![Пристрої для кожної ролі, розкладені на макетному килимку на столі](/media/wallpapers/01-devices-dark-thumb.webp) Темні](/media/wallpapers/01-devices-dark.jpg)
 - [Початок роботи](/get-started/) [![Перший вузол і телефон на столі, поруч із подовжувачем](/media/wallpapers/02-get-started-light-thumb.webp) Світлі](/media/wallpapers/02-get-started-light.jpg) [![Перший вузол і телефон на столі, поруч із подовжувачем](/media/wallpapers/02-get-started-dark-thumb.webp) Темні](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ translation:
 - [Посібник з антен](/guides/antenna/) [![Деталі антени на макетному килимку, у кавовій чашці качан кукурудзи](/media/wallpapers/27-antenna-light-thumb.webp) Світлі](/media/wallpapers/27-antenna-light.jpg) [![Деталі антени на макетному килимку, у кавовій чашці качан кукурудзи](/media/wallpapers/27-antenna-dark-thumb.webp) Темні](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Як їх використовувати {#use}
+
+Друкуй розмальовки скільки завгодно разів і роздавай їх.
 
 Став шпалери фоном на своїх екранах і поширюй їх без змін: напис у кутку
 вказує джерело. Не використовуй їх у рекламі, на товарах чи

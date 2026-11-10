@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-10-31'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Páginas para colorear {#colouring}
+
+Imprime una página y coloréala, en casa, en clase o en el stand de tu grupo.
+Cada página es un PDF en A4 con líneas negras sobre fondo blanco.
+
+En la página de números, elige un color para cada número en las casillas. Después pinta
+cada forma del color de su número. Los colores cálidos muestran dónde el haz de radio
+de una antena es fuerte; los fríos, dónde es débil. En las formas diminutas sin
+número, el color lo eliges tú.
+
+Para imprimirlas todas de una vez, descarga
+[todas las páginas para colorear en 1 PDF](/media/colouring/colouring-pages.pdf) (A4, 9
+páginas).
+
+- [![Un gato atigrado y feliz en la cumbrera de un tejado, que intenta alcanzar una onda de radio de una antena, en una página vertical](/media/colouring/cat-upright-thumb.webp) Gato en el tejado (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Un gato a rayas en la cumbrera de un tejado, que da zarpazos a las ondas de una antena en un mástil](/media/colouring/cat-ridge-thumb.webp) Gato y antena (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Una placa de circuito vista de cerca, con un conector USB-C, un chip, botones y pistas de cobre como carreteras](/media/colouring/circuit-board-thumb.webp) Placa de circuito (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Una placa de circuito vista desde arriba, con un chip, una pantalla, un conector USB-C y 2 botones](/media/colouring/circuit-board-above-thumb.webp) Placa de circuito desde arriba (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Un niño con un teléfono y un nodo en una casa del árbol, y otro niño que saluda desde otra casa del árbol](/media/colouring/treehouses-thumb.webp) Casas del árbol (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Arcos que van de una casa a la torre de una iglesia, una colina y una granja, sobre un valle con vacas](/media/colouring/valley-thumb.webp) Al otro lado del valle (PDF, A4)](/media/colouring/valley.pdf)
+- [![Una caja de repetidor en un mástil sobre un tejado, con un panel solar, un pájaro y ondas de radio](/media/colouring/solar-repeater-thumb.webp) Repetidor solar (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Una página llena de garabatos con mástiles, cajas de repetidor, teléfonos, sobres, ondas y hojas](/media/colouring/mesh-doodle-thumb.webp) Garabatos de la malla (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Una página llena de garabatos con antenas, placas, chips, teléfonos y sobres, y un número en cada forma](/media/colouring/doodle-in-numbers-thumb.webp) Garabatos con números (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Escenas {#scenes}
+
 
 Elige una escena en su versión clara u oscura. Descárgala y ponla como
 fondo de escritorio.
@@ -21,8 +48,6 @@ fondo de escritorio.
 Cada fondo mide 5120 por 2880 píxeles (16:9) y es un JPEG de 1 a 3 MB. Cualquier
 pantalla con esa proporción lo reduce a su tamaño. En un móvil, elige la parte que quieras al ponerlo de fondo.
 El logotipo de meshcore-info.eu está en la esquina inferior derecha.
-
-## Escenas {#scenes}
 
 - [Dispositivos](/devices/) [![Dispositivos para cada función colocados sobre una alfombrilla de corte en un escritorio](/media/wallpapers/01-devices-light-thumb.webp) Claro](/media/wallpapers/01-devices-light.jpg) [![Dispositivos para cada función colocados sobre una alfombrilla de corte en un escritorio](/media/wallpapers/01-devices-dark-thumb.webp) Oscuro](/media/wallpapers/01-devices-dark.jpg)
 - [Primeros pasos](/get-started/) [![Un primer nodo y un móvil en un escritorio, junto a una regleta](/media/wallpapers/02-get-started-light-thumb.webp) Claro](/media/wallpapers/02-get-started-light.jpg) [![Un primer nodo y un móvil en un escritorio, junto a una regleta](/media/wallpapers/02-get-started-dark-thumb.webp) Oscuro](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ El logotipo de meshcore-info.eu está en la esquina inferior derecha.
 - [Guía de antenas](/guides/antenna/) [![Piezas de antena colocadas sobre una alfombrilla de corte, con una mazorca de maíz en la taza de café](/media/wallpapers/27-antenna-light-thumb.webp) Claro](/media/wallpapers/27-antenna-light.jpg) [![Piezas de antena colocadas sobre una alfombrilla de corte, con una mazorca de maíz en la taza de café](/media/wallpapers/27-antenna-dark-thumb.webp) Oscuro](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Cómo usarlos {#use}
+
+Imprime las páginas para colorear todas las veces que quieras y repártelas.
 
 Usa los fondos en tus propias pantallas y compártelos tal como
 están: el logotipo de la esquina indica la fuente. No

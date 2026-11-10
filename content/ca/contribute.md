@@ -5,11 +5,11 @@ description: Afegeix la teva comunitat, un dispositiu o un projecte, revisa una 
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'f3ed6e9b'
-  seeded: '2026-11-02'
+  source_hash: '1a28f66a'
+  seeded: '2026-11-10'
   fields: {title: '97b0c61b', lead: 'e9b40d4d', description: '3bd97cd2'}
-  sections: ['6e9d4b61', 'aca796d7', 'd4848d5b', '247b2601', '8a60e0d4', '645c82d3', 'c755b654']
-  blocks: ['2f9dd6e8', '44167907', 'b020e1a4', 'f2c726cd', '2e9d1fdd', 'b2a902ba', 'b15ce10b', '2be86888', '3db6cb63', '2e3c2fc0', '693a5d9d', '73e33897', '96d8689d', 'c67fd14a', 'f92f7e49', '12ddca6c', 'e947e2a9', '526df4bb', 'e0d3559e']
+  sections: ['6e9d4b61', 'aca796d7', 'd4848d5b', '247b2601', '4b12bb2c', '645c82d3', 'c755b654']
+  blocks: ['2f9dd6e8', '44167907', 'b020e1a4', 'f2c726cd', '2e9d1fdd', 'b2a902ba', 'b15ce10b', '2be86888', '3db6cb63', '2e3c2fc0', '693a5d9d', '8aa01985', '96d8689d', 'c67fd14a', 'f92f7e49', '12ddca6c', 'e947e2a9', '526df4bb', 'e0d3559e']
 ---
 
 Tot el contingut d'aquest lloc és en un
@@ -57,12 +57,12 @@ Has trobat una paraula incorrecta però no tens temps de corregir-la? Informa'n 
 
 ## Millora una guia {#guides}
 
-Escrivim les guies primer en anglès i les traduïm a partir d'aquesta versió. Pots enviar correccions
-i temes nous amb el
+Les guies s'escriuen primer en anglès i després es tradueixen. Les correccions
+i els temes nous són benvinguts mitjançant el
 [formulari de contingut](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=new-content.yml)
-o amb una pull request. Les dades han de tenir una font: el firmware de MeshCore i la seva
-documentació, un regulador de ràdio o un fabricant. Escriu amb les teves paraules. Pots
-incloure una cita breu amb la font.
+o una pull request. Les dades necessiten una font: el firmware o la documentació de MeshCore, un
+regulador, un fabricant o un mantenidor. Escriu amb les teves paraules. Una
+cita breu amb la font està bé.
 
 La [guia per a col·laboradors](https://github.com/meshcore-europe/meshcore-info.eu/blob/main/CONTRIBUTING.md)
 explica com treballar en el lloc des del teu ordinador.

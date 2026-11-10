@@ -5,11 +5,11 @@ description: Dodaj svoju zajednicu, uređaj ili projekat, pregledaj prevod ili p
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'f3ed6e9b'
-  seeded: '2026-11-02'
+  source_hash: '1a28f66a'
+  seeded: '2026-11-10'
   fields: {title: '97b0c61b', lead: 'e9b40d4d', description: '3bd97cd2'}
-  sections: ['6e9d4b61', 'aca796d7', 'd4848d5b', '247b2601', '8a60e0d4', '645c82d3', 'c755b654']
-  blocks: ['2f9dd6e8', '44167907', 'b020e1a4', 'f2c726cd', '2e9d1fdd', 'b2a902ba', 'b15ce10b', '2be86888', '3db6cb63', '2e3c2fc0', '693a5d9d', '73e33897', '96d8689d', 'c67fd14a', 'f92f7e49', '12ddca6c', 'e947e2a9', '526df4bb', 'e0d3559e']
+  sections: ['6e9d4b61', 'aca796d7', 'd4848d5b', '247b2601', '4b12bb2c', '645c82d3', 'c755b654']
+  blocks: ['2f9dd6e8', '44167907', 'b020e1a4', 'f2c726cd', '2e9d1fdd', 'b2a902ba', 'b15ce10b', '2be86888', '3db6cb63', '2e3c2fc0', '693a5d9d', '8aa01985', '96d8689d', 'c67fd14a', 'f92f7e49', '12ddca6c', 'e947e2a9', '526df4bb', 'e0d3559e']
 ---
 
 Sav sadržaj ovog sajta nalazi se u javnom
@@ -57,12 +57,12 @@ Primetio si pogrešnu reč, ali nemaš vremena da je ispraviš? Prijavi je preko
 
 ## Poboljšaj vodič {#guides}
 
-Vodiče prvo pišemo na engleskom, a zatim ih prevodimo s tog jezika. Ispravke
+Vodiči se prvo pišu na engleskom, a zatim se prevode sa engleskog. Ispravke
 i nove teme možeš da pošalješ preko
 [formulara za sadržaj](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=new-content.yml)
-ili kao pull request. Za činjenice je potreban izvor: MeshCore firmver i njegova
-dokumentacija, regulator za radio-komunikacije ili proizvođač. Piši svojim rečima. Kratak
-citat s navedenim izvorom je u redu.
+ili kao pull request. Činjenice moraju da imaju izvor: firmver ili dokumentaciju MeshCore-a,
+regulatora, proizvođača ili održavaoca. Piši svojim rečima.
+Kratak citat sa navedenim izvorom je u redu.
 
 U [vodiču za saradnike](https://github.com/meshcore-europe/meshcore-info.eu/blob/main/CONTRIBUTING.md)
 piše kako da radiš na sajtu na svom računaru.

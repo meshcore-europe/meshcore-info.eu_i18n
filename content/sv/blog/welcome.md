@@ -5,11 +5,11 @@ description: meshcore-info.eu samlar inställningarna, guiderna och verktygen so
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 meshcore-info.eu förklarar MeshCore för Europa: inställningar, guider och
@@ -58,16 +58,17 @@ lanseringsvideorna. Använd dem i nyheter och inlägg, och ange meshcore-info.eu
 ## Våra löften {#promises}
 
 - **Inga annonser, butikslänkar eller affiliatelänkar.** Sidan [Enheter](/devices/)
-  visar tillverkarnas specifikationer och en prisklass. Den länkar aldrig till en
-  butik.
-- **Ingen spårning.** Webbplatsen använder inga analysverktyg eller spårare. Den enda kakan kommer ihåg vilket
-  tema du har valt. Den enda andra server som webbplatsen kontaktar är meshcore-analyzer.eu,
-  som samma volontärer driver. På [integritetssidan](/privacy/) hittar du detaljerna.
-- **Källor till fakta.** Det vi skriver om MeshCore kommer från MeshCores firmware
-  och dokumentation. Radioreglerna kommer från tillsynsmyndigheterna.
-- **Ditt språk.** Webbplatsen finns på 33 språk. Sidorna är först maskinöversättningar,
-  och de är märkta som det tills någon med språket som modersmål
-  har granskat dem.
+  tar upp tillverkarnas specifikationer och ett prisintervall. Den länkar aldrig till
+  någon butik.
+- **Ingen spårning.** Sajten använder varken analysverktyg eller spårare. Den enda kakan sparar vilket
+  tema du har valt. Den enda andra server som sajten anropar är meshcore-analyzer.eu,
+  som samma volontärer driver. Detaljerna finns på [integritetssidan](/privacy/).
+- **Källor till fakta.** Fakta om MeshCore kommer från firmwaren,
+  dokumentationen eller dem som underhåller den här sajten. Radioreglerna kommer från
+  tillsynsmyndigheterna.
+- **Ditt språk.** Sajten finns på 33 språk. Sidorna börjar som
+  maskinöversättningar och är märkta som sådana tills någon med språket som modersmål har granskat
+  dem.
 
 Allt är öppen källkod. Saknas din lokala grupp, eller stämmer något inte?
 [Så här kan du hjälpa till](/contribute/).
