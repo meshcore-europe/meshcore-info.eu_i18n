@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-10-31'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Színezők {#colouring}
+
+Nyomtass ki egy oldalt, és színezd ki otthon, az osztályban vagy a csoportod standjánál.
+Minden oldal A4-es PDF, fehér alapon fekete vonalakkal.
+
+A számos oldalon a keretekben válassz színt minden számhoz. Utána színezz ki
+minden alakzatot a számához tartozó színnel. A meleg színek azt mutatják, hol erős
+az antenna rádiónyalábja, a hideg színek azt, hol gyenge. A szám nélküli apró
+alakzatok színét te választod meg.
+
+Ha egyszerre szeretnéd kinyomtatni mindet, töltsd le
+[az összes színezőt 1 PDF-ben](/media/colouring/colouring-pages.pdf) (A4, 9
+oldal).
+
+- [![Vidám cirmos macska a tetőgerincen, egy antenna rádióhulláma felé nyúl, álló oldalon](/media/colouring/cat-upright-thumb.webp) Macska a tetőn (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Csíkos macska a tetőgerincen, egy árbócon lévő antenna hullámai felé csap](/media/colouring/cat-ridge-thumb.webp) Macska és antenna (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Áramköri lap közelről, USB-C aljzattal, chippel, gombokkal és utakra hasonlító rézvezetőkkel](/media/colouring/circuit-board-thumb.webp) Áramköri lap (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Áramköri lap felülről, chippel, kijelzővel, USB-C aljzattal és 2 gombbal](/media/colouring/circuit-board-above-thumb.webp) Áramköri lap felülről (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Gyerek telefonnal és csomóponttal egy lombházban, egy másik gyerek egy másik lombházból integet](/media/colouring/treehouses-thumb.webp) Lombházak (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Ívek egy háztól egy templomtoronyig, egy dombig és egy tanyáig, egy völgy fölött, benne tehenekkel](/media/colouring/valley-thumb.webp) A völgyön át (PDF, A4)](/media/colouring/valley.pdf)
+- [![Átjátszódoboz egy árbócon a tető fölött, napelemmel, madárral és rádióhullámokkal](/media/colouring/solar-repeater-thumb.webp) Napelemes átjátszó (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Teljes oldalnyi firka árbócokkal, átjátszódobozokkal, telefonokkal, borítékokkal, hullámokkal és levelekkel](/media/colouring/mesh-doodle-thumb.webp) Mesh-firka (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Teljes oldalnyi firka antennákkal, áramköri lapokkal, chipekkel, telefonokkal és borítékokkal, minden alakzatban egy számmal](/media/colouring/doodle-in-numbers-thumb.webp) Firka számokkal (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Jelenetek {#scenes}
+
 
 Válassz egy jelenetet világos vagy sötét változatban. Töltsd le, és
 állítsd be az asztalod háttereként.
@@ -21,8 +48,6 @@ Válassz egy jelenetet világos vagy sötét változatban. Töltsd le, és
 Minden háttérkép 5120 × 2880 pixeles (16:9), 1–3 MB-os JPEG. Bármely ilyen
 arányú képernyő lekicsinyíti. Telefonon a beállításkor válaszd ki a kívánt részt.
 A meshcore-info.eu felirat a jobb alsó sarokban van.
-
-## Jelenetek {#scenes}
 
 - [Eszközök](/devices/) [![Minden szerephez egy eszköz, vágóalátéten kirakva egy íróasztalon](/media/wallpapers/01-devices-light-thumb.webp) Világos](/media/wallpapers/01-devices-light.jpg) [![Minden szerephez egy eszköz, vágóalátéten kirakva egy íróasztalon](/media/wallpapers/01-devices-dark-thumb.webp) Sötét](/media/wallpapers/01-devices-dark.jpg)
 - [Első lépések](/get-started/) [![Egy első csomópont és egy telefon az íróasztalon, egy elosztó mellett](/media/wallpapers/02-get-started-light-thumb.webp) Világos](/media/wallpapers/02-get-started-light.jpg) [![Egy első csomópont és egy telefon az íróasztalon, egy elosztó mellett](/media/wallpapers/02-get-started-dark-thumb.webp) Sötét](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ A meshcore-info.eu felirat a jobb alsó sarokban van.
 - [Antenna-útmutató](/guides/antenna/) [![Antennaalkatrészek vágóalátéten kirakva, a kávésbögrében egy kukoricacső](/media/wallpapers/27-antenna-light-thumb.webp) Világos](/media/wallpapers/27-antenna-light.jpg) [![Antennaalkatrészek vágóalátéten kirakva, a kávésbögrében egy kukoricacső](/media/wallpapers/27-antenna-dark-thumb.webp) Sötét](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Felhasználás {#use}
+
+Nyomtasd ki a színezőket, ahányszor csak szeretnéd, és oszd szét őket.
 
 Használd a háttérképeket a saját képernyőid háttereként, és oszd meg őket
 változatlanul: a sarokban lévő felirat jelzi a forrást. Ne használd őket

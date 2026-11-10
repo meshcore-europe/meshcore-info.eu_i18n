@@ -5,11 +5,11 @@ description: meshcore-info.eu zbiera ustawienia, poradniki i narzędzia, którym
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 meshcore-info.eu wyjaśnia MeshCore dla Europy: ustawienia, poradniki i
@@ -57,16 +57,17 @@ premierowe. Używaj ich w artykułach i postach, a jako źródło podaj meshcore
 ## Obietnice {#promises}
 
 - **Bez reklam, linków do sklepów i linków afiliacyjnych.** Strona [Urządzenia](/devices/)
-  podaje specyfikacje producentów i przedział cenowy. Nigdy nie prowadzi do
+  podaje specyfikacje producentów i przedział cenowy. Nigdy nie linkuje do
   sklepu.
-- **Bez śledzenia.** Serwis nie używa analityki ani narzędzi śledzących. Jedyne ciasteczko zapamiętuje
-  wybrany przez ciebie motyw. Jedyny inny serwer, z którym łączy się serwis, to meshcore-analyzer.eu,
+- **Bez śledzenia.** Serwis nie używa analityki ani trackerów. Jedyny plik cookie zapamiętuje
+  wybrany przez ciebie motyw. Jedyny inny serwer, do którego serwis wysyła zapytania, to meshcore-analyzer.eu,
   prowadzony przez tych samych wolontariuszy. Szczegóły znajdziesz na [stronie o prywatności](/privacy/).
-- **Źródła faktów.** To, co piszemy o MeshCore, pochodzi z jego firmware'u i
-  dokumentacji. Przepisy radiowe podajemy za regulatorami.
-- **Twój język.** Serwis jest dostępny w 33 językach. Strony powstają najpierw jako
-  tłumaczenia maszynowe i mają takie oznaczenie, dopóki nie sprawdzi ich
-  rodzimy użytkownik języka.
+- **Źródła faktów.** Fakty o MeshCore pochodzą z jego firmware, z
+  dokumentacji albo od osób, które prowadzą ten serwis. Przepisy radiowe pochodzą od
+  regulatorów.
+- **Twój język.** Serwis jest dostępny w 33 językach. Strony powstają jako
+  tłumaczenia maszynowe i mają takie oznaczenie, dopóki nie sprawdzi ich rodzimy użytkownik
+  języka.
 
 Wszystko jest open source. Brakuje twojej lokalnej grupy albo jakiś fakt jest błędny?
 [Tak możesz pomóc](/contribute/).

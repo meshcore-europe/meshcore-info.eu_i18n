@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-10-31'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Målarbilder {#colouring}
+
+Skriv ut en sida och färglägg den hemma, i klassrummet eller vid din grupps monter.
+Varje sida är en PDF i A4 med svarta linjer på vitt.
+
+På siffersidan väljer du en färg för varje siffra i rutorna. Färglägg sedan
+varje form i den färg som hör till dess siffra. Varma färger visar var antennens
+radiostråle är stark, kalla färger var den är svag. De pyttesmå formerna utan
+siffra får du färglägga som du vill.
+
+Vill du skriva ut alla på en gång laddar du ner
+[alla målarbilder i 1 PDF](/media/colouring/colouring-pages.pdf) (A4, 9
+sidor).
+
+- [![En glad tigerrandig katt på en taknock som sträcker sig efter en radiovåg från en antenn, på en sida i stående format](/media/colouring/cat-upright-thumb.webp) Katten på taket (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![En randig katt på en taknock som slår med tassen efter vågorna från en antenn på en mast](/media/colouring/cat-ridge-thumb.webp) Katt och antenn (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Ett kretskort i närbild, med en USB-C-kontakt, ett chip, knappar och kopparbanor som liknar vägar](/media/colouring/circuit-board-thumb.webp) Kretskort (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Ett kretskort ovanifrån, med ett chip, en skärm, en USB-C-kontakt och 2 knappar](/media/colouring/circuit-board-above-thumb.webp) Kretskort ovanifrån (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Ett barn med en telefon och en nod i en trädkoja, ett annat barn som vinkar från en annan trädkoja](/media/colouring/treehouses-thumb.webp) Trädkojor (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Bågar från ett hus till ett kyrktorn, en kulle och en bondgård tvärs över en dal med kor](/media/colouring/valley-thumb.webp) Tvärs över dalen (PDF, A4)](/media/colouring/valley.pdf)
+- [![En repeaterlåda på en mast ovanför ett tak, med en solpanel, en fågel och radiovågor](/media/colouring/solar-repeater-thumb.webp) Soldriven repeater (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![En hel sida med klotter: master, repeaterlådor, telefoner, kuvert, vågor och löv](/media/colouring/mesh-doodle-thumb.webp) Meshklotter (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![En hel sida med klotter: antenner, kretskort, chip, telefoner och kuvert, med en siffra i varje form](/media/colouring/doodle-in-numbers-thumb.webp) Klotter med siffror (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Scener {#scenes}
+
 
 Välj en scen i ljus eller mörk version. Ladda ner den och lägg in den som
 skrivbordsbakgrund.
@@ -21,8 +48,6 @@ skrivbordsbakgrund.
 Varje bakgrundsbild är 5120 gånger 2880 pixlar (16:9), en JPEG på 1 till 3 MB. Alla
 skärmar med samma format skalar ner den. På en telefon väljer du vilken del du vill ha när du lägger in den.
 Ordmärket meshcore-info.eu sitter längst ner till höger.
-
-## Scener {#scenes}
 
 - [Enheter](/devices/) [![Enheter för varje roll utlagda på en skärmatta på ett skrivbord](/media/wallpapers/01-devices-light-thumb.webp) Ljus](/media/wallpapers/01-devices-light.jpg) [![Enheter för varje roll utlagda på en skärmatta på ett skrivbord](/media/wallpapers/01-devices-dark-thumb.webp) Mörk](/media/wallpapers/01-devices-dark.jpg)
 - [Kom igång](/get-started/) [![En första nod och en telefon på ett skrivbord, bredvid en grenkontakt](/media/wallpapers/02-get-started-light-thumb.webp) Ljus](/media/wallpapers/02-get-started-light.jpg) [![En första nod och en telefon på ett skrivbord, bredvid en grenkontakt](/media/wallpapers/02-get-started-dark-thumb.webp) Mörk](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ Ordmärket meshcore-info.eu sitter längst ner till höger.
 - [Guide för antenner](/guides/antenna/) [![Antenndelar utlagda på en skärmatta, en majskolv i kaffemuggen](/media/wallpapers/27-antenna-light-thumb.webp) Ljus](/media/wallpapers/27-antenna-light.jpg) [![Antenndelar utlagda på en skärmatta, en majskolv i kaffemuggen](/media/wallpapers/27-antenna-dark-thumb.webp) Mörk](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Så använder du dem {#use}
+
+Skriv ut målarbilderna så ofta du vill och dela ut dem.
 
 Använd bakgrundsbilderna på dina egna skärmar och dela dem som de är:
 ordmärket i hörnet anger källan. Använd dem inte i annonser, på produkter

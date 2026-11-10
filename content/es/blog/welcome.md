@@ -5,11 +5,11 @@ description: meshcore-info.eu reúne los ajustes, las guías y las herramientas 
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 meshcore-info.eu explica MeshCore para Europa: los ajustes, las guías y
@@ -60,13 +60,15 @@ del lanzamiento. Úsalos en noticias y publicaciones, y cita meshcore-info.eu co
 - **Sin publicidad, enlaces a tiendas ni enlaces de afiliados.** La página [Dispositivos](/devices/)
   recoge las especificaciones de los fabricantes y un rango de precios. Nunca enlaza a una
   tienda.
-- **Sin rastreo.** El sitio no usa analíticas ni rastreadores. La única cookie recuerda el
-  tema que eliges. El sitio solo consulta otro servidor: meshcore-analyzer.eu,
-  gestionado por los mismos voluntarios. En la [página de privacidad](/privacy/) encontrarás los detalles.
-- **Fuentes de los datos.** Lo que escribimos sobre MeshCore procede de su firmware
-  y su documentación. Las normas de radio proceden de los reguladores.
-- **Tu idioma.** El sitio está disponible en 33 idiomas. Las páginas empiezan siendo
-  traducciones automáticas, y así figuran hasta que un hablante nativo las revisa.
+- **Sin rastreo.** La web no usa analíticas ni rastreadores. La única cookie recuerda el
+  tema que elegiste. La web solo consulta otro servidor, meshcore-analyzer.eu,
+  que gestionan los mismos voluntarios. Los detalles están en la [página de privacidad](/privacy/).
+- **Fuentes de los datos.** Los datos sobre MeshCore salen de su firmware, de su
+  documentación o de las personas que mantienen esta web. Las normas de radio vienen de
+  los reguladores.
+- **Tu idioma.** La web está disponible en 33 idiomas. Las páginas empiezan como
+  traducciones automáticas y llevan ese aviso hasta que un hablante nativo las
+  revisa.
 
 Todo es de código abierto. ¿Falta tu grupo local o hay un dato erróneo?
 [Así puedes ayudar](/contribute/).

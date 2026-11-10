@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-11-02'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Leathanaigh dhathúcháin {#colouring}
+
+Priontáil leathanach agus dathaigh é, sa bhaile, i rang nó ag seastán do ghrúpa.
+Is PDF A4 é gach leathanach, le línte dubha ar chúlra bán.
+
+Ar leathanach na n-uimhreacha, roghnaigh dath do gach uimhir sna boscaí. Ansin dathaigh
+gach cruth le dath a uimhreach. Taispeánann dathanna teo cá bhfuil léas raidió
+aeróige láidir, agus dathanna fuara cá bhfuil sé lag. Is fút féin atá sé dathanna
+a roghnú do na cruthanna bídeacha gan uimhir.
+
+Chun iad go léir a phriontáil in aon iarracht amháin, íoslódáil
+[na leathanaigh dhathúcháin go léir in 1 PDF](/media/colouring/colouring-pages.pdf) (A4, 9
+leathanach).
+
+- [![Cat riabhach sona ar mhullach dín, ag síneadh a lapa i dtreo toinne raidió ó aeróg, ar leathanach ingearach](/media/colouring/cat-upright-thumb.webp) Cat ar an díon (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Cat stríocach ar mhullach dín, ag tabhairt buille dá lapa faoi na tonnta ó aeróg ar chrann](/media/colouring/cat-ridge-thumb.webp) Cat agus aeróg (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Radharc gar ar chlár ciorcaid a bhfuil soicéad USB-C, slis, cnaipí agus rianta copair ar nós bóithre air](/media/colouring/circuit-board-thumb.webp) Clár ciorcaid (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Clár ciorcaid ó thuas, agus slis, scáileán, soicéad USB-C agus 2 chnaipe air](/media/colouring/circuit-board-above-thumb.webp) Clár ciorcaid ó thuas (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Páiste i dteach crainn agus fón agus nód aige, agus páiste eile ag croitheadh láimhe ó theach crainn eile](/media/colouring/treehouses-thumb.webp) Tithe crainn (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Stuanna ó theach go túr séipéil, go cnoc agus go feirm, trasna gleanna a bhfuil ba ann](/media/colouring/valley-thumb.webp) Trasna an ghleanna (PDF, A4)](/media/colouring/valley.pdf)
+- [![Bosca athsheoltóra ar chrann os cionn dín, mar aon le painéal gréine, éan agus tonnta raidió](/media/colouring/solar-repeater-thumb.webp) Athsheoltóir gréine (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Leathanach lán de bhreacaireacht: crainn, boscaí athsheoltóra, fóin, clúdaigh litreach, tonnta agus duilleoga](/media/colouring/mesh-doodle-thumb.webp) Breacaireacht mhogalra (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Leathanach lán de bhreacaireacht: aeróga, cláir, sliseanna, fóin agus clúdaigh litreach, agus uimhir i ngach cruth](/media/colouring/doodle-in-numbers-thumb.webp) Breacaireacht le huimhreacha (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Radhairc {#scenes}
+
 
 Roghnaigh radharc ina leagan geal nó ina leagan dorcha. Íoslódáil é agus socraigh é
 mar chúlra ar do dheasc.
@@ -21,8 +48,6 @@ mar chúlra ar do dheasc.
 Tá gach páipéar balla 5120 faoi 2880 picteilín (16:9), comhad JPEG de 1 go 3 MB. Laghdaíonn
 scáileán ar bith den chruth sin é. Ar fhón, roghnaigh an chuid atá uait nuair a shocraíonn tú é.
 Tá lógó focail meshcore-info.eu sa chúinne thíos ar dheis.
-
-## Radhairc {#scenes}
 
 - [Gléasanna](/devices/) [![Gléasanna do gach ról leagtha amach ar mhata gearrtha ar dheasc](/media/wallpapers/01-devices-light-thumb.webp) Geal](/media/wallpapers/01-devices-light.jpg) [![Gléasanna do gach ról leagtha amach ar mhata gearrtha ar dheasc](/media/wallpapers/01-devices-dark-thumb.webp) Dorcha](/media/wallpapers/01-devices-dark.jpg)
 - [Tosaigh](/get-started/) [![Céad nód agus fón ar dheasc, in aice le stiall cumhachta](/media/wallpapers/02-get-started-light-thumb.webp) Geal](/media/wallpapers/02-get-started-light.jpg) [![Céad nód agus fón ar dheasc, in aice le stiall cumhachta](/media/wallpapers/02-get-started-dark-thumb.webp) Dorcha](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ Tá lógó focail meshcore-info.eu sa chúinne thíos ar dheis.
 - [Treoir don aeróg](/guides/antenna/) [![Páirteanna aeróige leagtha amach ar mhata gearrtha, dias arbhair sa mhuga caife](/media/wallpapers/27-antenna-light-thumb.webp) Geal](/media/wallpapers/27-antenna-light.jpg) [![Páirteanna aeróige leagtha amach ar mhata gearrtha, dias arbhair sa mhuga caife](/media/wallpapers/27-antenna-dark-thumb.webp) Dorcha](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Á n-úsáid {#use}
+
+Priontáil na leathanaigh dhathúcháin chomh minic agus is mian leat agus roinn amach iad.
 
 Úsáid na páipéir bhalla mar chúlra ar do scáileáin féin, agus roinn iad mar atá siad:
 luann an lógó focail sa chúinne an fhoinse. Ná húsáid iad i bhfógraí, ar tháirgí

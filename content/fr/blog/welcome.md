@@ -5,11 +5,11 @@ description: meshcore-info.eu rassemble les réglages, guides et outils que les 
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 meshcore-info.eu présente MeshCore pour l'Europe : les réglages, les guides et
@@ -57,16 +57,18 @@ de lancement. Utilise-les dans tes articles et tes publications, et cite meshcor
 
 ## Nos engagements {#promises}
 
-- **Pas de publicité, de liens vers des boutiques ni de liens d'affiliation.** La page [Matériel](/devices/)
+- **Ni publicité, ni liens vers des boutiques, ni liens d'affiliation.** La page [Matériel](/devices/)
   indique les caractéristiques données par les fabricants et une fourchette de prix. Elle ne renvoie jamais vers une
   boutique.
-- **Aucun pistage.** Le site n'utilise ni outil d'analyse ni traceur. Le seul cookie mémorise ton
-  choix de thème. Le seul autre serveur que le site interroge est meshcore-analyzer.eu,
-  géré par les mêmes bénévoles. La [page de confidentialité](/privacy/) donne les détails.
-- **Des faits sourcés.** Ce que nous écrivons sur MeshCore vient de son micrologiciel
-  et de sa documentation. Les règles radio viennent des autorités de régulation.
-- **Ta langue.** Le site existe en 33 langues. Les pages partent d'une traduction
-  automatique, signalée comme telle jusqu'à ce qu'un locuteur natif les ait vérifiées.
+- **Pas de pistage.** Le site n'utilise ni outil de mesure d'audience ni traceur. Le seul cookie retient le
+  thème que tu as choisi. Le seul autre serveur que le site interroge est meshcore-analyzer.eu,
+  géré par les mêmes bénévoles. La [page sur la confidentialité](/privacy/) donne les détails.
+- **Des faits sourcés.** Les faits sur MeshCore viennent de son micrologiciel, de sa
+  documentation ou des personnes qui s'occupent de ce site. Les règles radio viennent
+  des régulateurs.
+- **Ta langue.** Le site est disponible en 33 langues. Les pages sont d'abord des
+  traductions automatiques, signalées comme telles jusqu'à ce qu'un locuteur natif les ait
+  vérifiées.
 
 Tout est open source. Ton groupe local n'y figure pas, ou un fait est faux ?
 [Voici comment aider](/contribute/).

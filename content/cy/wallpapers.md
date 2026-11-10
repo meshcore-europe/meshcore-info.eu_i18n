@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-11-02'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Tudalennau lliwio {#colouring}
+
+Argraffa dudalen a'i lliwio, gartref, mewn dosbarth neu ar stondin dy grŵp.
+Mae pob tudalen yn PDF A4 gyda llinellau du ar gefndir gwyn.
+
+Ar y dudalen rifau, dewisa liw ar gyfer pob rhif yn y blychau. Yna lliwia
+bob siâp yn lliw ei rif. Mae lliwiau cynnes yn dangos lle mae pelydr radio
+antena yn gryf, a lliwiau oer lle mae'n wan. Ti sy'n dewis lliw y siapiau mân
+heb rif.
+
+I'w hargraffu i gyd ar unwaith, lawrlwytha
+[bob tudalen liwio mewn 1 PDF](/media/colouring/colouring-pages.pdf) (A4, 9
+tudalen).
+
+- [![Cath frech hapus ar grib to, yn ymestyn at don radio o antena, ar dudalen unionsyth](/media/colouring/cat-upright-thumb.webp) Cath ar y to (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Cath streipiog ar grib to, yn taro â'i phawen at y tonnau o antena ar fast](/media/colouring/cat-ridge-thumb.webp) Cath ac antena (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Bwrdd cylched o agos, â soced USB-C, sglodyn, botymau a thraciau copr fel ffyrdd](/media/colouring/circuit-board-thumb.webp) Bwrdd cylched (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Bwrdd cylched oddi uchod, â sglodyn, sgrin, soced USB-C a 2 fotwm](/media/colouring/circuit-board-above-thumb.webp) Bwrdd cylched oddi uchod (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Plentyn â ffôn a nod mewn tŷ coeden, ac ail blentyn yn codi llaw o dŷ coeden arall](/media/colouring/treehouses-thumb.webp) Tai coeden (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Bwâu o dŷ at dŵr eglwys, bryn a fferm ar draws dyffryn â gwartheg ynddo](/media/colouring/valley-thumb.webp) Ar draws y dyffryn (PDF, A4)](/media/colouring/valley.pdf)
+- [![Blwch ailadroddydd ar fast uwchben to, â phanel solar, aderyn a thonnau radio](/media/colouring/solar-repeater-thumb.webp) Ailadroddydd solar (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Tudalen lawn o ddwdls â mastiau, blychau ailadroddydd, ffonau, amlenni, tonnau a dail](/media/colouring/mesh-doodle-thumb.webp) Dwdl rhwyll (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Tudalen lawn o ddwdls ag antenâu, byrddau, sglodion, ffonau ac amlenni, a rhif ym mhob siâp](/media/colouring/doodle-in-numbers-thumb.webp) Dwdl mewn rhifau (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Golygfeydd {#scenes}
+
 
 Dewisa olygfa yn ei fersiwn golau neu dywyll. Llwytha hi i lawr a'i gosod yn
 gefndir i dy fwrdd gwaith.
@@ -21,8 +48,6 @@ gefndir i dy fwrdd gwaith.
 Mae pob papur wal yn 5120 wrth 2880 picsel (16:9), ac yn JPEG o 1 i 3 MB. Mae
 unrhyw sgrin o'r siâp hwnnw yn ei leihau. Ar ffôn, dewisa'r rhan rwyt ti ei heisiau wrth ei osod.
 Mae gair-nod meshcore-info.eu yn y gornel dde isaf.
-
-## Golygfeydd {#scenes}
 
 - [Dyfeisiau](/devices/) [![Dyfeisiau ar gyfer pob rôl wedi'u gosod ar fat torri ar ddesg](/media/wallpapers/01-devices-light-thumb.webp) Golau](/media/wallpapers/01-devices-light.jpg) [![Dyfeisiau ar gyfer pob rôl wedi'u gosod ar fat torri ar ddesg](/media/wallpapers/01-devices-dark-thumb.webp) Tywyll](/media/wallpapers/01-devices-dark.jpg)
 - [Dechrau arni](/get-started/) [![Nod cyntaf a ffôn ar ddesg, wrth ymyl stribed pŵer](/media/wallpapers/02-get-started-light-thumb.webp) Golau](/media/wallpapers/02-get-started-light.jpg) [![Nod cyntaf a ffôn ar ddesg, wrth ymyl stribed pŵer](/media/wallpapers/02-get-started-dark-thumb.webp) Tywyll](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ Mae gair-nod meshcore-info.eu yn y gornel dde isaf.
 - [Canllaw antenâu](/guides/antenna/) [![Rhannau antena wedi'u gosod ar fat torri, a chobyn india-corn yn y mwg coffi](/media/wallpapers/27-antenna-light-thumb.webp) Golau](/media/wallpapers/27-antenna-light.jpg) [![Rhannau antena wedi'u gosod ar fat torri, a chobyn india-corn yn y mwg coffi](/media/wallpapers/27-antenna-dark-thumb.webp) Tywyll](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Eu defnyddio {#use}
+
+Argraffa'r tudalennau lliwio mor aml ag y mynni a'u rhannu.
 
 Defnyddia'r papurau wal yn gefndir ar dy sgriniau dy hun, a rhanna nhw fel y
 maen nhw: mae'r gair-nod yn y gornel yn enwi'r ffynhonnell. Paid â'u

@@ -5,11 +5,11 @@ description: meshcore-info.eu shromažďuje nastavení, návody a nástroje, kte
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 meshcore-info.eu vysvětluje MeshCore pro Evropu: nastavení, návody a
@@ -55,15 +55,17 @@ spuštění. Používej je ve zprávách a příspěvcích a jako zdroj uveď me
 ## Naše sliby {#promises}
 
 - **Žádné reklamy, odkazy na obchody ani affiliate odkazy.** Stránka [Zařízení](/devices/)
-  uvádí specifikace výrobců a cenové rozpětí. Nikdy neodkazuje na
-  obchod.
-- **Žádné sledování.** Web nepoužívá analytiku ani sledovací nástroje. Jediná cookie si pamatuje
-  tvou volbu vzhledu. Jediný další server, na který se web obrací, je meshcore-analyzer.eu.
-  Provozují ho stejní dobrovolníci. Podrobnosti najdeš na [stránce o soukromí](/privacy/).
-- **Zdroje faktů.** Co píšeme o MeshCore, pochází z jeho firmwaru
-  a dokumentace. Pravidla pro rádiový provoz pocházejí od regulačních úřadů.
-- **Tvůj jazyk.** Web je dostupný ve 33 jazycích. Stránky vznikají nejdřív jako
-  strojové překlady. Takto jsou označené, dokud je nezkontroluje rodilý mluvčí.
+  uvádí specifikace od výrobců a cenové rozpětí. Na obchod nikdy
+  neodkazuje.
+- **Žádné sledování.** Web nepoužívá analytiku ani sledovací nástroje. Jediná cookie si pamatuje tvůj
+  zvolený vzhled. Jediný další server, na který se web obrací, je meshcore-analyzer.eu,
+  který provozují stejní dobrovolníci. Podrobnosti najdeš na [stránce o soukromí](/privacy/).
+- **Zdroje faktů.** Fakta o MeshCore pocházejí z jeho firmwaru,
+  dokumentace nebo od lidí, kteří tento web spravují. Pravidla pro rádiový provoz pocházejí
+  od regulátorů.
+- **Tvůj jazyk.** Web je dostupný ve 33 jazycích. Stránky vznikají jako
+  strojové překlady a jsou tak označené, dokud je nezkontroluje rodilý
+  mluvčí.
 
 Všechno je open source. Chybí tu tvoje místní skupina, nebo je někde chyba?
 [Takhle můžeš pomoct](/contribute/).

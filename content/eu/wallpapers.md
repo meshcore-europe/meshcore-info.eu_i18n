@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-11-02'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Margotzeko orriak {#colouring}
+
+Inprimatu orri bat eta margotu, etxean, ikasgelan edo zure taldearen postuan.
+Orri bakoitza A4 tamainako PDF bat da: lerro beltzak hondo zuriaren gainean.
+
+Zenbakien orrian, aukeratu laukietan kolore bat zenbaki bakoitzarentzat. Gero, margotu
+forma bakoitza bere zenbakiaren kolorez. Kolore beroek antena baten irrati-sorta non den
+indartsu erakusten dute, kolore hotzek non den ahul. Zenbakirik gabeko forma
+txiki-txikien kolorea zuk aukeratzen duzu.
+
+Guztiak batera inprimatzeko, deskargatu
+[margotzeko orri guztiak 1 PDF fitxategian](/media/colouring/colouring-pages.pdf) (A4, 9
+orri).
+
+- [![Katu marradun alai bat teilatuaren gailurrean, antena baten irrati-uhin bat harrapatu nahian, orri bertikal batean](/media/colouring/cat-upright-thumb.webp) Katua teilatuan (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Katu marradun bat teilatuaren gailurrean, masta bateko antena baten uhinei atzaparka](/media/colouring/cat-ridge-thumb.webp) Katua eta antena (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Zirkuitu-plaka bat gertutik: USB-C konektore bat, txip bat, botoiak eta errepideen antzeko kobrezko pistak](/media/colouring/circuit-board-thumb.webp) Zirkuitu-plaka (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Zirkuitu-plaka bat goitik ikusita: txip bat, pantaila bat, USB-C konektore bat eta 2 botoi](/media/colouring/circuit-board-above-thumb.webp) Zirkuitu-plaka goitik (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Haur bat zuhaitz-etxe batean, telefono bat eta nodo bat dituela, eta bigarren haur bat beste zuhaitz-etxe batetik agurka](/media/colouring/treehouses-thumb.webp) Zuhaitz-etxeak (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Arkuak etxe batetik eliza-dorre batera, muino batera eta baserri batera, behiak dauden haran baten gainetik](/media/colouring/valley-thumb.webp) Haranaz bestaldera (PDF, A4)](/media/colouring/valley.pdf)
+- [![Errepikagailu-kutxa bat teilatu baten gaineko masta batean, eguzki-panel bat, txori bat eta irrati-uhinak dituela](/media/colouring/solar-repeater-thumb.webp) Eguzki-errepikagailua (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Zirrimarraz betetako orri oso bat: mastak, errepikagailu-kutxak, telefonoak, gutun-azalak, uhinak eta hostoak](/media/colouring/mesh-doodle-thumb.webp) Mesh sareko zirrimarrak (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Zirrimarraz betetako orri oso bat: antenak, plakak, txipak, telefonoak eta gutun-azalak, eta zenbaki bat forma bakoitzean](/media/colouring/doodle-in-numbers-thumb.webp) Zirrimarrak zenbakitan (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Eszenak {#scenes}
+
 
 Aukeratu eszena bat, bertsio argian edo ilunean. Deskargatu eta jarri
 zure mahaigaineko atzeko irudi gisa.
@@ -21,8 +48,6 @@ zure mahaigaineko atzeko irudi gisa.
 Horma-paper bakoitzak 5120 bider 2880 pixel ditu (16:9), eta 1 eta 3 MB arteko JPEG bat da. Forma
 horretako edozein pantailak txikitu egiten du irudia. Telefonoan, aukeratu nahi duzun zatia irudia ezartzean.
 meshcore-info.eu izen-marka beheko eskuineko izkinan dago.
-
-## Eszenak {#scenes}
 
 - [Gailuak](/devices/) [![Rol bakoitzerako gailuak, idazmahai gaineko ebaketa-tapete batean zabalduta](/media/wallpapers/01-devices-light-thumb.webp) Argia](/media/wallpapers/01-devices-light.jpg) [![Rol bakoitzerako gailuak, idazmahai gaineko ebaketa-tapete batean zabalduta](/media/wallpapers/01-devices-dark-thumb.webp) Iluna](/media/wallpapers/01-devices-dark.jpg)
 - [Hasi](/get-started/) [![Lehen nodo bat eta telefono bat idazmahai gainean, entxufe-regleta baten ondoan](/media/wallpapers/02-get-started-light-thumb.webp) Argia](/media/wallpapers/02-get-started-light.jpg) [![Lehen nodo bat eta telefono bat idazmahai gainean, entxufe-regleta baten ondoan](/media/wallpapers/02-get-started-dark-thumb.webp) Iluna](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ meshcore-info.eu izen-marka beheko eskuineko izkinan dago.
 - [Antenen gida](/guides/antenna/) [![Antena-piezak ebaketa-tapete batean zabalduta, artaburu bat kafe-katiluan](/media/wallpapers/27-antenna-light-thumb.webp) Argia](/media/wallpapers/27-antenna-light.jpg) [![Antena-piezak ebaketa-tapete batean zabalduta, artaburu bat kafe-katiluan](/media/wallpapers/27-antenna-dark-thumb.webp) Iluna](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Nola erabili {#use}
+
+Inprimatu margotzeko orriak nahi adina aldiz, eta banatu.
 
 Erabili horma-paperak zure pantailetako atzeko irudi gisa, eta partekatu dauden bezala:
 izkinako izen-markak iturria adierazten du. Ez erabili

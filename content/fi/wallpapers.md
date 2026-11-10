@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-10-31'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Värityskuvat {#colouring}
+
+Tulosta sivu ja väritä se kotona, luokassa tai ryhmäsi esittelypisteellä.
+Jokainen sivu on A4-kokoinen PDF, jossa on mustat viivat valkoisella pohjalla.
+
+Valitse numerosivun ruutuihin jokaiselle numerolle väri. Väritä sitten
+jokainen kuvio numeronsa värillä. Lämpimät värit näyttävät, missä antennin
+radiokeila on vahva, kylmät värit, missä se on heikko. Pienten numerottomien
+kuvioiden värin saat valita itse.
+
+Jos haluat tulostaa ne kaikki kerralla, lataa
+[kaikki värityskuvat 1 PDF-tiedostona](/media/colouring/colouring-pages.pdf) (A4, 9
+sivua).
+
+- [![Iloinen raidallinen kissa katonharjalla kurottaa kohti antennista lähtevää radioaaltoa pystysuuntaisella sivulla](/media/colouring/cat-upright-thumb.webp) Kissa katolla (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Raidallinen kissa katonharjalla huitoo mastossa olevan antennin aaltoja](/media/colouring/cat-ridge-thumb.webp) Kissa ja antenni (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Piirilevy läheltä: USB-C-liitäntä, siru, painikkeita ja katuja muistuttavia kuparijohtimia](/media/colouring/circuit-board-thumb.webp) Piirilevy (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Piirilevy ylhäältä: siru, näyttö, USB-C-liitäntä ja 2 painiketta](/media/colouring/circuit-board-above-thumb.webp) Piirilevy ylhäältä (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Lapsi puumajassa mukanaan puhelin ja solmu, toinen lapsi vilkuttaa toisesta puumajasta](/media/colouring/treehouses-thumb.webp) Puumajat (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Kaaria talosta kirkontorniin, kukkulalle ja maatilalle laakson yli, laaksossa lehmiä](/media/colouring/valley-thumb.webp) Laakson yli (PDF, A4)](/media/colouring/valley.pdf)
+- [![Toistinlaatikko mastossa katon yläpuolella, aurinkopaneeli, lintu ja radioaaltoja](/media/colouring/solar-repeater-thumb.webp) Aurinkotoistin (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Koko sivu täynnä piirroksia: mastoja, toistinlaatikoita, puhelimia, kirjekuoria, aaltoja ja lehtiä](/media/colouring/mesh-doodle-thumb.webp) Mesh-piirrokset (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Koko sivu täynnä piirroksia: antenneja, piirilevyjä, siruja, puhelimia ja kirjekuoria, ja jokaisessa kuviossa numero](/media/colouring/doodle-in-numbers-thumb.webp) Numeropiirrokset (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Kuvat {#scenes}
+
 
 Valitse kuva vaaleana tai tummana versiona. Lataa se ja aseta se
 työpöytäsi taustaksi.
@@ -21,8 +48,6 @@ työpöytäsi taustaksi.
 Jokainen taustakuva on 5120 × 2880 pikseliä (16:9), ja JPEG-tiedoston koko on 1–3 MB.
 Jokainen samanmuotoinen näyttö pienentää sen sopivaksi. Puhelimessa valitset haluamasi osan, kun asetat kuvan.
 meshcore-info.eu-sanamerkki on oikeassa alakulmassa.
-
-## Kuvat {#scenes}
 
 - [Laitteet](/devices/) [![Jokaisen roolin laitteet aseteltuina leikkuualustalle työpöydällä](/media/wallpapers/01-devices-light-thumb.webp) Vaalea](/media/wallpapers/01-devices-light.jpg) [![Jokaisen roolin laitteet aseteltuina leikkuualustalle työpöydällä](/media/wallpapers/01-devices-dark-thumb.webp) Tumma](/media/wallpapers/01-devices-dark.jpg)
 - [Aloita](/get-started/) [![Ensimmäinen solmu ja puhelin työpöydällä jatkojohdon vieressä](/media/wallpapers/02-get-started-light-thumb.webp) Vaalea](/media/wallpapers/02-get-started-light.jpg) [![Ensimmäinen solmu ja puhelin työpöydällä jatkojohdon vieressä](/media/wallpapers/02-get-started-dark-thumb.webp) Tumma](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ meshcore-info.eu-sanamerkki on oikeassa alakulmassa.
 - [Antenniopas](/guides/antenna/) [![Antennin osia aseteltuina leikkuualustalle, maissintähkä kahvimukissa](/media/wallpapers/27-antenna-light-thumb.webp) Vaalea](/media/wallpapers/27-antenna-light.jpg) [![Antennin osia aseteltuina leikkuualustalle, maissintähkä kahvimukissa](/media/wallpapers/27-antenna-dark-thumb.webp) Tumma](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Käyttö {#use}
+
+Tulosta värityskuvia niin monta kertaa kuin haluat ja jaa niitä muille.
 
 Käytä taustakuvia omien näyttöjesi taustana ja jaa niitä sellaisinaan:
 kulman sanamerkki kertoo lähteen. Älä käytä niitä mainoksissa, tuotteissa

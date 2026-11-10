@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-10-31'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Pagine da colorare {#colouring}
+
+Stampa una pagina e colorala, a casa, in classe o allo stand del tuo gruppo.
+Ogni pagina è un PDF in formato A4 con linee nere su fondo bianco.
+
+Nella pagina con i numeri, scegli un colore per ogni numero nelle caselle. Poi colora
+ogni forma con il colore del suo numero. I colori caldi mostrano dove il fascio radio
+di un'antenna è forte, i colori freddi dove è debole. Per le forme minuscole senza
+numero scegli tu il colore.
+
+Per stamparle tutte insieme, scarica
+[tutte le pagine da colorare in 1 PDF](/media/colouring/colouring-pages.pdf) (A4, 9
+pagine).
+
+- [![Un gatto tigrato felice sul colmo di un tetto, che cerca di toccare un'onda radio di un'antenna, su una pagina in verticale](/media/colouring/cat-upright-thumb.webp) Gatto sul tetto (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Un gatto a strisce sul colmo di un tetto, che dà zampate alle onde di un'antenna su un palo](/media/colouring/cat-ridge-thumb.webp) Gatto e antenna (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Una scheda elettronica vista da vicino, con una presa USB-C, un chip, pulsanti e piste di rame simili a strade](/media/colouring/circuit-board-thumb.webp) Scheda elettronica (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Una scheda elettronica vista dall'alto, con un chip, uno schermo, una presa USB-C e 2 pulsanti](/media/colouring/circuit-board-above-thumb.webp) Scheda elettronica dall'alto (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Un bambino con un telefono e un nodo in una casa sull'albero, un secondo bambino che saluta da un'altra casa sull'albero](/media/colouring/treehouses-thumb.webp) Case sull'albero (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Archi che vanno da una casa a un campanile, a una collina e a una fattoria, attraverso una valle con le mucche](/media/colouring/valley-thumb.webp) Attraverso la valle (PDF, A4)](/media/colouring/valley.pdf)
+- [![La scatola di un ripetitore su un palo sopra un tetto, con un pannello solare, un uccello e onde radio](/media/colouring/solar-repeater-thumb.webp) Ripetitore solare (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Una pagina piena di scarabocchi con pali, scatole di ripetitori, telefoni, buste, onde e foglie](/media/colouring/mesh-doodle-thumb.webp) Scarabocchi mesh (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Una pagina piena di scarabocchi con antenne, schede, chip, telefoni e buste, e un numero in ogni forma](/media/colouring/doodle-in-numbers-thumb.webp) Scarabocchi con i numeri (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Scene {#scenes}
+
 
 Scegli una scena nella versione chiara o scura. Scaricala e impostala come
 sfondo del desktop.
@@ -21,8 +48,6 @@ sfondo del desktop.
 Ogni sfondo misura 5120 per 2880 pixel (16:9) ed è un JPEG da 1 a 3 MB. Ogni
 schermo con queste proporzioni lo riduce. Sul telefono, quando lo imposti, scegli la parte che vuoi.
 Il logotipo di meshcore-info.eu si trova nell'angolo in basso a destra.
-
-## Scene {#scenes}
 
 - [Dispositivi](/devices/) [![Dispositivi per ogni ruolo disposti su un tappetino da taglio su una scrivania](/media/wallpapers/01-devices-light-thumb.webp) Chiaro](/media/wallpapers/01-devices-light.jpg) [![Dispositivi per ogni ruolo disposti su un tappetino da taglio su una scrivania](/media/wallpapers/01-devices-dark-thumb.webp) Scuro](/media/wallpapers/01-devices-dark.jpg)
 - [Per iniziare](/get-started/) [![Un primo nodo e un telefono su una scrivania, accanto a una ciabatta elettrica](/media/wallpapers/02-get-started-light-thumb.webp) Chiaro](/media/wallpapers/02-get-started-light.jpg) [![Un primo nodo e un telefono su una scrivania, accanto a una ciabatta elettrica](/media/wallpapers/02-get-started-dark-thumb.webp) Scuro](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ Il logotipo di meshcore-info.eu si trova nell'angolo in basso a destra.
 - [Guida alle antenne](/guides/antenna/) [![Componenti di antenna disposti su un tappetino da taglio, una pannocchia nella tazza del caffè](/media/wallpapers/27-antenna-light-thumb.webp) Chiaro](/media/wallpapers/27-antenna-light.jpg) [![Componenti di antenna disposti su un tappetino da taglio, una pannocchia nella tazza del caffè](/media/wallpapers/27-antenna-dark-thumb.webp) Scuro](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Come usarli {#use}
+
+Stampa le pagine da colorare tutte le volte che vuoi e distribuiscile.
 
 Usa gli sfondi sui tuoi schermi e condividili così come sono: il logotipo
 nell'angolo indica la fonte. Non usarli in pubblicità, su prodotti o

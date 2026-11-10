@@ -5,11 +5,11 @@ description: meshcore-info.eu verzamelt de instellingen, handleidingen en tools 
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 meshcore-info.eu legt MeshCore uit voor Europa: de instellingen, handleidingen
@@ -56,17 +56,18 @@ lanceringsvideo's. Gebruik ze in nieuws en berichten, en noem meshcore-info.eu a
 
 ## De beloftes {#promises}
 
-- **Geen advertenties, winkellinks of affiliatelinks.** De pagina [Apparaten](/devices/)
-  noemt de specificaties van de makers en een prijsklasse. De pagina linkt nooit naar een
+- **Geen advertenties, winkellinks of affiliatelinks.** Op de pagina [Apparaten](/devices/)
+  staan de specificaties van de makers en een prijsklasse. De pagina linkt nooit naar een
   winkel.
-- **Geen tracking.** De site gebruikt geen analytics of trackers. De enige cookie onthoudt je
-  themakeuze. De enige andere server waar de site iets opvraagt is meshcore-analyzer.eu,
-  beheerd door dezelfde vrijwilligers. Op de [privacypagina](/privacy/) vind je de details.
-- **Bronnen voor de feiten.** Wat we over MeshCore schrijven, komt uit de eigen firmware en
-  documentatie. Radioregels komen van de toezichthouders.
+- **Geen tracking.** De site gebruikt geen analytics of trackers. De enige cookie onthoudt welk
+  thema je kiest. De enige andere server die de site raadpleegt is meshcore-analyzer.eu,
+  beheerd door dezelfde vrijwilligers. Op de [privacypagina](/privacy/) staan de details.
+- **Bronnen voor feiten.** Feiten over MeshCore komen uit de firmware, de
+  documentatie of van de mensen die deze site onderhouden. Radioregels komen van
+  de toezichthouders.
 - **Jouw taal.** De site is er in 33 talen. Pagina's beginnen als
-  machinevertaling en staan als zodanig gemarkeerd tot een moedertaalspreker ze
-  heeft gecontroleerd.
+  machinevertaling en zijn als zodanig gemarkeerd tot een moedertaalspreker ze heeft
+  nagekeken.
 
 Alles is open source. Ontbreekt je lokale groep, of klopt er een feit niet?
 [Zo help je mee](/contribute/).

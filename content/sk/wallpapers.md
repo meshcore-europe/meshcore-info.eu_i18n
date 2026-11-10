@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-11-02'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Omaľovánky {#colouring}
+
+Vytlač si stranu a vyfarbi ju doma, v triede alebo pri stánku svojej skupiny.
+Každá strana je PDF vo formáte A4 s čiernymi čiarami na bielom podklade.
+
+Na strane s číslami si v rámčekoch vyber farbu pre každé číslo. Potom vyfarbi
+každý tvar farbou jeho čísla. Teplé farby ukazujú, kde je rádiový lúč antény
+silný, studené farby, kde je slabý. Farbu drobných tvarov bez čísla si vyberáš
+ty.
+
+Ak si chceš vytlačiť všetky naraz, stiahni si
+[všetky omaľovánky v 1 PDF](/media/colouring/colouring-pages.pdf) (A4, 9
+strán).
+
+- [![Šťastná tigrovaná mačka na hrebeni strechy, ktorá sa naťahuje za rádiovou vlnou z antény, na strane orientovanej na výšku](/media/colouring/cat-upright-thumb.webp) Mačka na streche (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Pruhovaná mačka na hrebeni strechy, ktorá sa labkou oháňa po vlnách z antény na stožiari](/media/colouring/cat-ridge-thumb.webp) Mačka a anténa (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Doska plošných spojov zblízka, s konektorom USB-C, čipom, tlačidlami a medenými spojmi, ktoré vyzerajú ako cesty](/media/colouring/circuit-board-thumb.webp) Doska plošných spojov (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Doska plošných spojov zhora, s čipom, displejom, konektorom USB-C a 2 tlačidlami](/media/colouring/circuit-board-above-thumb.webp) Doska plošných spojov zhora (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Dieťa s telefónom a uzlom v domčeku na strome, druhé dieťa máva z ďalšieho domčeka na strome](/media/colouring/treehouses-thumb.webp) Domčeky na strome (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Oblúky vedúce z domu ku kostolnej veži, na kopec a na farmu ponad údolie s kravami](/media/colouring/valley-thumb.webp) Cez údolie (PDF, A4)](/media/colouring/valley.pdf)
+- [![Skrinka repeatera na stožiari nad strechou, so solárnym panelom, vtákom a rádiovými vlnami](/media/colouring/solar-repeater-thumb.webp) Solárny repeater (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Celá strana čmáraníc so stožiarmi, skrinkami repeaterov, telefónmi, obálkami, vlnami a lístím](/media/colouring/mesh-doodle-thumb.webp) Mesh čmáranica (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Celá strana čmáraníc s anténami, doskami, čipmi, telefónmi a obálkami, v každom tvare je číslo](/media/colouring/doodle-in-numbers-thumb.webp) Čmáranica s číslami (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Scény {#scenes}
+
 
 Vyber si scénu vo svetlej alebo tmavej verzii. Stiahni si ju a nastav si ju ako
 pozadie plochy.
@@ -21,8 +48,6 @@ pozadie plochy.
 Každá tapeta má 5120 krát 2880 pixelov (16:9) a je to JPEG s veľkosťou 1 až 3 MB. Každá
 obrazovka s týmto pomerom strán ju zmenší. Na telefóne si pri nastavovaní vyberieš časť, ktorú chceš.
 Slovné logo meshcore-info.eu je v pravom dolnom rohu.
-
-## Scény {#scenes}
 
 - [Zariadenia](/devices/) [![Zariadenia pre každú rolu rozložené na rezacej podložke na stole](/media/wallpapers/01-devices-light-thumb.webp) Svetlá](/media/wallpapers/01-devices-light.jpg) [![Zariadenia pre každú rolu rozložené na rezacej podložke na stole](/media/wallpapers/01-devices-dark-thumb.webp) Tmavá](/media/wallpapers/01-devices-dark.jpg)
 - [Začíname](/get-started/) [![Prvý uzol a telefón na stole vedľa zásuvkovej lišty](/media/wallpapers/02-get-started-light-thumb.webp) Svetlá](/media/wallpapers/02-get-started-light.jpg) [![Prvý uzol a telefón na stole vedľa zásuvkovej lišty](/media/wallpapers/02-get-started-dark-thumb.webp) Tmavá](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ Slovné logo meshcore-info.eu je v pravom dolnom rohu.
 - [Návod na antény](/guides/antenna/) [![Súčiastky antény rozložené na rezacej podložke, v hrnčeku na kávu kukuričný klas](/media/wallpapers/27-antenna-light-thumb.webp) Svetlá](/media/wallpapers/27-antenna-light.jpg) [![Súčiastky antény rozložené na rezacej podložke, v hrnčeku na kávu kukuričný klas](/media/wallpapers/27-antenna-dark-thumb.webp) Tmavá](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Používanie {#use}
+
+Omaľovánky si vytlač, koľkokrát chceš, a rozdávaj ich.
 
 Používaj tapety ako pozadie vlastných obrazoviek a zdieľaj ich v nezmenenej
 podobe: slovné logo v rohu uvádza zdroj. Nepoužívaj ich v reklamách, na produktoch

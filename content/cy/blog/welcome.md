@@ -5,11 +5,11 @@ description: meshcore-info.eu sy'n casglu'r gosodiadau, y canllawiau a'r offer y
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 Mae meshcore-info.eu yn esbonio MeshCore ar gyfer Ewrop: y gosodiadau, y canllawiau
@@ -55,16 +55,17 @@ lansio. Defnyddia nhw mewn newyddion a phostiadau, a noda meshcore-info.eu fel y
 
 ## Yr addewidion {#promises}
 
-- **Dim hysbysebion, dolenni i siopau na dolenni marchnata cyswllt.** Mae'r dudalen [Dyfeisiau](/devices/)
-  yn rhestru manylebau'r gwneuthurwyr a band pris. Dydy hi byth yn rhoi dolen i
+- **Dim hysbysebion, dolenni i siopau na dolenni affiliate.** Mae'r dudalen [Dyfeisiau](/devices/)
+  yn rhestru manylebau'r gwneuthurwyr ac ystod brisiau. Dydy hi byth yn rhoi dolen i
   siop.
-- **Dim olrhain.** Dydy'r wefan ddim yn defnyddio dadansoddeg nac olrheinwyr. Mae'r unig gwci yn cofio
-  pa thema rwyt ti wedi'i dewis. Yr unig weinydd arall mae'r wefan yn ei holi yw meshcore-analyzer.eu,
-  ac mae'r un gwirfoddolwyr yn ei redeg. Mae'r manylion ar y [dudalen breifatrwydd](/privacy/).
-- **Ffynonellau i'r ffeithiau.** Mae'r hyn rydyn ni'n ei ysgrifennu am MeshCore yn dod o'i gadarnwedd
-  a'i ddogfennaeth. Mae rheolau radio yn dod gan y rheoleiddwyr.
+- **Dim olrhain.** Dydy'r wefan ddim yn rhedeg offer dadansoddi nac olrheinwyr. Mae'r unig gwci yn cofio pa
+  thema a ddewisaist. Yr unig weinydd arall y mae'r wefan yn cysylltu ag ef yw meshcore-analyzer.eu,
+  a'r un gwirfoddolwyr sy'n ei redeg. Mae'r manylion ar y [dudalen breifatrwydd](/privacy/).
+- **Ffynonellau'r ffeithiau.** Mae ffeithiau am MeshCore yn dod o'i gadarnwedd, o'i
+  ddogfennaeth neu gan y bobl sy'n cynnal y wefan hon. Mae rheolau radio yn dod gan
+  y rheoleiddwyr.
 - **Dy iaith di.** Mae'r wefan ar gael mewn 33 iaith. Mae tudalennau'n dechrau fel
-  cyfieithiadau peirianyddol, wedi'u nodi felly nes i siaradwr brodorol eu
+  cyfieithiadau peiriant, wedi'u nodi felly nes bod siaradwr brodorol wedi'u
   gwirio.
 
 Mae popeth yn ffynhonnell agored. Ydy dy grŵp lleol ar goll, neu ffaith yn anghywir?

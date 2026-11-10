@@ -8,12 +8,36 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-11-02'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Spalvinimo lapai {#colouring}
+
+Atsispausdink lapą ir nuspalvink jį namuose, klasėje arba prie savo grupės stendo.
+Kiekvienas lapas yra A4 formato PDF su juodomis linijomis baltame fone.
+
+Skaičių lapo langeliuose kiekvienam skaičiui parink spalvą. Tada kiekvieną figūrą nuspalvink jos skaičiaus spalva. Šiltos spalvos rodo, kur antenos radijo spindulys stiprus, o šaltos, kur silpnas. Mažytėms figūroms be skaičiaus spalvas renkiesi tu.
+
+Jei nori atsispausdinti visus iš karto, atsisiųsk
+[visus spalvinimo lapus 1 PDF faile](/media/colouring/colouring-pages.pdf) (A4, 9
+puslapiai).
+
+- [![Laiminga raina katė ant stogo kraigo siekia iš antenos sklindančios radijo bangos, vertikaliame lape](/media/colouring/cat-upright-thumb.webp) Katė ant stogo (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Dryžuota katė ant stogo kraigo letena gaudo bangas, sklindančias iš antenos ant stiebo](/media/colouring/cat-ridge-thumb.webp) Katė ir antena (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Spausdintinė plokštė iš arti su USB-C lizdu, lustu, mygtukais ir variniais takeliais, panašiais į kelius](/media/colouring/circuit-board-thumb.webp) Spausdintinė plokštė (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Spausdintinė plokštė iš viršaus su lustu, ekranu, USB-C lizdu ir 2 mygtukais](/media/colouring/circuit-board-above-thumb.webp) Spausdintinė plokštė iš viršaus (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Vaikas su telefonu ir mazgu namelyje medyje, antras vaikas moja iš kito namelio medyje](/media/colouring/treehouses-thumb.webp) Nameliai medžiuose (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Lankai per slėnį su karvėmis nuo namo iki bažnyčios bokšto, kalvos ir ūkio](/media/colouring/valley-thumb.webp) Per slėnį (PDF, A4)](/media/colouring/valley.pdf)
+- [![Retransliatoriaus dėžutė ant stiebo virš stogo su saulės baterija, paukščiu ir radijo bangomis](/media/colouring/solar-repeater-thumb.webp) Retransliatorius su saulės baterija (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Visas lapas piešinėlių su stiebais, retransliatorių dėžutėmis, telefonais, vokais, bangomis ir lapeliais](/media/colouring/mesh-doodle-thumb.webp) Mesh tinklo piešinėliai (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Visas lapas piešinėlių su antenomis, plokštėmis, lustais, telefonais ir vokais, kiekvienoje figūroje įrašytas skaičius](/media/colouring/doodle-in-numbers-thumb.webp) Piešinėliai su skaičiais (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Scenos {#scenes}
+
 
 Išsirink šviesią arba tamsią scenos versiją. Atsisiųsk ją ir nustatyk kaip
 darbalaukio foną.
@@ -21,8 +45,6 @@ darbalaukio foną.
 Kiekvienas fonas yra 5120 x 2880 pikselių (16:9) JPEG failas, nuo 1 iki 3 MB dydžio. Bet kuris tokių
 proporcijų ekranas vaizdą sumažina. Telefone nustatydamas foną pasirink norimą dalį.
 Apatiniame dešiniajame kampe yra žodinis ženklas meshcore-info.eu.
-
-## Scenos {#scenes}
 
 - [Įrenginiai](/devices/) [![Kiekvienam vaidmeniui skirti įrenginiai, išdėlioti ant pjaustymo kilimėlio ant stalo](/media/wallpapers/01-devices-light-thumb.webp) Šviesus](/media/wallpapers/01-devices-light.jpg) [![Kiekvienam vaidmeniui skirti įrenginiai, išdėlioti ant pjaustymo kilimėlio ant stalo](/media/wallpapers/01-devices-dark-thumb.webp) Tamsus](/media/wallpapers/01-devices-dark.jpg)
 - [Pradžia](/get-started/) [![Pirmasis mazgas ir telefonas ant stalo, šalia šakotuvo](/media/wallpapers/02-get-started-light-thumb.webp) Šviesus](/media/wallpapers/02-get-started-light.jpg) [![Pirmasis mazgas ir telefonas ant stalo, šalia šakotuvo](/media/wallpapers/02-get-started-dark-thumb.webp) Tamsus](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +75,8 @@ Apatiniame dešiniajame kampe yra žodinis ženklas meshcore-info.eu.
 - [Antenų vadovas](/guides/antenna/) [![Antenos detalės, išdėliotos ant pjaustymo kilimėlio, kavos puodelyje kukurūzo burbuolė](/media/wallpapers/27-antenna-light-thumb.webp) Šviesus](/media/wallpapers/27-antenna-light.jpg) [![Antenos detalės, išdėliotos ant pjaustymo kilimėlio, kavos puodelyje kukurūzo burbuolė](/media/wallpapers/27-antenna-dark-thumb.webp) Tamsus](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Kaip juos naudoti {#use}
+
+Spalvinimo lapus spausdink tiek kartų, kiek nori, ir dalyk kitiems.
 
 Naudok fonus savo ekranuose ir dalykis jais nepakeistais: žodinis ženklas kampe
 nurodo šaltinį. Nenaudok jų reklamose, ant gaminių ar atributikos.

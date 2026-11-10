@@ -5,11 +5,11 @@ description: Lägg till din grupp, en enhet eller ett projekt, granska en övers
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'f3ed6e9b'
-  seeded: '2026-10-31'
+  source_hash: '1a28f66a'
+  seeded: '2026-11-10'
   fields: {title: '97b0c61b', lead: 'e9b40d4d', description: '3bd97cd2'}
-  sections: ['6e9d4b61', 'aca796d7', 'd4848d5b', '247b2601', '8a60e0d4', '645c82d3', 'c755b654']
-  blocks: ['2f9dd6e8', '44167907', 'b020e1a4', 'f2c726cd', '2e9d1fdd', 'b2a902ba', 'b15ce10b', '2be86888', '3db6cb63', '2e3c2fc0', '693a5d9d', '73e33897', '96d8689d', 'c67fd14a', 'f92f7e49', '12ddca6c', 'e947e2a9', '526df4bb', 'e0d3559e']
+  sections: ['6e9d4b61', 'aca796d7', 'd4848d5b', '247b2601', '4b12bb2c', '645c82d3', 'c755b654']
+  blocks: ['2f9dd6e8', '44167907', 'b020e1a4', 'f2c726cd', '2e9d1fdd', 'b2a902ba', 'b15ce10b', '2be86888', '3db6cb63', '2e3c2fc0', '693a5d9d', '8aa01985', '96d8689d', 'c67fd14a', 'f92f7e49', '12ddca6c', 'e947e2a9', '526df4bb', 'e0d3559e']
 ---
 
 Allt på den här webbplatsen finns i ett öppet
@@ -58,11 +58,11 @@ Har du hittat ett felaktigt ord men saknar tid att rätta det? Rapportera det me
 
 ## Förbättra en guide {#guides}
 
-Guiderna skrivs först på engelska och översätts sedan därifrån. Rättelser
+Guiderna skrivs först på engelska och översätts sedan från engelskan. Rättelser
 och nya ämnen är välkomna via
 [innehållsformuläret](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=new-content.yml)
-eller en pull request. Fakta behöver en källa: MeshCore-firmwaren och dess
-dokumentation, en radiomyndighet eller en tillverkare. Skriv med egna ord. Ett
+eller en pull request. Fakta ska ha en källa: MeshCores firmware eller dokumentation, en
+tillsynsmyndighet, en tillverkare eller en underhållare. Skriv med egna ord. Ett
 kort citat med källa går bra.
 
 I [bidragsguiden](https://github.com/meshcore-europe/meshcore-info.eu/blob/main/CONTRIBUTING.md)

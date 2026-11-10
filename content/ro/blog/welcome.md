@@ -5,11 +5,11 @@ description: meshcore-info.eu adună setările, ghidurile și instrumentele pe c
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 meshcore-info.eu explică MeshCore pentru Europa: setările, ghidurile și
@@ -60,13 +60,15 @@ de lansare. Folosește-le în știri și postări și menționează meshcore-inf
 - **Fără reclame, linkuri către magazine sau linkuri de afiliere.** Pagina [Dispozitive](/devices/)
   prezintă specificațiile producătorilor și un interval de preț. Nu trimite niciodată către un
   magazin.
-- **Fără urmărire.** Site-ul nu folosește instrumente de analiză sau de urmărire. Singurul cookie reține
-  tema aleasă de tine. Singurul alt server pe care îl contactează site-ul este meshcore-analyzer.eu,
-  administrat de aceiași voluntari. Pe [pagina de confidențialitate](/privacy/) găsești detaliile.
-- **Surse pentru informații.** Ce scriem despre MeshCore provine din firmware-ul și
-  documentația lui. Regulile pentru radio vin de la autoritățile de reglementare.
-- **Limba ta.** Site-ul este disponibil în 33 de limbi. Paginile pornesc ca
-  traduceri automate, marcate ca atare până când le verifică un vorbitor nativ.
+- **Fără urmărire.** Site-ul nu folosește instrumente de analiză sau de urmărire. Singurul cookie ține minte
+  tema pe care ai ales-o. Singurul alt server pe care îl interoghează site-ul este meshcore-analyzer.eu,
+  administrat de aceiași voluntari. Detaliile le găsești pe [pagina de confidențialitate](/privacy/).
+- **Informații cu surse.** Informațiile despre MeshCore provin din firmware, din
+  documentație sau de la oamenii care întrețin acest site. Regulile radio vin de la
+  autoritățile de reglementare.
+- **Limba ta.** Site-ul este disponibil în 33 de limbi. La început, paginile sunt
+  traduceri automate și rămân marcate ca atare până când le verifică un vorbitor
+  nativ.
 
 Totul este open source. Lipsește grupul tău local sau e greșit un fapt?
 [Iată cum poți ajuta](/contribute/).

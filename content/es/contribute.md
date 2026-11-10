@@ -5,11 +5,11 @@ description: Añade tu comunidad, un dispositivo o un proyecto, revisa una tradu
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'f3ed6e9b'
-  seeded: '2026-10-31'
+  source_hash: '1a28f66a'
+  seeded: '2026-11-10'
   fields: {title: '97b0c61b', lead: 'e9b40d4d', description: '3bd97cd2'}
-  sections: ['6e9d4b61', 'aca796d7', 'd4848d5b', '247b2601', '8a60e0d4', '645c82d3', 'c755b654']
-  blocks: ['2f9dd6e8', '44167907', 'b020e1a4', 'f2c726cd', '2e9d1fdd', 'b2a902ba', 'b15ce10b', '2be86888', '3db6cb63', '2e3c2fc0', '693a5d9d', '73e33897', '96d8689d', 'c67fd14a', 'f92f7e49', '12ddca6c', 'e947e2a9', '526df4bb', 'e0d3559e']
+  sections: ['6e9d4b61', 'aca796d7', 'd4848d5b', '247b2601', '4b12bb2c', '645c82d3', 'c755b654']
+  blocks: ['2f9dd6e8', '44167907', 'b020e1a4', 'f2c726cd', '2e9d1fdd', 'b2a902ba', 'b15ce10b', '2be86888', '3db6cb63', '2e3c2fc0', '693a5d9d', '8aa01985', '96d8689d', 'c67fd14a', 'f92f7e49', '12ddca6c', 'e947e2a9', '526df4bb', 'e0d3559e']
 ---
 
 Todo el contenido de este sitio está en un
@@ -58,12 +58,12 @@ puedes mejorarla:
 
 ## Mejora una guía {#guides}
 
-Las guías se escriben primero en inglés y después se traducen. Puedes enviar correcciones
-y temas nuevos con el
+Las guías se escriben primero en inglés y después se traducen. Aceptamos correcciones
+y temas nuevos a través del
 [formulario de contenido](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=new-content.yml)
-o con una pull request. Cada dato necesita una fuente: el firmware de MeshCore y su
-documentación, un regulador de radio o un fabricante. Escribe con tus propias palabras. Una
-cita breve con su fuente está bien.
+o de una pull request. Los datos necesitan una fuente: el firmware o la documentación de MeshCore, un
+organismo regulador, un fabricante o un mantenedor. Escribe con tus propias palabras. Puedes incluir
+una cita breve con su fuente.
 
 La [guía para colaboradores](https://github.com/meshcore-europe/meshcore-info.eu/blob/main/CONTRIBUTING.md)
 explica cómo trabajar en el sitio desde tu propio ordenador.

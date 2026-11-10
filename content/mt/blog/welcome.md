@@ -5,11 +5,11 @@ description: meshcore-info.eu jiġbor is-settings, il-gwidi u l-għodod li jaqsm
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 meshcore-info.eu jispjega MeshCore għall-Ewropa: l-issettjar, il-gwidi u
@@ -55,17 +55,18 @@ Użahom fl-aħbarijiet u fil-posts, u semmi meshcore-info.eu bħala s-sors.
 
 ## Il-wegħdi {#promises}
 
-- **Ebda reklami, links għal ħwienet jew links affiljati.** Il-paġna [Apparati](/devices/)
-  telenka l-ispeċifikazzjonijiet tal-manifatturi u firxa ta' prezzijiet. Qatt ma tagħti
-  link għal ħanut.
-- **Ebda traċċar.** Is-sit ma juża l-ebda analytics jew trackers. L-uniku cookie jiftakar it-tema
-  li tagħżel. L-uniku server ieħor li s-sit jikkuntattja hu meshcore-analyzer.eu,
-  u l-istess voluntiera jmexxuh. Il-[paġna tal-privatezza](/privacy/) fiha d-dettalji.
-- **Sorsi għall-fatti.** Dak li niktbu dwar MeshCore ġej mill-firmware
-  u d-dokumentazzjoni tiegħu. Ir-regoli tar-radju ġejjin mir-regolaturi.
-- **Il-lingwa tiegħek.** Is-sit hu disponibbli f'33 lingwa. Il-paġni jibdew bħala
-  traduzzjonijiet awtomatiċi, u jibqgħu mmarkati hekk sakemm kelliem nattiv
-  jiċċekkjahom.
+- **L-ebda reklami, links għal ħwienet jew links affiljati.** Il-paġna [Tagħmir](/devices/)
+  telenka l-ispeċifikazzjonijiet tal-manifatturi u firxa ta' prezzijiet. Qatt ma fiha link għal
+  ħanut.
+- **L-ebda traċċar.** Is-sit ma juża la analitika u lanqas trackers. L-uniku cookie jiftakar
+  it-tema li għażilt. L-uniku server ieħor li s-sit jikkuntattja huwa meshcore-analyzer.eu,
+  li jmexxuh l-istess voluntiera. Id-dettalji ssibhom fil-[paġna tal-privatezza](/privacy/).
+- **Sorsi għall-fatti.** Il-fatti dwar MeshCore ġejjin mill-firmware tiegħu, mid-dokumentazzjoni
+  tiegħu jew min-nies li jieħdu ħsieb dan is-sit. Ir-regoli tar-radju ġejjin
+  mir-regolaturi.
+- **Il-lingwa tiegħek.** Is-sit huwa disponibbli bi 33 lingwa. Il-paġni jibdew bħala
+  traduzzjonijiet awtomatiċi, u jibqgħu mmarkati hekk sakemm jiċċekkjahom
+  kelliem nattiv.
 
 Kollox huwa open source. Il-grupp lokali tiegħek nieqes, jew xi fatt ħażin?
 [Hawn kif tista' tgħin](/contribute/).

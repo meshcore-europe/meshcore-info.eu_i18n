@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-11-02'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Pobarvanke {#colouring}
+
+Natisni stran in jo pobarvaj doma, v razredu ali na stojnici svoje skupine.
+Vsaka stran je PDF v formatu A4 s črnimi črtami na beli podlagi.
+
+Na strani s številkami izberi v okvirčkih barvo za vsako številko. Nato pobarvaj
+vsak lik z barvo njegove številke. Tople barve kažejo, kje je radijski snop
+antene močan, hladne pa, kje je šibek. Drobne like brez številke pobarvaj
+po svoje.
+
+Če jih želiš natisniti vse naenkrat, prenesi
+[vse pobarvanke v 1 datoteki PDF](/media/colouring/colouring-pages.pdf) (A4, 9
+strani).
+
+- [![Vesela tigrasta mačka na slemenu strehe sega po radijskem valu iz antene, na pokončni strani](/media/colouring/cat-upright-thumb.webp) Mačka na strehi (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Progasta mačka na slemenu strehe s taco zamahuje po valovih iz antene na drogu](/media/colouring/cat-ridge-thumb.webp) Mačka in antena (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Tiskano vezje od blizu, z vtičnico USB-C, čipom, gumbi in bakrenimi povezavami, podobnimi cestam](/media/colouring/circuit-board-thumb.webp) Tiskano vezje (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Tiskano vezje od zgoraj, s čipom, zaslonom, vtičnico USB-C in 2 gumboma](/media/colouring/circuit-board-above-thumb.webp) Tiskano vezje od zgoraj (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Otrok s telefonom in vozliščem v hišici na drevesu, drugi otrok maha iz druge hišice na drevesu](/media/colouring/treehouses-thumb.webp) Hišice na drevesu (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Loki od hiše do cerkvenega zvonika, hriba in kmetije čez dolino s kravami](/media/colouring/valley-thumb.webp) Čez dolino (PDF, A4)](/media/colouring/valley.pdf)
+- [![Ohišje repetitorja na drogu nad streho, s sončnim panelom, ptico in radijskimi valovi](/media/colouring/solar-repeater-thumb.webp) Repetitor na sončno energijo (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Cela stran čačk z drogovi, ohišji repetitorjev, telefoni, pisemskimi ovojnicami, valovi in listi](/media/colouring/mesh-doodle-thumb.webp) Čačke z mrežo (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Cela stran čačk z antenami, vezji, čipi, telefoni in pisemskimi ovojnicami, v vsakem liku je številka](/media/colouring/doodle-in-numbers-thumb.webp) Čačke s številkami (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Prizori {#scenes}
+
 
 Izberi prizor v svetli ali temni različici. Prenesi ga in ga nastavi za
 ozadje namizja.
@@ -21,8 +48,6 @@ ozadje namizja.
 Vsako ozadje meri 5120 krat 2880 pikslov (16:9) in je datoteka JPEG velikosti od 1 do 3 MB. Na vsakem
 zaslonu s tem razmerjem stranic se slika pomanjša. Na telefonu ob nastavljanju izberi del slike, ki ga želiš.
 Napis meshcore-info.eu je v spodnjem desnem kotu.
-
-## Prizori {#scenes}
 
 - [Naprave](/devices/) [![Naprave za vsako vlogo, razporejene na podlogi za rezanje na mizi](/media/wallpapers/01-devices-light-thumb.webp) Svetla](/media/wallpapers/01-devices-light.jpg) [![Naprave za vsako vlogo, razporejene na podlogi za rezanje na mizi](/media/wallpapers/01-devices-dark-thumb.webp) Temna](/media/wallpapers/01-devices-dark.jpg)
 - [Začni](/get-started/) [![Prvo vozlišče in telefon na mizi, ob razdelilniku](/media/wallpapers/02-get-started-light-thumb.webp) Svetla](/media/wallpapers/02-get-started-light.jpg) [![Prvo vozlišče in telefon na mizi, ob razdelilniku](/media/wallpapers/02-get-started-dark-thumb.webp) Temna](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ Napis meshcore-info.eu je v spodnjem desnem kotu.
 - [Vodnik za antene](/guides/antenna/) [![Deli anten, razporejeni na podlogi za rezanje, v skodelici za kavo koruzni storž](/media/wallpapers/27-antenna-light-thumb.webp) Svetla](/media/wallpapers/27-antenna-light.jpg) [![Deli anten, razporejeni na podlogi za rezanje, v skodelici za kavo koruzni storž](/media/wallpapers/27-antenna-dark-thumb.webp) Temna](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Uporaba {#use}
+
+Pobarvanke natisni, kolikorkrat želiš, in jih razdeli.
 
 Ozadja uporabljaj na svojih zaslonih in jih deli nespremenjena: napis v kotu navaja vir. Ne uporabljaj
 jih v oglasih, na izdelkih ali promocijskih artiklih. V

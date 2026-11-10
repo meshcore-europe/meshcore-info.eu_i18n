@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-10-31'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Omalovánky {#colouring}
+
+Vytiskni si stránku a vybarvi ji doma, ve třídě nebo na stánku své skupiny.
+Každá stránka je PDF ve formátu A4 s černými linkami na bílém podkladu.
+
+Na stránce s čísly si v rámečcích vyber barvu pro každé číslo. Potom vybarvi
+každý tvar barvou jeho čísla. Teplé barvy ukazují, kde je rádiový paprsek
+antény silný, studené, kde je slabý. Barvu drobných tvarů bez čísla
+si zvolíš podle sebe.
+
+Chceš-li je vytisknout všechny najednou, stáhni si
+[všechny omalovánky v 1 PDF](/media/colouring/colouring-pages.pdf) (A4, 9
+stran).
+
+- [![Spokojená mourovatá kočka na hřebeni střechy sahá po rádiové vlně z antény, stránka na výšku](/media/colouring/cat-upright-thumb.webp) Kočka na střeše (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Pruhovaná kočka na hřebeni střechy se ohání tlapkou po vlnách z antény na stožáru](/media/colouring/cat-ridge-thumb.webp) Kočka a anténa (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Deska plošných spojů zblízka, s konektorem USB-C, čipem, tlačítky a měděnými spoji, které vypadají jako silnice](/media/colouring/circuit-board-thumb.webp) Deska plošných spojů (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Deska plošných spojů shora, s čipem, displejem, konektorem USB-C a 2 tlačítky](/media/colouring/circuit-board-above-thumb.webp) Deska plošných spojů shora (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Dítě s telefonem a uzlem v domku na stromě, druhé dítě mává z jiného domku na stromě](/media/colouring/treehouses-thumb.webp) Domky na stromech (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Oblouky od domu ke kostelní věži, kopci a statku přes údolí s krávami](/media/colouring/valley-thumb.webp) Přes údolí (PDF, A4)](/media/colouring/valley.pdf)
+- [![Krabička repeateru na stožáru nad střechou, se solárním panelem, ptákem a rádiovými vlnami](/media/colouring/solar-repeater-thumb.webp) Solární repeater (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Celá stránka čmáranic se stožáry, krabičkami repeaterů, telefony, obálkami, vlnami a listy](/media/colouring/mesh-doodle-thumb.webp) Čmáranice s meshem (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Celá stránka čmáranic s anténami, deskami, čipy, telefony a obálkami, v každém tvaru je číslo](/media/colouring/doodle-in-numbers-thumb.webp) Čmáranice s čísly (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Scény {#scenes}
+
 
 Vyber si scénu ve světlé nebo tmavé verzi. Stáhni ji a nastav si ji
 jako pozadí plochy.
@@ -21,8 +48,6 @@ jako pozadí plochy.
 Každá tapeta má 5120 na 2880 pixelů (16:9) a je to JPEG o velikosti 1 až 3 MB. Každá
 obrazovka s tímto poměrem stran ji zmenší. Na telefonu si při nastavení vyber část, kterou chceš.
 Logo meshcore-info.eu je v pravém dolním rohu.
-
-## Scény {#scenes}
 
 - [Zařízení](/devices/) [![Zařízení pro každou roli rozložená na řezací podložce na stole](/media/wallpapers/01-devices-light-thumb.webp) Světlá](/media/wallpapers/01-devices-light.jpg) [![Zařízení pro každou roli rozložená na řezací podložce na stole](/media/wallpapers/01-devices-dark-thumb.webp) Tmavá](/media/wallpapers/01-devices-dark.jpg)
 - [Začínáme](/get-started/) [![První uzel a telefon na stole vedle prodlužovačky](/media/wallpapers/02-get-started-light-thumb.webp) Světlá](/media/wallpapers/02-get-started-light.jpg) [![První uzel a telefon na stole vedle prodlužovačky](/media/wallpapers/02-get-started-dark-thumb.webp) Tmavá](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ Logo meshcore-info.eu je v pravém dolním rohu.
 - [Návod na antény](/guides/antenna/) [![Díly antény rozložené na řezací podložce, v hrnku od kávy kukuřičný klas](/media/wallpapers/27-antenna-light-thumb.webp) Světlá](/media/wallpapers/27-antenna-light.jpg) [![Díly antény rozložené na řezací podložce, v hrnku od kávy kukuřičný klas](/media/wallpapers/27-antenna-dark-thumb.webp) Tmavá](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Použití {#use}
+
+Omalovánky si vytiskni, kolikrát chceš, a rozdávej je.
 
 Tapety si dej jako pozadí na vlastní obrazovky a sdílej je tak, jak
 jsou: logo v rohu uvádí zdroj. Nepoužívej je v reklamách, na zboží

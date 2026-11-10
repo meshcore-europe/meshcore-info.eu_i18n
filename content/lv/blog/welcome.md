@@ -5,11 +5,11 @@ description: meshcore-info.eu apkopo vietējo tīklu kopīgotos iestatījumus, c
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 meshcore-info.eu skaidro MeshCore Eiropas lietotājiem: šeit ir iestatījumi, ceļveži un
@@ -55,15 +55,18 @@ video. Izmanto tos ziņās un ierakstos un kā avotu norādi meshcore-info.eu.
 
 ## Mūsu solījumi {#promises}
 
-- **Bez reklāmām, veikalu un partneru saitēm.** Lapā [Ierīces](/devices/)
-  ir ražotāju specifikācijas un cenu diapazons. Saišu uz veikaliem tajā nekad nav.
-- **Bez izsekošanas.** Vietne neizmanto ne analītikas rīkus, ne izsekotājus. Vienīgā sīkdatne atceras tevis
-  izvēlēto motīvu. Vienīgais cits serveris, kam vietne sūta pieprasījumus, ir meshcore-analyzer.eu,
-  un to uztur tie paši brīvprātīgie. Sīkāka informācija ir [privātuma lapā](/privacy/).
-- **Fakti ar avotiem.** Ziņas par MeshCore mēs ņemam no tā programmaparatūras
-  un dokumentācijas. Radio noteikumus ņemam no regulatoriem.
-- **Tava valoda.** Vietne ir pieejama 33 valodās. Sākumā lapas ir mašīntulkojumi ar atbilstošu atzīmi,
-  līdz tās pārbauda dzimtās valodas runātājs.
+- **Bez reklāmām, veikalu saitēm un partnersaitēm.** Lapā [Ierīces](/devices/)
+  ir norādītas ražotāju specifikācijas un cenu diapazons. Saišu uz veikalu
+  tajā nekad nav.
+- **Bez izsekošanas.** Vietne neizmanto ne analītiku, ne izsekotājus. Vienīgā sīkdatne iegaumē tavu
+  izvēlēto noformējumu. Vēl vietne vēršas tikai pie viena servera: meshcore-analyzer.eu,
+  ko uztur tie paši brīvprātīgie. Sīkāka informācija ir [privātuma lapā](/privacy/).
+- **Faktu avoti.** Fakti par MeshCore nāk no tā programmaparatūras,
+  dokumentācijas vai cilvēkiem, kuri uztur šo vietni. Radiosakaru noteikumi nāk no
+  regulatoriem.
+- **Tava valoda.** Vietne ir pieejama 33 valodās. Sākumā lapas ir
+  mašīntulkojumi, un tās ir attiecīgi atzīmētas, līdz tās pārbauda cilvēks, kuram šī valoda
+  ir dzimtā.
 
 Viss ir atvērtais pirmkods. Trūkst tavas vietējās grupas vai kāds fakts ir aplams?
 [Lūk, kā vari palīdzēt](/contribute/).

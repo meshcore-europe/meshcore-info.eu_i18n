@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-11-02'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Värvimislehed {#colouring}
+
+Prindi leht välja ja värvi see ära kodus, klassis või oma grupi stendi juures.
+Iga leht on A4-formaadis PDF, millel on mustad jooned valgel taustal.
+
+Vali numbrilehel kastides igale numbrile värv. Seejärel värvi
+iga kujund sellel oleva numbri värviga. Soojad värvid näitavad, kus antenni raadiokiir
+on tugev, külmad, kus see on nõrk. Pisikeste numbrita kujundite
+värvi valid ise.
+
+Kui tahad kõik korraga välja printida, laadi alla
+[kõik värvimislehed 1 PDF-ina](/media/colouring/colouring-pages.pdf) (A4, 9
+lehekülge).
+
+- [![Rõõmus triibuline kass katuseharjal sirutab käppa antennist tuleva raadiolaine poole, püstisel lehel](/media/colouring/cat-upright-thumb.webp) Kass katusel (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Triibuline kass katuseharjal lööb käpaga masti otsas oleva antenni lainete poole](/media/colouring/cat-ridge-thumb.webp) Kass ja antenn (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Trükkplaat lähivaates: USB-C-pesa, kiip, nupud ja teede moodi vaskrajad](/media/colouring/circuit-board-thumb.webp) Trükkplaat (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Trükkplaat pealtvaates: kiip, ekraan, USB-C-pesa ja 2 nuppu](/media/colouring/circuit-board-above-thumb.webp) Trükkplaat ülalt (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Laps telefoni ja sõlmega puuonnis, teine laps lehvitab teisest puuonnist](/media/colouring/treehouses-thumb.webp) Puuonnid (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Kaared majast kirikutorni, künka ja taluni üle lehmadega oru](/media/colouring/valley-thumb.webp) Üle oru (PDF, A4)](/media/colouring/valley.pdf)
+- [![Repiiterikarp masti otsas katuse kohal, päikesepaneeli, linnu ja raadiolainetega](/media/colouring/solar-repeater-thumb.webp) Päikesetoitel repiiter (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Terve lehekülg sirgeldusi: mastid, repiiterikarbid, telefonid, ümbrikud, lained ja lehed](/media/colouring/mesh-doodle-thumb.webp) Võrgusirgeldus (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Terve lehekülg sirgeldusi: antennid, plaadid, kiibid, telefonid ja ümbrikud, igas kujundis number](/media/colouring/doodle-in-numbers-thumb.webp) Sirgeldus numbritega (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Stseenid {#scenes}
+
 
 Vali stseen ja selle hele või tume versioon. Laadi pilt alla ja pane see
 oma töölaua taustaks.
@@ -21,8 +48,6 @@ oma töölaua taustaks.
 Iga taustapilt on 5120 korda 2880 pikslit (16:9), JPEG-fail mahuga 1 kuni 3 MB. Iga sellise
 kuvasuhtega ekraan vähendab pildi sobivaks. Telefonis vali pildi taustaks seadmisel soovitud osa.
 Paremas alanurgas on meshcore-info.eu sõnamärk.
-
-## Stseenid {#scenes}
 
 - [Seadmed](/devices/) [![Iga rolli seadmed lõikematile laotatuna kirjutuslaual](/media/wallpapers/01-devices-light-thumb.webp) Hele](/media/wallpapers/01-devices-light.jpg) [![Iga rolli seadmed lõikematile laotatuna kirjutuslaual](/media/wallpapers/01-devices-dark-thumb.webp) Tume](/media/wallpapers/01-devices-dark.jpg)
 - [Alusta](/get-started/) [![Esimene sõlm ja telefon kirjutuslaual, nende kõrval pikendusjuhe](/media/wallpapers/02-get-started-light-thumb.webp) Hele](/media/wallpapers/02-get-started-light.jpg) [![Esimene sõlm ja telefon kirjutuslaual, nende kõrval pikendusjuhe](/media/wallpapers/02-get-started-dark-thumb.webp) Tume](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ Paremas alanurgas on meshcore-info.eu sõnamärk.
 - [Antennijuhend](/guides/antenna/) [![Antenni osad lõikematile laotatuna, kohvikruusis maisitõlvik](/media/wallpapers/27-antenna-light-thumb.webp) Hele](/media/wallpapers/27-antenna-light.jpg) [![Antenni osad lõikematile laotatuna, kohvikruusis maisitõlvik](/media/wallpapers/27-antenna-dark-thumb.webp) Tume](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Kasutamine {#use}
+
+Prindi värvimislehti välja nii sageli, kui tahad, ja jaga neid laiali.
 
 Kasuta pilte oma ekraanide taustana ja jaga neid muutmata kujul: nurgas olev
 sõnamärk näitab allikat. Ära kasuta neid reklaamides, toodetel ega

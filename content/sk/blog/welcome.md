@@ -5,11 +5,11 @@ description: meshcore-info.eu zbiera nastavenia, návody a nástroje, ktoré mie
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'fd3673ae'
-  seeded: '2026-11-02'
+  source_hash: '8c8de9ce'
+  seeded: '2026-11-10'
   fields: {title: 'c8779ff6', description: '72955f63'}
-  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'd0315fbf']
-  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '23385bb5', '7f458074']
+  sections: ['ed53d595', 'f940afa6', '7a4d32fc', 'fbec9ba0']
+  blocks: ['ed53d595', '7ef4eaef', 'ec69a644', '161ead44', 'decbbabc', '512c05e2', '29e35ca9', '0b655b7c', '24a0c3b1', 'e5196d91', '3b1e6e1e', '18f1363f', '6018db2a', '7f458074']
 ---
 
 meshcore-info.eu vysvetľuje MeshCore pre Európu: nájdeš tu nastavenia, návody
@@ -56,14 +56,17 @@ Používaj ich v správach a príspevkoch a ako zdroj uveď meshcore-info.eu.
 ## Naše sľuby {#promises}
 
 - **Žiadne reklamy, odkazy na obchody ani affiliate odkazy.** Stránka [Zariadenia](/devices/)
-  uvádza špecifikácie výrobcov a cenové rozpätie. Nikdy neodkazuje na obchod.
+  uvádza špecifikácie od výrobcov a cenové rozpätie. Nikdy neodkazuje na
+  obchod.
 - **Žiadne sledovanie.** Web nepoužíva analytiku ani sledovacie nástroje. Jediný súbor cookie si pamätá
-  tvoju voľbu témy. Jediný ďalší server, na ktorý sa web pripája, je meshcore-analyzer.eu.
-  Prevádzkujú ho tí istí dobrovoľníci. Podrobnosti nájdeš na stránke [Súkromie](/privacy/).
-- **Zdroje faktov.** To, čo píšeme o MeshCore, pochádza z jeho firmvéru
-  a dokumentácie. Pravidlá rádiovej prevádzky pochádzajú od regulačných úradov.
-- **Tvoj jazyk.** Web je dostupný v 33 jazykoch. Stránky vznikajú najprv ako
-  strojové preklady a toto označenie majú, kým ich neskontroluje rodený hovoriaci.
+  tvoju voľbu vzhľadu. Jediný ďalší server, na ktorý sa web obracia, je meshcore-analyzer.eu,
+  ktorý prevádzkujú tí istí dobrovoľníci. Podrobnosti nájdeš na [stránke o súkromí](/privacy/).
+- **Zdroje faktov.** Fakty o MeshCore pochádzajú z jeho firmvéru, z jeho
+  dokumentácie alebo od ľudí, ktorí tento web spravujú. Pravidlá pre rádiovú prevádzku pochádzajú
+  od regulačných úradov.
+- **Tvoj jazyk.** Web je dostupný v 33 jazykoch. Stránky vznikajú ako
+  strojové preklady a sú takto označené, kým ich neskontroluje rodený
+  hovoriaci.
 
 Všetko je open source. Chýba tvoja miestna skupina alebo je niektorý údaj nesprávny?
 [Takto môžeš pomôcť](/contribute/).

@@ -8,12 +8,39 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'ae193865'
-  seeded: '2026-11-02'
+  source_hash: '73baef4f'
+  seeded: '2026-11-10'
   fields: {title: '006547c4', lead: '855e08ca', description: '8642ecbb'}
-  sections: ['d56b62f1', '20b3b542', '8c4d8a64']
-  blocks: ['837abc36', '193f79ad', '84832d0a', 'a4753047', 'c8b146c5', '5b49fc0f']
+  sections: ['e3b0c442', 'ad7781a5', '95b2fd9a', 'e857aa82']
+  blocks: ['e3b0c442', '835079a4', '700f8bc0', 'd2dbe595', 'e692015a', 'bc9d6f1f', '84832d0a', '837abc36', '193f79ad', 'a4753047', 'c8b146c5', '083a95e4', '5b49fc0f']
 ---
+
+## Bojanke {#colouring}
+
+Odštampaj stranicu i oboji je, kod kuće, u razredu ili na štandu svoje grupe.
+Svaka stranica je PDF formata A4 sa crnim linijama na beloj podlozi.
+
+Na stranici sa brojevima izaberi boju za svaki broj u kvadratićima. Zatim oboji
+svaki oblik bojom njegovog broja. Tople boje pokazuju gde je radio-snop
+antene jak, a hladne gde je slab. Za sitne oblike bez
+broja boju biraš ti.
+
+Da ih odštampaš sve odjednom, preuzmi
+[sve bojanke u 1 PDF-u](/media/colouring/colouring-pages.pdf) (A4, 9
+stranica).
+
+- [![Vesela tigrasta mačka na slemenu krova pruža šapu ka radio-talasu iz antene, na uspravnoj stranici](/media/colouring/cat-upright-thumb.webp) Mačka na krovu (PDF, A4)](/media/colouring/cat-upright.pdf)
+- [![Prugasta mačka na slemenu krova zamahuje šapom ka talasima iz antene na stubu](/media/colouring/cat-ridge-thumb.webp) Mačka i antena (PDF, A4)](/media/colouring/cat-ridge.pdf)
+- [![Štampana ploča izbliza, sa USB-C priključkom, čipom, tasterima i bakarnim vodovima nalik putevima](/media/colouring/circuit-board-thumb.webp) Štampana ploča (PDF, A4)](/media/colouring/circuit-board.pdf)
+- [![Štampana ploča odozgo, sa čipom, ekranom, USB-C priključkom i 2 tastera](/media/colouring/circuit-board-above-thumb.webp) Štampana ploča odozgo (PDF, A4)](/media/colouring/circuit-board-above.pdf)
+- [![Dete sa telefonom i čvorom u kućici na drvetu, drugo dete maše iz druge kućice na drvetu](/media/colouring/treehouses-thumb.webp) Kućice na drvetu (PDF, A4)](/media/colouring/treehouses.pdf)
+- [![Lukovi od kuće do crkvenog tornja, brda i farme preko doline sa kravama](/media/colouring/valley-thumb.webp) Preko doline (PDF, A4)](/media/colouring/valley.pdf)
+- [![Kutija repetitora na stubu iznad krova, sa solarnim panelom, pticom i radio-talasima](/media/colouring/solar-repeater-thumb.webp) Solarni repetitor (PDF, A4)](/media/colouring/solar-repeater.pdf)
+- [![Cela stranica žvrljotina sa stubovima, kutijama repetitora, telefonima, kovertama, talasima i lišćem](/media/colouring/mesh-doodle-thumb.webp) Mesh žvrljotine (PDF, A4)](/media/colouring/mesh-doodle.pdf)
+- [![Cela stranica žvrljotina sa antenama, pločama, čipovima, telefonima i kovertama, sa brojem u svakom obliku](/media/colouring/doodle-in-numbers-thumb.webp) Žvrljotine sa brojevima (PDF, A4)](/media/colouring/doodle-in-numbers.pdf)
+
+## Scene {#scenes}
+
 
 Izaberi scenu u svetloj ili tamnoj verziji. Preuzmi je i postavi kao
 pozadinu radne površine.
@@ -21,8 +48,6 @@ pozadinu radne površine.
 Svaka pozadina je JPEG datoteka od 1 do 3 MB, dimenzija 5120 sa 2880 piksela (16:9). Svaki
 ekran tog oblika smanjuje sliku. Na telefonu izaberi deo koji želiš kada je postavljaš.
 Natpis meshcore-info.eu stoji u donjem desnom uglu.
-
-## Scene {#scenes}
 
 - [Uređaji](/devices/) [![Uređaji za svaku ulogu poređani na podlozi za sečenje na radnom stolu](/media/wallpapers/01-devices-light-thumb.webp) Svetla](/media/wallpapers/01-devices-light.jpg) [![Uređaji za svaku ulogu poređani na podlozi za sečenje na radnom stolu](/media/wallpapers/01-devices-dark-thumb.webp) Tamna](/media/wallpapers/01-devices-dark.jpg)
 - [Prvi koraci](/get-started/) [![Prvi čvor i telefon na radnom stolu, pored produžnog kabla](/media/wallpapers/02-get-started-light-thumb.webp) Svetla](/media/wallpapers/02-get-started-light.jpg) [![Prvi čvor i telefon na radnom stolu, pored produžnog kabla](/media/wallpapers/02-get-started-dark-thumb.webp) Tamna](/media/wallpapers/02-get-started-dark.jpg)
@@ -53,6 +78,8 @@ Natpis meshcore-info.eu stoji u donjem desnom uglu.
 - [Vodič za antene](/guides/antenna/) [![Delovi antene poređani na podlozi za sečenje, a u šolji za kafu klip kukuruza](/media/wallpapers/27-antenna-light-thumb.webp) Svetla](/media/wallpapers/27-antenna-light.jpg) [![Delovi antene poređani na podlozi za sečenje, a u šolji za kafu klip kukuruza](/media/wallpapers/27-antenna-dark-thumb.webp) Tamna](/media/wallpapers/27-antenna-dark.jpg)
 
 ## Korišćenje {#use}
+
+Odštampaj bojanke koliko god puta želiš i podeli ih.
 
 Koristi pozadine na svojim ekranima i deli ih u izvornom obliku: natpis u uglu
 navodi izvor. Nemoj ih koristiti u reklamama, na proizvodima ni na promotivnoj robi.
