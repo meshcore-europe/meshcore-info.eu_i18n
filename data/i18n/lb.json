@@ -3,7 +3,7 @@
     "language": "lb",
     "name": "Lëtzebuergesch",
     "managed_by": "community",
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "site_tagline": {
     "value": "Messagen ouni Netz, uechter Europa",
@@ -6472,6 +6472,186 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "dbcd5e7b"
+  },
+  "booklet_title": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "f4f17278"
+  },
+  "booklet_subtitle": {
+    "value": "SMSen ouni Internet",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "567d0b96"
+  },
+  "booklet_keywords": {
+    "value": "Dezentral · Gratis · Open Source · Legal",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2c5258e"
+  },
+  "booklet_tagline": {
+    "value": "Schéck Messagen iwwer Funk, vun Daach zu Daach. Du brauchs keen Internet an keen Abonnement. Maach mat a sief virbereet.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c4ac4359"
+  },
+  "booklet_q_what": {
+    "value": "Wat ass MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "06eda66b"
+  },
+  "booklet_a_what": {
+    "value": "MeshCore ass Open-Source-Software, mat där kleng, spezialiséiert Radioen Messagen duerch e Mesh-Netz weiderginn. Et funktionéiert ouni Internet an ouni kommerziellen Ubidder.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "78415b19"
+  },
+  "booklet_q_cost": {
+    "value": "Wat kascht dat?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e8dc9deb"
+  },
+  "booklet_a_cost": {
+    "value": "Fir unzefänken, brauchs du nëmmen e Companion (sou nennt MeshCore d'Roll vum Radio um Empfängerenn). Du kriss een ab 15 Euro, an e gudden kascht meeschtens ongeféier 40. Et gëtt keng lafend Käschte wéi en Abonnement, an du muss dech net registréieren.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2904f1a"
+  },
+  "booklet_q_join": {
+    "value": "Wéi maachen ech mat?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "4ebf5b3a"
+  },
+  "booklet_a_join": {
+    "value": "Eis Websäit weist Gruppen an denger Géigend. Dat si Fräiwëlleger, déi d'Mesh kennen an dir beim Ariichte hëllefen. Du kanns dech och selwer informéieren an ufänken. Et ass méi einfach, wéi s du mengs.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "413528fd"
+  },
+  "booklet_roof_title": {
+    "value": "E Repeater op dengem Daach?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0e152f7d"
+  },
+  "booklet_roof_lead": {
+    "value": "A ville Plaze ass d'Mesh scho gutt ausgebaut, dofir brauchs du dacks keen eegene Repeater. Wou d'Ofdeckung schlecht ass, kann e Repeater hëllefen. Mat fräier Siicht a gudder Héicht gëtt e Messagen iwwer grouss Distanze weider. Du kanns ee fäerdeg kafen oder selwer bauen. E Repeater ass e Radio, e Solarpanneau a Batterien mat Laderegler.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "52776beb"
+  },
+  "booklet_q_internet": {
+    "value": "Benotzt dat mäin Internet?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "dc17caa8"
+  },
+  "booklet_a_internet": {
+    "value": "Nee. D'Radioe benotze lizenzfräi Frequenzen. Si brauche keen WiFi. Repeater hu Solarpanneauen a Batterien, dofir lafe se bei engem Stroumausfall weider.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "3ed17f21"
+  },
+  "booklet_q_allowed": {
+    "value": "Ass dat erlaabt?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "02b9f7c4"
+  },
+  "booklet_a_allowed": {
+    "value": "Jo. En Deel vum 868-MHz-Band ass a ganz Europa fräi ze benotzen. E Repeater brauch och keng Lizenz. Du muss dech awer un d'Reegelen halen.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "20714be9"
+  },
+  "booklet_how_title": {
+    "value": "Wéi funktionéiert dat?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c3f15799"
+  },
+  "booklet_how_lead": {
+    "value": "Du steiers däi Companion vun dengem Handy oder Computer aus. Däi Companion schéckt deng Messagen dann iwwer Funk un den nooste Repeater. Vun do aus sprange se vun Daach zu Daach, bis se beim Empfänger ukommen. Dës Radioen iwwerbrécke puer Kilometer.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "bdd12bb9"
+  },
+  "booklet_legend_1": {
+    "value": "Handy oder Computer",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0727f861"
+  },
+  "booklet_legend_2": {
+    "value": "Companion: de Radio, deen s du bei dir dréis",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b95f6187"
+  },
+  "booklet_legend_3": {
+    "value": "Repeater: gëtt Messagen weider",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c9f24857"
+  },
+  "booklet_legend_4": {
+    "value": "Aner Repeater, vun Daach zu Daach",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "82cc3b46"
+  },
+  "booklet_fact_1": {
+    "value": "Wann den Handysnetz ausfält, kann d'Mesh deng Famill a Frënn an der Géigend nach erreechen. Vill Repeater lafen op klenge Solarpanneauen a Batterien. Ob et an engem Noutfall wierklech funktionéiert, weess keen.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "ce841258"
+  },
+  "booklet_fact_2": {
+    "value": "Direktmessagen sinn end-to-end verschlësselt. Ëffentlech Kanäl sinn ëffentlech, wéi e Chatroom.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0755982e"
+  },
+  "booklet_fact_3": {
+    "value": "Nëmme kuerz Textmessagen: keng Stëmm, keng Fotoen, keen Internet.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6f9a120d"
+  },
+  "booklet_box": {
+    "value": "Kontakt / Notizen",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e30245b1"
+  },
+  "booklet_group_title": {
+    "value": "Fann e Grupp, oder liess no",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "7eb372bc"
+  },
+  "booklet_group_lead": {
+    "value": "Scan de Code, oder besich eng vun de Websäiten, wéi meshcore-info.eu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6e8065fb"
+  },
+  "booklet_about": {
+    "value": "meshcore-info.eu erkläert MeshCore fir Europa, an 33 Sproochen: d'Astellungen, Uleedungen an Tools, déi déi lokal Meshes deelen. Fräiwëlleger halen d'Säit um Lafen, an Hëllef ass wëllkomm.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c149933d"
+  },
+  "booklet_machine": {
+    "value": "Eng Maschinn huet dëse Bichelchen iwwersat. En Mammesproochler huet en nach net nogekuckt.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b23f3819"
   },
   "meetings_strip_title": {
     "value": "Nächst 8 Wochen",

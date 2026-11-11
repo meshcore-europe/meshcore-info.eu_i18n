@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 O MeshCore é software livre para pequenos rádios LoRa. O LoRa é uma técnica de
@@ -28,31 +28,32 @@ MIT.
 És novo no mundo da rádio? Estas são as coisas que as pessoas mais vezes
 esperam do MeshCore e que ele não faz.
 
-- **Não é a internet nem um telemóvel.** O MeshCore envia mensagens de texto
-  curtas, mais ou menos do tamanho de um SMS no teu telemóvel. Não há voz,
-  fotos, vídeo nem sites, e não consegues contactar um número de telefone
-  normal.
-- **Não é um serviço de emergência.** Nenhum serviço de emergência promete
-  estar à escuta na mesh, e ninguém promete que alguém leia a tua mensagem.
+- **Não é a internet nem um telefone.** O MeshCore envia mensagens de texto
+  curtas, mais ou menos do tamanho de uma SMS no teu telemóvel. Não há voz,
+  fotos, vídeo nem sites, e não consegues contactar um número de telefone normal.
+- **Não é um serviço de emergência.** Nenhum serviço de emergência garante
+  que está à escuta na mesh. Sabemos que a mesh pode funcionar. Se funciona
+  numa emergência, ninguém sabe.
 - **Não é instantâneo, nem chega a todo o lado.** Uma mensagem salta de rádio
-  em rádio e pode demorar alguns segundos, ou nem sequer chegar. Se passa ou
-  não depende dos repetidores à tua volta, da altura, dos edifícios e da tua
-  antena. Um rádio pequeno dentro de casa muitas vezes não chega a ninguém; um
-  repetidor num telhado alcança quilómetros.
+  em rádio e pode demorar alguns segundos, ou nem chegar. Se passa ou não
+  depende dos repetidores à tua volta, da altura, dos edifícios e da tua
+  antena. Um rádio pequeno dentro de casa muitas vezes não chega a ninguém;
+  um repetidor num telhado chega a quilómetros.
 - **Não é um serviço que alguém gere por ti.** Não há fornecedor, apoio ao
   cliente nem promessa de cobertura. A mesh existe onde pessoas da comunidade
   instalaram repetidores.
-- **Nem tudo o que lá está é privado.** As mensagens diretas são cifradas, mas
-  qualquer pessoa pode ler o canal Public e os canais com hashtag. O nome do
-  teu nó e a posição que partilhas são visíveis para todos ao alcance.
+- **Nem tudo o que lá passa é privado.** As mensagens diretas são cifradas, mas qualquer
+  pessoa pode ler o Public e os canais com hashtag. O nome do teu nó e a
+  posição que partilhas ficam visíveis para todos ao alcance.
   Os [observadores](/network/) enviam o que ouvem para mapas públicos. A
   [secção sobre cifragem](#encryption) explica o que fica privado.
-- **Não é ilimitado.** Na mesma zona, todos partilham um único canal de rádio, e as
-  regras da [banda de 868 MHz](#band) limitam quanto tempo cada rádio pode
-  emitir. Cada mensagem tira tempo de antena a todos os outros. Por isso, bots,
-  anúncios frequentes e mensagens de teste tornam a mesh mais lenta para todos.
-- **Não é o Meshtastic.** O Meshtastic é um sistema diferente que corre
-  praticamente nas mesmas placas. Os dois não comunicam entre si.
+- **Não é ilimitado.** Numa zona, todos partilham um único canal de rádio, e
+  as regras da [banda de 868 MHz](#band) limitam quanto tempo cada rádio pode
+  emitir. Cada mensagem tira tempo de emissão a todos os outros. Por isso,
+  bots, anúncios frequentes e mensagens de teste tornam a mesh mais lenta
+  para todos.
+- **Não é o Meshtastic.** O Meshtastic é outro sistema que corre praticamente
+  nas mesmas placas. Os dois não conseguem comunicar entre si.
 
 ## A mesh num minuto {#mesh}
 
@@ -186,7 +187,7 @@ Verificámos estes exemplos em novembro de 2026.
   [levam a cabo um projeto-piloto em conjunto com os municípios](https://noodnetoverijssel.nl/).
   Usam primeiro o rádio de voz e o MeshCore como segunda camada para texto.
 
-Ninguém te garante que alguém leia a tua mensagem na mesh perto de ti.
+Ninguém sabe se a mesh perto de ti funciona numa emergência.
 
 ## De onde vêm os dados {#data}
 

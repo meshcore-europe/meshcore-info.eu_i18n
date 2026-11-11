@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 Bogearraí saora do raidiónna beaga LoRa is ea MeshCore. Teicníc raidió is ea LoRa a sheolann beagán sonraí i bhfad, ar fhíorbheagán cumhachta. Tugtar *nód* ar raidió a bhfuil MeshCore air. Nuair a nascann tú é leis an aip ar do ghuthán nó ar do ríomhaire glúine, nó nuair a úsáideann tú a scáileán agus a mhéarchlár féin, seolann tú téacs chuig daoine atá ciliméadair uait. Níl aon túr, ródaire ná soláthraí sa lár.
@@ -21,30 +21,13 @@ Bogearraí foinse oscailte atá iontu. Forbraítear iad ag [meshcore-dev/MeshCor
 
 An bhfuil raidió nua duit? Seo na rudaí is minice a mbíonn daoine ag súil leo ó MeshCore, agus nach ndéanann sé.
 
-- **Ní hé an t-idirlíon ná guthán é.** Seolann MeshCore teachtaireachtaí gearra téacs,
-  thart ar fhad téacs ar do ghuthán. Níl guth, grianghraif, físeáin
-  ná suíomhanna gréasáin ann, agus ní féidir leat gnáthuimhir ghutháin a shroicheadh.
-- **Ní seirbhís éigeandála é.** Ní gheallann aon seirbhís éigeandála go n-éistfidh sí
-  ar an mogalra. Ní gheallann aon duine go léifidh duine éigin do theachtaireacht.
-- **Níl sé láithreach, agus níl sé i ngach áit.** Léimeann teachtaireacht ó raidió go
-  raidió. Féadann sí cúpla soicind a thógáil, nó gan teacht ar chor ar bith. Braitheann
-  a teacht ar na hathsheoltóirí timpeall ort, ar an airde, ar fhoirgnimh agus ar d'aeróg.
-  Is minic nach sroicheann raidió beag istigh aon duine. Sroicheann athsheoltóir ar dhíon
-  ciliméadair i gcéin.
-- **Ní seirbhís é a reáchtálann duine éigin duit.** Níl soláthraí, deasc chabhrach
-  ná gealltanas clúdaigh ann. Tá an mogalra ann san áit ar chuir daoine sa
-  phobal athsheoltóirí in airde.
-- **Níl gach rud air príobháideach.** Criptítear teachtaireachtaí díreacha. Ach is féidir
-  le duine ar bith Public agus na cainéil haischlibe a léamh. Feiceann gach duine
-  i raon ainm do nóid agus an suíomh a roinneann tú.
-  Tuairiscíonn [breathnóirí](/network/) an méid a chloiseann siad chuig léarscáileanna poiblí.
-  Míníonn an [chuid faoin gcriptiú](#encryption) céard a fhanann príobháideach.
-- **Níl sé gan teorainn.** Roinneann gach duine i gceantar aon chainéal raidió amháin.
-  Cuireann rialacha an [bhanda 868 MHz](#band) teorainn leis an bhfad ama a fhéadann gach raidió seoladh.
-  Tógann gach teachtaireacht am craolta ó gach duine eile. Mar sin moillíonn róbait, fógraí
-  minice agus teachtaireachtaí tástála an mogalra do chách.
-- **Ní Meshtastic é.** Córas eile is ea Meshtastic a ritheann ar na boird chéanna, nach mór.
-  Ní féidir leis an dá chóras labhairt lena chéile.
+- **Ní hé an t-idirlíon ná guthán atá ann.** Seolann MeshCore teachtaireachtaí gearra téacs, thart ar fhad teachtaireachta téacs ar do ghuthán. Níl glór, grianghraif, físeáin ná suíomhanna gréasáin ann, agus ní féidir leat gnáthuimhir ghutháin a shroicheadh.
+- **Ní seirbhís éigeandála atá ann.** Ní gheallann aon seirbhís éigeandála go n-éistfidh sí ar an mogalra. Tá a fhios againn gur féidir leis an mogalra oibriú. Níl a fhios ag aon duine an oibreoidh sé in éigeandáil.
+- **Níl sé láithreach, agus níl sé i ngach áit.** Léimeann teachtaireacht ó raidió go raidió. D'fhéadfadh sí cúpla soicind a thógáil, nó gan teacht ar chor ar bith. Braitheann sé ar na hathsheoltóirí timpeall ort an dtéann sí tríd. Braitheann sé freisin ar airde, ar fhoirgnimh agus ar d'aeróg. Is minic nach sroicheann raidió beag istigh duine ar bith; is féidir le hathsheoltóir ar dhíon ciliméadair a shroicheadh.
+- **Ní seirbhís í a chuireann duine éigin ar fáil duit.** Níl soláthraí, deasc chabhrach ná gealltanas clúdaigh ann. Tá an mogalra ann san áit ar chuir daoine ón bpobal athsheoltóirí in airde.
+- **Níl gach rud air príobháideach.** Tá teachtaireachtaí díreacha criptithe. Ach is féidir le duine ar bith Public agus na cainéil haischlibe a léamh. Feiceann gach duine laistigh de raon ainm do nóid agus an suíomh a roinneann tú. Tuairiscíonn [breathnóirí](/network/) an méid a chloiseann siad do léarscáileanna poiblí. Míníonn an [chuid faoi chriptiú](#encryption) cad a fhanann príobháideach.
+- **Níl sé gan teorainn.** Roinneann gach duine i gceantar cainéal raidió amháin. Cuireann na rialacha don [bhanda 868 MHz](#band) teorainn le cé chomh fada is féidir le gach raidió seoladh. Tógann gach teachtaireacht am craolta ó gach duine eile. Mar sin cuireann botanna, fógraí minice agus teachtaireachtaí tástála moill ar an mogalra do chách.
+- **Ní Meshtastic atá ann.** Córas eile is ea Meshtastic a oibríonn ar na boird chéanna, nach mór. Ní féidir leis an dá chóras labhairt le chéile.
 
 ## An mogalra i nóiméad {#mesh}
 
@@ -133,7 +116,7 @@ na samplaí seo i mí na Samhna 2026.
   [ag reáchtáil píolóta in éineacht leis na bardais](https://noodnetoverijssel.nl/).
   Úsáideann siad raidió gutha ar dtús, agus MeshCore mar dhara sraith le haghaidh téacs.
 
-Ní gheallann aon duine go léifidh duine éigin do theachtaireacht ar an mogalra in aice leat.
+Níl a fhios ag aon duine an oibreoidh an mogalra in aice leat in éigeandáil.
 
 ## Cá as a dtagann na sonraí {#data}
 

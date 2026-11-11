@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore este un software gratuit pentru radiouri LoRa mici. LoRa este o tehnică radio
@@ -28,29 +28,30 @@ Ești nou în lumea radio? Acestea sunt lucrurile pe care oamenii le așteaptă 
 dar pe care MeshCore nu le face.
 
 - **Nu este internetul și nici un telefon.** MeshCore trimite mesaje text scurte,
-  cam cât un SMS de pe telefonul tău. Nu ai voce, poze, video
-  sau site-uri web și nu poți contacta un număr de telefon obișnuit.
+  cam cât un SMS de pe telefon. Fără voce, poze, video
+  sau site-uri web, și nu poți suna sau scrie la un număr de telefon obișnuit.
 - **Nu este un serviciu de urgență.** Niciun serviciu de urgență nu promite că
-  ascultă mesh-ul și nimeni nu promite că cineva îți citește mesajul.
-- **Nu este instant și nu este peste tot.** Un mesaj sare din radio în
-  radio. Poate dura câteva secunde sau poate să nu ajungă deloc. Dacă ajunge sau nu
-  depinde de repetoarele din jurul tău, de înălțime, de clădiri și de antena ta.
-  Un radio mic ținut în casă adesea nu ajunge la nimeni. Un repetor pe un acoperiș
+  urmărește mesh-ul. Știm că mesh-ul poate funcționa. Dacă merge și într-o
+  urgență, nu știe nimeni.
+- **Nu este instantaneu și nu este peste tot.** Un mesaj sare din radio în
+  radio și poate dura câteva secunde sau poate să nu ajungă deloc. Dacă ajunge sau nu
+  depinde de repetoarele din jurul tău, de înălțime, de clădiri și de antena
+  ta. Un radio mic ținut în casă de multe ori nu ajunge la nimeni. Un repetor pe un acoperiș
   ajunge la kilometri distanță.
-- **Nu este un serviciu pe care cineva îl administrează pentru tine.** Nu există
-  furnizor, helpdesk sau promisiune de acoperire. Mesh-ul există acolo unde
-  oamenii din comunitate au instalat repetoare.
-- **Nu tot ce circulă pe el este privat.** Mesajele directe sunt criptate.
-  Canalul Public și canalele cu hashtag le poate citi însă oricine. Numele nodului tău
-  și poziția pe care o partajezi sunt vizibile pentru toți cei din raza de acoperire.
-  [Observatorii](/network/) trimit pe hărți publice ce aud.
+- **Nu este un serviciu pe care cineva îl administrează pentru tine.** Nu există furnizor,
+  nici asistență și nicio promisiune de acoperire. Mesh-ul există acolo unde oamenii
+  din comunitate au montat repetoare.
+- **Nu tot ce circulă pe el este privat.** Mesajele directe sunt criptate. Însă
+  Public și canalele cu hashtag le poate citi oricine, iar numele nodului tău
+  și poziția partajată le vede oricine se află în raza de acoperire.
+  [Observatorii](/network/) raportează pe hărți publice ce aud.
   [Secțiunea despre criptare](#encryption) explică ce rămâne privat.
-- **Nu este nelimitat.** Toți cei dintr-o zonă împart un singur canal radio.
-  Regulile pentru [banda de 868 MHz](#band) limitează cât timp poate emite fiecare radio.
-  Fiecare mesaj consumă din timpul de emisie al tuturor celorlalți. De aceea boții, anunțurile
-  dese și mesajele de test încetinesc mesh-ul pentru toată lumea.
-- **Nu este Meshtastic.** Meshtastic este un alt sistem care rulează
-  cam pe aceleași plăci. Cele două nu pot comunica între ele.
+- **Nu este nelimitat.** Toți cei dintr-o zonă împart un singur canal radio, iar
+  regulile pentru [banda de 868 MHz](#band) limitează cât timp are voie să emită fiecare radio.
+  Fiecare mesaj ia timp de emisie de la toți ceilalți. De aceea boții, anunțurile dese
+  și mesajele de test încetinesc mesh-ul pentru toți.
+- **Nu este Meshtastic.** Meshtastic este un alt sistem care rulează pe
+  aproape aceleași plăci. Cele două nu pot comunica între ele.
 
 ## Mesh-ul într-un minut {#mesh}
 
@@ -179,7 +180,7 @@ aceste exemple în noiembrie 2026.
   [derulează un proiect pilot împreună cu municipalitățile](https://noodnetoverijssel.nl/).
   Ei folosesc în primul rând radioul pentru voce, iar MeshCore e un al doilea nivel, pentru text.
 
-Nimeni nu-ți garantează că cineva din mesh-ul din jurul tău îți va citi mesajul.
+Dacă mesh-ul din jurul tău funcționează în caz de urgență, nu știe nimeni.
 
 ## De unde provin datele {#data}
 

@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'f3e63cef'
-  seeded: '2026-11-04'
+  source_hash: '77cff517'
+  seeded: '2026-11-11'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', 'ee7ba544', '6f034862', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', '6f034862', '30deca02', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', 'adb108f8', '9f96bbaa', '4d6fa3ea', '442015ad', 'd5de6ea4', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Über die Website {#about}
@@ -38,6 +38,18 @@ Diese Links brauchen weniger Platz in einer Mesh-Nachricht. Jeder öffnet sich i
 der Person, die ihn antippt. Jeder Name, den wir einmal vergeben, funktioniert dauerhaft weiter.
 
 {{< short-links >}}
+
+## Broschüre {#booklet}
+
+[![Die aufgeklappte Broschüre: hinten das leere Kontaktfeld, vorne die Stadt von oben mit ihrem Netz](/media/booklet/meshcore-info-booklet-thumb.webp)](/media/booklet/meshcore-info-booklet-en.pdf)
+
+Verteile diese Broschüre an einem Stand oder gib sie dem Besitzer eines Dachs, das du gern nutzen würdest. Sie beantwortet die ersten Fragen: was MeshCore ist, was es kostet, wie es funktioniert, was ein Repeater auf dem Dach mit sich bringt und wie du deine Gruppe vor Ort findest. Auf der Rückseite ist Platz für deine eigenen Kontaktdaten.
+
+1. [Lade die Broschüre als PDF herunter](/media/booklet/meshcore-info-booklet-en.pdf), 1 A4-Blatt.
+2. Drucke sie beidseitig mit 100 %, Wenden an der kurzen Kante.
+3. Schreib deinen Namen oder deine Gruppe in das leere Feld und falte das Blatt einmal.
+
+Drucke so viele aus, wie du möchtest. Die Broschüre gibt es vorerst auf Englisch. Weitere Sprachen folgen, sobald sie übersetzt sind.
 
 ## Logo {#logo}
 

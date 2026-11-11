@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'f3e63cef'
-  seeded: '2026-11-04'
+  source_hash: '77cff517'
+  seeded: '2026-11-11'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', 'ee7ba544', '6f034862', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', '6f034862', '30deca02', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', 'adb108f8', '9f96bbaa', '4d6fa3ea', '442015ad', 'd5de6ea4', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Despre site {#about}
@@ -31,6 +31,18 @@ comunicatul de presă din [articolul de lansare](/blog/welcome/).
 Aceste linkuri ocupă mai puțin loc într-un mesaj trimis prin mesh. Fiecare se deschide în limba celui care îl apasă. Odată ce dăm un nume, îl păstrăm funcțional.
 
 {{< short-links >}}
+
+## Broșură {#booklet}
+
+[![Broșura desfăcută: pe spate, căsuța goală pentru contact, iar pe față orașul văzut de sus, cu rețeaua lui](/media/booklet/meshcore-info-booklet-thumb.webp)](/media/booklet/meshcore-info-booklet-en.pdf)
+
+Împarte broșura la un stand sau dă-o proprietarului unui acoperiș pe care ai vrea să-l folosești. Broșura răspunde la primele întrebări: ce este MeshCore, cât costă, cum funcționează, ce înseamnă un repetor pe acoperiș și cum găsești grupul din zona ta. Pe coperta din spate ai loc pentru datele tale de contact.
+
+1. [Descarcă broșura în format PDF](/media/booklet/meshcore-info-booklet-en.pdf), 1 foaie A4.
+2. Tipărește-o față-verso, cu întoarcere pe latura scurtă, la 100%.
+3. Scrie-ți numele sau grupul în căsuța goală și împăturește foaia o dată.
+
+Tipărește câte exemplare vrei. Deocamdată broșura este în engleză. Alte limbi urmează după ce vor fi traduse.
 
 ## Logo {#logo}
 

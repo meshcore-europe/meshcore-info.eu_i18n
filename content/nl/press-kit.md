@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'f3e63cef'
-  seeded: '2026-11-04'
+  source_hash: '77cff517'
+  seeded: '2026-11-11'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', 'ee7ba544', '6f034862', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', '6f034862', '30deca02', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', 'adb108f8', '9f96bbaa', '4d6fa3ea', '442015ad', 'd5de6ea4', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Over de site {#about}
@@ -38,6 +38,18 @@ Deze links nemen minder ruimte in een mesh-bericht in. Elke link opent in de taa
 van wie erop tikt. Elke naam die we uitgeven, blijft werken.
 
 {{< short-links >}}
+
+## Boekje {#booklet}
+
+[![Het boekje opengevouwen: achterop het lege vak voor contactgegevens, voorop de stad van bovenaf met haar netwerk](/media/booklet/meshcore-info-booklet-thumb.webp)](/media/booklet/meshcore-info-booklet-en.pdf)
+
+Deel dit boekje uit op een stand, of geef het aan de eigenaar van een dak dat je wilt gebruiken. Het beantwoordt de eerste vragen: wat MeshCore is, wat het kost, hoe het werkt, wat een repeater op een dak inhoudt en hoe je je lokale groep vindt. Achterop is ruimte voor je eigen contactgegevens.
+
+1. [Download het boekje als pdf](/media/booklet/meshcore-info-booklet-en.pdf), 1 A4-vel.
+2. Druk het dubbelzijdig af op 100%, omslaan langs de korte zijde.
+3. Schrijf je naam of groep in het lege vak en vouw het vel één keer.
+
+Druk er zoveel af als je wilt. Het boekje is voorlopig in het Engels. Andere talen volgen zodra ze vertaald zijn.
 
 ## Logo {#logo}
 

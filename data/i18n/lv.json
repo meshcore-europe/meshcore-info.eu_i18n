@@ -3,7 +3,7 @@
     "language": "lv",
     "name": "Latviešu",
     "managed_by": "community",
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "site_tagline": {
     "value": "Saziņa bez tīkla visā Eiropā",
@@ -6472,6 +6472,186 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "dbcd5e7b"
+  },
+  "booklet_title": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "f4f17278"
+  },
+  "booklet_subtitle": {
+    "value": "Īsziņas bez interneta",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "567d0b96"
+  },
+  "booklet_keywords": {
+    "value": "Decentralizēts · Bezmaksas · Atvērtā koda · Legāls",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2c5258e"
+  },
+  "booklet_tagline": {
+    "value": "Sūti ziņas pa radio, no jumta uz jumtu. Tev nevajag ne internetu, ne abonementu. Pievienojies un esi sagatavots.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c4ac4359"
+  },
+  "booklet_q_what": {
+    "value": "Kas ir MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "06eda66b"
+  },
+  "booklet_a_what": {
+    "value": "MeshCore ir atvērtā koda programmatūra, ar kuru mazi, īpaši radio nodod ziņas pa mesh tīklu. Tā darbojas bez interneta un bez komerciāla pakalpojumu sniedzēja.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "78415b19"
+  },
+  "booklet_q_cost": {
+    "value": "Cik tas maksā?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e8dc9deb"
+  },
+  "booklet_a_cost": {
+    "value": "Lai sāktu, tev vajag tikai companion (tā MeshCore sauc radio lomu saņēmēja pusē). Tādu var dabūt no 15 eiro, un labs parasti maksā ap 40. Nav pastāvīgu izmaksu, piemēram, abonementa, un tev nav jāreģistrējas.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2904f1a"
+  },
+  "booklet_q_join": {
+    "value": "Kā pievienoties?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "4ebf5b3a"
+  },
+  "booklet_a_join": {
+    "value": "Mūsu vietnē ir saraksts ar grupām tavā tuvumā. Tie ir brīvprātīgie, kas pazīst mesh tīklu un palīdz tev iestatīt ierīci. Tu vari arī pats palasīt par to un sākt. Tas ir vieglāk, nekā tu domā.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "413528fd"
+  },
+  "booklet_roof_title": {
+    "value": "Retranslators uz tava jumta?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0e152f7d"
+  },
+  "booklet_roof_lead": {
+    "value": "Daudzviet mesh tīkls jau ir labi izbūvēts, tāpēc savs retranslators bieži nav vajadzīgs. Kur pārklājums ir vājš, retranslators var palīdzēt. Ar brīvu skatu un labu augstumu tas var nodot ziņas tālāk lielos attālumos. Tu vari to nopirkt gatavu vai uzbūvēt pats. Retranslators ir radio, saules panelis un akumulatori ar uzlādes kontrolieriem.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "52776beb"
+  },
+  "booklet_q_internet": {
+    "value": "Vai tas izmanto manu internetu?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "dc17caa8"
+  },
+  "booklet_a_internet": {
+    "value": "Nē. Radio izmanto frekvences, kurām nav vajadzīga licence. Tiem nav vajadzīgs WiFi. Retranslatoriem ir saules paneļi un akumulatori, tāpēc tie strādā arī elektrības pārrāvuma laikā.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "3ed17f21"
+  },
+  "booklet_q_allowed": {
+    "value": "Vai tas ir atļauts?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "02b9f7c4"
+  },
+  "booklet_a_allowed": {
+    "value": "Jā. Daļu no 868 MHz joslas visā Eiropā var izmantot brīvi. Arī retranslatoram licence nav vajadzīga. Noteikumi gan tev ir jāievēro.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "20714be9"
+  },
+  "booklet_how_title": {
+    "value": "Kā tas darbojas?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c3f15799"
+  },
+  "booklet_how_lead": {
+    "value": "Tu vadi savu companion no telefona vai datora. Tavs companion pa radio nosūta tavas ziņas uz tuvāko retranslatoru. No turienes tās lēcienos pārvietojas no jumta uz jumtu, līdz sasniedz saņēmēju. Šie radio pārvar vairākus kilometrus.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "bdd12bb9"
+  },
+  "booklet_legend_1": {
+    "value": "Telefons vai dators",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0727f861"
+  },
+  "booklet_legend_2": {
+    "value": "Companion: radio, ko nēsā līdzi",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b95f6187"
+  },
+  "booklet_legend_3": {
+    "value": "Retranslators: nodod ziņas tālāk",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c9f24857"
+  },
+  "booklet_legend_4": {
+    "value": "Citi retranslatori, no jumta uz jumtu",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "82cc3b46"
+  },
+  "booklet_fact_1": {
+    "value": "Kad mobilais tīkls nedarbojas, mesh tīkls joprojām var sasniegt tavu ģimeni un draugus tuvumā. Daudzi retranslatori strādā ar maziem saules paneļiem un akumulatoriem. Vai tas tiešām darbojas ārkārtas situācijā, neviens nezina.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "ce841258"
+  },
+  "booklet_fact_2": {
+    "value": "Tiešās ziņas ir šifrētas no gala līdz galam. Publiskie kanāli ir publiski, kā tērzētava.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0755982e"
+  },
+  "booklet_fact_3": {
+    "value": "Tikai īsas teksta ziņas: bez balss, fotoattēliem vai interneta.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6f9a120d"
+  },
+  "booklet_box": {
+    "value": "Kontakts / piezīmes",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e30245b1"
+  },
+  "booklet_group_title": {
+    "value": "Atrodi grupu vai palasi vairāk",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "7eb372bc"
+  },
+  "booklet_group_lead": {
+    "value": "Noskenē kodu vai apmeklē kādu no vietnēm, piemēram, meshcore-info.eu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6e8065fb"
+  },
+  "booklet_about": {
+    "value": "meshcore-info.eu skaidro MeshCore Eiropai 33 valodās: iestatījumus, ceļvežus un rīkus, ko izmanto vietējie mesh tīkli. Vietni uztur brīvprātīgie, un palīdzība ir gaidīta.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c149933d"
+  },
+  "booklet_machine": {
+    "value": "Šo bukletu tulkoja mašīna. Dzimtās valodas runātājs to vēl nav pārbaudījis.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b23f3819"
   },
   "meetings_strip_title": {
     "value": "Nākamās 8 nedēļas",

@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore és programari lliure per a ràdios LoRa petites. LoRa és una tècnica de ràdio que envia poques dades molt lluny amb molt poca energia. Una ràdio amb MeshCore s'anomena *node*. Connectat a l'app del teu mòbil o ordinador, o amb pantalla i teclat propis, envia text a persones que són a quilòmetres de distància. Entremig no hi ha cap torre, cap encaminador ni cap proveïdor.
@@ -23,30 +23,31 @@ El programari és de codi obert i es desenvolupa a
 Comences amb la ràdio? Això és el que la gent espera més sovint de MeshCore i que no fa.
 
 - **No és internet ni un telèfon.** MeshCore envia missatges de text curts,
-  més o menys de la llargada d'un SMS al teu mòbil. No hi ha veu, fotos, vídeo
-  ni webs, i no pots contactar amb un número de telèfon normal.
+  de la llargada aproximada d'un SMS del teu mòbil. No hi ha veu, fotos, vídeo
+  ni webs, i no pots trucar ni escriure a un número de telèfon normal.
 - **No és un servei d'emergències.** Cap servei d'emergències es compromet a
-  escoltar la malla, i ningú no garanteix que algú llegeixi el teu missatge.
+  escoltar la malla. Sabem que la malla pot funcionar. Ningú sap si funciona
+  en una emergència.
 - **No és instantani ni arriba a tot arreu.** Un missatge salta de ràdio en
   ràdio i pot trigar uns segons, o no arribar mai. Que arribi depèn dels
-  repetidors que tens a prop, de l'altura, dels edificis i de la teva antena.
-  Una ràdio petita dins de casa sovint no arriba a ningú. Un repetidor a una
-  teulada arriba a quilòmetres.
-- **No és un servei que algú gestioni per tu.** No hi ha proveïdor, ni servei
-  d'ajuda, ni cap garantia de cobertura. La malla existeix allà on gent de la
-  comunitat ha instal·lat repetidors.
-- **No tot el que hi circula és privat.** Els missatges directes van xifrats.
-  En canvi, qualsevol pot llegir Public i els canals amb etiqueta, i tothom a
-  l'abast veu el nom del teu node i la posició que comparteixes.
+  repetidors del teu voltant, de l'altura, dels edificis i de la teva antena.
+  Una ràdio petita dins de casa sovint no arriba a ningú. Un repetidor en un
+  terrat arriba a quilòmetres de distància.
+- **No és un servei que algú gestiona per a tu.** No hi ha cap proveïdor, cap
+  servei d'ajuda ni cap promesa de cobertura. La malla existeix allà on gent de
+  la comunitat ha instal·lat repetidors.
+- **No tot el que hi circula és privat.** Els missatges directes van xifrats,
+  però qualsevol pot llegir Public i els canals amb etiqueta (hashtag). A més,
+  tothom qui és dins l'abast veu el nom del teu node i la posició que comparteixes.
   Els [observadors](/network/) envien el que senten a mapes públics. La
-  [secció sobre xifratge](#encryption) explica què es manté privat.
-- **No és il·limitat.** Tothom d'una zona comparteix un sol canal de ràdio, i
-  les normes de la [banda de 868 MHz](#band) limiten quant temps pot emetre
-  cada ràdio. Cada missatge treu temps d'emissió a tots els altres. Per això
-  els bots, els anuncis freqüents i els missatges de prova alenteixen la
-  malla per a tothom.
-- **No és Meshtastic.** Meshtastic és un sistema diferent que funciona amb
-  gairebé les mateixes plaques. Els dos sistemes no es poden comunicar entre si.
+  [secció sobre el xifratge](#encryption) explica què es manté privat.
+- **No és il·limitat.** A cada zona, tothom comparteix un sol canal de ràdio, i
+  les normes de la [banda de 868 MHz](#band) limiten quant de temps pot emetre
+  cada ràdio. Cada missatge treu temps d'emissió a tots els altres. Per això els
+  bots, els anuncis freqüents i els missatges de prova alenteixen la malla per a
+  tothom.
+- **No és Meshtastic.** Meshtastic és un sistema diferent que funciona en
+  plaques molt semblants. Els dos sistemes no es poden comunicar entre si.
 
 ## La malla en un minut {#mesh}
 
@@ -135,7 +136,7 @@ Algunes autoritats estan construint o provant un sistema de reserva basat en Mes
   [fan una prova pilot juntament amb els municipis](https://noodnetoverijssel.nl/).
   Primer fan servir la ràdio de veu, i MeshCore com a segona capa per al text.
 
-Ningú no garanteix que algú llegeixi el teu missatge a la malla que tens a prop.
+Ningú sap si la malla del teu voltant funciona en una emergència.
 
 ## D'on surten les dades {#data}
 

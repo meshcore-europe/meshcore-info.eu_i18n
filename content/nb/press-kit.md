@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'f3e63cef'
-  seeded: '2026-11-04'
+  source_hash: '77cff517'
+  seeded: '2026-11-11'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', 'ee7ba544', '6f034862', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', '6f034862', '30deca02', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', 'adb108f8', '9f96bbaa', '4d6fa3ea', '442015ad', 'd5de6ea4', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Om nettstedet {#about}
@@ -38,6 +38,18 @@ Disse lenkene tar mindre plass i en mesh-melding. Hver lenke åpnes på språket
 til den som trykker på den. Når vi har delt ut et navn, sørger vi for at det fortsetter å virke.
 
 {{< short-links >}}
+
+## Hefte {#booklet}
+
+[![Heftet brettet ut: den tomme kontaktboksen på baksiden, og på forsiden byen sett ovenfra med nettverket sitt](/media/booklet/meshcore-info-booklet-thumb.webp)](/media/booklet/meshcore-info-booklet-en.pdf)
+
+Del ut dette heftet på en stand, eller gi det til eieren av et tak du gjerne vil bruke. Det svarer på de første spørsmålene: hva MeshCore er, hva det koster, hvordan det virker, hva en repeater på et tak innebærer, og hvordan du finner den lokale gruppen din. På baksiden er det plass til dine egne kontaktopplysninger.
+
+1. [Last ned heftet som PDF](/media/booklet/meshcore-info-booklet-en.pdf), 1 A4-ark.
+2. Skriv det ut tosidig, vendt langs kortsiden, i 100 %.
+3. Skriv navnet ditt eller gruppen din i det tomme feltet, og brett arket én gang.
+
+Skriv ut så mange du vil. Heftet er foreløpig på engelsk. Andre språk kommer når de er oversatt.
 
 ## Logo {#logo}
 

@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore yra nemokama programinė įranga mažiems LoRa radijo įrenginiams. LoRa yra radijo technologija: ji perduoda nedaug duomenų toli ir naudoja labai mažai energijos. Radijo įrenginys su MeshCore vadinamas *mazgu*. Susiek jį su programėle telefone ar nešiojamajame kompiuteryje arba naudok jo paties ekraną ir klaviatūrą. Taip galėsi siųsti tekstą žmonėms, esantiems už kilometrų. Tarp tavęs ir jų nėra jokio bokšto, maršrutizatoriaus ar paslaugų teikėjo.
@@ -22,29 +22,30 @@ Programinės įrangos kodas yra atviras. Ji kuriama saugykloje [meshcore-dev/Mes
 Radijo ryšys tau naujas? Štai ko žmonės dažniausiai tikisi iš MeshCore, o jis to nedaro.
 
 - **Tai nėra internetas ar telefonas.** MeshCore siunčia trumpas tekstines žinutes,
-  maždaug tokio ilgio kaip SMS tavo telefone. Nėra balso, nuotraukų, vaizdo įrašų
-  ar svetainių, o įprasto telefono numerio pasiekti negali.
-- **Tai nėra pagalbos tarnyba.** Jokia pagalbos tarnyba nežada klausytis
-  mesh tinklo, ir niekas nežada, kad tavo žinutę kas nors perskaitys.
-- **Tai veikia ne akimirksniu ir ne visur.** Žinutė šuoliais keliauja nuo vieno radijo
-  prie kito ir gali užtrukti kelias sekundes arba visai nenueiti. Ar ji
-  nueis, priklauso nuo aplinkinių retransliatorių, aukščio, pastatų ir tavo
-  antenos. Mažas radijas patalpoje dažnai nepasiekia nieko, o retransliatorius ant
-  stogo pasiekia kilometrų atstumu.
-- **Tai nėra paslauga, kurią tau kažkas teikia.** Nėra jokio teikėjo,
-  pagalbos linijos ar aprėpties pažado. Mesh tinklas yra ten, kur
+  maždaug tokio ilgio kaip SMS tavo telefone. Jokio balso, nuotraukų, vaizdo įrašų
+  ar svetainių, be to, negali susisiekti su įprastu telefono numeriu.
+- **Tai nėra skubiosios pagalbos tarnyba.** Jokia skubiosios pagalbos tarnyba nežada klausytis
+  mesh tinklo. Žinome, kad mesh tinklas gali veikti. Ar jis veiks
+  ekstremalioje situacijoje, niekas nežino.
+- **Tai veikia ne akimirksniu ir ne visur.** Žinutė šuoliais keliauja nuo vieno radijo prie
+  kito ir gali užtrukti kelias sekundes arba visai nepasiekti adresato.
+  Ar ji pasieks tikslą, priklauso nuo retransliatorių aplink tave, aukščio, pastatų ir
+  tavo antenos. Mažas radijas patalpoje dažnai nepasiekia nieko. Retransliatorius
+  ant stogo siekia kilometrus.
+- **Tai nėra paslauga, kurią kažkas tau teikia.** Nėra teikėjo, nėra
+  pagalbos linijos ir nėra aprėpties pažado. Mesh tinklas veikia ten, kur
   bendruomenės žmonės įrengė retransliatorius.
-- **Ne viskas jame yra privatu.** Tiesioginės žinutės šifruojamos, bet
-  Public ir grotažymių kanalus gali skaityti bet kas. Tavo mazgo
+- **Ne viskas jame yra privatu.** Tiesioginės žinutės šifruojamos, tačiau
+  Public ir grotažymių kanalus gali skaityti bet kas, o tavo mazgo
   pavadinimą ir bendrinamą vietą mato visi, kas yra ryšio zonoje.
-  [Stebėtojai](/network/) perduoda viešiems žemėlapiams tai, ką girdi.
+  [Stebėtojai](/network/) praneša viešiems žemėlapiams, ką girdi.
   [Šifravimo skyriuje](#encryption) paaiškinta, kas lieka privatu.
-- **Tai nėra neribota.** Visi vienoje vietovėje dalijasi vienu radijo kanalu, o
-  [868 MHz juostos](#band) taisyklės riboja, kiek laiko kiekvienas radijas gali siųsti.
-  Kiekviena žinutė atima eterio laiką iš visų kitų, todėl botai, dažni skelbimai
+- **Ištekliai nėra neriboti.** Visi vienos vietovės naudotojai dalijasi vienu radijo kanalu,
+  o [868 MHz juostos](#band) taisyklės riboja, kiek laiko kiekvienas radijas gali siųsti.
+  Kiekviena žinutė atima eterio laiko iš visų kitų, todėl botai, dažni skelbimai
   ir bandomosios žinutės sulėtina mesh tinklą visiems.
-- **Tai nėra Meshtastic.** Meshtastic yra kita sistema, veikianti beveik tose
-  pačiose plokštėse. Šios dvi sistemos negali susikalbėti.
+- **Tai nėra Meshtastic.** Meshtastic yra kita sistema, kuri veikia
+  beveik tose pačiose plokštėse. Šios dvi sistemos negali susikalbėti.
 
 ## Mesh tinklas per minutę {#mesh}
 
@@ -132,7 +133,7 @@ Kai kurios valdžios institucijos kuria arba bando atsarginį ryšį MeshCore pa
   [kartu su savivaldybėmis vykdo bandomąjį projektą](https://noodnetoverijssel.nl/).
   Pirmiausia jie naudoja balso radijo ryšį, o MeshCore yra antrasis sluoksnis tekstinėms žinutėms.
 
-Niekas nežada, kad tavo žinutę kas nors perskaitys netoliese esančiame mesh tinkle.
+Ar mesh tinklas tavo apylinkėse veiks ekstremalioje situacijoje, niekas nežino.
 
 ## Iš kur gaunami duomenys {#data}
 

@@ -3,7 +3,7 @@
     "language": "cy",
     "name": "Cymraeg",
     "managed_by": "community",
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "site_tagline": {
     "value": "Negeseuon oddi ar y grid ledled Ewrop",
@@ -6472,6 +6472,186 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "dbcd5e7b"
+  },
+  "booklet_title": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "f4f17278"
+  },
+  "booklet_subtitle": {
+    "value": "Negeseuon testun heb y rhyngrwyd",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "567d0b96"
+  },
+  "booklet_keywords": {
+    "value": "Datganoledig · Am ddim · Cod agored · Cyfreithlon",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2c5258e"
+  },
+  "booklet_tagline": {
+    "value": "Anfona negeseuon dros radio, o do i do. Does dim angen rhyngrwyd na thanysgrifiad arnat ti. Ymuna a bydd yn barod.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c4ac4359"
+  },
+  "booklet_q_what": {
+    "value": "Beth yw MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "06eda66b"
+  },
+  "booklet_a_what": {
+    "value": "Meddalwedd cod agored yw MeshCore. Gyda hi, mae radios bach pwrpasol yn pasio negeseuon ar draws rhwydwaith rhwyll. Mae'n gweithio heb y rhyngrwyd na darparwr masnachol.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "78415b19"
+  },
+  "booklet_q_cost": {
+    "value": "Faint mae'n ei gostio?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e8dc9deb"
+  },
+  "booklet_a_cost": {
+    "value": "I ddechrau, y cyfan sydd ei angen arnat ti yw cydymaith (enw MeshCore ar rôl y radio ym mhen derbyn y neges). Gelli di gael un o 15 ewro, ac mae un da fel arfer yn costio tua 40. Does dim costau parhaus fel tanysgrifiad, a does dim rhaid i ti gofrestru.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2904f1a"
+  },
+  "booklet_q_join": {
+    "value": "Sut ydw i'n ymuno?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "4ebf5b3a"
+  },
+  "booklet_a_join": {
+    "value": "Mae ein gwefan yn rhestru grwpiau yn dy ardal di. Gwirfoddolwyr ydyn nhw sy'n adnabod y rhwyll ac yn dy helpu i osod popeth. Gelli di hefyd ddarllen amdano a dechrau. Mae'n haws nag wyt ti'n meddwl.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "413528fd"
+  },
+  "booklet_roof_title": {
+    "value": "Ailadroddydd ar dy do?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0e152f7d"
+  },
+  "booklet_roof_lead": {
+    "value": "Mewn llawer o lefydd mae'r rhwyll eisoes wedi'i hadeiladu'n dda. Felly yn aml does dim angen ailadroddydd dy hun arnat ti. Lle mae'r ddarpariaeth yn wael, gall ailadroddydd helpu. Gyda golygfa glir ac uchder da, gall basio negeseuon ymlaen dros bellteroedd hir. Gelli di brynu un yn barod neu adeiladu dy un dy hun. Radio, panel solar a batris gyda rheolyddion gwefru yw ailadroddydd.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "52776beb"
+  },
+  "booklet_q_internet": {
+    "value": "Ydy e'n defnyddio fy rhyngrwyd i?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "dc17caa8"
+  },
+  "booklet_a_internet": {
+    "value": "Nac ydy. Mae'r radios yn defnyddio amleddau heb drwydded. Does dim angen WiFi arnyn nhw. Mae gan ailadroddyddion baneli solar a batris, felly maen nhw'n dal i redeg pan fydd toriad pŵer.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "3ed17f21"
+  },
+  "booklet_q_allowed": {
+    "value": "Ydy e'n cael ei ganiatáu?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "02b9f7c4"
+  },
+  "booklet_a_allowed": {
+    "value": "Ydy. Mae rhan o'r band 868 MHz yn rhydd i'w ddefnyddio ledled Ewrop. Does dim angen trwydded ar ailadroddydd chwaith. Mae'n rhaid i ti ddilyn y rheolau, serch hynny.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "20714be9"
+  },
+  "booklet_how_title": {
+    "value": "Sut mae'n gweithio?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c3f15799"
+  },
+  "booklet_how_lead": {
+    "value": "Rwyt ti'n rheoli dy gydymaith o dy ffôn neu dy gyfrifiadur. Wedyn mae dy gydymaith yn anfon dy negeseuon dros radio i'r ailadroddydd agosaf. Oddi yno maen nhw'n neidio o do i do nes cyrraedd y derbynnydd. Mae'r radios hyn yn pontio sawl cilomedr.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "bdd12bb9"
+  },
+  "booklet_legend_1": {
+    "value": "Ffôn neu gyfrifiadur",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0727f861"
+  },
+  "booklet_legend_2": {
+    "value": "Cydymaith: y radio rwyt ti'n ei gario gyda ti",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b95f6187"
+  },
+  "booklet_legend_3": {
+    "value": "Ailadroddydd: yn pasio negeseuon ymlaen",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c9f24857"
+  },
+  "booklet_legend_4": {
+    "value": "Ailadroddyddion eraill, o do i do",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "82cc3b46"
+  },
+  "booklet_fact_1": {
+    "value": "Pan fydd y rhwydwaith symudol i lawr, gall y rhwyll ddal i gyrraedd dy deulu a dy ffrindiau gerllaw. Mae llawer o ailadroddyddion yn rhedeg ar baneli solar bach a batris. Does neb yn gwybod a yw'n gweithio go iawn mewn argyfwng.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "ce841258"
+  },
+  "booklet_fact_2": {
+    "value": "Mae negeseuon uniongyrchol wedi'u hamgryptio o un pen i'r llall. Mae sianeli cyhoeddus yn gyhoeddus, fel ystafell sgwrsio.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0755982e"
+  },
+  "booklet_fact_3": {
+    "value": "Negeseuon testun byr yn unig: dim llais, lluniau na rhyngrwyd.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6f9a120d"
+  },
+  "booklet_box": {
+    "value": "Cyswllt / nodiadau",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e30245b1"
+  },
+  "booklet_group_title": {
+    "value": "Dod o hyd i grŵp, neu ddarllen amdano",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "7eb372bc"
+  },
+  "booklet_group_lead": {
+    "value": "Sganio'r cod, neu ymweld ag un o'r gwefannau, fel meshcore-info.eu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6e8065fb"
+  },
+  "booklet_about": {
+    "value": "Mae meshcore-info.eu yn esbonio MeshCore ar gyfer Ewrop, mewn 33 iaith: y gosodiadau, y canllawiau a'r offer y mae'r rhwyllau lleol yn eu rhannu. Gwirfoddolwyr sy'n cynnal y wefan, ac mae croeso i help.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c149933d"
+  },
+  "booklet_machine": {
+    "value": "Peiriant a gyfieithodd y llyfryn hwn. Dydy siaradwr brodorol ddim wedi'i wirio eto.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b23f3819"
   },
   "meetings_strip_title": {
     "value": "Yr 8 wythnos nesaf",

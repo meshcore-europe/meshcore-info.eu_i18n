@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore é software libre para radios LoRa pequenas. LoRa é unha técnica de
@@ -28,29 +28,30 @@ Acabas de chegar ao mundo da radio? Isto é o que a xente espera máis a miúdo 
 e que non fai.
 
 - **Non é internet nin un teléfono.** MeshCore envía mensaxes de texto curtas,
-  máis ou menos do tamaño dunha mensaxe de texto no teu móbil. Non hai voz, fotos, vídeo
-  nin webs, e non podes contactar cun número de teléfono normal.
-- **Non é un servizo de emerxencias.** Ningún servizo de emerxencias se compromete a
-  escoitar na malla, e ninguén promete que alguén lea a túa mensaxe.
-- **Non é instantáneo nin chega a todas partes.** Unha mensaxe salta de radio en
+  máis ou menos coma unha mensaxe de texto do teu móbil. Non hai voz, fotos, vídeo
+  nin sitios web, e non podes contactar cun número de teléfono normal.
+- **Non é un servizo de emerxencias.** Ningún servizo de emerxencias promete
+  escoitar na malla. Sabemos que a malla pode funcionar. Ninguén sabe se funciona
+  nunha emerxencia.
+- **Non é instantáneo, nin chega a todas partes.** Unha mensaxe salta de radio en
   radio e pode tardar uns segundos, ou non chegar nunca. Que chegue ou non
-  depende dos repetidores que teñas preto, da altura, dos edificios e da túa
-  antena. Unha radio pequena dentro da casa moitas veces non chega a ninguén. Un repetidor nun tellado
-  chega a quilómetros.
-- **Non é un servizo que alguén xestione por ti.** Non hai provedor, nin servizo
-  de axuda, nin promesa de cobertura. A malla existe onde a xente da
+  depende dos repetidores que tes arredor, da altura, dos edificios e da túa
+  antena. Unha radio pequena dentro da casa a miúdo non chega a ninguén; un repetidor nun tellado
+  chega a quilómetros de distancia.
+- **Non é un servizo que alguén xestiona por ti.** Non hai provedor, nin
+  servizo de axuda, nin promesa de cobertura. A malla existe onde a xente da
   comunidade instalou repetidores.
-- **Non todo o que circula nela é privado.** As mensaxes directas van cifradas. Pero
-  calquera pode ler Public e as canles con cancelo, e o nome e a posición
-  compartida do teu nodo son visibles para todos os que están ao alcance.
+- **Non todo o que circula nela é privado.** As mensaxes directas van cifradas, pero
+  calquera pode ler Public e as canles con cancelo, e o nome do teu nodo
+  e a posición que compartes vénos todos os que estean ao alcance.
   Os [observadores](/network/) envían a mapas públicos o que escoitan. A
-  [sección sobre cifrado](#encryption) explica o que segue sendo privado.
-- **Non é ilimitado.** Todos os dunha zona comparten unha soa canle de radio, e
+  [sección de cifrado](#encryption) explica o que segue sendo privado.
+- **Non é ilimitado.** Toda a xente dunha zona comparte unha soa canle de radio, e
   as normas da [banda de 868 MHz](#band) limitan canto tempo pode emitir cada radio.
-  Cada mensaxe quítalles tempo de emisión a todos os demais. Por iso os bots, os anuncios frecuentes
+  Cada mensaxe quítalles tempo de emisión a todos os demais, así que os bots, os anuncios frecuentes
   e as mensaxes de proba fan a malla máis lenta para todos.
-- **Non é Meshtastic.** Meshtastic é un sistema distinto que funciona en
-  placas moi parecidas. Os dous non se poden comunicar entre si.
+- **Non é Meshtastic.** Meshtastic é un sistema diferente que funciona en
+  case as mesmas placas. Os dous non se poden comunicar entre si.
 
 ## A malla nun minuto {#mesh}
 
@@ -178,7 +179,7 @@ estes exemplos en novembro de 2026.
   [leva a cabo un proxecto piloto xunto cos municipios](https://noodnetoverijssel.nl/).
   Usan primeiro a radio de voz, e MeshCore como segunda capa para o texto.
 
-Ninguén che promete que alguén lea a túa mensaxe na malla preto de ti.
+Ninguén sabe se a malla preto de ti funciona nunha emerxencia.
 
 ## De onde veñen os datos {#data}
 

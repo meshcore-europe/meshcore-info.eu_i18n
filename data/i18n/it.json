@@ -3,7 +3,7 @@
     "language": "it",
     "name": "Italiano",
     "managed_by": "community",
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "site_tagline": {
     "value": "Messaggi senza rete in tutta Europa",
@@ -6467,6 +6467,186 @@
     "_ai": true,
     "_seeded": "2026-10-27",
     "_source": "dbcd5e7b"
+  },
+  "booklet_title": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "f4f17278"
+  },
+  "booklet_subtitle": {
+    "value": "Messaggi di testo senza internet",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "567d0b96"
+  },
+  "booklet_keywords": {
+    "value": "Decentralizzato · Gratuito · Open source · Legale",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2c5258e"
+  },
+  "booklet_tagline": {
+    "value": "Invia messaggi via radio, da tetto a tetto. Non ti servono internet né abbonamenti. Partecipa e fatti trovare pronto.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c4ac4359"
+  },
+  "booklet_q_what": {
+    "value": "Che cos'è MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "06eda66b"
+  },
+  "booklet_a_what": {
+    "value": "MeshCore è un software open source che permette a piccole radio dedicate di scambiarsi messaggi in una rete mesh. Funziona senza internet e senza un operatore commerciale.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "78415b19"
+  },
+  "booklet_q_cost": {
+    "value": "Quanto costa?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e8dc9deb"
+  },
+  "booklet_a_cost": {
+    "value": "Per cominciare ti basta un companion (il nome che MeshCore dà al ruolo della radio che riceve). Ne trovi uno a partire da 15 euro, e uno buono costa di solito circa 40. Non ci sono costi fissi come un abbonamento, e non devi registrarti.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2904f1a"
+  },
+  "booklet_q_join": {
+    "value": "Come partecipo?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "4ebf5b3a"
+  },
+  "booklet_a_join": {
+    "value": "Il nostro sito elenca i gruppi vicino a te. Sono volontari che conoscono la mesh e ti aiutano a configurare tutto. Puoi anche informarti da solo e cominciare. È più facile di quanto pensi.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "413528fd"
+  },
+  "booklet_roof_title": {
+    "value": "Un ripetitore sul tuo tetto?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0e152f7d"
+  },
+  "booklet_roof_lead": {
+    "value": "In molte zone la mesh è già ben sviluppata, quindi spesso non ti serve un ripetitore tuo. Dove la copertura è scarsa, un ripetitore può aiutare. Con una buona visuale e una buona altezza inoltra i messaggi a grandi distanze. Puoi comprarne uno già pronto o costruirlo tu. Un ripetitore è una radio, un pannello solare e delle batterie con regolatori di carica.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "52776beb"
+  },
+  "booklet_q_internet": {
+    "value": "Usa la mia connessione internet?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "dc17caa8"
+  },
+  "booklet_a_internet": {
+    "value": "No. Le radio usano frequenze libere, senza licenza. Non hanno bisogno del WiFi. I ripetitori hanno pannelli solari e batterie, quindi restano accesi anche durante un blackout.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "3ed17f21"
+  },
+  "booklet_q_allowed": {
+    "value": "È legale?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "02b9f7c4"
+  },
+  "booklet_a_allowed": {
+    "value": "Sì. Una parte della banda a 868 MHz è di libero uso in tutta Europa. Anche per un ripetitore non serve una licenza. Devi però rispettare le regole.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "20714be9"
+  },
+  "booklet_how_title": {
+    "value": "Come funziona?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c3f15799"
+  },
+  "booklet_how_lead": {
+    "value": "Controlli il tuo companion dal telefono o dal computer. Il companion invia poi i tuoi messaggi via radio al ripetitore più vicino. Da lì passano da tetto a tetto fino al destinatario. Queste radio coprono diversi chilometri.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "bdd12bb9"
+  },
+  "booklet_legend_1": {
+    "value": "Telefono o computer",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0727f861"
+  },
+  "booklet_legend_2": {
+    "value": "Companion: la radio che porti con te",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b95f6187"
+  },
+  "booklet_legend_3": {
+    "value": "Ripetitore: inoltra i messaggi",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c9f24857"
+  },
+  "booklet_legend_4": {
+    "value": "Altri ripetitori, da tetto a tetto",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "82cc3b46"
+  },
+  "booklet_fact_1": {
+    "value": "Quando la rete mobile non funziona, con la mesh puoi comunque raggiungere familiari e amici vicini. Molti ripetitori funzionano con piccoli pannelli solari e batterie. Se funzioni davvero in un'emergenza, nessuno lo sa.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "ce841258"
+  },
+  "booklet_fact_2": {
+    "value": "I messaggi diretti sono cifrati end to end. I canali pubblici sono pubblici, come una chat room.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0755982e"
+  },
+  "booklet_fact_3": {
+    "value": "Solo brevi messaggi di testo: niente voce, foto o internet.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6f9a120d"
+  },
+  "booklet_box": {
+    "value": "Contatto / note",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e30245b1"
+  },
+  "booklet_group_title": {
+    "value": "Trova un gruppo o informati",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "7eb372bc"
+  },
+  "booklet_group_lead": {
+    "value": "Scansiona il codice o visita uno dei siti, come meshcore-info.eu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6e8065fb"
+  },
+  "booklet_about": {
+    "value": "meshcore-info.eu spiega MeshCore per l'Europa in 33 lingue: le impostazioni, le guide e gli strumenti che le mesh locali condividono. Il sito è curato da volontari, e ogni aiuto è benvenuto.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c149933d"
+  },
+  "booklet_machine": {
+    "value": "Questo opuscolo è stato tradotto da una macchina. Un madrelingua non lo ha ancora controllato.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b23f3819"
   },
   "meetings_strip_title": {
     "value": "Prossime 8 settimane",

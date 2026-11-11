@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 Meddalwedd rydd ar gyfer radios LoRa bach yw MeshCore. Techneg radio yw LoRa sy'n anfon ychydig o ddata yn bell, ar ychydig iawn o bŵer. *Nod* yw'r enw ar radio sydd â MeshCore arno. Wedi'i baru â'r ap ar dy ffôn neu dy liniadur, neu gyda'i sgrin a'i fysellfwrdd ei hun, mae'n anfon testun at bobl sydd gilometrau i ffwrdd. Does dim mast, llwybrydd na darparwr yn y canol.
@@ -23,29 +23,30 @@ Cod agored yw'r feddalwedd. Mae'r datblygwyr yn gweithio arni yn
 Wyt ti'n newydd i radio? Dyma'r pethau mae pobl yn eu disgwyl amlaf gan MeshCore, ond nad yw'n eu gwneud.
 
 - **Nid y rhyngrwyd na ffôn yw MeshCore.** Mae MeshCore yn anfon negeseuon testun byr,
-  tua hyd neges destun ar dy ffôn. Does dim llais, lluniau, fideo
+  tua hyd neges destun ar dy ffôn. Dim llais, lluniau, fideo
   na gwefannau, a fedri di ddim cyrraedd rhif ffôn arferol.
-- **Nid gwasanaeth brys yw e.** Does dim gwasanaeth brys yn addo
-  gwrando ar y rhwyll, a does neb yn addo bod rhywun yn darllen dy neges.
+- **Nid gwasanaeth brys yw e.** Does dim gwasanaeth brys yn addo gwrando
+  ar y rhwyll. Rydyn ni'n gwybod bod y rhwyll yn gallu gweithio. Does neb yn gwybod
+  a yw'n gweithio mewn argyfwng.
 - **Dyw e ddim yn syth, a dyw e ddim ym mhobman.** Mae neges yn neidio o radio i
-  radio a gall gymryd ychydig eiliadau, neu beidio cyrraedd o gwbl. Mae p'un a yw hi'n cyrraedd yn dibynnu
-  ar yr ailadroddyddion o dy gwmpas, ar uchder, adeiladau a dy
+  radio a gall gymryd ychydig eiliadau, neu beidio cyrraedd o gwbl. Mae cyrraedd ai
+  peidio yn dibynnu ar yr ailadroddyddion o dy gwmpas, ar uchder, adeiladau a dy
   antena. Yn aml, dyw radio bach dan do ddim yn cyrraedd neb; mae ailadroddydd ar do
-  yn cyrraedd am gilometrau.
+  yn cyrraedd cilometrau.
 - **Nid gwasanaeth mae rhywun yn ei redeg i ti yw e.** Does dim darparwr, dim
-  desg gymorth a dim addewid o ddarpariaeth. Mae'r rhwyll yn bodoli lle mae pobl
-  yn y gymuned wedi codi ailadroddyddion.
-- **Dyw popeth arno ddim yn breifat.** Mae negeseuon uniongyrchol wedi'u hamgryptio, ond
-  gall unrhyw un ddarllen Public a'r sianeli hashnod. Gall pawb o fewn cyrraedd weld
-  enw dy nod a'r lleoliad rwyt ti'n ei rannu.
-  Mae [arsylwyr](/network/) yn anfon yr hyn maen nhw'n ei glywed i fapiau cyhoeddus. Mae'r
+  desg gymorth a dim addewid o ddarpariaeth. Mae'r rhwyll yn bodoli lle mae pobl yn
+  y gymuned wedi codi ailadroddyddion.
+- **Dyw popeth arno ddim yn breifat.** Mae negeseuon uniongyrchol wedi'u hamgryptio,
+  ond gall unrhyw un ddarllen Public a'r sianeli hashnod. Mae enw dy nod a'r
+  safle rwyt ti'n ei rannu i'w gweld gan bawb o fewn cyrraedd.
+  Mae [arsylwyr](/network/) yn adrodd yr hyn maen nhw'n ei glywed i fapiau cyhoeddus. Mae'r
   [adran amgryptio](#encryption) yn esbonio beth sy'n aros yn breifat.
 - **Dyw e ddim yn ddiderfyn.** Mae pawb mewn ardal yn rhannu un sianel radio, ac
-  mae rheolau'r [band 868 MHz](#band) yn cyfyngu ar ba mor hir mae pob radio'n cael anfon.
-  Mae pob neges yn cymryd amser darlledu oddi wrth bawb arall. Felly mae bots, adverts aml
-  a negeseuon prawf yn arafu'r rhwyll i bawb.
-- **Nid Meshtastic yw e.** Mae Meshtastic yn system wahanol sy'n rhedeg ar
-  fwy neu lai yr un byrddau. Fedr y ddwy ddim siarad â'i gilydd.
+  mae rheolau'r [band 868 MHz](#band) yn cyfyngu ar ba mor hir y caiff pob radio anfon.
+  Mae pob neges yn cymryd amser darlledu oddi wrth bawb arall, felly mae botiau, adverts
+  aml a negeseuon prawf yn arafu'r rhwyll i bawb.
+- **Nid Meshtastic yw e.** System wahanol yw Meshtastic sy'n rhedeg ar
+  fyrddau tebyg iawn. Dyw'r ddwy ddim yn gallu siarad â'i gilydd.
 
 ## Y rhwyll mewn munud {#mesh}
 
@@ -133,7 +134,7 @@ Mae rhai awdurdodau'n adeiladu neu'n profi system wrth gefn ar MeshCore. Fe wnae
   [yn rhedeg cynllun peilot ochr yn ochr â'r bwrdeistrefi](https://noodnetoverijssel.nl/).
   Maen nhw'n defnyddio radio llais yn gyntaf, a MeshCore fel ail haen ar gyfer testun.
 
-Does neb yn addo y bydd rhywun yn darllen dy neges ar y rhwyll o dy gwmpas.
+Does neb yn gwybod a yw'r rhwyll o dy gwmpas di'n gweithio mewn argyfwng.
 
 ## O ble mae'r data'n dod {#data}
 

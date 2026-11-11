@@ -3,7 +3,7 @@
     "language": "ca",
     "name": "Català",
     "managed_by": "community",
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "site_tagline": {
     "value": "Missatges sense xarxa per tot Europa",
@@ -6472,6 +6472,186 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "dbcd5e7b"
+  },
+  "booklet_title": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "f4f17278"
+  },
+  "booklet_subtitle": {
+    "value": "Missatges de text sense internet",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "567d0b96"
+  },
+  "booklet_keywords": {
+    "value": "Descentralitzat · Gratuït · Codi obert · Legal",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2c5258e"
+  },
+  "booklet_tagline": {
+    "value": "Envia missatges per ràdio, de terrat a terrat. No necessites internet ni cap subscripció. Uneix-te i estigues preparat.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c4ac4359"
+  },
+  "booklet_q_what": {
+    "value": "Què és MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "06eda66b"
+  },
+  "booklet_a_what": {
+    "value": "MeshCore és programari de codi obert que permet a petites ràdios dedicades passar-se missatges per una xarxa en malla. Funciona sense internet i sense cap proveïdor comercial.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "78415b19"
+  },
+  "booklet_q_cost": {
+    "value": "Quant costa?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e8dc9deb"
+  },
+  "booklet_a_cost": {
+    "value": "Per començar, només necessites un companion (el nom que MeshCore dona al paper de la ràdio a l'extrem receptor). En trobes des de 15 euros, i un de bo sol costar uns 40. No hi ha costos fixos com una subscripció, i no t'has de registrar.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2904f1a"
+  },
+  "booklet_q_join": {
+    "value": "Com m'hi uneixo?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "4ebf5b3a"
+  },
+  "booklet_a_join": {
+    "value": "La nostra web mostra grups a prop teu. Són voluntaris que coneixen la malla i t'ajuden a configurar-ho tot. També pots informar-te pel teu compte i començar. És més fàcil del que et penses.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "413528fd"
+  },
+  "booklet_roof_title": {
+    "value": "Un repetidor al teu terrat?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0e152f7d"
+  },
+  "booklet_roof_lead": {
+    "value": "En molts llocs la malla ja està ben desplegada, així que sovint no necessites un repetidor propi. On la cobertura és dolenta, un repetidor hi pot ajudar. Amb bona visibilitat i bona alçada, pot passar missatges a grans distàncies. En pots comprar un de fet o construir-te'l tu. Un repetidor és una ràdio, una placa solar i bateries amb reguladors de càrrega.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "52776beb"
+  },
+  "booklet_q_internet": {
+    "value": "Fa servir la meva connexió a internet?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "dc17caa8"
+  },
+  "booklet_a_internet": {
+    "value": "No. Les ràdios fan servir freqüències lliures de llicència. No necessiten WiFi. Els repetidors tenen plaques solars i bateries, així que continuen funcionant durant una apagada.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "3ed17f21"
+  },
+  "booklet_q_allowed": {
+    "value": "És legal?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "02b9f7c4"
+  },
+  "booklet_a_allowed": {
+    "value": "Sí. Una part de la banda de 868 MHz és d'ús lliure a tot Europa. Un repetidor tampoc necessita llicència. Això sí, has de complir les normes.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "20714be9"
+  },
+  "booklet_how_title": {
+    "value": "Com funciona?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c3f15799"
+  },
+  "booklet_how_lead": {
+    "value": "Controles el teu companion des del mòbil o l'ordinador. Llavors el teu companion envia els teus missatges per ràdio al repetidor més proper. Des d'allà salten de terrat en terrat fins que arriben al destinatari. Aquestes ràdios cobreixen diversos quilòmetres.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "bdd12bb9"
+  },
+  "booklet_legend_1": {
+    "value": "Mòbil o ordinador",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0727f861"
+  },
+  "booklet_legend_2": {
+    "value": "Companion: la ràdio que portes a sobre",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b95f6187"
+  },
+  "booklet_legend_3": {
+    "value": "Repetidor: passa els missatges",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c9f24857"
+  },
+  "booklet_legend_4": {
+    "value": "Altres repetidors, de terrat en terrat",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "82cc3b46"
+  },
+  "booklet_fact_1": {
+    "value": "Quan la xarxa mòbil cau, la malla encara pot arribar a la teva família i amics propers. Molts repetidors funcionen amb petites plaques solars i bateries. Ningú sap si funcionaria de debò en una emergència.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "ce841258"
+  },
+  "booklet_fact_2": {
+    "value": "Els missatges directes estan xifrats d'extrem a extrem. Els canals públics són públics, com una sala de xat.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0755982e"
+  },
+  "booklet_fact_3": {
+    "value": "Només missatges de text curts: ni veu, ni fotos, ni internet.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6f9a120d"
+  },
+  "booklet_box": {
+    "value": "Contacte / notes",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e30245b1"
+  },
+  "booklet_group_title": {
+    "value": "Troba un grup o informa't",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "7eb372bc"
+  },
+  "booklet_group_lead": {
+    "value": "Escaneja el codi o visita una de les webs, com meshcore-info.eu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6e8065fb"
+  },
+  "booklet_about": {
+    "value": "meshcore-info.eu explica MeshCore per a Europa, en 33 idiomes: la configuració, les guies i les eines que comparteixen les malles locals. Uns voluntaris mantenen la web, i tota ajuda és benvinguda.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c149933d"
+  },
+  "booklet_machine": {
+    "value": "Aquest fullet l'ha traduït una màquina. Encara no l'ha revisat cap parlant nadiu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b23f3819"
   },
   "meetings_strip_title": {
     "value": "Properes 8 setmanes",

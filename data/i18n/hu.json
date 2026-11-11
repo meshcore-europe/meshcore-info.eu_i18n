@@ -3,7 +3,7 @@
     "language": "hu",
     "name": "Magyar",
     "managed_by": "community",
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "site_tagline": {
     "value": "Hálózatfüggetlen üzenetküldés Európa-szerte",
@@ -6472,6 +6472,186 @@
     "_ai": true,
     "_seeded": "2026-10-27",
     "_source": "dbcd5e7b"
+  },
+  "booklet_title": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "f4f17278"
+  },
+  "booklet_subtitle": {
+    "value": "Szöveges üzenetek internet nélkül",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "567d0b96"
+  },
+  "booklet_keywords": {
+    "value": "Decentralizált · Ingyenes · Nyílt forráskódú · Legális",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2c5258e"
+  },
+  "booklet_tagline": {
+    "value": "Küldj üzeneteket rádión, tetőről tetőre. Nem kell hozzá internet, sem előfizetés. Csatlakozz, és légy felkészült.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c4ac4359"
+  },
+  "booklet_q_what": {
+    "value": "Mi a MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "06eda66b"
+  },
+  "booklet_a_what": {
+    "value": "A MeshCore nyílt forráskódú szoftver. Kicsi, erre szolgáló rádiók adják tovább vele az üzeneteket egy mesh hálózaton. Internet és kereskedelmi szolgáltató nélkül működik.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "78415b19"
+  },
+  "booklet_q_cost": {
+    "value": "Mennyibe kerül?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e8dc9deb"
+  },
+  "booklet_a_cost": {
+    "value": "Az induláshoz csak egy companion kell (a MeshCore így nevezi a fogadó oldali rádió szerepét). 15 eurótól kapsz ilyet, egy jó általában kb. 40 euróba kerül. Nincsenek folyamatos költségek, például előfizetés, és regisztrálnod sem kell.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2904f1a"
+  },
+  "booklet_q_join": {
+    "value": "Hogyan csatlakozhatok?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "4ebf5b3a"
+  },
+  "booklet_a_join": {
+    "value": "A weboldalunkon megtalálod a közeledben lévő csoportokat. Önkéntesek, akik ismerik a mesh-t, és segítenek a beállításban. Utána is olvashatsz, és belevághatsz egyedül is. Könnyebb, mint gondolnád.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "413528fd"
+  },
+  "booklet_roof_title": {
+    "value": "Átjátszó a tetődön?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0e152f7d"
+  },
+  "booklet_roof_lead": {
+    "value": "Sok helyen a mesh már jól kiépült, így gyakran nincs szükséged saját átjátszóra. Ahol gyenge a lefedettség, ott egy átjátszó segíthet. Szabad kilátással és jó magasságban nagy távolságra továbbítja az üzeneteket. Vehetsz készet, vagy megépítheted magad. Az átjátszó egy rádió, egy napelem és akkumulátorok töltésvezérlőkkel.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "52776beb"
+  },
+  "booklet_q_internet": {
+    "value": "Az én internetemet használja?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "dc17caa8"
+  },
+  "booklet_a_internet": {
+    "value": "Nem. A rádiók engedélymentes frekvenciákat használnak. Nincs szükségük WiFi-re. Az átjátszóknak napeleme és akkumulátora van, így áramszünetben is működnek.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "3ed17f21"
+  },
+  "booklet_q_allowed": {
+    "value": "Szabad ezt?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "02b9f7c4"
+  },
+  "booklet_a_allowed": {
+    "value": "Igen. A 868 MHz-es sáv egy része egész Európában szabadon használható. Az átjátszóhoz sem kell engedély. A szabályokat viszont be kell tartanod.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "20714be9"
+  },
+  "booklet_how_title": {
+    "value": "Hogyan működik?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c3f15799"
+  },
+  "booklet_how_lead": {
+    "value": "A companionodat a telefonodról vagy a számítógépedről irányítod. A companion rádión elküldi az üzeneteidet a legközelebbi átjátszónak. Onnan tetőről tetőre ugrálnak, amíg el nem érik a címzettet. Ezek a rádiók több kilométert is áthidalnak.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "bdd12bb9"
+  },
+  "booklet_legend_1": {
+    "value": "Telefon vagy számítógép",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0727f861"
+  },
+  "booklet_legend_2": {
+    "value": "Companion: a rádió, amit magadnál hordasz",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b95f6187"
+  },
+  "booklet_legend_3": {
+    "value": "Átjátszó: továbbadja az üzeneteket",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c9f24857"
+  },
+  "booklet_legend_4": {
+    "value": "További átjátszók, tetőről tetőre",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "82cc3b46"
+  },
+  "booklet_fact_1": {
+    "value": "Ha a mobilhálózat leáll, a mesh-en még elérheted a közelben élő családodat és barátaidat. Sok átjátszó kis napelemről és akkumulátorról működik. Hogy vészhelyzetben tényleg működik-e, senki sem tudja.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "ce841258"
+  },
+  "booklet_fact_2": {
+    "value": "A közvetlen üzenetek végponttól végpontig titkosítottak. A nyilvános csatornák nyilvánosak, mint egy csevegőszoba.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0755982e"
+  },
+  "booklet_fact_3": {
+    "value": "Csak rövid szöveges üzenetek: se hang, se fotó, se internet.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6f9a120d"
+  },
+  "booklet_box": {
+    "value": "Kapcsolat / jegyzetek",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e30245b1"
+  },
+  "booklet_group_title": {
+    "value": "Keress egy csoportot, vagy olvass utána",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "7eb372bc"
+  },
+  "booklet_group_lead": {
+    "value": "Olvasd be a kódot, vagy látogass el valamelyik weboldalra, például a meshcore-info.eu oldalra.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6e8065fb"
+  },
+  "booklet_about": {
+    "value": "A meshcore-info.eu 33 nyelven mutatja be a MeshCore-t Európának: a helyi mesh hálózatok közös beállításait, útmutatóit és eszközeit. Önkéntesek tartják fenn az oldalt, és minden segítséget szívesen fogadnak.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c149933d"
+  },
+  "booklet_machine": {
+    "value": "Ezt a füzetet gép fordította. Anyanyelvi beszélő még nem ellenőrizte.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b23f3819"
   },
   "meetings_strip_title": {
     "value": "A következő 8 hét",

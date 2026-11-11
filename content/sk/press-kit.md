@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'f3e63cef'
-  seeded: '2026-11-04'
+  source_hash: '77cff517'
+  seeded: '2026-11-11'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', 'ee7ba544', '6f034862', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', '6f034862', '30deca02', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', 'adb108f8', '9f96bbaa', '4d6fa3ea', '442015ad', 'd5de6ea4', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## O stránke {#about}
@@ -28,6 +28,18 @@ Skopíruj ktorýkoľvek text tak, ako je, alebo ho skráť. Stránku uvádzaj ak
 Tieto odkazy zaberajú v správe v sieti mesh menej miesta. Každý sa otvorí v jazyku toho, kto naň ťukne. Každý názov, ktorý raz vydáme, udržiavame funkčný.
 
 {{< short-links >}}
+
+## Brožúra {#booklet}
+
+[![Rozložená brožúra: na zadnej strane prázdne políčko na kontakt, na prednej strane mesto zhora so svojou sieťou](/media/booklet/meshcore-info-booklet-thumb.webp)](/media/booklet/meshcore-info-booklet-en.pdf)
+
+Túto brožúru rozdávaj na stánku alebo ju daj majiteľovi strechy, ktorú by si chcel použiť. Odpovedá na prvé otázky: čo je MeshCore, koľko stojí, ako funguje, čo obnáša repeater na streche a ako nájdeš svoju miestnu skupinu. Na zadnej strane je miesto na tvoje vlastné kontaktné údaje.
+
+1. [Stiahni si brožúru ako PDF](/media/booklet/meshcore-info-booklet-en.pdf), 1 hárok A4.
+2. Vytlač ju obojstranne s otáčaním po kratšej strane, v mierke 100 %.
+3. Do prázdneho políčka napíš svoje meno alebo skupinu a hárok raz prelož.
+
+Vytlač si ich, koľko chceš. Brožúra je zatiaľ po anglicky. Ďalšie jazyky pribudnú, keď ich preložíme.
 
 ## Logo {#logo}
 

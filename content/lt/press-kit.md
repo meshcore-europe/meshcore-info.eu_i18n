@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'f3e63cef'
-  seeded: '2026-11-04'
+  source_hash: '77cff517'
+  seeded: '2026-11-11'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', 'ee7ba544', '6f034862', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', '6f034862', '30deca02', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', 'adb108f8', '9f96bbaa', '4d6fa3ea', '442015ad', 'd5de6ea4', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Svetainės aprašymas {#about}
@@ -30,6 +30,18 @@ ją paspaudusio žmogaus kalba. Kai suteikiame pavadinimą, pasirūpiname, kad j
 veiktų ir toliau.
 
 {{< short-links >}}
+
+## Brošiūra {#booklet}
+
+[![Išskleista brošiūra: galinėje pusėje tuščias kontaktų laukelis, o priekinėje miestas iš viršaus su savo tinklu](/media/booklet/meshcore-info-booklet-thumb.webp)](/media/booklet/meshcore-info-booklet-en.pdf)
+
+Dalyk šią brošiūrą stende arba duok ją stogo, kurį norėtum panaudoti, savininkui. Joje rasi atsakymus į pirmuosius klausimus: kas yra MeshCore, kiek tai kainuoja, kaip tai veikia, ką reiškia retransliatorius ant stogo ir kaip rasti savo vietinę grupę. Kitoje pusėje yra vietos tavo kontaktiniams duomenims.
+
+1. [Atsisiųsk brošiūrą PDF formatu](/media/booklet/meshcore-info-booklet-en.pdf), 1 A4 lapas.
+2. Atspausdink ją ant abiejų lapo pusių, vartant per trumpąjį kraštą, 100% mastu.
+3. Tuščiame laukelyje įrašyk savo vardą arba grupės pavadinimą ir vieną kartą sulenk lapą.
+
+Spausdink tiek, kiek nori. Kol kas brošiūra yra anglų kalba. Kitomis kalbomis ji pasirodys, kai bus išversta.
 
 ## Logotipas {#logo}
 

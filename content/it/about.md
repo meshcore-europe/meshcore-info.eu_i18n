@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore è un software gratuito per piccole radio LoRa. LoRa è una tecnica radio
@@ -29,28 +29,28 @@ Sei alle prime armi con la radio? Ecco le cose che la gente si aspetta più spes
 da MeshCore, e che MeshCore non fa.
 
 - **Non è internet e non è un telefono.** MeshCore manda brevi messaggi di testo,
-  lunghi più o meno come un SMS sul tuo telefono. Niente voce, foto, video
+  lunghi più o meno come un SMS sul telefono. Niente voce, foto, video
   o siti web, e non puoi raggiungere un normale numero di telefono.
-- **Non è un servizio di emergenza.** Nessun servizio di emergenza promette di
-  ascoltare la mesh, e nessuno promette che qualcuno legga il tuo messaggio.
-- **Non è istantaneo, e non c'è ovunque.** Un messaggio salta da una radio
-  all'altra e può metterci qualche secondo, oppure non arrivare affatto. Se
-  passa o no dipende dai ripetitori intorno a te, dall'altezza, dagli edifici
-  e dalla tua antenna. Una piccola radio in casa spesso non raggiunge nessuno.
-  Un ripetitore su un tetto arriva a chilometri di distanza.
-- **Non è un servizio che qualcuno gestisce per te.** Non ci sono provider,
-  assistenza o promesse di copertura. La mesh esiste dove le persone della
-  comunità hanno installato dei ripetitori.
-- **Non tutto è privato.** I messaggi diretti sono cifrati. Il canale Public
-  e i canali hashtag invece li può leggere chiunque. Il nome del tuo nodo e
-  la posizione che condividi sono visibili a tutti nel raggio di ricezione.
-  Gli [observer](/network/) riportano su mappe pubbliche ciò che ricevono. La
+- **Non è un servizio di emergenza.** Nessun servizio di emergenza si impegna
+  ad ascoltare la mesh. Sappiamo che la mesh può funzionare. Se funzioni anche in
+  un'emergenza, nessuno lo sa.
+- **Non è istantaneo, e non arriva ovunque.** Un messaggio salta da radio a
+  radio e può metterci qualche secondo, oppure non arrivare affatto. Se arriva o no
+  dipende dai ripetitori intorno a te, dall'altezza, dagli edifici e dalla tua
+  antenna. Una piccola radio in casa spesso non raggiunge nessuno. Un ripetitore
+  su un tetto arriva a chilometri.
+- **Non è un servizio che qualcuno gestisce per te.** Non c'è un provider, né
+  un helpdesk, né una copertura garantita. La mesh esiste dove le persone della
+  community hanno installato dei ripetitori.
+- **Non tutto quello che passa sulla mesh è privato.** I messaggi diretti sono cifrati. Public e i canali
+  con l'hashtag invece li può leggere chiunque. Il nome del tuo nodo e la
+  posizione che condividi sono visibili a chiunque sia nel raggio di ricezione.
+  Gli [observer](/network/) riportano su mappe pubbliche ciò che sentono. La
   [sezione sulla cifratura](#encryption) spiega che cosa resta privato.
-- **Non è illimitato.** Tutti in una zona condividono un solo canale radio, e
+- **Non è illimitato.** In una zona tutti condividono un solo canale radio, e
   le regole per la [banda 868 MHz](#band) limitano quanto a lungo ogni radio
-  può trasmettere. Ogni messaggio toglie tempo di trasmissione a tutti gli
-  altri. Bot, annunci frequenti e messaggi di prova rallentano quindi la mesh
-  per tutti.
+  può trasmettere. Ogni messaggio toglie tempo di trasmissione a tutti gli altri.
+  Per questo bot, annunci frequenti e messaggi di prova rallentano la mesh per tutti.
 - **Non è Meshtastic.** Meshtastic è un sistema diverso che gira più o meno
   sulle stesse schede. I due sistemi non possono comunicare tra loro.
 
@@ -183,7 +183,7 @@ verificato questi esempi a novembre 2026.
   [portano avanti un progetto pilota insieme ai comuni](https://noodnetoverijssel.nl/).
   Usano prima di tutto la radio in fonia e MeshCore come secondo livello per il testo.
 
-Nessuno ti garantisce che qualcuno legga il tuo messaggio sulla mesh della tua zona.
+Nessuno sa se la mesh vicino a te funziona in caso di emergenza.
 
 ## Da dove vengono i dati {#data}
 

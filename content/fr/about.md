@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore est un logiciel libre pour de petites radios LoRa. LoRa est une technique radio qui transmet peu de données très loin, avec très peu d'énergie. Une radio équipée de MeshCore s'appelle un *nœud*. Tu l'associes à l'application sur ton téléphone ou ton ordinateur, ou tu utilises son propre écran et son clavier. Tu envoies alors du texte à des personnes situées à des kilomètres. Aucune antenne relais, aucun routeur et aucun opérateur ne se trouve entre toi et eux.
@@ -22,29 +22,30 @@ Le logiciel est open source. Son développement se fait sur [meshcore-dev/MeshCo
 Tu débutes en radio ? Voici ce que les gens attendent le plus souvent de MeshCore, et qu'il ne fait pas.
 
 - **Ce n'est ni Internet ni un téléphone.** MeshCore envoie de courts messages texte,
-  à peu près de la longueur d'un SMS sur ton téléphone. Pas de voix, de photos, de vidéo
-  ni de sites web, et tu ne peux pas joindre un numéro de téléphone classique.
-- **Ce n'est pas un service d'urgence.** Aucun service d'urgence ne s'engage à
-  écouter le maillage, et personne ne garantit que quelqu'un lise ton message.
-- **Ce n'est pas instantané, et pas partout.** Un message saute de radio en
-  radio et peut prendre quelques secondes, ou ne jamais arriver. Qu'il passe ou non
-  dépend des répéteurs autour de toi, de la hauteur, des bâtiments et de ton
-  antenne. Une petite radio à l'intérieur n'atteint souvent personne. Un répéteur sur un toit
+  à peu près de la longueur d'un SMS sur ton téléphone. Pas de voix, de photos, de vidéos
+  ni de sites web, et tu ne peux pas joindre un numéro de téléphone normal.
+- **Ce n'est pas un service d'urgence.** Aucun service d'urgence ne s'engage à écouter
+  le maillage. Nous savons que le maillage peut fonctionner. Personne ne sait
+  s'il fonctionne lors d'une urgence.
+- **Ce n'est ni instantané, ni disponible partout.** Un message saute de radio en
+  radio et peut prendre quelques secondes, ou ne jamais arriver. Son acheminement dépend
+  des répéteurs autour de toi, de la hauteur, des bâtiments et de ton antenne.
+  Une petite radio à l'intérieur n'atteint souvent personne. Un répéteur sur un toit
   porte à des kilomètres.
-- **Ce n'est pas un service que quelqu'un gère pour toi.** Il n'y a pas de fournisseur, pas
-  d'assistance et aucune promesse de couverture. Le maillage existe là où des membres
+- **Ce n'est pas un service que quelqu'un gère pour toi.** Il n'y a ni opérateur,
+  ni assistance, ni promesse de couverture. Le maillage existe là où des membres
   de la communauté ont installé des répéteurs.
-- **Tout n'y est pas privé.** Les messages directs sont chiffrés. En revanche,
-  tout le monde peut lire Public et les canaux hashtag. Le nom de ton nœud
-  et la position que tu partages sont visibles par tous ceux qui sont à portée.
-  Les [observateurs](/network/) remontent ce qu'ils captent vers des cartes publiques. La
-  [section sur le chiffrement](#encryption) explique ce qui reste privé.
-- **Ce n'est pas illimité.** Dans une zone, tout le monde partage un seul canal radio, et
-  les règles de la [bande 868 MHz](#band) limitent la durée d'émission de chaque radio.
+- **Tout n'y est pas privé.** Les messages directs sont chiffrés. Mais tout le monde
+  peut lire Public et les canaux hashtag, et toute personne à portée voit le nom de
+  ton nœud et la position que tu partages.
+  Les [observateurs](/network/) transmettent ce qu'ils entendent à des cartes publiques.
+  La [section sur le chiffrement](#encryption) explique ce qui reste privé.
+- **Ce n'est pas illimité.** Dans une zone, tout le monde partage un seul canal radio,
+  et les règles de la [bande 868 MHz](#band) limitent la durée d'émission de chaque radio.
   Chaque message prend du temps d'antenne à tous les autres. Les bots, les annonces fréquentes
-  et les messages de test ralentissent donc le maillage pour tout le monde.
-- **Ce n'est pas Meshtastic.** Meshtastic est un autre système qui tourne sur
-  à peu près les mêmes cartes. Les deux ne peuvent pas communiquer entre eux.
+  et les messages de test ralentissent donc le maillage pour tous.
+- **Ce n'est pas Meshtastic.** Meshtastic est un autre système qui tourne en grande partie sur
+  les mêmes cartes. Les deux ne peuvent pas communiquer entre eux.
 
 ## Le maillage en une minute {#mesh}
 
@@ -136,7 +137,7 @@ ces exemples en novembre 2026.
   [mènent un projet pilote aux côtés des communes](https://noodnetoverijssel.nl/).
   Ils misent d'abord sur la radio en phonie, puis sur MeshCore comme seconde couche pour les messages texte.
 
-Personne ne garantit que quelqu'un lise ton message sur le maillage autour de toi.
+Personne ne sait si le maillage près de chez toi fonctionne en cas d'urgence.
 
 ## D'où viennent les données {#data}
 

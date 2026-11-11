@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore er gratis programvare for små LoRa-radioer. LoRa er en radioteknikk
@@ -31,25 +31,26 @@ det ikke gjør.
 - **Det er ikke internett eller en telefon.** MeshCore sender korte tekstmeldinger,
   omtrent like lange som en SMS på telefonen. Ingen tale, bilder, video
   eller nettsider, og du kan ikke nå et vanlig telefonnummer.
-- **Det er ikke en nødtjeneste.** Ingen nødtjeneste lover å lytte på meshen,
-  og ingen lover at noen leser meldingen din.
+- **Det er ikke en nødtjeneste.** Ingen nødtjeneste lover å lytte på
+  meshen. Vi vet at meshen kan fungere. Om den fungerer i en nødsituasjon,
+  vet ingen.
 - **Det er ikke umiddelbart, og ikke overalt.** En melding hopper fra radio til
-  radio og kan ta noen sekunder, eller ikke komme fram i det hele tatt. Om den
-  kommer gjennom, avhenger av repeaterne rundt deg, av høyde, bygninger og
-  antennen din. En liten radio innendørs når ofte ingen; en repeater på et tak
-  når flere kilometer.
-- **Det er ikke en tjeneste noen drifter for deg.** Det finnes ingen leverandør,
+  radio og kan ta noen sekunder, eller ikke komme frem i det hele tatt. Om den
+  kommer frem, avhenger av repeaterne rundt deg, av høyde, bygninger og antennen
+  din. En liten radio innendørs når ofte ingen. En repeater på et tak når
+  flere kilometer.
+- **Det er ikke en tjeneste noen driver for deg.** Det finnes ingen leverandør,
   ingen brukerstøtte og ingen dekningsgaranti. Meshen finnes der folk i
-  miljøet har satt opp repeatere.
-- **Ikke alt på meshen er privat.** Direktemeldinger er kryptert, men alle kan
-  lese Public og hashtag-kanalene. Navnet på noden din og posisjonen du deler,
-  er synlige for alle innen rekkevidde.
+  fellesskapet har satt opp repeatere.
+- **Ikke alt på meshen er privat.** Direktemeldinger er kryptert, men
+  Public og hashtag-kanalene kan leses av alle. Navnet på noden din og
+  posisjonen du deler, er synlige for alle innen rekkevidde.
   [Observatører](/network/) rapporterer det de hører, til offentlige kart.
   [Avsnittet om kryptering](#encryption) forklarer hva som forblir privat.
 - **Det er ikke ubegrenset.** Alle i et område deler én radiokanal, og
   reglene for [868 MHz-båndet](#band) begrenser hvor lenge hver radio får sende.
-  Hver melding tar sendetid fra alle andre. Boter, hyppige adverts og
-  testmeldinger gjør derfor meshen tregere for alle.
+  Hver melding tar sendetid fra alle andre. Derfor gjør boter, hyppige adverts
+  og testmeldinger meshen tregere for alle.
 - **Det er ikke Meshtastic.** Meshtastic er et annet system som kjører på
   stort sett de samme kortene. De to kan ikke snakke med hverandre.
 
@@ -183,7 +184,7 @@ disse eksemplene i november 2026.
   [driver frivillige et pilotprosjekt sammen med kommunene](https://noodnetoverijssel.nl/).
   De bruker taleradio først og MeshCore som et andre lag for tekst.
 
-Ingen lover at noen på meshen i nærheten av deg leser meldingen din.
+Om meshen i nærheten av deg fungerer i en nødsituasjon, er det ingen som vet.
 
 ## Hvor dataene kommer fra {#data}
 

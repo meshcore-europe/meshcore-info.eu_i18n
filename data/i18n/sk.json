@@ -3,7 +3,7 @@
     "language": "sk",
     "name": "Slovenčina",
     "managed_by": "community",
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "site_tagline": {
     "value": "Správy mimo siete po celej Európe",
@@ -6472,6 +6472,186 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "dbcd5e7b"
+  },
+  "booklet_title": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "f4f17278"
+  },
+  "booklet_subtitle": {
+    "value": "Textové správy bez internetu",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "567d0b96"
+  },
+  "booklet_keywords": {
+    "value": "Decentralizovaný · Zadarmo · Open source · Legálny",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2c5258e"
+  },
+  "booklet_tagline": {
+    "value": "Posielaj správy rádiom, zo strechy na strechu. Nepotrebuješ internet ani predplatné. Pridaj sa a buď pripravený.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c4ac4359"
+  },
+  "booklet_q_what": {
+    "value": "Čo je MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "06eda66b"
+  },
+  "booklet_a_what": {
+    "value": "MeshCore je open source softvér pre malé, špecializované rádiá. Tie si cez mesh sieť odovzdávajú správy. Funguje bez internetu a bez komerčného poskytovateľa.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "78415b19"
+  },
+  "booklet_q_cost": {
+    "value": "Koľko to stojí?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e8dc9deb"
+  },
+  "booklet_a_cost": {
+    "value": "Na začiatok potrebuješ iba companion (tak MeshCore nazýva rolu rádia na prijímacej strane). Zoženieš ho od 15 eur, dobrý zvyčajne stojí okolo 40. Nemáš žiadne priebežné náklady, napríklad predplatné, a nemusíš sa registrovať.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2904f1a"
+  },
+  "booklet_q_join": {
+    "value": "Ako sa pridám?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "4ebf5b3a"
+  },
+  "booklet_a_join": {
+    "value": "Na našom webe nájdeš skupiny vo svojom okolí. Sú to dobrovoľníci, ktorí poznajú mesh a pomôžu ti so zapojením. Môžeš si o tom aj prečítať a rovno začať. Je to ľahšie, než si myslíš.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "413528fd"
+  },
+  "booklet_roof_title": {
+    "value": "Repeater na tvojej streche?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0e152f7d"
+  },
+  "booklet_roof_lead": {
+    "value": "Na mnohých miestach je mesh už dobre vybudovaný, takže vlastný repeater často nepotrebuješ. Kde je pokrytie slabé, repeater môže pomôcť. S voľným výhľadom a dobrou výškou odovzdá správy na veľké vzdialenosti. Môžeš si ho kúpiť hotový alebo postaviť sám. Repeater tvorí rádio, solárny panel a batérie s regulátormi nabíjania.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "52776beb"
+  },
+  "booklet_q_internet": {
+    "value": "Využíva môj internet?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "dc17caa8"
+  },
+  "booklet_a_internet": {
+    "value": "Nie. Rádiá používajú frekvencie bez licencie. Nepotrebujú WiFi. Repeatery majú solárne panely a batérie, takže fungujú aj pri výpadku prúdu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "3ed17f21"
+  },
+  "booklet_q_allowed": {
+    "value": "Je to povolené?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "02b9f7c4"
+  },
+  "booklet_a_allowed": {
+    "value": "Áno. Časť pásma 868 MHz je v celej Európe voľne použiteľná. Ani repeater nepotrebuje licenciu. Pravidlá však musíš dodržiavať.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "20714be9"
+  },
+  "booklet_how_title": {
+    "value": "Ako to funguje?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c3f15799"
+  },
+  "booklet_how_lead": {
+    "value": "Svoj companion ovládaš z telefónu alebo počítača. Companion potom pošle tvoje správy rádiom najbližšiemu repeateru. Odtiaľ preskakujú zo strechy na strechu, kým nedorazia k príjemcovi. Tieto rádiá preklenú niekoľko kilometrov.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "bdd12bb9"
+  },
+  "booklet_legend_1": {
+    "value": "Telefón alebo počítač",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0727f861"
+  },
+  "booklet_legend_2": {
+    "value": "Companion: rádio, ktoré nosíš pri sebe",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b95f6187"
+  },
+  "booklet_legend_3": {
+    "value": "Repeater: odovzdáva správy ďalej",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c9f24857"
+  },
+  "booklet_legend_4": {
+    "value": "Ďalšie repeatery, zo strechy na strechu",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "82cc3b46"
+  },
+  "booklet_fact_1": {
+    "value": "Keď mobilná sieť nefunguje, cez mesh sa stále môžeš spojiť s rodinou a priateľmi v okolí. Mnohé repeatery bežia na malých solárnych paneloch a batériách. Či to v núdzi naozaj funguje, nevie nikto.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "ce841258"
+  },
+  "booklet_fact_2": {
+    "value": "Priame správy sú šifrované end-to-end. Verejné kanály sú verejné, ako chatovacia miestnosť.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0755982e"
+  },
+  "booklet_fact_3": {
+    "value": "Iba krátke textové správy: žiadny hlas, fotky ani internet.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6f9a120d"
+  },
+  "booklet_box": {
+    "value": "Kontakt / poznámky",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e30245b1"
+  },
+  "booklet_group_title": {
+    "value": "Nájdi skupinu alebo si o tom prečítaj",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "7eb372bc"
+  },
+  "booklet_group_lead": {
+    "value": "Naskenuj kód alebo navštív niektorý z webov, napríklad meshcore-info.eu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6e8065fb"
+  },
+  "booklet_about": {
+    "value": "meshcore-info.eu vysvetľuje MeshCore pre Európu v 33 jazykoch: nastavenia, návody a nástroje, ktoré miestne mesh siete zdieľajú. Web prevádzkujú dobrovoľníci a pomoc je vítaná.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c149933d"
+  },
+  "booklet_machine": {
+    "value": "Túto brožúru preložil stroj. Rodený hovoriaci ju zatiaľ neskontroloval.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b23f3819"
   },
   "meetings_strip_title": {
     "value": "Najbližších 8 týždňov",

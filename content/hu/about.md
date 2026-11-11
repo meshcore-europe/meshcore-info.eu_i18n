@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 A MeshCore ingyenes szoftver kis LoRa rádiókhoz. A LoRa olyan rádiós technika,
@@ -28,28 +28,29 @@ licenc alatt.
 Új vagy a rádiózásban? Ezeket várják az emberek a leggyakrabban a MeshCore-tól,
 pedig nem képes rájuk.
 
-- **Nem internet és nem telefon.** A MeshCore rövid szöveges üzeneteket küld,
-  nagyjából olyan hosszúakat, mint egy SMS a telefonodon. Nincs hang, fotó, videó vagy weboldal,
-  és normál telefonszámot sem érhetsz el vele.
-- **Nem segélyhívó szolgálat.** Egyetlen segélyszolgálat sem vállalja, hogy
-  figyeli a mesh-t. Senki sem ígéri, hogy valaki elolvassa az üzenetedet.
-- **Nem azonnali, és nem működik mindenhol.** Az üzenet rádióról rádióra ugrik.
+- **Nem internet, és nem telefon.** A MeshCore rövid szöveges üzeneteket küd,
+  nagyjából akkorát, mint egy SMS a telefonodon. Nincs hang, fotó, videó vagy weboldal,
+  és hagyományos telefonszámot sem érhetsz el vele.
+- **Nem segélyhívó szolgáltatás.** Egyetlen segélyhívó szolgálat sem vállalja,
+  hogy figyeli a mesh-t. Tudjuk, hogy a mesh működhet. Hogy vészhelyzetben
+  működik-e, azt senki sem tudja.
+- **Nem azonnali, és nem működik mindenhol.** Egy üzenet rádióról rádióra ugrik.
   Ez eltarthat néhány másodpercig, vagy az üzenet meg sem érkezik. Hogy átjut-e,
-  az a környékeden lévő átjátszóktól függ, a magasságtól, az épületektől és az
-  antennádtól. Egy kis rádió beltérben gyakran senkit sem ér el. Egy tetőre szerelt
-  átjátszó kilométerekre elér.
-- **Nem olyan szolgáltatás, amelyet valaki üzemeltet neked.** Nincs szolgáltató, nincs
-  ügyfélszolgálat, és nincs lefedettségi ígéret. A mesh ott létezik, ahol a
+  az a környékeden lévő átjátszókon, a magasságon, az épületeken és az antennádon
+  múlik. Egy kis rádió beltérben gyakran senkit sem ér el. Egy tetőn lévő átjátszó
+  kilométerekre is elér.
+- **Nem olyan szolgáltatás, amelyet valaki üzemeltet neked.** Nincs szolgáltató,
+  nincs ügyfélszolgálat, és nincs lefedettségi ígéret. A mesh ott létezik, ahol a
   közösség tagjai átjátszókat telepítettek.
-- **Nem minden privát rajta.** A közvetlen üzenetek titkosítottak. A Public és a
-  hashtag-csatornák viszont bárki számára olvashatók. A csomópontod nevét és
-  megosztott pozícióját a hatótávon belül mindenki látja.
-  A [megfigyelők](/network/) nyilvános térképekre jelentik, amit hallanak. A
+- **Nem minden privát a mesh-en.** A közvetlen üzenetek titkosítottak. A Public és a
+  hashtages csatornákat viszont bárki olvashatja. A csomópontod nevét és a megosztott
+  pozíciódat mindenki látja, aki hatótávon belül van.
+  A [megfigyelők](/network/) nyilvános térképekre küldik, amit hallanak. A
   [titkosításról szóló rész](#encryption) elmagyarázza, mi marad privát.
-- **Nem korlátlan.** Egy környéken mindenki egyetlen rádiócsatornán osztozik. A
-  [868 MHz-es sáv](#band) szabályai korlátozzák, mennyi ideig adhat egy rádió.
-  Minden üzenet adásidőt vesz el a többiektől. Ezért a botok, a gyakori advertek
-  és a tesztüzenetek mindenki számára lassítják a mesh-t.
+- **Nem korlátlan.** Egy területen mindenki egyetlen rádiós csatornán osztozik. A
+  [868 MHz-es sáv](#band) szabályai korlátozzák, mennyi ideig adhat egy-egy rádió.
+  Minden üzenet adásidőt vesz el mindenki mástól. A botok, a gyakori advertek és a
+  tesztüzenetek ezért mindenkinek lassítják a mesh-t.
 - **Nem Meshtastic.** A Meshtastic egy másik rendszer, amely nagyjából ugyanazokon
   a paneleken fut. A kettő nem tud egymással kommunikálni.
 
@@ -176,7 +177,7 @@ Néhány hatóság MeshCore-alapú tartalékrendszert épít vagy tesztel. Ezeke
   [kísérleti projektet visznek az önkormányzatokkal közösen](https://noodnetoverijssel.nl/).
   Elsősorban hangrádiót használnak, a szöveges üzenetekhez pedig második rétegként a MeshCore-t.
 
-Senki sem ígéri, hogy a közeledben lévő meshen valaki elolvassa az üzenetedet.
+Senki sem tudja, hogy a közeledben lévő mesh működik-e vészhelyzetben.
 
 ## Honnan származnak az adatok {#data}
 

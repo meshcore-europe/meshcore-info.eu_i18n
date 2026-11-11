@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore on ilmainen ohjelmisto pienille LoRa-radioille. LoRa on radiotekniikka,
@@ -27,29 +27,29 @@ Onko radio sinulle uusi asia? Näitä ihmiset odottavat MeshCorelta useimmin,
 mutta se ei tee niitä.
 
 - **Se ei ole internet eikä puhelin.** MeshCore lähettää lyhyitä tekstiviestejä,
-  suunnilleen puhelimesi tekstiviestin mittaisia. Ääntä, kuvia, videota
-  tai verkkosivuja ei voi lähettää, etkä tavoita tavallista puhelinnumeroa.
-- **Se ei ole hätäpalvelu.** Mikään hätäpalvelu ei lupaa kuunnella meshiä,
-  eikä kukaan lupaa, että joku lukee viestisi.
-- **Se ei ole välitön eikä toimi kaikkialla.** Viesti hyppää radiolta
-  radiolle. Se voi viedä muutaman sekunnin, tai se ei mene perille
-  lainkaan. Perille pääsy riippuu ympärilläsi olevista toistimista,
-  korkeudesta, rakennuksista ja antennistasi. Sisätiloissa pieni radio ei
-  usein tavoita ketään. Katolla oleva toistin kantaa kilometrien päähän.
+  suunnilleen puhelimen tekstiviestin mittaisia. Ääntä, kuvia, videota tai
+  verkkosivuja ei ole, etkä tavoita tavallista puhelinnumeroa.
+- **Se ei ole hätäpalvelu.** Mikään hätäpalvelu ei lupaa kuunnella meshiä.
+  Tiedämme, että mesh voi toimia. Toimiiko se hätätilanteessa, sitä ei tiedä kukaan.
+- **Se ei ole välitön eikä toimi kaikkialla.** Viesti hyppää radiosta radioon.
+  Se voi viedä muutaman sekunnin, tai viesti ei tule perille lainkaan. Viestin
+  perillemeno riippuu ympärilläsi olevista toistimista, korkeudesta, rakennuksista ja
+  antennistasi. Pieni radio sisätiloissa ei usein tavoita ketään. Katolla oleva
+  toistin kantaa kilometrien päähän.
 - **Se ei ole palvelu, jota joku ylläpitää puolestasi.** Palveluntarjoajaa,
-  tukipalvelua tai kuuluvuuslupausta ei ole. Mesh on olemassa siellä,
-  missä yhteisön ihmiset ovat pystyttäneet toistimia.
-- **Kaikki meshissä ei ole yksityistä.** Yksityisviestit on salattu, mutta
-  Public-kanavaa ja hashtag-kanavia voi lukea kuka tahansa. Solmusi nimen
-  ja jakamasi sijainnin näkevät kaikki kantaman sisällä.
+  tukipalvelua tai kuuluvuuslupausta ei ole. Mesh on olemassa siellä, missä
+  yhteisön ihmiset ovat pystyttäneet toistimia.
+- **Kaikki meshissä ei ole yksityistä.** Yksityisviestit on salattu. Public-kanavaa
+  ja hashtag-kanavia voi kuitenkin lukea kuka tahansa. Solmusi nimen ja jakamasi
+  sijainnin näkevät kaikki kantaman sisällä.
   [Tarkkailijat](/network/) raportoivat kuulemansa julkisille kartoille.
-  [Salausta käsittelevä osio](#encryption) kertoo, mikä pysyy yksityisenä.
-- **Se ei ole rajaton.** Kaikki alueen käyttäjät jakavat yhden radiokanavan,
-  ja [868 MHz:n kaistan](#band) säännöt rajoittavat, kuinka kauan kukin
-  radio saa lähettää. Jokainen viesti vie lähetysaikaa kaikilta muilta.
-  Siksi botit, tiheät ilmoitukset ja testiviestit hidastavat meshiä kaikille.
-- **Se ei ole Meshtastic.** Meshtastic on eri järjestelmä, joka toimii
-  pitkälti samoilla piirilevyillä. Ne eivät pysty viestimään keskenään.
+  [Salausosio](#encryption) kertoo, mikä pysyy yksityisenä.
+- **Se ei ole rajaton.** Kaikki alueen käyttäjät jakavat yhden radiokanavan.
+  [868 MHz:n kaistan](#band) säännöt rajoittavat, kuinka kauan kukin radio saa
+  lähettää. Jokainen viesti vie lähetysaikaa kaikilta muilta. Siksi botit, tiheät
+  ilmoitukset ja testiviestit hidastavat meshiä kaikille.
+- **Se ei ole Meshtastic.** Meshtastic on eri järjestelmä, joka toimii pitkälti
+  samoilla piirilevyillä. Nämä kaksi eivät pysty viestimään keskenään.
 
 ## Mesh minuutissa {#mesh}
 
@@ -176,7 +176,7 @@ Jotkin viranomaiset rakentavat tai testaavat MeshCoreen perustuvaa varayhteyttä
   [vetävät pilottia yhdessä kuntien kanssa](https://noodnetoverijssel.nl/).
   He käyttävät ensisijaisesti puheradiota ja MeshCorea toisena kerroksena tekstiviestintään.
 
-Kukaan ei lupaa, että joku lukee viestisi lähelläsi olevassa meshissä.
+Toimiiko lähelläsi oleva mesh hätätilanteessa, sitä ei tiedä kukaan.
 
 ## Mistä tiedot tulevat {#data}
 

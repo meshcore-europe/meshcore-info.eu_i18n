@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore er gratis software til små LoRa-radioer. LoRa er en radioteknik,
@@ -28,13 +28,31 @@ MIT-licensen.
 Er du ny inden for radio? Her er det, folk oftest forventer af MeshCore,
 og som det ikke kan.
 
-- **Det er hverken internettet eller en telefon.** MeshCore sender korte tekstbeskeder, cirka så lange som en sms på din telefon. Ingen tale, billeder, video eller hjemmesider, og du kan ikke nå et almindeligt telefonnummer.
-- **Det er ikke en nødtjeneste.** Ingen nødtjeneste lover at lytte med på meshet, og ingen lover, at nogen læser din besked.
-- **Det er ikke øjeblikkeligt, og det er ikke overalt.** En besked hopper fra radio til radio og kan tage et par sekunder eller slet ikke nå frem. Om den kommer igennem, afhænger af repeaterne omkring dig, af højde, bygninger og din antenne. En lille radio indendørs når ofte ingen. En repeater på et tag når kilometer væk.
-- **Det er ikke en tjeneste, som nogen driver for dig.** Der er ingen udbyder, ingen helpdesk og intet løfte om dækning. Meshet findes der, hvor folk i fællesskabet har sat repeatere op.
-- **Ikke alt på det er privat.** Direkte beskeder er krypterede. Public og hashtag-kanalerne kan derimod læses af alle. Din nodes navn og delte position kan ses af alle inden for rækkevidde. [Observere](/network/) melder det, de hører, videre til offentlige kort. [Afsnittet om kryptering](#encryption) forklarer, hvad der forbliver privat.
-- **Det er ikke ubegrænset.** Alle i et område deler én radiokanal. Reglerne for [868 MHz-båndet](#band) begrænser, hvor længe hver radio må sende. Hver besked tager sendetid fra alle andre. Bots, hyppige adverts og testbeskeder gør derfor meshet langsommere for alle.
-- **Det er ikke Meshtastic.** Meshtastic er et andet system, der kører på stort set de samme boards. De to kan ikke tale sammen.
+- **Det er ikke internettet eller en telefon.** MeshCore sender korte tekstbeskeder,
+  cirka så lange som en sms på din telefon. Ingen tale, fotos, video
+  eller hjemmesider, og du kan ikke ringe eller skrive til et almindeligt telefonnummer.
+- **Det er ikke en nødtjeneste.** Ingen nødtjeneste lover at
+  lytte med på meshet. Vi ved, at meshet kan virke. Om det virker i en
+  nødsituation, ved ingen.
+- **Det er ikke øjeblikkeligt og ikke overalt.** En besked hopper fra radio til
+  radio og kan tage et par sekunder eller slet ikke nå frem. Om den kommer
+  igennem, afhænger af repeaterne omkring dig, af højde, bygninger og din
+  antenne. En lille radio indendørs når ofte ingen. En repeater på et tag
+  når flere kilometer ud.
+- **Det er ikke en tjeneste, som nogen driver for dig.** Der er ingen udbyder, ingen
+  support og intet løfte om dækning. Meshet findes, hvor folk i
+  fællesskabet har sat repeatere op.
+- **Ikke alt i meshet er privat.** Direkte beskeder er krypterede, men
+  alle kan læse Public og hashtag-kanalerne. Din nodes
+  navn og delte position er synlige for alle inden for rækkevidde.
+  [Observere](/network/) sender det, de hører, videre til offentlige kort.
+  [Afsnittet om kryptering](#encryption) forklarer, hvad der forbliver privat.
+- **Det er ikke ubegrænset.** Alle i et område deler én radiokanal, og
+  reglerne for [868 MHz-båndet](#band) begrænser, hvor længe hver radio må sende.
+  Hver besked tager sendetid fra alle andre. Bots, hyppige adverts
+  og testbeskeder gør derfor meshet langsommere for alle.
+- **Det er ikke Meshtastic.** Meshtastic er et andet system, der kører på
+  stort set de samme boards. De to kan ikke tale sammen.
 
 ## Mesh-nettet på et minut {#mesh}
 
@@ -165,7 +183,7 @@ disse eksempler i november 2026.
   [driver frivillige et pilotprojekt sammen med kommunerne](https://noodnetoverijssel.nl/).
   De bruger først taleradio og MeshCore som andet lag til tekst.
 
-Ingen lover, at nogen læser din besked på meshet i nærheden af dig.
+Om meshet omkring dig virker i en nødsituation, ved ingen.
 
 ## Hvor dataene kommer fra {#data}
 

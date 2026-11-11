@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore huwa softwer b'xejn għal radjijiet LoRa żgħar. LoRa hija teknika tar-radju li tibgħat ftit data 'l bogħod, b'ftit li xejn enerġija. Radju bi MeshCore jissejjaħ *node*. Tqabbdu mal-app fuq il-mowbajl jew il-laptop tiegħek, jew tuża l-iskrin u t-tastiera tiegħu stess, u tibgħat test lil nies li jinsabu kilometri 'l bogħod. Bejnek u bejnhom ma hemm l-ebda torri, router jew provider.
@@ -21,28 +21,29 @@ Is-softwer huwa open source, u l-iżvilupp tiegħu jsir f'[meshcore-dev/MeshCore
 
 Ir-radju għadu ġdid għalik? Dawn huma l-affarijiet li n-nies l-aktar jistennew minn MeshCore, u li MeshCore ma jagħmilx.
 
-- **Mhuwiex l-internet jew telefon.** MeshCore jibgħat messaġġi qosra tat-test,
-  bejn wieħed u ieħor twal daqs SMS fuq il-mowbajl tiegħek. Ma hemmx vuċi, ritratti, vidjo
+- **Mhuwiex l-internet jew telefon.** MeshCore jibgħat messaġġi tat-test qosra,
+  bejn wieħed u ieħor daqs messaġġ tat-test fuq il-mowbajl tiegħek. M'hemmx vuċi, ritratti, vidjo
   jew websajts, u ma tistax tilħaq numru tat-telefon normali.
-- **Mhuwiex servizz ta' emerġenza.** L-ebda servizz ta' emerġenza ma jwiegħed li
-  jisma' fuq il-mesh, u ħadd ma jwiegħed li xi ħadd jaqra l-messaġġ tiegħek.
-- **Mhuwiex istantanju, u mhuwiex kullimkien.** Messaġġ jaqbeż minn radju għal
-  radju u jista' jieħu ftit sekondi, jew ma jasal qatt. Jekk jgħaddix jiddependi
-  mir-repeaters ta' madwarek, mill-għoli, mill-bini u mill-antenna tiegħek. Radju
-  żgħir ġewwa d-dar ħafna drabi ma jilħaq lil ħadd; repeater fuq il-bejt jilħaq
-  kilometri.
-- **Mhuwiex servizz li xi ħadd imexxi għalik.** Ma hemm l-ebda provider, l-ebda
-  helpdesk u l-ebda wegħda ta' kopertura. Il-mesh jeżisti fejn nies mill-komunità
+- **Mhuwiex servizz ta' emerġenza.** L-ebda servizz ta' emerġenza ma jwiegħed li jisma'
+  fuq il-mesh. Nafu li l-mesh jista' jaħdem. Jekk jaħdimx f'emerġenza,
+  ħadd ma jaf.
+- **Mhuwiex immedjat, u mhuwiex kullimkien.** Messaġġ jaqbeż minn radju għal
+  radju u jista' jieħu ftit sekondi, jew ma jasal qatt. Jekk jgħaddix
+  jiddependi mir-repeaters ta' madwarek, mill-għoli, mill-bini u mill-antenna tiegħek.
+  Radju żgħir ġewwa d-dar spiss ma jilħaq lil ħadd. Repeater fuq bejt
+  jilħaq kilometri.
+- **Mhuwiex servizz li xi ħadd imexxi għalik.** M'hemmx fornitur,
+  helpdesk jew wegħda ta' kopertura. Il-mesh jeżisti fejn nies mill-komunità
   tellgħu repeaters.
 - **Mhux kollox fuqu huwa privat.** Il-messaġġi diretti huma kriptati, imma
-  kulħadd jista' jaqra l-kanal Public u l-kanali bil-hashtag. L-isem tan-node tiegħek u
-  l-pożizzjoni li taqsam jidhru għal kulħadd fil-medda.
+  kulħadd jista' jaqra Public u l-kanali bil-hashtag. L-isem tan-node tiegħek
+  u l-pożizzjoni li taqsam jidhru lil kulħadd fil-medda.
   L-[observers](/network/) jirrappurtaw dak li jisimgħu lil mapep pubbliċi.
   Is-[sezzjoni dwar il-kriptaġġ](#encryption) tispjega x'jibqa' privat.
-- **Mhuwiex bla limitu.** Kulħadd f'żona jaqsam kanal wieħed tar-radju, u
-  r-regoli għall-[banda ta' 868 MHz](#band) jillimitaw kemm jista' jdum jibgħat kull radju.
-  Kull messaġġ jieħu ħin fl-arja minn kulħadd, għalhekk bots, adverts frekwenti
-  u messaġġi ta' prova jdewmu l-mesh għal kulħadd.
+- **Mhuwiex bla limitu.** Kulħadd f'żona jaqsam kanal tar-radju wieħed, u
+  r-regoli tal-[band ta' 868 MHz](#band) jillimitaw kemm żmien jista' jibgħat kull radju.
+  Kull messaġġ jieħu mill-ħin fl-arja ta' kulħadd l-ieħor, għalhekk bots, adverts frekwenti
+  u messaġġi tat-test idewmu l-mesh għal kulħadd.
 - **Mhuwiex Meshtastic.** Meshtastic hija sistema differenti li taħdem fuq
   kważi l-istess boards. It-tnejn ma jistgħux jitkellmu ma' xulxin.
 
@@ -133,7 +134,7 @@ dawn l-eżempji f'Novembru 2026.
   [imexxu proġett pilota flimkien mal-muniċipalitajiet](https://noodnetoverijssel.nl/).
   L-ewwel jużaw ir-radju tal-vuċi, u MeshCore bħala t-tieni saff għat-test.
 
-Ħadd ma jwiegħed li xi ħadd se jaqra l-messaġġ tiegħek fuq il-mesh ta' madwarek.
+Jekk il-mesh ta' madwarek jaħdimx f'emerġenza, ħadd ma jaf.
 
 ## Minn fejn tiġi d-data {#data}
 

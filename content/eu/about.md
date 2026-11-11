@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore LoRa irrati txikietarako software librea da. LoRa irrati-teknika bat da: datu gutxi urrutira bidaltzen ditu, oso energia gutxirekin. MeshCore duen irrati bati *nodo* esaten zaio. Zure telefonoko edo eramangarriko aplikazioarekin parekatuta, edo bere pantaila eta teklatuarekin, testua bidaltzen die kilometroetara dagoen jendeari. Tartean ez dago dorrerik, bideratzailerik edo hornitzailerik.
@@ -21,29 +21,13 @@ Softwarea kode irekikoa da. [meshcore-dev/MeshCore](https://github.com/meshcore-
 
 Irratien munduan berria zara? Hauek dira jendeak MeshCore-ri gehien eskatzen dizkion gauzak, eta MeshCore-k egiten ez dituenak.
 
-- **Ez da internet, ezta telefono bat ere.** MeshCore-k testu-mezu laburrak bidaltzen ditu,
-  zure telefonoko SMS baten luzera, gutxi gorabehera. Ez dago ahotsik, argazkirik, bideorik
-  edo webgunerik, eta ezin duzu telefono-zenbaki arrunt batera deitu.
-- **Ez da larrialdi-zerbitzu bat.** Larrialdi-zerbitzu batek ere ez du hitzematen
-  mesh sarean entzungo duenik, eta inork ez du hitzematen norbaitek zure mezua irakurriko duenik.
-- **Ez da berehalakoa, ezta leku guztietan ere.** Mezu batek irratiz irrati egiten du jauzi,
-  eta segundo batzuk behar ditzake, edo ez iritsi ere egin. Iristen den ala ez inguruko
-  errepikagailuen, altueraren, eraikinen eta zure antenaren araberakoa da. Barruko irrati
-  txiki bat askotan ez da inorengana iristen; teilatu bateko errepikagailu bat kilometroetara iristen da.
-- **Ez da norbaitek zuretzat kudeatzen duen zerbitzu bat.** Ez dago hornitzailerik,
-  laguntza-zerbitzurik edo estaldura-bermerik. Mesh sarea komunitateko jendeak
-  errepikagailuak jarri dituen lekuetan dago.
-- **Bertan dagoen guztia ez da pribatua.** Mezu zuzenak zifratuta daude, baina
-  Public eta hashtag kanalak edonork irakur ditzake. Zure nodoaren izena eta
-  partekatzen duzun kokapena irismenean dagoen orok ikus ditzake.
-  [Behatzaileek](/network/) entzuten dutena mapa publikoetara bidaltzen dute.
-  [Zifratzeari buruzko atalak](#encryption) azaltzen du zer geratzen den pribatu.
-- **Ez da mugagabea.** Eremu bateko denek irrati-kanal bakarra partekatzen dute, eta
-  [868 MHz-ko bandaren](#band) arauek mugatzen dute irrati bakoitzak zenbat denbora igor dezakeen.
-  Mezu bakoitzak beste guztiei emisio-denbora kentzen die. Horregatik, botek, maiz bidalitako
-  iragarkiek eta proba-mezuek mesh sarea moteltzen dute guztientzat.
-- **Ez da Meshtastic.** Meshtastic beste sistema bat da, eta ia plaka berberetan
-  dabil. Biek ezin dute elkarrekin hitz egin.
+- **Ez da internet, ezta telefono bat ere.** MeshCore-k testu-mezu laburrak bidaltzen ditu, telefonoko SMS baten luzera gutxi gorabehera. Ez dago ahotsik, argazkirik, bideorik edo webgunerik. Ezin duzu telefono-zenbaki arrunt batera deitu edo idatzi.
+- **Ez da larrialdi-zerbitzu bat.** Larrialdi-zerbitzu batek ere ez du hitzematen mesh sarean entzungo duenik. Badakigu mesh sareak funtziona dezakeela. Larrialdi batean funtzionatzen duen, inork ez daki.
+- **Ez da berehalakoa, eta ez dago leku guztietan.** Mezu bat irratiz irrati jauzika doa, eta segundo batzuk behar ditzake, edo baliteke ez iristea ere. Iristen den ala ez, zure inguruko errepikagailuen araberakoa da, baita altueraren, eraikinen eta zure antenaren araberakoa ere. Etxe barruko irrati txiki bat askotan ez da inorengana iristen. Teilatu bateko errepikagailu bat kilometroetara iristen da.
+- **Ez da norbaitek zuretzat kudeatzen duen zerbitzu bat.** Ez dago hornitzailerik, laguntza-zerbitzurik edo estaldura-bermerik. Mesh sarea komunitateko jendeak errepikagailuak jarri dituen lekuetan dago.
+- **Bertan dagoen guztia ez da pribatua.** Mezu zuzenak enkriptatuta daude. Hala ere, edonork irakur ditzake Public eta traola-kanalak, eta zure nodoaren izena eta partekatutako kokapena irismenean dagoen edonork ikusten ditu. [Behatzaileek](/network/) entzuten dutena mapa publikoetara bidaltzen dute. [Enkriptazioari buruzko atalak](#encryption) azaltzen du zer geratzen den pribatu.
+- **Ez da mugagabea.** Eremu bateko guztiek irrati-kanal bakarra partekatzen dute, eta [868 MHz bandako](#band) arauek mugatzen dute irrati bakoitzak zenbat denbora igor dezakeen. Mezu bakoitzak besteen emisio-denbora kentzen du. Horregatik, botek, maiz bidalitako iragarkiek eta proba-mezuek mesh sarea moteltzen dute guztientzat.
+- **Ez da Meshtastic.** Meshtastic beste sistema bat da, eta plaka ia berdinetan dabil. Bi sistemek ezin dute elkarren artean hitz egin.
 
 ## Mesh sarea minutu batean {#mesh}
 
@@ -131,7 +115,7 @@ Agintari batzuk MeshCore-n oinarritutako ordezko sistema bat eraikitzen edo prob
   [proiektu pilotu bat egiten ari dira udalekin batera](https://noodnetoverijssel.nl/).
   Ahots-irratia erabiltzen dute lehenik, eta MeshCore testurako bigarren geruza gisa.
 
-Inork ez du hitzematen zure inguruko mesh sarean norbaitek zure mezua irakurriko duenik.
+Zure inguruko mesh sareak larrialdi batean funtzionatzen duen, inork ez daki.
 
 ## Nondik datozen datuak {#data}
 

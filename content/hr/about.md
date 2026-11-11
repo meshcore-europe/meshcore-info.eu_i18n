@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore je besplatan softver za male LoRa radiouređaje. LoRa je radijska tehnika koja malo podataka šalje daleko, uz vrlo malo energije. Radiouređaj s MeshCoreom zove se *čvor*. Povežeš li ga s aplikacijom na mobitelu ili laptopu, ili koristiš njegov vlastiti zaslon i tipkovnicu, šalješ tekst ljudima udaljenima kilometrima. Između tebe i njih nema ni antenskog stupa, ni usmjerivača, ni operatera.
@@ -21,29 +21,29 @@ Softver je otvorenog koda. Razvija se na [meshcore-dev/MeshCore](https://github.
 
 Radio ti je novost? Evo što ljudi najčešće očekuju od MeshCorea, a on to ne radi.
 
-- **To nije internet ni telefon.** MeshCore šalje kratke tekstualne poruke,
-  otprilike duljine SMS-a na mobitelu. Nema glasa, fotografija, videa
-  ni web-stranica i ne možeš dobiti običan telefonski broj.
-- **To nije hitna služba.** Nijedna hitna služba ne obećava da sluša mesh.
-  Nitko ne obećava ni da će netko pročitati tvoju poruku.
-- **Nije trenutno i nije posvuda.** Poruka skače od radija do radija.
-  To može trajati nekoliko sekundi, a poruka može i uopće ne stići. Hoće li proći,
-  ovisi o repetitorima oko tebe, o visini, zgradama i tvojoj anteni.
-  Mali radio u zatvorenom prostoru često ne dopre ni do koga. Repetitor na krovu
-  dopire kilometrima daleko.
-- **To nije usluga koju netko vodi za tebe.** Nema pružatelja usluge, nema
-  korisničke podrške i nema obećanja o pokrivenosti. Mesh postoji tamo gdje su
-  ljudi iz zajednice postavili repetitore.
-- **Nije sve na njemu privatno.** Izravne poruke su šifrirane. Kanal Public i
-  hashtag kanale može čitati svatko, a ime tvog čvora i podijeljenu lokaciju
-  vide svi u dometu. [Observeri](/network/) šalju ono što čuju na javne karte.
-  [Odjeljak o šifriranju](#encryption) objašnjava što ostaje privatno.
-- **Nije neograničeno.** Svi na jednom području dijele jedan radijski kanal.
-  Pravila za [pojas 868 MHz](#band) ograničavaju koliko dugo svaki radio smije
-  slati. Svaka poruka oduzima vrijeme emitiranja svima ostalima. Zato botovi,
-  česti adverti i testne poruke usporavaju mesh za sve.
-- **To nije Meshtastic.** Meshtastic je drugi sustav koji radi na uglavnom
-  istim pločicama. Ta dva sustava ne mogu međusobno komunicirati.
+- **Nije internet ni telefon.** MeshCore šalje kratke tekstualne poruke,
+  otprilike duge kao SMS na tvom mobitelu. Nema glasa, fotografija, videa
+  ni web-stranica, a običan telefonski broj ne možeš dobiti.
+- **Nije hitna služba.** Nijedna hitna služba ne obećava da sluša mesh.
+  Znamo da mesh može raditi. Radi li i u hitnom slučaju, nitko ne zna.
+- **Nije trenutačan i nije posvuda.** Poruka skače od radija do radija i
+  može putovati nekoliko sekundi, ili uopće ne stići. Hoće li proći, ovisi o
+  repetitorima oko tebe, o visini, zgradama i tvojoj anteni. Mali radio u
+  zatvorenom često ne dosegne nikoga. Repetitor na krovu dosegne kilometre.
+- **Nije usluga koju netko vodi za tebe.** Nema pružatelja usluge, nema
+  korisničke podrške i nema obećanja o pokrivenosti. Mesh postoji tamo gdje
+  su ljudi iz zajednice postavili repetitore.
+- **Nije sve na njemu privatno.** Izravne poruke su šifrirane. Public i
+  hashtag kanale ipak može čitati svatko, a ime tvog čvora i podijeljenu
+  poziciju vide svi u dometu.
+  [Observeri](/network/) šalju ono što čuju na javne karte. U
+  [odjeljku o šifriranju](#encryption) piše što ostaje privatno.
+- **Nije neograničen.** Svi na jednom području dijele jedan radijski kanal,
+  a pravila za [pojas od 868 MHz](#band) ograničavaju koliko dugo svaki radio
+  smije slati. Svaka poruka oduzima vrijeme emitiranja svima ostalima. Zato
+  botovi, česti adverti i probne poruke usporavaju mesh za sve.
+- **Nije Meshtastic.** Meshtastic je drugi sustav koji radi na gotovo istim
+  pločicama. Ta dva sustava ne mogu međusobno komunicirati.
 
 ## Mesh u jednoj minuti {#mesh}
 
@@ -132,7 +132,7 @@ provjerili u studenom 2026.
   [vode pilot-projekt zajedno s općinama](https://noodnetoverijssel.nl/).
   Kao prvi sloj koriste glasovni radio, a MeshCore kao drugi sloj za tekst.
 
-Nitko ne obećava da će netko na meshu blizu tebe pročitati tvoju poruku.
+Radi li mesh u tvojoj blizini u hitnom slučaju, nitko ne zna.
 
 ## Odakle dolaze podaci {#data}
 
