@@ -3401,6 +3401,36 @@
     "_seeded": "2026-11-02",
     "_source": "8877399e"
   },
+  "area_change_fr_regions": {
+    "value": "Pridaj regióny, ktoré tvoj repeater obsluhuje, každý vnútri toho nad ním: Európa, Francúzsko a tvoj región. Francúzsko sa stane predvoleným a domovským regiónom.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Resetuj automatické riadenie zisku rádia každé 4 sekundy.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Posielaj navyše jednu kópiu každého potvrdenia, aby sa správy lepšie doručovali cez slabé spojenia.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "Nechaj adverty prejsť najviac 8 hopov, čo je predvolená hodnota firmvéru. MeshCore France povoľuje viac než 3 hopy, ktoré táto stránka odporúča pre každý repeater.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Prestaň opakovať pakety bez regiónu po 5 hopoch. MeshCore France povoľuje viac než 1 hop, ktorý táto stránka odporúča pre každý repeater.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
+  },
   "area_change_nl_companion_region": {
     "value": "V experimentálnych nastaveniach aplikácie nastav predvolený región na nl. Každému kanálu daj jeho región, napríklad nl-nh pre Severné Holandsko.",
     "_ai": true,

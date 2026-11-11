@@ -3401,6 +3401,36 @@
     "_seeded": "2026-11-02",
     "_source": "8877399e"
   },
+  "area_change_fr_regions": {
+    "value": "Ychwanega'r rhanbarthau y mae dy ailadroddydd yn eu gwasanaethu, pob un y tu mewn i'r un uwch ei ben: Europe, France a dy ranbarth di. France yw'r rhagosodiad a'r rhanbarth cartref.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Ailosod rheolaeth cynnydd awtomatig y radio bob 4 eiliad.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Anfon copi ychwanegol o bob cydnabyddiaeth, i wella'r danfon ar gysylltiadau gwan.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "Gad i adverts deithio 8 naid ar y mwyaf, sef rhagosodiad y cadarnwedd. Mae MeshCore France yn caniatáu mwy na'r 3 naid y mae'r dudalen hon yn eu cynghori i bob ailadroddydd.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Rho'r gorau i ailadrodd pecynnau heb ranbarth ar ôl 5 naid. Mae MeshCore France yn caniatáu mwy na'r 1 naid y mae'r dudalen hon yn ei chynghori i bob ailadroddydd.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
+  },
   "area_change_nl_companion_region": {
     "value": "Yng ngosodiadau arbrofol yr ap, gosoda'r rhanbarth diofyn i nl. Rho ei ranbarth i bob sianel, fel nl-nh ar gyfer Gogledd Holland.",
     "_ai": true,

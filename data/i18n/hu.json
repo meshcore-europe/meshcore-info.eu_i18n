@@ -3401,6 +3401,36 @@
     "_seeded": "2026-10-26",
     "_source": "8877399e"
   },
+  "area_change_fr_regions": {
+    "value": "Add meg a régiókat, amelyeket az átjátszód kiszolgál, mindegyiket a fölötte lévőn belül: Europe, France és a saját régiód. A France lesz az alapértelmezett és az otthoni régió.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Állítsd vissza a rádió automatikus erősítésszabályozását 4 másodpercenként.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Küldj minden nyugtázásból egy extra példányt, hogy gyenge kapcsolatokon jobb legyen a kézbesítés.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "Az advertek legfeljebb 8 ugrást tehetnek meg, ez a firmware alapértéke. A MeshCore France többet enged, mint a 3 ugrás, amit ez az oldal minden átjátszóhoz javasol.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Ne ismételd tovább a régió nélküli csomagokat 5 ugrás után. A MeshCore France többet enged, mint az 1 ugrás, amit ez az oldal minden átjátszóhoz javasol.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
+  },
   "area_change_nl_companion_region": {
     "value": "Az app kísérleti beállításaiban állítsd az alapértelmezett régiót nl-re. Adj minden csatornának régiót, például nl-nh-t Észak-Hollandiához.",
     "_ai": true,

@@ -3401,6 +3401,36 @@
     "_seeded": "2026-11-02",
     "_source": "8877399e"
   },
+  "area_change_fr_regions": {
+    "value": "Engade as rexións ás que dá servizo o teu repetidor, cada unha dentro da superior: Europa, Francia e a túa rexión. Francia pasa a ser a rexión predeterminada e a rexión de orixe.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Restablece o control automático de ganancia da radio cada 4 segundos.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Envía unha copia extra de cada confirmación, para mellorar a entrega en ligazóns débiles.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "Deixa que os anuncios percorran como máximo 8 saltos, o valor predeterminado do firmware. MeshCore France permite máis dos 3 saltos que esta páxina recomenda para cada repetidor.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Deixa de repetir paquetes sen rexión despois de 5 saltos. MeshCore France permite máis do 1 salto que esta páxina recomenda para cada repetidor.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
+  },
   "area_change_nl_companion_region": {
     "value": "Nos axustes experimentais da aplicación, define nl como rexión predeterminada. Dálle a cada canle a súa rexión, como nl-nh para Holanda Setentrional.",
     "_ai": true,

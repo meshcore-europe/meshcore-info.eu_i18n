@@ -3401,6 +3401,36 @@
     "_seeded": "2026-11-02",
     "_source": "8877399e"
   },
+  "area_change_fr_regions": {
+    "value": "Pridėk regionus, kuriuos aptarnauja tavo retransliatorius, kiekvieną po aukštesniuoju: Europe, France ir savo regioną. France tampa numatytuoju ir namų regionu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Kas 4 sekundes iš naujo nustatyk radijo automatinį stiprinimo valdymą.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Siųsk papildomą kiekvieno patvirtinimo kopiją, kad žinutės geriau pasiektų gavėją silpnuose ryšiuose.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "Leisk skelbimams keliauti daugiausia 8 šuolius, tiek numato programinė įranga. MeshCore France leidžia daugiau nei 3 šuolius, kuriuos šis puslapis pataria kiekvienam retransliatoriui.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Po 5 šuolių nebekartok paketų be regiono. MeshCore France leidžia daugiau nei 1 šuolį, kurį šis puslapis pataria kiekvienam retransliatoriui.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
+  },
   "area_change_nl_companion_region": {
     "value": "Programėlės eksperimentiniuose nustatymuose nustatyk numatytąjį regioną nl. Kiekvienam kanalui priskirk regioną, pavyzdžiui, nl-nh Šiaurės Olandijai.",
     "_ai": true,

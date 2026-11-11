@@ -3401,6 +3401,36 @@
     "_seeded": "2026-10-31",
     "_source": "8877399e"
   },
+  "area_change_fr_regions": {
+    "value": "Foegje de regio's ta dêr't dyn repeater foar wurket, elk binnen de regio dêrboppe: Europe, France en dyn regio. France wurdt de standertregio en de thúsregio.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Set de automatyske fersterkingsregeling fan de radio elke 4 sekonden werom.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Stjoer fan elke ûntfangstbefêstiging in ekstra kopy, foar bettere levering by swakke ferbiningen.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "Lit adverts op syn heechst 8 hops reizgje, de standert fan de firmware. MeshCore France stiet mear ta as de 3 hops dy't dizze side foar elke repeater oanriedt.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Hâld nei 5 hops op mei it trochstjoeren fan pakketten sûnder regio. MeshCore France stiet mear ta as de 1 hop dy't dizze side foar elke repeater oanriedt.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
+  },
   "area_change_nl_companion_region": {
     "value": "Set yn de eksperimintele ynstellingen fan de app de standertregio op nl. Jou elk kanaal syn regio, lykas nl-nh foar Noard-Hollân.",
     "_ai": true,

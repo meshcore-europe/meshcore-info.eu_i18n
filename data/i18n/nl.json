@@ -3,7 +3,7 @@
     "language": "nl",
     "name": "Nederlands",
     "managed_by": "community",
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "site_tagline": {
     "value": "Berichten zonder netwerk, door heel Europa",
@@ -3400,6 +3400,36 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "8877399e"
+  },
+  "area_change_fr_regions": {
+    "value": "Voeg de regio's toe die je repeater bedient, elk binnen de regio erboven: Europa, Frankrijk en je eigen regio. Frankrijk wordt de standaardregio en de thuisregio.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Zet de automatische versterkingsregeling van de radio elke 4 seconden terug.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Stuur van elke ontvangstbevestiging een extra kopie, zodat berichten via zwakke verbindingen beter aankomen.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "Laat adverts maximaal 8 hops reizen, de standaard van de firmware. MeshCore France staat meer toe dan de 3 hops die deze pagina voor elke repeater aanraadt.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Stop na 5 hops met het herhalen van pakketten zonder regio. MeshCore France staat meer toe dan de 1 hop die deze pagina voor elke repeater aanraadt.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
   },
   "area_change_nl_companion_region": {
     "value": "Zet in de experimentele instellingen van de app de standaardregio op nl. Geef elk kanaal zijn regio, zoals nl-nh voor Noord-Holland.",

@@ -3401,6 +3401,36 @@
     "_seeded": "2026-11-02",
     "_source": "8877399e"
   },
+  "area_change_fr_regions": {
+    "value": "Pievieno reģionus, kurus apkalpo tavs retranslators, katru iekš augstākā: Europe, France un tavs reģions. France kļūst par noklusējuma un mājas reģionu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Atiestati radio automātisko pastiprinājuma vadību ik pēc 4 sekundēm.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Sūti katra apstiprinājuma papildu kopiju, lai uzlabotu piegādi vājos savienojumos.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "Ļauj advert ziņām veikt ne vairāk kā 8 lēcienus, kā programmaparatūrā pēc noklusējuma. MeshCore France atļauj vairāk nekā 3 lēcienus, ko šī lapa iesaka katram retranslatoram.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Pārtrauc retranslēt paketes bez reģiona pēc 5 lēcieniem. MeshCore France atļauj vairāk nekā 1 lēcienu, ko šī lapa iesaka katram retranslatoram.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
+  },
   "area_change_nl_companion_region": {
     "value": "Lietotnes eksperimentālajos iestatījumos iestati noklusējuma reģionu uz nl. Piešķir katram kanālam tā reģionu, piemēram, nl-nh Ziemeļholandei.",
     "_ai": true,

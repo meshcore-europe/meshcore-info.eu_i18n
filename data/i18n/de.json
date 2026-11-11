@@ -3,7 +3,7 @@
     "language": "de",
     "name": "Deutsch",
     "managed_by": "community",
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "site_tagline": {
     "value": "Nachrichten ohne Netz, in ganz Europa",
@@ -3400,6 +3400,36 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "8877399e"
+  },
+  "area_change_fr_regions": {
+    "value": "Füge die Regionen hinzu, die dein Repeater bedient, jede innerhalb der darüberliegenden: Europa, Frankreich und deine Region. Frankreich wird zur Standard- und Heimatregion.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Setze die automatische Verstärkungsregelung des Funkmoduls alle 4 Sekunden zurück.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Sende eine zusätzliche Kopie jeder Empfangsbestätigung, um die Zustellung bei schwachen Verbindungen zu verbessern.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "Lass Adverts höchstens 8 Hops weit laufen, den Standardwert der Firmware. MeshCore France erlaubt mehr als die 3 Hops, die diese Seite für jeden Repeater empfiehlt.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Höre nach 5 Hops auf, Pakete ohne Region weiterzuleiten. MeshCore France erlaubt mehr als den 1 Hop, den diese Seite für jeden Repeater empfiehlt.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
   },
   "area_change_nl_companion_region": {
     "value": "Setze in den experimentellen Einstellungen der App die Standardregion auf nl. Gib jedem Kanal seine Region, etwa nl-nh für Nordholland.",

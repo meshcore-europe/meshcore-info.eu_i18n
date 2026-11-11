@@ -3401,6 +3401,36 @@
     "_seeded": "2026-11-02",
     "_source": "8877399e"
   },
+  "area_change_fr_regions": {
+    "value": "Gehitu zure errepikagailuak zerbitzatzen dituen eskualdeak, bakoitza bere gaineko eskualdearen barruan: Europa, Frantzia eta zure eskualdea. Frantzia eskualde lehenetsia eta etxeko eskualdea bihurtzen da.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Berrezarri irratiaren irabazi-kontrol automatikoa 4 segundoz behin.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Bidali berrespen bakoitzaren kopia gehigarri bat, lotura ahuletan entrega hobetzeko.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "Utzi iragarkiei gehienez 8 jauzi egiten, firmwarearen balio lehenetsia. MeshCore France-k orri honek errepikagailu guztientzat gomendatzen dituen 3 jauziak baino gehiago onartzen ditu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Utzi eskualderik gabeko paketeak errepikatzeari 5 jauziren ondoren. MeshCore France-k orri honek errepikagailu guztientzat gomendatzen duen jauzi 1 baino gehiago onartzen du.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
+  },
   "area_change_nl_companion_region": {
     "value": "Aplikazioaren ezarpen esperimentaletan, ezarri eskualde lehenetsia nl gisa. Eman kanal bakoitzari bere eskualdea, adibidez nl-nh Ipar Holandarako.",
     "_ai": true,

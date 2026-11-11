@@ -3401,6 +3401,36 @@
     "_seeded": "2026-11-02",
     "_source": "8877399e"
   },
+  "area_change_fr_regions": {
+    "value": "Dodaj regije koje tvoj repetitor poslužuje, svaku unutar one iznad nje: Europe, France i tvoju regiju. France postaje zadana i matična regija.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Resetiraj automatsku kontrolu pojačanja radija svake 4 sekunde.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Pošalji dodatnu kopiju svake potvrde primitka, za bolju isporuku na slabim vezama.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "Dopusti da adverti prijeđu najviše 8 skokova, što je zadana vrijednost firmwarea. MeshCore France dopušta više od 3 skoka koje ova stranica savjetuje za svaki repetitor.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Prestani ponavljati pakete bez regije nakon 5 skokova. MeshCore France dopušta više od 1 skoka koji ova stranica savjetuje za svaki repetitor.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
+  },
   "area_change_nl_companion_region": {
     "value": "U eksperimentalnim postavkama aplikacije postavi zadanu regiju na nl. Svakom kanalu dodijeli njegovu regiju, poput nl-nh za Sjevernu Holandiju.",
     "_ai": true,
