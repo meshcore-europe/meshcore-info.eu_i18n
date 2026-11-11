@@ -3401,6 +3401,36 @@
     "_seeded": "2026-10-26",
     "_source": "8877399e"
   },
+  "area_change_fr_regions": {
+    "value": "Legg til regionene repeateren din betjener, hver inne i den over: Europa, Frankrike og regionen din. Frankrike blir standardregion og hjemmeregion.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Tilbakestill radioens automatiske forsterkningskontroll hvert 4. sekund.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Send en ekstra kopi av hver bekreftelse for bedre levering på svake forbindelser.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "La adverts gå maks 8 hopp, som er standard i firmwaren. MeshCore France tillater flere enn de 3 hoppene denne siden anbefaler for alle repeatere.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Slutt å videresende pakker uten region etter 5 hopp. MeshCore France tillater flere enn det 1 hoppet denne siden anbefaler for alle repeatere.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
+  },
   "area_change_nl_companion_region": {
     "value": "I appens eksperimentelle innstillinger, sett standardregion til nl. Gi hver kanal sin region, som nl-nh for Nord-Holland.",
     "_ai": true,

@@ -3401,6 +3401,36 @@
     "_seeded": "2026-11-02",
     "_source": "8877399e"
   },
+  "area_change_fr_regions": {
+    "value": "Cuir leis na réigiúin a bhfreastalaíonn d'athsheoltóir orthu, gach ceann acu laistigh den cheann os a chionn: Europe, France agus do réigiún féin. Is é France an réigiún réamhshocraithe agus an réigiún baile.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Athshocraigh rialú uathoibríoch an ghnóthachain sa raidió gach 4 soicind.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Seol cóip bhreise de gach admháil chun an seachadadh a fheabhsú ar naisc laga.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "Lig d'fhógraí 8 léim ar a mhéad a thaisteal, réamhshocrú na ndochtearraí. Ceadaíonn MeshCore France níos mó ná na 3 léim a mholann an leathanach seo do gach athsheoltóir.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Stop ag athsheoladh paicéad gan réigiún tar éis 5 léim. Ceadaíonn MeshCore France níos mó ná an 1 léim a mholann an leathanach seo do gach athsheoltóir.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
+  },
   "area_change_nl_companion_region": {
     "value": "I socruithe turgnamhacha na haipe, socraigh an réigiún réamhshocraithe go nl. Tabhair a réigiún do gach cainéal, ar nós nl-nh don Tuaisceart Holland.",
     "_ai": true,

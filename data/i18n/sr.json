@@ -3401,6 +3401,36 @@
     "_seeded": "2026-11-02",
     "_source": "8877399e"
   },
+  "area_change_fr_regions": {
+    "value": "Dodaj regione koje tvoj repetitor pokriva, svaki unutar onog iznad njega: Evropa, Francuska i tvoj region. Francuska postaje podrazumevani i matični region.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Resetuj automatsku kontrolu pojačanja radija na svakih 4 sekunde.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Šalji dodatnu kopiju svake potvrde prijema, da bi poboljšao isporuku na slabim vezama.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "Dozvoli advertima da pređu najviše 8 hopova, što je podrazumevana vrednost firmvera. MeshCore France dozvoljava više od 3 hopa koja ova stranica savetuje za svaki repetitor.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Prestani da ponavljaš pakete bez regiona posle 5 hopova. MeshCore France dozvoljava više od 1 hopa koji ova stranica savetuje za svaki repetitor.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
+  },
   "area_change_nl_companion_region": {
     "value": "U eksperimentalnim podešavanjima aplikacije postavi podrazumevani region na nl. Svakom kanalu dodeli njegov region, na primer nl-nh za Severnu Holandiju.",
     "_ai": true,

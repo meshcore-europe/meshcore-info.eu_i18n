@@ -3401,6 +3401,36 @@
     "_seeded": "2026-10-26",
     "_source": "8877399e"
   },
+  "area_change_fr_regions": {
+    "value": "Lisää alueet, joita toistimesi palvelee, kukin ylemmän alueen sisään: Europe, France ja oma alueesi. France on oletusalue ja kotialue.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Nollaa radion automaattinen vahvistuksen säätö 4 sekunnin välein.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Lähetä jokaisesta kuittauksesta ylimääräinen kopio, jotta viestit menevät perille heikoillakin yhteyksillä.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "Anna ilmoitusten kulkea enintään 8 hyppyä, mikä on laiteohjelmiston oletus. MeshCore France sallii enemmän kuin 3 hyppyä, jotka tämä sivu suosittelee jokaiselle toistimelle.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Lopeta alueettomien pakettien toistaminen 5 hypyn jälkeen. MeshCore France sallii enemmän kuin 1 hypyn, jonka tämä sivu suosittelee jokaiselle toistimelle.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
+  },
   "area_change_nl_companion_region": {
     "value": "Aseta sovelluksen kokeellisissa asetuksissa oletusalueeksi nl. Anna jokaiselle kanavalle sen alue, esimerkiksi nl-nh Pohjois-Hollannille.",
     "_ai": true,

@@ -3401,6 +3401,36 @@
     "_seeded": "2026-11-02",
     "_source": "8877399e"
   },
+  "area_change_fr_regions": {
+    "value": "Lisa piirkonnad, mida su repiiter teenindab, igaüks ülemise sees: Europe, France ja sinu piirkond. France saab vaikepiirkonnaks ja kodupiirkonnaks.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Lähtesta raadio automaatne võimendusreguleerimine iga 4 sekundi järel.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Saada igast kinnitusest lisakoopia, et nõrkadel ühendustel kohalejõudmist parandada.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "Lase kuulutustel liikuda kõige rohkem 8 hüpet, see on püsivara vaikeväärtus. MeshCore France lubab rohkem kui 3 hüpet, mida see leht igale repiitrile soovitab.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Lõpeta piirkonnata pakettide edastamine pärast 5 hüpet. MeshCore France lubab rohkem kui 1 hüpe, mida see leht igale repiitrile soovitab.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
+  },
   "area_change_nl_companion_region": {
     "value": "Määra rakenduse katselistes seadetes vaikepiirkonnaks nl. Anna igale kanalile oma piirkond, näiteks nl-nh Põhja-Hollandi jaoks.",
     "_ai": true,

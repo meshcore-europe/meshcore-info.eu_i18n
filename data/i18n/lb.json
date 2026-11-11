@@ -3401,6 +3401,36 @@
     "_seeded": "2026-11-02",
     "_source": "8877399e"
   },
+  "area_change_fr_regions": {
+    "value": "Setz d'Regiounen derbäi, déi däi Repeater bedéngt, all an där driwwer: Europe, France an deng Regioun. France gëtt d'Standard- an d'Heemregioun.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Setz d'automatesch Verstäerkungsreegelung vum Radio all 4 Sekonnen zréck.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Schéck vun all Bestätegung eng extra Kopie, fir d'Zoustellung bei schwaache Verbindungen ze verbesseren.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "Looss Adverts héchstens 8 Hops wäit goen, de Standard vun der Firmware. MeshCore France erlaabt méi wéi déi 3 Hops, déi dës Säit fir all Repeater recommandéiert.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Widderhuel Päcklecher ouni Regioun net méi no 5 Hops. MeshCore France erlaabt méi wéi deen 1 Hop, deen dës Säit fir all Repeater recommandéiert.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
+  },
   "area_change_nl_companion_region": {
     "value": "Setz an den experimentellen Astellunge vun der App d'Standardregioun op nl. Gëff all Kanal seng Regioun, wéi nl-nh fir Noordholland.",
     "_ai": true,

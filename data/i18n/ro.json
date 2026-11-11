@@ -3401,6 +3401,36 @@
     "_seeded": "2026-10-26",
     "_source": "8877399e"
   },
+  "area_change_fr_regions": {
+    "value": "Adaugă regiunile pe care le deservește repetorul tău, fiecare în interiorul celei de deasupra: Europe, France și regiunea ta. France devine regiunea implicită și regiunea de bază.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Resetează controlul automat al amplificării radioului la fiecare 4 secunde.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Trimite o copie în plus a fiecărei confirmări, pentru o livrare mai bună pe legături slabe.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "Lasă anunțurile să parcurgă cel mult 8 salturi, valoarea implicită din firmware. MeshCore France permite mai mult decât cele 3 salturi pe care pagina aceasta le recomandă pentru orice repetor.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Oprește repetarea pachetelor fără regiune după 5 salturi. MeshCore France permite mai mult decât saltul 1 pe care pagina aceasta îl recomandă pentru orice repetor.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
+  },
   "area_change_nl_companion_region": {
     "value": "În setările experimentale ale aplicației, setează regiunea implicită la nl. Dă fiecărui canal regiunea lui, cum ar fi nl-nh pentru Olanda de Nord.",
     "_ai": true,

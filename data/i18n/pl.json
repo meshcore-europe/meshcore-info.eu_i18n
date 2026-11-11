@@ -3401,6 +3401,36 @@
     "_seeded": "2026-10-26",
     "_source": "8877399e"
   },
+  "area_change_fr_regions": {
+    "value": "Dodaj regiony, które obsługuje twój przekaźnik, każdy wewnątrz regionu powyżej: Europe, France i twój region. France staje się regionem domyślnym i regionem macierzystym.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Resetuj automatyczną regulację wzmocnienia radia co 4 sekundy.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Wysyłaj dodatkową kopię każdego potwierdzenia, aby poprawić doręczanie przy słabych połączeniach.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "Pozwól ogłoszeniom przejść najwyżej 8 skoków, domyślnie w firmware. MeshCore France pozwala na więcej niż 3 skoki, które ta strona zaleca każdemu przekaźnikowi.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Przestań powtarzać pakiety bez regionu po 5 skokach. MeshCore France pozwala na więcej niż 1 skok, który ta strona zaleca każdemu przekaźnikowi.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
+  },
   "area_change_nl_companion_region": {
     "value": "W ustawieniach eksperymentalnych aplikacji ustaw domyślny region na nl. Nadaj każdemu kanałowi jego region, na przykład nl-nh dla Holandii Północnej.",
     "_ai": true,

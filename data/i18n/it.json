@@ -3396,6 +3396,36 @@
     "_seeded": "2026-10-26",
     "_source": "8877399e"
   },
+  "area_change_fr_regions": {
+    "value": "Aggiungi le regioni servite dal tuo ripetitore, ognuna dentro quella sopra: Europe, France e la tua regione. France diventa la regione predefinita e la regione di casa.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Azzera il controllo automatico del guadagno della radio ogni 4 secondi.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Invia una copia in più di ogni conferma di ricezione, per migliorare la consegna sui collegamenti deboli.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "Lascia viaggiare gli annunci per al massimo 8 hop, il valore predefinito del firmware. MeshCore France consente più dei 3 hop che questa pagina consiglia per ogni ripetitore.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Smetti di ripetere i pacchetti senza regione dopo 5 hop. MeshCore France consente più di 1 hop che questa pagina consiglia per ogni ripetitore.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
+  },
   "area_change_nl_companion_region": {
     "value": "Nelle impostazioni sperimentali dell'app, imposta nl come regione predefinita. Assegna a ogni canale la sua regione, come nl-nh per l'Olanda Settentrionale.",
     "_ai": true,

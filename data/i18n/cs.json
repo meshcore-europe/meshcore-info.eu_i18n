@@ -3401,6 +3401,36 @@
     "_seeded": "2026-10-26",
     "_source": "8877399e"
   },
+  "area_change_fr_regions": {
+    "value": "Přidej regiony, které tvůj repeater obsluhuje, každý uvnitř toho nad ním: Europe, France a tvůj region. France se stane výchozím a domovským regionem.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Resetuj automatické řízení zisku rádia každé 4 sekundy.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Posílej ke každému potvrzení jednu kopii navíc, aby zprávy procházely i přes slabá spojení.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "Nech adverty projít nejvýše 8 skoky, to je výchozí hodnota firmwaru. MeshCore France povoluje víc než 3 skoky, které tato stránka doporučuje pro každý repeater.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Přestaň opakovat pakety bez regionu po 5 skocích. MeshCore France povoluje víc než 1 skok, který tato stránka doporučuje pro každý repeater.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
+  },
   "area_change_nl_companion_region": {
     "value": "V experimentálním nastavení aplikace nastav výchozí region na nl. Každému kanálu dej jeho region, třeba nl-nh pro Severní Holandsko.",
     "_ai": true,

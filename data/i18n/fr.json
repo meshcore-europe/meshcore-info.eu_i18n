@@ -3401,6 +3401,36 @@
     "_seeded": "2026-10-26",
     "_source": "8877399e"
   },
+  "area_change_fr_regions": {
+    "value": "Ajoute les régions que ton répéteur dessert, chacune dans celle au-dessus : Europe, France et ta région. France devient la région par défaut et la région d'origine.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Réinitialise le contrôle automatique de gain de la radio toutes les 4 secondes.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Envoie une copie supplémentaire de chaque accusé de réception, pour améliorer la livraison sur les liaisons faibles.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "Laisse les annonces parcourir au maximum 8 sauts, la valeur par défaut du micrologiciel. MeshCore France autorise plus que les 3 sauts que cette page conseille pour chaque répéteur.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Arrête de répéter les paquets sans région après 5 sauts. MeshCore France autorise plus que le 1 saut que cette page conseille pour chaque répéteur.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
+  },
   "area_change_nl_companion_region": {
     "value": "Dans les réglages expérimentaux de l'app, mets la région par défaut sur nl. Donne à chaque canal sa région, par exemple nl-nh pour la Hollande-Septentrionale.",
     "_ai": true,

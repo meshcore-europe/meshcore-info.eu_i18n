@@ -3401,6 +3401,36 @@
     "_seeded": "2026-11-02",
     "_source": "8877399e"
   },
+  "area_change_fr_regions": {
+    "value": "Żid ir-reġjuni li jservi r-repeater tiegħek, kull wieħed ġewwa dak ta' fuqu: Europe, France u r-reġjun tiegħek. France issir ir-reġjun default u r-reġjun tad-dar.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "46567f2c"
+  },
+  "area_change_agc_reset": {
+    "value": "Irrisettja l-kontroll awtomatiku tal-gain tar-radju kull 4 sekondi.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "551ed7d3"
+  },
+  "area_change_multi_acks": {
+    "value": "Ibgħat kopja żejda ta' kull konferma ta' riċevuta, biex itejjeb il-kunsinna fuq links dgħajfa.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c0db9ff1"
+  },
+  "area_change_fr_max_advert": {
+    "value": "Ħalli l-adverts jivvjaġġaw l-aktar 8 hops, id-default tal-firmware. MeshCore France tippermetti aktar mit-3 hops li din il-paġna tirrakkomanda għal kull repeater.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "9c2aefc1"
+  },
+  "area_change_fr_max_unscoped": {
+    "value": "Tibqax tirrepeti pakketti mingħajr reġjun wara 5 hops. MeshCore France tippermetti aktar mill-hop 1 li din il-paġna tirrakkomanda għal kull repeater.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e621f308"
+  },
   "area_change_nl_companion_region": {
     "value": "Fis-settings sperimentali tal-app, issettja r-reġjun default għal nl. Agħti lil kull kanal ir-reġjun tiegħu, bħal nl-nh għall-Olanda ta' Fuq.",
     "_ai": true,
