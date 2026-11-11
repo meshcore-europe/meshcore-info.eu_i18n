@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'f3e63cef'
-  seeded: '2026-11-04'
+  source_hash: '77cff517'
+  seeded: '2026-11-11'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', 'ee7ba544', '6f034862', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', '6f034862', '30deca02', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', 'adb108f8', '9f96bbaa', '4d6fa3ea', '442015ad', 'd5de6ea4', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Informazioni sul sito {#about}
@@ -32,6 +32,18 @@ Questi link occupano meno spazio in un messaggio sulla mesh. Ognuno si apre nell
 di chi lo tocca. Ogni nome che assegniamo continua a funzionare nel tempo.
 
 {{< short-links >}}
+
+## Opuscolo {#booklet}
+
+[![L'opuscolo aperto: sul retro il riquadro vuoto per i contatti, sul fronte la città vista dall'alto con la sua rete](/media/booklet/meshcore-info-booklet-thumb.webp)](/media/booklet/meshcore-info-booklet-en.pdf)
+
+Distribuisci questo opuscolo a uno stand, oppure dallo al proprietario di un tetto che vorresti usare. Risponde alle prime domande: cos'è MeshCore, quanto costa, come funziona, cosa comporta un ripetitore su un tetto e come trovare il tuo gruppo locale. Sul retro c'è spazio per i tuoi recapiti.
+
+1. [Scarica l'opuscolo in PDF](/media/booklet/meshcore-info-booklet-en.pdf), 1 foglio A4.
+2. Stampalo fronte e retro al 100%, con capovolgimento sul lato corto.
+3. Scrivi il tuo nome o quello del gruppo nel riquadro vuoto e piega il foglio una volta.
+
+Stampane quante copie vuoi. Per ora l'opuscolo è in inglese. Le altre lingue arriveranno non appena saranno tradotte.
 
 ## Logo {#logo}
 

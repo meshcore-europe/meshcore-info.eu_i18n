@@ -3,7 +3,7 @@
     "language": "ga",
     "name": "Gaeilge",
     "managed_by": "community",
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "site_tagline": {
     "value": "Teachtaireachtaí lasmuigh den eangach ar fud na hEorpa",
@@ -6472,6 +6472,186 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "dbcd5e7b"
+  },
+  "booklet_title": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "f4f17278"
+  },
+  "booklet_subtitle": {
+    "value": "Téacsanna gan an t-idirlíon",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "567d0b96"
+  },
+  "booklet_keywords": {
+    "value": "Díláraithe · Saor in aisce · Foinse oscailte · Dleathach",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2c5258e"
+  },
+  "booklet_tagline": {
+    "value": "Seol teachtaireachtaí trí raidió, ó dhíon go díon. Níl idirlíon ná síntiús ag teastáil uait. Glac páirt agus bí ullamh.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c4ac4359"
+  },
+  "booklet_q_what": {
+    "value": "Cad é MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "06eda66b"
+  },
+  "booklet_a_what": {
+    "value": "Is bogearraí foinse oscailte é MeshCore. Ligeann sé do raidiónna beaga tiomnaithe teachtaireachtaí a sheoladh ar aghaidh thar líonra mogalra. Oibríonn sé gan an t-idirlíon agus gan soláthraí tráchtála.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "78415b19"
+  },
+  "booklet_q_cost": {
+    "value": "Cé mhéad a chosnaíonn sé?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e8dc9deb"
+  },
+  "booklet_a_cost": {
+    "value": "Le tosú, níl ag teastáil uait ach compánach (ainm MeshCore ar ról an raidió ag an taobh glactha). Is féidir leat ceann a fháil ó 15 euro, agus cosnaíonn ceann maith thart ar 40 de ghnáth. Níl costais reatha ann, mar shíntiús, agus ní gá duit clárú.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2904f1a"
+  },
+  "booklet_q_join": {
+    "value": "Conas a ghlacaim páirt?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "4ebf5b3a"
+  },
+  "booklet_a_join": {
+    "value": "Liostaíonn ár suíomh gréasáin grúpaí in aice leat. Is oibrithe deonacha iad a bhfuil eolas acu ar an mogalra. Cabhraíonn siad leat do threalamh a shocrú. Is féidir leat léamh faoi freisin agus tosú. Tá sé níos éasca ná mar a cheapann tú.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "413528fd"
+  },
+  "booklet_roof_title": {
+    "value": "Athsheoltóir ar do dhíon?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0e152f7d"
+  },
+  "booklet_roof_lead": {
+    "value": "In go leor áiteanna tá an mogalra tógtha go maith cheana, mar sin is minic nach dteastaíonn athsheoltóir de do chuid féin uait. Nuair atá an clúdach lag, is féidir le hathsheoltóir cabhrú. Le radharc glan agus airde mhaith, seolann sé teachtaireachtaí ar aghaidh thar achair fhada. Is féidir leat ceann réamhdhéanta a cheannach nó do cheann féin a thógáil. Is éard atá in athsheoltóir: raidió, painéal gréine agus cadhnraí le rialaitheoirí luchtaithe.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "52776beb"
+  },
+  "booklet_q_internet": {
+    "value": "An úsáideann sé m'idirlíon?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "dc17caa8"
+  },
+  "booklet_a_internet": {
+    "value": "Ní úsáideann. Úsáideann na raidiónna minicíochtaí saor ó cheadúnas. Níl WiFi ag teastáil uathu. Tá painéil ghréine agus cadhnraí ag athsheoltóirí, mar sin leanann siad ag obair le linn cliseadh cumhachta.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "3ed17f21"
+  },
+  "booklet_q_allowed": {
+    "value": "An bhfuil sé ceadaithe?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "02b9f7c4"
+  },
+  "booklet_a_allowed": {
+    "value": "Tá. Tá cuid den bhanda 868 MHz saor le húsáid ar fud na hEorpa. Níl ceadúnas ag teastáil ó athsheoltóir ach oiread. Caithfidh tú na rialacha a leanúint, áfach.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "20714be9"
+  },
+  "booklet_how_title": {
+    "value": "Conas a oibríonn sé?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c3f15799"
+  },
+  "booklet_how_lead": {
+    "value": "Rialaíonn tú do chompánach ó do ghuthán nó do ríomhaire. Ansin seolann do chompánach do theachtaireachtaí trí raidió chuig an athsheoltóir is gaire. As sin, léimeann siad ó dhíon go díon go sroicheann siad an faighteoir. Clúdaíonn na raidiónna seo roinnt ciliméadar.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "bdd12bb9"
+  },
+  "booklet_legend_1": {
+    "value": "Guthán nó ríomhaire",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0727f861"
+  },
+  "booklet_legend_2": {
+    "value": "Compánach: an raidió a iompraíonn tú leat",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b95f6187"
+  },
+  "booklet_legend_3": {
+    "value": "Athsheoltóir: seolann sé teachtaireachtaí ar aghaidh",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c9f24857"
+  },
+  "booklet_legend_4": {
+    "value": "Athsheoltóirí eile, ó dhíon go díon",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "82cc3b46"
+  },
+  "booklet_fact_1": {
+    "value": "Nuair atá an líonra soghluaiste síos, is féidir leis an mogalra do theaghlach agus do chairde in aice láimhe a shroicheadh fós. Ritheann go leor athsheoltóirí ar phainéil ghréine bheaga agus ar chadhnraí. Níl a fhios ag aon duine an oibreoidh sé i ndáiríre i gcás éigeandála.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "ce841258"
+  },
+  "booklet_fact_2": {
+    "value": "Criptítear teachtaireachtaí díreacha ó cheann ceann. Tá cainéil phoiblí poiblí, cosúil le seomra comhrá.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0755982e"
+  },
+  "booklet_fact_3": {
+    "value": "Teachtaireachtaí téacs gearra amháin: gan glór, grianghraif ná idirlíon.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6f9a120d"
+  },
+  "booklet_box": {
+    "value": "Teagmháil / nótaí",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e30245b1"
+  },
+  "booklet_group_title": {
+    "value": "Aimsigh grúpa, nó léigh faoi",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "7eb372bc"
+  },
+  "booklet_group_lead": {
+    "value": "Scan an cód, nó tabhair cuairt ar cheann de na suíomhanna gréasáin, mar shampla meshcore-info.eu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6e8065fb"
+  },
+  "booklet_about": {
+    "value": "Míníonn meshcore-info.eu MeshCore don Eoraip, i 33 teanga: na socruithe, na treoracha agus na huirlisí a roinneann na mogalraí áitiúla. Coinníonn oibrithe deonacha an suíomh ar siúl, agus tá fáilte roimh chabhair.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c149933d"
+  },
+  "booklet_machine": {
+    "value": "D'aistrigh meaisín an leabhrán seo. Níor sheiceáil cainteoir dúchais é fós.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b23f3819"
   },
   "meetings_strip_title": {
     "value": "Na 8 seachtaine eile",

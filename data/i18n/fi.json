@@ -3,7 +3,7 @@
     "language": "fi",
     "name": "Suomi",
     "managed_by": "community",
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "site_tagline": {
     "value": "Viestintää ilman verkkoa kautta Euroopan",
@@ -6472,6 +6472,186 @@
     "_ai": true,
     "_seeded": "2026-10-27",
     "_source": "dbcd5e7b"
+  },
+  "booklet_title": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "f4f17278"
+  },
+  "booklet_subtitle": {
+    "value": "Tekstiviestejä ilman internetiä",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "567d0b96"
+  },
+  "booklet_keywords": {
+    "value": "Hajautettu · Ilmainen · Avoin lähdekoodi · Laillinen",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2c5258e"
+  },
+  "booklet_tagline": {
+    "value": "Lähetä viestejä radiolla, katolta katolle. Et tarvitse internetiä etkä liittymää. Tule mukaan ja varaudu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c4ac4359"
+  },
+  "booklet_q_what": {
+    "value": "Mikä MeshCore on?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "06eda66b"
+  },
+  "booklet_a_what": {
+    "value": "MeshCore on avoimen lähdekoodin ohjelmisto, jolla pienet erilliset radiot välittävät viestejä mesh-verkossa. Se toimii ilman internetiä tai kaupallista palveluntarjoajaa.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "78415b19"
+  },
+  "booklet_q_cost": {
+    "value": "Mitä se maksaa?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e8dc9deb"
+  },
+  "booklet_a_cost": {
+    "value": "Aloittamiseen tarvitset vain companionin (MeshCoren nimi vastaanottavan pään radion roolille). Saat sellaisen 15 eurosta, ja hyvä maksaa yleensä noin 40. Juoksevia kuluja, kuten liittymää, ei ole, eikä sinun tarvitse rekisteröityä.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2904f1a"
+  },
+  "booklet_q_join": {
+    "value": "Miten pääsen mukaan?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "4ebf5b3a"
+  },
+  "booklet_a_join": {
+    "value": "Verkkosivustollamme on lista lähelläsi toimivista ryhmistä. Ne ovat vapaaehtoisia, jotka tuntevat meshin ja auttavat sinua alkuun. Voit myös perehtyä aiheeseen itse ja aloittaa. Se on helpompaa kuin luulet.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "413528fd"
+  },
+  "booklet_roof_title": {
+    "value": "Toistin katollesi?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0e152f7d"
+  },
+  "booklet_roof_lead": {
+    "value": "Monessa paikassa mesh on jo hyvin rakennettu, joten oma toistin ei usein ole tarpeen. Missä kuuluvuus on heikko, toistin voi auttaa. Esteettömällä näkyvyydellä ja hyvällä korkeudella se välittää viestejä pitkiä matkoja. Voit ostaa valmiin tai rakentaa omasi. Toistin on radio, aurinkopaneeli sekä akut latausohjaimineen.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "52776beb"
+  },
+  "booklet_q_internet": {
+    "value": "Käyttääkö se internetyhteyttäni?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "dc17caa8"
+  },
+  "booklet_a_internet": {
+    "value": "Ei. Radiot käyttävät luvattomia taajuuksia. Ne eivät tarvitse WiFi-yhteyttä. Toistimissa on aurinkopaneelit ja akut, joten ne toimivat myös sähkökatkon aikana.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "3ed17f21"
+  },
+  "booklet_q_allowed": {
+    "value": "Onko se sallittua?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "02b9f7c4"
+  },
+  "booklet_a_allowed": {
+    "value": "On. Osa 868 MHz:n taajuusalueesta on vapaasti käytettävissä koko Euroopassa. Myöskään toistin ei tarvitse lupaa. Sääntöjä sinun on kuitenkin noudatettava.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "20714be9"
+  },
+  "booklet_how_title": {
+    "value": "Miten se toimii?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c3f15799"
+  },
+  "booklet_how_lead": {
+    "value": "Ohjaat companionia puhelimella tai tietokoneella. Companion lähettää viestisi radiolla lähimmälle toistimelle. Sieltä ne hyppäävät katolta katolle, kunnes ne saavuttavat vastaanottajan. Nämä radiot kantavat useita kilometrejä.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "bdd12bb9"
+  },
+  "booklet_legend_1": {
+    "value": "Puhelin tai tietokone",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0727f861"
+  },
+  "booklet_legend_2": {
+    "value": "Companion: radio, jota kannat mukanasi",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b95f6187"
+  },
+  "booklet_legend_3": {
+    "value": "Toistin: välittää viestejä eteenpäin",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c9f24857"
+  },
+  "booklet_legend_4": {
+    "value": "Muut toistimet, katolta katolle",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "82cc3b46"
+  },
+  "booklet_fact_1": {
+    "value": "Kun mobiiliverkko on poissa käytöstä, mesh voi yhä tavoittaa lähellä asuvat perheenjäsenesi ja ystäväsi. Monet toistimet toimivat pienillä aurinkopaneeleilla ja akuilla. Kukaan ei tiedä, toimiiko se hätätilanteessa todella.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "ce841258"
+  },
+  "booklet_fact_2": {
+    "value": "Yksityisviestit on salattu päästä päähän. Julkiset kanavat ovat julkisia, kuten chat-huone.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0755982e"
+  },
+  "booklet_fact_3": {
+    "value": "Vain lyhyitä tekstiviestejä: ei puhetta, kuvia eikä internetiä.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6f9a120d"
+  },
+  "booklet_box": {
+    "value": "Yhteystieto / muistiinpanot",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e30245b1"
+  },
+  "booklet_group_title": {
+    "value": "Löydä ryhmä tai perehdy aiheeseen",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "7eb372bc"
+  },
+  "booklet_group_lead": {
+    "value": "Skannaa koodi tai käy jollakin verkkosivustolla, kuten meshcore-info.eu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6e8065fb"
+  },
+  "booklet_about": {
+    "value": "meshcore-info.eu esittelee MeshCoren Euroopassa 33 kielellä: paikallisten meshien yhteiset asetukset, oppaat ja työkalut. Vapaaehtoiset ylläpitävät sivustoa, ja apu on tervetullutta.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c149933d"
+  },
+  "booklet_machine": {
+    "value": "Tämä vihkonen on konekäännetty. Äidinkielinen puhuja ei ole vielä tarkistanut sitä.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b23f3819"
   },
   "meetings_strip_title": {
     "value": "Seuraavat 8 viikkoa",

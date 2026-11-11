@@ -3,7 +3,7 @@
     "language": "lt",
     "name": "Lietuvių",
     "managed_by": "community",
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "site_tagline": {
     "value": "Žinutės be tinklo visoje Europoje",
@@ -6472,6 +6472,186 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "dbcd5e7b"
+  },
+  "booklet_title": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "f4f17278"
+  },
+  "booklet_subtitle": {
+    "value": "Žinutės be interneto",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "567d0b96"
+  },
+  "booklet_keywords": {
+    "value": "Decentralizuota · Nemokama · Atviro kodo · Legalu",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2c5258e"
+  },
+  "booklet_tagline": {
+    "value": "Siųsk žinutes radiju, nuo stogo iki stogo. Tau nereikia nei interneto, nei abonemento. Prisijunk ir būk pasiruošęs.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c4ac4359"
+  },
+  "booklet_q_what": {
+    "value": "Kas yra MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "06eda66b"
+  },
+  "booklet_a_what": {
+    "value": "MeshCore yra atviro kodo programinė įranga. Su ja maži specialūs radijo įrenginiai perduoda žinutes mesh tinklu. Ji veikia be interneto ir be komercinio tiekėjo.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "78415b19"
+  },
+  "booklet_q_cost": {
+    "value": "Kiek tai kainuoja?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e8dc9deb"
+  },
+  "booklet_a_cost": {
+    "value": "Pradžiai tau reikia tik kompaniono (taip MeshCore vadina radijo įrenginio vaidmenį priimančioje pusėje). Jį gali įsigyti nuo 15 eurų, o geras paprastai kainuoja apie 40. Nėra jokių nuolatinių išlaidų, pavyzdžiui, abonemento, ir tau nereikia registruotis.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2904f1a"
+  },
+  "booklet_q_join": {
+    "value": "Kaip prisijungti?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "4ebf5b3a"
+  },
+  "booklet_a_join": {
+    "value": "Mūsų svetainėje rasi grupes netoli tavęs. Tai savanoriai, kurie išmano mesh tinklą ir padeda tau viską įsirengti. Taip pat gali pasiskaityti ir pradėti pats. Tai lengviau, nei manai.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "413528fd"
+  },
+  "booklet_roof_title": {
+    "value": "Retransliatorius ant tavo stogo?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0e152f7d"
+  },
+  "booklet_roof_lead": {
+    "value": "Daugelyje vietų mesh tinklas jau gerai išplėtotas, todėl savo retransliatoriaus dažnai nereikia. Kur aprėptis silpna, retransliatorius gali padėti. Turėdamas atvirą vaizdą ir gerą aukštį, jis perduoda žinutes dideliais atstumais. Gali nusipirkti paruoštą arba pasigaminti pats. Retransliatorius yra radijo įrenginys, saulės baterija ir akumuliatoriai su įkrovimo valdikliais.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "52776beb"
+  },
+  "booklet_q_internet": {
+    "value": "Ar jis naudoja mano internetą?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "dc17caa8"
+  },
+  "booklet_a_internet": {
+    "value": "Ne. Radijo įrenginiai naudoja nelicencijuojamus dažnius. Jiems nereikia WiFi. Retransliatoriai turi saulės baterijas ir akumuliatorius, todėl veikia ir dingus elektrai.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "3ed17f21"
+  },
+  "booklet_q_allowed": {
+    "value": "Ar tai leidžiama?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "02b9f7c4"
+  },
+  "booklet_a_allowed": {
+    "value": "Taip. Dalį 868 MHz juostos visoje Europoje galima naudoti laisvai. Retransliatoriui licencijos irgi nereikia. Tačiau taisyklių laikytis privalai.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "20714be9"
+  },
+  "booklet_how_title": {
+    "value": "Kaip tai veikia?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c3f15799"
+  },
+  "booklet_how_lead": {
+    "value": "Savo kompanioną valdai telefonu arba kompiuteriu. Tada kompanionas radiju siunčia tavo žinutes artimiausiam retransliatoriui. Iš ten jos šuoliuoja nuo stogo iki stogo, kol pasiekia gavėją. Šie radijo įrenginiai įveikia kelis kilometrus.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "bdd12bb9"
+  },
+  "booklet_legend_1": {
+    "value": "Telefonas arba kompiuteris",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0727f861"
+  },
+  "booklet_legend_2": {
+    "value": "Kompanionas: radijo įrenginys, kurį nešiojiesi su savimi",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b95f6187"
+  },
+  "booklet_legend_3": {
+    "value": "Retransliatorius: perduoda žinutes toliau",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c9f24857"
+  },
+  "booklet_legend_4": {
+    "value": "Kiti retransliatoriai, nuo stogo iki stogo",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "82cc3b46"
+  },
+  "booklet_fact_1": {
+    "value": "Kai mobilusis ryšys neveikia, mesh tinklu vis tiek gali pasiekti šeimą ir draugus netoliese. Daug retransliatorių veikia su mažomis saulės baterijomis ir akumuliatoriais. Ar tai tikrai veiks ekstremalioje situacijoje, niekas nežino.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "ce841258"
+  },
+  "booklet_fact_2": {
+    "value": "Tiesioginės žinutės yra šifruojamos ištisai. Vieši kanalai yra vieši, kaip pokalbių kambarys.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0755982e"
+  },
+  "booklet_fact_3": {
+    "value": "Tik trumpos tekstinės žinutės: jokio balso, nuotraukų ar interneto.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6f9a120d"
+  },
+  "booklet_box": {
+    "value": "Kontaktas / pastabos",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e30245b1"
+  },
+  "booklet_group_title": {
+    "value": "Rask grupę arba pasiskaityk",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "7eb372bc"
+  },
+  "booklet_group_lead": {
+    "value": "Nuskenuok kodą arba apsilankyk vienoje iš svetainių, pavyzdžiui, meshcore-info.eu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6e8065fb"
+  },
+  "booklet_about": {
+    "value": "meshcore-info.eu aiškina MeshCore Europai 33 kalbomis: nustatymus, vadovus ir įrankius, kuriais dalijasi vietiniai mesh tinklai. Svetainę palaiko savanoriai, ir pagalba laukiama.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c149933d"
+  },
+  "booklet_machine": {
+    "value": "Šią brošiūrą išvertė mašina. Gimtakalbis jos dar nepatikrino.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b23f3819"
   },
   "meetings_strip_title": {
     "value": "Artimiausios 8 savaitės",

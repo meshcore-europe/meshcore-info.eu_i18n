@@ -3,7 +3,7 @@
     "language": "pl",
     "name": "Polski",
     "managed_by": "community",
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "site_tagline": {
     "value": "Wiadomości poza siecią w całej Europie",
@@ -6472,6 +6472,186 @@
     "_ai": true,
     "_seeded": "2026-10-27",
     "_source": "dbcd5e7b"
+  },
+  "booklet_title": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "f4f17278"
+  },
+  "booklet_subtitle": {
+    "value": "Wiadomości tekstowe bez internetu",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "567d0b96"
+  },
+  "booklet_keywords": {
+    "value": "Zdecentralizowany · Darmowy · Open source · Legalny",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2c5258e"
+  },
+  "booklet_tagline": {
+    "value": "Wysyłaj wiadomości przez radio, z dachu na dach. Nie potrzebujesz internetu ani abonamentu. Dołącz i bądź przygotowany.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c4ac4359"
+  },
+  "booklet_q_what": {
+    "value": "Czym jest MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "06eda66b"
+  },
+  "booklet_a_what": {
+    "value": "MeshCore to oprogramowanie open source, dzięki któremu małe, dedykowane radia przekazują wiadomości w sieci typu siatka. Działa bez internetu i bez komercyjnego operatora.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "78415b19"
+  },
+  "booklet_q_cost": {
+    "value": "Ile to kosztuje?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e8dc9deb"
+  },
+  "booklet_a_cost": {
+    "value": "Na start potrzebujesz tylko companion (tak MeshCore nazywa rolę radia po stronie odbiorcy). Kupisz go już od 15 euro, a dobry kosztuje zwykle około 40. Nie ma stałych kosztów, takich jak abonament, i nie musisz się rejestrować.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2904f1a"
+  },
+  "booklet_q_join": {
+    "value": "Jak dołączyć?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "4ebf5b3a"
+  },
+  "booklet_a_join": {
+    "value": "Na naszej stronie znajdziesz grupy w twojej okolicy. To wolontariusze, którzy znają siatkę i pomogą ci wszystko skonfigurować. Możesz też poczytać o tym i zacząć sam. To łatwiejsze, niż myślisz.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "413528fd"
+  },
+  "booklet_roof_title": {
+    "value": "Przekaźnik na twoim dachu?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0e152f7d"
+  },
+  "booklet_roof_lead": {
+    "value": "W wielu miejscach siatka jest już dobrze rozbudowana, więc często nie potrzebujesz własnego przekaźnika. Tam, gdzie zasięg jest słaby, przekaźnik może pomóc. Z dobrym widokiem i na dużej wysokości przekazuje wiadomości na duże odległości. Możesz kupić gotowy albo zbudować własny. Przekaźnik to radio, panel słoneczny i akumulatory z regulatorami ładowania.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "52776beb"
+  },
+  "booklet_q_internet": {
+    "value": "Czy to korzysta z mojego internetu?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "dc17caa8"
+  },
+  "booklet_a_internet": {
+    "value": "Nie. Radia korzystają z częstotliwości, które nie wymagają licencji. Nie potrzebują WiFi. Przekaźniki mają panele słoneczne i akumulatory, więc działają dalej podczas przerwy w dostawie prądu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "3ed17f21"
+  },
+  "booklet_q_allowed": {
+    "value": "Czy to legalne?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "02b9f7c4"
+  },
+  "booklet_a_allowed": {
+    "value": "Tak. Część pasma 868 MHz jest w całej Europie dostępna do swobodnego użytku. Przekaźnik też nie wymaga licencji. Musisz jednak przestrzegać przepisów.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "20714be9"
+  },
+  "booklet_how_title": {
+    "value": "Jak to działa?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c3f15799"
+  },
+  "booklet_how_lead": {
+    "value": "Sterujesz swoim companion z telefonu lub komputera. Companion wysyła twoje wiadomości przez radio do najbliższego przekaźnika. Stamtąd skaczą z dachu na dach, aż dotrą do odbiorcy. Te radia pokonują kilka kilometrów.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "bdd12bb9"
+  },
+  "booklet_legend_1": {
+    "value": "Telefon lub komputer",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0727f861"
+  },
+  "booklet_legend_2": {
+    "value": "Companion: radio, które nosisz przy sobie",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b95f6187"
+  },
+  "booklet_legend_3": {
+    "value": "Przekaźnik: przekazuje wiadomości dalej",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c9f24857"
+  },
+  "booklet_legend_4": {
+    "value": "Inne przekaźniki, z dachu na dach",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "82cc3b46"
+  },
+  "booklet_fact_1": {
+    "value": "Gdy sieć komórkowa nie działa, przez siatkę wciąż możesz dotrzeć do rodziny i przyjaciół w pobliżu. Wiele przekaźników działa na małych panelach słonecznych i akumulatorach. Czy to naprawdę zadziała w sytuacji awaryjnej, nikt nie wie.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "ce841258"
+  },
+  "booklet_fact_2": {
+    "value": "Wiadomości prywatne są szyfrowane end-to-end. Kanały publiczne są publiczne, jak czat.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0755982e"
+  },
+  "booklet_fact_3": {
+    "value": "Tylko krótkie wiadomości tekstowe: bez głosu, zdjęć i internetu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6f9a120d"
+  },
+  "booklet_box": {
+    "value": "Kontakt / notatki",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e30245b1"
+  },
+  "booklet_group_title": {
+    "value": "Znajdź grupę albo poczytaj",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "7eb372bc"
+  },
+  "booklet_group_lead": {
+    "value": "Zeskanuj kod albo odwiedź jedną ze stron, na przykład meshcore-info.eu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6e8065fb"
+  },
+  "booklet_about": {
+    "value": "meshcore-info.eu wyjaśnia MeshCore dla Europy w 33 językach: ustawienia, poradniki i narzędzia, które dzielą lokalne siatki. Stronę prowadzą wolontariusze, a każda pomoc jest mile widziana.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c149933d"
+  },
+  "booklet_machine": {
+    "value": "Tę broszurę przetłumaczyła maszyna. Native speaker jeszcze jej nie sprawdził.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b23f3819"
   },
   "meetings_strip_title": {
     "value": "Najbliższe 8 tygodni",

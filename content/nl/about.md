@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore is gratis software voor kleine LoRa-radio's. LoRa is een radiotechniek
@@ -30,28 +30,29 @@ verwachten, maar die het niet doet.
 
 - **Het is geen internet en geen telefoon.** MeshCore verstuurt korte tekstberichten,
   ongeveer zo lang als een sms op je telefoon. Geen spraak, foto's, video
-  of websites, en je bereikt geen gewoon telefoonnummer.
-- **Het is geen hulpdienst.** Geen enkele hulpdienst belooft op de mesh te
-  luisteren, en niemand belooft dat iemand je bericht leest.
-- **Het is niet onmiddellijk, en niet overal.** Een bericht springt van radio naar
-  radio en kan een paar seconden onderweg zijn, of helemaal niet aankomen. Of het
-  doorkomt, hangt af van de repeaters om je heen, van hoogte, gebouwen en je
+  of websites, en je kunt geen gewoon telefoonnummer bereiken.
+- **Het is geen hulpdienst.** Geen enkele hulpdienst belooft mee te
+  luisteren op de mesh. We weten dat de mesh kan werken. Of hij in een
+  noodsituatie werkt, weet niemand.
+- **Het werkt niet meteen, en niet overal.** Een bericht springt van radio naar
+  radio en kan een paar seconden duren, of helemaal niet aankomen. Of het
+  aankomt, hangt af van de repeaters om je heen, van hoogte, gebouwen en je
   antenne. Een kleine radio binnenshuis bereikt vaak niemand. Een repeater op
   een dak reikt kilometers ver.
-- **Het is geen dienst die iemand voor je verzorgt.** Er is geen provider, geen
-  helpdesk en geen belofte over dekking. De mesh bestaat waar mensen uit de
-  community repeaters hebben neergezet.
-- **Niet alles op de mesh is privé.** Directe berichten zijn versleuteld, maar Public en de
-  hashtagkanalen kan iedereen lezen. De naam van je node en je gedeelde positie
-  ziet iedereen binnen bereik.
+- **Het is geen dienst die iemand voor je draait.** Er is geen provider, geen
+  helpdesk en geen garantie op dekking. De mesh bestaat waar mensen uit de
+  community repeaters hebben geplaatst.
+- **Niet alles op de mesh is privé.** Directe berichten zijn versleuteld. Maar
+  Public en de hashtag-kanalen kan iedereen lezen. De naam van je node en je
+  gedeelde positie zijn zichtbaar voor iedereen binnen bereik.
   [Observers](/network/) geven wat ze horen door aan openbare kaarten. Het
   [deel over versleuteling](#encryption) legt uit wat privé blijft.
-- **Het is niet onbeperkt.** Iedereen in een gebied deelt één radiokanaal. De
-  regels voor de [868 MHz-band](#band) beperken hoe lang elke radio mag zenden.
-  Elk bericht kost alle anderen zendtijd. Bots, frequente adverts
-  en testberichten maken de mesh dus trager voor iedereen.
-- **Het is geen Meshtastic.** Meshtastic is een ander systeem dat op grotendeels
-  dezelfde boards draait. De twee kunnen niet met elkaar communiceren.
+- **Het is niet onbeperkt.** Iedereen in een gebied deelt één radiokanaal, en
+  de regels voor de [868 MHz-band](#band) beperken hoe lang elke radio mag zenden.
+  Elk bericht gaat ten koste van de zendtijd van alle anderen. Bots, vaak
+  verstuurde adverts en testberichten maken de mesh dus trager voor iedereen.
+- **Het is geen Meshtastic.** Meshtastic is een ander systeem dat op
+  grotendeels dezelfde boards draait. De twee kunnen niet met elkaar communiceren.
 
 ## De mesh in een minuut {#mesh}
 
@@ -185,7 +186,7 @@ Sommige overheden bouwen of testen een back-up op basis van MeshCore. We hebben 
   [draaien vrijwilligers een pilot samen met de gemeenten](https://noodnetoverijssel.nl/).
   Ze gebruiken eerst spraakradio en MeshCore als tweede laag voor tekst.
 
-Niemand belooft dat iemand bij jou in de buurt je bericht op de mesh leest.
+Of de mesh bij jou in de buurt werkt in een noodsituatie, weet niemand.
 
 ## Waar de gegevens vandaan komen {#data}
 

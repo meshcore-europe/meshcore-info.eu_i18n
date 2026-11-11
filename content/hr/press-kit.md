@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'f3e63cef'
-  seeded: '2026-11-04'
+  source_hash: '77cff517'
+  seeded: '2026-11-11'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', 'ee7ba544', '6f034862', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', '6f034862', '30deca02', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', 'adb108f8', '9f96bbaa', '4d6fa3ea', '442015ad', 'd5de6ea4', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## O stranici {#about}
@@ -29,6 +29,18 @@ Ove poveznice zauzimaju manje mjesta u mesh poruci. Svaka se otvara na jeziku
 osobe koja je dodirne. Svako ime koje jednom objavimo i dalje radi.
 
 {{< short-links >}}
+
+## Knjižica {#booklet}
+
+[![Rasklopljena knjižica: prazno polje za kontakt na poleđini, a na prednjoj strani grad odozgo sa svojom mrežom](/media/booklet/meshcore-info-booklet-thumb.webp)](/media/booklet/meshcore-info-booklet-en.pdf)
+
+Dijeli ovu knjižicu na štandu ili je daj vlasniku krova koji želiš koristiti. Odgovara na prva pitanja: što je MeshCore, koliko košta, kako radi, što znači repetitor na krovu i kako pronaći svoju lokalnu grupu. Na poleđini ima mjesta za tvoje vlastite podatke za kontakt.
+
+1. [Preuzmi knjižicu kao PDF](/media/booklet/meshcore-info-booklet-en.pdf), 1 list formata A4.
+2. Ispiši je obostrano, s okretanjem po kraćem rubu, u mjerilu 100 %.
+3. U prazno polje upiši svoje ime ili naziv grupe i jednom presavij list.
+
+Ispiši koliko god primjeraka želiš. Knjižica je zasad na engleskom; ostali jezici dolaze čim budu prevedeni.
 
 ## Logo {#logo}
 

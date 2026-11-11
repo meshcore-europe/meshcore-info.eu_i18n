@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore is fergese software foar lytse LoRa-radio's. LoRa is in radiotechyk
@@ -27,30 +27,31 @@ MIT-lisinsje.
 Bist nij yn de radiowrâld? Dit binne de dingen dy't minsken it faakst fan MeshCore
 ferwachtsje, en dy't it net docht.
 
-- **It is net it ynternet en gjin telefoan.** MeshCore stjoert koarte tekstberjochten,
+- **It is net it ynternet of in telefoan.** MeshCore stjoert koarte tekstberjochten,
   sawat sa lang as in sms op dyn telefoan. Gjin spraak, foto's, fideo
   of websites, en do kinst gjin gewoan telefoannûmer berikke.
-- **It is gjin needtsjinst.** Gjin needtsjinst belooft om op de mesh te
-  harkjen, en gjinien belooft dat immen dyn berjocht lêst.
-- **It is net direkt, en net oeral.** In berjocht hopt fan radio nei
+- **It is gjin needtsjinst.** Gjin needtsjinst belooft om op de mesh
+  te harkjen. Wy witte dat de mesh wurkje kin. Oft er wurket by in
+  need, dat wit nimmen.
+- **It is net direkt, en net oeral.** In berjocht springt fan radio nei
   radio en kin in pear sekonden duorje, of hielendal net oankomme. Oft it
   trochkomt, hinget ôf fan de repeaters om dy hinne, fan hichte, gebouwen en dyn
-  antenne. In lytse radio binnendoar berikt faak gjinien. In repeater op in dak
-  berikt kilometers.
-- **It is gjin tsjinst dy't immen foar dy beheart.** Der is gjin provider, gjin
-  helpdesk en gjin belofte oer dekking. De mesh bestiet dêr't minsken út de
-  mienskip repeaters delset hawwe.
+  antenne. In lytse radio binnendoar berikt faak nimmen. In repeater op in dak
+  berikt kilometers fier.
+- **It is gjin tsjinst dy't immen foar dy fersoarget.** Der is gjin provider, gjin
+  helpdesk en gjin dekkingsbelofte. De mesh bestiet dêr't minsken út de
+  mienskip repeaters pleatst hawwe.
 - **Net alles derop is privee.** Direkte berjochten binne fersifere, mar
-  Public en de hashtag-kanalen kin elkenien lêze. De namme fan dyn node en
-  de posysje dy'tst dielst, sjocht elkenien binnen berik.
-  [Observers](/network/) jouwe wat se hearre troch oan iepenbiere kaarten. De
+  Public en de hashtag-kanalen kin elkenien lêze. De namme fan dyn node
+  en dyn dielde posysje binne sichtber foar elkenien binnen berik.
+  [Observers](/network/) jouwe wat se hearre troch oan publike kaarten. De
   [seksje oer fersifering](#encryption) leit út wat privee bliuwt.
 - **It is net ûnbeheind.** Elkenien yn in gebiet dielt ien radiokanaal, en
   de regels foar de [868 MHz-bân](#band) beheine hoe lang elke radio stjoere mei.
-  Elk berjocht nimt stjoertiid fan alle oaren ôf. Bots, faak útstjoerde adverts
+  Elk berjocht nimt stjoertiid ôf fan alle oaren. Bots, faak útstjoerde adverts
   en testberjochten meitsje de mesh dêrom stadiger foar elkenien.
-- **It is net Meshtastic.** Meshtastic is in oar systeem dat foar it
-  grutste part op deselde boards rint. De twa kinne net mei-inoar prate.
+- **It is net Meshtastic.** Meshtastic is in oar systeem dat op
+  sawat deselde boerden draait. De twa kinne net mei-inoar prate.
 
 ## De mesh yn in minút {#mesh}
 
@@ -180,7 +181,7 @@ foarbylden yn novimber 2026 kontrolearre.
   [in pilot tegearre mei de gemeenten](https://noodnetoverijssel.nl/).
   Se brûke earst spraakradio en MeshCore as twadde laach foar tekst.
 
-Nimmen belooft dat immen dyn berjocht op de mesh by dy yn 'e buert lêst.
+Oft de mesh by dy yn 'e buert yn in needgefal wurket, dat wit nimmen.
 
 ## Wêr't de gegevens weikomme {#data}
 

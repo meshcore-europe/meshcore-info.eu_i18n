@@ -3,7 +3,7 @@
     "language": "sv",
     "name": "Svenska",
     "managed_by": "community",
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "site_tagline": {
     "value": "Meddelanden utan nät över hela Europa",
@@ -6472,6 +6472,186 @@
     "_ai": true,
     "_seeded": "2026-10-27",
     "_source": "dbcd5e7b"
+  },
+  "booklet_title": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "f4f17278"
+  },
+  "booklet_subtitle": {
+    "value": "Textmeddelanden utan internet",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "567d0b96"
+  },
+  "booklet_keywords": {
+    "value": "Decentraliserat · Gratis · Öppen källkod · Lagligt",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2c5258e"
+  },
+  "booklet_tagline": {
+    "value": "Skicka meddelanden via radio, från tak till tak. Du behöver varken internet eller abonnemang. Var med och var förberedd.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c4ac4359"
+  },
+  "booklet_q_what": {
+    "value": "Vad är MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "06eda66b"
+  },
+  "booklet_a_what": {
+    "value": "MeshCore är programvara med öppen källkod. Med den skickar små, särskilda radioapparater meddelanden vidare genom ett mesh-nätverk. Det fungerar utan internet och utan kommersiell leverantör.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "78415b19"
+  },
+  "booklet_q_cost": {
+    "value": "Vad kostar det?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e8dc9deb"
+  },
+  "booklet_a_cost": {
+    "value": "För att komma igång behöver du bara en companion (MeshCores namn på rollen för radion i mottagarens ände). Du får en från 15 euro, och en bra kostar oftast runt 40. Det finns inga löpande kostnader som abonnemang, och du behöver inte registrera dig.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2904f1a"
+  },
+  "booklet_q_join": {
+    "value": "Hur är jag med?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "4ebf5b3a"
+  },
+  "booklet_a_join": {
+    "value": "På vår webbplats hittar du grupper nära dig. Det är frivilliga som känner meshen och hjälper dig komma igång. Du kan också läsa på och börja själv. Det är enklare än du tror.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "413528fd"
+  },
+  "booklet_roof_title": {
+    "value": "En repeater på ditt tak?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0e152f7d"
+  },
+  "booklet_roof_lead": {
+    "value": "På många platser är meshen redan väl utbyggd, så ofta behöver du ingen egen repeater. Där täckningen är dålig kan en repeater hjälpa. Med fri sikt och bra höjd skickar den meddelanden vidare över långa avstånd. Du kan köpa en färdig eller bygga en själv. En repeater består av en radio, en solpanel och batterier med laddregulatorer.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "52776beb"
+  },
+  "booklet_q_internet": {
+    "value": "Använder det mitt internet?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "dc17caa8"
+  },
+  "booklet_a_internet": {
+    "value": "Nej. Radioapparaterna använder licensfria frekvenser. De behöver ingen WiFi. Repeatrar har solpaneler och batterier, så de fortsätter fungera vid strömavbrott.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "3ed17f21"
+  },
+  "booklet_q_allowed": {
+    "value": "Är det tillåtet?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "02b9f7c4"
+  },
+  "booklet_a_allowed": {
+    "value": "Ja. En del av 868 MHz-bandet får användas fritt i hela Europa. En repeater kräver inte heller någon licens. Du måste däremot följa reglerna.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "20714be9"
+  },
+  "booklet_how_title": {
+    "value": "Hur fungerar det?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c3f15799"
+  },
+  "booklet_how_lead": {
+    "value": "Du styr din companion från telefonen eller datorn. Din companion skickar sedan dina meddelanden via radio till närmaste repeater. Därifrån hoppar de från tak till tak tills de når mottagaren. Radioapparaterna klarar flera kilometer.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "bdd12bb9"
+  },
+  "booklet_legend_1": {
+    "value": "Telefon eller dator",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0727f861"
+  },
+  "booklet_legend_2": {
+    "value": "Companion: radion du bär med dig",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b95f6187"
+  },
+  "booklet_legend_3": {
+    "value": "Repeater: skickar meddelanden vidare",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c9f24857"
+  },
+  "booklet_legend_4": {
+    "value": "Andra repeatrar, från tak till tak",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "82cc3b46"
+  },
+  "booklet_fact_1": {
+    "value": "När mobilnätet ligger nere kan meshen fortfarande nå familj och vänner i närheten. Många repeatrar drivs av små solpaneler och batterier. Om det verkligen fungerar i en nödsituation vet ingen.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "ce841258"
+  },
+  "booklet_fact_2": {
+    "value": "Direktmeddelanden är krypterade från ände till ände. Offentliga kanaler är offentliga, som ett chattrum.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0755982e"
+  },
+  "booklet_fact_3": {
+    "value": "Bara korta textmeddelanden: ingen röst, inga foton och inget internet.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6f9a120d"
+  },
+  "booklet_box": {
+    "value": "Kontakt / anteckningar",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e30245b1"
+  },
+  "booklet_group_title": {
+    "value": "Hitta en grupp eller läs på",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "7eb372bc"
+  },
+  "booklet_group_lead": {
+    "value": "Skanna koden eller besök någon av webbplatserna, till exempel meshcore-info.eu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6e8065fb"
+  },
+  "booklet_about": {
+    "value": "meshcore-info.eu förklarar MeshCore för Europa på 33 språk: inställningarna, guiderna och verktygen som de lokala mesh-näten delar. Frivilliga håller webbplatsen igång, och hjälp är välkommen.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c149933d"
+  },
+  "booklet_machine": {
+    "value": "Det här häftet är maskinöversatt. En person med svenska som modersmål har inte granskat det än.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b23f3819"
   },
   "meetings_strip_title": {
     "value": "Kommande 8 veckor",

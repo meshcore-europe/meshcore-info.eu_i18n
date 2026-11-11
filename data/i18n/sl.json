@@ -3,7 +3,7 @@
     "language": "sl",
     "name": "Slovenščina",
     "managed_by": "community",
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "site_tagline": {
     "value": "Sporočila brez omrežja po vsej Evropi",
@@ -6472,6 +6472,186 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "dbcd5e7b"
+  },
+  "booklet_title": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "f4f17278"
+  },
+  "booklet_subtitle": {
+    "value": "Besedilna sporočila brez interneta",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "567d0b96"
+  },
+  "booklet_keywords": {
+    "value": "Decentralizirano · Brezplačno · Odprtokodno · Zakonito",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2c5258e"
+  },
+  "booklet_tagline": {
+    "value": "Pošiljaj sporočila po radiu, od strehe do strehe. Ne potrebuješ interneta ne naročnine. Pridruži se in bodi pripravljen.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c4ac4359"
+  },
+  "booklet_q_what": {
+    "value": "Kaj je MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "06eda66b"
+  },
+  "booklet_a_what": {
+    "value": "MeshCore je odprtokodna programska oprema, s katero majhni, namenski radii prenašajo sporočila po mreži. Deluje brez interneta in brez komercialnega ponudnika.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "78415b19"
+  },
+  "booklet_q_cost": {
+    "value": "Koliko stane?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e8dc9deb"
+  },
+  "booklet_a_cost": {
+    "value": "Za začetek potrebuješ le companion (tako MeshCore imenuje vlogo radia na sprejemni strani). Dobiš ga že od 15 evrov, dober pa običajno stane okoli 40. Ni tekočih stroškov, kot je naročnina, in registracija ni potrebna.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2904f1a"
+  },
+  "booklet_q_join": {
+    "value": "Kako se pridružim?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "4ebf5b3a"
+  },
+  "booklet_a_join": {
+    "value": "Na naši spletni strani so navedene skupine v tvoji bližini. To so prostovoljci, ki poznajo mrežo in ti pomagajo pri nastavitvi. Lahko pa se o tem tudi poučiš in kar začneš. Lažje je, kot misliš.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "413528fd"
+  },
+  "booklet_roof_title": {
+    "value": "Repetitor na tvoji strehi?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0e152f7d"
+  },
+  "booklet_roof_lead": {
+    "value": "Ponekod je mreža že dobro razvita, zato lastnega repetitorja pogosto ne potrebuješ. Kjer je pokritost slaba, lahko repetitor pomaga. Z dobrim razgledom in višino prenaša sporočila na velike razdalje. Kupiš ga lahko že sestavljenega ali ga zgradiš sam. Repetitor je radio, sončna plošča in baterije z regulatorji polnjenja.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "52776beb"
+  },
+  "booklet_q_internet": {
+    "value": "Ali porablja moj internet?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "dc17caa8"
+  },
+  "booklet_a_internet": {
+    "value": "Ne. Radii uporabljajo frekvence, za katere ne potrebuješ licence. WiFi ne potrebujejo. Repetitorji imajo sončne plošče in baterije, zato delujejo tudi med izpadom elektrike.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "3ed17f21"
+  },
+  "booklet_q_allowed": {
+    "value": "Ali je to dovoljeno?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "02b9f7c4"
+  },
+  "booklet_a_allowed": {
+    "value": "Da. Del pasu 868 MHz je prosto uporaben po vsej Evropi. Tudi repetitor ne potrebuje licence. Pravila pa moraš upoštevati.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "20714be9"
+  },
+  "booklet_how_title": {
+    "value": "Kako deluje?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c3f15799"
+  },
+  "booklet_how_lead": {
+    "value": "Svoj companion upravljaš s telefonom ali računalnikom. Companion nato pošlje tvoja sporočila po radiu do najbližjega repetitorja. Od tam skačejo od strehe do strehe, dokler ne pridejo do prejemnika. Ti radii premostijo več kilometrov.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "bdd12bb9"
+  },
+  "booklet_legend_1": {
+    "value": "Telefon ali računalnik",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0727f861"
+  },
+  "booklet_legend_2": {
+    "value": "Companion: radio, ki ga nosiš s seboj",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b95f6187"
+  },
+  "booklet_legend_3": {
+    "value": "Repetitor: posreduje sporočila naprej",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c9f24857"
+  },
+  "booklet_legend_4": {
+    "value": "Drugi repetitorji, od strehe do strehe",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "82cc3b46"
+  },
+  "booklet_fact_1": {
+    "value": "Ko mobilno omrežje ne deluje, lahko prek mreže še vedno dosežeš družino in prijatelje v bližini. Veliko repetitorjev deluje na majhne sončne plošče in baterije. Ali res deluje v izrednih razmerah, nihče ne ve.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "ce841258"
+  },
+  "booklet_fact_2": {
+    "value": "Neposredna sporočila so šifrirana od konca do konca. Javni kanali so javni, kot klepetalnica.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0755982e"
+  },
+  "booklet_fact_3": {
+    "value": "Samo kratka besedilna sporočila: brez glasu, fotografij ali interneta.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6f9a120d"
+  },
+  "booklet_box": {
+    "value": "Stik / opombe",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e30245b1"
+  },
+  "booklet_group_title": {
+    "value": "Poišči skupino ali se pouči",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "7eb372bc"
+  },
+  "booklet_group_lead": {
+    "value": "Skeniraj kodo ali obišči eno od spletnih strani, na primer meshcore-info.eu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6e8065fb"
+  },
+  "booklet_about": {
+    "value": "meshcore-info.eu razlaga MeshCore za Evropo v 33 jezikih: nastavitve, vodnike in orodja, ki si jih delijo lokalne mreže. Stran vzdržujejo prostovoljci, pomoč je dobrodošla.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c149933d"
+  },
+  "booklet_machine": {
+    "value": "To knjižico je prevedel stroj. Naravni govorec je še ni preveril.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b23f3819"
   },
   "meetings_strip_title": {
     "value": "Naslednjih 8 tednov",

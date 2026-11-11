@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'f3e63cef'
-  seeded: '2026-11-04'
+  source_hash: '77cff517'
+  seeded: '2026-11-11'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', 'ee7ba544', '6f034862', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', '6f034862', '30deca02', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', 'adb108f8', '9f96bbaa', '4d6fa3ea', '442015ad', 'd5de6ea4', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Dwar is-sit {#about}
@@ -29,6 +29,18 @@ Dawn il-links jieħdu inqas spazju f'messaġġ mesh. Kull link jinfetaħ fil-lin
 ta' min jagħfas fuqu. Ladarba nagħtu isem, inżommuh jaħdem.
 
 {{< short-links >}}
+
+## Ktejjeb {#booklet}
+
+[![Il-ktejjeb miftuħ: fuq in-naħa ta' wara l-kaxxa vojta għall-kuntatt, u fuq in-naħa ta' quddiem il-belt mill-għoli bin-netwerk tagħha](/media/booklet/meshcore-info-booklet-thumb.webp)](/media/booklet/meshcore-info-booklet-en.pdf)
+
+Qassam dan il-ktejjeb f'stand, jew agħtih lis-sid ta' bejt li tixtieq tuża. Il-ktejjeb iwieġeb l-ewwel mistoqsijiet: x'inhu MeshCore, kemm jiswa, kif jaħdem, x'ifisser repeater fuq bejt, u kif issib il-grupp lokali tiegħek. Fuq wara hemm spazju għad-dettalji tal-kuntatt tiegħek.
+
+1. [Niżżel il-ktejjeb bħala PDF](/media/booklet/meshcore-info-booklet-en.pdf), 1 folja A4.
+2. Ipprintjah fuq iż-żewġ naħat, maqlub fuq it-tarf il-qasir, fuq skala ta' 100%.
+3. Ikteb ismek jew il-grupp tiegħek fil-kaxxa vojta, u itwi l-folja darba.
+
+Ipprintja kemm-il kopja trid. Għalissa l-ktejjeb hu bl-Ingliż; il-lingwi l-oħra jsegwu ladarba jkunu tradotti.
 
 ## Logo {#logo}
 

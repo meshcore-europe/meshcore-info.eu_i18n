@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore ist freie Software für kleine LoRa-Funkgeräte. LoRa ist eine Funktechnik,
@@ -26,29 +26,31 @@ Die Software ist Open Source. Sie wird unter der MIT-Lizenz bei
 Funk ist neu für dich? Das erwarten Leute am häufigsten von MeshCore, und das
 kann es nicht.
 
-- **Es ist nicht das Internet und kein Telefon.** MeshCore schickt kurze
-  Textnachrichten, etwa so lang wie eine SMS auf deinem Handy. Es gibt keine Sprachübertragung,
-  keine Fotos, keine Videos und keine Webseiten. Eine normale Telefonnummer erreichst du nicht.
-- **Es ist kein Notrufdienst.** Kein Notrufdienst verspricht, im Mesh
-  mitzuhören. Niemand verspricht, dass jemand deine Nachricht liest.
-- **Es geht nicht sofort und nicht überall.** Eine Nachricht springt von Funkgerät zu
-  Funkgerät und kann ein paar Sekunden brauchen oder gar nicht ankommen. Ob sie
-  durchkommt, hängt von den Repeatern um dich herum ab, von Höhe, Gebäuden und deiner
-  Antenne. Ein kleines Funkgerät im Haus erreicht oft niemanden. Ein Repeater auf einem Dach
-  reicht kilometerweit.
-- **Es ist kein Dienst, den jemand für dich betreibt.** Es gibt keinen Anbieter, keinen
-  Helpdesk und keine Zusage zur Abdeckung. Das Mesh gibt es dort, wo Leute aus der
-  Community Repeater aufgestellt haben.
-- **Nicht alles im Mesh ist privat.** Direktnachrichten sind verschlüsselt. Public und die
-  Hashtag-Kanäle kann aber jeder lesen. Den Namen deines Knotens und deine geteilte Position
-  sieht jeder in Reichweite. [Observer](/network/) melden, was sie hören, an öffentliche
-  Karten. Der [Abschnitt zur Verschlüsselung](#encryption) erklärt, was privat bleibt.
-- **Es ist nicht unbegrenzt.** Alle in einer Gegend teilen sich einen Funkkanal. Die Regeln
-  für das [868-MHz-Band](#band) begrenzen, wie lange jedes Funkgerät senden darf.
-  Jede Nachricht nimmt allen anderen Sendezeit weg. Bots, häufige Adverts und
-  Testnachrichten bremsen das Mesh deshalb für alle.
-- **Es ist nicht Meshtastic.** Meshtastic ist ein anderes System, das auf weitgehend denselben
-  Boards läuft. Die beiden können nicht miteinander kommunizieren.
+- **Es ist kein Internet und kein Telefon.** MeshCore sendet kurze Textnachrichten,
+  ungefähr so lang wie eine SMS auf deinem Handy. Keine Sprache, keine Fotos, Videos
+  oder Websites, und du erreichst keine normale Telefonnummer.
+- **Es ist kein Notdienst.** Kein Notdienst verspricht, im Mesh mitzuhören.
+  Wir wissen, dass das Mesh funktionieren kann. Ob es im Notfall funktioniert,
+  weiß niemand.
+- **Es ist nicht sofort da und nicht überall.** Eine Nachricht springt von Funkgerät
+  zu Funkgerät und kann einige Sekunden brauchen oder gar nicht ankommen. Ob sie
+  durchkommt, hängt von den Repeatern um dich herum ab, von Höhe, Gebäuden und
+  deiner Antenne. Ein kleines Funkgerät im Haus erreicht oft niemanden. Ein Repeater
+  auf einem Dach reicht kilometerweit.
+- **Es ist kein Dienst, den jemand für dich betreibt.** Es gibt keinen Anbieter,
+  keinen Helpdesk und keine Zusage zur Abdeckung. Das Mesh gibt es dort, wo
+  Leute aus der Community Repeater aufgestellt haben.
+- **Nicht alles im Mesh ist privat.** Direktnachrichten sind verschlüsselt. Public
+  und die Hashtag-Kanäle kann aber jeder lesen, und den Namen deines Knotens und
+  deine geteilte Position sieht jeder in Reichweite.
+  [Observer](/network/) melden, was sie hören, an öffentliche Karten. Der
+  [Abschnitt zur Verschlüsselung](#encryption) erklärt, was privat bleibt.
+- **Es ist nicht unbegrenzt.** Alle in einem Gebiet teilen sich einen Funkkanal, und
+  die Regeln für das [868-MHz-Band](#band) begrenzen, wie lange jedes Funkgerät senden darf.
+  Jede Nachricht nimmt allen anderen Sendezeit weg. Bots, häufige Adverts
+  und Testnachrichten bremsen das Mesh deshalb für alle.
+- **Es ist nicht Meshtastic.** Meshtastic ist ein anderes System, das auf
+  weitgehend denselben Boards läuft. Die beiden Systeme können nicht miteinander kommunizieren.
 
 ## Das Mesh in einer Minute {#mesh}
 
@@ -178,7 +180,7 @@ Einige Behörden bauen oder testen eine Rückfallebene auf Basis von MeshCore. W
   [betreiben Freiwillige ein Pilotprojekt gemeinsam mit den Gemeinden](https://noodnetoverijssel.nl/).
   Sie setzen zuerst auf Sprechfunk und nutzen MeshCore als zweite Ebene für Text.
 
-Niemand verspricht, dass jemand deine Nachricht im Mesh in deiner Nähe liest.
+Ob das Mesh in deiner Nähe im Notfall funktioniert, weiß niemand.
 
 ## Woher die Daten kommen {#data}
 

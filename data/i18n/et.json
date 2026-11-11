@@ -3,7 +3,7 @@
     "language": "et",
     "name": "Eesti",
     "managed_by": "community",
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "site_tagline": {
     "value": "Võrguväline sõnumside kogu Euroopas",
@@ -6472,6 +6472,186 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "dbcd5e7b"
+  },
+  "booklet_title": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "f4f17278"
+  },
+  "booklet_subtitle": {
+    "value": "Tekstisõnumid ilma internetita",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "567d0b96"
+  },
+  "booklet_keywords": {
+    "value": "Detsentraliseeritud · Tasuta · Avatud lähtekoodiga · Seaduslik",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2c5258e"
+  },
+  "booklet_tagline": {
+    "value": "Saada sõnumeid raadio teel, katuselt katusele. Sul pole vaja internetti ega kuutasu. Tule kaasa ja ole valmis.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c4ac4359"
+  },
+  "booklet_q_what": {
+    "value": "Mis on MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "06eda66b"
+  },
+  "booklet_a_what": {
+    "value": "MeshCore on avatud lähtekoodiga tarkvara, millega väikesed spetsiaalsed raadiod edastavad sõnumeid läbi võrgu. See töötab ilma interneti ja kommertsteenuse pakkujata.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "78415b19"
+  },
+  "booklet_q_cost": {
+    "value": "Mis see maksab?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e8dc9deb"
+  },
+  "booklet_a_cost": {
+    "value": "Alustamiseks on sul vaja ainult companion'i (nii nimetab MeshCore vastuvõtva otsa raadio rolli). Selle saad alates 15 eurost, hea maksab tavaliselt umbes 40. Jooksvaid kulusid nagu kuutasu pole ja registreerima ei pea.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2904f1a"
+  },
+  "booklet_q_join": {
+    "value": "Kuidas liituda?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "4ebf5b3a"
+  },
+  "booklet_a_join": {
+    "value": "Meie veebilehel on kirjas sinu lähedal tegutsevad grupid. Need on vabatahtlikud, kes tunnevad võrku ja aitavad sul seadistada. Võid ka ise asja kohta lugeda ja alustada. See on lihtsam, kui arvad.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "413528fd"
+  },
+  "booklet_roof_title": {
+    "value": "Repiiter sinu katusel?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0e152f7d"
+  },
+  "booklet_roof_lead": {
+    "value": "Paljudes kohtades on võrk juba hästi välja ehitatud, nii et oma repiitrit pole sul sageli vaja. Kus levi on nõrk, võib repiiter aidata. Vaba vaate ja hea kõrgusega edastab see sõnumeid pikkade vahemaade taha. Võid osta valmis repiitri või ehitada ise. Repiiter koosneb raadiost, päikesepaneelist ning akudest koos laadimiskontrolleritega.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "52776beb"
+  },
+  "booklet_q_internet": {
+    "value": "Kas see kasutab minu internetti?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "dc17caa8"
+  },
+  "booklet_a_internet": {
+    "value": "Ei. Raadiod kasutavad litsentsivabu sagedusi. Neil pole vaja WiFi-t. Repiitritel on päikesepaneelid ja akud, nii et need töötavad ka elektrikatkestuse ajal.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "3ed17f21"
+  },
+  "booklet_q_allowed": {
+    "value": "Kas see on lubatud?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "02b9f7c4"
+  },
+  "booklet_a_allowed": {
+    "value": "Jah. Osa 868 MHz sagedusalast on kogu Euroopas vabaks kasutamiseks. Ka repiiter ei vaja litsentsi. Reegleid pead siiski järgima.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "20714be9"
+  },
+  "booklet_how_title": {
+    "value": "Kuidas see töötab?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c3f15799"
+  },
+  "booklet_how_lead": {
+    "value": "Sa juhid oma companion'i telefonist või arvutist. Seejärel saadab companion sinu sõnumid raadio teel lähimale repiitrile. Sealt liiguvad need katuselt katusele, kuni jõuavad saajani. Need raadiod ületavad mitu kilomeetrit.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "bdd12bb9"
+  },
+  "booklet_legend_1": {
+    "value": "Telefon või arvuti",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0727f861"
+  },
+  "booklet_legend_2": {
+    "value": "Companion: raadio, mida kannad endaga kaasas",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b95f6187"
+  },
+  "booklet_legend_3": {
+    "value": "Repiiter: edastab sõnumeid",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c9f24857"
+  },
+  "booklet_legend_4": {
+    "value": "Teised repiitrid, katuselt katusele",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "82cc3b46"
+  },
+  "booklet_fact_1": {
+    "value": "Kui mobiilsidevõrk ei tööta, jõuad võrgu kaudu ikka lähedal olevate pere ja sõpradeni. Paljud repiitrid töötavad väikeste päikesepaneelide ja akudega. Kas see hädaolukorras päriselt toimib, ei tea keegi.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "ce841258"
+  },
+  "booklet_fact_2": {
+    "value": "Otsesõnumid on otspunktkrüpteeritud. Avalikud kanalid on avalikud nagu jututuba.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0755982e"
+  },
+  "booklet_fact_3": {
+    "value": "Ainult lühikesed tekstisõnumid: ei häält, fotosid ega internetti.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6f9a120d"
+  },
+  "booklet_box": {
+    "value": "Kontakt / märkmed",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e30245b1"
+  },
+  "booklet_group_title": {
+    "value": "Leia grupp või loe lähemalt",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "7eb372bc"
+  },
+  "booklet_group_lead": {
+    "value": "Skaneeri kood või külasta mõnda veebilehte, näiteks meshcore-info.eu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6e8065fb"
+  },
+  "booklet_about": {
+    "value": "meshcore-info.eu tutvustab MeshCore'i Euroopas 33 keeles: seadeid, juhendeid ja tööriistu, mida kohalikud võrgud jagavad. Lehte hoiavad üleval vabatahtlikud ja abi on teretulnud.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c149933d"
+  },
+  "booklet_machine": {
+    "value": "Selle brošüüri tõlkis masin. Emakeelne kõneleja pole seda veel üle vaadanud.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b23f3819"
   },
   "meetings_strip_title": {
     "value": "Järgmised 8 nädalat",

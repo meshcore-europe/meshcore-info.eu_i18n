@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'f3e63cef'
-  seeded: '2026-11-04'
+  source_hash: '77cff517'
+  seeded: '2026-11-11'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', 'ee7ba544', '6f034862', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', '6f034862', '30deca02', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', 'adb108f8', '9f96bbaa', '4d6fa3ea', '442015ad', 'd5de6ea4', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## O spletnem mestu {#about}
@@ -28,6 +28,18 @@ Eno od obeh besedil kopiraj nespremenjeno ali ga skrajšaj. Spletno mesto navedi
 Te povezave v sporočilu po mreži zavzamejo manj prostora. Vsaka se odpre v jeziku osebe, ki jo tapne. Ko ime enkrat izdamo, poskrbimo, da vedno deluje.
 
 {{< short-links >}}
+
+## Knjižica {#booklet}
+
+[![Razprta knjižica: na hrbtni strani prazno polje za stik, na sprednji strani mesto od zgoraj in njegovo omrežje](/media/booklet/meshcore-info-booklet-thumb.webp)](/media/booklet/meshcore-info-booklet-en.pdf)
+
+Knjižico deli na stojnici ali jo daj lastniku strehe, ki si jo želiš uporabiti. Odgovarja na prva vprašanja: kaj je MeshCore, koliko stane, kako deluje, kaj pomeni repetitor na strehi in kako najdeš lokalno skupino. Na zadnji strani je prostor za tvoje kontaktne podatke.
+
+1. [Prenesi knjižico kot PDF](/media/booklet/meshcore-info-booklet-en.pdf), 1 list A4.
+2. Natisni jo obojestransko, z obračanjem po krajšem robu, v merilu 100 %.
+3. V prazno polje napiši svoje ime ali ime skupine in list enkrat prepogni.
+
+Natisni jih, kolikor želiš. Knjižica je zaenkrat v angleščini. Drugi jeziki bodo sledili, ko bodo prevedeni.
 
 ## Logotip {#logo}
 

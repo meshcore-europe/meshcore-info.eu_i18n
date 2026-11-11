@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'f3e63cef'
-  seeded: '2026-11-04'
+  source_hash: '77cff517'
+  seeded: '2026-11-11'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', 'ee7ba544', '6f034862', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', '6f034862', '30deca02', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', 'adb108f8', '9f96bbaa', '4d6fa3ea', '442015ad', 'd5de6ea4', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Om sitet {#about}
@@ -37,6 +37,18 @@ Disse links fylder mindre i en mesh-besked. Hvert link åbner på sproget
 hos den, der trykker på det. Når vi først har givet et navn ud, sørger vi for, at det bliver ved med at virke.
 
 {{< short-links >}}
+
+## Hæfte {#booklet}
+
+[![Hæftet foldet ud: det tomme kontaktfelt på bagsiden, og på forsiden byen og dens netværk set fra oven](/media/booklet/meshcore-info-booklet-thumb.webp)](/media/booklet/meshcore-info-booklet-en.pdf)
+
+Del hæftet ud på en stand, eller giv det til ejeren af et tag, du gerne vil bruge. Hæftet svarer på de første spørgsmål: hvad MeshCore er, hvad det koster, hvordan det virker, hvad en repeater på et tag indebærer, og hvordan du finder din lokale gruppe. På bagsiden er der plads til dine egne kontaktoplysninger.
+
+1. [Download hæftet som PDF](/media/booklet/meshcore-info-booklet-en.pdf), 1 A4-ark.
+2. Udskriv det på begge sider, vendt langs den korte kant, i 100 %.
+3. Skriv dit navn eller din gruppe i det tomme felt, og fold arket én gang.
+
+Udskriv så mange, du vil. Hæftet findes indtil videre kun på engelsk. Andre sprog følger, når de er oversat.
 
 ## Logo {#logo}
 

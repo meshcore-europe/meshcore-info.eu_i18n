@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore är fri programvara för små LoRa-radioapparater. LoRa är en radioteknik
@@ -28,28 +28,28 @@ MIT-licensen.
 men som det inte gör.
 
 - **Det är inte internet eller en telefon.** MeshCore skickar korta textmeddelanden,
-  ungefär lika långa som ett sms på din telefon. Inga röstsamtal, bilder, video
-  eller webbsidor, och du kan inte nå ett vanligt telefonnummer.
-- **Det är ingen nödtjänst.** Ingen nödtjänst lovar att lyssna på meshen,
-  och ingen lovar att någon läser ditt meddelande.
-- **Det är inte omedelbart, och det finns inte överallt.** Ett meddelande hoppar
-  från radio till radio och kan ta några sekunder, eller aldrig komma fram. Om det
-  går fram beror på repeatrarna runt dig, på höjd, byggnader och din antenn.
-  En liten radio inomhus når ofta ingen. En repeater på ett tak når flera kilometer.
+  ungefär lika långa som ett sms på din telefon. Inget tal, inga foton, ingen video
+  och inga webbplatser. Du kan inte heller nå ett vanligt telefonnummer.
+- **Det är ingen larmtjänst.** Ingen larmtjänst lovar att lyssna på mesh-nätet.
+  Vi vet att mesh-nätet kan fungera. Om det fungerar i en nödsituation vet ingen.
+- **Det är inte omedelbart, och inte överallt.** Ett meddelande hoppar från radio
+  till radio och kan ta några sekunder, eller inte komma fram alls. Om det kommer
+  fram beror på repeatrarna runt dig, på höjd, byggnader och din antenn. En liten
+  radio inomhus når ofta ingen. En repeater på ett tak når flera kilometer.
 - **Det är ingen tjänst som någon driver åt dig.** Det finns ingen leverantör,
-  ingen support och inget löfte om täckning. Meshen finns där folk i
+  ingen kundtjänst och inget löfte om täckning. Mesh-nätet finns där folk i
   gemenskapen har satt upp repeatrar.
-- **Inte allt i meshen är privat.** Direktmeddelanden är krypterade, men alla kan
-  läsa Public och hashtag-kanalerna. Alla inom räckhåll ser din nods namn och
-  den position du delar. [Observers](/network/) rapporterar det de hör till
+- **Allt på nätet är inte privat.** Direktmeddelanden är krypterade. Men vem som
+  helst kan läsa Public och hashtag-kanalerna. Din nods namn och delade position
+  syns för alla inom räckvidd. [Observers](/network/) rapporterar det de hör till
   offentliga kartor. [Avsnittet om kryptering](#encryption) förklarar vad som
   förblir privat.
-- **Det är inte obegränsat.** Alla i ett område delar en radiokanal, och
-  reglerna för [868 MHz-bandet](#band) begränsar hur länge varje radio får sända.
-  Varje meddelande tar sändningstid från alla andra. Därför gör bottar, täta adverts
-  och testmeddelanden meshen långsammare för alla.
-- **Det är inte Meshtastic.** Meshtastic är ett annat system som körs på
-  ungefär samma kort. De två kan inte prata med varandra.
+- **Det är inte obegränsat.** Alla i ett område delar en radiokanal. Reglerna för
+  [868 MHz-bandet](#band) begränsar hur länge varje radio får sända. Varje
+  meddelande tar sändningstid från alla andra. Därför gör bottar, täta adverts och
+  testmeddelanden mesh-nätet långsammare för alla.
+- **Det är inte Meshtastic.** Meshtastic är ett annat system som körs på ungefär
+  samma kort. De två kan inte prata med varandra.
 
 ## Meshen på en minut {#mesh}
 
@@ -178,7 +178,7 @@ de här exemplen i november 2026.
   [driver frivilliga ett pilotprojekt tillsammans med kommunerna](https://noodnetoverijssel.nl/).
   De använder röstradio i första hand och MeshCore som ett andra lager för text.
 
-Ingen lovar att någon i meshen nära dig läser ditt meddelande.
+Ingen vet om meshen nära dig fungerar i en nödsituation.
 
 ## Var datan kommer ifrån {#data}
 

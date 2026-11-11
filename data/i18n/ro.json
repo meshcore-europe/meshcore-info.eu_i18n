@@ -3,7 +3,7 @@
     "language": "ro",
     "name": "Română",
     "managed_by": "community",
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "site_tagline": {
     "value": "Mesagerie off-grid în toată Europa",
@@ -6472,6 +6472,186 @@
     "_ai": true,
     "_seeded": "2026-10-27",
     "_source": "dbcd5e7b"
+  },
+  "booklet_title": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "f4f17278"
+  },
+  "booklet_subtitle": {
+    "value": "Mesaje text fără internet",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "567d0b96"
+  },
+  "booklet_keywords": {
+    "value": "Descentralizat · Gratuit · Open source · Legal",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2c5258e"
+  },
+  "booklet_tagline": {
+    "value": "Trimite mesaje prin radio, de pe un acoperiș pe altul. Nu ai nevoie de internet sau de abonament. Alătură-te și fii pregătit.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c4ac4359"
+  },
+  "booklet_q_what": {
+    "value": "Ce este MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "06eda66b"
+  },
+  "booklet_a_what": {
+    "value": "MeshCore este un software open source prin care radiouri mici, dedicate, transmit mesaje într-o rețea mesh. Funcționează fără internet și fără un furnizor comercial.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "78415b19"
+  },
+  "booklet_q_cost": {
+    "value": "Cât costă?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e8dc9deb"
+  },
+  "booklet_a_cost": {
+    "value": "Ca să începi, ai nevoie doar de un companion (numele dat în MeshCore radioului de la capătul care primește). Găsești unul de la 15 euro, iar unul bun costă de obicei în jur de 40. Nu ai costuri lunare, cum ar fi un abonament, și nu trebuie să te înregistrezi.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2904f1a"
+  },
+  "booklet_q_join": {
+    "value": "Cum mă alătur?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "4ebf5b3a"
+  },
+  "booklet_a_join": {
+    "value": "Pe site-ul nostru găsești grupuri din apropierea ta. Sunt voluntari care cunosc rețeaua mesh și te ajută la configurare. Poți și să te informezi singur și să începi direct. E mai ușor decât crezi.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "413528fd"
+  },
+  "booklet_roof_title": {
+    "value": "Un repetor pe acoperișul tău?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0e152f7d"
+  },
+  "booklet_roof_lead": {
+    "value": "În multe locuri rețeaua mesh este deja bine dezvoltată, deci deseori nu ai nevoie de un repetor propriu. Unde acoperirea e slabă, un repetor poate ajuta. Cu vizibilitate liberă și la înălțime bună, transmite mesaje pe distanțe mari. Îl poți cumpăra gata făcut sau îl poți construi singur. Un repetor înseamnă un radio, un panou solar și baterii cu regulatoare de încărcare.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "52776beb"
+  },
+  "booklet_q_internet": {
+    "value": "Folosește internetul meu?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "dc17caa8"
+  },
+  "booklet_a_internet": {
+    "value": "Nu. Radiourile folosesc frecvențe fără licență. Nu au nevoie de WiFi. Repetoarele au panouri solare și baterii, deci funcționează și în timpul unei pene de curent.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "3ed17f21"
+  },
+  "booklet_q_allowed": {
+    "value": "Este legal?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "02b9f7c4"
+  },
+  "booklet_a_allowed": {
+    "value": "Da. O parte din banda de 868 MHz se poate folosi liber în toată Europa. Nici un repetor nu are nevoie de licență. Trebuie totuși să respecți regulile.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "20714be9"
+  },
+  "booklet_how_title": {
+    "value": "Cum funcționează?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c3f15799"
+  },
+  "booklet_how_lead": {
+    "value": "Îți controlezi companionul de pe telefon sau de pe calculator. Companionul tău trimite apoi mesajele prin radio la cel mai apropiat repetor. De acolo, mesajele sar de pe un acoperiș pe altul până ajung la destinatar. Aceste radiouri acoperă câțiva kilometri.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "bdd12bb9"
+  },
+  "booklet_legend_1": {
+    "value": "Telefon sau calculator",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0727f861"
+  },
+  "booklet_legend_2": {
+    "value": "Companion: radioul pe care îl porți cu tine",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b95f6187"
+  },
+  "booklet_legend_3": {
+    "value": "Repetor: transmite mesajele mai departe",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c9f24857"
+  },
+  "booklet_legend_4": {
+    "value": "Alte repetoare, de pe un acoperiș pe altul",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "82cc3b46"
+  },
+  "booklet_fact_1": {
+    "value": "Când rețeaua mobilă cade, rețeaua mesh poate ajunge în continuare la familia și prietenii tăi din apropiere. Multe repetoare funcționează cu panouri solare mici și baterii. Nimeni nu știe dacă funcționează cu adevărat într-o situație de urgență.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "ce841258"
+  },
+  "booklet_fact_2": {
+    "value": "Mesajele directe sunt criptate end-to-end. Canalele publice sunt publice, ca o cameră de chat.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0755982e"
+  },
+  "booklet_fact_3": {
+    "value": "Doar mesaje text scurte: fără voce, fotografii sau internet.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6f9a120d"
+  },
+  "booklet_box": {
+    "value": "Contact / notițe",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e30245b1"
+  },
+  "booklet_group_title": {
+    "value": "Găsește un grup sau informează-te",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "7eb372bc"
+  },
+  "booklet_group_lead": {
+    "value": "Scanează codul sau vizitează unul dintre site-uri, de exemplu meshcore-info.eu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6e8065fb"
+  },
+  "booklet_about": {
+    "value": "meshcore-info.eu explică MeshCore pentru Europa, în 33 de limbi: setările, ghidurile și instrumentele pe care le folosesc împreună rețelele mesh locale. Voluntarii întrețin site-ul, iar orice ajutor e binevenit.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c149933d"
+  },
+  "booklet_machine": {
+    "value": "Această broșură a fost tradusă automat. Un vorbitor nativ nu a verificat-o încă.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b23f3819"
   },
   "meetings_strip_title": {
     "value": "Următoarele 8 săptămâni",

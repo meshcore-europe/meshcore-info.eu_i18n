@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'f3e63cef'
-  seeded: '2026-11-04'
+  source_hash: '77cff517'
+  seeded: '2026-11-11'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', 'ee7ba544', '6f034862', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', '6f034862', '30deca02', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', 'adb108f8', '9f96bbaa', '4d6fa3ea', '442015ad', 'd5de6ea4', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Sobre el web {#about}
@@ -29,6 +29,18 @@ Aquests enllaços ocupen menys espai en un missatge de la malla. Cadascun s'obre
 de qui el toca. Un cop hem donat un nom, el mantenim actiu.
 
 {{< short-links >}}
+
+## Fullet {#booklet}
+
+[![El fullet desplegat: la casella de contacte buida al darrere, i al davant el poble vist des de dalt amb la seva xarxa](/media/booklet/meshcore-info-booklet-thumb.webp)](/media/booklet/meshcore-info-booklet-en.pdf)
+
+Reparteix aquest fullet en un estand, o dona'l al propietari d'una teulada que t'agradaria fer servir. Respon les primeres preguntes: què és MeshCore, quant costa, com funciona, què implica un repetidor a una teulada i com trobar el teu grup local. A la contraportada hi ha espai per a les teves dades de contacte.
+
+1. [Descarrega el fullet en PDF](/media/booklet/meshcore-info-booklet-en.pdf), 1 full A4.
+2. Imprimeix-lo a doble cara, amb gir per la vora curta, al 100%.
+3. Escriu el teu nom o el del teu grup a la casella buida i plega el full una vegada.
+
+Imprimeix-ne tants com vulguis. De moment, el fullet està en anglès. Les altres llengües arribaran quan estiguin traduïdes.
 
 ## Logotip {#logo}
 

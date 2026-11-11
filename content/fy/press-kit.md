@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'f3e63cef'
-  seeded: '2026-11-04'
+  source_hash: '77cff517'
+  seeded: '2026-11-11'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', 'ee7ba544', '6f034862', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', '6f034862', '30deca02', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', 'adb108f8', '9f96bbaa', '4d6fa3ea', '442015ad', 'd5de6ea4', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Oer de side {#about}
@@ -31,6 +31,18 @@ tekst it parseberjocht yn it [lansearringsberjocht](/blog/welcome/).
 Dizze keppelings nimme minder romte yn in mesh-berjocht. Elke keppeling giet iepen yn de taal fan dejinge dy't derop tikket. Hawwe wy in namme ienris útjûn, dan soargje wy derfoar dat dy wurkjen bliuwt.
 
 {{< short-links >}}
+
+## Boekje {#booklet}
+
+[![It boekje iepenfolden: it lege kontaktfak op de efterkant, en op de foarkant de stêd fan boppen mei har netwurk](/media/booklet/meshcore-info-booklet-thumb.webp)](/media/booklet/meshcore-info-booklet-en.pdf)
+
+Diel dit boekje út by in stân, of jou it oan de eigener fan in dak datsto brûke wolst. It beäntwurdet de earste fragen: wat MeshCore is, wat it kostet, hoe't it wurket, wat in repeater op in dak ynhâldt en hoe'tsto dyn pleatslike groep fynst. Op de efterkant is romte foar dyn eigen kontaktgegevens.
+
+1. [Download it boekje as PDF](/media/booklet/meshcore-info-booklet-en.pdf), 1 A4-fel.
+2. Printsje it dûbelsidich, omdraaid oer de koarte kant, op 100%.
+3. Skriuw dyn namme of groep yn it lege fak en fâld it fel ien kear.
+
+Printsje safolle as datsto wolst. It boekje is foarearst yn it Ingelsk. Oare talen folgje sa gau't se oerset binne.
 
 ## Logo {#logo}
 

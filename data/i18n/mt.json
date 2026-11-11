@@ -3,7 +3,7 @@
     "language": "mt",
     "name": "Malti",
     "managed_by": "community",
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "site_tagline": {
     "value": "Messaġġi off-grid madwar l-Ewropa",
@@ -6472,6 +6472,186 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "dbcd5e7b"
+  },
+  "booklet_title": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "f4f17278"
+  },
+  "booklet_subtitle": {
+    "value": "Messaġġi bit-test mingħajr l-internet",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "567d0b96"
+  },
+  "booklet_keywords": {
+    "value": "Deċentralizzat · B'xejn · Open source · Legali",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2c5258e"
+  },
+  "booklet_tagline": {
+    "value": "Ibgħat messaġġi bir-radju, minn bejt għal bejt. M'għandekx bżonn internet u lanqas abbonament. Ingħaqad u kun ippreparat.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c4ac4359"
+  },
+  "booklet_q_what": {
+    "value": "X'inhu MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "06eda66b"
+  },
+  "booklet_a_what": {
+    "value": "MeshCore huwa software open source li jħalli radjijiet żgħar u apposta jgħaddu messaġġi f'netwerk mesh. Jaħdem mingħajr l-internet u mingħajr fornitur kummerċjali.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "78415b19"
+  },
+  "booklet_q_cost": {
+    "value": "Kemm jiswa?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e8dc9deb"
+  },
+  "booklet_a_cost": {
+    "value": "Biex tibda, għandek bżonn companion biss (l-isem li MeshCore jagħti lir-rwol tar-radju fit-tarf li jirċievi). Issib wieħed minn 15-il euro, u wieħed tajjeb normalment jiswa madwar 40. M'hemmx spejjeż kontinwi bħal abbonament, u m'għandekx bżonn tirreġistra.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2904f1a"
+  },
+  "booklet_q_join": {
+    "value": "Kif ningħaqad?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "4ebf5b3a"
+  },
+  "booklet_a_join": {
+    "value": "Is-sit tagħna jelenka gruppi qrib tiegħek. Huma voluntiera li jafu l-mesh u jgħinuk tissettja. Tista' wkoll taqra dwaru u tibda waħdek. Huwa eħfef milli taħseb.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "413528fd"
+  },
+  "booklet_roof_title": {
+    "value": "Repeater fuq il-bejt tiegħek?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0e152f7d"
+  },
+  "booklet_roof_lead": {
+    "value": "F'ħafna postijiet il-mesh diġà mibni sew, għalhekk spiss m'għandekx bżonn repeater tiegħek. Fejn il-kopertura hija dgħajfa, repeater jista' jgħin. B'veduta ċara u għoli tajjeb, jista' jgħaddi messaġġi fuq distanzi twal. Tista' tixtri wieħed lest jew tibni wieħed int. Repeater huwa radju, pannell solari u batteriji b'kontrolluri tal-iċċarġjar.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "52776beb"
+  },
+  "booklet_q_internet": {
+    "value": "Juża l-internet tiegħi?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "dc17caa8"
+  },
+  "booklet_a_internet": {
+    "value": "Le. Ir-radjijiet jużaw frekwenzi mingħajr liċenzja. M'għandhomx bżonn WiFi. Ir-repeaters għandhom pannelli solari u batteriji, għalhekk jibqgħu jaħdmu meta tinqata' d-dawl.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "3ed17f21"
+  },
+  "booklet_q_allowed": {
+    "value": "Huwa permess?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "02b9f7c4"
+  },
+  "booklet_a_allowed": {
+    "value": "Iva. Parti mill-banda ta' 868 MHz hija ħielsa għall-użu madwar l-Ewropa. Repeater lanqas ma għandu bżonn liċenzja. Però trid issegwi r-regoli.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "20714be9"
+  },
+  "booklet_how_title": {
+    "value": "Kif jaħdem?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c3f15799"
+  },
+  "booklet_how_lead": {
+    "value": "Int tikkontrolla l-companion tiegħek mit-telefon jew mill-kompjuter. Imbagħad il-companion tiegħek jibgħat il-messaġġi tiegħek bir-radju lill-eqreb repeater. Minn hemm jaqbżu minn bejt għal bejt sakemm jilħqu lil min jirċevihom. Dawn ir-radjijiet jaqsmu diversi kilometri.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "bdd12bb9"
+  },
+  "booklet_legend_1": {
+    "value": "Telefon jew kompjuter",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0727f861"
+  },
+  "booklet_legend_2": {
+    "value": "Companion: ir-radju li ġġorr miegħek",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b95f6187"
+  },
+  "booklet_legend_3": {
+    "value": "Repeater: jgħaddi l-messaġġi",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c9f24857"
+  },
+  "booklet_legend_4": {
+    "value": "Repeaters oħra, minn bejt għal bejt",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "82cc3b46"
+  },
+  "booklet_fact_1": {
+    "value": "Meta n-netwerk mobbli jaqa', il-mesh xorta jista' jilħaq il-familja u l-ħbieb tiegħek fil-qrib. Ħafna repeaters jaħdmu fuq pannelli solari żgħar u batteriji. Jekk verament jaħdimx f'emerġenza, ħadd ma jaf.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "ce841258"
+  },
+  "booklet_fact_2": {
+    "value": "Il-messaġġi diretti huma kriptati minn tarf għal tarf. Il-kanali pubbliċi huma pubbliċi, bħal chat room.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0755982e"
+  },
+  "booklet_fact_3": {
+    "value": "Messaġġi qosra bit-test biss: l-ebda vuċi, ritratti jew internet.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6f9a120d"
+  },
+  "booklet_box": {
+    "value": "Kuntatt / noti",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e30245b1"
+  },
+  "booklet_group_title": {
+    "value": "Sib grupp, jew aqra dwaru",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "7eb372bc"
+  },
+  "booklet_group_lead": {
+    "value": "Skennja l-kodiċi, jew żur wieħed mis-siti, bħal meshcore-info.eu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6e8065fb"
+  },
+  "booklet_about": {
+    "value": "meshcore-info.eu jispjega MeshCore għall-Ewropa, f'33 lingwa: is-settings, il-gwidi u l-għodod li jaqsmu l-meshes lokali. Voluntiera jżommu s-sit għaddej, u l-għajnuna hija milqugħa.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c149933d"
+  },
+  "booklet_machine": {
+    "value": "Dan il-ktejjeb ġie tradott minn magna. Għadu ma ġiex iċċekkjat minn kelliem nattiv.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b23f3819"
   },
   "meetings_strip_title": {
     "value": "Il-ġimgħat 8 li ġejjin",

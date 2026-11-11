@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore je svobodný software pro malá rádia LoRa. LoRa je rádiová technika,
@@ -29,28 +29,30 @@ S rádiem začínáš? Tohle od MeshCore lidé nejčastěji očekávají, a při
 neumí.
 
 - **Není to internet ani telefon.** MeshCore posílá krátké textové zprávy,
-  zhruba tak dlouhé jako SMS v telefonu. Žádný hlas, fotky, video ani weby.
-  Běžné telefonní číslo tím nezastihneš.
-- **Není to tísňová služba.** Žádná záchranná služba neslibuje, že mesh
-  poslouchá. Nikdo neslibuje, že tvou zprávu někdo přečte.
-- **Není to okamžité a nefunguje to všude.** Zpráva skáče od rádia k rádiu.
-  Může to trvat pár sekund, nebo nedorazí vůbec. Jestli projde, záleží na
-  repeaterech kolem tebe, na výšce, budovách a tvé anténě. Malé rádio uvnitř
-  domu často nikoho nezastihne. Repeater na střeše dosáhne kilometry daleko.
-- **Není to služba, kterou za tebe někdo provozuje.** Neexistuje žádný
-  poskytovatel, helpdesk ani slib pokrytí. Mesh existuje tam, kde lidé
+  zhruba tak dlouhé jako SMS v tvém telefonu. Žádný hlas, fotky, video
+  ani weby a na běžné telefonní číslo se nedovoláš.
+- **Není to tísňová služba.** Žádná tísňová služba neslibuje, že bude mesh
+  poslouchat. Víme, že mesh fungovat může. Jestli funguje v nouzi, to neví
+  nikdo.
+- **Není to okamžité a není to všude.** Zpráva skáče od rádia k rádiu.
+  Může to trvat pár sekund, nebo zpráva nedorazí vůbec. Jestli projde,
+  záleží na repeaterech kolem tebe, na výšce, budovách a tvé anténě. Malé
+  rádio uvnitř domu často nedosáhne na nikoho. Repeater na střeše dosáhne
+  na kilometry.
+- **Není to služba, kterou za tebe někdo provozuje.** Není tu žádný
+  poskytovatel, podpora ani slib pokrytí. Mesh existuje tam, kde lidé
   z komunity postavili repeatery.
-- **Ne všechno v něm je soukromé.** Přímé zprávy jsou šifrované. Public
-  a kanály s hashtagem si ale může přečíst kdokoli. Jméno tvého uzlu a sdílenou
-  polohu vidí každý v dosahu. [Observery](/network/) hlásí, co slyší, na
-  veřejné mapy. [Část o šifrování](#encryption) vysvětluje, co zůstává
-  soukromé.
+- **Ne všechno v meshi je soukromé.** Přímé zprávy jsou šifrované. Public
+  a hashtagové kanály ale může číst kdokoli. Jméno tvého uzlu a sdílenou
+  polohu vidí každý v dosahu. [Observery](/network/) hlásí, co slyší,
+  na veřejné mapy. Co zůstává soukromé, vysvětluje
+  [část o šifrování](#encryption).
 - **Není to neomezené.** Všichni v oblasti sdílejí jeden rádiový kanál.
   Pravidla pro [pásmo 868 MHz](#band) omezují, jak dlouho smí každé rádio
-  vysílat. Každá zpráva bere vysílací čas všem ostatním. Boti, časté adverty
-  a testovací zprávy proto zpomalují mesh pro všechny.
-- **Není to Meshtastic.** Meshtastic je jiný systém, který běží na velmi
-  podobných deskách. Tyhle dva systémy spolu neumí komunikovat.
+  vysílat. Každá zpráva bere vysílací čas všem ostatním. Boti, časté
+  adverty a testovací zprávy proto zpomalují mesh pro všechny.
+- **Není to Meshtastic.** Meshtastic je jiný systém, který běží na většinou
+  stejných deskách. Tyto dva systémy spolu komunikovat nemůžou.
 
 ## Mesh za minutu {#mesh}
 
@@ -179,7 +181,7 @@ ověřili v listopadu 2026.
   [provozují dobrovolníci pilotní projekt spolu s obcemi](https://noodnetoverijssel.nl/).
   Primárně používají hlasové rádio a MeshCore jako druhou vrstvu pro text.
 
-Nikdo neslibuje, že tvou zprávu na meshi poblíž tebe někdo přečte.
+Jestli mesh ve tvém okolí v nouzi funguje, nikdo neví.
 
 ## Odkud pocházejí data {#data}
 

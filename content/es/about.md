@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore es software libre para radios LoRa pequeñas. LoRa es una técnica de
@@ -30,29 +30,30 @@ MeshCore y que no hace.
 
 - **No es internet ni un teléfono.** MeshCore envía mensajes de texto cortos,
   más o menos del largo de un SMS en tu móvil. No hay voz, fotos, vídeo
-  ni páginas web, y no puedes contactar con un número de teléfono normal.
+  ni páginas web, y no puedes llamar a un número de teléfono normal.
 - **No es un servicio de emergencias.** Ningún servicio de emergencias se
-  compromete a escuchar en la malla. Nadie garantiza que alguien lea tu mensaje.
+  compromete a escuchar en la malla. Sabemos que la malla puede funcionar.
+  Nadie sabe si funciona en una emergencia.
 - **No es instantáneo ni llega a todas partes.** Un mensaje salta de radio en
   radio y puede tardar unos segundos, o no llegar nunca. Que llegue depende de
   los repetidores que tengas cerca, de la altura, los edificios y tu antena.
   Una radio pequeña dentro de casa a menudo no llega a nadie. Un repetidor en
-  un tejado llega a kilómetros de distancia.
+  un tejado llega a kilómetros.
 - **No es un servicio que alguien gestione por ti.** No hay proveedor, ni
-  soporte técnico, ni promesa de cobertura. La malla existe donde la gente
+  servicio de atención, ni promesa de cobertura. La malla existe donde gente
   de la comunidad ha instalado repetidores.
 - **No todo lo que circula es privado.** Los mensajes directos van cifrados.
-  En cambio, cualquiera puede leer Public y los canales con hashtag. El nombre
-  de tu nodo y la posición que compartes los ve cualquiera dentro del alcance.
-  Los [observadores](/network/) envían lo que oyen a mapas públicos. La
+  Pero cualquiera puede leer Public y los canales con hashtag. El nombre de tu
+  nodo y la posición que compartes los ve todo el que esté a tu alcance.
+  Los [observadores](/network/) envían a mapas públicos lo que oyen. La
   [sección sobre cifrado](#encryption) explica qué sigue siendo privado.
-- **No es ilimitado.** Todos los usuarios de una zona comparten un mismo canal de radio.
-  Las normas de la [banda de 868 MHz](#band) limitan cuánto tiempo puede
-  transmitir cada radio. Cada mensaje quita tiempo de aire a los demás. Por eso
-  los bots, los anuncios frecuentes y los mensajes de prueba ralentizan la malla
-  para todos.
-- **No es Meshtastic.** Meshtastic es otro sistema que funciona en placas muy
-  parecidas. Los dos no pueden comunicarse entre sí.
+- **No es ilimitado.** Todos en una zona comparten un solo canal de radio, y
+  las normas de la [banda de 868 MHz](#band) limitan cuánto tiempo puede
+  transmitir cada radio. Cada mensaje quita tiempo de emisión a los demás.
+  Por eso los bots, los anuncios frecuentes y los mensajes de prueba ralentizan
+  la malla para todos.
+- **No es Meshtastic.** Meshtastic es otro sistema que funciona en placas
+  muy parecidas. Ninguno de los dos puede comunicarse con el otro.
 
 ## La malla en un minuto {#mesh}
 
@@ -184,7 +185,7 @@ estos ejemplos en noviembre de 2026.
   [hace una prueba piloto junto a los municipios](https://noodnetoverijssel.nl/).
   Usan primero la radio de voz, y MeshCore como segunda capa para los mensajes de texto.
 
-Nadie garantiza que alguien lea tu mensaje en la malla de tu zona.
+Nadie sabe si la malla que tienes cerca funciona en una emergencia.
 
 ## De dónde salen los datos {#data}
 

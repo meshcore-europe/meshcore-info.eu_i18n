@@ -8,11 +8,11 @@ build:
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'f3e63cef'
-  seeded: '2026-11-04'
+  source_hash: '77cff517'
+  seeded: '2026-11-11'
   fields: {title: 'fc691b26', lead: 'af9f43f4', description: 'd4c57fea'}
-  sections: ['e3b0c442', 'ee7ba544', '6f034862', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
-  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
+  sections: ['e3b0c442', 'ee7ba544', '6f034862', '30deca02', 'dd158bcc', '2bbbf8e1', 'a3ba6e74', 'e992d1d6', '07bc2867', '584c5e22']
+  blocks: ['e3b0c442', 'fa1874d7', '7af87c22', '0c76673f', 'eca97c16', '44ccff53', '1289b943', '147f0edb', 'adb108f8', '9f96bbaa', '4d6fa3ea', '442015ad', 'd5de6ea4', '9f04a079', 'ee341b5e', 'f4856305', '16cfb376', '312fb39e', 'cd27d33c', '3ee26e96', 'ffa667e3', '2c6a8099', 'a3cf5d27', '31cb982d', 'f22385d4', 'c3482abb', '838c15c8', 'fbc12ebf', '6451cf58']
 ---
 
 ## Am y wefan {#about}
@@ -28,6 +28,18 @@ Copïa'r naill destun neu'r llall fel y mae, neu gwtoga fe. Rho enw'r wefan fel 
 Mae'r dolenni hyn yn cymryd llai o le mewn neges rwyll. Mae pob un yn agor yn iaith pwy bynnag sy'n ei thapio. Rydyn ni'n cadw pob enw'n gweithio ar ôl i ni ei rannu.
 
 {{< short-links >}}
+
+## Llyfryn {#booklet}
+
+[![Y llyfryn wedi'i agor: y blwch cyswllt gwag ar y cefn, ac ar y blaen y dref o'r awyr a'i rhwydwaith](/media/booklet/meshcore-info-booklet-thumb.webp)](/media/booklet/meshcore-info-booklet-en.pdf)
+
+Rhanna'r llyfryn hwn wrth stondin, neu rho fe i berchennog to yr hoffet ti ei ddefnyddio. Mae'n ateb y cwestiynau cyntaf: beth yw MeshCore, faint mae'n ei gostio, sut mae'n gweithio, beth mae ailadroddydd ar do yn ei olygu, a sut i ddod o hyd i dy grŵp lleol. Ar y cefn mae lle i dy fanylion cyswllt dy hun.
+
+1. [Lawrlwytha'r llyfryn fel PDF](/media/booklet/meshcore-info-booklet-en.pdf), 1 ddalen A4.
+2. Argraffa fe ar y ddwy ochr, gan droi ar yr ymyl fer, ar 100%.
+3. Ysgrifenna dy enw neu dy grŵp yn y blwch gwag, a phlyga'r ddalen unwaith.
+
+Argraffa gymaint ag y mynni di. Mae'r llyfryn yn Saesneg am y tro; bydd ieithoedd eraill yn dilyn ar ôl eu cyfieithu.
 
 ## Logo {#logo}
 

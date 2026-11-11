@@ -3,7 +3,7 @@
     "language": "eu",
     "name": "Euskara",
     "managed_by": "community",
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "site_tagline": {
     "value": "Mezularitza saretik kanpo Europa osoan",
@@ -6472,6 +6472,186 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "dbcd5e7b"
+  },
+  "booklet_title": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "f4f17278"
+  },
+  "booklet_subtitle": {
+    "value": "Testu-mezuak internetik gabe",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "567d0b96"
+  },
+  "booklet_keywords": {
+    "value": "Deszentralizatua · Doakoa · Kode irekia · Legala",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2c5258e"
+  },
+  "booklet_tagline": {
+    "value": "Bidali mezuak irratiz, teilatutik teilatura. Ez duzu internetik ez harpidetzarik behar. Batu zaitez eta egon prest.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c4ac4359"
+  },
+  "booklet_q_what": {
+    "value": "Zer da MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "06eda66b"
+  },
+  "booklet_a_what": {
+    "value": "MeshCore kode irekiko softwarea da: irrati txiki eta berariazkoek mezuak mesh sare batean zehar pasatzen dituzte. Internetik edo hornitzaile komertzialik gabe dabil.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "78415b19"
+  },
+  "booklet_q_cost": {
+    "value": "Zenbat balio du?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e8dc9deb"
+  },
+  "booklet_a_cost": {
+    "value": "Hasteko, companion bat behar duzu (MeshCore-k horrela deitzen dio jasotzen duen muturreko irratiaren rolari). 15 eurotik aurrera lor dezakezu, eta on batek 40 inguru balio du normalean. Ez dago harpidetza bezalako gastu finkorik, eta ez duzu izena eman behar.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2904f1a"
+  },
+  "booklet_q_join": {
+    "value": "Nola batu naiteke?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "4ebf5b3a"
+  },
+  "booklet_a_join": {
+    "value": "Gure webguneak zure inguruko taldeak zerrendatzen ditu. Mesh sarea ezagutzen duten boluntarioak dira, eta konfiguratzen laguntzen dizute. Gaia irakur dezakezu eta hasi ere bai. Uste duzuna baino errazagoa da.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "413528fd"
+  },
+  "booklet_roof_title": {
+    "value": "Errepikagailu bat zure teilatuan?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0e152f7d"
+  },
+  "booklet_roof_lead": {
+    "value": "Leku askotan mesh sarea ondo hedatuta dago jada, beraz askotan ez duzu zure errepikagailurik behar. Estaldura txarra den lekuan, errepikagailu batek lagun dezake. Ikuspegi garbiarekin eta altuera onarekin, mezuak distantzia luzeetara pasa ditzake. Prest erosi dezakezu edo zuk zeuk eraiki. Errepikagailu bat irrati bat, eguzki-panel bat eta karga-erreguladoreak dituzten bateriak dira.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "52776beb"
+  },
+  "booklet_q_internet": {
+    "value": "Nire internet erabiltzen du?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "dc17caa8"
+  },
+  "booklet_a_internet": {
+    "value": "Ez. Irratiek lizentziarik gabeko maiztasunak erabiltzen dituzte. Ez dute WiFi behar. Errepikagailuek eguzki-panelak eta bateriak dituzte, beraz argindarra joaten denean ere dabiltza.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "3ed17f21"
+  },
+  "booklet_q_allowed": {
+    "value": "Baimenduta dago?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "02b9f7c4"
+  },
+  "booklet_a_allowed": {
+    "value": "Bai. 868 MHz bandaren zati bat libreki erabil daiteke Europa osoan. Errepikagailu batek ere ez du lizentziarik behar. Arauak bete behar dituzu, hori bai.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "20714be9"
+  },
+  "booklet_how_title": {
+    "value": "Nola dabil?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c3f15799"
+  },
+  "booklet_how_lead": {
+    "value": "Zure companion-a telefonotik edo ordenagailutik kontrolatzen duzu. Gero zure companion-ak mezuak irratiz bidaltzen ditu errepikagailu hurbilenera. Handik teilatutik teilatura jauzi egiten dute hartzailearengana iritsi arte. Irrati hauek hainbat kilometro gainditzen dituzte.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "bdd12bb9"
+  },
+  "booklet_legend_1": {
+    "value": "Telefonoa edo ordenagailua",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0727f861"
+  },
+  "booklet_legend_2": {
+    "value": "Companion: zurekin daramazun irratia",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b95f6187"
+  },
+  "booklet_legend_3": {
+    "value": "Errepikagailua: mezuak pasatzen ditu",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c9f24857"
+  },
+  "booklet_legend_4": {
+    "value": "Beste errepikagailu batzuk, teilatutik teilatura",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "82cc3b46"
+  },
+  "booklet_fact_1": {
+    "value": "Sare mugikorra erortzen denean, mesh sareak inguruko familia eta lagunengana irits daiteke oraindik. Errepikagailu asko eguzki-panel txikiekin eta bateriekin dabiltza. Larrialdi batean benetan dabilen, inork ez daki.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "ce841258"
+  },
+  "booklet_fact_2": {
+    "value": "Mezu zuzenak muturretik muturrera enkriptatuta daude. Kanal publikoak publikoak dira, txat-gela bat bezala.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0755982e"
+  },
+  "booklet_fact_3": {
+    "value": "Testu-mezu laburrak bakarrik: ez ahotsik, ez argazkirik, ez internetik.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6f9a120d"
+  },
+  "booklet_box": {
+    "value": "Kontaktua / oharrak",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e30245b1"
+  },
+  "booklet_group_title": {
+    "value": "Aurkitu talde bat, edo irakurri gaiari buruz",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "7eb372bc"
+  },
+  "booklet_group_lead": {
+    "value": "Eskaneatu kodea, edo bisitatu webguneetako bat, adibidez meshcore-info.eu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6e8065fb"
+  },
+  "booklet_about": {
+    "value": "meshcore-info.eu-k MeshCore azaltzen du Europarako, 33 hizkuntzatan: tokiko mesh sareek partekatzen dituzten ezarpenak, gidak eta tresnak. Boluntarioek mantentzen dute webgunea, eta laguntza ongi etorria da.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c149933d"
+  },
+  "booklet_machine": {
+    "value": "Liburuxka hau makina batek itzuli du. Jatorrizko hiztun batek ez du oraindik berrikusi.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b23f3819"
   },
   "meetings_strip_title": {
     "value": "Hurrengo 8 asteak",

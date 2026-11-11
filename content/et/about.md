@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore on tasuta tarkvara väikestele LoRa-raadiotele. LoRa on raadiotehnika, mis saadab vähe andmeid kaugele ja kulutab väga vähe energiat. MeshCore'iga raadiot nimetatakse *sõlmeks*. Kui seod sõlme telefoni või sülearvuti rakendusega või kasutad selle enda ekraani ja klaviatuuri, saad saata teksti inimestele kilomeetrite kaugusele. Vahele ei jää ühtegi masti, ruuterit ega teenusepakkujat.
@@ -21,13 +21,31 @@ Tarkvara on avatud lähtekoodiga. Seda arendatakse hoidlas [meshcore-dev/MeshCor
 
 Kas raadio on sulle uus? Siin on asjad, mida inimesed MeshCore'ilt kõige sagedamini ootavad, kuid mida see ei tee.
 
-- **See ei ole internet ega telefon.** MeshCore saadab lühikesi tekstisõnumeid, umbes sama pikki kui SMS sinu telefonis. Häält, fotosid, videot ega veebilehti see ei edasta ning tavalise telefoninumbrini sa sellega ei jõua.
-- **See ei ole hädaabiteenus.** Ükski hädaabiteenus ei luba võrku kuulata ja keegi ei luba, et keegi sinu sõnumit loeb.
-- **See ei ole kohene ega toimi kõikjal.** Sõnum liigub hüpetega raadiolt raadiole ja võib kesta mõne sekundi või üldse kohale jõudmata jääda. Kas see kohale jõuab, sõltub sinu ümber olevatest repiiteritest, kõrgusest, hoonetest ja sinu antennist. Väike raadio toas ei jõua sageli kellenigi, katusel olev repiiter ulatub kilomeetrite kaugusele.
-- **See ei ole teenus, mida keegi sinu jaoks haldab.** Pole teenusepakkujat, kasutajatuge ega levi lubadust. Võrk on olemas seal, kus kogukonna inimesed on repiitereid üles pannud.
-- **Kõik siin ei ole privaatne.** Otsesõnumid on krüpteeritud, kuid Public kanalit ja räsimärgiga kanaleid saab lugeda igaüks. Sinu sõlme nime ja jagatud asukohta näevad kõik levialas olijad. [Vaatlejad](/network/) saadavad kuuldu avalikele kaartidele. [Krüpteerimise jaotis](#encryption) selgitab, mis jääb privaatseks.
-- **See ei ole piiramatu.** Kõik piirkonna kasutajad jagavad ühte raadiokanalit ja [868 MHz sagedusala](#band) reeglid piiravad, kui kaua iga raadio tohib saata. Iga sõnum võtab eetriaega kõigilt teistelt. Seetõttu aeglustavad botid, sagedased kuulutused ja testsõnumid võrku kõigi jaoks.
-- **See ei ole Meshtastic.** Meshtastic on teine süsteem, mis töötab suures osas samadel plaatidel. Need kaks ei saa omavahel suhelda.
+- **See ei ole internet ega telefon.** MeshCore saadab lühikesi tekstisõnumeid,
+  umbes sama pikki kui SMS sinu telefonis. Häält, fotosid, videot
+  ega veebilehti pole ning tavalist telefoninumbrit sa sellega kätte ei saa.
+- **See ei ole hädaabiteenus.** Ükski hädaabiteenus ei luba võrku
+  jälgida. Me teame, et võrk suudab toimida. Kas see toimib ka hädaolukorras,
+  ei tea keegi.
+- **See ei toimi koheselt ega kõikjal.** Sõnum liigub hüpetena raadiolt
+  raadiole ja võib kohale jõuda mõne sekundiga või üldse mitte. Kas see
+  läbi jõuab, sõltub ümbruskonna repiiteritest, kõrgusest, hoonetest ja sinu
+  antennist. Toas olev väike raadio ei jõua sageli kellenigi. Katusel olev repiiter
+  ulatub kilomeetrite kaugusele.
+- **See ei ole teenus, mida keegi sinu eest haldab.** Teenusepakkujat,
+  kasutajatuge ega levigarantiid pole. Võrk on olemas seal, kus kogukonna
+  inimesed on repiitereid püsti pannud.
+- **Kõik võrgus ei ole privaatne.** Otsesõnumid on krüpteeritud, kuid
+  Public ja räsimärgiga kanaleid saab lugeda igaüks ning sinu sõlme
+  nime ja jagatud asukohta näevad kõik, kes on levialas.
+  [Vaatlejad](/network/) saadavad kuuldu avalikele kaartidele.
+  [Krüpteerimise jaotis](#encryption) selgitab, mis jääb privaatseks.
+- **See ei ole piiramatu.** Kõik piirkonna kasutajad jagavad ühte raadiokanalit ja
+  [868 MHz sagedusala](#band) reeglid piiravad, kui kaua iga raadio tohib saata.
+  Iga sõnum võtab eetriaega kõigilt teistelt, nii et botid, sagedased kuulutused
+  ja testsõnumid aeglustavad võrku kõigi jaoks.
+- **See ei ole Meshtastic.** Meshtastic on teine süsteem, mis töötab
+  suuresti samadel plaatidel. Need kaks ei saa omavahel suhelda.
 
 ## Mesh-võrk ühe minutiga {#mesh}
 
@@ -106,7 +124,7 @@ Mõned ametiasutused ehitavad või katsetavad MeshCore'i põhjal varulahendust. 
   [korraldavad vabatahtlikud koos omavalitsustega pilootprojekti](https://noodnetoverijssel.nl/).
   Nad kasutavad esmalt häälraadiot ja teise kihina MeshCore'i tekstisõnumite jaoks.
 
-Keegi ei luba, et sinu lähedal võrgus keegi su sõnumit loeb.
+Kas sinu lähedal olev võrk hädaolukorras toimib, seda ei tea keegi.
 
 ## Kust andmed pärinevad {#data}
 

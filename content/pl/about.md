@@ -6,11 +6,11 @@ eyebrow: MeshCore v1.18.0
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '2a40da22'
-  seeded: '2026-11-04'
+  source_hash: '70b86ac3'
+  seeded: '2026-11-11'
   fields: {title: '06eda66b', lead: 'c0174569', description: 'c2255f49', eyebrow: '8610c822'}
-  sections: ['aa768ac3', '92fc3ea7', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', '203a07ef', '0894fe81']
-  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'ac039316', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '3182d5c8', '02f1fe2f', 'e6b5b258']
+  sections: ['aa768ac3', '9e1e2d85', '0a55792c', 'c3de803d', '493b444f', '429f699c', 'f8008f48', 'd516c212', '0894fe81']
+  blocks: ['c3c9c568', '55e4248c', 'c0324d05', 'b20e61c3', 'b7b981e6', '68ed3005', 'cabeb32d', 'b2ca68ba', '681d55b9', 'd1df283f', '0d0e2a8b', '0596f602', 'eec63bed', '183a79e4', '47910535', 'd5a92bbf', 'b44d4637', '431021a0', '83c03732', 'e908ca85', '8f79fbf9', '3323d83e', '857c37dc', '0c4d0dd2', 'bd238f09', '794792be', '5d796ffb', '1a490368', 'f0dd237f', '053d85bc', '02f1fe2f', 'e6b5b258']
 ---
 
 MeshCore to darmowe oprogramowanie dla małych radiostacji LoRa. LoRa to technika radiowa, która przesyła niewiele danych na duże odległości przy bardzo małym poborze mocy. Radio z MeshCore nazywamy *węzłem*. Łączysz go z aplikacją na telefonie lub laptopie albo korzystasz z jego własnego ekranu i klawiatury. Wtedy wysyłasz tekst do ludzi oddalonych o wiele kilometrów. Po drodze nie ma masztu, routera ani operatora.
@@ -23,29 +23,30 @@ Oprogramowanie jest otwarte. Powstaje w repozytorium
 Dopiero zaczynasz z radiem? Oto rzeczy, których ludzie najczęściej oczekują od MeshCore, a których on nie robi.
 
 - **To nie jest internet ani telefon.** MeshCore wysyła krótkie wiadomości tekstowe,
-  mniej więcej tak długie jak SMS w twoim telefonie. Nie ma głosu, zdjęć, wideo
+  mniej więcej długości SMS-a. Nie ma głosu, zdjęć, wideo
   ani stron internetowych. Nie dodzwonisz się też na zwykły numer telefonu.
 - **To nie jest służba ratunkowa.** Żadna służba ratunkowa nie obiecuje, że
-  nasłuchuje w siatce. Nikt też nie obiecuje, że ktoś przeczyta twoją wiadomość.
-- **To nie działa natychmiast ani wszędzie.** Wiadomość przeskakuje od radia do
-  radia. Może to potrwać kilka sekund, a wiadomość może też w ogóle nie dotrzeć. To, czy
-  przejdzie, zależy od przekaźników wokół ciebie, od wysokości, budynków i twojej
-  anteny. Małe radio w pomieszczeniu często do nikogo nie dociera. Przekaźnik na dachu
+  będzie nasłuchiwać siatki. Wiemy, że siatka może działać. Czy zadziała w nagłej
+  sytuacji, tego nikt nie wie.
+- **To nie działa natychmiast ani wszędzie.** Wiadomość skacze od radia do
+  radia. Może to potrwać kilka sekund albo wiadomość w ogóle nie dotrze.
+  Czy dotrze, zależy od przekaźników wokół ciebie, od wysokości, budynków i twojej
+  anteny. Małe radio w pomieszczeniu często nie dociera do nikogo. Przekaźnik na dachu
   sięga na kilometry.
-- **To nie jest usługa, którą ktoś dla ciebie prowadzi.** Nie ma operatora,
-  pomocy technicznej ani obietnicy zasięgu. Siatka istnieje tam, gdzie ludzie
+- **To nie jest usługa, którą ktoś prowadzi dla ciebie.** Nie ma operatora,
+  pomocy technicznej ani gwarancji zasięgu. Siatka istnieje tam, gdzie ludzie
   ze społeczności postawili przekaźniki.
-- **Nie wszystko jest w niej prywatne.** Wiadomości prywatne są szyfrowane, ale
-  kanał Public i kanały z hashtagiem może czytać każdy. Nazwę twojego węzła
+- **Nie wszystko jest tu prywatne.** Wiadomości prywatne są szyfrowane. Kanał
+  Public i kanały z hashtagiem może jednak czytać każdy. Nazwę twojego węzła
   i udostępnioną pozycję widzi każdy w zasięgu.
-  [Obserwatorzy](/network/) przekazują to, co słyszą, do publicznych map.
+  [Obserwatorzy](/network/) przekazują to, co słyszą, na publiczne mapy.
   [Sekcja o szyfrowaniu](#encryption) wyjaśnia, co pozostaje prywatne.
-- **To nie działa bez ograniczeń.** Wszyscy w okolicy dzielą jeden kanał radiowy, a
-  zasady dla [pasma 868 MHz](#band) ograniczają, jak długo każde radio może nadawać.
+- **To nie działa bez ograniczeń.** Wszyscy na danym obszarze dzielą jeden kanał radiowy.
+  Zasady dla [pasma 868 MHz](#band) ograniczają, jak długo każde radio może nadawać.
   Każda wiadomość zabiera czas antenowy wszystkim innym. Dlatego boty, częste ogłoszenia
   i wiadomości testowe spowalniają siatkę dla wszystkich.
 - **To nie jest Meshtastic.** Meshtastic to inny system, który działa
-  w dużej mierze na tych samych płytkach. Te dwa systemy nie potrafią się ze sobą porozumieć.
+  w dużej mierze na tych samych płytkach. Te dwa systemy nie potrafią się ze sobą komunikować.
 
 ## Siatka w minutę {#mesh}
 
@@ -133,7 +134,7 @@ Niektóre instytucje publiczne budują lub testują zapasową łączność opart
   [prowadzą pilotaż wspólnie z gminami](https://noodnetoverijssel.nl/).
   W pierwszej kolejności używają radia głosowego, a MeshCore jako drugiej warstwy do tekstu.
 
-Nikt nie obiecuje, że ktoś w siatce w twojej okolicy przeczyta twoją wiadomość.
+Czy siatka w twojej okolicy zadziała w sytuacji awaryjnej, tego nikt nie wie.
 
 ## Skąd pochodzą dane {#data}
 

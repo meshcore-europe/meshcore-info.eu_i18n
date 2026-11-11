@@ -3,7 +3,7 @@
     "language": "fy",
     "name": "Frysk",
     "managed_by": "community",
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "site_tagline": {
     "value": "Berjochten sûnder netwurk, troch hiel Europa",
@@ -6472,6 +6472,186 @@
     "_ai": true,
     "_seeded": "2026-10-31",
     "_source": "dbcd5e7b"
+  },
+  "booklet_title": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "f4f17278"
+  },
+  "booklet_subtitle": {
+    "value": "Tekstberjochten stjoere sûnder ynternet",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "567d0b96"
+  },
+  "booklet_keywords": {
+    "value": "Desintralisearre · Fergees · Iepen boarne · Legaal",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2c5258e"
+  },
+  "booklet_tagline": {
+    "value": "Stjoer berjochten fia de radio, fan dak nei dak. Do hast gjin ynternet en gjin abonnemint nedich. Doch mei en wês taret.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c4ac4359"
+  },
+  "booklet_q_what": {
+    "value": "Wat is MeshCore?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "06eda66b"
+  },
+  "booklet_a_what": {
+    "value": "MeshCore is iepen boarne software wêrmei't lytse, spesjale radio's berjochten troch in mesh-netwurk trochjouwe. It wurket sûnder ynternet of kommersjele oanbieder.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "78415b19"
+  },
+  "booklet_q_cost": {
+    "value": "Wat kostet it?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e8dc9deb"
+  },
+  "booklet_a_cost": {
+    "value": "Om te begjinnen hast allinnich in companion nedich (de namme fan MeshCore foar de rol fan de radio oan de ûntfangende kant). Do kinst ien krije fan 15 euro ôf, en in goede kostet meastal sa'n 40. Der binne gjin trochrinnende kosten lykas in abonnemint, en do hoechst dy net te registrearjen.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2904f1a"
+  },
+  "booklet_q_join": {
+    "value": "Hoe doch ik mei?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "4ebf5b3a"
+  },
+  "booklet_a_join": {
+    "value": "Us webside toant groepen by dy yn 'e buert. It binne frijwilligers dy't de mesh kenne en dy helpe by it ynstellen. Do kinst der ek oer lêze en sels begjinne. It is makliker as do tinkst.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "413528fd"
+  },
+  "booklet_roof_title": {
+    "value": "In repeater op dyn dak?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0e152f7d"
+  },
+  "booklet_roof_lead": {
+    "value": "Op in soad plakken is de mesh al goed útboud, dus hast faak gjin eigen repeater nedich. Wêr't de dekking min is, kin in repeater helpe. Mei frij sicht en in goede hichte jout er berjochten oer grutte ôfstannen troch. Do kinst ien klear keapje of sels bouwe. In repeater is in radio, in sinnepaniel en batterijen mei laadregelers.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "52776beb"
+  },
+  "booklet_q_internet": {
+    "value": "Brûkt it myn ynternet?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "dc17caa8"
+  },
+  "booklet_a_internet": {
+    "value": "Nee. De radio's brûke frekwinsjes sûnder lisinsje. Se hawwe gjin WiFi nedich. Repeaters hawwe sinnepanielen en batterijen, dus se rinne troch by in stroomstoring.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "3ed17f21"
+  },
+  "booklet_q_allowed": {
+    "value": "Mei it?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "02b9f7c4"
+  },
+  "booklet_a_allowed": {
+    "value": "Ja. In part fan de 868 MHz-bân is yn hiel Europa frij te brûken. In repeater hat ek gjin lisinsje nedich. Do moatst dy wol oan de regels hâlde.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "20714be9"
+  },
+  "booklet_how_title": {
+    "value": "Hoe wurket it?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c3f15799"
+  },
+  "booklet_how_lead": {
+    "value": "Do bestjoerst dyn companion fan dyn telefoan of kompjûter út. Dyn companion stjoert dyn berjochten dan fia de radio nei de tichtstbye repeater. Dêrwei springe se fan dak nei dak oant se de ûntfanger berikke. Dizze radio's oerbrêgje ferskate kilometers.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "bdd12bb9"
+  },
+  "booklet_legend_1": {
+    "value": "Telefoan of kompjûter",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0727f861"
+  },
+  "booklet_legend_2": {
+    "value": "Companion: de radio dy't do by dy hast",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b95f6187"
+  },
+  "booklet_legend_3": {
+    "value": "Repeater: jout berjochten troch",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c9f24857"
+  },
+  "booklet_legend_4": {
+    "value": "Oare repeaters, fan dak nei dak",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "82cc3b46"
+  },
+  "booklet_fact_1": {
+    "value": "As it mobile netwurk útfalt, kin de mesh dyn famylje en freonen yn 'e buert noch berikke. In soad repeaters rinne op lytse sinnepanielen en batterijen. Oft it yn in needsituaasje echt wurket, wit gjinien.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "ce841258"
+  },
+  "booklet_fact_2": {
+    "value": "Direkte berjochten binne fan ein oant ein fersifere. Publike kanalen binne iepenbier, lykas in petearromte.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0755982e"
+  },
+  "booklet_fact_3": {
+    "value": "Allinnich koarte tekstberjochten: gjin spraak, foto's of ynternet.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6f9a120d"
+  },
+  "booklet_box": {
+    "value": "Kontakt / notysjes",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e30245b1"
+  },
+  "booklet_group_title": {
+    "value": "Fyn in groep, of lês der oer",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "7eb372bc"
+  },
+  "booklet_group_lead": {
+    "value": "Scan de koade, of besykje ien fan de websides, lykas meshcore-info.eu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6e8065fb"
+  },
+  "booklet_about": {
+    "value": "meshcore-info.eu leit MeshCore út foar Europa, yn 33 talen: de ynstellingen, hantliedingen en ark dy't de pleatslike meshes diele. Frijwilligers hâlde de side by, en help is wolkom.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c149933d"
+  },
+  "booklet_machine": {
+    "value": "Dit boekje is troch in masine oerset. In memmetaalsprekker hat it noch net kontrolearre.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b23f3819"
   },
   "meetings_strip_title": {
     "value": "Kommende 8 wiken",

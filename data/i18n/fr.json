@@ -3,7 +3,7 @@
     "language": "fr",
     "name": "Français",
     "managed_by": "community",
-    "updated": "2026-11-10"
+    "updated": "2026-11-11"
   },
   "site_tagline": {
     "value": "Messagerie hors réseau à travers l'Europe",
@@ -6472,6 +6472,186 @@
     "_ai": true,
     "_seeded": "2026-10-27",
     "_source": "dbcd5e7b"
+  },
+  "booklet_title": {
+    "value": "MeshCore",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "f4f17278"
+  },
+  "booklet_subtitle": {
+    "value": "Des messages texte sans internet",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "567d0b96"
+  },
+  "booklet_keywords": {
+    "value": "Décentralisé · Gratuit · Open source · Légal",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2c5258e"
+  },
+  "booklet_tagline": {
+    "value": "Envoie des messages par radio, de toit en toit. Tu n'as besoin ni d'internet ni d'abonnement. Rejoins-nous et sois prêt.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c4ac4359"
+  },
+  "booklet_q_what": {
+    "value": "C'est quoi, MeshCore ?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "06eda66b"
+  },
+  "booklet_a_what": {
+    "value": "MeshCore est un logiciel open source. Avec lui, de petites radios dédiées se transmettent des messages à travers un réseau maillé. Il fonctionne sans internet ni opérateur commercial.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "78415b19"
+  },
+  "booklet_q_cost": {
+    "value": "Combien ça coûte ?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e8dc9deb"
+  },
+  "booklet_a_cost": {
+    "value": "Pour commencer, il te faut seulement un companion (le nom que MeshCore donne au rôle de la radio côté réception). Tu en trouves dès 15 euros, et un bon modèle coûte en général environ 40. Il n'y a aucun frais courant comme un abonnement, et tu n'as pas besoin de t'inscrire.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c2904f1a"
+  },
+  "booklet_q_join": {
+    "value": "Comment je participe ?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "4ebf5b3a"
+  },
+  "booklet_a_join": {
+    "value": "Notre site liste les groupes près de chez toi. Ce sont des bénévoles qui connaissent le maillage et t'aident à t'installer. Tu peux aussi te renseigner et te lancer seul. C'est plus facile que tu ne le penses.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "413528fd"
+  },
+  "booklet_roof_title": {
+    "value": "Un répéteur sur ton toit ?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0e152f7d"
+  },
+  "booklet_roof_lead": {
+    "value": "À beaucoup d'endroits, le maillage est déjà bien développé, donc souvent tu n'as pas besoin de ton propre répéteur. Là où la couverture est faible, un répéteur peut aider. Avec une vue dégagée et une bonne hauteur, il relaie les messages sur de longues distances. Tu peux en acheter un tout prêt ou le construire toi-même. Un répéteur, c'est une radio, un panneau solaire et des batteries avec des régulateurs de charge.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "52776beb"
+  },
+  "booklet_q_internet": {
+    "value": "Est-ce que ça utilise mon internet ?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "dc17caa8"
+  },
+  "booklet_a_internet": {
+    "value": "Non. Les radios utilisent des fréquences libres de licence. Elles n'ont pas besoin de WiFi. Les répéteurs ont des panneaux solaires et des batteries, donc ils continuent de fonctionner pendant une coupure de courant.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "3ed17f21"
+  },
+  "booklet_q_allowed": {
+    "value": "Est-ce autorisé ?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "02b9f7c4"
+  },
+  "booklet_a_allowed": {
+    "value": "Oui. Une partie de la bande 868 MHz est libre d'utilisation dans toute l'Europe. Un répéteur ne demande pas non plus de licence. Tu dois toutefois respecter les règles.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "20714be9"
+  },
+  "booklet_how_title": {
+    "value": "Comment ça marche ?",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c3f15799"
+  },
+  "booklet_how_lead": {
+    "value": "Tu pilotes ton companion depuis ton téléphone ou ton ordinateur. Ton companion envoie ensuite tes messages par radio au répéteur le plus proche. De là, ils sautent de toit en toit jusqu'au destinataire. Ces radios couvrent plusieurs kilomètres.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "bdd12bb9"
+  },
+  "booklet_legend_1": {
+    "value": "Téléphone ou ordinateur",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0727f861"
+  },
+  "booklet_legend_2": {
+    "value": "Companion : la radio que tu portes sur toi",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b95f6187"
+  },
+  "booklet_legend_3": {
+    "value": "Répéteur : relaie les messages",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c9f24857"
+  },
+  "booklet_legend_4": {
+    "value": "Autres répéteurs, de toit en toit",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "82cc3b46"
+  },
+  "booklet_fact_1": {
+    "value": "Quand le réseau mobile est en panne, le maillage peut encore joindre ta famille et tes amis proches. Beaucoup de répéteurs tournent avec de petits panneaux solaires et des batteries. Personne ne sait si ça marche vraiment en cas d'urgence.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "ce841258"
+  },
+  "booklet_fact_2": {
+    "value": "Les messages directs sont chiffrés de bout en bout. Les canaux publics sont publics, comme un salon de discussion.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "0755982e"
+  },
+  "booklet_fact_3": {
+    "value": "Uniquement de courts messages texte : pas de voix, de photos ni d'internet.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6f9a120d"
+  },
+  "booklet_box": {
+    "value": "Contact / notes",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "e30245b1"
+  },
+  "booklet_group_title": {
+    "value": "Trouve un groupe ou renseigne-toi",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "7eb372bc"
+  },
+  "booklet_group_lead": {
+    "value": "Scanne le code ou visite l'un des sites, comme meshcore-info.eu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "6e8065fb"
+  },
+  "booklet_about": {
+    "value": "meshcore-info.eu présente MeshCore pour l'Europe, en 33 langues : les réglages, guides et outils que partagent les maillages locaux. Des bénévoles font vivre le site, et toute aide est la bienvenue.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "c149933d"
+  },
+  "booklet_machine": {
+    "value": "Ce livret a été traduit par une machine. Aucun locuteur natif ne l'a encore relu.",
+    "_ai": true,
+    "_seeded": "2026-11-11",
+    "_source": "b23f3819"
   },
   "meetings_strip_title": {
     "value": "8 prochaines semaines",
