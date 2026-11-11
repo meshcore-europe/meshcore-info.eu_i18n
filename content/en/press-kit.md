@@ -42,7 +42,7 @@ Hand out this booklet at a stand, or give it to the owner of a roof you would li
 2. Print it on both sides, flipped on the short edge, at 100%.
 3. Write your name or group in the empty box, and fold the sheet once.
 
-Print as many as you like. The booklet is in English for now; other languages follow once they are translated.
+Print as many as you like.
 
 ## Logo {#logo}
 
