@@ -94,8 +94,10 @@ repeaters it hears.
 
 ## Power and solar sizing {#power}
 
-A solar repeater must survive the darkest weeks of winter. Size it for
-them:
+A solar repeater must survive the darkest weeks of winter. Switch on power
+saving first: after `powersaving on` the repeater sleeps between packets. It
+works on nRF52 boards, and on ESP32 boards whose firmware has no bridge. Then
+size the battery and the panel:
 
 1. **Measure the load.** Run the configured repeater through a USB power
    meter for a day. Read the energy used in watt-hours (Wh). Traffic in
@@ -129,6 +131,7 @@ important commands:
 | What | Command |
 |---|---|
 | Change the admin password | `password <new password>` |
+| Password for guests, who can read its status | `set guest.password <password>` |
 | Name it | `set name <name>` |
 | Radio preset: frequency, bandwidth, SF, CR (reboot to apply) | `set radio 869.618,62.5,8,8` |
 | Duty-cycle limit, in percent | `set dutycycle 10` |
@@ -142,6 +145,16 @@ important commands:
 The default admin password is `password`, and anyone who logs in with it
 becomes an admin. Change it before the repeater goes on air.
 
+The guest password starts empty. Anyone can then log in as a guest without a
+password and read the repeater's status and its neighbours. Each request is
+traffic on the mesh. Set a guest password and give it to the people who need
+it.
+
+**Pick a name.** Name it the way your local group names its repeaters.
+Without a group, put the country, the place and a short name in it, such as
+`DE-63477-MUF1`. Other operators then see where the repeater is. A name
+holds up to 31 bytes, and 23 fit in an advert that also carries a position.
+
 The `set radio` example above is EU/UK (Narrow). Use the values of your
 area's preset instead: [Recommended settings](/guides/settings/) lists them
 per country.
@@ -151,7 +164,14 @@ every power cut and restarts in May 2024. While it runs, its clock also
 drifts: it runs further ahead or behind. So set the clock now and then: log
 in remotely from the app and use `clock sync`, or set the time over USB. With
 an RTC module you rarely need to: it keeps the time through power cuts and
-drifts far less.
+drifts far less. The firmware finds a DS3231, RV3028, PCF8563 or RX8130 module
+on its own.
+
+**A board with GPS** sets both for you. After `gps on` the repeater takes the
+time from GPS every 30 minutes, and `gps setloc` copies its position into
+`lat` and `lon`. The GPS uses power all the time it is on. On solar, run
+`gps setloc` once at the site and switch it off with `gps off`. The clock
+then needs `clock sync` again.
 
 **Manage it remotely.** Once it is on the mesh, log in from the MeshCore app
 with the admin password. You read its status there and use the same commands
@@ -185,7 +205,10 @@ and you update those over USB.
 Install the [OTAFIX bootloader](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX)
 on an nRF52 board before it goes up. With the stock bootloader, a failed
 update can only be repaired over USB. With OTAFIX the board falls back to
-update mode, and you try again over Bluetooth.
+update mode, and you try again over Bluetooth. `get bootloader.ver` shows
+which one a board has: with OTAFIX the reply has `OTAFIX` in it.
+
+After an update, `ver` shows the firmware version that runs now.
 
 **ESP32 boards**, such as the Heltec V3 and V4:
 
@@ -278,17 +301,6 @@ your national regulator.
 
 ## Deployment checklist {#checklist}
 
-- [ ] The site owner agreed, and you can reach the repeater for maintenance.
-- [ ] The board runs the **Repeater** firmware, and the antenna was attached
-      before first power-on.
-- [ ] The admin password is changed.
-- [ ] The radio matches [your area's preset](/guides/settings/) (`get radio`).
-- [ ] `set dutycycle 10` is set.
-- [ ] Transmit power plus antenna gain stays within 500 mW e.r.p.
-- [ ] The name, position and `owner.info` are set, so others know who runs it.
-- [ ] The clock is set (`clock`).
-- [ ] The enclosure is sealed, with a drain or vent hole, and the cable has a
-      drip loop.
-- [ ] Battery and panel are sized for the worst winter month.
-- [ ] You tested it from a distance with the app before leaving the site.
-- [ ] Your local group knows it is up.
+Before the repeater goes up, go through the
+[repeater checklist](/guides/repeater-checklist/). It names each thing to
+check, with the command that shows it.

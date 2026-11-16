@@ -33,6 +33,11 @@ itself: holding `nl` does not make it pass on `nl-ov`. Put each repeater in
 every region it serves, and only those; your [local group](/community/) knows
 which ones those are.
 
+**Near a border, agree on regions with your neighbours.** A repeater close
+to another country can hold that country's region too, such as `fr` on the
+German side of the Rhine. It then passes messages for that region across the
+border. Agree on it with the group on the other side first.
+
 **Limit what your repeater passes on.** Two settings keep traffic that has
 no need to travel far close to home:
 

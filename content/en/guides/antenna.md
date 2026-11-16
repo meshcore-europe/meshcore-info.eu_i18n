@@ -52,6 +52,10 @@ are that you want to reach:
   single far repeater and little else. Mount it with the elements upright,
   because its polarisation follows the elements.
 
+Copies of known antennas are on sale, and some antennas sold for 868 MHz
+are made for 915 MHz. [Check an antenna with a NanoVNA](#nanovna) before you
+mount it.
+
 ## Gain and the beam {#gain}
 
 Gain does not add power. It takes the signal that would go up and down
