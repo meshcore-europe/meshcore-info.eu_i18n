@@ -27,6 +27,8 @@ yet.
 
 ## How to improve a translation
 
+Working with an AI agent? [AGENTS.md](AGENTS.md) has the steps for it.
+
 Every machine-translated page on the site has a link "Help improve this
 translation" that opens the file here on GitHub.
 

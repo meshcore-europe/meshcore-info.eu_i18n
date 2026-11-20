@@ -45,6 +45,15 @@ well, you can make it better:
 3. In the `translation` block at the top, change `status: ai` to
    `status: human`, and propose the change.
 
+Short texts, such as the description of a community or a project, are in
+`data/i18n/<language>.json`. Replace a machine entry with your own wording,
+written as plain text between quotes.
+
+Working with an AI agent? Let it work in the
+[translations repository](https://github.com/meshcore-europe/meshcore-info.eu_i18n),
+which holds the steps for agents. It translates what is missing and shows
+you the rest to check. Only what you have read counts as reviewed.
+
 Found a wrong word but no time to fix it? Report it with the
 [translation form](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=translation-bug.yml).
 
