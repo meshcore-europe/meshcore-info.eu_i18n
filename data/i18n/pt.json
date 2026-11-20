@@ -3569,12 +3569,7 @@
     "_seeded": "2026-10-26",
     "_source": "e595f45d"
   },
-  "regions_pick": {
-    "value": "A tua província ou região",
-    "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "ed5a1c0e"
-  },
+  "regions_pick": "A tua Macro região (baseada em NUTS)",
   "regions_pick_none": {
     "value": "Escolhe uma",
     "_ai": true,
