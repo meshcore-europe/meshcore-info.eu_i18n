@@ -539,6 +539,7 @@
   "project.roadstr.desc": "Road event reporting without a central server: signed Nostr events, carried over MeshCore when there is no internet.",
   "project.domca-docs.desc": "Documentation in Dutch and English, from your first node to how the protocol, the firmware and the radio work. It is written with help from AI tools, so check firmware details against the MeshCore source.",
   "project.onlyfaqs-meshcore.desc": "About 40 common questions on MeshCore in Dutch, each with a short and a long answer. Some answers are older than the current settings, so check your preset on Recommended settings.",
+  "project.local-meshcore-analyzer.desc": "A Windows tool that connects to your companion radio and shows which repeaters near you carry how much traffic, by region, message type and channel. It also finds packets that loop and draws the routes on a map. The packet data stays on your computer. Free for private, non-commercial use.",
   "project.lusofw.desc": "MeshCore firmware from the community in Portugal, also used in Brazil and Galicia. It builds on stock MeshCore and stays compatible with it, with Portuguese defaults such as regions set from the node's position.",
   "guides_group_start": "Your first node",
   "guides_group_setup": "Set up your node",
