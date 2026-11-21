@@ -6,11 +6,11 @@ eyebrow: 868 MHz · bis zu 500 mW · ouni Lizenz
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 D'Repeatere droen d'Mesh. Companions, d'Radioen, mat deenen s du Message schécks, gi keng Message weider. Ouni Repeatere erreechs du also nëmmen d'Leit an denger direkter Reechwäit. E Repeater op der richteger Plaz vergréissert d'Mesh fir jiddereen ronderëm. Dëse Guide baséiert op der MeshCore-Firmware v1.18.0.
@@ -78,7 +78,10 @@ D'Tools rechne mat Héichtdaten a testen net däi Radio. Préif Beem an nei Geba
 
 ## Stroum a Solaranlag dimensionéieren {#power}
 
-E Solar-Repeater muss déi däischterst Woche vum Wanter iwwerstoen. Dimensionéier en dofir:
+E Solar-Repeater muss déi däischterst Wochen am Wanter iwwerstoen. Schalt fir d'éischt
+de Stroumspuermodus an: no `powersaving on` schléift de Repeater tëscht de Paketen. Dat
+funktionéiert op nRF52-Boards, an op ESP32-Boards, deenen hir Firmware keng Bridge huet.
+Leg dono d'Gréisst vun der Batterie an dem Panneau fest:
 
 1. **Moos de Verbrauch.** Looss de konfiguréierte Repeater een Dag laang un engem USB-Leeschtungsmesser lafen. Lies déi verbraucht Energie a Wattstonnen (Wh) of. Den Traffic an denger Géigend verännert d'Zuel, moos also wa méiglech op der Plaz.
 2. **Plang Reserv an.** Plang d'Batteriekapazitéit fir op d'mannst 5 bis 7 Deeg ouni notzbar Sonn.
@@ -93,24 +96,47 @@ E Rechebeispill mat ugehollenen Zuelen: e Repeater, deen 1 Wh pro Dag verbraucht
 
 **Iwwer USB konfiguréieren.** Looss de Repeater un dengem Computer ugeschloss a maach [config.meshcore.io](https://config.meshcore.io) oder d'Konsol vum Flasher op. Du kanns och all seriellen Terminal mat 115200 Baud benotzen. Déi wichtegst Befeeler:
 
-| Wat | Befehl |
+| Wat | Befeel |
 |---|---|
-| Admin-Passwuert änneren | `password <new password>` |
-| Numm ginn | `set name <name>` |
-| Radio-Preset: Frequenz, Bandbreet, SF, CR (gëllt no engem Restart) | `set radio 869.618,62.5,8,8` |
+| D'Admin-Passwuert änneren | `password <new password>` |
+| Passwuert fir Gäscht, déi säi Status liese kënnen | `set guest.password <password>` |
+| En Numm ginn | `set name <name>` |
+| Radio-Preset: Frequenz, Bandbreet, SF, CR (gëllt nom Neistart) | `set radio 869.618,62.5,8,8` |
 | Duty-Cycle-Limitt, a Prozent | `set dutycycle 10` |
-| Sendeleeschtung vum Radio-Chip, an dBm | `set tx <dBm>` |
-| Positioun, fir datt en op de Kaarte steet | `set lat <degrees>` an `set lon <degrees>` |
-| Kontaktinformatioune fir aner Bedreiwer | `set owner.info <text>` |
-| Stonnen tëscht Flood-Adverts, déi déi ganz Mesh héiert | `set flood.advert.interval <hours>` |
-| Elo ukënnegen | `advert` |
+| Sendeleeschtung vum Radiochip, an dBm | `set tx <dBm>` |
+| Positioun, fir datt en op Kaarten erschéngt | `set lat <degrees>` an `set lon <degrees>` |
+| Kontaktdaten fir aner Bedreiwer | `set owner.info <text>` |
+| Stonnen tëscht Flood-Adverts, déi de ganze Mesh héiert | `set flood.advert.interval <hours>` |
+| Sech elo ukënnegen | `advert` |
 | Nei starten | `reboot` |
 
 D'Standard-Admin-Passwuert ass `password`, a jiddereen, deen sech domat aloggt, gëtt Admin. Änner et, ier de Repeater ufänkt ze senden.
 
+D'Gäschtpasswuert ass am Ufank eidel. Da kann jiddereen sech ouni Passwuert als
+Gaascht aloggen an de Status vum Repeater a seng Noperen liesen. All Ufro ass
+Traffic am Mesh. Setz e Gäschtpasswuert a gëff et de Leit, déi et
+brauchen.
+
+**Wiel en Numm.** Nenn en esou, wéi däi lokale Grupp seng Repeateren nennt.
+Ouni Grupp setz d'Land, d'Uertschaft an e kuerzen Numm dran, wéi
+`DE-63477-MUF1`. Aner Bedreiwer gesinn dann, wou de Repeater steet. En Numm
+kann bis zu 31 Bytes hunn, an 23 passen an en Advert, deen och eng Positioun enthält.
+
 D'Beispill `set radio` uewen ass EU/UK (Narrow). Benotz amplaz d'Wäerter vum Preset vun denger Regioun: [Recommandéiert Astellungen](/guides/settings/) lëscht se pro Land op.
 
-**D'Auer astellen.** Ouni Auermodul (RTC) verléiert e Repeater bei all Stroumausfall d'Zäit a fänkt nees am Mee 2024 un. Wärend e leeft, verrutscht seng Auer och: si geet ëmmer méi vir oder no. Stell d'Auer also vun Zäit zu Zäit: logg dech vun der App aus op Distanz an a benotz `clock sync`, oder stell d'Zäit iwwer USB an. Mat engem RTC-Modul muss du dat seele maachen: en hält d'Zäit bei Stroumausfäll a verrutscht vill manner.
+**D'Auer stellen.** Ouni Auermodul (RTC) verléiert e Repeater bei all Stroumausfall
+d'Zäit a fänkt am Mee 2024 nei un. Wärend e leeft, gëtt seng Auer och ongenau:
+si geet ëmmer méi vir oder no. Stell d'Auer dofir vun Zäit zu Zäit: logg dech
+vun der App aus op Distanz an a benotz `clock sync`, oder stell d'Zäit iwwer USB.
+Mat engem RTC-Modul muss du dat seele maachen: en hält d'Zäit och bei
+Stroumausfäll a gëtt vill manner ongenau. D'Firmware fënnt en DS3231-, RV3028-,
+PCF8563- oder RX8130-Modul vu selwer.
+
+**E Board mat GPS** stellt béides fir dech an. No `gps on` hëlt de Repeater
+all 30 Minutten d'Zäit vum GPS, an `gps setloc` kopéiert seng Positioun an
+`lat` an `lon`. De GPS verbraucht Stroum, soulaang en un ass. Bei Solarstroum
+fiers du `gps setloc` eemol op der Plaz aus a schalts en mat `gps off` aus. D'Auer
+brauch dann erëm `clock sync`.
 
 **Op Distanz verwalten.** Soubal en an der Mesh ass, logg dech mam Admin-Passwuert aus der MeshCore-App an. Do liess du säi Status a benotz déi selwecht Befeeler iwwer Radio. Verschidde Befeeler funktionéieren nëmmen iwwer USB, wéi `set freq` an de Factory-Reset `erase`.
 
@@ -128,7 +154,14 @@ Wann de Repeater eemol uewen ass, aktualiséiers du en vum Buedem aus. Logg dech
 2. Tipp `start ota`. De Repeater äntwert `OK` a weist sech iwwer Bluetooth als `<board>_OTA`, zum Beispill `RAK4631_OTA`.
 3. Maach d'App nRF Device Firmware Update op dengem Telefon op, wiel den ZIP an de Repeater a lued en erop. Dat dauert e puer Minutten.
 
-Installéier den [OTAFIX-Bootloader](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX) op engem nRF52-Board, ier et eropgeet. Mam Standard-Bootloader kanns du e feelgeschloenen Update nëmmen iwwer USB flécken. Mat OTAFIX geet d'Board zréck an den Update-Modus, an du probéiers et nach eng Kéier iwwer Bluetooth.
+Installéier den [OTAFIX-Bootloader](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX)
+op engem nRF52-Board, ier et eropkënnt. Mam Standard-Bootloader kanns du e
+feelgeschloenen Update nëmmen iwwer USB flécken. Mat OTAFIX geet d'Board
+zréck an den Update-Modus, an du probéiers et nach eng Kéier iwwer Bluetooth.
+`get bootloader.ver` weist, wéi ee Bootloader e Board huet: mat OTAFIX steet
+`OTAFIX` an der Äntwert.
+
+No engem Update weist `ver` d'Firmware-Versioun, déi elo leeft.
 
 **ESP32-Boards**, wéi den Heltec V3 a V4:
 
@@ -185,15 +218,6 @@ Dës Hiweiser si keng Rechtsberodung. D'Regelen änneren sech; am Zweiwel fro be
 
 ## Checklëscht fir den Opbau {#checklist}
 
-- [ ] De Proprietär vum Standuert ass d'accord, an du kënns fir d'Maintenance bei de Repeater.
-- [ ] D'Board leeft mat der **Repeater**-Firmware, an d'Antenn war virum éischten Aschalten ugeschloss.
-- [ ] D'Admin-Passwuert ass geännert.
-- [ ] De Radio passt zum [Preset vun denger Regioun](/guides/settings/) (`get radio`).
-- [ ] `set dutycycle 10` ass agestallt.
-- [ ] Sendeleeschtung plus Antennegain bleiwe bannent 500 mW e.r.p.
-- [ ] Numm, Positioun an `owner.info` si agestallt, fir datt anerer wëssen, wien en bedreift.
-- [ ] D'Auer ass agestallt (`clock`).
-- [ ] D'Gehäis ass dicht, mat engem Oflafs- oder Lëftungslach, an de Kabel huet eng Drëpsschleif.
-- [ ] Batterie a Panneau si fir de schlëmmste Wantermount dimensionéiert.
-- [ ] Du hues en op Distanz mat der App getest, ier s du d'Plaz verlooss hues.
-- [ ] Deng lokal Grupp weess, datt e leeft.
+Ier de Repeater eropkënnt, géi d'[Checklëscht fir
+Repeateren](/guides/repeater-checklist/) duerch. Si nennt all
+Punkt, deen s du préiwe solls, mam Befeel, deen en weist.

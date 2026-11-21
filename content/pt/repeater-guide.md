@@ -6,11 +6,11 @@ eyebrow: 868 MHz · até 500 mW · sem licença
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 Os repetidores sustentam a mesh. Os companions, os rádios com que envias mensagens, não retransmitem mensagens. Sem repetidores, só chegas às pessoas ao teu alcance direto. Um repetidor no sítio certo alarga a mesh para todos à sua volta. Este guia segue o firmware MeshCore v1.18.0.
@@ -69,7 +69,7 @@ As ferramentas fazem cálculos com dados de altitude e não testam o teu rádio.
 
 ## Energia e dimensionamento solar {#power}
 
-Um repetidor solar tem de aguentar as semanas mais escuras do inverno. Dimensiona-o para essas semanas:
+Um repetidor solar tem de sobreviver às semanas mais escuras do inverno. Liga primeiro a poupança de energia: depois de `powersaving on`, o repetidor dorme entre pacotes. Funciona em placas nRF52 e em placas ESP32 cujo firmware não tenha bridge. Depois dimensiona a bateria e o painel:
 
 1. **Mede o consumo.** Liga o repetidor já configurado a um medidor de energia USB durante um dia. Lê a energia consumida em watts-hora (Wh). O tráfego na tua zona altera o valor, por isso mede no local, se puderes.
 2. **Acrescenta reserva.** Planeia a capacidade da bateria para pelo menos 5 a 7 dias sem sol útil.
@@ -87,10 +87,11 @@ Um exemplo prático, com valores hipotéticos: um repetidor que consome 1 Wh por
 | O quê | Comando |
 |---|---|
 | Mudar a palavra-passe de administrador | `password <new password>` |
+| Palavra-passe para convidados, que podem ler o estado | `set guest.password <password>` |
 | Dar-lhe um nome | `set name <name>` |
 | Predefinição de rádio: frequência, largura de banda, SF, CR (reinicia para aplicar) | `set radio 869.618,62.5,8,8` |
-| Limite do ciclo de trabalho, em percentagem | `set dutycycle 10` |
-| Potência de transmissão do chip de rádio, em dBm | `set tx <dBm>` |
+| Limite de duty cycle, em percentagem | `set dutycycle 10` |
+| Potência de emissão do chip de rádio, em dBm | `set tx <dBm>` |
 | Posição, para aparecer nos mapas | `set lat <degrees>` e `set lon <degrees>` |
 | Dados de contacto para outros operadores | `set owner.info <text>` |
 | Horas entre anúncios flood, os que toda a mesh ouve | `set flood.advert.interval <hours>` |
@@ -99,9 +100,30 @@ Um exemplo prático, com valores hipotéticos: um repetidor que consome 1 Wh por
 
 A palavra-passe de administrador predefinida é `password`, e quem entrar com ela fica administrador. Muda-a antes de pores o repetidor no ar.
 
+A palavra-passe de convidado vem vazia de origem. Assim, qualquer pessoa pode entrar como convidado sem
+palavra-passe e ver o estado do repetidor e os seus vizinhos. Cada pedido gera
+tráfego na mesh. Define uma palavra-passe de convidado e dá-a a quem
+precisa dela.
+
+**Escolhe um nome.** Dá-lhe um nome à maneira como o teu grupo local chama aos repetidores.
+Se não tens grupo, põe no nome o país, a localidade e um nome curto, como
+`DE-63477-MUF1`. Assim, os outros operadores veem onde está o repetidor. Um nome
+tem até 31 bytes, e num anúncio que também leva uma posição cabem 23.
+
 O exemplo de `set radio` acima é EU/UK (Narrow). Usa antes os valores da predefinição da tua zona: as [Definições recomendadas](/guides/settings/) indicam-nos por país.
 
-**Acerta o relógio.** Sem módulo de relógio (RTC), um repetidor perde a hora a cada corte de energia e recomeça em maio de 2024. Enquanto funciona, o relógio também se desvia: vai ficando adiantado ou atrasado. Por isso, acerta o relógio de vez em quando: inicia sessão remotamente na app e usa `clock sync`, ou acerta a hora por USB. Com um módulo RTC, raramente precisas de o fazer: o módulo guarda a hora durante os cortes de energia e desvia-se muito menos.
+**Acerta o relógio.** Sem um módulo de relógio (RTC), um repetidor perde as horas
+a cada corte de energia e volta a maio de 2024. Enquanto funciona, o relógio também
+se desvia: vai-se adiantando ou atrasando. Por isso, acerta o relógio de vez em quando: inicia
+sessão remotamente a partir da app e usa `clock sync`, ou acerta as horas por USB. Com
+um módulo RTC raramente precisas de o fazer: o módulo mantém as horas durante os cortes de energia e
+desvia-se muito menos. O firmware deteta sozinho um módulo DS3231, RV3028, PCF8563 ou RX8130.
+
+**Uma placa com GPS** acerta as duas coisas por ti. Depois de `gps on`, o repetidor
+vai buscar as horas ao GPS a cada 30 minutos, e `gps setloc` copia a posição para
+`lat` e `lon`. O GPS gasta energia durante todo o tempo em que está ligado. Se usas energia solar, executa
+`gps setloc` uma vez no local e desliga o GPS com `gps off`. Depois disso, o relógio
+volta a precisar de `clock sync`.
 
 **Gere-o à distância.** Quando o repetidor estiver na mesh, inicia sessão na app MeshCore com a palavra-passe de administrador. Aí consultas o estado dele e usas os mesmos comandos por rádio. Alguns comandos só funcionam por USB, como `set freq` e a reposição de fábrica `erase`.
 
@@ -119,7 +141,13 @@ Com o repetidor lá em cima, atualizas o firmware a partir do chão. Inicia sess
 2. Escreve `start ota`. O repetidor responde `OK` e aparece por Bluetooth como `<board>_OTA`, por exemplo `RAK4631_OTA`.
 3. Abre a app nRF Device Firmware Update no telemóvel, escolhe o ZIP e o repetidor, e envia o ficheiro. Demora alguns minutos.
 
-Instala o [bootloader OTAFIX](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX) numa placa nRF52 antes de a levares lá para cima. Com o bootloader de origem, só consegues reparar uma atualização falhada por USB. Com o OTAFIX, a placa volta ao modo de atualização e tentas outra vez por Bluetooth.
+Instala o [bootloader OTAFIX](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX)
+numa placa nRF52 antes de a montares lá em cima. Com o bootloader de origem, uma
+atualização falhada só se repara por USB. Com o OTAFIX, a placa volta ao modo de
+atualização e tentas outra vez por Bluetooth. `get bootloader.ver` mostra
+qual deles a placa tem: com o OTAFIX, a resposta contém `OTAFIX`.
+
+Depois de uma atualização, `ver` mostra a versão do firmware que está agora a correr.
 
 **Placas ESP32**, como a Heltec V3 e a V4:
 
@@ -176,15 +204,6 @@ Estas notas não são aconselhamento jurídico. As regras mudam: em caso de dúv
 
 ## Lista de verificação da instalação {#checklist}
 
-- [ ] O dono do local deu autorização, e consegues aceder ao repetidor para a manutenção.
-- [ ] A placa tem o firmware **Repeater**, e a antena já estava montada antes de ligares a placa pela primeira vez.
-- [ ] Mudaste a palavra-passe de administrador.
-- [ ] O rádio corresponde à [predefinição da tua zona](/guides/settings/) (`get radio`).
-- [ ] Definiste `set dutycycle 10`.
-- [ ] A potência de transmissão mais o ganho da antena fica dentro de 500 mW e.r.p.
-- [ ] Definiste o nome, a posição e `owner.info`, para os outros saberem quem o gere.
-- [ ] O relógio está acertado (`clock`).
-- [ ] A caixa está selada, com orifício de drenagem ou ventilação, e o cabo tem um laço de gotejamento.
-- [ ] A bateria e o painel estão dimensionados para o pior mês de inverno.
-- [ ] Testaste-o à distância com a app antes de saíres do local.
-- [ ] O teu grupo local sabe que o repetidor está ativo.
+Antes de instalares o repetidor no alto, percorre a
+[lista de verificação do repetidor](/guides/repeater-checklist/). A lista indica cada ponto a
+verificar, com o comando que o mostra.

@@ -6,11 +6,11 @@ description: MeshCore'i raadio eelseadistus iga Euroopa piirkonna kohta ning kor
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-11-02'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Iga allpool toodud piirkond kasutab oma raadioeelseadistust või muudab mõnda
@@ -39,6 +39,10 @@ rühma kordusjaamade piiresse. Kordusjaam edastab ainult nende regioonide sõnum
 on sellele endale määratud: määratud `nl` ei pane seda edastama `nl-ov` sõnumeid. Lisa iga
 kordusjaam kõigisse regioonidesse, mida see teenindab, ja ainult nendesse. Su
 [kohalik rühm](/community/) teab, millised need on.
+
+**Piiri lähedal lepi piirkonnad naabritega kokku.** Teise riigi lähedal olev repiiter
+võib hoida ka selle riigi piirkonda, näiteks `fr` Reini Saksamaa poolel. Siis edastab
+see selle piirkonna sõnumeid üle piiri. Lepi see enne kokku teisel pool oleva rühmaga.
 
 **Piira seda, mida su kordusjaam edastab.** Kaks seadet hoiavad kodu lähedal liikluse,
 millel pole vaja kaugele minna:

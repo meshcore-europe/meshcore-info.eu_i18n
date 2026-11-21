@@ -6,11 +6,11 @@ eyebrow: Companion u repeater · 868 MHz
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: 'f828c4aa'
-  seeded: '2026-11-02'
+  source_hash: 'ccdd807d'
+  seeded: '2026-11-21'
   fields: {title: '3a76cb0e', lead: 'd82ec429', description: 'ce3f3e73', eyebrow: 'd2203a35'}
-  sections: ['908e2678', 'f9b96f42', 'ca18da90', 'bcfb40ec', '851afd23', '8b7a2209', 'd8832cfa', '5b70b9e8', '14a38e92', 'a5dc1e34', 'de04ca41', 'a23f19c6', '93846db4']
-  blocks: ['908e2678', '0868bca9', '081db416', 'ad1da217', '73844333', 'aa14f1b1', '07e4fbad', '32d64d0d', 'ef66133c', '558c115b', '5d28e314', '57d6e138', 'e9b3d055', 'dd757d4a', '2cbd0b58', '21c67ec0', '306a3ded', 'fa46c89f', '1e6ccb3a', 'a3e53320', '6ae131c0', '98f350c6', '138d049d', '3bd28746', '2fc98ff1', '5ea29ee5', 'cfbd64e1', '48833347', '56a82a5c', '4ef7e883', '711e4fee', '1f7844ed', '6b188411', '8da9aa78', '4c2d8bbc', 'a721a9d0', '69c1dc1a', 'a631dbfa', '3f9f3471', '5af4ae3b', 'fa5095fd', '65eeb436', '15aa0eca', 'a8f5b505', '57f35115', '8e5e4975', '89764d3d']
+  sections: ['908e2678', 'f9b96f42', 'f1f521c0', 'bcfb40ec', '851afd23', '8b7a2209', 'd8832cfa', '5b70b9e8', '14a38e92', 'a5dc1e34', 'de04ca41', 'a23f19c6', '93846db4']
+  blocks: ['908e2678', '0868bca9', '081db416', 'ad1da217', '73844333', 'aa14f1b1', '07e4fbad', '32d64d0d', 'ef66133c', '558c115b', '2fe90a88', '5d28e314', '57d6e138', 'e9b3d055', 'dd757d4a', '2cbd0b58', '21c67ec0', '306a3ded', 'fa46c89f', '1e6ccb3a', 'a3e53320', '6ae131c0', '98f350c6', '138d049d', '3bd28746', '2fc98ff1', '5ea29ee5', 'cfbd64e1', '48833347', '56a82a5c', '4ef7e883', '711e4fee', '1f7844ed', '6b188411', '8da9aa78', '4c2d8bbc', 'a721a9d0', '69c1dc1a', 'a631dbfa', '3f9f3471', '5af4ae3b', 'fa5095fd', '65eeb436', '15aa0eca', 'a8f5b505', '57f35115', '8e5e4975', '89764d3d']
 ---
 
 L-għoli, antenna sintonizzata u kejbil qasir iżidulek il-firxa iktar minn kull milliwatt żejjed. Din il-gwida tibda bil-companion, ir-radju li minnu tibgħat il-messaġġi. Imbagħad titkellem dwar l-antenna fuq repeater, node li jgħaddi l-messaġġi minn fuq bejt jew arblu.
@@ -37,6 +37,8 @@ Kull antenna fuq il-mesh tkun wieqfa. Agħżel it-tip skont fejn jinsabu n-nodes
 - **Collinear tal-fibreglass.** Tubu abjad fuq arblu, b'gain fuq l-orizzont kollu madwaru. Din hija l-għażla standard għal repeater li jservi belt.
 - **Dipole.** Iqsar, b'inqas gain u raġġ għoli. Jilħaq nodes taħtek u fuqek aħjar minn collinear, pereżempju minn fuq għolja li tagħti għal wied.
 - **Yagi.** Virga b'elementi trasversali, immirata lejn post wieħed. Tilħaq repeater wieħed 'il bogħod u ftit li xejn iktar. Immuntaha bl-elementi weqfin, għax il-polarizzazzjoni tagħha ssegwi l-elementi.
+
+Hemm kopji ta' antenni magħrufa għall-bejgħ. Xi antenni li jinbiegħu għal 868 MHz huma magħmula għal 915 MHz. [Iċċekkja l-antenna b'NanoVNA](#nanovna) qabel ma twaħħalha.
 
 ## Il-gain u r-raġġ {#gain}
 

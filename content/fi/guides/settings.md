@@ -6,11 +6,11 @@ description: MeshCoren radioesiasetus alueittain Euroopassa sekä toistimen ja c
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-10-31'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Jokainen alla oleva alue käyttää omaa radioesiasetustaan tai muuttaa muutamaa
@@ -40,6 +40,11 @@ lähetetty viesti pysyy tuon ryhmän toistimissa. Toistin välittää vain aluei
 jotka sillä itsellään on. Jos toistimella on `nl`, se ei silti välitä
 aluetta `nl-ov`. Lisää jokaiselle toistimelle kaikki alueet, joita se palvelee,
 eikä muita. [Paikallinen ryhmäsi](/community/) tietää, mitkä ne ovat.
+
+**Sovi alueista naapuriesi kanssa, jos olet lähellä rajaa.** Toisen maan
+lähellä olevalla toistimella voi olla myös sen maan alue, esimerkiksi `fr`
+Reinin Saksan puoleisella rannalla. Silloin toistin välittää tuon alueen viestit
+rajan yli. Sovi siitä ensin rajan toisella puolella olevan ryhmän kanssa.
 
 **Rajoita, mitä toistimesi välittää.** Kahdella asetuksella pidät lähiseudulla
 liikenteen, jonka ei tarvitse kulkea kauas:

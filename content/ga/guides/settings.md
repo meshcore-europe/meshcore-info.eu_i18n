@@ -6,11 +6,11 @@ description: An réamhshocrú raidió MeshCore do gach ceantar san Eoraip, agus 
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-11-02'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Úsáideann gach ceantar thíos a réamhshocrú raidió féin, nó athraíonn sé cúpla
@@ -43,6 +43,11 @@ ar aghaidh ach na réigiúin atá aige féin: ní leor `nl` a bheith aige chun `
 chur ar aghaidh. Cuir gach athsheoltóir i ngach réigiún a bhfreastalaíonn sé air,
 agus sna réigiúin sin amháin; tá a fhios ag do [ghrúpa áitiúil](/community/)
 cé na cinn iad.
+
+**In aice le teorainn, socraigh na réigiúin le do chomharsana.** Is féidir le hathsheoltóir
+atá gar do thír eile réigiún na tíre sin a choinneáil freisin, mar shampla `fr` ar
+thaobh na Gearmáine den Réin. Ansin seolann sé teachtaireachtaí don réigiún sin
+thar an teorainn. Socraigh é leis an ngrúpa ar an taobh eile ar dtús.
 
 **Cuir teorainn leis an méid a chuireann d'athsheoltóir ar aghaidh.** Coinníonn dhá
 shocrú an trácht nach gá dó taisteal i bhfad gar don bhaile:

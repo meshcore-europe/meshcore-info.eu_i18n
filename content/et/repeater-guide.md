@@ -6,11 +6,11 @@ eyebrow: 868 MHz · kuni 500 mW · litsentsivaba
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 Võrk püsib repiitrite peal. Kaasseadmed ehk raadiod, millega sõnumeid saadad, sõnumeid edasi ei anna. Ilma repiitriteta jõuad seega ainult nendeni, kes on otseses levis. Õiges kohas asuv repiiter laiendab võrku kõigile ümberkaudsetele. See juhend põhineb MeshCore'i püsivaral v1.18.0.
@@ -78,7 +78,7 @@ repiitreid see kuuleb.
 
 ## Toide ja päikesesüsteemi arvutamine {#power}
 
-Päikeseenergial töötav repiiter peab üle elama talve kõige pimedamad nädalad. Arvuta süsteem nende järgi:
+Päikeseenergial töötav repiiter peab vastu pidama talve kõige pimedamatele nädalatele. Lülita kõigepealt sisse energiasääst: pärast käsku `powersaving on` magab repiiter pakettide vahel. See töötab nRF52-plaatidel ja neil ESP32-plaatidel, mille püsivaras pole silda. Seejärel arvuta aku ja paneeli suurus:
 
 1. **Mõõda tarbimist.** Lase seadistatud repiitril üks päev USB-võimsusmõõturi kaudu töötada. Loe kulunud energia välja vatt-tundides (Wh). Sinu piirkonna liiklus muudab seda arvu, seega mõõda võimaluse korral kohapeal.
 2. **Lisa varu.** Arvuta aku mahutavus nii, et see kestaks vähemalt 5 kuni 7 päeva ilma kasuliku päikeseta.
@@ -93,24 +93,43 @@ Arvutusnäide eeldatud arvudega: kui repiiter kasutab 1 Wh päevas, vajab ta nä
 
 **Seadistamine USB kaudu.** Kui repiiter on veel arvutiga ühendatud, ava [config.meshcore.io](https://config.meshcore.io) või paigaldaja konsool. Võid kasutada ka mis tahes jadaterminali kiirusel 115200 baudi. Kõige tähtsamad käsud:
 
-| Mida teha | Käsk |
+| Mis | Käsk |
 |---|---|
 | Muuda administraatori parooli | `password <new password>` |
-| Pane nimi | `set name <name>` |
-| Raadio eelseadistus: sagedus, ribalaius, SF, CR (rakendamiseks taaskäivita) | `set radio 869.618,62.5,8,8` |
+| Parool külalistele, kes saavad repiitri olekut lugeda | `set guest.password <password>` |
+| Anna repiitrile nimi | `set name <name>` |
+| Raadio eelseadistus: sagedus, ribalaius, SF, CR (rakendub pärast taaskäivitust) | `set radio 869.618,62.5,8,8` |
 | Töötsükli piirang protsentides | `set dutycycle 10` |
-| Raadiokiibi saatevõimsus dBm-ides | `set tx <dBm>` |
-| Asukoht, et repiiter kaartidel paistaks | `set lat <degrees>` ja `set lon <degrees>` |
-| Kontaktandmed teistele käitajatele | `set owner.info <text>` |
-| Tunnid üleujutusteadete vahel (neid kuuleb kogu võrk) | `set flood.advert.interval <hours>` |
-| Anna repiitrist kohe teada | `advert` |
+| Raadiokiibi saatevõimsus dBm-des | `set tx <dBm>` |
+| Asukoht, et repiiter oleks kaartidel näha | `set lat <degrees>` ja `set lon <degrees>` |
+| Kontaktandmed teistele operaatoritele | `set owner.info <text>` |
+| Üleujutuskuulutuste vaheline aeg tundides (neid kuuleb kogu võrk) | `set flood.advert.interval <hours>` |
+| Saada repiitri kuulutus kohe välja | `advert` |
 | Taaskäivita | `reboot` |
 
 Administraatori vaikeparool on `password` ja igaüks, kes sellega sisse logib, saab administraatoriks. Muuda parool enne, kui repiiter eetrisse läheb.
 
+Külalisparool on algul tühi. Siis saab igaüks ilma paroolita külalisena sisse logida ning vaadata repiitri olekut ja selle naabreid. Iga päring tekitab võrgus liiklust. Määra külalisparool ja anna see neile, kes seda vajavad.
+
+**Vali nimi.** Nimeta repiiter nii, nagu sinu kohalik grupp oma repiitreid nimetab.
+Kui sul gruppi pole, pane nimesse riik, koht ja lühike nimi, näiteks
+`DE-63477-MUF1`. Siis näevad teised operaatorid, kus repiiter asub. Nimi
+mahutab kuni 31 baiti. Kuulutusse, mis sisaldab ka asukohta, mahub neist 23.
+
 Ülal olev `set radio` näide on eelseadistuse EU/UK (Narrow) jaoks. Kasuta selle asemel oma piirkonna eelseadistuse väärtusi: lehel [Soovitatud seaded](/guides/settings/) on need riikide kaupa kirjas.
 
-**Kella seadmine.** Ilma kellamoodulita (RTC) kaotab repiiter iga voolukatkestusega kellaaja ja alustab uuesti 2024. aasta maist. Töö ajal kell ka triivib: see läheb järjest rohkem ette või taha. Seepärast sea kell aeg-ajalt õigeks: logi rakendusest kaugühendusega sisse ja kasuta käsku `clock sync` või sea aeg USB kaudu. RTC-mooduliga on seda harva vaja: moodul hoiab aega ka voolukatkestuste ajal ja triivib palju vähem.
+**Sea kell õigeks.** Ilma kellamoodulita (RTC) kaotab repiiter igal voolukatkestusel aja
+ja selle kell alustab uuesti 2024. aasta maist. Töö ajal kell ka triivib: see läheb
+üha rohkem ette või jääb maha. Seepärast sea kell aeg-ajalt õigeks: logi rakendusest
+kaugühendusega sisse ja kasuta käsku `clock sync` või sea aeg USB kaudu. RTC-mooduliga on
+seda harva vaja: moodul hoiab aega ka voolukatkestuste ajal ja triivib palju
+vähem. Püsivara leiab DS3231, RV3028, PCF8563 või RX8130 mooduli ise üles.
+
+**GPS-iga plaat** määrab mõlemad ise. Pärast käsku `gps on` võtab repiiter
+aja GPS-ist iga 30 minuti järel ja `gps setloc` kopeerib GPS-i asukoha väljadesse
+`lat` ja `lon`. GPS tarbib voolu kogu aja, mil see on sisse lülitatud. Päikesetoite korral
+käivita `gps setloc` kohapeal üks kord ja lülita GPS käsuga `gps off` välja. Seejärel
+vajab kell uuesti käsku `clock sync`.
 
 **Kaughaldus.** Kui repiiter on võrgus, logi MeshCore'i rakendusest administraatori parooliga sisse. Seal näed selle olekut ja saad samu käske raadio kaudu kasutada. Mõni käsk töötab ainult USB kaudu, näiteks `set freq` ja tehaseseadete taastamise käsk `erase`.
 
@@ -128,7 +147,12 @@ Kui repiiter on kõrgel, uuendad seda maa pealt. Logi MeshCore'i rakendusest adm
 2. Sisesta `start ota`. Repiiter vastab `OK` ja on Bluetoothis nähtav nimega `<board>_OTA`, näiteks `RAK4631_OTA`.
 3. Ava telefonis rakendus nRF Device Firmware Update, vali ZIP ja repiiter ning laadi fail üles. See võtab mõne minuti.
 
-Paigalda nRF52-plaadile [OTAFIX-i alglaadur](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX) enne, kui selle üles viid. Tehase alglaaduriga saad ebaõnnestunud uuenduse parandada ainult USB kaudu. OTAFIX-iga läheb plaat tagasi uuendusrežiimi ja saad Bluetoothi kaudu uuesti proovida.
+Enne kui nRF52-plaadi üles paned, paigalda sellele [OTAFIX-alglaadur](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX).
+Tavalise alglaaduriga saad ebaõnnestunud uuenduse parandada ainult USB kaudu.
+OTAFIX-iga läheb plaat tagasi uuendusrežiimi ja sa proovid uuesti Bluetoothi kaudu.
+`get bootloader.ver` näitab, milline alglaadur plaadil on: OTAFIX-i korral on vastuses `OTAFIX`.
+
+Pärast uuendamist näitab `ver`, milline püsivara versioon praegu töötab.
 
 **ESP32-plaadid**, näiteks Heltec V3 ja V4:
 
@@ -185,15 +209,6 @@ Need märkused ei ole õigusnõu. Reeglid muutuvad. Kahtluse korral küsi oma ri
 
 ## Paigalduse kontrollnimekiri {#checklist}
 
-- [ ] Asukoha omanik on nõus ja sa pääsed hoolduseks repiitrini.
-- [ ] Plaadil töötab **Repeater**-püsivara ja antenn ühendati enne esimest sisselülitamist.
-- [ ] Administraatori parool on muudetud.
-- [ ] Raadio vastab [sinu piirkonna eelseadistusele](/guides/settings/) (`get radio`).
-- [ ] Käsk `set dutycycle 10` on antud.
-- [ ] Saatevõimsus koos antenni võimendusega jääb 500 mW e.r.p. piiresse.
-- [ ] Nimi, asukoht ja `owner.info` on seatud, et teised teaksid, kes repiitrit käitab.
-- [ ] Kell on seatud (`clock`).
-- [ ] Korpus on suletud ning sellel on äravoolu- või õhutusava, kaablil on tilgasilmus.
-- [ ] Aku ja paneel on arvutatud talve halvima kuu järgi.
-- [ ] Testisid repiitrit enne asukohast lahkumist rakendusega eemalt.
-- [ ] Sinu kohalik grupp teab, et repiiter töötab.
+Enne kui repiitri üles paned, käi läbi
+[repiitri kontrollnimekiri](/guides/repeater-checklist/). Selles on kirjas iga asi,
+mida kontrollida, koos käsuga, mis seda näitab.

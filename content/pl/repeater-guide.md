@@ -6,11 +6,11 @@ eyebrow: 868 MHz · do 500 mW · bez licencji
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 Przekaźniki są podstawą siatki. Companiony, czyli radia, z których wysyłasz
@@ -101,8 +101,7 @@ Narzędzia liczą na podstawie danych o wysokości terenu i nie testują twojego
 
 ## Zasilanie i dobór paneli słonecznych {#power}
 
-Przekaźnik solarny musi przetrwać najciemniejsze tygodnie zimy. Dobierz
-zasilanie właśnie pod nie:
+Przekaźnik na energię słoneczną musi przetrwać najciemniejsze tygodnie zimy. Najpierw włącz oszczędzanie energii: po `powersaving on` przekaźnik śpi między pakietami. Działa to na płytkach nRF52 oraz na płytkach ESP32, których firmware nie ma mostka. Potem dobierz akumulator i panel:
 
 1. **Zmierz pobór.** Podłącz skonfigurowany przekaźnik na dobę przez miernik
    mocy USB. Odczytaj zużytą energię w watogodzinach (Wh). Ruch w twojej
@@ -135,30 +134,48 @@ Najważniejsze polecenia:
 
 | Co | Polecenie |
 |---|---|
-| Zmiana hasła administratora | `password <new password>` |
-| Nazwa | `set name <name>` |
-| Preset radia: częstotliwość, szerokość pasma, SF, CR (działa po restarcie) | `set radio 869.618,62.5,8,8` |
+| Zmień hasło administratora | `password <new password>` |
+| Hasło dla gości, którzy mogą odczytać jego status | `set guest.password <password>` |
+| Nadaj mu nazwę | `set name <name>` |
+| Preset radia: częstotliwość, szerokość pasma, SF, CR (zmiana działa po restarcie) | `set radio 869.618,62.5,8,8` |
 | Limit cyklu pracy, w procentach | `set dutycycle 10` |
 | Moc nadawania układu radiowego, w dBm | `set tx <dBm>` |
-| Pozycja, żeby przekaźnik był widoczny na mapach | `set lat <degrees>` i `set lon <degrees>` |
+| Pozycja, żeby był widoczny na mapach | `set lat <degrees>` i `set lon <degrees>` |
 | Dane kontaktowe dla innych operatorów | `set owner.info <text>` |
-| Godziny między ogłoszeniami flood, czyli tymi, które słyszy cała siatka | `set flood.advert.interval <hours>` |
-| Natychmiastowe ogłoszenie | `advert` |
+| Odstęp w godzinach między ogłoszeniami flood, czyli tymi, które słyszy cała siatka | `set flood.advert.interval <hours>` |
+| Ogłoś go teraz | `advert` |
 | Restart | `reboot` |
 
 Domyślne hasło administratora to `password`, a każdy, kto się nim zaloguje,
 zostaje administratorem. Zmień je, zanim przekaźnik zacznie nadawać.
 
+Hasło dla gości jest domyślnie puste. Każdy może się wtedy zalogować jako gość
+bez hasła i odczytać status przekaźnika oraz jego sąsiadów. Każde takie
+zapytanie to ruch w siatce. Ustaw hasło dla gości i przekaż je osobom, które go
+potrzebują.
+
+**Wybierz nazwę.** Nazwij go tak, jak twoja lokalna grupa nazywa swoje przekaźniki.
+Jeśli nie należysz do grupy, wpisz w nazwę kraj, miejscowość i krótką nazwę, np.
+`DE-63477-MUF1`. Inni operatorzy widzą wtedy, gdzie stoi przekaźnik. Nazwa
+może mieć do 31 bajtów, a w ogłoszeniu, które zawiera też pozycję, mieści się 23.
+
 Przykład `set radio` powyżej dotyczy presetu EU/UK (Narrow). Zamiast nich użyj
 wartości presetu twojej okolicy: [Zalecane ustawienia](/guides/settings/)
 podają je dla każdego kraju.
 
-**Ustaw zegar.** Bez modułu zegara (RTC) przekaźnik traci czas przy każdym
-zaniku zasilania i startuje z datą z maja 2024. W trakcie pracy jego zegar też
-dryfuje: spieszy się albo spóźnia. Dlatego co jakiś czas ustawiaj zegar:
+**Ustaw zegar.** Bez modułu zegara (RTC) przekaźnik traci czas przy każdej
+przerwie w zasilaniu i startuje z datą z maja 2024. Podczas pracy jego zegar też
+się rozjeżdża: spieszy się albo spóźnia. Dlatego od czasu do czasu ustaw zegar:
 zaloguj się zdalnie z aplikacji i użyj `clock sync` albo ustaw czas przez USB.
-Z modułem RTC rzadko musisz to robić: moduł utrzymuje czas mimo zaników
-zasilania i dryfuje dużo mniej.
+Z modułem RTC rzadko musisz to robić: moduł utrzymuje czas mimo przerw
+w zasilaniu i rozjeżdża się dużo mniej. Firmware sam wykrywa moduł DS3231,
+RV3028, PCF8563 lub RX8130.
+
+**Płytka z GPS** ustawia jedno i drugie za ciebie. Po `gps on` przekaźnik
+co 30 minut pobiera czas z GPS, a `gps setloc` kopiuje jego pozycję do
+`lat` i `lon`. GPS zużywa prąd przez cały czas, gdy jest włączony. Przy zasilaniu
+z paneli słonecznych uruchom `gps setloc` raz na miejscu i wyłącz GPS poleceniem `gps off`.
+Potem zegar znowu wymaga `clock sync`.
 
 **Zarządzaj zdalnie.** Gdy przekaźnik jest już w siatce, zaloguj się do niego
 z aplikacji MeshCore hasłem administratora. Tam odczytasz jego stan i użyjesz
@@ -191,8 +208,11 @@ odpowiadają `Error`, a te aktualizujesz przez USB.
 
 Zainstaluj [bootloader OTAFIX](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX)
 na płytce nRF52, zanim zamontujesz ją wysoko. Ze standardowym bootloaderem
-nieudaną aktualizację naprawisz tylko przez USB. Z OTAFIX płytka wraca do trybu
-aktualizacji i możesz spróbować ponownie przez Bluetooth.
+nieudaną aktualizację naprawisz tylko przez USB. Z OTAFIX płytka wraca do
+trybu aktualizacji, a ty próbujesz ponownie przez Bluetooth. `get bootloader.ver`
+pokazuje, który bootloader ma płytka: przy OTAFIX odpowiedź zawiera `OTAFIX`.
+
+Po aktualizacji `ver` pokazuje wersję firmware, która teraz działa.
 
 **Płytki ESP32**, takie jak Heltec V3 i V4:
 
@@ -286,17 +306,6 @@ sprawdź je u krajowego regulatora.
 
 ## Lista kontrolna przed montażem {#checklist}
 
-- [ ] Właściciel miejsca się zgodził, a ty masz dostęp do przekaźnika, żeby go serwisować.
-- [ ] Płytka ma firmware **Repeater**, a antenę podłączono przed pierwszym
-      włączeniem.
-- [ ] Hasło administratora jest zmienione.
-- [ ] Radio odpowiada [presetowi twojej okolicy](/guides/settings/) (`get radio`).
-- [ ] Ustawiono `set dutycycle 10`.
-- [ ] Moc nadawania razem z zyskiem anteny nie przekracza 500 mW e.r.p.
-- [ ] Nazwa, pozycja i `owner.info` są ustawione, więc inni wiedzą, kto prowadzi przekaźnik.
-- [ ] Zegar jest ustawiony (`clock`).
-- [ ] Obudowa jest szczelna, ma otwór odpływowy lub wentylacyjny, a kabel ma
-      pętlę ociekową.
-- [ ] Akumulator i panel są dobrane pod najgorszy zimowy miesiąc.
-- [ ] Przed opuszczeniem miejsca sprawdziłeś przekaźnik z daleka w aplikacji.
-- [ ] Twoja lokalna grupa wie, że przekaźnik działa.
+Zanim zamontujesz przekaźnik, przejrzyj
+[listę kontrolną przekaźnika](/guides/repeater-checklist/). Podaje każdy punkt
+do sprawdzenia wraz z poleceniem, które go pokazuje.

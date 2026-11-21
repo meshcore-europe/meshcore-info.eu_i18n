@@ -6,11 +6,11 @@ description: It MeshCore-radiopreset per gebiet yn Europa, en de repeater- en co
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-10-31'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Elk gebiet hjirûnder hat in eigen radiopreset, of feroaret in pear standertynstellingen fan MeshCore.
@@ -38,6 +38,11 @@ lykas `nl`, `nl-ov` en `nl-ov-zwo`. In berjocht foar `nl-ov-zwo` bliuwt by
 de repeaters yn dy groep. In repeater stjoert allinnich de regio's troch dy't er sels hat.
 Hat er `nl`, dan stjoert er `nl-ov` noch net troch. Set elke repeater yn elke regio dy't er betsjinnet, en allinnich yn dy regio's.
 Dyn [pleatslike groep](/community/) wit hokker regio's dat binne.
+
+**Meitsje by in grins ôfspraken oer regio's mei dyn buorlju.** In repeater tichtby
+in oar lân kin ek de regio fan dat lân hawwe, lykas `fr` oan de
+Dútske kant fan de Ryn. Hy stjoert dan berjochten foar dy regio oer de
+grins troch. Meitsje der earst ôfspraken oer mei de groep oan de oare kant.
 
 **Beheine wat dyn repeater trochstjoert.** Mei twa ynstellingen hâldst do ferkear dat net fier hoecht
 tichtby hûs:

@@ -5,11 +5,11 @@ description: Cuir do phobal, gléas nó tionscadal leis, déan athbhreithniú ar
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '1a28f66a'
-  seeded: '2026-11-10'
+  source_hash: '1ae1bf12'
+  seeded: '2026-11-21'
   fields: {title: '97b0c61b', lead: 'e9b40d4d', description: '3bd97cd2'}
-  sections: ['6e9d4b61', 'aca796d7', 'd4848d5b', '247b2601', '4b12bb2c', '645c82d3', 'c755b654']
-  blocks: ['2f9dd6e8', '44167907', 'b020e1a4', 'f2c726cd', '2e9d1fdd', 'b2a902ba', 'b15ce10b', '2be86888', '3db6cb63', '2e3c2fc0', '693a5d9d', '8aa01985', '96d8689d', 'c67fd14a', 'f92f7e49', '12ddca6c', 'e947e2a9', '526df4bb', 'e0d3559e']
+  sections: ['6e9d4b61', 'aca796d7', 'd4848d5b', '09da3428', '4b12bb2c', '645c82d3', 'c755b654']
+  blocks: ['2f9dd6e8', '44167907', 'b020e1a4', 'f2c726cd', '2e9d1fdd', 'b2a902ba', 'b15ce10b', '2be86888', '3db6cb63', '27956f26', 'a252a0ee', '2e3c2fc0', '693a5d9d', '8aa01985', '96d8689d', 'c67fd14a', 'f92f7e49', '12ddca6c', 'e947e2a9', '526df4bb', 'e0d3559e']
 ---
 
 Tá gach rud ar an suíomh seo i [stór GitHub](https://github.com/meshcore-europe/meshcore-info.eu) poiblí. Is trí fhoirm ar GitHub (issue) a dhéantar athruithe beaga. Cuirtear aon rud níos mó isteach mar pull request: athrú molta ar na comhaid a ndéanann cothabhálaí athbhreithniú air. Seiceálann cothabhálaí gach athrú sula bhfoilsítear é.
@@ -31,6 +31,15 @@ Is meaisínaistriúcháin iad leathanaigh i dteangacha eile ar dtús, agus deir 
 1. Oscail an leathanach agus lean "Cabhraigh leis an aistriúchán seo a fheabhsú". Osclaíonn an nasc sin an comhad ar GitHub, áit ar féidir leat é a chur in eagar i do bhrabhsálaí.
 2. Ceartaigh an fhoclaíocht. Fág naisc, cód, uimhreacha agus ainmneacha ar nós MeshCore díreach mar atá siad.
 3. Sa bhloc `translation` ag an mbarr, athraigh `status: ai` go `status: human`, agus mol an t-athrú.
+
+Tá téacsanna gearra, mar shampla cur síos ar phobal nó ar thionscadal, in
+`data/i18n/<language>.json`. Cuir d'fhoclaíocht féin in áit iontráil a rinne meaisín.
+Scríobh í mar ghnáth-théacs idir comharthaí athfhriotail.
+
+An bhfuil tú ag obair le gníomhaire AI? Lig dó oibriú sa
+[stór aistriúchán](https://github.com/meshcore-europe/meshcore-info.eu_i18n),
+ina bhfuil na céimeanna do ghníomhairí. Aistríonn sé a bhfuil ar iarraidh agus taispeánann sé
+an chuid eile duit le seiceáil. Ní áirítear mar athbhreithnithe ach an méid atá léite agat.
 
 Ar aimsigh tú focal mícheart, ach níl am agat é a cheartú? Tuairiscigh é leis an [bhfoirm aistriúcháin](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=translation-bug.yml).
 

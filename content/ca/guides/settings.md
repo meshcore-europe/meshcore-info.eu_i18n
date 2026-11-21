@@ -6,11 +6,11 @@ description: El preset de ràdio de MeshCore per a cada zona d'Europa i els par�
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-11-02'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Cada zona que trobaràs a continuació fa servir el seu propi preset de ràdio o canvia
@@ -41,6 +41,11 @@ missatge per a `nl-ov-zwo` es queda als repetidors d'aquest grup. Un repetidor
 només retransmet les regions que té configurades: tenir `nl` no fa que
 retransmeti `nl-ov`. Posa cada repetidor a totes les regions on dona servei, i
 només en aquestes; el teu [grup local](/community/) sap quines són.
+
+**A prop d'una frontera, acorda les regions amb els teus veïns.** Un repetidor
+a prop d'un altre país també pot incloure la regió d'aquell país, com ara `fr` a
+la banda alemanya del Rin. Aleshores fa passar els missatges d'aquella regió a
+l'altre costat de la frontera. Primer, acorda-ho amb el grup de l'altra banda.
 
 **Limita el que retransmet el teu repetidor.** Amb dos paràmetres, el trànsit que
 no necessita arribar lluny es queda a prop:

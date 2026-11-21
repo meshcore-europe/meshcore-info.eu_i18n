@@ -5,11 +5,11 @@ description: Aggiungi la tua comunità, un dispositivo o un progetto, rivedi una
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '1a28f66a'
-  seeded: '2026-11-10'
+  source_hash: '1ae1bf12'
+  seeded: '2026-11-21'
   fields: {title: '97b0c61b', lead: 'e9b40d4d', description: '3bd97cd2'}
-  sections: ['6e9d4b61', 'aca796d7', 'd4848d5b', '247b2601', '4b12bb2c', '645c82d3', 'c755b654']
-  blocks: ['2f9dd6e8', '44167907', 'b020e1a4', 'f2c726cd', '2e9d1fdd', 'b2a902ba', 'b15ce10b', '2be86888', '3db6cb63', '2e3c2fc0', '693a5d9d', '8aa01985', '96d8689d', 'c67fd14a', 'f92f7e49', '12ddca6c', 'e947e2a9', '526df4bb', 'e0d3559e']
+  sections: ['6e9d4b61', 'aca796d7', 'd4848d5b', '09da3428', '4b12bb2c', '645c82d3', 'c755b654']
+  blocks: ['2f9dd6e8', '44167907', 'b020e1a4', 'f2c726cd', '2e9d1fdd', 'b2a902ba', 'b15ce10b', '2be86888', '3db6cb63', '27956f26', 'a252a0ee', '2e3c2fc0', '693a5d9d', '8aa01985', '96d8689d', 'c67fd14a', 'f92f7e49', '12ddca6c', 'e947e2a9', '526df4bb', 'e0d3559e']
 ---
 
 Tutto il contenuto di questo sito si trova in un
@@ -52,6 +52,15 @@ puoi migliorarla:
    esattamente come sono.
 3. Nel blocco `translation` in alto, cambia `status: ai` in
    `status: human` e proponi la modifica.
+
+I testi brevi, come la descrizione di una comunità o di un progetto, sono in
+`data/i18n/<language>.json`. Sostituisci una voce tradotta automaticamente con parole tue,
+in testo semplice tra virgolette.
+
+Lavori con un agente AI? Fallo lavorare nel
+[repository delle traduzioni](https://github.com/meshcore-europe/meshcore-info.eu_i18n),
+che contiene le istruzioni per gli agenti. L'agente traduce ciò che manca e ti
+mostra il resto da controllare. Conta come rivisto solo ciò che hai letto.
 
 Hai trovato una parola sbagliata ma non hai tempo di correggerla? Segnalala con il
 [modulo per le traduzioni](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=translation-bug.yml).

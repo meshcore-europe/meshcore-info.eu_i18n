@@ -6,11 +6,11 @@ eyebrow: 868 MHz · gehienez 500 mW · lizentziarik gabe
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 Errepikagailuek eusten diote mesh sareari. Companion gailuek, mezuak bidaltzeko erabiltzen dituzun irratiek, ez dituzte mezuak birbidaltzen. Beraz, errepikagailurik gabe, zuzeneko irismenean dagoen jendearengana bakarrik iristen zara. Toki egokian jarritako errepikagailuak inguruko guztientzat zabaltzen du sarea. Gida honek MeshCore firmwarearen v1.18.0 bertsioa hartzen du oinarritzat.
@@ -63,7 +63,7 @@ Tresnek altuera-datuetan oinarrituta kalkulatzen dute, eta ez dute zure irratia 
 
 ## Potentzia eta eguzki-sistemaren neurria {#power}
 
-Eguzki-errepikagailuak neguko aste ilunenei eutsi behar die. Kalkulatu sistemaren neurria aste horietarako:
+Eguzki-energiazko errepikagailu batek neguko aste ilunenak gainditu behar ditu. Aktibatu lehenik energia-aurrezpena: `powersaving on` agindua eman ondoren, errepikagailuak lo egiten du paketeen artean. nRF52 plaketan funtzionatzen du, baita bridge-rik gabeko firmwarea duten ESP32 plaketan ere. Ondoren, kalkulatu bateriaren eta panelaren neurria:
 
 1. **Neurtu kontsumoa.** Eduki konfiguratutako errepikagailua martxan egun batez, USB potentzia-neurgailu baten bidez. Irakurri kontsumitutako energia watt-ordutan (Wh). Zure inguruko trafikoak zenbakia aldatzen du. Beraz, neurtu tokian bertan, ahal baduzu.
 2. **Gehitu erreserba.** Kalkulatu bateriaren edukiera gutxienez 5 eta 7 egun artean irauteko, eguzki baliagarririk gabe.
@@ -81,21 +81,41 @@ Adibide bat, zenbaki hipotetikoekin: egunean 1 Wh kontsumitzen duen errepikagail
 | Zer | Komandoa |
 |---|---|
 | Aldatu administratzailearen pasahitza | `password <new password>` |
-| Jarri izena | `set name <name>` |
-| Irrati-preseta: maiztasuna, banda-zabalera, SF, CR (berrabiarazi aplikatzeko) | `set radio 869.618,62.5,8,8` |
-| Duty cycle muga, ehunekotan | `set dutycycle 10` |
+| Gonbidatuen pasahitza (gonbidatuek haren egoera irakur dezakete) | `set guest.password <password>` |
+| Eman izen bat | `set name <name>` |
+| Irratiaren preseta: maiztasuna, banda-zabalera, SF, CR (berrabiarazi indarrean jartzeko) | `set radio 869.618,62.5,8,8` |
+| Duty-cycle muga, ehunekotan | `set dutycycle 10` |
 | Irrati-txiparen igorpen-potentzia, dBm-tan | `set tx <dBm>` |
 | Kokapena, mapetan ager dadin | `set lat <degrees>` eta `set lon <degrees>` |
 | Beste operadoreentzako harremanetarako datuak | `set owner.info <text>` |
-| Flood iragarkien arteko orduak (sare osoak entzuten dituen iragarkiak) | `set flood.advert.interval <hours>` |
+| Flood iragarkien arteko orduak (mesh sare osoak entzuten ditu iragarki horiek) | `set flood.advert.interval <hours>` |
 | Iragarri orain | `advert` |
 | Berrabiarazi | `reboot` |
 
 Administratzailearen pasahitz lehenetsia `password` da, eta harekin saioa hasten duen edonor administratzaile bihurtzen da. Aldatu pasahitza errepikagailua emititzen hasi aurretik.
 
+Hasieran, gonbidatuen pasahitza hutsik dago. Orduan, edonork has dezake saioa gonbidatu gisa pasahitzik gabe, eta errepikagailuaren egoera eta haren auzokoak irakur ditzake. Eskaera bakoitza mesh sareko trafikoa da. Ezarri gonbidatuen pasahitz bat eta eman behar duten pertsonei.
+
+**Aukeratu izen bat.** Jarri izena zure tokiko taldeak bere errepikagailuei jartzen dien moduan.
+Talderik ez baduzu, jarri izenean herrialdea, tokia eta izen labur bat, adibidez
+`DE-63477-MUF1`. Horrela, beste operadoreek ikusten dute non dagoen errepikagailua.
+Izenak gehienez 31 byte izan ditzake. Kokapena ere daraman iragarki batean 23 byte sartzen dira.
+
 Goiko `set radio` adibidea EU/UK (Narrow) presetarena da. Erabili horren ordez zure inguruko presetaren balioak: [Gomendatutako ezarpenak](/guides/settings/) orrian herrialdez herrialde daude zerrendatuta.
 
-**Doitu erlojua.** Erloju-modulurik (RTC) gabe, errepikagailuak ordua galtzen du argindarra joaten den bakoitzean, eta 2024ko maiatzean hasten da berriro. Martxan dagoen bitartean, erlojua desbideratu ere egiten da: gero eta aurrerago edo atzerago doa. Beraz, doitu erlojua noizean behin: hasi saioa urrunetik, aplikazioan, eta erabili `clock sync`, edo jarri ordua USB bidez. RTC modulu batekin gutxitan egin behar duzu: moduluak ordua gordetzen du argindarra joaten denean, eta askoz gutxiago desbideratzen da.
+**Ezarri ordua.** Erloju-modulurik (RTC) ez badu, errepikagailuak ordua galtzen du
+argindar-eten bakoitzean, eta 2024ko maiatzetik hasten da berriro. Martxan dagoen
+bitartean, erlojua desbideratu ere egiten da: aurreratu edo atzeratu egiten da.
+Beraz, ezarri ordua noizean behin: hasi saioa urrutitik aplikaziotik eta erabili
+`clock sync`, edo ezarri ordua USB bidez. RTC modulu batekin, gutxitan egin beharko duzu:
+moduluak ordua gordetzen du argindar-etenetan, eta askoz gutxiago desbideratzen da.
+Firmwareak berak aurkitzen ditu DS3231, RV3028, PCF8563 edo RX8130 moduluak.
+
+**GPS duen plaka batek** biak ezartzen ditu zure ordez. `gps on` aginduaren ondoren, errepikagailuak
+30 minuturo hartzen du ordua GPStik, eta `gps setloc` aginduak haren kokapena
+`lat` eta `lon` balioetara kopiatzen du. GPSak energia kontsumitzen du piztuta dagoen bitartean. Eguzki-energiarekin, exekutatu
+`gps setloc` behin kokalekuan bertan, eta itzali GPSa `gps off` aginduarekin. Gero, erlojua
+berriro sinkronizatu behar duzu `clock sync` aginduarekin.
 
 **Kudeatu urrunetik.** Errepikagailua sarean dagoenean, hasi saioa MeshCore aplikaziotik administratzailearen pasahitzarekin. Han irakurtzen duzu haren egoera, eta komando berak erabiltzen dituzu irrati bidez. Komando batzuek USB bidez bakarrik funtzionatzen dute, hala nola `set freq` eta fabrika-berrezarpena egiten duen `erase`.
 
@@ -113,7 +133,13 @@ Errepikagailua goian dagoenean, lurretik eguneratzen duzu. Hasi saioa MeshCore a
 2. Idatzi `start ota`. Errepikagailuak `OK` erantzuten du eta Bluetooth bidez `<board>_OTA` izenarekin agertzen da, adibidez `RAK4631_OTA`.
 3. Ireki nRF Device Firmware Update aplikazioa telefonoan, aukeratu ZIP fitxategia eta errepikagailua, eta igo fitxategia. Minutu batzuk irauten du.
 
-Instalatu [OTAFIX abiarazlea](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX) nRF52 plakan, goian jarri aurretik. Jatorrizko abiarazlearekin, huts egindako eguneratzea USB bidez bakarrik konpon dezakezu. OTAFIXekin, plaka eguneratze-modura itzultzen da, eta berriro saia zaitezke Bluetooth bidez.
+Instalatu [OTAFIX abiarazlea](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX)
+nRF52 plakan, plaka gora igo aurretik. Fabrikako abiarazlearekin, huts egindako
+eguneratzea USB bidez bakarrik konpon daiteke. OTAFIXekin, plaka eguneratze-modura
+itzultzen da, eta Bluetooth bidez saiatzen zara berriro. `get bootloader.ver` aginduak
+erakusten du plakak zein abiarazle duen: OTAFIXekin, erantzunean `OTAFIX` agertzen da.
+
+Eguneratu ondoren, `ver` aginduak orain martxan dagoen firmwarearen bertsioa erakusten du.
 
 **ESP32 plakak**, hala nola Heltec V3 eta V4:
 
@@ -170,15 +196,6 @@ Ohar hauek ez dira lege-aholkularitza. Arauak aldatu egiten dira. Zalantzarik ba
 
 ## Instalazioaren egiaztapen-zerrenda {#checklist}
 
-- [ ] Kokapenaren jabeak baimena eman du, eta errepikagailura irits zaitezke mantentze-lanetarako.
-- [ ] Plakak **Repeater** firmwarea du, eta lehen aldiz piztu aurretik konektatu zenuen antena.
-- [ ] Administratzailearen pasahitza aldatu duzu.
-- [ ] Irratia [zure inguruko presetarekin](/guides/settings/) bat dator (`get radio`).
-- [ ] `set dutycycle 10` ezarrita dago.
-- [ ] Igorpen-potentzia gehi antenaren irabazia 500 mW e.r.p. mugaren barruan dago.
-- [ ] Izena, kokapena eta `owner.info` ezarrita daude, besteek jakin dezaten nork kudeatzen duen.
-- [ ] Erlojua doituta dago (`clock`).
-- [ ] Kaxa ondo itxita dago, drainatze- edo aireztapen-zuloarekin, eta kableak tanta-begizta du.
-- [ ] Bateriaren eta panelaren neurria neguko hilabete txarrenerako kalkulatuta dago.
-- [ ] Urrunetik probatu duzu aplikazioarekin, kokapenetik joan aurretik.
-- [ ] Tokiko taldeak badaki errepikagailua martxan dagoela.
+Errepikagailua muntatu aurretik, errepasatu
+[errepikagailuaren egiaztapen-zerrenda](/guides/repeater-checklist/). Zerrendak
+egiaztatu beharreko gauza bakoitza aipatzen du, hura erakusten duen komandoarekin batera.

@@ -6,11 +6,11 @@ description: MeshCore-radiopresetet for hvert område i Europa, og repeater- og 
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-10-31'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Hvert område nedenfor bruker sitt eget radiopreset, eller endrer noen av
@@ -41,6 +41,11 @@ blir værende hos repeaterne i den gruppen. En repeater sender bare videre de
 regionene den selv har: har den `nl`, sender den ikke videre `nl-ov`. Legg hver
 repeater i alle regionene den betjener, og bare i dem. Den [lokale gruppen din](/community/)
 vet hvilke det er.
+
+**Nær en grense: avtal regioner med naboene dine.** En repeater nær et
+annet land kan også ha regionen til det landet, for eksempel `fr` på den tyske
+siden av Rhinen. Da sender den meldinger for den regionen videre over grensen.
+Avtal dette først med gruppen på den andre siden.
 
 **Begrens hva repeateren din sender videre.** To innstillinger sørger for at
 trafikk som ikke trenger å gå langt, holder seg i nærområdet:

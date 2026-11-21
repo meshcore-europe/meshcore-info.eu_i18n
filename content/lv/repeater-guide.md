@@ -6,11 +6,11 @@ eyebrow: 868 MHz · līdz 500 mW · bez licences
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 Tīkls balstās uz retranslatoriem. Companion ierīces ir radio, no kuriem tu sūti ziņas, un tās ziņas tālāk nepārsūta. Tāpēc bez retranslatoriem tu sasniedz tikai tos, kas ir tiešā darbības rādiusā. Pareizi novietots retranslators paplašina tīklu visiem apkārtējiem. Šis ceļvedis atbilst MeshCore programmaparatūras versijai v1.18.0.
@@ -73,7 +73,9 @@ Rīki rēķina pēc augstuma datiem un tavu radio nepārbauda. Kokus un jaunas �
 
 ## Enerģija un saules sistēmas aprēķins {#power}
 
-Saules retranslatoram jāiztur ziemas tumšākās nedēļas. Aprēķini sistēmu šīm nedēļām:
+Saules retranslatoram jāiztur ziemas tumšākās nedēļas. Vispirms ieslēdz enerģijas taupīšanu:
+pēc `powersaving on` retranslators starp paketēm guļ. Taupīšana darbojas nRF52 platēs un
+ESP32 platēs, kuru programmaparatūrā nav tilta. Tad izvēlies baterijas un paneļa izmēru:
 
 1. **Izmēri patēriņu.** Vienu dienu darbini iestatīto retranslatoru caur USB jaudas mērītāju. Nolasi patērēto enerģiju vatstundās (Wh). Šo skaitli ietekmē datplūsma tavā apkaimē, tāpēc, ja vari, mēri uz vietas.
 2. **Pieskaiti rezervi.** Plāno baterijas ietilpību vismaz 5 līdz 7 dienām bez noderīgas saules.
@@ -91,21 +93,36 @@ Aprēķina piemērs ar pieņemtiem skaitļiem: retranslatoram, kas patērē 1 Wh
 | Kas | Komanda |
 |---|---|
 | Nomaini administratora paroli | `password <new password>` |
+| Parole viesiem, kuri var nolasīt tā statusu | `set guest.password <password>` |
 | Piešķir nosaukumu | `set name <name>` |
-| Radio priekšiestatījums: frekvence, joslas platums, SF, CR (stājas spēkā pēc restartēšanas) | `set radio 869.618,62.5,8,8` |
+| Radio priekšiestatījums: frekvence, joslas platums, SF, CR (stājas spēkā pēc pārstartēšanas) | `set radio 869.618,62.5,8,8` |
 | Darba cikla ierobežojums procentos | `set dutycycle 10` |
 | Radio mikroshēmas raidīšanas jauda dBm | `set tx <dBm>` |
-| Atrašanās vieta, lai retranslators būtu redzams kartēs | `set lat <degrees>` un `set lon <degrees>` |
+| Atrašanās vieta, lai tas būtu redzams kartēs | `set lat <degrees>` un `set lon <degrees>` |
 | Kontaktinformācija citiem operatoriem | `set owner.info <text>` |
-| Stundas starp flood paziņojumiem, kurus dzird viss tīkls | `set flood.advert.interval <hours>` |
-| Paziņo par retranslatoru tagad | `advert` |
-| Restartē | `reboot` |
+| Stundas starp flood advert ziņām, kuras dzird viss mesh tīkls | `set flood.advert.interval <hours>` |
+| Paziņo par to tūlīt | `advert` |
+| Pārstartē | `reboot` |
 
 Noklusējuma administratora parole ir `password`, un ikviens, kurš ar to piesakās, kļūst par administratoru. Nomaini to, pirms retranslators sāk raidīt ēterā.
 
+Viesa parole sākumā ir tukša. Tad ikviens var pieteikties kā viesis bez paroles un nolasīt retranslatora statusu un tā kaimiņus. Katrs pieprasījums rada datplūsmu mesh tīklā. Iestati viesa paroli un iedod to tiem, kam tā vajadzīga.
+
+**Izvēlies nosaukumu.** Nosauc to tā, kā tava vietējā grupa nosauc savus retranslatorus.
+Ja grupas nav, ieliec nosaukumā valsti, vietu un īsu vārdu, piemēram,
+`DE-63477-MUF1`. Tā citi operatori redz, kur retranslators atrodas. Nosaukums
+var būt līdz 31 baitam garš, un advert ziņā, kurā ir arī atrašanās vieta, ietilpst 23.
+
 Iepriekš minētais `set radio` piemērs ir EU/UK (Narrow). Tā vietā izmanto savas apkaimes priekšiestatījuma vērtības: lapā [Ieteicamie iestatījumi](/guides/settings/) tās ir norādītas katrai valstij.
 
-**Iestati pulksteni.** Retranslators bez pulksteņa moduļa (RTC) katrā strāvas pārtraukumā zaudē laiku un atsāk skaitīt no 2024. gada maija. Darbības laikā tā pulkstenis arī novirzās: tas arvien vairāk aizsteidzas vai atpaliek. Tāpēc laiku pa laikam iestati pulksteni: attālināti piesakies no lietotnes un izmanto `clock sync` vai iestati laiku caur USB. Ar RTC moduli tas vajadzīgs reti: modulis saglabā laiku strāvas pārtraukumos un novirzās daudz mazāk.
+**Iestati pulksteni.** Bez pulksteņa moduļa (RTC) retranslators katrā strāvas pārrāvumā
+zaudē laiku un pēc pārstartēšanas rāda 2024. gada maiju. Kamēr retranslators darbojas, tā
+pulkstenis arī nobīdās: tas steidzas vai atpaliek. Tāpēc laiku pa laikam iestati
+pulksteni: piesakies attālināti no lietotnes un izmanto `clock sync` vai iestati laiku pa
+USB. Ar RTC moduli tas tev vajadzīgs reti: modulis saglabā laiku arī strāvas pārrāvumu laikā un nobīdās
+daudz mazāk. Programmaparatūra pati atrod DS3231, RV3028, PCF8563 vai RX8130 moduli.
+
+**Plate ar GPS** iestata abus tavā vietā. Pēc `gps on` retranslators ik pēc 30 minūtēm ņem laiku no GPS, un `gps setloc` ieraksta tā atrašanās vietu laukos `lat` un `lon`. GPS patērē enerģiju visu laiku, kamēr tas ir ieslēgts. Ja retranslators darbojas ar saules enerģiju, palaid `gps setloc` vienreiz uz vietas un izslēdz GPS ar `gps off`. Pēc tam pulkstenis atkal jāiestata ar `clock sync`.
 
 **Pārvaldi attālināti.** Kad retranslators ir tīklā, piesakies no MeshCore lietotnes ar administratora paroli. Tur tu nolasi tā statusu un pa radio izmanto tās pašas komandas. Dažas komandas darbojas tikai caur USB, piemēram, `set freq` un rūpnīcas iestatījumu atjaunošanas komanda `erase`.
 
@@ -123,7 +140,13 @@ Kad retranslators ir uzstādīts augstu, tu to atjaunini no zemes. Piesakies no 
 2. Ievadi `start ota`. Retranslators atbild `OK` un pa Bluetooth ir redzams kā `<board>_OTA`, piemēram, `RAK4631_OTA`.
 3. Tālrunī atver lietotni nRF Device Firmware Update, izvēlies ZIP failu un retranslatoru, tad augšupielādē. Tas aizņem dažas minūtes.
 
-Uzstādi nRF52 platē [OTAFIX sāknētāju](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX), pirms nes plati augšā. Ar standarta sāknētāju neizdevušos atjauninājumu var salabot tikai caur USB. Ar OTAFIX plate atgriežas atjaunināšanas režīmā, un tu vari mēģināt vēlreiz pa Bluetooth.
+Uzstādi [OTAFIX sāknētāju](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX)
+nRF52 platē, pirms to novieto augstumā. Ar standarta sāknētāju neizdevušos
+atjauninājumu var salabot tikai ar USB. Ar OTAFIX plate atgriežas
+atjaunināšanas režīmā, un tu mēģini vēlreiz ar Bluetooth. `get bootloader.ver` parāda,
+kurš sāknētājs platē ir: ar OTAFIX atbildē būs `OTAFIX`.
+
+Pēc atjaunināšanas `ver` parāda programmaparatūras versiju, kas pašlaik darbojas.
 
 **ESP32 plates**, piemēram, Heltec V3 un V4:
 
@@ -180,15 +203,6 @@ EU/UK (Narrow) kanāls ar 869.618 MHz frekvenci un 62.5 kHz joslas platumu snied
 
 ## Uzstādīšanas pārbaudes saraksts {#checklist}
 
-- [ ] Vietas īpašnieks ir piekritis, un tu vari piekļūt retranslatoram apkopes darbiem.
-- [ ] Platē darbojas **Repeater** programmaparatūra, un tu pievienoji antenu pirms pirmās ieslēgšanas.
-- [ ] Administratora parole ir nomainīta.
-- [ ] Radio iestatījumi atbilst [tavas apkaimes priekšiestatījumam](/guides/settings/) (`get radio`).
-- [ ] Ir iestatīts `set dutycycle 10`.
-- [ ] Raidīšanas jauda kopā ar antenas pastiprinājumu nepārsniedz 500 mW e.r.p.
-- [ ] Nosaukums, atrašanās vieta un `owner.info` ir iestatīti, lai citi zinātu, kurš retranslatoru uztur.
-- [ ] Pulkstenis ir iestatīts (`clock`).
-- [ ] Korpuss ir noslēgts, tam ir drenāžas vai ventilācijas caurums, un kabelim ir pilienu cilpa.
-- [ ] Baterija un panelis ir aprēķināti sliktākajam ziemas mēnesim.
-- [ ] Pirms aiziešanas no vietas tu pārbaudīji retranslatoru no attāluma ar lietotni.
-- [ ] Tava vietējā grupa zina, ka retranslators darbojas.
+Pirms uzstādi retranslatoru augstumā, izskati
+[retranslatora pārbaudes sarakstu](/guides/repeater-checklist/). Tajā ir katrs
+pārbaudāmais punkts kopā ar komandu, kas to parāda.

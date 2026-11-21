@@ -6,11 +6,11 @@ description: Das MeshCore-Funk-Preset für jede Gegend in Europa und die Repeate
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-10-31'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Jede der folgenden Gegenden nutzt ihr eigenes Funk-Preset oder ändert einige
@@ -43,6 +43,11 @@ leitet nur die Regionen weiter, die er selbst führt. Führt er `nl`, leitet er
 deshalb noch kein `nl-ov` weiter. Trag jeden Repeater in jede Region ein, die
 er bedient, und nur in diese. Welche das sind, weiß deine
 [lokale Gruppe](/community/).
+
+**In Grenznähe stimmst du die Regionen mit deinen Nachbarn ab.** Ein Repeater
+in der Nähe eines anderen Landes kann auch dessen Region führen, etwa `fr` auf der
+deutschen Seite des Rheins. Er leitet dann Nachrichten für diese Region über die
+Grenze weiter. Sprich das vorher mit der Gruppe auf der anderen Seite ab.
 
 **Begrenze, was dein Repeater weiterleitet.** Mit zwei Einstellungen bleibt
 Datenverkehr, der nicht weit reisen muss, in der Nähe:

@@ -6,11 +6,11 @@ eyebrow: 868 MHz · tot 500 mW · licentievrij
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 De mesh draait op repeaters. Companions, de radio's waarmee je berichten stuurt, geven berichten niet door. Zonder repeaters kom je dus alleen bij mensen in je directe bereik. Een repeater op de juiste plek vergroot de mesh voor iedereen in de omgeving. Deze gids gaat uit van MeshCore-firmware v1.18.0.
@@ -79,7 +79,10 @@ repeaters hij hoort.
 
 ## Stroom en zonnepaneel berekenen {#power}
 
-Een repeater op zonne-energie moet de donkerste winterweken doorstaan. Bereken je opstelling op die weken:
+Een repeater op zonne-energie moet de donkerste weken van de winter doorstaan. Zet eerst
+energiebesparing aan: na `powersaving on` slaapt de repeater tussen pakketten. Dit
+werkt op nRF52-boards en op ESP32-boards waarvan de firmware geen bridge heeft.
+Bepaal daarna hoe groot de accu en het zonnepaneel moeten zijn:
 
 1. **Meet het verbruik.** Sluit de geconfigureerde repeater een dag lang aan op een USB-stroommeter. Lees het energieverbruik af in wattuur (Wh). Het verkeer in je gebied beïnvloedt dit getal, dus meet zo mogelijk ter plekke.
 2. **Neem reserve.** Reken op accucapaciteit voor minstens 5 tot 7 dagen zonder bruikbare zon.
@@ -96,22 +99,46 @@ Een uitgewerkt voorbeeld, met aangenomen getallen: een repeater die 1 Wh per dag
 
 | Wat | Commando |
 |---|---|
-| Het beheerderswachtwoord wijzigen | `password <new password>` |
-| Een naam geven | `set name <name>` |
-| Radiopreset: frequentie, bandbreedte, SF, CR (herstart om toe te passen) | `set radio 869.618,62.5,8,8` |
+| Wijzig het beheerderswachtwoord | `password <new password>` |
+| Wachtwoord voor gasten, die de status kunnen lezen | `set guest.password <password>` |
+| Geef hem een naam | `set name <name>` |
+| Radiopreset: frequentie, bandbreedte, SF, CR (werkt pas na een herstart) | `set radio 869.618,62.5,8,8` |
 | Duty-cycle-limiet, in procent | `set dutycycle 10` |
 | Zendvermogen van de radiochip, in dBm | `set tx <dBm>` |
-| Positie, zodat de repeater op kaarten verschijnt | `set lat <degrees>` en `set lon <degrees>` |
+| Positie, zodat hij op kaarten verschijnt | `set lat <degrees>` en `set lon <degrees>` |
 | Contactgegevens voor andere beheerders | `set owner.info <text>` |
-| Uren tussen flood-adverts, de adverts die de hele mesh hoort | `set flood.advert.interval <hours>` |
-| Nu aankondigen | `advert` |
-| Herstarten | `reboot` |
+| Aantal uren tussen flood-adverts, de adverts die de hele mesh hoort | `set flood.advert.interval <hours>` |
+| Kondig hem nu aan | `advert` |
+| Herstart | `reboot` |
 
 Het standaard beheerderswachtwoord is `password`, en iedereen die daarmee inlogt, wordt beheerder. Wijzig het voordat de repeater de lucht in gaat.
 
+Het gastwachtwoord is standaard leeg. Iedereen kan dan zonder wachtwoord als gast
+inloggen en de status en buren van de repeater bekijken. Elk verzoek geeft
+verkeer op de mesh. Stel een gastwachtwoord in en geef het aan de mensen die het
+nodig hebben.
+
+**Kies een naam.** Noem hem zoals je lokale groep haar repeaters noemt.
+Zonder groep zet je het land, de plaats en een korte naam erin, zoals
+`DE-63477-MUF1`. Andere beheerders zien dan waar de repeater staat. Een naam
+mag tot 31 bytes lang zijn, en in een advert die ook een positie meestuurt passen er 23.
+
 Het voorbeeld van `set radio` hierboven is EU/UK (Narrow). Gebruik in plaats daarvan de waarden van de preset van je gebied: je vindt ze per land bij [Aanbevolen instellingen](/guides/settings/).
 
-**De klok instellen.** Zonder klokmodule (RTC) raakt een repeater bij elke stroomuitval de tijd kwijt en start hij opnieuw in mei 2024. Terwijl hij draait, loopt zijn klok ook weg: die loopt steeds verder voor of achter. Stel de klok daarom af en toe in: log op afstand in vanuit de app en gebruik `clock sync`, of stel de tijd in via USB. Met een RTC-module hoeft dat zelden: die houdt de tijd bij tijdens stroomuitval en loopt veel minder weg.
+**Stel de klok in.** Zonder klokmodule (RTC) verliest een repeater de tijd bij
+elke stroomstoring en begint hij weer bij mei 2024. Terwijl hij draait, loopt
+zijn klok ook weg: hij loopt steeds verder voor of achter. Stel de klok daarom af
+en toe in: log op afstand in vanuit de app en gebruik `clock sync`, of stel de
+tijd in via USB. Met een RTC-module hoeft dat zelden: die houdt de tijd ook bij
+tijdens stroomstoringen en loopt veel minder weg. De firmware herkent zelf een DS3231-,
+RV3028-, PCF8563- of RX8130-module.
+
+**Een board met GPS** stelt beide voor je in. Na `gps on` haalt de repeater
+elke 30 minuten de tijd via GPS, en `gps setloc` kopieert de positie naar
+`lat` en `lon`. De GPS verbruikt stroom zolang hij aan staat. Draait de
+repeater op zonne-energie, voer dan `gps setloc` één keer uit op de locatie en
+zet de GPS uit met `gps off`. Daarna moet je de klok weer met `clock sync`
+gelijkzetten.
 
 **Op afstand beheren.** Zodra de repeater op de mesh zit, log je vanuit de MeshCore-app in met het beheerderswachtwoord. Daar lees je zijn status af en gebruik je dezelfde commando's via de radio. Sommige commando's werken alleen via USB, zoals `set freq` en de fabrieksreset `erase`.
 
@@ -129,7 +156,13 @@ Zodra de repeater hoog hangt, update je hem vanaf de grond. Log vanuit de MeshCo
 2. Typ `start ota`. De repeater antwoordt `OK` en verschijnt via Bluetooth als `<board>_OTA`, bijvoorbeeld `RAK4631_OTA`.
 3. Open de app nRF Device Firmware Update op je telefoon, kies de ZIP en de repeater, en start het uploaden. Dat duurt een paar minuten.
 
-Installeer de [OTAFIX-bootloader](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX) op een nRF52-board voordat je het ophangt. Met de standaardbootloader kun je een mislukte update alleen via USB herstellen. Met OTAFIX valt het board terug op de updatemodus, en probeer je het opnieuw via Bluetooth.
+Installeer de [OTAFIX-bootloader](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX)
+op een nRF52-board voordat het de mast op gaat. Met de standaardbootloader kun je
+een mislukte update alleen via USB herstellen. Met OTAFIX valt het board terug in
+de updatemodus, en probeer je het opnieuw via Bluetooth. `get bootloader.ver` laat zien
+welke bootloader een board heeft: met OTAFIX staat `OTAFIX` in het antwoord.
+
+Na een update laat `ver` zien welke firmwareversie er nu draait.
 
 **ESP32-boards**, zoals de Heltec V3 en V4:
 
@@ -186,15 +219,6 @@ Deze opmerkingen zijn geen juridisch advies. Regels veranderen. Vraag bij twijfe
 
 ## Checklist voor de plaatsing {#checklist}
 
-- [ ] De eigenaar van de locatie heeft ingestemd, en je kunt voor onderhoud bij de repeater komen.
-- [ ] Op het board draait de **Repeater**-firmware, en je hebt de antenne aangesloten vóór de eerste keer inschakelen.
-- [ ] Je hebt het beheerderswachtwoord gewijzigd.
-- [ ] De radio komt overeen met [de preset van je gebied](/guides/settings/) (`get radio`).
-- [ ] Je hebt `set dutycycle 10` ingesteld.
-- [ ] Zendvermogen plus antennewinst blijft binnen 500 mW e.r.p.
-- [ ] Je hebt de naam, positie en `owner.info` ingesteld, zodat anderen weten wie de repeater beheert.
-- [ ] Je hebt de klok ingesteld (`clock`).
-- [ ] De behuizing is afgedicht, met een afvoer- of ventilatiegaatje, en de kabel heeft een druppellus.
-- [ ] Accu en paneel zijn berekend op de slechtste wintermaand.
-- [ ] Je hebt de repeater op afstand getest met de app voordat je de locatie verliet.
-- [ ] Je lokale groep weet dat de repeater actief is.
+Ga de [checklist voor repeaters](/guides/repeater-checklist/) door voordat de
+repeater de lucht in gaat. Daarin staat elk punt dat je moet controleren, met
+het commando waarmee je het ziet.
