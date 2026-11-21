@@ -6,11 +6,11 @@ description: Il-preset tar-radju ta' MeshCore għal kull żona fl-Ewropa, u s-se
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-11-02'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Kull żona hawn taħt tuża l-preset tar-radju tagħha, jew tibdel ftit mid-defaults
@@ -40,6 +40,11 @@ wieħed bil-kodiċi tiegħu, bħal `nl`, `nl-ov` u `nl-ov-zwo`. Messaġġ għal
 ir-reġjuni li għandu hu stess: jekk għandu `nl`, xorta ma jgħaddix `nl-ov`. Poġġi
 kull repeater f'kull reġjun li jservi, u f'dawk biss; il-[grupp lokali
 tiegħek](/community/) jaf liema huma.
+
+**Ħdejn fruntiera, ftiehem dwar ir-reġjuni mal-ġirien tiegħek.** Repeater qrib
+pajjiż ieħor jista' jżomm ukoll ir-reġjun ta' dak il-pajjiż, bħal `fr` fuq
+in-naħa Ġermaniża tar-Rhine. Imbagħad jgħaddi l-messaġġi ta' dak ir-reġjun
+min-naħa għall-oħra tal-fruntiera. L-ewwel ftiehem dwar dan mal-grupp fuq in-naħa l-oħra.
 
 **Illimita dak li jgħaddi r-repeater tiegħek.** Żewġ settings iżommu qrib id-dar
 it-traffiku li m'għandux għalfejn jasal 'il bogħod:

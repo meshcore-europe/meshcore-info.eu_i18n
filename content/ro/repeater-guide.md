@@ -6,11 +6,11 @@ eyebrow: 868 MHz · până la 500 mW · fără licență
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 Mesh-ul se sprijină pe repetoare. Dispozitivele companion, adică radiourile de pe care trimiți mesaje, nu
@@ -102,8 +102,10 @@ repetoare aude.
 
 ## Alimentare și dimensionarea sistemului solar {#power}
 
-Un repetor solar trebuie să reziste celor mai întunecate săptămâni de iarnă. Dimensionează-l
-pentru ele:
+Un repetor solar trebuie să reziste în cele mai întunecate săptămâni ale iernii. Activează
+mai întâi economisirea energiei: după `powersaving on`, repetorul doarme între pachete.
+Funcționează pe plăcile nRF52 și pe plăcile ESP32 al căror firmware nu are bridge.
+Apoi dimensionează bateria și panoul:
 
 1. **Măsoară consumul.** Conectează repetorul configurat la un wattmetru USB
    timp de o zi. Citește energia consumată în wați-oră (Wh). Traficul din
@@ -136,30 +138,48 @@ importante comenzi:
 
 | Ce | Comandă |
 |---|---|
-| Schimbă parola de admin | `password <new password>` |
+| Schimbă parola de administrator | `password <new password>` |
+| Parola pentru vizitatori, care îi pot citi starea | `set guest.password <password>` |
 | Dă-i un nume | `set name <name>` |
-| Presetul radio: frecvență, lățime de bandă, SF, CR (se aplică după repornire) | `set radio 869.618,62.5,8,8` |
-| Limita de duty cycle, în procente | `set dutycycle 10` |
+| Presetarea radio: frecvență, lățime de bandă, SF, CR (repornește ca să se aplice) | `set radio 869.618,62.5,8,8` |
+| Limita ciclului de lucru, în procente | `set dutycycle 10` |
 | Puterea de emisie a cipului radio, în dBm | `set tx <dBm>` |
 | Poziția, ca să apară pe hărți | `set lat <degrees>` și `set lon <degrees>` |
 | Date de contact pentru alți operatori | `set owner.info <text>` |
-| Intervalul în ore dintre anunțurile flood, cele pe care le aude tot mesh-ul | `set flood.advert.interval <hours>` |
+| Numărul de ore dintre anunțurile flood, cele pe care le aude tot mesh-ul | `set flood.advert.interval <hours>` |
 | Anunță-l acum | `advert` |
-| Repornește-l | `reboot` |
+| Repornire | `reboot` |
 
 Parola implicită de admin este `password`. Oricine se autentifică cu ea
 devine admin. Schimb-o înainte ca repetorul să intre în emisie.
+
+La început, parola pentru vizitatori este goală. Atunci oricine se poate conecta ca vizitator fără
+parolă și poate citi starea repetorului și vecinii lui. Fiecare cerere înseamnă
+trafic în mesh. Pune o parolă pentru vizitatori și dă-o celor care au nevoie
+de ea.
+
+**Alege un nume.** Denumește-l așa cum își denumește grupul tău local repetoarele.
+Dacă nu ai un grup, pune în nume țara, localitatea și un nume scurt, de exemplu
+`DE-63477-MUF1`. Așa, ceilalți operatori văd unde se află repetorul. Un nume
+poate avea cel mult 31 de bytes, iar 23 încap într-un anunț care conține și o poziție.
 
 Exemplul `set radio` de mai sus este EU/UK (Narrow). Folosește în schimb valorile presetului
 din zona ta: în [Setări recomandate](/guides/settings/) le găsești
 pe țări.
 
-**Setează ceasul.** Fără modul de ceas (RTC), un repetor pierde ora la
-fiecare pană de curent și revine la mai 2024. Cât timp funcționează, ceasul lui
-mai și deviază: o ia înainte sau rămâne în urmă. De aceea setează ceasul din când în când: autentifică-te
-de la distanță din aplicație și folosește `clock sync`, sau setează ora prin USB. Cu
-un modul RTC rareori e nevoie: modulul păstrează ora și la pene de curent și
-deviază mult mai puțin.
+**Setează ceasul.** Fără un modul de ceas (RTC), un repetor pierde ora la
+fiecare pană de curent și repornește cu data din mai 2024. Cât timp funcționează, ceasul lui
+se și decalează: o ia înainte sau rămâne în urmă. Așa că setează ceasul din când în când:
+conectează-te de la distanță din aplicație și folosește `clock sync` sau setează ora prin USB. Cu
+un modul RTC ai rar nevoie de asta: el păstrează ora și în timpul penelor de curent și
+se decalează mult mai puțin. Firmware-ul găsește singur un modul DS3231, RV3028, PCF8563
+sau RX8130.
+
+**O placă cu GPS** le setează pe amândouă în locul tău. După `gps on`, repetorul preia
+ora de la GPS la fiecare 30 de minute, iar `gps setloc` îi copiază poziția în
+`lat` și `lon`. GPS-ul consumă energie tot timpul cât e pornit. La o instalare solară, rulează
+`gps setloc` o dată la fața locului și oprește-l cu `gps off`. După aceea, ceasul
+are iar nevoie de `clock sync`.
 
 **Administrează-l de la distanță.** După ce repetorul e în mesh, autentifică-te din aplicația MeshCore
 cu parola de admin. Acolo îi citești starea și folosești aceleași comenzi
@@ -191,9 +211,12 @@ iar pe acestea le actualizezi prin USB.
    repetorul, apoi încarcă. Durează câteva minute.
 
 Instalează [bootloader-ul OTAFIX](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX)
-pe o placă nRF52 înainte s-o urci sus. Cu bootloader-ul original, o actualizare eșuată
-se poate repara doar prin USB. Cu OTAFIX placa revine în modul de actualizare,
-iar tu încerci din nou prin Bluetooth.
+pe o placă nRF52 înainte s-o montezi sus. Cu bootloader-ul original, o actualizare
+eșuată se repară doar prin USB. Cu OTAFIX, placa revine în modul de
+actualizare și încerci din nou prin Bluetooth. `get bootloader.ver` arată
+ce bootloader are o placă: cu OTAFIX, răspunsul conține `OTAFIX`.
+
+După o actualizare, `ver` arată versiunea de firmware care rulează acum.
 
 **Plăcile ESP32**, cum ar fi Heltec V3 și V4:
 
@@ -286,17 +309,6 @@ autoritatea națională de reglementare.
 
 ## Listă de verificare pentru instalare {#checklist}
 
-- [ ] Proprietarul locului și-a dat acordul și poți ajunge la repetor pentru întreținere.
-- [ ] Placa rulează firmware-ul **Repeater**, iar antena a fost montată
-      înainte de prima pornire.
-- [ ] Parola de admin e schimbată.
-- [ ] Radioul corespunde [presetului din zona ta](/guides/settings/) (`get radio`).
-- [ ] Ai setat `set dutycycle 10`.
-- [ ] Puterea de emisie plus câștigul antenei rămân în limita de 500 mW e.r.p.
-- [ ] Numele, poziția și `owner.info` sunt setate, ca alții să știe cine îl operează.
-- [ ] Ceasul e setat (`clock`).
-- [ ] Carcasa e etanșă, cu orificiu de scurgere sau de aerisire, iar cablul are o
-      buclă de scurgere.
-- [ ] Bateria și panoul sunt dimensionate pentru cea mai slabă lună de iarnă.
-- [ ] L-ai testat de la distanță cu aplicația înainte să pleci de la fața locului.
-- [ ] Grupul tău local știe că repetorul funcționează.
+Înainte să urci repetorul sus, parcurge
+[lista de verificare pentru repetoare](/guides/repeater-checklist/). Lista arată fiecare lucru de
+verificat, împreună cu comanda care îl afișează.

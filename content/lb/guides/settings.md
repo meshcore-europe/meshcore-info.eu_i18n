@@ -6,11 +6,11 @@ description: De MeshCore-Radio-Preset fir all Géigend an Europa, an d'Repeater-
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-11-02'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 All Géigend hei ënnendrënner benotzt hiren eegene Radio-Preset oder ännert e puer
@@ -39,6 +39,11 @@ wéi `nl`, `nl-ov` an `nl-ov-zwo`. Eng Message fir `nl-ov-zwo` bleift bei de Rep
 an där Grupp. E Repeater gëtt nëmmen d'Regioune weider, déi e selwer huet: mat `nl`
 gëtt en `nl-ov` nach net weider. Setz all Repeater an all Regioun, déi e bedéngt, an
 nëmmen an déi. Deng [lokal Grupp](/community/) weess, wéi eng dat sinn.
+
+**No bei enger Grenz, maach d'Regioune mat dengen Noperen of.** E Repeater no
+bei engem anere Land kann och d'Regioun vun deem Land hunn, z. B. `fr` op der
+däitscher Säit vum Rhäin. Dann gëtt en d'Messagë fir dës Regioun iwwer d'Grenz
+weider. Maach dat als éischt mat der Grupp op der anerer Säit of.
 
 **Limitéier, wat däi Repeater weidergëtt.** Mat zwou Astellunge bleift Trafic, deen net wäit
 muss reesen, an der Géigend:

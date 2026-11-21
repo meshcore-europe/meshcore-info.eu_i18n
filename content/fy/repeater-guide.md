@@ -6,11 +6,11 @@ eyebrow: 868 MHz · oant 500 mW · sûnder fergunning
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 Repeaters drage de mesh. Companions, de radio's dêr't do berjochten mei stjoerst, stjoere gjin berjochten troch. Sûnder
@@ -101,8 +101,7 @@ repeaters er heart.
 
 ## Stroom en sinnepanielen berekkenje {#power}
 
-In repeater op sinneenerzjy moat de tsjusterste wiken fan 'e winter trochkomme. Berekkenje him
-dêrop:
+In sinne-repeater moat de tsjusterste wiken fan 'e winter trochstean. Set earst stroombesparring oan: nei `powersaving on` sliept de repeater tusken pakketten. It wurket op nRF52-boards, en op ESP32-boards dêr't de firmware gjin bridge yn hat. Bepaal dêrnei hoe grut de batterij en it paniel wêze moatte:
 
 1. **Mjit it ferbrûk.** Lit de ynstelde repeater in dei lang troch in USB-stroommeter
    rinne. Lês it ferbrûk ôf yn wattoere (Wh). It ferkear yn
@@ -135,30 +134,48 @@ kommando's:
 
 | Wat | Kommando |
 |---|---|
-| It adminwachtwurd feroarje | `password <new password>` |
-| In namme jaan | `set name <name>` |
-| Radiopreset: frekwinsje, bânbreedte, SF, CR (opnij starte om ta te passen) | `set radio 869.618,62.5,8,8` |
-| Duty-cycle-grins, yn persint | `set dutycycle 10` |
+| Feroarje it behearderswachtwurd | `password <new password>` |
+| Wachtwurd foar gasten, dy't syn status lêze kinne | `set guest.password <password>` |
+| Jou him in namme | `set name <name>` |
+| Radiopreset: frekwinsje, bânbreedte, SF, CR (wurket pas nei in herstart) | `set radio 869.618,62.5,8,8` |
+| Duty-cycle-grins, yn prosint | `set dutycycle 10` |
 | Stjoerfermogen fan de radiochip, yn dBm | `set tx <dBm>` |
 | Posysje, sadat er op kaarten stiet | `set lat <degrees>` en `set lon <degrees>` |
 | Kontaktgegevens foar oare behearders | `set owner.info <text>` |
-| Oeren tusken flood-adverts, dy't de hiele mesh heart | `set flood.advert.interval <hours>` |
-| Him no oankundigje | `advert` |
+| Oeren tusken flood-adverts, de adverts dy't yn de hiele mesh te hearren binne | `set flood.advert.interval <hours>` |
+| Kundigje him no oan | `advert` |
 | Opnij starte | `reboot` |
 
 It standert adminwachtwurd is `password`, en elkenien dy't dêrmei ynlogt,
 wurdt admin. Feroarje it foar't de repeater de loft yn giet.
 
+It gastewachtwurd is earst leech. Elkenien kin dan sûnder wachtwurd as gast ynlogge
+en de status fan de repeater en syn buorlju lêze. Elk fersyk jout
+ferkear op de mesh. Stel in gastewachtwurd yn en jou it oan de minsken dy't it
+nedich hawwe.
+
+**Kies in namme.** Neam him sa't dyn pleatslike groep syn repeaters neamt.
+Sûnder groep setsto it lân, it plak en in koarte namme deryn, lykas
+`DE-63477-MUF1`. Oare behearders sjogge dan wêr't de repeater stiet. In namme
+kin maksimaal 31 bytes lang wêze, en 23 passe yn in advert dat ek in posysje befettet.
+
 It `set radio`-foarbyld hjirboppe is EU/UK (Narrow). Brûk ynstee de wearden fan de preset fan
 dyn gebiet: [Oanrekommandearre ynstellings](/guides/settings/) jout se
 per lân.
 
-**Set de klok.** Sûnder klokmodule (RTC) ferliest in repeater de tiid by
-elke stroomûnderbrekking en begjint er wer yn maaie 2024. Wylst er rint, driuwt syn klok ek
-ôf: dy rint fierder foar of efter. Set de klok dus geregeld gelyk: log
-op ôfstân yn fanút de app en brûk `clock sync`, of set de tiid oer USB. Mei
-in RTC-module hoechsto dat selden: dy hâldt de tiid by stroomûnderbrekkings fêst en
-driuwt folle minder ôf.
+**Stel de klok gelyk.** Sûnder klokmodule (RTC) ferliest in repeater de tiid by
+elke stroomstoring, en dan begjint er wer yn maaie 2024. Wylst er rint, driuwt
+syn klok ek ôf: er rint fierder foar of efter. Stel de klok dus sa no en dan gelyk: log
+fan de app út op ôfstân yn en brûk `clock sync`, of stel de tiid yn fia USB. Mei
+in RTC-module hoechsto dat selden: dy hâldt de tiid by stroomstoringen fêst en
+driuwt folle minder ôf. De firmware fynt fan himsels in DS3231-, RV3028-, PCF8563- of
+RX8130-module.
+
+**In board mei GPS** stelt beide foar dy yn. Nei `gps on` nimt de repeater
+elke 30 minuten de tiid fan GPS oer, en `gps setloc` kopiearret syn posysje yn
+`lat` en `lon`. De GPS brûkt stroom sa lang't er oan stiet. By sinne-enerzjy
+jousto ien kear op it plak `gps setloc` en skeakelsto him út mei `gps off`. De klok
+hat dêrnei wer `clock sync` nedich.
 
 **Op ôfstân beheare.** As er op 'e mesh is, logsto yn fanút de MeshCore-app
 mei it adminwachtwurd. Dêr lêsto syn status en brûkst deselde kommando's
@@ -190,9 +207,12 @@ en dy wurksto by oer USB.
    de repeater, en laad op. Dat duorret in pear minuten.
 
 Ynstallearje de [OTAFIX-bootloader](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX)
-op in nRF52-board foar'tst it omheech hingest. Mei de standert bootloader kinsto in mislearre
-fernijing allinnich oer USB reparearje. Mei OTAFIX falt it board werom op
-fernijingsmodus, en besykjesto it opnij oer Bluetooth.
+op in nRF52-board, foardatst it de hichte yn bringst. Mei de standert-bootloader kinst in mislearre
+fernijing allinnich fia USB reparearje. Mei OTAFIX falt it board werom yn
+de fernijingsmodus, en dan besykjest it opnij fia Bluetooth. `get bootloader.ver` lit sjen
+hokker bootloader in board hat: mei OTAFIX stiet `OTAFIX` yn it antwurd.
+
+Nei in fernijing lit `ver` sjen hokker firmwareferzje no rint.
 
 **ESP32-boards**, lykas de Heltec V3 en V4:
 
@@ -285,17 +305,6 @@ dyn nasjonale tafersjochhâlder.
 
 ## Kontrolelist foar it pleatsen {#checklist}
 
-- [ ] De eigner fan it plak hat tastimming jûn, en do kinst by de repeater foar ûnderhâld.
-- [ ] It board draait de **Repeater**-firmware, en de antenne siet der oan
-      foar'tst it board de earste kear oansetst.
-- [ ] It adminwachtwurd is feroare.
-- [ ] De radio komt oerien mei [de preset fan dyn gebiet](/guides/settings/) (`get radio`).
-- [ ] `set dutycycle 10` is ynsteld.
-- [ ] Stjoerfermogen plus antennewinst bliuwt binnen 500 mW e.r.p.
-- [ ] Namme, posysje en `owner.info` binne ynsteld, sadat oaren witte wa't him beheart.
-- [ ] De klok is ynsteld (`clock`).
-- [ ] De kast is ôfsletten, mei in ôfwetter- of luchtgat, en de kabel hat in
-      drippellus.
-- [ ] Batterij en paniel binne berekkene op de minste wintermoanne.
-- [ ] Do hast him fan in ôfstân hifke mei de app foar'tsto it plak ferlitten hast.
-- [ ] Dyn pleatslike groep wit dat er draait.
+Foardatsto de repeater omheech bringst, rinsto de
+[kontrolelist foar repeaters](/guides/repeater-checklist/) troch. Dy neamt alles wat do
+kontrolearje moatst, mei it kommando dat it sjen lit.

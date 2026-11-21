@@ -6,11 +6,11 @@ eyebrow: 868 MHz · enintään 500 mW · ilman lupaa
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 Mesh toimii toistimien varassa. Companionit eli radiot, joilla lähetät viestejä, eivät
@@ -102,8 +102,10 @@ toistimet se kuulee.
 
 ## Virta ja aurinkovirran mitoitus {#power}
 
-Aurinkovirralla toimivan toistimen on selvittävä talven pimeimmistä viikoista. Mitoita se
-niiden mukaan:
+Aurinkosähköllä toimivan toistimen on selvittävä talven pimeimmistä viikoista. Kytke ensin
+virransäästö päälle: komennon `powersaving on` jälkeen toistin nukkuu pakettien välillä. Se
+toimii nRF52-levyillä sekä ESP32-levyillä, joiden laiteohjelmistossa ei ole siltaa. Mitoita
+sitten akku ja paneeli:
 
 1. **Mittaa kuorma.** Kytke valmiiksi määritetty toistin vuorokaudeksi USB-tehomittarin
    kautta. Lue kulutettu energia wattitunteina (Wh). Alueesi liikenne
@@ -137,29 +139,40 @@ komennot:
 | Mitä | Komento |
 |---|---|
 | Vaihda ylläpitäjän salasana | `password <new password>` |
-| Anna nimi | `set name <name>` |
-| Radion esiasetus: taajuus, kaistanleveys, SF, CR (voimaan uudelleenkäynnistyksen jälkeen) | `set radio 869.618,62.5,8,8` |
-| Käyttöasteen raja prosentteina | `set dutycycle 10` |
-| Radiopiirin lähetysteho dBm:inä | `set tx <dBm>` |
+| Salasana vieraille, jotka voivat lukea toistimen tilan | `set guest.password <password>` |
+| Anna toistimelle nimi | `set name <name>` |
+| Radion esiasetus: taajuus, kaistanleveys, SF, CR (käynnistä toistin uudelleen, jotta muutos tulee voimaan) | `set radio 869.618,62.5,8,8` |
+| Lähetysaikaraja (duty cycle) prosentteina | `set dutycycle 10` |
+| Radiopiirin lähetysteho dBm-yksikköinä | `set tx <dBm>` |
 | Sijainti, jotta toistin näkyy kartoilla | `set lat <degrees>` ja `set lon <degrees>` |
 | Yhteystiedot muille ylläpitäjille | `set owner.info <text>` |
-| Tunnit flood-ilmoitusten välillä (koko mesh kuulee ne) | `set flood.advert.interval <hours>` |
-| Ilmoita toistimesta heti | `advert` |
+| Flood-ilmoitusten väli tunteina (koko mesh kuulee nämä ilmoitukset) | `set flood.advert.interval <hours>` |
+| Lähetä toistimen ilmoitus heti | `advert` |
 | Käynnistä uudelleen | `reboot` |
 
 Ylläpitäjän oletussalasana on `password`, ja jokainen sillä kirjautuva
 saa ylläpitäjän oikeudet. Vaihda se, ennen kuin toistin alkaa lähettää.
 
+Vierassalasana on aluksi tyhjä. Silloin kuka tahansa voi kirjautua vieraana ilman
+salasanaa ja nähdä toistimen tilan ja sen naapurit. Jokainen pyyntö tuottaa
+liikennettä meshiin. Aseta vierassalasana ja anna se niille, jotka sitä
+tarvitsevat.
+
+**Valitse nimi.** Nimeä toistin samalla tavalla kuin paikallinen ryhmäsi nimeää toistimensa.
+Jos ryhmää ei ole, laita nimeen maa, paikka ja lyhyt nimi, esimerkiksi
+`DE-63477-MUF1`. Silloin muut ylläpitäjät näkevät, missä toistin on. Nimeen mahtuu enintään 31 tavua, ja ilmoitukseen, jossa on myös sijainti, mahtuu 23.
+
 Yllä oleva `set radio` -esimerkki on EU/UK (Narrow). Käytä sen sijaan alueesi
 esiasetuksen arvoja: [Suositellut asetukset](/guides/settings/) listaa ne
 maittain.
 
-**Aseta kello.** Ilman kellomoduulia (RTC) toistin kadottaa ajan
-jokaisessa sähkökatkossa ja käynnistyy toukokuun 2024 päivämäärällä. Käynnissä ollessaan sen kello myös
-ryömii: se edistää tai jätättää yhä enemmän. Aseta siis kello silloin tällöin: kirjaudu
-etänä sovelluksesta ja käytä komentoa `clock sync`, tai aseta aika USB:n kautta. Jos
-toistimessa on RTC-moduuli, sinun tarvitsee tehdä tätä harvoin: moduuli pitää ajan sähkökatkojen yli ja
-ryömii paljon vähemmän.
+**Aseta kello.** Ilman kellomoduulia (RTC) toistin menettää ajan jokaisessa sähkökatkossa, ja sen kello alkaa taas toukokuusta 2024. Käydessään sen kello myös ajelehtii: se edistää tai jätättää yhä enemmän. Aseta siis kello aika ajoin: kirjaudu toistimeen etänä sovelluksesta ja käytä komentoa `clock sync` tai aseta aika USB:n kautta. RTC-moduulin kanssa sinun tarvitsee tehdä tätä harvoin: moduuli säilyttää ajan sähkökatkojen yli ja ajelehtii paljon vähemmän. Laiteohjelmisto tunnistaa DS3231-, RV3028-, PCF8563- tai RX8130-moduulin itse.
+
+**GPS:llä varustettu kortti** asettaa molemmat puolestasi. Komennon `gps on` jälkeen toistin hakee
+ajan GPS:stä 30 minuutin välein, ja `gps setloc` kopioi GPS:n sijainnin arvoihin
+`lat` ja `lon`. GPS kuluttaa virtaa koko ajan, kun se on päällä. Jos laite toimii aurinkovirralla, suorita
+`gps setloc` kerran paikan päällä ja sammuta GPS komennolla `gps off`. Sen jälkeen kello
+pitää taas asettaa komennolla `clock sync`.
 
 **Hallitse etänä.** Kun toistin on meshissä, kirjaudu sille MeshCore-sovelluksesta
 ylläpitäjän salasanalla. Sovelluksessa näet sen tilan ja voit antaa samat komennot
@@ -190,10 +203,13 @@ ja ne päivität USB:n kautta.
 3. Avaa puhelimessa nRF Device Firmware Update -sovellus, valitse ZIP-tiedosto ja
    toistin ja lähetä päivitys. Se kestää muutaman minuutin.
 
-Asenna nRF52-levylle [OTAFIX-käynnistyslatain](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX),
-ennen kuin viet levyn ylös. Alkuperäisellä käynnistyslataimella epäonnistuneen
-päivityksen voi korjata vain USB:n kautta. OTAFIXin kanssa levy palaa
-päivitystilaan, ja voit yrittää uudelleen Bluetoothin kautta.
+Asenna nRF52-levylle [OTAFIX-käynnistyslatain](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX)
+ennen kuin nostat sen ylös. Vakiokäynnistyslataimella epäonnistuneen
+päivityksen voi korjata vain USB:n kautta. OTAFIXilla levy palaa
+päivitystilaan, ja yrität uudelleen Bluetoothin kautta. `get bootloader.ver` näyttää,
+kumpi levyllä on: OTAFIXilla vastauksessa lukee `OTAFIX`.
+
+Päivityksen jälkeen `ver` näyttää nyt käytössä olevan laiteohjelmiston version.
 
 **ESP32-levyt**, kuten Heltec V3 ja V4:
 
@@ -281,17 +297,6 @@ kansalliselta viranomaiselta.
 
 ## Käyttöönoton tarkistuslista {#checklist}
 
-- [ ] Paikan omistaja on suostunut, ja pääset toistimelle huoltoa varten.
-- [ ] Levyllä on **Repeater**-laiteohjelmisto, ja antenni kytkettiin
-      ennen ensimmäistä käynnistystä.
-- [ ] Ylläpitäjän salasana on vaihdettu.
-- [ ] Radio vastaa [alueesi esiasetusta](/guides/settings/) (`get radio`).
-- [ ] `set dutycycle 10` on asetettu.
-- [ ] Lähetysteho ja antennin vahvistus pysyvät yhdessä 500 mW e.r.p. -rajan sisällä.
-- [ ] Nimi, sijainti ja `owner.info` on asetettu, jotta muut tietävät, kuka toistinta ylläpitää.
-- [ ] Kello on asetettu (`clock`).
-- [ ] Kotelo on tiivis, siinä on vedenpoisto- tai tuuletusreikä, ja kaapelissa on
-      tippalenkki.
-- [ ] Akku ja paneeli on mitoitettu talven huonoimman kuukauden mukaan.
-- [ ] Testasit toistimen sovelluksella kauempaa ennen kuin lähdit paikalta.
-- [ ] Paikallinen ryhmäsi tietää, että toistin on toiminnassa.
+Ennen kuin nostat toistimen paikalleen, käy läpi
+[toistimen tarkistuslista](/guides/repeater-checklist/). Siinä on jokainen
+tarkistettava asia ja komento, jolla näet sen.

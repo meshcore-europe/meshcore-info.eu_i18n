@@ -6,11 +6,11 @@ description: Y rhagosodiad radio MeshCore fesul ardal yn Ewrop, a'r gosodiadau a
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-11-02'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Mae pob ardal isod yn defnyddio ei rhagosodiad radio ei hun, neu'n newid rhai o
@@ -42,6 +42,11 @@ ailadroddyddion yn y grŵp hwnnw. Dim ond y rhanbarthau sydd ganddo ei hun mae
 ailadroddydd yn eu hanfon ymlaen: dydy cael `nl` ddim yn golygu ei fod yn anfon
 `nl-ov` ymlaen. Rho bob ailadroddydd ym mhob rhanbarth mae'n ei wasanaethu, a
 dim ond y rheini; mae dy [grŵp lleol](/community/) yn gwybod pa rai ydyn nhw.
+
+**Ger ffin, cytuna ar ranbarthau gyda dy gymdogion.** Gall ailadroddydd sy'n agos
+at wlad arall ddal rhanbarth y wlad honno hefyd, fel `fr` ar ochr yr Almaen i
+afon Rhein. Wedyn mae'n trosglwyddo negeseuon y rhanbarth hwnnw dros y
+ffin. Cytuna ar hyn gyda'r grŵp ar yr ochr arall yn gyntaf.
 
 **Cyfynga ar yr hyn mae dy ailadroddydd yn ei anfon ymlaen.** Mae dau osodiad yn
 cadw traffig nad oes angen iddo deithio'n bell yn agos i adref:

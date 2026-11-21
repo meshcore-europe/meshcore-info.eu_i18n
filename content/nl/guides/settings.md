@@ -6,11 +6,11 @@ description: De MeshCore-radiopreset per gebied in Europa, en de instellingen vo
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-10-31'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Elk gebied hieronder heeft een eigen radiopreset, of past een paar standaardwaarden
@@ -39,6 +39,11 @@ bij de repeaters in die groep. Een repeater stuurt alleen de regio's door die hi
 zelf heeft. Heeft hij `nl`, dan stuurt hij `nl-ov` nog niet door. Zet elke repeater
 in elke regio die hij bedient, en alleen in die regio's. Je [lokale groep](/community/)
 weet welke dat zijn.
+
+**Spreek regio's af met je buren als je dicht bij een grens zit.** Een repeater
+vlak bij een ander land kan ook de regio van dat land hebben, zoals `fr` aan de
+Duitse kant van de Rijn. Hij geeft berichten voor die regio dan door over de grens.
+Spreek dit eerst af met de groep aan de andere kant.
 
 **Beperk wat je repeater doorstuurt.** Met twee instellingen houd je verkeer dat
 niet ver hoeft te reizen dicht bij huis:

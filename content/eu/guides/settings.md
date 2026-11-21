@@ -6,11 +6,11 @@ description: MeshCore irrati-aurrezarpena Europako eremu bakoitzerako, eta tokik
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-11-02'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Beheko eremu bakoitzak bere irrati-aurrezarpena erabiltzen du, edo
@@ -43,6 +43,11 @@ Errepikagailuak berak dituen eskualdeak bakarrik birbidaltzen ditu: `nl` izateak
 ez dio `nl-ov` birbidalarazten. Sartu errepikagailu bakoitza zerbitzatzen duen
 eskualde guztietan, eta horietan bakarrik; zure [tokiko taldeak](/community/)
 badaki zein diren.
+
+**Muga batetik gertu bazaude, adostu eskualdeak auzokoekin.** Beste herrialde
+batetik gertu dagoen errepikagailuak herrialde horren eskualdea ere eduki dezake,
+adibidez `fr` Rhin ibaiaren Alemaniako aldean. Orduan eskualde horretako mezuak
+mugaz bestaldera birbidaltzen ditu. Lehenik, adostu hori beste aldeko taldearekin.
 
 **Mugatu zure errepikagailuak birbidaltzen duena.** Bi ezarpenek etxetik gertu
 gordetzen dute urrutira joan beharrik ez duen trafikoa:

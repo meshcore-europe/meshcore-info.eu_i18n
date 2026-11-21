@@ -6,11 +6,11 @@ description: O preset de radio de MeshCore por zona en Europa e os axustes de re
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-11-02'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Cada zona de abaixo usa o seu propio preset de radio ou cambia algúns valores
@@ -41,6 +41,11 @@ cada un co seu código, como `nl`, `nl-ov` e `nl-ov-zwo`. Unha mensaxe para
 que ten configuradas: ter `nl` non fai que reenvíe `nl-ov`. Pon cada repetidor
 en todas as rexións ás que dá servizo, e só nesas; o teu
 [grupo local](/community/) sabe cales son.
+
+**Preto dunha fronteira, acorda as rexións cos teus veciños.** Un repetidor
+preto doutro país pode ter tamén a rexión dese país, como `fr` no lado alemán
+do Rin. Así leva as mensaxes desa rexión ao outro lado da fronteira. Antes,
+acórdao co grupo do outro lado.
 
 **Limita o que reenvía o teu repetidor.** Con dous axustes, o tráfico que non precisa
 viaxar lonxe queda preto da casa:

@@ -5,11 +5,11 @@ description: Tilføj dit fællesskab, en enhed eller et projekt, gennemgå en ov
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '1a28f66a'
-  seeded: '2026-11-10'
+  source_hash: '1ae1bf12'
+  seeded: '2026-11-21'
   fields: {title: '97b0c61b', lead: 'e9b40d4d', description: '3bd97cd2'}
-  sections: ['6e9d4b61', 'aca796d7', 'd4848d5b', '247b2601', '4b12bb2c', '645c82d3', 'c755b654']
-  blocks: ['2f9dd6e8', '44167907', 'b020e1a4', 'f2c726cd', '2e9d1fdd', 'b2a902ba', 'b15ce10b', '2be86888', '3db6cb63', '2e3c2fc0', '693a5d9d', '8aa01985', '96d8689d', 'c67fd14a', 'f92f7e49', '12ddca6c', 'e947e2a9', '526df4bb', 'e0d3559e']
+  sections: ['6e9d4b61', 'aca796d7', 'd4848d5b', '09da3428', '4b12bb2c', '645c82d3', 'c755b654']
+  blocks: ['2f9dd6e8', '44167907', 'b020e1a4', 'f2c726cd', '2e9d1fdd', 'b2a902ba', 'b15ce10b', '2be86888', '3db6cb63', '27956f26', 'a252a0ee', '2e3c2fc0', '693a5d9d', '8aa01985', '96d8689d', 'c67fd14a', 'f92f7e49', '12ddca6c', 'e947e2a9', '526df4bb', 'e0d3559e']
 ---
 
 Alt på dette site ligger i et offentligt
@@ -52,6 +52,15 @@ godt, kan du gøre oversættelsen bedre:
    stå præcis, som de er.
 3. I blokken `translation` øverst ændrer du `status: ai` til
    `status: human`, og så foreslår du ændringen.
+
+Korte tekster, såsom beskrivelsen af et fællesskab eller et projekt, ligger i
+`data/i18n/<language>.json`. Erstat en maskinoversat tekst med din egen formulering,
+skrevet som almindelig tekst mellem anførselstegn.
+
+Arbejder du med en AI-agent? Lad den arbejde i
+[oversættelsesrepositoriet](https://github.com/meshcore-europe/meshcore-info.eu_i18n),
+hvor trinene for agenter ligger. Agenten oversætter det, der mangler, og viser
+dig resten, så du kan tjekke det. Kun det, du har læst, tæller som gennemgået.
 
 Har du fundet et forkert ord, men ingen tid til at rette det? Meld det via
 [oversættelsesformularen](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=translation-bug.yml).

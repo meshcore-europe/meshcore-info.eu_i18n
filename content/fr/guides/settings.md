@@ -6,11 +6,11 @@ description: Le préréglage radio MeshCore de chaque zone en Europe, et les ré
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-10-31'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Chaque zone ci-dessous utilise son propre préréglage radio, ou modifie quelques
@@ -42,6 +42,12 @@ son propre code, comme `nl`, `nl-ov` et `nl-ov-zwo`. Un message destiné à
 régions qu'il a lui-même : s'il a `nl`, il ne relaie pas pour autant `nl-ov`.
 Place chaque répéteur dans toutes les régions qu'il dessert, et seulement
 celles-là. Ton [groupe local](/community/) sait lesquelles.
+
+**Près d'une frontière, mets-toi d'accord sur les régions avec tes voisins.**
+Un répéteur proche d'un autre pays peut aussi porter la région de ce pays, par
+exemple `fr` du côté allemand du Rhin. Il relaie alors les messages de cette
+région par-delà la frontière. Mets-toi d'abord d'accord avec le groupe de
+l'autre côté.
 
 **Limite ce que ton répéteur relaie.** Deux réglages gardent près de chez toi le
 trafic qui n'a pas besoin d'aller loin :

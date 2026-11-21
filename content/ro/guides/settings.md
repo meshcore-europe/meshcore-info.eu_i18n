@@ -6,11 +6,11 @@ description: Presetarea radio MeshCore pentru fiecare zonă din Europa și setă
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-10-31'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Fiecare zonă de mai jos folosește propria presetare radio sau schimbă câteva
@@ -41,6 +41,12 @@ pentru `nl-ov-zwo` rămâne la repetoarele din acel grup. Un repetor transmite
 mai departe doar regiunile pe care le are el însuși: dacă are `nl`, nu transmite
 și `nl-ov`. Pune fiecare repetor în toate regiunile pe care le deservește, și doar
 în acelea. [Grupul tău local](/community/) știe care sunt acestea.
+
+**Lângă o graniță, stabilește regiunile împreună cu vecinii.** Un repetor
+aflat aproape de altă țară poate avea și regiunea acelei țări, de exemplu `fr`
+pe malul german al Rinului. Astfel, repetorul transmite peste graniță
+mesajele pentru acea regiune. Stabilește asta mai întâi cu grupul de pe cealaltă
+parte.
 
 **Limitează ce transmite mai departe repetorul tău.** Două setări țin aproape de
 casă traficul care nu are nevoie să ajungă departe:

@@ -6,11 +6,11 @@ eyebrow: 868 MHz · hyd at 500 mW · heb drwydded
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 Ailadroddyddion sy'n cynnal y rhwydwaith mesh. Dydy cymdeithion (companions), y radios rwyt ti'n anfon negeseuon ohonyn nhw, ddim yn anfon negeseuon ymlaen. Heb ailadroddyddion, dim ond pobl o fewn amrediad uniongyrchol y gelli di eu cyrraedd. Mae ailadroddydd yn y lle iawn yn ymestyn y mesh i bawb o'i gwmpas. Mae'r canllaw hwn yn dilyn cadarnwedd MeshCore v1.18.0.
@@ -71,7 +71,10 @@ ailadroddyddion mae'n eu clywed.
 
 ## Pŵer a maint y system solar {#power}
 
-Rhaid i ailadroddydd solar oroesi wythnosau tywyllaf y gaeaf. Cynllunia'r maint ar eu cyfer nhw:
+Rhaid i ailadroddydd solar oroesi wythnosau tywyllaf y gaeaf. Tro'r modd arbed pŵer ymlaen yn gyntaf:
+ar ôl `powersaving on`, mae'r ailadroddydd yn cysgu rhwng pecynnau. Mae'n
+gweithio ar fyrddau nRF52, ac ar fyrddau ESP32 heb bont yn eu cadarnwedd. Yna
+dewisa faint y batri a'r panel:
 
 1. **Mesura'r llwyth.** Rheda'r ailadroddydd wedi'i ffurfweddu drwy fesurydd pŵer USB am ddiwrnod. Darllena'r ynni a ddefnyddiwyd mewn wat-oriau (Wh). Mae traffig dy ardal yn newid y rhif, felly mesura ar y safle os gelli di.
 2. **Ychwanega gronfa wrth gefn.** Cynllunia gapasiti batri ar gyfer o leiaf 5 i 7 diwrnod heb haul defnyddiol.
@@ -89,21 +92,44 @@ Enghraifft wedi'i chyfrifo, gyda rhifau tybiedig: mae angen batri o 7 Wh o leiaf
 | Beth | Gorchymyn |
 |---|---|
 | Newid cyfrinair y gweinyddwr | `password <new password>` |
+| Cyfrinair i westeion, sy'n gallu darllen ei statws | `set guest.password <password>` |
 | Rhoi enw iddo | `set name <name>` |
 | Rhagosodiad radio: amledd, lled band, SF, CR (ailgychwyn i'w roi ar waith) | `set radio 869.618,62.5,8,8` |
-| Terfyn cylchred gwaith, mewn y cant | `set dutycycle 10` |
-| Pŵer trawsyrru'r sglodyn radio, mewn dBm | `set tx <dBm>` |
-| Safle, er mwyn iddo ymddangos ar fapiau | `set lat <degrees>` a `set lon <degrees>` |
+| Terfyn cylch dyletswydd, fel canran | `set dutycycle 10` |
+| Pŵer trosglwyddo'r sglodyn radio, mewn dBm | `set tx <dBm>` |
+| Lleoliad, fel ei fod yn ymddangos ar fapiau | `set lat <degrees>` a `set lon <degrees>` |
 | Manylion cyswllt i weithredwyr eraill | `set owner.info <text>` |
-| Oriau rhwng hysbysiadau gorlif, y rhai mae'r mesh cyfan yn eu clywed | `set flood.advert.interval <hours>` |
+| Oriau rhwng adverts gorlif, y rhai mae'r rhwyll gyfan yn eu clywed | `set flood.advert.interval <hours>` |
 | Ei gyhoeddi nawr | `advert` |
 | Ailgychwyn | `reboot` |
 
 Cyfrinair diofyn y gweinyddwr yw `password`, ac mae unrhyw un sy'n mewngofnodi ag ef yn dod yn weinyddwr. Newidia fe cyn i'r ailadroddydd fynd ar yr awyr.
 
+Mae cyfrinair y gwesteion yn wag i ddechrau. Gall unrhyw un wedyn fewngofnodi fel gwestai heb
+gyfrinair a darllen statws yr ailadroddydd a'i gymdogion. Mae pob cais yn
+draffig ar y rhwyll. Gosoda gyfrinair i westeion a'i rannu â'r bobl sydd ei
+angen.
+
+**Dewisa enw.** Rho enw iddo yn yr un ffordd ag mae dy grŵp lleol yn enwi ei ailadroddyddion.
+Os nad oes grŵp, rho'r wlad, y lle ac enw byr ynddo, er enghraifft
+`DE-63477-MUF1`. Felly mae gweithredwyr eraill yn gweld ble mae'r ailadroddydd. Gall enw
+gynnwys hyd at 31 beit, ac mae lle i 23 mewn advert sydd hefyd yn cario lleoliad.
+
 Mae'r enghraifft `set radio` uchod ar gyfer EU/UK (Narrow). Defnyddia werthoedd rhagosodiad dy ardal yn lle hynny: mae [Gosodiadau a argymhellir](/guides/settings/) yn eu rhestru fesul gwlad.
 
-**Gosod y cloc.** Heb fodiwl cloc (RTC), mae ailadroddydd yn colli'r amser bob tro mae'r pŵer yn torri, ac mae'n ailddechrau ym mis Mai 2024. Tra mae'n rhedeg, mae ei gloc hefyd yn drifftio: mae'n mynd fwyfwy ar y blaen neu ar ei hôl hi. Felly gosoda'r cloc bob hyn a hyn: mewngofnoda o bell o'r ap a defnyddia `clock sync`, neu gosoda'r amser dros USB. Gyda modiwl RTC, anaml y bydd angen i ti wneud hyn: mae'n cadw'r amser pan fydd y pŵer yn torri ac yn drifftio llawer llai.
+**Gosoda'r cloc.** Heb fodiwl cloc (RTC), mae ailadroddydd yn colli'r amser bob tro
+mae'r pŵer yn torri, ac mae'n ailgychwyn ym mis Mai 2024. Tra mae'n rhedeg, mae ei gloc
+hefyd yn drifftio: mae'n mynd fwyfwy o flaen yr amser neu ar ei ôl. Felly gosoda'r cloc o
+bryd i'w gilydd: mewngofnoda o bell o'r ap a defnyddia `clock sync`, neu gosoda'r amser
+dros USB. Gyda modiwl RTC, anaml y bydd angen i ti wneud hynny: mae'n cadw'r amser pan fydd
+y pŵer yn torri ac yn drifftio llawer llai. Mae'r gadarnwedd yn dod o hyd i fodiwl DS3231,
+RV3028, PCF8563 neu RX8130 ar ei phen ei hun.
+
+Mae **bwrdd gyda GPS** yn gosod y ddau i ti. Ar ôl `gps on`, mae'r ailadroddydd yn cael yr
+amser gan y GPS bob 30 munud, ac mae `gps setloc` yn copïo ei leoliad i
+`lat` a `lon`. Mae'r GPS yn defnyddio pŵer drwy'r amser tra bydd ymlaen. Ar ynni solar, rheda
+`gps setloc` unwaith ar y safle a diffodda fe gyda `gps off`. Wedyn mae angen
+`clock sync` ar y cloc eto.
 
 **Ei reoli o bell.** Unwaith y bydd ar y mesh, mewngofnoda o ap MeshCore gyda chyfrinair y gweinyddwr. Yno rwyt ti'n darllen ei statws ac yn defnyddio'r un gorchmynion dros y radio. Dim ond dros USB mae rhai gorchmynion yn gweithio, fel `set freq` a'r ailosodiad ffatri `erase`.
 
@@ -121,7 +147,13 @@ Unwaith y bydd yr ailadroddydd i fyny'n uchel, rwyt ti'n ei ddiweddaru o'r ddaea
 2. Teipia `start ota`. Mae'r ailadroddydd yn ateb `OK` ac yn ymddangos dros Bluetooth fel `<board>_OTA`, er enghraifft `RAK4631_OTA`.
 3. Agor ap nRF Device Firmware Update ar dy ffôn, dewisa'r ZIP a'r ailadroddydd, ac uwchlwytha. Mae'n cymryd ychydig funudau.
 
-Gosoda'r [cychwynnydd OTAFIX](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX) ar fwrdd nRF52 cyn iddo fynd i fyny. Gyda'r cychwynnydd gwreiddiol, dim ond dros USB y gelli di drwsio diweddariad a fethodd. Gydag OTAFIX, mae'r bwrdd yn mynd yn ôl i'r modd diweddaru, ac rwyt ti'n rhoi cynnig arall arni dros Bluetooth.
+Gosoda'r [cychwynnydd OTAFIX](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX)
+ar fwrdd nRF52 cyn ei godi i'w le. Gyda'r cychwynnydd gwreiddiol, dim ond dros USB y
+gelli di drwsio diweddariad sydd wedi methu. Gydag OTAFIX, mae'r bwrdd yn mynd yn ôl i'r
+modd diweddaru, ac rwyt ti'n trio eto dros Bluetooth. Mae `get bootloader.ver` yn dangos
+pa un sydd ar fwrdd: gydag OTAFIX, mae `OTAFIX` yn yr ateb.
+
+Ar ôl diweddariad, mae `ver` yn dangos fersiwn y gadarnwedd sy'n rhedeg nawr.
 
 **Byrddau ESP32**, fel y Heltec V3 a V4:
 
@@ -180,15 +212,6 @@ Nid cyngor cyfreithiol yw'r nodiadau hyn. Mae rheolau'n newid. Os wyt ti'n ansic
 
 ## Rhestr wirio gosod {#checklist}
 
-- [ ] Mae perchennog y safle wedi cytuno, a gelli di gyrraedd yr ailadroddydd ar gyfer gwaith cynnal.
-- [ ] Mae'r bwrdd yn rhedeg y gadarnwedd **Repeater**, ac fe gafodd yr antena ei chysylltu cyn rhoi pŵer iddo am y tro cyntaf.
-- [ ] Mae cyfrinair y gweinyddwr wedi'i newid.
-- [ ] Mae'r radio yn cyfateb i [ragosodiad dy ardal](/guides/settings/) (`get radio`).
-- [ ] Mae `set dutycycle 10` wedi'i osod.
-- [ ] Mae'r pŵer trawsyrru ynghyd â chynnydd yr antena yn aros o fewn 500 mW e.r.p.
-- [ ] Mae'r enw, y safle ac `owner.info` wedi'u gosod, fel bod eraill yn gwybod pwy sy'n ei redeg.
-- [ ] Mae'r cloc wedi'i osod (`clock`).
-- [ ] Mae'r blwch wedi'i selio, gyda thwll draenio neu awyru, ac mae dolen ddiferu ar y cebl.
-- [ ] Mae maint y batri a'r panel yn addas ar gyfer mis gwaethaf y gaeaf.
-- [ ] Fe wnest ti ei brofi o bellter gyda'r ap cyn gadael y safle.
-- [ ] Mae dy grŵp lleol yn gwybod ei fod ar waith.
+Cyn i ti osod yr ailadroddydd, dos drwy'r
+[rhestr wirio ailadroddydd](/guides/repeater-checklist/). Mae'n nodi pob peth i'w
+wirio, a'r gorchymyn sy'n ei ddangos.

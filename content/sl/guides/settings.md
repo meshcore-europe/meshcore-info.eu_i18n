@@ -6,11 +6,11 @@ description: Radijska prednastavitev za MeshCore po območjih v Evropi ter nasta
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-11-02'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Vsako območje spodaj uporablja svojo radijsko prednastavitev ali spremeni nekaj
@@ -39,6 +39,11 @@ kodo, na primer `nl`, `nl-ov` in `nl-ov-zwo`. Sporočilo za `nl-ov-zwo` ostane p
 repetitorjih v tej skupini. Repetitor posreduje samo regije, ki jih ima nastavljene:
 če ima `nl`, zato še ne posreduje `nl-ov`. Vsak repetitor dodaj v vse regije, ki
 jih pokriva, in samo vanje. Katere so te regije, ve tvoja [lokalna skupina](/community/).
+
+**Ob meji se o regijah dogovori s sosedi.** Repetitor blizu druge države ima lahko
+nastavljeno tudi regijo te države, na primer `fr` na nemški strani Rena. Tako
+sporočila za to regijo posreduje čez mejo. O tem se najprej dogovori s skupino
+na drugi strani.
 
 **Omeji, kaj posreduje tvoj repetitor.** Z dvema nastavitvama ostane promet, ki mu
 ni treba potovati daleč, blizu doma:

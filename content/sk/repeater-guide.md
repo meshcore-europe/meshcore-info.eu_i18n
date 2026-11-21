@@ -6,11 +6,11 @@ eyebrow: 868 MHz · do 500 mW · bez licencie
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 Na opakovačoch (repeateroch) stojí sieť mesh. Companiony, teda rádiá, z ktorých píšeš správy, ich
@@ -100,8 +100,9 @@ repeatery počuje.
 
 ## Napájanie a dimenzovanie solárneho systému {#power}
 
-Solárny opakovač musí prežiť najtmavšie týždne zimy. Podľa nich ho
-navrhni:
+Solárny repeater musí prežiť najtmavšie týždne zimy. Najprv zapni úsporu energie: po príkaze
+`powersaving on` repeater medzi paketmi spí. Funguje to na doskách nRF52 a na doskách ESP32,
+ktorých firmvér nemá bridge. Potom nadimenzuj batériu a panel:
 
 1. **Zmeraj spotrebu.** Nechaj nastavený opakovač bežať deň cez USB merač
    výkonu. Odčítaj spotrebovanú energiu vo watthodinách (Wh). Prevádzka v
@@ -134,29 +135,45 @@ príkazy:
 
 | Čo | Príkaz |
 |---|---|
-| Zmena hesla správcu | `password <new password>` |
-| Pomenovanie | `set name <name>` |
+| Zmeň heslo správcu | `password <new password>` |
+| Heslo pre hostí, ktorí môžu čítať jeho stav | `set guest.password <password>` |
+| Pomenuj ho | `set name <name>` |
 | Rádiová predvoľba: frekvencia, šírka pásma, SF, CR (platí po reštarte) | `set radio 869.618,62.5,8,8` |
-| Limit pracovného cyklu v percentách | `set dutycycle 10` |
+| Limit pracovného cyklu (duty cycle) v percentách | `set dutycycle 10` |
 | Vysielací výkon rádiového čipu v dBm | `set tx <dBm>` |
-| Poloha, aby sa opakovač zobrazil na mapách | `set lat <degrees>` a `set lon <degrees>` |
+| Poloha, aby sa zobrazoval na mapách | `set lat <degrees>` a `set lon <degrees>` |
 | Kontaktné údaje pre ostatných prevádzkovateľov | `set owner.info <text>` |
-| Počet hodín medzi flood advertmi, ktoré počuje celá sieť | `set flood.advert.interval <hours>` |
-| Okamžité ohlásenie opakovača | `advert` |
-| Reštart | `reboot` |
+| Počet hodín medzi flood advertmi, ktoré počuje celý mesh | `set flood.advert.interval <hours>` |
+| Ohlás ho hneď | `advert` |
+| Reštartuj ho | `reboot` |
 
 Predvolené heslo správcu je `password` a každý, kto sa ním prihlási,
 sa stane správcom. Zmeň ho skôr, než opakovač začne vysielať.
 
+Heslo pre hostí je na začiatku prázdne. Ktokoľvek sa potom môže prihlásiť ako hosť
+bez hesla a čítať stav repeatera aj jeho susedov. Každá požiadavka znamená
+prevádzku v mesh sieti. Nastav heslo pre hostí a daj ho ľuďom, ktorí ho
+potrebujú.
+
+**Vyber názov.** Pomenuj ho tak, ako tvoja miestna skupina pomenúva svoje repeatery.
+Ak skupinu nemáš, daj do názvu krajinu, miesto a krátke označenie, napríklad
+`DE-63477-MUF1`. Ostatní prevádzkovatelia potom vidia, kde repeater stojí. Názov
+môže mať najviac 31 bajtov a do advertu, ktorý nesie aj polohu, sa zmestí 23.
+
 Príklad `set radio` vyššie platí pre EU/UK (Narrow). Namiesto neho použi hodnoty predvoľby
 svojej oblasti: nájdeš ich podľa krajín v časti [Odporúčané nastavenia](/guides/settings/).
 
-**Nastav hodiny.** Bez modulu hodín (RTC) opakovač pri každom výpadku napájania stratí
-čas a po reštarte začne v máji 2024. Počas behu sa jeho hodiny navyše rozchádzajú:
-idú čoraz viac napred alebo pozadu. Preto hodiny občas nastav: prihlás sa na diaľku
-z aplikácie a použi `clock sync` alebo nastav čas cez USB. S
-modulom RTC to potrebuješ len zriedka: udrží čas aj počas výpadkov napájania a
-rozchádza sa oveľa menej.
+**Nastav hodiny.** Bez modulu hodín (RTC) repeater pri každom výpadku prúdu stratí čas
+a začne znova od mája 2024. Počas behu sa jeho hodiny aj rozchádzajú: čoraz viac idú
+dopredu alebo meškajú. Preto hodiny z času na čas nastav: prihlás sa naň na diaľku
+z aplikácie a použi `clock sync` alebo nastav čas cez USB. S modulom RTC to potrebuješ
+zriedka: čas udrží aj pri výpadkoch prúdu a rozchádza sa oveľa menej. Firmvér sám nájde
+modul DS3231, RV3028, PCF8563 alebo RX8130.
+
+**Doska s GPS** ti nastaví oboje. Po príkaze `gps on` repeater každých 30 minút
+berie čas z GPS a `gps setloc` zapíše jeho polohu do `lat` a `lon`. GPS odoberá
+energiu po celý čas, kým je zapnutá. Pri solárnom napájaní spusti `gps setloc` raz
+priamo na mieste a potom ju vypni príkazom `gps off`. Hodiny potom znova nastav cez `clock sync`.
 
 **Spravuj ho na diaľku.** Keď je opakovač v sieti, prihlás sa k nemu z aplikácie MeshCore
 heslom správcu. V aplikácii si prečítaš jeho stav a tie isté príkazy zadáš
@@ -187,10 +204,13 @@ a tie aktualizuješ cez USB.
 3. V telefóne otvor aplikáciu nRF Device Firmware Update, vyber ZIP a
    opakovač a spusti nahrávanie. Trvá to pár minút.
 
-Skôr než dosku nRF52 vynesieš hore, nainštaluj do nej
-[bootloader OTAFIX](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX).
-So štandardným bootloaderom opravíš neúspešnú aktualizáciu len cez USB. S OTAFIX sa
-doska vráti do aktualizačného režimu a skúsiš to znova cez Bluetooth.
+Na dosku nRF52 nainštaluj [bootloader OTAFIX](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX)
+skôr, než ju vynesieš hore. S pôvodným bootloaderom opravíš neúspešnú
+aktualizáciu len cez USB. S OTAFIX sa doska vráti do
+režimu aktualizácie a aktualizáciu skúsiš znova cez Bluetooth. Príkaz `get bootloader.ver` ukáže,
+ktorý bootloader doska má: pri OTAFIX odpoveď obsahuje `OTAFIX`.
+
+Po aktualizácii ti `ver` ukáže verziu firmvéru, ktorá práve beží.
 
 **Dosky ESP32**, napríklad Heltec V3 a V4:
 
@@ -282,17 +302,6 @@ svojho národného regulátora.
 
 ## Kontrolný zoznam pred nasadením {#checklist}
 
-- [ ] Vlastník miesta súhlasil a k opakovaču sa pri údržbe dostaneš.
-- [ ] Na doske beží firmvér **Repeater** a anténa bola pripojená pred prvým
-      zapnutím.
-- [ ] Heslo správcu je zmenené.
-- [ ] Rádio zodpovedá [predvoľbe tvojej oblasti](/guides/settings/) (`get radio`).
-- [ ] Je nastavené `set dutycycle 10`.
-- [ ] Vysielací výkon spolu so ziskom antény neprekračuje 500 mW e.r.p.
-- [ ] Názov, poloha a `owner.info` sú nastavené, aby ostatní vedeli, kto opakovač prevádzkuje.
-- [ ] Hodiny sú nastavené (`clock`).
-- [ ] Krabica je utesnená, má odtokový alebo vetrací otvor a kábel má
-      odkvapovú slučku.
-- [ ] Batéria a panel sú dimenzované na najhorší zimný mesiac.
-- [ ] Pred odchodom z miesta máš opakovač otestovaný z diaľky v aplikácii.
-- [ ] Tvoja miestna skupina vie, že opakovač je v prevádzke.
+Skôr než repeater namontuješ, prejdi si
+[kontrolný zoznam pre repeater](/guides/repeater-checklist/). Uvádza každú vec, ktorú
+treba skontrolovať, aj s príkazom, ktorý ju zobrazí.

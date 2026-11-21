@@ -6,11 +6,11 @@ eyebrow: 868 MHz · suas le 500 mW · gan cheadúnas
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 Is ar athsheoltóirí atá an mogalra ina sheasamh. Ní chuireann compánaigh, na raidiónna óna
@@ -100,8 +100,10 @@ hathsheoltóirí a chloiseann sé.
 
 ## Cumhacht agus méid an chórais ghréine {#power}
 
-Caithfidh athsheoltóir gréine seachtainí is dorcha an gheimhridh a sheasamh. Roghnaigh an méid dá
-réir:
+Caithfidh athsheoltóir gréine teacht slán ó na seachtainí is dorcha sa gheimhreadh. Cuir coigilt
+cumhachta ar siúl ar dtús: tar éis `powersaving on`, codlaíonn an t-athsheoltóir idir paicéid.
+Oibríonn sé ar bhoird nRF52, agus ar bhoird ESP32 nach bhfuil droichead ina ndochtearraí. Ansin
+socraigh méid an cheallra agus an phainéil:
 
 1. **Tomhais an t-ualach.** Rith an t-athsheoltóir cumraithe trí mhéadar cumhachta USB ar feadh lae.
    Léigh an fuinneamh a úsáideadh in uaireanta vata (Wh). Athraíonn an trácht i do cheantar an
@@ -132,11 +134,12 @@ teirminéal sraitheach ag 115200 baud a úsáid freisin. Na horduithe is tábhac
 | Cad | Ordú |
 |---|---|
 | Athraigh pasfhocal an riarthóra | `password <new password>` |
-| Tabhair ainm dó | `set name <name>` |
-| Réamhshocrú raidió: minicíocht, bandaleithead, SF, CR (atosaigh lena chur i bhfeidhm) | `set radio 869.618,62.5,8,8` |
-| Teorainn an timthrialla dleachta, faoin gcéad | `set dutycycle 10` |
-| Cumhacht tarchuir shlis an raidió, in dBm | `set tx <dBm>` |
-| Suíomh, ionas go dtaispeánfar ar léarscáileanna é | `set lat <degrees>` agus `set lon <degrees>` |
+| Pasfhocal d'aíonna, a fhéadann a stádas a léamh | `set guest.password <password>` |
+| Tabhair ainm air | `set name <name>` |
+| Réamhshocrú raidió: minicíocht, bandaleithead, SF, CR (atosaigh chun é a chur i bhfeidhm) | `set radio 869.618,62.5,8,8` |
+| Teorainn an timthrialla dualgais, mar chéatadán | `set dutycycle 10` |
+| Cumhacht tarchuir na slise raidió, in dBm | `set tx <dBm>` |
+| Suíomh, ionas go mbeidh sé le feiceáil ar léarscáileanna | `set lat <degrees>` agus `set lon <degrees>` |
 | Sonraí teagmhála d'oibreoirí eile | `set owner.info <text>` |
 | Uaireanta idir fógraí tuile, na cinn a chloiseann an mogalra ar fad | `set flood.advert.interval <hours>` |
 | Fógair anois é | `advert` |
@@ -145,15 +148,30 @@ teirminéal sraitheach ag 115200 baud a úsáid freisin. Na horduithe is tábhac
 Is é `password` pasfhocal réamhshocraithe an riarthóra, agus déantar riarthóir d'aon duine a logálann
 isteach leis. Athraigh é sula dtéann an t-athsheoltóir ar an aer.
 
+Bíonn pasfhocal an aoi folamh ar dtús. Ansin, is féidir le duine ar bith logáil isteach mar aoi gan
+pasfhocal, agus stádas an athsheoltóra agus a chomharsana a léamh. Trácht ar an mogalra is ea gach iarratas.
+Socraigh pasfhocal aoi agus tabhair é do na daoine a bhfuil sé ag teastáil uathu.
+
+**Roghnaigh ainm.** Ainmnigh é mar a ainmníonn do ghrúpa áitiúil a gcuid athsheoltóirí.
+Mura bhfuil grúpa agat, cuir an tír, an áit agus ainm gearr isteach ann, mar shampla
+`DE-63477-MUF1`. Feiceann oibreoirí eile ansin cá bhfuil an t-athsheoltóir. Is féidir
+suas le 31 beart a bheith in ainm, agus téann 23 díobh i bhfógra ina bhfuil suíomh freisin.
+
 Is é EU/UK (Narrow) an sampla `set radio` thuas. Úsáid luachanna réamhshocrú do cheantair ina áit:
 tá siad liostaithe de réir tíre in [Socruithe molta](/guides/settings/).
 
-**Socraigh an clog.** Gan modúl cloig (RTC), cailleann athsheoltóir an t-am le gach briseadh cumhachta
-agus tosaíonn sé arís i mBealtaine 2024. Le linn dó a bheith ag rith, sleamhnaíonn a chlog freisin:
-téann sé níos faide chun tosaigh nó ar gcúl. Mar sin, socraigh an clog ó am go ham: logáil isteach go
-cianda ón aip agus úsáid `clock sync`, nó socraigh an t-am thar USB. Le modúl RTC, is annamh a
-chaithfidh tú é sin a dhéanamh: coinníonn sé an t-am le linn bristeacha cumhachta agus sleamhnaíonn sé
-i bhfad níos lú.
+**Socraigh an clog.** Gan modúl clog (RTC), cailleann athsheoltóir an t-am le gach briseadh
+cumhachta, agus filleann sé ar Bhealtaine 2024. Fad is a bhíonn sé ag rith, imíonn a chlog ó cheart freisin:
+bíonn sé ag dul chun tosaigh nó ag titim siar. Mar sin socraigh an clog ó am go ham: logáil isteach
+go cianda ón aip agus úsáid `clock sync`, nó socraigh an t-am trí USB. Le modúl RTC, is annamh
+a bhíonn ort é sin a dhéanamh: coinníonn sé an t-am le linn briseadh cumhachta agus imíonn
+sé i bhfad níos lú ó cheart. Aimsíonn na dochtearraí modúl DS3231, RV3028, PCF8563 nó RX8130 leo féin.
+
+Socraíonn **bord le GPS** an dá rud duit. Tar éis `gps on`, faigheann an t-athsheoltóir an t-am
+ón GPS gach 30 nóiméad, agus cóipeálann `gps setloc` a shuíomh isteach in
+`lat` agus `lon`. Úsáideann an GPS cumhacht an fad is atá sé ar siúl. Má tá sé ar ghrianchumhacht, rith
+`gps setloc` uair amháin ar an láthair agus múch an GPS le `gps off`. Ansin caithfidh tú
+`clock sync` a rith arís don chlog.
 
 **Bainistigh go cianda é.** Nuair a bheidh sé ar an mogalra, logáil isteach ón aip MeshCore le pasfhocal
 an riarthóra. Léann tú a stádas ansin agus úsáideann tú na horduithe céanna thar an raidió. Ní oibríonn
@@ -184,9 +202,12 @@ thar USB.
    agus uaslódáil. Tógann sé cúpla nóiméad.
 
 Suiteáil an [lódálaí tosaithe OTAFIX](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX)
-ar bhord nRF52 sula dtéann sé in airde. Leis an lódálaí tosaithe bunaidh, ní féidir nuashonrú
-teipthe a dheisiú ach thar USB. Le OTAFIX, filleann an bord ar mhód nuashonraithe, agus déanann tú
-iarracht eile thar Bluetooth.
+ar bhord nRF52 sula gcuireann tú in airde é. Leis an lódálaí tosaithe caighdeánach, ní féidir
+nuashonrú a theip a dheisiú ach trí USB. Le OTAFIX, téann an bord ar ais i mód nuashonraithe,
+agus baineann tú triail eile as trí Bluetooth. Taispeánann `get bootloader.ver` cé acu lódálaí atá ar
+an mbord: le OTAFIX, bíonn `OTAFIX` san fhreagra.
+
+Tar éis nuashonraithe, taispeánann `ver` leagan na ndochtearraí atá ag rith anois.
 
 **Boird ESP32**, ar nós an Heltec V3 agus V4:
 
@@ -275,17 +296,6 @@ rialtóir náisiúnta.
 
 ## Seicliosta imlonnaithe {#checklist}
 
-- [ ] D'aontaigh úinéir an tsuímh, agus is féidir leat an t-athsheoltóir a shroicheadh le haghaidh
-      cothabhála.
-- [ ] Ritheann an bord na dochtearraí **Repeater**, agus ceanglaíodh an aeróg roimh an gcéad chumhachtú.
-- [ ] Tá pasfhocal an riarthóra athraithe.
-- [ ] Tá an raidió ag teacht le [réamhshocrú do cheantair](/guides/settings/) (`get radio`).
-- [ ] Tá `set dutycycle 10` socraithe.
-- [ ] Fanann cumhacht tarchuir móide gnóthachan aeróige laistigh de 500 mW e.r.p.
-- [ ] Tá an t-ainm, an suíomh agus `owner.info` socraithe, ionas go mbeidh a fhios ag daoine eile cé
-      a oibríonn é.
-- [ ] Tá an clog socraithe (`clock`).
-- [ ] Tá an chásáil séalaithe, le poll draenála nó aeraithe, agus tá lúb sileáin ar an gcábla.
-- [ ] Tá méid an cheallra agus an phainéil roghnaithe don mhí gheimhridh is measa.
-- [ ] Thástáil tú é ó achar leis an aip sular fhág tú an suíomh.
-- [ ] Tá a fhios ag do ghrúpa áitiúil go bhfuil sé ar siúl.
+Sula gcuireann tú an t-athsheoltóir in airde, téigh tríd an
+[seicliosta athsheoltóra](/guides/repeater-checklist/). Liostaíonn sé gach rud atá le
+seiceáil, mar aon leis an ordú a thaispeánann é.

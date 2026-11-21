@@ -6,11 +6,11 @@ description: Preset radiowy MeshCore dla każdej okolicy w Europie oraz ustawien
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-10-31'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Każda okolica poniżej ma własny preset radiowy albo zmienia kilka domyślnych
@@ -40,6 +40,11 @@ ma własny kod, na przykład `nl`, `nl-ov` i `nl-ov-zwo`. Wiadomość dla
 tylko regiony, które sam ma. Jeśli ma `nl`, nie przekaże przez to `nl-ov`.
 Dodaj każdy przekaźnik do każdego regionu, który obsługuje, i tylko do nich.
 Twoja [lokalna grupa](/community/) wie, które to są.
+
+**Przy granicy uzgodnij regiony z sąsiadami.** Przekaźnik blisko innego
+kraju może obsługiwać też region tego kraju, na przykład `fr` po niemieckiej stronie
+Renu. Wtedy przekazuje wiadomości dla tego regionu przez granicę. Najpierw
+uzgodnij to z grupą po drugiej stronie.
 
 **Ogranicz to, co przekazuje twój przekaźnik.** Dwa ustawienia trzymają blisko
 domu ruch, który nie musi docierać daleko:

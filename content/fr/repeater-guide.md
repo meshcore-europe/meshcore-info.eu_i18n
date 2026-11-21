@@ -6,11 +6,11 @@ eyebrow: 868 MHz · jusqu'à 500 mW · sans licence
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 Les répéteurs font vivre le maillage. Les compagnons, les radios depuis lesquelles tu envoies tes messages, ne relaient rien. Sans répéteurs, tu n'atteins donc que les personnes à portée directe. Un répéteur bien placé étend le maillage pour tout le monde autour de lui. Ce guide correspond au micrologiciel MeshCore v1.18.0.
@@ -68,7 +68,7 @@ Les outils calculent à partir de données d'altitude et ne testent pas ta radio
 
 ## Alimentation et dimensionnement solaire {#power}
 
-Un répéteur solaire doit tenir pendant les semaines les plus sombres de l'hiver. Dimensionne-le pour ces semaines :
+Un répéteur solaire doit tenir pendant les semaines les plus sombres de l'hiver. Active d'abord l'économie d'énergie : après `powersaving on`, le répéteur se met en veille entre les paquets. Cela fonctionne sur les cartes nRF52, et sur les cartes ESP32 dont le micrologiciel n'intègre pas de pont. Dimensionne ensuite la batterie et le panneau :
 
 1. **Mesure la consommation.** Branche le répéteur configuré sur un wattmètre USB et laisse-le tourner une journée. Relève l'énergie consommée en wattheures (Wh). Le trafic de ta zone influe sur ce chiffre, alors mesure sur place si tu peux.
 2. **Prévois une réserve.** Calcule la capacité de la batterie pour au moins 5 à 7 jours sans soleil utile.
@@ -83,24 +83,44 @@ Voici un exemple chiffré, avec des valeurs supposées. Un répéteur qui consom
 
 **Configure par USB.** Laisse le répéteur branché à ton ordinateur, puis ouvre [config.meshcore.io](https://config.meshcore.io) ou la console du flasheur. Tu peux aussi utiliser n'importe quel terminal série à 115200 bauds. Les commandes les plus importantes :
 
-| Action | Commande |
+| Quoi | Commande |
 |---|---|
 | Changer le mot de passe administrateur | `password <new password>` |
+| Mot de passe des invités, qui peuvent consulter son état | `set guest.password <password>` |
 | Lui donner un nom | `set name <name>` |
-| Préréglage radio : fréquence, largeur de bande, SF, CR (redémarre pour appliquer) | `set radio 869.618,62.5,8,8` |
-| Limite de rapport cyclique, en pourcentage | `set dutycycle 10` |
+| Préréglage radio : fréquence, bande passante, SF, CR (redémarre pour l'appliquer) | `set radio 869.618,62.5,8,8` |
+| Limite du rapport cyclique, en pourcentage | `set dutycycle 10` |
 | Puissance d'émission de la puce radio, en dBm | `set tx <dBm>` |
 | Position, pour qu'il apparaisse sur les cartes | `set lat <degrees>` et `set lon <degrees>` |
 | Coordonnées pour les autres opérateurs | `set owner.info <text>` |
-| Heures entre les annonces en diffusion, celles que tout le maillage capte | `set flood.advert.interval <hours>` |
+| Nombre d'heures entre les annonces en diffusion, celles que tout le maillage reçoit | `set flood.advert.interval <hours>` |
 | L'annoncer tout de suite | `advert` |
 | Redémarrer | `reboot` |
 
 Le mot de passe administrateur par défaut est `password`, et toute personne qui se connecte avec ce mot de passe devient administrateur. Change-le avant de mettre le répéteur en service.
 
+Le mot de passe invité est vide au départ. N'importe qui peut alors se connecter en invité sans mot de passe et consulter l'état du répéteur et ses voisins. Chaque requête crée du trafic sur le maillage. Définis un mot de passe invité et donne-le aux personnes qui en ont besoin.
+
+**Choisis un nom.** Donne-lui un nom dans le style des répéteurs de ton groupe local.
+Sans groupe, indiques-y le pays, le lieu et un nom court, par exemple
+`DE-63477-MUF1`. Les autres opérateurs voient alors où se trouve le répéteur. Un nom
+fait jusqu'à 31 octets, et 23 tiennent dans une annonce qui contient aussi une position.
+
 L'exemple `set radio` ci-dessus correspond à EU/UK (Narrow). Utilise plutôt les valeurs du préréglage de ta zone : la page [Réglages recommandés](/guides/settings/) les indique par pays.
 
-**Règle l'horloge.** Sans module d'horloge (RTC), un répéteur perd l'heure à chaque coupure de courant et repart en mai 2024. Pendant qu'il tourne, son horloge dérive aussi : elle prend de l'avance ou du retard. Règle donc l'horloge de temps en temps : connecte-toi à distance depuis l'application et utilise `clock sync`, ou règle l'heure par USB. Avec un module RTC, tu as rarement besoin de le faire : il garde l'heure pendant les coupures et dérive bien moins.
+**Règle l'horloge.** Sans module d'horloge (RTC), un répéteur perd l'heure à
+chaque coupure de courant et redémarre en mai 2024. Pendant qu'il tourne, son horloge
+dérive aussi : elle avance ou retarde de plus en plus. Règle donc l'horloge de temps en
+temps : connecte-toi à distance depuis l'application et utilise `clock sync`, ou règle
+l'heure par USB. Avec un module RTC, tu en as rarement besoin : il garde l'heure malgré
+les coupures et dérive beaucoup moins. Le micrologiciel détecte de lui-même un module DS3231,
+RV3028, PCF8563 ou RX8130.
+
+**Une carte avec GPS** règle les deux pour toi. Après `gps on`, le répéteur reprend
+l'heure du GPS toutes les 30 minutes, et `gps setloc` copie sa position dans
+`lat` et `lon`. Le GPS consomme du courant tant qu'il reste allumé. Sur un site solaire, lance
+`gps setloc` une fois sur place, puis éteins le GPS avec `gps off`. Tu dois
+ensuite relancer `clock sync` pour l'horloge.
 
 **Gère-le à distance.** Une fois le répéteur sur le maillage, connecte-toi depuis l'application MeshCore avec le mot de passe administrateur. Tu y consultes son état et tu y utilises les mêmes commandes par radio. Certaines commandes ne fonctionnent que par USB, comme `set freq` et la réinitialisation d'usine `erase`.
 
@@ -118,7 +138,13 @@ Une fois le répéteur installé en hauteur, tu le mets à jour depuis le sol. C
 2. Tape `start ota`. Le répéteur répond `OK` et apparaît en Bluetooth sous le nom `<board>_OTA`, par exemple `RAK4631_OTA`.
 3. Ouvre l'application nRF Device Firmware Update sur ton téléphone, choisis le ZIP et le répéteur, puis lance l'envoi. L'opération prend quelques minutes.
 
-Installe le [bootloader OTAFIX](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX) sur une carte nRF52 avant de la monter en hauteur. Avec le bootloader d'origine, seule une connexion USB permet de réparer une mise à jour ratée. Avec OTAFIX, la carte revient en mode de mise à jour, et tu réessaies en Bluetooth.
+Installe le [bootloader OTAFIX](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX)
+sur une carte nRF52 avant de l'installer en hauteur. Avec le bootloader d'origine, tu ne
+peux réparer une mise à jour ratée que par USB. Avec OTAFIX, la carte repasse en
+mode mise à jour, et tu réessaies en Bluetooth. `get bootloader.ver` indique
+quel bootloader une carte utilise : avec OTAFIX, la réponse contient `OTAFIX`.
+
+Après une mise à jour, `ver` affiche la version du micrologiciel qui tourne maintenant.
 
 **Cartes ESP32**, comme les Heltec V3 et V4 :
 
@@ -175,15 +201,6 @@ Ces notes ne constituent pas un avis juridique. Les règles changent : en cas de
 
 ## Liste de contrôle du déploiement {#checklist}
 
-- [ ] Le propriétaire du site a donné son accord, et tu peux accéder au répéteur pour l'entretien.
-- [ ] La carte fait tourner le micrologiciel **Repeater**, et tu as fixé l'antenne avant la première mise sous tension.
-- [ ] Le mot de passe administrateur est changé.
-- [ ] La radio correspond au [préréglage de ta zone](/guides/settings/) (`get radio`).
-- [ ] `set dutycycle 10` est appliqué.
-- [ ] La puissance d'émission, gain d'antenne compris, reste dans la limite de 500 mW e.r.p.
-- [ ] Le nom, la position et `owner.info` sont renseignés, pour que les autres sachent qui gère le répéteur.
-- [ ] L'horloge est réglée (`clock`).
-- [ ] Le boîtier est scellé, avec un trou d'écoulement ou d'aération, et le câble forme une boucle d'égouttement.
-- [ ] La batterie et le panneau sont dimensionnés pour le pire mois d'hiver.
-- [ ] Tu l'as testé à distance avec l'application avant de quitter le site.
-- [ ] Ton groupe local sait qu'il est en service.
+Avant d'installer le répéteur en hauteur, passe en revue la
+[liste de contrôle du répéteur](/guides/repeater-checklist/). Elle indique chaque point à
+vérifier, avec la commande qui l'affiche.

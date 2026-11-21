@@ -6,11 +6,11 @@ description: MeshCore radijo profilis pagal Europos vietoves, kartotuvų ir komp
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-11-02'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Kiekviena toliau nurodyta vietovė naudoja savo radijo profilį arba pakeičia kelis
@@ -39,6 +39,11 @@ tos grupės kartotuvuose. Kartotuvas perduoda tik tuos regionus, kuriuos turi pa
 turėdamas `nl`, jis neperduos `nl-ov`. Įtrauk kiekvieną kartotuvą į visus regionus,
 kuriuos jis aptarnauja, ir tik į juos. Kurie tai regionai, žino tavo
 [vietos grupė](/community/).
+
+**Prie sienos dėl regionų susitark su kaimynais.** Retransliatorius netoli kitos šalies
+gali turėti ir tos šalies regioną, pavyzdžiui, `fr` vokiškoje Reino pusėje.
+Tada jis perduoda to regiono žinutes per sieną. Pirmiausia dėl to susitark
+su grupe kitoje pusėje.
 
 **Apribok, ką tavo kartotuvas perduoda toliau.** Du nustatymai palieka arti namų
 srautą, kuriam nereikia keliauti toli:

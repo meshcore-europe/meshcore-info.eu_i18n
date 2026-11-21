@@ -5,11 +5,11 @@ description: Dodaj svoju zajednicu, uređaj ili projekt, pregledaj prijevod ili 
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '1a28f66a'
-  seeded: '2026-11-10'
+  source_hash: '1ae1bf12'
+  seeded: '2026-11-21'
   fields: {title: '97b0c61b', lead: 'e9b40d4d', description: '3bd97cd2'}
-  sections: ['6e9d4b61', 'aca796d7', 'd4848d5b', '247b2601', '4b12bb2c', '645c82d3', 'c755b654']
-  blocks: ['2f9dd6e8', '44167907', 'b020e1a4', 'f2c726cd', '2e9d1fdd', 'b2a902ba', 'b15ce10b', '2be86888', '3db6cb63', '2e3c2fc0', '693a5d9d', '8aa01985', '96d8689d', 'c67fd14a', 'f92f7e49', '12ddca6c', 'e947e2a9', '526df4bb', 'e0d3559e']
+  sections: ['6e9d4b61', 'aca796d7', 'd4848d5b', '09da3428', '4b12bb2c', '645c82d3', 'c755b654']
+  blocks: ['2f9dd6e8', '44167907', 'b020e1a4', 'f2c726cd', '2e9d1fdd', 'b2a902ba', 'b15ce10b', '2be86888', '3db6cb63', '27956f26', 'a252a0ee', '2e3c2fc0', '693a5d9d', '8aa01985', '96d8689d', 'c67fd14a', 'f92f7e49', '12ddca6c', 'e947e2a9', '526df4bb', 'e0d3559e']
 ---
 
 Sav sadržaj ove stranice nalazi se u javnom
@@ -51,6 +51,15 @@ nikad ne moraš dirati kod stranice. Ako dobro govoriš neki od tih jezika, mož
    točno onako kako jesu.
 3. U bloku `translation` na vrhu promijeni `status: ai` u
    `status: human` i predloži izmjenu.
+
+Kratki tekstovi, poput opisa zajednice ili projekta, nalaze se u
+`data/i18n/<language>.json`. Strojno prevedeni unos zamijeni vlastitim riječima,
+napisanima kao običan tekst između navodnika.
+
+Radiš s AI agentom? Neka radi u
+[repozitoriju za prijevode](https://github.com/meshcore-europe/meshcore-info.eu_i18n),
+gdje se nalaze upute za agente. Agent prevodi ono što nedostaje i pokazuje
+ti ostatak na provjeru. Pregledanim se smatra samo ono što si pročitao.
 
 Našao si pogrešnu riječ, ali nemaš vremena za ispravak? Prijavi je putem
 [obrasca za prijevod](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=translation-bug.yml).
