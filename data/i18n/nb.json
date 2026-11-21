@@ -3,7 +3,7 @@
     "language": "nb",
     "name": "Norsk bokmål",
     "managed_by": "community",
-    "updated": "2026-11-11"
+    "updated": "2026-11-21"
   },
   "site_tagline": {
     "value": "Meldinger uten nett i hele Europa",
@@ -2267,6 +2267,12 @@
     "_seeded": "2026-10-26",
     "_source": "c57f1887"
   },
+  "community.nl-mesh-twente.desc": {
+    "value": "Telegram-chat startet av meshere i Twente. Meshere fra Salland, Achterhoek og resten av Overijssel, Drenthe og Gelderland er også velkomne.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "5f56d266"
+  },
   "community.be-radio-actief.desc": {
     "value": "Belgisk wiki og Discord, startet av radioamatører som tok MeshCore til Belgia sent i 2025. Del av et bredere radiohobbyfellesskap.",
     "_ai": true,
@@ -2362,6 +2368,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "d0895f3b"
+  },
+  "community.dk-meshcom-sonderjylland.desc": {
+    "value": "Danske guider om å komme i gang, radioinnstillinger og maskinvare, med byggelogg for en solcelledrevet repeater og en live-analysator.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "77f2c22e"
   },
   "community.se-meshat.desc": {
     "value": "Svensk møteplass for mesh-nettverk, med forum, Discord og et Matrix-rom. Den driver MeshCore MQTT- og karttjenester og dekker også andre mesh-prosjekter.",
@@ -2465,6 +2477,12 @@
     "_seeded": "2026-10-26",
     "_source": "3c6c5a0a"
   },
+  "community.fr-interconnexion-normand.desc": {
+    "value": "Innbyggerdrevet mesh-nettverk for Normandie, slik at folk når hverandre når de vanlige nettene svikter. Det startet på Meshtastic og tester nå MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "d4699cac"
+  },
   "community.fr-loramesh.desc": {
     "value": "Fransk gruppe som holder lokal kontakt i gang med MeshCore når internett eller mobilnett svikter, steg for steg, med kart over aktive områder.",
     "_ai": true,
@@ -2566,6 +2584,18 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "5364e395"
+  },
+  "community.de-meshcore-rlp.desc": {
+    "value": "Åpent MeshCore-fellesskap for Rheinland-Pfalz, med nodekart, blogg og en Telegram-gruppe.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "3e25994d"
+  },
+  "community.de-mesh-sn.desc": {
+    "value": "MeshCore-side for Sachsen, med guider for companions, repeatere og room servere. Telegram-kanalen dekker også Meshtastic.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "0cae1c90"
   },
   "community.ie-mayo-mesh.desc": {
     "value": "Brukergruppe for mesh-radio i County Mayo.",
@@ -3179,6 +3209,18 @@
     "_seeded": "2026-11-10",
     "_source": "e955c5f7"
   },
+  "project.local-meshcore-analyzer.desc": {
+    "value": "Et Windows-verktøy som kobler seg til companion-radioen din og viser hvor mye trafikk repeaterne nær deg bærer, etter region, meldingstype og kanal. Det finner også pakker som går i sløyfe, og tegner rutene på et kart. Pakkedataene blir på datamaskinen din. Gratis for privat, ikke-kommersiell bruk.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "22799ea6"
+  },
+  "project.lusofw.desc": {
+    "value": "MeshCore-firmware fra fellesskapet i Portugal, også brukt i Brasil og Galicia. Den bygger på standard MeshCore og forblir kompatibel med den. Den har portugisiske standardinnstillinger, som regioner satt ut fra nodens posisjon.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "4901d59c"
+  },
   "guides_group_start": {
     "value": "Din første node",
     "_ai": true,
@@ -3256,6 +3298,18 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "f52f6bd7"
+  },
+  "guides_card_repeater_checklist_title": {
+    "value": "Sjekkliste for repeater",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "e982ea2f"
+  },
+  "guides_card_repeater_checklist_desc": {
+    "value": "Sjekk repeateren din før den kommer opp: hva du sjekker over USB, på taket og før du drar.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "0a1f63cf"
   },
   "guides_card_resilient_title": {
     "value": "Gjør meshen robust",
@@ -6124,6 +6178,18 @@
     "_ai": true,
     "_seeded": "2026-10-27",
     "_source": "695ddeef"
+  },
+  "menu_guide_repeater_checklist": {
+    "value": "Sjekkliste for repeater",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "e982ea2f"
+  },
+  "menu_guide_repeater_checklist_sub": {
+    "value": "Hva du sjekker før den kommer opp",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "29c34a2e"
   },
   "menu_guide_resilient": {
     "value": "Gjør meshen robust",
