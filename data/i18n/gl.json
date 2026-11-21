@@ -3,7 +3,7 @@
     "language": "gl",
     "name": "Galego",
     "managed_by": "community",
-    "updated": "2026-11-11"
+    "updated": "2026-11-21"
   },
   "site_tagline": {
     "value": "Mensaxes sen rede en toda Europa",
@@ -2267,6 +2267,12 @@
     "_seeded": "2026-11-02",
     "_source": "c57f1887"
   },
+  "community.nl-mesh-twente.desc": {
+    "value": "Chat de Telegram que iniciaron meshers de Twente. Os meshers de Salland, o Achterhoek e o resto de Overijssel, Drenthe e Gelderland tamén son benvidos.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "5f56d266"
+  },
   "community.be-radio-actief.desc": {
     "value": "Wiki e Discord belgas, iniciados por radioafeccionados que levaron MeshCore a Bélxica a finais de 2025. Forma parte dunha comunidade máis ampla de afeccionados á radio.",
     "_ai": true,
@@ -2362,6 +2368,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "d0895f3b"
+  },
+  "community.dk-meshcom-sonderjylland.desc": {
+    "value": "Guías en danés para comezar, configurar a radio e escoller hardware, cun diario da construción dun repetidor solar e un analizador en directo.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "77f2c22e"
   },
   "community.se-meshat.desc": {
     "value": "Punto de encontro sueco sobre redes mesh, con foro, Discord e unha sala de Matrix. Xestiona servizos MQTT e de mapas de MeshCore e tamén trata outros proxectos mesh.",
@@ -2465,6 +2477,12 @@
     "_seeded": "2026-11-02",
     "_source": "3c6c5a0a"
   },
+  "community.fr-interconnexion-normand.desc": {
+    "value": "Rede de malla cidadá para Normandía, para que a xente poida comunicarse cando fallan as redes habituais. Comezou en Meshtastic e agora proba MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "d4699cac"
+  },
   "community.fr-loramesh.desc": {
     "value": "Grupo francés que mantén o contacto local con MeshCore cando fallan internet ou a rede móbil, paso a paso, cun mapa das zonas activas.",
     "_ai": true,
@@ -2566,6 +2584,18 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "5364e395"
+  },
+  "community.de-meshcore-rlp.desc": {
+    "value": "Comunidade aberta de MeshCore para Renania-Palatinado, cun mapa de nodos, un blog e un grupo de Telegram.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "3e25994d"
+  },
+  "community.de-mesh-sn.desc": {
+    "value": "Sitio de MeshCore para Saxonia, con guías para companions, repetidores e servidores de sala. A súa canle de Telegram tamén trata Meshtastic.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "0cae1c90"
   },
   "community.ie-mayo-mesh.desc": {
     "value": "Grupo de usuarios de radio mesh do condado de Mayo.",
@@ -3179,6 +3209,18 @@
     "_seeded": "2026-11-10",
     "_source": "e955c5f7"
   },
+  "project.local-meshcore-analyzer.desc": {
+    "value": "Unha ferramenta para Windows que se conecta á túa radio companion. Amosa canto tráfico levan os repetidores próximos, por rexión, tipo de mensaxe e canle. Tamén atopa paquetes que fan bucles e debuxa as rutas nun mapa. Os datos dos paquetes quedan no teu ordenador. Gratuíta para uso privado e non comercial.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "22799ea6"
+  },
+  "project.lusofw.desc": {
+    "value": "Firmware de MeshCore da comunidade de Portugal, usado tamén en Brasil e Galicia. Baséase no MeshCore orixinal e segue sendo compatible con el. Trae valores predeterminados portugueses, como rexións definidas a partir da posición do nodo.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "4901d59c"
+  },
   "guides_group_start": {
     "value": "O teu primeiro nodo",
     "_ai": true,
@@ -3256,6 +3298,18 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "f52f6bd7"
+  },
+  "guides_card_repeater_checklist_title": {
+    "value": "Lista de comprobación do repetidor",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "e982ea2f"
+  },
+  "guides_card_repeater_checklist_desc": {
+    "value": "Revisa o teu repetidor antes de instalalo: que comprobar por USB, no tellado e antes de marchar.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "0a1f63cf"
   },
   "guides_card_resilient_title": {
     "value": "Fai a mesh resistente",
@@ -6124,6 +6178,18 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "695ddeef"
+  },
+  "menu_guide_repeater_checklist": {
+    "value": "Lista de comprobación do repetidor",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "e982ea2f"
+  },
+  "menu_guide_repeater_checklist_sub": {
+    "value": "Que comprobar antes de instalalo",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "29c34a2e"
   },
   "menu_guide_resilient": {
     "value": "Fai a malla resistente",

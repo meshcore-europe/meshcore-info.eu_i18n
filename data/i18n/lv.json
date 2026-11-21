@@ -3,7 +3,7 @@
     "language": "lv",
     "name": "Latviešu",
     "managed_by": "community",
-    "updated": "2026-11-11"
+    "updated": "2026-11-21"
   },
   "site_tagline": {
     "value": "Saziņa bez tīkla visā Eiropā",
@@ -2267,6 +2267,12 @@
     "_seeded": "2026-11-02",
     "_source": "c57f1887"
   },
+  "community.nl-mesh-twente.desc": {
+    "value": "Telegram čats, ko izveidoja mesh tīkla entuziasti Tventē. Gaidīti arī entuziasti no Sallandes, Ahterhukas un pārējās Overeiselas, Drentes un Gelderlandes.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "5f56d266"
+  },
   "community.be-radio-actief.desc": {
     "value": "Beļģijas wiki un Discord, ko sāka radioamatieri, kuri 2025. gada beigās atveda MeshCore uz Beļģiju. Daļa no plašākas radio hobija kopienas.",
     "_ai": true,
@@ -2362,6 +2368,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "d0895f3b"
+  },
+  "community.dk-meshcom-sonderjylland.desc": {
+    "value": "Ceļveži dāņu valodā par pirmajiem soļiem, radio iestatījumiem un aparatūru. Ir arī saules retranslatora būves žurnāls un tiešsaistes analizators.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "77f2c22e"
   },
   "community.se-meshat.desc": {
     "value": "Zviedrijas satikšanās vieta mesh tīklu interesentiem, ar forumu, Discord un Matrix istabu. Tā uztur MeshCore MQTT un karšu pakalpojumus un aptver arī citus mesh projektus.",
@@ -2465,6 +2477,12 @@
     "_seeded": "2026-11-02",
     "_source": "3c6c5a0a"
   },
+  "community.fr-interconnexion-normand.desc": {
+    "value": "Iedzīvotāju mesh tīkls Normandijā, lai cilvēki var sazināties, kad parastie tīkli nedarbojas. Tas sākās ar Meshtastic un tagad testē MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "d4699cac"
+  },
   "community.fr-loramesh.desc": {
     "value": "Francijas grupa, kas ar MeshCore soli pa solim uztur vietējos sakarus, kad nedarbojas internets vai mobilie tīkli, ar aktīvo apgabalu karti.",
     "_ai": true,
@@ -2566,6 +2584,18 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "5364e395"
+  },
+  "community.de-meshcore-rlp.desc": {
+    "value": "Atvērta MeshCore kopiena Reinzemei-Pfalcai ar mezglu karti, blogu un Telegram grupu.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "3e25994d"
+  },
+  "community.de-mesh-sn.desc": {
+    "value": "MeshCore vietne Saksijai ar ceļvežiem par companion ierīcēm, retranslatoriem un room server. Tās Telegram kanāls aptver arī Meshtastic.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "0cae1c90"
   },
   "community.ie-mayo-mesh.desc": {
     "value": "Mesh radio lietotāju grupa Mejo grāfistei.",
@@ -3179,6 +3209,18 @@
     "_seeded": "2026-11-10",
     "_source": "e955c5f7"
   },
+  "project.local-meshcore-analyzer.desc": {
+    "value": "Windows rīks, kas savienojas ar tavu companion radio un rāda, cik daudz datplūsmas pārnes retranslatori tavā tuvumā. To var skatīt pēc reģiona, ziņas veida un kanāla. Tas arī atrod paketes, kas iet pa apli, un zīmē maršrutus kartē. Pakešu dati paliek tavā datorā. Bez maksas privātai, nekomerciālai lietošanai.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "22799ea6"
+  },
+  "project.lusofw.desc": {
+    "value": "MeshCore programmaparatūra no Portugāles kopienas, ko lieto arī Brazīlijā un Galisijā. Tā balstās uz standarta MeshCore un paliek ar to saderīga. Tai ir Portugālei pielāgoti noklusējumi, piemēram, reģioni pēc mezgla atrašanās vietas.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "4901d59c"
+  },
   "guides_group_start": {
     "value": "Tavs pirmais mezgls",
     "_ai": true,
@@ -3256,6 +3298,18 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "f52f6bd7"
+  },
+  "guides_card_repeater_checklist_title": {
+    "value": "Retranslatora kontrolsaraksts",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "e982ea2f"
+  },
+  "guides_card_repeater_checklist_desc": {
+    "value": "Pārbaudi savu retranslatoru, pirms to uzstādi: kas jāpārbauda caur USB, uz jumta un pirms aizej.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "0a1f63cf"
   },
   "guides_card_resilient_title": {
     "value": "Padari mesh tīklu noturīgu",
@@ -6124,6 +6178,18 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "695ddeef"
+  },
+  "menu_guide_repeater_checklist": {
+    "value": "Retranslatora kontrolsaraksts",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "e982ea2f"
+  },
+  "menu_guide_repeater_checklist_sub": {
+    "value": "Kas jāpārbauda pirms uzstādīšanas",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "29c34a2e"
   },
   "menu_guide_resilient": {
     "value": "Padari mesh tīklu noturīgu",

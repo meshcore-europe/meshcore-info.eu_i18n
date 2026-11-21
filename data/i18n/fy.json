@@ -3,7 +3,7 @@
     "language": "fy",
     "name": "Frysk",
     "managed_by": "community",
-    "updated": "2026-11-11"
+    "updated": "2026-11-21"
   },
   "site_tagline": {
     "value": "Berjochten sûnder netwurk, troch hiel Europa",
@@ -2267,6 +2267,12 @@
     "_seeded": "2026-10-31",
     "_source": "c57f1887"
   },
+  "community.nl-mesh-twente.desc": {
+    "value": "Telegram-chat, begûn troch meshers yn Twente. Meshers út Sallân, de Achterhoeke en de rest fan Oerisel, Drinte en Gelderlân binne ek wolkom.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "5f56d266"
+  },
   "community.be-radio-actief.desc": {
     "value": "Belgyske wiki en Discord, begûn troch radioamateurs dy't MeshCore ein 2025 nei Belgje brochten. Diel fan in bredere mienskip fan radiohobbyisten.",
     "_ai": true,
@@ -2362,6 +2368,12 @@
     "_ai": true,
     "_seeded": "2026-10-31",
     "_source": "d0895f3b"
+  },
+  "community.dk-meshcom-sonderjylland.desc": {
+    "value": "Deenske hantliedingen oer begjinnen, radioynstellingen en hardware, mei in bouferslach fan in repeater op sinne-enerzjy en in live analyzer.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "77f2c22e"
   },
   "community.se-meshat.desc": {
     "value": "Sweedsk moetingsplak foar mesh-netwurken, mei in forum, Discord en in Matrix-romte. Se rinne MeshCore-MQTT- en kaarttsjinsten en dogge ek oare mesh-projekten.",
@@ -2465,6 +2477,12 @@
     "_seeded": "2026-10-31",
     "_source": "3c6c5a0a"
   },
+  "community.fr-interconnexion-normand.desc": {
+    "value": "Boargermesh-netwurk foar Normandje, sadat minsken inoar berikke kinne as de gewoane netwurken útfalle. It begûn op Meshtastic en no testet it MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "d4699cac"
+  },
   "community.fr-loramesh.desc": {
     "value": "Frânske groep dy't mei MeshCore stap foar stap lokaal kontakt hâldt as ynternet of mobyl útfalle, mei in kaart fan aktive gebieten.",
     "_ai": true,
@@ -2566,6 +2584,18 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "5364e395"
+  },
+  "community.de-meshcore-rlp.desc": {
+    "value": "Iepen MeshCore-mienskip foar Rynlân-Palts, mei in nodekaart, in blog en in Telegram-groep.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "3e25994d"
+  },
+  "community.de-mesh-sn.desc": {
+    "value": "MeshCore-side foar Saksen, mei hantliedingen foar companions, repeaters en room servers. It Telegram-kanaal giet ek oer Meshtastic.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "0cae1c90"
   },
   "community.ie-mayo-mesh.desc": {
     "value": "Brûkersgroep foar meshradio yn County Mayo.",
@@ -3179,6 +3209,18 @@
     "_seeded": "2026-11-10",
     "_source": "e955c5f7"
   },
+  "project.local-meshcore-analyzer.desc": {
+    "value": "In Windows-ark dat ferbining makket mei dyn companion-radio. It lit sjen hokker repeaters by dy yn de buert hoefolle ferkear drage, per regio, berjochttype en kanaal. It fynt ek pakketten dy't yn in rûnte rinne en tekent de rûtes op in kaart. De pakketgegevens bliuwe op dyn kompjûter. Fergees foar privee, net-kommersjeel gebrûk.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "22799ea6"
+  },
+  "project.lusofw.desc": {
+    "value": "MeshCore-firmware fan de mienskip yn Portugal, ek brûkt yn Brazylje en Galisje. It bout fierder op standert MeshCore en bliuwt dêrmei kompatibel, mei Portugeeske standertynstellingen. Sa wurde regio's ynsteld út de posysje fan de node.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "4901d59c"
+  },
   "guides_group_start": {
     "value": "Dyn earste node",
     "_ai": true,
@@ -3256,6 +3298,18 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "f52f6bd7"
+  },
+  "guides_card_repeater_checklist_title": {
+    "value": "Repeater-kontrolelist",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "e982ea2f"
+  },
+  "guides_card_repeater_checklist_desc": {
+    "value": "Kontrolearje dyn repeater foardat er omheech giet: wat do kontrolearrest oer USB, op it dak en foardat do fuortgiest.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "0a1f63cf"
   },
   "guides_card_resilient_title": {
     "value": "Meitsje de mesh robúst",
@@ -6124,6 +6178,18 @@
     "_ai": true,
     "_seeded": "2026-10-31",
     "_source": "695ddeef"
+  },
+  "menu_guide_repeater_checklist": {
+    "value": "Repeater-kontrolelist",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "e982ea2f"
+  },
+  "menu_guide_repeater_checklist_sub": {
+    "value": "Wat do kontrolearrest foardat er omheech giet",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "29c34a2e"
   },
   "menu_guide_resilient": {
     "value": "Meitsje de mesh sterk",

@@ -3,7 +3,7 @@
     "language": "sk",
     "name": "Slovenčina",
     "managed_by": "community",
-    "updated": "2026-11-11"
+    "updated": "2026-11-21"
   },
   "site_tagline": {
     "value": "Správy mimo siete po celej Európe",
@@ -2267,6 +2267,12 @@
     "_seeded": "2026-11-02",
     "_source": "c57f1887"
   },
+  "community.nl-mesh-twente.desc": {
+    "value": "Telegram chat, ktorý založili mesheri v Twente. Vítaní sú aj mesheri zo Sallandu, Achterhoeku a zvyšku Overijsselu, Drenthe a Gelderlandu.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "5f56d266"
+  },
   "community.be-radio-actief.desc": {
     "value": "Belgická wiki a Discord, ktoré založili rádioamatéri, ktorí priniesli MeshCore do Belgicka koncom roka 2025. Patrí do širšej komunity rádiových nadšencov.",
     "_ai": true,
@@ -2362,6 +2368,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "d0895f3b"
+  },
+  "community.dk-meshcom-sonderjylland.desc": {
+    "value": "Dánske návody na začiatok, nastavenia rádia a hardvér, s denníkom stavby solárneho repeatera a živým analyzátorom.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "77f2c22e"
   },
   "community.se-meshat.desc": {
     "value": "Švédske miesto stretnutí pre mesh siete s fórom, Discord a miestnosťou v Matrixe. Prevádzkuje služby MQTT a mapy pre MeshCore a venuje sa aj iným mesh projektom.",
@@ -2465,6 +2477,12 @@
     "_seeded": "2026-11-02",
     "_source": "3c6c5a0a"
   },
+  "community.fr-interconnexion-normand.desc": {
+    "value": "Občianska mesh sieť pre Normandiu, aby sa ľudia spojili, keď bežné siete zlyhajú. Začala na Meshtastic a teraz testuje MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "d4699cac"
+  },
   "community.fr-loramesh.desc": {
     "value": "Francúzska skupina, ktorá s MeshCore udržiava miestny kontakt, keď zlyhá internet alebo mobilná sieť, krok za krokom, s mapou aktívnych oblastí.",
     "_ai": true,
@@ -2566,6 +2584,18 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "5364e395"
+  },
+  "community.de-meshcore-rlp.desc": {
+    "value": "Otvorená MeshCore komunita pre Porýnie-Falcko s mapou uzlov, blogom a Telegram skupinou.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "3e25994d"
+  },
+  "community.de-mesh-sn.desc": {
+    "value": "MeshCore stránka pre Sasko s návodmi pre companiony, repeatery a room servery. Jej Telegram kanál pokrýva aj Meshtastic.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "0cae1c90"
   },
   "community.ie-mayo-mesh.desc": {
     "value": "Skupina používateľov mesh rádií v grófstve Mayo.",
@@ -3179,6 +3209,18 @@
     "_seeded": "2026-11-10",
     "_source": "e955c5f7"
   },
+  "project.local-meshcore-analyzer.desc": {
+    "value": "Nástroj pre Windows, ktorý sa pripojí k tvojmu companion rádiu. Ukáže, koľko prevádzky nesú repeatery v tvojom okolí, podľa regiónu, typu správy a kanála. Nájde aj pakety, ktoré sa točia v slučke, a nakreslí trasy na mapu. Dáta paketov zostávajú v tvojom počítači. Zadarmo na súkromné, nekomerčné použitie.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "22799ea6"
+  },
+  "project.lusofw.desc": {
+    "value": "MeshCore firmvér od komunity v Portugalsku, používaný aj v Brazílii a Galícii. Stavia na štandardnom MeshCore a zostáva s ním kompatibilný. Má portugalské predvolené nastavenia, napríklad regióny nastavené podľa polohy uzla.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "4901d59c"
+  },
   "guides_group_start": {
     "value": "Tvoj prvý uzol",
     "_ai": true,
@@ -3256,6 +3298,18 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "f52f6bd7"
+  },
+  "guides_card_repeater_checklist_title": {
+    "value": "Kontrolný zoznam pre repeater",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "e982ea2f"
+  },
+  "guides_card_repeater_checklist_desc": {
+    "value": "Skontroluj svoj repeater pred montážou: čo overiť cez USB, na streche a pred odchodom.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "0a1f63cf"
   },
   "guides_card_resilient_title": {
     "value": "Sprav mesh sieť odolnou",
@@ -6124,6 +6178,18 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "695ddeef"
+  },
+  "menu_guide_repeater_checklist": {
+    "value": "Kontrolný zoznam pre repeater",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "e982ea2f"
+  },
+  "menu_guide_repeater_checklist_sub": {
+    "value": "Čo skontrolovať pred montážou",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "29c34a2e"
   },
   "menu_guide_resilient": {
     "value": "Sprav mesh odolný",

@@ -3,7 +3,7 @@
     "language": "pl",
     "name": "Polski",
     "managed_by": "community",
-    "updated": "2026-11-11"
+    "updated": "2026-11-21"
   },
   "site_tagline": {
     "value": "Wiadomości poza siecią w całej Europie",
@@ -2267,6 +2267,12 @@
     "_seeded": "2026-10-26",
     "_source": "c57f1887"
   },
+  "community.nl-mesh-twente.desc": {
+    "value": "Czat na Telegram założony przez meshersów z Twente. Meshersi z Salland, Achterhoek i reszty Overijssel, Drenthe i Geldrii też są mile widziani.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "5f56d266"
+  },
   "community.be-radio-actief.desc": {
     "value": "Belgijska wiki i Discord, założone przez krótkofalowców, którzy przynieśli MeshCore do Belgii pod koniec 2025 roku. Część szerszej społeczności hobbystów radiowych.",
     "_ai": true,
@@ -2362,6 +2368,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "d0895f3b"
+  },
+  "community.dk-meshcom-sonderjylland.desc": {
+    "value": "Duńskie poradniki o pierwszych krokach, ustawieniach radia i sprzęcie, z dziennikiem budowy solarnego przekaźnika i analizatorem na żywo.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "77f2c22e"
   },
   "community.se-meshat.desc": {
     "value": "Szwedzkie miejsce spotkań dla sieci mesh, z forum, Discordem i pokojem na Matrixie. Prowadzi usługi MQTT i mapy MeshCore oraz obejmuje też inne projekty mesh.",
@@ -2465,6 +2477,12 @@
     "_seeded": "2026-10-26",
     "_source": "3c6c5a0a"
   },
+  "community.fr-interconnexion-normand.desc": {
+    "value": "Obywatelska sieć mesh dla Normandii, dzięki której ludzie skontaktują się, gdy zawiodą zwykłe sieci. Zaczęła na Meshtastic, a teraz testuje MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "d4699cac"
+  },
   "community.fr-loramesh.desc": {
     "value": "Francuska grupa, która krok po kroku utrzymuje lokalny kontakt przez MeshCore, gdy internet lub sieć komórkowa zawodzą, z mapą aktywnych obszarów.",
     "_ai": true,
@@ -2566,6 +2584,18 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "5364e395"
+  },
+  "community.de-meshcore-rlp.desc": {
+    "value": "Otwarta społeczność MeshCore dla Nadrenii-Palatynatu, z mapą węzłów, blogiem i grupą na Telegram.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "3e25994d"
+  },
+  "community.de-mesh-sn.desc": {
+    "value": "Strona o MeshCore dla Saksonii, z poradnikami o companionach, przekaźnikach i room serverach. Jej kanał na Telegram obejmuje też Meshtastic.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "0cae1c90"
   },
   "community.ie-mayo-mesh.desc": {
     "value": "Grupa użytkowników radia mesh w hrabstwie Mayo.",
@@ -3179,6 +3209,18 @@
     "_seeded": "2026-11-10",
     "_source": "e955c5f7"
   },
+  "project.local-meshcore-analyzer.desc": {
+    "value": "Narzędzie dla Windows, które łączy się z twoim radiem companion. Pokazuje, ile ruchu przenoszą przekaźniki w twojej okolicy, według regionu, typu wiadomości i kanału. Znajduje też pakiety krążące w pętli i rysuje trasy na mapie. Dane pakietów zostają na twoim komputerze. Darmowe do prywatnego, niekomercyjnego użytku.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "22799ea6"
+  },
+  "project.lusofw.desc": {
+    "value": "Firmware MeshCore od społeczności w Portugalii, używany też w Brazylii i Galicji. Bazuje na standardowym MeshCore i pozostaje z nim zgodny. Ma portugalskie ustawienia domyślne, np. regiony ustawiane według pozycji węzła.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "4901d59c"
+  },
   "guides_group_start": {
     "value": "Twój pierwszy węzeł",
     "_ai": true,
@@ -3256,6 +3298,18 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "f52f6bd7"
+  },
+  "guides_card_repeater_checklist_title": {
+    "value": "Lista kontrolna przekaźnika",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "e982ea2f"
+  },
+  "guides_card_repeater_checklist_desc": {
+    "value": "Sprawdź przekaźnik, zanim go zamontujesz: co sprawdzić przez USB, na dachu i przed odejściem.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "0a1f63cf"
   },
   "guides_card_resilient_title": {
     "value": "Uodpornij siatkę",
@@ -6124,6 +6178,18 @@
     "_ai": true,
     "_seeded": "2026-10-27",
     "_source": "695ddeef"
+  },
+  "menu_guide_repeater_checklist": {
+    "value": "Lista kontrolna przekaźnika",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "e982ea2f"
+  },
+  "menu_guide_repeater_checklist_sub": {
+    "value": "Co sprawdzić przed montażem",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "29c34a2e"
   },
   "menu_guide_resilient": {
     "value": "Uodpornij siatkę",
