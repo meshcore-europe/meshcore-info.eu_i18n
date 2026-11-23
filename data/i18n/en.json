@@ -631,7 +631,7 @@
   "regions_map_label": "on the MeshCore Analyzer's map",
   "regions_cmd_hint": "Pick your province, or type its code over the highlighted value, then copy.",
   "regions_cmd_hint_town": "Type your town in the box above, if your area uses one, then copy.",
-  "regions_cmd_hint_district": "Pick your district. Your repeater gets the district and the macro region it belongs to, both directly under your country. Then copy.",
+  "regions_cmd_hint_district": "Pick your district and your macro region, then copy. A macro region's border does not follow the districts. Your repeater gets both, directly under your country.",
   "area_ph_hint": "Type your own values over the highlighted ones, then copy.",
   "area_ph_province": "Your province",
   "area_ph_city": "Your city",
