@@ -3623,12 +3623,7 @@
     "_seeded": "2026-10-26",
     "_source": "e595f45d"
   },
-  "regions_pick": {
-    "value": "A tua província ou região",
-    "_ai": true,
-    "_seeded": "2026-10-26",
-    "_source": "ed5a1c0e"
-  },
+  "regions_pick": "A tua província ou região",
   "regions_pick_none": {
     "value": "Escolhe uma",
     "_ai": true,
@@ -3647,12 +3642,8 @@
     "_seeded": "2026-10-26",
     "_source": "a6221a2f"
   },
-  "regions_district": {
-    "value": "O código do teu distrito ou ilha",
-    "_ai": true,
-    "_seeded": "2026-11-04",
-    "_source": "f46ccde8"
-  },
+  "regions_district": "Distrito onde reside o repetidor",
+  "regions_macro": "Macro região onde reside o repetidor",
   "regions_preset_pick": {
     "value": "A predefinição do teu rádio",
     "_ai": true,
