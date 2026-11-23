@@ -3,7 +3,7 @@
     "language": "de",
     "name": "Deutsch",
     "managed_by": "community",
-    "updated": "2026-11-11"
+    "updated": "2026-11-21"
   },
   "site_tagline": {
     "value": "Nachrichten ohne Netz, in ganz Europa",
@@ -2267,6 +2267,12 @@
     "_seeded": "2026-10-26",
     "_source": "c57f1887"
   },
+  "community.nl-mesh-twente.desc": {
+    "value": "Telegram-Chat, den Mesher in Twente gegründet haben. Mesher aus Salland, dem Achterhoek und dem Rest von Overijssel, Drenthe und Gelderland sind auch willkommen.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "5f56d266"
+  },
   "community.be-radio-actief.desc": {
     "value": "Belgisches Wiki und Discord, gestartet von Funkamateuren, die MeshCore Ende 2025 nach Belgien brachten. Teil einer größeren Funkhobby-Community.",
     "_ai": true,
@@ -2362,6 +2368,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "d0895f3b"
+  },
+  "community.dk-meshcom-sonderjylland.desc": {
+    "value": "Dänische Anleitungen zum Einstieg, zu Funkeinstellungen und Hardware, mit einem Baubericht für einen Solar-Repeater und einem Live-Analyzer.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "77f2c22e"
   },
   "community.se-meshat.desc": {
     "value": "Schwedischer Treffpunkt für Mesh-Networking, mit Forum, Discord und einem Matrix-Raum. Er betreibt MeshCore-MQTT- und Kartendienste und deckt auch andere Mesh-Projekte ab.",
@@ -2465,6 +2477,12 @@
     "_seeded": "2026-10-26",
     "_source": "3c6c5a0a"
   },
+  "community.fr-interconnexion-normand.desc": {
+    "value": "Bürger-Mesh-Netz für die Normandie, damit Menschen sich erreichen, wenn die üblichen Netze ausfallen. Es begann mit Meshtastic und testet jetzt MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "d4699cac"
+  },
   "community.fr-loramesh.desc": {
     "value": "Französische Gruppe, die mit MeshCore den lokalen Kontakt aufrechterhält, wenn Internet oder Mobilfunk ausfallen, Schritt für Schritt, mit einer Karte der aktiven Gebiete.",
     "_ai": true,
@@ -2566,6 +2584,18 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "5364e395"
+  },
+  "community.de-meshcore-rlp.desc": {
+    "value": "Offene MeshCore-Community für Rheinland-Pfalz, mit einer Knoten-Karte, einem Blog und einer Telegram-Gruppe.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "3e25994d"
+  },
+  "community.de-mesh-sn.desc": {
+    "value": "MeshCore-Seite für Sachsen, mit Anleitungen für Companions, Repeater und Room Server. Ihr Telegram-Kanal behandelt auch Meshtastic.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "0cae1c90"
   },
   "community.ie-mayo-mesh.desc": {
     "value": "Nutzergruppe für Mesh-Funk im County Mayo.",
@@ -3179,6 +3209,18 @@
     "_seeded": "2026-11-10",
     "_source": "e955c5f7"
   },
+  "project.local-meshcore-analyzer.desc": {
+    "value": "Ein Windows-Tool, das sich mit deinem Companion-Funkgerät verbindet. Es zeigt, welche Repeater in deiner Nähe wie viel Verkehr tragen, nach Region, Nachrichtentyp und Kanal. Es findet auch Pakete, die im Kreis laufen, und zeichnet die Routen auf einer Karte. Die Paketdaten bleiben auf deinem Computer. Kostenlos für private, nicht kommerzielle Nutzung.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "22799ea6"
+  },
+  "project.lusofw.desc": {
+    "value": "MeshCore-Firmware der Community in Portugal, auch in Brasilien und Galicien genutzt. Sie baut auf dem Standard-MeshCore auf und bleibt damit kompatibel. Sie hat portugiesische Voreinstellungen, etwa Regionen, die aus der Position des Knotens gesetzt werden.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "4901d59c"
+  },
   "guides_group_start": {
     "value": "Dein erster Knoten",
     "_ai": true,
@@ -3256,6 +3298,18 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "f52f6bd7"
+  },
+  "guides_card_repeater_checklist_title": {
+    "value": "Repeater-Checkliste",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "e982ea2f"
+  },
+  "guides_card_repeater_checklist_desc": {
+    "value": "Prüfe deinen Repeater, bevor er aufgebaut wird: was du per USB prüfst, auf dem Dach und bevor du gehst.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "0a1f63cf"
   },
   "guides_card_resilient_title": {
     "value": "Mach das Mesh widerstandsfähig",
@@ -6124,6 +6178,18 @@
     "_ai": true,
     "_seeded": "2026-10-27",
     "_source": "695ddeef"
+  },
+  "menu_guide_repeater_checklist": {
+    "value": "Repeater-Checkliste",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "e982ea2f"
+  },
+  "menu_guide_repeater_checklist_sub": {
+    "value": "Was du vor dem Aufbau prüfst",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "29c34a2e"
   },
   "menu_guide_resilient": {
     "value": "Mach das Mesh widerstandsfähig",

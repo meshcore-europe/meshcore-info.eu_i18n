@@ -6,11 +6,11 @@ eyebrow: 868 MHz · až 500 mW · bez licence
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 Na repeaterech stojí celý mesh. Companiony, tedy vysílačky, ze kterých posíláš zprávy, je dál nepředávají. Bez repeaterů proto zastihneš jen lidi v přímém dosahu. Repeater na správném místě rozšíří mesh všem kolem sebe. Tento návod vychází z firmwaru MeshCore v1.18.0.
@@ -78,7 +78,10 @@ repeatery slyší.
 
 ## Napájení a dimenzování solární sestavy {#power}
 
-Solární repeater musí přežít nejtemnější týdny zimy. Podle nich ho dimenzuj:
+Solární repeater musí vydržet nejtemnější týdny zimy. Nejdřív zapni úsporu
+energie: po `powersaving on` repeater mezi pakety spí. Funguje to na deskách
+nRF52 a na deskách ESP32, jejichž firmware nemá bridge. Pak dimenzuj baterii
+a panel:
 
 1. **Změř spotřebu.** Nech nastavený repeater běžet jeden den přes USB měřič spotřeby. Odečti spotřebovanou energii ve watthodinách (Wh). Hodnotu ovlivňuje provoz ve tvé oblasti, takže měř pokud možno přímo na místě.
 2. **Přidej rezervu.** Kapacitu baterie plánuj alespoň na 5 až 7 dní bez využitelného slunce.
@@ -95,22 +98,44 @@ Příklad výpočtu s předpokládanými hodnotami: repeater se spotřebou 1 Wh 
 
 | Co | Příkaz |
 |---|---|
-| Změna hesla správce | `password <new password>` |
-| Pojmenování | `set name <name>` |
-| Rádiový preset: frekvence, šířka pásma, SF, CR (projeví se po restartu) | `set radio 869.618,62.5,8,8` |
-| Limit střídy provozu v procentech | `set dutycycle 10` |
+| Změň heslo správce | `password <new password>` |
+| Heslo pro hosty, kteří si mohou přečíst jeho stav | `set guest.password <password>` |
+| Pojmenuj ho | `set name <name>` |
+| Předvolba rádia: frekvence, šířka pásma, SF, CR (projeví se po restartu) | `set radio 869.618,62.5,8,8` |
+| Limit střídy vysílání (duty cycle) v procentech | `set dutycycle 10` |
 | Vysílací výkon rádiového čipu v dBm | `set tx <dBm>` |
-| Poloha, aby se repeater zobrazil na mapách | `set lat <degrees>` a `set lon <degrees>` |
+| Poloha, aby se zobrazoval na mapách | `set lat <degrees>` a `set lon <degrees>` |
 | Kontaktní údaje pro ostatní provozovatele | `set owner.info <text>` |
 | Počet hodin mezi flood adverty, tedy těmi, které slyší celý mesh | `set flood.advert.interval <hours>` |
-| Okamžité ohlášení | `advert` |
+| Ohlas ho hned | `advert` |
 | Restart | `reboot` |
 
 Výchozí heslo správce je `password` a kdokoli se s ním přihlásí, stane se správcem. Změň ho dřív, než repeater začne vysílat.
 
+Heslo pro hosty je na začátku prázdné. Kdokoli se pak může přihlásit jako host bez
+hesla a číst stav repeateru a jeho sousedy. Každý takový dotaz vytváří
+provoz v meshi. Nastav heslo pro hosty a dej ho lidem, kteří ho potřebují.
+
+**Vyber jméno.** Pojmenuj ho tak, jak repeatery pojmenovává tvoje místní skupina.
+Pokud skupinu nemáš, dej do jména zemi, místo a krátký název, například
+`DE-63477-MUF1`. Ostatní provozovatelé pak vidí, kde repeater stojí. Jméno
+pojme nejvýš 31 bajtů a do advertu, který nese i polohu, se jich vejde 23.
+
 Příklad `set radio` výše platí pro EU/UK (Narrow). Místo něj použij hodnoty presetu pro svou oblast: najdeš je podle zemí v části [Doporučená nastavení](/guides/settings/).
 
-**Nastav hodiny.** Bez modulu hodin (RTC) repeater při každém výpadku napájení ztratí čas a po startu začíná v květnu 2024. Za běhu se mu hodiny navíc rozcházejí: stále víc se předbíhají nebo zpožďují. Proto hodiny občas nastav: přihlas se vzdáleně z aplikace a použij `clock sync`, nebo nastav čas přes USB. S modulem RTC to potřebuješ jen zřídka: udrží čas i při výpadku napájení a rozchází se mnohem méně.
+**Nastav hodiny.** Bez modulu hodin (RTC) repeater při každém výpadku napájení
+ztratí čas a po restartu ukazuje květen 2024. Za provozu se jeho hodiny navíc
+rozcházejí: předbíhají nebo se zpožďují. Hodiny proto čas od času nastav:
+přihlas se na dálku z aplikace a použij `clock sync`, nebo nastav čas přes USB.
+S modulem RTC to potřebuješ zřídka: modul udrží čas i při výpadku napájení
+a rozchází se mnohem méně. Firmware sám najde modul DS3231, RV3028, PCF8563
+nebo RX8130.
+
+**Deska s GPS** nastaví obojí za tebe. Po `gps on` si repeater každých 30 minut
+převezme čas z GPS a `gps setloc` zkopíruje jeho polohu do `lat` a `lon`. GPS
+spotřebovává energii po celou dobu, kdy je zapnutá. Při napájení ze slunce spusť
+`gps setloc` jednou na místě a pak ji vypni příkazem `gps off`. Hodiny pak znovu
+potřebují `clock sync`.
 
 **Spravuj ho na dálku.** Jakmile je repeater v meshi, přihlas se k němu z aplikace MeshCore heslem správce. V aplikaci vidíš jeho stav a stejné příkazy zadáváš přes rádio. Některé příkazy fungují jen přes USB, například `set freq` a tovární reset `erase`.
 
@@ -128,7 +153,13 @@ Když už je repeater nahoře, aktualizuješ ho ze země. Přihlas se z aplikace
 2. Zadej `start ota`. Repeater odpoví `OK` a přes Bluetooth se zobrazí jako `<board>_OTA`, například `RAK4631_OTA`.
 3. V telefonu otevři aplikaci nRF Device Firmware Update, vyber ZIP a repeater a spusť nahrávání. Trvá to několik minut.
 
-Než desku nRF52 vyneseš nahoru, nainstaluj na ni [bootloader OTAFIX](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX). Se standardním bootloaderem opravíš nepovedenou aktualizaci jen přes USB. S OTAFIX se deska vrátí do aktualizačního režimu a zkusíš to znovu přes Bluetooth.
+Než desku nRF52 vyneseš nahoru, nahraj do ní [bootloader OTAFIX](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX).
+S původním bootloaderem opravíš nepovedenou aktualizaci jen přes USB.
+S bootloaderem OTAFIX se deska vrátí do režimu aktualizace a aktualizaci zkusíš znovu přes Bluetooth.
+Příkaz `get bootloader.ver` ukáže, který bootloader deska má: u OTAFIX
+odpověď obsahuje `OTAFIX`.
+
+Po aktualizaci ukáže `ver`, která verze firmwaru teď běží.
 
 **Desky ESP32**, například Heltec V3 a V4:
 
@@ -185,15 +216,6 @@ Tyto poznámky nejsou právní rada. Pravidla se mění. V případě pochybnost
 
 ## Kontrolní seznam před nasazením {#checklist}
 
-- [ ] Majitel místa souhlasil a k repeateru se dostaneš kvůli údržbě.
-- [ ] Na desce běží firmware **Repeater** a anténa byla připojená před prvním zapnutím.
-- [ ] Heslo správce je změněné.
-- [ ] Rádio odpovídá [presetu pro tvoji oblast](/guides/settings/) (`get radio`).
-- [ ] Je nastaveno `set dutycycle 10`.
-- [ ] Vysílací výkon plus zisk antény zůstává v limitu 500 mW e.r.p.
-- [ ] Jméno, poloha a `owner.info` jsou nastavené, aby ostatní věděli, kdo repeater provozuje.
-- [ ] Hodiny jsou nastavené (`clock`).
-- [ ] Krabička je utěsněná, má odtokový nebo větrací otvor a kabel má odkapávací smyčku.
-- [ ] Baterie a panel jsou dimenzované na nejhorší zimní měsíc.
-- [ ] Před odchodem z místa máš repeater otestovaný z dálky v aplikaci.
-- [ ] Tvoje místní skupina ví, že repeater běží.
+Než repeater vyneseš nahoru, projdi si
+[kontrolní seznam pro repeater](/guides/repeater-checklist/). Uvádí každou položku
+ke kontrole i s příkazem, který ji zobrazí.

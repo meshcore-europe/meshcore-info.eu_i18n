@@ -6,11 +6,11 @@ eyebrow: 868 MHz · fino a 500 mW · senza licenza
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 I ripetitori reggono la mesh. I companion, cioè le radio da cui invii i messaggi, non inoltrano i messaggi. Senza ripetitori raggiungi solo chi è nel tuo raggio diretto. Un ripetitore nel posto giusto estende la mesh per tutti quelli intorno. Questa guida segue il firmware MeshCore v1.18.0.
@@ -78,7 +78,10 @@ ripetitori riceve.
 
 ## Alimentazione e dimensionamento solare {#power}
 
-Un ripetitore solare deve superare le settimane più buie dell'inverno. Dimensionalo per quelle:
+Un ripetitore solare deve superare le settimane più buie dell'inverno. Prima attiva
+il risparmio energetico: dopo `powersaving on` il ripetitore dorme tra un pacchetto
+e l'altro. Funziona sulle schede nRF52 e sulle schede ESP32 il cui firmware non ha
+un bridge. Poi dimensiona la batteria e il pannello:
 
 1. **Misura il consumo.** Collega il ripetitore configurato a un misuratore di potenza USB per un giorno. Leggi l'energia consumata in wattora (Wh). Il traffico della tua zona cambia il valore, quindi se puoi misura sul posto.
 2. **Aggiungi una riserva.** Prevedi una batteria che basti per almeno 5-7 giorni senza sole utile.
@@ -95,22 +98,44 @@ Un esempio pratico, con numeri ipotetici: un ripetitore che consuma 1 Wh al gior
 
 | Cosa | Comando |
 |---|---|
-| Cambiare la password di amministratore | `password <new password>` |
-| Dargli un nome | `set name <name>` |
+| Cambia la password di amministratore | `password <new password>` |
+| Password per gli ospiti, che possono leggerne lo stato | `set guest.password <password>` |
+| Dagli un nome | `set name <name>` |
 | Preset radio: frequenza, larghezza di banda, SF, CR (riavvia per applicarlo) | `set radio 869.618,62.5,8,8` |
 | Limite di duty cycle, in percentuale | `set dutycycle 10` |
 | Potenza di trasmissione del chip radio, in dBm | `set tx <dBm>` |
-| Posizione, per farlo comparire sulle mappe | `set lat <degrees>` e `set lon <degrees>` |
-| Recapiti per gli altri operatori | `set owner.info <text>` |
-| Ore tra un annuncio flood e l'altro, quelli che sente tutta la mesh | `set flood.advert.interval <hours>` |
-| Annunciarlo subito | `advert` |
-| Riavviare | `reboot` |
+| Posizione, per farlo apparire sulle mappe | `set lat <degrees>` e `set lon <degrees>` |
+| Recapiti per gli altri gestori | `set owner.info <text>` |
+| Ore tra gli annunci flood, quelli che sente tutta la mesh | `set flood.advert.interval <hours>` |
+| Annuncialo subito | `advert` |
+| Riavvia | `reboot` |
 
 La password di amministratore predefinita è `password`, e chiunque accede con questa diventa amministratore. Cambiala prima che il ripetitore vada in onda.
 
+All'inizio la password per gli ospiti è vuota. Così chiunque può accedere come ospite senza
+password e leggere lo stato del ripetitore e i suoi vicini. Ogni richiesta è
+traffico sulla mesh. Imposta una password per gli ospiti e dalla a chi ne
+ha bisogno.
+
+**Scegli un nome.** Chiamalo come il tuo gruppo locale chiama i suoi ripetitori.
+Se non hai un gruppo, mettici il paese, il luogo e un nome breve, per esempio
+`DE-63477-MUF1`. Così gli altri gestori vedono dove si trova il ripetitore. Un nome
+può avere fino a 31 byte, e in un annuncio che contiene anche una posizione ne entrano 23.
+
 L'esempio `set radio` qui sopra è EU/UK (Narrow). Usa invece i valori del preset della tua zona: in [Impostazioni consigliate](/guides/settings/) li trovi per paese.
 
-**Imposta l'orologio.** Senza un modulo orologio (RTC), un ripetitore perde l'ora a ogni interruzione di corrente e riparte da maggio 2024. Anche mentre funziona, il suo orologio deriva: va sempre più avanti o indietro. Quindi imposta l'orologio ogni tanto: accedi da remoto dall'app e usa `clock sync`, o imposta l'ora via USB. Con un modulo RTC capita di rado: mantiene l'ora durante le interruzioni di corrente e deriva molto meno.
+**Regola l'orologio.** Senza un modulo orologio (RTC), un ripetitore perde l'ora
+a ogni interruzione di corrente e riparte da maggio 2024. Anche mentre è acceso, il suo orologio
+deriva: va sempre più avanti o più indietro. Quindi regola l'orologio ogni tanto: accedi
+da remoto dall'app e usa `clock sync`, oppure imposta l'ora via USB. Con
+un modulo RTC devi farlo di rado: il modulo tiene l'ora anche senza corrente e
+deriva molto meno. Il firmware riconosce da solo un modulo DS3231, RV3028, PCF8563 o RX8130.
+
+**Una scheda con GPS** li imposta entrambi al posto tuo. Dopo `gps on` il ripetitore prende
+l'ora dal GPS ogni 30 minuti, e `gps setloc` copia la sua posizione in
+`lat` e `lon`. Il GPS consuma energia per tutto il tempo in cui resta acceso. Con l'alimentazione solare,
+esegui `gps setloc` una volta sul posto e spegni il GPS con `gps off`. Dopo, l'orologio
+richiede di nuovo `clock sync`.
 
 **Gestiscilo da remoto.** Quando è nella mesh, accedi dall'app MeshCore con la password di amministratore. Lì leggi il suo stato e usi gli stessi comandi via radio. Alcuni comandi funzionano solo via USB, come `set freq` e il reset di fabbrica `erase`.
 
@@ -128,7 +153,13 @@ Quando il ripetitore è in alto, lo aggiorni da terra. Accedi dall'app MeshCore 
 2. Digita `start ota`. Il ripetitore risponde `OK` e compare via Bluetooth come `<board>_OTA`, per esempio `RAK4631_OTA`.
 3. Apri l'app nRF Device Firmware Update sul telefono, scegli lo ZIP e il ripetitore, e avvia il caricamento. Ci vogliono pochi minuti.
 
-Installa il [bootloader OTAFIX](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX) su una scheda nRF52 prima di montarla in alto. Con il bootloader originale, un aggiornamento fallito si ripara solo via USB. Con OTAFIX la scheda torna in modalità aggiornamento, e tu riprovi via Bluetooth.
+Installa il [bootloader OTAFIX](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX)
+su una scheda nRF52 prima di installarla in alto. Con il bootloader di serie, un
+aggiornamento fallito si ripara solo via USB. Con OTAFIX la scheda torna in
+modalità aggiornamento e tu riprovi via Bluetooth. `get bootloader.ver` mostra
+quale bootloader ha la scheda: con OTAFIX la risposta contiene `OTAFIX`.
+
+Dopo un aggiornamento, `ver` mostra la versione del firmware che gira ora.
 
 **Schede ESP32**, come le Heltec V3 e V4:
 
@@ -187,15 +218,6 @@ Queste note non sono una consulenza legale. Le norme cambiano; nel dubbio, verif
 
 ## Checklist di installazione {#checklist}
 
-- [ ] Il proprietario del sito è d'accordo, e puoi accedere al ripetitore per la manutenzione.
-- [ ] La scheda ha il firmware **Repeater**, e l'antenna era collegata prima della prima accensione.
-- [ ] La password di amministratore è cambiata.
-- [ ] La radio corrisponde al [preset della tua zona](/guides/settings/) (`get radio`).
-- [ ] `set dutycycle 10` è impostato.
-- [ ] La potenza di trasmissione più il guadagno d'antenna resta entro 500 mW e.r.p.
-- [ ] Nome, posizione e `owner.info` sono impostati, così gli altri sanno chi lo gestisce.
-- [ ] L'orologio è impostato (`clock`).
-- [ ] Il contenitore è sigillato, con un foro di drenaggio o di sfiato, e il cavo ha un'ansa di gocciolamento.
-- [ ] Batteria e pannello sono dimensionati per il mese invernale peggiore.
-- [ ] L'hai provato a distanza con l'app prima di lasciare il sito.
-- [ ] Il tuo gruppo locale sa che è attivo.
+Prima di montare il ripetitore in alto, segui la
+[checklist del ripetitore](/guides/repeater-checklist/). Indica ogni punto da
+controllare, con il comando che lo mostra.

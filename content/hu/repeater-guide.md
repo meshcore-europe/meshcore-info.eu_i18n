@@ -6,11 +6,11 @@ eyebrow: 868 MHz · legfeljebb 500 mW · engedély nélkül
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 Az átjátszók tartják össze a mesh-t. A companionök (a rádiók, amelyekről üzenetet küldesz) nem
@@ -103,8 +103,7 @@ az új épületeket magad ellenőrizd, aztán vigyél ki egy companiont a helysz
 
 ## Táplálás és a napelem méretezése {#power}
 
-A napelemes átjátszónak ki kell bírnia a tél legsötétebb heteit. Ezekre
-méretezd:
+A napelemes átjátszónak a tél legsötétebb heteit is ki kell bírnia. Először kapcsold be az energiatakarékos módot: a `powersaving on` parancs után az átjátszó alszik a csomagok között. Ez működik az nRF52 lapokon, és azokon az ESP32 lapokon is, amelyek firmware-ében nincs bridge. Ezután méretezd az akkumulátort és a napelemet:
 
 1. **Mérd meg a terhelést.** Járasd a beállított átjátszót egy napig egy USB-s
    fogyasztásmérőn keresztül. Olvasd le a felhasznált energiát wattórában (Wh). A környékbeli
@@ -134,30 +133,43 @@ nyisd meg a [config.meshcore.io](https://config.meshcore.io) oldalt vagy a flash
 konzolját. Bármilyen soros terminált is használhatsz 115200 baudon. A legfontosabb
 parancsok:
 
-| Mit | Parancs |
+| Teendő | Parancs |
 |---|---|
 | Az admin jelszó módosítása | `password <new password>` |
+| Jelszó a vendégeknek, akik lekérdezhetik az állapotát | `set guest.password <password>` |
 | Elnevezés | `set name <name>` |
-| Rádiós preset: frekvencia, sávszélesség, SF, CR (újraindítás után érvényes) | `set radio 869.618,62.5,8,8` |
+| Rádiós előbeállítás: frekvencia, sávszélesség, SF, CR (újraindítás után lép életbe) | `set radio 869.618,62.5,8,8` |
 | Kitöltési tényező korlátja, százalékban | `set dutycycle 10` |
-| A rádiócsip adóteljesítménye, dBm-ben | `set tx <dBm>` |
+| A rádiócsip adási teljesítménye, dBm-ben | `set tx <dBm>` |
 | Pozíció, hogy megjelenjen a térképeken | `set lat <degrees>` és `set lon <degrees>` |
-| Elérhetőség más üzemeltetők számára | `set owner.info <text>` |
-| Órák száma a flood advertek között (ezeket az egész mesh hallja) | `set flood.advert.interval <hours>` |
+| Elérhetőség a többi üzemeltetőnek | `set owner.info <text>` |
+| A flood advertek közötti órák száma (ezeket az egész mesh hallja) | `set flood.advert.interval <hours>` |
 | Azonnali bejelentés | `advert` |
 | Újraindítás | `reboot` |
 
 Az alapértelmezett admin jelszó `password`, és aki ezzel lép be,
 admin lesz. Változtasd meg, mielőtt az átjátszó adásba kerül.
 
+A vendégjelszó alapból üres. Így bárki jelszó nélkül beléphet vendégként, és
+megnézheti az átjátszó állapotát és a szomszédait. Minden lekérdezés forgalmat
+jelent a mesh-en. Állíts be vendégjelszót, és add meg azoknak, akiknek szükségük
+van rá.
+
+**Válassz nevet.** Úgy nevezd el, ahogy a helyi csoportod is elnevezi az átjátszóit.
+Ha nincs csoportod, írd bele az országot, a helyet és egy rövid nevet, például
+`DE-63477-MUF1`. Így a többi üzemeltető látja, hol van az átjátszó. A név
+legfeljebb 31 bájt lehet, és ebből 23 fér el egy olyan advertben, amely pozíciót is tartalmaz.
+
 A fenti `set radio` példa az EU/UK (Narrow) presetre vonatkozik. Helyette a környéked presetjének értékeit használd:
 a [Javasolt beállítások](/guides/settings/) oldal országonként felsorolja őket.
 
-**Állítsd be az órát.** Óramodul (RTC) nélkül az átjátszó minden áramszünetnél elveszíti
-az időt, és újraindulás után 2024 májusát mutatja. Működés közben az órája el is csúszik:
-egyre jobban siet vagy késik. Ezért időnként állítsd be: lépj be távolról
-az appból, és használd a `clock sync` parancsot, vagy állítsd be az időt USB-n. RTC modullal
-ritkán kell ezt megtenned: az áramszünetek alatt is megtartja az időt, és sokkal kevésbé csúszik el.
+**Állítsd be az órát.** Óramodul (RTC) nélkül az átjátszó minden áramszünetnél elveszíti az időt, és 2024 májusára áll vissza. Működés közben az órája el is csúszik: egyre jobban siet vagy késik. Ezért időnként állítsd be az órát: lépj be távolról az alkalmazásból, és használd a `clock sync` parancsot, vagy állítsd be az időt USB-n. RTC modullal erre ritkán van szükség: áramszünet alatt is megőrzi az időt, és sokkal kevésbé csúszik el. A firmware magától felismeri a DS3231, RV3028, PCF8563 vagy RX8130 modult.
+
+**GPS-es panellel** mindkettő beáll magától. A `gps on` után az átjátszó 30 percenként
+a GPS-ből veszi át az időt, a `gps setloc` pedig beírja a pozícióját a
+`lat` és `lon` értékekbe. A GPS bekapcsolva folyamatosan fogyaszt. Napelemes táplálásnál
+a helyszínen egyszer futtasd le a `gps setloc` parancsot, aztán kapcsold ki a `gps off` paranccsal.
+Ezután az órát megint a `clock sync` paranccsal kell beállítanod.
 
 **Kezeld távolról.** Amikor már a mesh-en van, lépj be a MeshCore appból
 az admin jelszóval. Itt látod az állapotát, és ugyanazokat a parancsokat rádión keresztül is
@@ -189,9 +201,12 @@ ezeket USB-n frissíted.
    az átjátszót, majd töltsd fel. Néhány percig tart.
 
 Telepítsd az [OTAFIX bootloadert](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX)
-az nRF52 panelre, mielőtt felszereled. A gyári bootloaderrel egy sikertelen
-frissítést csak USB-n lehet helyrehozni. OTAFIX-szel a panel visszaáll
-frissítési módba, és Bluetooth-on újra próbálkozhatsz.
+az nRF52-es panelre, mielőtt felszereled. A gyári bootloaderrel a sikertelen
+frissítést csak USB-n tudod helyrehozni. OTAFIX-szel a panel visszalép
+frissítési módba, és Bluetooth-on újra megpróbálhatod. A `get bootloader.ver`
+parancs megmutatja, melyik van a panelen: OTAFIX esetén a válaszban szerepel az `OTAFIX`.
+
+Frissítés után a `ver` parancs megmutatja, melyik firmware-verzió fut most.
 
 **ESP32 panelek**, például a Heltec V3 és V4:
 
@@ -283,17 +298,6 @@ a nemzeti hírközlési hatóságnál.
 
 ## Telepítési ellenőrzőlista {#checklist}
 
-- [ ] A helyszín tulajdonosa beleegyezett, és karbantartáskor hozzáférsz az átjátszóhoz.
-- [ ] A panelen a **Repeater** firmware fut, és az antennát az első bekapcsolás előtt
-      csatlakoztattad.
-- [ ] Az admin jelszót megváltoztattad.
-- [ ] A rádió megfelel [a környéked presetjének](/guides/settings/) (`get radio`).
-- [ ] A `set dutycycle 10` be van állítva.
-- [ ] Az adóteljesítmény és az antennanyereség együtt nem lépi túl az 500 mW e.r.p. értéket.
-- [ ] A név, a pozíció és az `owner.info` be van állítva, így mások tudják, ki üzemelteti.
-- [ ] Az óra be van állítva (`clock`).
-- [ ] A doboz le van zárva, van rajta vízelvezető vagy szellőzőnyílás, és a kábelen van
-      csepegtető hurok.
-- [ ] Az akkumulátor és a napelem a legrosszabb téli hónapra van méretezve.
-- [ ] A helyszín elhagyása előtt távolról kipróbáltad az appal.
-- [ ] A helyi csoportod tudja, hogy működik.
+Mielőtt felszereled az átjátszót, menj végig az
+[átjátszó-ellenőrzőlistán](/guides/repeater-checklist/). Felsorolja, mit kell
+ellenőrizned, és mindegyikhez megadja a parancsot, amellyel ezt megnézheted.

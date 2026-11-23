@@ -3,7 +3,7 @@
     "language": "ga",
     "name": "Gaeilge",
     "managed_by": "community",
-    "updated": "2026-11-11"
+    "updated": "2026-11-21"
   },
   "site_tagline": {
     "value": "Teachtaireachtaí lasmuigh den eangach ar fud na hEorpa",
@@ -2267,6 +2267,12 @@
     "_seeded": "2026-11-02",
     "_source": "c57f1887"
   },
+  "community.nl-mesh-twente.desc": {
+    "value": "Comhrá Telegram a thosaigh lucht mogalra i Twente. Tá fáilte freisin roimh lucht mogalra ó Salland, ón Achterhoek agus ón gcuid eile de Overijssel, Drenthe agus Gelderland.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "5f56d266"
+  },
   "community.be-radio-actief.desc": {
     "value": "Vicí agus Discord Beilgeach, a thosaigh amaitéaraigh raidió a thug MeshCore go dtí an Bheilg go déanach in 2025. Is cuid de phobal níos leithne caitheamh aimsire raidió é.",
     "_ai": true,
@@ -2362,6 +2368,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "d0895f3b"
+  },
+  "community.dk-meshcom-sonderjylland.desc": {
+    "value": "Treoracha Danmhairgise ar thosú amach, ar shocruithe raidió agus ar chrua-earraí, le dialann tógála d'athsheoltóir gréine agus anailíseoir beo.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "77f2c22e"
   },
   "community.se-meshat.desc": {
     "value": "Áit chruinnithe Sualannach do líonrú mogaill, le fóram, Discord agus seomra Matrix. Reáchtálann sé seirbhísí MQTT agus léarscáile MeshCore agus clúdaíonn sé tionscadail mhogaill eile freisin.",
@@ -2465,6 +2477,12 @@
     "_seeded": "2026-11-02",
     "_source": "3c6c5a0a"
   },
+  "community.fr-interconnexion-normand.desc": {
+    "value": "Líonra mogalra saoránach don Normainn, ionas gur féidir le daoine teagmháil a dhéanamh lena chéile nuair a theipeann ar na gnáthlíonraí. Thosaigh sé ar Meshtastic agus anois tá MeshCore á thástáil aige.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "d4699cac"
+  },
   "community.fr-loramesh.desc": {
     "value": "Grúpa Francach a choinníonn teagmháil áitiúil ar siúl le MeshCore nuair a theipeann ar an idirlíon nó ar an líonra soghluaiste, céim ar chéim, le léarscáil de limistéir ghníomhacha.",
     "_ai": true,
@@ -2566,6 +2584,18 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "5364e395"
+  },
+  "community.de-meshcore-rlp.desc": {
+    "value": "Pobal oscailte MeshCore don Réineach-Palaitíneacht, le léarscáil nód, blag agus grúpa Telegram.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "3e25994d"
+  },
+  "community.de-mesh-sn.desc": {
+    "value": "Suíomh MeshCore don tSacsain, le treoracha do chompánaigh, d'athsheoltóirí agus d'fhreastalaithe seomra. Pléann a chainéal Telegram le Meshtastic freisin.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "0cae1c90"
   },
   "community.ie-mayo-mesh.desc": {
     "value": "Grúpa úsáideoirí raidió mesh do Chontae Mhaigh Eo.",
@@ -3179,6 +3209,18 @@
     "_seeded": "2026-11-10",
     "_source": "e955c5f7"
   },
+  "project.local-meshcore-analyzer.desc": {
+    "value": "Uirlis Windows a cheanglaíonn le do raidió compánach. Taispeánann sí cé mhéad tráchta a iompraíonn gach athsheoltóir in aice leat, de réir réigiúin, cineál teachtaireachta agus cainéil. Aimsíonn sí freisin paicéid a théann i lúb agus tarraingíonn sí na bealaí ar léarscáil. Fanann sonraí na bpaicéad ar do ríomhaire. Saor in aisce d'úsáid phríobháideach, neamhthráchtála.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "22799ea6"
+  },
+  "project.lusofw.desc": {
+    "value": "Dochtearraí MeshCore ón bpobal sa Phortaingéil, a úsáidtear sa Bhrasaíl agus sa Ghailís freisin. Tógann sé ar MeshCore caighdeánach agus fanann sé comhoiriúnach leis. Tá réamhshocruithe Portaingéalacha ann, mar shampla réigiúin a shocraítear ó shuíomh an nóid.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "4901d59c"
+  },
   "guides_group_start": {
     "value": "Do chéad nód",
     "_ai": true,
@@ -3256,6 +3298,18 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "f52f6bd7"
+  },
+  "guides_card_repeater_checklist_title": {
+    "value": "Seicliosta athsheoltóra",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "e982ea2f"
+  },
+  "guides_card_repeater_checklist_desc": {
+    "value": "Seiceáil d'athsheoltóir sula gcuireann tú suas é: cad le seiceáil thar USB, ar an díon agus sula n-imíonn tú.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "0a1f63cf"
   },
   "guides_card_resilient_title": {
     "value": "Déan an mesh athléimneach",
@@ -6124,6 +6178,18 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "695ddeef"
+  },
+  "menu_guide_repeater_checklist": {
+    "value": "Seicliosta athsheoltóra",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "e982ea2f"
+  },
+  "menu_guide_repeater_checklist_sub": {
+    "value": "Cad le seiceáil sula gcuireann tú suas é",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "29c34a2e"
   },
   "menu_guide_resilient": {
     "value": "Déan an mogalra athléimneach",

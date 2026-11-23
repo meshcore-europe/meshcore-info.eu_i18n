@@ -6,11 +6,11 @@ eyebrow: 868 MHz · fins a 500 mW · sense llicència
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 Els repetidors sostenen la malla. Els companions, les ràdios amb què envies missatges, no
@@ -100,8 +100,7 @@ Les eines calculen a partir de dades d'alçada i no proven la teva ràdio. Compr
 
 ## Alimentació i càlcul solar {#power}
 
-Un repetidor solar ha d'aguantar les setmanes més fosques de l'hivern. Dimensiona'l
-per a aquestes setmanes:
+Un repetidor solar ha d'aguantar les setmanes més fosques de l'hivern. Primer activa l'estalvi d'energia: després de `powersaving on`, el repetidor dorm entre paquets. Funciona en plaques nRF52 i en plaques ESP32 amb un firmware sense pont. Després dimensiona la bateria i el panell:
 
 1. **Mesura el consum.** Connecta el repetidor ja configurat a un mesurador de potència USB
    durant un dia. Llegeix l'energia consumida en watts hora (Wh). El trànsit de
@@ -134,30 +133,48 @@ més importants:
 
 | Què | Ordre |
 |---|---|
-| Canviar la contrasenya d'administrador | `password <new password>` |
-| Posar-li nom | `set name <name>` |
+| Canvia la contrasenya d'administrador | `password <new password>` |
+| Contrasenya per als convidats, que en poden llegir l'estat | `set guest.password <password>` |
+| Posa-li nom | `set name <name>` |
 | Preset de ràdio: freqüència, amplada de banda, SF, CR (reinicia per aplicar-lo) | `set radio 869.618,62.5,8,8` |
-| Límit del cicle de treball, en percentatge | `set dutycycle 10` |
-| Potència de transmissió del xip de ràdio, en dBm | `set tx <dBm>` |
+| Límit de cicle de treball, en percentatge | `set dutycycle 10` |
+| Potència d'emissió del xip de ràdio, en dBm | `set tx <dBm>` |
 | Posició, perquè surti als mapes | `set lat <degrees>` i `set lon <degrees>` |
 | Dades de contacte per a altres operadors | `set owner.info <text>` |
-| Hores entre anuncis flood, els que rep tota la malla | `set flood.advert.interval <hours>` |
-| Anunciar-lo ara | `advert` |
-| Reiniciar | `reboot` |
+| Hores entre anuncis per inundació, els que sent tota la malla | `set flood.advert.interval <hours>` |
+| Anuncia'l ara | `advert` |
+| Reinicia'l | `reboot` |
 
 La contrasenya d'administrador per defecte és `password`, i qui hi entri amb aquesta contrasenya
 es converteix en administrador. Canvia-la abans que el repetidor comenci a emetre.
+
+La contrasenya de convidat és buida d'entrada. Així, qualsevol pot entrar com a convidat sense
+contrasenya i consultar l'estat del repetidor i els seus veïns. Cada consulta genera
+trànsit a la malla. Posa una contrasenya de convidat i dona-la a qui la
+necessiti.
+
+**Tria un nom.** Posa-li nom com ho fa el teu grup local amb els seus repetidors.
+Si no tens grup, posa-hi el país, el lloc i un nom curt, com ara
+`DE-63477-MUF1`. Així els altres operadors veuen on és el repetidor. Un nom
+admet fins a 31 bytes, i en un anunci que també porta una posició n'hi caben 23.
 
 L'exemple de `set radio` d'aquí dalt és EU/UK (Narrow). En lloc d'aquests, fes servir els valors del preset
 de la teva zona: [Configuració recomanada](/guides/settings/) els indica
 per països.
 
-**Posa el rellotge en hora.** Sense un mòdul de rellotge (RTC), un repetidor perd l'hora a
-cada tall de corrent i torna a arrencar amb la data de maig de 2024. Mentre funciona, el rellotge també
-es desvia: s'avança o s'endarrereix cada cop més. Per això has de posar-lo en hora de tant en tant: entra
-a distància des de l'app i fes servir `clock sync`, o ajusta l'hora per USB. Amb
-un mòdul RTC poques vegades cal: manté l'hora durant els talls de corrent i
-es desvia molt menys.
+**Posa el rellotge en hora.** Sense un mòdul de rellotge (RTC), un repetidor perd
+l'hora a cada tall de corrent i torna al maig de 2024. Mentre funciona, el
+rellotge també es desvia: s'avança o s'endarrereix cada cop més. Per això,
+posa'l en hora de tant en tant: entra-hi a distància des de l'app i fes servir
+`clock sync`, o posa l'hora per USB. Amb un mòdul RTC poques vegades et caldrà:
+manté l'hora durant els talls de corrent i es desvia molt menys. El firmware
+detecta tot sol un mòdul DS3231, RV3028, PCF8563 o RX8130.
+
+**Una placa amb GPS** te les configura totes dues. Després de `gps on`, el repetidor agafa
+l'hora del GPS cada 30 minuts, i `gps setloc` copia la seva posició a
+`lat` i `lon`. El GPS consumeix energia tot el temps que està encès. Amb energia solar, executa
+`gps setloc` un cop al lloc i apaga'l amb `gps off`. Llavors el rellotge
+torna a necessitar `clock sync`.
 
 **Gestiona'l a distància.** Quan ja és a la malla, entra des de l'app de MeshCore
 amb la contrasenya d'administrador. Allà en consultes l'estat i fas servir les mateixes ordres
@@ -189,9 +206,12 @@ i aquestes les actualitzes per USB.
    el repetidor, i puja el fitxer. Triga uns quants minuts.
 
 Instal·la el [bootloader OTAFIX](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX)
-en una placa nRF52 abans de pujar-la. Amb el bootloader de sèrie, una actualització
-fallida només es pot reparar per USB. Amb OTAFIX, la placa torna al
-mode d'actualització, i ho tornes a provar per Bluetooth.
+en una placa nRF52 abans de pujar-la. Amb el bootloader de fàbrica, una
+actualització fallida només es pot reparar per USB. Amb OTAFIX, la placa torna al
+mode d'actualització, i ho tornes a provar per Bluetooth. `get bootloader.ver` mostra
+quin bootloader té una placa: amb OTAFIX, la resposta conté `OTAFIX`.
+
+Després d'una actualització, `ver` mostra la versió del firmware que s'executa ara.
 
 **Plaques ESP32**, com ara la Heltec V3 i la V4:
 
@@ -284,17 +304,6 @@ el regulador del teu país.
 
 ## Llista de comprovació per a la instal·lació {#checklist}
 
-- [ ] El propietari del lloc hi està d'acord, i pots accedir al repetidor per fer-ne el manteniment.
-- [ ] La placa porta el firmware **Repeater**, i has connectat l'antena abans
-      de la primera engegada.
-- [ ] Has canviat la contrasenya d'administrador.
-- [ ] La ràdio coincideix amb [el preset de la teva zona](/guides/settings/) (`get radio`).
-- [ ] Has executat `set dutycycle 10`.
-- [ ] La potència de transmissió més el guany de l'antena no passen de 500 mW e.r.p.
-- [ ] Has posat el nom, la posició i `owner.info`, perquè els altres sàpiguen qui el gestiona.
-- [ ] El rellotge està en hora (`clock`).
-- [ ] La caixa està segellada, amb un forat de drenatge o de ventilació, i el cable fa un
-      bucle de degoteig.
-- [ ] La bateria i el panell estan dimensionats per al pitjor mes d'hivern.
-- [ ] L'has provat a distància amb l'app abans de marxar del lloc.
-- [ ] El teu grup local sap que ja funciona.
+Abans d'instal·lar el repetidor, repassa la
+[llista de comprovació del repetidor](/guides/repeater-checklist/). Hi trobaràs cada punt que cal
+comprovar, amb l'ordre que el mostra.

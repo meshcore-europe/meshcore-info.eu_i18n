@@ -6,11 +6,11 @@ eyebrow: 868 MHz · iki 500 mW · be licencijos
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 Kartotuvai neša tinklą. Kompanionai (radijo įrenginiai, iš kurių rašai žinutes) žinučių toliau neperduoda, todėl be kartotuvų pasieksi tik tuos žmones, kurie yra tiesioginiame ryšio nuotolyje. Tinkamoje vietoje pastatytas kartotuvas išplečia tinklą visiems aplinkui. Šis vadovas parengtas pagal MeshCore programinę įrangą v1.18.0.
@@ -65,7 +65,10 @@ kuriuos retransliatorius jis girdi.
 
 ## Maitinimas ir saulės sistemos dydis {#power}
 
-Saulės energija maitinamas kartotuvas turi atlaikyti tamsiausias žiemos savaites. Sistemą skaičiuok pagal jas:
+Saulės energija maitinamas retransliatorius turi atlaikyti tamsiausias žiemos savaites. Pirmiausia
+įjunk energijos taupymą: po `powersaving on` retransliatorius tarp paketų miega. Tai
+veikia nRF52 plokštėse ir ESP32 plokštėse, kurių programinėje įrangoje nėra tilto. Tada
+apskaičiuok akumuliatoriaus ir saulės skydelio dydį:
 
 1. **Išmatuok apkrovą.** Vieną dieną leisk sukonfigūruotam kartotuvui veikti per USB galios matuoklį. Nuskaityk sunaudotą energiją vatvalandėmis (Wh). Skaičius priklauso nuo srauto tavo vietovėje, todėl, jei gali, matuok vietoje.
 2. **Pridėk rezervą.** Akumuliatoriaus talpą planuok bent 5–7 dienoms be naudingos saulės.
@@ -80,24 +83,44 @@ Pavyzdys su pasirinktais skaičiais: kartotuvui, kuris naudoja 1 Wh per dieną, 
 
 **Konfigūruok per USB.** Kol kartotuvas dar prijungtas prie kompiuterio, atidaryk [config.meshcore.io](https://config.meshcore.io) arba įrašymo įrankio konsolę. Taip pat gali naudoti bet kurį nuoseklųjį terminalą 115200 bodų greičiu. Svarbiausios komandos:
 
-| Ką daryti | Komanda |
+| Kas | Komanda |
 |---|---|
-| Pakeisti administratoriaus slaptažodį | `password <new password>` |
-| Suteikti pavadinimą | `set name <name>` |
-| Radijo nustatymų rinkinys: dažnis, juostos plotis, SF, CR (įsigalioja po paleidimo iš naujo) | `set radio 869.618,62.5,8,8` |
+| Pakeisk administratoriaus slaptažodį | `password <new password>` |
+| Slaptažodis svečiams, kurie gali matyti jo būseną | `set guest.password <password>` |
+| Suteik jam pavadinimą | `set name <name>` |
+| Radijo profilis: dažnis, pralaidumas, SF, CR (įsigalioja paleidus iš naujo) | `set radio 869.618,62.5,8,8` |
 | Darbo ciklo riba procentais | `set dutycycle 10` |
 | Radijo lusto siuntimo galia, dBm | `set tx <dBm>` |
-| Padėtis, kad kartotuvas būtų matomas žemėlapiuose | `set lat <degrees>` ir `set lon <degrees>` |
-| Kontaktai kitiems operatoriams | `set owner.info <text>` |
-| Valandos tarp flood skelbimų, kuriuos girdi visas tinklas | `set flood.advert.interval <hours>` |
-| Paskelbti apie kartotuvą dabar | `advert` |
-| Paleisti iš naujo | `reboot` |
+| Padėtis, kad jis būtų rodomas žemėlapiuose | `set lat <degrees>` ir `set lon <degrees>` |
+| Kontaktiniai duomenys kitiems operatoriams | `set owner.info <text>` |
+| Laikas valandomis tarp flood skelbimų, kuriuos girdi visas mesh tinklas | `set flood.advert.interval <hours>` |
+| Paskelbk jį dabar | `advert` |
+| Paleisk iš naujo | `reboot` |
 
 Numatytasis administratoriaus slaptažodis yra `password`, ir kiekvienas, kuris juo prisijungia, tampa administratoriumi. Pakeisk jį, kol kartotuvas dar neišėjo į eterį.
 
+Iš pradžių svečio slaptažodis tuščias. Tada bet kas gali prisijungti kaip svečias be slaptažodžio ir matyti retransliatoriaus būseną bei jo kaimynus. Kiekviena užklausa yra srautas mesh tinkle. Nustatyk svečio slaptažodį ir duok jį tiems, kam jo reikia.
+
+**Pasirink pavadinimą.** Pavadink jį taip, kaip savo retransliatorius vadina tavo vietinė grupė.
+Jei grupės nėra, įrašyk šalį, vietovę ir trumpą pavadinimą, pavyzdžiui,
+`DE-63477-MUF1`. Taip kiti operatoriai matys, kur yra retransliatorius. Pavadinime
+telpa iki 31 baito, o skelbime, kuriame yra ir padėtis, telpa 23.
+
 Aukščiau pateiktas `set radio` pavyzdys skirtas EU/UK (Narrow). Vietoj šių verčių naudok savo vietovės nustatymų rinkinio vertes: puslapyje [Rekomenduojami nustatymai](/guides/settings/) jos išvardytos pagal šalis.
 
-**Nustatyk laikrodį.** Be laikrodžio modulio (RTC) kartotuvas kaskart dingus maitinimui praranda laiką ir vėl pradeda nuo 2024 m. gegužės. Veikimo metu jo laikrodis dar ir nukrypsta: vis labiau skuba arba vėluoja. Todėl retkarčiais nustatyk laikrodį: prisijunk nuotoliu iš programėlės ir naudok `clock sync` arba nustatyk laiką per USB. Su RTC moduliu to reikia retai: jis išsaugo laiką dingus maitinimui ir nukrypsta daug mažiau.
+**Nustatyk laikrodį.** Be laikrodžio modulio (RTC) retransliatorius kaskart dingus
+elektrai praranda laiką ir grįžta į 2024 m. gegužę. Kol jis veikia, jo laikrodis
+dar ir nukrypsta: vis labiau skuba arba vėluoja. Todėl laikas nuo laiko nustatyk
+laikrodį: prisijunk nuotoliniu būdu per programėlę ir įvesk `clock sync` arba
+nustatyk laiką per USB. Su RTC moduliu to reikia retai: jis išlaiko laiką dingus
+elektrai ir nukrypsta kur kas mažiau. Programinė įranga pati aptinka DS3231,
+RV3028, PCF8563 arba RX8130 modulį.
+
+**Plokštė su GPS** abu dalykus nustato už tave. Po `gps on` retransliatorius kas 30 minučių
+gauna laiką iš GPS, o `gps setloc` įrašo savo padėtį į `lat` ir `lon`.
+Kol GPS įjungtas, jis visą laiką naudoja energiją. Jei retransliatorius maitinamas
+saulės energija, vietoje vieną kartą paleisk `gps setloc` ir išjunk GPS komanda
+`gps off`. Tada laikrodžiui vėl reikės `clock sync`.
 
 **Valdyk nuotoliu.** Kai kartotuvas jau tinkle, prisijunk prie jo iš MeshCore programėlės administratoriaus slaptažodžiu. Ten matysi jo būseną ir tas pačias komandas galėsi naudoti per radijo ryšį. Kai kurios komandos veikia tik per USB, pavyzdžiui, `set freq` ir gamyklinių nustatymų atkūrimo komanda `erase`.
 
@@ -115,7 +138,12 @@ Kai kartotuvas jau iškeltas aukštai, atnaujini jį nuo žemės. Prisijunk iš 
 2. Įvesk `start ota`. Kartotuvas atsako `OK` ir per Bluetooth pasirodo kaip `<board>_OTA`, pavyzdžiui, `RAK4631_OTA`.
 3. Telefone atidaryk programėlę nRF Device Firmware Update, pasirink ZIP failą bei kartotuvą ir įkelk. Tai užtrunka kelias minutes.
 
-Prieš iškeldamas nRF52 plokštę aukštai, įdiek jai [OTAFIX paleidimo programą](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX). Su gamykline paleidimo programa nepavykusį atnaujinimą galima ištaisyti tik per USB. Su OTAFIX plokštė grįžta į atnaujinimo režimą, ir bandai dar kartą per Bluetooth.
+Prieš iškeldamas nRF52 plokštę aukštai, įdiek jai [OTAFIX paleidyklę](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX).
+Su standartine paleidykle nepavykusį atnaujinimą pataisysi tik per USB.
+Su OTAFIX plokštė grįžta į atnaujinimo režimą, ir tu bandai dar kartą per Bluetooth.
+`get bootloader.ver` parodo, kokia paleidyklė yra plokštėje: jei įdiegta OTAFIX, atsakyme yra `OTAFIX`.
+
+Po atnaujinimo `ver` parodo dabar veikiančios programinės įrangos versiją.
 
 **ESP32 plokštės**, pavyzdžiui, Heltec V3 ir V4:
 
@@ -172,15 +200,6 @@ EU/UK (Narrow) kanalas, 869.618 MHz su 62.5 kHz juostos pločiu, siekia iki 869.
 
 ## Įrengimo kontrolinis sąrašas {#checklist}
 
-- [ ] Vietos savininkas sutiko, ir gali patekti prie kartotuvo priežiūros darbams.
-- [ ] Plokštėje veikia **Repeater** programinė įranga, o anteną prijungei prieš pirmą įjungimą.
-- [ ] Administratoriaus slaptažodis pakeistas.
-- [ ] Radijo nustatymai atitinka [tavo vietovės nustatymų rinkinį](/guides/settings/) (`get radio`).
-- [ ] Nustatyta `set dutycycle 10`.
-- [ ] Siuntimo galia kartu su antenos stiprinimu neviršija 500 mW e.r.p.
-- [ ] Nustatyti pavadinimas, padėtis ir `owner.info`, todėl kiti žino, kas jį prižiūri.
-- [ ] Laikrodis nustatytas (`clock`).
-- [ ] Korpusas sandarus, su drenažo ar vėdinimo anga, o kabelis turi lašėjimo kilpą.
-- [ ] Akumuliatoriaus ir saulės modulio dydis parinktas pagal blogiausią žiemos mėnesį.
-- [ ] Prieš išvykdamas išbandei jį iš toliau su programėle.
-- [ ] Tavo vietinė grupė žino, kad jis veikia.
+Prieš iškeldamas retransliatorių aukštai, peržiūrėk
+[retransliatoriaus kontrolinį sąrašą](/guides/repeater-checklist/). Jame nurodytas
+kiekvienas dalykas, kurį reikia patikrinti, ir komanda, kuri jį parodo.

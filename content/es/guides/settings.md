@@ -6,11 +6,11 @@ description: El preset de radio de MeshCore para cada zona de Europa, y los ajus
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-10-31'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Cada zona que aparece abajo usa su propio preset de radio o cambia algunos valores
@@ -41,6 +41,11 @@ para `nl-ov-zwo` se queda en los repetidores de ese grupo. Un repetidor solo
 reenvía las regiones que tiene asignadas: si tiene `nl`, no reenvía por ello
 `nl-ov`. Pon cada repetidor en todas las regiones a las que da servicio, y solo
 en esas. Tu [grupo local](/community/) sabe cuáles son.
+
+**Cerca de una frontera, ponte de acuerdo con tus vecinos sobre las regiones.** Un
+repetidor cerca de otro país puede incluir también la región de ese país, como
+`fr` en el lado alemán del Rin. Así reenvía los mensajes de esa región al otro
+lado de la frontera. Antes, ponte de acuerdo con el grupo del otro lado.
 
 **Limita lo que reenvía tu repetidor.** Con dos ajustes, el tráfico que no
 necesita ir lejos se queda cerca de casa:

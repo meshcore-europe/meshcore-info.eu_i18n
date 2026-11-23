@@ -6,11 +6,11 @@ eyebrow: 868 MHz · do 500 mW · brez licence
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 Mrežo nosijo repetitorji. Spremljevalne naprave (companion), torej radii, s katerih pošiljaš sporočila, sporočil ne posredujejo. Brez repetitorjev zato dosežeš samo ljudi v neposrednem dosegu. Repetitor na pravem mestu razširi mrežo za vse okoli sebe. Ta vodnik velja za vdelano programsko opremo MeshCore v1.18.0.
@@ -75,7 +75,7 @@ repetitorje sliši.
 
 ## Napajanje in izračun sončne napeljave {#power}
 
-Repetitor na sončno napajanje mora zdržati najtemnejše tedne zime. Napeljavo načrtuj zanje:
+Repetitor na sončno energijo mora zdržati najtemnejše zimske tedne. Najprej vklopi varčevanje z energijo: po ukazu `powersaving on` repetitor med paketi spi. Deluje na ploščah nRF52 in na ploščah ESP32, katerih vdelana programska oprema nima mostu. Nato določi velikost baterije in panela:
 
 1. **Izmeri porabo.** Nastavljeni repetitor za en dan priključi prek merilnika moči USB. Odčitaj porabljeno energijo v vatnih urah (Wh). Promet na tvojem območju to številko spreminja, zato po možnosti meri na lokaciji.
 2. **Dodaj rezervo.** Kapaciteto baterije načrtuj za vsaj 5 do 7 dni brez uporabnega sonca.
@@ -93,21 +93,42 @@ Računski primer s predpostavljenimi številkami: repetitor, ki porabi 1 Wh na d
 | Kaj | Ukaz |
 |---|---|
 | Spremeni skrbniško geslo | `password <new password>` |
-| Poimenuj repetitor | `set name <name>` |
-| Radijska prednastavitev: frekvenca, pasovna širina, SF, CR (velja po ponovnem zagonu) | `set radio 869.618,62.5,8,8` |
-| Omejitev delovnega cikla v odstotkih | `set dutycycle 10` |
+| Geslo za goste, ki lahko berejo njegovo stanje | `set guest.password <password>` |
+| Poimenuj ga | `set name <name>` |
+| Prednastavitev radia: frekvenca, pasovna širina, SF, CR (velja po ponovnem zagonu) | `set radio 869.618,62.5,8,8` |
+| Omejitev obratovalnega cikla (duty cycle) v odstotkih | `set dutycycle 10` |
 | Oddajna moč radijskega čipa v dBm | `set tx <dBm>` |
-| Položaj, da je repetitor viden na zemljevidih | `set lat <degrees>` in `set lon <degrees>` |
+| Položaj, da se prikaže na zemljevidih | `set lat <degrees>` in `set lon <degrees>` |
 | Kontaktni podatki za druge upravljavce | `set owner.info <text>` |
-| Število ur med poplavnimi objavami (flood adverts), ki jih sliši vsa mreža | `set flood.advert.interval <hours>` |
-| Objavi repetitor takoj | `advert` |
+| Število ur med najavami s poplavljanjem, ki jih sliši vsa mreža | `set flood.advert.interval <hours>` |
+| Najavi ga takoj | `advert` |
 | Ponovni zagon | `reboot` |
 
 Privzeto skrbniško geslo je `password` in kdor se prijavi z njim, postane skrbnik. Spremeni ga, preden repetitor začne oddajati.
 
+Geslo za goste je na začetku prazno. Tako se lahko kdor koli prijavi kot gost brez
+gesla in prebere stanje repetitorja ter njegove sosede. Vsaka zahteva ustvari promet v
+mreži. Nastavi geslo za goste in ga daj ljudem, ki ga potrebujejo.
+
+**Izberi ime.** Poimenuj ga tako, kot tvoja lokalna skupina poimenuje svoje repetitorje.
+Če nisi v skupini, vanj vpiši državo, kraj in kratko ime, na primer
+`DE-63477-MUF1`. Tako drugi upravljavci vidijo, kje je repetitor. Ime
+lahko obsega največ 31 bajtov, v najavo, ki vsebuje tudi položaj, pa jih gre 23.
+
 Zgornji primer `set radio` velja za EU/UK (Narrow). Namesto njega uporabi vrednosti prednastavitve za svoje območje: [Priporočene nastavitve](/guides/settings/) jih navajajo po državah.
 
-**Nastavi uro.** Brez modula ure (RTC) repetitor ob vsakem izpadu napajanja izgubi čas in znova začne z majem 2024. Med delovanjem njegova ura tudi odstopa: vedno bolj prehiteva ali zaostaja. Zato uro občasno nastavi: prijavi se na daljavo iz aplikacije in uporabi `clock sync` ali pa nastavi čas prek USB. Z modulom RTC je to redko potrebno: čas ohrani tudi ob izpadih napajanja in veliko manj odstopa.
+**Nastavi uro.** Brez modula ure (RTC) repetitor ob vsakem izpadu napajanja izgubi čas
+in se znova zažene z datumom maj 2024. Med delovanjem njegova ura tudi odstopa: prehiteva
+ali zaostaja. Zato uro občasno nastavi: prijavi se na daljavo iz aplikacije in uporabi
+`clock sync` ali pa čas nastavi prek USB. Z modulom RTC moraš to storiti redko: modul
+ohrani čas ob izpadih napajanja in odstopa veliko manj. Vdelana programska oprema
+sama prepozna modul DS3231, RV3028, PCF8563 ali RX8130.
+
+**Ploščica z GPS** ti nastavi oboje. Po ukazu `gps on` repetitor vsakih 30 minut
+prevzame čas iz GPS, ukaz `gps setloc` pa položaj iz GPS prepiše v
+`lat` in `lon`. GPS ves čas, ko je vklopljen, porablja energijo. Pri sončnem napajanju
+na lokaciji enkrat zaženi `gps setloc` in nato GPS izklopi z `gps off`. Uro
+moraš potem znova nastaviti z `clock sync`.
 
 **Upravljaj na daljavo.** Ko je repetitor v mreži, se nanj prijavi iz aplikacije MeshCore s skrbniškim geslom. Tam odčitaš njegovo stanje in iste ukaze uporabljaš prek radia. Nekateri ukazi delujejo samo prek USB, na primer `set freq` in ponastavitev na tovarniške nastavitve `erase`.
 
@@ -125,7 +146,13 @@ Ko je repetitor že visoko, ga posodobiš s tal. Prijavi se iz aplikacije MeshCo
 2. Vpiši `start ota`. Repetitor odgovori `OK` in se prek povezave Bluetooth prikaže kot `<board>_OTA`, na primer `RAK4631_OTA`.
 3. Na telefonu odpri aplikacijo nRF Device Firmware Update, izberi ZIP in repetitor ter začni nalaganje. Traja nekaj minut.
 
-Na ploščo nRF52 namesti [zagonski nalagalnik OTAFIX](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX), preden jo namestiš na višino. S tovarniškim zagonskim nalagalnikom lahko neuspelo posodobitev popraviš samo prek USB. Z OTAFIX se plošča vrne v način posodabljanja, ti pa poskusiš znova prek povezave Bluetooth.
+Na ploščo nRF52 namesti [zagonski nalagalnik OTAFIX](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX),
+preden jo postaviš visoko. S tovarniškim zagonskim nalagalnikom neuspešno
+posodobitev popraviš samo prek USB. Z OTAFIX se plošča vrne v način
+posodabljanja in poskusiš znova prek povezave Bluetooth. Ukaz `get bootloader.ver`
+pokaže, katerega ima plošča: pri OTAFIX je v odgovoru `OTAFIX`.
+
+Po posodobitvi ukaz `ver` pokaže različico vdelane programske opreme, ki zdaj teče.
 
 **Plošče ESP32**, na primer Heltec V3 in V4:
 
@@ -182,15 +209,6 @@ Te opombe niso pravni nasvet. Pravila se spreminjajo: če nisi prepričan, se po
 
 ## Kontrolni seznam za postavitev {#checklist}
 
-- [ ] Lastnik lokacije se strinja, ti pa lahko za vzdrževanje prideš do repetitorja.
-- [ ] Na plošči teče vdelana programska oprema **Repeater**, anteno pa si priključil pred prvim vklopom.
-- [ ] Skrbniško geslo je spremenjeno.
-- [ ] Radio se ujema s [prednastavitvijo za tvoje območje](/guides/settings/) (`get radio`).
-- [ ] Nastavljeno je `set dutycycle 10`.
-- [ ] Oddajna moč skupaj z dobitkom antene ostaja znotraj 500 mW e.r.p.
-- [ ] Ime, položaj in `owner.info` so nastavljeni, da drugi vedo, kdo upravlja repetitor.
-- [ ] Ura je nastavljena (`clock`).
-- [ ] Ohišje je zatesnjeno in ima odprtino za odtok ali zračenje, kabel pa ima odkapno zanko.
-- [ ] Baterija in panel sta dimenzionirana za najslabši zimski mesec.
-- [ ] Pred odhodom z lokacije si repetitor z aplikacijo preizkusil z razdalje.
-- [ ] Tvoja lokalna skupina ve, da repetitor deluje.
+Preden repetitor postaviš, preglej
+[kontrolni seznam za repetitor](/guides/repeater-checklist/). Za vsako stvar,
+ki jo moraš preveriti, navaja ukaz, ki jo pokaže.

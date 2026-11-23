@@ -6,11 +6,11 @@ eyebrow: 868 MHz · sa 500 mW · mingħajr liċenzja
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 Ir-ripetituri huma s-sinsla tal-mesh. Il-companions, ir-radjijiet li minnhom tibgħat il-messaġġi, ma jgħaddux il-messaġġi 'l quddiem. Għalhekk, mingħajr ripetituri tilħaq biss lin-nies fil-medda diretta tiegħek. Ripetitur fil-post it-tajjeb ikabbar il-mesh għal kulħadd madwaru. Din il-gwida ssegwi l-firmware MeshCore v1.18.0.
@@ -74,7 +74,10 @@ L-għodod jikkalkulaw mid-data tal-għoli u ma jittestjawx ir-radju tiegħek. I�
 
 ## L-enerġija u d-daqs tas-sistema solari {#power}
 
-Ripetitur solari jrid jiflaħ għall-aktar ġimgħat mudlama tax-xitwa. Ikkalkula d-daqs tas-sistema skont dawk il-ġimgħat:
+Repeater solari jrid jgħaddi mill-ġimgħat l-aktar mudlama tax-xitwa. L-ewwel ixgħel
+l-iffrankar tal-enerġija: wara `powersaving on` ir-repeater jorqod bejn il-pakketti.
+Dan jaħdem fuq bordijiet nRF52, u fuq bordijiet ESP32 li l-firmware tagħhom m'għandux bridge.
+Imbagħad iddeċiedi d-daqs tal-batterija u tal-pannell:
 
 1. **Kejjel il-konsum.** Ħaddem ir-ripetitur ikkonfigurat għal ġurnata permezz ta' miter tal-enerġija USB. Aqra l-enerġija użata f'watt-sigħat (Wh). It-traffiku fiż-żona tiegħek ibiddel in-numru, għalhekk kejjel fuq il-post jekk tista'.
 2. **Żid riżerva.** Ippjana l-kapaċità tal-batterija għal mill-inqas 5 sa 7 ijiem mingħajr xemx utli.
@@ -89,24 +92,47 @@ Eżempju maħdum, b'numri preżunti: ripetitur li juża 1 Wh kuljum jeħtieġ ba
 
 **Ikkonfigurah bl-USB.** Waqt li r-ripetitur għadu mqabbad mal-kompjuter, iftaħ [config.meshcore.io](https://config.meshcore.io) jew il-console tal-flasher. Tista' tuża wkoll kwalunkwe terminal serjali fuq 115200 baud. Dawn huma l-aktar kmandi importanti:
 
-| X'tagħmel | Kmand |
+| X'inhu | Kmand |
 |---|---|
-| Ibdel il-password tal-admin | `password <new password>` |
+| Biddel il-password tal-admin | `password <new password>` |
+| Password għall-mistednin, li jistgħu jaqraw l-istatus tiegħu | `set guest.password <password>` |
 | Agħtih isem | `set name <name>` |
 | Preset tar-radju: frekwenza, bandwidth, SF, CR (agħmel reboot biex jidħol fis-seħħ) | `set radio 869.618,62.5,8,8` |
 | Limitu tad-duty cycle, f'perċentwal | `set dutycycle 10` |
 | Qawwa tat-trażmissjoni taċ-ċippa tar-radju, f'dBm | `set tx <dBm>` |
-| Pożizzjoni, biex jidher fuq il-mapep | `set lat <degrees>` u `set lon <degrees>` |
+| Il-pożizzjoni, biex jidher fuq il-mapep | `set lat <degrees>` u `set lon <degrees>` |
 | Dettalji ta' kuntatt għal operaturi oħra | `set owner.info <text>` |
-| Sigħat bejn il-flood adverts, dawk li jismagħhom il-mesh kollu | `set flood.advert.interval <hours>` |
+| Sigħat bejn l-adverts flood, dawk li jismagħhom il-mesh kollu | `set flood.advert.interval <hours>` |
 | Ħabbru issa | `advert` |
-| Erġa' ibdih | `reboot` |
+| Erġa' ixgħlu | `reboot` |
 
 Il-password default tal-admin hija `password`, u kull min jidħol biha jsir admin. Ibdilha qabel ma r-ripetitur jibda jittrażmetti.
 
+Il-password tal-mistednin tibda vojta. Allura kulħadd jista' jidħol bħala mistieden mingħajr
+password u jaqra l-istatus tar-repeater u l-ġirien tiegħu. Kull talba hija
+traffiku fuq il-mesh. Agħżel password għall-mistednin u agħtiha lin-nies li
+għandhom bżonnha.
+
+**Agħżel isem.** Semmih kif il-grupp lokali tiegħek isemmi r-repeaters tiegħu.
+Jekk m'intix f'grupp, poġġi fih il-pajjiż, il-post u isem qasir, bħal
+`DE-63477-MUF1`. Hekk operaturi oħra jaraw fejn jinsab ir-repeater. Isem jieħu
+sa 31 byte, u 23 jidħlu f'advert li jġorr ukoll pożizzjoni.
+
 L-eżempju ta' `set radio` hawn fuq huwa EU/UK (Narrow). Minflok, uża l-valuri tal-preset taż-żona tiegħek: [Is-settings rakkomandati](/guides/settings/) jelenkawhom skont il-pajjiż.
 
-**Issettja l-arloġġ.** Mingħajr modulu tal-arloġġ (RTC), ripetitur jitlef il-ħin f'kull qtugħ tad-dawl u jerġa' jibda minn Mejju 2024. Waqt li jkun qed jaħdem, l-arloġġ tiegħu jitbiegħed ukoll mill-ħin it-tajjeb: jimxi dejjem aktar 'il quddiem jew lura. Għalhekk, issettja l-arloġġ minn żmien għal żmien: idħol mill-bogħod mill-app u uża `clock sync`, jew issettja l-ħin bl-USB. B'modulu RTC, rari jkollok bżonn tagħmel dan: il-modulu jżomm il-ħin waqt qtugħ tad-dawl u l-ħin jitbiegħed ferm inqas.
+**Issettja l-arloġġ.** Mingħajr modulu tal-arloġġ (RTC), repeater jitlef il-ħin kull
+meta jaqa' d-dawl u jerġa' jibda f'Mejju 2024. Waqt li jaħdem, l-arloġġ tiegħu
+jiżvija wkoll: jimxi aktar 'il quddiem jew jibqa' lura. Għalhekk issettja l-arloġġ
+minn żmien għal żmien: idħol mill-bogħod mill-app u uża `clock sync`, jew issettja
+l-ħin bl-USB. B'modulu RTC rari jkollok bżonn tagħmel dan: iżomm il-ħin meta jaqa'
+d-dawl u jiżvija ferm inqas. Il-firmware isib waħdu modulu DS3231, RV3028, PCF8563
+jew RX8130.
+
+**Bord b'GPS** jissettja t-tnejn għalik. Wara `gps on` ir-repeater jieħu l-ħin
+mill-GPS kull 30 minuta, u `gps setloc` jikkopja l-pożizzjoni tiegħu f'`lat` u
+`lon`. Il-GPS jikkonsma l-enerġija l-ħin kollu li jkun mixgħul. Jekk taħdem
+bl-enerġija solari, ħaddem `gps setloc` darba fis-sit u itfih b'`gps off`.
+Imbagħad l-arloġġ jerġa' jkollu bżonn `clock sync`.
 
 **Immaniġġjah mill-bogħod.** Ladarba jkun fuq il-mesh, idħol mill-app MeshCore bil-password tal-admin. Hemmhekk taqra l-istatus tiegħu u tuża l-istess kmandi bir-radju. Xi kmandi jaħdmu bl-USB biss, bħal `set freq` u r-reset tal-fabbrika `erase`.
 
@@ -124,7 +150,13 @@ Ladarba r-ripetitur ikun fl-għoli, taġġornah mill-art. Idħol mill-app MeshCo
 2. Ikteb `start ota`. Ir-ripetitur iwieġeb `OK` u jidher fuq Bluetooth bħala `<board>_OTA`, pereżempju `RAK4631_OTA`.
 3. Iftaħ l-app nRF Device Firmware Update fuq it-telefon, agħżel iż-ZIP u r-ripetitur, u tella' l-fajl. Dan jieħu ftit minuti.
 
-Installa l-[bootloader OTAFIX](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX) fuq bord nRF52 qabel ma ttellgħu fl-għoli. Bil-bootloader oriġinali, aġġornament li jfalli jista' jissewwa biss bl-USB. Bl-OTAFIX, il-bord jerġa' lura għall-modalità tal-aġġornament, u terġa' tipprova fuq Bluetooth.
+Installa l-[bootloader OTAFIX](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX)
+fuq bord nRF52 qabel ma ttellgħu fl-għoli. Bil-bootloader oriġinali, aġġornament
+li jfalli tista' ssewwih bl-USB biss. B'OTAFIX il-bord jerġa' lura għall-modalità
+tal-aġġornament, u int terġa' tipprova bil-Bluetooth. `get bootloader.ver` juri
+liema bootloader għandu bord: b'OTAFIX it-tweġiba fiha `OTAFIX`.
+
+Wara aġġornament, `ver` juri l-verżjoni tal-firmware li qed taħdem issa.
 
 **Bordijiet ESP32**, bħall-Heltec V3 u V4:
 
@@ -181,15 +213,6 @@ Dawn in-noti mhumiex parir legali. Ir-regoli jinbidlu. Jekk ikollok xi dubju, i�
 
 ## Lista ta' kontroll għat-twaħħil {#checklist}
 
-- [ ] Sid il-post ta l-kunsens, u tista' tilħaq ir-ripetitur għall-manutenzjoni.
-- [ ] Il-bord iħaddem il-firmware **Repeater**, u qabbadt l-antenna qabel l-ewwel tixgħil.
-- [ ] Biddilt il-password tal-admin.
-- [ ] Ir-radju jaqbel mal-[preset taż-żona tiegħek](/guides/settings/) (`get radio`).
-- [ ] Issettjajt `set dutycycle 10`.
-- [ ] Il-qawwa tat-trażmissjoni flimkien mal-gain tal-antenna tibqa' fil-limitu ta' 500 mW e.r.p.
-- [ ] Issettjajt l-isem, il-pożizzjoni u `owner.info`, biex oħrajn ikunu jafu min iħaddmu.
-- [ ] Issettjajt l-arloġġ (`clock`).
-- [ ] Il-kaxxa hija ssiġillata, b'toqba tad-drenaġġ jew tal-arja, u l-kejbil għandu drip loop.
-- [ ] Id-daqs tal-batterija u tal-pannell jlaħħaq mal-agħar xahar tax-xitwa.
-- [ ] Ittestjajtu mill-bogħod bl-app qabel ma tlaqt mill-post.
-- [ ] Il-grupp lokali tiegħek jaf li r-ripetitur qed jaħdem.
+Qabel ma ttella' r-repeater fl-għoli, għaddi minn
+[il-lista ta' kontroll tar-repeater](/guides/repeater-checklist/). Din issemmi kull ħaġa
+li trid tiċċekkja, flimkien mal-kmand li jurihielek.

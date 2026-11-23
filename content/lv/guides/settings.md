@@ -6,11 +6,11 @@ description: MeshCore radio priekšiestatījums katram Eiropas apgabalam, kā ar
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-11-02'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Katrs tālāk minētais apgabals lieto savu radio priekšiestatījumu vai nomaina dažas
@@ -40,6 +40,11 @@ piemēram, `nl`, `nl-ov` un `nl-ov-zwo`. Ziņa, kas adresēta `nl-ov-zwo`, palie
 ir iestatīti: ja tam ir `nl`, tas vēl nenozīmē, ka tas pārsūta `nl-ov`. Iekļauj katru
 retranslatoru visos reģionos, ko tas apkalpo, un tikai tajos. Tava
 [vietējā grupa](/community/) zina, kuri tie ir.
+
+**Pie robežas vienojies ar kaimiņiem par reģioniem.** Retranslators netālu no citas
+valsts var iekļaut arī tās valsts reģionu, piemēram, `fr` Reinas vācu pusē.
+Tad tas pārsūta šī reģiona ziņas pāri robežai. Vispirms vienojies par to ar
+grupu robežas otrā pusē.
 
 **Ierobežo to, ko tavs retranslators pārsūta.** Ar diviem iestatījumiem datplūsma, kurai
 nav jāceļo tālu, paliek tuvu mājām:

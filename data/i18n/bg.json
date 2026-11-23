@@ -3,7 +3,7 @@
     "language": "bg",
     "name": "Български",
     "managed_by": "community",
-    "updated": "2026-11-11"
+    "updated": "2026-11-21"
   },
   "site_tagline": {
     "value": "Съобщения без мрежа из цяла Европа",
@@ -2267,6 +2267,12 @@
     "_seeded": "2026-11-02",
     "_source": "c57f1887"
   },
+  "community.nl-mesh-twente.desc": {
+    "value": "Telegram чат, създаден от mesh ентусиасти в Твенте. Добре дошли са и ентусиасти от Саланд, Ахтерхук и останалата част от Оверейсел, Дренте и Гелдерланд.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "5f56d266"
+  },
   "community.be-radio-actief.desc": {
     "value": "Белгийско уики и Discord, създадени от радиолюбители, които донесоха MeshCore в Белгия в края на 2025. Част от по-широка общност на радиолюбителите.",
     "_ai": true,
@@ -2362,6 +2368,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "d0895f3b"
+  },
+  "community.dk-meshcom-sonderjylland.desc": {
+    "value": "Ръководства на датски за първите стъпки, радионастройките и хардуера, с дневник на изграждането на соларен ретранслатор и анализатор на живо.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "77f2c22e"
   },
   "community.se-meshat.desc": {
     "value": "Шведско място за срещи по mesh мрежи, с форум, Discord и стая в Matrix. Поддържа MQTT и картографски услуги за MeshCore и обхваща и други mesh проекти.",
@@ -2465,6 +2477,12 @@
     "_seeded": "2026-11-02",
     "_source": "3c6c5a0a"
   },
+  "community.fr-interconnexion-normand.desc": {
+    "value": "Гражданска mesh мрежа за Нормандия, за да могат хората да се свързват, когато обичайните мрежи откажат. Започна с Meshtastic и сега тества MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "d4699cac"
+  },
   "community.fr-loramesh.desc": {
     "value": "Френска група, която поддържа местната връзка с MeshCore, когато интернетът или мобилната мрежа отпаднат. Обяснява стъпка по стъпка и има карта на активните райони.",
     "_ai": true,
@@ -2566,6 +2584,18 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "5364e395"
+  },
+  "community.de-meshcore-rlp.desc": {
+    "value": "Отворена MeshCore общност за Рейнланд-Пфалц, с карта на възлите, блог и Telegram група.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "3e25994d"
+  },
+  "community.de-mesh-sn.desc": {
+    "value": "MeshCore сайт за Саксония, с ръководства за компаньони, ретранслатори и room server. Telegram каналът му обхваща и Meshtastic.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "0cae1c90"
   },
   "community.ie-mayo-mesh.desc": {
     "value": "Група на потребители на mesh радио за графство Мейо.",
@@ -3179,6 +3209,18 @@
     "_seeded": "2026-11-10",
     "_source": "e955c5f7"
   },
+  "project.local-meshcore-analyzer.desc": {
+    "value": "Инструмент за Windows, който се свързва с твоето компаньон радио. Показва колко трафик носи всеки ретранслатор близо до теб, по регион, тип съобщение и канал. Открива и пакети, които се движат в кръг, и чертае маршрутите на карта. Данните за пакетите остават на твоя компютър. Безплатен за лична, некомерсиална употреба.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "22799ea6"
+  },
+  "project.lusofw.desc": {
+    "value": "MeshCore фърмуер от общността в Португалия, използван и в Бразилия и Галисия. Изграден е върху стандартния MeshCore и остава съвместим с него. Има португалски настройки по подразбиране, например региони, зададени според позицията на възела.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "4901d59c"
+  },
   "guides_group_start": {
     "value": "Първият ти възел",
     "_ai": true,
@@ -3256,6 +3298,18 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "f52f6bd7"
+  },
+  "guides_card_repeater_checklist_title": {
+    "value": "Чеклист за ретранслатор",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "e982ea2f"
+  },
+  "guides_card_repeater_checklist_desc": {
+    "value": "Провери ретранслатора си, преди да го монтираш: какво да провериш през USB, на покрива и преди да тръгнеш.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "0a1f63cf"
   },
   "guides_card_resilient_title": {
     "value": "Направи mesh мрежата устойчива",
@@ -6124,6 +6178,18 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "695ddeef"
+  },
+  "menu_guide_repeater_checklist": {
+    "value": "Чеклист за ретранслатор",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "e982ea2f"
+  },
+  "menu_guide_repeater_checklist_sub": {
+    "value": "Какво да провериш преди монтажа",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "29c34a2e"
   },
   "menu_guide_resilient": {
     "value": "Направи мрежата устойчива",

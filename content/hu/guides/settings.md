@@ -6,11 +6,11 @@ description: A MeshCore rádiós presetje Európa egyes területein, valamint az
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-10-31'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Az alábbi területek mindegyike saját rádiós presetet használ, vagy a MeshCore
@@ -43,6 +43,12 @@ régiókat továbbítja, amelyekhez maga is tartozik: ha az `nl` régióban van,
 attól még nem továbbítja az `nl-ov` régiót. Minden átjátszót vegyél fel az
 összes régióba, amelyet kiszolgál, de csak azokba. A
 [helyi csoportod](/community/) tudja, melyek ezek.
+
+**Határ közelében egyeztesd a régiókat a szomszédaiddal.** Egy másik ország
+közelében álló átjátszón az adott ország régióját is beállíthatod, például a
+Rajna német oldalán az `fr` régiót. Ilyenkor az átjátszó a határon át is
+továbbítja az adott régiónak szóló üzeneteket. Ezt előbb egyeztesd a túloldali
+csoporttal.
 
 **Korlátozd, mit továbbít az átjátszód.** Két beállítással a közelben
 tarthatod azt a forgalmat, amelynek nem kell messzire jutnia:

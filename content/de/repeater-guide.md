@@ -6,11 +6,11 @@ eyebrow: 868 MHz · bis 500 mW · lizenzfrei
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 Repeater tragen das Mesh. Companions, also die Funkgeräte, mit denen du Nachrichten
@@ -104,7 +104,10 @@ Repeater er empfängt.
 
 ## Strom und Solarauslegung {#power}
 
-Ein Solar-Repeater muss die dunkelsten Winterwochen überstehen. Leg ihn dafür aus:
+Ein Solar-Repeater muss die dunkelsten Wochen des Winters überstehen.
+Schalte zuerst den Stromsparmodus ein: Nach `powersaving on` schläft der Repeater
+zwischen den Paketen. Das funktioniert auf nRF52-Boards und auf ESP32-Boards,
+deren Firmware keine Bridge hat. Dimensioniere dann Akku und Solarmodul:
 
 1. **Miss den Verbrauch.** Häng den konfigurierten Repeater für einen Tag an ein
    USB-Strommessgerät. Lies die verbrauchte Energie in Wattstunden (Wh) ab. Der
@@ -137,29 +140,47 @@ kannst auch jedes serielle Terminal mit 115200 Baud nutzen. Die wichtigsten Befe
 | Was | Befehl |
 |---|---|
 | Admin-Passwort ändern | `password <new password>` |
-| Namen vergeben | `set name <name>` |
-| Funk-Preset: Frequenz, Bandbreite, SF, CR (wirkt nach Neustart) | `set radio 869.618,62.5,8,8` |
+| Passwort für Gäste, die seinen Status lesen können | `set guest.password <password>` |
+| Namen geben | `set name <name>` |
+| Funk-Preset: Frequenz, Bandbreite, SF, CR (gilt nach Neustart) | `set radio 869.618,62.5,8,8` |
 | Duty-Cycle-Grenze in Prozent | `set dutycycle 10` |
 | Sendeleistung des Funkchips in dBm | `set tx <dBm>` |
 | Position, damit er auf Karten erscheint | `set lat <degrees>` und `set lon <degrees>` |
 | Kontaktdaten für andere Betreiber | `set owner.info <text>` |
-| Stunden zwischen Flood-Adverts, die das ganze Mesh empfängt | `set flood.advert.interval <hours>` |
-| Sofort ankündigen | `advert` |
+| Stunden zwischen Flood-Adverts, die das ganze Mesh hört | `set flood.advert.interval <hours>` |
+| Jetzt bekannt machen | `advert` |
 | Neu starten | `reboot` |
 
 Das Standard-Admin-Passwort ist `password`. Wer sich damit anmeldet, wird Admin.
 Ändere es, bevor der Repeater auf Sendung geht.
 
+Das Gastpasswort ist anfangs leer. Dann kann sich jeder ohne Passwort als Gast
+anmelden und den Status und die Nachbarn des Repeaters abrufen. Jede Anfrage
+erzeugt Verkehr im Mesh. Leg ein Gastpasswort fest und gib es den Leuten, die es
+brauchen.
+
+**Namen wählen.** Benenne ihn so, wie deine lokale Gruppe ihre Repeater benennt.
+Ohne Gruppe schreib das Land, den Ort und einen kurzen Namen hinein, etwa
+`DE-63477-MUF1`. Andere Betreiber sehen dann, wo der Repeater steht. Ein Name
+fasst bis zu 31 Bytes, und in ein Advert, das auch eine Position enthält, passen 23.
+
 Das Beispiel für `set radio` oben gilt für EU/UK (Narrow). Nimm stattdessen die
 Werte des Presets deiner Gegend: [Empfohlene Einstellungen](/guides/settings/)
 listet sie pro Land auf.
 
-**Uhr stellen.** Ohne Uhrmodul (RTC) verliert ein Repeater bei jedem Stromausfall
-die Zeit, und seine Uhr beginnt wieder im Mai 2024. Im Betrieb driftet seine Uhr
-außerdem: Sie geht immer weiter vor oder nach. Stell die Uhr deshalb ab und zu:
-Melde dich in der App aus der Ferne an und nutze `clock sync`, oder stell die Zeit
-per USB. Mit einem RTC-Modul musst du das selten tun: Es hält die Zeit über
-Stromausfälle hinweg und driftet viel weniger.
+**Uhr stellen.** Ohne Uhrenmodul (RTC) verliert ein Repeater bei jedem Stromausfall
+die Uhrzeit und startet danach wieder im Mai 2024. Im Betrieb driftet seine Uhr außerdem: Sie
+geht immer weiter vor oder nach. Stell die Uhr deshalb ab und zu: Melde dich per Fernzugriff
+aus der App an und nutze `clock sync`, oder stell die Uhrzeit per USB ein. Mit
+einem RTC-Modul musst du das selten tun: Es behält die Uhrzeit auch bei Stromausfällen und
+driftet viel weniger. Die Firmware erkennt ein DS3231-, RV3028-, PCF8563- oder
+RX8130-Modul von selbst.
+
+**Ein Board mit GPS** stellt beides für dich ein. Nach `gps on` holt sich der
+Repeater alle 30 Minuten die Uhrzeit vom GPS. `gps setloc` kopiert seine Position
+in `lat` und `lon`. Das GPS verbraucht die ganze Zeit Strom, solange es eingeschaltet ist. Bei
+Solarbetrieb führst du `gps setloc` einmal am Standort aus und schaltest das GPS mit
+`gps off` ab. Die Uhr braucht danach wieder `clock sync`.
 
 **Aus der Ferne verwalten.** Sobald er im Mesh ist, meldest du dich in der
 MeshCore-App mit dem Admin-Passwort an. Dort liest du seinen Status ab und nutzt
@@ -191,9 +212,13 @@ MeshCore-App mit dem Admin-Passwort an, öffne seine Kommandozeile und gib
    und den Repeater und starte den Upload. Das dauert ein paar Minuten.
 
 Installier den [OTAFIX-Bootloader](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX)
-auf einem nRF52-Board, bevor es nach oben kommt. Mit dem Standard-Bootloader lässt
-sich ein fehlgeschlagenes Update nur per USB reparieren. Mit OTAFIX fällt das Board
-in den Update-Modus zurück, und du versuchst es erneut per Bluetooth.
+auf einem nRF52-Board, bevor es nach oben kommt. Mit dem Standard-Bootloader kannst du
+ein fehlgeschlagenes Update nur per USB reparieren. Mit OTAFIX fällt das Board in
+den Update-Modus zurück, und du versuchst es noch mal per Bluetooth.
+`get bootloader.ver` zeigt, welchen Bootloader ein Board hat: Mit OTAFIX steht in der
+Antwort `OTAFIX`.
+
+Nach einem Update zeigt `ver` die Firmware-Version, die jetzt läuft.
 
 **ESP32-Boards** wie Heltec V3 und V4:
 
@@ -288,21 +313,6 @@ deiner nationalen Regulierungsbehörde nach.
 
 ## Checkliste für die Installation {#checklist}
 
-- [ ] Der Eigentümer des Standorts hat zugestimmt, und du kommst für die Wartung an
-      den Repeater.
-- [ ] Auf dem Board läuft die **Repeater**-Firmware, und die Antenne war vor dem
-      ersten Einschalten angeschlossen.
-- [ ] Das Admin-Passwort ist geändert.
-- [ ] Die Funkeinstellungen passen zum [Preset deiner Gegend](/guides/settings/)
-      (`get radio`).
-- [ ] `set dutycycle 10` ist gesetzt.
-- [ ] Sendeleistung plus Antennengewinn bleiben innerhalb von 500 mW e.r.p.
-- [ ] Name, Position und `owner.info` sind gesetzt, damit andere wissen, wer ihn
-      betreibt.
-- [ ] Die Uhr ist gestellt (`clock`).
-- [ ] Das Gehäuse ist dicht, mit Ablauf- oder Lüftungsloch, und das Kabel hat eine
-      Tropfschlaufe.
-- [ ] Akku und Panel sind für den schlechtesten Wintermonat ausgelegt.
-- [ ] Du hast ihn vor dem Verlassen des Standorts mit der App aus der Entfernung
-      getestet.
-- [ ] Deine lokale Gruppe weiß, dass er läuft.
+Bevor du den Repeater montierst, geh die
+[Repeater-Checkliste](/guides/repeater-checklist/) durch. Sie nennt jeden Prüfpunkt
+und den Befehl, der ihn anzeigt.

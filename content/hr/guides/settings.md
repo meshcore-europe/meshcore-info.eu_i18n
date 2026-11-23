@@ -6,11 +6,11 @@ description: MeshCore radijski preset po području u Europi te postavke repetito
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-11-02'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Svako područje u nastavku koristi vlastiti radijski preset ili mijenja nekoliko
@@ -39,6 +39,11 @@ na primjer `nl`, `nl-ov` i `nl-ov-zwo`. Poruka za `nl-ov-zwo` ostaje kod
 repetitora u toj grupi. Repetitor prosljeđuje samo regije koje sam ima: ako ima
 `nl`, to ne znači da prosljeđuje i `nl-ov`. Svaki repetitor stavi u sve regije
 koje poslužuje, i samo u njih; tvoja [lokalna grupa](/community/) zna koje su to.
+
+**U blizini granice dogovori regije sa susjedima.** Repetitor blizu druge
+države može imati i regiju te države, na primjer `fr` na njemačkoj strani
+Rajne. Tada prosljeđuje poruke za tu regiju preko granice. To najprije dogovori
+s grupom s druge strane.
 
 **Ograniči što prosljeđuje tvoj repetitor.** Dvije postavke zadržavaju u blizini
 promet koji ne mora putovati daleko:

@@ -5,11 +5,11 @@ description: Ajoute ta communauté, un appareil ou un projet, relis une traducti
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '1a28f66a'
-  seeded: '2026-11-10'
+  source_hash: '1ae1bf12'
+  seeded: '2026-11-21'
   fields: {title: '97b0c61b', lead: 'e9b40d4d', description: '3bd97cd2'}
-  sections: ['6e9d4b61', 'aca796d7', 'd4848d5b', '247b2601', '4b12bb2c', '645c82d3', 'c755b654']
-  blocks: ['2f9dd6e8', '44167907', 'b020e1a4', 'f2c726cd', '2e9d1fdd', 'b2a902ba', 'b15ce10b', '2be86888', '3db6cb63', '2e3c2fc0', '693a5d9d', '8aa01985', '96d8689d', 'c67fd14a', 'f92f7e49', '12ddca6c', 'e947e2a9', '526df4bb', 'e0d3559e']
+  sections: ['6e9d4b61', 'aca796d7', 'd4848d5b', '09da3428', '4b12bb2c', '645c82d3', 'c755b654']
+  blocks: ['2f9dd6e8', '44167907', 'b020e1a4', 'f2c726cd', '2e9d1fdd', 'b2a902ba', 'b15ce10b', '2be86888', '3db6cb63', '27956f26', 'a252a0ee', '2e3c2fc0', '693a5d9d', '8aa01985', '96d8689d', 'c67fd14a', 'f92f7e49', '12ddca6c', 'e947e2a9', '526df4bb', 'e0d3559e']
 ---
 
 Tout le contenu de ce site se trouve dans un
@@ -39,6 +39,15 @@ Les pages dans les autres langues sont d'abord traduites automatiquement. Un ave
 2. Corrige la formulation. Garde les liens, le code, les nombres et les noms comme MeshCore exactement tels quels.
 3. Dans le bloc `translation` en haut, remplace `status: ai` par
    `status: human`, puis propose la modification.
+
+Les textes courts, comme la description d'une communauté ou d'un projet, se trouvent dans
+`data/i18n/<language>.json`. Remplace une entrée traduite automatiquement par ta propre formulation,
+écrite en texte brut entre guillemets.
+
+Tu travailles avec un agent IA ? Laisse-le travailler dans le
+[dépôt des traductions](https://github.com/meshcore-europe/meshcore-info.eu_i18n),
+qui contient les étapes pour les agents. Il traduit ce qui manque et te montre
+le reste à vérifier. Seul ce que tu as lu compte comme relu.
 
 Tu as repéré un mot erroné, mais tu n'as pas le temps de le corriger ? Signale-le avec le
 [formulaire de traduction](https://github.com/meshcore-europe/meshcore-info.eu/issues/new?template=translation-bug.yml).

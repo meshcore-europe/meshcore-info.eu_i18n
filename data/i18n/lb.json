@@ -3,7 +3,7 @@
     "language": "lb",
     "name": "Lëtzebuergesch",
     "managed_by": "community",
-    "updated": "2026-11-11"
+    "updated": "2026-11-21"
   },
   "site_tagline": {
     "value": "Messagen ouni Netz, uechter Europa",
@@ -2267,6 +2267,12 @@
     "_seeded": "2026-11-02",
     "_source": "c57f1887"
   },
+  "community.nl-mesh-twente.desc": {
+    "value": "Telegram-Chat, dee Mesher aus Twente gestart hunn. Mesher aus Salland, dem Achterhoek an dem Rescht vun Overijssel, Drenthe a Gelderland sinn och wëllkomm.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "5f56d266"
+  },
   "community.be-radio-actief.desc": {
     "value": "Belsche Wiki an Discord, ugefaange vu Funkamateuren, déi MeshCore Enn 2025 an d'Belsch bruecht hunn. Deel vun enger méi grousser Radiohobby-Community.",
     "_ai": true,
@@ -2362,6 +2368,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "d0895f3b"
+  },
+  "community.dk-meshcom-sonderjylland.desc": {
+    "value": "Dänesch Guiden iwwer den Ufank, Radio-Astellungen an Hardware, mat engem Baulog vun engem Solar-Repeater an engem Live-Analyzer.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "77f2c22e"
   },
   "community.se-meshat.desc": {
     "value": "Schwedesche Treffpunkt fir Mesh-Netzwierker, mat engem Forum, Discord an engem Matrix-Raum. E bedreift MeshCore-MQTT- a Kaartendéngschter a behandelt och aner Mesh-Projeten.",
@@ -2465,6 +2477,12 @@
     "_seeded": "2026-11-02",
     "_source": "3c6c5a0a"
   },
+  "community.fr-interconnexion-normand.desc": {
+    "value": "Biergerlecht Mesh-Netz fir d'Normandie, sou datt d'Leit sech erreeche kënnen, wann déi üblech Netzer ausfalen. Et huet mat Meshtastic ugefaangen an test elo MeshCore.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "d4699cac"
+  },
   "community.fr-loramesh.desc": {
     "value": "Franséisch Grupp, déi mat MeshCore de lokale Kontakt hält, wann Internet oder Handysnetz ausfalen, Schrëtt fir Schrëtt, mat enger Kaart vun den aktive Géigenden.",
     "_ai": true,
@@ -2566,6 +2584,18 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "5364e395"
+  },
+  "community.de-meshcore-rlp.desc": {
+    "value": "Oppe MeshCore-Communautéit fir Rheinland-Pfalz, mat enger Node-Kaart, engem Blog an enger Telegram-Grupp.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "3e25994d"
+  },
+  "community.de-mesh-sn.desc": {
+    "value": "MeshCore-Site fir Sachsen, mat Guiden fir Companions, Repeateren a Room Serveren. Hire Telegram-Kanal deckt och Meshtastic of.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "0cae1c90"
   },
   "community.ie-mayo-mesh.desc": {
     "value": "Benotzergrupp fir Mesh-Radio am County Mayo.",
@@ -3179,6 +3209,18 @@
     "_seeded": "2026-11-10",
     "_source": "e955c5f7"
   },
+  "project.local-meshcore-analyzer.desc": {
+    "value": "E Windows-Tool, dat sech mat dengem Companion-Radio verbënnt. Et weist, wéi eng Repeateren no bei dir wéi vill Traffic droen, no Regioun, Messagentyp a Kanal. Et fënnt och Paketen, déi an der Schleef lafen, a molt d'Routen op eng Kaart. D'Paketdate bleiwen op dengem Computer. Gratis fir privaten, net-kommerziellen Gebrauch.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "22799ea6"
+  },
+  "project.lusofw.desc": {
+    "value": "MeshCore-Firmware vun der Communautéit a Portugal, déi och a Brasilien a Galicien benotzt gëtt. Si baut op dem Standard-MeshCore op a bleift domat kompatibel. Si huet portugisesch Standardastellungen, zum Beispill Regiounen, déi no der Positioun vum Node gesat ginn.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "4901d59c"
+  },
   "guides_group_start": {
     "value": "Däin éischten Node",
     "_ai": true,
@@ -3256,6 +3298,18 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "f52f6bd7"
+  },
+  "guides_card_repeater_checklist_title": {
+    "value": "Repeater-Checklëscht",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "e982ea2f"
+  },
+  "guides_card_repeater_checklist_desc": {
+    "value": "Kontrolléier däin Repeater, ier en eropkënnt: wat s du iwwer USB, um Daach a virum Fortgoe kontrolléiers.",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "0a1f63cf"
   },
   "guides_card_resilient_title": {
     "value": "Maach de Mesh robust",
@@ -6124,6 +6178,18 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "695ddeef"
+  },
+  "menu_guide_repeater_checklist": {
+    "value": "Repeater-Checklëscht",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "e982ea2f"
+  },
+  "menu_guide_repeater_checklist_sub": {
+    "value": "Wat s du kontrolléiers, ier en eropkënnt",
+    "_ai": true,
+    "_seeded": "2026-11-21",
+    "_source": "29c34a2e"
   },
   "menu_guide_resilient": {
     "value": "De Mesh robust maachen",

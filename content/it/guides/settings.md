@@ -6,11 +6,11 @@ description: Il preset radio di MeshCore per ogni zona d'Europa e le impostazion
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-10-31'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Ogni zona qui sotto usa un proprio preset radio, oppure cambia alcuni
@@ -42,6 +42,11 @@ un proprio codice, come `nl`, `nl-ov` e `nl-ov-zwo`. Un messaggio per
 le regioni che ha configurato: avere `nl` non basta perché inoltri `nl-ov`. Metti
 ogni ripetitore in tutte le regioni che serve, e solo in quelle. Il tuo
 [gruppo locale](/community/) sa quali sono.
+
+**Vicino a un confine, concorda le regioni con i tuoi vicini.** Un ripetitore
+vicino a un altro paese può avere anche la regione di quel paese, ad esempio `fr` sul
+lato tedesco del Reno. Così inoltra i messaggi di quella regione oltre il
+confine. Prima mettiti d'accordo con il gruppo dall'altra parte.
 
 **Limita ciò che il tuo ripetitore inoltra.** Due impostazioni tengono vicino
 a casa il traffico che non ha bisogno di andare lontano:

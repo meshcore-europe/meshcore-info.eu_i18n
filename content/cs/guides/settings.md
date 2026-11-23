@@ -6,11 +6,11 @@ description: Rádiový preset MeshCore pro každou oblast v Evropě a nastavení
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '0876215b'
-  seeded: '2026-10-31'
+  source_hash: '984cea33'
+  seeded: '2026-11-21'
   fields: {title: 'cfb32983', lead: 'f3f16725', description: 'cb15acd3'}
-  sections: ['39848942', 'd1606fcd']
-  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '69d8e70b', '28f83120', 'fe27027b']
+  sections: ['39848942', 'a90932af']
+  blocks: ['8c9e88ea', '50ac6063', '85c2203d', '15f91217', 'bdf5fa4e', '7d5318e9', '69d8e70b', '28f83120', 'fe27027b']
 ---
 
 Každá oblast níže používá vlastní rádiový preset, nebo mění několik
@@ -40,6 +40,11 @@ u repeaterů v této skupině. Repeater předává dál jen regiony, které má 
 nastavené. Když má `nl`, neznamená to, že předá dál `nl-ov`. Zařaď každý
 repeater do všech regionů, které obsluhuje, a jen do nich. Které to jsou,
 ti řekne tvoje [místní skupina](/community/).
+
+**Blízko hranic se domluv na regionech se sousedy.** Repeater blízko jiné země
+může mít i region této země, například `fr` na německé straně Rýna. Zprávy
+pro tento region pak předává přes hranici. Nejdřív se na tom domluv se
+skupinou na druhé straně.
 
 **Omez, co tvůj repeater předává dál.** Dvě nastavení udrží v blízkém okolí
 provoz, který nemusí cestovat daleko:

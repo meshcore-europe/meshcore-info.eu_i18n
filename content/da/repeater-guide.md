@@ -6,11 +6,11 @@ eyebrow: 868 MHz · op til 500 mW · uden licens
 # Fixed a translation? Set status: human below, or the next change to the English page can overwrite your fix.
 translation:
   status: ai
-  source_hash: '3e38a8c6'
-  seeded: '2026-11-04'
+  source_hash: 'd42ee2ac'
+  seeded: '2026-11-21'
   fields: {title: '4608abcd', lead: 'bc670c65', description: '9e483ce5', eyebrow: '9fd33416'}
-  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', '8bc641aa', '399cd683', 'e9dedb7b', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'fb44b8db']
-  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', 'd162b028', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '8d080bb3', '2b1d995b', '210f1b66', 'dc7419d2', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', 'da8a6af3', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '1b1319d2']
+  sections: ['05ee477a', '938c518c', '824ab38e', '662ea23c', '70faf508', 'b9991666', '69d7162f', 'bf712994', '92beca03', '17634750', 'cadf6024', 'e9cc6834', '2e6e59ca', 'cc266810']
+  blocks: ['20ac0371', 'ed2b1adf', '432543ee', '7af42c89', 'd0f7543a', '9ef3580f', '3476aef7', '1bab7bec', 'bbea9a0c', '2b9fab3b', 'b13d1947', 'c2bad16f', '636edc86', 'c2d6bcd1', '957ae975', '98874949', '96d1ebad', 'dbd9fa1f', 'aa06d32b', '9958aad3', '73642ab6', 'cca1bbdf', '64ef011d', 'e7f16724', 'd2e34ff0', 'bb195cfc', '90338c64', '2b1d995b', '992bed82', '62eb1543', '210f1b66', 'e817b1f7', '63f961dc', 'bdc66db0', 'b59f248c', '7184bd63', 'de5a24f9', 'f5cfb426', '48c7422f', '9d3c0836', '50af0550', 'dd7c556b', '240126df', '8aac2b33', '81a475b8', 'a53e42b5', '36ff1db4', 'e4ca8602', 'e4594afd', '3b24b8e9', '58330858', '68f2966e', 'd7418228', '23536e60', 'cbc5c2d1', '2ea02ba9', '92540256', '6e21f681', 'a8c12311', '3382ae7f', 'cdeafb0f', '7cf2bc81']
 ---
 
 Repeatere bærer meshet. Companions, de radioer du skriver beskeder fra, sender ikke beskeder videre. Uden repeatere når du derfor kun folk inden for direkte rækkevidde. En repeater på det rigtige sted udvider meshet for alle omkring den. Denne guide følger MeshCore-firmware v1.18.0.
@@ -72,7 +72,10 @@ repeatere den hører.
 
 ## Strøm og dimensionering af solceller {#power}
 
-En repeater på solenergi skal klare vinterens mørkeste uger. Dimensionér den efter dem:
+En repeater på solenergi skal klare de mørkeste uger om vinteren. Slå først
+strømsparing til: efter `powersaving on` sover repeateren mellem pakkerne. Det
+virker på nRF52-boards og på ESP32-boards, hvor firmwaren ikke har en bridge.
+Dimensionér derefter batteriet og solpanelet:
 
 1. **Mål forbruget.** Kør den konfigurerede repeater gennem en USB-strømmåler i et døgn. Aflæs energiforbruget i watttimer (Wh). Trafikken i dit område påvirker tallet, så mål på stedet, hvis du kan.
 2. **Læg en reserve oveni.** Planlæg batterikapacitet til mindst 5 til 7 dage uden brugbar sol.
@@ -92,21 +95,44 @@ Et regneeksempel med antagede tal: en repeater, der bruger 1 Wh pr. dag, kræver
 | Hvad | Kommando |
 |---|---|
 | Skift admin-adgangskoden | `password <new password>` |
+| Adgangskode for gæster, som kan læse dens status | `set guest.password <password>` |
 | Giv den et navn | `set name <name>` |
-| Radiopreset: frekvens, båndbredde, SF, CR (genstart for at aktivere det) | `set radio 869.618,62.5,8,8` |
+| Radioforudindstilling: frekvens, båndbredde, SF, CR (træder i kraft efter genstart) | `set radio 869.618,62.5,8,8` |
 | Grænse for duty cycle, i procent | `set dutycycle 10` |
 | Radiochippens sendeeffekt, i dBm | `set tx <dBm>` |
 | Position, så den vises på kort | `set lat <degrees>` og `set lon <degrees>` |
 | Kontaktoplysninger til andre operatører | `set owner.info <text>` |
-| Timer mellem flood-adverts, dem hele meshet hører | `set flood.advert.interval <hours>` |
+| Timer mellem flood-adverts, dem, hele meshet hører | `set flood.advert.interval <hours>` |
 | Annoncér den nu | `advert` |
 | Genstart | `reboot` |
 
 Standardadgangskoden til admin er `password`, og alle, der logger ind med den, bliver admin. Skift den, før repeateren går i luften.
 
+Gæsteadgangskoden er tom fra starten. Så kan alle logge ind som gæst uden
+adgangskode og læse repeaterens status og dens naboer. Hver forespørgsel giver
+trafik på meshet. Vælg en gæsteadgangskode, og giv den til dem, der har brug
+for den.
+
+**Vælg et navn.** Giv den et navn på samme måde, som din lokale gruppe navngiver sine repeatere.
+Har du ingen gruppe, så skriv land, sted og et kort navn i navnet, for eksempel
+`DE-63477-MUF1`. Så kan andre operatører se, hvor repeateren står. Et navn
+kan fylde op til 31 bytes, og i et advert, der også har en position, er der plads til 23.
+
 Eksemplet med `set radio` ovenfor er EU/UK (Narrow). Brug i stedet værdierne fra dit områdes preset: [Anbefalede indstillinger](/guides/settings/) viser dem for hvert land.
 
-**Indstil uret.** Uden et urmodul (RTC) mister en repeater tiden ved hvert strømsvigt og starter igen i maj 2024. Mens den kører, driver uret også: det løber længere og længere foran eller bagud. Indstil derfor uret en gang imellem: log ind på afstand fra appen, og brug `clock sync`, eller indstil tiden via USB. Med et RTC-modul behøver du sjældent at gøre det: det holder styr på tiden under strømsvigt og driver langt mindre.
+**Indstil uret.** Uden et urmodul (RTC) glemmer en repeater tiden ved
+hvert strømsvigt og starter forfra i maj 2024. Mens den kører, glider uret også:
+det går mere og mere foran eller bagud. Indstil derfor uret en gang imellem: log
+ind eksternt fra appen og brug `clock sync`, eller indstil tiden via USB. Med
+et RTC-modul skal du sjældent gøre det: det holder tiden under strømsvigt og
+glider langt mindre. Firmwaren finder selv et DS3231-, RV3028-, PCF8563- eller
+RX8130-modul.
+
+**Et board med GPS** indstiller begge dele for dig. Efter `gps on` henter repeateren
+tiden fra GPS hvert 30. minut, og `gps setloc` kopierer dens position til
+`lat` og `lon`. GPS'en bruger strøm hele tiden, mens den er tændt. Kører du på solenergi, så kør
+`gps setloc` én gang på stedet, og sluk GPS'en med `gps off`. Derefter skal du
+køre `clock sync` igen for uret.
 
 **Administrér den på afstand.** Når den er på meshet, logger du ind fra MeshCore-appen med admin-adgangskoden. Der aflæser du dens status og bruger de samme kommandoer over radioen. Nogle kommandoer virker kun via USB, for eksempel `set freq` og fabriksnulstillingen `erase`.
 
@@ -125,7 +151,13 @@ Når repeateren først sidder højt oppe, opdaterer du den fra jorden. Log ind f
 2. Skriv `start ota`. Repeateren svarer `OK` og dukker op via Bluetooth som `<board>_OTA`, for eksempel `RAK4631_OTA`.
 3. Åbn appen nRF Device Firmware Update på din telefon, vælg ZIP-filen og repeateren, og upload. Det tager nogle få minutter.
 
-Installer [OTAFIX-bootloaderen](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX) på et nRF52-board, før det kommer op at sidde. Med den oprindelige bootloader kan du kun reparere en mislykket opdatering via USB. Med OTAFIX går boardet tilbage til opdateringstilstand, og du prøver igen via Bluetooth.
+Installér [OTAFIX-bootloaderen](https://github.com/oltaco/Adafruit_nRF52_Bootloader_OTAFIX)
+på et nRF52-board, før du sætter det op. Med den originale bootloader kan du kun
+reparere en mislykket opdatering via USB. Med OTAFIX går boardet tilbage i
+opdateringstilstand, og du prøver igen via Bluetooth. `get bootloader.ver` viser,
+hvilken bootloader et board har: med OTAFIX indeholder svaret `OTAFIX`.
+
+Efter en opdatering viser `ver` den firmwareversion, der kører nu.
 
 **ESP32-boards**, for eksempel Heltec V3 og V4:
 
@@ -184,15 +216,6 @@ Disse noter er ikke juridisk rådgivning. Reglerne ændrer sig. Er du i tvivl, s
 
 ## Tjekliste til opsætning {#checklist}
 
-- [ ] Ejeren af stedet har sagt ja, og du kan komme til repeateren for at vedligeholde den.
-- [ ] Boardet kører **Repeater**-firmwaren, og antennen sad på før første opstart.
-- [ ] Admin-adgangskoden er skiftet.
-- [ ] Radioen passer til [dit områdes preset](/guides/settings/) (`get radio`).
-- [ ] `set dutycycle 10` er indstillet.
-- [ ] Sendeeffekt plus antenneforstærkning holder sig inden for 500 mW e.r.p.
-- [ ] Navn, position og `owner.info` er indstillet, så andre ved, hvem der driver den.
-- [ ] Uret er indstillet (`clock`).
-- [ ] Kabinettet er tæt, med et dræn- eller udluftningshul, og kablet har en drypsløjfe.
-- [ ] Batteri og panel er dimensioneret til den værste vintermåned.
-- [ ] Du har testet den på afstand med appen, før du forlader stedet.
-- [ ] Din lokale gruppe ved, at den er oppe at køre.
+Før du sætter repeateren op, så gå
+[tjeklisten til repeatere](/guides/repeater-checklist/) igennem. Den nævner hvert punkt, du skal
+tjekke, sammen med den kommando, der viser det.
