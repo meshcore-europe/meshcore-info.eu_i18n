@@ -3,7 +3,7 @@
     "language": "ga",
     "name": "Gaeilge",
     "managed_by": "community",
-    "updated": "2026-11-21"
+    "updated": "2026-11-24"
   },
   "site_tagline": {
     "value": "Teachtaireachtaí lasmuigh den eangach ar fud na hEorpa",
@@ -2597,6 +2597,24 @@
     "_seeded": "2026-11-21",
     "_source": "0cae1c90"
   },
+  "community.de-portamesh.desc": {
+    "value": "Grúpa MeshCore do réigiún Trier, an Eifel agus gleann na Moselle, le léarscáil nód agus grúpa Signal.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "d0c1f7a5"
+  },
+  "community.de-meshcore-franken.desc": {
+    "value": "Pobal MeshCore don Fhranconia i dtuaisceart na Baváire, le treoir tosaithe, na socruithe raidió, an cainéal #franken agus grúpa Telegram.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "800fe668"
+  },
+  "community.de-mesh-steinhuder-meer.desc": {
+    "value": "Grúpa óg MeshCore agus Meshtastic do thart ar 25 km timpeall an Steinhuder Meer siar ó Hanover, leis an gcainéal #mesh-stm agus an réigiún de-ni-stm.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "f834cd04"
+  },
   "community.ie-mayo-mesh.desc": {
     "value": "Grúpa úsáideoirí raidió mesh do Chontae Mhaigh Eo.",
     "_ai": true,
@@ -3648,10 +3666,16 @@
     "_source": "a6221a2f"
   },
   "regions_district": {
-    "value": "Cód do cheantair nó d'oileáin",
+    "value": "Do cheantar nó d'oileán",
     "_ai": true,
-    "_seeded": "2026-11-04",
-    "_source": "f46ccde8"
+    "_seeded": "2026-11-24",
+    "_source": "7a3b12ca"
+  },
+  "regions_macro": {
+    "value": "Do mhacra-réigiún",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "b9906b22"
   },
   "regions_preset_pick": {
     "value": "Réamhshocrú do raidió",
@@ -3702,10 +3726,10 @@
     "_source": "10268d8d"
   },
   "regions_table_region": {
-    "value": "Réigiún",
+    "value": "Macra-réigiún",
     "_ai": true,
-    "_seeded": "2026-11-04",
-    "_source": "d3a008ef"
+    "_seeded": "2026-11-24",
+    "_source": "52dfd083"
   },
   "regions_table_inside": {
     "value": "Ceantair agus oileáin taobh istigh de",
@@ -3743,6 +3767,12 @@
     "_seeded": "2026-11-04",
     "_source": "73fd15ae"
   },
+  "regions_cmd_hint_district": {
+    "value": "Roghnaigh do cheantar agus do mhacra-réigiún, ansin cóipeáil. Ní leanann teorainn macra-réigiúin na ceantair. Faigheann d'athsheoltóir an dá cheann, díreach faoi do thír.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "32648f0e"
+  },
   "area_ph_hint": {
     "value": "Clóscríobh do luachanna féin thar na cinn mharcáilte, ansin cóipeáil.",
     "_ai": true,
@@ -3766,6 +3796,18 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "1d5f12a5"
+  },
+  "area_ph_district": {
+    "value": "Do cheantar",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "1f9d994d"
+  },
+  "area_ph_region": {
+    "value": "Do mhacra-réigiún",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "b9906b22"
   },
   "area_map_label": {
     "value": "Léarscáil de na ceantair agus a réamhshocrú raidió",

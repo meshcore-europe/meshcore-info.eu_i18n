@@ -3,7 +3,7 @@
     "language": "pt",
     "name": "Português",
     "managed_by": "community",
-    "updated": "2026-11-21"
+    "updated": "2026-11-24"
   },
   "site_tagline": {
     "value": "Mensagens sem rede por toda a Europa",
@@ -2597,6 +2597,24 @@
     "_seeded": "2026-11-21",
     "_source": "0cae1c90"
   },
+  "community.de-portamesh.desc": {
+    "value": "Grupo MeshCore para a região de Trier, o Eifel e o vale do Mosela, com um mapa de nós e um grupo no Signal.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "d0c1f7a5"
+  },
+  "community.de-meshcore-franken.desc": {
+    "value": "Comunidade MeshCore da Francónia, no norte da Baviera, com um guia para começar, as definições de rádio, o canal #franken e um grupo no Telegram.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "800fe668"
+  },
+  "community.de-mesh-steinhuder-meer.desc": {
+    "value": "Grupo recente de MeshCore e Meshtastic para cerca de 25 km à volta do Steinhuder Meer, a oeste de Hanôver, com o canal #mesh-stm e a região de-ni-stm.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "f834cd04"
+  },
   "community.ie-mayo-mesh.desc": {
     "value": "Grupo de utilizadores de rádio mesh para o Condado de Mayo.",
     "_ai": true,
@@ -3693,10 +3711,10 @@
     "_source": "10268d8d"
   },
   "regions_table_region": {
-    "value": "Região",
+    "value": "Macrorregião",
     "_ai": true,
-    "_seeded": "2026-11-04",
-    "_source": "d3a008ef"
+    "_seeded": "2026-11-24",
+    "_source": "52dfd083"
   },
   "regions_table_inside": {
     "value": "Distritos e ilhas incluídos",
@@ -3734,6 +3752,12 @@
     "_seeded": "2026-11-04",
     "_source": "73fd15ae"
   },
+  "regions_cmd_hint_district": {
+    "value": "Escolhe o teu distrito e a tua macrorregião e depois copia. A fronteira de uma macrorregião não segue os distritos. O teu repetidor recebe as duas, logo abaixo do teu país.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "32648f0e"
+  },
   "area_ph_hint": {
     "value": "Escreve os teus valores sobre os realçados, e depois copia.",
     "_ai": true,
@@ -3757,6 +3781,18 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "1d5f12a5"
+  },
+  "area_ph_district": {
+    "value": "O teu distrito",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "1f9d994d"
+  },
+  "area_ph_region": {
+    "value": "A tua macrorregião",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "b9906b22"
   },
   "area_map_label": {
     "value": "Mapa das áreas e do seu preset de rádio",

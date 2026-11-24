@@ -3,7 +3,7 @@
     "language": "lb",
     "name": "Lëtzebuergesch",
     "managed_by": "community",
-    "updated": "2026-11-21"
+    "updated": "2026-11-24"
   },
   "site_tagline": {
     "value": "Messagen ouni Netz, uechter Europa",
@@ -2597,6 +2597,24 @@
     "_seeded": "2026-11-21",
     "_source": "0cae1c90"
   },
+  "community.de-portamesh.desc": {
+    "value": "MeshCore-Grupp fir d'Regioun Trier, d'Eifel an d'Musel, mat enger Node-Kaart an enger Signal-Grupp.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "d0c1f7a5"
+  },
+  "community.de-meshcore-franken.desc": {
+    "value": "MeshCore-Communautéit fir Franken am Norde vu Bayern, mat engem Ufänkerguide, de Radio-Astellungen, dem Kanal #franken an enger Telegram-Grupp.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "800fe668"
+  },
+  "community.de-mesh-steinhuder-meer.desc": {
+    "value": "Jonk MeshCore- a Meshtastic-Grupp fir ongeféier 25 km ronderëm de Steinhuder Meer westlech vun Hannover, mam Kanal #mesh-stm an der Regioun de-ni-stm.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "f834cd04"
+  },
   "community.ie-mayo-mesh.desc": {
     "value": "Benotzergrupp fir Mesh-Radio am County Mayo.",
     "_ai": true,
@@ -3648,10 +3666,16 @@
     "_source": "a6221a2f"
   },
   "regions_district": {
-    "value": "Däin Distrikt- oder Inselcode",
+    "value": "Däi Kreis oder deng Insel",
     "_ai": true,
-    "_seeded": "2026-11-04",
-    "_source": "f46ccde8"
+    "_seeded": "2026-11-24",
+    "_source": "7a3b12ca"
+  },
+  "regions_macro": {
+    "value": "Deng Makroregioun",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "b9906b22"
   },
   "regions_preset_pick": {
     "value": "Däi Radio-Preset",
@@ -3702,10 +3726,10 @@
     "_source": "10268d8d"
   },
   "regions_table_region": {
-    "value": "Regioun",
+    "value": "Makroregioun",
     "_ai": true,
-    "_seeded": "2026-11-04",
-    "_source": "d3a008ef"
+    "_seeded": "2026-11-24",
+    "_source": "52dfd083"
   },
   "regions_table_inside": {
     "value": "Distrikter an Inselen dodran",
@@ -3743,6 +3767,12 @@
     "_seeded": "2026-11-04",
     "_source": "73fd15ae"
   },
+  "regions_cmd_hint_district": {
+    "value": "Wiel däi Kreis an deng Makroregioun, a kopéier dann. D'Grenz vun enger Makroregioun follegt de Kreesser net. Däi Repeater kritt allebéid, direkt ënner dengem Land.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "32648f0e"
+  },
   "area_ph_hint": {
     "value": "Tipp deng eege Wäerter iwwer déi markéiert, a kopéier dann.",
     "_ai": true,
@@ -3766,6 +3796,18 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "1d5f12a5"
+  },
+  "area_ph_district": {
+    "value": "Däi Kreis",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "1f9d994d"
+  },
+  "area_ph_region": {
+    "value": "Deng Makroregioun",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "b9906b22"
   },
   "area_map_label": {
     "value": "Kaart vun de Gebidder an hirem Radio-Preset",
