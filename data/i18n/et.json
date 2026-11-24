@@ -3,7 +3,7 @@
     "language": "et",
     "name": "Eesti",
     "managed_by": "community",
-    "updated": "2026-11-21"
+    "updated": "2026-11-24"
   },
   "site_tagline": {
     "value": "Võrguväline sõnumside kogu Euroopas",
@@ -2597,6 +2597,24 @@
     "_seeded": "2026-11-21",
     "_source": "0cae1c90"
   },
+  "community.de-portamesh.desc": {
+    "value": "MeshCore'i grupp Trieri piirkonna, Eifeli ja Moseli oru jaoks, sõlmede kaardi ja Signali grupiga.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "d0c1f7a5"
+  },
+  "community.de-meshcore-franken.desc": {
+    "value": "MeshCore'i kogukond Frangimaa jaoks Põhja-Baierimaal, alustusjuhendi, raadioseadete, kanali #franken ja Telegrami grupiga.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "800fe668"
+  },
+  "community.de-mesh-steinhuder-meer.desc": {
+    "value": "Noor MeshCore'i ja Meshtasticu grupp umbes 25 km raadiuses Steinhuder Meeri ümber Hannoverist läänes, kanali #mesh-stm ja piirkonnaga de-ni-stm.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "f834cd04"
+  },
   "community.ie-mayo-mesh.desc": {
     "value": "Mayo krahvkonna mesh-raadio kasutajate rühm.",
     "_ai": true,
@@ -3648,10 +3666,16 @@
     "_source": "a6221a2f"
   },
   "regions_district": {
-    "value": "Sinu ringkonna või saare kood",
+    "value": "Sinu maakond või saar",
     "_ai": true,
-    "_seeded": "2026-11-04",
-    "_source": "f46ccde8"
+    "_seeded": "2026-11-24",
+    "_source": "7a3b12ca"
+  },
+  "regions_macro": {
+    "value": "Sinu makropiirkond",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "b9906b22"
   },
   "regions_preset_pick": {
     "value": "Sinu raadio eelseadistus",
@@ -3702,10 +3726,10 @@
     "_source": "10268d8d"
   },
   "regions_table_region": {
-    "value": "Piirkond",
+    "value": "Makropiirkond",
     "_ai": true,
-    "_seeded": "2026-11-04",
-    "_source": "d3a008ef"
+    "_seeded": "2026-11-24",
+    "_source": "52dfd083"
   },
   "regions_table_inside": {
     "value": "Selle sees olevad ringkonnad ja saared",
@@ -3743,6 +3767,12 @@
     "_seeded": "2026-11-04",
     "_source": "73fd15ae"
   },
+  "regions_cmd_hint_district": {
+    "value": "Vali oma maakond ja makropiirkond, seejärel kopeeri. Makropiirkonna piir ei järgi maakondade piire. Sinu repiiter saab mõlemad otse sinu riigi alla.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "32648f0e"
+  },
   "area_ph_hint": {
     "value": "Kirjuta oma väärtused esiletõstetud väärtuste asemele, seejärel kopeeri.",
     "_ai": true,
@@ -3766,6 +3796,18 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "1d5f12a5"
+  },
+  "area_ph_district": {
+    "value": "Sinu maakond",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "1f9d994d"
+  },
+  "area_ph_region": {
+    "value": "Sinu makropiirkond",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "b9906b22"
   },
   "area_map_label": {
     "value": "Kaart piirkondadest ja nende raadio eelseadistustest",

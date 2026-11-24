@@ -3,7 +3,7 @@
     "language": "el",
     "name": "Ελληνικά",
     "managed_by": "community",
-    "updated": "2026-11-21"
+    "updated": "2026-11-24"
   },
   "site_tagline": {
     "value": "Μηνύματα χωρίς δίκτυο σε όλη την Ευρώπη",
@@ -2597,6 +2597,24 @@
     "_seeded": "2026-11-21",
     "_source": "0cae1c90"
   },
+  "community.de-portamesh.desc": {
+    "value": "Ομάδα MeshCore για την περιοχή του Τρίερ, το Άιφελ και την κοιλάδα του Μοζέλα, με χάρτη κόμβων και ομάδα στο Signal.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "d0c1f7a5"
+  },
+  "community.de-meshcore-franken.desc": {
+    "value": "Κοινότητα MeshCore για τη Φραγκονία στη βόρεια Βαυαρία, με οδηγό για αρχάριους, τις ρυθμίσεις ασυρμάτου, το κανάλι #franken και ομάδα στο Telegram.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "800fe668"
+  },
+  "community.de-mesh-steinhuder-meer.desc": {
+    "value": "Νέα ομάδα MeshCore και Meshtastic για περίπου 25 km γύρω από τη λίμνη Steinhuder Meer, δυτικά του Αννόβερου, με το κανάλι #mesh-stm και την περιοχή de-ni-stm.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "f834cd04"
+  },
   "community.ie-mayo-mesh.desc": {
     "value": "Ομάδα χρηστών ραδιοδικτύου mesh για την κομητεία Mayo.",
     "_ai": true,
@@ -3648,10 +3666,16 @@
     "_source": "a6221a2f"
   },
   "regions_district": {
-    "value": "Ο κωδικός της περιφέρειας ή του νησιού σου",
+    "value": "Η περιφερειακή ενότητα ή το νησί σου",
     "_ai": true,
-    "_seeded": "2026-11-04",
-    "_source": "f46ccde8"
+    "_seeded": "2026-11-24",
+    "_source": "7a3b12ca"
+  },
+  "regions_macro": {
+    "value": "Η μακροπεριοχή σου",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "b9906b22"
   },
   "regions_preset_pick": {
     "value": "Η προρύθμιση του ραδιοφώνου σου",
@@ -3702,10 +3726,10 @@
     "_source": "10268d8d"
   },
   "regions_table_region": {
-    "value": "Περιοχή",
+    "value": "Μακροπεριοχή",
     "_ai": true,
-    "_seeded": "2026-11-04",
-    "_source": "d3a008ef"
+    "_seeded": "2026-11-24",
+    "_source": "52dfd083"
   },
   "regions_table_inside": {
     "value": "Περιφέρειες και νησιά μέσα σε αυτήν",
@@ -3743,6 +3767,12 @@
     "_seeded": "2026-11-04",
     "_source": "73fd15ae"
   },
+  "regions_cmd_hint_district": {
+    "value": "Διάλεξε την περιφερειακή ενότητα και τη μακροπεριοχή σου και μετά κάνε αντιγραφή. Τα όρια μιας μακροπεριοχής δεν ακολουθούν τις περιφερειακές ενότητες. Ο αναμεταδότης σου παίρνει και τις δύο, αμέσως κάτω από τη χώρα σου.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "32648f0e"
+  },
   "area_ph_hint": {
     "value": "Γράψε τις δικές σου τιμές πάνω στις επισημασμένες, και μετά αντίγραψε.",
     "_ai": true,
@@ -3766,6 +3796,18 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "1d5f12a5"
+  },
+  "area_ph_district": {
+    "value": "Η περιφερειακή ενότητά σου",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "1f9d994d"
+  },
+  "area_ph_region": {
+    "value": "Η μακροπεριοχή σου",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "b9906b22"
   },
   "area_map_label": {
     "value": "Χάρτης των ζωνών και της προεπιλογής ραδιοφώνου τους",

@@ -3,7 +3,7 @@
     "language": "ro",
     "name": "Română",
     "managed_by": "community",
-    "updated": "2026-11-21"
+    "updated": "2026-11-24"
   },
   "site_tagline": {
     "value": "Mesagerie off-grid în toată Europa",
@@ -2597,6 +2597,24 @@
     "_seeded": "2026-11-21",
     "_source": "0cae1c90"
   },
+  "community.de-portamesh.desc": {
+    "value": "Grup MeshCore pentru regiunea Trier, Eifel și valea Moselei, cu o hartă a nodurilor și un grup Signal.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "d0c1f7a5"
+  },
+  "community.de-meshcore-franken.desc": {
+    "value": "Comunitate MeshCore pentru Franconia, în nordul Bavariei, cu un ghid de început, setările radio, canalul #franken și un grup Telegram.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "800fe668"
+  },
+  "community.de-mesh-steinhuder-meer.desc": {
+    "value": "Grup tânăr MeshCore și Meshtastic pentru o zonă de aproximativ 25 km în jurul lacului Steinhuder Meer, la vest de Hanovra, cu canalul #mesh-stm și regiunea de-ni-stm.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "f834cd04"
+  },
   "community.ie-mayo-mesh.desc": {
     "value": "Grup de utilizatori de radio mesh pentru comitatul Mayo.",
     "_ai": true,
@@ -3648,10 +3666,16 @@
     "_source": "a6221a2f"
   },
   "regions_district": {
-    "value": "Codul districtului sau al insulei tale",
+    "value": "Districtul sau insula ta",
     "_ai": true,
-    "_seeded": "2026-11-04",
-    "_source": "f46ccde8"
+    "_seeded": "2026-11-24",
+    "_source": "7a3b12ca"
+  },
+  "regions_macro": {
+    "value": "Macroregiunea ta",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "b9906b22"
   },
   "regions_preset_pick": {
     "value": "Presetarea radioului tău",
@@ -3702,10 +3726,10 @@
     "_source": "10268d8d"
   },
   "regions_table_region": {
-    "value": "Regiune",
+    "value": "Macroregiune",
     "_ai": true,
-    "_seeded": "2026-11-04",
-    "_source": "d3a008ef"
+    "_seeded": "2026-11-24",
+    "_source": "52dfd083"
   },
   "regions_table_inside": {
     "value": "Districte și insule din ea",
@@ -3743,6 +3767,12 @@
     "_seeded": "2026-11-04",
     "_source": "73fd15ae"
   },
+  "regions_cmd_hint_district": {
+    "value": "Alege districtul și macroregiunea ta, apoi copiază. Granița unei macroregiuni nu urmează districtele. Repetorul tău le primește pe amândouă, direct sub țara ta.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "32648f0e"
+  },
   "area_ph_hint": {
     "value": "Scrie valorile tale peste cele evidențiate, apoi copiază.",
     "_ai": true,
@@ -3766,6 +3796,18 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "1d5f12a5"
+  },
+  "area_ph_district": {
+    "value": "Districtul tău",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "1f9d994d"
+  },
+  "area_ph_region": {
+    "value": "Macroregiunea ta",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "b9906b22"
   },
   "area_map_label": {
     "value": "Harta zonelor și a presetării lor radio",

@@ -3,7 +3,7 @@
     "language": "pl",
     "name": "Polski",
     "managed_by": "community",
-    "updated": "2026-11-21"
+    "updated": "2026-11-24"
   },
   "site_tagline": {
     "value": "Wiadomości poza siecią w całej Europie",
@@ -2597,6 +2597,24 @@
     "_seeded": "2026-11-21",
     "_source": "0cae1c90"
   },
+  "community.de-portamesh.desc": {
+    "value": "Grupa MeshCore dla regionu Trewiru, Eifel i doliny Mozeli, z mapą węzłów i grupą na Signal.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "d0c1f7a5"
+  },
+  "community.de-meshcore-franken.desc": {
+    "value": "Społeczność MeshCore dla Frankonii w północnej Bawarii, z poradnikiem na start, ustawieniami radia, kanałem #franken i grupą na Telegram.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "800fe668"
+  },
+  "community.de-mesh-steinhuder-meer.desc": {
+    "value": "Młoda grupa MeshCore i Meshtastic dla obszaru około 25 km wokół Steinhuder Meer na zachód od Hanoweru, z kanałem #mesh-stm i regionem de-ni-stm.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "f834cd04"
+  },
   "community.ie-mayo-mesh.desc": {
     "value": "Grupa użytkowników radia mesh w hrabstwie Mayo.",
     "_ai": true,
@@ -3648,10 +3666,16 @@
     "_source": "a6221a2f"
   },
   "regions_district": {
-    "value": "Kod twojego dystryktu lub wyspy",
+    "value": "Twój powiat lub wyspa",
     "_ai": true,
-    "_seeded": "2026-11-04",
-    "_source": "f46ccde8"
+    "_seeded": "2026-11-24",
+    "_source": "7a3b12ca"
+  },
+  "regions_macro": {
+    "value": "Twój makroregion",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "b9906b22"
   },
   "regions_preset_pick": {
     "value": "Twój preset radia",
@@ -3702,10 +3726,10 @@
     "_source": "10268d8d"
   },
   "regions_table_region": {
-    "value": "Region",
+    "value": "Makroregion",
     "_ai": true,
-    "_seeded": "2026-11-04",
-    "_source": "d3a008ef"
+    "_seeded": "2026-11-24",
+    "_source": "52dfd083"
   },
   "regions_table_inside": {
     "value": "Dystrykty i wyspy w regionie",
@@ -3743,6 +3767,12 @@
     "_seeded": "2026-11-04",
     "_source": "73fd15ae"
   },
+  "regions_cmd_hint_district": {
+    "value": "Wybierz swój powiat i makroregion, a potem skopiuj. Granica makroregionu nie pokrywa się z granicami powiatów. Twój przekaźnik dostaje oba, bezpośrednio pod twoim krajem.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "32648f0e"
+  },
   "area_ph_hint": {
     "value": "Wpisz własne wartości w miejsce podświetlonych, potem skopiuj.",
     "_ai": true,
@@ -3766,6 +3796,18 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "1d5f12a5"
+  },
+  "area_ph_district": {
+    "value": "Twój powiat",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "1f9d994d"
+  },
+  "area_ph_region": {
+    "value": "Twój makroregion",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "b9906b22"
   },
   "area_map_label": {
     "value": "Mapa obszarów i ich presetów radiowych",

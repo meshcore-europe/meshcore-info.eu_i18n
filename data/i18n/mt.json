@@ -3,7 +3,7 @@
     "language": "mt",
     "name": "Malti",
     "managed_by": "community",
-    "updated": "2026-11-21"
+    "updated": "2026-11-24"
   },
   "site_tagline": {
     "value": "Messaġġi off-grid madwar l-Ewropa",
@@ -2597,6 +2597,24 @@
     "_seeded": "2026-11-21",
     "_source": "0cae1c90"
   },
+  "community.de-portamesh.desc": {
+    "value": "Grupp MeshCore għar-reġjun ta' Trier, l-Eifel u l-wied tal-Moselle, b'mappa tan-nodes u grupp fuq Signal.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "d0c1f7a5"
+  },
+  "community.de-meshcore-franken.desc": {
+    "value": "Komunità MeshCore għall-Franconia fit-tramuntana tal-Bavarja, b'gwida għall-bidu, is-settings tar-radju, il-kanal #franken u grupp fuq Telegram.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "800fe668"
+  },
+  "community.de-mesh-steinhuder-meer.desc": {
+    "value": "Grupp ġdid ta' MeshCore u Meshtastic għal madwar 25 km mal-Steinhuder Meer, fil-punent ta' Hanover, bil-kanal #mesh-stm u r-reġjun de-ni-stm.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "f834cd04"
+  },
   "community.ie-mayo-mesh.desc": {
     "value": "Grupp ta' utenti tar-radju mesh għal County Mayo.",
     "_ai": true,
@@ -3648,10 +3666,16 @@
     "_source": "a6221a2f"
   },
   "regions_district": {
-    "value": "Il-kodiċi tad-distrett jew tal-gżira tiegħek",
+    "value": "Id-distrett jew il-gżira tiegħek",
     "_ai": true,
-    "_seeded": "2026-11-04",
-    "_source": "f46ccde8"
+    "_seeded": "2026-11-24",
+    "_source": "7a3b12ca"
+  },
+  "regions_macro": {
+    "value": "Il-makroreġjun tiegħek",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "b9906b22"
   },
   "regions_preset_pick": {
     "value": "Il-preset tar-radju tiegħek",
@@ -3702,10 +3726,10 @@
     "_source": "10268d8d"
   },
   "regions_table_region": {
-    "value": "Reġjun",
+    "value": "Makroreġjun",
     "_ai": true,
-    "_seeded": "2026-11-04",
-    "_source": "d3a008ef"
+    "_seeded": "2026-11-24",
+    "_source": "52dfd083"
   },
   "regions_table_inside": {
     "value": "Distretti u gżejjer ġo fih",
@@ -3743,6 +3767,12 @@
     "_seeded": "2026-11-04",
     "_source": "73fd15ae"
   },
+  "regions_cmd_hint_district": {
+    "value": "Agħżel id-distrett u l-makroreġjun tiegħek, imbagħad ikkopja. Il-fruntiera ta' makroreġjun ma ssegwix id-distretti. Ir-repeater tiegħek jieħu t-tnejn, direttament taħt il-pajjiż tiegħek.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "32648f0e"
+  },
   "area_ph_hint": {
     "value": "Ikteb il-valuri tiegħek fuq dawk enfasizzati, imbagħad ikkopja.",
     "_ai": true,
@@ -3766,6 +3796,18 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "1d5f12a5"
+  },
+  "area_ph_district": {
+    "value": "Id-distrett tiegħek",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "1f9d994d"
+  },
+  "area_ph_region": {
+    "value": "Il-makroreġjun tiegħek",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "b9906b22"
   },
   "area_map_label": {
     "value": "Mappa taż-żoni u l-preset tar-radju tagħhom",

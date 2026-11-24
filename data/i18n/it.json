@@ -3,7 +3,7 @@
     "language": "it",
     "name": "Italiano",
     "managed_by": "community",
-    "updated": "2026-11-21"
+    "updated": "2026-11-24"
   },
   "site_tagline": {
     "value": "Messaggi senza rete in tutta Europa",
@@ -2597,6 +2597,24 @@
     "_seeded": "2026-11-21",
     "_source": "0cae1c90"
   },
+  "community.de-portamesh.desc": {
+    "value": "Gruppo MeshCore per la regione di Treviri, l'Eifel e la valle della Mosella, con una mappa dei nodi e un gruppo Signal.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "d0c1f7a5"
+  },
+  "community.de-meshcore-franken.desc": {
+    "value": "Community MeshCore per la Franconia, nel nord della Baviera, con una guida per iniziare, le impostazioni radio, il canale #franken e un gruppo Telegram.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "800fe668"
+  },
+  "community.de-mesh-steinhuder-meer.desc": {
+    "value": "Giovane gruppo MeshCore e Meshtastic per circa 25 km intorno allo Steinhuder Meer, a ovest di Hannover, con il canale #mesh-stm e la regione de-ni-stm.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "f834cd04"
+  },
   "community.ie-mayo-mesh.desc": {
     "value": "Gruppo di utenti di radio mesh per la contea di Mayo.",
     "_ai": true,
@@ -3643,10 +3661,16 @@
     "_source": "a6221a2f"
   },
   "regions_district": {
-    "value": "Il codice del tuo distretto o della tua isola",
+    "value": "Il tuo distretto o la tua isola",
     "_ai": true,
-    "_seeded": "2026-11-04",
-    "_source": "f46ccde8"
+    "_seeded": "2026-11-24",
+    "_source": "7a3b12ca"
+  },
+  "regions_macro": {
+    "value": "La tua macroregione",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "b9906b22"
   },
   "regions_preset_pick": {
     "value": "Il preset della tua radio",
@@ -3697,10 +3721,10 @@
     "_source": "10268d8d"
   },
   "regions_table_region": {
-    "value": "Regione",
+    "value": "Macroregione",
     "_ai": true,
-    "_seeded": "2026-11-04",
-    "_source": "d3a008ef"
+    "_seeded": "2026-11-24",
+    "_source": "52dfd083"
   },
   "regions_table_inside": {
     "value": "Distretti e isole al suo interno",
@@ -3738,6 +3762,12 @@
     "_seeded": "2026-11-04",
     "_source": "73fd15ae"
   },
+  "regions_cmd_hint_district": {
+    "value": "Scegli il tuo distretto e la tua macroregione, poi copia. Il confine di una macroregione non segue i distretti. Il tuo ripetitore riceve entrambi, direttamente sotto il tuo paese.",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "32648f0e"
+  },
   "area_ph_hint": {
     "value": "Scrivi i tuoi valori sopra quelli evidenziati, poi copia.",
     "_ai": true,
@@ -3761,6 +3791,18 @@
     "_ai": true,
     "_seeded": "2026-11-04",
     "_source": "1d5f12a5"
+  },
+  "area_ph_district": {
+    "value": "Il tuo distretto",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "1f9d994d"
+  },
+  "area_ph_region": {
+    "value": "La tua macroregione",
+    "_ai": true,
+    "_seeded": "2026-11-24",
+    "_source": "b9906b22"
   },
   "area_map_label": {
     "value": "Mappa delle aree e del loro preset radio",
