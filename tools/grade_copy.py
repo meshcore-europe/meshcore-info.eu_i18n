@@ -245,13 +245,22 @@ def mid_sentence(text: str, start: int) -> bool:
     return bool(before) and before[-1] not in ".!?:\n#|"
 
 
+def in_code(text: str, start: int, end: int) -> bool:
+    """True when the match is one part of a hyphenated code such as the
+    region de-ni-stm, which is not a word the reader is addressed with."""
+    joined_before = start >= 2 and text[start - 1] == "-" and text[start - 2].isalnum()
+    joined_after = end + 1 < len(text) and text[end] == "-" and text[end + 1].isalnum()
+    return joined_before or joined_after
+
+
 def address_hits(text: str, lang: str) -> list[str]:
     hits = []
     for pattern in R.ADDRESS.get(lang, ("", []))[1]:
         if pattern.startswith("MID:"):
-            hits += [m.group(0) for m in re.finditer(pattern[4:], text) if mid_sentence(text, m.start())]
+            found = [m for m in re.finditer(pattern[4:], text) if mid_sentence(text, m.start())]
         else:
-            hits += [m.group(0) for m in re.finditer(pattern, text, re.I)]
+            found = list(re.finditer(pattern, text, re.I))
+        hits += [m.group(0) for m in found if not in_code(text, m.start(), m.end())]
     return hits
 
 
