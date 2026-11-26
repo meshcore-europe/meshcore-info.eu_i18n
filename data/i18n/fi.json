@@ -3,7 +3,7 @@
     "language": "fi",
     "name": "Suomi",
     "managed_by": "community",
-    "updated": "2026-11-24"
+    "updated": "2026-11-26"
   },
   "site_tagline": {
     "value": "Viestintää ilman verkkoa kautta Euroopan",
@@ -2747,6 +2747,30 @@
     "_seeded": "2026-10-26",
     "_source": "ade9ad40"
   },
+  "map.cz-analyzer-backup.desc": {
+    "value": "Tšekin verkon toinen CoreScope-instanssi, jossa on suunnilleen yhtä monta tarkkailijaa kuin pääanalysaattorissa. Käytä sitä, kun pääanalysaattori ei toimi.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "f789aae5"
+  },
+  "map.cz-rfa-corescope.desc": {
+    "value": "Pieni CoreScope-instanssi, jossa on muutama tarkkailija yhdessä osassa Tšekkiä. Tšekkiläinen yhteisö listaa sen varalla olevaksi analysaattoriksi.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "246c8232"
+  },
+  "map.cz-live-map.desc": {
+    "value": "Tšekin verkon reaaliaikainen kartta piirtää jokaisen paketin reitin sen saapuessa. Siinä on myös solmujen aktiivisuus, tilastot ja näköyhteys.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c24a0dc1"
+  },
+  "map.cz-coverage.desc": {
+    "value": "Tšekin toistimien kuuluvuuskartta. Voit myös lisätä oman pisteen ja selvittää, minne uusi toistin siinä kuuluisi.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c565e5f4"
+  },
   "map.fi-corescope.desc": {
     "value": "Suomalainen CoreScope-analysaattori, joka näyttää kansallisen MeshCore-verkon kartalla reaaliaikaisten pakettien kanssa.",
     "_ai": true,
@@ -2848,6 +2872,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "cb2153f9"
+  },
+  "map.hu-empiremesh.desc": {
+    "value": "CoreScope-instanssi Unkarille ja Slovakialle. Siinä on reaaliaikaiset paketit, solmukartta ja tarkkailijoita kummassakin maassa.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "d7b2130e"
   },
   "map.kiekr-map.desc": {
     "value": "Mitkä radioalueet kantavat minne, laskettuna naapureista, joita KiekR-käyttäjät havaitsevat.",
@@ -3238,6 +3268,12 @@
     "_ai": true,
     "_seeded": "2026-11-21",
     "_source": "4901d59c"
+  },
+  "project.meshcore-ninja.desc": {
+    "value": "MeshCore-ekosysteemin luettelo: alueelliset verkot radioasetuksineen, laitteet, laiteohjelmistoversiot ja ohjelmistot. Siinä on myös 3D-tulostettavia koteloita ja luettelo toistimien komennoista.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "7b521ff1"
   },
   "guides_group_start": {
     "value": "Ensimmäinen solmusi",

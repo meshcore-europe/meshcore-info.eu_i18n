@@ -3,7 +3,7 @@
     "language": "lt",
     "name": "Lietuvių",
     "managed_by": "community",
-    "updated": "2026-11-24"
+    "updated": "2026-11-26"
   },
   "site_tagline": {
     "value": "Žinutės be tinklo visoje Europoje",
@@ -2747,6 +2747,30 @@
     "_seeded": "2026-11-02",
     "_source": "ade9ad40"
   },
+  "map.cz-analyzer-backup.desc": {
+    "value": "Antroji CoreScope instancija Čekijos tinklui, su maždaug tiek pat stebėtojų kaip pagrindinis analizatorius. Naudok ją, kai pagrindinis neveikia.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "f789aae5"
+  },
+  "map.cz-rfa-corescope.desc": {
+    "value": "Maža CoreScope instancija su keliais stebėtojais vienoje Čekijos dalyje. Čekijos bendruomenė ją nurodo kaip atsarginį analizatorių.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "246c8232"
+  },
+  "map.cz-live-map.desc": {
+    "value": "Gyvas Čekijos tinklo žemėlapis, kuris braižo kiekvieno paketo maršrutą jam atkeliavus. Jame matyti mazgų aktyvumas, statistika ir tiesioginis matomumas.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c24a0dc1"
+  },
+  "map.cz-coverage.desc": {
+    "value": "Čekijos retransliatorių aprėpties žemėlapis. Gali pažymėti ir savo tašką ir apskaičiuoti, kur ten pastatytas naujas retransliatorius pasiektų.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c565e5f4"
+  },
   "map.fi-corescope.desc": {
     "value": "Suomijos CoreScope analizatorius rodo nacionalinį MeshCore tinklą žemėlapyje su tiesioginiais paketais.",
     "_ai": true,
@@ -2848,6 +2872,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "cb2153f9"
+  },
+  "map.hu-empiremesh.desc": {
+    "value": "CoreScope instancija Vengrijai ir Slovakijai, su gyvais paketais, mazgų žemėlapiu ir stebėtojais abiejose šalyse.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "d7b2130e"
   },
   "map.kiekr-map.desc": {
     "value": "Kur pasiekia kokie radijo regionai, apskaičiuota pagal kaimynus, kuriuos stebi KiekR naudotojai.",
@@ -3238,6 +3268,12 @@
     "_ai": true,
     "_seeded": "2026-11-21",
     "_source": "4901d59c"
+  },
+  "project.meshcore-ninja.desc": {
+    "value": "MeshCore ekosistemos katalogas: regioniniai tinklai su jų radijo nustatymais, įrenginiai, programinės įrangos versijos ir programos. Jame taip pat yra 3D spausdinami korpusai ir retransliatoriaus komandų sąrašas.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "7b521ff1"
   },
   "guides_group_start": {
     "value": "Tavo pirmasis mazgas",

@@ -3,7 +3,7 @@
     "language": "pt",
     "name": "Português",
     "managed_by": "community",
-    "updated": "2026-11-24"
+    "updated": "2026-11-26"
   },
   "site_tagline": {
     "value": "Mensagens sem rede por toda a Europa",
@@ -2747,6 +2747,30 @@
     "_seeded": "2026-10-26",
     "_source": "ade9ad40"
   },
+  "map.cz-analyzer-backup.desc": {
+    "value": "Segunda instância do CoreScope para a rede checa, com quase tantos observadores como o analisador principal. Usa-a quando o principal estiver em baixo.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "f789aae5"
+  },
+  "map.cz-rfa-corescope.desc": {
+    "value": "Pequena instância do CoreScope com alguns observadores numa parte da República Checa. A comunidade checa indica-a como analisador de reserva.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "246c8232"
+  },
+  "map.cz-live-map.desc": {
+    "value": "Mapa em tempo real da rede checa que desenha o percurso de cada pacote à chegada, com atividade dos nós, estatísticas e linha de vista.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c24a0dc1"
+  },
+  "map.cz-coverage.desc": {
+    "value": "Mapa de cobertura dos repetidores checos. Também podes colocar um ponto teu e calcular o que um novo repetidor aí alcançaria.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c565e5f4"
+  },
   "map.fi-corescope.desc": {
     "value": "Analisador CoreScope finlandês que mostra a rede MeshCore nacional num mapa com pacotes em direto.",
     "_ai": true,
@@ -2848,6 +2872,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "cb2153f9"
+  },
+  "map.hu-empiremesh.desc": {
+    "value": "Instância do CoreScope para a Hungria e a Eslováquia, com pacotes em tempo real, um mapa de nós e observadores nos dois países.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "d7b2130e"
   },
   "map.kiekr-map.desc": {
     "value": "Que regiões de rádio chegam a que sítios, calculado a partir dos vizinhos que os utilizadores do KiekR observam.",
@@ -3238,6 +3268,12 @@
     "_ai": true,
     "_seeded": "2026-11-21",
     "_source": "4901d59c"
+  },
+  "project.meshcore-ninja.desc": {
+    "value": "Um catálogo do ecossistema MeshCore: redes regionais com as suas definições de rádio, dispositivos, versões de firmware e software. Tem também caixas para impressão 3D e uma lista de comandos de repetidor.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "7b521ff1"
   },
   "guides_group_start": {
     "value": "O teu primeiro nó",

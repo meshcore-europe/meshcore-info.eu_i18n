@@ -3,7 +3,7 @@
     "language": "fr",
     "name": "Français",
     "managed_by": "community",
-    "updated": "2026-11-24"
+    "updated": "2026-11-26"
   },
   "site_tagline": {
     "value": "Messagerie hors réseau à travers l'Europe",
@@ -2747,6 +2747,30 @@
     "_seeded": "2026-10-26",
     "_source": "ade9ad40"
   },
+  "map.cz-analyzer-backup.desc": {
+    "value": "Deuxième instance CoreScope pour le réseau tchèque, avec à peu près autant d'observateurs que l'analyseur principal. Utilise-la quand le principal est hors service.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "f789aae5"
+  },
+  "map.cz-rfa-corescope.desc": {
+    "value": "Petite instance CoreScope avec quelques observateurs dans une partie de la Tchéquie. La communauté tchèque la liste comme analyseur de secours.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "246c8232"
+  },
+  "map.cz-live-map.desc": {
+    "value": "Carte en direct du réseau tchèque qui trace le chemin de chaque paquet à son arrivée, avec l'activité des nœuds, des statistiques et la ligne de vue.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c24a0dc1"
+  },
+  "map.cz-coverage.desc": {
+    "value": "Carte de couverture des répéteurs tchèques. Tu peux aussi placer ton propre point et calculer ce qu'un nouveau répéteur y couvrirait.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c565e5f4"
+  },
   "map.fi-corescope.desc": {
     "value": "Analyseur CoreScope finlandais montrant le réseau MeshCore national sur une carte avec les paquets en direct.",
     "_ai": true,
@@ -2848,6 +2872,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "cb2153f9"
+  },
+  "map.hu-empiremesh.desc": {
+    "value": "Instance CoreScope pour la Hongrie et la Slovaquie, avec les paquets en direct, une carte des nœuds et des observateurs dans les deux pays.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "d7b2130e"
   },
   "map.kiekr-map.desc": {
     "value": "Quelles régions radio portent où, calculé à partir des voisins que les utilisateurs de KiekR observent.",
@@ -3238,6 +3268,12 @@
     "_ai": true,
     "_seeded": "2026-11-21",
     "_source": "4901d59c"
+  },
+  "project.meshcore-ninja.desc": {
+    "value": "Un catalogue de l'écosystème MeshCore : réseaux régionaux avec leurs réglages radio, appareils, versions de micrologiciel et logiciels. Il propose aussi des boîtiers imprimables en 3D et une liste des commandes de répéteur.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "7b521ff1"
   },
   "guides_group_start": {
     "value": "Ton premier nœud",

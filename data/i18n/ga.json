@@ -3,7 +3,7 @@
     "language": "ga",
     "name": "Gaeilge",
     "managed_by": "community",
-    "updated": "2026-11-24"
+    "updated": "2026-11-26"
   },
   "site_tagline": {
     "value": "Teachtaireachtaí lasmuigh den eangach ar fud na hEorpa",
@@ -2747,6 +2747,30 @@
     "_seeded": "2026-11-02",
     "_source": "ade9ad40"
   },
+  "map.cz-analyzer-backup.desc": {
+    "value": "An dara cás CoreScope don líonra Seiceach, le thart ar an oiread breathnóirí agus atá ag an bpríomh-anailíseoir. Úsáid é nuair atá an príomhcheann as feidhm.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "f789aae5"
+  },
+  "map.cz-rfa-corescope.desc": {
+    "value": "Cás beag CoreScope le roinnt breathnóirí in aon chuid amháin de Phoblacht na Seice. Liostaíonn pobal na Seice é mar anailíseoir cúltaca.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "246c8232"
+  },
+  "map.cz-live-map.desc": {
+    "value": "Léarscáil bheo den líonra Seiceach a tharraingíonn bealach gach paicéid de réir mar a thagann sé isteach. Taispeánann sí gníomhaíocht nód, staitisticí agus líne radhairc freisin.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c24a0dc1"
+  },
+  "map.cz-coverage.desc": {
+    "value": "Léarscáil chlúdaigh d'athsheoltóirí na Seice. Is féidir leat pointe de do chuid féin a chur síos freisin agus a oibriú amach cén áit a sroichfeadh athsheoltóir nua ansin.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c565e5f4"
+  },
   "map.fi-corescope.desc": {
     "value": "Anailíseoir CoreScope Fionlannach a thaispeánann an líonra náisiúnta MeshCore ar léarscáil le paicéid bheo.",
     "_ai": true,
@@ -2848,6 +2872,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "cb2153f9"
+  },
+  "map.hu-empiremesh.desc": {
+    "value": "Cás CoreScope don Ungáir agus don tSlóvaic, le paicéid bheo, léarscáil nód agus breathnóirí sa dá thír.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "d7b2130e"
   },
   "map.kiekr-map.desc": {
     "value": "Na réigiúin raidió a shroicheann áiteanna áirithe, arna ríomh ó na comharsana a bhreathnaíonn úsáideoirí KiekR.",
@@ -3238,6 +3268,12 @@
     "_ai": true,
     "_seeded": "2026-11-21",
     "_source": "4901d59c"
+  },
+  "project.meshcore-ninja.desc": {
+    "value": "Catalóg d'éiceachóras MeshCore: líonraí réigiúnacha lena socruithe raidió, gléasanna, leaganacha dochtearraí agus bogearraí. Tá cásanna inphriontáilte 3D ann freisin agus liosta d'orduithe athsheoltóra.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "7b521ff1"
   },
   "guides_group_start": {
     "value": "Do chéad nód",

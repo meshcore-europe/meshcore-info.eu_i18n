@@ -3,7 +3,7 @@
     "language": "hu",
     "name": "Magyar",
     "managed_by": "community",
-    "updated": "2026-11-24"
+    "updated": "2026-11-26"
   },
   "site_tagline": {
     "value": "Hálózatfüggetlen üzenetküldés Európa-szerte",
@@ -2747,6 +2747,30 @@
     "_seeded": "2026-10-26",
     "_source": "ade9ad40"
   },
+  "map.cz-analyzer-backup.desc": {
+    "value": "Második CoreScope-példány a cseh hálózathoz, nagyjából annyi megfigyelővel, mint a fő elemző. Akkor használd, ha a fő elemző nem működik.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "f789aae5"
+  },
+  "map.cz-rfa-corescope.desc": {
+    "value": "Kis CoreScope-példány néhány megfigyelővel Csehország egyik részén. A cseh közösség tartalék elemzőként tartja nyilván.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "246c8232"
+  },
+  "map.cz-live-map.desc": {
+    "value": "A cseh hálózat élő térképe, amely minden beérkező csomag útját kirajzolja. Mutatja a csomópontok aktivitását, a statisztikákat és a rálátást is.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c24a0dc1"
+  },
+  "map.cz-coverage.desc": {
+    "value": "A cseh átjátszók lefedettségi térképe. Saját pontot is elhelyezhetsz, és kiszámíthatod, meddig érne el ott egy új átjátszó.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c565e5f4"
+  },
   "map.fi-corescope.desc": {
     "value": "Finn CoreScope-elemző, amely az országos MeshCore-hálózatot térképen mutatja élő csomagokkal.",
     "_ai": true,
@@ -2848,6 +2872,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "cb2153f9"
+  },
+  "map.hu-empiremesh.desc": {
+    "value": "CoreScope-példány Magyarországhoz és Szlovákiához, élő csomagokkal, csomóponttérképpel és megfigyelőkkel mindkét országban.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "d7b2130e"
   },
   "map.kiekr-map.desc": {
     "value": "Melyik rádiórégió hová ér el, a KiekR-felhasználók által megfigyelt szomszédokból kiszámolva.",
@@ -3238,6 +3268,12 @@
     "_ai": true,
     "_seeded": "2026-11-21",
     "_source": "4901d59c"
+  },
+  "project.meshcore-ninja.desc": {
+    "value": "A MeshCore ökoszisztéma katalógusa: regionális hálózatok a rádióbeállításaikkal, eszközök, firmware-buildek és szoftverek. 3D-nyomtatható házakat és az átjátszóparancsok listáját is tartalmazza.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "7b521ff1"
   },
   "guides_group_start": {
     "value": "Az első csomópontod",

@@ -3,7 +3,7 @@
     "language": "sk",
     "name": "Slovenčina",
     "managed_by": "community",
-    "updated": "2026-11-24"
+    "updated": "2026-11-26"
   },
   "site_tagline": {
     "value": "Správy mimo siete po celej Európe",
@@ -2747,6 +2747,30 @@
     "_seeded": "2026-11-02",
     "_source": "ade9ad40"
   },
+  "map.cz-analyzer-backup.desc": {
+    "value": "Druhá inštancia CoreScope pre českú sieť, s približne rovnakým počtom observerov ako hlavný analyzátor. Použi ju, keď hlavný nefunguje.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "f789aae5"
+  },
+  "map.cz-rfa-corescope.desc": {
+    "value": "Malá inštancia CoreScope s niekoľkými observermi v jednej časti Česka. Česká komunita ju uvádza ako záložný analyzátor.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "246c8232"
+  },
+  "map.cz-live-map.desc": {
+    "value": "Živá mapa českej siete, ktorá kreslí trasu každého paketu hneď, ako príde. Ukazuje aktivitu uzlov, štatistiky a priamu viditeľnosť.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c24a0dc1"
+  },
+  "map.cz-coverage.desc": {
+    "value": "Mapa pokrytia českých repeaterov. Môžeš aj umiestniť vlastný bod a zistiť, kam by tam nový repeater dosiahol.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c565e5f4"
+  },
   "map.fi-corescope.desc": {
     "value": "Fínsky analyzátor CoreScope zobrazuje celoštátnu sieť MeshCore na mape so živými paketmi.",
     "_ai": true,
@@ -2848,6 +2872,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "cb2153f9"
+  },
+  "map.hu-empiremesh.desc": {
+    "value": "Inštancia CoreScope pre Maďarsko a Slovensko so živými paketmi, mapou uzlov a observermi v oboch krajinách.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "d7b2130e"
   },
   "map.kiekr-map.desc": {
     "value": "Kam ktoré rádiové regióny siahajú, vypočítané zo susedov, ktorých pozorujú používatelia KiekR.",
@@ -3238,6 +3268,12 @@
     "_ai": true,
     "_seeded": "2026-11-21",
     "_source": "4901d59c"
+  },
+  "project.meshcore-ninja.desc": {
+    "value": "Katalóg ekosystému MeshCore: regionálne siete s ich rádiovými nastaveniami, zariadenia, zostavy firmvéru a softvér. Nájdeš v ňom aj kryty na 3D tlač a zoznam príkazov pre repeater.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "7b521ff1"
   },
   "guides_group_start": {
     "value": "Tvoj prvý uzol",

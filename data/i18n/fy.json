@@ -3,7 +3,7 @@
     "language": "fy",
     "name": "Frysk",
     "managed_by": "community",
-    "updated": "2026-11-24"
+    "updated": "2026-11-26"
   },
   "site_tagline": {
     "value": "Berjochten sûnder netwurk, troch hiel Europa",
@@ -2747,6 +2747,30 @@
     "_seeded": "2026-10-31",
     "_source": "ade9ad40"
   },
+  "map.cz-analyzer-backup.desc": {
+    "value": "Twadde CoreScope-ynstânsje foar it Tsjechyske netwurk, mei sawat likefolle observers as de haadanalyzer. Brûk him as de haadanalyzer der út leit.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "f789aae5"
+  },
+  "map.cz-rfa-corescope.desc": {
+    "value": "Lytse CoreScope-ynstânsje mei in pear observers yn ien diel fan Tsjechje. De Tsjechyske mienskip neamt him as reserve-analyzer.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "246c8232"
+  },
+  "map.cz-live-map.desc": {
+    "value": "Live kaart fan it Tsjechyske netwurk. Dy tekenet de rûte fan elk pakket sadree't it binnenkomt, mei node-aktiviteit, statistiken en sichtline.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c24a0dc1"
+  },
+  "map.cz-coverage.desc": {
+    "value": "Dekkingskaart fan de Tsjechyske repeaters. Do kinst ek sels in punt pleatse en útrekkenje wat in nije repeater dêr berikke soe.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c565e5f4"
+  },
   "map.fi-corescope.desc": {
     "value": "Finske CoreScope-analyser dy't it lanlike MeshCore-netwurk op in kaart sjen lit, mei live pakketten.",
     "_ai": true,
@@ -2848,6 +2872,12 @@
     "_ai": true,
     "_seeded": "2026-10-31",
     "_source": "cb2153f9"
+  },
+  "map.hu-empiremesh.desc": {
+    "value": "CoreScope-ynstânsje foar Hongarije en Slowakije, mei live pakketten, in nodekaart en observers yn beide lannen.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "d7b2130e"
   },
   "map.kiekr-map.desc": {
     "value": "Hokker radioregio's wêr komme, berekkene út de buorlju dy't KiekR-brûkers waarnimme.",
@@ -3238,6 +3268,12 @@
     "_ai": true,
     "_seeded": "2026-11-21",
     "_source": "4901d59c"
+  },
+  "project.meshcore-ninja.desc": {
+    "value": "In katalogus fan it MeshCore-ekosysteem: regionale netwurken mei harren radio-ynstellings, apparaten, firmware-builds en software. Der steane ek 3D-printbere behuzingen en in list mei repeater-kommando's yn.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "7b521ff1"
   },
   "guides_group_start": {
     "value": "Dyn earste node",

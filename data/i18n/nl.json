@@ -3,7 +3,7 @@
     "language": "nl",
     "name": "Nederlands",
     "managed_by": "community",
-    "updated": "2026-11-24"
+    "updated": "2026-11-26"
   },
   "site_tagline": {
     "value": "Berichten zonder netwerk, door heel Europa",
@@ -2747,6 +2747,30 @@
     "_seeded": "2026-10-26",
     "_source": "ade9ad40"
   },
+  "map.cz-analyzer-backup.desc": {
+    "value": "Tweede CoreScope-instantie voor het Tsjechische netwerk, met ongeveer evenveel observers als de hoofdanalyzer. Gebruik deze als de hoofdanalyzer niet werkt.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "f789aae5"
+  },
+  "map.cz-rfa-corescope.desc": {
+    "value": "Kleine CoreScope-instantie met een paar observers in één deel van Tsjechië. De Tsjechische community noemt deze als reserve-analyzer.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "246c8232"
+  },
+  "map.cz-live-map.desc": {
+    "value": "Live kaart van het Tsjechische netwerk die de route van elk pakket tekent zodra het binnenkomt, met node-activiteit, statistieken en zichtlijn.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c24a0dc1"
+  },
+  "map.cz-coverage.desc": {
+    "value": "Dekkingskaart van de Tsjechische repeaters. Je kunt ook zelf een punt plaatsen en berekenen wat een nieuwe repeater daar zou bereiken.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c565e5f4"
+  },
   "map.fi-corescope.desc": {
     "value": "Finse CoreScope-analyser die het nationale MeshCore-netwerk op een kaart toont met live packets.",
     "_ai": true,
@@ -2848,6 +2872,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "cb2153f9"
+  },
+  "map.hu-empiremesh.desc": {
+    "value": "CoreScope-instantie voor Hongarije en Slowakije, met live pakketten, een nodekaart en observers in beide landen.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "d7b2130e"
   },
   "map.kiekr-map.desc": {
     "value": "Welke radioregio's waar reiken, berekend uit de buren die KiekR-gebruikers waarnemen.",
@@ -3238,6 +3268,12 @@
     "_ai": true,
     "_seeded": "2026-11-21",
     "_source": "4901d59c"
+  },
+  "project.meshcore-ninja.desc": {
+    "value": "Een catalogus van het MeshCore-ecosysteem: regionale netwerken met hun radio-instellingen, apparaten, firmwarebuilds en software. Je vindt er ook 3D-printbare behuizingen en een lijst met repeater-commando's.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "7b521ff1"
   },
   "guides_group_start": {
     "value": "Je eerste node",
