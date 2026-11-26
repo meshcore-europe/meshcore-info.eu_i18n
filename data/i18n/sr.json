@@ -3,7 +3,7 @@
     "language": "sr",
     "name": "Srpski",
     "managed_by": "community",
-    "updated": "2026-11-24"
+    "updated": "2026-11-26"
   },
   "site_tagline": {
     "value": "Poruke van mreže širom Evrope",
@@ -2747,6 +2747,30 @@
     "_seeded": "2026-11-02",
     "_source": "ade9ad40"
   },
+  "map.cz-analyzer-backup.desc": {
+    "value": "Druga CoreScope instanca za češku mrežu, sa otprilike isto toliko observera kao glavni analizator. Koristi je kad glavni ne radi.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "f789aae5"
+  },
+  "map.cz-rfa-corescope.desc": {
+    "value": "Mala CoreScope instanca sa nekoliko observera u jednom delu Češke. Češka zajednica je navodi kao rezervni analizator.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "246c8232"
+  },
+  "map.cz-live-map.desc": {
+    "value": "Mapa češke mreže uživo koja crta putanju svakog paketa dok stiže, sa aktivnošću čvorova, statistikom i linijom vidljivosti.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c24a0dc1"
+  },
+  "map.cz-coverage.desc": {
+    "value": "Mapa pokrivenosti čeških repetitora. Možeš i da postaviš sopstvenu tačku i izračunaš šta bi novi repetitor tamo pokrio.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c565e5f4"
+  },
   "map.fi-corescope.desc": {
     "value": "Finski CoreScope analizator koji prikazuje nacionalnu MeshCore mrežu na mapi sa paketima uživo.",
     "_ai": true,
@@ -2848,6 +2872,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "cb2153f9"
+  },
+  "map.hu-empiremesh.desc": {
+    "value": "CoreScope instanca za Mađarsku i Slovačku, sa paketima uživo, mapom čvorova i observerima u obe zemlje.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "d7b2130e"
   },
   "map.kiekr-map.desc": {
     "value": "Koji radio regioni dopiru dokle, izračunato iz suseda koje vide korisnici aplikacije KiekR.",
@@ -3238,6 +3268,12 @@
     "_ai": true,
     "_seeded": "2026-11-21",
     "_source": "4901d59c"
+  },
+  "project.meshcore-ninja.desc": {
+    "value": "Katalog MeshCore ekosistema: regionalne mreže sa njihovim radio podešavanjima, uređaji, firmver verzije i softver. Ima i kućišta za 3D štampu i listu komandi za repetitore.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "7b521ff1"
   },
   "guides_group_start": {
     "value": "Tvoj prvi čvor",

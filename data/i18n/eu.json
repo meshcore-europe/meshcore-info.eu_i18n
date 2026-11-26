@@ -3,7 +3,7 @@
     "language": "eu",
     "name": "Euskara",
     "managed_by": "community",
-    "updated": "2026-11-24"
+    "updated": "2026-11-26"
   },
   "site_tagline": {
     "value": "Mezularitza saretik kanpo Europa osoan",
@@ -2747,6 +2747,30 @@
     "_seeded": "2026-11-02",
     "_source": "ade9ad40"
   },
+  "map.cz-analyzer-backup.desc": {
+    "value": "Txekiar sarearen bigarren CoreScope instantzia, analizatzaile nagusiak adina behatzaile ditu gutxi gorabehera. Erabili nagusiak huts egiten duenean.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "f789aae5"
+  },
+  "map.cz-rfa-corescope.desc": {
+    "value": "CoreScope instantzia txikia, behatzaile gutxi batzuekin Txekiar Errepublikako eremu batean. Txekiar komunitateak ordezko analizatzaile gisa zerrendatzen du.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "246c8232"
+  },
+  "map.cz-live-map.desc": {
+    "value": "Txekiar sarearen zuzeneko mapa: pakete bakoitzaren ibilbidea marrazten du iristen den heinean, nodoen jarduerarekin, estatistikekin eta ikusmen-lerroarekin.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c24a0dc1"
+  },
+  "map.cz-coverage.desc": {
+    "value": "Txekiar errepikagailuen estaldura-mapa. Zuk zeure puntu bat jar dezakezu, eta han errepikagailu berri batek non arituko litzatekeen kalkulatu.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c565e5f4"
+  },
   "map.fi-corescope.desc": {
     "value": "Finlandiako CoreScope analizatzailea, MeshCore sare nazionala mapan erakusten duena zuzeneko paketeekin.",
     "_ai": true,
@@ -2848,6 +2872,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "cb2153f9"
+  },
+  "map.hu-empiremesh.desc": {
+    "value": "Hungariarako eta Eslovakiarako CoreScope instantzia, zuzeneko paketeekin, nodoen maparekin eta bi herrialdeetako behatzaileekin.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "d7b2130e"
   },
   "map.kiekr-map.desc": {
     "value": "Zein irrati-eskualde non heltzen den, KiekR erabiltzaileek behatzen dituzten bizilagunetatik kalkulatuta.",
@@ -3238,6 +3268,12 @@
     "_ai": true,
     "_seeded": "2026-11-21",
     "_source": "4901d59c"
+  },
+  "project.meshcore-ninja.desc": {
+    "value": "MeshCore ekosistemaren katalogoa: eskualdeko sareak beren irrati-ezarpenekin, gailuak, firmware bertsioak eta softwarea. 3D bidez inprimatzeko kaxak eta errepikagailu-komandoen zerrenda ere baditu.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "7b521ff1"
   },
   "guides_group_start": {
     "value": "Zure lehen nodoa",

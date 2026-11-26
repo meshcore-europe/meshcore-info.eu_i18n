@@ -3,7 +3,7 @@
     "language": "cy",
     "name": "Cymraeg",
     "managed_by": "community",
-    "updated": "2026-11-24"
+    "updated": "2026-11-26"
   },
   "site_tagline": {
     "value": "Negeseuon oddi ar y grid ledled Ewrop",
@@ -2747,6 +2747,30 @@
     "_seeded": "2026-11-02",
     "_source": "ade9ad40"
   },
+  "map.cz-analyzer-backup.desc": {
+    "value": "Ail enghraifft CoreScope ar gyfer rhwydwaith Tsiecia, gyda bron cymaint o arsylwyr â'r prif ddadansoddwr. Defnyddia hi pan fydd y prif un i lawr.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "f789aae5"
+  },
+  "map.cz-rfa-corescope.desc": {
+    "value": "Enghraifft fach o CoreScope gydag ychydig o arsylwyr mewn un rhan o Tsiecia. Mae cymuned Tsiecia yn ei rhestru fel dadansoddwr wrth gefn.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "246c8232"
+  },
+  "map.cz-live-map.desc": {
+    "value": "Map byw o rwydwaith Tsiecia sy'n lluniadu llwybr pob pecyn wrth iddo gyrraedd, gyda gweithgarwch nodau, ystadegau a llinell olwg.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c24a0dc1"
+  },
+  "map.cz-coverage.desc": {
+    "value": "Map darpariaeth ailadroddyddion Tsiecia. Gelli di hefyd osod pwynt dy hun a chyfrifo beth fyddai ailadroddydd newydd yno'n ei gyrraedd.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c565e5f4"
+  },
   "map.fi-corescope.desc": {
     "value": "Dadansoddwr CoreScope o'r Ffindir sy'n dangos y rhwydwaith MeshCore cenedlaethol ar fap gyda phecynnau byw.",
     "_ai": true,
@@ -2848,6 +2872,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "cb2153f9"
+  },
+  "map.hu-empiremesh.desc": {
+    "value": "Enghraifft CoreScope ar gyfer Hwngari a Slofacia, gyda phecynnau byw, map nodau ac arsylwyr yn y ddwy wlad.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "d7b2130e"
   },
   "map.kiekr-map.desc": {
     "value": "Pa ranbarthau radio sy'n cyrraedd ble, wedi'i gyfrifo o'r cymdogion y mae defnyddwyr KiekR yn eu gweld.",
@@ -3238,6 +3268,12 @@
     "_ai": true,
     "_seeded": "2026-11-21",
     "_source": "4901d59c"
+  },
+  "project.meshcore-ninja.desc": {
+    "value": "Catalog o ecosystem MeshCore: rhwydweithiau rhanbarthol gyda'u gosodiadau radio, dyfeisiau, adeiladau cadarnwedd a meddalwedd. Mae ganddo hefyd gasys i'w hargraffu'n 3D a rhestr o orchmynion ailadroddydd.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "7b521ff1"
   },
   "guides_group_start": {
     "value": "Dy nod cyntaf",

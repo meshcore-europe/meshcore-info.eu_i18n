@@ -3,7 +3,7 @@
     "language": "lv",
     "name": "Latviešu",
     "managed_by": "community",
-    "updated": "2026-11-24"
+    "updated": "2026-11-26"
   },
   "site_tagline": {
     "value": "Saziņa bez tīkla visā Eiropā",
@@ -2747,6 +2747,30 @@
     "_seeded": "2026-11-02",
     "_source": "ade9ad40"
   },
+  "map.cz-analyzer-backup.desc": {
+    "value": "Otrā CoreScope instance Čehijas tīklam, ar aptuveni tikpat daudz novērotājiem kā galvenajam analizatoram. Izmanto to, kad galvenais nedarbojas.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "f789aae5"
+  },
+  "map.cz-rfa-corescope.desc": {
+    "value": "Neliela CoreScope instance ar dažiem novērotājiem vienā Čehijas daļā. Čehijas kopiena to norāda kā rezerves analizatoru.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "246c8232"
+  },
+  "map.cz-live-map.desc": {
+    "value": "Čehijas tīkla tiešraides karte, kas zīmē katras paketes maršrutu, tiklīdz tā pienāk, ar mezglu aktivitāti, statistiku un tiešo redzamību.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c24a0dc1"
+  },
+  "map.cz-coverage.desc": {
+    "value": "Čehijas retranslatoru pārklājuma karte. Tu vari arī novietot savu punktu un aprēķināt, ko jauns retranslators tur sasniegtu.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c565e5f4"
+  },
   "map.fi-corescope.desc": {
     "value": "Somijas CoreScope analizators rāda valsts MeshCore tīklu kartē ar paketēm tiešraidē.",
     "_ai": true,
@@ -2848,6 +2872,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "cb2153f9"
+  },
+  "map.hu-empiremesh.desc": {
+    "value": "CoreScope instance Ungārijai un Slovākijai, ar tiešraides paketēm, mezglu karti un novērotājiem abās valstīs.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "d7b2130e"
   },
   "map.kiekr-map.desc": {
     "value": "Kurp sniedzas kuri radio reģioni, aprēķināts no kaimiņiem, ko novēro KiekR lietotāji.",
@@ -3238,6 +3268,12 @@
     "_ai": true,
     "_seeded": "2026-11-21",
     "_source": "4901d59c"
+  },
+  "project.meshcore-ninja.desc": {
+    "value": "MeshCore ekosistēmas katalogs: reģionālie tīkli ar to radio iestatījumiem, ierīces, programmaparatūras būvējumi un programmatūra. Tajā ir arī 3D drukājami korpusi un retranslatoru komandu saraksts.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "7b521ff1"
   },
   "guides_group_start": {
     "value": "Tavs pirmais mezgls",

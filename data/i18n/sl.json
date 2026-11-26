@@ -3,7 +3,7 @@
     "language": "sl",
     "name": "Slovenščina",
     "managed_by": "community",
-    "updated": "2026-11-24"
+    "updated": "2026-11-26"
   },
   "site_tagline": {
     "value": "Sporočila brez omrežja po vsej Evropi",
@@ -2747,6 +2747,30 @@
     "_seeded": "2026-11-02",
     "_source": "ade9ad40"
   },
+  "map.cz-analyzer-backup.desc": {
+    "value": "Druga instanca CoreScope za češko omrežje, s približno toliko opazovalci kot glavni analizator. Uporabi jo, ko glavni ne deluje.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "f789aae5"
+  },
+  "map.cz-rfa-corescope.desc": {
+    "value": "Majhna instanca CoreScope z nekaj opazovalci v enem delu Češke. Češka skupnost jo navaja kot rezervni analizator.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "246c8232"
+  },
+  "map.cz-live-map.desc": {
+    "value": "Živi zemljevid češkega omrežja, ki izriše pot vsakega paketa ob prihodu, z aktivnostjo vozlišč, statistiko in vidnostjo.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c24a0dc1"
+  },
+  "map.cz-coverage.desc": {
+    "value": "Zemljevid pokritosti čeških repetitorjev. Postaviš lahko tudi svojo točko in izračunaš, kam bi segel nov repetitor tam.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c565e5f4"
+  },
   "map.fi-corescope.desc": {
     "value": "Finski analizator CoreScope prikazuje nacionalno omrežje MeshCore na zemljevidu s paketi v živo.",
     "_ai": true,
@@ -2848,6 +2872,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "cb2153f9"
+  },
+  "map.hu-empiremesh.desc": {
+    "value": "Instanca CoreScope za Madžarsko in Slovaško, s pakete v živo, zemljevidom vozlišč in opazovalci v obeh državah.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "d7b2130e"
   },
   "map.kiekr-map.desc": {
     "value": "Katere radijske regije segajo kam, izračunano iz sosedov, ki jih opazijo uporabniki KiekR.",
@@ -3238,6 +3268,12 @@
     "_ai": true,
     "_seeded": "2026-11-21",
     "_source": "4901d59c"
+  },
+  "project.meshcore-ninja.desc": {
+    "value": "Katalog ekosistema MeshCore: regionalna omrežja z radijskimi nastavitvami, naprave, različice vdelane programske opreme in programska oprema. Vsebuje tudi ohišja za 3D-tisk in seznam ukazov za repetitorje.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "7b521ff1"
   },
   "guides_group_start": {
     "value": "Tvoje prvo vozlišče",

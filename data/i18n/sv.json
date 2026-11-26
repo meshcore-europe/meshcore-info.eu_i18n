@@ -3,7 +3,7 @@
     "language": "sv",
     "name": "Svenska",
     "managed_by": "community",
-    "updated": "2026-11-24"
+    "updated": "2026-11-26"
   },
   "site_tagline": {
     "value": "Meddelanden utan nät över hela Europa",
@@ -2747,6 +2747,30 @@
     "_seeded": "2026-10-26",
     "_source": "ade9ad40"
   },
+  "map.cz-analyzer-backup.desc": {
+    "value": "Andra CoreScope-instansen för det tjeckiska nätet, med ungefär lika många observers som huvudanalysatorn. Använd den när huvudanalysatorn ligger nere.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "f789aae5"
+  },
+  "map.cz-rfa-corescope.desc": {
+    "value": "Liten CoreScope-instans med några observers i en del av Tjeckien. Den tjeckiska gemenskapen listar den som reservanalysator.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "246c8232"
+  },
+  "map.cz-live-map.desc": {
+    "value": "Livekarta över det tjeckiska nätet som ritar varje pakets rutt när det kommer in, med nodaktivitet, statistik och siktlinje.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c24a0dc1"
+  },
+  "map.cz-coverage.desc": {
+    "value": "Täckningskarta över de tjeckiska repeatrarna. Du kan också placera en egen punkt och räkna ut vad en ny repeater där skulle nå.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c565e5f4"
+  },
   "map.fi-corescope.desc": {
     "value": "Finsk CoreScope-analysator som visar det nationella MeshCore-nätverket på en karta med paket i realtid.",
     "_ai": true,
@@ -2848,6 +2872,12 @@
     "_ai": true,
     "_seeded": "2026-10-26",
     "_source": "cb2153f9"
+  },
+  "map.hu-empiremesh.desc": {
+    "value": "CoreScope-instans för Ungern och Slovakien, med livepaket, en nodkarta och observers i båda länderna.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "d7b2130e"
   },
   "map.kiekr-map.desc": {
     "value": "Vilka radioregioner som når vart, beräknat från de grannar som KiekR-användare observerar.",
@@ -3238,6 +3268,12 @@
     "_ai": true,
     "_seeded": "2026-11-21",
     "_source": "4901d59c"
+  },
+  "project.meshcore-ninja.desc": {
+    "value": "En katalog över MeshCore-ekosystemet: regionala nät med sina radioinställningar, enheter, firmwarebyggen och mjukvara. Den har också 3D-utskrivbara höljen och en lista med repeater-kommandon.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "7b521ff1"
   },
   "guides_group_start": {
     "value": "Din första nod",

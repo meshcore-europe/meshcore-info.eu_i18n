@@ -3,7 +3,7 @@
     "language": "et",
     "name": "Eesti",
     "managed_by": "community",
-    "updated": "2026-11-24"
+    "updated": "2026-11-26"
   },
   "site_tagline": {
     "value": "Võrguväline sõnumside kogu Euroopas",
@@ -2747,6 +2747,30 @@
     "_seeded": "2026-11-02",
     "_source": "ade9ad40"
   },
+  "map.cz-analyzer-backup.desc": {
+    "value": "Teine CoreScope'i eksemplar Tšehhi võrgu jaoks, peaaegu sama paljude vaatlejatega kui põhianalüsaator. Kasuta seda, kui põhianalüsaator ei tööta.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "f789aae5"
+  },
+  "map.cz-rfa-corescope.desc": {
+    "value": "Väike CoreScope'i eksemplar mõne vaatlejaga ühes Tšehhi osas. Tšehhi kogukond nimetab seda varuanalüsaatoriks.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "246c8232"
+  },
+  "map.cz-live-map.desc": {
+    "value": "Tšehhi võrgu reaalajas kaart, mis joonistab iga saabuva paketi marsruudi, koos sõlmede aktiivsuse, statistika ja otsenähtavusega.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c24a0dc1"
+  },
+  "map.cz-coverage.desc": {
+    "value": "Tšehhi repiitrite levikaart. Saad ka ise punkti lisada ja välja arvutada, kuhu uus repiiter seal ulatuks.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "c565e5f4"
+  },
   "map.fi-corescope.desc": {
     "value": "Soome CoreScope'i analüsaator näitab riiklikku MeshCore'i võrku kaardil koos reaalajas pakettidega.",
     "_ai": true,
@@ -2848,6 +2872,12 @@
     "_ai": true,
     "_seeded": "2026-11-02",
     "_source": "cb2153f9"
+  },
+  "map.hu-empiremesh.desc": {
+    "value": "CoreScope'i eksemplar Ungari ja Slovakkia jaoks, reaalajas pakettide, sõlmede kaardi ja vaatlejatega mõlemas riigis.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "d7b2130e"
   },
   "map.kiekr-map.desc": {
     "value": "Millised raadiopiirkonnad kuhu ulatuvad, arvutatud naabrite põhjal, keda KiekR-i kasutajad näevad.",
@@ -3238,6 +3268,12 @@
     "_ai": true,
     "_seeded": "2026-11-21",
     "_source": "4901d59c"
+  },
+  "project.meshcore-ninja.desc": {
+    "value": "MeshCore'i ökosüsteemi kataloog: piirkondlikud võrgud koos raadioseadetega, seadmed, püsivara versioonid ja tarkvara. Seal on ka 3D-prinditavad korpused ja repiitri käskude loend.",
+    "_ai": true,
+    "_seeded": "2026-11-26",
+    "_source": "7b521ff1"
   },
   "guides_group_start": {
     "value": "Sinu esimene sõlm",
